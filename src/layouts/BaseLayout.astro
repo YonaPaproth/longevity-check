@@ -30,11 +30,13 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
       <a href="/" class="font-bold text-lg text-slate-900 no-underline hover:text-teal-700">
         Mikro<span class="text-teal-600">Score</span>
       </a>
-      <nav class="flex gap-6 text-sm">
-        <a href="/wirkstoffe" class="text-slate-600 hover:text-teal-700 no-underline">Wirkstoffe</a>
-        <a href="/produkte" class="text-slate-600 hover:text-teal-700 no-underline">Produkte</a>
+      <nav class="flex gap-6 text-sm items-center">
         <a href="/ernaehrungs-check" class="text-slate-600 hover:text-teal-700 no-underline">Ernährungs-Check</a>
-        <a href="/claims" class="text-slate-600 hover:text-teal-700 no-underline">Claims-Check</a>
+        <a href="/wirkstoffe" class="text-slate-600 hover:text-teal-700 no-underline">Wirkstoffe</a>
+        <a href="/produkte" class="inline-flex items-center gap-1.5 text-slate-600 hover:text-teal-700 no-underline">
+          Produkte
+          <span class="text-xs bg-amber-100 text-amber-700 rounded-full px-2 py-0.5 font-medium">im Aufbau</span>
+        </a>
         <a href="/methodik" class="text-slate-600 hover:text-teal-700 no-underline">Methodik</a>
       </nav>
     </div>
