@@ -1,0 +1,263 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Ernährungs-Check"
+  description="Welche Longevity-Supplements brauchst du wirklich? Gib ein was du regelmäßig isst und sieh welche Nährstoffe du bereits aus der Nahrung deckst."
+>
+  <div class="max-w-3xl mx-auto px-4 py-12">
+
+    <div class="mb-10">
+      <h1 class="text-3xl font-bold text-slate-900 mb-3">Ernährungs-Check</h1>
+      <p class="text-slate-600">
+        Wähle, was du regelmäßig isst. Wir zeigen dir, welche Longevity-Nährstoffe du
+        wahrscheinlich bereits abdeckst — und wo echte Lücken sind.
+      </p>
+    </div>
+
+    <!-- Food selector -->
+    <div class="space-y-6 mb-10">
+
+      <div>
+        <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3">Tierische Produkte</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="group-tierisch"></div>
+      </div>
+
+      <div>
+        <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3">Milchprodukte & Eier</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="group-milch"></div>
+      </div>
+
+      <div>
+        <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3">Pflanzlich</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="group-pflanzlich"></div>
+      </div>
+
+      <div>
+        <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3">Lifestyle</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="group-lifestyle"></div>
+      </div>
+
+    </div>
+
+    <!-- Results -->
+    <div id="results" class="hidden">
+      <div class="border-t border-slate-200 pt-8">
+        <h2 class="text-xl font-semibold text-slate-800 mb-6">Dein Ergebnis</h2>
+
+        <div class="space-y-3 mb-8">
+          <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-widest">Wahrscheinlich gut abgedeckt</h3>
+          <div id="result-gut" class="space-y-2"></div>
+          <p id="result-gut-empty" class="text-sm text-slate-400 italic hidden">— keine —</p>
+        </div>
+
+        <div class="space-y-3 mb-8">
+          <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-widest">Teilweise abgedeckt</h3>
+          <div id="result-teilweise" class="space-y-2"></div>
+          <p id="result-teilweise-empty" class="text-sm text-slate-400 italic hidden">— keine —</p>
+        </div>
+
+        <div class="space-y-3 mb-8">
+          <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-widest">Lücken — hier könnte ein Supplement sinnvoll sein</h3>
+          <div id="result-luecke" class="space-y-2"></div>
+          <p id="result-luecke-empty" class="text-sm text-slate-400 italic hidden">— keine —</p>
+        </div>
+
+        <p class="text-xs text-slate-400 mt-6">
+          Dieser Check ist eine grobe Orientierung basierend auf typischen Nährstoffgehalten.
+          Er ersetzt keine individuelle Ernährungsberatung oder Blutuntersuchung.
+        </p>
+      </div>
+    </div>
+
+    <div id="cta-start" class="text-center py-8 text-slate-400 text-sm">
+      Wähle mindestens ein Lebensmittel um dein Ergebnis zu sehen.
+    </div>
+
+  </div>
+</BaseLayout>
+
+<script>
+const FOODS = [
+  { id: 'fatty-fish',   label: 'Fetter Fisch (Lachs, Makrele, Hering)',   group: 'tierisch' },
+  { id: 'organ-meat',   label: 'Innereien (Leber, Herz)',                  group: 'tierisch' },
+  { id: 'meat',         label: 'Rotes Fleisch oder Geflügel',              group: 'tierisch' },
+  { id: 'bone-broth',   label: 'Knochenbrühe oder Gelatine',               group: 'tierisch' },
+  { id: 'eggs',         label: 'Eier (mehrmals pro Woche)',                group: 'milch' },
+  { id: 'dairy',        label: 'Milch, Käse, Joghurt',                    group: 'milch' },
+  { id: 'natto',        label: 'Natto, Kimchi oder Sauerkraut',           group: 'pflanzlich' },
+  { id: 'wheat-germ',   label: 'Weizenkeime',                             group: 'pflanzlich' },
+  { id: 'legumes',      label: 'Hülsenfrüchte (Bohnen, Linsen, Edamame)', group: 'pflanzlich' },
+  { id: 'leafy-greens', label: 'Grünes Blattgemüse (Spinat, Brokkoli)',   group: 'pflanzlich' },
+  { id: 'nuts-seeds',   label: 'Nüsse & Samen (täglich)',                 group: 'pflanzlich' },
+  { id: 'onions-fruit', label: 'Zwiebeln, Äpfel, Beeren (täglich)',       group: 'pflanzlich' },
+  { id: 'sunlight',     label: 'Tägliche Sonne (mind. 20 Min. Haut frei)', group: 'lifestyle' },
+];
+
+// coverage: 'gut' | 'teilweise' | 'kaum'
+const INGREDIENTS = [
+  {
+    id: 'omega-3', name: 'Omega-3 (EPA+DHA)', slug: 'omega-3',
+    coverage: { 'fatty-fish': 'gut' },
+    note: 'Fetter Fisch 2–3x/Woche deckt den Bedarf gut ab.',
+  },
+  {
+    id: 'vitamin-d3', name: 'Vitamin D3', slug: 'vitamin-d3-k2',
+    coverage: { 'sunlight': 'gut', 'fatty-fish': 'teilweise', 'eggs': 'kaum', 'dairy': 'kaum' },
+    note: 'In Deutschland von Oktober bis März reicht Sonnenlicht allein nicht aus.',
+  },
+  {
+    id: 'vitamin-k2', name: 'Vitamin K2', slug: 'vitamin-d3-k2',
+    coverage: { 'natto': 'gut', 'dairy': 'teilweise' },
+    note: 'Natto ist mit Abstand die reichste Nahrungsquelle für K2 (MK-7).',
+  },
+  {
+    id: 'magnesium', name: 'Magnesium', slug: 'magnesium',
+    coverage: { 'nuts-seeds': 'teilweise', 'leafy-greens': 'teilweise', 'legumes': 'teilweise' },
+    note: 'Aus Nahrung selten vollständig gedeckt — besonders bei Sport oder Stress.',
+  },
+  {
+    id: 'coq10', name: 'CoQ10', slug: 'coq10',
+    coverage: { 'organ-meat': 'gut', 'meat': 'teilweise', 'nuts-seeds': 'kaum' },
+    note: 'Wer regelmäßig Innereien isst, deckt CoQ10 gut aus der Nahrung.',
+  },
+  {
+    id: 'spermidine', name: 'Spermidin', slug: 'spermidine',
+    coverage: { 'wheat-germ': 'gut', 'natto': 'teilweise', 'legumes': 'kaum' },
+    note: '30 g Weizenkeime täglich liefern etwa 1 mg Spermidin — die übliche Supplementdosis.',
+  },
+  {
+    id: 'kollagen', name: 'Kollagen', slug: 'kollagen',
+    coverage: { 'bone-broth': 'gut', 'meat': 'kaum' },
+    note: 'Kollagen ist hauptsächlich in Bindegewebe, Haut und Knochen enthalten.',
+  },
+  {
+    id: 'quercetin', name: 'Quercetin', slug: 'quercetin',
+    coverage: { 'onions-fruit': 'teilweise' },
+    note: 'Zwiebeln und Äpfel liefern Quercetin aus der Nahrung — Supplements liefern vielfach höhere Dosen.',
+  },
+  {
+    id: 'resveratrol', name: 'Resveratrol', slug: 'resveratrol',
+    coverage: { 'onions-fruit': 'kaum' },
+    note: 'Lebensmittel enthalten nur Spuren von Resveratrol — Supplements sind die einzige Weg zu höheren Dosen.',
+  },
+  {
+    id: 'nmn', name: 'NMN', slug: 'nmn',
+    coverage: { 'legumes': 'kaum', 'leafy-greens': 'kaum' },
+    note: 'NMN kommt in Edamame und Brokkoli vor, aber in sehr geringen Mengen.',
+  },
+  {
+    id: 'nr', name: 'NR (Nicotinamid-Ribosid)', slug: 'nr',
+    coverage: { 'dairy': 'kaum', 'meat': 'kaum' },
+    note: 'NR kommt in Milch und Fleisch in Spuren vor — relevante Mengen nur durch Supplements.',
+  },
+  {
+    id: 'berberine', name: 'Berberin', slug: 'berberine',
+    coverage: {},
+    note: 'Berberin kommt nicht in üblichen Nahrungsmitteln vor — nur als Supplement.',
+  },
+];
+
+// ── Render food checkboxes ──────────────────────────────────────────────────
+
+const groups = { tierisch: 'group-tierisch', milch: 'group-milch', pflanzlich: 'group-pflanzlich', lifestyle: 'group-lifestyle' };
+
+for (const food of FOODS) {
+  const container = document.getElementById(groups[food.group]);
+  if (!container) continue;
+  const label = document.createElement('label');
+  label.className = 'flex items-center gap-3 bg-white border border-slate-200 rounded-lg px-4 py-3 cursor-pointer hover:border-teal-400 transition-colors has-[:checked]:border-teal-500 has-[:checked]:bg-teal-50';
+  label.innerHTML = `
+    <input type="checkbox" value="${food.id}" class="food-checkbox w-4 h-4 accent-teal-600 shrink-0" />
+    <span class="text-sm text-slate-700">${food.label}</span>
+  `;
+  container.appendChild(label);
+}
+
+// ── Compute and render results ──────────────────────────────────────────────
+
+function getLevel(coverageMap, selectedFoods) {
+  let best = null;
+  for (const foodId of selectedFoods) {
+    const c = coverageMap[foodId];
+    if (c === 'gut') return 'gut';
+    if (c === 'teilweise' && best !== 'gut') best = 'teilweise';
+    if (c === 'kaum' && best == null) best = 'kaum';
+  }
+  return best; // null = not covered at all
+}
+
+function renderIngredientRow(ing, level, extraNote) {
+  const div = document.createElement('div');
+  div.className = 'flex items-start justify-between gap-4 bg-white border border-slate-200 rounded-lg px-4 py-3';
+
+  const badge = level === 'gut'
+    ? '<span class="shrink-0 text-xs font-medium bg-emerald-100 text-emerald-700 rounded-full px-2.5 py-1">Gut abgedeckt</span>'
+    : level === 'teilweise'
+    ? '<span class="shrink-0 text-xs font-medium bg-yellow-100 text-yellow-700 rounded-full px-2.5 py-1">Teilweise</span>'
+    : level === 'kaum'
+    ? '<span class="shrink-0 text-xs font-medium bg-orange-100 text-orange-700 rounded-full px-2.5 py-1">Kaum</span>'
+    : '<span class="shrink-0 text-xs font-medium bg-red-100 text-red-700 rounded-full px-2.5 py-1">Nicht abgedeckt</span>';
+
+  div.innerHTML = `
+    <div>
+      <a href="/wirkstoffe/${ing.slug}" class="text-sm font-medium text-slate-800 hover:text-teal-700">${ing.name} →</a>
+      <p class="text-xs text-slate-500 mt-0.5">${ing.note}</p>
+    </div>
+    ${badge}
+  `;
+  return div;
+}
+
+function update() {
+  const selected = [...document.querySelectorAll('.food-checkbox:checked')].map(el => el.value);
+  const results = document.getElementById('results');
+  const ctaStart = document.getElementById('cta-start');
+  const gutContainer     = document.getElementById('result-gut');
+  const teilweiseContainer = document.getElementById('result-teilweise');
+  const lueckeContainer  = document.getElementById('result-luecke');
+  const gutEmpty     = document.getElementById('result-gut-empty');
+  const teilweiseEmpty = document.getElementById('result-teilweise-empty');
+  const lueckeEmpty  = document.getElementById('result-luecke-empty');
+
+  if (selected.length === 0) {
+    results.classList.add('hidden');
+    ctaStart.classList.remove('hidden');
+    return;
+  }
+
+  results.classList.remove('hidden');
+  ctaStart.classList.add('hidden');
+  gutContainer.innerHTML = '';
+  teilweiseContainer.innerHTML = '';
+  lueckeContainer.innerHTML = '';
+
+  let gutCount = 0, teilweiseCount = 0, lueckeCount = 0;
+
+  for (const ing of INGREDIENTS) {
+    const level = getLevel(ing.coverage, selected);
+    if (level === 'gut') {
+      gutContainer.appendChild(renderIngredientRow(ing, 'gut'));
+      gutCount++;
+    } else if (level === 'teilweise') {
+      teilweiseContainer.appendChild(renderIngredientRow(ing, 'teilweise'));
+      teilweiseCount++;
+    } else if (level === 'kaum') {
+      lueckeContainer.appendChild(renderIngredientRow(ing, 'kaum'));
+      lueckeCount++;
+    } else {
+      lueckeContainer.appendChild(renderIngredientRow(ing, null));
+      lueckeCount++;
+    }
+  }
+
+  gutEmpty.classList.toggle('hidden', gutCount > 0);
+  teilweiseEmpty.classList.toggle('hidden', teilweiseCount > 0);
+  lueckeEmpty.classList.toggle('hidden', lueckeCount > 0);
+}
+
+document.addEventListener('change', e => {
+  if (e.target.classList.contains('food-checkbox')) update();
+});
+</script>
