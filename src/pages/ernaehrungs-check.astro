@@ -4,260 +4,545 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <BaseLayout
   title="Ernährungs-Check"
-  description="Welche Longevity-Supplements brauchst du wirklich? Gib ein was du regelmäßig isst und sieh welche Nährstoffe du bereits aus der Nahrung deckst."
+  description="Finde heraus welche Mikronährstoffe dir wahrscheinlich fehlen — basierend auf deiner Ernährung und deinem Lebensstil. Kostenlos, evidenzbasiert, in 60 Sekunden."
 >
-  <div class="max-w-3xl mx-auto px-4 py-12">
+  <div class="max-w-2xl mx-auto px-4 py-12">
 
     <div class="mb-10">
       <h1 class="text-3xl font-bold text-slate-900 mb-3">Ernährungs-Check</h1>
       <p class="text-slate-600">
-        Wähle, was du regelmäßig isst. Wir zeigen dir, welche Longevity-Nährstoffe du
-        wahrscheinlich bereits abdeckst — und wo echte Lücken sind.
+        10 Fragen, ca. 60 Sekunden. Wir berechnen auf Basis deiner Antworten,
+        bei welchen Mikronährstoffen du wahrscheinlich unterversorgt bist.
       </p>
     </div>
 
-    <!-- Food selector -->
-    <div class="space-y-6 mb-10">
+    <!-- Questions -->
+    <form id="check-form" class="space-y-8">
 
-      <div>
-        <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3">Tierische Produkte</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="group-tierisch"></div>
+      <!-- Q1 -->
+      <fieldset class="question" data-qid="1">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          1. Wie würdest du deine Ernährung beschreiben?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q1" value="omnivor" class="option-input" /><span>Omnivor — ich esse alles inkl. Fleisch und Fisch</span></label>
+          <label class="option-label"><input type="radio" name="q1" value="pescetarisch" class="option-input" /><span>Pescetarisch — kein Fleisch, aber Fisch</span></label>
+          <label class="option-label"><input type="radio" name="q1" value="vegetarisch" class="option-input" /><span>Vegetarisch — kein Fleisch, kein Fisch</span></label>
+          <label class="option-label"><input type="radio" name="q1" value="vegan" class="option-input" /><span>Vegan — keine tierischen Produkte</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q2 -->
+      <fieldset class="question" data-qid="2">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          2. Wie oft isst du fetten Fisch? (Lachs, Makrele, Hering, Sardinen)
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q2" value="2plus" class="option-input" /><span>2x pro Woche oder mehr</span></label>
+          <label class="option-label"><input type="radio" name="q2" value="1pw" class="option-input" /><span>Ca. 1x pro Woche</span></label>
+          <label class="option-label"><input type="radio" name="q2" value="selten" class="option-input" /><span>1–3x pro Monat</span></label>
+          <label class="option-label"><input type="radio" name="q2" value="nie" class="option-input" /><span>Selten oder nie</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q3 -->
+      <fieldset class="question" data-qid="3">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          3. Wie oft isst du rotes Fleisch? (Rind, Lamm, Schwein)
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q3" value="3plus" class="option-input" /><span>3x pro Woche oder mehr</span></label>
+          <label class="option-label"><input type="radio" name="q3" value="1-2pw" class="option-input" /><span>1–2x pro Woche</span></label>
+          <label class="option-label"><input type="radio" name="q3" value="selten" class="option-input" /><span>Selten (1–3x pro Monat)</span></label>
+          <label class="option-label"><input type="radio" name="q3" value="nie" class="option-input" /><span>Nie</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q4 -->
+      <fieldset class="question" data-qid="4">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          4. Wie viel Zeit verbringst du täglich draußen mit unbedeckter Haut?
+          <span class="block text-xs font-normal text-slate-500 mt-0.5">Gesicht + Arme frei, von April bis September</span>
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q4" value="viel" class="option-input" /><span>Mehr als 30 Minuten täglich</span></label>
+          <label class="option-label"><input type="radio" name="q4" value="mittel" class="option-input" /><span>15–30 Minuten täglich</span></label>
+          <label class="option-label"><input type="radio" name="q4" value="wenig" class="option-input" /><span>Weniger als 15 Minuten</span></label>
+          <label class="option-label"><input type="radio" name="q4" value="kaum" class="option-input" /><span>Kaum — ich bin meist drinnen oder vollständig bedeckt</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q5 -->
+      <fieldset class="question" data-qid="5">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          5. Wie oft isst du dunkelgrünes Gemüse? (Spinat, Brokkoli, Grünkohl, Mangold)
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q5" value="taeglich" class="option-input" /><span>Täglich</span></label>
+          <label class="option-label"><input type="radio" name="q5" value="3-4pw" class="option-input" /><span>3–4x pro Woche</span></label>
+          <label class="option-label"><input type="radio" name="q5" value="1-2pw" class="option-input" /><span>1–2x pro Woche</span></label>
+          <label class="option-label"><input type="radio" name="q5" value="selten" class="option-input" /><span>Selten</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q6 -->
+      <fieldset class="question" data-qid="6">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          6. Wie oft isst du Nüsse, Samen oder Hülsenfrüchte?
+          <span class="block text-xs font-normal text-slate-500 mt-0.5">z.B. Mandeln, Kürbiskerne, Bohnen, Linsen</span>
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q6" value="taeglich" class="option-input" /><span>Täglich</span></label>
+          <label class="option-label"><input type="radio" name="q6" value="mehrpw" class="option-input" /><span>Mehrmals pro Woche</span></label>
+          <label class="option-label"><input type="radio" name="q6" value="selten" class="option-input" /><span>Selten</span></label>
+          <label class="option-label"><input type="radio" name="q6" value="nie" class="option-input" /><span>Nie</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q7 -->
+      <fieldset class="question" data-qid="7">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          7. Was trifft auf dich zu?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q7" value="mann" class="option-input" /><span>Männlich</span></label>
+          <label class="option-label"><input type="radio" name="q7" value="frau-mens" class="option-input" /><span>Weiblich — mit Menstruation</span></label>
+          <label class="option-label"><input type="radio" name="q7" value="frau-keine" class="option-input" /><span>Weiblich — ohne Menstruation (Menopause oder andere)</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q8 -->
+      <fieldset class="question" data-qid="8">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          8. Wie alt bist du?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q8" value="u30" class="option-input" /><span>Unter 30</span></label>
+          <label class="option-label"><input type="radio" name="q8" value="30-50" class="option-input" /><span>30–50</span></label>
+          <label class="option-label"><input type="radio" name="q8" value="51-65" class="option-input" /><span>51–65</span></label>
+          <label class="option-label"><input type="radio" name="q8" value="ue65" class="option-input" /><span>Über 65</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q9 -->
+      <fieldset class="question" data-qid="9">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          9. Wie würdest du dein Aktivitätsniveau und deinen Stresslevel beschreiben?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q9" value="hoch" class="option-input" /><span>Viel Sport (&gt;4h/Woche) und/oder dauerhaft hoher Stress</span></label>
+          <label class="option-label"><input type="radio" name="q9" value="mittel" class="option-input" /><span>Moderate Aktivität, normaler Alltagsstress</span></label>
+          <label class="option-label"><input type="radio" name="q9" value="niedrig" class="option-input" /><span>Wenig Bewegung, wenig Stress</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q10 -->
+      <fieldset class="question" data-qid="10">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          10. Nimmst du regelmäßig Magensäureblocker? (z.B. Omeprazol, Pantoprazol)
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q10" value="nein" class="option-input" /><span>Nein</span></label>
+          <label class="option-label"><input type="radio" name="q10" value="ja" class="option-input" /><span>Ja, regelmäßig</span></label>
+        </div>
+      </fieldset>
+
+    </form>
+
+    <!-- Progress indicator -->
+    <div class="mt-8 mb-4">
+      <div class="flex justify-between text-xs text-slate-500 mb-1">
+        <span id="progress-label">0 von 10 beantwortet</span>
+        <span id="progress-pct">0%</span>
       </div>
-
-      <div>
-        <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3">Milchprodukte & Eier</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="group-milch"></div>
+      <div class="h-1.5 bg-slate-200 rounded-full overflow-hidden">
+        <div id="progress-bar" class="h-full bg-teal-500 rounded-full transition-all duration-300" style="width:0%"></div>
       </div>
+    </div>
 
-      <div>
-        <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3">Pflanzlich</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="group-pflanzlich"></div>
-      </div>
-
-      <div>
-        <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3">Lifestyle</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="group-lifestyle"></div>
-      </div>
-
+    <!-- CTA -->
+    <div id="cta-hint" class="text-sm text-slate-400 text-center py-4">
+      Beantworte alle 10 Fragen um dein Ergebnis zu sehen.
     </div>
 
     <!-- Results -->
-    <div id="results" class="hidden">
-      <div class="border-t border-slate-200 pt-8">
-        <h2 class="text-xl font-semibold text-slate-800 mb-6">Dein Ergebnis</h2>
-
-        <div class="space-y-3 mb-8">
-          <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-widest">Wahrscheinlich gut abgedeckt</h3>
-          <div id="result-gut" class="space-y-2"></div>
-          <p id="result-gut-empty" class="text-sm text-slate-400 italic hidden">— keine —</p>
-        </div>
-
-        <div class="space-y-3 mb-8">
-          <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-widest">Teilweise abgedeckt</h3>
-          <div id="result-teilweise" class="space-y-2"></div>
-          <p id="result-teilweise-empty" class="text-sm text-slate-400 italic hidden">— keine —</p>
-        </div>
-
-        <div class="space-y-3 mb-8">
-          <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-widest">Lücken — hier könnte ein Supplement sinnvoll sein</h3>
-          <div id="result-luecke" class="space-y-2"></div>
-          <p id="result-luecke-empty" class="text-sm text-slate-400 italic hidden">— keine —</p>
-        </div>
-
-        <p class="text-xs text-slate-400 mt-6">
-          Dieser Check ist eine grobe Orientierung basierend auf typischen Nährstoffgehalten.
-          Er ersetzt keine individuelle Ernährungsberatung oder Blutuntersuchung.
+    <div id="results" class="hidden mt-2">
+      <div class="border-t-2 border-teal-200 pt-8">
+        <h2 class="text-xl font-semibold text-slate-800 mb-2">Dein Ergebnis</h2>
+        <p class="text-sm text-slate-500 mb-6">
+          Basierend auf deinen Angaben — kein Ersatz für einen Bluttest.
+        </p>
+        <div id="result-cards" class="space-y-4"></div>
+        <p class="mt-8 text-xs text-slate-400 leading-relaxed">
+          Dieser Check basiert auf typischen Zusammenhängen zwischen Ernährung und Mikronährstoffversorgung.
+          Er stellt keine medizinische Diagnose dar. Für eine genaue Bestimmung empfehlen wir eine Blutuntersuchung beim Arzt.
         </p>
       </div>
-    </div>
-
-    <div id="cta-start" class="text-center py-8 text-slate-400 text-sm">
-      Wähle mindestens ein Lebensmittel um dein Ergebnis zu sehen.
     </div>
 
   </div>
 </BaseLayout>
 
+<style>
+  .option-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    font-size: 0.875rem;
+    color: #374151;
+  }
+  .option-label:hover {
+    border-color: #99f6e4;
+    background: #f0fdf4;
+  }
+  .option-label:has(input:checked) {
+    border-color: #0d9488;
+    background: #f0fdfa;
+    color: #134e4a;
+    font-weight: 500;
+  }
+  .option-input {
+    accent-color: #0d9488;
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+  }
+</style>
+
 <script>
-const FOODS = [
-  { id: 'fatty-fish',   label: 'Fetter Fisch (Lachs, Makrele, Hering)',   group: 'tierisch' },
-  { id: 'organ-meat',   label: 'Innereien (Leber, Herz)',                  group: 'tierisch' },
-  { id: 'meat',         label: 'Rotes Fleisch oder Geflügel',              group: 'tierisch' },
-  { id: 'bone-broth',   label: 'Knochenbrühe oder Gelatine',               group: 'tierisch' },
-  { id: 'eggs',         label: 'Eier (mehrmals pro Woche)',                group: 'milch' },
-  { id: 'dairy',        label: 'Milch, Käse, Joghurt',                    group: 'milch' },
-  { id: 'natto',        label: 'Natto, Kimchi oder Sauerkraut',           group: 'pflanzlich' },
-  { id: 'wheat-germ',   label: 'Weizenkeime',                             group: 'pflanzlich' },
-  { id: 'legumes',      label: 'Hülsenfrüchte (Bohnen, Linsen, Edamame)', group: 'pflanzlich' },
-  { id: 'leafy-greens', label: 'Grünes Blattgemüse (Spinat, Brokkoli)',   group: 'pflanzlich' },
-  { id: 'nuts-seeds',   label: 'Nüsse & Samen (täglich)',                 group: 'pflanzlich' },
-  { id: 'onions-fruit', label: 'Zwiebeln, Äpfel, Beeren (täglich)',       group: 'pflanzlich' },
-  { id: 'sunlight',     label: 'Tägliche Sonne (mind. 20 Min. Haut frei)', group: 'lifestyle' },
-];
+// ── Scoring model ─────────────────────────────────────────────────────────────
+// Each nutrient starts at 0. Answers add risk points (positive = more risk).
+// Final score 0-10. Thresholds: ≥7 high, 4-6 medium, ≤3 low.
 
-// coverage: 'gut' | 'teilweise' | 'kaum'
-const INGREDIENTS = [
-  {
-    id: 'omega-3', name: 'Omega-3 (EPA+DHA)', slug: 'omega-3',
-    coverage: { 'fatty-fish': 'gut' },
-    note: 'Fetter Fisch 2–3x/Woche deckt den Bedarf gut ab.',
-  },
-  {
-    id: 'vitamin-d3', name: 'Vitamin D3', slug: 'vitamin-d3-k2',
-    coverage: { 'sunlight': 'gut', 'fatty-fish': 'teilweise', 'eggs': 'kaum', 'dairy': 'kaum' },
-    note: 'In Deutschland von Oktober bis März reicht Sonnenlicht allein nicht aus.',
-  },
-  {
-    id: 'vitamin-k2', name: 'Vitamin K2', slug: 'vitamin-d3-k2',
-    coverage: { 'natto': 'gut', 'dairy': 'teilweise' },
-    note: 'Natto ist mit Abstand die reichste Nahrungsquelle für K2 (MK-7).',
-  },
-  {
-    id: 'magnesium', name: 'Magnesium', slug: 'magnesium',
-    coverage: { 'nuts-seeds': 'teilweise', 'leafy-greens': 'teilweise', 'legumes': 'teilweise' },
-    note: 'Aus Nahrung selten vollständig gedeckt — besonders bei Sport oder Stress.',
-  },
-  {
-    id: 'coq10', name: 'CoQ10', slug: 'coq10',
-    coverage: { 'organ-meat': 'gut', 'meat': 'teilweise', 'nuts-seeds': 'kaum' },
-    note: 'Wer regelmäßig Innereien isst, deckt CoQ10 gut aus der Nahrung.',
-  },
-  {
-    id: 'spermidine', name: 'Spermidin', slug: 'spermidine',
-    coverage: { 'wheat-germ': 'gut', 'natto': 'teilweise', 'legumes': 'kaum' },
-    note: '30 g Weizenkeime täglich liefern etwa 1 mg Spermidin — die übliche Supplementdosis.',
-  },
-  {
-    id: 'kollagen', name: 'Kollagen', slug: 'kollagen',
-    coverage: { 'bone-broth': 'gut', 'meat': 'kaum' },
-    note: 'Kollagen ist hauptsächlich in Bindegewebe, Haut und Knochen enthalten.',
-  },
-  {
-    id: 'quercetin', name: 'Quercetin', slug: 'quercetin',
-    coverage: { 'onions-fruit': 'teilweise' },
-    note: 'Zwiebeln und Äpfel liefern Quercetin aus der Nahrung — Supplements liefern vielfach höhere Dosen.',
-  },
-  {
-    id: 'resveratrol', name: 'Resveratrol', slug: 'resveratrol',
-    coverage: { 'onions-fruit': 'kaum' },
-    note: 'Lebensmittel enthalten nur Spuren von Resveratrol — Supplements sind die einzige Weg zu höheren Dosen.',
-  },
-  {
-    id: 'nmn', name: 'NMN', slug: 'nmn',
-    coverage: { 'legumes': 'kaum', 'leafy-greens': 'kaum' },
-    note: 'NMN kommt in Edamame und Brokkoli vor, aber in sehr geringen Mengen.',
-  },
-  {
-    id: 'nr', name: 'NR (Nicotinamid-Ribosid)', slug: 'nr',
-    coverage: { 'dairy': 'kaum', 'meat': 'kaum' },
-    note: 'NR kommt in Milch und Fleisch in Spuren vor — relevante Mengen nur durch Supplements.',
-  },
-  {
-    id: 'berberine', name: 'Berberin', slug: 'berberine',
-    coverage: {},
-    note: 'Berberin kommt nicht in üblichen Nahrungsmitteln vor — nur als Supplement.',
-  },
-];
+type Nutrient = 'vitaminD' | 'omega3' | 'magnesium' | 'eisen' | 'zink' | 'b12';
+type Risk = 'hoch' | 'mittel' | 'niedrig';
 
-// ── Render food checkboxes ──────────────────────────────────────────────────
-
-const groups = { tierisch: 'group-tierisch', milch: 'group-milch', pflanzlich: 'group-pflanzlich', lifestyle: 'group-lifestyle' };
-
-for (const food of FOODS) {
-  const container = document.getElementById(groups[food.group]);
-  if (!container) continue;
-  const label = document.createElement('label');
-  label.className = 'flex items-center gap-3 bg-white border border-slate-200 rounded-lg px-4 py-3 cursor-pointer hover:border-teal-400 transition-colors has-[:checked]:border-teal-500 has-[:checked]:bg-teal-50';
-  label.innerHTML = `
-    <input type="checkbox" value="${food.id}" class="food-checkbox w-4 h-4 accent-teal-600 shrink-0" />
-    <span class="text-sm text-slate-700">${food.label}</span>
-  `;
-  container.appendChild(label);
+interface NutrientResult {
+  id: Nutrient;
+  name: string;
+  slug: string;
+  score: number;
+  risk: Risk;
+  headline: string;
+  explanation: string;
+  foods: string[];
+  supplementNote: string;
 }
 
-// ── Compute and render results ──────────────────────────────────────────────
+const SCORING: Record<string, Record<string, Partial<Record<Nutrient, number>>>> = {
+  q1: {
+    omnivor:      { b12: -1 },
+    pescetarisch: { b12: -1, eisen: +1, zink: +1 },
+    vegetarisch:  { omega3: +3, eisen: +2, zink: +2, b12: +3 },
+    vegan:        { omega3: +3, eisen: +2, zink: +2, b12: +5, vitaminD: +1 },
+  },
+  q2: {
+    '2plus': { omega3: -4 },
+    '1pw':   { omega3: -2 },
+    selten:  { omega3: +2 },
+    nie:     { omega3: +4 },
+  },
+  q3: {
+    '3plus': { eisen: -3, zink: -2 },
+    '1-2pw': { eisen: -2, zink: -1 },
+    selten:  { eisen: +1 },
+    nie:     { eisen: +3, zink: +2 },
+  },
+  q4: {
+    viel:   { vitaminD: -4 },
+    mittel: { vitaminD: -2 },
+    wenig:  { vitaminD: +2 },
+    kaum:   { vitaminD: +4 },
+  },
+  q5: {
+    taeglich: { eisen: -2, magnesium: -1 },
+    '3-4pw':  { eisen: -1 },
+    '1-2pw':  {},
+    selten:   { eisen: +1, magnesium: +1 },
+  },
+  q6: {
+    taeglich: { magnesium: -3, zink: -1 },
+    mehrpw:   { magnesium: -2 },
+    selten:   { magnesium: +2 },
+    nie:      { magnesium: +3 },
+  },
+  q7: {
+    mann:       {},
+    'frau-mens': { eisen: +3 },
+    'frau-keine': {},
+  },
+  q8: {
+    u30:    {},
+    '30-50': { vitaminD: +1 },
+    '51-65': { vitaminD: +2, b12: +1 },
+    ue65:   { vitaminD: +3, b12: +2 },
+  },
+  q9: {
+    hoch:   { magnesium: +3 },
+    mittel: { magnesium: +1 },
+    niedrig: {},
+  },
+  q10: {
+    nein: {},
+    ja:   { b12: +2, magnesium: +1 },
+  },
+};
 
-function getLevel(coverageMap, selectedFoods) {
-  let best = null;
-  for (const foodId of selectedFoods) {
-    const c = coverageMap[foodId];
-    if (c === 'gut') return 'gut';
-    if (c === 'teilweise' && best !== 'gut') best = 'teilweise';
-    if (c === 'kaum' && best == null) best = 'kaum';
-  }
-  return best; // null = not covered at all
+const NUTRIENTS: Record<Nutrient, {
+  name: string; slug: string;
+  headlines: Record<Risk, string>;
+  explanations: Record<Risk, string>;
+  foods: string[];
+  supplementNote: string;
+}> = {
+  vitaminD: {
+    name: 'Vitamin D3',
+    slug: 'vitamin-d3-k2',
+    headlines: {
+      hoch:    'Vitamin D — hohes Mangelrisiko',
+      mittel:  'Vitamin D — mögliche Unterversorgung',
+      niedrig: 'Vitamin D — wahrscheinlich gut versorgt',
+    },
+    explanations: {
+      hoch:    'In Deutschland sind von Oktober bis März die Sonnenstunden zu gering um ausreichend Vitamin D zu produzieren — und deine Angaben deuten auf wenig zusätzliche Zufuhr hin. Vitamin-D-Mangel ist in Deutschland weit verbreitet und betrifft schätzungsweise 40–60 % der Bevölkerung im Winter.',
+      mittel:  'Deine Versorgung schwankt wahrscheinlich saisonal. Im Sommer ausreichend, im Winter mögliche Lücken.',
+      niedrig: 'Regelmäßige Sonnenexposition und Fettzufuhr aus Fisch decken deinen Bedarf gut ab.',
+    },
+    foods: ['Fetter Fisch (Lachs, Makrele, Hering)', 'Eigelb', 'Lebertran', 'Angereicherte Produkte (Margarine, manche Pflanzendrinks)'],
+    supplementNote: 'Ein 1.000–2.000 IE Vitamin D3-Supplement von Oktober bis März ist für die meisten Deutschen sinnvoll. Kombination mit K2 (MK-7) empfohlen.',
+  },
+  omega3: {
+    name: 'Omega-3 (EPA+DHA)',
+    slug: 'omega-3',
+    headlines: {
+      hoch:    'Omega-3 — hohes Mangelrisiko',
+      mittel:  'Omega-3 — mögliche Unterversorgung',
+      niedrig: 'Omega-3 — wahrscheinlich gut versorgt',
+    },
+    explanations: {
+      hoch:    'EPA und DHA kommen fast ausschließlich in fettem Fisch und Meeresfrüchten vor. Deine Ernährung liefert wahrscheinlich wenig davon. Pflanzliche Omega-3-Quellen (Leinöl, Walnüsse) enthalten ALA, das der Körper nur schlecht in EPA/DHA umwandeln kann.',
+      mittel:  'Du deckst einen Teil deines Bedarfs aus der Nahrung, aber nicht regelmäßig genug für eine optimale Versorgung.',
+      niedrig: 'Regelmäßiger Fischkonsum sorgt für eine gute EPA/DHA-Versorgung.',
+    },
+    foods: ['Lachs (150 g = ca. 2 g EPA+DHA)', 'Makrele', 'Hering', 'Sardinen', 'Austern'],
+    supplementNote: 'Fischöl oder Algenöl (vegan) mit mind. 500 mg EPA+DHA pro Tag. Auf TOTOX-Wert <26 achten.',
+  },
+  magnesium: {
+    name: 'Magnesium',
+    slug: 'magnesium',
+    headlines: {
+      hoch:    'Magnesium — hohes Mangelrisiko',
+      mittel:  'Magnesium — mögliche Unterversorgung',
+      niedrig: 'Magnesium — wahrscheinlich gut versorgt',
+    },
+    explanations: {
+      hoch:    'Deine Ernährung liefert wenig der wichtigsten Magnesiumquellen, und Sport oder Stress erhöhen den Bedarf zusätzlich. Magnesiummangel äußert sich oft in Muskelkrämpfen, schlechtem Schlaf und Erschöpfung.',
+      mittel:  'Dein Bedarf ist teilweise gedeckt. Bei hohem Stress oder intensivem Sport kann die Versorgung knapp werden.',
+      niedrig: 'Deine Ernährung deckt den Magnesiumbedarf wahrscheinlich gut ab.',
+    },
+    foods: ['Kürbiskerne (100 g = 540 mg Mg)', 'Sonnenblumenkerne', 'Mandeln', 'Spinat', 'Hülsenfrüchte', 'Quinoa'],
+    supplementNote: 'Magnesiumglycinat oder -citrat (200–400 mg/Tag) — nicht Oxid (schlechte Bioverfügbarkeit).',
+  },
+  eisen: {
+    name: 'Eisen',
+    slug: 'omega-3', // no dedicated dossier yet, link to general
+    headlines: {
+      hoch:    'Eisen — hohes Mangelrisiko',
+      mittel:  'Eisen — mögliche Unterversorgung',
+      niedrig: 'Eisen — wahrscheinlich gut versorgt',
+    },
+    explanations: {
+      hoch:    'Menstruierende Frauen, Vegetarierinnen und Veganerinnen haben ein deutlich erhöhtes Eisenmangelrisiko. Pflanzliches (Non-Häm-)Eisen wird schlechter aufgenommen als Häm-Eisen aus Fleisch. Eisenmangel ist weltweit der häufigste Nährstoffmangel.',
+      mittel:  'Dein Risiko ist erhöht. Besonders auf ausreichende Zufuhr und Aufnahmebedingungen achten.',
+      niedrig: 'Deine Ernährung liefert wahrscheinlich ausreichend gut verfügbares Eisen.',
+    },
+    foods: ['Rotes Fleisch (beste Quelle)', 'Leber', 'Hülsenfrüchte + Vitamin C (verbessert Aufnahme)', 'Tofu', 'Quinoa', 'Kürbiskerne'],
+    supplementNote: 'Eisen nur nach Bluttest supplementieren — zu viel Eisen ist schädlich. Vorher Ferritinwert bestimmen lassen.',
+  },
+  zink: {
+    name: 'Zink',
+    slug: 'omega-3', // link fallback
+    headlines: {
+      hoch:    'Zink — hohes Mangelrisiko',
+      mittel:  'Zink — mögliche Unterversorgung',
+      niedrig: 'Zink — wahrscheinlich gut versorgt',
+    },
+    explanations: {
+      hoch:    'Zink kommt am reichsten in tierischen Produkten vor. Pflanzliche Zinkquellen enthalten Phytate, die die Aufnahme hemmen. Vegetarier und Veganer haben ein deutlich höheres Zinkmangelrisiko.',
+      mittel:  'Teilweise gedeckt — auf zinkhaltige Lebensmittel und günstige Aufnahmebedingungen achten.',
+      niedrig: 'Regelmäßige tierische Produkte sichern eine gute Zinkversorgung.',
+    },
+    foods: ['Austern (reichste Quelle)', 'Rindfleisch', 'Kürbiskerne', 'Cashews', 'Hülsenfrüchte (eingeweicht)'],
+    supplementNote: 'Zinkbisglycinat oder -citrat (15–25 mg/Tag) wenn pflanzliche Ernährung. Nicht dauerhaft hoch dosieren.',
+  },
+  b12: {
+    name: 'Vitamin B12',
+    slug: 'vitamin-d3-k2', // link fallback
+    headlines: {
+      hoch:    'Vitamin B12 — hohes Mangelrisiko',
+      mittel:  'Vitamin B12 — mögliche Unterversorgung',
+      niedrig: 'Vitamin B12 — wahrscheinlich gut versorgt',
+    },
+    explanations: {
+      hoch:    'B12 kommt ausschließlich in tierischen Produkten vor. Veganer müssen B12 zwingend supplementieren — kein Lebensmittel kann das ersetzen. Magensäureblocker und zunehmendes Alter verschlechtern zusätzlich die Aufnahme.',
+      mittel:  'Deine Versorgung könnte knapp sein, besonders wenn du wenig Fleisch und Milchprodukte isst oder Magensäureblocker nimmst.',
+      niedrig: 'Omnivore Ernährung mit Fleisch und Milchprodukten deckt B12 gut ab.',
+    },
+    foods: ['Leber (bei weitem reichste Quelle)', 'Muscheln', 'Sardinen', 'Rindfleisch', 'Milchprodukte', 'Eier'],
+    supplementNote: 'Veganer: 500–1.000 µg Methylcobalamin täglich oder 2.000 µg wöchentlich — keine Option, Pflicht.',
+  },
+};
+
+// ── Scoring logic ─────────────────────────────────────────────────────────────
+
+function getRisk(score: number): Risk {
+  if (score >= 7) return 'hoch';
+  if (score >= 4) return 'mittel';
+  return 'niedrig';
 }
 
-function renderIngredientRow(ing, level, extraNote) {
-  const div = document.createElement('div');
-  div.className = 'flex items-start justify-between gap-4 bg-white border border-slate-200 rounded-lg px-4 py-3';
-
-  const badge = level === 'gut'
-    ? '<span class="shrink-0 text-xs font-medium bg-emerald-100 text-emerald-700 rounded-full px-2.5 py-1">Gut abgedeckt</span>'
-    : level === 'teilweise'
-    ? '<span class="shrink-0 text-xs font-medium bg-yellow-100 text-yellow-700 rounded-full px-2.5 py-1">Teilweise</span>'
-    : level === 'kaum'
-    ? '<span class="shrink-0 text-xs font-medium bg-orange-100 text-orange-700 rounded-full px-2.5 py-1">Kaum</span>'
-    : '<span class="shrink-0 text-xs font-medium bg-red-100 text-red-700 rounded-full px-2.5 py-1">Nicht abgedeckt</span>';
-
-  div.innerHTML = `
-    <div>
-      <a href="/wirkstoffe/${ing.slug}" class="text-sm font-medium text-slate-800 hover:text-teal-700">${ing.name} →</a>
-      <p class="text-xs text-slate-500 mt-0.5">${ing.note}</p>
-    </div>
-    ${badge}
-  `;
-  return div;
+function riskStyle(risk: Risk) {
+  if (risk === 'hoch')   return { bar: 'bg-red-400', badge: 'bg-red-100 text-red-800', label: 'Hohes Risiko' };
+  if (risk === 'mittel') return { bar: 'bg-amber-400', badge: 'bg-amber-100 text-amber-800', label: 'Mögliche Lücke' };
+  return { bar: 'bg-emerald-400', badge: 'bg-emerald-100 text-emerald-700', label: 'Gut versorgt' };
 }
 
-function update() {
-  const selected = [...document.querySelectorAll('.food-checkbox:checked')].map(el => el.value);
-  const results = document.getElementById('results');
-  const ctaStart = document.getElementById('cta-start');
-  const gutContainer     = document.getElementById('result-gut');
-  const teilweiseContainer = document.getElementById('result-teilweise');
-  const lueckeContainer  = document.getElementById('result-luecke');
-  const gutEmpty     = document.getElementById('result-gut-empty');
-  const teilweiseEmpty = document.getElementById('result-teilweise-empty');
-  const lueckeEmpty  = document.getElementById('result-luecke-empty');
+function computeScores(answers: Record<string, string>): NutrientResult[] {
+  const totals: Record<Nutrient, number> = {
+    vitaminD: 5, omega3: 5, magnesium: 5, eisen: 4, zink: 4, b12: 3,
+  };
 
-  if (selected.length === 0) {
-    results.classList.add('hidden');
-    ctaStart.classList.remove('hidden');
-    return;
-  }
-
-  results.classList.remove('hidden');
-  ctaStart.classList.add('hidden');
-  gutContainer.innerHTML = '';
-  teilweiseContainer.innerHTML = '';
-  lueckeContainer.innerHTML = '';
-
-  let gutCount = 0, teilweiseCount = 0, lueckeCount = 0;
-
-  for (const ing of INGREDIENTS) {
-    const level = getLevel(ing.coverage, selected);
-    if (level === 'gut') {
-      gutContainer.appendChild(renderIngredientRow(ing, 'gut'));
-      gutCount++;
-    } else if (level === 'teilweise') {
-      teilweiseContainer.appendChild(renderIngredientRow(ing, 'teilweise'));
-      teilweiseCount++;
-    } else if (level === 'kaum') {
-      lueckeContainer.appendChild(renderIngredientRow(ing, 'kaum'));
-      lueckeCount++;
-    } else {
-      lueckeContainer.appendChild(renderIngredientRow(ing, null));
-      lueckeCount++;
+  for (const [qid, val] of Object.entries(answers)) {
+    const qMap = SCORING[qid]?.[val];
+    if (!qMap) continue;
+    for (const [nutrient, delta] of Object.entries(qMap) as [Nutrient, number][]) {
+      totals[nutrient] = Math.min(10, Math.max(0, totals[nutrient] + delta));
     }
   }
 
-  gutEmpty.classList.toggle('hidden', gutCount > 0);
-  teilweiseEmpty.classList.toggle('hidden', teilweiseCount > 0);
-  lueckeEmpty.classList.toggle('hidden', lueckeCount > 0);
+  return (Object.entries(totals) as [Nutrient, number][])
+    .map(([id, score]) => {
+      const def = NUTRIENTS[id];
+      const risk = getRisk(score);
+      return { id, name: def.name, slug: def.slug, score, risk,
+        headline: def.headlines[risk],
+        explanation: def.explanations[risk],
+        foods: def.foods,
+        supplementNote: def.supplementNote,
+      };
+    })
+    .sort((a, b) => b.score - a.score);
 }
 
-document.addEventListener('change', e => {
-  if (e.target.classList.contains('food-checkbox')) update();
-});
+// ── UI ────────────────────────────────────────────────────────────────────────
+
+const form = document.getElementById('check-form') as HTMLFormElement;
+const resultsEl = document.getElementById('results')!;
+const ctaHint = document.getElementById('cta-hint')!;
+const resultCards = document.getElementById('result-cards')!;
+const progressBar = document.getElementById('progress-bar') as HTMLElement;
+const progressLabel = document.getElementById('progress-label')!;
+const progressPct = document.getElementById('progress-pct')!;
+
+const TOTAL_QUESTIONS = 10;
+
+function getAnswers(): Record<string, string> {
+  const data = new FormData(form);
+  const out: Record<string, string> = {};
+  for (let i = 1; i <= TOTAL_QUESTIONS; i++) {
+    const val = data.get(`q${i}`);
+    if (val) out[`q${i}`] = val as string;
+  }
+  return out;
+}
+
+function renderResults(answers: Record<string, string>) {
+  const results = computeScores(answers);
+  resultCards.innerHTML = '';
+
+  results.forEach((r, idx) => {
+    const { bar, badge, label } = riskStyle(r.risk);
+    const isTop3 = idx < 3;
+    const card = document.createElement('div');
+    card.className = `bg-white border rounded-xl overflow-hidden ${r.risk === 'hoch' ? 'border-red-200' : r.risk === 'mittel' ? 'border-amber-200' : 'border-slate-200'}`;
+
+    // Score bar width
+    const barWidth = `${r.score * 10}%`;
+
+    card.innerHTML = `
+      <div class="p-5">
+        <div class="flex items-start justify-between gap-3 mb-3">
+          <div>
+            <p class="font-semibold text-slate-900">${r.name}</p>
+            <p class="text-sm font-medium text-slate-600 mt-0.5">${r.headline.replace(r.name + ' — ', '')}</p>
+          </div>
+          <span class="shrink-0 text-xs font-semibold rounded-full px-2.5 py-1 ${badge}">${label}</span>
+        </div>
+
+        <div class="h-1.5 bg-slate-100 rounded-full mb-4 overflow-hidden">
+          <div class="h-full rounded-full ${bar}" style="width:${barWidth}"></div>
+        </div>
+
+        <p class="text-sm text-slate-600 mb-4">${r.explanation}</p>
+
+        ${isTop3 ? `
+          <details class="text-sm">
+            <summary class="cursor-pointer text-teal-700 font-medium hover:text-teal-900 list-none flex items-center gap-1">
+              <span>Empfehlungen anzeigen</span>
+              <span class="text-xs">↓</span>
+            </summary>
+            <div class="mt-3 space-y-3 border-t border-slate-100 pt-3">
+              <div>
+                <p class="text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5">Lebensmittel</p>
+                <ul class="space-y-1">
+                  ${r.foods.map(f => `<li class="flex items-start gap-1.5"><span class="text-teal-500 mt-0.5">•</span>${f}</li>`).join('')}
+                </ul>
+              </div>
+              <div class="bg-slate-50 rounded-lg p-3">
+                <p class="text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1">Supplement-Hinweis</p>
+                <p class="text-slate-600">${r.supplementNote}</p>
+              </div>
+              <a href="/wirkstoffe/${r.slug}" class="inline-block text-teal-600 hover:text-teal-800 font-medium">
+                Zum Wirkstoff-Dossier →
+              </a>
+            </div>
+          </details>
+        ` : ''}
+      </div>
+    `;
+    resultCards.appendChild(card);
+  });
+}
+
+function update() {
+  const answers = getAnswers();
+  const count = Object.keys(answers).length;
+
+  // Update progress
+  const pct = Math.round((count / TOTAL_QUESTIONS) * 100);
+  progressBar.style.width = `${pct}%`;
+  progressLabel.textContent = `${count} von ${TOTAL_QUESTIONS} beantwortet`;
+  progressPct.textContent = `${pct}%`;
+
+  if (count < TOTAL_QUESTIONS) {
+    resultsEl.classList.add('hidden');
+    ctaHint.classList.remove('hidden');
+    return;
+  }
+
+  ctaHint.classList.add('hidden');
+  resultsEl.classList.remove('hidden');
+  renderResults(answers);
+
+  // Smooth scroll to results
+  resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+form.addEventListener('change', update);
 </script>
