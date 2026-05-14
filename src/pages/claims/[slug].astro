@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import VerdictBadge from '../../components/VerdictBadge.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const claims = await getCollection('claims');
+  return claims.map(entry => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+
+<BaseLayout title={`Claims-Check: "${d.title}"`} description={d.summary}>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/claims" class="hover:text-teal-600">Claims-Check</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">{d.title}</span>
+    </nav>
+
+    <p class="text-sm text-slate-500 mb-2">Claims-Check</p>
+    <h1 class="text-2xl font-bold text-slate-900 mb-4">„{d.title}"</h1>
+
+    <div class="flex items-center gap-3 mb-8">
+      <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
+    </div>
+
+    <article class="prose max-w-none mb-10">
+      <Content />
+    </article>
+
+    <!-- Sources -->
+    {d.sources.length > 0 && (
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-5">
+        <p class="text-sm font-semibold text-slate-700 mb-3">Quellen</p>
+        <ul class="space-y-2">
+          {d.sources.map(source => (
+            <li class="text-sm">
+              <a href={source.url} target="_blank" rel="noopener noreferrer"
+                 class="text-teal-600 hover:underline">
+                {source.label} ↗
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+  </div>
+</BaseLayout>

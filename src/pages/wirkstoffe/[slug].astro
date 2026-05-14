@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const ingredients = await getCollection('ingredients');
+  return ingredients.map(entry => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+
+const safetyLabel = {
+  'safe': 'Sicher',
+  'likely-safe': 'Wahrscheinlich sicher',
+  'caution': 'Mit Vorsicht',
+  'insufficient-data': 'Datenlage unklar',
+} as const;
+
+const safetyStyle = {
+  'safe': 'bg-emerald-100 text-emerald-800',
+  'likely-safe': 'bg-yellow-100 text-yellow-800',
+  'caution': 'bg-orange-100 text-orange-800',
+  'insufficient-data': 'bg-slate-100 text-slate-700',
+} as const;
+---
+
+<BaseLayout title={d.title} description={d.summary}>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+
+    <!-- Breadcrumb -->
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/wirkstoffe" class="hover:text-teal-600">Wirkstoffe</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">{d.title}</span>
+    </nav>
+
+    <!-- Header -->
+    <div class="mb-8">
+      <div class="flex flex-wrap gap-2 mb-3">
+        <EvidenceBadge level={d.evidenceLevel} />
+        <span class:list={['rounded-full px-2.5 py-1 text-xs font-medium', safetyStyle[d.safety_rating]]}>
+          Sicherheit: {safetyLabel[d.safety_rating]}
+        </span>
+        {d.typical_dose_mg && (
+          <span class="rounded-full px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700">
+            Studiendosis: {d.typical_dose_mg} mg/Tag
+          </span>
+        )}
+      </div>
+      <h1 class="text-3xl font-bold text-slate-900 mb-3">{d.title}</h1>
+      {d.aliases.length > 0 && (
+        <p class="text-sm text-slate-500">Auch bekannt als: {d.aliases.join(', ')}</p>
+      )}
+    </div>
+
+    <!-- Evidence summary box -->
+    <div class="bg-teal-50 border border-teal-200 rounded-xl p-5 mb-8">
+      <p class="text-sm font-semibold text-teal-800 mb-1">Evidenzlage auf einen Blick</p>
+      <p class="text-sm text-teal-700">{d.evidenceSummary}</p>
+    </div>
+
+    <!-- EFSA status -->
+    <div class:list={[
+      'rounded-xl border p-5 mb-8',
+      d.efsa_health_claims_allowed
+        ? 'bg-emerald-50 border-emerald-200'
+        : 'bg-red-50 border-red-200'
+    ]}>
+      <p class:list={[
+        'text-sm font-semibold mb-1',
+        d.efsa_health_claims_allowed ? 'text-emerald-800' : 'text-red-800'
+      ]}>
+        EU Health Claims: {d.efsa_health_claims_allowed ? 'Zugelassen' : 'Keine zugelassenen Claims'}
+      </p>
+      {d.efsa_notes && (
+        <p class:list={[
+          'text-sm',
+          d.efsa_health_claims_allowed ? 'text-emerald-700' : 'text-red-700'
+        ]}>{d.efsa_notes}</p>
+      )}
+    </div>
+
+    <!-- Article content -->
+    <article class="prose max-w-none mb-10">
+      <Content />
+    </article>
+
+    <!-- Key Studies -->
+    {d.key_studies.length > 0 && (
+      <div class="mb-8">
+        <h2 class="text-lg font-semibold text-slate-800 mb-4">Wichtigste Studien</h2>
+        <div class="space-y-3">
+          {d.key_studies.map(study => (
+            <div class="bg-white border border-slate-200 rounded-lg p-4">
+              <p class="text-sm font-medium text-slate-800 mb-0.5">{study.title}</p>
+              <p class="text-xs text-slate-500 mb-2">{study.authors} ({study.year})</p>
+              <p class="text-sm text-slate-600 mb-2">{study.finding}</p>
+              {study.url && (
+                <a href={study.url} target="_blank" rel="noopener noreferrer"
+                   class="text-xs text-teal-600 hover:underline">
+                  PubMed {study.pmid ? `PMID ${study.pmid}` : '→'}
+                </a>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- CTA: products for this ingredient -->
+    <div class="bg-slate-100 rounded-xl p-6">
+      <p class="font-semibold text-slate-800 mb-1">Produkte mit {d.title}</p>
+      <p class="text-sm text-slate-600 mb-3">Wir haben konkrete Produkte nach Preis/Tagesdosis, Reinheit und Zertifizierung bewertet.</p>
+      <a href={`/produkte?wirkstoff=${d.slug}`}
+         class="text-sm text-teal-600 hover:text-teal-800 font-medium no-underline">
+        Produktvergleich ansehen →
+      </a>
+    </div>
+
+  </div>
+</BaseLayout>

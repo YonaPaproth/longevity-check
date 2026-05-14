@@ -1,0 +1,27 @@
+---
+interface Props {
+  level: '1' | '2' | '3' | '4' | '5';
+  showLabel?: boolean;
+}
+
+const { level, showLabel = true } = Astro.props;
+
+const config = {
+  '1': { label: 'Starke Evidenz', dots: 5, color: 'bg-emerald-500', text: 'text-emerald-800 bg-emerald-100' },
+  '2': { label: 'Moderate Evidenz', dots: 4, color: 'bg-lime-500', text: 'text-lime-800 bg-lime-100' },
+  '3': { label: 'Schwache Evidenz', dots: 3, color: 'bg-yellow-500', text: 'text-yellow-800 bg-yellow-100' },
+  '4': { label: 'Nur Tierstudien', dots: 2, color: 'bg-orange-500', text: 'text-orange-800 bg-orange-100' },
+  '5': { label: 'Keine Studien', dots: 1, color: 'bg-red-500', text: 'text-red-800 bg-red-100' },
+} as const;
+
+const { label, dots, color, text } = config[level];
+---
+
+<span class:list={['inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium', text]}>
+  <span class="flex gap-0.5">
+    {Array.from({ length: 5 }).map((_, i) => (
+      <span class:list={['w-2 h-2 rounded-full', i < dots ? color : 'bg-slate-300']} />
+    ))}
+  </span>
+  {showLabel && label}
+</span>

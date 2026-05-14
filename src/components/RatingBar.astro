@@ -1,0 +1,35 @@
+---
+interface Props {
+  label: string;
+  score: number;
+  explanation: string;
+  highlight?: boolean; // use for evidence dimension to make it visually distinct
+}
+
+const { label, score, explanation, highlight = false } = Astro.props;
+const pct = (score / 10) * 100;
+
+const barColor = highlight
+  ? 'bg-slate-400'
+  : score >= 7 ? 'bg-emerald-500'
+  : score >= 4 ? 'bg-yellow-500'
+  : 'bg-red-400';
+---
+
+<div class="group">
+  <div class="flex justify-between items-baseline mb-1">
+    <span class:list={['text-sm font-medium', highlight ? 'text-slate-500' : 'text-slate-700']}>
+      {label}
+    </span>
+    <span class:list={['text-sm font-semibold tabular-nums', highlight ? 'text-slate-500' : 'text-slate-800']}>
+      {score.toFixed(1)}/10
+    </span>
+  </div>
+  <div class="h-2 bg-slate-200 rounded-full overflow-hidden">
+    <div
+      class:list={['h-full rounded-full transition-all', barColor]}
+      style={`width: ${pct}%`}
+    />
+  </div>
+  <p class="mt-1 text-xs text-slate-500 leading-relaxed">{explanation}</p>
+</div>

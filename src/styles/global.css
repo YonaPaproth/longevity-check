@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-brand: 20 83% 45%;        /* teal-ish */
+    --color-evidence-1: 142 71% 45%; /* green */
+    --color-evidence-2: 84 65% 45%;  /* lime */
+    --color-evidence-3: 43 96% 50%;  /* yellow */
+    --color-evidence-4: 25 95% 53%;  /* orange */
+    --color-evidence-5: 0 84% 60%;   /* red */
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4 { @apply font-semibold tracking-tight; }
+  a { @apply text-teal-700 hover:text-teal-900 transition-colors; }
+
+  .prose h2 { @apply mt-8 mb-3 text-xl; }
+  .prose h3 { @apply mt-6 mb-2 text-lg; }
+  .prose p  { @apply mb-4 leading-relaxed; }
+  .prose ul { @apply mb-4 ml-4 list-disc space-y-1; }
+  .prose ol { @apply mb-4 ml-4 list-decimal space-y-1; }
+  .prose blockquote {
+    @apply border-l-4 border-slate-300 pl-4 italic text-slate-600 my-4;
+  }
+  .prose table {
+    @apply w-full text-sm border-collapse mb-4;
+  }
+  .prose th {
+    @apply bg-slate-100 text-left px-3 py-2 font-medium border border-slate-200;
+  }
+  .prose td {
+    @apply px-3 py-2 border border-slate-200;
+  }
+}

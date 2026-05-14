@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EvidenceBadge from '../components/EvidenceBadge.astro';
+import VerdictBadge from '../components/VerdictBadge.astro';
+import { getCollection } from 'astro:content';
+
+const ingredients = await getCollection('ingredients');
+const claims = await getCollection('claims');
+const latestClaims = claims.sort((a, b) =>
+  b.data.publishedAt.getTime() - a.data.publishedAt.getTime()
+).slice(0, 3);
+---
+
+<BaseLayout title="Evidenzbasierte Longevity-Supplement-Bewertungen">
+
+  <!-- Hero -->
+  <section class="bg-white border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 py-16">
+      <p class="text-sm font-medium text-teal-600 mb-3">Für Deutschland. Kostenlos. Ohne Paywall.</p>
+      <h1 class="text-4xl font-bold text-slate-900 mb-4 max-w-2xl leading-tight">
+        Longevity-Supplements — was sagen die Studien wirklich?
+      </h1>
+      <p class="text-lg text-slate-600 max-w-2xl mb-8">
+        Wir bewerten NMN, Resveratrol, Spermidine & Co. nach EU-Regulatorik und Studienlage.
+        Kein Hype, keine Interessenskonflikte — nur die Evidenz.
+      </p>
+      <div class="flex gap-3">
+        <a href="/wirkstoffe" class="bg-teal-600 text-white px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-teal-700 no-underline transition-colors">
+          Alle Wirkstoffe →
+        </a>
+        <a href="/methodik" class="border border-slate-300 text-slate-700 px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-slate-50 no-underline transition-colors">
+          Wie wir bewerten
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works (3 pillars) -->
+  <section class="max-w-5xl mx-auto px-4 py-12">
+    <h2 class="text-xl font-semibold text-slate-800 mb-8">Wie LongevityCheck funktioniert</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-xl border border-slate-200 p-6">
+        <div class="text-2xl mb-3">🔬</div>
+        <h3 class="font-semibold mb-2">Wirkstoff-Dossier</h3>
+        <p class="text-sm text-slate-600">Was sagen RCTs, Metaanalysen und Behörden (EFSA, BfR) zu jedem Wirkstoff? Evidenzstufe klar ausgewiesen.</p>
+      </div>
+      <div class="bg-white rounded-xl border border-slate-200 p-6">
+        <div class="text-2xl mb-3">💶</div>
+        <h3 class="font-semibold mb-2">Produktvergleich</h3>
+        <p class="text-sm text-slate-600">Konkrete Produkte bewertet nach Preis/Tagesdosis, Reinheit, Zertifizierung und Label-Ehrlichkeit.</p>
+      </div>
+      <div class="bg-white rounded-xl border border-slate-200 p-6">
+        <div class="text-2xl mb-3">🧾</div>
+        <h3 class="font-semibold mb-2">Claims-Check</h3>
+        <p class="text-sm text-slate-600">„NMN verlängert das Leben" — stimmt das? Wir überprüfen Marketing-Aussagen gegen die Studienlage.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wirkstoffe grid -->
+  <section class="max-w-5xl mx-auto px-4 py-8">
+    <div class="flex justify-between items-baseline mb-6">
+      <h2 class="text-xl font-semibold text-slate-800">Wirkstoff-Dossiers</h2>
+      <a href="/wirkstoffe" class="text-sm text-teal-600 hover:text-teal-800">Alle anzeigen →</a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      {ingredients.map(ing => (
+        <a
+          href={`/wirkstoffe/${ing.data.slug}`}
+          class="bg-white rounded-xl border border-slate-200 p-5 hover:border-teal-400 hover:shadow-sm transition-all no-underline group"
+        >
+          <div class="flex justify-between items-start mb-3">
+            <h3 class="font-semibold text-slate-800 group-hover:text-teal-700 text-sm">{ing.data.title}</h3>
+            <EvidenceBadge level={ing.data.evidenceLevel} showLabel={false} />
+          </div>
+          <p class="text-xs text-slate-500 leading-relaxed">{ing.data.summary}</p>
+        </a>
+      ))}
+      <!-- Placeholder cards for upcoming content -->
+      {['Resveratrol', 'Spermidine', 'Quercetin', 'Berberine', 'CoQ10'].map(name => (
+        <div class="bg-slate-50 rounded-xl border border-dashed border-slate-300 p-5">
+          <p class="text-sm font-medium text-slate-400">{name}</p>
+          <p class="text-xs text-slate-400 mt-1">Dossier in Arbeit</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Latest Claims-Checks -->
+  <section class="max-w-5xl mx-auto px-4 py-8">
+    <div class="flex justify-between items-baseline mb-6">
+      <h2 class="text-xl font-semibold text-slate-800">Aktuelle Claims-Checks</h2>
+      <a href="/claims" class="text-sm text-teal-600 hover:text-teal-800">Alle →</a>
+    </div>
+    <div class="space-y-3">
+      {latestClaims.map(claim => (
+        <a
+          href={`/claims/${claim.data.slug}`}
+          class="flex items-center justify-between bg-white rounded-xl border border-slate-200 px-5 py-4 hover:border-teal-400 transition-all no-underline group"
+        >
+          <span class="text-sm text-slate-700 group-hover:text-teal-700">„{claim.data.title}"</span>
+          <VerdictBadge verdict={claim.data.verdict} />
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <section class="max-w-5xl mx-auto px-4 py-8">
+    <div class="bg-teal-50 border border-teal-200 rounded-xl p-6">
+      <h2 class="font-semibold text-teal-900 mb-2">Unsere Quellen</h2>
+      <p class="text-sm text-teal-800 mb-4">Wir beziehen uns ausschließlich auf öffentlich zugängliche, zitierfähige Quellen:</p>
+      <div class="flex flex-wrap gap-3 text-xs">
+        {['PubMed / PMC', 'NIH ODS Fact Sheets', 'Cochrane Reviews', 'EFSA Health Claims Register', 'BfR Deutschland', 'Labdoor', 'Informed-Sport'].map(source => (
+          <span class="bg-white border border-teal-300 text-teal-700 rounded-full px-3 py-1">{source}</span>
+        ))}
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
