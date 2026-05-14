@@ -7,7 +7,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: 'https://mikroscore.de',
+  site: 'https://mikroscore.com',
   i18n: {
     defaultLocale: 'de',
     locales: ['de', 'en'],
