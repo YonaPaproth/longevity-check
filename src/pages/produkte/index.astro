@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import RatingBar from '../../components/RatingBar.astro';
 import VerdictBadge from '../../components/VerdictBadge.astro';
 import { getCollection } from 'astro:content';
+import { compositeScore } from '../../utils/scoring';
 
 const products = await getCollection('products');
 const filterIngredient = Astro.url.searchParams.get('wirkstoff');
@@ -21,14 +22,7 @@ const filtered = filterIngredient
     <div class="grid grid-cols-1 gap-6">
       {filtered.map(product => {
         const d = product.data;
-        const scores = d.ratings;
-        const compositeScore = (
-          scores.evidenceForIngredient.score * 0.10 +
-          scores.valueForMoney.score * 0.30 +
-          scores.productQuality.score * 0.25 +
-          scores.labelHonesty.score * 0.20 +
-          scores.thirdPartyTesting.score * 0.15
-        );
+        const score = compositeScore(d.ratings);
 
         return (
           <div class="bg-white rounded-xl border border-slate-200 p-6">
@@ -40,7 +34,7 @@ const filtered = filterIngredient
               <div class="flex flex-col items-end gap-2">
                 <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
                 <span class="text-xs text-slate-400">
-                  Consumer Score: <strong class="text-slate-700">{compositeScore.toFixed(1)}/10</strong>
+                  Consumer Score: <strong class="text-slate-700">{score.toFixed(1)}/10</strong>
                 </span>
               </div>
             </div>
@@ -48,29 +42,29 @@ const filtered = filterIngredient
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 mb-5">
               <RatingBar
                 label="Evidenz für Wirkstoff"
-                score={scores.evidenceForIngredient.score}
-                explanation={scores.evidenceForIngredient.explanation}
+                score={d.ratings.evidenceForIngredient.score}
+                explanation={d.ratings.evidenceForIngredient.explanation}
                 highlight={true}
               />
               <RatingBar
                 label="Preis/Leistung"
-                score={scores.valueForMoney.score}
-                explanation={scores.valueForMoney.explanation}
+                score={d.ratings.valueForMoney.score}
+                explanation={d.ratings.valueForMoney.explanation}
               />
               <RatingBar
                 label="Produktqualität"
-                score={scores.productQuality.score}
-                explanation={scores.productQuality.explanation}
+                score={d.ratings.productQuality.score}
+                explanation={d.ratings.productQuality.explanation}
               />
               <RatingBar
                 label="Label-Ehrlichkeit"
-                score={scores.labelHonesty.score}
-                explanation={scores.labelHonesty.explanation}
+                score={d.ratings.labelHonesty.score}
+                explanation={d.ratings.labelHonesty.explanation}
               />
               <RatingBar
                 label="Drittanbieter-Tests"
-                score={scores.thirdPartyTesting.score}
-                explanation={scores.thirdPartyTesting.explanation}
+                score={d.ratings.thirdPartyTesting.score}
+                explanation={d.ratings.thirdPartyTesting.explanation}
               />
             </div>
 

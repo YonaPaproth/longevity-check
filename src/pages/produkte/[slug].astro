@@ -1,0 +1,126 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import RatingBar from '../../components/RatingBar.astro';
+import VerdictBadge from '../../components/VerdictBadge.astro';
+import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import { getCollection, render } from 'astro:content';
+import { compositeScore } from '../../utils/scoring';
+
+export async function getStaticPaths() {
+  const products = await getCollection('products');
+  return products.map(entry => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+
+const score = compositeScore(d.ratings);
+
+// Load linked ingredient for cross-reference
+const ingredients = await getCollection('ingredients');
+const ingredient = ingredients.find(i => i.data.slug === d.ingredient);
+---
+
+<BaseLayout title={d.title} description={d.summary}>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+
+    <!-- Breadcrumb -->
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/produkte" class="hover:text-teal-600">Produkte</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">{d.title}</span>
+    </nav>
+
+    <!-- Header -->
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-slate-900 mb-1">{d.title}</h1>
+      <p class="text-slate-500 mb-4">{d.vendor} · {d.doseMg} mg · {d.pricePerDayEur.toFixed(2)} €/Tag</p>
+      <div class="flex flex-wrap gap-3 items-center">
+        <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
+        <span class="text-sm text-slate-500">
+          Consumer Score: <strong class="text-slate-800">{score.toFixed(1)}/10</strong>
+        </span>
+      </div>
+    </div>
+
+    <!-- Rating breakdown -->
+    <div class="bg-white border border-slate-200 rounded-xl p-6 mb-8">
+      <h2 class="text-base font-semibold text-slate-800 mb-5">Bewertung im Detail</h2>
+      <div class="space-y-4">
+        <RatingBar
+          label="Evidenz für Wirkstoff"
+          score={d.ratings.evidenceForIngredient.score}
+          explanation={d.ratings.evidenceForIngredient.explanation}
+          highlight={true}
+        />
+        <RatingBar
+          label="Preis/Leistung"
+          score={d.ratings.valueForMoney.score}
+          explanation={d.ratings.valueForMoney.explanation}
+        />
+        <RatingBar
+          label="Produktqualität"
+          score={d.ratings.productQuality.score}
+          explanation={d.ratings.productQuality.explanation}
+        />
+        <RatingBar
+          label="Label-Ehrlichkeit"
+          score={d.ratings.labelHonesty.score}
+          explanation={d.ratings.labelHonesty.explanation}
+        />
+        <RatingBar
+          label="Drittanbieter-Tests"
+          score={d.ratings.thirdPartyTesting.score}
+          explanation={d.ratings.thirdPartyTesting.explanation}
+        />
+      </div>
+    </div>
+
+    <!-- Certifications -->
+    {d.certifications.length > 0 && (
+      <div class="flex gap-2 flex-wrap mb-6">
+        {d.certifications.map(cert => (
+          <span class="text-xs bg-emerald-100 text-emerald-700 rounded-full px-3 py-1 font-medium">{cert}</span>
+        ))}
+      </div>
+    )}
+
+    <!-- Affiliate link + affiliate disclosure -->
+    {d.affiliateUrl && (
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 mb-8 flex items-center justify-between gap-4">
+        <p class="text-xs text-slate-500">Affiliate-Link: Wir erhalten eine kleine Provision, wenn du über diesen Link kaufst – am Preis ändert sich nichts.</p>
+        <a href={d.affiliateUrl} target="_blank" rel="noopener sponsored noreferrer"
+           class="shrink-0 bg-teal-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-teal-700 no-underline transition-colors">
+          Preis prüfen ↗
+        </a>
+      </div>
+    )}
+
+    <!-- Full review content -->
+    <article class="prose max-w-none mb-10">
+      <Content />
+    </article>
+
+    <!-- Linked ingredient -->
+    {ingredient && (
+      <div class="bg-teal-50 border border-teal-200 rounded-xl p-5">
+        <div class="flex justify-between items-start mb-2">
+          <p class="text-sm font-semibold text-teal-900">Wirkstoff: {ingredient.data.title}</p>
+          <EvidenceBadge level={ingredient.data.evidenceLevel} />
+        </div>
+        <p class="text-sm text-teal-700 mb-3">{ingredient.data.evidenceSummary}</p>
+        <a href={`/wirkstoffe/${ingredient.data.slug}`}
+           class="text-sm text-teal-600 hover:text-teal-800 font-medium no-underline">
+          Vollständiges Wirkstoff-Dossier lesen →
+        </a>
+      </div>
+    )}
+
+  </div>
+</BaseLayout>

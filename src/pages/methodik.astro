@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { WEIGHTS } from '../utils/scoring';
 ---
 
 <BaseLayout title="Methodik" description="Wie MikroScore Supplements bewertet: transparent und nachvollziehbar.">
@@ -33,11 +34,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <tr><th>Dimension</th><th>Gewicht</th><th>Was gemessen wird</th></tr>
         </thead>
         <tbody>
-          <tr><td>Evidenz für Wirkstoff</td><td>10 %</td><td>Humanstudien, Studienlage für diesen Wirkstoff</td></tr>
-          <tr><td>Preis/Leistung</td><td>30 %</td><td>€ pro Tagesdosis (Studiendosis als Referenz)</td></tr>
-          <tr><td>Produktqualität</td><td>25 %</td><td>Reinheit, Stabilität, Verarbeitung</td></tr>
-          <tr><td>Label-Ehrlichkeit</td><td>20 %</td><td>Sind Claims EFSA-konform? Keine Fantasie-Versprechen?</td></tr>
-          <tr><td>Drittanbieter-Tests</td><td>15 %</td><td>NSF, Informed-Sport, Labdoor, eigene CoA</td></tr>
+          <tr><td>Evidenz für Wirkstoff</td><td>{WEIGHTS.evidenceForIngredient * 100} %</td><td>Humanstudien, Studienlage für diesen Wirkstoff</td></tr>
+          <tr><td>Preis/Leistung</td><td>{WEIGHTS.valueForMoney * 100} %</td><td>€ pro Tagesdosis (Studiendosis als Referenz)</td></tr>
+          <tr><td>Produktqualität</td><td>{WEIGHTS.productQuality * 100} %</td><td>Reinheit, Stabilität, Verarbeitung</td></tr>
+          <tr><td>Label-Ehrlichkeit</td><td>{WEIGHTS.labelHonesty * 100} %</td><td>Sind Claims EFSA-konform? Keine Fantasie-Versprechen?</td></tr>
+          <tr><td>Drittanbieter-Tests</td><td>{WEIGHTS.thirdPartyTesting * 100} %</td><td>NSF, Informed-Sport, Labdoor, eigene CoA</td></tr>
         </tbody>
       </table>
 

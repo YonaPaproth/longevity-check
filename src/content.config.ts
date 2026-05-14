@@ -3,6 +3,10 @@ import { glob } from 'astro/loaders';
 
 // ── Reusable sub-schemas ──────────────────────────────────────────────────────
 
+const slug = z.string().min(1).max(100).regex(/^[a-z0-9-]+$/, {
+  message: 'Slug darf nur Kleinbuchstaben, Ziffern und Bindestriche enthalten',
+});
+
 const ratingDimension = z.object({
   score: z.number().min(0).max(10),
   explanation: z.string(),
@@ -21,7 +25,7 @@ const ingredients = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/ingredients' }),
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
+    slug,
     aliases: z.array(z.string()),
     category: z.enum(['nad-precursors', 'senolytics', 'antioxidants', 'adaptogens', 'metabolic', 'other']),
     summary: z.string().max(200),
@@ -50,7 +54,7 @@ const products = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/products' }),
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
+    slug,
     ingredient: z.string(),
     vendor: z.string(),
     vendorUrl: z.string().url().optional(),
@@ -85,7 +89,7 @@ const claims = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/claims' }),
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
+    slug,
     ingredient: z.string().optional(),
     verdict: z.enum(['belegt', 'uebertrieben', 'falsch', 'zu-frueh']),
     verdictNote: z.string(),
