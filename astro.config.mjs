@@ -7,7 +7,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: 'https://longevitycheck.de',
+  site: 'https://mikroscore.de',
   i18n: {
     defaultLocale: 'de',
     locales: ['de', 'en'],
