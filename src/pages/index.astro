@@ -9,6 +9,11 @@ const claims = await getCollection('claims');
 const latestClaims = claims.sort((a, b) =>
   b.data.publishedAt.getTime() - a.data.publishedAt.getTime()
 ).slice(0, 3);
+
+// For the preview grid: show top 6 by evidenceLevel ascending (best evidence first)
+const previewIngredients = [...ingredients]
+  .sort((a, b) => Number(a.data.evidenceLevel) - Number(b.data.evidenceLevel))
+  .slice(0, 6);
 ---
 
 <BaseLayout title="Evidenzbasierte Longevity-Supplement-Bewertungen">
@@ -19,35 +24,52 @@ const latestClaims = claims.sort((a, b) =>
       <h1 class="text-4xl font-bold text-slate-900 mb-4 max-w-2xl leading-tight">
         Supplements ehrlich bewertet,<br />bevor du kaufst.
       </h1>
-      <p class="text-lg text-slate-600 max-w-2xl mb-8">
-        Wir bewerten NMN, Resveratrol, Spermidine & Co. nach EU-Regulatorik und Studienlage.
-        Kein Hype, keine Interessenkonflikte. Nur die Evidenz.
+      <p class="text-lg text-slate-600 max-w-xl mb-8">
+        NMN, Ashwagandha, Curcumin &amp; Co. — bewertet nach EU-Regulatorik und Studienlage.
+        Kein Hype, keine Interessenkonflikte.
       </p>
-      <div class="flex gap-3">
+      <div class="flex gap-3 flex-wrap">
         <a href="/wirkstoffe" class="bg-teal-600 text-white px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-teal-700 no-underline transition-colors">
-          Alle Wirkstoffe →
+          Alle {ingredients.length} Wirkstoffe →
         </a>
         <a href="/methodik" class="border border-slate-300 text-slate-700 px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-slate-50 no-underline transition-colors">
           Wie wir bewerten
         </a>
+      </div>
+
+      <!-- Stats bar -->
+      <div class="flex flex-wrap gap-6 mt-10 text-sm text-slate-500">
+        <div>
+          <span class="text-2xl font-bold text-slate-900">{ingredients.length}</span>
+          <span class="ml-1.5">Wirkstoff-Dossiers</span>
+        </div>
+        <div>
+          <span class="text-2xl font-bold text-slate-900">{claims.length}</span>
+          <span class="ml-1.5">Claims gecheckt</span>
+        </div>
+        <div>
+          <span class="text-2xl font-bold text-slate-900">0€</span>
+          <span class="ml-1.5">Paywall</span>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- How it works (3 pillars) -->
   <section class="max-w-5xl mx-auto px-4 py-12">
-    <h2 class="text-xl font-semibold text-slate-800 mb-8">Wie MikroScore funktioniert</h2>
+    <h2 class="text-xl font-semibold text-slate-800 mb-6">So funktioniert MikroScore</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-teal-50 rounded-xl border border-teal-300 p-6">
+      <div class="bg-teal-50 rounded-xl border border-teal-200 p-6">
         <div class="text-2xl mb-3">🥦</div>
         <h3 class="font-semibold mb-2">Ernährungs-Check</h3>
-        <p class="text-sm text-slate-600 mb-3">Welche Nährstoffe deckst du bereits durch deine Ernährung? Gib ein was du isst — wir zeigen dir die echten Lücken.</p>
+        <p class="text-sm text-slate-600 mb-3">10 Fragen — wir zeigen dir welche Nährstoffe du wahrscheinlich nicht deckst und was das bedeutet.</p>
         <a href="/ernaehrungs-check" class="text-sm font-medium text-teal-700 hover:text-teal-900 no-underline">Jetzt checken →</a>
       </div>
       <div class="bg-white rounded-xl border border-slate-200 p-6">
         <div class="text-2xl mb-3">🔬</div>
         <h3 class="font-semibold mb-2">Wirkstoff-Dossiers</h3>
-        <p class="text-sm text-slate-600">Was sagen RCTs (randomisierte Studien), Metaanalysen und Behörden (EFSA, BfR) zu jedem Wirkstoff? Evidenzstufe klar ausgewiesen.</p>
+        <p class="text-sm text-slate-600 mb-3">RCTs, Metaanalysen, EFSA- und BfR-Bewertungen — klar getrennt nach Evidenzstärke. Kein Marketing.</p>
+        <a href="/wirkstoffe" class="text-sm font-medium text-teal-700 hover:text-teal-900 no-underline">Alle {ingredients.length} Wirkstoffe →</a>
       </div>
       <div class="bg-white rounded-xl border border-slate-200 p-6">
         <div class="text-2xl mb-3">💶</div>
@@ -55,58 +77,58 @@ const latestClaims = claims.sort((a, b) =>
           <h3 class="font-semibold">Produktvergleich</h3>
           <span class="text-xs bg-amber-100 text-amber-700 rounded-full px-2 py-0.5 font-medium">im Aufbau</span>
         </div>
-        <p class="text-sm text-slate-600">Konkrete Produkte bewertet nach Preis/Tagesdosis, Reinheit, Zertifizierung und Label-Ehrlichkeit.</p>
+        <p class="text-sm text-slate-600">Konkrete Produkte nach Preis/Tagesdosis, Reinheit, Zertifizierung und Label-Ehrlichkeit.</p>
       </div>
     </div>
   </section>
 
-  <!-- Wirkstoffe grid -->
+  <!-- Wirkstoffe preview grid -->
   <section class="max-w-5xl mx-auto px-4 py-8">
     <div class="flex justify-between items-baseline mb-6">
-      <h2 class="text-xl font-semibold text-slate-800">Wirkstoff-Dossiers</h2>
-      <a href="/wirkstoffe" class="text-sm text-teal-600 hover:text-teal-800">Alle anzeigen →</a>
+      <h2 class="text-xl font-semibold text-slate-800">Zuletzt aktualisierte Dossiers</h2>
+      <a href="/wirkstoffe" class="text-sm text-teal-600 hover:text-teal-800 no-underline">Alle anzeigen →</a>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-      {ingredients.map(ing => (
+      {previewIngredients.map(ing => (
         <a
           href={`/wirkstoffe/${ing.data.slug}`}
           class="bg-white rounded-xl border border-slate-200 p-5 hover:border-teal-400 hover:shadow-sm transition-all no-underline group"
         >
           <div class="flex justify-between items-start mb-3">
-            <h3 class="font-semibold text-slate-800 group-hover:text-teal-700 text-sm">{ing.data.title}</h3>
+            <h3 class="font-semibold text-slate-800 group-hover:text-teal-700 text-sm pr-2">{ing.data.title}</h3>
             <EvidenceBadge level={ing.data.evidenceLevel} showLabel={false} />
           </div>
           <p class="text-xs text-slate-500 leading-relaxed">{ing.data.summary}</p>
         </a>
       ))}
-      <!-- Placeholder cards for upcoming content -->
-      {['Resveratrol', 'Spermidine', 'Quercetin', 'Berberine', 'CoQ10'].map(name => (
-        <div class="bg-slate-50 rounded-xl border border-dashed border-slate-300 p-5">
-          <p class="text-sm font-medium text-slate-400">{name}</p>
-          <p class="text-xs text-slate-400 mt-1">Dossier in Arbeit</p>
-        </div>
-      ))}
+    </div>
+    <div class="mt-4 text-center">
+      <a href="/wirkstoffe" class="inline-block text-sm border border-slate-300 text-slate-600 px-5 py-2 rounded-lg hover:bg-slate-50 no-underline transition-colors">
+        Alle {ingredients.length} Wirkstoffe mit Filter anzeigen →
+      </a>
     </div>
   </section>
 
   <!-- Latest Claims-Checks -->
-  <section class="max-w-5xl mx-auto px-4 py-8">
-    <div class="flex justify-between items-baseline mb-6">
-      <h2 class="text-xl font-semibold text-slate-800">Aktuelle Claims-Checks</h2>
-      <a href="/claims" class="text-sm text-teal-600 hover:text-teal-800">Alle →</a>
-    </div>
-    <div class="space-y-3">
-      {latestClaims.map(claim => (
-        <a
-          href={`/claims/${claim.data.slug}`}
-          class="flex items-center justify-between bg-white rounded-xl border border-slate-200 px-5 py-4 hover:border-teal-400 transition-all no-underline group"
-        >
-          <span class="text-sm text-slate-700 group-hover:text-teal-700">„{claim.data.title}"</span>
-          <VerdictBadge verdict={claim.data.verdict} />
-        </a>
-      ))}
-    </div>
-  </section>
+  {latestClaims.length > 0 && (
+    <section class="max-w-5xl mx-auto px-4 py-8">
+      <div class="flex justify-between items-baseline mb-6">
+        <h2 class="text-xl font-semibold text-slate-800">Aktuelle Claims-Checks</h2>
+        <a href="/claims" class="text-sm text-teal-600 hover:text-teal-800 no-underline">Alle →</a>
+      </div>
+      <div class="space-y-3">
+        {latestClaims.map(claim => (
+          <a
+            href={`/claims/${claim.data.slug}`}
+            class="flex items-center justify-between bg-white rounded-xl border border-slate-200 px-5 py-4 hover:border-teal-400 transition-all no-underline group"
+          >
+            <span class="text-sm text-slate-700 group-hover:text-teal-700">„{claim.data.title}"</span>
+            <VerdictBadge verdict={claim.data.verdict} />
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 
   <!-- Trust strip -->
   <section class="max-w-5xl mx-auto px-4 py-8">

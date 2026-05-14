@@ -4,44 +4,202 @@ import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import { getCollection } from 'astro:content';
 
 const ingredients = await getCollection('ingredients');
+
+const categoryLabels: Record<string, string> = {
+  'nad-precursors': 'NAD-Precursor',
+  'senolytics': 'Senolytics',
+  'antioxidants': 'Antioxidantien',
+  'adaptogens': 'Adaptogene',
+  'metabolic': 'Metabolisch',
+  'other': 'Sonstiges',
+};
+
+const evidenceLabels: Record<string, string> = {
+  '1': 'Starke Evidenz',
+  '2': 'Moderate Evidenz',
+  '3': 'Schwache Evidenz',
+  '4': 'Nur Tierstudien',
+  '5': 'Keine Studien',
+};
+
+const categories = [...new Set(ingredients.map(i => i.data.category))].sort();
+const evidenceLevels = [...new Set(ingredients.map(i => i.data.evidenceLevel))].sort();
 ---
 
-<BaseLayout title="Wirkstoff-Dossiers" description="Evidenzbasierte Übersicht aller Longevity-Wirkstoffe: NMN, Resveratrol, Spermidine und mehr.">
+<BaseLayout title="Wirkstoff-Dossiers" description="Evidenzbasierte Übersicht aller Longevity-Wirkstoffe: NMN, Resveratrol, Ashwagandha und mehr. Mit Evidenzstufe, Sicherheitsbewertung und EFSA-Status.">
   <div class="max-w-5xl mx-auto px-4 py-12">
-    <h1 class="text-3xl font-bold text-slate-900 mb-2">Wirkstoff-Dossiers</h1>
-    <p class="text-slate-600 mb-8">Was sagen die Studien wirklich? Alle Wirkstoffe mit Evidenzstufe, Sicherheitsbewertung und EFSA-Status.</p>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+    <!-- Header -->
+    <div class="mb-8">
+      <div class="flex items-baseline gap-3 mb-2">
+        <h1 class="text-3xl font-bold text-slate-900">Wirkstoff-Dossiers</h1>
+        <span class="text-sm text-slate-400">{ingredients.length} Wirkstoffe</span>
+      </div>
+      <p class="text-slate-600">Was sagen die Studien wirklich? Jedes Dossier mit Evidenzstufe, Sicherheitsbewertung und EU-Regulatorikstatus.</p>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="bg-white border border-slate-200 rounded-xl p-4 mb-6 space-y-3">
+
+      <!-- Search -->
+      <input
+        id="search"
+        type="search"
+        placeholder="Wirkstoff suchen…"
+        class="w-full text-sm border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-teal-400"
+      />
+
+      <!-- Category chips -->
+      <div class="flex flex-wrap gap-2">
+        <button
+          data-filter="category"
+          data-value="all"
+          class="filter-chip active text-xs rounded-full px-3 py-1 border font-medium transition-colors
+                 border-teal-500 bg-teal-500 text-white"
+        >
+          Alle Kategorien
+        </button>
+        {categories.map(cat => (
+          <button
+            data-filter="category"
+            data-value={cat}
+            class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors
+                   border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700"
+          >
+            {categoryLabels[cat] ?? cat}
+          </button>
+        ))}
+      </div>
+
+      <!-- Evidence chips -->
+      <div class="flex flex-wrap gap-2">
+        <button
+          data-filter="evidence"
+          data-value="all"
+          class="filter-chip active text-xs rounded-full px-3 py-1 border font-medium transition-colors
+                 border-teal-500 bg-teal-500 text-white"
+        >
+          Alle Evidenzstufen
+        </button>
+        {evidenceLevels.map(lvl => (
+          <button
+            data-filter="evidence"
+            data-value={lvl}
+            class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors
+                   border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700"
+          >
+            {evidenceLabels[lvl] ?? lvl}
+          </button>
+        ))}
+      </div>
+
+    </div>
+
+    <!-- Results count -->
+    <p id="results-count" class="text-xs text-slate-400 mb-4">{ingredients.length} Einträge</p>
+
+    <!-- Grid -->
+    <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 gap-5">
       {ingredients.map(ing => (
         <a
           href={`/wirkstoffe/${ing.data.slug}`}
-          class="bg-white rounded-xl border border-slate-200 p-6 hover:border-teal-400 hover:shadow-sm transition-all no-underline group"
+          data-category={ing.data.category}
+          data-evidence={ing.data.evidenceLevel}
+          data-title={ing.data.title.toLowerCase()}
+          data-aliases={(ing.data.aliases ?? []).join(' ').toLowerCase()}
+          class="ingredient-card bg-white rounded-xl border border-slate-200 p-6 hover:border-teal-400 hover:shadow-sm transition-all no-underline group"
         >
           <div class="flex justify-between items-start mb-3">
-            <h2 class="font-semibold text-slate-800 group-hover:text-teal-700">{ing.data.title}</h2>
+            <h2 class="font-semibold text-slate-800 group-hover:text-teal-700 pr-2">{ing.data.title}</h2>
             <EvidenceBadge level={ing.data.evidenceLevel} />
           </div>
           <p class="text-sm text-slate-500 mb-4 leading-relaxed">{ing.data.summary}</p>
-          <div class="flex gap-2 text-xs">
+          <div class="flex gap-2 text-xs flex-wrap">
+            <span class="rounded-full px-2 py-0.5 font-medium bg-slate-100 text-slate-600">
+              {categoryLabels[ing.data.category] ?? ing.data.category}
+            </span>
             <span class:list={[
               'rounded-full px-2 py-0.5 font-medium',
               ing.data.efsa_health_claims_allowed
                 ? 'bg-emerald-100 text-emerald-700'
-                : 'bg-red-100 text-red-700'
+                : 'bg-slate-100 text-slate-500'
             ]}>
-              EFSA Claims: {ing.data.efsa_health_claims_allowed ? 'zugelassen' : 'keine'}
+              EFSA: {ing.data.efsa_health_claims_allowed ? 'zugelassen' : 'keine Claims'}
             </span>
             <span class:list={[
               'rounded-full px-2 py-0.5 font-medium',
               ing.data.safety_rating === 'safe' ? 'bg-emerald-100 text-emerald-700' :
-              ing.data.safety_rating === 'likely-safe' ? 'bg-yellow-100 text-yellow-700' :
-              'bg-red-100 text-red-700'
+              ing.data.safety_rating === 'likely-safe' ? 'bg-amber-100 text-amber-700' :
+              ing.data.safety_rating === 'caution' ? 'bg-orange-100 text-orange-700' :
+              'bg-slate-100 text-slate-500'
             ]}>
-              {ing.data.safety_rating}
+              {ing.data.safety_rating === 'safe' ? 'Sicher' :
+               ing.data.safety_rating === 'likely-safe' ? 'Wahrsch. sicher' :
+               ing.data.safety_rating === 'caution' ? 'Vorsicht' :
+               'Datenlage offen'}
             </span>
           </div>
         </a>
       ))}
     </div>
+
+    <!-- Empty state -->
+    <p id="empty-state" class="hidden text-center text-slate-400 py-16 text-sm">
+      Kein Wirkstoff gefunden. Versuch einen anderen Filter.
+    </p>
+
   </div>
 </BaseLayout>
+
+<script>
+  const searchInput = document.getElementById('search') as HTMLInputElement;
+  const grid = document.getElementById('grid')!;
+  const cards = Array.from(grid.querySelectorAll<HTMLElement>('.ingredient-card'));
+  const countEl = document.getElementById('results-count')!;
+  const emptyEl = document.getElementById('empty-state')!;
+
+  let activeCategory = 'all';
+  let activeEvidence = 'all';
+
+  function applyFilters() {
+    const q = searchInput.value.trim().toLowerCase();
+    let visible = 0;
+
+    cards.forEach(card => {
+      const matchCat = activeCategory === 'all' || card.dataset.category === activeCategory;
+      const matchEv  = activeEvidence === 'all' || card.dataset.evidence === activeEvidence;
+      const matchQ   = !q || card.dataset.title!.includes(q) || card.dataset.aliases!.includes(q);
+      const show = matchCat && matchEv && matchQ;
+      card.classList.toggle('hidden', !show);
+      if (show) visible++;
+    });
+
+    countEl.textContent = `${visible} ${visible === 1 ? 'Eintrag' : 'Einträge'}`;
+    emptyEl.classList.toggle('hidden', visible > 0);
+  }
+
+  // Chip toggle logic
+  document.querySelectorAll<HTMLButtonElement>('.filter-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filterGroup = btn.dataset.filter!;
+      const value = btn.dataset.value!;
+
+      // Deactivate siblings
+      document.querySelectorAll<HTMLButtonElement>(`.filter-chip[data-filter="${filterGroup}"]`).forEach(b => {
+        b.classList.remove('active', 'border-teal-500', 'bg-teal-500', 'text-white');
+        b.classList.add('border-slate-300', 'bg-white', 'text-slate-600');
+      });
+
+      // Activate clicked
+      btn.classList.add('active', 'border-teal-500', 'bg-teal-500', 'text-white');
+      btn.classList.remove('border-slate-300', 'bg-white', 'text-slate-600');
+
+      if (filterGroup === 'category') activeCategory = value;
+      if (filterGroup === 'evidence') activeEvidence = value;
+
+      applyFilters();
+    });
+  });
+
+  searchInput.addEventListener('input', applyFilters);
+</script>
