@@ -91,15 +91,6 @@ const ingredient = ingredients.find(i => i.data.slug === d.ingredient);
       </div>
     )}
 
-    <!-- Affiliate link + affiliate disclosure -->
-    {d.affiliateUrl && (
-      <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 mb-8 flex items-center justify-between gap-4">
-        <p class="text-xs text-slate-500">Affiliate-Link: Wir erhalten eine kleine Provision, wenn du über diesen Link kaufst – am Preis ändert sich nichts.</p>
-        <a href={d.affiliateUrl} target="_blank" rel="noopener sponsored noreferrer"
-           class="shrink-0 bg-teal-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-teal-700 no-underline transition-colors">
-          Preis prüfen ↗
-        </a>
-      </div>
     )}
 
     <!-- Full review content -->
