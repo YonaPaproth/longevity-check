@@ -90,16 +90,16 @@ Ziel: Eine priorisierte Top‑100‑Liste für MikroScore. Diese Tabelle trackt,
 | 79 | Beta‑Glucan | beta-glucan | done | 2026-05-16 | |
 | 80 | Ginseng (Panax) | ginseng | done | 2026-05-16 | |
 | 81 | Ginkgo biloba | ginkgo | done | 2026-05-16 | |
-| 82 | Maca | maca | todo |  | |
-| 83 | Tongkat Ali | tongkat-ali | todo |  | |
-| 84 | Shilajit | shilajit | todo |  | |
-| 85 | Cistanche | cistanche | todo |  | |
-| 86 | Rutin | rutin | todo |  | |
-| 87 | Hesperidin | hesperidin | todo |  | |
-| 88 | Luteolin | luteolin | todo |  | |
-| 89 | Kaempferol | kaempferol | todo |  | |
-| 90 | Baicalin | baicalin | todo |  | |
-| 91 | Silymarin (Mariendistel) | silymarin | todo |  | |
+| 82 | Maca | maca | done | 2026-05-16 | |
+| 83 | Tongkat Ali | tongkat-ali | done | 2026-05-16 | |
+| 84 | Shilajit | shilajit | done | 2026-05-16 | |
+| 85 | Cistanche | cistanche | done | 2026-05-16 | |
+| 86 | Rutin | rutin | done | 2026-05-16 | |
+| 87 | Hesperidin | hesperidin | done | 2026-05-16 | |
+| 88 | Luteolin | luteolin | done | 2026-05-16 | |
+| 89 | Kaempferol | kaempferol | done | 2026-05-16 | |
+| 90 | Baicalin | baicalin | done | 2026-05-16 | |
+| 91 | Silymarin (Mariendistel) | silymarin | done | 2026-05-16 | |
 | 92 | Bacopa monnieri | bacopa | todo |  | |
 | 93 | Gotu Kola | gotu-kola | todo |  | |
 | 94 | Reishi | reishi | todo |  | |
