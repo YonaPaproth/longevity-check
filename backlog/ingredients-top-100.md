@@ -1,0 +1,111 @@
+# Top 100 Wirkstoffe – Backlog & Update-Tracking
+
+Ziel: Eine priorisierte Top‑100‑Liste für MikroScore. Diese Tabelle trackt, **welche Dossiers bereits existieren** und **wann sie zuletzt aktualisiert** wurden, damit wir später regelmäßig Updates prüfen können.
+
+**Konventionen**
+- `status`: `done` (Dossier vorhanden) oder `todo`
+- `last_updated`: Datum aus `publishedAt` (MDX Frontmatter) oder leer
+- Bitte bei Updates das Datum aktualisieren
+
+| # | Wirkstoff | slug | status | last_updated | notes |
+|---:|---|---|---|---|---|
+| 1 | NMN | nmn | done | 2026-05-14 | |
+| 2 | NR | nr | done | 2026-05-14 | |
+| 3 | Resveratrol | resveratrol | done | 2026-05-14 | |
+| 4 | Quercetin | quercetin | done | 2026-05-14 | |
+| 5 | Fisetin | fisetin | done | 2026-05-14 | |
+| 6 | Spermidin | spermidine | done | 2026-05-14 | |
+| 7 | Urolithin A | urolithin-a | done | 2026-05-14 | |
+| 8 | Sulforaphan | sulforaphan | done | 2026-05-14 | |
+| 9 | Berberin | berberine | done | 2026-05-14 | |
+| 10 | Curcumin | curcumin | done | 2026-05-14 | |
+| 11 | EGCG | egcg | done | 2026-05-14 | |
+| 12 | Pterostilben | pterostilben | done | 2026-05-14 | |
+| 13 | Apigenin | apigenin | done | 2026-05-14 | |
+| 14 | Astaxanthin | astaxanthin | done | 2026-05-14 | |
+| 15 | CoQ10 | coq10 | done | 2026-05-14 | |
+| 16 | Alpha‑Liponsäure | alpha-liponsaeure | done | 2026-05-14 | |
+| 17 | NAC | nac | done | 2026-05-14 | |
+| 18 | Glycin | glycin | done | 2026-05-14 | |
+| 19 | Taurin | taurin | done | 2026-05-14 | |
+| 20 | Kreatin | kreatin | done | 2026-05-14 | |
+| 21 | Kollagen | kollagen | done | 2026-05-14 | |
+| 22 | Omega‑3 | omega-3 | done | 2026-05-14 | |
+| 23 | Phosphatidylserin | phosphatidylserin | done | 2026-05-14 | |
+| 24 | Lutein + Zeaxanthin | lutein-zeaxanthin | done | 2026-05-14 | |
+| 25 | Magnesium | magnesium | done | 2026-05-14 | |
+| 26 | Zink | zink | done | 2026-05-14 | |
+| 27 | Selen | selen | done | 2026-05-14 | |
+| 28 | Jod | jod | done | 2026-05-14 | |
+| 29 | Vitamin C | vitamin-c | done | 2026-05-14 | |
+| 30 | Vitamin E | vitamin-e | done | 2026-05-14 | |
+| 31 | Vitamin K2 | vitamin-k2 | done | 2026-05-14 | |
+| 32 | Vitamin B12 | vitamin-b12 | done | 2026-05-14 | |
+| 33 | Vitamin D3 + K2 | vitamin-d3-k2 | done | 2026-05-14 | |
+| 34 | Melatonin | melatonin | done | 2026-05-14 | |
+| 35 | Ashwagandha | ashwagandha | done | 2026-05-14 | |
+| 36 | Rhodiola | rhodiola | done | 2026-05-14 | |
+| 37 | Lion’s Mane | lion-s-mane | done | 2026-05-14 | |
+| 38 | 5‑HTP | 5-htp | done | 2026-05-14 | |
+| 39 | Myo‑Inositol | myo-inositol | done | 2026-05-14 | |
+| 40 | Probiotika | probiotika | done | 2026-05-14 | |
+| 41 | Folsäure | folsaeure | done | 2026-05-14 | |
+| 42 | Vitamin A | vitamin-a | todo |  | |
+| 43 | Vitamin B1 (Thiamin) | vitamin-b1 | todo |  | |
+| 44 | Vitamin B2 (Riboflavin) | vitamin-b2 | todo |  | |
+| 45 | Vitamin B3 (Niacin) | vitamin-b3 | todo |  | |
+| 46 | Vitamin B5 (Pantothensäure) | vitamin-b5 | todo |  | |
+| 47 | Vitamin B6 | vitamin-b6 | todo |  | |
+| 48 | Vitamin B7 (Biotin) | vitamin-b7 | todo |  | |
+| 49 | Vitamin K1 | vitamin-k1 | todo |  | |
+| 50 | Calcium | calcium | todo |  | |
+| 51 | Eisen | eisen | todo |  | |
+| 52 | Kupfer | kupfer | todo |  | |
+| 53 | Mangan | mangan | todo |  | |
+| 54 | Chrom | chrom | todo |  | |
+| 55 | Molybdän | molybdaen | todo |  | |
+| 56 | Kalium | kalium | todo |  | |
+| 57 | Phosphor | phosphor | todo |  | |
+| 58 | Bor | bor | todo |  | |
+| 59 | Silicium | silicium | todo |  | |
+| 60 | Lithium (Orotat) | lithium-orotat | todo |  | |
+| 61 | Alpha‑Ketoglutarat (AKG) | akg | todo |  | |
+| 62 | TMG (Trimethylglycin) | tmg | todo |  | |
+| 63 | Cholin | cholin | todo |  | |
+| 64 | Alpha‑GPC | alpha-gpc | todo |  | |
+| 65 | CDP‑Cholin | cdp-cholin | todo |  | |
+| 66 | L‑Carnitin | l-carnitin | todo |  | |
+| 67 | Acetyl‑L‑Carnitin | acetyl-l-carnitin | todo |  | |
+| 68 | PQQ | pqq | todo |  | |
+| 69 | Glutathion | glutathion | todo |  | |
+| 70 | MSM | msm | todo |  | |
+| 71 | Glucosamin | glucosamin | todo |  | |
+| 72 | Hyaluronsäure | hyaluronsaeure | todo |  | |
+| 73 | L‑Theanin | l-theanin | todo |  | |
+| 74 | GABA | gaba | todo |  | |
+| 75 | L‑Tryptophan | l-tryptophan | todo |  | |
+| 76 | SAMe | same | todo |  | |
+| 77 | Inulin (Prebiotikum) | inulin | todo |  | |
+| 78 | Flohsamenschalen (Psyllium) | flohsamenschalen | todo |  | |
+| 79 | Beta‑Glucan | beta-glucan | todo |  | |
+| 80 | Ginseng (Panax) | ginseng | todo |  | |
+| 81 | Ginkgo biloba | ginkgo | todo |  | |
+| 82 | Maca | maca | todo |  | |
+| 83 | Tongkat Ali | tongkat-ali | todo |  | |
+| 84 | Shilajit | shilajit | todo |  | |
+| 85 | Cistanche | cistanche | todo |  | |
+| 86 | Rutin | rutin | todo |  | |
+| 87 | Hesperidin | hesperidin | todo |  | |
+| 88 | Luteolin | luteolin | todo |  | |
+| 89 | Kaempferol | kaempferol | todo |  | |
+| 90 | Baicalin | baicalin | todo |  | |
+| 91 | Silymarin (Mariendistel) | silymarin | todo |  | |
+| 92 | Bacopa monnieri | bacopa | todo |  | |
+| 93 | Gotu Kola | gotu-kola | todo |  | |
+| 94 | Reishi | reishi | todo |  | |
+| 95 | Cordyceps | cordyceps | todo |  | |
+| 96 | Schisandra | schisandra | todo |  | |
+| 97 | Astragalus | astragalus | todo |  | |
+| 98 | Piperin | piperin | todo |  | |
+| 99 | Beta‑Alanin | beta-alanin | todo |  | |
+| 100 | Vitamin D3 | vitamin-d3 | todo |  | |
