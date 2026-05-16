@@ -7,21 +7,21 @@ interface Props {
 const { verdict, note } = Astro.props;
 
 const config = {
-  'empfehlenswert':       { label: 'Empfehlenswert',        style: 'bg-emerald-100 text-emerald-800 border-emerald-300' },
-  'akzeptabel':           { label: 'Akzeptabel',            style: 'bg-yellow-100 text-yellow-800 border-yellow-300' },
-  'nicht-empfehlenswert': { label: 'Nicht empfehlenswert',  style: 'bg-red-100 text-red-800 border-red-300' },
-  'belegt':               { label: '✓ Belegt',              style: 'bg-emerald-100 text-emerald-800 border-emerald-300' },
-  'uebertrieben':         { label: '~ Übertrieben',         style: 'bg-yellow-100 text-yellow-800 border-yellow-300' },
-  'falsch':               { label: '✗ Falsch',              style: 'bg-red-100 text-red-800 border-red-300' },
-  'zu-frueh':             { label: '? Zu früh',             style: 'bg-slate-100 text-slate-700 border-slate-300' },
+  'empfehlenswert':       { label: 'Empfehlenswert',        style: 'bg-emerald-50 text-emerald-700 ring-1 ring-inset ring-emerald-200' },
+  'akzeptabel':           { label: 'Akzeptabel',            style: 'bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-200' },
+  'nicht-empfehlenswert': { label: 'Nicht empfehlenswert',  style: 'bg-red-50 text-red-700 ring-1 ring-inset ring-red-200' },
+  'belegt':               { label: '✓ Belegt',              style: 'bg-emerald-50 text-emerald-700 ring-1 ring-inset ring-emerald-200' },
+  'uebertrieben':         { label: 'Übertrieben',           style: 'bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-200' },
+  'falsch':               { label: '✗ Falsch',              style: 'bg-red-50 text-red-700 ring-1 ring-inset ring-red-200' },
+  'zu-frueh':             { label: 'Zu früh',               style: 'bg-slate-50 text-slate-700 ring-1 ring-inset ring-slate-200' },
 } as const;
 
 const { label, style } = config[verdict];
 ---
 
-<div class="inline-flex flex-col gap-1.5">
-  <span class:list={['inline-flex items-center rounded-lg border px-3 py-1.5 text-sm font-semibold', style]}>
+<div class="inline-flex max-w-md flex-col gap-2">
+  <span class:list={['inline-flex w-fit items-center rounded-full px-2.5 py-1 text-[11px] font-semibold tracking-normal whitespace-nowrap', style]}>
     {label}
   </span>
-  {note && <span class="text-xs text-slate-500 leading-relaxed">{note}</span>}
+  {note && <span class="text-sm text-slate-600 leading-relaxed">{note}</span>}
 </div>
