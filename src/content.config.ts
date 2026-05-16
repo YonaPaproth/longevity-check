@@ -74,6 +74,11 @@ const products = defineCollection({
       labelHonesty:          ratingDimension,
       thirdPartyTesting:     ratingDimension,
     }),
+    form: z.enum(['capsule', 'powder', 'liquid', 'gummy', 'softgel', 'tablet']).default('capsule'),
+    availableInDE: z.boolean().default(true),
+    lastPriceCheck: z.coerce.date().optional(),
+    amazonAsin: z.string().optional(),
+    iherbId: z.string().optional(),
     certifications: z.array(z.enum([
       'informed-sport', 'informed-choice', 'nsf', 'usp',
       'labdoor-verified', 'oekotest', 'stiftung-warentest',

@@ -19,7 +19,9 @@ const config = {
 const { label, style } = config[verdict];
 ---
 
-<div class:list={['inline-flex flex-col gap-0.5 rounded-lg border px-3 py-2', style]}>
-  <span class="text-sm font-semibold">{label}</span>
-  {note && <span class="text-xs">{note}</span>}
+<div class="inline-flex flex-col gap-1.5">
+  <span class:list={['inline-flex items-center rounded-lg border px-3 py-1.5 text-sm font-semibold', style]}>
+    {label}
+  </span>
+  {note && <span class="text-xs text-slate-500 leading-relaxed">{note}</span>}
 </div>

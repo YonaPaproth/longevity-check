@@ -17,99 +17,288 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const d = entry.data;
-
 const score = compositeScore(d.ratings);
 
-// Load linked ingredient for cross-reference
+const allProducts = await getCollection('products');
 const ingredients = await getCollection('ingredients');
 const ingredient = ingredients.find(i => i.data.slug === d.ingredient);
+const siblingProducts = allProducts
+  .filter(p => p.data.ingredient === d.ingredient && p.data.slug !== d.slug)
+  .sort((a, b) => compositeScore(b.data.ratings) - compositeScore(a.data.ratings));
+
+const formLabel: Record<string, string> = {
+  capsule: 'Kapsel', powder: 'Pulver', liquid: 'Flüssig',
+  gummy: 'Gummi', softgel: 'Softgel', tablet: 'Tablette',
+};
+
+const verdictGradient: Record<string, string> = {
+  'empfehlenswert':       'from-teal-400 to-emerald-500',
+  'akzeptabel':           'from-amber-400 to-orange-400',
+  'nicht-empfehlenswert': 'from-red-400 to-rose-500',
+};
+
+const verdictScoreColor: Record<string, string> = {
+  'empfehlenswert':       'text-teal-600',
+  'akzeptabel':           'text-amber-600',
+  'nicht-empfehlenswert': 'text-red-600',
+};
+
+const certLabel: Record<string, string> = {
+  'informed-sport':   'Informed Sport',
+  'informed-choice':  'Informed Choice',
+  'nsf':              'NSF Certified',
+  'usp':              'USP Verified',
+  'labdoor-verified': 'Labdoor Verified',
+  'oekotest':         'Öko-Test',
+  'stiftung-warentest': 'Stiftung Warentest',
+};
+
+const priceChecked = d.lastPriceCheck
+  ? new Date(d.lastPriceCheck).toLocaleDateString('de-DE', { day: 'numeric', month: 'short', year: 'numeric' })
+  : null;
 ---
 
 <BaseLayout title={d.title} description={d.summary}>
-  <div class="max-w-3xl mx-auto px-4 py-10">
+  <div class="max-w-5xl mx-auto px-4 py-10">
 
     <!-- Breadcrumb -->
-    <nav class="text-xs text-slate-400 mb-6">
+    <nav class="text-xs text-slate-400 mb-8">
       <a href="/" class="hover:text-teal-600">Home</a>
       <span class="mx-2">/</span>
       <a href="/produkte" class="hover:text-teal-600">Produkte</a>
       <span class="mx-2">/</span>
+      {ingredient && (
+        <>
+          <a href={`/wirkstoffe/${ingredient.data.slug}`} class="hover:text-teal-600">{ingredient.data.title}</a>
+          <span class="mx-2">/</span>
+        </>
+      )}
       <span class="text-slate-600">{d.title}</span>
     </nav>
 
-    <!-- Header -->
-    <div class="mb-8">
-      <h1 class="text-3xl font-bold text-slate-900 mb-1">{d.title}</h1>
-      <p class="text-slate-500 mb-4">{d.vendor} · {d.doseMg} mg · {d.pricePerDayEur.toFixed(2)} €/Tag</p>
-      <div class="flex flex-wrap gap-3 items-center">
-        <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
-        <span class="text-sm text-slate-500">
-          Consumer Score: <strong class="text-slate-800">{score.toFixed(1)}/10</strong>
-        </span>
+    <!-- Hero: image + key data -->
+    <div class="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-8 mb-10">
+
+      <!-- Product image / placeholder -->
+      <div class="flex flex-col gap-4">
+        {d.featuredImage ? (
+          <img
+            src={d.featuredImage}
+            alt={d.title}
+            class="w-full aspect-square object-contain rounded-2xl border border-slate-200 bg-white p-4"
+          />
+        ) : (
+          <div class={`w-full aspect-square rounded-2xl bg-gradient-to-br ${verdictGradient[d.verdict]} flex flex-col items-center justify-center gap-3 select-none`}>
+            <span class="text-6xl">💊</span>
+            <span class="text-white font-semibold text-sm tracking-wide opacity-90">{d.vendor}</span>
+          </div>
+        )}
+
+        <!-- Certifications under image -->
+        {d.certifications.length > 0 && (
+          <div class="flex flex-col gap-2">
+            {d.certifications.map(cert => (
+              <div class="flex items-center gap-2 bg-emerald-50 border border-emerald-200 rounded-lg px-3 py-2">
+                <span class="text-emerald-600 text-sm">✓</span>
+                <span class="text-xs font-medium text-emerald-800">{certLabel[cert] ?? cert}</span>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <!-- Key data -->
+      <div class="flex flex-col justify-between">
+        <div>
+          <!-- Vendor + ingredient link -->
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xs font-medium bg-slate-100 text-slate-600 rounded-full px-3 py-1">{d.vendor}</span>
+            {ingredient && (
+              <a href={`/wirkstoffe/${ingredient.data.slug}`}
+                 class="text-xs font-medium bg-teal-50 text-teal-700 rounded-full px-3 py-1 hover:bg-teal-100 no-underline transition-colors">
+                {ingredient.data.title} →
+              </a>
+            )}
+          </div>
+
+          <h1 class="text-3xl font-bold text-slate-900 mb-2">{d.title}</h1>
+          <p class="text-slate-500 text-sm mb-6">{d.summary}</p>
+
+          <!-- Score + verdict -->
+          <div class="flex items-center gap-4 mb-6">
+            <div class="text-center">
+              <div class={`text-5xl font-black ${verdictScoreColor[d.verdict]}`}>
+                {score.toFixed(1)}
+              </div>
+              <div class="text-xs text-slate-400 font-medium">von 10</div>
+            </div>
+            <div>
+              <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
+            </div>
+          </div>
+
+          <!-- Specs grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+            <div class="bg-slate-50 rounded-xl p-3 text-center">
+              <div class="text-xl font-bold text-slate-900">{d.pricePerDayEur.toFixed(2)} €</div>
+              <div class="text-xs text-slate-500 mt-0.5">pro Tag</div>
+            </div>
+            <div class="bg-slate-50 rounded-xl p-3 text-center">
+              <div class="text-xl font-bold text-slate-900">{d.servingsPerPack}</div>
+              <div class="text-xs text-slate-500 mt-0.5">Tage/Packung</div>
+            </div>
+            <div class="bg-slate-50 rounded-xl p-3 text-center">
+              <div class="text-xl font-bold text-slate-900">{d.doseMg} mg</div>
+              <div class="text-xs text-slate-500 mt-0.5">pro Tagesdosis</div>
+            </div>
+            <div class="bg-slate-50 rounded-xl p-3 text-center">
+              <div class="text-xl font-bold text-slate-900">{formLabel[d.form] ?? d.form}</div>
+              <div class="text-xs text-slate-500 mt-0.5">Darreichung</div>
+            </div>
+          </div>
+
+          <!-- Price + price-check date -->
+          <div class="flex items-baseline gap-2 mb-5">
+            <span class="text-2xl font-bold text-slate-900">{d.priceEur.toFixed(2)} €</span>
+            <span class="text-sm text-slate-500">/ Packung ({d.servingsPerPack} Tage)</span>
+            {priceChecked && (
+              <span class="text-xs text-slate-400 ml-1">· Preis geprüft: {priceChecked}</span>
+            )}
+          </div>
+
+          <!-- CTA -->
+          {d.affiliateUrl ? (
+            <div class="flex flex-col gap-2">
+              <a href={d.affiliateUrl}
+                 target="_blank"
+                 rel="sponsored noopener noreferrer"
+                 class="inline-flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold text-sm rounded-xl px-5 py-3 no-underline transition-colors w-full sm:w-auto">
+                Zum Shop →
+              </a>
+              <p class="text-xs text-slate-400">
+                * Affiliate-Link — für dich kein Mehrpreis, unsere Bewertung bleibt unabhängig.
+              </p>
+            </div>
+          ) : d.vendorUrl ? (
+            <a href={d.vendorUrl}
+               target="_blank"
+               rel="noopener noreferrer"
+               class="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-700 no-underline">
+              Anbieter-Website
+              <span class="text-slate-400">↗</span>
+            </a>
+          ) : null}
+        </div>
       </div>
     </div>
 
-    <!-- Rating breakdown -->
-    <div class="bg-white border border-slate-200 rounded-xl p-6 mb-8">
-      <h2 class="text-base font-semibold text-slate-800 mb-5">Bewertung im Detail</h2>
-      <div class="space-y-4">
-        <RatingBar
-          label="Evidenz für Wirkstoff"
-          score={d.ratings.evidenceForIngredient.score}
-          explanation={d.ratings.evidenceForIngredient.explanation}
-          highlight={true}
-        />
-        <RatingBar
-          label="Preis/Leistung"
-          score={d.ratings.valueForMoney.score}
-          explanation={d.ratings.valueForMoney.explanation}
-        />
-        <RatingBar
-          label="Produktqualität"
-          score={d.ratings.productQuality.score}
-          explanation={d.ratings.productQuality.explanation}
-        />
-        <RatingBar
-          label="Label-Ehrlichkeit"
-          score={d.ratings.labelHonesty.score}
-          explanation={d.ratings.labelHonesty.explanation}
-        />
-        <RatingBar
-          label="Drittanbieter-Tests"
-          score={d.ratings.thirdPartyTesting.score}
-          explanation={d.ratings.thirdPartyTesting.explanation}
-        />
+    <!-- Verdict callout -->
+    <div class={`rounded-2xl border-l-4 p-5 mb-10 ${
+      d.verdict === 'empfehlenswert'
+        ? 'bg-teal-50 border-teal-400'
+        : d.verdict === 'akzeptabel'
+        ? 'bg-amber-50 border-amber-400'
+        : 'bg-red-50 border-red-400'
+    }`}>
+      <p class={`text-sm font-semibold mb-1 ${
+        d.verdict === 'empfehlenswert' ? 'text-teal-800'
+        : d.verdict === 'akzeptabel' ? 'text-amber-800'
+        : 'text-red-800'
+      }`}>Unser Fazit</p>
+      <p class={`text-sm ${
+        d.verdict === 'empfehlenswert' ? 'text-teal-700'
+        : d.verdict === 'akzeptabel' ? 'text-amber-700'
+        : 'text-red-700'
+      }`}>{d.verdictNote}</p>
+    </div>
+
+    <!-- Two-column: ratings + review -->
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 mb-10">
+
+      <!-- Rating breakdown -->
+      <div class="bg-white border border-slate-200 rounded-2xl p-6">
+        <h2 class="text-base font-semibold text-slate-800 mb-5">Bewertung im Detail</h2>
+        <div class="space-y-4">
+          <RatingBar
+            label="Evidenz für Wirkstoff"
+            score={d.ratings.evidenceForIngredient.score}
+            explanation={d.ratings.evidenceForIngredient.explanation}
+            highlight={true}
+          />
+          <RatingBar
+            label="Preis/Leistung"
+            score={d.ratings.valueForMoney.score}
+            explanation={d.ratings.valueForMoney.explanation}
+          />
+          <RatingBar
+            label="Produktqualität"
+            score={d.ratings.productQuality.score}
+            explanation={d.ratings.productQuality.explanation}
+          />
+          <RatingBar
+            label="Label-Ehrlichkeit"
+            score={d.ratings.labelHonesty.score}
+            explanation={d.ratings.labelHonesty.explanation}
+          />
+          <RatingBar
+            label="Drittanbieter-Tests"
+            score={d.ratings.thirdPartyTesting.score}
+            explanation={d.ratings.thirdPartyTesting.explanation}
+          />
+        </div>
+      </div>
+
+      <!-- Review prose -->
+      <div class="bg-white border border-slate-200 rounded-2xl p-6">
+        <h2 class="text-base font-semibold text-slate-800 mb-5">Unsere Bewertung</h2>
+        <article class="prose prose-sm max-w-none prose-headings:text-slate-800 prose-headings:font-semibold prose-p:text-slate-600 prose-li:text-slate-600">
+          <Content />
+        </article>
       </div>
     </div>
 
-    <!-- Certifications -->
-    {d.certifications.length > 0 && (
-      <div class="flex gap-2 flex-wrap mb-6">
-        {d.certifications.map(cert => (
-          <span class="text-xs bg-emerald-100 text-emerald-700 rounded-full px-3 py-1 font-medium">{cert}</span>
-        ))}
+    <!-- Other products with same ingredient -->
+    {siblingProducts.length > 0 && (
+      <div class="mb-8">
+        <h2 class="text-base font-semibold text-slate-800 mb-3">
+          Andere {ingredient?.title ?? d.ingredient}-Produkte im Vergleich
+        </h2>
+        <div class="space-y-2">
+          {siblingProducts.map(p => {
+            const s = compositeScore(p.data.ratings);
+            return (
+              <a href={`/produkte/${p.data.slug}`}
+                 class="flex items-center justify-between bg-white border border-slate-200 rounded-xl px-5 py-3 hover:border-teal-400 transition-all no-underline group gap-4">
+                <div class="min-w-0">
+                  <p class="font-medium text-slate-800 group-hover:text-teal-700 text-sm truncate">{p.data.title}</p>
+                  <p class="text-xs text-slate-500">{p.data.vendor} · {p.data.doseMg} mg · {p.data.pricePerDayEur.toFixed(2)} €/Tag · {p.data.servingsPerPack} Tage</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                  <span class="text-sm font-bold text-slate-700">{s.toFixed(1)}<span class="text-xs font-normal text-slate-400">/10</span></span>
+                  <VerdictBadge verdict={p.data.verdict} />
+                </div>
+              </a>
+            );
+          })}
+        </div>
       </div>
     )}
-
-    )}
-
-    <!-- Full review content -->
-    <article class="prose max-w-none mb-10">
-      <Content />
-    </article>
 
     <!-- Linked ingredient -->
     {ingredient && (
-      <div class="bg-teal-50 border border-teal-200 rounded-xl p-5">
-        <div class="flex justify-between items-start mb-2">
-          <p class="text-sm font-semibold text-teal-900">Wirkstoff: {ingredient.data.title}</p>
-          <EvidenceBadge level={ingredient.data.evidenceLevel} />
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
+        <div>
+          <p class="text-xs text-slate-500 mb-1 uppercase tracking-wide font-medium">Wirkstoff-Dossier</p>
+          <p class="font-semibold text-slate-900 mb-1">{ingredient.data.title}</p>
+          <p class="text-sm text-slate-600">{ingredient.data.evidenceSummary}</p>
         </div>
-        <p class="text-sm text-teal-700 mb-3">{ingredient.data.evidenceSummary}</p>
-        <a href={`/wirkstoffe/${ingredient.data.slug}`}
-           class="text-sm text-teal-600 hover:text-teal-800 font-medium no-underline">
-          Vollständiges Wirkstoff-Dossier lesen →
-        </a>
+        <div class="flex flex-col items-start sm:items-end gap-2 shrink-0">
+          <EvidenceBadge level={ingredient.data.evidenceLevel} />
+          <a href={`/wirkstoffe/${ingredient.data.slug}`}
+             class="text-sm text-teal-600 hover:text-teal-800 font-medium no-underline whitespace-nowrap">
+            Dossier lesen →
+          </a>
+        </div>
       </div>
     )}
 

@@ -1,92 +1,197 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import RatingBar from '../../components/RatingBar.astro';
 import VerdictBadge from '../../components/VerdictBadge.astro';
+import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import { getCollection } from 'astro:content';
 import { compositeScore } from '../../utils/scoring';
 
-const products = await getCollection('products');
-const filterIngredient = Astro.url.searchParams.get('wirkstoff');
-const filtered = filterIngredient
-  ? products.filter(p => p.data.ingredient === filterIngredient)
-  : products;
+const allProducts = await getCollection('products');
+const allIngredients = await getCollection('ingredients');
+
+const ingredientMap = new Map(allIngredients.map(i => [i.data.slug, i.data]));
+
+const formLabel: Record<string, string> = {
+  capsule: 'Kapsel', powder: 'Pulver', liquid: 'Flüssig',
+  gummy: 'Gummi', softgel: 'Softgel', tablet: 'Tablette',
+};
+
+const categoryLabels: Record<string, string> = {
+  'nad-precursors': 'NAD-Vorstufen',
+  'senolytics':     'Senolytika',
+  'antioxidants':   'Antioxidantien',
+  'adaptogens':     'Adaptogene',
+  'metabolic':      'Metabolismus',
+  'other':          'Sonstige',
+};
+
+// Group products by ingredient slug, sorted best-first within each group
+const grouped = new Map<string, typeof allProducts>();
+for (const p of allProducts) {
+  const key = p.data.ingredient;
+  if (!grouped.has(key)) grouped.set(key, []);
+  grouped.get(key)!.push(p);
+}
+
+// Build one card per ingredient group
+const groups = [...grouped.entries()]
+  .map(([ingredientSlug, products]) => {
+    const sorted = [...products].sort(
+      (a, b) => compositeScore(b.data.ratings) - compositeScore(a.data.ratings)
+    );
+    const top = sorted[0];
+    const ingredient = ingredientMap.get(ingredientSlug);
+    return {
+      ingredientSlug,
+      ingredientTitle: ingredient?.title ?? ingredientSlug,
+      category: ingredient?.category ?? 'other',
+      evidenceLevel: ingredient?.evidenceLevel,
+      top,
+      topScore: compositeScore(top.data.ratings),
+      count: products.length,
+    };
+  })
+  .sort((a, b) => b.topScore - a.topScore);
+
+// Only show category buttons that have products
+const usedCategories = [...new Set(groups.map(g => g.category))];
 ---
 
 <BaseLayout title="Produktvergleich" description="Konkrete Longevity-Supplements bewertet: Preis pro Tagesdosis, Zertifizierung, Reinheit.">
   <div class="max-w-5xl mx-auto px-4 py-12">
+
     <div class="flex items-center gap-3 mb-2">
       <h1 class="text-3xl font-bold text-slate-900">Produktvergleich</h1>
       <span class="text-sm bg-amber-100 text-amber-700 rounded-full px-3 py-1 font-medium">im Aufbau</span>
     </div>
     <p class="text-slate-600 mb-8">
-      Bewertet nach: Evidenz für den Wirkstoff, Preis/Tagesdosis, Produktqualität, Label-Ehrlichkeit, Drittanbieter-Tests.
+      Bewertet nach Evidenz, Preis/Tagesdosis, Qualität, Label-Ehrlichkeit und Drittanbieter-Tests.
+      Pro Wirkstoff zeigen wir das beste Produkt — klick dich durch für den Vollvergleich.
     </p>
 
-    <div class="grid grid-cols-1 gap-6">
-      {filtered.map(product => {
-        const d = product.data;
-        const score = compositeScore(d.ratings);
+    <!-- Category filter -->
+    <div id="cat-filter" class="flex flex-wrap gap-2 mb-8">
+      <button data-cat="all"
+        class="cat-btn px-4 py-1.5 rounded-full text-sm font-medium border transition-colors
+               bg-teal-600 text-white border-teal-600">
+        Alle ({groups.length})
+      </button>
+      {usedCategories.map(cat => (
+        <button data-cat={cat}
+          class="cat-btn px-4 py-1.5 rounded-full text-sm font-medium border transition-colors
+                 bg-white text-slate-600 border-slate-300 hover:border-teal-400">
+          {categoryLabels[cat] ?? cat}
+        </button>
+      ))}
+    </div>
 
+    <!-- Ingredient groups -->
+    <div id="product-grid" class="grid grid-cols-1 gap-5">
+      {groups.map(group => {
+        const d = group.top.data;
+        const packDays = d.servingsPerPack;
         return (
-          <div class="bg-white rounded-xl border border-slate-200 p-6">
-            <div class="flex flex-wrap justify-between items-start gap-4 mb-5">
-              <div>
-                <h2 class="text-lg font-semibold text-slate-900">{d.title}</h2>
-                <p class="text-sm text-slate-500">{d.vendor} · {d.doseMg} mg · {d.pricePerDayEur.toFixed(2)} €/Tag</p>
-              </div>
-              <div class="flex flex-col items-end gap-2">
-                <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
-                <span class="text-xs text-slate-400">
-                  Consumer Score: <strong class="text-slate-700">{score.toFixed(1)}/10</strong>
+          <div data-category={group.category}
+               class="bg-white rounded-xl border border-slate-200 p-6">
+
+            <!-- Ingredient header -->
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-medium text-slate-500 uppercase tracking-wide">
+                  {categoryLabels[group.category] ?? group.category}
                 </span>
+                <span class="text-slate-300">·</span>
+                <a href={`/wirkstoffe/${group.ingredientSlug}`}
+                   class="text-base font-semibold text-slate-900 hover:text-teal-600 no-underline">
+                  {group.ingredientTitle}
+                </a>
+                {group.count > 1 && (
+                  <span class="text-xs bg-slate-100 text-slate-500 rounded-full px-2 py-0.5">
+                    {group.count} Produkte
+                  </span>
+                )}
+              </div>
+              {group.evidenceLevel && <EvidenceBadge level={group.evidenceLevel} />}
+            </div>
+
+            <!-- Top product -->
+            <div class="flex flex-wrap items-start justify-between gap-4">
+              <div>
+                <p class="font-semibold text-slate-800 mb-1">{d.title}</p>
+                <p class="text-sm text-slate-500">
+                  {d.vendor}
+                  <span class="mx-1.5 text-slate-300">·</span>
+                  {d.doseMg} mg
+                  <span class="mx-1.5 text-slate-300">·</span>
+                  {formLabel[d.form] ?? d.form}
+                  <span class="mx-1.5 text-slate-300">·</span>
+                  {packDays} Tage/Packung
+                </p>
+              </div>
+              <div class="flex items-center gap-3 shrink-0">
+                <div class="text-right">
+                  <p class="text-lg font-bold text-slate-900">{d.pricePerDayEur.toFixed(2)} €<span class="text-sm font-normal text-slate-400">/Tag</span></p>
+                  <p class="text-xs text-slate-400">{group.topScore.toFixed(1)}/10</p>
+                </div>
+                <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
               </div>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 mb-5">
-              <RatingBar
-                label="Evidenz für Wirkstoff"
-                score={d.ratings.evidenceForIngredient.score}
-                explanation={d.ratings.evidenceForIngredient.explanation}
-                highlight={true}
-              />
-              <RatingBar
-                label="Preis/Leistung"
-                score={d.ratings.valueForMoney.score}
-                explanation={d.ratings.valueForMoney.explanation}
-              />
-              <RatingBar
-                label="Produktqualität"
-                score={d.ratings.productQuality.score}
-                explanation={d.ratings.productQuality.explanation}
-              />
-              <RatingBar
-                label="Label-Ehrlichkeit"
-                score={d.ratings.labelHonesty.score}
-                explanation={d.ratings.labelHonesty.explanation}
-              />
-              <RatingBar
-                label="Drittanbieter-Tests"
-                score={d.ratings.thirdPartyTesting.score}
-                explanation={d.ratings.thirdPartyTesting.explanation}
-              />
-            </div>
-
-            {d.certifications.length > 0 && (
-              <div class="flex gap-2 flex-wrap mb-4">
-                {d.certifications.map(cert => (
-                  <span class="text-xs bg-emerald-100 text-emerald-700 rounded-full px-2.5 py-0.5">{cert}</span>
-                ))}
-              </div>
-            )}
-
-            <div class="flex gap-3">
-              <a href={`/produkte/${d.slug}`} class="text-sm text-teal-600 hover:text-teal-800 font-medium no-underline">
-                Vollständige Bewertung →
+            <!-- Actions -->
+            <div class="flex flex-wrap items-center gap-3 mt-4 pt-4 border-t border-slate-100">
+              {d.affiliateUrl && (
+                <a href={d.affiliateUrl}
+                   target="_blank"
+                   rel="sponsored noopener noreferrer"
+                   class="inline-flex items-center gap-1.5 bg-teal-600 hover:bg-teal-700 text-white text-sm font-semibold rounded-lg px-4 py-1.5 no-underline transition-colors">
+                  Zum Shop →
+                </a>
+              )}
+              <a href={`/produkte/${d.slug}`}
+                 class="text-sm text-teal-600 hover:text-teal-800 font-medium no-underline">
+                Bewertung lesen →
               </a>
+              {group.count > 1 && (
+                <a href={`/wirkstoffe/${group.ingredientSlug}#produkte`}
+                   class="text-sm text-slate-500 hover:text-slate-700 font-medium no-underline">
+                  Alle {group.count} vergleichen →
+                </a>
+              )}
             </div>
           </div>
         );
       })}
     </div>
+
+    <!-- Affiliate disclosure -->
+    <p class="mt-10 text-xs text-slate-400 border-t border-slate-100 pt-6">
+      * Manche Links auf dieser Seite können Affiliate-Links sein. Für dich entstehen dabei keine Mehrkosten.
+      Unsere Bewertungen werden ausschließlich nach inhaltlichen Kriterien erstellt — unabhängig von kommerziellen Beziehungen.
+    </p>
+
   </div>
 </BaseLayout>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.cat-btn');
+  const cards = document.querySelectorAll<HTMLElement>('#product-grid [data-category]');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.dataset.cat!;
+
+      // Update button styles
+      buttons.forEach(b => {
+        b.classList.remove('bg-teal-600', 'text-white', 'border-teal-600');
+        b.classList.add('bg-white', 'text-slate-600', 'border-slate-300');
+      });
+      btn.classList.add('bg-teal-600', 'text-white', 'border-teal-600');
+      btn.classList.remove('bg-white', 'text-slate-600', 'border-slate-300');
+
+      // Filter cards
+      cards.forEach(card => {
+        const show = cat === 'all' || card.dataset.category === cat;
+        card.style.display = show ? '' : 'none';
+      });
+    });
+  });
+</script>
