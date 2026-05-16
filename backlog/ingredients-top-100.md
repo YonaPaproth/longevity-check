@@ -70,16 +70,16 @@ Ziel: Eine priorisierte Top‑100‑Liste für MikroScore. Diese Tabelle trackt,
 | 59 | Silicium | silicium | done | 2026-05-16 | |
 | 60 | Lithium (Orotat) | lithium-orotat | done | 2026-05-16 | |
 | 61 | Alpha‑Ketoglutarat (AKG) | akg | done | 2026-05-16 | |
-| 62 | TMG (Trimethylglycin) | tmg | todo |  | |
-| 63 | Cholin | cholin | todo |  | |
-| 64 | Alpha‑GPC | alpha-gpc | todo |  | |
-| 65 | CDP‑Cholin | cdp-cholin | todo |  | |
-| 66 | L‑Carnitin | l-carnitin | todo |  | |
-| 67 | Acetyl‑L‑Carnitin | acetyl-l-carnitin | todo |  | |
-| 68 | PQQ | pqq | todo |  | |
-| 69 | Glutathion | glutathion | todo |  | |
-| 70 | MSM | msm | todo |  | |
-| 71 | Glucosamin | glucosamin | todo |  | |
+| 62 | TMG (Trimethylglycin) | tmg | done | 2026-05-16 | |
+| 63 | Cholin | cholin | done | 2026-05-16 | |
+| 64 | Alpha‑GPC | alpha-gpc | done | 2026-05-16 | |
+| 65 | CDP‑Cholin | cdp-cholin | done | 2026-05-16 | |
+| 66 | L‑Carnitin | l-carnitin | done | 2026-05-16 | |
+| 67 | Acetyl‑L‑Carnitin | acetyl-l-carnitin | done | 2026-05-16 | |
+| 68 | PQQ | pqq | done | 2026-05-16 | |
+| 69 | Glutathion | glutathion | done | 2026-05-16 | |
+| 70 | MSM | msm | done | 2026-05-16 | |
+| 71 | Glucosamin | glucosamin | done | 2026-05-16 | |
 | 72 | Hyaluronsäure | hyaluronsaeure | todo |  | |
 | 73 | L‑Theanin | l-theanin | todo |  | |
 | 74 | GABA | gaba | todo |  | |
