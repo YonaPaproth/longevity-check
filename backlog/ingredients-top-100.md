@@ -60,16 +60,16 @@ Ziel: Eine priorisierte Top‑100‑Liste für MikroScore. Diese Tabelle trackt,
 | 49 | Vitamin K1 | vitamin-k1 | done | 2026-05-16 | |
 | 50 | Calcium | calcium | done | 2026-05-16 | |
 | 51 | Eisen | eisen | done | 2026-05-16 | |
-| 52 | Kupfer | kupfer | todo |  | |
-| 53 | Mangan | mangan | todo |  | |
-| 54 | Chrom | chrom | todo |  | |
-| 55 | Molybdän | molybdaen | todo |  | |
-| 56 | Kalium | kalium | todo |  | |
-| 57 | Phosphor | phosphor | todo |  | |
-| 58 | Bor | bor | todo |  | |
-| 59 | Silicium | silicium | todo |  | |
-| 60 | Lithium (Orotat) | lithium-orotat | todo |  | |
-| 61 | Alpha‑Ketoglutarat (AKG) | akg | todo |  | |
+| 52 | Kupfer | kupfer | done | 2026-05-16 | |
+| 53 | Mangan | mangan | done | 2026-05-16 | |
+| 54 | Chrom | chrom | done | 2026-05-16 | |
+| 55 | Molybdän | molybdaen | done | 2026-05-16 | |
+| 56 | Kalium | kalium | done | 2026-05-16 | |
+| 57 | Phosphor | phosphor | done | 2026-05-16 | |
+| 58 | Bor | bor | done | 2026-05-16 | |
+| 59 | Silicium | silicium | done | 2026-05-16 | |
+| 60 | Lithium (Orotat) | lithium-orotat | done | 2026-05-16 | |
+| 61 | Alpha‑Ketoglutarat (AKG) | akg | done | 2026-05-16 | |
 | 62 | TMG (Trimethylglycin) | tmg | todo |  | |
 | 63 | Cholin | cholin | todo |  | |
 | 64 | Alpha‑GPC | alpha-gpc | todo |  | |
