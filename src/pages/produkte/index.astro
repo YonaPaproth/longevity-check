@@ -89,16 +89,23 @@ const usedCategories = [...new Set(groups.map(g => g.category))];
     </section>
 
     <!-- Category filter -->
-    <div id="cat-filter" class="flex flex-wrap gap-2 mb-8">
+    <div id="cat-filter" class="flex flex-wrap gap-3 mb-8">
       <button data-cat="all"
         class="cat-btn px-4 py-2 rounded-full text-sm font-medium border transition-colors shadow-sm bg-teal-600 text-white border-teal-600">
         Alle ({groups.length})
       </button>
       {usedCategories.map(cat => (
-        <button data-cat={cat}
-          class="cat-btn px-4 py-2 rounded-full text-sm font-medium border transition-colors shadow-sm bg-white text-slate-600 border-slate-300 hover:border-teal-400 hover:text-teal-700">
-          {categoryLabels[cat] ?? cat}
-        </button>
+        <div class="inline-flex items-center gap-1.5">
+          <button data-cat={cat}
+            class="cat-btn px-4 py-2 rounded-full text-sm font-medium border transition-colors shadow-sm bg-white text-slate-600 border-slate-300 hover:border-teal-400 hover:text-teal-700">
+            {categoryLabels[cat] ?? cat}
+          </button>
+          <a href={`/produkte/kategorie/${cat}`}
+             class="inline-flex items-center justify-center rounded-full border border-transparent px-2 py-1 text-xs font-medium text-slate-400 hover:text-teal-600 hover:border-teal-200 no-underline"
+             aria-label={`${categoryLabels[cat] ?? cat} – Kategorie-Seite`}>
+            ↗
+          </a>
+        </div>
       ))}
     </div>
 
