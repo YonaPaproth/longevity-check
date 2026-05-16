@@ -80,16 +80,16 @@ Ziel: Eine priorisierte Top‑100‑Liste für MikroScore. Diese Tabelle trackt,
 | 69 | Glutathion | glutathion | done | 2026-05-16 | |
 | 70 | MSM | msm | done | 2026-05-16 | |
 | 71 | Glucosamin | glucosamin | done | 2026-05-16 | |
-| 72 | Hyaluronsäure | hyaluronsaeure | todo |  | |
-| 73 | L‑Theanin | l-theanin | todo |  | |
-| 74 | GABA | gaba | todo |  | |
-| 75 | L‑Tryptophan | l-tryptophan | todo |  | |
-| 76 | SAMe | same | todo |  | |
-| 77 | Inulin (Prebiotikum) | inulin | todo |  | |
-| 78 | Flohsamenschalen (Psyllium) | flohsamenschalen | todo |  | |
-| 79 | Beta‑Glucan | beta-glucan | todo |  | |
-| 80 | Ginseng (Panax) | ginseng | todo |  | |
-| 81 | Ginkgo biloba | ginkgo | todo |  | |
+| 72 | Hyaluronsäure | hyaluronsaeure | done | 2026-05-16 | |
+| 73 | L‑Theanin | l-theanin | done | 2026-05-16 | |
+| 74 | GABA | gaba | done | 2026-05-16 | |
+| 75 | L‑Tryptophan | l-tryptophan | done | 2026-05-16 | |
+| 76 | SAMe | same | done | 2026-05-16 | |
+| 77 | Inulin (Prebiotikum) | inulin | done | 2026-05-16 | |
+| 78 | Flohsamenschalen (Psyllium) | flohsamenschalen | done | 2026-05-16 | |
+| 79 | Beta‑Glucan | beta-glucan | done | 2026-05-16 | |
+| 80 | Ginseng (Panax) | ginseng | done | 2026-05-16 | |
+| 81 | Ginkgo biloba | ginkgo | done | 2026-05-16 | |
 | 82 | Maca | maca | todo |  | |
 | 83 | Tongkat Ali | tongkat-ali | todo |  | |
 | 84 | Shilajit | shilajit | todo |  | |
