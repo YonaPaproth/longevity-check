@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Seite nicht gefunden" description="Diese Seite existiert nicht.">
+  <div class="max-w-2xl mx-auto px-4 py-24 text-center">
+    <p class="text-6xl font-black text-slate-200 mb-6">404</p>
+    <h1 class="text-2xl font-bold text-slate-900 mb-3">Seite nicht gefunden</h1>
+    <p class="text-slate-500 mb-10">
+      Diese URL existiert nicht oder wurde verschoben.
+    </p>
+    <div class="flex flex-wrap gap-3 justify-center">
+      <a href="/wirkstoffe"
+         class="px-5 py-2.5 bg-teal-600 hover:bg-teal-700 text-white text-sm font-semibold rounded-xl no-underline transition-colors">
+        Wirkstoffe durchsuchen
+      </a>
+      <a href="/produkte"
+         class="px-5 py-2.5 bg-white hover:bg-slate-50 text-slate-700 text-sm font-semibold rounded-xl border border-slate-200 no-underline transition-colors">
+        Produkte ansehen
+      </a>
+      <a href="/"
+         class="px-5 py-2.5 bg-white hover:bg-slate-50 text-slate-700 text-sm font-semibold rounded-xl border border-slate-200 no-underline transition-colors">
+        Zur Startseite
+      </a>
+    </div>
+  </div>
+</BaseLayout>
