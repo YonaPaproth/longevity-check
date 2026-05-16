@@ -22,6 +22,7 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
   <meta property="og:title" content={`${title} | MikroScore`} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
+  <slot name="head" />
 </head>
 <body class="min-h-screen flex flex-col">
 

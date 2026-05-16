@@ -37,9 +37,38 @@ const safetyStyle = {
   'caution': 'bg-orange-100 text-orange-800',
   'insufficient-data': 'bg-slate-100 text-slate-700',
 } as const;
+
+const ingredientDescriptionBase = `${d.title} Test & Erfahrungen: ${d.summary} ✓ Evidenzbasiert bewertet für Deutschland.`;
+const ingredientDescription = ingredientDescriptionBase.length > 155
+  ? `${ingredientDescriptionBase.slice(0, 152)}…`
+  : ingredientDescriptionBase;
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `${d.title} – Wirkung, Studien & Bewertung`,
+  description: d.summary,
+  datePublished: d.publishedAt,
+  author: {
+    '@type': 'Organization',
+    name: 'MikroScore',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'MikroScore',
+    url: 'https://mikroscore.com',
+  },
+};
 ---
 
-<BaseLayout title={d.title} description={d.summary}>
+<BaseLayout title={d.title} description={ingredientDescription}>
+  <Fragment slot="head">
+    <meta name="keywords" content={`${d.title} kaufen, ${d.title} Wirkung`} />
+    <script type="application/ld+json">
+      {JSON.stringify(articleSchema, null, 2)}
+    </script>
+  </Fragment>
+
   <div class="max-w-3xl mx-auto px-4 py-10">
 
     <!-- Breadcrumb -->

@@ -57,9 +57,48 @@ const certLabel: Record<string, string> = {
 const priceChecked = d.lastPriceCheck
   ? new Date(d.lastPriceCheck).toLocaleDateString('de-DE', { day: 'numeric', month: 'short', year: 'numeric' })
   : null;
+
+const productDescriptionBase = `${d.title} im Test: ${d.summary} Preis/Tag ab ${d.pricePerDayEur.toFixed(2)}€. Unabhängige Bewertung.`;
+const productDescription = productDescriptionBase.length > 155
+  ? `${productDescriptionBase.slice(0, 152)}…`
+  : productDescriptionBase;
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: d.title,
+  brand: {
+    '@type': 'Brand',
+    name: d.vendor,
+  },
+  offers: {
+    '@type': 'Offer',
+    price: d.priceEur.toFixed(2),
+    priceCurrency: 'EUR',
+    availability: 'https://schema.org/InStock',
+  },
+  review: {
+    '@type': 'Review',
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: score.toFixed(1),
+      bestRating: '10',
+    },
+    author: {
+      '@type': 'Organization',
+      name: 'MikroScore',
+    },
+  },
+};
 ---
 
-<BaseLayout title={d.title} description={d.summary}>
+<BaseLayout title={d.title} description={productDescription}>
+  <Fragment slot="head">
+    <script type="application/ld+json">
+      {JSON.stringify(productSchema, null, 2)}
+    </script>
+  </Fragment>
+
   <div class="max-w-5xl mx-auto px-4 py-10">
 
     <!-- Breadcrumb -->
