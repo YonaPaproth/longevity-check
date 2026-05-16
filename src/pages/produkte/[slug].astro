@@ -125,16 +125,21 @@ const priceChecked = d.lastPriceCheck
           <p class="text-slate-500 text-sm mb-6">{d.summary}</p>
 
           <!-- Score + verdict -->
-          <div class="flex items-center gap-4 mb-6">
-            <div class="text-center">
-              <div class={`text-5xl font-black ${verdictScoreColor[d.verdict]}`}>
-                {score.toFixed(1)}
+          <div class="mb-6 rounded-2xl border border-slate-200 bg-slate-50/70 p-4">
+            <div class="flex items-center gap-4 mb-3">
+              <div class="text-center shrink-0 min-w-[88px]">
+                <div class={`text-5xl font-black leading-none ${verdictScoreColor[d.verdict]}`}>
+                  {score.toFixed(1)}
+                </div>
+                <div class="text-xs text-slate-400 font-medium mt-1">von 10</div>
               </div>
-              <div class="text-xs text-slate-400 font-medium">von 10</div>
+              <div class="flex-1 min-w-0">
+                <VerdictBadge verdict={d.verdict} note={d.verdictNote} hideNote={true} />
+              </div>
             </div>
-            <div>
-              <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
-            </div>
+            <p class="text-sm leading-relaxed text-slate-600">
+              {d.verdictNote}
+            </p>
           </div>
 
           <!-- Specs grid -->
