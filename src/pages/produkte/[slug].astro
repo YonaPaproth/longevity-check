@@ -77,122 +77,140 @@ const priceChecked = d.lastPriceCheck
     </nav>
 
     <!-- Hero: image + key data -->
-    <div class="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-8 mb-10">
+    <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-10">
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.08),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(15,23,42,0.05),transparent_28%)]"></div>
+      <div class="relative grid grid-cols-1 md:grid-cols-[300px_1fr] gap-8 p-6 md:p-8">
 
-      <!-- Product image / placeholder -->
-      <div class="flex flex-col gap-4">
-        {d.featuredImage ? (
-          <img
-            src={d.featuredImage}
-            alt={d.title}
-            class="w-full aspect-square object-contain rounded-2xl border border-slate-200 bg-white p-4"
-          />
-        ) : (
-          <div class={`w-full aspect-square rounded-2xl bg-gradient-to-br ${verdictGradient[d.verdict]} flex flex-col items-center justify-center gap-3 select-none`}>
-            <span class="text-6xl">💊</span>
-            <span class="text-white font-semibold text-sm tracking-wide opacity-90">{d.vendor}</span>
-          </div>
-        )}
-
-        <!-- Certifications under image -->
-        {d.certifications.length > 0 && (
-          <div class="flex flex-col gap-2">
-            {d.certifications.map(cert => (
-              <div class="flex items-center gap-2 bg-emerald-50 border border-emerald-200 rounded-lg px-3 py-2">
-                <span class="text-emerald-600 text-sm">✓</span>
-                <span class="text-xs font-medium text-emerald-800">{certLabel[cert] ?? cert}</span>
+        <!-- Product image / placeholder -->
+        <div class="flex flex-col gap-4">
+          <div class="rounded-[24px] border border-white/70 bg-white/90 shadow-sm backdrop-blur p-4 md:p-5">
+            {d.featuredImage ? (
+              <img
+                src={d.featuredImage}
+                alt={d.title}
+                class="w-full aspect-square object-contain rounded-2xl bg-white p-4"
+              />
+            ) : (
+              <div class={`w-full aspect-square rounded-2xl bg-gradient-to-br ${verdictGradient[d.verdict]} flex flex-col items-center justify-center gap-3 select-none shadow-inner`}>
+                <span class="text-6xl">💊</span>
+                <span class="text-white font-semibold text-sm tracking-wide opacity-90">{d.vendor}</span>
               </div>
-            ))}
-          </div>
-        )}
-      </div>
-
-      <!-- Key data -->
-      <div class="flex flex-col justify-between">
-        <div>
-          <!-- Vendor + ingredient link -->
-          <div class="flex items-center gap-2 mb-3">
-            <span class="text-xs font-medium bg-slate-100 text-slate-600 rounded-full px-3 py-1">{d.vendor}</span>
-            {ingredient && (
-              <a href={`/wirkstoffe/${ingredient.data.slug}`}
-                 class="text-xs font-medium bg-teal-50 text-teal-700 rounded-full px-3 py-1 hover:bg-teal-100 no-underline transition-colors">
-                {ingredient.data.title} →
-              </a>
             )}
           </div>
 
-          <h1 class="text-3xl font-bold text-slate-900 mb-2">{d.title}</h1>
-          <p class="text-slate-500 text-sm mb-6">{d.summary}</p>
-
-          <!-- Score + verdict -->
-          <div class="mb-6 rounded-2xl border border-slate-200 bg-slate-50/70 p-4">
-            <div class="flex items-center gap-4 mb-3">
-              <div class="text-center shrink-0 min-w-[88px]">
-                <div class={`text-5xl font-black leading-none ${verdictScoreColor[d.verdict]}`}>
-                  {score.toFixed(1)}
+          <!-- Certifications under image -->
+          {d.certifications.length > 0 && (
+            <div class="flex flex-wrap gap-2">
+              {d.certifications.map(cert => (
+                <div class="inline-flex items-center gap-2 rounded-full bg-emerald-50/90 border border-emerald-200 px-3 py-1.5 shadow-sm">
+                  <span class="text-emerald-600 text-sm">✓</span>
+                  <span class="text-xs font-medium text-emerald-800">{certLabel[cert] ?? cert}</span>
                 </div>
-                <div class="text-xs text-slate-400 font-medium mt-1">von 10</div>
+              ))}
+            </div>
+          )}
+        </div>
+
+        <!-- Key data -->
+        <div class="flex flex-col justify-between">
+          <div>
+            <!-- Vendor + ingredient link -->
+            <div class="flex flex-wrap items-center gap-2 mb-4">
+              <span class="text-xs font-medium bg-white/90 text-slate-600 rounded-full px-3 py-1.5 border border-slate-200 shadow-sm">{d.vendor}</span>
+              {ingredient && (
+                <a href={`/wirkstoffe/${ingredient.data.slug}`}
+                   class="text-xs font-medium bg-teal-50/90 text-teal-700 rounded-full px-3 py-1.5 border border-teal-200 hover:bg-teal-100 no-underline transition-colors shadow-sm">
+                  {ingredient.data.title} →
+                </a>
+              )}
+              <span class="text-xs font-medium bg-slate-100/90 text-slate-600 rounded-full px-3 py-1.5 border border-slate-200 shadow-sm">
+                {formLabel[d.form] ?? d.form}
+              </span>
+              {!d.availableInDE && (
+                <span class="text-xs font-medium bg-amber-50 text-amber-700 rounded-full px-3 py-1.5 border border-amber-200 shadow-sm">
+                  Nicht sicher in DE verfügbar
+                </span>
+              )}
+            </div>
+
+            <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-3">{d.title}</h1>
+            <p class="text-slate-600 text-[15px] leading-7 mb-6 max-w-2xl">{d.summary}</p>
+
+            <!-- Score + verdict -->
+            <div class="mb-6 rounded-2xl border border-white/80 bg-white/80 shadow-sm backdrop-blur p-4 md:p-5">
+              <div class="flex items-center gap-4 mb-3">
+                <div class="text-center shrink-0 min-w-[92px] rounded-2xl bg-slate-50 px-3 py-3 border border-slate-200">
+                  <div class={`text-5xl font-black leading-none ${verdictScoreColor[d.verdict]}`}>
+                    {score.toFixed(1)}
+                  </div>
+                  <div class="text-xs text-slate-400 font-medium mt-1">Gesamtscore</div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <VerdictBadge verdict={d.verdict} note={d.verdictNote} hideNote={true} />
+                </div>
               </div>
-              <div class="flex-1 min-w-0">
-                <VerdictBadge verdict={d.verdict} note={d.verdictNote} hideNote={true} />
-              </div>
-            </div>
-            <p class="text-sm leading-relaxed text-slate-600">
-              {d.verdictNote}
-            </p>
-          </div>
-
-          <!-- Specs grid -->
-          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
-            <div class="bg-slate-50 rounded-xl p-3 text-center">
-              <div class="text-xl font-bold text-slate-900">{d.pricePerDayEur.toFixed(2)} €</div>
-              <div class="text-xs text-slate-500 mt-0.5">pro Tag</div>
-            </div>
-            <div class="bg-slate-50 rounded-xl p-3 text-center">
-              <div class="text-xl font-bold text-slate-900">{d.servingsPerPack}</div>
-              <div class="text-xs text-slate-500 mt-0.5">Tage/Packung</div>
-            </div>
-            <div class="bg-slate-50 rounded-xl p-3 text-center">
-              <div class="text-xl font-bold text-slate-900">{d.doseMg} mg</div>
-              <div class="text-xs text-slate-500 mt-0.5">pro Tagesdosis</div>
-            </div>
-            <div class="bg-slate-50 rounded-xl p-3 text-center">
-              <div class="text-xl font-bold text-slate-900">{formLabel[d.form] ?? d.form}</div>
-              <div class="text-xs text-slate-500 mt-0.5">Darreichung</div>
-            </div>
-          </div>
-
-          <!-- Price + price-check date -->
-          <div class="flex items-baseline gap-2 mb-5">
-            <span class="text-2xl font-bold text-slate-900">{d.priceEur.toFixed(2)} €</span>
-            <span class="text-sm text-slate-500">/ Packung ({d.servingsPerPack} Tage)</span>
-            {priceChecked && (
-              <span class="text-xs text-slate-400 ml-1">· Preis geprüft: {priceChecked}</span>
-            )}
-          </div>
-
-          <!-- CTA -->
-          {d.affiliateUrl ? (
-            <div class="flex flex-col gap-2">
-              <a href={d.affiliateUrl}
-                 target="_blank"
-                 rel="sponsored noopener noreferrer"
-                 class="inline-flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold text-sm rounded-xl px-5 py-3 no-underline transition-colors w-full sm:w-auto">
-                Zum Shop →
-              </a>
-              <p class="text-xs text-slate-400">
-                * Affiliate-Link — für dich kein Mehrpreis, unsere Bewertung bleibt unabhängig.
+              <p class="text-sm leading-7 text-slate-600">
+                {d.verdictNote}
               </p>
             </div>
-          ) : d.vendorUrl ? (
-            <a href={d.vendorUrl}
-               target="_blank"
-               rel="noopener noreferrer"
-               class="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-700 no-underline">
-              Anbieter-Website
-              <span class="text-slate-400">↗</span>
-            </a>
-          ) : null}
+
+            <!-- Specs grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+              <div class="rounded-2xl border border-white/70 bg-white/80 p-4 text-center shadow-sm backdrop-blur">
+                <div class="text-xl font-bold text-slate-900">{d.pricePerDayEur.toFixed(2)} €</div>
+                <div class="text-xs text-slate-500 mt-1">pro Tag</div>
+              </div>
+              <div class="rounded-2xl border border-white/70 bg-white/80 p-4 text-center shadow-sm backdrop-blur">
+                <div class="text-xl font-bold text-slate-900">{d.servingsPerPack}</div>
+                <div class="text-xs text-slate-500 mt-1">Tage/Packung</div>
+              </div>
+              <div class="rounded-2xl border border-white/70 bg-white/80 p-4 text-center shadow-sm backdrop-blur">
+                <div class="text-xl font-bold text-slate-900">{d.doseMg} mg</div>
+                <div class="text-xs text-slate-500 mt-1">pro Tagesdosis</div>
+              </div>
+              <div class="rounded-2xl border border-white/70 bg-white/80 p-4 text-center shadow-sm backdrop-blur">
+                <div class="text-xl font-bold text-slate-900">{formLabel[d.form] ?? d.form}</div>
+                <div class="text-xs text-slate-500 mt-1">Darreichung</div>
+              </div>
+            </div>
+
+            <!-- Price + CTA card -->
+            <div class="rounded-2xl border border-slate-200 bg-white/90 shadow-sm p-4 md:p-5">
+              <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <div>
+                  <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1 mb-1">
+                    <span class="text-2xl font-bold text-slate-900">{d.priceEur.toFixed(2)} €</span>
+                    <span class="text-sm text-slate-500">/ Packung ({d.servingsPerPack} Tage)</span>
+                  </div>
+                  {priceChecked && (
+                    <p class="text-xs text-slate-400">Preis zuletzt geprüft: {priceChecked}</p>
+                  )}
+                </div>
+
+                {d.affiliateUrl ? (
+                  <div class="flex flex-col items-start md:items-end gap-2">
+                    <a href={d.affiliateUrl}
+                      target="_blank"
+                      rel="sponsored noopener noreferrer"
+                      class="inline-flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold text-sm rounded-xl px-5 py-3 no-underline transition-colors w-full sm:w-auto shadow-sm">
+                      Zum Shop →
+                    </a>
+                    <p class="text-xs text-slate-400 md:text-right max-w-xs">
+                      * Affiliate-Link — für dich kein Mehrpreis, unsere Bewertung bleibt unabhängig.
+                    </p>
+                  </div>
+                ) : d.vendorUrl ? (
+                  <a href={d.vendorUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-1.5 text-sm text-slate-600 hover:text-slate-800 no-underline font-medium">
+                    Anbieter-Website
+                    <span class="text-slate-400">↗</span>
+                  </a>
+                ) : null}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
