@@ -115,3 +115,4 @@ Ziel: Eine priorisierte Top‑100‑Liste für MikroScore. Diese Tabelle trackt,
 - Make site more graphics and engaging
 - Review all 100 ingredient dossiers for consistency, evidence strength, tone, and regulatory wording
 - Add a name filter for all Wirkstoffe
+- Add product overview
