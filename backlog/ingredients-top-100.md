@@ -100,12 +100,12 @@ Ziel: Eine priorisierte Top‑100‑Liste für MikroScore. Diese Tabelle trackt,
 | 89 | Kaempferol | kaempferol | done | 2026-05-16 | |
 | 90 | Baicalin | baicalin | done | 2026-05-16 | |
 | 91 | Silymarin (Mariendistel) | silymarin | done | 2026-05-16 | |
-| 92 | Bacopa monnieri | bacopa | todo |  | |
-| 93 | Gotu Kola | gotu-kola | todo |  | |
-| 94 | Reishi | reishi | todo |  | |
-| 95 | Cordyceps | cordyceps | todo |  | |
-| 96 | Schisandra | schisandra | todo |  | |
-| 97 | Astragalus | astragalus | todo |  | |
-| 98 | Piperin | piperin | todo |  | |
-| 99 | Beta‑Alanin | beta-alanin | todo |  | |
-| 100 | Vitamin D3 | vitamin-d3 | todo |  | |
+| 92 | Bacopa monnieri | bacopa | done | 2026-05-16 | |
+| 93 | Gotu Kola | gotu-kola | done | 2026-05-16 | |
+| 94 | Reishi | reishi | done | 2026-05-16 | |
+| 95 | Cordyceps | cordyceps | done | 2026-05-16 | |
+| 96 | Schisandra | schisandra | done | 2026-05-16 | |
+| 97 | Astragalus | astragalus | done | 2026-05-16 | |
+| 98 | Piperin | piperin | done | 2026-05-16 | |
+| 99 | Beta‑Alanin | beta-alanin | done | 2026-05-16 | |
+| 100 | Vitamin D3 | vitamin-d3 | done | 2026-05-16 | |
