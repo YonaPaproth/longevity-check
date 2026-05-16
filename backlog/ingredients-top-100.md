@@ -50,16 +50,16 @@ Ziel: Eine priorisierte Top‑100‑Liste für MikroScore. Diese Tabelle trackt,
 | 39 | Myo‑Inositol | myo-inositol | done | 2026-05-14 | |
 | 40 | Probiotika | probiotika | done | 2026-05-14 | |
 | 41 | Folsäure | folsaeure | done | 2026-05-14 | |
-| 42 | Vitamin A | vitamin-a | todo |  | |
-| 43 | Vitamin B1 (Thiamin) | vitamin-b1 | todo |  | |
-| 44 | Vitamin B2 (Riboflavin) | vitamin-b2 | todo |  | |
-| 45 | Vitamin B3 (Niacin) | vitamin-b3 | todo |  | |
-| 46 | Vitamin B5 (Pantothensäure) | vitamin-b5 | todo |  | |
-| 47 | Vitamin B6 | vitamin-b6 | todo |  | |
-| 48 | Vitamin B7 (Biotin) | vitamin-b7 | todo |  | |
-| 49 | Vitamin K1 | vitamin-k1 | todo |  | |
-| 50 | Calcium | calcium | todo |  | |
-| 51 | Eisen | eisen | todo |  | |
+| 42 | Vitamin A | vitamin-a | done | 2026-05-16 | |
+| 43 | Vitamin B1 (Thiamin) | vitamin-b1 | done | 2026-05-16 | |
+| 44 | Vitamin B2 (Riboflavin) | vitamin-b2 | done | 2026-05-16 | |
+| 45 | Vitamin B3 (Niacin) | vitamin-b3 | done | 2026-05-16 | |
+| 46 | Vitamin B5 (Pantothensäure) | vitamin-b5 | done | 2026-05-16 | |
+| 47 | Vitamin B6 | vitamin-b6 | done | 2026-05-16 | |
+| 48 | Vitamin B7 (Biotin) | vitamin-b7 | done | 2026-05-16 | |
+| 49 | Vitamin K1 | vitamin-k1 | done | 2026-05-16 | |
+| 50 | Calcium | calcium | done | 2026-05-16 | |
+| 51 | Eisen | eisen | done | 2026-05-16 | |
 | 52 | Kupfer | kupfer | todo |  | |
 | 53 | Mangan | mangan | todo |  | |
 | 54 | Chrom | chrom | todo |  | |
