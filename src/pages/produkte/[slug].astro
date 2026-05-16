@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import RatingBar from '../../components/RatingBar.astro';
 import VerdictBadge from '../../components/VerdictBadge.astro';
 import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import LegalNotice from '../../components/LegalNotice.astro';
 import { getCollection, render } from 'astro:content';
 import { compositeScore } from '../../utils/scoring';
 
@@ -176,7 +177,7 @@ const priceChecked = d.lastPriceCheck
 
             <!-- Price + CTA card -->
             <div class="rounded-2xl border border-slate-200 bg-white/90 shadow-sm p-4 md:p-5">
-              <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+              <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
                 <div>
                   <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1 mb-1">
                     <span class="text-2xl font-bold text-slate-900">{d.priceEur.toFixed(2)} €</span>
@@ -209,6 +210,10 @@ const priceChecked = d.lastPriceCheck
                   </a>
                 ) : null}
               </div>
+
+              <LegalNotice title="Preis-Hinweis" tone="amber">
+                Preise und Verfügbarkeit können sich seit der letzten Aktualisierung geändert haben. Maßgeblich ist immer das aktuelle Angebot im jeweiligen Shop. Die Kennzahl „pro Tag“ basiert auf der hier angegebenen Packungsgröße und Verzehrempfehlung.
+              </LegalNotice>
             </div>
           </div>
         </div>
@@ -216,7 +221,7 @@ const priceChecked = d.lastPriceCheck
     </div>
 
     <!-- Verdict callout -->
-    <div class={`rounded-2xl border-l-4 p-5 mb-10 ${
+    <div class={`rounded-2xl border-l-4 p-5 mb-6 ${
       d.verdict === 'empfehlenswert'
         ? 'bg-teal-50 border-teal-400'
         : d.verdict === 'akzeptabel'
@@ -233,6 +238,12 @@ const priceChecked = d.lastPriceCheck
         : d.verdict === 'akzeptabel' ? 'text-amber-700'
         : 'text-red-700'
       }`}>{d.verdictNote}</p>
+    </div>
+
+    <div class="mb-10">
+      <LegalNotice>
+        MikroScore ist ein redaktionelles Informationsangebot und ersetzt keine medizinische oder pharmazeutische Beratung. Produktempfehlungen sind allgemeine Einschätzungen auf Basis von Inhaltsstoffen, Preis-Leistung und öffentlich zugänglichen Informationen — nicht individuelle Therapieempfehlungen. Besonders bei Beschwerden, Vorerkrankungen, Medikamenteneinnahme oder vermutetem Nährstoffmangel solltest du medizinischen Rat einholen.
+      </LegalNotice>
     </div>
 
     <!-- Two-column: ratings + review -->

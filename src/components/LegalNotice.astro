@@ -1,0 +1,19 @@
+---
+interface Props {
+  title?: string;
+  tone?: 'slate' | 'amber';
+}
+
+const { title = 'Wichtiger Hinweis', tone = 'slate' } = Astro.props;
+
+const toneClasses = tone === 'amber'
+  ? 'border-amber-200 bg-amber-50/80 text-amber-900'
+  : 'border-slate-200 bg-slate-50/80 text-slate-800';
+---
+
+<aside class:list={['rounded-2xl border p-4 md:p-5', toneClasses]}>
+  <p class="text-sm font-semibold mb-2">{title}</p>
+  <div class="text-sm leading-6 text-slate-600">
+    <slot />
+  </div>
+</aside>

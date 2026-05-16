@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import LegalNotice from '../components/LegalNotice.astro';
 ---
 
 <BaseLayout
@@ -8,12 +9,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 >
   <div class="max-w-2xl mx-auto px-4 py-12">
 
-    <div class="mb-10">
+    <div class="mb-6">
       <h1 class="text-3xl font-bold text-slate-900 mb-3">Ernährungs-Check</h1>
       <p class="text-slate-600">
         10 Fragen, ca. 60 Sekunden. Wir berechnen auf Basis deiner Antworten,
         bei welchen Mikronährstoffen du wahrscheinlich unterversorgt bist.
       </p>
+    </div>
+
+    <div class="mb-10">
+      <LegalNotice>
+        Der Ernährungs-Check ist ein vereinfachtes Informations-Tool und keine medizinische Diagnostik. Die Ergebnisse sind Näherungen auf Basis deiner Angaben und ersetzen keine Laborwerte, ärztliche Beratung oder individuelle Therapieempfehlung.
+      </LegalNotice>
     </div>
 
     <!-- Questions -->
