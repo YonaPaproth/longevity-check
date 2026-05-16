@@ -179,6 +179,21 @@ import LegalNotice from '../components/LegalNotice.astro';
         <p class="text-sm text-slate-500 mb-6">
           Basierend auf deinen Angaben — kein Ersatz für einen Bluttest.
         </p>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 md:p-6 mb-6">
+          <div class="flex flex-wrap items-baseline justify-between gap-3 mb-4">
+            <div>
+              <p class="text-sm font-semibold text-slate-800">Dein Risikoprofil</p>
+              <p class="text-xs text-slate-500 mt-1">Je weiter außen, desto höher das geschätzte Risiko auf Basis deiner Antworten.</p>
+            </div>
+            <span class="text-xs font-medium text-slate-400">Skala 0–10</span>
+          </div>
+          <div id="radar-chart" class="mb-4"></div>
+          <div class="rounded-xl border border-slate-200 bg-slate-50/80 p-4 text-xs text-slate-600 leading-6">
+            Der Chart visualisiert nur die 6 aktuell bewerteten Mikronährstoffe: Vitamin D, Omega-3, Magnesium, Eisen, Zink und B12. <strong>Proteinmenge oder Proteinqualität werden derzeit nicht separat erfasst</strong> — dafür bräuchten wir eigene Fragen zu Eiweißquellen, Portionen und Trainingsziel.
+          </div>
+        </div>
+
         <div id="result-cards" class="space-y-4"></div>
 
         <!-- Next steps -->
@@ -482,6 +497,7 @@ const form = document.getElementById('check-form') as HTMLFormElement;
 const resultsEl = document.getElementById('results')!;
 const ctaHint = document.getElementById('cta-hint')!;
 const resultCards = document.getElementById('result-cards')!;
+const radarEl = document.getElementById('radar-chart')!;
 const progressBar = document.getElementById('progress-bar') as HTMLElement;
 const progressLabel = document.getElementById('progress-label')!;
 const progressPct = document.getElementById('progress-pct')!;
@@ -498,9 +514,73 @@ function getAnswers(): Record<string, string> {
   return out;
 }
 
+function renderRadar(results: NutrientResult[]) {
+  const radarResults = [...results].sort((a, b) => a.name.localeCompare(b.name, 'de'));
+  const size = 320;
+  const center = size / 2;
+  const radius = 110;
+  const levels = 5;
+
+  const pointAt = (index: number, value: number) => {
+    const angle = (-Math.PI / 2) + (index / radarResults.length) * Math.PI * 2;
+    const scaled = (value / 10) * radius;
+    return {
+      x: center + Math.cos(angle) * scaled,
+      y: center + Math.sin(angle) * scaled,
+    };
+  };
+
+  const polygonPoints = radarResults
+    .map((r, i) => {
+      const p = pointAt(i, r.score);
+      return `${p.x},${p.y}`;
+    })
+    .join(' ');
+
+  const gridPolygons = Array.from({ length: levels }, (_, idx) => {
+    const factor = (idx + 1) / levels;
+    const points = radarResults
+      .map((_, i) => {
+        const p = pointAt(i, factor * 10);
+        return `${p.x},${p.y}`;
+      })
+      .join(' ');
+    return `<polygon points="${points}" fill="none" stroke="#cbd5e1" stroke-width="1" />`;
+  }).join('');
+
+  const axes = radarResults.map((_, i) => {
+    const p = pointAt(i, 10);
+    return `<line x1="${center}" y1="${center}" x2="${p.x}" y2="${p.y}" stroke="#cbd5e1" stroke-width="1" />`;
+  }).join('');
+
+  const labels = radarResults.map((r, i) => {
+    const p = pointAt(i, 11.5);
+    const anchor = Math.abs(p.x - center) < 14 ? 'middle' : p.x < center ? 'end' : 'start';
+    return `<text x="${p.x}" y="${p.y}" text-anchor="${anchor}" dominant-baseline="middle" fill="#475569" font-size="12" font-weight="500">${r.name}</text>`;
+  }).join('');
+
+  const points = radarResults.map((r, i) => {
+    const p = pointAt(i, r.score);
+    return `<circle cx="${p.x}" cy="${p.y}" r="4" fill="#0f766e" stroke="#ffffff" stroke-width="2"><title>${r.name}: ${r.score}/10</title></circle>`;
+  }).join('');
+
+  radarEl.innerHTML = `
+    <div class="flex justify-center">
+      <svg viewBox="0 0 ${size} ${size}" class="w-full max-w-[420px] h-auto overflow-visible" role="img" aria-label="Radar Chart des Risikoprofils">
+        ${gridPolygons}
+        ${axes}
+        <polygon points="${polygonPoints}" fill="rgba(13, 148, 136, 0.18)" stroke="#0f766e" stroke-width="2.5" />
+        ${points}
+        ${labels}
+      </svg>
+    </div>
+  `;
+}
+
 function renderResults(answers: Record<string, string>) {
   const results = computeScores(answers);
   resultCards.innerHTML = '';
+  renderRadar(results);
 
   const make = (tag: string, className?: string, text?: string) => {
     const el = document.createElement(tag);
