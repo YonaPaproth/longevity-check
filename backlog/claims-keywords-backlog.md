@@ -1,5 +1,38 @@
 # Claims-Check Backlog
 
+## 🔬 Strategie: Dr. Sarah + eigenes Produkt-Testing
+
+**Hintergrund:** Sarah hat einen Dr. in Physik / Bio Imaging – analytische Methoden (HPLC, Spektroskopie, Reinheitsanalyse) liegen in ihrem Fachgebiet.
+
+**Kurzfristig:** Credentials noch nicht erwähnen (ohne Kontext verwirrend für Nutzer).
+
+**Mittelfristig:** Wenn eigene Produkttests starten, Sarah als Leiterin der Analysemethoden positionieren:
+> *„Unsere Analysemethoden werden von Dr. Sarah Rahmati, Physikerin mit Spezialisierung auf biomedizinische Bildgebung und analytische Messtechnik, entwickelt."*
+
+**Langfristig USP:**
+- Einzige deutschsprachige Seite die (1) Studien prüft + (2) Produkte wirklich analysiert + (3) akademische Credentials hat
+- Moat gegenüber Konkurrenten, die nur PubMed zitieren
+
+**Nächste Schritte wenn bereit:**
+- [ ] "Über uns / Editorial"-Seite mit Methodik + Team anlegen
+- [ ] Author-Attribution auf Artikeln einführen
+- [ ] Erste 5-10 Produkte im Labor testen (Reinheit, Wirkstoffgehalt)
+- [ ] Launch als Feature: "MikroScore Lab" o.ä.
+
+---
+
+## ⚡ TODO Morgen: Google Indexierung einrichten
+
+- [ ] **Google Search Console** einrichten → https://search.google.com/search-console
+  - Domain `mikroscore.com` verifizieren (DNS-TXT-Record über Vercel-Domain-Settings)
+  - Sitemap einreichen: `https://mikroscore.com/sitemap-index.xml`
+  - Einzelne wichtige URLs manuell zur Indexierung anmelden
+- [ ] **Bing Webmaster Tools** (optional, aber lohnt sich) → https://www.bing.com/webmasters
+- [ ] Nach Einrichtung: Status in Search Console beobachten (Crawling, Indexabdeckung)
+
+---
+
+
 Ziel: priorisierte Claim-Seiten für organischen Traffic über Google. Fokus auf suchbare, kontroverse oder häufig behauptete Supplement-Claims im deutschsprachigen Raum.
 
 **Konventionen**
