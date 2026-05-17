@@ -181,10 +181,11 @@ const productSchema = {
                   <div class={`text-5xl font-black leading-none ${verdictScoreColor[d.verdict]}`}>
                     {score.toFixed(1)}
                   </div>
-                  <div class="text-xs text-slate-400 font-medium mt-1">Gesamtscore</div>
+                  <div class="text-xs text-slate-400 font-medium mt-1">Produktqualität</div>
                 </div>
                 <div class="flex-1 min-w-0">
                   <VerdictBadge verdict={d.verdict} note={d.verdictNote} hideNote={true} />
+                  <p class="text-xs text-slate-400 mt-1.5">Produktqualitäts-Bewertung — kein Heilsversprechen</p>
                 </div>
               </div>
               <p class="text-sm leading-7 text-slate-600">
@@ -370,7 +371,7 @@ const productSchema = {
     <!-- Legal notice – always last -->
     <div class="mt-4">
       <LegalNotice>
-        MikroScore ist ein redaktionelles Informationsangebot und ersetzt keine medizinische oder pharmazeutische Beratung. Produktempfehlungen sind allgemeine Einschätzungen auf Basis von Inhaltsstoffen, Preis-Leistung und öffentlich zugänglichen Informationen — nicht individuelle Therapieempfehlungen. Besonders bei Beschwerden, Vorerkrankungen, Medikamenteneinnahme oder vermutetem Nährstoffmangel solltest du medizinischen Rat einholen.
+        <strong>Wichtiger rechtlicher Hinweis:</strong> MikroScore ist ein redaktionelles Informationsangebot. Die Bewertungen beurteilen ausschließlich Produktqualität (Inhaltsstoffe, Deklaration, Preis-Leistung, Transparenz) — sie stellen keine Heilsversprechen dar und implizieren keine nachgewiesene gesundheitliche Wirkung. Für dieses Produkt bestehen möglicherweise keine zugelassenen EU-Health-Claims gemäß VO (EG) 1924/2006. Nahrungsergänzungsmittel sind keine Arzneimittel und dienen nicht der Behandlung, Linderung, Heilung oder Vorbeugung von Krankheiten. Individuelle Ergebnisse können stark variieren. Konsultiere vor der Einnahme — insbesondere bei Erkrankungen, Schwangerschaft oder Medikamenteneinnahme — eine Ärztin oder einen Arzt.
       </LegalNotice>
     </div>
 
