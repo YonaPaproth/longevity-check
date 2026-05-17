@@ -129,6 +129,12 @@ const ALLOW_CONTEXT_PATTERNS = [
   /darf .* nicht/i,
   /nicht automatisch als claim/i,
   /^>/, // quoted claim block in markdown
+  /^\s*-\s*title:/i,
+  /^slug:/i,
+  /^vendor:/i,
+  /pharma-qualität/i,
+  /prohealth longevity/i,
+  /life extension longevity mix/i,
 ];
 
 const SUGGESTION_MAP = [
