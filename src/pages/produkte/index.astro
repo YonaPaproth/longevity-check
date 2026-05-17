@@ -74,26 +74,51 @@ const usedCategories = [...new Set(groups.map(g => g.category))];
       </div>
     </section>
 
-    <!-- Category filter -->
-    <div id="cat-filter" class="flex flex-wrap gap-3 mb-8">
-      <button data-cat="all"
-        class="cat-btn px-4 py-2 rounded-full text-sm font-medium border transition-colors shadow-sm bg-teal-600 text-white border-teal-600">
-        Alle ({groups.length})
-      </button>
-      {usedCategories.map(cat => (
-        <div class="inline-flex items-center gap-1.5">
-          <button data-cat={cat}
-            class="cat-btn px-4 py-2 rounded-full text-sm font-medium border transition-colors shadow-sm bg-white text-slate-600 border-slate-300 hover:border-teal-400 hover:text-teal-700">
+    <!-- Filter bar -->
+    <div class="bg-white border border-slate-200 rounded-xl p-4 mb-6 space-y-3">
+      <!-- Search -->
+      <input
+        id="prod-search"
+        type="search"
+        placeholder="Produkt oder Wirkstoff suchen…"
+        class="w-full text-sm border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-teal-400"
+      />
+      <!-- Category chips -->
+      <div class="flex flex-wrap gap-2">
+        <button data-filter="category" data-value="all"
+          class="filter-chip active text-xs rounded-full px-3 py-1 border font-medium transition-colors border-teal-500 bg-teal-500 text-white">
+          Alle Kategorien
+        </button>
+        {usedCategories.map(cat => (
+          <button data-filter="category" data-value={cat}
+            class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700">
             {categoryLabels[cat] ?? cat}
           </button>
-          <a href={`/produkte/kategorie/${cat}`}
-             class="inline-flex items-center justify-center rounded-full border border-transparent px-2 py-1 text-xs font-medium text-slate-400 hover:text-teal-600 hover:border-teal-200 no-underline"
-             aria-label={`${categoryLabels[cat] ?? cat} – Kategorie-Seite`}>
-            ↗
-          </a>
-        </div>
-      ))}
+        ))}
+      </div>
+      <!-- Verdict chips -->
+      <div class="flex flex-wrap gap-2">
+        <button data-filter="verdict" data-value="all"
+          class="filter-chip active text-xs rounded-full px-3 py-1 border font-medium transition-colors border-teal-500 bg-teal-500 text-white">
+          Alle Urteile
+        </button>
+        <button data-filter="verdict" data-value="empfehlenswert"
+          class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700">
+          ✅ Empfehlenswert
+        </button>
+        <button data-filter="verdict" data-value="akzeptabel"
+          class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700">
+          🟡 Akzeptabel
+        </button>
+        <button data-filter="verdict" data-value="nicht-empfehlenswert"
+          class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700">
+          ❌ Nicht empfehlenswert
+        </button>
+      </div>
     </div>
+
+    <!-- Results count -->
+    <p id="results-count" class="text-xs text-slate-400 mb-4">{groups.length} Wirkstoffe</p>
 
     <!-- Ingredient groups -->
     <div id="product-grid" class="grid grid-cols-1 gap-5">
@@ -101,8 +126,12 @@ const usedCategories = [...new Set(groups.map(g => g.category))];
         const d = group.top.data;
         const packDays = d.servingsPerPack;
         return (
-          <article data-category={group.category}
-               class="group rounded-[24px] border border-slate-200/80 bg-white/95 p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
+          <article
+               data-category={group.category}
+               data-verdict={group.top.data.verdict}
+               data-title={group.ingredientTitle.toLowerCase()}
+               data-vendor={group.top.data.vendor.toLowerCase()}
+               class="prod-card group rounded-[24px] border border-slate-200/80 bg-white/95 p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
 
             <!-- Ingredient header -->
             <div class="flex flex-wrap items-start justify-between gap-3 mb-5">
@@ -201,26 +230,43 @@ const usedCategories = [...new Set(groups.map(g => g.category))];
 </BaseLayout>
 
 <script>
-  const buttons = document.querySelectorAll<HTMLButtonElement>('.cat-btn');
-  const cards = document.querySelectorAll<HTMLElement>('#product-grid [data-category]');
+  const searchInput = document.getElementById('prod-search') as HTMLInputElement;
+  const grid = document.getElementById('product-grid')!;
+  const cards = Array.from(grid.querySelectorAll<HTMLElement>('.prod-card'));
+  const countEl = document.getElementById('results-count')!;
 
-  buttons.forEach(btn => {
+  let activeCategory = 'all';
+  let activeVerdict = 'all';
+
+  function applyFilters() {
+    const q = searchInput.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach(card => {
+      const matchCat = activeCategory === 'all' || card.dataset.category === activeCategory;
+      const matchVerdict = activeVerdict === 'all' || card.dataset.verdict === activeVerdict;
+      const matchQ = !q || (card.dataset.title ?? '').includes(q) || (card.dataset.vendor ?? '').includes(q);
+      const show = matchCat && matchVerdict && matchQ;
+      card.classList.toggle('hidden', !show);
+      if (show) visible++;
+    });
+    countEl.textContent = `${visible} ${visible === 1 ? 'Wirkstoff' : 'Wirkstoffe'}`;
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('.filter-chip').forEach(btn => {
     btn.addEventListener('click', () => {
-      const cat = btn.dataset.cat!;
-
-      // Update button styles
-      buttons.forEach(b => {
-        b.classList.remove('bg-teal-600', 'text-white', 'border-teal-600');
-        b.classList.add('bg-white', 'text-slate-600', 'border-slate-300');
+      const filterGroup = btn.dataset.filter!;
+      const value = btn.dataset.value!;
+      document.querySelectorAll<HTMLButtonElement>(`.filter-chip[data-filter="${filterGroup}"]`).forEach(b => {
+        b.classList.remove('active', 'border-teal-500', 'bg-teal-500', 'text-white');
+        b.classList.add('border-slate-300', 'bg-white', 'text-slate-600');
       });
-      btn.classList.add('bg-teal-600', 'text-white', 'border-teal-600');
-      btn.classList.remove('bg-white', 'text-slate-600', 'border-slate-300');
-
-      // Filter cards
-      cards.forEach(card => {
-        const show = cat === 'all' || card.dataset.category === cat;
-        card.style.display = show ? '' : 'none';
-      });
+      btn.classList.add('active', 'border-teal-500', 'bg-teal-500', 'text-white');
+      btn.classList.remove('border-slate-300', 'bg-white', 'text-slate-600');
+      if (filterGroup === 'category') activeCategory = value;
+      if (filterGroup === 'verdict') activeVerdict = value;
+      applyFilters();
     });
   });
+
+  searchInput.addEventListener('input', applyFilters);
 </script>
