@@ -30,8 +30,12 @@ const d = entry.data;
     <p class="text-sm text-slate-500 mb-2">Claims-Check</p>
     <h1 class="text-2xl font-bold text-slate-900 mb-4">„{d.title}"</h1>
 
-    <div class="flex items-center gap-3 mb-8">
+    <div class="flex items-center gap-3 mb-6">
       <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
+    </div>
+
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-8 text-xs text-amber-800 leading-5">
+      <strong>Redaktioneller Hinweis:</strong> Diese Seite bewertet eine verbreitete Aussage redaktionell. Sie macht keine zulässigen Health Claims im Sinne der VO (EG) Nr. 1924/2006 und ersetzt keine medizinische Beratung. Aussagen zu Studien, Biomarkern oder Mechanismen sind als Einordnung der Evidenz zu verstehen, nicht als Empfehlung zur Behandlung, Linderung oder Vorbeugung von Krankheiten.
     </div>
 
     <article class="prose max-w-none mb-10">
@@ -54,6 +58,10 @@ const d = entry.data;
         </ul>
       </div>
     )}
+
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mt-8 text-xs text-amber-800 leading-5">
+      <strong>Rechtlicher Kontext:</strong> Auch wenn einzelne Studien positive Effekte beschreiben, sind daraus nicht automatisch werblich zulässige gesundheitsbezogene Aussagen ableitbar. Maßgeblich für Lebensmittel und Nahrungsergänzungsmittel sind die in der EU zugelassenen Claims und deren Verwendungsbedingungen.
+    </div>
 
   </div>
 </BaseLayout>
