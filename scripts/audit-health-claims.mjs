@@ -103,6 +103,61 @@ const RULES = [
   },
 ];
 
+const ALLOW_CONTEXT_PATTERNS = [
+  /redaktioneller hinweis/i,
+  /rechtlicher hinweis/i,
+  /rechtlicher kontext/i,
+  /kein(?:e|er)?\s+(zul[aä]ssig(?:e|er)?|zugelassen(?:e|er)?)/i,
+  /nicht\s+zugelassen/i,
+  /nicht\s+zul[aä]ssig/i,
+  /keine?\s+health\s*claims?/i,
+  /kein\s+health\s*claim/i,
+  /health\s*claim/i,
+  /claim-?check/i,
+  /der claim/i,
+  /unser urteil/i,
+  /was efsa/i,
+  /was bfr/i,
+  /was efsa\s*\/\s*bfr/i,
+  /gleichsetzung/i,
+  /werbliche aussage/i,
+  /werbliche gesundheitsaussage/i,
+  /rechtlich problematisch/i,
+  /rechtlich riskant/i,
+  /rechtlich heikel/i,
+  /als werbliche/i,
+  /darf .* nicht/i,
+  /nicht automatisch als claim/i,
+  /^>/, // quoted claim block in markdown
+];
+
+const SUGGESTION_MAP = [
+  [/\bbelegt f[üu]r\b/gi, 'wird untersucht für'],
+  [/\bgut belegt\b/gi, 'vergleichsweise gut untersucht'],
+  [/\bnachweislich\b/gi, 'in Studien beschrieben'],
+  [/\bwirkt\b/gi, 'wird diskutiert'],
+  [/\bwirksam\b/gi, 'plausibel / untersucht'],
+  [/\bverbessert\b/gi, 'war mit Veränderungen verbunden'],
+  [/\bsenkt\b/gi, 'war mit niedrigeren Werten verbunden'],
+  [/\berh[öo]ht\b/gi, 'war mit höheren Werten verbunden'],
+  [/\bsch[üu]tzt\b/gi, 'wird mit Schutzmechanismen in Verbindung gebracht'],
+  [/\bverl[äa]ngert\b/gi, 'wird im Zusammenhang mit Alterungsforschung diskutiert'],
+  [/\blongevity\b/gi, 'gesundes Altern'],
+  [/\banti-?aging\b/gi, 'Alterungsforschung'],
+  [/\bherzges[üu]nder\b/gi, 'diterpenärmer / im Herz-Kreislauf-Kontext diskutiert'],
+  [/nat[üu]rlich(?:e|es|er)?\s+ozempic/gi, 'wird marketingseitig mit Ozempic verglichen'],
+  [/nat[üu]rlich(?:e|es|er)?\s+ibuprofen/gi, 'wird marketingseitig mit Ibuprofen verglichen'],
+  [/\bwie\s+ozempic\b/gi, 'mit Ozempic verglichen'],
+  [/\bwie\s+ibuprofen\b/gi, 'mit Ibuprofen verglichen'],
+  [/\bsicher\b/gi, 'gut untersucht / eher gut verträglich'],
+  [/\bperfekt\b/gi, 'praktisch'],
+  [/\bideal\b/gi, 'gut geeignet'],
+  [/\bwundermittel\b/gi, 'pauschale Lösung'],
+  [/\ballheilmittel\b/gi, 'universelle Lösung'],
+  [/\bohne nebenwirkungen\b/gi, 'mit anderem Nebenwirkungsprofil'],
+  [/\bkeine nebenwirkungen\b/gi, 'nicht frei von möglichen Nebenwirkungen'],
+];
+
 function walk(dir, out = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.name.startsWith('.')) continue;
@@ -137,6 +192,13 @@ function getLine(text, lineNumber) {
   return text.split('\n')[lineNumber - 1] ?? '';
 }
 
+function getContextWindow(text, lineNumber, radius = 1) {
+  const lines = text.split('\n');
+  const start = Math.max(0, lineNumber - 1 - radius);
+  const end = Math.min(lines.length, lineNumber + radius);
+  return lines.slice(start, end).join('\n');
+}
+
 function clip(s, max = 180) {
   return s.length <= max ? s : `${s.slice(0, max - 1)}…`;
 }
@@ -145,8 +207,29 @@ function severityScore(sev) {
   return sev === 'high' ? 2 : sev === 'medium' ? 1 : 0;
 }
 
+function isAllowedContext(line, windowText) {
+  return ALLOW_CONTEXT_PATTERNS.some((re) => re.test(line) || re.test(windowText));
+}
+
+function buildSuggestion(line, matchText) {
+  let suggestion = line;
+  let changed = false;
+  for (const [pattern, replacement] of SUGGESTION_MAP) {
+    const before = suggestion;
+    suggestion = suggestion.replace(pattern, replacement);
+    if (suggestion !== before) changed = true;
+  }
+
+  if (!changed) {
+    suggestion = line.replace(matchText, `[vorsichtiger formulieren: ${matchText}]`);
+  }
+
+  return clip(suggestion.trim(), 220);
+}
+
 const files = getTargets();
 const findings = [];
+const skipped = [];
 
 for (const file of files) {
   const raw = fs.readFileSync(file, 'utf8');
@@ -156,6 +239,19 @@ for (const file of files) {
       let match;
       while ((match = pattern.exec(raw)) !== null) {
         const line = lineNumberFromIndex(raw, match.index);
+        const lineText = getLine(raw, line).trim();
+        const windowText = getContextWindow(raw, line, 1);
+
+        if (isAllowedContext(lineText, windowText)) {
+          skipped.push({
+            file: path.relative(root, file),
+            line,
+            rule: rule.id,
+            match: match[0],
+          });
+          continue;
+        }
+
         findings.push({
           file: path.relative(root, file),
           line,
@@ -163,7 +259,8 @@ for (const file of files) {
           rule: rule.id,
           reason: rule.reason,
           match: match[0],
-          excerpt: clip(getLine(raw, line).trim()),
+          excerpt: clip(lineText),
+          suggestion: buildSuggestion(lineText, match[0]),
         });
       }
     }
@@ -184,7 +281,8 @@ const summary = findings.reduce((acc, f) => {
 
 console.log(`Health-claim wording audit\n`);
 console.log(`Scanned files: ${files.length}`);
-console.log(`Findings: ${summary.total} (high: ${summary.high}, medium: ${summary.medium})\n`);
+console.log(`Findings: ${summary.total} (high: ${summary.high}, medium: ${summary.medium})`);
+console.log(`Skipped by allowlist/context: ${skipped.length}\n`);
 
 if (!findings.length) {
   console.log('No suspicious wording found by the heuristic rules.');
@@ -193,16 +291,18 @@ if (!findings.length) {
 
 for (const f of findings) {
   console.log(`[${f.severity.toUpperCase()}] ${f.file}:${f.line}`);
-  console.log(`  rule:   ${f.rule}`);
-  console.log(`  match:  ${f.match}`);
-  console.log(`  why:    ${f.reason}`);
-  console.log(`  text:   ${f.excerpt}`);
+  console.log(`  rule:       ${f.rule}`);
+  console.log(`  match:      ${f.match}`);
+  console.log(`  why:        ${f.reason}`);
+  console.log(`  text:       ${f.excerpt}`);
+  console.log(`  suggestion: ${f.suggestion}`);
   console.log('');
 }
 
 console.log('How to use this output:');
 console.log('- High: usually review manually and rewrite conservatively.');
 console.log('- Medium: often okay in context, but check whether it reads like a claim on the rendered page.');
+console.log('- Suggestions are intentionally weak rewrites, not legal guarantees.');
 console.log('- Heuristics catch obvious wording, not legal nuance. Borderline cases still benefit from LLM or legal review.');
 
 process.exit(summary.high > 0 ? 2 : 0);
