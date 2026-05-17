@@ -56,7 +56,7 @@ const groups = [...grouped.entries()]
 const usedCategories = [...new Set(groups.map(g => g.category))];
 ---
 
-<BaseLayout title="Produktvergleich" description="Longevity-Supplements im Vergleich: NMN, Ashwagandha, Omega-3, Magnesium & mehr – bewertet nach Studien, Preis und Qualität. Kostenlos, ohne Werbung.">
+<BaseLayout title="Produktvergleich" description="Longevity-Supplements im Vergleich: NMN, Ashwagandha, Omega-3, Magnesium & mehr – redaktionell bewertet nach Preis, Qualität und Transparenz.">
   <div class="max-w-5xl mx-auto px-4 py-12">
 
     <section class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-8">
@@ -66,8 +66,8 @@ const usedCategories = [...new Set(groups.map(g => g.category))];
           <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900">Produktvergleich</h1>
         </div>
         <p class="text-slate-600 text-[15px] leading-7 max-w-3xl mb-6">
-          Bewertet nach Evidenz, Preis pro Tagesdosis, Qualität, Label-Ehrlichkeit und Drittanbieter-Tests.
-          Pro Wirkstoff zeigen wir aktuell das beste Produkt — von dort kommst du in den Detailvergleich.
+          Redaktionell eingeordnet nach Evidenzlage des Wirkstoffs, Preis pro Tagesdosis, Produktqualität, Label-Transparenz und Drittanbieter-Tests.
+          Pro Wirkstoff zeigen wir aktuell das bestbewertete Produkt — von dort kommst du in den Detailvergleich.
         </p>
 
 
@@ -115,6 +115,10 @@ const usedCategories = [...new Set(groups.map(g => g.category))];
           Nicht empfehlenswert
         </button>
       </div>
+    </div>
+
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-4 text-xs text-amber-800 leading-5">
+      <strong>Redaktioneller Hinweis:</strong> Die Produktübersicht bewertet vor allem Preis, Deklaration, Transparenz und formale Produktqualität. Die Kurztexte sind keine Health Claims und keine Empfehlung zur Behandlung, Linderung oder Vorbeugung von Krankheiten.
     </div>
 
     <!-- Results count -->

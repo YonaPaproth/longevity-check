@@ -58,7 +58,7 @@ const priceChecked = d.lastPriceCheck
   ? new Date(d.lastPriceCheck).toLocaleDateString('de-DE', { day: 'numeric', month: 'short', year: 'numeric' })
   : null;
 
-const productDescriptionBase = `${d.title} im Test: ${d.summary} Preis/Tag ab ${d.pricePerDayEur.toFixed(2)}€. Unabhängige Bewertung.`;
+const productDescriptionBase = `${d.title} im redaktionellen Check: ${d.summary} Preis/Tag ab ${d.pricePerDayEur.toFixed(2)}€. Produktbewertung zu Preis, Transparenz und Qualität.`;
 const productDescription = productDescriptionBase.length > 155
   ? `${productDescriptionBase.slice(0, 152)}…`
   : productDescriptionBase;
@@ -270,7 +270,7 @@ const productSchema = {
         d.verdict === 'empfehlenswert' ? 'text-teal-800'
         : d.verdict === 'akzeptabel' ? 'text-amber-800'
         : 'text-red-800'
-      }`}>Unser Fazit</p>
+      }`}>Redaktionelles Fazit</p>
       <p class={`text-sm ${
         d.verdict === 'empfehlenswert' ? 'text-teal-700'
         : d.verdict === 'akzeptabel' ? 'text-amber-700'
