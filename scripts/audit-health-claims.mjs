@@ -172,9 +172,26 @@ function walk(dir, out = []) {
   return out;
 }
 
-function getTargets() {
+function parseArgs() {
   const args = process.argv.slice(2);
-  const paths = args.length ? args : DEFAULT_GLOBS;
+  const options = {
+    json: false,
+    paths: [],
+  };
+
+  for (const arg of args) {
+    if (arg === '--json') {
+      options.json = true;
+    } else {
+      options.paths.push(arg);
+    }
+  }
+
+  return options;
+}
+
+function getTargets(inputPaths) {
+  const paths = inputPaths.length ? inputPaths : DEFAULT_GLOBS;
   return paths.flatMap((p) => {
     const full = path.isAbsolute(p) ? p : path.join(root, p);
     if (!fs.existsSync(full)) return [];
@@ -227,7 +244,8 @@ function buildSuggestion(line, matchText) {
   return clip(suggestion.trim(), 220);
 }
 
-const files = getTargets();
+const options = parseArgs();
+const files = getTargets(options.paths);
 const findings = [];
 const skipped = [];
 
@@ -278,6 +296,17 @@ const summary = findings.reduce((acc, f) => {
   acc[f.severity] += 1;
   return acc;
 }, { total: 0, high: 0, medium: 0, low: 0 });
+
+if (options.json) {
+  console.log(JSON.stringify({
+    scannedFiles: files.length,
+    summary,
+    skippedCount: skipped.length,
+    findings,
+    skipped,
+  }, null, 2));
+  process.exit(summary.high > 0 ? 2 : 0);
+}
 
 console.log(`Health-claim wording audit\n`);
 console.log(`Scanned files: ${files.length}`);
