@@ -94,9 +94,7 @@ const productSchema = {
 
 <BaseLayout title={d.title} description={productDescription}>
   <Fragment slot="head">
-    <script type="application/ld+json">
-      {JSON.stringify(productSchema, null, 2)}
-    </script>
+    <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
   </Fragment>
 
   <div class="max-w-5xl mx-auto px-4 py-10">
