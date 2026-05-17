@@ -1,5 +1,30 @@
 # Claims-Check Backlog
 
+## 📱 Strategie: YouTube Shorts für Traffic
+
+**Idee:** Claims-Check-Artikel als YouTube Shorts recyceln (45-60 Sek., DE).
+
+**Format:**
+- Claim → kurze Studienlage → Urteil (Übertrieben / Falsch / Zu früh)
+- Perfekt für Shorts: genau die Struktur der bestehenden Claims-Artikel
+
+**Traffic-Flywheel:**
+YouTube Shorts → Description-Link → mikroscore.com → Dossier/Produkt → Affiliate
+
+**Automatisierungspotenzial mit OpenClaw:**
+1. Claims-Check Artikel → Script automatisch generieren
+2. Script → Audio via TTS (ElevenLabs / sag-Skill)
+3. Audio + Grafiken → Short zusammenbauen (InVideo / HeyGen / Runway)
+4. Auto-Upload YouTube Data API
+
+**Nächste Schritte wenn bereit:**
+- [ ] YouTube-Kanal anlegen (MikroScore)
+- [ ] 3-5 Shorts manuell testen (welches Format konvertiert?)
+- [ ] Danach Automatisierung via OpenClaw evaluieren
+- [ ] Tool klären: HeyGen / Pictory / InVideo / ElevenLabs?
+
+---
+
 ## 🔬 Strategie: Dr. Sarah + eigenes Produkt-Testing
 
 **Hintergrund:** Sarah hat einen Dr. in Physik / Bio Imaging – analytische Methoden (HPLC, Spektroskopie, Reinheitsanalyse) liegen in ihrem Fachgebiet.
