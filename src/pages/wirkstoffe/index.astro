@@ -95,6 +95,10 @@ const evidenceLevels = [...new Set(ingredients.map(i => i.data.evidenceLevel))].
 
     </div>
 
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-4 text-xs text-amber-800 leading-5">
+      <strong>Redaktioneller Hinweis:</strong> Die Kurztexte auf dieser Übersichtsseite fassen Studienlage und regulatorischen Kontext knapp zusammen. Sie sind keine Health Claims im Sinne der VO (EG) Nr. 1924/2006 und keine Empfehlung zur Behandlung, Linderung oder Vorbeugung von Krankheiten.
+    </div>
+
     <!-- Results count -->
     <p id="results-count" class="text-xs text-slate-400 mb-4">{ingredients.length} Einträge</p>
 
@@ -133,8 +137,8 @@ const evidenceLevels = [...new Set(ingredients.map(i => i.data.evidenceLevel))].
               ing.data.safety_rating === 'caution' ? 'bg-orange-100 text-orange-700' :
               'bg-slate-100 text-slate-500'
             ]}>
-              {ing.data.safety_rating === 'safe' ? 'Sicher' :
-               ing.data.safety_rating === 'likely-safe' ? 'Wahrsch. sicher' :
+              {ing.data.safety_rating === 'safe' ? 'Gut untersucht' :
+               ing.data.safety_rating === 'likely-safe' ? 'Eher gut verträglich' :
                ing.data.safety_rating === 'caution' ? 'Vorsicht' :
                'Datenlage offen'}
             </span>
