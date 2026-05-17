@@ -29,18 +29,49 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
   <!-- Header -->
   <header class="border-b border-slate-200 bg-white sticky top-0 z-10">
     <div class="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
-      <a href="/" class="font-bold text-lg text-slate-900 no-underline hover:text-teal-700">
+      <a href="/" class="font-bold text-lg text-slate-900 no-underline hover:text-teal-700 shrink-0">
         Mikro<span class="text-teal-600">Score</span>
       </a>
-      <nav class="flex gap-6 text-sm items-center">
+      <!-- Desktop nav -->
+      <nav class="hidden md:flex gap-6 text-sm items-center">
         <a href="/ernaehrungs-check" class="text-slate-600 hover:text-teal-700 no-underline">Ernährungs-Check</a>
         <a href="/wirkstoffe" class="text-slate-600 hover:text-teal-700 no-underline">Wirkstoffe</a>
         <a href="/produkte" class="text-slate-600 hover:text-teal-700 no-underline">Produkte</a>
         <a href="/claims" class="text-slate-600 hover:text-teal-700 no-underline">Claims-Check</a>
         <a href="/methodik" class="text-slate-600 hover:text-teal-700 no-underline">Methodik</a>
       </nav>
+      <!-- Mobile hamburger -->
+      <button id="menu-btn" class="md:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 transition-colors" aria-label="Menü öffnen">
+        <svg id="icon-open" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+        <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <!-- Mobile menu dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-slate-100 bg-white px-4 py-3 flex flex-col gap-1">
+      <a href="/ernaehrungs-check" class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">Ernährungs-Check</a>
+      <a href="/wirkstoffe" class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">Wirkstoffe</a>
+      <a href="/produkte" class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">Produkte</a>
+      <a href="/claims" class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">Claims-Check</a>
+      <a href="/methodik" class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">Methodik</a>
     </div>
   </header>
+
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('icon-open');
+    const iconClose = document.getElementById('icon-close');
+    btn?.addEventListener('click', () => {
+      const isOpen = !menu?.classList.contains('hidden');
+      menu?.classList.toggle('hidden', isOpen);
+      iconOpen?.classList.toggle('hidden', !isOpen);
+      iconClose?.classList.toggle('hidden', isOpen);
+    });
+  </script>
 
   <!-- Main content -->
   <main class="flex-1">
