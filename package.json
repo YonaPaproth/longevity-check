@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "validate:ingredients": "node scripts/validate-ingredients.mjs"
+    "validate:ingredients": "node scripts/validate-ingredients.mjs",
+    "audit:health-claims": "node scripts/audit-health-claims.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",
