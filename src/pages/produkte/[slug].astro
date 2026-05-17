@@ -279,12 +279,6 @@ const productSchema = {
       }`}>{d.verdictNote}</p>
     </div>
 
-    <div class="mb-10">
-      <LegalNotice>
-        MikroScore ist ein redaktionelles Informationsangebot und ersetzt keine medizinische oder pharmazeutische Beratung. Produktempfehlungen sind allgemeine Einschätzungen auf Basis von Inhaltsstoffen, Preis-Leistung und öffentlich zugänglichen Informationen — nicht individuelle Therapieempfehlungen. Besonders bei Beschwerden, Vorerkrankungen, Medikamenteneinnahme oder vermutetem Nährstoffmangel solltest du medizinischen Rat einholen.
-      </LegalNotice>
-    </div>
-
     <!-- Two-column: ratings + review -->
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 mb-10">
 
@@ -359,7 +353,7 @@ const productSchema = {
 
     <!-- Linked ingredient -->
     {ingredient && (
-      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between mb-8">
         <div>
           <p class="text-xs text-slate-500 mb-1 uppercase tracking-wide font-medium">Wirkstoff-Dossier</p>
           <p class="font-semibold text-slate-900 mb-1">{ingredient.data.title}</p>
@@ -374,6 +368,13 @@ const productSchema = {
         </div>
       </div>
     )}
+
+    <!-- Legal notice – always last -->
+    <div class="mt-4">
+      <LegalNotice>
+        MikroScore ist ein redaktionelles Informationsangebot und ersetzt keine medizinische oder pharmazeutische Beratung. Produktempfehlungen sind allgemeine Einschätzungen auf Basis von Inhaltsstoffen, Preis-Leistung und öffentlich zugänglichen Informationen — nicht individuelle Therapieempfehlungen. Besonders bei Beschwerden, Vorerkrankungen, Medikamenteneinnahme oder vermutetem Nährstoffmangel solltest du medizinischen Rat einholen.
+      </LegalNotice>
+    </div>
 
   </div>
 </BaseLayout>
