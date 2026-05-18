@@ -181,11 +181,11 @@ const productSchema = {
                   <div class={`text-5xl font-black leading-none ${verdictScoreColor[d.verdict]}`}>
                     {score.toFixed(1)}
                   </div>
-                  <div class="text-xs text-slate-400 font-medium mt-1">Produktqualität</div>
+                  <div class="text-xs text-slate-400 font-medium mt-1">Transparenz-Index</div>
                 </div>
                 <div class="flex-1 min-w-0">
                   <VerdictBadge verdict={d.verdict} note={d.verdictNote} hideNote={true} />
-                  <p class="text-xs text-slate-400 mt-1.5">Produktqualitäts-Bewertung — kein Heilsversprechen</p>
+                  <p class="text-xs text-slate-400 mt-1.5">Transparenzbewertung – kein Heilsversprechen</p>
                 </div>
               </div>
               <p class="text-sm leading-7 text-slate-600">
@@ -283,21 +283,21 @@ const productSchema = {
 
       <!-- Rating breakdown -->
       <div class="bg-white border border-slate-200 rounded-2xl p-6">
-        <h2 class="text-base font-semibold text-slate-800 mb-5">Bewertung im Detail</h2>
+        <h2 class="text-base font-semibold text-slate-800 mb-5">Transparenz-Index im Detail</h2>
         <div class="space-y-4">
           <RatingBar
-            label="Evidenz für Wirkstoff"
+            label="Forschungsstand Wirkstoff"
             score={d.ratings.evidenceForIngredient.score}
             explanation={d.ratings.evidenceForIngredient.explanation}
             highlight={true}
           />
           <RatingBar
-            label="Preis/Leistung"
+            label="Preis-Leistungs-Transparenz"
             score={d.ratings.valueForMoney.score}
             explanation={d.ratings.valueForMoney.explanation}
           />
           <RatingBar
-            label="Produktqualität"
+            label="Deklarationsqualität"
             score={d.ratings.productQuality.score}
             explanation={d.ratings.productQuality.explanation}
           />
@@ -316,7 +316,7 @@ const productSchema = {
 
       <!-- Review prose -->
       <div class="bg-white border border-slate-200 rounded-2xl p-6">
-        <h2 class="text-base font-semibold text-slate-800 mb-5">Unsere Bewertung</h2>
+        <h2 class="text-base font-semibold text-slate-800 mb-5">Produktanalyse</h2>
         <article class="prose prose-sm max-w-none prose-headings:text-slate-800 prose-headings:font-semibold prose-p:text-slate-600 prose-li:text-slate-600">
           <Content />
         </article>
