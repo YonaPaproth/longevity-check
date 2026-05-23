@@ -90,11 +90,27 @@ const productSchema = {
     },
   },
 };
+
+const faqSchema = d.faq && d.faq.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: d.faq.map(item => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+} : null;
 ---
 
 <BaseLayout title={d.title} description={productDescription}>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
+    {faqSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    )}
   </Fragment>
 
   <div class="max-w-5xl mx-auto px-4 py-10">
@@ -322,6 +338,21 @@ const productSchema = {
         </article>
       </div>
     </div>
+
+    <!-- FAQ section -->
+    {d.faq && d.faq.length > 0 && (
+      <div class="mb-8">
+        <h2 class="text-base font-semibold text-slate-800 mb-4">Häufige Fragen</h2>
+        <div class="space-y-3">
+          {d.faq.map(item => (
+            <div class="bg-white border border-slate-200 rounded-xl p-5">
+              <p class="text-sm font-semibold text-slate-800 mb-1.5">{item.question}</p>
+              <p class="text-sm text-slate-600 leading-relaxed">{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
 
     <!-- Other products with same ingredient -->
     {siblingProducts.length > 0 && (

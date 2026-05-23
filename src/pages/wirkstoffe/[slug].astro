@@ -97,6 +97,15 @@ const articleSchema = {
       )}
     </div>
 
+    <!-- Kurzurteil (TL;DR) -->
+    <div class="bg-white border border-slate-200 rounded-xl p-5 mb-6 shadow-sm">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-semibold uppercase tracking-wide text-slate-400">Kurzurteil</span>
+        <EvidenceBadge level={d.evidenceLevel} />
+      </div>
+      <p class="text-base font-medium text-slate-800 leading-relaxed">{d.summary}</p>
+    </div>
+
     <!-- Evidence summary box -->
     <div class="bg-teal-50 border border-teal-200 rounded-xl p-5 mb-8">
       <p class="text-sm font-semibold text-teal-800 mb-1">Evidenzlage auf einen Blick</p>

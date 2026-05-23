@@ -85,6 +85,10 @@ const products = defineCollection({
     ])).default([]),
     verdict: z.enum(['empfehlenswert', 'akzeptabel', 'nicht-empfehlenswert']),
     verdictNote: z.string(),
+    faq: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
   }),
 });
 
