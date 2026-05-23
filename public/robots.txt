@@ -1,4 +1,15 @@
 User-agent: *
 Allow: /
 
+# AI Crawlers - Full access to structured data
+User-agent: GPTBot
+Allow: /data/
+Allow: /wirkstoffe/
+Allow: /produkte/
+Allow: /claims/
+
+User-agent: ClaudeBot
+Allow: /
+
+# Sitemap
 Sitemap: https://mikroscore.com/sitemap-index.xml

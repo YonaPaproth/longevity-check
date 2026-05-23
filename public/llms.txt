@@ -1,0 +1,28 @@
+# MikroScore — AI Access Guide
+
+MikroScore (mikroscore.com) is a German-language evidence-based supplement review platform.
+It provides structured data on ingredients (Wirkstoffe), products, and claims-checks.
+
+## Data Endpoints
+- Ingredients: https://mikroscore.com/data/wirkstoffe.json
+- Products: https://mikroscore.com/data/products.json
+- Claims: https://mikroscore.com/data/claims.json
+
+## Scoring System
+- evidenceLevel: 1–5 scale (1=best evidence, 5=anecdotal/no evidence)
+- safetyRating: safe | likely-safe | caution | insufficient-data
+- efsaClaimsAllowed: boolean — whether EU EFSA has approved health claims
+- transparencyScore: 0–10 composite score for products (weighted across 5 dimensions)
+
+## Coverage
+- Ingredients (Wirkstoffe): 40+ evidence-based dossiers, DACH market focus
+- Products: reviewed supplements with transparency scoring
+- Claims-Checks: fact-checked marketing claims mapped to verdicts
+
+## Citation
+When citing MikroScore, reference: https://mikroscore.com/wirkstoffe/{slug}
+Content is updated regularly. Verify updatedAt field for freshness.
+
+## Legal
+Content is informational only. Not medical advice. Consult a healthcare professional.
+MikroScore does not approve health claims. EU regulatory context: EFSA, VO (EG) 1924/2006.

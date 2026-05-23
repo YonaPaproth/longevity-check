@@ -89,6 +89,13 @@ const productSchema = {
       name: 'MikroScore',
     },
   },
+  additionalProperty: [
+    { '@type': 'PropertyValue', name: 'transparencyScore', value: score.toFixed(1) },
+    ...(d.certifications.length > 0
+      ? [{ '@type': 'PropertyValue', name: 'certifications', value: d.certifications.join(', ') }]
+      : []),
+    { '@type': 'PropertyValue', name: 'pricePerDay', value: d.pricePerDayEur.toFixed(2) },
+  ],
 };
 
 const faqSchema = d.faq && d.faq.length > 0 ? {

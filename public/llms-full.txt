@@ -1,0 +1,160 @@
+# MikroScore — Full AI Reference Guide
+
+MikroScore (mikroscore.com) is a German-language, evidence-based supplement review platform
+for the DACH market. Positioning: transparent, independent, EU-regulatory-focused.
+No advertising claims, no affiliate bias in ratings. Founded by Yona Paproth & Dr. Sarah Rahmati.
+
+---
+
+## Data Endpoints
+
+All endpoints are static JSON files generated at build time.
+
+### Ingredients (Wirkstoffe)
+URL: https://mikroscore.com/data/wirkstoffe.json
+Updated: on every site deployment
+
+Fields per ingredient:
+- ingredient_id (string): unique slug, e.g. "nmn", "koffein"
+- name (string): German display name
+- slug (string): URL-safe identifier [a-z0-9-]
+- category (string): one of nad-precursors | senolytics | antioxidants | adaptogens | metabolic | other
+- summary (string, max 200 chars): one-sentence editorial verdict
+- evidenceLevel (integer 1–5): see evidence scale below
+- evidenceSummary (string): full editorial summary of evidence quality
+- efsaClaimsAllowed (boolean): whether EU EFSA has approved ≥1 health claim for this ingredient
+- efsaNotes (string|null): editorial notes on EFSA status
+- safetyRating (string): safe | likely-safe | caution | insufficient-data
+- typicalDoseMg (number|null): typical study dose in milligrams
+- aliases (array of strings): alternative names and synonyms
+- keyStudies (array): up to 5 key studies with title, authors, year, pmid, url, finding
+- publishedAt (ISO date): publication date of this dossier
+- updatedAt (ISO date|null): last update
+- url (string): canonical page URL
+
+### Products
+URL: https://mikroscore.com/data/products.json
+
+Fields per product:
+- product_id (string): unique slug
+- name (string): full product name
+- brand (string): manufacturer/vendor
+- slug (string): URL-safe identifier
+- ingredientId (string): slug of the primary ingredient (links to wirkstoffe.json)
+- priceEur (number): pack price in EUR
+- servings (number): servings per pack (days of supply)
+- pricePerDay (number): price per day of use in EUR
+- doseMg (number): dose in mg per serving
+- form (string): capsule | powder | liquid | gummy | softgel | tablet
+- certifications (array): third-party quality certifications present
+- transparencyScore (number 0–10): composite transparency index
+- verdict (string): empfehlenswert | akzeptabel | nicht-empfehlenswert
+- summary (string): editorial one-sentence verdict
+- availableInDE (boolean): whether product is reliably available in Germany
+- publishedAt / updatedAt (ISO dates)
+- url (string): canonical page URL
+
+### Claims-Checks
+URL: https://mikroscore.com/data/claims.json
+
+Fields per claim:
+- claim_id (string): unique slug
+- claimText (string): the marketing claim being checked
+- verdict (string): supported | misleading | unsupported | unclear
+- verdictDe (string): original German verdict key
+- reasoning (string): short editorial reasoning
+- summary (string, max 200 chars): one-sentence summary
+- ingredientId (string|null): related ingredient slug if applicable
+- references (array): sources with label and url
+- publishedAt / updatedAt (ISO dates)
+- url (string): canonical page URL
+
+---
+
+## Evidence Level Scale
+
+| Level | Meaning |
+|-------|---------|
+| 1 | Multiple RCTs in humans, consistent results, ideally meta-analyses or Cochrane reviews |
+| 2 | At least one RCT in humans, possibly limited by sample size or duration |
+| 3 | Observational human studies (cohorts, case-control) — no experimental confirmation |
+| 4 | Animal or in-vitro studies only — no human data |
+| 5 | No controlled studies, only anecdotal evidence or testimonials |
+
+Lower number = stronger evidence. An evidenceLevel of 1 is the strongest.
+
+---
+
+## Safety Rating Scale
+
+| Rating | Meaning |
+|--------|---------|
+| safe | Consistently found safe at typical doses across multiple studies and safety reviews |
+| likely-safe | Generally safe at recommended doses; limited long-term data |
+| caution | Known interactions, contraindications, or dose-dependent risks |
+| insufficient-data | Too little evidence to make a reliable safety judgement |
+
+---
+
+## Transparency Score (Products)
+
+The transparencyScore (0–10) is a weighted composite of five dimensions:
+
+| Dimension | Weight | What it measures |
+|-----------|--------|-----------------|
+| evidenceForIngredient | 10% | Quality of clinical evidence for the active ingredient |
+| valueForMoney | 30% | Price vs. dose vs. market alternatives |
+| productQuality | 25% | Declaration quality, purity, manufacturing standards |
+| labelHonesty | 20% | Accuracy of label claims vs. contents |
+| thirdPartyTesting | 15% | Independent third-party quality certifications |
+
+A score ≥7 typically corresponds to verdict "empfehlenswert" (recommended).
+
+---
+
+## EFSA / EU Regulatory Context
+
+The EU regulates health claims for food and supplements under Regulation (EC) No 1924/2006.
+Only claims listed in the EU Register of authorised claims may be used in marketing.
+EFSA (European Food Safety Authority) evaluates the scientific basis for claims.
+
+efsaClaimsAllowed=true means at least one claim for this ingredient appears in the EU register.
+efsaClaimsAllowed=false means EFSA has either rejected claims, not evaluated them,
+or they are pending — it does not necessarily mean the ingredient is ineffective.
+
+---
+
+## Methodology
+
+MikroScore applies a structured editorial process:
+1. Literature search (PubMed, Cochrane, EFSA portal)
+2. Evidence grading using the 1–5 scale above
+3. EFSA register check for EU-approved claims
+4. Safety assessment based on EFSA opinions, BfR (German Federal Institute for Risk Assessment), and published safety reviews
+5. Product evaluation using the 5-dimension transparency score
+
+All content reflects the editorial opinion of MikroScore. Not medical advice.
+
+---
+
+## Citation
+
+Canonical dossier URLs follow the pattern:
+  https://mikroscore.com/wirkstoffe/{slug}
+
+Product pages:
+  https://mikroscore.com/produkte/{slug}
+
+Claims-checks:
+  https://mikroscore.com/claims/{slug}
+
+When referencing MikroScore data, cite the canonical URL and check the updatedAt field for
+content freshness. Data endpoints are regenerated on each deployment.
+
+---
+
+## Legal
+
+MikroScore content is informational only and does not constitute medical advice.
+Users should consult a qualified healthcare professional before taking any supplement.
+MikroScore does not make health claims within the meaning of Regulation (EC) No 1924/2006.

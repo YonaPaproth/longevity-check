@@ -59,12 +59,51 @@ const articleSchema = {
     url: 'https://mikroscore.com',
   },
 };
+
+const medicalWebPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalWebPage',
+  name: `${d.title} – Wirkung, Studien & Bewertung`,
+  url: `https://mikroscore.com/wirkstoffe/${d.slug}`,
+  description: d.summary,
+  dateModified: d.updatedAt ?? d.publishedAt,
+  additionalProperty: [
+    { '@type': 'PropertyValue', name: 'evidenceLevel', value: d.evidenceLevel },
+    { '@type': 'PropertyValue', name: 'efsaClaimStatus', value: d.efsa_health_claims_allowed ? 'allowed' : 'not-allowed' },
+    { '@type': 'PropertyValue', name: 'safetyRating', value: d.safety_rating },
+    { '@type': 'PropertyValue', name: 'category', value: d.category },
+  ],
+  ...(d.key_studies.length > 0 && {
+    citation: d.key_studies.map(study => ({
+      '@type': 'ScholarlyArticle',
+      name: study.title,
+      author: study.authors,
+      datePublished: study.year.toString(),
+      ...(study.pmid ? { identifier: `PMID:${study.pmid}` } : {}),
+      ...(study.url ? { url: study.url } : {}),
+    })),
+  }),
+};
+
+// AI summary helpers
+const evidenceSentences = d.evidenceSummary.split(/\.\s+/);
+const evidenceSupports = evidenceSentences.slice(0, 2).join('. ').trimEnd().replace(/\.?$/, '.');
+const notBelegt = parseInt(d.evidenceLevel) >= 3
+  ? 'Klinische Humanstudien fehlen oder sind sehr schwach. Langzeit-Sicherheit beim Menschen weitgehend unerforscht.'
+  : 'Langzeit-Sicherheit und seltene Nebenwirkungen beim Menschen sind noch unzureichend untersucht.';
+const efsaSnippet = d.efsa_notes
+  ? (d.efsa_notes.length > 100 ? d.efsa_notes.slice(0, 97) + '…' : d.efsa_notes)
+  : 'Keine zugelassenen EU-Health-Claims.';
+const efsaStatus = d.efsa_health_claims_allowed
+  ? `Zugelassen. ${efsaSnippet}`
+  : `Nicht zugelassen. ${efsaSnippet}`;
 ---
 
 <BaseLayout title={d.title} description={ingredientDescription}>
   <Fragment slot="head">
     <meta name="keywords" content={`${d.title} kaufen, ${d.title} Wirkung`} />
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(medicalWebPageSchema)} />
   </Fragment>
 
   <div class="max-w-3xl mx-auto px-4 py-10">
@@ -131,6 +170,39 @@ const articleSchema = {
           d.efsa_health_claims_allowed ? 'text-emerald-700' : 'text-red-700'
         ]}>{d.efsa_notes}</p>
       )}
+    </div>
+
+    <!-- KI-Zusammenfassung -->
+    <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-8 font-[system-ui]">
+      <div class="flex items-center gap-2 mb-4">
+        <span class="text-lg" aria-hidden="true">🤖</span>
+        <span class="text-xs font-mono font-semibold uppercase tracking-widest text-slate-400">KI-Zusammenfassung</span>
+      </div>
+      <div class="space-y-4 text-sm text-slate-700">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-1">Kurz-Fazit</p>
+          <p class="leading-relaxed">{d.summary}</p>
+        </div>
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-1">Was die Evidenz stützt</p>
+          <p class="leading-relaxed">{evidenceSupports}</p>
+        </div>
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-1">Was NICHT belegt ist</p>
+          <p class="leading-relaxed">{notBelegt}</p>
+        </div>
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-1">EU/EFSA-Status</p>
+          <p class="leading-relaxed">{efsaStatus}</p>
+        </div>
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-1">Sicherheit</p>
+          <p class="leading-relaxed">{safetyLabel[d.safety_rating]}</p>
+        </div>
+      </div>
+      <p class="text-xs text-slate-400 mt-4 pt-3 border-t border-slate-200">
+        Diese KI-Zusammenfassung basiert auf den strukturierten Daten dieser Seite.
+      </p>
     </div>
 
     <!-- Article content -->
