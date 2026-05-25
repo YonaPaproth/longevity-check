@@ -259,6 +259,20 @@ import LegalNotice from '../components/LegalNotice.astro';
 
         <div id="result-cards" class="space-y-4"></div>
 
+        <!-- GKV Blood Tests -->
+        <div id="gkv-section" class="hidden mt-8">
+          <div class="border border-blue-200 rounded-xl overflow-hidden">
+            <div class="bg-blue-50 px-5 py-4 border-b border-blue-200">
+              <h3 class="font-semibold text-blue-900">🩸 Bluttests — was zahlt die GKV?</h3>
+              <p class="text-sm text-blue-700 mt-1">Basierend auf deinem Risikoprofil — mögliche Kassenleistungen für deine Risikonährstoffe.</p>
+            </div>
+            <div id="gkv-cards" class="divide-y divide-blue-100"></div>
+            <div class="bg-blue-50/50 px-5 py-3 text-xs text-blue-600">
+              ⚠️ GKV-Erstattung hängt von Diagnose, Kasse und Arzturteil ab. Diese Übersicht ist eine Orientierung — kein Rechtsanspruch. Im Zweifel vorher mit dem Arzt besprechen.
+            </div>
+          </div>
+        </div>
+
         <!-- Next steps -->
         <div class="mt-8 bg-teal-50 border border-teal-200 rounded-xl p-6">
           <p class="font-semibold text-teal-900 mb-4">Was jetzt?</p>
@@ -352,6 +366,29 @@ interface NutrientResult {
   foods: string[];
   supplementNote: string;
 }
+
+interface GkvTest {
+  testName: string;
+  gkvStatus: 'covered' | 'conditional' | 'igel';
+  gkvNote: string;
+  igelCost: string | null;
+  selfPayNote: string | null;
+}
+
+const GKV_TESTS: Partial<Record<Nutrient, GkvTest>> = {
+  eisen:    { testName: 'Ferritin (Eisenspeicher)', gkvStatus: 'covered', gkvNote: 'Bei Symptomen wie Müdigkeit, Haarausfall oder Blässe — Arzt ansprechen', igelCost: null, selfPayNote: null },
+  b12:      { testName: 'Vitamin B12 (Holotranscobalamin)', gkvStatus: 'conditional', gkvNote: 'Bei veganer Ernährung, Magensäureblockern oder Alter >60 meist erstattungsfähig', igelCost: '15–25 €', selfPayNote: 'Als IGeL-Leistung bei vielen Laboren direkt buchbar' },
+  vitaminD: { testName: '25-OH-Vitamin D3', gkvStatus: 'igel', gkvNote: 'Standardmäßig keine Kassenleistung — nur bei konkretem Verdacht auf Rachitis/Osteomalazie', igelCost: '20–35 €', selfPayNote: 'Häufigste IGeL-Leistung in Deutschland — lohnt sich bei Risikogruppen' },
+  omega3:   { testName: 'Omega-3-Index (EPA+DHA im Vollblut)', gkvStatus: 'igel', gkvNote: 'Keine Kassenleistung', igelCost: '30–50 €', selfPayNote: 'Speziallabore wie Omegametrix oder über Hausarzt buchbar' },
+  magnesium:{ testName: 'Magnesium (Serum)', gkvStatus: 'conditional', gkvNote: 'Bei Herzrhythmusstörungen, Muskelkrämpfen oder Nierenproblemen oft erstattungsfähig', igelCost: '10–20 €', selfPayNote: 'Serumwert ist wenig aussagekräftig — Vollblut-Magnesium informativer' },
+  zink:     { testName: 'Zink (Serum)', gkvStatus: 'conditional', gkvNote: 'Bei begründetem Verdacht und spezifischen Symptomen möglich', igelCost: '15–25 €', selfPayNote: null },
+  selen:    { testName: 'Selen (Vollblut)', gkvStatus: 'conditional', gkvNote: 'Bei Schilddrüsenerkrankungen oder nach Chemotherapie oft erstattungsfähig', igelCost: '20–35 €', selfPayNote: null },
+  folat:    { testName: 'Folat (Vitamin B9)', gkvStatus: 'conditional', gkvNote: 'In der Schwangerschaft und bei Kinderwunsch Kassenleistung; sonst IGeL', igelCost: '15–20 €', selfPayNote: null },
+  jod:      { testName: 'Jod (Urin)', gkvStatus: 'conditional', gkvNote: 'Bei Schilddrüsenerkrankungen erstattungsfähig; TSH-Wert als indirekter Hinweis', igelCost: '15–25 €', selfPayNote: null },
+  coq10:    { testName: 'Coenzym Q10 (Plasma)', gkvStatus: 'igel', gkvNote: 'Keine Standardkassenleistung — auch bei Statineinnahme meist selbst zu zahlen', igelCost: '35–60 €', selfPayNote: 'Sinnvoll bei Statineinnahme und Muskelschmerzen' },
+  calcium:  { testName: 'Calcium (Serum)', gkvStatus: 'covered', gkvNote: 'Teil des Standard-Blutbilds — bei Osteoporoserisiko oder Schilddrüsenproblemen Kassenleistung', igelCost: null, selfPayNote: null },
+  cholin:   { testName: 'Cholin (Plasma)', gkvStatus: 'igel', gkvNote: 'Keine Kassenleistung — Ernährungsanamnese oft ausreichend', igelCost: '40–70 €', selfPayNote: null },
+};
 
 const SCORING: Record<string, Record<string, Partial<Record<Nutrient, number>>>> = {
   q1: {
@@ -955,6 +992,44 @@ function renderResults(answers: Record<string, string>) {
 
     resultCards.appendChild(card);
   });
+
+  // GKV section
+  const gkvSection = document.getElementById('gkv-section') as HTMLElement;
+  const gkvCards = document.getElementById('gkv-cards') as HTMLElement;
+  if (gkvSection && gkvCards) {
+    const relevantTests = results
+      .filter(r => r.score >= 5 && GKV_TESTS[r.id as Nutrient])
+      .map(r => ({ ...GKV_TESTS[r.id as Nutrient]!, nutrientName: r.name }));
+
+    if (relevantTests.length > 0) {
+      gkvCards.innerHTML = relevantTests.map(t => {
+        const statusColor = t.gkvStatus === 'covered'
+          ? 'text-emerald-700 bg-emerald-50'
+          : t.gkvStatus === 'conditional'
+          ? 'text-amber-700 bg-amber-50'
+          : 'text-slate-600 bg-slate-50';
+        const statusLabel = t.gkvStatus === 'covered'
+          ? '✅ Kassenleistung möglich'
+          : t.gkvStatus === 'conditional'
+          ? '⚡ Situationsabhängig'
+          : '💶 IGeL / Selbstzahler';
+        return `<div class="px-5 py-4">
+          <div class="flex items-start justify-between gap-3 mb-2">
+            <div>
+              <p class="font-medium text-slate-800 text-sm">${t.testName}</p>
+              <p class="text-xs text-slate-500 mt-0.5">für: ${t.nutrientName}</p>
+            </div>
+            <span class="shrink-0 text-xs font-semibold px-2.5 py-1 rounded-full ${statusColor}">${statusLabel}</span>
+          </div>
+          <p class="text-sm text-slate-600">${t.gkvNote}</p>
+          ${t.igelCost ? `<p class="text-xs text-slate-400 mt-1">Selbstzahler: ca. ${t.igelCost}</p>` : ''}
+        </div>`;
+      }).join('');
+      gkvSection.classList.remove('hidden');
+    } else {
+      gkvSection.classList.add('hidden');
+    }
+  }
 }
 
 function update() {
