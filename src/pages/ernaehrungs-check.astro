@@ -1224,6 +1224,22 @@ function renderResults(answers: Record<string, string>) {
       wrapper.appendChild(details);
     }
 
+    if (r.risk === 'hoch' || r.risk === 'mittel') {
+      const foodBlock = make('div', 'mb-3');
+      foodBlock.appendChild(make('p', 'text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5', '🥗 Lebensmittelquellen'));
+      const foodTags = make('div', 'flex flex-wrap gap-1.5');
+      r.foods.forEach(f => {
+        foodTags.appendChild(make('span', 'text-xs bg-slate-100 text-slate-600 rounded-md px-2 py-1', f));
+      });
+      foodBlock.appendChild(foodTags);
+
+      const veganNutrients: Nutrient[] = ['omega3', 'eisen', 'b12', 'kreatin', 'taurin', 'glycin', 'cholin'];
+      if (answers.q1 === 'vegan' && veganNutrients.includes(r.id)) {
+        foodBlock.appendChild(make('p', 'text-xs text-slate-400 mt-1', '💡 Pflanzliche Ernährung: tierische Quellen entfallen — Supplement erwägen.'));
+      }
+      wrapper.appendChild(foodBlock);
+    }
+
     const nextStep = NUTRIENTS[r.id].nextSteps[r.risk];
     const borderColor = r.risk === 'hoch' ? 'border-red-300' : r.risk === 'mittel' ? 'border-amber-300' : 'border-emerald-300';
     const nextStepEl = make('div', `text-sm text-slate-700 bg-slate-50 rounded-lg px-3 py-2.5 mb-3 border-l-2 ${borderColor}`);
