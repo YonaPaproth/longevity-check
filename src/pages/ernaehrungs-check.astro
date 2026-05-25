@@ -490,6 +490,7 @@ const NUTRIENTS: Record<Nutrient, {
   explanations: Record<Risk, string>;
   foods: string[];
   supplementNote: string;
+  nextSteps: Record<Risk, string>;
 }> = {
   vitaminD: {
     name: 'Vitamin D3',
@@ -506,6 +507,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Fetter Fisch (Lachs, Makrele, Hering)', 'Eigelb', 'Lebertran', 'Angereicherte Produkte (Margarine, manche Pflanzendrinks)'],
     supplementNote: 'Ein 1.000–2.000 IE Vitamin D3-Supplement von Oktober bis März ist für die meisten Deutschen sinnvoll. Kombination mit K2 (MK-7) empfohlen.',
+    nextSteps: {
+      hoch:    'Blutwert 25-OH-Vitamin D beim Arzt messen lassen. Von Oktober–März Supplement (1.000–2.000 IE D3+K2) sinnvoll.',
+      mittel:  'Sonneneinstrahlung im Sommer nutzen. Im Winter Blutwert kontrollieren.',
+      niedrig: 'Gut versorgt — regelmäßige Sonnenexposition beibehalten.',
+    },
   },
   omega3: {
     name: 'Omega-3 (EPA+DHA)',
@@ -522,6 +528,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Lachs (150 g = ca. 2 g EPA+DHA)', 'Makrele', 'Hering', 'Sardinen', 'Austern'],
     supplementNote: 'Fischöl oder Algenöl (vegan) mit mind. 500 mg EPA+DHA pro Tag. Auf TOTOX-Wert <26 achten.',
+    nextSteps: {
+      hoch:    'Omega-3-Index testen lassen (ca. 30–50 € IGeL). Fischöl oder Algenöl mit mind. 500 mg EPA+DHA täglich erwägen.',
+      mittel:  'Fischkonsum auf 1–2x/Woche erhöhen oder Algenöl-Supplement evaluieren.',
+      niedrig: 'Gut versorgt — regelmäßigen Fischkonsum beibehalten.',
+    },
   },
   magnesium: {
     name: 'Magnesium',
@@ -538,6 +549,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Kürbiskerne (100 g = 540 mg Mg)', 'Sonnenblumenkerne', 'Mandeln', 'Spinat', 'Hülsenfrüchte', 'Quinoa'],
     supplementNote: 'Magnesiumglycinat oder -citrat (200–400 mg/Tag) — nicht Oxid (schlechte Bioverfügbarkeit).',
+    nextSteps: {
+      hoch:    'Magnesiumreiche Lebensmittel (Kürbiskerne, Mandeln, Hülsenfrüchte) regelmäßig essen. Supplement: Magnesiumglycinat 200–400 mg/Tag abends.',
+      mittel:  'Auf magnesiumreiche Lebensmittel achten, besonders bei Sport und Stress.',
+      niedrig: 'Gut versorgt — abwechslungsreiche Ernährung beibehalten.',
+    },
   },
   eisen: {
     name: 'Eisen',
@@ -554,6 +570,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Rotes Fleisch (beste Quelle)', 'Leber', 'Hülsenfrüchte + Vitamin C (verbessert Aufnahme)', 'Tofu', 'Quinoa', 'Kürbiskerne'],
     supplementNote: 'Eisen nur nach Bluttest supplementieren — zu viel Eisen ist schädlich. Vorher Ferritinwert bestimmen lassen.',
+    nextSteps: {
+      hoch:    'Ferritin-Wert beim Arzt bestimmen lassen — Eisenmangel ist der häufigste Nährstoffmangel weltweit. Nicht ohne Blutwert supplementieren.',
+      mittel:  'Eisenreiche Lebensmittel mit Vitamin C kombinieren (verbessert Aufnahme). Bei anhaltender Müdigkeit Ferritin testen.',
+      niedrig: 'Gut versorgt — eisenreiche Lebensmittel weiter konsumieren.',
+    },
   },
   zink: {
     name: 'Zink',
@@ -570,6 +591,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Austern (reichste Quelle)', 'Rindfleisch', 'Kürbiskerne', 'Cashews', 'Hülsenfrüchte (eingeweicht)'],
     supplementNote: 'Zinkbisglycinat oder -citrat (15–25 mg/Tag) wenn pflanzliche Ernährung. Nicht dauerhaft hoch dosieren.',
+    nextSteps: {
+      hoch:    'Zinkhaltige Lebensmittel einbauen (Kürbiskerne, Hülsenfrüchte eingeweicht). Bei pflanzlicher Ernährung Zinkbisglycinat 15 mg/Tag erwägen.',
+      mittel:  'Auf gute Zinkquellen achten. Phytate in Getreide/Hülsenfrüchten durch Einweichen reduzieren.',
+      niedrig: 'Gut versorgt.',
+    },
   },
   b12: {
     name: 'Vitamin B12',
@@ -586,6 +612,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Leber (bei weitem reichste Quelle)', 'Muscheln', 'Sardinen', 'Rindfleisch', 'Milchprodukte', 'Eier'],
     supplementNote: 'Veganer: 500–1.000 µg Methylcobalamin täglich oder 2.000 µg wöchentlich — keine Option, Pflicht.',
+    nextSteps: {
+      hoch:    'B12 supplementieren — bei veganer Ernährung zwingend notwendig. 500–1.000 µg Methylcobalamin täglich. Blutwert (Holotranscobalamin) kontrollieren.',
+      mittel:  'B12-Status mit Holotranscobalamin-Test prüfen lassen. Bei Magensäureblockern oder Alter >60 Supplement sinnvoll.',
+      niedrig: 'Gut versorgt — tierische Produkte liefern ausreichend B12.',
+    },
   },
   kreatin: {
     name: 'Kreatin',
@@ -602,6 +633,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Rindfleisch (5 g Kreatin pro kg)', 'Hering (6,5 g/kg)', 'Lachs (4,5 g/kg)', 'Thunfisch (4 g/kg)', 'Schweinefleisch (5 g/kg)'],
     supplementNote: 'Kreatin-Monohydrat (3–5 g/Tag) ist das am besten untersuchte Supplement überhaupt und für Veganer besonders sinnvoll.',
+    nextSteps: {
+      hoch:    'Bei pflanzlicher Ernährung Kreatin-Supplement (3–5 g/Tag Kreatin-Monohydrat) sinnvoll, besonders für Muskel- und kognitive Funktion.',
+      mittel:  'Rotes Fleisch und Fisch als Kreatinquellen in die Ernährung integrieren.',
+      niedrig: 'Gut versorgt durch regelmäßigen Fleischkonsum.',
+    },
   },
   vitaminK2: {
     name: 'Vitamin K2',
@@ -618,6 +654,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Natto (1.000 µg MK-7 pro 100 g — mit Abstand reichste Quelle)', 'Gouda, Emmentaler (ca. 60–75 µg/100 g)', 'Kefir', 'Butter aus Weidemilch', 'Eigelb'],
     supplementNote: 'MK-7-Form (90–200 µg/Tag) zusammen mit Vitamin D3 — beide unterstützen gemeinsam die Kalziumverwertung.',
+    nextSteps: {
+      hoch:    'Fermentierte Lebensmittel (Natto, Sauerkraut, gereifter Käse) in den Speiseplan aufnehmen. Supplement: MK-7 Form (90–200 µg/Tag).',
+      mittel:  'Mehr fermentierte Produkte essen. K2 wird oft mit Vitamin D3 kombiniert.',
+      niedrig: 'Gut versorgt.',
+    },
   },
   jod: {
     name: 'Jod',
@@ -634,6 +675,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Meeresfrüchte (Garnelen, Muscheln)', 'Seefisch (Kabeljau, Schellfisch)', 'Milch und Milchprodukte (ca. 20–50 µg/100 ml)', 'Jodiertes Speisesalz', 'Nori-Algen (variabel)'],
     supplementNote: 'Bei pflanzenbasierter Ernährung ohne jodiertes Salz: 100–150 µg Kaliumiodid täglich. Schilddrüsenerkrankte sollten vorher ärztlichen Rat einholen.',
+    nextSteps: {
+      hoch:    'Auf jodiertes Speisesalz wechseln. Seefisch 1–2x/Woche. Bei veganer Ernährung Jod-Supplement (150 µg/Tag) erwägen.',
+      mittel:  'Jodiertes Salz verwenden und Milchprodukte/Seefisch regelmäßig essen.',
+      niedrig: 'Gut versorgt — jodiertes Salz beibehalten.',
+    },
   },
   selen: {
     name: 'Selen',
@@ -650,6 +696,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Paranüsse (1–2 Stück/Tag = ca. 100–200 µg Selen)', 'Seefisch (Thunfisch, Lachs)', 'Rindfleisch', 'Hühnerei', 'Hülsenfrüchte'],
     supplementNote: 'Selenmethionin oder Selenat (50–100 µg/Tag) — Vorsicht: die Spanne zwischen ausreichend und zu viel ist klein. Nicht dauerhaft hochdosieren.',
+    nextSteps: {
+      hoch:    '1–2 Paranüsse täglich liefern ausreichend Selen (nicht mehr — Überdosierung möglich). Alternativ: 55–100 µg Selen/Tag als Supplement.',
+      mittel:  'Seefisch und Fleisch als Selenquellen nutzen. Bei Schilddrüsenproblemen Blutwert prüfen.',
+      niedrig: 'Gut versorgt.',
+    },
   },
   folat: {
     name: 'Folat (B9)',
@@ -666,6 +717,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Spinat (100 g = ca. 145 µg Folat)', 'Linsen (100 g = ca. 180 µg)', 'Spargel', 'Edamame', 'Kichererbsen', 'Leber (sehr reich)'],
     supplementNote: 'Methylfolat (5-MTHF, 400–800 µg/Tag) ist besser bioverfügbar als synthetische Folsäure, besonders für MTHFR-Varianten. Für Frauen mit Kinderwunsch besonders wichtig.',
+    nextSteps: {
+      hoch:    'Mehr dunkles Blattgemüse essen (Spinat, Brokkoli). Frauen mit Kinderwunsch: 400 µg Folsäure/Tag supplementieren (Kassenleistung).',
+      mittel:  'Hülsenfrüchte und grünes Gemüse regelmäßig essen.',
+      niedrig: 'Gut versorgt.',
+    },
   },
   vitaminB6: {
     name: 'Vitamin B6',
@@ -682,6 +738,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Hähnchenbrust (100 g = ca. 0,9 mg B6)', 'Kartoffeln (mittelgroße = ca. 0,5 mg)', 'Banane (ca. 0,4 mg)', 'Lachs', 'Kichererbsen', 'Sonnenblumenkerne'],
     supplementNote: 'Pyridoxal-5-Phosphat (P5P, 10–25 mg/Tag) ist die aktive Form. Nicht dauerhaft hochdosieren — sehr hohe Dosen können Nervenschäden verursachen.',
+    nextSteps: {
+      hoch:    'B6 kommt in Fleisch, Fisch, Kartoffeln und Bananen vor. Bei pflanzlicher Ernährung auf abwechslungsreiche Quellen achten.',
+      mittel:  'Abwechslungsreiche Ernährung mit Vollkornprodukten und Hülsenfrüchten.',
+      niedrig: 'Gut versorgt.',
+    },
   },
   coq10: {
     name: 'Coenzym Q10',
@@ -698,6 +759,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Rinderherz (100 g = ca. 11 mg CoQ10)', 'Schweineleber', 'Makrele, Sardinen', 'Rindfleisch (Muskelfleisch)', 'Erdnüsse, Pistazien (kleine Mengen)'],
     supplementNote: 'Ubiquinol (reduzierte Form, 100–200 mg/Tag) ist besser bioverfügbar als Ubiquinon, besonders ab 40 oder bei Statin-Einnahme.',
+    nextSteps: {
+      hoch:    'Bei Statineinnahme CoQ10-Supplement (100–200 mg/Tag Ubiquinol-Form) mit dem Arzt besprechen. CoQ10-Plasmaspiegel messbar.',
+      mittel:  'Ab 40+ nimmt körpereigenes CoQ10 ab. Ubiquinol-Form hat bessere Bioverfügbarkeit.',
+      niedrig: 'Gut versorgt — Innereien und Fleisch als natürliche Quellen.',
+    },
   },
   cholin: {
     name: 'Cholin',
@@ -714,6 +780,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Eigelb (1 Ei = ca. 150 mg Cholin)', 'Rinderleber (100 g = ca. 420 mg)', 'Hähnchen', 'Lachs', 'Edamame, Soja'],
     supplementNote: 'Alpha-GPC oder Citicolin (CDP-Cholin) als Supplement, 300–600 mg/Tag. Wichtig in der Schwangerschaft: Cholin unterstützt die Gehirnentwicklung des Kindes.',
+    nextSteps: {
+      hoch:    'Eier sind die reichste Cholinquelle (1 Eigelb = ca. 150 mg). Bei veganer Ernährung ist Cholin schwer zu decken — Supplement (250–500 mg/Tag) erwägen.',
+      mittel:  'Eier regelmäßig essen. Leber, Hülsenfrüchte und Brokkoli als weitere Quellen.',
+      niedrig: 'Gut versorgt durch regelmäßigen Eikonsum.',
+    },
   },
   calcium: {
     name: 'Calcium',
@@ -730,6 +801,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Parmesan (100 g = ca. 1.180 mg Ca)', 'Gouda', 'Milch, Joghurt (ca. 120 mg/100 ml)', 'Angereicherte Soja-/Hafermilch', 'Grünkohl, Brokkoli', 'Mandeln', 'Calciumreiches Mineralwasser (>400 mg/l)'],
     supplementNote: 'Calciumcitrat (500 mg/Tag) ist besser bioverfügbar als Carbonat, besonders bei niedrigem Magensäurespiegel. Immer zusammen mit Vitamin D3 und K2 nehmen.',
+    nextSteps: {
+      hoch:    'Kalziumreiche Lebensmittel einbauen: angereicherte Pflanzenmilch, Sesam, grünes Gemüse. Bei veganer Ernährung Supplement (500 mg/Tag) erwägen.',
+      mittel:  'Milchprodukte oder angereicherte Pflanzenmilch täglich konsumieren.',
+      niedrig: 'Gut versorgt.',
+    },
   },
   kupfer: {
     name: 'Kupfer',
@@ -746,6 +822,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Rinderleber (100 g = ca. 14 mg Cu)', 'Austern (ca. 4–5 mg/100 g)', 'Cashews (1,7 mg/100 g)', 'Sonnenblumenkerne', 'Linsen, Kichererbsen', 'Kakao/dunkle Schokolade'],
     supplementNote: 'Kupfersupplemente nur bei nachgewiesenem Mangel — zu viel Kupfer ist toxisch. Wer hochdosiertes Zink nimmt, sollte die Kupferaufnahme im Blick behalten (Verhältnis Zn:Cu ca. 8–10:1).',
+    nextSteps: {
+      hoch:    'Leber, Austern und Nüsse als Kupferquellen. Kupfermangel ist selten — nur bei sehr hoher Zinkeinnahme relevant.',
+      mittel:  'Abwechslungsreiche Ernährung mit Nüssen und Hülsenfrüchten.',
+      niedrig: 'Gut versorgt.',
+    },
   },
   lutein: {
     name: 'Lutein & Zeaxanthin',
@@ -762,6 +843,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Grünkohl (100 g = ca. 18 mg Lutein)', 'Spinat (12 mg/100 g)', 'Eigelb (besonders gut bioverfügbar)', 'Brokkoli', 'Mais', 'Erbsen'],
     supplementNote: 'Lutein (10 mg/Tag) + Zeaxanthin (2 mg/Tag) in Studien zur Makulagesundheit eingesetzt. Besonders relevant ab 50 oder bei starker Bildschirmarbeit.',
+    nextSteps: {
+      hoch:    'Mehr dunkles Blattgemüse (Grünkohl, Spinat) und Eier essen. Supplement: Lutein+Zeaxanthin (10 mg/2 mg täglich) für Augengesundheit.',
+      mittel:  'Grünes Gemüse und Eier regelmäßig in den Speiseplan aufnehmen.',
+      niedrig: 'Gut versorgt.',
+    },
   },
   taurin: {
     name: 'Taurin',
@@ -778,6 +864,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Muscheln, Austern (sehr reich, ca. 400–600 mg/100 g)', 'Oktopus, Tintenfisch', 'Hühnerfleisch (Dunkelfleisch)', 'Rindfleisch', 'Lachs, Makrele'],
     supplementNote: 'Taurin (1–3 g/Tag) ist sicher und gut verträglich. Für Veganer besonders sinnvoll, da über die Nahrung kaum zugeführt.',
+    nextSteps: {
+      hoch:    'Bei veganer Ernährung ist Taurin aus der Nahrung kaum verfügbar. Supplement: 500–1.000 mg/Tag erwägen.',
+      mittel:  'Fisch und Fleisch als primäre Taurinquellen nutzen.',
+      niedrig: 'Gut versorgt durch tierische Produkte.',
+    },
   },
   glycin: {
     name: 'Glycin',
@@ -794,6 +885,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Selbstgekochte Knochenbrühe (variabel, ca. 1–3 g/Tasse)', 'Gelatine (8 g pro Blatt)', 'Haut von Geflügel und Fisch', 'Kollagen-Pulver', 'Rinderknorpel, Schweinsschwarte'],
     supplementNote: 'Glycin-Pulver (3–5 g/Tag) oder Kollagen-Hydrolysat (10–15 g/Tag) ist eine einfache und günstige Ergänzung. Kann auch den Schlaf verbessern — abends einnehmen.',
+    nextSteps: {
+      hoch:    'Kollagenreiche Lebensmittel einbauen: Knochenbrühe, Gelatine, Hühner-/Fischhaut. Supplement: Glycin 3–5 g/Tag (günstig und gut verträglich).',
+      mittel:  'Kollagenreiche Lebensmittel gelegentlich essen.',
+      niedrig: 'Gut versorgt.',
+    },
   },
   vitaminA: {
     name: 'Vitamin A (Retinol)',
@@ -810,6 +906,11 @@ const NUTRIENTS: Record<Nutrient, {
     },
     foods: ['Rinderleber (100 g = ca. 6.500 µg Retinol — höchste Quelle)', 'Eigelb (ca. 150 µg pro Ei)', 'Butter, Vollmilch', 'Lachs, Makrele', 'Karotten, Kürbis (Beta-Carotin — schlechte Umwandlung)'],
     supplementNote: 'Retinylpalmitat oder -acetat (700–1.000 µg RE/Tag) nur bei nachgewiesenem Mangel — Vitamin A ist fettlöslich und in hohen Dosen toxisch. Veganer bevorzugen oft Beta-Carotin-Supplements, die der Körper bedarfsgerecht umwandelt.',
+    nextSteps: {
+      hoch:    'Mehr Eigelb und Milchprodukte einbauen. Bei veganer Ernährung Beta-Carotin-reiches Gemüse (Karotte, Kürbis) täglich essen — Umwandlung zu Retinol ist begrenzt.',
+      mittel:  'Eier und Milchprodukte regelmäßig konsumieren als Retinolquellen.',
+      niedrig: 'Gut versorgt — Eier und Milchprodukte liefern ausreichend vorgeformtes Vitamin A.',
+    },
   },
 };
 
@@ -1098,6 +1199,13 @@ function renderResults(answers: Record<string, string>) {
       details.appendChild(detailsBody);
       wrapper.appendChild(details);
     }
+
+    const nextStep = NUTRIENTS[r.id].nextSteps[r.risk];
+    const borderColor = r.risk === 'hoch' ? 'border-red-300' : r.risk === 'mittel' ? 'border-amber-300' : 'border-emerald-300';
+    const nextStepEl = make('div', `text-sm text-slate-700 bg-slate-50 rounded-lg px-3 py-2.5 mb-3 border-l-2 ${borderColor}`);
+    const nextStepLabel = make('span', 'font-medium', 'Nächster Schritt: ');
+    nextStepEl.append(nextStepLabel, document.createTextNode(nextStep));
+    wrapper.appendChild(nextStepEl);
 
     if (r.slug) {
       const link = make('a', 'inline-flex items-center gap-1.5 text-sm font-medium text-teal-700 bg-teal-50 hover:bg-teal-100 border border-teal-200 rounded-lg px-3 py-2 no-underline transition-colors', 'Wirkstoff-Dossier lesen →');
