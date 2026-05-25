@@ -12,8 +12,8 @@ import LegalNotice from '../components/LegalNotice.astro';
     <div class="mb-6">
       <h1 class="text-3xl font-bold text-slate-900 mb-3">Ernährungs-Check</h1>
       <p class="text-slate-600">
-        15 Fragen, ca. 90 Sekunden. Wir berechnen auf Basis deiner Antworten,
-        bei welchen Mikronährstoffen und Supplements du möglicherweise unterversorgt bist.
+        15 Fragen, ca. 90 Sekunden. Wir schätzen, bei welchen Mikronährstoffen
+        ein erhöhtes Risiko für eine unzureichende Versorgung bestehen könnte — als Hinweis, keine Diagnose.
       </p>
     </div>
 
@@ -21,6 +21,12 @@ import LegalNotice from '../components/LegalNotice.astro';
       <LegalNotice>
         Der Ernährungs-Check ist ein vereinfachtes Informations-Tool und keine medizinische Diagnostik. Die Ergebnisse sind Näherungen auf Basis deiner Angaben und ersetzen keine Laborwerte, ärztliche Beratung oder individuelle Therapieempfehlung. <strong>Deine Antworten werden nur lokal im Browser verarbeitet, nicht personenbezogen gespeichert und nicht an uns übermittelt.</strong>
       </LegalNotice>
+    </div>
+
+    <!-- Privacy Badge -->
+    <div class="flex items-center gap-2 text-sm text-slate-500 bg-slate-50 border border-slate-200 rounded-lg px-4 py-2.5 mb-6">
+      <span class="text-base">🔒</span>
+      <span>Deine Antworten bleiben <strong>lokal im Browser</strong> und werden nicht an MikroScore übermittelt.</span>
     </div>
 
     <!-- Questions -->
@@ -240,7 +246,7 @@ import LegalNotice from '../components/LegalNotice.astro';
       <div class="border-t-2 border-teal-200 pt-8">
         <h2 class="text-xl font-semibold text-slate-800 mb-2">Dein Ergebnis</h2>
         <p class="text-sm text-slate-500 mb-6">
-          Basierend auf deinen Angaben — kein Ersatz für einen Bluttest.
+          Schätzung auf Basis deiner Angaben — kein Ersatz für einen Bluttest. 🔒 Lokal berechnet, nichts übertragen.
         </p>
 
         <div class="bg-white border border-slate-200 rounded-2xl p-5 md:p-6 mb-6">
