@@ -291,6 +291,17 @@ import LegalNotice from '../components/LegalNotice.astro';
 
         <div id="result-cards" class="space-y-4"></div>
 
+        <div id="export-buttons" class="hidden mt-6 flex gap-3 flex-wrap">
+          <button id="btn-copy" type="button"
+            class="flex items-center gap-2 text-sm font-medium text-slate-700 bg-white border border-slate-200 rounded-lg px-4 py-2 hover:bg-slate-50 transition-colors">
+            📋 Ergebnis kopieren
+          </button>
+          <button id="btn-print" type="button"
+            class="flex items-center gap-2 text-sm font-medium text-slate-700 bg-white border border-slate-200 rounded-lg px-4 py-2 hover:bg-slate-50 transition-colors">
+            🖨️ Als PDF speichern
+          </button>
+        </div>
+
         <!-- GKV Blood Tests -->
         <div id="gkv-section" class="hidden mt-8">
           <div class="border border-blue-200 rounded-xl overflow-hidden">
@@ -372,6 +383,20 @@ import LegalNotice from '../components/LegalNotice.astro';
     width: 1rem;
     height: 1rem;
     flex-shrink: 0;
+  }
+  @media print {
+    .max-w-2xl > *:not(#results) { display: none !important; }
+    #results { display: block !important; }
+    #export-buttons, #gkv-section button, #goto-next { display: none !important; }
+    #results::before {
+      content: "MikroScore Ernährungs-Check";
+      display: block;
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    details { display: none !important; }
+    a[href] { color: inherit; text-decoration: none; }
   }
 </style>
 
@@ -1324,6 +1349,7 @@ function update() {
     fs.classList.remove('border-yellow-400', 'ring-2', 'ring-yellow-200');
   });
   resultsEl.classList.remove('hidden');
+  document.getElementById('export-buttons')?.classList.remove('hidden');
   renderResults(answers);
 
   // Smooth scroll to results
@@ -1340,5 +1366,39 @@ document.getElementById("goto-next")?.addEventListener("click", () => {
     unanswered.scrollIntoView({ behavior: "smooth", block: "center" });
     (unanswered.querySelector("input[type=radio]") as HTMLInputElement)?.focus();
   }
+});
+
+document.getElementById("btn-copy")?.addEventListener("click", () => {
+  const lines: string[] = [];
+  lines.push("MikroScore Ernährungs-Check — " + new Date().toLocaleDateString("de-DE"));
+  lines.push("Hinweis: Schätzung, keine Diagnose. Lokal berechnet.");
+  lines.push("");
+
+  document.querySelectorAll("#result-cards > div").forEach(card => {
+    const name = card.querySelector("p.font-semibold")?.textContent?.trim() || "";
+    const badge = card.querySelector("span[class*=rounded-full]")?.textContent?.trim() || "";
+    const reason = card.querySelector("p.italic")?.textContent?.trim() || "";
+    const nextStep = card.querySelector("div[class*=border-l-2] span + span, div[class*=border-l-2]")?.textContent?.replace("Nächster Schritt:", "").trim() || "";
+    if (name) {
+      lines.push(`${name} — ${badge}`);
+      if (reason) lines.push(`  → ${reason}`);
+      if (nextStep) lines.push(`  Nächster Schritt: ${nextStep}`);
+      lines.push("");
+    }
+  });
+
+  lines.push("---");
+  lines.push("Quelle: mikroscore.com/ernaehrungs-check");
+
+  navigator.clipboard.writeText(lines.join("\n")).then(() => {
+    const btn = document.getElementById("btn-copy");
+    if (btn) { btn.textContent = "✅ Kopiert!"; setTimeout(() => { btn.innerHTML = "📋 Ergebnis kopieren"; }, 2000); }
+  }).catch(() => {
+    alert("Kopieren nicht möglich — bitte manuell markieren.");
+  });
+});
+
+document.getElementById("btn-print")?.addEventListener("click", () => {
+  window.print();
 });
 </script>
