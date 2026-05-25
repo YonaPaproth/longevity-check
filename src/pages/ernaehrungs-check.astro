@@ -359,7 +359,8 @@ import LegalNotice from '../components/LegalNotice.astro';
 type Nutrient =
   | 'vitaminD' | 'omega3' | 'magnesium' | 'eisen' | 'zink' | 'b12'
   | 'kreatin' | 'vitaminK2' | 'jod' | 'selen' | 'folat' | 'vitaminB6'
-  | 'coq10' | 'cholin' | 'calcium' | 'kupfer' | 'lutein' | 'taurin' | 'glycin';
+  | 'coq10' | 'cholin' | 'calcium' | 'kupfer' | 'lutein' | 'taurin' | 'glycin'
+  | 'vitaminA';
 
 type Risk = 'hoch' | 'mittel' | 'niedrig';
 
@@ -400,10 +401,10 @@ const GKV_TESTS: Partial<Record<Nutrient, GkvTest>> = {
 
 const SCORING: Record<string, Record<string, Partial<Record<Nutrient, number>>>> = {
   q1: {
-    omnivor:      { b12: -1, kupfer: -1 },
+    omnivor:      { b12: -1, kupfer: -1, vitaminA: -1 },
     pescetarisch: { b12: -1, eisen: +1, zink: +1, kreatin: +1, taurin: -1 },
-    vegetarisch:  { omega3: +3, eisen: +2, zink: +2, b12: +3, kreatin: +4, taurin: +3, cholin: +2, calcium: +1, vitaminB6: +1 },
-    vegan:        { omega3: +3, eisen: +2, zink: +2, b12: +5, vitaminD: +1, kreatin: +5, taurin: +4, cholin: +2, calcium: +2, vitaminK2: +1 },
+    vegetarisch:  { omega3: +3, eisen: +2, zink: +2, b12: +3, kreatin: +4, taurin: +3, cholin: +2, calcium: +1, vitaminB6: +1, vitaminA: +2 },
+    vegan:        { omega3: +3, eisen: +2, zink: +2, b12: +5, vitaminD: +1, kreatin: +5, taurin: +4, cholin: +2, calcium: +2, vitaminK2: +1, vitaminA: +4 },
   },
   q2: {
     '2plus': { omega3: -4, taurin: -2, selen: -2, vitaminB6: -1 },
@@ -456,8 +457,8 @@ const SCORING: Record<string, Record<string, Partial<Record<Nutrient, number>>>>
     ja:   { b12: +2, magnesium: +1 },
   },
   q11: {
-    taeglich: { cholin: -4, b12: -1, lutein: -3, vitaminD: -1 },
-    mehrpw:   { cholin: -2, lutein: -2 },
+    taeglich: { cholin: -4, b12: -1, lutein: -3, vitaminD: -1, vitaminA: -2 },
+    mehrpw:   { cholin: -2, lutein: -2, vitaminA: -1 },
     selten:   { cholin: +2, lutein: +1 },
     nie:      { cholin: +4, lutein: +3 },
   },
@@ -473,9 +474,9 @@ const SCORING: Record<string, Record<string, Partial<Record<Nutrient, number>>>>
     kein:     { jod: +2 },
   },
   q14: {
-    regelmaessig: { glycin: -3, coq10: -2, kupfer: -2, cholin: -2 },
-    selten:       { glycin: +2, coq10: +1 },
-    nie:          { glycin: +3, coq10: +2, kupfer: +1 },
+    regelmaessig: { glycin: -3, coq10: -2, kupfer: -2, cholin: -2, vitaminA: -4 },
+    selten:       { glycin: +2, coq10: +1, vitaminA: -2 },
+    nie:          { glycin: +3, coq10: +2, kupfer: +1, vitaminA: +2 },
   },
   q15: {
     nein: {},
@@ -540,7 +541,7 @@ const NUTRIENTS: Record<Nutrient, {
   },
   eisen: {
     name: 'Eisen',
-    slug: '',
+    slug: 'eisen',
     headlines: {
       hoch:    'Eisen — hohes Mangelrisiko',
       mittel:  'Eisen — mögliche Unterversorgung',
@@ -794,6 +795,22 @@ const NUTRIENTS: Record<Nutrient, {
     foods: ['Selbstgekochte Knochenbrühe (variabel, ca. 1–3 g/Tasse)', 'Gelatine (8 g pro Blatt)', 'Haut von Geflügel und Fisch', 'Kollagen-Pulver', 'Rinderknorpel, Schweinsschwarte'],
     supplementNote: 'Glycin-Pulver (3–5 g/Tag) oder Kollagen-Hydrolysat (10–15 g/Tag) ist eine einfache und günstige Ergänzung. Kann auch den Schlaf verbessern — abends einnehmen.',
   },
+  vitaminA: {
+    name: 'Vitamin A (Retinol)',
+    slug: 'vitamin-a',
+    headlines: {
+      hoch:    'Vitamin A — hohes Mangelrisiko',
+      mittel:  'Vitamin A — mögliche Unterversorgung',
+      niedrig: 'Vitamin A — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Vorgeformtes Vitamin A (Retinol) kommt ausschließlich in tierischen Produkten vor — Leber, Eigelb, Milchfett. Pflanzliche Quellen liefern Beta-Carotin, das der Körper nur schlecht in Retinol umwandelt (Konversionsrate ca. 1:12). Veganer und Vegetarier, die selten Eier oder Milchprodukte essen, haben ein deutlich erhöhtes Risiko.',
+      mittel:  'Deine Retinol-Zufuhr aus vorgeformten tierischen Quellen könnte begrenzt sein. Beta-Carotin aus Karotten und Kürbis kann helfen, deckt den Bedarf aber oft nicht vollständig.',
+      niedrig: 'Regelmäßige Eier, Milchprodukte oder gelegentlich Leber liefern ausreichend vorgeformtes Vitamin A.',
+    },
+    foods: ['Rinderleber (100 g = ca. 6.500 µg Retinol — höchste Quelle)', 'Eigelb (ca. 150 µg pro Ei)', 'Butter, Vollmilch', 'Lachs, Makrele', 'Karotten, Kürbis (Beta-Carotin — schlechte Umwandlung)'],
+    supplementNote: 'Retinylpalmitat oder -acetat (700–1.000 µg RE/Tag) nur bei nachgewiesenem Mangel — Vitamin A ist fettlöslich und in hohen Dosen toxisch. Veganer bevorzugen oft Beta-Carotin-Supplements, die der Körper bedarfsgerecht umwandelt.',
+  },
 };
 
 // ── Scoring logic ─────────────────────────────────────────────────────────────
@@ -815,6 +832,7 @@ function computeScores(answers: Record<string, string>): NutrientResult[] {
     vitaminD: 5, omega3: 5, magnesium: 5, eisen: 4, zink: 4, b12: 3,
     kreatin: 4, vitaminK2: 6, jod: 5, selen: 5, folat: 4, vitaminB6: 3,
     coq10: 4, cholin: 6, calcium: 4, kupfer: 3, lutein: 5, taurin: 4, glycin: 5,
+    vitaminA: 5,
   };
 
   for (const [qid, val] of Object.entries(answers)) {
@@ -961,7 +979,7 @@ function getReason(id: Nutrient, answers: Record<string, string>): string {
       if (q.q3 === 'nie') return 'weil kein rotes Fleisch gegessen wird';
       return 'aufgrund deiner Ernährungsweise';
     case 'vitaminK2':
-      if (q.q12 === 'selten' || q.q12 === 'nie') return 'weil wenig fermentierte oder gereifte Produkte gegessen werden';
+      if (q.q12 === 'selten' || q.q12 === 'gelegentlich') return 'weil wenig fermentierte oder gereifte Produkte gegessen werden';
       return 'aufgrund deiner Ernährungsweise';
     case 'jod':
       if (q.q13 === 'meersalz') return 'weil Meersalz kein Jod enthält';
@@ -998,6 +1016,11 @@ function getReason(id: Nutrient, answers: Record<string, string>): string {
       return 'aufgrund deiner Ernährungsweise';
     case 'glycin':
       if (q.q14 === 'nie') return 'weil kollagenreiche Lebensmittel selten gegessen werden';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'vitaminA':
+      if (q.q1 === 'vegan') return 'weil vegane Ernährung kein vorgeformtes Retinol enthält';
+      if (q.q1 === 'vegetarisch') return 'weil vegetarische Ernährung wenig Retinol liefert';
+      if (q.q14 === 'nie') return 'weil kaum vorgeformtes Retinol aus Leber oder Innereien aufgenommen wird';
       return 'aufgrund deiner Ernährungsweise';
     default:
       return 'aufgrund deiner Angaben';
