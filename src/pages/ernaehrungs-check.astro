@@ -228,7 +228,7 @@ import LegalNotice from '../components/LegalNotice.astro';
     <!-- Progress indicator -->
     <div class="mt-8 mb-4">
       <div class="flex justify-between text-xs text-slate-500 mb-1">
-        <span id="progress-label">0 von 15 beantwortet</span>
+        <span id="progress-label" aria-live="polite">0 von 15 beantwortet</span>
         <span id="progress-pct">0%</span>
       </div>
       <div class="h-1.5 bg-slate-200 rounded-full overflow-hidden">
@@ -237,8 +237,10 @@ import LegalNotice from '../components/LegalNotice.astro';
     </div>
 
     <!-- CTA -->
-    <div id="cta-hint" class="text-sm text-slate-400 text-center py-4">
-      Beantworte alle 15 Fragen um dein Ergebnis zu sehen.
+    <div id="cta-hint" class="hidden">
+      <button id="goto-next" type="button" class="w-full text-sm font-medium text-teal-700 bg-teal-50 border border-teal-200 rounded-lg px-4 py-2.5 hover:bg-teal-100 transition-colors">
+        Zur nächsten unbeantworteten Frage ↓
+      </button>
     </div>
 
     <!-- Results -->
@@ -923,6 +925,85 @@ function renderRadar(results: NutrientResult[]) {
   `;
 }
 
+function getReason(id: Nutrient, answers: Record<string, string>): string {
+  const q = answers;
+  switch (id) {
+    case 'vitaminD':
+      if (q.q4 === 'kaum') return 'weil kaum Sonnenexposition angegeben wurde';
+      if (q.q4 === 'wenig') return 'weil wenig Sonnenexposition angegeben wurde';
+      return 'aufgrund deines Lebensstils';
+    case 'omega3':
+      if (q.q1 === 'vegan' || q.q1 === 'vegetarisch') return 'weil pflanzliche Ernährung kaum EPA/DHA enthält';
+      if (q.q2 === 'nie') return 'weil kein Fisch konsumiert wird';
+      if (q.q2 === 'selten') return 'weil Fisch selten konsumiert wird';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'magnesium':
+      if (q.q6 === 'nie' && q.q9 === 'hoch') return 'weil wenig Magnesiumquellen + hoher Sport/Stress';
+      if (q.q6 === 'nie') return 'weil wenig Nüsse, Samen oder Hülsenfrüchte gegessen werden';
+      if (q.q9 === 'hoch') return 'weil Sport und Stress den Bedarf erhöhen';
+      return 'aufgrund deiner Angaben';
+    case 'eisen':
+      if (q.q7 === 'frau-mens' && (q.q1 === 'vegan' || q.q1 === 'vegetarisch')) return 'weil Menstruation + pflanzliche Ernährung das Risiko stark erhöhen';
+      if (q.q7 === 'frau-mens') return 'weil menstruelle Blutverluste den Eisenbedarf erhöhen';
+      if (q.q3 === 'nie') return 'weil kein Häm-Eisen aus Fleisch aufgenommen wird';
+      return 'aufgrund deiner Angaben';
+    case 'zink':
+      if (q.q1 === 'vegan' || q.q1 === 'vegetarisch') return 'weil pflanzliches Zink schlechter aufgenommen wird';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'b12':
+      if (q.q1 === 'vegan') return 'weil vegane Ernährung kein B12 enthält';
+      if (q.q1 === 'vegetarisch') return 'weil vegetarische Ernährung wenig B12 liefert';
+      if (q.q10 === 'ja') return 'weil Magensäureblocker die B12-Aufnahme hemmen';
+      if (q.q8 === 'ue65') return 'weil die Aufnahme im Alter abnimmt';
+      return 'aufgrund deiner Angaben';
+    case 'kreatin':
+      if (q.q1 === 'vegan' || q.q1 === 'vegetarisch') return 'weil pflanzliche Ernährung kein Kreatin enthält';
+      if (q.q3 === 'nie') return 'weil kein rotes Fleisch gegessen wird';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'vitaminK2':
+      if (q.q12 === 'selten' || q.q12 === 'nie') return 'weil wenig fermentierte oder gereifte Produkte gegessen werden';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'jod':
+      if (q.q13 === 'meersalz') return 'weil Meersalz kein Jod enthält';
+      return 'aufgrund deiner Salzwahl';
+    case 'selen':
+      if (q.q1 === 'vegan') return 'weil pflanzliche Ernährung wenig Selen liefert';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'folat':
+      if (q.q5 === 'selten') return 'weil wenig dunkelgrünes Gemüse gegessen wird';
+      if (q.q1 === 'vegan' || q.q1 === 'vegetarisch') return 'aufgrund pflanzlicher Ernährung ohne tierische Folatquellen';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'vitaminB6':
+      if (q.q1 === 'vegan') return 'weil pflanzliche Quellen weniger B6 liefern';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'coq10':
+      if (q.q15 === 'ja') return 'weil Statine CoQ10 im Körper verringern';
+      if (q.q8 === 'ue65' || q.q8 === '51-65') return 'weil CoQ10 mit dem Alter abnimmt';
+      return 'aufgrund deines Alters oder Medikamente';
+    case 'cholin':
+      if (q.q11 === 'selten' || q.q11 === 'nie') return 'weil wenig Eier gegessen werden (Hauptquelle für Cholin)';
+      if (q.q1 === 'vegan') return 'weil vegane Ernährung sehr wenig Cholin enthält';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'calcium':
+      if (q.q1 === 'vegan') return 'weil tierische Calciumquellen fehlen';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'kupfer':
+      return 'aufgrund deiner Ernährungsweise';
+    case 'lutein':
+      if (q.q11 === 'selten' || q.q11 === 'nie') return 'weil wenig Eier gegessen werden';
+      if (q.q5 === 'selten') return 'weil wenig grünes Gemüse konsumiert wird';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'taurin':
+      if (q.q1 === 'vegan' || q.q1 === 'vegetarisch') return 'weil Taurin fast nur in Fleisch und Fisch vorkommt';
+      return 'aufgrund deiner Ernährungsweise';
+    case 'glycin':
+      if (q.q14 === 'nie') return 'weil kollagenreiche Lebensmittel selten gegessen werden';
+      return 'aufgrund deiner Ernährungsweise';
+    default:
+      return 'aufgrund deiner Angaben';
+  }
+}
+
 function renderResults(answers: Record<string, string>) {
   const results = computeScores(answers);
   resultCards.innerHTML = '';
@@ -957,6 +1038,11 @@ function renderResults(answers: Record<string, string>) {
     barEl.style.width = `${r.score * 10}%`;
     barWrap.appendChild(barEl);
     wrapper.appendChild(barWrap);
+
+    if (r.risk === 'hoch' || r.risk === 'mittel') {
+      const reasonEl = make('p', 'text-sm text-slate-400 italic mb-3', `Geschätztes Risiko — ${getReason(r.id, answers)}`);
+      wrapper.appendChild(reasonEl);
+    }
 
     wrapper.appendChild(make('p', 'text-sm text-slate-600 mb-4', r.explanation));
 
@@ -1051,10 +1137,21 @@ function update() {
   if (count < TOTAL_QUESTIONS) {
     resultsEl.classList.add('hidden');
     ctaHint.classList.remove('hidden');
+    document.querySelectorAll('fieldset.question').forEach(fs => {
+      const answered = !!(fs as HTMLFieldSetElement).querySelector('input[type=radio]:checked');
+      if (answered) {
+        fs.classList.remove('border-yellow-400', 'ring-2', 'ring-yellow-200');
+      } else {
+        fs.classList.add('border-yellow-400', 'ring-2', 'ring-yellow-200');
+      }
+    });
     return;
   }
 
   ctaHint.classList.add('hidden');
+  document.querySelectorAll('fieldset.question').forEach(fs => {
+    fs.classList.remove('border-yellow-400', 'ring-2', 'ring-yellow-200');
+  });
   resultsEl.classList.remove('hidden');
   renderResults(answers);
 
@@ -1063,4 +1160,14 @@ function update() {
 }
 
 form.addEventListener('change', update);
+
+document.getElementById("goto-next")?.addEventListener("click", () => {
+  const unanswered = Array.from(document.querySelectorAll("fieldset.question")).find(
+    fs => !fs.querySelector("input[type=radio]:checked")
+  );
+  if (unanswered) {
+    unanswered.scrollIntoView({ behavior: "smooth", block: "center" });
+    (unanswered.querySelector("input[type=radio]") as HTMLInputElement)?.focus();
+  }
+});
 </script>
