@@ -5,15 +5,15 @@ import LegalNotice from '../components/LegalNotice.astro';
 
 <BaseLayout
   title="Ernährungs-Check"
-  description="Finde heraus welche Mikronährstoffe dir wahrscheinlich fehlen — basierend auf deiner Ernährung und deinem Lebensstil. Kostenlos, evidenzbasiert, in 60 Sekunden."
+  description="Finde heraus welche Mikronährstoffe dir wahrscheinlich fehlen — basierend auf deiner Ernährung und deinem Lebensstil. Kostenlos, evidenzbasiert, in 90 Sekunden."
 >
   <div class="max-w-2xl mx-auto px-4 py-12">
 
     <div class="mb-6">
       <h1 class="text-3xl font-bold text-slate-900 mb-3">Ernährungs-Check</h1>
       <p class="text-slate-600">
-        10 Fragen, ca. 60 Sekunden. Wir berechnen auf Basis deiner Antworten,
-        bei welchen Mikronährstoffen du wahrscheinlich unterversorgt bist.
+        15 Fragen, ca. 90 Sekunden. Wir berechnen auf Basis deiner Antworten,
+        bei welchen Mikronährstoffen und Supplements du wahrscheinlich unterversorgt bist.
       </p>
     </div>
 
@@ -154,12 +154,75 @@ import LegalNotice from '../components/LegalNotice.astro';
         </div>
       </fieldset>
 
+      <!-- Q11 -->
+      <fieldset class="question" data-qid="11">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          11. Isst du regelmäßig Eier?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q11" value="taeglich" class="option-input" /><span>Täglich</span></label>
+          <label class="option-label"><input type="radio" name="q11" value="mehrpw" class="option-input" /><span>Mehrmals pro Woche</span></label>
+          <label class="option-label"><input type="radio" name="q11" value="selten" class="option-input" /><span>Selten (1–3x pro Monat)</span></label>
+          <label class="option-label"><input type="radio" name="q11" value="nie" class="option-input" /><span>Nie</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q12 -->
+      <fieldset class="question" data-qid="12">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          12. Wie oft isst du fermentierte oder gereifte Lebensmittel?
+          <span class="block text-xs font-normal text-slate-500 mt-0.5">z.B. Natto, Hartkäse (Gouda, Emmentaler), Kefir, Kimchi</span>
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q12" value="taeglich" class="option-input" /><span>Täglich (inkl. Käse oder Kefir)</span></label>
+          <label class="option-label"><input type="radio" name="q12" value="mehrpw" class="option-input" /><span>Mehrmals pro Woche</span></label>
+          <label class="option-label"><input type="radio" name="q12" value="gelegentlich" class="option-input" /><span>Gelegentlich</span></label>
+          <label class="option-label"><input type="radio" name="q12" value="selten" class="option-input" /><span>Selten oder nie</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q13 -->
+      <fieldset class="question" data-qid="13">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          13. Welches Salz verwendest du hauptsächlich?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q13" value="jodiert" class="option-input" /><span>Jodiertes Speisesalz</span></label>
+          <label class="option-label"><input type="radio" name="q13" value="meersalz" class="option-input" /><span>Meersalz, Himalayasalz oder anderes nicht-jodiertes Salz</span></label>
+          <label class="option-label"><input type="radio" name="q13" value="kein" class="option-input" /><span>Ich verwende kaum Salz</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q14 -->
+      <fieldset class="question" data-qid="14">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          14. Isst du regelmäßig Innereien oder Knochenbrühe?
+          <span class="block text-xs font-normal text-slate-500 mt-0.5">z.B. Leber, Nieren, Herz, selbstgekochte Knochenbrühe</span>
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q14" value="regelmaessig" class="option-input" /><span>Ja, mindestens 1x pro Woche</span></label>
+          <label class="option-label"><input type="radio" name="q14" value="selten" class="option-input" /><span>Selten (1–3x pro Monat)</span></label>
+          <label class="option-label"><input type="radio" name="q14" value="nie" class="option-input" /><span>Nie</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q15 -->
+      <fieldset class="question" data-qid="15">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          15. Nimmst du Statine? (Cholesterin-Medikament, z.B. Atorvastatin, Simvastatin)
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q15" value="nein" class="option-input" /><span>Nein</span></label>
+          <label class="option-label"><input type="radio" name="q15" value="ja" class="option-input" /><span>Ja, regelmäßig</span></label>
+        </div>
+      </fieldset>
+
     </form>
 
     <!-- Progress indicator -->
     <div class="mt-8 mb-4">
       <div class="flex justify-between text-xs text-slate-500 mb-1">
-        <span id="progress-label">0 von 10 beantwortet</span>
+        <span id="progress-label">0 von 15 beantwortet</span>
         <span id="progress-pct">0%</span>
       </div>
       <div class="h-1.5 bg-slate-200 rounded-full overflow-hidden">
@@ -169,7 +232,7 @@ import LegalNotice from '../components/LegalNotice.astro';
 
     <!-- CTA -->
     <div id="cta-hint" class="text-sm text-slate-400 text-center py-4">
-      Beantworte alle 10 Fragen um dein Ergebnis zu sehen.
+      Beantworte alle 15 Fragen um dein Ergebnis zu sehen.
     </div>
 
     <!-- Results -->
@@ -190,7 +253,7 @@ import LegalNotice from '../components/LegalNotice.astro';
           </div>
           <div id="radar-chart" class="mb-4"></div>
           <div class="rounded-xl border border-slate-200 bg-slate-50/80 p-4 text-xs text-slate-600 leading-6">
-            Dieser Schnell-Check erfasst sechs häufig unterschätzte Mikronährstoffe: Vitamin D, Omega-3, Magnesium, Eisen, Zink und B12. Eine vollständige Ernährungsbewertung umfasst noch viel mehr — etwa Proteinversorgung, essentielle Aminosäuren, Ballaststoffe, Omega-6/3-Verhältnis oder individuelle Unverträglichkeiten. <strong>Betrachte das Ergebnis als ersten Hinweis, nicht als vollständige Analyse.</strong>
+            Dieser Schnell-Check erfasst 20 häufig unterschätzte Mikronährstoffe und Supplements: von Vitamin D, Omega-3 und Magnesium bis hin zu Kreatin, Cholin, Vitamin K2, Glycin und weiteren. Eine vollständige Ernährungsbewertung umfasst noch viel mehr — etwa Proteinversorgung, essentielle Aminosäuren, Ballaststoffe, Omega-6/3-Verhältnis oder individuelle Unverträglichkeiten. <strong>Betrachte das Ergebnis als ersten Hinweis, nicht als vollständige Analyse.</strong>
           </div>
         </div>
 
@@ -268,10 +331,14 @@ import LegalNotice from '../components/LegalNotice.astro';
 
 <script>
 // ── Scoring model ─────────────────────────────────────────────────────────────
-// Each nutrient starts at 0. Answers add risk points (positive = more risk).
+// Each nutrient starts at a baseline. Answers add/subtract risk points.
 // Final score 0-10. Thresholds: ≥7 high, 4-6 medium, ≤3 low.
 
-type Nutrient = 'vitaminD' | 'omega3' | 'magnesium' | 'eisen' | 'zink' | 'b12';
+type Nutrient =
+  | 'vitaminD' | 'omega3' | 'magnesium' | 'eisen' | 'zink' | 'b12'
+  | 'kreatin' | 'vitaminK2' | 'jod' | 'selen' | 'folat' | 'vitaminB6'
+  | 'coq10' | 'cholin' | 'calcium' | 'kupfer' | 'lutein' | 'taurin' | 'glycin';
+
 type Risk = 'hoch' | 'mittel' | 'niedrig';
 
 interface NutrientResult {
@@ -288,22 +355,22 @@ interface NutrientResult {
 
 const SCORING: Record<string, Record<string, Partial<Record<Nutrient, number>>>> = {
   q1: {
-    omnivor:      { b12: -1 },
-    pescetarisch: { b12: -1, eisen: +1, zink: +1 },
-    vegetarisch:  { omega3: +3, eisen: +2, zink: +2, b12: +3 },
-    vegan:        { omega3: +3, eisen: +2, zink: +2, b12: +5, vitaminD: +1 },
+    omnivor:      { b12: -1, kupfer: -1 },
+    pescetarisch: { b12: -1, eisen: +1, zink: +1, kreatin: +1, taurin: -1 },
+    vegetarisch:  { omega3: +3, eisen: +2, zink: +2, b12: +3, kreatin: +4, taurin: +3, cholin: +2, calcium: +1, vitaminB6: +1 },
+    vegan:        { omega3: +3, eisen: +2, zink: +2, b12: +5, vitaminD: +1, kreatin: +5, taurin: +4, cholin: +2, calcium: +2, vitaminK2: +1 },
   },
   q2: {
-    '2plus': { omega3: -4 },
-    '1pw':   { omega3: -2 },
-    selten:  { omega3: +2 },
-    nie:     { omega3: +4 },
+    '2plus': { omega3: -4, taurin: -2, selen: -2, vitaminB6: -1 },
+    '1pw':   { omega3: -2, taurin: -1, selen: -1 },
+    selten:  { omega3: +2, taurin: +1, selen: +1 },
+    nie:     { omega3: +4, taurin: +2, selen: +1 },
   },
   q3: {
-    '3plus': { eisen: -3, zink: -2 },
-    '1-2pw': { eisen: -2, zink: -1 },
-    selten:  { eisen: +1 },
-    nie:     { eisen: +3, zink: +2 },
+    '3plus': { eisen: -3, zink: -2, kreatin: -3, taurin: -2, glycin: -1, selen: -1 },
+    '1-2pw': { eisen: -2, zink: -1, kreatin: -2, taurin: -1, glycin: -1 },
+    selten:  { eisen: +1, kreatin: +1, taurin: +1 },
+    nie:     { eisen: +3, zink: +2, kreatin: +3, taurin: +2, glycin: +1 },
   },
   q4: {
     viel:   { vitaminD: -4 },
@@ -312,36 +379,62 @@ const SCORING: Record<string, Record<string, Partial<Record<Nutrient, number>>>>
     kaum:   { vitaminD: +4 },
   },
   q5: {
-    taeglich: { eisen: -2, magnesium: -1 },
-    '3-4pw':  { eisen: -1 },
-    '1-2pw':  {},
-    selten:   { eisen: +1, magnesium: +1 },
+    taeglich: { eisen: -2, magnesium: -1, folat: -3, lutein: -2, calcium: -1 },
+    '3-4pw':  { eisen: -1, folat: -2, lutein: -1 },
+    '1-2pw':  { folat: +1 },
+    selten:   { eisen: +1, magnesium: +1, folat: +2, lutein: +2, calcium: +1 },
   },
   q6: {
-    taeglich: { magnesium: -3, zink: -1 },
-    mehrpw:   { magnesium: -2 },
-    selten:   { magnesium: +2 },
-    nie:      { magnesium: +3 },
+    taeglich: { magnesium: -3, zink: -1, kupfer: -2, calcium: -1 },
+    mehrpw:   { magnesium: -2, kupfer: -1 },
+    selten:   { magnesium: +2, kupfer: +1 },
+    nie:      { magnesium: +3, kupfer: +2 },
   },
   q7: {
-    mann:       {},
-    'frau-mens': { eisen: +3 },
-    'frau-keine': {},
+    mann:         {},
+    'frau-mens':  { eisen: +3, folat: +2 },
+    'frau-keine': { calcium: +1 },
   },
   q8: {
-    u30:    {},
-    '30-50': { vitaminD: +1 },
-    '51-65': { vitaminD: +2, b12: +1 },
-    ue65:   { vitaminD: +3, b12: +2 },
+    u30:     {},
+    '30-50': { vitaminD: +1, coq10: +1 },
+    '51-65': { vitaminD: +2, b12: +1, coq10: +2, calcium: +1 },
+    ue65:    { vitaminD: +3, b12: +2, coq10: +3, calcium: +2, vitaminB6: +1 },
   },
   q9: {
-    hoch:   { magnesium: +3 },
-    mittel: { magnesium: +1 },
+    hoch:    { magnesium: +3, kreatin: +2 },
+    mittel:  { magnesium: +1 },
     niedrig: {},
   },
   q10: {
     nein: {},
     ja:   { b12: +2, magnesium: +1 },
+  },
+  q11: {
+    taeglich: { cholin: -4, b12: -1, lutein: -3, vitaminD: -1 },
+    mehrpw:   { cholin: -2, lutein: -2 },
+    selten:   { cholin: +2, lutein: +1 },
+    nie:      { cholin: +4, lutein: +3 },
+  },
+  q12: {
+    taeglich:    { vitaminK2: -4 },
+    mehrpw:      { vitaminK2: -2 },
+    gelegentlich:{ vitaminK2: +1 },
+    selten:      { vitaminK2: +3 },
+  },
+  q13: {
+    jodiert:  { jod: -2 },
+    meersalz: { jod: +3 },
+    kein:     { jod: +2 },
+  },
+  q14: {
+    regelmaessig: { glycin: -3, coq10: -2, kupfer: -2, cholin: -2 },
+    selten:       { glycin: +2, coq10: +1 },
+    nie:          { glycin: +3, coq10: +2, kupfer: +1 },
+  },
+  q15: {
+    nein: {},
+    ja:   { coq10: +4 },
   },
 };
 
@@ -448,6 +541,214 @@ const NUTRIENTS: Record<Nutrient, {
     foods: ['Leber (bei weitem reichste Quelle)', 'Muscheln', 'Sardinen', 'Rindfleisch', 'Milchprodukte', 'Eier'],
     supplementNote: 'Veganer: 500–1.000 µg Methylcobalamin täglich oder 2.000 µg wöchentlich — keine Option, Pflicht.',
   },
+  kreatin: {
+    name: 'Kreatin',
+    slug: 'kreatin',
+    headlines: {
+      hoch:    'Kreatin — hohes Mangelrisiko',
+      mittel:  'Kreatin — mögliche Unterversorgung',
+      niedrig: 'Kreatin — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Kreatin kommt fast ausschließlich in Fleisch und Fisch vor. Veganer nehmen über die Nahrung kaum Kreatin auf und haben in Studien messbar geringere Muskel- und Gehirn-Kreatinspiegel. Der Körper kann Kreatin selbst synthetisieren, aber oft nicht in ausreichender Menge.',
+      mittel:  'Deine Kreatin-Zufuhr aus der Ernährung ist möglicherweise gering. Besonders bei sportlicher Belastung kann dies relevant sein.',
+      niedrig: 'Regelmäßiger Fleisch- und Fischkonsum liefert ausreichend Kreatin für die Körpereigensynthese.',
+    },
+    foods: ['Rindfleisch (5 g Kreatin pro kg)', 'Hering (6,5 g/kg)', 'Lachs (4,5 g/kg)', 'Thunfisch (4 g/kg)', 'Schweinefleisch (5 g/kg)'],
+    supplementNote: 'Kreatin-Monohydrat (3–5 g/Tag) ist das am besten untersuchte Supplement überhaupt und für Veganer besonders sinnvoll.',
+  },
+  vitaminK2: {
+    name: 'Vitamin K2',
+    slug: 'vitamin-k2',
+    headlines: {
+      hoch:    'Vitamin K2 — hohes Mangelrisiko',
+      mittel:  'Vitamin K2 — mögliche Unterversorgung',
+      niedrig: 'Vitamin K2 — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Vitamin K2 (MK-7) ist in westlichen Ernährungsweisen weit verbreitet unterversorgt. Natto (fermentierte Sojabohnen) ist mit Abstand die reichste Quelle, wird in Deutschland aber kaum gegessen. Hartkäse und Kefir liefern kleinere Mengen MK-4.',
+      mittel:  'Deine K2-Zufuhr ist möglicherweise ausreichend, aber nicht optimal. Täglich Milchprodukte und Käse helfen.',
+      niedrig: 'Regelmäßige fermentierte und gereifte Produkte — besonders Käse — decken einen Teil des K2-Bedarfs.',
+    },
+    foods: ['Natto (1.000 µg MK-7 pro 100 g — mit Abstand reichste Quelle)', 'Gouda, Emmentaler (ca. 60–75 µg/100 g)', 'Kefir', 'Butter aus Weidemilch', 'Eigelb'],
+    supplementNote: 'MK-7-Form (90–200 µg/Tag) zusammen mit Vitamin D3 — beide unterstützen gemeinsam die Kalziumverwertung.',
+  },
+  jod: {
+    name: 'Jod',
+    slug: 'jod',
+    headlines: {
+      hoch:    'Jod — hohes Mangelrisiko',
+      mittel:  'Jod — mögliche Unterversorgung',
+      niedrig: 'Jod — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Deutschland gilt als Jodmangelgebiet — die Böden sind jodarm, daher enthalten heimische Lebensmittel wenig Jod. Wer kein jodiertes Salz verwendet und selten Meeresfrüchte oder Milchprodukte isst, ist stark gefährdet. Jodmangel ist die häufigste vermeidbare Ursache von Schilddrüsenerkrankungen.',
+      mittel:  'Deine Jodversorgung könnte knapp sein. Jodiertes Salz oder regelmäßige Milchprodukte können helfen.',
+      niedrig: 'Jodiertes Speisesalz und regelmäßige Milchprodukte decken den Jodbedarf in Deutschland gut ab.',
+    },
+    foods: ['Meeresfrüchte (Garnelen, Muscheln)', 'Seefisch (Kabeljau, Schellfisch)', 'Milch und Milchprodukte (ca. 20–50 µg/100 ml)', 'Jodiertes Speisesalz', 'Nori-Algen (variabel)'],
+    supplementNote: 'Bei pflanzenbasierter Ernährung ohne jodiertes Salz: 100–150 µg Kaliumiodid täglich. Schilddrüsenerkrankte sollten vorher ärztlichen Rat einholen.',
+  },
+  selen: {
+    name: 'Selen',
+    slug: 'selen',
+    headlines: {
+      hoch:    'Selen — hohes Mangelrisiko',
+      mittel:  'Selen — mögliche Unterversorgung',
+      niedrig: 'Selen — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Europäische Böden sind selenarm — die Selengehalte in Getreide und Gemüse aus Deutschland, Österreich und der Schweiz sind deutlich niedriger als z.B. in den USA. Seafood und Fleisch liefern mehr, aber bei wenig tierischen Produkten und keinen Paranüssen ist Mangel wahrscheinlich.',
+      mittel:  'Deine Selenversorgung ist möglicherweise grenzwertig. Regelmäßige tierische Produkte oder 1–2 Paranüsse pro Tag können helfen.',
+      niedrig: 'Regelmäßiger Seafood- und Fleischkonsum liefert ausreichend Selen trotz selenarmer Böden.',
+    },
+    foods: ['Paranüsse (1–2 Stück/Tag = ca. 100–200 µg Selen)', 'Seefisch (Thunfisch, Lachs)', 'Rindfleisch', 'Hühnerei', 'Hülsenfrüchte'],
+    supplementNote: 'Selenmethionin oder Selenat (50–100 µg/Tag) — Vorsicht: die Spanne zwischen ausreichend und zu viel ist klein. Nicht dauerhaft hochdosieren.',
+  },
+  folat: {
+    name: 'Folat (B9)',
+    slug: 'folsaeure',
+    headlines: {
+      hoch:    'Folat — hohes Mangelrisiko',
+      mittel:  'Folat — mögliche Unterversorgung',
+      niedrig: 'Folat — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Folat ist in dunklem Blattgemüse, Hülsenfrüchten und Leber am reichsten. Wer selten davon isst — und vor allem Frauen im gebärfähigen Alter — haben ein erhöhtes Risiko. Folsäuremangel ist die häufigste Vitaminmangelerkrankung in Deutschland.',
+      mittel:  'Deine Folat-Zufuhr ist möglicherweise nicht optimal. Mehr dunkles Gemüse und Hülsenfrüchte können helfen.',
+      niedrig: 'Regelmäßiges dunkles Gemüse und Hülsenfrüchte decken den Folatbedarf gut ab.',
+    },
+    foods: ['Spinat (100 g = ca. 145 µg Folat)', 'Linsen (100 g = ca. 180 µg)', 'Spargel', 'Edamame', 'Kichererbsen', 'Leber (sehr reich)'],
+    supplementNote: 'Methylfolat (5-MTHF, 400–800 µg/Tag) ist besser bioverfügbar als synthetische Folsäure, besonders für MTHFR-Varianten. Für Frauen mit Kinderwunsch besonders wichtig.',
+  },
+  vitaminB6: {
+    name: 'Vitamin B6',
+    slug: 'vitamin-b6',
+    headlines: {
+      hoch:    'Vitamin B6 — hohes Mangelrisiko',
+      mittel:  'Vitamin B6 — mögliche Unterversorgung',
+      niedrig: 'Vitamin B6 — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Vitamin B6 kommt zwar in vielen Lebensmitteln vor, ist aber hitzeempfindlich und wird beim Kochen teilweise zerstört. Bei einseitiger Ernährung, wenig Fleisch und Fisch sowie zunehmendem Alter steigt das Mangelrisiko.',
+      mittel:  'Deine B6-Versorgung könnte grenzwertig sein. Kartoffeln, Bananen und Geflügel sind gute pflanzliche bzw. magere tierische Quellen.',
+      niedrig: 'Eine abwechslungsreiche Ernährung mit Fleisch, Fisch, Kartoffeln und Hülsenfrüchten deckt B6 gut ab.',
+    },
+    foods: ['Hähnchenbrust (100 g = ca. 0,9 mg B6)', 'Kartoffeln (mittelgroße = ca. 0,5 mg)', 'Banane (ca. 0,4 mg)', 'Lachs', 'Kichererbsen', 'Sonnenblumenkerne'],
+    supplementNote: 'Pyridoxal-5-Phosphat (P5P, 10–25 mg/Tag) ist die aktive Form. Nicht dauerhaft hochdosieren — sehr hohe Dosen können Nervenschäden verursachen.',
+  },
+  coq10: {
+    name: 'Coenzym Q10',
+    slug: 'coq10',
+    headlines: {
+      hoch:    'CoQ10 — hohes Mangelrisiko',
+      mittel:  'CoQ10 — mögliche Unterversorgung',
+      niedrig: 'CoQ10 — wahrscheinlich ausreichend',
+    },
+    explanations: {
+      hoch:    'CoQ10 wird vom Körper selbst produziert, aber die Eigenproduktion nimmt ab dem 40. Lebensjahr deutlich ab. Statine hemmen die CoQ10-Synthese zusätzlich. Innereien (Herz, Leber) sind die reichsten Nahrungsquellen — wer diese selten isst und Statine nimmt, ist gefährdet.',
+      mittel:  'Deine CoQ10-Versorgung könnte mit dem Alter oder bei Statin-Einnahme knapper werden. Innereien und fetter Fisch liefern etwas CoQ10.',
+      niedrig: 'Regelmäßige Innereien, fetter Fisch und dein Alter sprechen für eine ausreichende CoQ10-Versorgung.',
+    },
+    foods: ['Rinderherz (100 g = ca. 11 mg CoQ10)', 'Schweineleber', 'Makrele, Sardinen', 'Rindfleisch (Muskelfleisch)', 'Erdnüsse, Pistazien (kleine Mengen)'],
+    supplementNote: 'Ubiquinol (reduzierte Form, 100–200 mg/Tag) ist besser bioverfügbar als Ubiquinon, besonders ab 40 oder bei Statin-Einnahme.',
+  },
+  cholin: {
+    name: 'Cholin',
+    slug: 'cholin',
+    headlines: {
+      hoch:    'Cholin — hohes Mangelrisiko',
+      mittel:  'Cholin — mögliche Unterversorgung',
+      niedrig: 'Cholin — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Cholin ist ein oft übersehener Nährstoff. Eigelb und Leber sind mit Abstand die reichsten Quellen. Studien zeigen, dass über 90 % der Bevölkerung die empfohlene Tagesmenge nicht erreichen — besonders wer keine Eier isst, ist stark gefährdet. Cholin ist wichtig für Gedächtnis, Leberfunktion und Schwangerschaft.',
+      mittel:  'Deine Cholinversorgung ist möglicherweise grenzwertig. Mehr Eier (insbesondere das Eigelb) können den Bedarf deutlich verbessern.',
+      niedrig: 'Regelmäßige Eier, besonders das Eigelb, decken den Cholinbedarf gut ab.',
+    },
+    foods: ['Eigelb (1 Ei = ca. 150 mg Cholin)', 'Rinderleber (100 g = ca. 420 mg)', 'Hähnchen', 'Lachs', 'Edamame, Soja'],
+    supplementNote: 'Alpha-GPC oder Citicolin (CDP-Cholin) als Supplement, 300–600 mg/Tag. Wichtig in der Schwangerschaft: Cholin unterstützt die Gehirnentwicklung des Kindes.',
+  },
+  calcium: {
+    name: 'Calcium',
+    slug: 'calcium',
+    headlines: {
+      hoch:    'Calcium — hohes Mangelrisiko',
+      mittel:  'Calcium — mögliche Unterversorgung',
+      niedrig: 'Calcium — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Calcium ist der mengenmäßig wichtigste Mineralstoff im Körper. Milchprodukte sind die Hauptquelle in der deutschen Ernährung. Wer keine Milchprodukte isst und auch keine calciumreichen Pflanzen oder angereicherten Getränke konsumiert, ist stark gefährdet — besonders Veganer und ältere Frauen.',
+      mittel:  'Deine Calciumversorgung könnte knapp sein. Angereicherte Pflanzendrinks und calciumreiches Mineralwasser können helfen.',
+      niedrig: 'Regelmäßige Milchprodukte, Nüsse und grünes Gemüse decken den Calciumbedarf gut ab.',
+    },
+    foods: ['Parmesan (100 g = ca. 1.180 mg Ca)', 'Gouda', 'Milch, Joghurt (ca. 120 mg/100 ml)', 'Angereicherte Soja-/Hafermilch', 'Grünkohl, Brokkoli', 'Mandeln', 'Calciumreiches Mineralwasser (>400 mg/l)'],
+    supplementNote: 'Calciumcitrat (500 mg/Tag) ist besser bioverfügbar als Carbonat, besonders bei niedrigem Magensäurespiegel. Immer zusammen mit Vitamin D3 und K2 nehmen.',
+  },
+  kupfer: {
+    name: 'Kupfer',
+    slug: 'kupfer',
+    headlines: {
+      hoch:    'Kupfer — mögliches Mangelrisiko',
+      mittel:  'Kupfer — leicht erhöhtes Risiko',
+      niedrig: 'Kupfer — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Kupfermangel ist selten, kann aber auftreten bei wenig Innereien und Meeresfrüchten, wenig Nüssen und Hülsenfrüchten sowie bei sehr hoher Zinkzufuhr (Zink und Kupfer konkurrieren um die Aufnahme). Kupfer ist wichtig für Eisenstoffwechsel, Nerven und Immunsystem.',
+      mittel:  'Deine Kupferversorgung ist möglicherweise grenzwertig. Nüsse, Samen und Hülsenfrüchte können helfen.',
+      niedrig: 'Deine Ernährung liefert wahrscheinlich ausreichend Kupfer.',
+    },
+    foods: ['Rinderleber (100 g = ca. 14 mg Cu)', 'Austern (ca. 4–5 mg/100 g)', 'Cashews (1,7 mg/100 g)', 'Sonnenblumenkerne', 'Linsen, Kichererbsen', 'Kakao/dunkle Schokolade'],
+    supplementNote: 'Kupfersupplemente nur bei nachgewiesenem Mangel — zu viel Kupfer ist toxisch. Wer hochdosiertes Zink nimmt, sollte die Kupferaufnahme im Blick behalten (Verhältnis Zn:Cu ca. 8–10:1).',
+  },
+  lutein: {
+    name: 'Lutein & Zeaxanthin',
+    slug: 'lutein-zeaxanthin',
+    headlines: {
+      hoch:    'Lutein/Zeaxanthin — hohes Mangelrisiko',
+      mittel:  'Lutein/Zeaxanthin — mögliche Unterversorgung',
+      niedrig: 'Lutein/Zeaxanthin — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Lutein und Zeaxanthin sind Carotinoide, die sich in der Netzhaut konzentrieren und als natürlicher Lichtfilter wirken. Sie kommen vor allem in dunklem Blattgemüse und Eigelb vor. Wer selten davon isst, hat eine niedrige Versorgung — besonders relevant bei viel Bildschirmarbeit.',
+      mittel:  'Deine Versorgung mit Lutein und Zeaxanthin ist möglicherweise nicht optimal. Mehr Spinat, Grünkohl und Eier können helfen.',
+      niedrig: 'Regelmäßiges dunkles Blattgemüse und Eier decken den Lutein/Zeaxanthin-Bedarf gut ab.',
+    },
+    foods: ['Grünkohl (100 g = ca. 18 mg Lutein)', 'Spinat (12 mg/100 g)', 'Eigelb (besonders gut bioverfügbar)', 'Brokkoli', 'Mais', 'Erbsen'],
+    supplementNote: 'Lutein (10 mg/Tag) + Zeaxanthin (2 mg/Tag) in Studien zur Makulagesundheit eingesetzt. Besonders relevant ab 50 oder bei starker Bildschirmarbeit.',
+  },
+  taurin: {
+    name: 'Taurin',
+    slug: 'taurin',
+    headlines: {
+      hoch:    'Taurin — hohes Mangelrisiko',
+      mittel:  'Taurin — mögliche Unterversorgung',
+      niedrig: 'Taurin — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Taurin ist eine Aminosäure, die der Körper aus Cystein und Methionin synthetisieren kann, aber die Eigenproduktion reicht oft nicht für optimale Spiegel. Taurin kommt fast ausschließlich in tierischen Produkten vor — Veganer haben messbar niedrigere Taurinspiegel. In Studien wird Taurin mit Herzgesundheit, Nerven- und Muskelfunktion in Zusammenhang gebracht.',
+      mittel:  'Deine Taurinversorgung aus der Nahrung ist möglicherweise gering. Meeresfrüchte und Fleisch sind die Hauptquellen.',
+      niedrig: 'Regelmäßiger Seafood- und Fleischkonsum deckt den Taurinbedarf gut ab.',
+    },
+    foods: ['Muscheln, Austern (sehr reich, ca. 400–600 mg/100 g)', 'Oktopus, Tintenfisch', 'Hühnerfleisch (Dunkelfleisch)', 'Rindfleisch', 'Lachs, Makrele'],
+    supplementNote: 'Taurin (1–3 g/Tag) ist sicher und gut verträglich. Für Veganer besonders sinnvoll, da über die Nahrung kaum zugeführt.',
+  },
+  glycin: {
+    name: 'Glycin',
+    slug: 'glycin',
+    headlines: {
+      hoch:    'Glycin — hohes Mangelrisiko',
+      mittel:  'Glycin — mögliche Unterversorgung',
+      niedrig: 'Glycin — wahrscheinlich ausreichend versorgt',
+    },
+    explanations: {
+      hoch:    'Glycin ist die häufigste Aminosäure im Kollagen und kommt in Haut, Knochen, Sehnen und Bindegewebe vor. Die traditionelle Ernährung enthielt diese "Abfallteile" regelmäßig — heute essen die meisten fast ausschließlich Muskelprotein, das glycinarm ist. Studien zeigen, dass die meisten Menschen deutlich weniger Glycin aufnehmen als der Körper verwertet.',
+      mittel:  'Deine Glycinzufuhr ist möglicherweise nicht optimal. Selbstgekochte Knochenbrühe, Gelatine oder kollagenreiche Fleischteile können helfen.',
+      niedrig: 'Regelmäßige Innereien, Knochenbrühe oder kollagenreiche Lebensmittel liefern ausreichend Glycin.',
+    },
+    foods: ['Selbstgekochte Knochenbrühe (variabel, ca. 1–3 g/Tasse)', 'Gelatine (8 g pro Blatt)', 'Haut von Geflügel und Fisch', 'Kollagen-Pulver', 'Rinderknorpel, Schweinsschwarte'],
+    supplementNote: 'Glycin-Pulver (3–5 g/Tag) oder Kollagen-Hydrolysat (10–15 g/Tag) ist eine einfache und günstige Ergänzung. Kann auch den Schlaf verbessern — abends einnehmen.',
+  },
 };
 
 // ── Scoring logic ─────────────────────────────────────────────────────────────
@@ -467,6 +768,8 @@ function riskStyle(risk: Risk) {
 function computeScores(answers: Record<string, string>): NutrientResult[] {
   const totals: Record<Nutrient, number> = {
     vitaminD: 5, omega3: 5, magnesium: 5, eisen: 4, zink: 4, b12: 3,
+    kreatin: 4, vitaminK2: 6, jod: 5, selen: 5, folat: 4, vitaminB6: 3,
+    coq10: 4, cholin: 6, calcium: 4, kupfer: 3, lutein: 5, taurin: 4, glycin: 5,
   };
 
   for (const [qid, val] of Object.entries(answers)) {
@@ -502,7 +805,7 @@ const progressBar = document.getElementById('progress-bar') as HTMLElement;
 const progressLabel = document.getElementById('progress-label')!;
 const progressPct = document.getElementById('progress-pct')!;
 
-const TOTAL_QUESTIONS = 10;
+const TOTAL_QUESTIONS = 15;
 
 function getAnswers(): Record<string, string> {
   const data = new FormData(form);
@@ -516,9 +819,9 @@ function getAnswers(): Record<string, string> {
 
 function renderRadar(results: NutrientResult[]) {
   const radarResults = [...results].sort((a, b) => a.name.localeCompare(b.name, 'de'));
-  const size = 320;
+  const size = 400;
   const center = size / 2;
-  const radius = 110;
+  const radius = 130;
   const levels = 5;
 
   const pointAt = (index: number, value: number) => {
@@ -554,19 +857,19 @@ function renderRadar(results: NutrientResult[]) {
   }).join('');
 
   const labels = radarResults.map((r, i) => {
-    const p = pointAt(i, 11.5);
+    const p = pointAt(i, 13.5);
     const anchor = Math.abs(p.x - center) < 14 ? 'middle' : p.x < center ? 'end' : 'start';
-    return `<text x="${p.x}" y="${p.y}" text-anchor="${anchor}" dominant-baseline="middle" fill="#475569" font-size="12" font-weight="500">${r.name}</text>`;
+    return `<text x="${p.x}" y="${p.y}" text-anchor="${anchor}" dominant-baseline="middle" fill="#475569" font-size="10" font-weight="500">${r.name}</text>`;
   }).join('');
 
   const points = radarResults.map((r, i) => {
     const p = pointAt(i, r.score);
-    return `<circle cx="${p.x}" cy="${p.y}" r="4" fill="#0f766e" stroke="#ffffff" stroke-width="2"><title>${r.name}: ${r.score}/10</title></circle>`;
+    return `<circle cx="${p.x}" cy="${p.y}" r="3.5" fill="#0f766e" stroke="#ffffff" stroke-width="2"><title>${r.name}: ${r.score}/10</title></circle>`;
   }).join('');
 
   radarEl.innerHTML = `
     <div class="flex justify-center">
-      <svg viewBox="0 0 ${size} ${size}" class="w-full max-w-[420px] h-auto overflow-visible" role="img" aria-label="Radar Chart des Risikoprofils">
+      <svg viewBox="0 0 ${size} ${size}" class="w-full max-w-[480px] h-auto overflow-visible" role="img" aria-label="Radar Chart des Risikoprofils">
         ${gridPolygons}
         ${axes}
         <polygon points="${polygonPoints}" fill="rgba(13, 148, 136, 0.18)" stroke="#0f766e" stroke-width="2.5" />
