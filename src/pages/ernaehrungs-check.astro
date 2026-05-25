@@ -385,18 +385,57 @@ import LegalNotice from '../components/LegalNotice.astro';
     flex-shrink: 0;
   }
   @media print {
+    /* Hide everything except results */
     .max-w-2xl > *:not(#results) { display: none !important; }
     #results { display: block !important; }
-    #export-buttons, #gkv-section button, #goto-next { display: none !important; }
+    #export-buttons, #gkv-section, #radar-chart, #goto-next { display: none !important; }
+
+    /* Page setup */
+    @page { margin: 1.5cm; size: A4; }
+    body { font-size: 11px; }
+
+    /* Header */
     #results::before {
-      content: "MikroScore Ernährungs-Check";
+      content: "MikroScore — Ernährungs-Check";
       display: block;
-      font-size: 1.25rem;
+      font-size: 14px;
       font-weight: bold;
-      margin-bottom: 0.5rem;
+      margin-bottom: 4px;
     }
+    #results::after {
+      content: "Schätzung, keine Diagnose · mikroscore.com/ernaehrungs-check";
+      display: block;
+      font-size: 9px;
+      color: #94a3b8;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 8px;
+    }
+
+    /* Hide low-risk cards entirely */
+    #result-cards > div:has(span.bg-emerald-100) { display: none !important; }
+
+    /* Compact cards */
+    #result-cards > div { 
+      border: 1px solid #e2e8f0 !important;
+      border-radius: 6px !important;
+      margin-bottom: 6px !important;
+      page-break-inside: avoid;
+    }
+    #result-cards > div > div { padding: 8px 10px !important; }
+
+    /* Hide food tags, details, dossier links — keep name, badge, reason, next step */
+    .flex.flex-wrap.gap-1\.5 { display: none !important; }
     details { display: none !important; }
-    a[href] { color: inherit; text-decoration: none; }
+    a[class*="teal"] { display: none !important; }
+
+    /* Smaller risk bar */
+    .h-1\.5 { height: 3px !important; margin-bottom: 6px !important; }
+
+    /* Compact text */
+    p.text-sm { font-size: 10px !important; margin-bottom: 4px !important; }
+    p.text-xs { font-size: 9px !important; }
+    p.font-semibold { font-size: 11px !important; }
   }
 </style>
 
