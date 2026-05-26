@@ -240,60 +240,87 @@ const checklist = [
       </div>
     </section>
 
-    <!-- PubMed Studies -->
+    <!-- Fachquellen -->
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-slate-900 mb-4">🔬 Relevante Studien (PubMed)</h2>
-      <p class="text-sm text-slate-500 mb-5">Ausgewählte Publikationen zur Nährstoffversorgung bei veganer Ernährung — keine Heilaussagen, nur Forschungsstand.</p>
+      <h2 class="text-xl font-bold text-slate-900 mb-2">📚 Zentrale Fachquellen</h2>
+      <p class="text-sm text-slate-500 mb-5">
+        Die Einordnung basiert vorrangig auf der DGE-Neubewertung zur veganen Ernährung 2024, der DGE-FAQ zu potenziell kritischen Nährstoffen sowie Deutschland-spezifischen Daten des BfR/RBVD-Projekts. Ergänzend werden systematische Reviews und Meta-Analysen zu einzelnen Nährstoffen berücksichtigt.
+      </p>
       <div class="space-y-3">
         {[
           {
+            title: 'Vegane Ernährung: Position der DGE (2024)',
+            authors: 'Deutsche Gesellschaft für Ernährung (DGE)',
+            journal: 'DGE',
+            year: 2024,
+            pmid: '',
+            url: 'https://www.dge.de/wissenschaft/stellungnahmen/vegane-ernaehrung/',
+            finding: 'Hauptreferenz für Deutschland: aktualisierte Position zu potenziell kritischen Nährstoffen bei veganer Ernährung — B12, Jod, Vitamin D, Calcium, Eisen, Zink, Selen, Riboflavin, DHA/EPA und ggf. Vitamin A. Besondere Hinweise für vulnerable Gruppen (Schwangerschaft, Stillzeit, Kinder).',
+          },
+          {
+            title: 'DGE FAQ: Potenziell kritische Nährstoffe bei veganer Ernährung',
+            authors: 'Deutsche Gesellschaft für Ernährung (DGE)',
+            journal: 'DGE',
+            year: 2024,
+            pmid: '',
+            url: 'https://www.dge.de/gesunde-ernaehrung/faq/vegane-ernaehrung/',
+            finding: 'Verbrauchernahe Formulierungen zu B12, Jod, Vitamin D, Eisen, Calcium, Zink, Selen, DHA/EPA und ggf. Vitamin A. Gut geeignet für konkrete Kommunikation ohne medizinische Heilaussagen.',
+          },
+          {
+            title: 'RBVD-Studie: Vegane Ernährung in Deutschland (BfR/MRI)',
+            authors: 'Richter M et al.',
+            journal: 'Bundesinstitut für Risikobewertung',
+            year: 2020,
+            pmid: '',
+            url: 'https://www.bfr.bund.de',
+            finding: 'Deutschland-spezifische Versorgungsdaten: Vitamin B12 bei supplementierenden Veganern häufig gut versorgt; Jodversorgung dagegen kritisch. Wichtige Grundlage für die Einordnung der DE-spezifischen Risikolage.',
+          },
+          {
             title: 'Vitamin B12 among Vegetarians: Status, Assessment and Supplementation',
-            authors: 'Pawlak R et al.',
+            authors: 'Rizzo G et al.',
             journal: 'Nutrients',
             year: 2016,
             pmid: '27886009',
-            finding: 'Systematisches Review: B12-Mangel ist unter Veganern weit verbreitet. Supplementierung oder angereicherte Lebensmittel werden als notwendig eingestuft.',
+            url: 'https://pubmed.ncbi.nlm.nih.gov/27886009/',
+            finding: 'Systematisches Review: B12-Status, geeignete Marker (Holotranscobalamin, MMA) und Supplementierungsempfehlungen für Vegetarier und Veganer.',
           },
           {
-            title: 'Omega-3 fatty acid status in vegetarians and vegans',
-            authors: 'Sarter B et al.',
-            journal: 'Prostaglandins Leukot Essent Fatty Acids',
-            year: 2015,
-            pmid: '25369925',
-            finding: 'Veganer haben im Vergleich zu Omnivoren deutlich niedrigere DHA/EPA-Spiegel im Blut. Algenöl als direkte vegane DHA-Quelle wird diskutiert.',
+            title: 'Iodine nutrition in modern vegan and vegetarian diets',
+            authors: 'Eveleigh ER et al.',
+            journal: 'Nutrients',
+            year: 2023,
+            pmid: '36615767',
+            url: 'https://pubmed.ncbi.nlm.nih.gov/36615767/',
+            finding: 'Systematisches Review und Meta-Analyse: Jodstatus bei veganer/vegetarischer Ernährung häufig unzureichend. Jodiertes Salz und gezielte Supplementierung als Lösungsansätze.',
           },
           {
-            title: 'Iron Status of Vegetarian Adults: A Review of Literature',
+            title: 'Vegetarian diets and iron status',
             authors: 'Haider LM et al.',
             journal: 'Critical Reviews in Food Science and Nutrition',
             year: 2018,
             pmid: '27880062',
-            finding: 'Vegetarier und Veganer haben häufig niedrigere Ferritinwerte. Non-Häm-Eisen aus pflanzlichen Quellen wird schlechter aufgenommen. Bluttest vor Supplementierung empfohlen.',
+            url: 'https://pubmed.ncbi.nlm.nih.gov/27880062/',
+            finding: 'Umfassender Review: Vegetarier/Veganer weisen häufig niedrigere Ferritinwerte auf. Non-Häm-Eisen wird schlechter aufgenommen. Labordiagnostik (Ferritin) vor Supplementierung empfohlen.',
           },
           {
-            title: 'Iodine status in vegans: A systematic review',
-            authors: 'Eveleigh ER et al.',
-            journal: 'Nutrients',
-            year: 2020,
-            pmid: '32290535',
-            finding: 'Veganer haben in Studien häufig unzureichende Jodwerte, insbesondere wenn kein jodiertes Salz verwendet wird. Supplementierung oder jodiertes Salz werden empfohlen.',
-          },
-          {
-            title: 'Calcium and Vitamin D in Vegan Diets',
-            authors: 'Rogerson D.',
-            journal: 'Journal of the International Society of Sports Nutrition',
-            year: 2017,
-            pmid: '28924423',
-            finding: 'Umfassendes Review zur Nährstoffversorgung bei veganer Ernährung. Calcium und Vitamin D zählen zu den kritischen Nährstoffen — Versorgung hängt stark von Lebensmittelwahl und Sonnenexposition ab.',
+            title: 'n-3 fatty acid status in vegetarians and vegans',
+            authors: 'Saunders AV et al. / Sarter B et al. / Kornsteiner M et al.',
+            journal: 'Mehrere Reviews',
+            year: 2015,
+            pmid: '25369925',
+            url: 'https://pubmed.ncbi.nlm.nih.gov/25369925/',
+            finding: 'Übereinstimmende Befunde: DHA- und EPA-Spiegel im Blut sind bei pflanzlicher Ernährung deutlich niedriger als bei Omnivoren. ALA aus Leinöl wird kaum in DHA/EPA umgewandelt. Algenöl als direkte vegane DHA/EPA-Quelle.',
           },
         ].map(study => (
           <a
-            href={`https://pubmed.ncbi.nlm.nih.gov/${study.pmid}/`}
+            href={study.url}
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-start gap-4 bg-white border border-slate-200 rounded-xl p-4 hover:border-slate-300 hover:bg-slate-50 transition-colors no-underline group"
           >
-            <span class="shrink-0 text-xs font-mono text-slate-400 bg-slate-100 rounded px-2 py-1 mt-0.5">PMID {study.pmid}</span>
+            <span class="shrink-0 text-xs font-mono text-slate-400 bg-slate-100 rounded px-2 py-1 mt-0.5 whitespace-nowrap">
+              {study.pmid ? `PMID ${study.pmid}` : study.year.toString()}
+            </span>
             <div>
               <p class="text-sm font-semibold text-slate-800 group-hover:text-teal-700 mb-1">{study.title}</p>
               <p class="text-xs text-slate-500 mb-2">{study.authors} · {study.journal} · {study.year}</p>
