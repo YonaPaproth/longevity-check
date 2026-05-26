@@ -1,0 +1,323 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LegalNotice from '../components/LegalNotice.astro';
+
+const faqs = [
+  {
+    question: 'Welche Supplemente brauchen Veganer wirklich?',
+    answer: 'Bei veganer Ernährung sind bestimmte Nährstoffe schwieriger über die Nahrung zu decken — vor allem Vitamin B12, das ausschließlich in tierischen Produkten vorkommt. Darüber hinaus können Jod, Omega-3-Fettsäuren (DHA/EPA), Eisen, Calcium und Vitamin D je nach individueller Ernährungsweise und Lebensstil relevant sein. Ob im Einzelfall ein Supplementierungsbedarf besteht, lässt sich am sichersten über einen Bluttest klären. MikroScore hilft dir, Produkte nach Formulierungsqualität und Transparenz zu vergleichen — keine medizinische Empfehlung.',
+  },
+  {
+    question: 'Ist Vitamin B12 für Veganer notwendig?',
+    answer: 'Vitamin B12 kommt in nennenswerten Mengen ausschließlich in tierischen Lebensmitteln vor. Bei vollständig veganer Ernährung kann eine ausreichende Versorgung über die Nahrung allein in der Regel nicht sichergestellt werden. Fachgesellschaften wie die DGE empfehlen in diesem Fall eine regelmäßige Supplementierung. Empfehlenswert ist es, den Spiegel über den sensitiven Marker Holotranscobalamin labordiagnostisch abklären zu lassen.',
+  },
+  {
+    question: 'Brauchen Veganer Jod als Supplement?',
+    answer: 'Jod kommt in pflanzlichen Lebensmitteln oft nur in geringen Mengen vor — mit Ausnahme von Meeresalgen, deren Jodgehalt stark schwankt. Wer kein jodiertes Speisesalz verwendet und keine Milchprodukte konsumiert, hat ein erhöhtes Risiko für eine unzureichende Jodzufuhr. Eine Supplementierung kann sinnvoll sein, sollte bei Schilddrüsenerkrankungen aber ärztlich abgeklärt werden. Bei Algenpräparaten ist die Dosierung besonders zu beachten.',
+  },
+  {
+    question: 'Ist Algenöl sinnvoll als Omega-3-Quelle?',
+    answer: 'Die langkettigen Omega-3-Fettsäuren DHA und EPA sind vor allem in fettem Fisch enthalten. Pflanzliche Quellen wie Leinöl liefern nur ALA, das der Körper nur in sehr geringem Maß in DHA und EPA umwandeln kann. Algenöl enthält DHA und EPA direkt — als die Quelle, aus der auch Fische ihre Omega-3-Fettsäuren beziehen. Es gilt als gut verträgliche vegane Alternative. Der Omega-3-Index (Vollbluttest) ermöglicht eine individuelle Einschätzung der Versorgungslage.',
+  },
+  {
+    question: 'Sollte man Eisen vegan supplementieren?',
+    answer: 'Pflanzliches Non-Häm-Eisen wird vom Körper schlechter aufgenommen als tierisches Häm-Eisen. Gleichzeitig können Hülsenfrüchte und Vollkornprodukte durch ihren Phytatgehalt die Eisenaufnahme hemmen. Veganer sollten daher ihren Eisenstatus (Ferritin) regelmäßig kontrollieren lassen. Eine Supplementierung ist nur bei nachgewiesenem Bedarf sinnvoll — zu hohe Eisenwerte können ebenfalls schädlich sein. Eisenbisglycinat gilt als gut verträgliche Form.',
+  },
+  {
+    question: 'Wie erkenne ich ein qualitativ hochwertiges veganes Supplement?',
+    answer: 'Ein hochwertiges Supplement deklariert Wirkstoffform und Dosierung klar auf dem Etikett. Es enthält keine unnötigen Füllstoffe und verwendet gut bioverfügbare Formen (z. B. Methylcobalamin statt Cyanocobalamin, Eisenbisglycinat statt Eisensulfat). Ein Zertifikat über eine unabhängige Laboranalyse (COA) ist ein weiteres Qualitätsmerkmal. MikroScore bewertet Produkte nach genau diesen Kriterien — nicht nach medizinischem Nutzen.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(item => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+};
+
+const nutrients = [
+  {
+    name: 'Vitamin B12',
+    icon: '🔴',
+    relevanz: 'Kommt ausschließlich in tierischen Produkten vor — bei veganer Ernährung in der Regel supplementierungsbedürftig.',
+    form: 'Methylcobalamin oder Adenosylcobalamin',
+    hinweis: 'Spiegel über Holotranscobalamin messen lassen',
+    link: '/wirkstoffe/vitamin-b12',
+    primary: true,
+  },
+  {
+    name: 'Jod',
+    icon: '🟡',
+    relevanz: 'Pflanzliche Ernährung liefert oft wenig Jod — abhängig von Salzwahl und Meeresfrüchtekonsum.',
+    form: 'Jodiertes Speisesalz oder Algenpräparate (Dosierung beachten)',
+    hinweis: 'Schilddrüsenfunktion beachten',
+    link: '/wirkstoffe/jod',
+    primary: true,
+  },
+  {
+    name: 'Omega-3 (DHA/EPA)',
+    icon: '🐟',
+    relevanz: 'EPA und DHA kommen fast ausschließlich in Fisch vor — pflanzliche ALA-Quellen (Leinöl) werden kaum umgewandelt.',
+    form: 'Algenöl (direkte DHA/EPA-Quelle, ohne Fisch)',
+    hinweis: 'Omega-3-Index messbar (Vollbluttest)',
+    link: '/wirkstoffe/omega-3',
+    primary: true,
+  },
+  {
+    name: 'Eisen',
+    icon: '🟤',
+    relevanz: 'Pflanzliches Non-Häm-Eisen wird schlechter aufgenommen als tierisches Häm-Eisen.',
+    form: 'Eisenbisglycinat (gut verträglich)',
+    hinweis: 'Nur nach Ferritin-Bluttest supplementieren — zu viel Eisen ist schädlich',
+    link: '/wirkstoffe/eisen',
+    primary: true,
+  },
+  {
+    name: 'Calcium',
+    icon: '🦴',
+    relevanz: 'Ohne Milchprodukte hängt die Calciumversorgung stark von der Lebensmittelwahl ab.',
+    form: 'Calciumcitrat oder -carbonat; angereicherte Pflanzenmilch',
+    hinweis: 'Kombination mit Vitamin D für die Aufnahme relevant',
+    link: '/wirkstoffe/calcium',
+    primary: true,
+  },
+  {
+    name: 'Vitamin D',
+    icon: '☀️',
+    relevanz: 'Unabhängig von der Ernährungsweise — Sonnenexposition ist entscheidend.',
+    form: 'Vitamin D3 aus Flechten (vegan) + K2 MK-7',
+    hinweis: '25-OH-Vitamin D im Blut messen lassen',
+    link: '/wirkstoffe/vitamin-d3-k2',
+    primary: true,
+  },
+  {
+    name: 'Zink',
+    icon: '⚙️',
+    relevanz: 'Phytate in Hülsenfrüchten können die Zinkaufnahme hemmen.',
+    form: 'Zinkbisglycinat; Hülsenfrüchte durch Einweichen entphytieren',
+    hinweis: 'Zinkstatus bei Bedarf labordiagnostisch abklären',
+    link: '/wirkstoffe/zink',
+    primary: false,
+  },
+  {
+    name: 'Selen',
+    icon: '🌰',
+    relevanz: 'Selengehalt in Pflanzen stark bodenabhängig — europäische Böden oft selenarm.',
+    form: '1–2 Paranüsse/Tag oder Natriumselenit/Selenomethionin',
+    hinweis: 'Selengehalt im Vollblut messbar',
+    link: '/wirkstoffe/selen',
+    primary: false,
+  },
+  {
+    name: 'Cholin',
+    icon: '🥚',
+    relevanz: 'Hauptquelle ist Eigelb — bei veganer Ernährung schwer über die Nahrung zu decken.',
+    form: 'Cholinbitartrat oder CDP-Cholin',
+    hinweis: 'Besonders relevant in der Schwangerschaft',
+    link: '/wirkstoffe/cholin',
+    primary: false,
+  },
+];
+
+const checklist = [
+  'Aktive Form und Dosierung angegeben',
+  'Transparente Deklaration aller Zutaten',
+  'Keine unnötigen Füllstoffe / Zusatzstoffe',
+  'Laboranalyse / Drittprüfung vorhanden (COA)',
+  'Preis pro Tagesdosis vergleichbar',
+  'Vegane Kapsel, Algenquelle, jodfreie Variante verfügbar',
+];
+---
+
+<BaseLayout
+  title="Vegan Supplement Check: B12, Jod, Omega-3 & mehr | MikroScore"
+  description="Welche Supplemente sind für vegane Ernährung wirklich relevant? Evidenzbasierter Überblick ohne Heilversprechen — B12, Jod, Omega-3 (Algenöl), Eisen, Calcium."
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <div class="max-w-3xl mx-auto px-4 py-12">
+
+    <!-- Hero -->
+    <div class="mb-8">
+      <p class="text-sm font-semibold text-teal-600 uppercase tracking-widest mb-3">Vegan Supplement Check</p>
+      <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+        Vegan Supplement Check: Was ist wirklich relevant?
+      </h1>
+      <p class="text-lg text-slate-600 mb-6">
+        B12, Jod, Omega-3, Eisen &amp; Calcium — evidenzbasierter Überblick für pflanzliche Ernährung
+      </p>
+      <a
+        href="/produkte"
+        class="inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors"
+      >
+        Vegan-relevante Produkte vergleichen
+      </a>
+    </div>
+
+    <div class="mb-10">
+      <LegalNotice>
+        MikroScore hilft beim Vergleich von Supplement-Etiketten und Wirkstoffen. Es ersetzt keine ärztliche Beratung oder labordiagnostische Untersuchung.
+      </LegalNotice>
+    </div>
+
+    <!-- Intro -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-slate-900 mb-4">
+        Warum Veganer Supplemente anders bewerten sollten
+      </h2>
+      <div class="space-y-4 text-slate-600 leading-7">
+        <p>
+          Pflanzliche Ernährung schließt bestimmte Nährstoffquellen vollständig oder weitgehend aus. Vitamin B12 kommt ausschließlich in tierischen Lebensmitteln vor, EPA und DHA fast nur in Fisch. Das bedeutet nicht automatisch einen Mangel — aber es verschiebt die Wahrscheinlichkeiten.
+        </p>
+        <p>
+          Hinzu kommt, dass nicht alle Nährstoffe aus pflanzlichen Quellen gleich bioverfügbar sind. Nicht-Häm-Eisen aus Hülsenfrüchten wird deutlich schlechter aufgenommen als Häm-Eisen aus Fleisch. Phytate in Getreide und Hülsenfrüchten können die Aufnahme von Zink und Eisen zusätzlich hemmen.
+        </p>
+        <p>
+          MikroScore bewertet Produkte nach Formulierungsqualität, Transparenz der Deklaration und Preis-Leistungs-Verhältnis — nicht nach medizinischem Nutzen. Ob im Einzelfall Bedarf besteht, lässt sich am zuverlässigsten über labordiagnostische Untersuchungen klären.
+        </p>
+      </div>
+    </section>
+
+    <!-- Primary Nutrient Cards -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-slate-900 mb-6">Häufig relevante Nährstoffe</h2>
+      <div class="grid gap-4 sm:grid-cols-2">
+        {nutrients.filter(n => n.primary).map(n => (
+          <div class="bg-white border border-slate-200 rounded-2xl p-5 flex flex-col gap-3">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">{n.icon}</span>
+              <h3 class="font-bold text-slate-900">{n.name}</h3>
+            </div>
+            <p class="text-sm text-slate-600">{n.relevanz}</p>
+            <div class="text-sm space-y-1">
+              <p class="text-slate-500"><span class="font-medium text-slate-700">Vegane Form:</span> {n.form}</p>
+              <p class="text-slate-500"><span class="font-medium text-slate-700">Hinweis:</span> {n.hinweis}</p>
+            </div>
+            <a
+              href={n.link}
+              class="mt-auto text-sm font-medium text-teal-600 hover:text-teal-700 hover:underline"
+            >
+              Zum Wirkstoff-Dossier →
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Secondary Nutrient Cards -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-slate-900 mb-2">Weitere Nährstoffe im Blick behalten</h2>
+      <p class="text-sm text-slate-500 mb-6">Weniger dringlich, aber je nach Ernährungsweise relevant.</p>
+      <div class="grid gap-4 sm:grid-cols-3">
+        {nutrients.filter(n => !n.primary).map(n => (
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 flex flex-col gap-3">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">{n.icon}</span>
+              <h3 class="font-semibold text-slate-900">{n.name}</h3>
+            </div>
+            <p class="text-sm text-slate-600">{n.relevanz}</p>
+            <div class="text-sm space-y-1">
+              <p class="text-slate-500"><span class="font-medium text-slate-700">Form:</span> {n.form}</p>
+              <p class="text-slate-500"><span class="font-medium text-slate-700">Hinweis:</span> {n.hinweis}</p>
+            </div>
+            <a
+              href={n.link}
+              class="mt-auto text-sm font-medium text-teal-600 hover:text-teal-700 hover:underline"
+            >
+              Zum Wirkstoff-Dossier →
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Checklist -->
+    <section class="mb-12">
+      <div class="bg-teal-50 border border-teal-200 rounded-2xl p-6 md:p-8">
+        <h2 class="text-xl font-bold text-slate-900 mb-2">Worauf beim Kauf achten</h2>
+        <p class="text-sm text-slate-500 mb-5">Eine einfache Checkliste — unabhängig vom Produkt.</p>
+        <ul class="space-y-3">
+          {checklist.map(item => (
+            <li class="flex items-start gap-3 text-sm text-slate-700">
+              <span class="text-teal-600 font-bold mt-0.5">✅</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <!-- Scoring Approach -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-slate-900 mb-4">Was MikroScore bewertet</h2>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div class="bg-white border border-slate-200 rounded-2xl p-5">
+          <p class="text-sm font-semibold text-slate-800 mb-2">Transparenz der Inhaltsstoffe</p>
+          <p class="text-sm text-slate-600">Werden Wirkstoffform und Dosierung klar angegeben? Sind alle Zutaten vollständig deklariert?</p>
+        </div>
+        <div class="bg-white border border-slate-200 rounded-2xl p-5">
+          <p class="text-sm font-semibold text-slate-800 mb-2">Formulierungsqualität</p>
+          <p class="text-sm text-slate-600">Werden gut bioverfügbare Wirkstoffformen eingesetzt? Ist die Dosierung fachlich vertretbar?</p>
+        </div>
+        <div class="bg-white border border-slate-200 rounded-2xl p-5">
+          <p class="text-sm font-semibold text-slate-800 mb-2">Preis-Leistungs-Verhältnis</p>
+          <p class="text-sm text-slate-600">Wie hoch sind die Kosten pro Tagesdosis im Vergleich zu ähnlichen Produkten?</p>
+        </div>
+        <div class="bg-white border border-slate-200 rounded-2xl p-5">
+          <p class="text-sm font-semibold text-slate-800 mb-2">Kein Nutzen-Ranking</p>
+          <p class="text-sm text-slate-600">MikroScore bewertet keine medizinischen Wirkversprechen. Die Bewertung basiert ausschließlich auf Etiketten-Kriterien.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-slate-900 mb-6">Häufige Fragen</h2>
+      <div class="space-y-4">
+        {faqs.map(faq => (
+          <details class="bg-white border border-slate-200 rounded-2xl group">
+            <summary class="cursor-pointer px-6 py-4 font-semibold text-slate-800 text-sm list-none flex items-center justify-between gap-4">
+              <span>{faq.question}</span>
+              <span class="text-slate-400 shrink-0 group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <div class="px-6 pb-5 text-sm text-slate-600 leading-7 border-t border-slate-100 pt-4">
+              {faq.answer}
+            </div>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <!-- CTA Bottom -->
+    <section class="bg-slate-50 border border-slate-200 rounded-2xl p-8 text-center">
+      <h2 class="text-lg font-bold text-slate-900 mb-2">Produkte nach Qualität vergleichen</h2>
+      <p class="text-sm text-slate-600 mb-6">
+        MikroScore bewertet vegane Supplemente nach Formulierung, Transparenz und Preis-Leistungs-Verhältnis.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a
+          href="/produkte"
+          class="inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors"
+        >
+          Vegan-relevante Produkte vergleichen
+        </a>
+        <a
+          href="/ernaehrungs-check"
+          class="inline-block bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold px-6 py-3 rounded-xl transition-colors"
+        >
+          Zum Ernährungs-Check
+        </a>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>
