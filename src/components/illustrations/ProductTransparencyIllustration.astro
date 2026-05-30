@@ -1,0 +1,88 @@
+---
+// Abstract product containers + comparison bars + certification checkmarks
+// Used on produkte detail page and produkte index page
+---
+<svg viewBox="0 0 640 120" class="w-full h-full" fill="none" aria-hidden="true">
+
+  <!-- === PRODUCT CONTAINERS (left, x 20–160) === -->
+  <!-- Capsule / bottle A -->
+  <rect x="28" y="24" width="38" height="72" rx="19" stroke="#0f766e" stroke-width="1.5" opacity="0.2"/>
+  <rect x="34" y="30" width="26" height="30" rx="13" fill="#0f766e" opacity="0.07"/>
+  <!-- Dose line marker -->
+  <line x1="28" y1="64" x2="66" y2="64" stroke="#0f766e" stroke-width="1" stroke-dasharray="3 2" opacity="0.18"/>
+  <!-- Label band -->
+  <rect x="30" y="56" width="36" height="16" rx="3" fill="#14b8a6" opacity="0.08" stroke="#14b8a6" stroke-width="1" opacity="0.14"/>
+
+  <!-- Capsule / bottle B (smaller, secondary) -->
+  <rect x="82" y="38" width="30" height="56" rx="15" stroke="#1e293b" stroke-width="1.3" opacity="0.14"/>
+  <rect x="87" y="44" width="20" height="22" rx="10" fill="#1e293b" opacity="0.06"/>
+  <!-- Label band -->
+  <rect x="84" y="62" width="26" height="14" rx="3" fill="#1e293b" opacity="0.06" stroke="#1e293b" stroke-width="1" opacity="0.1"/>
+
+  <!-- Capsule pill shapes floating -->
+  <ellipse cx="140" cy="34" rx="14" ry="6" stroke="#14b8a6" stroke-width="1.3" opacity="0.18" transform="rotate(-30 140 34)"/>
+  <ellipse cx="152" cy="82" rx="14" ry="6" stroke="#0f766e" stroke-width="1.3" opacity="0.16" transform="rotate(20 152 82)"/>
+
+  <!-- === COMPARISON BARS (center, x 200–410) === -->
+  <!-- Column headers -->
+  <rect x="218" y="14" width="56" height="8" rx="4" fill="#0f766e" opacity="0.12"/>
+  <rect x="284" y="14" width="56" height="8" rx="4" fill="#1e293b" opacity="0.08"/>
+  <rect x="350" y="14" width="50" height="8" rx="4" fill="#14b8a6" opacity="0.12"/>
+
+  <!-- Horizontal divider -->
+  <line x1="210" y1="28" x2="408" y2="28" stroke="#1e293b" stroke-width="1" opacity="0.08"/>
+
+  <!-- Row 1: Preis/Tag -->
+  <line x1="210" y1="40" x2="212" y2="40" stroke="#1e293b" stroke-width="1" opacity="0.1"/>
+  <rect x="218" y="35" width="44" height="10" rx="5" fill="#0f766e" opacity="0.2"/>
+  <rect x="284" y="35" width="32" height="10" rx="5" fill="#1e293b" opacity="0.12"/>
+  <rect x="350" y="35" width="50" height="10" rx="5" fill="#14b8a6" opacity="0.14"/>
+
+  <!-- Row 2: Qualität -->
+  <rect x="218" y="51" width="50" height="10" rx="5" fill="#0f766e" opacity="0.18"/>
+  <rect x="284" y="51" width="44" height="10" rx="5" fill="#1e293b" opacity="0.12"/>
+  <rect x="350" y="51" width="36" height="10" rx="5" fill="#14b8a6" opacity="0.12"/>
+
+  <!-- Row 3: Transparenz -->
+  <rect x="218" y="67" width="38" height="10" rx="5" fill="#0f766e" opacity="0.16"/>
+  <rect x="284" y="67" width="56" height="10" rx="5" fill="#1e293b" opacity="0.12"/>
+  <rect x="350" y="67" width="42" height="10" rx="5" fill="#14b8a6" opacity="0.12"/>
+
+  <!-- Row 4: Zertifizierung -->
+  <rect x="218" y="83" width="56" height="10" rx="5" fill="#0f766e" opacity="0.22"/>
+  <rect x="284" y="83" width="24" height="10" rx="5" fill="#1e293b" opacity="0.08"/>
+  <rect x="350" y="83" width="50" height="10" rx="5" fill="#14b8a6" opacity="0.1"/>
+
+  <!-- Row bottom line -->
+  <line x1="210" y1="100" x2="408" y2="100" stroke="#1e293b" stroke-width="1" opacity="0.06"/>
+
+  <!-- === CERTIFICATION + SCORE (right, x 440–620) === -->
+  <!-- Score ring -->
+  <circle cx="490" cy="56" r="32" stroke="#0f766e" stroke-width="1.5" opacity="0.16"/>
+  <circle cx="490" cy="56" r="24" stroke="#0f766e" stroke-width="1" opacity="0.1"/>
+  <!-- Score arc (partial, suggesting high score) -->
+  <path d="M 490 24 A 32 32 0 1 1 461 80" stroke="#0f766e" stroke-width="2.5" stroke-linecap="round" opacity="0.28"/>
+  <!-- Inner tick -->
+  <line x1="490" y1="40" x2="490" y2="48" stroke="#0f766e" stroke-width="1.4" opacity="0.2"/>
+
+  <!-- Certification checkmark badges -->
+  <rect x="530" y="22" width="80" height="20" rx="10" stroke="#0f766e" stroke-width="1.2" opacity="0.18"/>
+  <path d="M 543 32 l 4 4 7-8" stroke="#0f766e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+  <rect x="554" y="26" width="50" height="6" rx="3" fill="#0f766e" opacity="0.1"/>
+
+  <rect x="530" y="48" width="80" height="20" rx="10" stroke="#14b8a6" stroke-width="1.2" opacity="0.16"/>
+  <path d="M 543 58 l 4 4 7-8" stroke="#14b8a6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+  <rect x="554" y="52" width="44" height="6" rx="3" fill="#14b8a6" opacity="0.1"/>
+
+  <rect x="530" y="74" width="80" height="20" rx="10" stroke="#1e293b" stroke-width="1.2" opacity="0.12"/>
+  <line x1="543" y1="84" x2="553" y2="84" stroke="#1e293b" stroke-width="1.8" stroke-linecap="round" opacity="0.2"/>
+  <rect x="554" y="78" width="38" height="6" rx="3" fill="#1e293b" opacity="0.07"/>
+
+  <!-- === SEPARATOR DOTS === -->
+  <circle cx="184" cy="60" r="2" fill="#1e293b" opacity="0.08"/>
+  <circle cx="184" cy="52" r="2" fill="#1e293b" opacity="0.06"/>
+  <circle cx="184" cy="68" r="2" fill="#1e293b" opacity="0.06"/>
+  <circle cx="424" cy="60" r="2" fill="#1e293b" opacity="0.08"/>
+  <circle cx="424" cy="52" r="2" fill="#1e293b" opacity="0.06"/>
+  <circle cx="424" cy="68" r="2" fill="#1e293b" opacity="0.06"/>
+</svg>

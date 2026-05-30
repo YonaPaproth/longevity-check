@@ -1,0 +1,82 @@
+---
+// Molecule structure + stacked research papers + evidence hierarchy bars
+// Used on wirkstoffe detail page and wirkstoffe index page
+---
+<svg viewBox="0 0 640 120" class="w-full h-full" fill="none" aria-hidden="true">
+
+  <!-- === MOLECULE (left, ~x 30–170) === -->
+  <!-- Hexagon ring, center (88, 60) r≈28 -->
+  <polygon points="88,32 112,46 112,74 88,88 64,74 64,46"
+    stroke="#0f766e" stroke-width="1.5" opacity="0.22"/>
+  <!-- Aromatic inner circle -->
+  <circle cx="88" cy="60" r="14" stroke="#0f766e" stroke-width="1" opacity="0.14"/>
+
+  <!-- Bond: top -->
+  <line x1="88" y1="32" x2="88" y2="14" stroke="#0f766e" stroke-width="1.4" opacity="0.2"/>
+  <circle cx="88" cy="10" r="5" stroke="#0f766e" stroke-width="1.2" opacity="0.2"/>
+  <!-- Bond: top-right -->
+  <line x1="112" y1="46" x2="128" y2="32" stroke="#1e293b" stroke-width="1.4" opacity="0.14"/>
+  <circle cx="132" cy="28" r="5" stroke="#1e293b" stroke-width="1.2" opacity="0.14"/>
+  <!-- Bond: bottom-right -->
+  <line x1="112" y1="74" x2="128" y2="88" stroke="#14b8a6" stroke-width="1.4" opacity="0.2"/>
+  <circle cx="132" cy="92" r="5" stroke="#14b8a6" stroke-width="1.2" opacity="0.2"/>
+  <!-- Bond: bottom-left -->
+  <line x1="64" y1="74" x2="48" y2="88" stroke="#1e293b" stroke-width="1.4" opacity="0.14"/>
+  <circle cx="44" cy="92" r="5" stroke="#1e293b" stroke-width="1.2" opacity="0.14"/>
+  <!-- Bond: top-left -->
+  <line x1="64" y1="46" x2="48" y2="32" stroke="#0f766e" stroke-width="1.4" opacity="0.2"/>
+  <circle cx="44" cy="28" r="5" stroke="#0f766e" stroke-width="1.2" opacity="0.2"/>
+  <!-- Small H atoms label rects -->
+  <rect x="83" y="4" width="10" height="6" rx="3" fill="#0f766e" opacity="0.1"/>
+  <rect x="38" y="22" width="10" height="6" rx="3" fill="#1e293b" opacity="0.08"/>
+  <rect x="128" y="22" width="10" height="6" rx="3" fill="#1e293b" opacity="0.08"/>
+
+  <!-- === STACKED RESEARCH PAPERS (center, x 210–380) === -->
+  <!-- Back paper -->
+  <rect x="222" y="26" width="116" height="78" rx="7" fill="white" stroke="#1e293b" stroke-width="1.2" opacity="0.1"/>
+  <!-- Middle paper -->
+  <rect x="234" y="18" width="116" height="78" rx="7" fill="white" stroke="#1e293b" stroke-width="1.2" opacity="0.12"/>
+  <!-- Front paper (teal border) -->
+  <rect x="246" y="10" width="116" height="78" rx="7" fill="white" stroke="#0f766e" stroke-width="1.5" opacity="0.2"/>
+  <!-- Title line -->
+  <line x1="260" y1="26" x2="348" y2="26" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" opacity="0.22"/>
+  <!-- Text lines -->
+  <line x1="260" y1="40" x2="352" y2="40" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round" opacity="0.1"/>
+  <line x1="260" y1="50" x2="344" y2="50" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round" opacity="0.1"/>
+  <line x1="260" y1="60" x2="350" y2="60" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round" opacity="0.1"/>
+  <line x1="260" y1="70" x2="338" y2="70" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round" opacity="0.1"/>
+  <!-- PMID badge -->
+  <rect x="260" y="78" width="44" height="7" rx="3.5" fill="#0f766e" opacity="0.12"/>
+  <!-- DOI badge -->
+  <rect x="310" y="78" width="30" height="7" rx="3.5" fill="#14b8a6" opacity="0.1"/>
+
+  <!-- === EVIDENCE HIERARCHY BARS (right, x 430–620) === -->
+  <!-- Vertical axis -->
+  <line x1="438" y1="14" x2="438" y2="106" stroke="#1e293b" stroke-width="1" opacity="0.1"/>
+  <!-- Labels: dots on axis -->
+  <circle cx="438" cy="22" r="2.5" fill="#1e293b" opacity="0.12"/>
+  <circle cx="438" cy="42" r="2.5" fill="#1e293b" opacity="0.12"/>
+  <circle cx="438" cy="62" r="2.5" fill="#14b8a6" opacity="0.16"/>
+  <circle cx="438" cy="82" r="2.5" fill="#0f766e" opacity="0.22"/>
+  <circle cx="438" cy="100" r="2.5" fill="#0f766e" opacity="0.28"/>
+  <!-- Bars from narrow (top=weak) to wide (bottom=strong) -->
+  <rect x="444" y="17" width="32" height="10" rx="5" fill="#1e293b" opacity="0.08"/>
+  <rect x="444" y="37" width="58" height="10" rx="5" fill="#1e293b" opacity="0.1"/>
+  <rect x="444" y="57" width="88" height="10" rx="5" fill="#14b8a6" opacity="0.15"/>
+  <rect x="444" y="77" width="120" height="10" rx="5" fill="#0f766e" opacity="0.2"/>
+  <rect x="444" y="95" width="156" height="10" rx="5" fill="#0f766e" opacity="0.26"/>
+  <!-- Small label lines next to bars -->
+  <line x1="482" y1="22" x2="504" y2="22" stroke="#1e293b" stroke-width="1" opacity="0.12"/>
+  <line x1="508" y1="42" x2="524" y2="42" stroke="#1e293b" stroke-width="1" opacity="0.12"/>
+  <line x1="540" y1="62" x2="556" y2="62" stroke="#14b8a6" stroke-width="1" opacity="0.16"/>
+  <line x1="572" y1="82" x2="588" y2="82" stroke="#0f766e" stroke-width="1" opacity="0.2"/>
+  <line x1="608" y1="100" x2="622" y2="100" stroke="#0f766e" stroke-width="1.2" opacity="0.22"/>
+
+  <!-- === SEPARATOR DOTS === -->
+  <circle cx="190" cy="60" r="2" fill="#1e293b" opacity="0.08"/>
+  <circle cx="190" cy="52" r="2" fill="#1e293b" opacity="0.06"/>
+  <circle cx="190" cy="68" r="2" fill="#1e293b" opacity="0.06"/>
+  <circle cx="416" cy="60" r="2" fill="#1e293b" opacity="0.08"/>
+  <circle cx="416" cy="52" r="2" fill="#1e293b" opacity="0.06"/>
+  <circle cx="416" cy="68" r="2" fill="#1e293b" opacity="0.06"/>
+</svg>

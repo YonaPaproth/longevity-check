@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import VerdictBadge from '../../components/VerdictBadge.astro';
 import EvidenceBadge from '../../components/EvidenceBadge.astro';
+import ProductTransparencyIllustration from '../../components/illustrations/ProductTransparencyIllustration.astro';
 import { getCollection } from 'astro:content';
 import { compositeScore } from '../../utils/scoring';
 
@@ -69,8 +70,9 @@ const usedCategories = [...new Set(groups.map(g => g.category))];
           Redaktionell eingeordnet nach Evidenzlage des Wirkstoffs, Preis pro Tagesdosis, Produktqualität, Label-Transparenz und Drittanbieter-Tests.
           Pro Wirkstoff zeigen wir aktuell das bestbewertete Produkt — von dort kommst du in den Detailvergleich.
         </p>
-
-
+        <div class="w-full md:max-w-xl">
+          <ProductTransparencyIllustration />
+        </div>
       </div>
     </section>
 

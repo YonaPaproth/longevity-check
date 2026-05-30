@@ -1,0 +1,121 @@
+---
+// Pentagon radar chart + nutrient icons + risk assessment checklist
+// Used on the Ernährungs-Check page
+---
+<svg viewBox="0 0 640 120" class="w-full h-full" fill="none" aria-hidden="true">
+
+  <!-- === RADAR / SPIDER CHART (left-center, x 20–220) === -->
+  <!-- Outer pentagon (flat-top orientation, center ~108,62) -->
+  <polygon points="108,22 148,50 133,96 83,96 68,50"
+    stroke="#0f766e" stroke-width="1.4" opacity="0.18"/>
+  <!-- Middle pentagon -->
+  <polygon points="108,38 132,56 122,82 94,82 84,56"
+    stroke="#0f766e" stroke-width="1.1" opacity="0.12"/>
+  <!-- Inner pentagon -->
+  <polygon points="108,52 120,62 116,74 100,74 96,62"
+    stroke="#14b8a6" stroke-width="1" opacity="0.12"/>
+  <!-- Axis spokes -->
+  <line x1="108" y1="22" x2="108" y2="62" stroke="#1e293b" stroke-width="1" opacity="0.08"/>
+  <line x1="148" y1="50" x2="108" y2="62" stroke="#1e293b" stroke-width="1" opacity="0.08"/>
+  <line x1="133" y1="96" x2="108" y2="62" stroke="#1e293b" stroke-width="1" opacity="0.08"/>
+  <line x1="83" y1="96" x2="108" y2="62" stroke="#1e293b" stroke-width="1" opacity="0.08"/>
+  <line x1="68" y1="50" x2="108" y2="62" stroke="#1e293b" stroke-width="1" opacity="0.08"/>
+  <!-- Filled assessment area (irregular polygon = personal score) -->
+  <polygon points="108,30 140,54 126,88 90,88 76,52"
+    fill="#0f766e" opacity="0.06" stroke="#0f766e" stroke-width="1.4" opacity="0.18"/>
+  <!-- Data point dots -->
+  <circle cx="108" cy="30" r="3.5" fill="#0f766e" opacity="0.28"/>
+  <circle cx="140" cy="54" r="3.5" fill="#0f766e" opacity="0.28"/>
+  <circle cx="126" cy="88" r="3.5" fill="#14b8a6" opacity="0.28"/>
+  <circle cx="90" cy="88" r="3.5" fill="#14b8a6" opacity="0.28"/>
+  <circle cx="76" cy="52" r="3.5" fill="#0f766e" opacity="0.28"/>
+  <!-- Center point -->
+  <circle cx="108" cy="62" r="3" fill="#1e293b" opacity="0.12"/>
+
+  <!-- === NUTRIENT ICONS (center, x 240–420) === -->
+  <!-- 6 nutrient circles arranged in 2 rows of 3 -->
+  <!-- Row 1 -->
+  <!-- Vitamin D circle -->
+  <circle cx="268" cy="40" r="20" stroke="#0f766e" stroke-width="1.4" opacity="0.2"/>
+  <circle cx="268" cy="40" r="8" fill="#0f766e" opacity="0.1"/>
+  <!-- Sun rays -->
+  <line x1="268" y1="16" x2="268" y2="20" stroke="#0f766e" stroke-width="1.5" stroke-linecap="round" opacity="0.22"/>
+  <line x1="286" y1="22" x2="283" y2="25" stroke="#0f766e" stroke-width="1.5" stroke-linecap="round" opacity="0.18"/>
+  <line x1="292" y1="40" x2="288" y2="40" stroke="#0f766e" stroke-width="1.5" stroke-linecap="round" opacity="0.18"/>
+  <line x1="250" y1="22" x2="253" y2="25" stroke="#0f766e" stroke-width="1.5" stroke-linecap="round" opacity="0.18"/>
+  <line x1="244" y1="40" x2="248" y2="40" stroke="#0f766e" stroke-width="1.5" stroke-linecap="round" opacity="0.18"/>
+
+  <!-- Omega-3 circle -->
+  <circle cx="324" cy="40" r="20" stroke="#14b8a6" stroke-width="1.4" opacity="0.2"/>
+  <!-- Wave inside for omega-3 (fish/wave) -->
+  <path d="M 308 42 Q 316 34 324 42 Q 332 50 340 42" stroke="#14b8a6" stroke-width="1.6" stroke-linecap="round" opacity="0.28" fill="none"/>
+
+  <!-- Magnesium circle -->
+  <circle cx="380" cy="40" r="20" stroke="#1e293b" stroke-width="1.4" opacity="0.14"/>
+  <!-- Mg symbol lines -->
+  <line x1="370" y1="34" x2="370" y2="46" stroke="#1e293b" stroke-width="1.8" stroke-linecap="round" opacity="0.18"/>
+  <path d="M 370 34 L 380 42 L 390 34" stroke="#1e293b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.18" fill="none"/>
+  <line x1="390" y1="34" x2="390" y2="46" stroke="#1e293b" stroke-width="1.8" stroke-linecap="round" opacity="0.18"/>
+
+  <!-- Row 2 -->
+  <!-- Eisen circle -->
+  <circle cx="268" cy="86" r="20" stroke="#0f766e" stroke-width="1.4" opacity="0.18"/>
+  <circle cx="268" cy="86" r="6" stroke="#0f766e" stroke-width="1.2" opacity="0.14"/>
+  <line x1="268" y1="74" x2="268" y2="80" stroke="#0f766e" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
+  <line x1="268" y1="92" x2="268" y2="98" stroke="#0f766e" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
+  <line x1="256" y1="86" x2="262" y2="86" stroke="#0f766e" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
+  <line x1="274" y1="86" x2="280" y2="86" stroke="#0f766e" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
+
+  <!-- Zink circle -->
+  <circle cx="324" cy="86" r="20" stroke="#14b8a6" stroke-width="1.4" opacity="0.18"/>
+  <!-- Z-line for Zink -->
+  <path d="M 313 78 L 335 78 L 313 94 L 335 94" stroke="#14b8a6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.24" fill="none"/>
+
+  <!-- B12 circle -->
+  <circle cx="380" cy="86" r="20" stroke="#1e293b" stroke-width="1.4" opacity="0.14"/>
+  <!-- B12 text abstracted as lines -->
+  <line x1="370" y1="78" x2="370" y2="94" stroke="#1e293b" stroke-width="1.8" stroke-linecap="round" opacity="0.16"/>
+  <path d="M 370 78 Q 382 78 382 84 Q 382 90 370 90" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round" opacity="0.14" fill="none"/>
+
+  <!-- === RISK ASSESSMENT CHECKLIST (right, x 440–620) === -->
+  <!-- Section header line -->
+  <rect x="446" y="14" width="80" height="7" rx="3.5" fill="#0f766e" opacity="0.12"/>
+
+  <!-- Check item 1: OK -->
+  <rect x="446" y="30" width="170" height="16" rx="8" stroke="#0f766e" stroke-width="1.2" opacity="0.16"/>
+  <circle cx="458" cy="38" r="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1" opacity="0.7"/>
+  <path d="M 454 38 l 3 3 5-6" stroke="#16a34a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+  <rect x="470" y="34" width="96" height="5" rx="2.5" fill="#1e293b" opacity="0.09"/>
+  <rect x="470" y="41" width="68" height="4" rx="2" fill="#1e293b" opacity="0.06"/>
+
+  <!-- Check item 2: Warning -->
+  <rect x="446" y="52" width="170" height="16" rx="8" stroke="#d97706" stroke-width="1.2" opacity="0.2"/>
+  <circle cx="458" cy="60" r="6" fill="#fef3c7" stroke="#d97706" stroke-width="1" opacity="0.7"/>
+  <line x1="458" y1="56" x2="458" y2="61" stroke="#92400e" stroke-width="1.8" stroke-linecap="round" opacity="0.45"/>
+  <circle cx="458" cy="63.5" r="1.2" fill="#92400e" opacity="0.45"/>
+  <rect x="470" y="56" width="80" height="5" rx="2.5" fill="#1e293b" opacity="0.09"/>
+  <rect x="470" y="63" width="58" height="4" rx="2" fill="#1e293b" opacity="0.06"/>
+
+  <!-- Check item 3: Possible deficit -->
+  <rect x="446" y="74" width="170" height="16" rx="8" stroke="#d97706" stroke-width="1.2" opacity="0.2"/>
+  <circle cx="458" cy="82" r="6" fill="#fef3c7" stroke="#d97706" stroke-width="1" opacity="0.7"/>
+  <line x1="458" y1="78" x2="458" y2="83" stroke="#92400e" stroke-width="1.8" stroke-linecap="round" opacity="0.45"/>
+  <circle cx="458" cy="85.5" r="1.2" fill="#92400e" opacity="0.45"/>
+  <rect x="470" y="78" width="88" height="5" rx="2.5" fill="#1e293b" opacity="0.09"/>
+  <rect x="470" y="85" width="62" height="4" rx="2" fill="#1e293b" opacity="0.06"/>
+
+  <!-- Check item 4: OK -->
+  <rect x="446" y="96" width="170" height="16" rx="8" stroke="#0f766e" stroke-width="1.2" opacity="0.16"/>
+  <circle cx="458" cy="104" r="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1" opacity="0.7"/>
+  <path d="M 454 104 l 3 3 5-6" stroke="#16a34a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+  <rect x="470" y="100" width="74" height="5" rx="2.5" fill="#1e293b" opacity="0.09"/>
+  <rect x="470" y="107" width="52" height="4" rx="2" fill="#1e293b" opacity="0.06"/>
+
+  <!-- === SEPARATOR DOTS === -->
+  <circle cx="222" cy="62" r="2" fill="#1e293b" opacity="0.08"/>
+  <circle cx="222" cy="54" r="2" fill="#1e293b" opacity="0.06"/>
+  <circle cx="222" cy="70" r="2" fill="#1e293b" opacity="0.06"/>
+  <circle cx="430" cy="62" r="2" fill="#1e293b" opacity="0.08"/>
+  <circle cx="430" cy="54" r="2" fill="#1e293b" opacity="0.06"/>
+  <circle cx="430" cy="70" r="2" fill="#1e293b" opacity="0.06"/>
+</svg>

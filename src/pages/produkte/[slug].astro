@@ -4,6 +4,7 @@ import RatingBar from '../../components/RatingBar.astro';
 import VerdictBadge from '../../components/VerdictBadge.astro';
 import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import LegalNotice from '../../components/LegalNotice.astro';
+import ProductTransparencyIllustration from '../../components/illustrations/ProductTransparencyIllustration.astro';
 import { getCollection, render } from 'astro:content';
 import { compositeScore } from '../../utils/scoring';
 
@@ -136,6 +137,12 @@ const faqSchema = d.faq && d.faq.length > 0 ? {
       )}
       <span class="text-slate-600">{d.title}</span>
     </nav>
+
+    <!-- Illustration banner -->
+    <div class="rounded-2xl overflow-hidden border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-teal-50/40 mb-6 px-4 py-3">
+      <div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-1.5">Transparent supplement comparison</div>
+      <ProductTransparencyIllustration />
+    </div>
 
     <!-- Hero: image + key data -->
     <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-10">
