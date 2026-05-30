@@ -1,0 +1,212 @@
+{
+  "aliases": [
+    "Niacin",
+    "Nicotinsäure",
+    "Nicotinamid",
+    "Vitamin B3"
+  ],
+  "cacheVersion": 1,
+  "createdAt": "2026-05-30",
+  "dossier": {
+    "auditScore": 65,
+    "path": "src/content/ingredients/vitamin-b3.mdx",
+    "summary": "Vitamin B3 ist essenziell und Vorläufer von NAD+. Bei Mangel wichtig, hochdosierte Nicotinsäure hat aber Nebenwirkungen – gesundes Altern-Nutzen bei Gesunden ist unklar.",
+    "title": "Vitamin B3 (Niacin)",
+    "updatedAt": "2026-05-16"
+  },
+  "evidenceSummary": {
+    "confidence": "high",
+    "headline": "Niacin ist als essenzieller Nährstoff und NAD+-Vorstufe klar belegt. Pharmakologisch hochdosierte Nicotinsäure kann Blutfette beeinflussen, ist aber nebenwirkungsreich. Für Alterungsforschung- oder gesundes Altern-Effekte bei gesunden Erwachsenen gibt es keine überzeugende Evidenz.",
+    "level": 2,
+    "updatedAt": "2026-05-30"
+  },
+  "keyFindings": [
+    {
+      "claim": "Vitamin B3 (Niacin) — zentrales Studienfinding",
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "confidence": "high",
+      "effectSize": "",
+      "evidenceDomain": "human",
+      "id": "pmid-23676243-finding-1",
+      "includedInDossier": true,
+      "intervention": "",
+      "notes": "",
+      "pmid": "23676243",
+      "population": "",
+      "quality": "high",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "studyType": "systematic-review",
+      "studyTypeUnclear": false,
+      "year": 2013
+    },
+    {
+      "claim": "Vitamin B3 (Niacin) — zentrales Studienfinding",
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "confidence": "high",
+      "effectSize": "",
+      "evidenceDomain": "human",
+      "id": "pmid-25014686-finding-2",
+      "includedInDossier": true,
+      "intervention": "",
+      "notes": "",
+      "pmid": "25014686",
+      "population": "",
+      "quality": "medium",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "studyType": "rct",
+      "studyTypeUnclear": false,
+      "year": 2014
+    },
+    {
+      "claim": "Review zu Biochemie und Stoffwechsel",
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "confidence": "high",
+      "effectSize": "",
+      "evidenceDomain": "human",
+      "id": "pmid-18454811-finding-3",
+      "includedInDossier": true,
+      "intervention": "",
+      "notes": "",
+      "pmid": "18454811",
+      "population": "",
+      "quality": "high",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "studyType": "systematic-review",
+      "studyTypeUnclear": false,
+      "year": 2008
+    }
+  ],
+  "lastReviewed": "2026-05-30",
+  "lastSearchDate": "2026-05-30",
+  "newEvidence": [],
+  "openQuestions": [],
+  "priority": {
+    "business": "low",
+    "contentQuality": "medium",
+    "seo": "medium"
+  },
+  "productFactors": {
+    "forms": [],
+    "hasStructuredProductConsiderations": false,
+    "selectionNotes": []
+  },
+  "regulatory": {
+    "approvedClaims": [
+      "Hochdosisprodukte können jedoch regulatorisch und sicherheitsseitig anders zu bewerten sein als normale Nahrungsergänzung"
+    ],
+    "efsaCheckedAt": "2026-05-30",
+    "notes": "Für Niacin sind in der EU Health Claims zu Energiestoffwechsel, psychischer Funktion, Haut und Nervensystem zugelassen. Hochdosisprodukte können jedoch regulatorisch und sicherheitsseitig anders zu bewerten sein als normale Nahrungsergänzung.",
+    "rejectedClaims": [],
+    "wordingConstraints": [
+      "Keine krankheitsbezogenen Heilclaims formulieren"
+    ]
+  },
+  "reviewStatus": "bootstrap",
+  "reviewer": "build-research-cache",
+  "search": {
+    "clinicalTrialsQuery": "vitamin-b3",
+    "notes": "Bootstrap query placeholder; refine during refresh integration",
+    "pubmedQuery": "Vitamin B3 (Niacin) AND humans",
+    "sourcePolicy": {
+      "includeAnimalSelective": true,
+      "includeHumanRCTs": true,
+      "includeInVitroSelective": true,
+      "includeMetaAnalyses": true,
+      "includeObservational": true,
+      "includeSystematicReviews": true
+    }
+  },
+  "slug": "vitamin-b3",
+  "status": "active",
+  "studyFeed": [
+    {
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "detectedAt": "2026-05-30",
+      "doi": null,
+      "effectSummary": "Review: Niacin war mit Veränderungen verbunden Lipidmarker, klinischer Zusatznutzen in der modernen Statin-Ära ist aber begrenzt und Nebenwirkungen sind häufig",
+      "evidenceDomain": "human",
+      "id": "pmid-23676243",
+      "intervention": "",
+      "notes": "",
+      "outcomes": [],
+      "pmid": "23676243",
+      "population": "",
+      "quality": "high",
+      "relevance": "high",
+      "reviewedAt": "2026-05-30",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "status": "included",
+      "studyType": "systematic-review",
+      "studyTypeUnclear": false,
+      "summary": "Review: Niacin war mit Veränderungen verbunden Lipidmarker, klinischer Zusatznutzen in der modernen Statin-Ära ist aber begrenzt und Nebenwirkungen sind häufig.",
+      "title": "Niacin in cardiovascular disease: recent preclinical and clinical developments",
+      "year": 2013
+    },
+    {
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "detectedAt": "2026-05-30",
+      "doi": null,
+      "effectSummary": "Große Studie: Trotz günstiger Effekte auf HDL/Triglyceride kein überzeugender klinischer Vorteil, dafür mehr Nebenwirkungen",
+      "evidenceDomain": "human",
+      "id": "pmid-25014686",
+      "intervention": "",
+      "notes": "",
+      "outcomes": [],
+      "pmid": "25014686",
+      "population": "",
+      "quality": "medium",
+      "relevance": "high",
+      "reviewedAt": "2026-05-30",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "status": "included",
+      "studyType": "rct",
+      "studyTypeUnclear": false,
+      "summary": "Große Studie: Trotz günstiger Effekte auf HDL/Triglyceride kein überzeugender klinischer Vorteil, dafür mehr Nebenwirkungen.",
+      "title": "HPS2-THRIVE randomized placebo-controlled trial in 25,673 high-risk patients of ER niacin/laropiprant",
+      "year": 2014
+    },
+    {
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "detectedAt": "2026-05-30",
+      "doi": null,
+      "effectSummary": "Review zu Biochemie und Stoffwechsel: Niacin ist zentral für NAD/NADP und damit für Energie- und Redoxstoffwechsel",
+      "evidenceDomain": "human",
+      "id": "pmid-18454811",
+      "intervention": "",
+      "notes": "",
+      "outcomes": [],
+      "pmid": "18454811",
+      "population": "",
+      "quality": "high",
+      "relevance": "high",
+      "reviewedAt": "2026-05-30",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "status": "included",
+      "studyType": "systematic-review",
+      "studyTypeUnclear": false,
+      "summary": "Review zu Biochemie und Stoffwechsel: Niacin ist zentral für NAD/NADP und damit für Energie- und Redoxstoffwechsel.",
+      "title": "Niacin",
+      "year": 2008
+    }
+  ],
+  "triage": {
+    "evidenceChangeSeverity": "medium",
+    "flaggedForRewrite": false,
+    "needsReview": true,
+    "reviewPriority": "medium",
+    "rewriteReason": ""
+  },
+  "updatedAt": "2026-05-30"
+}

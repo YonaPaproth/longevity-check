@@ -1,0 +1,211 @@
+{
+  "aliases": [
+    "Potassium",
+    "Kaliumcitrat",
+    "Kaliumchlorid"
+  ],
+  "cacheVersion": 1,
+  "createdAt": "2026-05-30",
+  "dossier": {
+    "auditScore": 55,
+    "path": "src/content/ingredients/kalium.mdx",
+    "summary": "Kalium ist essenziell für Blutdruck, Nerven und Muskeln. Über Ernährung oft wichtiger als als Supplement – und bei Überdosierung potenziell riskant.",
+    "title": "Kalium",
+    "updatedAt": "2026-05-16"
+  },
+  "evidenceSummary": {
+    "confidence": "high",
+    "headline": "Kalium ist essenziell für Blutdruckregulation, Nervenleitung und Muskelkontraktion. Eine kaliumreiche Ernährung ist vergleichsweise gut untersucht mit kardiovaskulären Vorteilen assoziiert. Supplemente sind jedoch nicht für jeden geeignet und können bei Nierenproblemen gefährlich werden.",
+    "level": 1,
+    "updatedAt": "2026-05-30"
+  },
+  "keyFindings": [
+    {
+      "claim": "WHO-nahe Meta-Analyse",
+      "classificationConfidence": "low",
+      "comparator": "",
+      "confidence": "high",
+      "effectSize": "",
+      "evidenceDomain": "unknown",
+      "id": "pmid-23635871-finding-1",
+      "includedInDossier": true,
+      "intervention": "",
+      "notes": "Studientyp unklar; Finding nur mit reduziertem Vertrauen verwenden.",
+      "pmid": "23635871",
+      "population": "",
+      "quality": "low",
+      "riskOfBias": "high",
+      "sourceType": "PubMed",
+      "studyType": "other",
+      "studyTypeUnclear": true,
+      "year": 2013
+    },
+    {
+      "claim": "Die optimale Kaliumzufuhr hängt vom Kontext ab; Extreme sind nicht automatisch besser",
+      "classificationConfidence": "low",
+      "comparator": "",
+      "confidence": "high",
+      "effectSize": "",
+      "evidenceDomain": "unknown",
+      "id": "pmid-25159881-finding-2",
+      "includedInDossier": true,
+      "intervention": "",
+      "notes": "Studientyp unklar; Finding nur mit reduziertem Vertrauen verwenden.",
+      "pmid": "25159881",
+      "population": "",
+      "quality": "low",
+      "riskOfBias": "high",
+      "sourceType": "PubMed",
+      "studyType": "other",
+      "studyTypeUnclear": true,
+      "year": 2014
+    },
+    {
+      "claim": "Übersicht zu Nutzen und Risiken",
+      "classificationConfidence": "low",
+      "comparator": "",
+      "confidence": "high",
+      "effectSize": "",
+      "evidenceDomain": "unknown",
+      "id": "kalium-finding-3",
+      "includedInDossier": true,
+      "intervention": "",
+      "notes": "Studientyp unklar; Finding nur mit reduziertem Vertrauen verwenden.",
+      "pmid": null,
+      "population": "",
+      "quality": "low",
+      "riskOfBias": "high",
+      "sourceType": "Unknown",
+      "studyType": "other",
+      "studyTypeUnclear": true,
+      "year": 2022
+    }
+  ],
+  "lastReviewed": "2026-05-30",
+  "lastSearchDate": "2026-05-30",
+  "newEvidence": [],
+  "openQuestions": [],
+  "priority": {
+    "business": "low",
+    "contentQuality": "low",
+    "seo": "medium"
+  },
+  "productFactors": {
+    "forms": [],
+    "hasStructuredProductConsiderations": false,
+    "selectionNotes": []
+  },
+  "regulatory": {
+    "approvedClaims": [
+      "Für Kalium sind in der EU Claims zu normalem Blutdruck, Muskelfunktion und Nervensystem zugelassen"
+    ],
+    "efsaCheckedAt": "2026-05-30",
+    "notes": "Für Kalium sind in der EU Claims zu normalem Blutdruck, Muskelfunktion und Nervensystem zugelassen. Aufgrund möglicher Risiken ist Kalium regulatorisch und praktisch sensibler als viele andere Mineralstoffe.",
+    "rejectedClaims": [],
+    "wordingConstraints": [
+      "Keine krankheitsbezogenen Heilclaims formulieren"
+    ]
+  },
+  "reviewStatus": "bootstrap",
+  "reviewer": "build-research-cache",
+  "search": {
+    "clinicalTrialsQuery": "kalium",
+    "notes": "Bootstrap query placeholder; refine during refresh integration",
+    "pubmedQuery": "Kalium AND humans",
+    "sourcePolicy": {
+      "includeAnimalSelective": true,
+      "includeHumanRCTs": true,
+      "includeInVitroSelective": true,
+      "includeMetaAnalyses": true,
+      "includeObservational": true,
+      "includeSystematicReviews": true
+    }
+  },
+  "slug": "kalium",
+  "status": "active",
+  "studyFeed": [
+    {
+      "classificationConfidence": "low",
+      "comparator": "",
+      "detectedAt": "2026-05-30",
+      "doi": null,
+      "effectSummary": "WHO-nahe Meta-Analyse: Höhere Kaliumzufuhr war mit niedrigeren Werten verbunden Blutdruck, besonders bei Menschen mit Hypertonie",
+      "evidenceDomain": "unknown",
+      "id": "pmid-23635871",
+      "intervention": "",
+      "notes": "Studientyp konnte aus Titel/Finding nicht klar klassifiziert werden; Vertrauen und Prioritaet reduziert.",
+      "outcomes": [],
+      "pmid": "23635871",
+      "population": "",
+      "quality": "low",
+      "relevance": "low",
+      "reviewedAt": "2026-05-30",
+      "riskOfBias": "high",
+      "sourceType": "PubMed",
+      "status": "included",
+      "studyType": "other",
+      "studyTypeUnclear": true,
+      "summary": "WHO-nahe Meta-Analyse: Höhere Kaliumzufuhr war mit niedrigeren Werten verbunden Blutdruck, besonders bei Menschen mit Hypertonie.",
+      "title": "Increased potassium intake to reduce blood pressure and cardiovascular risk",
+      "year": 2013
+    },
+    {
+      "classificationConfidence": "low",
+      "comparator": "",
+      "detectedAt": "2026-05-30",
+      "doi": null,
+      "effectSummary": "Die optimale Kaliumzufuhr hängt vom Kontext ab; Extreme sind nicht automatisch besser",
+      "evidenceDomain": "unknown",
+      "id": "pmid-25159881",
+      "intervention": "",
+      "notes": "Studientyp konnte aus Titel/Finding nicht klar klassifiziert werden; Vertrauen und Prioritaet reduziert.",
+      "outcomes": [],
+      "pmid": "25159881",
+      "population": "",
+      "quality": "low",
+      "relevance": "low",
+      "reviewedAt": "2026-05-30",
+      "riskOfBias": "high",
+      "sourceType": "PubMed",
+      "status": "included",
+      "studyType": "other",
+      "studyTypeUnclear": true,
+      "summary": "Die optimale Kaliumzufuhr hängt vom Kontext ab; Extreme sind nicht automatisch besser.",
+      "title": "Potassium intake and all-cause mortality",
+      "year": 2014
+    },
+    {
+      "classificationConfidence": "low",
+      "comparator": "",
+      "detectedAt": "2026-05-30",
+      "doi": null,
+      "effectSummary": "Übersicht zu Nutzen und Risiken",
+      "evidenceDomain": "unknown",
+      "id": "kalium-study-3",
+      "intervention": "",
+      "notes": "Studientyp konnte aus Titel/Finding nicht klar klassifiziert werden; Vertrauen und Prioritaet reduziert.",
+      "outcomes": [],
+      "pmid": null,
+      "population": "",
+      "quality": "low",
+      "relevance": "low",
+      "reviewedAt": "2026-05-30",
+      "riskOfBias": "high",
+      "sourceType": "Unknown",
+      "status": "included",
+      "studyType": "other",
+      "studyTypeUnclear": true,
+      "summary": "Übersicht zu Nutzen und Risiken. Problematisch vor allem bei Nierenerkrankungen oder bestimmten Medikamenten.",
+      "title": "Potassium",
+      "year": 2022
+    }
+  ],
+  "triage": {
+    "evidenceChangeSeverity": "medium",
+    "flaggedForRewrite": false,
+    "needsReview": true,
+    "reviewPriority": "high",
+    "rewriteReason": "Mindestens ein key_study-Eintrag hat keinen klaren Studientyp und sollte reviewt werden."
+  },
+  "updatedAt": "2026-05-30"
+}

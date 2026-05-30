@@ -1,0 +1,49 @@
+{
+  "cacheVersion": 1,
+  "generatedAt": "2026-05-30",
+  "totalSlugs": 3,
+  "items": [
+    {
+      "slug": "omega-3",
+      "title": "Omega-3 (EPA + DHA)",
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-05-30",
+      "lastSearchDate": "2026-05-30",
+      "auditScore": 100,
+      "evidenceLevel": 1,
+      "seoPriority": "high",
+      "needsReview": false,
+      "flaggedForRewrite": false,
+      "evidenceChangeSeverity": "medium",
+      "reviewPriority": "high"
+    },
+    {
+      "slug": "vitamin-d3",
+      "title": "Vitamin D3",
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-05-30",
+      "lastSearchDate": "2026-05-30",
+      "auditScore": 100,
+      "evidenceLevel": 1,
+      "seoPriority": "high",
+      "needsReview": false,
+      "flaggedForRewrite": false,
+      "evidenceChangeSeverity": "medium",
+      "reviewPriority": "high"
+    },
+    {
+      "slug": "magnesium",
+      "title": "Magnesium",
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-05-30",
+      "lastSearchDate": "2026-05-30",
+      "auditScore": 100,
+      "evidenceLevel": 1,
+      "seoPriority": "high",
+      "needsReview": false,
+      "flaggedForRewrite": false,
+      "evidenceChangeSeverity": "medium",
+      "reviewPriority": "high"
+    }
+  ]
+}

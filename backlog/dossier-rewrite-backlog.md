@@ -1,6 +1,6 @@
 # Dossier Rewrite Backlog
 
-Stand: 2026-05-26 | Generiert via `scripts/audit-dossiers.cjs`
+Stand: 2026-05-26 | Generiert via `scripts/audit-dossiers.cjs --backlog`
 
 **Qualitätsziel:** Score ≥ 85 (Note A) mit mind. 800 Wörtern, konkreten Effektgrößen, ehrlichen Limitierungen, aktuellem updatedAt.
 
@@ -10,16 +10,10 @@ Stand: 2026-05-26 | Generiert via `scripts/audit-dossiers.cjs`
 
 | Prio | Score | Wörter | Slug | Hauptprobleme |
 |------|-------|--------|------|---------------|
-| P0-1 | 60 | 202 | `omega-3` | Zu kurz, keine Zahlen, kein Limitation — großes SEO-Thema |
-| P0-2 | 60 | 45 | `vitamin-d3` | Zu kurz, keine Zahlen — sehr hohe Suchanfragen |
-| P0-3 | 55 | 55 | `glutathion` | Zu kurz, keine Zahlen, keine Limitierungen |
-| P0-4 | 60 | 51 | `l-theanin` | Zu kurz, keine Zahlen, keine Limitierungen |
-| P0-5 | 60 | 271 | `zink` | Zu kurz, keine Zahlen — wichtiger Basis-Nährstoff |
-| P0-6 | 70 | 160 | `magnesium` | Zu kurz, keine Limitierungen — sehr hohe Suchanfragen |
-| P0-7 | 70 | 187 | `coq10` | Zu kurz, keine Zahlen |
-| P0-8 | 70 | 156 | `vitamin-d3-k2` | Zu kurz, keine Zahlen |
-| P0-9 | 60 | 221 | `quercetin` | Zu kurz, schwache Evidenz, keine Zahlen |
-| P0-10 | 80 | 320 | `vitamin-b12` | Zu kurz — kritischer Nährstoff für Veganer |
+| P0-1 | 55 | 98 | `cholin` | Zu kurz: 98w, Keine konkreten Zahlen, Keine Limitierungen |
+| P0-2 | 55 | 55 | `l-theanin` | Zu kurz: 55w, Keine konkreten Zahlen, Keine Limitierungen |
+| P0-3 | 55 | 237 | `quercetin` | Zu kurz: 237w, Schwache Evidenz (L4), Keine konkreten Zahlen |
+| P0-4 | 60 | 58 | `glutathion` | Zu kurz: 58w, Keine konkreten Zahlen, Kein EFSA-Link |
 
 ---
 
@@ -27,42 +21,53 @@ Stand: 2026-05-26 | Generiert via `scripts/audit-dossiers.cjs`
 
 | Prio | Score | Wörter | Slug | Hauptprobleme |
 |------|-------|--------|------|---------------|
-| P1-1 | 65 | 275 | `fisetin` | Zu kurz, keine Zahlen |
-| P1-2 | 65 | 263 | `lion-s-mane` | Zu kurz, keine Zahlen |
-| P1-3 | 65 | 201 | `resveratrol` | Zu kurz, keine Limitierungen |
-| P1-4 | 65 | 209 | `spermidine` | Zu kurz, keine Zahlen |
-| P1-5 | 70 | 264 | `alpha-liponsaeure` | Zu kurz, keine Zahlen |
-| P1-6 | 70 | 227 | `kollagen` | Zu kurz, keine Zahlen |
-| P1-7 | 70 | 472 | `kreatin` | Zu kurz, keine Zahlen — großes SEO-Thema |
-| P1-8 | 70 | 348 | `probiotika` | Zu kurz, keine Zahlen |
-| P1-9 | 70 | 254 | `rhodiola` | Zu kurz, keine Zahlen |
-| P1-10 | 70 | 292 | `selen` | Zu kurz, keine Zahlen |
-| P1-11 | 70 | 295 | `taurin` | Zu kurz, keine Limitierungen |
-| P1-12 | 80 | 243 | `ashwagandha` | Zu kurz |
-| P1-13 | 80 | 272 | `curcumin` | Zu kurz |
-| P1-14 | 80 | 211 | `nr` | Zu kurz |
-| P1-15 | 80 | 284 | `melatonin` | Zu kurz |
-| P1-16 | 80 | 268 | `nac` | Zu kurz |
-| P1-17 | 80 | 249 | `glycin` | Zu kurz |
+| P1-1 | 65 | 150 | `calcium` | Zu kurz: 150w, Keine konkreten Zahlen, Kein EFSA-Link |
+| P1-2 | 65 | 172 | `eisen` | Zu kurz: 172w, Keine konkreten Zahlen, Kein EFSA-Link |
+| P1-3 | 70 | 365 | `apigenin` | Zu kurz: 365w, Kein EFSA-Link |
+| P1-4 | 70 | 302 | `astaxanthin` | Zu kurz: 302w, Kein EFSA-Link |
+| P1-5 | 70 | 314 | `fisetin` | Zu kurz: 314w, Kein EFSA-Link |
+| P1-6 | 70 | 289 | `lion-s-mane` | Zu kurz: 289w, Kein EFSA-Link |
+| P1-7 | 70 | 218 | `resveratrol` | Zu kurz: 218w, Kein EFSA-Link |
+| P1-8 | 70 | 230 | `spermidine` | Zu kurz: 230w, Kein EFSA-Link |
+| P1-9 | 75 | 295 | `alpha-liponsaeure` | Zu kurz: 295w, Kein EFSA-Link |
+| P1-10 | 75 | 263 | `ashwagandha` | Zu kurz: 263w, Kein EFSA-Link |
+| P1-11 | 75 | 213 | `berberine` | Zu kurz: 213w, Kein EFSA-Link |
+| P1-12 | 75 | 208 | `coq10` | Zu kurz: 208w, Kein EFSA-Link |
+| P1-13 | 75 | 302 | `curcumin` | Zu kurz: 302w, Kein EFSA-Link |
+| P1-14 | 75 | 334 | `folsaeure` | Zu kurz: 334w, Kein EFSA-Link |
+| P1-15 | 75 | 286 | `glycin` | Zu kurz: 286w, Kein EFSA-Link |
+| P1-16 | 75 | 367 | `jod` | Zu kurz: 367w, Kein EFSA-Link |
+| P1-17 | 75 | 269 | `kollagen` | Zu kurz: 269w, Kein EFSA-Link |
+| P1-18 | 75 | 197 | `magnesium` | Zu kurz: 197w, Kein EFSA-Link |
+| P1-19 | 75 | 319 | `melatonin` | Zu kurz: 319w, Kein EFSA-Link |
+| P1-20 | 75 | 296 | `nac` | Zu kurz: 296w, Kein EFSA-Link |
+| P1-21 | 75 | 267 | `nr` | Zu kurz: 267w, Kein EFSA-Link |
+| P1-22 | 75 | 223 | `omega-3` | Zu kurz: 223w, Kein EFSA-Link |
+| P1-23 | 75 | 383 | `probiotika` | Zu kurz: 383w, Kein EFSA-Link |
+| P1-24 | 75 | 298 | `rhodiola` | Zu kurz: 298w, Kein EFSA-Link |
+| P1-25 | 75 | 342 | `selen` | Zu kurz: 342w, Kein EFSA-Link |
+| P1-26 | 75 | 335 | `taurin` | Zu kurz: 335w, Kein EFSA-Link |
+| P1-27 | 75 | 386 | `vitamin-b12` | Zu kurz: 386w, Kein EFSA-Link |
+| P1-28 | 75 | 379 | `vitamin-c` | Zu kurz: 379w, Kein EFSA-Link |
+| P1-29 | 75 | 186 | `vitamin-d3-k2` | Zu kurz: 186w, Kein EFSA-Link |
+| P1-30 | 75 | 51 | `vitamin-d3` | Zu kurz: 51w, Kein EFSA-Link |
+| P1-31 | 75 | 346 | `vitamin-e` | Zu kurz: 346w, Kein EFSA-Link |
+| P1-32 | 75 | 305 | `vitamin-k2` | Zu kurz: 305w, Kein EFSA-Link |
+| P1-33 | 75 | 327 | `zink` | Zu kurz: 327w, Kein EFSA-Link |
 
 ---
 
-## 🟠 P2 — Normalprio (wichtige Nährstoffe mit schlechter Qualität)
+## 🟠 P2 — Normalprio (hohe Prio, ordentliche Basis)
 
 | Prio | Score | Wörter | Slug | Hauptprobleme |
 |------|-------|--------|------|---------------|
-| P2-1 | 60 | 155 | `eisen` | Zu kurz, keine Zahlen — relevant für Veganer |
-| P2-2 | 60 | 131 | `calcium` | Zu kurz, keine Zahlen |
-| P2-3 | 60 | 86 | `cholin` | Zu kurz, keine Zahlen |
-| P2-4 | 65 | 327 | `apigenin` | Zu kurz, keine Zahlen |
-| P2-5 | 65 | 271 | `astaxanthin` | Zu kurz, keine Zahlen |
-| P2-6 | 70 | 248 | `vitamin-k2` | Zu kurz, keine Zahlen |
-| P2-7 | 70 | 320 | `jod` | Zu kurz, keine Zahlen |
-| P2-8 | 70 | 190 | `berberine` | Zu kurz, keine Zahlen |
-| P2-9 | 80 | 330 | `vitamin-c` | Zu kurz |
-| P2-10 | 80 | 255 | `egcg` | Zu kurz |
-| P2-11 | 80 | 292 | `folsaeure` | Zu kurz |
-| P2-12 | 80 | 293 | `vitamin-e` | Zu kurz |
+| P2-1 | 85 | 676 | `beta-alanin` | Nur 676w, Kein EFSA-Link |
+| P2-2 | 85 | 530 | `kreatin` | Nur 530w, Kein EFSA-Link |
+| P2-3 | 85 | 331 | `nmn` | Zu kurz: 331w, Kein EFSA-Link |
+| P2-4 | 85 | 263 | `urolithin-a` | Zu kurz: 263w, Kein EFSA-Link |
+| P2-5 | 95 | 612 | `l-citrullin` | Nur 612w, Kein EFSA-Link |
+| P2-6 | 105 | 1150 | `hyaluronsaeure` | Kein EFSA-Link |
+| P2-7 | 110 | 980 | `koffein` | — |
 
 ---
 
@@ -70,14 +75,16 @@ Stand: 2026-05-26 | Generiert via `scripts/audit-dossiers.cjs`
 
 | Score | Slug |
 |-------|------|
-| 110 | `hyaluronsaeure` ✅ |
-| 100 | `koffein` ✅ |
-| 100 | `l-citrullin` ✅ |
-| 90 | `beta-alanin` ✅ |
-| 90 | `nmn` ✅ |
-| 90 | `urolithin-a` ✅ |
-| 90 | `betain` ✅ |
-| 90 | `l-tyrosin` ✅ |
+| 85 | `beta-alanin` ✅ |
+| 85 | `kreatin` ✅ |
+| 85 | `nmn` ✅ |
+| 85 | `urolithin-a` ✅ |
+| 95 | `l-citrullin` ✅ |
+| 105 | `hyaluronsaeure` ✅ |
+| 110 | `koffein` ✅ |
+| 85 | `betain` ✅ |
+| 85 | `l-tyrosin` ✅ |
+| 85 | `lutein-zeaxanthin` ✅ |
 
 ---
 
@@ -85,9 +92,9 @@ Stand: 2026-05-26 | Generiert via `scripts/audit-dossiers.cjs`
 
 Für jeden Rewrite:
 1. PubMed-Digest laufen lassen → neue Studien checken
-2. Claude Code spawnen mit Prompt: "Rewrite [slug] mit mind. 800 Wörtern, konkreten Effektgrößen (SMD, %, mg), ehrlichen Limitierungen, EFSA-Status, updatedAt: 2026-XX-XX"
+2. Claude Code spawnen mit Prompt: "Rewrite [slug] mit mind. 800 Wörtern, konkreten Effektgrößen (SMD, %, mg), ehrlichen Limitierungen, EFSA-Status, updatedAt: 2026-05-XX"
 3. Legal-Check (bestehende Scripts)
 4. `pnpm build` → commit → push
-5. Score nach Rewrite mit `audit-dossiers.cjs` prüfen
+5. Score nach Rewrite mit `audit-dossiers.cjs --backlog` prüfen
 
 **Modell:** Claude Sonnet für Rewrites (Qualität > Kosten bei SEO-kritischen Seiten)

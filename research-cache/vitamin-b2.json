@@ -1,0 +1,211 @@
+{
+  "aliases": [
+    "Riboflavin",
+    "Vitamin B2",
+    "Lactoflavin"
+  ],
+  "cacheVersion": 1,
+  "createdAt": "2026-05-30",
+  "dossier": {
+    "auditScore": 65,
+    "path": "src/content/ingredients/vitamin-b2.mdx",
+    "summary": "Vitamin B2 ist essenziell für Energiestoffwechsel und antioxidative Enzyme. Wirklich interessant vor allem bei Mangel und möglicherweise zur Migräne-Prävention.",
+    "title": "Vitamin B2 (Riboflavin)",
+    "updatedAt": "2026-05-16"
+  },
+  "evidenceSummary": {
+    "confidence": "high",
+    "headline": "Riboflavin ist als essenzieller Nährstoff vergleichsweise gut untersucht. Darüber hinaus gibt es brauchbare Evidenz für hochdosiertes Riboflavin zur Migräneprophylaxe. Für allgemeine Alterungsforschung- oder Leistungs-Effekte bei gut versorgten Erwachsenen fehlen überzeugende Daten.",
+    "level": 2,
+    "updatedAt": "2026-05-30"
+  },
+  "keyFindings": [
+    {
+      "claim": "Vitamin B2 (Riboflavin) — zentrales Studienfinding",
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "confidence": "high",
+      "effectSize": "400 mg",
+      "evidenceDomain": "human",
+      "id": "pmid-9484373-finding-1",
+      "includedInDossier": true,
+      "intervention": "",
+      "notes": "",
+      "pmid": "9484373",
+      "population": "",
+      "quality": "medium",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "studyType": "rct",
+      "studyTypeUnclear": false,
+      "year": 1998
+    },
+    {
+      "claim": "Review zu Biochemie, Bedarf und Mangelsymptomen von Riboflavin",
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "confidence": "high",
+      "effectSize": "",
+      "evidenceDomain": "human",
+      "id": "pmid-12791609-finding-2",
+      "includedInDossier": true,
+      "intervention": "",
+      "notes": "",
+      "pmid": "12791609",
+      "population": "",
+      "quality": "high",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "studyType": "systematic-review",
+      "studyTypeUnclear": false,
+      "year": 2003
+    },
+    {
+      "claim": "Vitamin B2 (Riboflavin) — zentrales Studienfinding",
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "confidence": "high",
+      "effectSize": "",
+      "evidenceDomain": "human",
+      "id": "pmid-28273806-finding-3",
+      "includedInDossier": true,
+      "intervention": "",
+      "notes": "",
+      "pmid": "28273806",
+      "population": "",
+      "quality": "high",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "studyType": "systematic-review",
+      "studyTypeUnclear": false,
+      "year": 2017
+    }
+  ],
+  "lastReviewed": "2026-05-30",
+  "lastSearchDate": "2026-05-30",
+  "newEvidence": [],
+  "openQuestions": [],
+  "priority": {
+    "business": "low",
+    "contentQuality": "medium",
+    "seo": "medium"
+  },
+  "productFactors": {
+    "forms": [],
+    "hasStructuredProductConsiderations": false,
+    "selectionNotes": []
+  },
+  "regulatory": {
+    "approvedClaims": [
+      "Diese Claims betreffen die normale Funktion"
+    ],
+    "efsaCheckedAt": "2026-05-30",
+    "notes": "Für Riboflavin sind in der EU Health Claims zu Energiestoffwechsel, Nervensystem, roten Blutkörperchen, Haut, Sehkraft und Schutz vor oxidativem Stress zugelassen. Diese Claims betreffen die normale Funktion.",
+    "rejectedClaims": [],
+    "wordingConstraints": [
+      "Keine krankheitsbezogenen Heilclaims formulieren"
+    ]
+  },
+  "reviewStatus": "bootstrap",
+  "reviewer": "build-research-cache",
+  "search": {
+    "clinicalTrialsQuery": "vitamin-b2",
+    "notes": "Bootstrap query placeholder; refine during refresh integration",
+    "pubmedQuery": "Vitamin B2 (Riboflavin) AND humans",
+    "sourcePolicy": {
+      "includeAnimalSelective": true,
+      "includeHumanRCTs": true,
+      "includeInVitroSelective": true,
+      "includeMetaAnalyses": true,
+      "includeObservational": true,
+      "includeSystematicReviews": true
+    }
+  },
+  "slug": "vitamin-b2",
+  "status": "active",
+  "studyFeed": [
+    {
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "detectedAt": "2026-05-30",
+      "doi": null,
+      "effectSummary": "RCT: 400 mg Riboflavin pro Tag reduzierten Migräneattacken gegenüber Placebo",
+      "evidenceDomain": "human",
+      "id": "pmid-9484373",
+      "intervention": "",
+      "notes": "",
+      "outcomes": [],
+      "pmid": "9484373",
+      "population": "",
+      "quality": "medium",
+      "relevance": "high",
+      "reviewedAt": "2026-05-30",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "status": "included",
+      "studyType": "rct",
+      "studyTypeUnclear": false,
+      "summary": "RCT: 400 mg Riboflavin pro Tag reduzierten Migräneattacken gegenüber Placebo. Einer der bekanntesten klinischen Einsatzbereiche von hochdosiertem B2.",
+      "title": "Effectiveness of high-dose riboflavin in migraine prophylaxis",
+      "year": 1998
+    },
+    {
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "detectedAt": "2026-05-30",
+      "doi": null,
+      "effectSummary": "Review zu Biochemie, Bedarf und Mangelsymptomen von Riboflavin",
+      "evidenceDomain": "human",
+      "id": "pmid-12791609",
+      "intervention": "",
+      "notes": "",
+      "outcomes": [],
+      "pmid": "12791609",
+      "population": "",
+      "quality": "high",
+      "relevance": "high",
+      "reviewedAt": "2026-05-30",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "status": "included",
+      "studyType": "systematic-review",
+      "studyTypeUnclear": false,
+      "summary": "Review zu Biochemie, Bedarf und Mangelsymptomen von Riboflavin. B2 ist für Redoxreaktionen und Energiegewinnung essenziell.",
+      "title": "Riboflavin",
+      "year": 2003
+    },
+    {
+      "classificationConfidence": "medium",
+      "comparator": "",
+      "detectedAt": "2026-05-30",
+      "doi": null,
+      "effectSummary": "Review: Auch in Industrieländern kann ein suboptimaler B2-Status vorkommen, jedoch meist ohne dramatische klinische Symptome",
+      "evidenceDomain": "human",
+      "id": "pmid-28273806",
+      "intervention": "",
+      "notes": "",
+      "outcomes": [],
+      "pmid": "28273806",
+      "population": "",
+      "quality": "high",
+      "relevance": "high",
+      "reviewedAt": "2026-05-30",
+      "riskOfBias": "unknown",
+      "sourceType": "PubMed",
+      "status": "included",
+      "studyType": "systematic-review",
+      "studyTypeUnclear": false,
+      "summary": "Review: Auch in Industrieländern kann ein suboptimaler B2-Status vorkommen, jedoch meist ohne dramatische klinische Symptome.",
+      "title": "Riboflavin deficiency in the developed world",
+      "year": 2017
+    }
+  ],
+  "triage": {
+    "evidenceChangeSeverity": "medium",
+    "flaggedForRewrite": false,
+    "needsReview": true,
+    "reviewPriority": "medium",
+    "rewriteReason": ""
+  },
+  "updatedAt": "2026-05-30"
+}
