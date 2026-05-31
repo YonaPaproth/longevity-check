@@ -3,31 +3,54 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import EvidenceBadge from '../../components/EvidenceBadge.astro';
 import EvidenceResearchIllustration from '../../components/illustrations/EvidenceResearchIllustration.astro';
 import { getCollection } from 'astro:content';
+import { readFileSync } from 'fs';
 
+// Load KG data
+const indexData = JSON.parse(readFileSync('data/index.json', 'utf-8'));
+const symptoms = indexData.symptoms as string[];
+
+// Load all symptom entities + their relations
+const symptomData = symptoms.map(id => {
+  const entity = JSON.parse(readFileSync(`data/entities/symptoms/${id}.json`, 'utf-8'));
+  const rels = JSON.parse(readFileSync(`data/relations/by-entity/${id}.json`, 'utf-8'));
+  const ingredientIds = rels.relations
+    .filter((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.direction === 'incoming')
+    .map((r: any) => r.target);
+  return { ...entity, ingredientCount: ingredientIds.length, ingredientIds };
+}).sort((a, b) => b.ingredientCount - a.ingredientCount);
+
+// Load ingredient entities for display
 const ingredients = await getCollection('ingredients');
+const ingredientMap = new Map(ingredients.map(i => [i.data.slug, i.data]));
 
-const categoryLabels: Record<string, string> = {
-  'nad-precursors': 'NAD-Vorstufen',
-  'senolytics':     'Senolytika',
-  'antioxidants':   'Antioxidantien',
-  'adaptogens':     'Adaptogene',
-  'metabolic':      'Stoffwechsel',
-  'other':          'Weitere',
+const symptomLabels: Record<string, string> = {
+  'schlaf': '😴 Schlaf',
+  'energie': '⚡ Energie',
+  'kognition': '🧠 Kognition',
+  'immunsystem': '🛡️ Immunsystem',
+  'entzuendung': '🔥 Entzündung',
+  'blutdruck': '💓 Blutdruck',
+  'blutzucker': '🩸 Blutzucker',
+  'stress': '🧘 Stress',
+  'depression': '💭 Stimmung',
+  'herz-kreislauf': '❤️ Herz-Kreislauf',
+  'gelenke': '🦴 Gelenke',
+  'haut': '✨ Haut',
+  'muskel': '💪 Muskel',
+  'verdauung': '🫁 Verdauung',
+  'alterung': '⏳ Alterung',
+  'oxidativer-stress': '🔬 Oxidativer Stress',
+  'knochen': '🦷 Knochen',
+  'augen': '👁️ Augen',
+  'leber': '🫘 Leber',
+  'schilddruese': '🦋 Schilddrüse',
+  'fertilitat': '🌱 Fertilität',
+  'migraene': '🤕 Migräne',
+  'neuroprotektiv': '🧬 Neuroprotektiv',
 };
-
-const evidenceLabels: Record<string, string> = {
-  '1': 'Starke Evidenz',
-  '2': 'Moderate Evidenz',
-  '3': 'Schwache Evidenz',
-  '4': 'Nur Tierstudien',
-  '5': 'Keine Studien',
-};
-
-const categories = [...new Set(ingredients.map(i => i.data.category))].sort();
-const evidenceLevels = [...new Set(ingredients.map(i => i.data.evidenceLevel))].sort();
 ---
 
-<BaseLayout title="Wirkstoff-Dossiers" description="Alle Nahrungsergänzungsmittel im Überblick: NMN, Omega-3, Ashwagandha, Curcumin & 90+ Wirkstoffe – evidenzbasiert bewertet für Deutschland.">
+<BaseLayout title="Wirkstoff-Dossiers" description="Welche Nahrungsergänzungsmittel wurden in Studien auf welche Wirkung untersucht? 110 Wirkstoffe, sortiert nach Forschungsgebiet.">
   <div class="max-w-5xl mx-auto px-4 py-12">
 
     <!-- Header with illustration -->
@@ -41,7 +64,7 @@ const evidenceLevels = [...new Set(ingredients.map(i => i.data.evidenceLevel))].
               <h1 class="text-3xl font-bold text-slate-900">Wirkstoff-Dossiers</h1>
               <span class="text-sm text-slate-400">{ingredients.length} Wirkstoffe</span>
             </div>
-            <p class="text-slate-600 max-w-xl">Was sagen die Studien wirklich? Jedes Dossier mit Evidenzstufe, Sicherheitsbewertung und EU-Regulatorikstatus.</p>
+            <p class="text-slate-600 max-w-xl">Welche Wirkstoffe wurden in Studien auf welche Wirkung untersucht? Wähle ein Forschungsgebiet oder durchsuche alle Dossiers.</p>
           </div>
           <div class="w-full md:w-72 shrink-0">
             <EvidenceResearchIllustration />
@@ -50,184 +73,44 @@ const evidenceLevels = [...new Set(ingredients.map(i => i.data.evidenceLevel))].
       </div>
     </div>
 
-    <!-- Quick link: nach Forschungsgebiet -->
-    <a href="/wirkstoffe/nach-wirkung" class="group flex items-center justify-between bg-gradient-to-r from-teal-50 to-white border border-teal-200 rounded-xl px-5 py-4 mb-4 hover:border-teal-400 hover:shadow-sm transition-all">
+    <!-- Quick link: alle Wirkstoffe -->
+    <a href="/wirkstoffe/alle" class="group flex items-center justify-between bg-gradient-to-r from-slate-50 to-white border border-slate-200 rounded-xl px-5 py-4 mb-6 hover:border-teal-400 hover:shadow-sm transition-all">
       <div class="flex items-center gap-3">
-        <span class="text-xl">🔬</span>
+        <span class="text-xl">📋</span>
         <div>
-          <span class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">Wirkstoffe nach Forschungsgebiet</span>
-          <p class="text-sm text-slate-500">Schlaf, Kognition, Energie & 20 weitere — welche Wirkstoffe wurden worauf untersucht?</p>
+          <span class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">Alle {ingredients.length} Wirkstoffe durchsuchen</span>
+          <p class="text-sm text-slate-500">Komplette Liste mit Filter nach Kategorie und Evidenzstufe</p>
         </div>
       </div>
       <span class="text-teal-600 group-hover:translate-x-1 transition-transform text-lg">→</span>
     </a>
 
-    <!-- Filter bar -->
-    <div class="bg-white border border-slate-200 rounded-xl p-4 mb-6 space-y-3">
-
-      <!-- Search -->
-      <input
-        id="search"
-        type="search"
-        placeholder="Wirkstoff suchen…"
-        class="w-full text-sm border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-teal-400"
-      />
-
-      <!-- Category chips -->
-      <div class="flex flex-wrap gap-2">
-        <button
-          data-filter="category"
-          data-value="all"
-          class="filter-chip active text-xs rounded-full px-3 py-1 border font-medium transition-colors
-                 border-teal-500 bg-teal-500 text-white"
-        >
-          Alle Kategorien
-        </button>
-        {categories.map(cat => (
-          <button
-            data-filter="category"
-            data-value={cat}
-            class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors
-                   border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700"
-          >
-            {categoryLabels[cat] ?? cat}
-          </button>
-        ))}
-      </div>
-
-      <!-- Evidence chips -->
-      <div class="flex flex-wrap gap-2">
-        <button
-          data-filter="evidence"
-          data-value="all"
-          class="filter-chip active text-xs rounded-full px-3 py-1 border font-medium transition-colors
-                 border-teal-500 bg-teal-500 text-white"
-        >
-          Alle Evidenzstufen
-        </button>
-        {evidenceLevels.map(lvl => (
-          <button
-            data-filter="evidence"
-            data-value={lvl}
-            class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors
-                   border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700"
-          >
-            {evidenceLabels[lvl] ?? lvl}
-          </button>
-        ))}
-      </div>
-
-    </div>
-
-    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-4 text-xs text-amber-800 leading-5">
-      <strong>Redaktioneller Hinweis:</strong> Die Kurztexte auf dieser Übersichtsseite fassen Studienlage und regulatorischen Kontext knapp zusammen. Sie sind keine Health Claims im Sinne der VO (EG) Nr. 1924/2006 und keine Empfehlung zur Behandlung, Linderung oder Vorbeugung von Krankheiten.
-    </div>
-
-    <!-- Results count -->
-    <p id="results-count" class="text-xs text-slate-400 mb-4">{ingredients.length} Einträge</p>
-
-    <!-- Grid -->
-    <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-      {ingredients.map(ing => (
-        <a
-          href={`/wirkstoffe/${ing.data.slug}`}
-          data-category={ing.data.category}
-          data-evidence={ing.data.evidenceLevel}
-          data-title={ing.data.title.toLowerCase()}
-          data-aliases={(ing.data.aliases ?? []).join(' ').toLowerCase()}
-          class="ingredient-card bg-white rounded-xl border border-slate-200 p-6 hover:border-teal-400 hover:shadow-sm transition-all no-underline group"
-        >
-          <div class="flex justify-between items-start mb-3">
-            <h2 class="font-semibold text-slate-800 group-hover:text-teal-700 pr-2">{ing.data.title}</h2>
-            <EvidenceBadge level={ing.data.evidenceLevel} />
+    <!-- Symptom Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {symptomData.map(symptom => (
+        <a href={`/wirkstoffe/nach-wirkung/${symptom.id}`} class="group block bg-white border border-slate-200 rounded-xl p-5 hover:border-teal-300 hover:shadow-md transition-all">
+          <div class="flex items-start justify-between mb-3">
+            <h2 class="text-lg font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">
+              {symptomLabels[symptom.id] || symptom.name}
+            </h2>
+            <span class="text-xs font-medium bg-teal-50 text-teal-700 px-2 py-0.5 rounded-full">
+              {symptom.ingredientCount} Wirkstoffe
+            </span>
           </div>
-          <p class="text-sm text-slate-500 mb-4 leading-relaxed">{ing.data.summary}</p>
-          <div class="flex gap-2 text-xs flex-wrap">
-            <span class="rounded-full px-2 py-0.5 font-medium bg-slate-100 text-slate-600">
-              {categoryLabels[ing.data.category] ?? ing.data.category}
-            </span>
-            <span class:list={[
-              'rounded-full px-2 py-0.5 font-medium',
-              ing.data.efsa_health_claims_allowed
-                ? 'bg-emerald-100 text-emerald-700'
-                : 'bg-slate-100 text-slate-500'
-            ]}>
-              EFSA: {ing.data.efsa_health_claims_allowed ? 'zugelassen' : 'keine Claims'}
-            </span>
-            <span class:list={[
-              'rounded-full px-2 py-0.5 font-medium',
-              ing.data.safety_rating === 'safe' ? 'bg-emerald-100 text-emerald-700' :
-              ing.data.safety_rating === 'likely-safe' ? 'bg-amber-100 text-amber-700' :
-              ing.data.safety_rating === 'caution' ? 'bg-orange-100 text-orange-700' :
-              'bg-slate-100 text-slate-500'
-            ]}>
-              {ing.data.safety_rating === 'safe' ? 'Gut untersucht' :
-               ing.data.safety_rating === 'likely-safe' ? 'Eher gut verträglich' :
-               ing.data.safety_rating === 'caution' ? 'Vorsicht' :
-               'Datenlage offen'}
-            </span>
+          <div class="flex flex-wrap gap-1.5">
+            {symptom.ingredientIds.slice(0, 6).map((id: string) => {
+              const ing = ingredientMap.get(id);
+              return ing ? (
+                <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">{ing.title}</span>
+              ) : null;
+            })}
+            {symptom.ingredientCount > 6 && (
+              <span class="text-xs text-slate-400">+{symptom.ingredientCount - 6} mehr</span>
+            )}
           </div>
         </a>
       ))}
     </div>
 
-    <!-- Empty state -->
-    <p id="empty-state" class="hidden text-center text-slate-400 py-16 text-sm">
-      Kein Wirkstoff gefunden. Versuch einen anderen Filter.
-    </p>
-
   </div>
 </BaseLayout>
-
-<script>
-  const searchInput = document.getElementById('search') as HTMLInputElement;
-  const grid = document.getElementById('grid')!;
-  const cards = Array.from(grid.querySelectorAll<HTMLElement>('.ingredient-card'));
-  const countEl = document.getElementById('results-count')!;
-  const emptyEl = document.getElementById('empty-state')!;
-
-  let activeCategory = 'all';
-  let activeEvidence = 'all';
-
-  function applyFilters() {
-    const q = searchInput.value.trim().toLowerCase();
-    let visible = 0;
-
-    cards.forEach(card => {
-      const matchCat = activeCategory === 'all' || card.dataset.category === activeCategory;
-      const matchEv  = activeEvidence === 'all' || card.dataset.evidence === activeEvidence;
-      const matchQ   = !q || card.dataset.title!.includes(q) || card.dataset.aliases!.includes(q);
-      const show = matchCat && matchEv && matchQ;
-      card.classList.toggle('hidden', !show);
-      if (show) visible++;
-    });
-
-    countEl.textContent = `${visible} ${visible === 1 ? 'Eintrag' : 'Einträge'}`;
-    emptyEl.classList.toggle('hidden', visible > 0);
-  }
-
-  // Chip toggle logic
-  document.querySelectorAll<HTMLButtonElement>('.filter-chip').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const filterGroup = btn.dataset.filter!;
-      const value = btn.dataset.value!;
-
-      // Deactivate siblings
-      document.querySelectorAll<HTMLButtonElement>(`.filter-chip[data-filter="${filterGroup}"]`).forEach(b => {
-        b.classList.remove('active', 'border-teal-500', 'bg-teal-500', 'text-white');
-        b.classList.add('border-slate-300', 'bg-white', 'text-slate-600');
-      });
-
-      // Activate clicked
-      btn.classList.add('active', 'border-teal-500', 'bg-teal-500', 'text-white');
-      btn.classList.remove('border-slate-300', 'bg-white', 'text-slate-600');
-
-      if (filterGroup === 'category') activeCategory = value;
-      if (filterGroup === 'evidence') activeEvidence = value;
-
-      applyFilters();
-    });
-  });
-
-  searchInput.addEventListener('input', applyFilters);
-</script>
