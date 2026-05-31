@@ -1261,23 +1261,25 @@ function renderResults(answers: Record<string, string>) {
     barWrap.appendChild(barEl);
     wrapper.appendChild(barWrap);
 
+    const details = make('details', 'text-sm');
+    const summary = make('summary', 'cursor-pointer text-slate-600 hover:text-slate-800 list-none flex items-center gap-2 font-medium');
+    summary.append(
+      make('span', undefined, 'Details anzeigen'),
+      make('span', 'text-xs text-slate-400', '↓')
+    );
+    details.appendChild(summary);
+
+    const detailsBody = make('div', 'mt-4 space-y-4 border-t border-slate-100 pt-4');
+
     if (r.risk === 'hoch' || r.risk === 'mittel') {
-      const reasonEl = make('p', 'text-sm text-slate-400 italic mb-3', `Geschätztes Risiko — ${getReason(r.id, answers)}`);
-      wrapper.appendChild(reasonEl);
+      const reasonEl = make('p', 'text-sm text-slate-400 italic', `Geschätztes Risiko — ${getReason(r.id, answers)}`);
+      detailsBody.appendChild(reasonEl);
     }
 
-    wrapper.appendChild(make('p', 'text-sm text-slate-600 mb-4', r.explanation));
+    detailsBody.appendChild(make('p', 'text-sm text-slate-600', r.explanation));
 
     if (isTop3) {
-      const details = make('details', 'text-sm mb-4');
-      const summary = make('summary', 'cursor-pointer text-slate-600 hover:text-slate-800 list-none flex items-center gap-1');
-      summary.append(
-        make('span', undefined, 'Lebensmittel & Supplement-Hinweise'),
-        make('span', 'text-xs text-slate-400', '↓')
-      );
-      details.appendChild(summary);
-
-      const detailsBody = make('div', 'mt-3 space-y-3 border-t border-slate-100 pt-3');
+      const top3Block = make('div', 'space-y-3');
       const foodsBlock = make('div');
       foodsBlock.appendChild(make('p', 'text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5', 'Lebensmittel'));
 
@@ -1293,14 +1295,13 @@ function renderResults(answers: Record<string, string>) {
       supplementBlock.appendChild(make('p', 'text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1', 'Supplement-Hinweis'));
       supplementBlock.appendChild(make('p', 'text-slate-600', r.supplementNote));
 
-      detailsBody.append(foodsBlock, supplementBlock);
-      details.appendChild(detailsBody);
-      wrapper.appendChild(details);
+      top3Block.append(foodsBlock, supplementBlock);
+      detailsBody.appendChild(top3Block);
     }
 
     if (r.risk === 'hoch' || r.risk === 'mittel') {
-      const foodBlock = make('div', 'mb-3');
-      foodBlock.appendChild(make('p', 'text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5', '🥗 Lebensmittelquellen'));
+      const foodBlock = make('div');
+      foodBlock.appendChild(make('p', 'text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5', 'Lebensmittelquellen'));
       const foodTags = make('div', 'flex flex-wrap gap-1.5');
       r.foods.forEach(f => {
         foodTags.appendChild(make('span', 'text-xs bg-slate-100 text-slate-600 rounded-md px-2 py-1', f));
@@ -1309,23 +1310,26 @@ function renderResults(answers: Record<string, string>) {
 
       const veganNutrients: Nutrient[] = ['omega3', 'eisen', 'b12', 'kreatin', 'taurin', 'glycin', 'cholin'];
       if (answers.q1 === 'vegan' && veganNutrients.includes(r.id)) {
-        foodBlock.appendChild(make('p', 'text-xs text-slate-400 mt-1', '💡 Pflanzliche Ernährung: tierische Quellen entfallen — Supplement erwägen.'));
+        foodBlock.appendChild(make('p', 'text-xs text-slate-400 mt-1', 'Pflanzliche Ernährung: tierische Quellen entfallen — Supplement erwägen.'));
       }
-      wrapper.appendChild(foodBlock);
+      detailsBody.appendChild(foodBlock);
     }
 
     const nextStep = NUTRIENTS[r.id].nextSteps[r.risk];
     const borderColor = r.risk === 'hoch' ? 'border-red-300' : r.risk === 'mittel' ? 'border-amber-300' : 'border-emerald-300';
-    const nextStepEl = make('div', `text-sm text-slate-700 bg-slate-50 rounded-lg px-3 py-2.5 mb-3 border-l-2 ${borderColor}`);
+    const nextStepEl = make('div', `text-sm text-slate-700 bg-slate-50 rounded-lg px-3 py-2.5 border-l-2 ${borderColor}`);
     const nextStepLabel = make('span', 'font-medium', 'Nächster Schritt: ');
     nextStepEl.append(nextStepLabel, document.createTextNode(nextStep));
-    wrapper.appendChild(nextStepEl);
+    detailsBody.appendChild(nextStepEl);
 
     if (r.slug) {
       const link = make('a', 'inline-flex items-center gap-1.5 text-sm font-medium text-teal-700 bg-teal-50 hover:bg-teal-100 border border-teal-200 rounded-lg px-3 py-2 no-underline transition-colors', 'Wirkstoff-Dossier lesen →');
       link.setAttribute('href', `/wirkstoffe/${r.slug}`);
-      wrapper.appendChild(link);
+      detailsBody.appendChild(link);
     }
+
+    details.appendChild(detailsBody);
+    wrapper.appendChild(details);
 
     resultCards.appendChild(card);
   });
