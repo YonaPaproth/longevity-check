@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import EvidenceBadge from '../../../components/EvidenceBadge.astro';
+import { getCollection } from 'astro:content';
+import { readFileSync } from 'fs';
+
+// Load KG data
+const indexData = JSON.parse(readFileSync('data/index.json', 'utf-8'));
+const symptoms = indexData.symptoms as string[];
+
+// Load all symptom entities + their relations
+const symptomData = symptoms.map(id => {
+  const entity = JSON.parse(readFileSync(`data/entities/symptoms/${id}.json`, 'utf-8'));
+  const rels = JSON.parse(readFileSync(`data/relations/by-entity/${id}.json`, 'utf-8'));
+  const ingredientIds = rels.relations
+    .filter((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.direction === 'incoming')
+    .map((r: any) => r.target);
+  return { ...entity, ingredientCount: ingredientIds.length, ingredientIds };
+}).sort((a, b) => b.ingredientCount - a.ingredientCount);
+
+// Load ingredient entities for display
+const ingredients = await getCollection('ingredients');
+const ingredientMap = new Map(ingredients.map(i => [i.data.slug, i.data]));
+
+const symptomLabels: Record<string, string> = {
+  'schlaf': '😴 Schlaf',
+  'energie': '⚡ Energie',
+  'kognition': '🧠 Kognition',
+  'immunsystem': '🛡️ Immunsystem',
+  'entzuendung': '🔥 Entzündung',
+  'blutdruck': '💓 Blutdruck',
+  'blutzucker': '🩸 Blutzucker',
+  'stress': '🧘 Stress',
+  'depression': '💭 Stimmung',
+  'herz-kreislauf': '❤️ Herz-Kreislauf',
+  'gelenke': '🦴 Gelenke',
+  'haut': '✨ Haut',
+  'muskel': '💪 Muskel',
+  'verdauung': '🫁 Verdauung',
+  'alterung': '⏳ Alterung',
+  'oxidativer-stress': '🔬 Oxidativer Stress',
+  'knochen': '🦷 Knochen',
+  'augen': '👁️ Augen',
+  'leber': '🫘 Leber',
+  'schilddruese': '🦋 Schilddrüse',
+  'fertilitat': '🌱 Fertilität',
+  'migraene': '🤕 Migräne',
+  'neuroprotektiv': '🧬 Neuroprotektiv',
+};
+---
+
+<BaseLayout title="Wirkstoffe nach Wirkung" description="Finde evidenzbasierte Supplements nach Gesundheitsziel: Schlaf, Energie, Kognition, Immunsystem und 20+ weitere Kategorien.">
+  <div class="max-w-5xl mx-auto px-4 py-12">
+
+    <!-- Header -->
+    <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-8">
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.07),transparent_30%)]"></div>
+      <div class="relative p-6 md:p-8">
+        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-3">Knowledge Graph</div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">Wirkstoffe nach Wirkung</h1>
+        <p class="text-slate-600 max-w-xl">
+          {indexData.stats.entities} Entities, {indexData.stats.relations} Relationen — automatisch extrahiert aus unseren Dossiers.
+          Klicke auf ein Gesundheitsziel, um alle dafür untersuchten Wirkstoffe zu sehen.
+        </p>
+      </div>
+    </div>
+
+    <!-- Symptom Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {symptomData.map(symptom => (
+        <a href={`/wirkstoffe/nach-wirkung/${symptom.id}`} class="group block bg-white border border-slate-200 rounded-xl p-5 hover:border-teal-300 hover:shadow-md transition-all">
+          <div class="flex items-start justify-between mb-3">
+            <h2 class="text-lg font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">
+              {symptomLabels[symptom.id] || symptom.name}
+            </h2>
+            <span class="text-xs font-medium bg-teal-50 text-teal-700 px-2 py-0.5 rounded-full">
+              {symptom.ingredientCount} Wirkstoffe
+            </span>
+          </div>
+          <div class="flex flex-wrap gap-1.5">
+            {symptom.ingredientIds.slice(0, 6).map((id: string) => {
+              const ing = ingredientMap.get(id);
+              return ing ? (
+                <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">{ing.title}</span>
+              ) : null;
+            })}
+            {symptom.ingredientCount > 6 && (
+              <span class="text-xs text-slate-400">+{symptom.ingredientCount - 6} mehr</span>
+            )}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- Stats -->
+    <div class="mt-12 text-center text-sm text-slate-400">
+      Daten basieren auf {indexData.stats.relations} automatisch extrahierten Relationen aus {ingredients.length} Wirkstoff-Dossiers.
+      <br />Letzte Aktualisierung: {indexData.stats.lastUpdated}
+    </div>
+
+  </div>
+</BaseLayout>

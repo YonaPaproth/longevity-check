@@ -1,0 +1,181 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { readFileSync } from 'fs';
+
+// Load all interactions
+const interactionsData = JSON.parse(readFileSync('data/relations/by-type/hat_interaktion_mit.json', 'utf-8'));
+const indexData = JSON.parse(readFileSync('data/index.json', 'utf-8'));
+
+// Build ingredient name map
+const ingredientNames: Record<string, string> = {};
+for (const slug of indexData.ingredients) {
+  try {
+    const entity = JSON.parse(readFileSync(`data/entities/ingredients/${slug}.json`, 'utf-8'));
+    ingredientNames[slug] = entity.name;
+  } catch { /* skip */ }
+}
+
+// Build adjacency list for client-side checking
+const interactions = interactionsData.relations.map((r: any) => ({
+  a: r.subject,
+  b: r.target,
+  note: r.note || '',
+}));
+
+// Unique ingredients that have interactions
+const interactingIds = new Set<string>();
+for (const i of interactions) {
+  if (ingredientNames[i.a]) interactingIds.add(i.a);
+  if (ingredientNames[i.b]) interactingIds.add(i.b);
+}
+
+// All ingredients for the selector
+const allIngredients = Object.entries(ingredientNames)
+  .map(([id, name]) => ({ id, name }))
+  .sort((a, b) => a.name.localeCompare(b.name, 'de'));
+---
+
+<BaseLayout title="Interaktions-Check" description="Prüfe Wechselwirkungen zwischen Nahrungsergänzungsmitteln — basierend auf unserem Knowledge Graph mit Daten aus 110 Wirkstoff-Dossiers.">
+  <div class="max-w-3xl mx-auto px-4 py-12">
+
+    <!-- Header -->
+    <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-orange-50/40 shadow-sm mb-8">
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(249,115,22,0.07),transparent_30%)]"></div>
+      <div class="relative p-6 md:p-8">
+        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-orange-700 mb-3">Knowledge Graph</div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">Interaktions-Check</h1>
+        <p class="text-slate-600 max-w-xl">
+          Wähle Wirkstoffe aus deinem Stack und prüfe bekannte Wechselwirkungen.
+          Basierend auf {interactions.length} extrahierten Interaktionen aus {Object.keys(ingredientNames).length} Dossiers.
+        </p>
+      </div>
+    </div>
+
+    <!-- Selector -->
+    <div class="bg-white border border-slate-200 rounded-xl p-6 mb-6" id="checker">
+      <label class="block text-sm font-medium text-slate-700 mb-2">Deine Wirkstoffe auswählen:</label>
+      <div class="flex flex-wrap gap-2 mb-4 min-h-[40px] border border-slate-200 rounded-lg p-3" id="selected-pills">
+        <span class="text-sm text-slate-400" id="placeholder">Klicke unten, um Wirkstoffe hinzuzufügen…</span>
+      </div>
+
+      <input
+        type="search"
+        id="ingredient-search"
+        placeholder="Wirkstoff suchen…"
+        class="w-full border border-slate-200 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-400 mb-3"
+      />
+
+      <div class="max-h-48 overflow-y-auto border border-slate-100 rounded-lg" id="ingredient-list">
+        {allIngredients.map(ing => (
+          <button
+            data-id={ing.id}
+            class="ingredient-btn w-full text-left px-4 py-2 text-sm hover:bg-teal-50 transition-colors border-b border-slate-50 last:border-0"
+          >
+            {ing.name}
+          </button>
+        ))}
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div id="results" class="hidden">
+      <h2 class="text-lg font-semibold text-slate-900 mb-4">Ergebnis</h2>
+      <div id="results-content"></div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="mt-8 p-4 bg-amber-50 border border-amber-200 rounded-xl text-sm text-amber-800">
+      <strong>Hinweis:</strong> Dieser Check basiert auf automatisch extrahierten Daten aus unseren Dossiers.
+      Er ersetzt keine ärztliche Beratung. Nicht alle Interaktionen sind erfasst — insbesondere Wechselwirkungen mit Medikamenten fehlen teilweise.
+    </div>
+
+  </div>
+
+  <script define:vars={{ interactions, ingredientNames }}>
+    const selected = new Set();
+    const pillContainer = document.getElementById('selected-pills');
+    const placeholder = document.getElementById('placeholder');
+    const resultsDiv = document.getElementById('results');
+    const resultsContent = document.getElementById('results-content');
+    const searchInput = document.getElementById('ingredient-search');
+    const buttons = document.querySelectorAll('.ingredient-btn');
+
+    // Search filter
+    searchInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      buttons.forEach(btn => {
+        btn.style.display = btn.textContent.toLowerCase().includes(q) ? '' : 'none';
+      });
+    });
+
+    // Add ingredient
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.dataset.id;
+        if (selected.has(id)) {
+          selected.delete(id);
+          btn.classList.remove('bg-teal-100', 'font-semibold');
+        } else {
+          selected.add(id);
+          btn.classList.add('bg-teal-100', 'font-semibold');
+        }
+        updateUI();
+      });
+    });
+
+    function updateUI() {
+      // Pills
+      pillContainer.innerHTML = '';
+      if (selected.size === 0) {
+        pillContainer.innerHTML = '<span class="text-sm text-slate-400">Klicke unten, um Wirkstoffe hinzuzufügen…</span>';
+        resultsDiv.classList.add('hidden');
+        return;
+      }
+
+      for (const id of selected) {
+        const pill = document.createElement('span');
+        pill.className = 'inline-flex items-center gap-1 bg-teal-100 text-teal-800 text-sm px-3 py-1 rounded-full cursor-pointer hover:bg-teal-200 transition-colors';
+        pill.innerHTML = `${ingredientNames[id] || id} <span class="text-teal-500">×</span>`;
+        pill.addEventListener('click', () => {
+          selected.delete(id);
+          const btn = document.querySelector(`[data-id="${id}"]`);
+          if (btn) btn.classList.remove('bg-teal-100', 'font-semibold');
+          updateUI();
+        });
+        pillContainer.appendChild(pill);
+      }
+
+      // Check interactions
+      const found = [];
+      const selectedArr = [...selected];
+      for (const inter of interactions) {
+        if (selected.has(inter.a) && selected.has(inter.b)) {
+          found.push(inter);
+        }
+      }
+
+      resultsDiv.classList.remove('hidden');
+
+      if (found.length === 0) {
+        resultsContent.innerHTML = `
+          <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-5 text-emerald-800">
+            <div class="font-semibold mb-1">✅ Keine bekannten Interaktionen</div>
+            <div class="text-sm">Zwischen deinen ${selected.size} ausgewählten Wirkstoffen sind keine Wechselwirkungen in unserer Datenbank erfasst.</div>
+          </div>`;
+      } else {
+        let html = `<div class="space-y-3">`;
+        for (const inter of found) {
+          html += `
+            <div class="bg-orange-50 border border-orange-200 rounded-xl p-5">
+              <div class="font-semibold text-orange-800 mb-1">
+                ⚠️ ${ingredientNames[inter.a] || inter.a} ↔ ${ingredientNames[inter.b] || inter.b}
+              </div>
+              ${inter.note ? `<div class="text-sm text-orange-700">${inter.note}</div>` : '<div class="text-sm text-orange-600">Wechselwirkung dokumentiert — Details im jeweiligen Dossier.</div>'}
+            </div>`;
+        }
+        html += `</div>`;
+        resultsContent.innerHTML = html;
+      }
+    }
+  </script>
+</BaseLayout>
