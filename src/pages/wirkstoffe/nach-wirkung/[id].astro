@@ -48,20 +48,20 @@ const safetyStyle: Record<string, string> = {
 };
 ---
 
-<BaseLayout title={`Wirkstoffe für ${label}`} description={`${matched.length} evidenzbasierte Supplements für ${label} — sortiert nach Studienlage.`}>
+<BaseLayout title={`Forschungsgebiet ${label} — untersuchte Wirkstoffe`} description={`${matched.length} Wirkstoffe, die in Studien auf eine Wirkung im Bereich ${label} untersucht wurden — sortiert nach Evidenzstärke.`}>
   <div class="max-w-4xl mx-auto px-4 py-12">
 
     <nav class="text-sm text-slate-400 mb-6">
       <a href="/wirkstoffe" class="hover:text-teal-600">Wirkstoffe</a>
       <span class="mx-2">›</span>
-      <a href="/wirkstoffe/nach-wirkung" class="hover:text-teal-600">Nach Wirkung</a>
+      <a href="/wirkstoffe/nach-wirkung" class="hover:text-teal-600">Nach Forschungsgebiet</a>
       <span class="mx-2">›</span>
       <span class="text-slate-600">{label}</span>
     </nav>
 
     <div class="mb-8">
-      <h1 class="text-3xl font-bold text-slate-900 mb-2">Wirkstoffe für {label}</h1>
-      <p class="text-slate-600">{matched.length} Wirkstoffe, sortiert nach Evidenzstärke. Basierend auf automatischer Analyse unserer Dossiers.</p>
+      <h1 class="text-3xl font-bold text-slate-900 mb-2">Forschungsgebiet: {label}</h1>
+      <p class="text-slate-600">{matched.length} Wirkstoffe, die in Studien auf eine Wirkung im Bereich {label} untersucht wurden — sortiert nach Evidenzstärke.</p>
     </div>
 
     <div class="space-y-3">

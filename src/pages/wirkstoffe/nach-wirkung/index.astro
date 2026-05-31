@@ -49,18 +49,17 @@ const symptomLabels: Record<string, string> = {
 };
 ---
 
-<BaseLayout title="Wirkstoffe nach Wirkung" description="Finde evidenzbasierte Supplements nach Gesundheitsziel: Schlaf, Energie, Kognition, Immunsystem und 20+ weitere Kategorien.">
+<BaseLayout title="Wirkstoffe nach Forschungsgebiet" description="Welche Nahrungsergänzungsmittel wurden in Studien auf welche Wirkung untersucht? 110 Wirkstoffe, sortiert nach Forschungsgebiet.">
   <div class="max-w-5xl mx-auto px-4 py-12">
 
     <!-- Header -->
     <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-8">
       <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.07),transparent_30%)]"></div>
       <div class="relative p-6 md:p-8">
-        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-3">Knowledge Graph</div>
-        <h1 class="text-3xl font-bold text-slate-900 mb-2">Wirkstoffe nach Wirkung</h1>
+        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-3">Wissensgraph</div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">Wirkstoffe nach Forschungsgebiet</h1>
         <p class="text-slate-600 max-w-xl">
-          {indexData.stats.entities} Entities, {indexData.stats.relations} Relationen — automatisch extrahiert aus unseren Dossiers.
-          Klicke auf ein Gesundheitsziel, um alle dafür untersuchten Wirkstoffe zu sehen.
+          Welche Wirkstoffe wurden in Studien auf welche Wirkung untersucht? Klicke auf ein Thema, um die zugehörigen Dossiers zu sehen.
         </p>
       </div>
     </div>
