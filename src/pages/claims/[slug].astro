@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import VerdictBadge from '../../components/VerdictBadge.astro';
+import ClaimContextModule from '../../components/ClaimContextModule.astro';
 import ClaimCheckIllustration from '../../components/illustrations/ClaimCheckIllustration.astro';
 import { getCollection, render } from 'astro:content';
 
@@ -44,6 +45,8 @@ const d = entry.data;
     <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-8 text-xs text-amber-800 leading-5">
       <strong>Redaktioneller Hinweis:</strong> Diese Seite bewertet eine verbreitete Aussage redaktionell. Sie macht keine zulässigen Health Claims im Sinne der VO (EG) Nr. 1924/2006 und ersetzt keine medizinische Beratung. Aussagen zu Studien, Biomarkern oder Mechanismen sind als Einordnung der Evidenz zu verstehen, nicht als Empfehlung zur Behandlung, Linderung oder Vorbeugung von Krankheiten.
     </div>
+
+    <ClaimContextModule claimSlug={d.slug} ingredientSlug={d.ingredient} claimContext={d.claimContext} />
 
     <article class="prose max-w-none mb-10">
       <Content />

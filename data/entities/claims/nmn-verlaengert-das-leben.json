@@ -1,0 +1,14 @@
+{
+  "id": "nmn-verlaengert-das-leben",
+  "type": "claim",
+  "name": "NMN verlängert das Leben",
+  "ingredient": "nmn",
+  "summary": "Longevity-Claim zu NMN mit positiven Tierdaten, aber begrenzter Human-Evidenz und ohne zugelassenen EFSA-Claim.",
+  "claimEvidence": {
+    "animal": "positiv",
+    "human": "begrenzt"
+  },
+  "regulatory": {
+    "efsa": "efsa-nicht-zugelassen"
+  }
+}

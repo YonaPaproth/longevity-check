@@ -1,0 +1,201 @@
+---
+import { existsSync, readFileSync } from 'fs';
+
+interface Props {
+  claimSlug: string;
+  ingredientSlug?: string;
+  claimContext?: {
+    claimEntityId?: string;
+    ingredientEvidenceScore?: number;
+    animalEvidence?: 'positiv' | 'gemischt' | 'begrenzt' | 'negativ' | 'keine-daten';
+    humanEvidence?: 'stark' | 'moderat' | 'begrenzt' | 'negativ' | 'keine-daten';
+    regulatoryStatus?: string;
+    relatedMechanisms?: string[];
+    relatedSymptoms?: string[];
+    relatedIngredients?: string[];
+  };
+}
+
+const { claimSlug, ingredientSlug, claimContext } = Astro.props;
+
+const entityDirs = [
+  'data/entities/claims',
+  'data/entities/ingredients',
+  'data/entities/mechanisms',
+  'data/entities/symptoms',
+  'data/entities/regulatory',
+  'data/entities/biomarkers',
+];
+
+function readJsonIfExists(path: string) {
+  if (!existsSync(path)) return null;
+  return JSON.parse(readFileSync(path, 'utf-8'));
+}
+
+function findEntityById(id?: string) {
+  if (!id) return null;
+  for (const dir of entityDirs) {
+    const path = `${dir}/${id}.json`;
+    if (existsSync(path)) return readJsonIfExists(path);
+  }
+  return null;
+}
+
+function toPath(entity: any) {
+  if (!entity) return undefined;
+  if (entity.type === 'ingredient') return `/wirkstoffe/${entity.id}`;
+  if (entity.type === 'symptom') return `/wirkstoffe/nach-wirkung/${entity.id}`;
+  if (entity.type === 'claim') return `/claims/${entity.id}`;
+  return undefined;
+}
+
+function labelForEvidence(value?: string) {
+  switch (value) {
+    case 'positiv': return 'positiv';
+    case 'gemischt': return 'gemischt';
+    case 'begrenzt': return 'begrenzt';
+    case 'negativ': return 'negativ';
+    case 'keine-daten': return 'keine Daten';
+    case 'stark': return 'stark';
+    case 'moderat': return 'moderat';
+    default: return value;
+  }
+}
+
+function regulatoryLabel(id?: string) {
+  if (!id) return undefined;
+  if (id === 'efsa-nicht-zugelassen') return 'nicht zugelassen';
+  if (id === 'efsa-zugelassen') return 'zugelassen';
+  const entity = findEntityById(id);
+  return entity?.name;
+}
+
+const claimEntityId = claimContext?.claimEntityId ?? claimSlug;
+const claimEntity = findEntityById(claimEntityId);
+const relationsData = readJsonIfExists(`data/relations/by-entity/${claimEntityId}.json`);
+const relations = relationsData?.relations ?? [];
+
+const ingredientEntity = findEntityById(ingredientSlug);
+const ingredientName = ingredientEntity?.name ?? ingredientSlug;
+const ingredientPath = toPath(ingredientEntity);
+
+const regulatoryRelation = relations.find((r: any) => r.relation === 'hat_regulatorischen_status' && r.direction === 'outgoing');
+const linkedMechanisms = relations.filter((r: any) => r.relation === 'wirkt_ueber' && r.direction === 'outgoing').map((r: any) => findEntityById(r.target)).filter(Boolean);
+const linkedSymptoms = relations.filter((r: any) => r.relation === 'zielt_auf' && r.direction === 'outgoing').map((r: any) => findEntityById(r.target)).filter(Boolean);
+const linkedIngredients = relations.filter((r: any) => r.relation === 'verwandter_wirkstoff' && r.direction === 'outgoing').map((r: any) => findEntityById(r.target)).filter(Boolean);
+
+const fallbackMechanisms = (claimContext?.relatedMechanisms ?? []).map(findEntityById).filter(Boolean);
+const fallbackSymptoms = (claimContext?.relatedSymptoms ?? []).map(findEntityById).filter(Boolean);
+const fallbackIngredients = (claimContext?.relatedIngredients ?? []).map(findEntityById).filter(Boolean);
+
+const mechanisms = linkedMechanisms.length > 0 ? linkedMechanisms : fallbackMechanisms;
+const symptoms = linkedSymptoms.length > 0 ? linkedSymptoms : fallbackSymptoms;
+const relatedIngredients = linkedIngredients.length > 0 ? linkedIngredients : fallbackIngredients;
+
+const ingredientEvidenceScore = claimContext?.ingredientEvidenceScore;
+const animalEvidence = claimContext?.animalEvidence;
+const humanEvidence = claimContext?.humanEvidence;
+const regulatoryStatus = claimContext?.regulatoryStatus ?? regulatoryRelation?.target;
+
+const hasContent = ingredientEntity || ingredientEvidenceScore !== undefined || animalEvidence || humanEvidence || regulatoryStatus || mechanisms.length > 0 || symptoms.length > 0 || relatedIngredients.length > 0;
+---
+
+{hasContent && (
+  <section class="rounded-2xl border border-slate-200 bg-white p-5 md:p-6 shadow-sm mb-8">
+    <div class="flex items-start justify-between gap-4 mb-5">
+      <div>
+        <p class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-2">Claim context</p>
+        <h2 class="text-xl font-semibold text-slate-900">Claim im Kontext</h2>
+      </div>
+      <div class="hidden sm:flex h-10 w-10 items-center justify-center rounded-full bg-teal-50 text-teal-700">↗</div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+      {ingredientEntity && (
+        <div class="rounded-xl border border-slate-200 bg-slate-50/70 p-4">
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-1">Wirkstoff</p>
+          {ingredientPath ? (
+            <a href={ingredientPath} class="font-medium text-slate-900 hover:text-teal-700 no-underline">{ingredientName} →</a>
+          ) : (
+            <p class="font-medium text-slate-900">{ingredientName}</p>
+          )}
+        </div>
+      )}
+
+      {ingredientEvidenceScore !== undefined && (
+        <div class="rounded-xl border border-slate-200 bg-slate-50/70 p-4">
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-1">Wirkstoff-Evidenz</p>
+          <p class="font-medium text-slate-900">{ingredientEvidenceScore}/10</p>
+        </div>
+      )}
+
+      {animalEvidence && (
+        <div class="rounded-xl border border-slate-200 bg-slate-50/70 p-4">
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-1">Tierdaten zum Claim</p>
+          <p class="font-medium text-slate-900">{labelForEvidence(animalEvidence)}</p>
+        </div>
+      )}
+
+      {humanEvidence && (
+        <div class="rounded-xl border border-slate-200 bg-slate-50/70 p-4">
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-1">Humandaten zum Claim</p>
+          <p class="font-medium text-slate-900">{labelForEvidence(humanEvidence)}</p>
+        </div>
+      )}
+
+      {regulatoryStatus && (
+        <div class="rounded-xl border border-slate-200 bg-slate-50/70 p-4 sm:col-span-2">
+          <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-1">EU-Claim-Status</p>
+          <p class="font-medium text-slate-900">{regulatoryLabel(regulatoryStatus)}</p>
+        </div>
+      )}
+    </div>
+
+    {(mechanisms.length > 0 || symptoms.length > 0 || relatedIngredients.length > 0) && (
+      <div class="space-y-4">
+        {mechanisms.length > 0 && (
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-2">Mechanistisch verknüpft mit</p>
+            <div class="flex flex-wrap gap-2">
+              {mechanisms.map((entity: any) => (
+                <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">{entity.name}</span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {symptoms.length > 0 && (
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-2">Zielt thematisch auf</p>
+            <div class="flex flex-wrap gap-2">
+              {symptoms.map((entity: any) => {
+                const path = toPath(entity);
+                return path ? (
+                  <a href={path} class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700 no-underline hover:border-teal-300 hover:text-teal-700">{entity.name}</a>
+                ) : (
+                  <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">{entity.name}</span>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {relatedIngredients.length > 0 && (
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wide text-slate-400 mb-2">Verwandte Wirkstoffe</p>
+            <div class="flex flex-wrap gap-2">
+              {relatedIngredients.map((entity: any) => {
+                const path = toPath(entity);
+                return path ? (
+                  <a href={path} class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700 no-underline hover:border-teal-300 hover:text-teal-700">{entity.name}</a>
+                ) : (
+                  <span class="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm text-slate-700">{entity.name}</span>
+                );
+              })}
+            </div>
+          </div>
+        )}
+      </div>
+    )}
+  </section>
+)}

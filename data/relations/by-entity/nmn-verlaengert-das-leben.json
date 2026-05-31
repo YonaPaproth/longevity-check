@@ -1,0 +1,41 @@
+{
+  "entity": "nmn-verlaengert-das-leben",
+  "relations": [
+    {
+      "relation": "bezieht_sich_auf",
+      "target": "nmn",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nad-biosynthese",
+      "direction": "outgoing",
+      "confidence": 0.8
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "sirt1-aktivierung",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "zielt_auf",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.9
+    },
+    {
+      "relation": "verwandter_wirkstoff",
+      "target": "resveratrol",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

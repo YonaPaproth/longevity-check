@@ -105,6 +105,16 @@ const claims = defineCollection({
     publishedAt: z.coerce.date(),
     updatedAt: z.coerce.date().optional(),
     summary: z.string().max(200),
+    claimContext: z.object({
+      claimEntityId: z.string().optional(),
+      ingredientEvidenceScore: z.number().min(0).max(10).optional(),
+      animalEvidence: z.enum(['positiv', 'gemischt', 'begrenzt', 'negativ', 'keine-daten']).optional(),
+      humanEvidence: z.enum(['stark', 'moderat', 'begrenzt', 'negativ', 'keine-daten']).optional(),
+      regulatoryStatus: z.string().optional(),
+      relatedMechanisms: z.array(z.string()).optional(),
+      relatedSymptoms: z.array(z.string()).optional(),
+      relatedIngredients: z.array(z.string()).optional(),
+    }).optional(),
     sources: z.array(z.object({
       label: z.string(),
       url: z.string().url(),
