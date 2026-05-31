@@ -67,7 +67,9 @@ const symptomLabels: Record<string, string> = {
             <p class="text-slate-600 max-w-xl">Welche Wirkstoffe wurden in Studien auf welche Wirkung untersucht? Wähle ein Forschungsgebiet oder durchsuche alle Dossiers.</p>
           </div>
           <div class="w-full md:w-72 shrink-0">
-            <EvidenceResearchIllustration />
+            <div class="mx-auto w-full max-w-[220px] md:max-w-none">
+              <EvidenceResearchIllustration />
+            </div>
           </div>
         </div>
       </div>
@@ -89,8 +91,10 @@ const symptomLabels: Record<string, string> = {
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {symptomData.map(symptom => (
         <a href={`/wirkstoffe/nach-wirkung/${symptom.id}`} class="group block overflow-hidden bg-white border border-slate-200 rounded-2xl hover:border-teal-300 hover:shadow-md transition-all">
-          <div class="aspect-[16/7] bg-gradient-to-br from-slate-50 via-white to-teal-50/60 border-b border-slate-100 p-4">
-            <CategoryIllustration category={symptom.id} />
+          <div class="aspect-[16/5.2] sm:aspect-[16/6] lg:aspect-[16/6.4] bg-gradient-to-br from-slate-50 via-white to-teal-50/60 border-b border-slate-100 p-3 sm:p-4">
+            <div class="mx-auto h-full w-full max-w-[180px] sm:max-w-[210px] lg:max-w-[230px]">
+              <CategoryIllustration category={symptom.id} />
+            </div>
           </div>
           <div class="p-5">
             <div class="flex items-start justify-between mb-3 gap-3">
