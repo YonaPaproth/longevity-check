@@ -80,7 +80,173 @@ const c = category;
   </svg>
 )}
 
-{!['schlaf','kognition','alterung','energie','immunsystem','herz-kreislauf'].includes(c) && (
+{c === 'entzuendung' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M92 88c-18 0-30-12-30-30 0-12 6-22 16-28 2-16 16-28 34-28 19 0 34 15 34 34 0 8-2 15-7 21 14 2 24 14 24 28 0 2 0 2 0 3H92Z" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <path d="M106 28c4 7 0 13-4 18-4 4-8 9-5 15" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" opacity="0.22"/>
+    <path d="M126 22c5 8 1 14-4 20-4 5-8 10-6 18" stroke="#14b8a6" stroke-width="2.2" stroke-linecap="round" opacity="0.18"/>
+    <path d="M146 30c4 6 1 11-3 16-4 5-7 9-5 15" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" opacity="0.2"/>
+  </svg>
+)}
+
+{c === 'blutdruck' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <rect x="48" y="30" width="66" height="46" rx="12" stroke="#1e293b" stroke-width="1.4" opacity="0.12"/>
+    <circle cx="81" cy="53" r="12" stroke="#0f766e" stroke-width="1.8" opacity="0.2"/>
+    <path d="M81 53l7-10" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" opacity="0.24"/>
+    <path d="M138 70h32l8-16 12 30 14-42 12 28h38" stroke="#0f766e" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
+  </svg>
+)}
+
+{c === 'blutzucker' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M92 20c11 16 28 34 28 48a28 28 0 1 1-56 0c0-14 17-32 28-48Z" stroke="#0f766e" stroke-width="1.8" opacity="0.22"/>
+    <circle cx="92" cy="70" r="8" fill="#14b8a6" opacity="0.12"/>
+    <path d="M154 76c22-20 40-22 56-10 16 11 28 11 52-10" stroke="#0f766e" stroke-width="2.4" stroke-linecap="round" opacity="0.22"/>
+    <rect x="154" y="36" width="34" height="8" rx="4" fill="#1e293b" opacity="0.08"/>
+    <rect x="194" y="36" width="48" height="8" rx="4" fill="#14b8a6" opacity="0.14"/>
+  </svg>
+)}
+
+{c === 'stress' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <circle cx="96" cy="56" r="30" stroke="#1e293b" stroke-width="1.5" opacity="0.12"/>
+    <path d="M96 40v20l14 8" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
+    <circle cx="96" cy="56" r="3" fill="#0f766e" opacity="0.24"/>
+    <path d="M174 40c10-8 24-8 34 0M168 58c13-11 31-11 44 0M162 78c16-14 38-14 54 0" stroke="#14b8a6" stroke-width="2" stroke-linecap="round" opacity="0.16"/>
+  </svg>
+)}
+
+{c === 'depression' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M90 90c-20 0-34-15-34-34 0-18 14-33 33-33 10 0 19 4 25 11 4-2 8-3 13-3 16 0 29 13 29 29 0 4-1 8-2 12 10 3 17 12 17 22H90Z" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <path d="M84 68c10 8 22 8 32 0" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" opacity="0.22"/>
+    <circle cx="92" cy="50" r="3" fill="#14b8a6" opacity="0.16"/>
+    <circle cx="120" cy="50" r="3" fill="#14b8a6" opacity="0.16"/>
+  </svg>
+)}
+
+{c === 'gelenke' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M92 36c9-9 24-9 33 0l10 10c9 9 9 24 0 33l-8 8c-9 9-24 9-33 0l-10-10c-9-9-9-24 0-33l8-8Z" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <circle cx="110" cy="61" r="12" stroke="#0f766e" stroke-width="2" opacity="0.22"/>
+    <path d="M170 42h86M170 60h64M170 78h78" stroke="#0f766e" stroke-width="2" stroke-linecap="round" opacity="0.14"/>
+  </svg>
+)}
+
+{c === 'haut' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M90 24c16 0 28 12 28 28v12c0 18-12 32-28 32s-28-14-28-32V52c0-16 12-28 28-28Z" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <path d="M82 56c4-8 12-12 20-12s16 4 20 12" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" opacity="0.2"/>
+    <circle cx="206" cy="42" r="16" stroke="#14b8a6" stroke-width="1.6" opacity="0.16"/>
+    <circle cx="234" cy="68" r="10" stroke="#0f766e" stroke-width="1.6" opacity="0.18"/>
+    <circle cx="188" cy="74" r="8" stroke="#1e293b" stroke-width="1.4" opacity="0.1"/>
+  </svg>
+)}
+
+{c === 'muskel' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M78 76c0-20 14-34 34-34h18c16 0 30 10 34 24l8 30h-30l-4-10H92l-4 10H58l20-20Z" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <path d="M102 62h42M108 74h30" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" opacity="0.2"/>
+    <rect x="222" y="32" width="18" height="54" rx="5" fill="#1e293b" opacity="0.08"/>
+    <rect x="246" y="22" width="18" height="64" rx="5" fill="#14b8a6" opacity="0.14"/>
+  </svg>
+)}
+
+{c === 'verdauung' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M106 24c-18 0-30 10-30 28v10c0 8 4 15 10 20-4 5-6 10-6 14h28c0-4 2-7 6-10 8-6 14-14 14-25V24h-22Z" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <path d="M128 24h18c18 0 30 10 30 28v10c0 8-4 15-10 20 4 5 6 10 6 14h-28c0-4-2-7-6-10-8-6-14-14-14-25" stroke="#0f766e" stroke-width="1.8" opacity="0.2"/>
+    <circle cx="224" cy="42" r="5" fill="#14b8a6" opacity="0.16"/>
+    <circle cx="246" cy="58" r="6" fill="#0f766e" opacity="0.16"/>
+    <circle cx="226" cy="76" r="4" fill="#1e293b" opacity="0.1"/>
+    <circle cx="258" cy="78" r="5" fill="#14b8a6" opacity="0.14"/>
+  </svg>
+)}
+
+{c === 'oxidativer-stress' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <circle cx="96" cy="60" r="26" stroke="#1e293b" stroke-width="1.5" opacity="0.12"/>
+    <circle cx="96" cy="60" r="10" stroke="#0f766e" stroke-width="1.8" opacity="0.2"/>
+    <path d="M96 34V22M96 98V86M70 60H58M134 60h-12M78 42l-8-8M122 78l8 8M122 42l8-8M78 78l-8 8" stroke="#14b8a6" stroke-width="1.6" opacity="0.16"/>
+    <path d="M176 74c16-22 32-22 48 0s32 22 48 0" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" opacity="0.2"/>
+  </svg>
+)}
+
+{c === 'knochen' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M82 36c0-8 6-14 14-14 5 0 9 2 12 6l34 34c4 4 4 10 0 14L108 110c-3 4-7 6-12 6-8 0-14-6-14-14 0-3 1-6 3-8l8-8-8-8c-2-2-3-5-3-8s1-6 3-8l8-8-8-8c-2-2-3-5-3-8Z" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <circle cx="94" cy="34" r="7" stroke="#0f766e" stroke-width="1.8" opacity="0.2"/>
+    <circle cx="94" cy="102" r="7" stroke="#0f766e" stroke-width="1.8" opacity="0.2"/>
+  </svg>
+)}
+
+{c === 'augen' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M42 60c14-20 34-30 58-30s44 10 58 30c-14 20-34 30-58 30S56 80 42 60Z" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <circle cx="100" cy="60" r="16" stroke="#0f766e" stroke-width="1.8" opacity="0.22"/>
+    <circle cx="100" cy="60" r="6" fill="#14b8a6" opacity="0.14"/>
+    <path d="M188 78c10-20 24-32 42-36M188 42c10 20 24 32 42 36M236 30v60" stroke="#0f766e" stroke-width="2" stroke-linecap="round" opacity="0.16"/>
+  </svg>
+)}
+
+{c === 'leber' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M82 36c16-12 34-16 52-10 16 5 28 18 28 34 0 22-18 36-42 36H82c-18 0-30-12-30-28 0-18 12-30 30-32Z" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <path d="M92 56h44M92 70h56" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" opacity="0.18"/>
+    <circle cx="226" cy="46" r="10" stroke="#14b8a6" stroke-width="1.6" opacity="0.16"/>
+    <circle cx="250" cy="68" r="14" stroke="#0f766e" stroke-width="1.8" opacity="0.18"/>
+  </svg>
+)}
+
+{c === 'schilddruese' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M106 26v24l-18 16c-6 5-10 12-10 20 0 8 6 14 14 14 7 0 14-5 18-12l10-18 10 18c4 7 11 12 18 12 8 0 14-6 14-14 0-8-4-15-10-20l-18-16V26" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <circle cx="104" cy="68" r="10" stroke="#0f766e" stroke-width="1.8" opacity="0.2"/>
+    <circle cx="136" cy="68" r="10" stroke="#14b8a6" stroke-width="1.8" opacity="0.16"/>
+  </svg>
+)}
+
+{c === 'fertilitat' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M92 90c-14 0-24-10-24-24 0-20 24-40 24-40s24 20 24 40c0 14-10 24-24 24Z" stroke="#0f766e" stroke-width="1.8" opacity="0.22"/>
+    <path d="M92 44v42" stroke="#14b8a6" stroke-width="1.8" opacity="0.18"/>
+    <path d="M92 58c-6 0-12-3-16-8M92 72c6 0 12-3 16-8" stroke="#1e293b" stroke-width="1.2" opacity="0.1"/>
+    <circle cx="220" cy="48" r="16" stroke="#1e293b" stroke-width="1.4" opacity="0.12"/>
+    <path d="M220 64v20M210 74h20" stroke="#0f766e" stroke-width="2" opacity="0.2"/>
+  </svg>
+)}
+
+{c === 'migraene' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M86 88c-18 0-30-12-30-30 0-22 16-36 38-36 22 0 38 16 38 38 0 10-3 18-10 28H86Z" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <path d="M104 36c8 8 8 20 0 28" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" opacity="0.22"/>
+    <path d="M118 32c12 12 12 30 0 42" stroke="#14b8a6" stroke-width="2" stroke-linecap="round" opacity="0.16"/>
+  </svg>
+)}
+
+{c === 'neuroprotektiv' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <path d="M88 84c-16 0-28-12-28-28 0-14 10-26 24-28 4-12 16-20 30-18 8-6 18-8 28-4 12 0 22 8 26 20" stroke="#1e293b" stroke-width="1.6" opacity="0.12"/>
+    <path d="M96 54 122 42 146 56 168 44" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
+    <path d="M202 68 220 86l42-52" stroke="#0f766e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.2"/>
+    <circle cx="220" cy="86" r="12" stroke="#14b8a6" stroke-width="1.6" opacity="0.16"/>
+  </svg>
+)}
+
+{c === 'default' && (
+  <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
+    <rect x="34" y="34" width="70" height="52" rx="12" stroke="#1e293b" stroke-width="1.4" opacity="0.1"/>
+    <rect x="52" y="48" width="34" height="6" rx="3" fill="#14b8a6" opacity="0.14"/>
+    <rect x="52" y="62" width="40" height="6" rx="3" fill="#1e293b" opacity="0.08"/>
+    <path d="M138 84h48M138 68h74M138 52h58" stroke="#0f766e" stroke-width="2" stroke-linecap="round" opacity="0.14"/>
+    <circle cx="260" cy="60" r="24" stroke="#0f766e" stroke-width="1.6" opacity="0.16"/>
+    <circle cx="260" cy="60" r="8" fill="#14b8a6" opacity="0.12"/>
+    <path d="M236 60h-14M298 60h-14M260 36V22M260 98V84" stroke="#1e293b" stroke-width="1.2" opacity="0.1"/>
+  </svg>
+)}
+
+{!['schlaf','kognition','alterung','energie','immunsystem','herz-kreislauf','entzuendung','blutdruck','blutzucker','stress','depression','gelenke','haut','muskel','verdauung','oxidativer-stress','knochen','augen','leber','schilddruese','fertilitat','migraene','neuroprotektiv','default'].includes(c) && (
   <svg viewBox="0 0 320 120" class="w-full h-full" fill="none" aria-hidden="true">
     <rect x="34" y="34" width="70" height="52" rx="12" stroke="#1e293b" stroke-width="1.4" opacity="0.1"/>
     <rect x="52" y="48" width="34" height="6" rx="3" fill="#14b8a6" opacity="0.14"/>
