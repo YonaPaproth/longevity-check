@@ -1,0 +1,135 @@
+{
+  "entity": "cholin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "neuroprotektiv",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "methylierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "blut-hirn-schranke",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "homocystein",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-lebererkrankung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-blutdruckabfall",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-16816108",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:16816108",
+      "note": "Cholin ist essenziell für Leber, Methylierung und neurologische Entwicklung. Mangel induziert nachweisbar Fettleber und Muskelschäden beim Menschen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30015549",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30015549",
+      "note": "Review: Ein erheblicher Anteil der Bevölkerung erreicht die empfohlene Cholinzufuhr nicht. Besonders gefährdet: Schwangere, Veganer und Personen mit Lebererkrankungen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21094641",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21094641",
+      "note": "Beobachtungsstudie (n=1391): Höhere Cholinzufuhr war mit besserem verbalem Gedächtnis und geringerer Prävalenz weißer Substanzläsionen assoziiert."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-14695379",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:14695379",
+      "note": "Niedrige Cholinzufuhr war auch in einer folsäureverstärkten Population mit erhöhtem Risiko für Neuralrohrdefekte assoziiert (OR ~1,7 im untersten Quintil)."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "- **Meriva** (Phosphatidylcholin-Komplex): ~29-fach höhere Resorption vs."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "phosphatidylserin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "PS hat im Gehirn mehrere Funktionen:\n- Stabilisierung der Zellmembran-Fluidität\n- Unterstützung der **Acetylcholinfreisetzung** (Gedächtnis-Neurotransmitter)\n- Regulierung des **Cortisol-Clearings** n"
+    }
+  ]
+}

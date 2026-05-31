@@ -1,0 +1,18 @@
+{
+  "id": "egcg",
+  "type": "ingredient",
+  "name": "EGCG (Grüntee-Extrakt)",
+  "summary": "EGCG ist das Hauptcatechin im Grüntee und wird für Stoffwechsel- und Zellschutzmechanismen untersucht. Höher dosierte Supplemente können mit Leberrisiken verbunden sein.",
+  "aliases": [
+    "Epigallocatechingallat",
+    "Grüner Tee Extrakt",
+    "Green Tea Extract",
+    "Catechine",
+    "EGC"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 2,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 400
+}

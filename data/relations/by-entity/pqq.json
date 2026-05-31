@@ -1,0 +1,59 @@
+{
+  "entity": "pqq",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-16614413",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:16614413",
+      "note": "Mechanistische und präklinische Daten legen Mitochondrien-Bezug nahe."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22805162",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22805162",
+      "note": "Kleine Humanstudien zeigen Signale bei Müdigkeit und Entzündungsmarkern, aber keine starke Beweislast."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-19321502",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19321502",
+      "note": "Review: biologisch spannend, aber nicht ausreichend validiert für große Supplement-Versprechen."
+    }
+  ]
+}

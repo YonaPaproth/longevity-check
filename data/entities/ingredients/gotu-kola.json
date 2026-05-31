@@ -1,0 +1,16 @@
+{
+  "id": "gotu-kola",
+  "type": "ingredient",
+  "name": "Gotu Kola",
+  "summary": "Gotu Kola wird für Gefäße, Haut und Gehirn diskutiert. Die Daten sind interessant, aber eher patchy als stark.",
+  "aliases": [
+    "Centella asiatica",
+    "Gotu Kola",
+    "Tigergras"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "luteolin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25670000",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25670000",
+      "note": "Review: Luteolin ist mechanistisch spannend, vor allem neuroinflammatorisch."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18499654",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18499654",
+      "note": "Präklinisch starke Daten, klinisch deutlich weniger."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20005244",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20005244",
+      "note": "Flavonoide wie Luteolin sind konzeptionell interessant, aber noch kein belastbares Alterungsforschung-Tool."
+    }
+  ]
+}

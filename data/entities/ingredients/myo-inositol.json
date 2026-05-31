@@ -1,0 +1,17 @@
+{
+  "id": "myo-inositol",
+  "type": "ingredient",
+  "name": "Myo-Inositol",
+  "summary": "Myo-Inositol ist ein Zuckerverwandter mit vergleichsweise solider RCT-Lage bei PCOS und Insulinresistenz. Weitere Einsatzfelder werden untersucht.",
+  "aliases": [
+    "Inositol",
+    "Myo-Inositol",
+    "Vitamin B8",
+    "IP6"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 2000
+}

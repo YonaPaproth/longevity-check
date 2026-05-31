@@ -1,0 +1,15 @@
+{
+  "id": "msm",
+  "type": "ingredient",
+  "name": "MSM",
+  "summary": "MSM wird vor allem für Gelenke und Entzündung beworben. Die Daten sind nicht leer, aber deutlich kleiner als viele Versprechen.",
+  "aliases": [
+    "Methylsulfonylmethan",
+    "MSM"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 2000
+}

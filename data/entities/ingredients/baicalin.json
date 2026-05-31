@@ -1,0 +1,16 @@
+{
+  "id": "baicalin",
+  "type": "ingredient",
+  "name": "Baicalin",
+  "summary": "Baicalin ist ein TCM-Flavonoid mit interessanter Entzündungs- und Neuro-Story. Klinisch ist das Ganze noch ziemlich früh.",
+  "aliases": [
+    "Baicalin",
+    "Baicalein-Glykosid",
+    "Scutellaria baicalensis extract"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 4,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 250
+}

@@ -1,0 +1,125 @@
+{
+  "entity": "haut",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "akkermansia",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "astaxanthin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "beta-alanin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "glutathion",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "glycin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "gotu-kola",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "hyaluronsaeure",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "jod",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kollagen",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-tyrosin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "lutein-zeaxanthin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "nr",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "silicium",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-a",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-b2",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-b7",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-c",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-d3-k2",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-d3",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "zink",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

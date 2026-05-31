@@ -1,0 +1,17 @@
+{
+  "id": "nac",
+  "type": "ingredient",
+  "name": "NAC (N-Acetylcystein)",
+  "summary": "NAC ist ein Glutathion-Vorläufer mit etablierter medizinischer Nutzung. Als gesundes Altern-Supplement wird es diskutiert, die Evidenz bei gesunden Menschen bleibt aber begrenzt.",
+  "aliases": [
+    "N-Acetylcystein",
+    "N-Acetyl Cysteine",
+    "NAC",
+    "Acetylcystein"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 600
+}

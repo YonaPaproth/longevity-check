@@ -1,0 +1,18 @@
+{
+  "id": "coq10",
+  "type": "ingredient",
+  "name": "CoQ10 (Ubiquinol / Ubiquinon)",
+  "summary": "CoQ10 ist ein zelluläres Antioxidans, das vor allem bei Herzinsuffizienz und Statin-Nebenwirkungen untersucht wird. Bei Gesunden ohne Risikofaktoren ist der Zusatznutzen unklar.",
+  "aliases": [
+    "Coenzym Q10",
+    "Ubiquinol",
+    "Ubiquinon",
+    "CoQ10 Supplement",
+    "Q10"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 2,
+  "safety": "safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 200
+}

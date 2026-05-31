@@ -1,0 +1,91 @@
+{
+  "entity": "hyaluronsaeure",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "gelenke",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "augen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-40911749",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40911749",
+      "note": "Meta-Analyse über 7 RCTs: statistisch signifikante Verbesserungen in Hautfeuchtigkeit, Elastizität und Faltentiefe. Trends für TEWL und Faltenvolumen ohne Signifikanz. Fazit: moderate, konsistente Hau"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-41422283",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41422283",
+      "note": "RCT, n=150, 120 mg/Tag Natriumhyaluronat (1,8 MDa) über 12 Wochen: signifikant verbesserte Hautfeuchtigkeit, reduzierte TEWL, verringerte periorbitale Faltentiefe, erhöhte Epidermisdicke und NMF-Spieg"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-34933842",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:34933842",
+      "note": "RCT, n=60 Frauen, 200 mg/Tag Full-Spectrum-Hyaluronan, 28 Tage: Hautfeuchtigkeit +10,6 %, Faltentiefe −18,8 %, Faltenvolumen −17,6 %, Elastizität +5,1 %. Alle Parameter statistisch signifikant."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25013132",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25013132",
+      "note": "RCT, n=96, 120–240 mg/Tag orales Hyaluronan, 12 Wochen: signifikante Verbesserung der Hautfeuchtigkeit und Unterdrückung der Faltenbildung gegenüber Placebo."
+    }
+  ]
+}

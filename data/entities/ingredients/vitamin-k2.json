@@ -1,0 +1,18 @@
+{
+  "id": "vitamin-k2",
+  "type": "ingredient",
+  "name": "Vitamin K2 (MK-7)",
+  "summary": "Vitamin K2 aktiviert Proteine des Calciumstoffwechsels und wird vor allem im Zusammenhang mit Knochen- und Gefäßmarkern diskutiert. MK-7 aus Natto gilt als gut bioverfügbar.",
+  "aliases": [
+    "Menaquinon-7",
+    "MK-7",
+    "Menaquinon-4",
+    "MK-4",
+    "Vitamin K2",
+    "Natto"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": true
+}

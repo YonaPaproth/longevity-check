@@ -1,0 +1,99 @@
+{
+  "entity": "vitamin-a",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "augen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "migraene",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-kopfschmerzen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-35129835",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:35129835",
+      "note": "Cochrane-Review: In Regionen mit Mangel reduziert Vitamin-A-Supplementierung Kindersterblichkeit und bestimmte Infektionen. Aussage vor allem für Mangelpopulationen relevant."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-29058795",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29058795",
+      "note": "Review: Vitamin A reguliert angeborene und adaptive Immunität sowie Schleimhautbarrieren. Biologisch gut plausibel, aber Nutzen von Extra-Supplementen hängt stark vom Versorgungsstatus ab."
+    }
+  ]
+}

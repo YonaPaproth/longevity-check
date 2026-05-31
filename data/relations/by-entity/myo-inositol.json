@@ -1,0 +1,116 @@
+{
+  "entity": "myo-inositol",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "migraene",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "serotonin-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "nüchternblutzucker",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "insulin",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "nac",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Mehrere RCTs zeigen:\n- Normalisierung des Menstruationszyklus\n- Verbesserte Ovulationsrate\n- Reduktion von Androgenen (Testosteron, DHEA)\n- Verbesserung der Insulinsensitivität\n- Günstige Effekte auf "
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-kopfschmerzen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22327358",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22327358",
+      "note": "Meta-Analyse: Myo-Inositol war mit Veränderungen verbundene Ovulationsrate, Menstruationsregularität, FSH/LH-Ratio und Insulinsensitivität bei PCOS signifikant vs. Placebo."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-17952759",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17952759",
+      "note": "RCT (n=92): 4 g Myo-Inositol/Tag reduzierte Nüchternblutzucker, Insulin und Androgenspiegel signifikant. Ovulationsrate war mit Veränderungen verbundene sich von 25 % auf 65 %."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-8874839",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:8874839",
+      "note": "Cross-over RCT: 18 g Inositol/Tag reduzierte OCD-Symptome signifikant – vergleichbar mit SSRIs. Basis für psychische Einsatzbereiche."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-7730405",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:7730405",
+      "note": "RCT: 12 g Inositol/Tag reduzierte Panikattacken-Frequenz signifikant. Mechanismus: Second-Messenger-System des Phosphatidylinositol-Signalwegs."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hyaluronsaeure",
+  "type": "ingredient",
+  "name": "Hyaluronsäure",
+  "summary": "Körpereigenes Glycosaminoglykan mit hoher Wasserbindungskapazität. Mehrere RCTs belegen moderate Effekte auf Hautfeuchtigkeit und Faltenreduktion; orale Gelenkdaten schwächer.",
+  "aliases": [
+    "Hyaluronic Acid",
+    "Hyaluron",
+    "Sodium Hyaluronate",
+    "HA"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 120
+}

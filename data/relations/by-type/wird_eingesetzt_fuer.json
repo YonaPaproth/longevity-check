@@ -1,0 +1,2566 @@
+{
+  "type": "wird_eingesetzt_fuer",
+  "count": 512,
+  "relations": [
+    {
+      "subject": "5-htp",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "5-htp",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "5-htp",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "5-htp",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "5-htp",
+      "target": "migraene",
+      "confidence": 0.7
+    },
+    {
+      "subject": "acetyl-l-carnitin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "acetyl-l-carnitin",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "akg",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "akg",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "akkermansia",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "akkermansia",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "akkermansia",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "akkermansia",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "akkermansia",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "akkermansia",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "alpha-gpc",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "schilddruese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "schilddruese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "augen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astragalus",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astragalus",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "bacopa",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "baicalin",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "berberine",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "berberine",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "berberine",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "beta-glucan",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "beta-glucan",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "betain",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "betain",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "betain",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "betain",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "betain",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "betain",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "betain",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "bor",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "bor",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "schilddruese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cholin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cholin",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cholin",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cholin",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cholin",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cholin",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "chrom",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cordyceps",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "gelenke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "migraene",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ergothionein",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ergothionein",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ergothionein",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ergothionein",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ergothionein",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ergothionein",
+      "target": "augen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ergothionein",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fisetin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fisetin",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fisetin",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fisetin",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fisetin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fisetin",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "flohsamenschalen",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "folsaeure",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "folsaeure",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "folsaeure",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "folsaeure",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gaba",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gaba",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gaba",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ginkgo",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ginseng",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ginseng",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glucosamin",
+      "target": "gelenke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glutathion",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glutathion",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glutathion",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glutathion",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glutathion",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glutathion",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glutathion",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glutathion",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glutathion",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glynac",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glynac",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glynac",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glynac",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gotu-kola",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gynostemma",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gynostemma",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gynostemma",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gynostemma",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gynostemma",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hesperidin",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "gelenke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "augen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hydroxytyrosol",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hydroxytyrosol",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hydroxytyrosol",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hydroxytyrosol",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hydroxytyrosol",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "inulin",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "schilddruese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kalium",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kalium",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kalium",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "migraene",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kollagen",
+      "target": "gelenke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kollagen",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kollagen",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kollagen",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kollagen",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kupfer",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kupfer",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kupfer",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-carnitin",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "schilddruese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "migraene",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "augen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "luteolin",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "maca",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "migraene",
+      "confidence": 0.7
+    },
+    {
+      "subject": "mangan",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "mangan",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "mangan",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "melatonin",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "melatonin",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "melatonin",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "melatonin",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "melatonin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "molybdaen",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "msm",
+      "target": "gelenke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "msm",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "migraene",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nmn",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nmn",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nmn",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nr",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nr",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nr",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nr",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "omega-3",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "omega-3",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "omega-3",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "omega-3",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "omega-3",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "omega-3",
+      "target": "augen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "phosphor",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "phosphor",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pqq",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pqq",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "reishi",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "reishi",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "reishi",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "migraene",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rhodiola",
+      "target": "schlaf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rhodiola",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rhodiola",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rhodiola",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rhodiola",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rhodiola",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rutin",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rutin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "same",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "schisandra",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "schisandra",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "schisandra",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "selen",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "selen",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "selen",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "selen",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "selen",
+      "target": "schilddruese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "selen",
+      "target": "fertilitat",
+      "confidence": 0.7
+    },
+    {
+      "subject": "shilajit",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "silicium",
+      "target": "gelenke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "silicium",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "silicium",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "silymarin",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "schilddruese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "augen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "tmg",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "trehalose",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "trehalose",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "augen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "migraene",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b1",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b1",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b2",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b2",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b2",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b2",
+      "target": "migraene",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b3",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b3",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b3",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b3",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b5",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b5",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b5",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b6",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b6",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b6",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b7",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b7",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b7",
+      "target": "schilddruese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "energie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "gelenke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "blutdruck",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "blutzucker",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "gelenke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "kognition",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "neuroprotektiv",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-k1",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-k2",
+      "target": "herz-kreislauf",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-k2",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-k2",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-k2",
+      "target": "knochen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-k2",
+      "target": "leber",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "haut",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "muskel",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "alterung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "oxidativer-stress",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "augen",
+      "confidence": 0.7
+    }
+  ]
+}

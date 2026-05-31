@@ -1,0 +1,15 @@
+{
+  "id": "fisetin",
+  "type": "ingredient",
+  "name": "Fisetin",
+  "summary": "Fisetin ist ein Flavonoid mit senolytischer Wirkung in Tierversuchen – es beseitigt seneszente ('Zombie'-)Zellen. Humanstudien laufen, belastbare Ergebnisse fehlen noch.",
+  "aliases": [
+    "3,3',4',7-Tetrahydroxyflavon",
+    "Fisetin-Flavonoid"
+  ],
+  "category": "senolytics",
+  "evidenceLevel": 3,
+  "safety": "insufficient-data",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

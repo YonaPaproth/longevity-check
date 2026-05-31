@@ -1,0 +1,11 @@
+{
+  "entity": "ferritin",
+  "relations": [
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "eisen",
+      "direction": "incoming",
+      "confidence": 0.6
+    }
+  ]
+}

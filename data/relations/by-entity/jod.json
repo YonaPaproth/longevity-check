@@ -1,0 +1,128 @@
+{
+  "entity": "jod",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schilddruese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "tsh",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-kinder",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schilddruesenerkrankung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22187108",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22187108",
+      "note": "Review: Deutschland hat trotz Jodsalz-Programm weiterhin unzureichende Jodversorgung (medianer Urin-Jodgehalt 108 µg/L – Zielwert WHO: >150). Schwangere besonders betroffen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-16825686",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:16825686",
+      "note": "RCT (n=310 Schulkinder in Jodmangelgebiet): Jod-Supplementierung war mit Veränderungen verbundene kognitive Leistung signifikant. Unterstreicht Bedeutung für Gehirnentwicklung."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22536526",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22536526",
+      "note": "Review: Schilddrüsenfunktion beeinflusst Alterungsprozesse direkt – über Stoffwechsel, Mitochondrienfunktion und Entzündungsregulation. Jodversorgung bleibt lebenslang relevant."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24891972",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24891972",
+      "note": "Review: Zu hohe Jodzufuhr kann Hashimoto-Thyreoiditis triggern oder verschlimmern. Besonders bei genetischer Prädisposition. Zeigt die Bedeutung der richtigen Dosierung."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "sulforaphan",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "Bei sehr hohen Dosen mögliche Schilddrüsenprobleme (Isothiocyanate hemmen Jodaufnahme) – bei normaler Jodversorgung kein Risiko."
+    }
+  ]
+}

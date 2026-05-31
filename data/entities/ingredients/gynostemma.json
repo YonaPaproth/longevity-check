@@ -1,0 +1,17 @@
+{
+  "id": "gynostemma",
+  "type": "ingredient",
+  "name": "Gynostemma (Jiaogulan)",
+  "summary": "Gynostemma ist ein adaptogenes Kraut aus Südostasien, das AMPK aktiviert – ähnlich wie Metformin – und mit gesundes Altern-Populationen in China assoziiert wird.",
+  "aliases": [
+    "Gynostemma pentaphyllum",
+    "Jiaogulan",
+    "Southern Ginseng",
+    "Gynostemma"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 450
+}

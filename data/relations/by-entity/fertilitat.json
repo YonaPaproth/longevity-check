@@ -1,0 +1,11 @@
+{
+  "entity": "fertilitat",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "selen",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

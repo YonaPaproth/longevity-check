@@ -1,0 +1,18 @@
+{
+  "id": "alpha-liponsaeure",
+  "type": "ingredient",
+  "name": "Alpha-Liponsäure (R-ALA)",
+  "summary": "Mitochondriales Antioxidans mit wasser- und fettlöslichen Eigenschaften. R-Form vs. Racemat wird diskutiert. Evidenz vor allem aus medizinischen Kontexten (Neuropathie).",
+  "aliases": [
+    "ALA",
+    "R-ALA",
+    "Alpha-Lipoic Acid",
+    "Thioctic acid",
+    "Liponsäure"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 300
+}

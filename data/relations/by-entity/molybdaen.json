@@ -1,0 +1,39 @@
+{
+  "entity": "molybdaen",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-11911815",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:11911815",
+      "note": "Review: Molybdän ist für bestimmte Enzymsysteme essenziell, aber der praktische Supplement-Nutzen bei normaler Ernährung ist gering."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-8906638",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:8906638",
+      "note": "Molybdän zählt zu den Spurenelementen mit klarer biologischer Funktion, aber geringer klinischer Relevanz als Supplement im Alltag."
+    }
+  ]
+}

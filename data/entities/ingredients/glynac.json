@@ -1,0 +1,16 @@
+{
+  "id": "glynac",
+  "type": "ingredient",
+  "name": "GlyNAC (Glycin + NAC)",
+  "summary": "GlyNAC ist die Kombination aus Glycin und N-Acetylcystein (NAC) zur Unterstützung der Glutathion-Synthese. Erste klinische Daten zu Healthy-Alterung-Kontexten sind interessant, aber noch begrenzt.",
+  "aliases": [
+    "GlyNAC",
+    "Glycine NAC combination",
+    "Glycin + N-Acetylcystein"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1800
+}

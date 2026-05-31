@@ -1,0 +1,17 @@
+{
+  "id": "calcium",
+  "type": "ingredient",
+  "name": "Calcium",
+  "summary": "Essenzieller Mineralstoff für Knochen, Muskeln und Nerven. Meta-Analysen belegen moderate Knocheneffekte bei Defizit; hochdosierte Supplemente sind kardiovaskulär nicht risikofrei.",
+  "aliases": [
+    "Kalzium",
+    "Calciumcitrat",
+    "Calciumcarbonat",
+    "Calcium Supplement"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "likely-safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 500
+}

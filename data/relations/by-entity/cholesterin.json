@@ -1,0 +1,23 @@
+{
+  "entity": "cholesterin",
+  "relations": [
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "betain",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "resveratrol",
+      "direction": "incoming",
+      "confidence": 0.6
+    }
+  ]
+}

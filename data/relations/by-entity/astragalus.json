@@ -1,0 +1,53 @@
+{
+  "entity": "astragalus",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26901749",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26901749",
+      "note": "Review: präklinisch interessant, klinische Evidenz bleibt begrenzt."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22899991",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22899991",
+      "note": "Telomer- und gesundes Altern-Marketing geht den Daten deutlich voraus."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24344415",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24344415",
+      "note": "Telomerase-Narrative sind spannend, aber klinisch weit von gesicherter Relevanz entfernt."
+    }
+  ]
+}

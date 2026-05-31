@@ -1,0 +1,29 @@
+{
+  "entity": "blut-hirn-schranke",
+  "relations": [
+    {
+      "relation": "wirkt_ueber",
+      "target": "5-htp",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "astaxanthin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "cholin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "lion-s-mane",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

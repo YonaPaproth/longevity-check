@@ -1,0 +1,18 @@
+{
+  "id": "koffein",
+  "type": "ingredient",
+  "name": "Koffein",
+  "summary": "Koffein ist die weltweit am häufigsten konsumierte psychoaktive Substanz. Hunderte RCTs belegen Effekte auf Wachheit, Reaktionszeit, Ausdauerleistung und kurzfristige Kognition.",
+  "aliases": [
+    "Caffeine",
+    "Coffein",
+    "Koffein-Anhydrat",
+    "Caffeine Anhydrous",
+    "1,3,7-Trimethylxanthin"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 1,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 200
+}

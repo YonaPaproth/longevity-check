@@ -1,0 +1,41 @@
+{
+  "entity": "ginkgo",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-19821345",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19821345",
+      "note": "Gemischte Datenlage mit teils kleinen Vorteilen in bestimmten Populationen, aber keine klare Universalantwort."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22440494",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22440494",
+      "note": "Heterogene Ergebnisse, abhängig von Population und Studiendesign."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-16007253",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:16007253",
+      "note": "Wichtige Interaktionsfrage, vor allem im Kontext Blutverdünnung."
+    }
+  ]
+}

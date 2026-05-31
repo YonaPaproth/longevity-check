@@ -1,0 +1,701 @@
+{
+  "type": "benoetigt_biomarker_check",
+  "count": 139,
+  "relations": [
+    {
+      "subject": "5-htp",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "akg",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "akkermansia",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "crp",
+      "confidence": 0.6
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "nüchternblutzucker",
+      "confidence": 0.6
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "insulin",
+      "confidence": 0.6
+    },
+    {
+      "subject": "apigenin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "apigenin",
+      "target": "nad-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "apigenin",
+      "target": "glutathion-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "crp",
+      "confidence": 0.6
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "tsh",
+      "confidence": 0.6
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "astragalus",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "berberine",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "beta-glucan",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "betain",
+      "target": "homocystein",
+      "confidence": 0.6
+    },
+    {
+      "subject": "betain",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "betain",
+      "target": "cholesterin",
+      "confidence": 0.6
+    },
+    {
+      "subject": "calcium",
+      "target": "vitamin-d-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "calcium",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "cholin",
+      "target": "homocystein",
+      "confidence": 0.6
+    },
+    {
+      "subject": "cholin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "chrom",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "cistanche",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "coq10",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "coq10",
+      "target": "blutdruck-werte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "coq10",
+      "target": "glutathion-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "curcumin",
+      "target": "crp",
+      "confidence": 0.6
+    },
+    {
+      "subject": "curcumin",
+      "target": "hba1c",
+      "confidence": 0.6
+    },
+    {
+      "subject": "curcumin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "curcumin",
+      "target": "glutathion-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "curcumin",
+      "target": "cholesterin",
+      "confidence": 0.6
+    },
+    {
+      "subject": "curcumin",
+      "target": "nüchternblutzucker",
+      "confidence": 0.6
+    },
+    {
+      "subject": "egcg",
+      "target": "crp",
+      "confidence": 0.6
+    },
+    {
+      "subject": "egcg",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "eisen",
+      "target": "crp",
+      "confidence": 0.6
+    },
+    {
+      "subject": "eisen",
+      "target": "ferritin",
+      "confidence": 0.6
+    },
+    {
+      "subject": "eisen",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "ergothionein",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "ergothionein",
+      "target": "glutathion-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "fisetin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "flohsamenschalen",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "folsaeure",
+      "target": "homocystein",
+      "confidence": 0.6
+    },
+    {
+      "subject": "folsaeure",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "ginseng",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "glutathion",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "glutathion",
+      "target": "glutathion-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "glycin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "glynac",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "gotu-kola",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "gynostemma",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "hydroxytyrosol",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "inulin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "jod",
+      "target": "tsh",
+      "confidence": 0.6
+    },
+    {
+      "subject": "jod",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "kaempferol",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "koffein",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "kollagen",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "kreatin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "kupfer",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "l-theanin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "lithium-orotat",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "luteolin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "magnesium",
+      "target": "serum-magnesium",
+      "confidence": 0.6
+    },
+    {
+      "subject": "magnesium",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "magnesium",
+      "target": "blutdruck-werte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "magnesium",
+      "target": "insulin",
+      "confidence": 0.6
+    },
+    {
+      "subject": "mangan",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "melatonin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "molybdaen",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "msm",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "nüchternblutzucker",
+      "confidence": 0.6
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "insulin",
+      "confidence": 0.6
+    },
+    {
+      "subject": "nac",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "nac",
+      "target": "glutathion-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "nmn",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "nmn",
+      "target": "nad-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "nr",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "nr",
+      "target": "nad-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "omega-3",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "omega-3",
+      "target": "glutathion-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "phosphor",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "pqq",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "probiotika",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "pterostilben",
+      "target": "crp",
+      "confidence": 0.6
+    },
+    {
+      "subject": "pterostilben",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "pterostilben",
+      "target": "blutdruck-werte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "quercetin",
+      "target": "crp",
+      "confidence": 0.6
+    },
+    {
+      "subject": "quercetin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "quercetin",
+      "target": "blutdruck-werte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "quercetin",
+      "target": "glutathion-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "resveratrol",
+      "target": "crp",
+      "confidence": 0.6
+    },
+    {
+      "subject": "resveratrol",
+      "target": "tsh",
+      "confidence": 0.6
+    },
+    {
+      "subject": "resveratrol",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "resveratrol",
+      "target": "cholesterin",
+      "confidence": 0.6
+    },
+    {
+      "subject": "resveratrol",
+      "target": "nüchternblutzucker",
+      "confidence": 0.6
+    },
+    {
+      "subject": "rhodiola",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "rutin",
+      "target": "glutathion-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "schisandra",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "selen",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "silymarin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "spermidine",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "spermidine",
+      "target": "blutdruck-werte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "crp",
+      "confidence": 0.6
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "glutathion-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "taurin",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "taurin",
+      "target": "blutdruck-werte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "tmg",
+      "target": "homocystein",
+      "confidence": 0.6
+    },
+    {
+      "subject": "tmg",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "trehalose",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-b1",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "homocystein",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-b2",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-b3",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-b5",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-b6",
+      "target": "homocystein",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-b6",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "vitamin-d-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "vitamin-d-spiegel",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "vitamin-k1",
+      "target": "leberwerte",
+      "confidence": 0.6
+    },
+    {
+      "subject": "zink",
+      "target": "leberwerte",
+      "confidence": 0.6
+    }
+  ]
+}

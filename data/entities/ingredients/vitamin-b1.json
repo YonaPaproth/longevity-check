@@ -1,0 +1,16 @@
+{
+  "id": "vitamin-b1",
+  "type": "ingredient",
+  "name": "Vitamin B1 (Thiamin)",
+  "summary": "Vitamin B1 ist essenziell für Energie- und Nervenstoffwechsel. Supplemente helfen vor allem bei Mangel oder Risiko-Gruppen – nicht als allgemeiner gesundes Altern-Booster.",
+  "aliases": [
+    "Thiamin",
+    "Aneurin",
+    "Vitamin B1"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 50
+}

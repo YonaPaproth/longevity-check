@@ -1,0 +1,16 @@
+{
+  "id": "lithium-orotat",
+  "type": "ingredient",
+  "name": "Lithium (Orotat)",
+  "summary": "Lithium-Orotat wird für Stimmung und neurobiologische Forschung gehypt. Die Datenlage ist dünn, während die Sicherheits- und Regulierungslage heikel bleibt.",
+  "aliases": [
+    "Lithium Orotate",
+    "Lithiumorotat",
+    "Mikrodosis-Lithium"
+  ],
+  "category": "other",
+  "evidenceLevel": 4,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 5
+}

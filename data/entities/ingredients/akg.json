@@ -1,0 +1,17 @@
+{
+  "id": "akg",
+  "type": "ingredient",
+  "name": "Alpha-Ketoglutarat (AKG)",
+  "summary": "AKG ist in der gesundes Altern-Bubble beliebt, vor allem als Ca-AKG. Die Human-Evidenz für Alterungsforschung-Effekte ist aber bislang sehr dünn.",
+  "aliases": [
+    "Alpha-Ketoglutarat",
+    "Ca-AKG",
+    "Calcium Alpha-Ketoglutarate",
+    "AKG"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 4,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1000
+}

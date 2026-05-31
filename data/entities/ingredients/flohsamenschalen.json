@@ -1,0 +1,16 @@
+{
+  "id": "flohsamenschalen",
+  "type": "ingredient",
+  "name": "Flohsamenschalen (Psyllium)",
+  "summary": "Psyllium ist ein gut untersuchter Ballaststoff für Verdauung; auch Cholesterin- und Blutzuckermarker werden untersucht. Wenig Hype, aber praktisch relevant.",
+  "aliases": [
+    "Psyllium",
+    "Flohsamenschalen",
+    "Plantago ovata"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 5000
+}

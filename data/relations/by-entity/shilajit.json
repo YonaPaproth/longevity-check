@@ -1,0 +1,41 @@
+{
+  "entity": "shilajit",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26395129",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26395129",
+      "note": "Kleine Humanstudien mit Signalen, aber keine breite robuste Evidenz."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23717060",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23717060",
+      "note": "Review: biochemisch interessant, aber die Datenlage bleibt vorläufig."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-12204876",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:12204876",
+      "note": "Qualitäts- und Reinheitsfragen sind bei mineralischen Naturprodukten besonders wichtig."
+    }
+  ]
+}

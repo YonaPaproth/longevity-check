@@ -1,0 +1,18 @@
+{
+  "id": "ashwagandha",
+  "type": "ingredient",
+  "name": "Ashwagandha (Withania somnifera)",
+  "summary": "Ashwagandha ist ein ayurvedisches Adaptogen, das in RCTs vor allem für Stressmarker und subjektives Wohlbefinden untersucht wird. Für gesundes Altern-Effekte fehlen Langzeitdaten.",
+  "aliases": [
+    "Schlafbeere",
+    "Withania somnifera",
+    "Indischer Ginseng",
+    "KSM-66",
+    "Sensoril"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 600
+}

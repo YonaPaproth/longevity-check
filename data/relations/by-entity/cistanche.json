@@ -1,0 +1,41 @@
+{
+  "entity": "cistanche",
+  "relations": [
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26830552",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26830552",
+      "note": "Review: präklinisch interessante Wirkungen, aber kaum belastbare Human-Endpunkte."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-34145276",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:34145276",
+      "note": "Zusammenfassung der Wirkstoffe und präklinischen Daten."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28167794",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28167794",
+      "note": "Traditionsreiche Nutzung, moderne klinische Evidenz aber noch begrenzt."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "vitamin-e",
+  "type": "ingredient",
+  "name": "Vitamin E (Tocopherole)",
+  "summary": "Vitamin E ist an Schutzmechanismen gegen Oxidation beteiligt. Natürliche gemischte Tocopherole gelten meist als unauffällig; synthetisches Alpha-Tocopherol in hohen Dosen war in einer großen…",
+  "aliases": [
+    "Tocopherol",
+    "Alpha-Tocopherol",
+    "Gamma-Tocopherol",
+    "Tocotrienole",
+    "d-alpha-Tocopherol"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 2,
+  "safety": "caution",
+  "efsa_approved": true,
+  "typical_dose_mg": 100
+}

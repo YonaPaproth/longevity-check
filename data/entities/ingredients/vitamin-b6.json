@@ -1,0 +1,17 @@
+{
+  "id": "vitamin-b6",
+  "type": "ingredient",
+  "name": "Vitamin B6",
+  "summary": "Vitamin B6 ist wichtig für Aminosäurestoffwechsel, Nerven und Blutbildung. Bei Mangel nützlich – chronisch hohe Dosen können aber Nervenschäden auslösen.",
+  "aliases": [
+    "Pyridoxin",
+    "Pyridoxal-5-Phosphat",
+    "PLP",
+    "Vitamin B6"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "caution",
+  "efsa_approved": true,
+  "typical_dose_mg": 10
+}

@@ -1,0 +1,59 @@
+{
+  "entity": "tmg",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "methylierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "homocystein",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-12514275",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:12514275",
+      "note": "TMG war mit niedrigeren Werten verbundene Homocystein in Humanstudien zuverlässig. Ob das automatisch klinische Vorteile erzeugt, bleibt offen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-15466943",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15466943",
+      "note": "Review: TMG ist metabolisch relevant, besonders als Methylgruppendonor und Osmolyt. Die Praxisanwendungen gehen der Evidenz teils voraus."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21485974",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21485974",
+      "note": "Homocystein sinkt, harte klinische Endpunkte bleiben aber unklar."
+    }
+  ]
+}

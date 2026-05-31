@@ -1,0 +1,103 @@
+{
+  "entity": "fisetin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "neuroprotektiv",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "senolytisch",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "telomer-erhaltung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30279143",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30279143",
+      "note": "Tierstudie (Mäuse): Fisetin war das potenteste Senolytikum aus 10 getesteten Flavonoiden. Verlängerte Lebenserwartung um 10 % und war mit Veränderungen verbundene Gesundheitsmarker."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30616726",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30616726",
+      "note": "Pilot-Studie mit Dasatinib+Quercetin (verwandter Senolytika-Ansatz): Reduktion seneszenter Zellmarker im Fettgewebe. Basis für größere Studien mit Fisetin."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-32131541",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32131541",
+      "note": "Review: Fisetin wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress und Entzündung in Tiermodellen. Aktiviert Sirtuin-1 und AMPK."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28575845",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28575845",
+      "note": "Review senolytischer Strategien: Fisetin als Kandidat mit günstigem Nebenwirkungsprofil im Vergleich zu pharmakologischen Senolytics."
+    }
+  ]
+}

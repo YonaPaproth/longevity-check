@@ -1,0 +1,16 @@
+{
+  "id": "alpha-gpc",
+  "type": "ingredient",
+  "name": "Alpha-GPC",
+  "summary": "Alpha-GPC ist eine cholinerge Verbindung mit guter Gehirn-Plausibilität. Die Daten für Fokus und Kognition sind interessant, aber nicht überragend robust.",
+  "aliases": [
+    "L-Alpha-Glycerylphosphorylcholin",
+    "Alpha GPC",
+    "Alpha-GPC"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 300
+}

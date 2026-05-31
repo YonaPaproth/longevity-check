@@ -1,0 +1,53 @@
+{
+  "entity": "vitamin-k1",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22516723",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22516723",
+      "note": "Review zu Funktionen von Vitamin K in Blutgerinnung und Knochenstoffwechsel. Die essenzielle Rolle ist vergleichsweise gut untersucht."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30945251",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30945251",
+      "note": "Review: Vitamin-K-Zufuhr ist für viele Menschen ausreichend, kann aber bei geringer Gemüsezufuhr suboptimal sein."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20236064",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20236064",
+      "note": "Schwankende Vitamin-K-Zufuhr kann die Steuerung von Vitamin-K-Antagonisten erschweren. Relevanz vor allem für Warfarin/Phenprocoumon-Nutzer."
+    }
+  ]
+}

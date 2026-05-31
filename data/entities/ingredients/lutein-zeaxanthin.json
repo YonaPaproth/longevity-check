@@ -1,0 +1,18 @@
+{
+  "id": "lutein-zeaxanthin",
+  "type": "ingredient",
+  "name": "Lutein & Zeaxanthin",
+  "summary": "Lutein und Zeaxanthin sind Carotinoide, die sich in der Makula der Netzhaut anreichern. Vergleichsweise gut untersucht sind sie vor allem im Kontext visueller Belastung und altersbezogener…",
+  "aliases": [
+    "Lutein",
+    "Zeaxanthin",
+    "Makulapigment",
+    "Xanthophylle",
+    "MPOD"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 2,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 10
+}

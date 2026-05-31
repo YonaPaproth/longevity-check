@@ -1,0 +1,41 @@
+{
+  "entity": "blutdruck-werte",
+  "relations": [
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "quercetin",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "spermidine",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "taurin",
+      "direction": "incoming",
+      "confidence": 0.6
+    }
+  ]
+}

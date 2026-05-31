@@ -1,0 +1,116 @@
+{
+  "entity": "zink",
+  "relations": [
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "calcium",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "000 mg/Tag\n\n**Wechselwirkungen:**\n- **Eisen, Zink**: Calcium hemmt die gleichzeitige Aufnahme → zeitlich trennen\n- **Bisphosphonate** (Osteoporose-Medikamente): Nicht gleichzeitig einnehmen\n- **Schild"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "augen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "dna-reparatur",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "kollagen-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18385818",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18385818",
+      "note": "Umfassender Review: Zinkmangel beeinträchtigt T-Zell-Funktion, war mit höheren Werten verbunden oxidativen Stress und Entzündungsmarker. Supplementierung normalisiert Immunfunktion bei Mangel."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18793724",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18793724",
+      "note": "Meta-Analyse: Zinksupplementierung reduziert Diarrhoe-Inzidenz bei Kindern um 25 %, Pneumonie um 41 %. Zeigt biologische Relevanz der Zinkversorgung."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-8875519",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:8875519",
+      "note": "Bei zinkmangelnden älteren Männern: Supplementierung war mit höheren Werten verbundene Testosteron von 8,3 auf 16,0 nmol/L. Kein Effekt bei gut versorgten Männern."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18385819",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18385819",
+      "note": "Review: Zinkmangel nimmt mit dem Alter zu, korreliert mit Immunseneszenz, Entzündung und war mit höheren Werten verbundenem Oxidationsstress. Supplementierung bei Älteren war mit Veränderungen verbund"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "inulin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-17604172",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17604172",
+      "note": "Klassischer Review zur präbiotischen Wirkung von Inulin und verwandten Fructanen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24299756",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24299756",
+      "note": "Inulin kann Darmfunktion und mikrobielle Zusammensetzung beeinflussen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28298225",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28298225",
+      "note": "Humanstudien zeigen Nutzen für Stuhlgang und Darmkomfort bei bestimmten Gruppen."
+    }
+  ]
+}

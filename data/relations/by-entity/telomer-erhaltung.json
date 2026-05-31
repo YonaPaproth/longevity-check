@@ -1,0 +1,23 @@
+{
+  "entity": "telomer-erhaltung",
+  "relations": [
+    {
+      "relation": "wirkt_ueber",
+      "target": "ashwagandha",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "fisetin",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

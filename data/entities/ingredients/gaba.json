@@ -1,0 +1,16 @@
+{
+  "id": "gaba",
+  "type": "ingredient",
+  "name": "GABA",
+  "summary": "GABA klingt logisch für Entspannung und Schlaf. Das Hauptproblem: oral eingenommen erreicht es das Gehirn wahrscheinlich nur begrenzt.",
+  "aliases": [
+    "Gamma-Aminobuttersäure",
+    "Gamma-Aminobutyric Acid",
+    "GABA"
+  ],
+  "category": "other",
+  "evidenceLevel": 4,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 250
+}

@@ -1,0 +1,125 @@
+{
+  "entity": "blutdruck",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "beta-alanin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "cholin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "egcg",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "hydroxytyrosol",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kalium",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "koffein",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-citrullin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-theanin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-tyrosin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "myo-inositol",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "nac",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "nr",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "quercetin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "resveratrol",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "sulforaphan",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "taurin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-d3-k2",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

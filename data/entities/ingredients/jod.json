@@ -1,0 +1,16 @@
+{
+  "id": "jod",
+  "type": "ingredient",
+  "name": "Jod",
+  "summary": "Jod ist essenziell für Schilddrüsenhormone und kognitive Entwicklung. In Deutschland strukturell mangelversorgt trotz Jodsalz-Programm. EFSA-Claims zugelassen.",
+  "aliases": [
+    "Iod",
+    "Iodine",
+    "Kaliumiodid",
+    "Jodid"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 1,
+  "safety": "caution",
+  "efsa_approved": true
+}

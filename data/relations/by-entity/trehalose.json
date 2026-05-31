@@ -1,0 +1,65 @@
+{
+  "entity": "trehalose",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "mtor-hemmung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "autophagie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-15300606",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15300606",
+      "note": "Trehalose induzierte Autophagie und reduzierte Proteinaggregation im Maus-Huntington-Modell signifikant."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24481086",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24481086",
+      "note": "Trehalose verlangsamte Herzalterung bei Ratten durch gesteigerte Autophagie – Mitochondrienfunktion war mit Veränderungen verbunden."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-31978754",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31978754",
+      "note": "Pilota-Humanstudie: Trehalose-Einnahme war mit Veränderungen verbundene Glukosetoleranz und arterielle Steifigkeit bei übergewichtigen Erwachsenen."
+    }
+  ]
+}

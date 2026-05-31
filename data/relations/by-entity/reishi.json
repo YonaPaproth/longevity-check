@@ -1,0 +1,53 @@
+{
+  "entity": "reishi",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-17336393",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17336393",
+      "note": "Review: viele präklinische Daten, aber wenig robuste Human-Endpunkte."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26058794",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26058794",
+      "note": "Cochrane-nahe Bewertung: klinische Evidenz bleibt schwach."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21438650",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21438650",
+      "note": "Biologisch plausibel, aber nicht gleichbedeutend mit starkem Supplement-Nutzen."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "kollagen",
+  "type": "ingredient",
+  "name": "Kollagen",
+  "summary": "Kollagen ist eines der bekanntesten Supplements. Für Haut und Gelenkmarker gibt es Humanstudien; weitergehende Verjüngungsversprechen sind nicht belegt.",
+  "aliases": [
+    "Collagen",
+    "Kollagenpeptide",
+    "Hydrolysiertes Kollagen",
+    "Kollagen Typ I",
+    "Kollagen Typ II",
+    "Marine Collagen"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 10000
+}

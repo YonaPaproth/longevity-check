@@ -1,0 +1,129 @@
+{
+  "entity": "5-htp",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "migraene",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "serotonin-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "blut-hirn-schranke",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "l-tryptophan",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Es wird aus L-Tryptophan (aus der Nahrung) synthetisiert und ist der letzte Schritt vor der Serotoninbildung."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "nr",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": ")\n- SNRIs (Venlafaxin, Duloxetin)\n- MAO-Hemmern (Tranylcypromin, Moclobemid)\n- Tramadol, Triptanen (Migränemittel)\n- Lithium, Linezolid\n\nDas Serotonin-Syndrom ist ein potenziell lebensbedrohlicher Zus"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-ssri-einnahme",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-mao-hemmer",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-serotonin-syndrom",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-16716930",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:16716930",
+      "note": "Review: 5-HTP überquert Blut-Hirn-Schranke effizient und war mit höheren Werten verbunden zentralnervöse Serotoninsynthese. Klinische Studien zeigen antidepressive Wirkung vergleichbar mit Fluvoxamin "
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-9727088",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:9727088",
+      "note": "Review klinischer Daten: 5-HTP untersucht bei depressive Symptome, Schlaf-Problemen, Fibromyalgie und Adipositas in RCTs. Klare Warnung: nicht mit MAO-Hemmern oder SSRIs kombinieren (Serotonin-Syndrom"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-4424806",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:4424806",
+      "note": "RCT: 5-HTP wird im Zusammenhang mit Alterungsforschung diskutierte REM-Schlafphasen und war mit Veränderungen verbundene Schlafqualität. Basis für Schlaf-Indikation."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28077136",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28077136",
+      "note": "Review: Unter pflanzlichen Supplements zeigt 5-HTP die konsistenteste antidepressive Evidenz, mit moderaten Effektgrößen in mehreren Studien der 1990er bis 2000er Jahre."
+    }
+  ]
+}

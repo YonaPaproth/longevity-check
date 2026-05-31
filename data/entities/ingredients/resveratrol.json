@@ -1,0 +1,17 @@
+{
+  "id": "resveratrol",
+  "type": "ingredient",
+  "name": "Resveratrol",
+  "summary": "Als Rotwein-Inhaltsstoff und Sirtuin-Aktivator bekannt. Beeindruckende Tierstudien — Humanstudien zeigen inkonsistente Ergebnisse; Bioverfügbarkeit ist das Kernproblem.",
+  "aliases": [
+    "Trans-Resveratrol",
+    "Pterostilben",
+    "Resveratrol Supplement",
+    "RSV"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

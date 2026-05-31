@@ -1,0 +1,16 @@
+{
+  "id": "hesperidin",
+  "type": "ingredient",
+  "name": "Hesperidin",
+  "summary": "Hesperidin ist ein Citrus-Flavonoid mit interessanten Gefäß- und Entzündungsdaten. Die Evidenz ist ordentlich, aber nicht wirklich Mainstream-stark.",
+  "aliases": [
+    "Hesperidin",
+    "Citrus-Bioflavonoid",
+    "Hesperetin glycoside"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

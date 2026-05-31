@@ -1,0 +1,15 @@
+{
+  "id": "pqq",
+  "type": "ingredient",
+  "name": "PQQ",
+  "summary": "PQQ wird gern mit Mitochondrien und Zellenergie verknüpft. Das klingt elegant, aber die Human-Evidenz ist bisher dünn.",
+  "aliases": [
+    "Pyrroloquinoline quinone",
+    "PQQ"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 4,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 20
+}

@@ -1,0 +1,29 @@
+{
+  "entity": "gaba-rezeptor",
+  "relations": [
+    {
+      "relation": "wirkt_ueber",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "ashwagandha",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "gaba",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "l-theanin",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

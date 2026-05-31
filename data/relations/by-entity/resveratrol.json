@@ -1,0 +1,183 @@
+{
+  "entity": "resveratrol",
+  "relations": [
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "## Was ist Pterostilben?\n\nPterostilben ist ein **natürlich vorkommendes Stilbenoid** – chemisch eng verwandt mit Resveratrol, aber mit zwei **Methylgruppen** statt Hydroxylgruppen."
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "migraene",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "ampk-aktivierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "sirt1-aktivierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "crp",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "tsh",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "cholesterin",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "nüchternblutzucker",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "nac",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "(PMID 25905295) klärten dies auf: Nach 25 mg oraler Einnahme wurde Resveratrol zwar zu ~70 % aus dem Darm absorbiert — aber durch massiven First-Pass-Metabolismus (Sulfatierung und Glucuronidierung in"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-kopfschmerzen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25905295",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25905295",
+      "note": "RCT, n=6: Oral verabreichtes Resveratrol (25 mg) wurde zu ~70 % absorbiert, aber durch extensiven First-Pass-Metabolismus in Leber und Darmwand rasch konjugiert. Bioverfügbarkeit als freies Trans-Resv"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26975060",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26975060",
+      "note": "Meta-Analyse (11 RCTs): Resveratrol reduzierte Triglyceride signifikant um ~6,5 mg/dL und Nüchternblutzucker um ~4,4 mg/dL. LDL, HDL, CRP und Blutdruck zeigten keine signifikante Veränderung. Effekte "
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-27789331",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:27789331",
+      "note": "Systematischer Review (6 RCTs, n&lt;500): Resveratrol zeigte inkonsistente Effekte auf kognitive Endpunkte. Eine Studie fand Verbesserungen in Gedächtnisaufgaben bei postmenopausalen Frauen; andere St"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28359099",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28359099",
+      "note": "Mechanistischer Review: Resveratrol aktiviert SIRT1 (möglicherweise indirekt via AMPK), PGC-1α und beeinflusst mTOR. In Tiermodellen verlängerte es die Lebensspanne bei kalorienreicher Diät. Kritische"
+    }
+  ]
+}

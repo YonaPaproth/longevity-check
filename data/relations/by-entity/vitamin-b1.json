@@ -1,0 +1,66 @@
+{
+  "entity": "vitamin-b1",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30295520",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30295520",
+      "note": "Review: Thiaminmangel ist klinisch relevant und oft unterdiagnostiziert. Besonders gefährdet sind Menschen mit Alkoholmissbrauch, Mangelernährung oder war mit höheren Werten verbundenem metabolischem "
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22489203",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22489203",
+      "note": "Review: Auch in westlichen Ländern kommt funktioneller B1-Mangel bei Risikogruppen vor, etwa nach bariatrischer Chirurgie oder bei chronischer Fehlernährung."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-17405083",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17405083",
+      "note": "Thiaminmangel kann schwere neurologische Schäden verursachen. Frühzeitige Substitution ist in Risikosituationen klinisch hochrelevant."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "vitamin-b12",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "## Was ist Vitamin B12?\n\nVitamin B12 (Cobalamin) ist ein wasserlösliches Vitamin, das ausschließlich von Mikroorganismen synthetisiert wird und in der menschlichen Ernährung **nur in tierischen Produk"
+    }
+  ]
+}

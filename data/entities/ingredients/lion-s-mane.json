@@ -1,0 +1,18 @@
+{
+  "id": "lion-s-mane",
+  "type": "ingredient",
+  "name": "Lion's Mane (Hericium erinaceus)",
+  "summary": "Speisepilz mit Wirkstoffen (Hericenone, Erinacine), die NGF- und BDNF-Synthese stimulieren. Erste RCTs bei MCI und Angstsymptomen positiv — Evidenz bleibt früh und begrenzt.",
+  "aliases": [
+    "Igelstachelbart",
+    "Hericium erinaceus",
+    "Yamabushitake",
+    "Löwenmähne-Pilz",
+    "Lions Mane"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1000
+}

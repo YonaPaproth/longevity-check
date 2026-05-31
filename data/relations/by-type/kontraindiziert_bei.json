@@ -1,0 +1,311 @@
+{
+  "type": "kontraindiziert_bei",
+  "count": 61,
+  "relations": [
+    {
+      "subject": "5-htp",
+      "target": "kontra-ssri-einnahme",
+      "confidence": 0.7
+    },
+    {
+      "subject": "5-htp",
+      "target": "kontra-mao-hemmer",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "kontra-lebererkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "kontra-schilddruesenerkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "kontra-organtransplantation",
+      "confidence": 0.7
+    },
+    {
+      "subject": "berberine",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "berberine",
+      "target": "kontra-diabetes-medikamente",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cholin",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cholin",
+      "target": "kontra-lebererkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "kontra-lebererkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fisetin",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "folsaeure",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gynostemma",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gynostemma",
+      "target": "kontra-autoimmunerkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "kontra-kinder",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "kontra-schilddruesenerkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kalium",
+      "target": "kontra-nierenerkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "kontra-kinder",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "kontra-nierenerkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "kontra-lebererkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "kontra-blutdruckmedikamente",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "kontra-blutdruckmedikamente",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "kontra-mao-hemmer",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "kontra-schilddruesenerkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "kontra-chemotherapie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "kontra-organtransplantation",
+      "confidence": 0.7
+    },
+    {
+      "subject": "melatonin",
+      "target": "kontra-kinder",
+      "confidence": 0.7
+    },
+    {
+      "subject": "melatonin",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "melatonin",
+      "target": "kontra-ssri-einnahme",
+      "confidence": 0.7
+    },
+    {
+      "subject": "omega-3",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "kontra-chemotherapie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "kontra-organtransplantation",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "kontra-organtransplantation",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rhodiola",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rhodiola",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rhodiola",
+      "target": "kontra-mao-hemmer",
+      "confidence": 0.7
+    },
+    {
+      "subject": "selen",
+      "target": "kontra-schilddruesenerkrankung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "kontra-diabetes-medikamente",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b6",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-k1",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-k2",
+      "target": "kontra-blutgerinnungsstoerung",
+      "confidence": 0.7
+    }
+  ]
+}

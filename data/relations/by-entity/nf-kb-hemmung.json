@@ -1,0 +1,41 @@
+{
+  "entity": "nf-kb-hemmung",
+  "relations": [
+    {
+      "relation": "wirkt_ueber",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "ashwagandha",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "hydroxytyrosol",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "sulforaphan",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

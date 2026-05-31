@@ -1,0 +1,18 @@
+{
+  "id": "spermidine",
+  "type": "ingredient",
+  "name": "Spermidin",
+  "summary": "Natürliches Polyamin aus Weizenkeimen und Hülsenfrüchten. Aktiviert Autophagie überzeugend in Zell- und Tiermodellen; erste Humanstudien zeigen positive Signale bei Kognition und Herzfunktion.",
+  "aliases": [
+    "Spermidine",
+    "Spermidin",
+    "Spermidine Supplement",
+    "Weizenkeim Spermidin",
+    "Polyamin"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1
+}

@@ -1,0 +1,78 @@
+{
+  "entity": "kollagen",
+  "relations": [
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "glycin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "gelenke",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24401291",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24401291",
+      "note": "RCT (n=69): 2,5–5 g hydrolysiertes Kollagen/Tag über 8 Wochen war mit Veränderungen verbundene Hautelastizität und Feuchtigkeit signifikant gegenüber Placebo."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-27852613",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:27852613",
+      "note": "24-wöchige RCT bei Sportlern mit Knieschmerzen: Kollagenhydrolysat (10 g/Tag) reduzierte Schmerzen signifikant."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-32436266",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32436266",
+      "note": "Systematischer Review von 11 RCTs: Konsistente positive Effekte auf Hautelastizität und Feuchtigkeit. Studienqualität insgesamt moderat."
+    }
+  ]
+}

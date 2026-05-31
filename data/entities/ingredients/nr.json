@@ -1,0 +1,17 @@
+{
+  "id": "nr",
+  "type": "ingredient",
+  "name": "NR (Nicotinamid-Ribosid)",
+  "summary": "NR ist wie NMN ein NAD+-Vorläufer, aber im Gegensatz zu NMN in der EU als Novel Food zugelassen. Humanstudien zeigen NAD+-Erhöhung, klinische Vorteile sind noch unklar.",
+  "aliases": [
+    "Nicotinamide Riboside",
+    "Niagen",
+    "Tru Niagen",
+    "NR Supplement"
+  ],
+  "category": "nad-precursors",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 300
+}

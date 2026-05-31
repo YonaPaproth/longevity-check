@@ -1,0 +1,15 @@
+{
+  "id": "glycin",
+  "type": "ingredient",
+  "name": "Glycin",
+  "summary": "Glycin ist die kleinste Aminosäure und wird für Glutathion, Kollagen und Kreatin benötigt. Als GlyNAC-Kombination wird es auch im Zusammenhang mit Alterung-Hallmarks untersucht.",
+  "aliases": [
+    "Glycine",
+    "Aminoessigsäure"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 2,
+  "safety": "safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 3000
+}

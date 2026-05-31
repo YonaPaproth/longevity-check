@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MikroScore Knowledge Graph Relations (by-entity)",
+  "type": "object",
+  "required": ["entity", "relations"],
+  "properties": {
+    "entity": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["relation", "target", "direction"],
+        "properties": {
+          "relation": {
+            "type": "string",
+            "enum": [
+              "enthaelt",
+              "wird_eingesetzt_fuer",
+              "behauptet",
+              "unterstuetzt_claim",
+              "widerlegt_claim",
+              "hat_evidenzlevel",
+              "beeinflusst",
+              "erhoeht",
+              "senkt",
+              "wirkt_ueber",
+              "empfohlen_fuer",
+              "nicht_empfohlen_fuer",
+              "hat_dosierung",
+              "hat_nebenwirkung",
+              "hat_interaktion_mit",
+              "kontraindiziert_bei",
+              "hat_regulatorischen_status",
+              "basiert_auf_studie",
+              "hat_qualitaetsmerkmal",
+              "vergleichbar_mit",
+              "benoetigt_biomarker_check"
+            ]
+          },
+          "target": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "direction": {
+            "type": "string",
+            "enum": ["outgoing", "incoming"]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "evidence_strength": {
+            "type": "string",
+            "enum": ["hoch", "mittel", "niedrig", "unklar"]
+          },
+          "source": {
+            "type": "string",
+            "description": "e.g. pmid:12345678 or study reference"
+          },
+          "note": {
+            "type": "string",
+            "description": "Brief explanation of the relation"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

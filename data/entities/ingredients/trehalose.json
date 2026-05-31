@@ -1,0 +1,16 @@
+{
+  "id": "trehalose",
+  "type": "ingredient",
+  "name": "Trehalose",
+  "summary": "Trehalose ist ein natürlicher Zweifachzucker, der in präklinischen Modellen für Autophagie und Alterung untersucht wird. Humanstudien sind bisher rar.",
+  "aliases": [
+    "Trehalose",
+    "Mycose",
+    "Tremalose"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 3000
+}

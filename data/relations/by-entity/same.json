@@ -1,0 +1,61 @@
+{
+  "entity": "same",
+  "relations": [
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "berberine",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "Viele der stärkeren Befunde stammen aus Populationen mit metabolischen Auffälligkeiten\n- **Langzeitdaten:** Studien meist kurz (3–6 Monate)\n- **Gesundes Altern:** Als direkte Intervention nicht unters"
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "melatonin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "Kann Wechselwirkungen mit Antikoagulantien, Antidepressiva und blutzuckerwirksamen Medikamenten haben."
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "methylierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20595412",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20595412",
+      "note": "Kontrollierte Daten zeigen Nutzen bei depressive Symptome, auch als Add-on in bestimmten Settings."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-12472441",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:12472441",
+      "note": "Meta-Analyse mit Hinweisen auf symptomatische Vorteile im Gelenk-Kontext."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-12062105",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:12062105",
+      "note": "Review: klinisch interessanter Stoff mit echter Substanz, aber nicht ohne Interaktions- und Sicherheitsfragen."
+    }
+  ]
+}

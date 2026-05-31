@@ -1,0 +1,59 @@
+{
+  "entity": "rutin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "glutathion-spiegel",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28694736",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28694736",
+      "note": "Review: Rutin ist präklinisch breit interessant, aber klinische Evidenz bleibt überschaubar."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-11448538",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:11448538",
+      "note": "Hinweise auf gefäßbezogene Effekte, jedoch keine starke moderne Humanbasis."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-11285671",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:11285671",
+      "note": "Flavonoide sind interessant, aber konkrete Supplementempfehlungen bleiben schwierig."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "entity": "schisandra",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18515024",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18515024",
+      "note": "Review: Schisandra passt adaptogen-theoretisch gut, klinische Daten bleiben jedoch begrenzt."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28724448",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28724448",
+      "note": "Präklinisch und traditionell interessant, klinische Evidenz bei Supplements aber nicht stark."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20109491",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20109491",
+      "note": "Schisandra ist Teil des Adaptogen-Konzepts; robuste Outcome-Evidenz bleibt dennoch begrenzt."
+    }
+  ]
+}

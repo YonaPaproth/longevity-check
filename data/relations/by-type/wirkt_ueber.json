@@ -1,0 +1,636 @@
+{
+  "type": "wirkt_ueber",
+  "count": 126,
+  "relations": [
+    {
+      "subject": "5-htp",
+      "target": "serotonin-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "5-htp",
+      "target": "blut-hirn-schranke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "akg",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "akg",
+      "target": "epigenetisch",
+      "confidence": 0.7
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "nad-biosynthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "gaba-rezeptor",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "nf-kb-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "apigenin",
+      "target": "prostaglandin-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "gaba-rezeptor",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "mtor-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "nf-kb-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "senolytisch",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "telomer-erhaltung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "blut-hirn-schranke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "berberine",
+      "target": "ampk-aktivierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "betain",
+      "target": "mtor-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "betain",
+      "target": "methylierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "calcium",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cholin",
+      "target": "methylierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "cholin",
+      "target": "blut-hirn-schranke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "ampk-aktivierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "mtor-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "nf-kb-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "autophagie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "telomer-erhaltung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "prostaglandin-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "ampk-aktivierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "mtor-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "egcg",
+      "target": "autophagie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "eisen",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ergothionein",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fisetin",
+      "target": "senolytisch",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fisetin",
+      "target": "telomer-erhaltung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "folsaeure",
+      "target": "dna-reparatur",
+      "confidence": 0.7
+    },
+    {
+      "subject": "folsaeure",
+      "target": "methylierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "folsaeure",
+      "target": "epigenetisch",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gaba",
+      "target": "gaba-rezeptor",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glutathion",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glycin",
+      "target": "kollagen-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glynac",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "glynac",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "gynostemma",
+      "target": "ampk-aktivierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hydroxytyrosol",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "hydroxytyrosol",
+      "target": "nf-kb-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "jod",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "koffein",
+      "target": "dopamin-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kreatin",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kupfer",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kupfer",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-carnitin",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-theanin",
+      "target": "gaba-rezeptor",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tryptophan",
+      "target": "serotonin-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "dopamin-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "blut-hirn-schranke",
+      "confidence": 0.7
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "magnesium",
+      "target": "dna-reparatur",
+      "confidence": 0.7
+    },
+    {
+      "subject": "mangan",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "mangan",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "melatonin",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "melatonin",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "serotonin-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nac",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nmn",
+      "target": "nad-biosynthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nmn",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "nr",
+      "target": "nad-biosynthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "phosphor",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pqq",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "serotonin-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "ampk-aktivierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "mtor-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "sirt1-aktivierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "nf-kb-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "autophagie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "dna-reparatur",
+      "confidence": 0.7
+    },
+    {
+      "subject": "pterostilben",
+      "target": "methylierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "quercetin",
+      "target": "senolytisch",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "ampk-aktivierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "resveratrol",
+      "target": "sirt1-aktivierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "rutin",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "same",
+      "target": "methylierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "selen",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "ampk-aktivierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "mtor-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "spermidine",
+      "target": "autophagie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "nf-kb-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "taurin",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "tmg",
+      "target": "methylierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "trehalose",
+      "target": "mtor-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "trehalose",
+      "target": "autophagie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "autophagie",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b1",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "methylierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b2",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b2",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b3",
+      "target": "nad-biosynthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b5",
+      "target": "atp-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-b6",
+      "target": "methylierung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "kollagen-synthese",
+      "confidence": 0.7
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "dna-reparatur",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "kollagen-synthese",
+      "confidence": 0.7
+    }
+  ]
+}

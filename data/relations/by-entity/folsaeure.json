@@ -1,0 +1,103 @@
+{
+  "entity": "folsaeure",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "dna-reparatur",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "methylierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "epigenetisch",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "homocystein",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-1677062",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:1677062",
+      "note": "Landmark-RCT: 4 mg Folsäure/Tag reduzierte Wiederholungsrisiko für Neuralrohrdefekte um 72 %. Basis für globale Supplementierungsempfehlungen in der Schwangerschaft."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22297886",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22297886",
+      "note": "Review: Folat ist direkter Methyl-Donor im One-Carbon-Metabolismus. Mangel stört DNA-Methylierungsmuster und war mit höheren Werten verbunden Homocystein. Epigenetische Relevanz gut dokumentiert."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-35042259",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:35042259",
+      "note": "Meta-Analyse (30 RCTs): Folsäure war mit niedrigeren Werten verbunden Homocystein signifikant, reduziert aber Herzinfarkte und Schlaganfälle nicht konsistent – außer möglicherweise bei Schlaganfall in"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24144610",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24144610",
+      "note": "Review: MTHFR-C677T-Polymorphismus (ca. 10 % der Bevölkerung homozygot) reduziert Folsäureaktivierung um 70 %. Betroffene profitieren stärker von L-Methylfolat als von synthetischer Folsäure."
+    }
+  ]
+}

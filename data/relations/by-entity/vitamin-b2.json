@@ -1,0 +1,77 @@
+{
+  "entity": "vitamin-b2",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "migraene",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-9484373",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:9484373",
+      "note": "RCT: 400 mg Riboflavin pro Tag reduzierten Migräneattacken gegenüber Placebo. Einer der bekanntesten klinischen Einsatzbereiche von hochdosiertem B2."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-12791609",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:12791609",
+      "note": "Review zu Biochemie, Bedarf und Mangelsymptomen von Riboflavin. B2 ist für Redoxreaktionen und Energiegewinnung essenziell."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28273806",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28273806",
+      "note": "Review: Auch in Industrieländern kann ein suboptimaler B2-Status vorkommen, jedoch meist ohne dramatische klinische Symptome."
+    }
+  ]
+}

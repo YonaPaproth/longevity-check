@@ -1,0 +1,79 @@
+{
+  "entity": "vitamin-k2",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-15514282",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15514282",
+      "note": "Rotterdam-Studie (n=4.807): Hohes Menaquinon-Intake reduzierte koronare Herzerkrankung um 41 % und kardiovaskuläre Mortalität um 57 %. Starke epidemiologische Grundlage."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26501375",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26501375",
+      "note": "RCT (n=244, 3 Jahre): 180 µg MK-7/Tag verlangsamte den altersassoziierten Anstieg der Arteriensteifigkeit signifikant. Osteocalcin-Carboxylierung war mit Veränderungen verbunden."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23525894",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23525894",
+      "note": "RCT (n=244, 3 Jahre): MK-7 war mit Veränderungen verbundene Knochendichte und -stärke signifikant vs. Placebo. Klinisch relevante Reduktion des Knochenschwunds."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-17138823",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17138823",
+      "note": "MK-7 hat eine Halbwertszeit von 72 Stunden (vs. 1–2 Stunden für K1/MK-4) und wird effizienter in extrahepatische Gewebe (Knochen, Arterien) transportiert."
+    }
+  ]
+}

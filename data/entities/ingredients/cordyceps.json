@@ -1,0 +1,16 @@
+{
+  "id": "cordyceps",
+  "type": "ingredient",
+  "name": "Cordyceps",
+  "summary": "Cordyceps wird für Energie, Ausdauer und Vitalität verkauft. Es gibt interessante Signale, aber keine starke Grundlage für große Performance-Versprechen.",
+  "aliases": [
+    "Cordyceps",
+    "Cordyceps sinensis",
+    "Cordyceps militaris"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1000
+}

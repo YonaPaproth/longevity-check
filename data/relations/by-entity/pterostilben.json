@@ -1,0 +1,184 @@
+{
+  "entity": "pterostilben",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "ampk-aktivierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "mtor-hemmung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "sirt1-aktivierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nf-kb-hemmung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "autophagie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "dna-reparatur",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "methylierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "crp",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "blutdruck-werte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "nr",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "## Wirkmechanismen (ähnlich wie Resveratrol)\n\n- **SIRT1-Aktivierung**: Deacetylase, die Stressresistenz, Mitochondrienbiogenese und DNA-Reparatur fördert\n- **AMPK**: Energiesensor, hemmt mTOR und förd"
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "resveratrol",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "## Was ist Pterostilben?\n\nPterostilben ist ein **natürlich vorkommendes Stilbenoid** – chemisch eng verwandt mit Resveratrol, aber mit zwei **Methylgruppen** statt Hydroxylgruppen."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "sulforaphan",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "## Wirkmechanismen (ähnlich wie Resveratrol)\n\n- **SIRT1-Aktivierung**: Deacetylase, die Stressresistenz, Mitochondrienbiogenese und DNA-Reparatur fördert\n- **AMPK**: Energiesensor, hemmt mTOR und förd"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23682780",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23682780",
+      "note": "Review: Pterostilben hat eine orale Bioverfügbarkeit von ~80 % vs. ~20 % für Resveratrol. Aktiviert SIRT1, AMPK und Nrf2. Längere Halbwertszeit durch Methylgruppen statt Hydroxylgruppen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23992536",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23992536",
+      "note": "RCT (n=80): 250 mg Pterostilben/Tag war mit niedrigeren Werten verbundene systolischen Blutdruck signifikant. Negative Nebenwirkung: LDL-Erhöhung bei 250 mg (nicht bei 125 mg) – wichtiger Befund."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20562218",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20562218",
+      "note": "Präklinisch: Pterostilben hemmt Tumorzellwachstum durch Notch-1-Inhibition. Krebspräventive Effekte in Zellkulturen und Tiermodellen vergleichsweise gut untersucht."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21219274",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21219274",
+      "note": "Pharmakokinetische Studie: Pterostilben erreicht 4-fach höhere Plasma-Spiegel als Resveratrol bei gleicher Dosis, mit längerer Halbwertszeit und war mit Veränderungen verbundener Gewebeaufnahme."
+    }
+  ]
+}

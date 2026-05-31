@@ -1,0 +1,16 @@
+{
+  "id": "astragalus",
+  "type": "ingredient",
+  "name": "Astragalus",
+  "summary": "Astragalus ist traditionell groß und wird oft mit Immunität und Telomeren verknüpft. Die moderne Human-Evidenz ist dafür aber eher dünn.",
+  "aliases": [
+    "Astragalus membranaceus",
+    "Tragant",
+    "Huang Qi"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 4,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

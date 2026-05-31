@@ -1,0 +1,17 @@
+{
+  "id": "apigenin",
+  "type": "ingredient",
+  "name": "Apigenin",
+  "summary": "Apigenin ist ein Flavonoid aus Kamille und Petersilie, das CD38 hemmt – ein Enzym, das NAD+ abbaut. Damit ergänzt es NMN/NR aus einem anderen Winkel. Noch frühe Humanstudien.",
+  "aliases": [
+    "Apigenin",
+    "4',5,7-Trihydroxyflavon",
+    "Kamillenflavonoid",
+    "CD38-Inhibitor"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 50
+}

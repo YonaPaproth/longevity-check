@@ -1,0 +1,16 @@
+{
+  "id": "beta-alanin",
+  "type": "ingredient",
+  "name": "Beta-Alanin",
+  "summary": "Beta-Alanin erhöht durch höhere Muskelcarnosin-Spiegel die Pufferkapazität bei hochintensiven Belastungen und ist daher eher ein Sportthema als ein Longevity-Tool.",
+  "aliases": [
+    "Beta-Alanine",
+    "β-Alanin",
+    "Carnosine precursor"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 1,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 3200
+}

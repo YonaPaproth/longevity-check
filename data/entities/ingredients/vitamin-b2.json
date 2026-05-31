@@ -1,0 +1,16 @@
+{
+  "id": "vitamin-b2",
+  "type": "ingredient",
+  "name": "Vitamin B2 (Riboflavin)",
+  "summary": "Vitamin B2 ist essenziell für Energiestoffwechsel und antioxidative Enzyme. Wirklich interessant vor allem bei Mangel und möglicherweise zur Migräne-Prävention.",
+  "aliases": [
+    "Riboflavin",
+    "Vitamin B2",
+    "Lactoflavin"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 100
+}

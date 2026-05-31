@@ -1,0 +1,17 @@
+{
+  "id": "silicium",
+  "type": "ingredient",
+  "name": "Silicium",
+  "summary": "Silicium wird für Haut, Haare, Nägel und Bindegewebe beworben. Biologisch plausibel, aber die klinische Evidenz ist eher begrenzt.",
+  "aliases": [
+    "Silicon",
+    "Kieselsäure",
+    "Silica",
+    "Orthokieselsäure"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 10
+}

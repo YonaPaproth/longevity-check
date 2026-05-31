@@ -1,0 +1,16 @@
+{
+  "id": "kalium",
+  "type": "ingredient",
+  "name": "Kalium",
+  "summary": "Kalium ist essenziell für Blutdruck, Nerven und Muskeln. Über Ernährung oft wichtiger als als Supplement – und bei Überdosierung potenziell riskant.",
+  "aliases": [
+    "Potassium",
+    "Kaliumcitrat",
+    "Kaliumchlorid"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "caution",
+  "efsa_approved": true,
+  "typical_dose_mg": 300
+}

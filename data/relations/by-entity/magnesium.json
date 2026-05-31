@@ -1,0 +1,178 @@
+{
+  "entity": "magnesium",
+  "relations": [
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "Diese Effektgröße ist beträchtlich – größer als bei Magnesium."
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "migraene",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "dna-reparatur",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "serum-magnesium",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "blutdruck-werte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "insulin",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-schlaflosigkeit",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-33260549",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33260549",
+      "note": "Magnesiumergänzung verbesserte Stressparameter und Schlafqualität; Mangel und Stress verstärken sich gegenseitig in einem negativen Kreislauf."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-15189112",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15189112",
+      "note": "RCT: Magnesiumsupplementierung (2,5 g MgCl2/Tag für 3 Monate) reduzierte Insulinresistenz bei Personen mit Magnesiummangel signifikant."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20152124",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20152124",
+      "note": "Magnesium-L-Threonat erhöhte Gehirn-Magnesiumspiegel bei Ratten und verbesserte Kurz- und Langzeitgedächtnis. Humanstudien noch klein und begrenzt."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26837598",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26837598",
+      "note": "Metaanalyse (34 RCTs, n=2.028): Magnesium senkte systolischen Blutdruck um ca. 3–4 mmHg und diastolischen um ca. 2–3 mmHg. Effekt stärker bei höheren Ausgangswerten und niedrigen Magnesiumspiegeln."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23853635",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23853635",
+      "note": "RCT (n=46 ältere Erwachsene): 500 mg Magnesium/Tag über 8 Wochen verbesserte Schlafqualität, -dauer und Insomnie-Scores signifikant gegenüber Placebo."
+    }
+  ]
+}

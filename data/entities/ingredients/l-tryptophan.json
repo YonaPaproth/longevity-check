@@ -1,0 +1,15 @@
+{
+  "id": "l-tryptophan",
+  "type": "ingredient",
+  "name": "L-Tryptophan",
+  "summary": "L-Tryptophan ist die Vorstufe von Serotonin und Melatonin. Für Schlaf- und Stimmungsfragen biologisch plausibel, aber die direkte Wirkung als Supplement bleibt begrenzt.",
+  "aliases": [
+    "Tryptophan",
+    "L-Tryptophan"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

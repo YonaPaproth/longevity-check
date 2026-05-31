@@ -1,0 +1,16 @@
+{
+  "id": "rutin",
+  "type": "ingredient",
+  "name": "Rutin",
+  "summary": "Rutin ist ein Flavonoid mit Gefäß- und Antioxidans-Story. Biologisch plausibel, klinisch aber eher ein Nischenthema.",
+  "aliases": [
+    "Rutin",
+    "Rutosid",
+    "Quercetin-3-rutinoside"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 250
+}

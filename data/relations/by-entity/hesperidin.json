@@ -1,0 +1,41 @@
+{
+  "entity": "hesperidin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21462495",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21462495",
+      "note": "Kleine Humanstudie mit Verbesserungen der Endothelfunktion."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23810870",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23810870",
+      "note": "Review: biologisch plausibel, aber klinisch noch keine sehr vergleichsweise gute Datenlage."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-32245095",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32245095",
+      "note": "Breite präklinische Aktivität, Humanrelevanz begrenzt."
+    }
+  ]
+}

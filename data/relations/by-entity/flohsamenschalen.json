@@ -1,0 +1,47 @@
+{
+  "entity": "flohsamenschalen",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-10837282",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:10837282",
+      "note": "Meta-analytische Daten zeigen moderate LDL-Senkung durch Psyllium."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25743043",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25743043",
+      "note": "Psyllium ist für Stuhlregulation gut untersucht und klinisch praktisch relevant."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23990470",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23990470",
+      "note": "Lösliche Ballaststoffe wie Psyllium können Glukoseparameter moderat mit Veränderungen in Verbindung bringen."
+    }
+  ]
+}

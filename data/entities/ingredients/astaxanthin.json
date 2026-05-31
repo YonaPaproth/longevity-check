@@ -1,0 +1,16 @@
+{
+  "id": "astaxanthin",
+  "type": "ingredient",
+  "name": "Astaxanthin",
+  "summary": "Astaxanthin ist ein Carotinoid mit antioxidativen Eigenschaften, das oft im Zusammenhang mit Mitochondrien diskutiert wird. Kleine RCTs untersuchen Effekte bei Haut, Augen und Belastung.",
+  "aliases": [
+    "Astaxanthin",
+    "Haematococcus pluvialis",
+    "Krill-Astaxanthin"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 8
+}

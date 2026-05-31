@@ -1,0 +1,137 @@
+{
+  "entity": "l-theanin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "gaba-rezeptor",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "gaba",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "**GABAerge Modulation:** Es gibt Hinweise auf eine Modulation inhibitorischer GABAerger Signale, die zur entspannenden Wirkung ohne klassische Sedierung beitragen könnte."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "koffein",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "**Koffein-Interaktion:** Theanin und Koffein interagieren am adenosinergen System auf komplementäre Weise."
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutdruckmedikamente",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22214254",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22214254",
+      "note": "Randomisierter Doppelblind-Crossover (n=98 Jungen): 400 mg L-Theanin/Tag (2×200 mg) verbesserte objektive Schlafqualität (gemessen per Aktigraphie) ohne sedierende Nebenwirkungen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18681988",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18681988",
+      "note": "Doppelblind-RCT (n=27): 250 mg Koffein + 250 mg L-Theanin verbesserten Aufmerksamkeit und Reaktionszeit gegenüber beiden Einzelsubstanzen. L-Theanin allein zeigte keine signifikanten kognitiven Verbes"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18296328",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18296328",
+      "note": "Doppelblind-Crossover: 50 mg L-Theanin erhöhte Alpha-Wellenkraft im EEG signifikant. Alpha-Wellen gelten als Marker entspannter Wachheit ohne Sedierung."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-17272967",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17272967",
+      "note": "Crossover-Studie (n=12): 200 mg L-Theanin reduzierte Herzrate und salivären IgA-Anstieg als physiologische Stressmarker bei einem mentalen Stress-Task signifikant gegenüber Placebo."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25761837",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25761837",
+      "note": "Doppelblind-Crossover (n=24): Koffein 75 mg + Theanin 50 mg war mit konsistent besserer Konzentrationsleistung und Stimmung verbunden als Placebo oder Einzelsubstanzen."
+    }
+  ]
+}

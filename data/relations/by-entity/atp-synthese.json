@@ -1,0 +1,167 @@
+{
+  "entity": "atp-synthese",
+  "relations": [
+    {
+      "relation": "wirkt_ueber",
+      "target": "akg",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "alpha-liponsaeure",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "astaxanthin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "calcium",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "eisen",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "glycin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "glynac",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "jod",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "kreatin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "kupfer",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "l-carnitin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "mangan",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "melatonin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nac",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nmn",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "phosphor",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "pqq",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "resveratrol",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "urolithin-a",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "vitamin-b1",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "vitamin-b12",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "vitamin-b2",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "vitamin-b5",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

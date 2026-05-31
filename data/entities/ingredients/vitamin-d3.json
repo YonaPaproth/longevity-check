@@ -1,0 +1,15 @@
+{
+  "id": "vitamin-d3",
+  "type": "ingredient",
+  "name": "Vitamin D3",
+  "summary": "Vitamin D3 ist bei nachgewiesenem Mangel gut belegt für Knochen, Muskeln und Immunabwehr. Ohne Mangel ist der Zusatznutzen deutlich schwächer – kein Universal-Upgrade.",
+  "aliases": [
+    "Cholecalciferol",
+    "Vitamin D3"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "likely-safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 0.025
+}

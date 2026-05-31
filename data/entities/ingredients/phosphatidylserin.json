@@ -1,0 +1,17 @@
+{
+  "id": "phosphatidylserin",
+  "type": "ingredient",
+  "name": "Phosphatidylserin",
+  "summary": "Phosphatidylserin ist ein Membranphospholipid. In der EU existiert ein zugelassener Claim zur Aufrechterhaltung normaler kognitiver Funktion unter definierten Bedingungen.",
+  "aliases": [
+    "Phosphatidylserine",
+    "PS",
+    "Sharp-PS",
+    "Soja-Phosphatidylserin"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 300
+}

@@ -1,0 +1,47 @@
+{
+  "entity": "silymarin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-29562618",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29562618",
+      "note": "Review: potenziell nützlich in bestimmten Leberkontexten, aber heterogene klinische Evidenz."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28137772",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28137772",
+      "note": "Biologisch plausibel, aber klinischer Nutzen ist nicht in allen Settings überzeugend gezeigt."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21738288",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21738288",
+      "note": "Leberbezogene Pflanzenstoffe wie Silymarin sind interessant, aber nicht gleichzusetzen mit gesicherten medizinischen Kontextn."
+    }
+  ]
+}

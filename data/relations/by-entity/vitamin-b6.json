@@ -1,0 +1,75 @@
+{
+  "entity": "vitamin-b6",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "methylierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "homocystein",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-34469291",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:34469291",
+      "note": "Review: Chronisch hohe Pyridoxin-Dosen können sensorische Neuropathien verursachen. Sicherheit ist stark dosis- und dauerabhängig."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30286045",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30286045",
+      "note": "Review: B6 ist an über 100 enzymatischen Reaktionen beteiligt. Klinische Relevanz besonders bei Mangel, Schwangerschaftsübelkeit und bestimmten Stoffwechselsituationen."
+    }
+  ]
+}

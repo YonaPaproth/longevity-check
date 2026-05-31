@@ -1,0 +1,17 @@
+{
+  "id": "urolithin-a",
+  "type": "ingredient",
+  "name": "Urolithin A",
+  "summary": "Urolithin A wird aus Granatapfel-Polyphenolen durch Darmbakterien gebildet und wird beim Menschen im Zusammenhang mit Mitophagie untersucht.",
+  "aliases": [
+    "Urolithin A",
+    "UA",
+    "Mitopure",
+    "Ellagsäure-Metabolit"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

@@ -1,0 +1,89 @@
+{
+  "entity": "schlaf",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "5-htp",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "ashwagandha",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "gaba",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "glycin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "koffein",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kreatin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-citrullin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-theanin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-tyrosin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "lion-s-mane",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "melatonin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "rhodiola",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "vitamin-b12",
+  "type": "ingredient",
+  "name": "Vitamin B12 (Cobalamin)",
+  "summary": "Vitamin B12 ist essenziell für Nervenfunktion, DNA-Synthese und Homocystein-Stoffwechsel. Mangel ist bei Veganern, Älteren und Metformin-Nutzern häufig und führt zu irreversiblen Nervenschäden.",
+  "aliases": [
+    "Cobalamin",
+    "Cyanocobalamin",
+    "Methylcobalamin",
+    "Adenosylcobalamin",
+    "B12"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 1,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 1
+}

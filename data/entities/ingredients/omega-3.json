@@ -1,0 +1,18 @@
+{
+  "id": "omega-3",
+  "type": "ingredient",
+  "name": "Omega-3 (EPA + DHA)",
+  "summary": "Omega-3-Fettsäuren (EPA + DHA) gehören zu den am besten untersuchten Supplements. Evidenz für Triglyceride und kardiovaskuläre Hochrisikopatienten stark; bei Gesunden geringer.",
+  "aliases": [
+    "Fischöl",
+    "Omega-3-Fettsäuren",
+    "EPA",
+    "DHA",
+    "Fish Oil"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 1000
+}

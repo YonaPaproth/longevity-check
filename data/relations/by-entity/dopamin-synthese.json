@@ -1,0 +1,17 @@
+{
+  "entity": "dopamin-synthese",
+  "relations": [
+    {
+      "relation": "wirkt_ueber",
+      "target": "koffein",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "l-tyrosin",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MikroScore Knowledge Graph Entity",
+  "type": "object",
+  "required": ["id", "type", "name"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique kebab-case identifier"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["ingredient", "mechanism", "biomarker", "symptom", "regulatory"]
+    },
+    "name": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "category": {
+      "type": "string",
+      "description": "Only for ingredients"
+    },
+    "evidenceLevel": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "1=Multiple RCTs, 2=Single RCT, 3=Observational, 4=Animal/in-vitro, 5=None"
+    },
+    "safety": {
+      "type": "string",
+      "enum": ["safe", "likely-safe", "caution", "insufficient-data"]
+    },
+    "efsa_approved": {
+      "type": "boolean"
+    },
+    "typical_dose_mg": {
+      "type": "number"
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "description": {
+      "type": "string",
+      "description": "Longer description for non-ingredient entities"
+    }
+  },
+  "additionalProperties": false
+}

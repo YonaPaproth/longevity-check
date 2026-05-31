@@ -1,0 +1,17 @@
+{
+  "id": "kreatin",
+  "type": "ingredient",
+  "name": "Kreatin (Creatin)",
+  "summary": "Kreatin ist eines der bestuntersuchten Supplements für hochintensive Muskelarbeit. Die stärkste Evidenz stammt aus Kraft- und Schnellkraftstudien; weitere Einsatzfelder werden weiterhin erforscht.",
+  "aliases": [
+    "Creatin",
+    "Creatine",
+    "Kreatinmonohydrat",
+    "Creatine Monohydrate"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 1,
+  "safety": "likely-safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 3000
+}

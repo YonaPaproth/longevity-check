@@ -1,0 +1,97 @@
+{
+  "entity": "urolithin-a",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "autophagie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-27400265",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:27400265",
+      "note": "Nature Medicine: Urolithin A wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne in C. elegans um ~45 % und war mit Veränderungen verbundene Muskelkraft in alten Ratten. Erstnachweis "
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-32694659",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32694659",
+      "note": "Erster Humanversuch: 500 mg Urolithin A/Tag war mit Veränderungen verbundene Mitochondrienmarker im Muskelgewebe älterer Erwachsener signifikant. Gut verträglich."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-35468083",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:35468083",
+      "note": "RCT (n=66, Ältere): 1 g Urolithin A/Tag über 4 Monate war mit Veränderungen verbundene Muskelausdauer und Mitochondrien-Biomarker signifikant vs. Placebo."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-19640941",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19640941",
+      "note": "Nur ~40 % der Menschen haben Darmbakterien, die Ellagsäure effizient zu Urolithin A umwandeln. Supplementierung umgeht dieses Konversionsproblem."
+    }
+  ]
+}

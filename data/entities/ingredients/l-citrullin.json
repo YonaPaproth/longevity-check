@@ -1,0 +1,17 @@
+{
+  "id": "l-citrullin",
+  "type": "ingredient",
+  "name": "L-Citrullin",
+  "summary": "L-Citrullin kann die Stickstoffmonoxid-Produktion steigern und wird in Studien mit verbesserter Durchblutung sowie Ausdauerleistung bei körperlicher Belastung in Verbindung gebracht.",
+  "aliases": [
+    "L-Citrulline",
+    "Citrullin",
+    "Citrulline Malate",
+    "Citrullinmalat"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 6000
+}

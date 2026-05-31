@@ -1,0 +1,155 @@
+{
+  "entity": "calcium",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schilddruese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "vitamin-d-spiegel",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "eisen",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Eine konsistente Reduktion des Frakturrisikos ließ sich dagegen nicht nachweisen."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "nac",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Eine konsistente Reduktion des Frakturrisikos ließ sich dagegen nicht nachweisen."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "nr",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Knochenresorption (Osteoklasten lösen Calcium aus Knochen)\n2."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "zink",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "000 mg/Tag\n\n**Wechselwirkungen:**\n- **Eisen, Zink**: Calcium hemmt die gleichzeitige Aufnahme → zeitlich trennen\n- **Bisphosphonate** (Osteoporose-Medikamente): Nicht gleichzeitig einnehmen\n- **Schild"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28093633",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28093633",
+      "note": "Meta-Analyse (RCTs, n>50.000): Calcium-Supplementation erhöhte die Knochenmineraldichte (BMD) signifikant um ~0,7–1,8 % über 2 Jahre. Frakturrisikoreduktion war statistisch nicht konsistent nachweisba"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-27071884",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:27071884",
+      "note": "RCT-basierter Review: Calcium-Zufuhr (Ernährung + Supplement) war konsistent mit höherer BMD assoziiert; der Effekt bei bereits calciumausreichend versorgten Erwachsenen war kleiner als bei Mangel."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-29279823",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29279823",
+      "note": "Meta-Analyse von 10 RCTs: Calcium-Supplementierung (ohne Vitamin D) war mit einem RR von 1,15 für kardiovaskuläre Ereignisse assoziiert. Das Risiko zeigte sich vor allem bei Dosen &gt;1.000 mg/Tag aus"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30958565",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30958565",
+      "note": "Review: Veganer nehmen im Schnitt 600–800 mg Calcium/Tag auf — deutlich unter dem DGE-Referenzwert von 1.000 mg. Pflanzliche Quellen wie Grünkohl, Tofu und angereicherte Pflanzenmilch können die Lücke"
+    }
+  ]
+}

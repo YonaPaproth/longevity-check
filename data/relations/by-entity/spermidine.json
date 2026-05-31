@@ -1,0 +1,141 @@
+{
+  "entity": "spermidine",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "neuroprotektiv",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "ampk-aktivierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "mtor-hemmung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "autophagie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "blutdruck-werte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "eisen",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "### Kardiovaskuläre Gesundheit (PMID 33762175)\n\nEisenberg et al."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "nr",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "**mTORC1-Hemmung**: Spermidin hemmt indirekt mTOR (mammalian Target of Rapamycin) — ähnlich wie Kalorienrestriktion und Metformin\n2."
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30955569",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30955569",
+      "note": "Mechanistische Studie (Zellmodelle und C. elegans): Spermidin induziert Autophagie über Hypusinierung des Translationsfaktors eIF5A — ein neu identifizierter Mechanismus zusätzlich zur bekannten mTOR-"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-32428599",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32428599",
+      "note": "RCT, n=85 ältere Erwachsene mit subjektiven GedächtnisBeschwerden (SCI), 3 Monate Weizenkeimextrakt (~1,2 mg Spermidin/Tag) vs. Placebo. Primärer Endpunkt (Mnemonic Discrimination Task): kein signifik"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-33762175",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33762175",
+      "note": "Translationsstudie: Spermidin verbesserte in alten Mäusen die diastolische Herzfunktion und verlängerte die Lebensspanne (+10 %). Begleitende epidemiologische Auswertung (n=3.407): Höhere diätetische "
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-34929611",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:34929611",
+      "note": "Prospektive Beobachtungsstudie, n=829, 20 Jahre Follow-up (Bruneck-Kohorte, Österreich): Höchstes Spermidin-Tertil der Nahrungsaufnahme war mit HR 0,62 für Gesamtmortalität assoziiert vs. niedrigstes "
+    }
+  ]
+}

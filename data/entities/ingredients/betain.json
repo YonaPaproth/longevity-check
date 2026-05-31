@@ -1,0 +1,18 @@
+{
+  "id": "betain",
+  "type": "ingredient",
+  "name": "Betain (Trimethylglycin)",
+  "summary": "Betain ist ein natürlicher Methylgruppenspender, der Homocystein abbaut und in Studien mit moderaten Kraft- und Ausdauergewinnen in Verbindung gebracht wird.",
+  "aliases": [
+    "Betaine Anhydrous",
+    "Trimethylglycin",
+    "TMG",
+    "Glycine betaine",
+    "Betain-Anhydrat"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 2500
+}

@@ -1,0 +1,17 @@
+{
+  "id": "5-htp",
+  "type": "ingredient",
+  "name": "5-HTP (5-Hydroxytryptophan)",
+  "summary": "5-HTP ist ein Serotonin-Vorläufer, der die Blut-Hirn-Schranke überquert. Es wird vor allem für Schlaf und Stimmung untersucht. Wichtige Sicherheitswarnung: nicht mit SSRIs oder MAO-Hemmern…",
+  "aliases": [
+    "5-Hydroxytryptophan",
+    "5HTP",
+    "Griffonia simplicifolia",
+    "Serotonin-Vorläufer"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 100
+}

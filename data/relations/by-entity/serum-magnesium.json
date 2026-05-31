@@ -1,0 +1,11 @@
+{
+  "entity": "serum-magnesium",
+  "relations": [
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.6
+    }
+  ]
+}

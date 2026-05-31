@@ -1,0 +1,15 @@
+{
+  "id": "kaempferol",
+  "type": "ingredient",
+  "name": "Kaempferol",
+  "summary": "Kaempferol ist ein weiteres flavonoides Dauer-Versprechen: mechanistisch spannend, aber klinisch derzeit eher dünn.",
+  "aliases": [
+    "Kaempferol",
+    "Flavonol Kaempferol"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 4,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 100
+}

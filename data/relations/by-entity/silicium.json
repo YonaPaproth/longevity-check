@@ -1,0 +1,53 @@
+{
+  "entity": "silicium",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "gelenke",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-17435952",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17435952",
+      "note": "Review: Silicium ist biologisch plausibel für Knochen und Bindegewebe, aber die klinische Evidenz bleibt begrenzt."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-15701098",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15701098",
+      "note": "Kleine Studie mit Hinweisen auf Verbesserungen bei Haut und fragilen Haaren. Aussagekraft begrenzt."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18197562",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18197562",
+      "note": "Review: Potenzial vorhanden, aber klare klinische Belege fehlen."
+    }
+  ]
+}

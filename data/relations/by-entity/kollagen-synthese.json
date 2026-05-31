@@ -1,0 +1,23 @@
+{
+  "entity": "kollagen-synthese",
+  "relations": [
+    {
+      "relation": "wirkt_ueber",
+      "target": "glycin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "vitamin-c",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "zink",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "entity": "hydroxytyrosol",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nf-kb-hemmung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26975995",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26975995",
+      "note": "Review: Hydroxytyrosol zeigt in Humanstudien antioxidative, entzündungshemmende und antiatherosklerotische Wirkungen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21291821",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21291821",
+      "note": "RCT: Olive-Extrakt mit Hydroxytyrosol war mit niedrigeren Werten verbundene Blutdruck vergleichbar mit Captopril bei Hypertonie-Patienten."
+    }
+  ]
+}

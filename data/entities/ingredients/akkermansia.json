@@ -1,0 +1,16 @@
+{
+  "id": "akkermansia",
+  "type": "ingredient",
+  "name": "Akkermansia muciniphila",
+  "summary": "Akkermansia muciniphila ist ein Darmbakterium, das mit besserem Metabolismus, Darmbarriere-Funktion und gesundes Altern assoziiert wird.",
+  "aliases": [
+    "Akkermansia",
+    "Akkermansia muciniphila",
+    "AKK"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 100
+}

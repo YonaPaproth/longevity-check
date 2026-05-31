@@ -1,0 +1,71 @@
+{
+  "entity": "depression",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "5-htp",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "koffein",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-tyrosin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "lion-s-mane",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "melatonin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "myo-inositol",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "probiotika",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "rhodiola",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-b6",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-d3",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

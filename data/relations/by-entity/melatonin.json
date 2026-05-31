@@ -1,0 +1,122 @@
+{
+  "entity": "melatonin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "same",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Kann Wechselwirkungen mit Antikoagulantien, Antidepressiva und blutzuckerwirksamen Medikamenten haben."
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-kinder",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-ssri-einnahme",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-schlaflosigkeit",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-15691787",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15691787",
+      "note": "Meta-Analyse (17 RCTs): Melatonin verkürzte Einschlafzeit signifikant (-7,2 min) und war mit Veränderungen verbundene Schlafqualität. Effekte bescheiden, aber konsistent."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22471152",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22471152",
+      "note": "Review: Melatonin neutralisiert reaktive Sauerstoffspezies direkt und induziert antioxidative Enzyme. Schutz der mitochondrialen DNA vergleichsweise gut untersucht (präklinisch)."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-29676709",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29676709",
+      "note": "Review: Geringes Melatonin (0,5–1 mg) ist bei Schlafstörungen (besonders ab 55 Jahren) untersuchter als höhere Dosen. Chronobiologischer Effekt, kein sedativer."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23574769",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23574769",
+      "note": "Review: Melatonin-Spiegel sinken mit dem Alter (ab ~40 Jahren deutlich). Supplementierung könnte circadiane Dysregulation und oxidativen Stress kompensieren. gesundes Altern-Daten fehlen."
+    }
+  ]
+}

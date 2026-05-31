@@ -1,0 +1,16 @@
+{
+  "id": "bor",
+  "type": "ingredient",
+  "name": "Bor",
+  "summary": "Bor wird für Knochen, Hormone und Entzündung diskutiert. Mechanistisch interessant, aber die Human-Evidenz bleibt bislang eher dünn.",
+  "aliases": [
+    "Boron",
+    "Borcitrat",
+    "Borglycinat"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 3
+}

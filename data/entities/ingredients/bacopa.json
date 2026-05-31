@@ -1,0 +1,16 @@
+{
+  "id": "bacopa",
+  "type": "ingredient",
+  "name": "Bacopa monnieri",
+  "summary": "Bacopa ist einer der seriöseren Nootropic-Pflanzenstoffe. Es gibt brauchbare Daten für Gedächtnis, aber die Effekte sind eher moderat als spektakulär.",
+  "aliases": [
+    "Bacopa monnieri",
+    "Brahmi",
+    "Water Hyssop"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 300
+}

@@ -1,0 +1,16 @@
+{
+  "id": "same",
+  "type": "ingredient",
+  "name": "SAMe",
+  "summary": "SAMe ist interessant für Stimmung, Leber und Methylierung. Es hat klinische Substanz, wird aber deutlich arzneinäher eingeordnet als viele andere Supplements.",
+  "aliases": [
+    "S-Adenosylmethionin",
+    "SAMe",
+    "SAM-e"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 2,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 400
+}

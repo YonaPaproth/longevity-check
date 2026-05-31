@@ -1,0 +1,16 @@
+{
+  "id": "pterostilben",
+  "type": "ingredient",
+  "name": "Pterostilben",
+  "summary": "Pterostilben ist ein Resveratrol-Analogon aus Blaubeeren mit deutlich besserer Bioverfügbarkeit. Ähnliche Mechanismen (SIRT1, AMPK), aber bisher weniger Humanstudien.",
+  "aliases": [
+    "Pterostilbene",
+    "3,5-Dimethoxy-4'-hydroxystilben",
+    "Blaubeer-Stilben"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 100
+}

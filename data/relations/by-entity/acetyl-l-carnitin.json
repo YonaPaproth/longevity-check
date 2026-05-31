@@ -1,0 +1,47 @@
+{
+  "entity": "acetyl-l-carnitin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-12849737",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:12849737",
+      "note": "Meta-analytische Hinweise auf Nutzen in älteren und kognitiv beeinträchtigten Populationen, aber keine saubere Übertragbarkeit auf gesunde Nutzer."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25932463",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25932463",
+      "note": "Möglicher Nutzen in bestimmten neurologischen Kontexten."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-16517407",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:16517407",
+      "note": "Mechanistisch interessant, aber Human-Endpunkte bleiben begrenzt."
+    }
+  ]
+}

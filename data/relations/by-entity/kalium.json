@@ -1,0 +1,51 @@
+{
+  "entity": "kalium",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-nierenerkrankung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23635871",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23635871",
+      "note": "WHO-nahe Meta-Analyse: Höhere Kaliumzufuhr war mit niedrigeren Werten verbunden Blutdruck, besonders bei Menschen mit Hypertonie."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25159881",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25159881",
+      "note": "Die optimale Kaliumzufuhr hängt vom Kontext ab; Extreme sind nicht automatisch besser."
+    }
+  ]
+}

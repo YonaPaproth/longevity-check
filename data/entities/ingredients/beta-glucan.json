@@ -1,0 +1,16 @@
+{
+  "id": "beta-glucan",
+  "type": "ingredient",
+  "name": "Beta-Glucan",
+  "summary": "Beta-Glucane sind je nach Quelle unterschiedlich spannend. Für Cholesterin aus Hafer solide, für Immun-Claims aus Pilzen deutlich weicher.",
+  "aliases": [
+    "Beta-Glucan",
+    "Hafer-Beta-Glucan",
+    "Pilz-Beta-Glucane"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 3000
+}

@@ -1,0 +1,169 @@
+{
+  "entity": "l-tyrosin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schilddruese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "migraene",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "neuroprotektiv",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "dopamin-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-mao-hemmer",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schilddruesenerkrankung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-kopfschmerzen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-7737166",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:7737166",
+      "note": "RCT (militärisches Umfeld): L-Tyrosin konnte in Studien kognitive Leistungsabfälle unter extremen Stressbedingungen (Schlafentzug, körperliche Belastung) abmildern."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-7794222",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:7794222",
+      "note": "Militärstudie: 150 mg/kg L-Tyrosin milderte den Leistungsabfall bei Schlafentzug um ca. 4 Stunden."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-7940540",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:7940540",
+      "note": "Mechanistische Studie: Tyrosin-Depletion reduzierte dopaminabhängige kognitive Parameter, was die Rolle als Neurotransmitter-Vorstufe unterstreicht."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-6528626",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:6528626",
+      "note": "Kontrollierter Test (Kälte- und Lärm-Stressoren): L-Tyrosin milderte in Studien Stressreaktionen und Leistungsabfälle."
+    }
+  ]
+}

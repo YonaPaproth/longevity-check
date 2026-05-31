@@ -1,0 +1,18 @@
+{
+  "id": "cholin",
+  "type": "ingredient",
+  "name": "Cholin",
+  "summary": "Cholin ist essenziell für Zellmembranen, Leber und Acetylcholin. Wichtig bei Unterversorgung – aber nicht jede Cholin-Form hat denselben Nutzen fürs Gehirn.",
+  "aliases": [
+    "Choline",
+    "Cholinbitartrat",
+    "Phosphatidylcholin",
+    "Alpha-GPC",
+    "CDP-Cholin"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "likely-safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 400
+}

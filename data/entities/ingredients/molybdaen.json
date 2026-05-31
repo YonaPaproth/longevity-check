@@ -1,0 +1,16 @@
+{
+  "id": "molybdaen",
+  "type": "ingredient",
+  "name": "Molybdän",
+  "summary": "Molybdän ist ein essenzielles Spurenelement für bestimmte Enzyme. Mangel ist selten, und für Extra-Supplemente gibt es meist keinen guten Grund.",
+  "aliases": [
+    "Molybdenum",
+    "Molybdän",
+    "Ammoniummolybdat"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 0.05
+}

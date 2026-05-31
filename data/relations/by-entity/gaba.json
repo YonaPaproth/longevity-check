@@ -1,0 +1,87 @@
+{
+  "entity": "gaba",
+  "relations": [
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "Historisch ist es vor allem als aktiver Wirkstoff im Kamillentee bekannt, dessen leicht beruhigende Wirkung auf GABA-Rezeptorbindung zurückgeführt wird."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "ashwagandha",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "- **GABA-Mimetik:** Withanolide haben GABA-A-Rezeptor-modulierende Eigenschaften, was anxiolytische Effekte erklären kann\n- **Antioxidantien:** Hemmung von NF-κB und Reduktion von oxidativem Stress in"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "gaba-rezeptor",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "nac",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Deshalb klingt ein GABA-Supplement intuitiv nach mehr Ruhe, weniger Angst und besserem Schlaf."
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26797602",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26797602",
+      "note": "Kleine Humanstudien deuten auf Stress- und Schlaf-Effekte hin, aber die Datenbasis ist dünn."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-12408439",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:12408439",
+      "note": "Die BBB-Frage ist zentral: orale GABA-Wirkung im Gehirn bleibt biologisch umstritten."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-16971751",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:16971751",
+      "note": "Erste kleine Befunde, aber keine robuste klinische Grundlage."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "l-theanin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "**GABAerge Modulation:** Es gibt Hinweise auf eine Modulation inhibitorischer GABAerger Signale, die zur entspannenden Wirkung ohne klassische Sedierung beitragen könnte."
+    }
+  ]
+}

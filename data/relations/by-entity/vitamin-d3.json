@@ -1,0 +1,130 @@
+{
+  "entity": "vitamin-d3",
+  "relations": [
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "vitamin-d3-k2",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "## Warum D3 + K2 zusammen?\n\nVitamin D3 fördert die Aufnahme von Kalzium im Darm — eine seiner am besten belegten Wirkungen."
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "vitamin-d-spiegel",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28202713",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28202713",
+      "note": "Cochrane-Metaanalyse (n=11.321): Vitamin D reduzierte akute Atemwegsinfektionen moderat (aOR 0,88; 95%-CI 0,81–0,96). Nutzen größer bei Ausgangsmangel unter 25 nmol/L."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30611908",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30611908",
+      "note": "Umfassender Review: Klare Evidenz für Knochen und Mangelkontext; deutlich schwächer für diffuse Claims ohne nachgewiesenen Mangel."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30415629",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30415629",
+      "note": "Großes RCT (n=25.871): 2.000 IU/Tag kein signifikanter Nutzen für kardiovaskuläre Ereignisse oder Krebsinzidenz in der Primärprävention bei normal versorgten Personen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22762317",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22762317",
+      "note": "Gepoolte Analyse (11 RCTs, n=31.022): Vitamin D mind. 800 IU/Tag reduzierte Hüftfrakturen bei Personen ab 65 J. um ca. 30% gegenüber Placebo."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-17846391",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17846391",
+      "note": "Metaanalyse von 18 RCTs (n=57.311): Vitamin-D-Supplementierung assoziiert mit 7% Reduktion der Gesamtmortalität (RR 0,93; 95%-CI 0,87–0,99). Effekt primär in Mangelpopulationen."
+    }
+  ]
+}

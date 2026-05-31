@@ -1,0 +1,17 @@
+{
+  "id": "vitamin-a",
+  "type": "ingredient",
+  "name": "Vitamin A",
+  "summary": "Vitamin A ist essenziell für Sehen, Haut und normale Immunfunktion. Bei Mangel klar nützlich – hochdosiert aber relevant toxisch, besonders in der Schwangerschaft.",
+  "aliases": [
+    "Retinol",
+    "Vitamin A1",
+    "Beta-Carotin",
+    "Retinylpalmitat"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "caution",
+  "efsa_approved": true,
+  "typical_dose_mg": 1
+}

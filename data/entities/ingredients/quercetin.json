@@ -1,0 +1,17 @@
+{
+  "id": "quercetin",
+  "type": "ingredient",
+  "name": "Quercetin",
+  "summary": "Quercetin ist ein Pflanzenstoff mit antioxidativer Wirkung und gilt als potenzielles Senolytikum. Die Senolytik-Evidenz stammt fast ausschließlich aus Tier- und In-vitro-Studien.",
+  "aliases": [
+    "Quercetin Supplement",
+    "Quercetin + Dasatinib",
+    "Senolytikum",
+    "Quercefit"
+  ],
+  "category": "senolytics",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

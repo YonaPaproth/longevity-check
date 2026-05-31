@@ -1,0 +1,51 @@
+{
+  "entity": "phosphor",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24500942",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24500942",
+      "note": "Review: Phosphor ist essenziell, aber hohe Aufnahme aus stark verarbeiteten Lebensmitteln kann problematisch sein."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22510091",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22510091",
+      "note": "Phosphat ist biologisch zentral, aber als Supplement für Gesunde selten ein Engpass."
+    }
+  ]
+}

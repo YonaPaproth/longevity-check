@@ -1,0 +1,16 @@
+{
+  "id": "mangan",
+  "type": "ingredient",
+  "name": "Mangan",
+  "summary": "Mangan ist ein essenzielles Spurenelement für Enzyme, Knochen und antioxidative Systeme. Mangel ist selten, Extra-Supplemente meist unnötig.",
+  "aliases": [
+    "Manganese",
+    "Mangangluconat",
+    "Manganbisglycinat"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "caution",
+  "efsa_approved": true,
+  "typical_dose_mg": 2
+}

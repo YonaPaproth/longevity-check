@@ -1,0 +1,11 @@
+{
+  "entity": "hba1c",
+  "relations": [
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.6
+    }
+  ]
+}

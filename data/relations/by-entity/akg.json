@@ -1,0 +1,65 @@
+{
+  "entity": "akg",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "epigenetisch",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-32242179",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32242179",
+      "note": "Tierstudie: AKG war mit Veränderungen verbundene einige Altersmarker bei Mäusen. Spannend, aber kein Humanbeweis."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24828042",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24828042",
+      "note": "Mausdaten machen AKG populär in der gesundes Altern-Szene, reichen aber nicht für belastbare Human-Claims."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28332804",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28332804",
+      "note": "Review: AKG ist metabolisch wichtig, doch daraus folgt nicht automatisch ein Nutzen als Supplement."
+    }
+  ]
+}

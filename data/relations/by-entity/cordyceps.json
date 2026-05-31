@@ -1,0 +1,41 @@
+{
+  "entity": "cordyceps",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28025511",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28025511",
+      "note": "Einige Hinweise auf Leistungs- oder Fatigue-Effekte, aber keine starke, konsistente Evidenz."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20412130",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20412130",
+      "note": "Kleine Studien deuten auf subjektive Vorteile hin."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18396376",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18396376",
+      "note": "Breite präklinische Aktivität, Human-Daten deutlich begrenzter."
+    }
+  ]
+}

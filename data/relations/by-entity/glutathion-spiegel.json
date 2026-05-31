@@ -1,0 +1,65 @@
+{
+  "entity": "glutathion-spiegel",
+  "relations": [
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "ergothionein",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "glutathion",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "nac",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "omega-3",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "quercetin",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "rutin",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "sulforaphan",
+      "direction": "incoming",
+      "confidence": 0.6
+    }
+  ]
+}

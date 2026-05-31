@@ -1,0 +1,16 @@
+{
+  "id": "acetyl-l-carnitin",
+  "type": "ingredient",
+  "name": "Acetyl-L-Carnitin",
+  "summary": "ALCAR ist die gehirngängigere Carnitin-Form und deshalb in Brain- und gesundes Altern-Stacks beliebt. Die Evidenz ist interessant, aber nicht spektakulär.",
+  "aliases": [
+    "ALCAR",
+    "Acetyl-L-Carnitine",
+    "Acetylcarnitin"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1000
+}

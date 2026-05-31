@@ -1,0 +1,162 @@
+{
+  "entity": "sulforaphan",
+  "relations": [
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "## Wirkmechanismen (ähnlich wie Resveratrol)\n\n- **SIRT1-Aktivierung**: Deacetylase, die Stressresistenz, Mitochondrienbiogenese und DNA-Reparatur fördert\n- **AMPK**: Energiesensor, hemmt mTOR und förd"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schilddruese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nf-kb-hemmung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "crp",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "glutathion-spiegel",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "glutathion",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "## Nrf2: der Masterregulator\n\nWenn Sulforaphan Nrf2 aktiviert, produziert die Zelle mehr:\n- **Glutathion** (zentrales Antioxidans)\n- **Häm-Oxygenase-1** (entzündungshemmend)\n- **Phase-2-Detoxifikation"
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "jod",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Bei sehr hohen Dosen mögliche Schilddrüsenprobleme (Isothiocyanate hemmen Jodaufnahme) – bei normaler Jodversorgung kein Risiko."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "nr",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Der Mechanismus macht Sulforaphan besonders interessant: Es aktiviert **Nrf2** (Nuclear factor erythroid 2-related factor 2) – einen Transkriptionsfaktor, der hunderte Gene für zelluläre Schutz- und E"
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "vitamin-c",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "## Nrf2: der Masterregulator\n\nWenn Sulforaphan Nrf2 aktiviert, produziert die Zelle mehr:\n- **Glutathion** (zentrales Antioxidans)\n- **Häm-Oxygenase-1** (entzündungshemmend)\n- **Phase-2-Detoxifikation"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-8091226",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:8091226",
+      "note": "Entdeckungspaper: Sulforaphan induziert Phase-2-Detoxifikationsenzyme und hemmt Tumorwachstum in Tiermodellen. Legte Grundstein für die gesamte Sulforaphan-Forschung."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-9294217",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:9294217",
+      "note": "Brokkoli-Keimlinge enthalten 20–50× mehr Glucoraphanin als ausgewachsener Brokkoli. Basis für Supplement-Ansatz."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21593586",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21593586",
+      "note": "RCT (n=291): Sulforaphan-reicher Brokkoli-Keimlingsdrink war mit höheren Werten verbundene Ausscheidung von Aflatoxin- und Benzol-Metaboliten signifikant – Entgiftungseffekt beim Menschen belegt."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25313065",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25313065",
+      "note": "RCT bei ASD-Jugendlichen: Sulforaphan war mit Veränderungen verbundene soziale Interaktion und Verhalten signifikant. Illustriert präklinisch neurobiologisch interessante Wirkung via Nrf2/Hitzeschockp"
+    }
+  ]
+}

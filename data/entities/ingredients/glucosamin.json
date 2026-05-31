@@ -1,0 +1,16 @@
+{
+  "id": "glucosamin",
+  "type": "ingredient",
+  "name": "Glucosamin",
+  "summary": "Glucosamin ist ein Klassiker für Gelenk-Themen. Die Evidenz ist gemischt: einige Daten sind vorhanden, für pauschale Nutzenversprechen reicht das aber nicht.",
+  "aliases": [
+    "Glucosamine",
+    "Glucosaminsulfat",
+    "Glucosaminhydrochlorid"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1500
+}

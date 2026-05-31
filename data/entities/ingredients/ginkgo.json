@@ -1,0 +1,16 @@
+{
+  "id": "ginkgo",
+  "type": "ingredient",
+  "name": "Ginkgo biloba",
+  "summary": "Ginkgo ist ein berühmter Gehirn- und Durchblutungsstoff. Die Evidenz ist gemischt, und die Blutungs-/Interaktionsfrage sollte man nicht wegwinken.",
+  "aliases": [
+    "Ginkgo biloba",
+    "Ginkgo",
+    "Maidenhair Tree Extract"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 3,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 120
+}

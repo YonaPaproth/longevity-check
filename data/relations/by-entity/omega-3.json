@@ -1,0 +1,105 @@
+{
+  "entity": "omega-3",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "augen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "glutathion-spiegel",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30415628",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30415628",
+      "note": "RCT (n=8.179): Hochdosiertes EPA 4 g/Tag reduzierte schwere kardiovaskuläre Ereignisse um 25% vs. Placebo bei Patienten mit erhöhten Triglyzeriden und Statin-Therapie."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-31537771",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31537771",
+      "note": "RCT (n=25.871): Omega-3 1 g/Tag ohne signifikante Reduktion kardiovaskulärer Ereignisse in der Primärprävention, aber weniger Myokardinfarkte (–28%)."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-33387437",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33387437",
+      "note": "Metaanalyse von 40 RCTs: Omega-3 senkt Triglyzeride zuverlässig um 25–30%; kardiovaskulärer Nutzen dosisabhängig und am stärksten bei mehr als 1 g/Tag EPA+DHA."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-31980092",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31980092",
+      "note": "RCT (n=13.078): Hochdosiertes EPA+DHA (4 g/Tag) keine signifikante Reduktion schwerer CV-Ereignisse vs. Kontrollöl. Kontroverse zum Vergleich mit REDUCE-IT (unterschiedliche Placebos)."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-42144109",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42144109",
+      "note": "RCT (n=72): Krilöl erhöhte EPA- und DHA-Plasmaspiegel ca. 1,5-fach stärker als Fischöl bei gleicher Omega-3-Dosis – zurückzuführen auf Phospholipid-Form vs. Triglycerid-Form."
+    }
+  ]
+}

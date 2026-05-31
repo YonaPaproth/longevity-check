@@ -1,0 +1,83 @@
+{
+  "entity": "vitamin-b3",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nad-biosynthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-hautausschlag",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-flush",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23676243",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23676243",
+      "note": "Review: Niacin war mit Veränderungen verbunden Lipidmarker, klinischer Zusatznutzen in der modernen Statin-Ära ist aber begrenzt und Nebenwirkungen sind häufig."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25014686",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25014686",
+      "note": "Große Studie: Trotz günstiger Effekte auf HDL/Triglyceride kein überzeugender klinischer Vorteil, dafür mehr Nebenwirkungen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18454811",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18454811",
+      "note": "Review zu Biochemie und Stoffwechsel: Niacin ist zentral für NAD/NADP und damit für Energie- und Redoxstoffwechsel."
+    }
+  ]
+}

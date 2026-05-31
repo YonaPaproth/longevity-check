@@ -1,0 +1,143 @@
+{
+  "entity": "coq10",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "blutdruck-werte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "glutathion-spiegel",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "magnesium",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Diese Effektgröße ist beträchtlich – größer als bei Magnesium."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "selen",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "### Ältere Menschen\n\n**KiSel-10 (Alehagen 2013, n=443)**: Kombination aus Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität bei älteren Schweden um **54% (HR 0,46)**."
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23097267",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23097267",
+      "note": "RCT (n=443, ältere Schweden): Kombination Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität um 54% (HR 0,46; 95%-CI 0,28–0,77). Beachtlich, aber noch nicht unabhängig repliziert."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25282031",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25282031",
+      "note": "RCT (n=420): CoQ10 300 mg/Tag über 2 Jahre reduzierte schwere kardiovaskuläre Ereignisse (14% vs. 25% im Placebo, p=0,003) und Gesamtmortalität bei chronischer Herzinsuffizienz."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-25154704",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25154704",
+      "note": "RCT: CoQ10 100 mg/Tag über 30 Tage reduzierte Muskelschwäche und -schmerzen bei Statin-assozierter Myopathie signifikant gegenüber Placebo."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-17386983",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17386983",
+      "note": "Metaanalyse (12 RCTs): CoQ10 reduzierte systolischen Blutdruck um durchschnittlich 16,6 mmHg und diastolischen um 8,2 mmHg. Effekte in kleineren Studien; größere Replikationen stehen aus."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18926930",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18926930",
+      "note": "Kohortenstudie (n=236 CHF-Patienten): Niedriger CoQ10-Spiegel war ein unabhängiger Prädiktor für erhöhte Mortalität bei chronischer Herzinsuffizienz. Verstärkt klinisches Interesse an CoQ10-Substituti"
+    }
+  ]
+}

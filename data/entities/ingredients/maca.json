@@ -1,0 +1,16 @@
+{
+  "id": "maca",
+  "type": "ingredient",
+  "name": "Maca",
+  "summary": "Maca wird für Libido, Energie und hormonelle Balance beworben. Die Human-Daten sind da, aber eher klein und nicht so robust wie der Hype.",
+  "aliases": [
+    "Maca",
+    "Lepidium meyenii",
+    "Peruanischer Ginseng"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1500
+}

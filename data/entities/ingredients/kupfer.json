@@ -1,0 +1,16 @@
+{
+  "id": "kupfer",
+  "type": "ingredient",
+  "name": "Kupfer",
+  "summary": "Kupfer ist essenziell für Enzyme, Eisenstoffwechsel und Bindegewebe. Sinnvoll bei Mangel – isoliert hochdosiert aber keine gute Idee.",
+  "aliases": [
+    "Copper",
+    "Kupfergluconat",
+    "Kupferbisglycinat"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "caution",
+  "efsa_approved": true,
+  "typical_dose_mg": 1
+}

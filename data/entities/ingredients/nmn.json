@@ -1,0 +1,16 @@
+{
+  "id": "nmn",
+  "type": "ingredient",
+  "name": "NMN (Nicotinamidmononukleotid)",
+  "summary": "NMN ist eine Vorstufe von NAD+, einem zellulären Energieträger. Tierstudien sind vielversprechend – belastbare Humanstudien fehlen bisher.",
+  "aliases": [
+    "Nicotinamide Mononucleotide",
+    "β-NMN",
+    "NMN-Supplement"
+  ],
+  "category": "nad-precursors",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

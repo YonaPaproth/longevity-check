@@ -1,0 +1,189 @@
+{
+  "entity": "koffein",
+  "relations": [
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "egcg",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "Im Kontext gesunden Alterns sind zwei Mechanismen besonders relevant:\n- **AMPK-Aktivierung**: AMPK ist ein zellulärer Energiesensor – bei Aktivierung fördert er Fettverbrennung, hemmt mTOR und stimuli"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "migraene",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "dopamin-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-kinder",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-kopfschmerzen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-schlaflosigkeit",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-32045577",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32045577",
+      "note": "Meta-Analyse (>300 Studien): Koffein verbesserte Ausdauer-, Kraft- und Schnellkraftleistung. Effekte auf Ausdauerleistung waren am konsistentesten (SMD ~0,41)."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26830602",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26830602",
+      "note": "Systematischer Review (>120 Studien): Koffein verbesserte in Studien Vigilanz, Reaktionszeit und Konzentrationsleistung, insbesondere bei Schlafentzug."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20091547",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20091547",
+      "note": "Cochrane Review: Koffein reduzierte Fehlerrate und war mit weniger Schläfrigkeit in Schichtarbeit-Settings verbunden."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24832163",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24832163",
+      "note": "Große Kohortenstudie (NHS, >100.000 Personen): Moderater Kaffeekonsum war mit geringerem T2D-Risiko assoziiert – konfundiert durch weitere Kaffeeinhaltsstoffe, nicht isoliert auf Koffein zurückführbar"
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "l-theanin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "**Koffein-Interaktion:** Theanin und Koffein interagieren am adenosinergen System auf komplementäre Weise."
+    }
+  ]
+}

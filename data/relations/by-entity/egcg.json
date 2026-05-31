@@ -1,0 +1,160 @@
+{
+  "entity": "egcg",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "ampk-aktivierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "mtor-hemmung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "autophagie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "crp",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "eisen",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Nicht mit Eisenpräparaten kombinieren (EGCG hemmt Eisenresorption)."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "koffein",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Im Kontext gesunden Alterns sind zwei Mechanismen besonders relevant:\n- **AMPK-Aktivierung**: AMPK ist ein zellulärer Energiesensor – bei Aktivierung fördert er Fettverbrennung, hemmt mTOR und stimuli"
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "nr",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Nicht mit Eisenpräparaten kombinieren (EGCG hemmt Eisenresorption)."
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-lebererkrankung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-lebertoxizitaet",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23448243",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23448243",
+      "note": "Umfassender Review: Grüntee-Catechine zeigen in epidemiologischen Studien inverse Korrelation mit Herz-Kreislauf-Erkrankungen, Stoffwechselauffälligkeiten und einzelnen Krebsarten. Kausalität unklar."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-19007524",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19007524",
+      "note": "Review: EGCG hemmt COMT, aktiviert AMPK und stimuliert Fettoxidation. Kalorienverbrauch steigt moderat (~80 kcal/Tag bei 300 mg EGCG+Koffein)."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21715508",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21715508",
+      "note": "Meta-Analyse (14 RCTs): Grüntee-Catechine war mit niedrigeren Werten verbundenen LDL-Cholesterin um ~0,19 mmol/L und Gesamtcholesterin signifikant."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-29684494",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29684494",
+      "note": "EGCG aktiviert UCP1 (thermogenes Protein) und beeinflusst Fettgewebsbraunfärbung. Mechanismus für metabolische Effekte."
+    }
+  ]
+}

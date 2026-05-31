@@ -1,0 +1,41 @@
+{
+  "entity": "baicalin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28111354",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28111354",
+      "note": "Review: präklinisch interessante Breite, aber wenige belastbare Human-Daten."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-19375465",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19375465",
+      "note": "Biologisch relevant, klinisch aber noch kein starker Supplement-Fall."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-27094574",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:27094574",
+      "note": "Traditionsreiche Nutzung, moderne Humanbelege bleiben begrenzt."
+    }
+  ]
+}

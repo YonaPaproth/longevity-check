@@ -1,0 +1,16 @@
+{
+  "id": "melatonin",
+  "type": "ingredient",
+  "name": "Melatonin",
+  "summary": "Melatonin reguliert den Schlaf-Wach-Rhythmus und hat antioxidative Eigenschaften. Vergleichsweise gut untersucht ist es vor allem bei Jetlag und bestimmten Schlafkontexten. In Deutschland sind…",
+  "aliases": [
+    "Melatonin",
+    "N-Acetyl-5-methoxytryptamin",
+    "Schlafhormon"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "likely-safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "l-tyrosin",
+  "type": "ingredient",
+  "name": "L-Tyrosin",
+  "summary": "L-Tyrosin ist eine Aminosäure-Vorstufe von Dopamin, Noradrenalin und Adrenalin. In Studien zeigte sie kognitive Vorteile unter akutem Stress und Schlafentzug.",
+  "aliases": [
+    "L-Tyrosine",
+    "Tyrosin",
+    "Tyrosine",
+    "N-Acetyl-L-Tyrosin",
+    "NALT"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 2000
+}

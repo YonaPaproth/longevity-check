@@ -1,0 +1,16 @@
+{
+  "id": "vitamin-k1",
+  "type": "ingredient",
+  "name": "Vitamin K1",
+  "summary": "Vitamin K1 ist essenziell für Blutgerinnung und wahrscheinlich auch für Knochenstoffwechsel. Sinnvoll bei niedriger Zufuhr – aber relevant für Menschen mit Gerinnungshemmern.",
+  "aliases": [
+    "Phyllochinon",
+    "Phylloquinone",
+    "Vitamin K1"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "caution",
+  "efsa_approved": true,
+  "typical_dose_mg": 0.1
+}

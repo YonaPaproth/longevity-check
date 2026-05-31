@@ -1,0 +1,16 @@
+{
+  "id": "piperin",
+  "type": "ingredient",
+  "name": "Piperin",
+  "summary": "Piperin ist vor allem ein Bioverfügbarkeits-Booster. Praktisch nützlich, aber nicht harmlos, weil genau diese Wirkung auch Interaktionen verstärken kann.",
+  "aliases": [
+    "Piperine",
+    "Schwarzer Pfeffer Extrakt",
+    "Bioperine"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 10
+}

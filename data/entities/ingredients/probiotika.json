@@ -1,0 +1,17 @@
+{
+  "id": "probiotika",
+  "type": "ingredient",
+  "name": "Probiotika",
+  "summary": "Probiotika sind lebende Mikroorganismen mit stammspezifischen Eigenschaften im Darm-Kontext. Das Hauptproblem ist die Produktqualität: Viele Angebote sind nur begrenzt dokumentiert.",
+  "aliases": [
+    "Probiotics",
+    "Lactobacillus",
+    "Bifidobacterium",
+    "Darmbakterien",
+    "Mikrobiom"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false
+}

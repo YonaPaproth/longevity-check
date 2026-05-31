@@ -1,0 +1,90 @@
+{
+  "entity": "berberine",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "ampk-aktivierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "same",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Viele der stärkeren Befunde stammen aus Populationen mit metabolischen Auffälligkeiten\n- **Langzeitdaten:** Studien meist kurz (3–6 Monate)\n- **Gesundes Altern:** Als direkte Intervention nicht unters"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-diabetes-medikamente",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-blutzuckerabfall",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-15466416",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15466416",
+      "note": "Berberin war mit niedrigeren Werten verbundene LDL-Cholesterin um 25% über einen neuartigen Mechanismus (LDLR-Stabilisierung) — unabhängig von Statinen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-19800084",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19800084",
+      "note": "RCT (n=116): Berberin war mit niedrigeren Werten verbundene HbA1c, Nüchternblutzucker und Triglyceride vergleichbar mit Metformin — ein wichtiger Befund."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20150526",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20150526",
+      "note": "Berberin aktiviert AMPK (wie Metformin) und war mit Veränderungen verbunden Insulinsensitivität in Tier- und Zellstudien über mehrere Mechanismen."
+    }
+  ]
+}

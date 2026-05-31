@@ -1,0 +1,16 @@
+{
+  "id": "chrom",
+  "type": "ingredient",
+  "name": "Chrom",
+  "summary": "Chrom wird oft für Blutzucker und Heißhunger beworben. Die Evidenz ist gemischt, und bei Gesunden ist der Zusatznutzen meist klein.",
+  "aliases": [
+    "Chromium",
+    "Chrompicolinat",
+    "Chromhefe"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 0.2
+}

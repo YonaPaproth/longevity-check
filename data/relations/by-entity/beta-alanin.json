@@ -1,0 +1,83 @@
+{
+  "entity": "beta-alanin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22270875",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22270875",
+      "note": "Meta-Analyse (15 Studien) fand einen durchschnittlichen Effekt (SMD ~0,24) besonders bei hochintensiven Befreiungen von 60–240 Sekunden."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26553563",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26553563",
+      "note": "Das ISSN sieht einen belegten Nutzen für Sportler, die wiederholt hochintensiv belasten; keine Empfehlung für Alltagsnutzer."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28654511",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28654511",
+      "note": "Review mit aktualisierten Daten zur Carnosinsynthese, Dosis-Zeit-Kinetik und Sicherheitsprofil einschließlich Parästhesien."
+    }
+  ]
+}

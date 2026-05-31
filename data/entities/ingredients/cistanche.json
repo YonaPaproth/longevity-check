@@ -1,0 +1,16 @@
+{
+  "id": "cistanche",
+  "type": "ingredient",
+  "name": "Cistanche",
+  "summary": "Cistanche ist ein TCM-Stoff mit wachsender gesundes Altern-Popularität. Die Human-Evidenz ist bislang aber sehr begrenzt.",
+  "aliases": [
+    "Cistanche deserticola",
+    "Cistanche tubulosa",
+    "Rou Cong Rong"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 4,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

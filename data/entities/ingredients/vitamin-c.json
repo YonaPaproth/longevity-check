@@ -1,0 +1,17 @@
+{
+  "id": "vitamin-c",
+  "type": "ingredient",
+  "name": "Vitamin C (Ascorbinsäure)",
+  "summary": "Vitamin C ist essenziell für Kollagensynthese und weitere normale Körperfunktionen. Dafür bestehen zugelassene EFSA-Claims. Megadosen zeigen über die ausreichende Versorgung hinaus keinen klaren…",
+  "aliases": [
+    "Ascorbinsäure",
+    "Ascorbic Acid",
+    "L-Ascorbinsäure",
+    "Vitamin C"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 1,
+  "safety": "likely-safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 500
+}

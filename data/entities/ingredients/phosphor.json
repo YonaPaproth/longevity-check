@@ -1,0 +1,16 @@
+{
+  "id": "phosphor",
+  "type": "ingredient",
+  "name": "Phosphor",
+  "summary": "Phosphor ist essenziell für Knochen, ATP und Zellmembranen. Mangel ist selten, und Supplemente sind für die meisten Menschen unnötig.",
+  "aliases": [
+    "Phosphorus",
+    "Phosphat",
+    "Phosphor"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "likely-safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 250
+}

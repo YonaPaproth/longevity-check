@@ -1,0 +1,45 @@
+{
+  "entity": "vitamin-b7",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schilddruese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28879195",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28879195",
+      "note": "Review: Evidenz für Biotin bei Haarproblemen ist schwach und fast immer auf dokumentierte Mangelzustände oder spezielle Erkrankungen beschränkt."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28362283",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28362283",
+      "note": "Biotin in Supplementdosen kann Laboruntersuchungen relevant verfälschen, darunter Schilddrüsenwerte und Herzmarker."
+    }
+  ]
+}

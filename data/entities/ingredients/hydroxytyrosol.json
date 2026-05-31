@@ -1,0 +1,16 @@
+{
+  "id": "hydroxytyrosol",
+  "type": "ingredient",
+  "name": "Hydroxytyrosol",
+  "summary": "Hydroxytyrosol ist ein Olivenpolyphenol, das für oxidative Prozesse und Gefäßmarker untersucht wird. Im Alltag wird es oft unterschätzt.",
+  "aliases": [
+    "HT",
+    "Hydroxytyrosol",
+    "3,4-DHPEA"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 2,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 20
+}

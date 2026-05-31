@@ -1,0 +1,103 @@
+{
+  "entity": "rhodiola",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-blutgerinnungsstoerung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-mao-hemmer",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-19016404",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19016404",
+      "note": "RCT (n=60): SHR-5 (576 mg/Tag) war mit Veränderungen verbundene Erschöpfung, Konzentration und Wohlbefinden signifikant nach 28 Tagen. Gut verträglich, keine ernsthaften Nebenwirkungen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-12725561",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:12725561",
+      "note": "RCT (n=161 Ärzte im Nachtdienst): Einzeldosis Rhodiola war mit Veränderungen verbundene kognitive Leistung und Reaktionszeit unter Erschöpfungsbedingungen signifikant vs. Placebo."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-17990197",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17990197",
+      "note": "RCT (n=56): Rhodiola reduzierte physische und mentale Erschöpfung bei Studierenden in Prüfungsperioden signifikant. Stimmung und allgemeines Wohlbefinden war mit Veränderungen verbunden."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28219059",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28219059",
+      "note": "Offene Studie (n=118, starke Erschöpfung-Patienten): 400 mg/Tag über 12 Wochen reduzierte alle starke Erschöpfung-Symptome signifikant. Kein Placebo-Arm, aber klinisch relevante Effektgrößen."
+    }
+  ]
+}

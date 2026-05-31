@@ -1,0 +1,23 @@
+{
+  "entity": "nad-spiegel",
+  "relations": [
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "nmn",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "nr",
+      "direction": "incoming",
+      "confidence": 0.6
+    }
+  ]
+}

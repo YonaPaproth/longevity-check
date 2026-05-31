@@ -1,0 +1,69 @@
+{
+  "entity": "kupfer",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18488400",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18488400",
+      "note": "Kupfermangel kann Anämie, Neutropenie und neurologische Störungen verursachen. Klinisch besonders relevant nach Malabsorption oder Zink-Überdosierung."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-15883553",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15883553",
+      "note": "Zink und Kupfer beeinflussen sich gegenseitig. Chronisch hohe Zinkzufuhr kann Kupfermangel begünstigen."
+    }
+  ]
+}

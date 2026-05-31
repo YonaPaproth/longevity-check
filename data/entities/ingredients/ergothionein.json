@@ -1,0 +1,16 @@
+{
+  "id": "ergothionein",
+  "type": "ingredient",
+  "name": "Ergothionein",
+  "summary": "Ergothionein ist ein seltenes Aminosäurederivat aus Pilzen, das als antioxidativ diskutiert wird und teils als potenzielles „gesundes Altern-Vitamin“ beschrieben wird.",
+  "aliases": [
+    "Ergothioneine",
+    "ERGO",
+    "L-Ergothioneine"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 5
+}

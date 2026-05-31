@@ -1,0 +1,16 @@
+{
+  "id": "l-carnitin",
+  "type": "ingredient",
+  "name": "L-Carnitin",
+  "summary": "L-Carnitin transportiert Fettsäuren in die Mitochondrien. Klingt nach Fatburner, liefert bei Gesunden aber meist weniger als die Werbung verspricht.",
+  "aliases": [
+    "L-Carnitine",
+    "Carnitin",
+    "Levocarnitin"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1000
+}

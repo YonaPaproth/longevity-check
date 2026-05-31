@@ -1,0 +1,35 @@
+{
+  "entity": "tongkat-ali",
+  "relations": [
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23273445",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23273445",
+      "note": "Kleine Datenbasis mit Hinweisen auf war mit Veränderungen verbundene androgenbezogene Marker in bestimmten Gruppen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23754792",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23754792",
+      "note": "Kleine Studie mit Effekten auf Stressparameter und Stimmung."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22971603",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22971603",
+      "note": "Review: interessant, aber noch klar im Bereich moderater und vorläufiger Evidenz."
+    }
+  ]
+}

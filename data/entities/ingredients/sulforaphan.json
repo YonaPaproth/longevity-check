@@ -1,0 +1,17 @@
+{
+  "id": "sulforaphan",
+  "type": "ingredient",
+  "name": "Sulforaphan",
+  "summary": "Sulforaphan aktiviert Nrf2-abhängige Schutzmechanismen und wird oft aus Brokkoli-Keimlingen gewonnen. Die Datenlage ist präklinisch stark und klinisch noch im Aufbau; zugelassene EU-Health-Claims…",
+  "aliases": [
+    "Sulforaphane",
+    "Brokkoli-Extrakt",
+    "Glucoraphanin",
+    "SGS"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 30
+}

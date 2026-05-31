@@ -1,0 +1,16 @@
+{
+  "id": "shilajit",
+  "type": "ingredient",
+  "name": "Shilajit",
+  "summary": "Shilajit wird für Energie, Testosteron und Mitochondrien vermarktet. Die Daten sind begrenzt und Qualitätsprobleme bei Produkten sind ein reales Thema.",
+  "aliases": [
+    "Shilajit",
+    "Asphaltum punjabianum",
+    "Mineral Pitch"
+  ],
+  "category": "other",
+  "evidenceLevel": 4,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 250
+}

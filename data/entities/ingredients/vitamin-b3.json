@@ -1,0 +1,17 @@
+{
+  "id": "vitamin-b3",
+  "type": "ingredient",
+  "name": "Vitamin B3 (Niacin)",
+  "summary": "Vitamin B3 ist essenziell und Vorläufer von NAD+. Bei Mangel wichtig, hochdosierte Nicotinsäure hat aber Nebenwirkungen – gesundes Altern-Nutzen bei Gesunden ist unklar.",
+  "aliases": [
+    "Niacin",
+    "Nicotinsäure",
+    "Nicotinamid",
+    "Vitamin B3"
+  ],
+  "category": "nad-precursors",
+  "evidenceLevel": 2,
+  "safety": "caution",
+  "efsa_approved": true,
+  "typical_dose_mg": 50
+}

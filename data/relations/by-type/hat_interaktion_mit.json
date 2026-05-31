@@ -1,0 +1,354 @@
+{
+  "type": "hat_interaktion_mit",
+  "count": 58,
+  "relations": [
+    {
+      "subject": "5-htp",
+      "target": "l-tryptophan",
+      "confidence": 0.7,
+      "note": "Es wird aus L-Tryptophan (aus der Nahrung) synthetisiert und ist der letzte Schritt vor der Serotoninbildung."
+    },
+    {
+      "subject": "5-htp",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": ")\n- SNRIs (Venlafaxin, Duloxetin)\n- MAO-Hemmern (Tranylcypromin, Moclobemid)\n- Tramadol, Triptanen (Migränemittel)\n- Lithium, Linezolid\n\nDas Serotonin-Syndrom ist ein potenziell lebensbedrohlicher Zus"
+    },
+    {
+      "subject": "akkermansia",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": "## Was sagen die Studien wirklich?\n\n### Das Positive\n- Erster RCT am Menschen (2019) zeigte signifikante Verbesserungen bei Insulinsensitivität, Cholesterin und Entzündungsmarkern\n- Pasteurisiertes Ak"
+    },
+    {
+      "subject": "apigenin",
+      "target": "gaba",
+      "confidence": 0.7,
+      "note": "Historisch ist es vor allem als aktiver Wirkstoff im Kamillentee bekannt, dessen leicht beruhigende Wirkung auf GABA-Rezeptorbindung zurückgeführt wird."
+    },
+    {
+      "subject": "apigenin",
+      "target": "nmn",
+      "confidence": 0.7,
+      "note": "Das ist ein komplementärer Ansatz zu **NMN oder NR** (die NAD+ von der Synthese-Seite erhöhen)."
+    },
+    {
+      "subject": "apigenin",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": "Das ist ein komplementärer Ansatz zu **NMN oder NR** (die NAD+ von der Synthese-Seite erhöhen)."
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "gaba",
+      "confidence": 0.7,
+      "note": "- **GABA-Mimetik:** Withanolide haben GABA-A-Rezeptor-modulierende Eigenschaften, was anxiolytische Effekte erklären kann\n- **Antioxidantien:** Hemmung von NF-κB und Reduktion von oxidativem Stress in"
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": "## Wirkmechanismus\n\nDie primären Mechanismen:\n- **HPA-Achsen-Modulation:** Ashwagandha scheint die Hypothalamus-Hypophysen-Nebennierenrinden-Achse zu modulieren, was zu niedrigeren Cortisol-Spiegeln f"
+    },
+    {
+      "subject": "berberine",
+      "target": "same",
+      "confidence": 0.7,
+      "note": "Viele der stärkeren Befunde stammen aus Populationen mit metabolischen Auffälligkeiten\n- **Langzeitdaten:** Studien meist kurz (3–6 Monate)\n- **Gesundes Altern:** Als direkte Intervention nicht unters"
+    },
+    {
+      "subject": "betain",
+      "target": "vitamin-e",
+      "confidence": 0.7,
+      "note": "B-Vitamine) ist unklar."
+    },
+    {
+      "subject": "calcium",
+      "target": "eisen",
+      "confidence": 0.7,
+      "note": "Eine konsistente Reduktion des Frakturrisikos ließ sich dagegen nicht nachweisen."
+    },
+    {
+      "subject": "calcium",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "Eine konsistente Reduktion des Frakturrisikos ließ sich dagegen nicht nachweisen."
+    },
+    {
+      "subject": "calcium",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": "Knochenresorption (Osteoklasten lösen Calcium aus Knochen)\n2."
+    },
+    {
+      "subject": "calcium",
+      "target": "zink",
+      "confidence": 0.7,
+      "note": "000 mg/Tag\n\n**Wechselwirkungen:**\n- **Eisen, Zink**: Calcium hemmt die gleichzeitige Aufnahme → zeitlich trennen\n- **Bisphosphonate** (Osteoporose-Medikamente): Nicht gleichzeitig einnehmen\n- **Schild"
+    },
+    {
+      "subject": "coq10",
+      "target": "magnesium",
+      "confidence": 0.7,
+      "note": "Diese Effektgröße ist beträchtlich – größer als bei Magnesium."
+    },
+    {
+      "subject": "coq10",
+      "target": "selen",
+      "confidence": 0.7,
+      "note": "### Ältere Menschen\n\n**KiSel-10 (Alehagen 2013, n=443)**: Kombination aus Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität bei älteren Schweden um **54% (HR 0,46)**."
+    },
+    {
+      "subject": "curcumin",
+      "target": "cholin",
+      "confidence": 0.7,
+      "note": "- **Meriva** (Phosphatidylcholin-Komplex): ~29-fach höhere Resorption vs."
+    },
+    {
+      "subject": "curcumin",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "Im Plasma sind nach Standardkapseln nur Spuren nachweisbar."
+    },
+    {
+      "subject": "curcumin",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": "**Relevante Wirkmechanismen:**\n- Hemmung von **NF-κB**, dem zentralen Transkriptionsfaktor für proinflammatorische Zytokine\n- Aktivierung von **Nrf2**, einem Masterregulator antioxidativer Genexpressi"
+    },
+    {
+      "subject": "curcumin",
+      "target": "piperin",
+      "confidence": 0.7,
+      "note": "**Lösungsansätze mit klinischen Daten:**\n- **Piperin** (aus schwarzem Pfeffer, 20 mg): Steigert Curcumin-Bioverfügbarkeit um bis zu 2."
+    },
+    {
+      "subject": "egcg",
+      "target": "eisen",
+      "confidence": 0.7,
+      "note": "Nicht mit Eisenpräparaten kombinieren (EGCG hemmt Eisenresorption)."
+    },
+    {
+      "subject": "egcg",
+      "target": "koffein",
+      "confidence": 0.7,
+      "note": "Im Kontext gesunden Alterns sind zwei Mechanismen besonders relevant:\n- **AMPK-Aktivierung**: AMPK ist ein zellulärer Energiesensor – bei Aktivierung fördert er Fettverbrennung, hemmt mTOR und stimuli"
+    },
+    {
+      "subject": "egcg",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": "Nicht mit Eisenpräparaten kombinieren (EGCG hemmt Eisenresorption)."
+    },
+    {
+      "subject": "eisen",
+      "target": "bor",
+      "confidence": 0.7,
+      "note": "Bei Entzündungen steigt Hepcidin ebenfalls — weshalb Laborwerte bei Infekten nicht zuverlässig sind."
+    },
+    {
+      "subject": "eisen",
+      "target": "chrom",
+      "confidence": 0.7,
+      "note": "### Eisen im menschlichen Körper\n\n| Kompartiment | Anteil am Körpereisen | Funktion |\n|---|---|---|\n| Hämoglobin (rote Blutkörperchen) | ~65 % | Sauerstofftransport |\n| Ferritin / Hämosiderin (Speiche"
+    },
+    {
+      "subject": "gaba",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "Deshalb klingt ein GABA-Supplement intuitiv nach mehr Ruhe, weniger Angst und besserem Schlaf."
+    },
+    {
+      "subject": "glycin",
+      "target": "glutathion",
+      "confidence": 0.7,
+      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+    },
+    {
+      "subject": "glycin",
+      "target": "glynac",
+      "confidence": 0.7,
+      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+    },
+    {
+      "subject": "glycin",
+      "target": "kollagen",
+      "confidence": 0.7,
+      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+    },
+    {
+      "subject": "glycin",
+      "target": "kreatin",
+      "confidence": 0.7,
+      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+    },
+    {
+      "subject": "glycin",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+    },
+    {
+      "subject": "kreatin",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "**Praktische Protokolle:**\n- **Für den zugelassenen Claim:** 3 g/Tag Kreatinmonohydrat, kontinuierlich, kombiniert mit aufeinanderfolgenden kurzen, intensiven Belastungen\n- **Ohne Loading:** 3–5 g/Tag"
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "Übliche Handelsware enthält Citrullinmalat im Verhältnis 2:1 (Citrullin:Äpfelsäure nach Gewicht)."
+    },
+    {
+      "subject": "l-theanin",
+      "target": "gaba",
+      "confidence": 0.7,
+      "note": "**GABAerge Modulation:** Es gibt Hinweise auf eine Modulation inhibitorischer GABAerger Signale, die zur entspannenden Wirkung ohne klassische Sedierung beitragen könnte."
+    },
+    {
+      "subject": "l-theanin",
+      "target": "koffein",
+      "confidence": 0.7,
+      "note": "**Koffein-Interaktion:** Theanin und Koffein interagieren am adenosinergen System auf komplementäre Weise."
+    },
+    {
+      "subject": "melatonin",
+      "target": "same",
+      "confidence": 0.7,
+      "note": "Kann Wechselwirkungen mit Antikoagulantien, Antidepressiva und blutzuckerwirksamen Medikamenten haben."
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "Mehrere RCTs zeigen:\n- Normalisierung des Menstruationszyklus\n- Verbesserte Ovulationsrate\n- Reduktion von Androgenen (Testosteron, DHEA)\n- Verbesserung der Insulinsensitivität\n- Günstige Effekte auf "
+    },
+    {
+      "subject": "nac",
+      "target": "glutathion",
+      "confidence": 0.7,
+      "note": "## Was ist NAC?\n\nN-Acetylcystein (NAC) ist ein acetyliertes Derivat der Aminosäure Cystein und der wichtigste **Glutathion-Vorläufer**, den der Körper aufnehmen kann."
+    },
+    {
+      "subject": "nac",
+      "target": "glynac",
+      "confidence": 0.7,
+      "note": "Im Kontext gesunden Alterns ist es in Kombination mit **Glycin** (GlyNAC) besonders spannend."
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "cholin",
+      "confidence": 0.7,
+      "note": "PS hat im Gehirn mehrere Funktionen:\n- Stabilisierung der Zellmembran-Fluidität\n- Unterstützung der **Acetylcholinfreisetzung** (Gedächtnis-Neurotransmitter)\n- Regulierung des **Cortisol-Clearings** n"
+    },
+    {
+      "subject": "probiotika",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "Effektgröße variiert nach Reiseland und Exposition."
+    },
+    {
+      "subject": "pterostilben",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": "## Wirkmechanismen (ähnlich wie Resveratrol)\n\n- **SIRT1-Aktivierung**: Deacetylase, die Stressresistenz, Mitochondrienbiogenese und DNA-Reparatur fördert\n- **AMPK**: Energiesensor, hemmt mTOR und förd"
+    },
+    {
+      "subject": "pterostilben",
+      "target": "resveratrol",
+      "confidence": 0.7,
+      "note": "## Was ist Pterostilben?\n\nPterostilben ist ein **natürlich vorkommendes Stilbenoid** – chemisch eng verwandt mit Resveratrol, aber mit zwei **Methylgruppen** statt Hydroxylgruppen."
+    },
+    {
+      "subject": "pterostilben",
+      "target": "sulforaphan",
+      "confidence": 0.7,
+      "note": "## Wirkmechanismen (ähnlich wie Resveratrol)\n\n- **SIRT1-Aktivierung**: Deacetylase, die Stressresistenz, Mitochondrienbiogenese und DNA-Reparatur fördert\n- **AMPK**: Energiesensor, hemmt mTOR und förd"
+    },
+    {
+      "subject": "quercetin",
+      "target": "chrom",
+      "confidence": 0.7,
+      "note": "Mögliche Wechselwirkungen:\n- **CYP3A4-Hemmung:** Quercetin hemmt in vitro Cytochrom-P450-Enzyme, was die Spiegel anderer Medikamente beeinflussen könnte."
+    },
+    {
+      "subject": "resveratrol",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "(PMID 25905295) klärten dies auf: Nach 25 mg oraler Einnahme wurde Resveratrol zwar zu ~70 % aus dem Darm absorbiert — aber durch massiven First-Pass-Metabolismus (Sulfatierung und Glucuronidierung in"
+    },
+    {
+      "subject": "spermidine",
+      "target": "eisen",
+      "confidence": 0.7,
+      "note": "### Kardiovaskuläre Gesundheit (PMID 33762175)\n\nEisenberg et al."
+    },
+    {
+      "subject": "spermidine",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": "**mTORC1-Hemmung**: Spermidin hemmt indirekt mTOR (mammalian Target of Rapamycin) — ähnlich wie Kalorienrestriktion und Metformin\n2."
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "glutathion",
+      "confidence": 0.7,
+      "note": "## Nrf2: der Masterregulator\n\nWenn Sulforaphan Nrf2 aktiviert, produziert die Zelle mehr:\n- **Glutathion** (zentrales Antioxidans)\n- **Häm-Oxygenase-1** (entzündungshemmend)\n- **Phase-2-Detoxifikation"
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "jod",
+      "confidence": 0.7,
+      "note": "Bei sehr hohen Dosen mögliche Schilddrüsenprobleme (Isothiocyanate hemmen Jodaufnahme) – bei normaler Jodversorgung kein Risiko."
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": "Der Mechanismus macht Sulforaphan besonders interessant: Es aktiviert **Nrf2** (Nuclear factor erythroid 2-related factor 2) – einen Transkriptionsfaktor, der hunderte Gene für zelluläre Schutz- und E"
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "vitamin-c",
+      "confidence": 0.7,
+      "note": "## Nrf2: der Masterregulator\n\nWenn Sulforaphan Nrf2 aktiviert, produziert die Zelle mehr:\n- **Glutathion** (zentrales Antioxidans)\n- **Häm-Oxygenase-1** (entzündungshemmend)\n- **Phase-2-Detoxifikation"
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "## Wer hat Risiko für Mangel?\n\nB12-Mangel ist eine der häufigsten, aber auch am häufigsten übersehenen Mangelernährungen in Deutschland:\n\n| Risikogruppe | Ursache | Kommentar |\n|---|---|---|\n| Veganer"
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "vitamin-b1",
+      "confidence": 0.7,
+      "note": "## Was ist Vitamin B12?\n\nVitamin B12 (Cobalamin) ist ein wasserlösliches Vitamin, das ausschließlich von Mikroorganismen synthetisiert wird und in der menschlichen Ernährung **nur in tierischen Produk"
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "eisen",
+      "confidence": 0.7,
+      "note": "Es ist an einer Vielzahl physiologischer Prozesse beteiligt:\n- **Kollagensynthese**: Cofaktor für Hydroxylasen, die Kollagen quervernetzen – essenziell für Haut, Knochen, Gefäße und Wundheilung\n- **Im"
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "nr",
+      "confidence": 0.7,
+      "note": "Es ist an einer Vielzahl physiologischer Prozesse beteiligt:\n- **Kollagensynthese**: Cofaktor für Hydroxylasen, die Kollagen quervernetzen – essenziell für Haut, Knochen, Gefäße und Wundheilung\n- **Im"
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "nac",
+      "confidence": 0.7,
+      "note": "Dies macht Vitamin D zu einem der wenigen Supplements, bei denen eine gezielte Supplementierung bei Nachgewiesenem Mangel klar indiziert ist."
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "vitamin-d3",
+      "confidence": 0.7,
+      "note": "## Warum D3 + K2 zusammen?\n\nVitamin D3 fördert die Aufnahme von Kalzium im Darm — eine seiner am besten belegten Wirkungen."
+    }
+  ]
+}

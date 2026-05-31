@@ -1,0 +1,15 @@
+{
+  "id": "luteolin",
+  "type": "ingredient",
+  "name": "Luteolin",
+  "summary": "Luteolin ist ein spannendes Flavonoid mit Neuro- und Entzündungsstory. Das Problem: die Human-Evidenz hinkt der Mechanik deutlich hinterher.",
+  "aliases": [
+    "Luteolin",
+    "Flavonoid Luteolin"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 4,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 100
+}

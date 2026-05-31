@@ -1,0 +1,53 @@
+{
+  "entity": "ginseng",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-19678779",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19678779",
+      "note": "Review: Hinweise auf Effekte bei Müdigkeit und Wohlbefinden, aber heterogene Studienbasis."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-12113659",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:12113659",
+      "note": "Im Allgemeinen gut verträglich, aber nicht frei von Interaktions- und Sicherheitsfragen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20435159",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20435159",
+      "note": "Einige Hinweise auf akute kognitive Effekte, aber keine starke, konsistente Evidenz."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "entity": "nad-biosynthese",
+  "relations": [
+    {
+      "relation": "wirkt_ueber",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nmn",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nr",
+      "direction": "incoming",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "vitamin-b3",
+      "direction": "incoming",
+      "confidence": 0.7
+    }
+  ]
+}

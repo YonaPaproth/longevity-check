@@ -1,0 +1,16 @@
+{
+  "id": "ginseng",
+  "type": "ingredient",
+  "name": "Ginseng (Panax)",
+  "summary": "Ginseng ist einer der alten Klassiker für Energie und Stress. Die Evidenz ist nicht leer, aber heterogen und stark abhängig vom Extrakt.",
+  "aliases": [
+    "Panax Ginseng",
+    "Koreanischer Ginseng",
+    "Roter Ginseng"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 3,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 200
+}

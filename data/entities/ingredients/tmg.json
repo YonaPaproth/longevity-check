@@ -1,0 +1,16 @@
+{
+  "id": "tmg",
+  "type": "ingredient",
+  "name": "TMG (Trimethylglycin)",
+  "summary": "TMG liefert Methylgruppen und kann Homocystein mit niedrigeren Werten in Verbindung bringen. Biochemisch plausibel, aber als gesundes Altern-Supplement bisher eher ein Spezialfall als ein Muss.",
+  "aliases": [
+    "Trimethylglycin",
+    "Betaine",
+    "TMG"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1000
+}

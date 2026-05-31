@@ -1,0 +1,16 @@
+{
+  "id": "selen",
+  "type": "ingredient",
+  "name": "Selen",
+  "summary": "Selen ist essenziell für Glutathionperoxidasen und Schilddrüsenhormone. In Deutschland und Österreich ist die Selenversorgung durch selenarme Böden strukturell niedrig.",
+  "aliases": [
+    "Selenium",
+    "Selenomethionin",
+    "Natriumselenit",
+    "Se"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 1,
+  "safety": "caution",
+  "efsa_approved": true
+}

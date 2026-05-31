@@ -1,0 +1,16 @@
+{
+  "id": "vitamin-b5",
+  "type": "ingredient",
+  "name": "Vitamin B5 (Pantothensäure)",
+  "summary": "Vitamin B5 ist essenziell für Coenzym A und Energiestoffwechsel. Mangel ist selten – Extra-Supplemente bringen bei guter Versorgung meist wenig.",
+  "aliases": [
+    "Pantothensäure",
+    "Vitamin B5",
+    "Pantothenat"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 10
+}

@@ -1,0 +1,2694 @@
+{
+  "type": "basiert_auf_studie",
+  "count": 384,
+  "relations": [
+    {
+      "subject": "5-htp",
+      "target": "studie-16716930",
+      "confidence": 0.9,
+      "source": "pmid:16716930",
+      "note": "Review: 5-HTP überquert Blut-Hirn-Schranke effizient und war mit höheren Werten verbunden zentralnervöse Serotoninsynthese. Klinische Studien zeigen antidepressive Wirkung vergleichbar mit Fluvoxamin "
+    },
+    {
+      "subject": "5-htp",
+      "target": "studie-9727088",
+      "confidence": 0.9,
+      "source": "pmid:9727088",
+      "note": "Review klinischer Daten: 5-HTP untersucht bei depressive Symptome, Schlaf-Problemen, Fibromyalgie und Adipositas in RCTs. Klare Warnung: nicht mit MAO-Hemmern oder SSRIs kombinieren (Serotonin-Syndrom"
+    },
+    {
+      "subject": "5-htp",
+      "target": "studie-4424806",
+      "confidence": 0.9,
+      "source": "pmid:4424806",
+      "note": "RCT: 5-HTP wird im Zusammenhang mit Alterungsforschung diskutierte REM-Schlafphasen und war mit Veränderungen verbundene Schlafqualität. Basis für Schlaf-Indikation."
+    },
+    {
+      "subject": "5-htp",
+      "target": "studie-28077136",
+      "confidence": 0.9,
+      "source": "pmid:28077136",
+      "note": "Review: Unter pflanzlichen Supplements zeigt 5-HTP die konsistenteste antidepressive Evidenz, mit moderaten Effektgrößen in mehreren Studien der 1990er bis 2000er Jahre."
+    },
+    {
+      "subject": "acetyl-l-carnitin",
+      "target": "studie-12849737",
+      "confidence": 0.9,
+      "source": "pmid:12849737",
+      "note": "Meta-analytische Hinweise auf Nutzen in älteren und kognitiv beeinträchtigten Populationen, aber keine saubere Übertragbarkeit auf gesunde Nutzer."
+    },
+    {
+      "subject": "acetyl-l-carnitin",
+      "target": "studie-25932463",
+      "confidence": 0.9,
+      "source": "pmid:25932463",
+      "note": "Möglicher Nutzen in bestimmten neurologischen Kontexten."
+    },
+    {
+      "subject": "acetyl-l-carnitin",
+      "target": "studie-16517407",
+      "confidence": 0.9,
+      "source": "pmid:16517407",
+      "note": "Mechanistisch interessant, aber Human-Endpunkte bleiben begrenzt."
+    },
+    {
+      "subject": "akg",
+      "target": "studie-32242179",
+      "confidence": 0.9,
+      "source": "pmid:32242179",
+      "note": "Tierstudie: AKG war mit Veränderungen verbundene einige Altersmarker bei Mäusen. Spannend, aber kein Humanbeweis."
+    },
+    {
+      "subject": "akg",
+      "target": "studie-24828042",
+      "confidence": 0.9,
+      "source": "pmid:24828042",
+      "note": "Mausdaten machen AKG populär in der gesundes Altern-Szene, reichen aber nicht für belastbare Human-Claims."
+    },
+    {
+      "subject": "akg",
+      "target": "studie-28332804",
+      "confidence": 0.9,
+      "source": "pmid:28332804",
+      "note": "Review: AKG ist metabolisch wichtig, doch daraus folgt nicht automatisch ein Nutzen als Supplement."
+    },
+    {
+      "subject": "akkermansia",
+      "target": "studie-28092418",
+      "confidence": 0.9,
+      "source": "pmid:28092418",
+      "note": "Identifizierung von Amuc_1100 als aktivem Protein der Akkermansia-Membran, das metabolische Verbesserungen bei Mäusen auslöst."
+    },
+    {
+      "subject": "akkermansia",
+      "target": "studie-31263284",
+      "confidence": 0.9,
+      "source": "pmid:31263284",
+      "note": "Erster RCT am Menschen: Pasteurisiertes Akkermansia war mit Veränderungen verbundene Insulinsensitivität, Cholesterin und Körpergewicht bei übergewichtigen Erwachsenen."
+    },
+    {
+      "subject": "akkermansia",
+      "target": "studie-26100928",
+      "confidence": 0.9,
+      "source": "pmid:26100928",
+      "note": "Beobachtungsstudie: Hohe Akkermansia-Baseline korrelierte mit besseren metabolischen Reaktionen auf Kalorienrestriktion."
+    },
+    {
+      "subject": "alpha-gpc",
+      "target": "studie-11396858",
+      "confidence": 0.9,
+      "source": "pmid:11396858",
+      "note": "Ältere klinische Daten deuten auf kognitive Vorteile in bestimmten Populationen hin, aber die Evidenz ist nicht modern und nicht sehr breit repliziert."
+    },
+    {
+      "subject": "alpha-gpc",
+      "target": "studie-18461736",
+      "confidence": 0.9,
+      "source": "pmid:18461736",
+      "note": "Kleine Studie mit Hinweisen auf Leistungs-Effekte. Aussagekraft begrenzt."
+    },
+    {
+      "subject": "alpha-gpc",
+      "target": "studie-23912283",
+      "confidence": 0.9,
+      "source": "pmid:23912283",
+      "note": "Review: Alpha-GPC ist interessant, aber keine magische Abkürzung zu mehr Kognition."
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "studie-7649494",
+      "confidence": 0.9,
+      "source": "pmid:7649494",
+      "note": "Grundlagenarbeit: ALA recycelt Vitamin C, E, Glutathion und CoQ10 – wird diskutiert als universelles Antioxidans in Mitochondrien."
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "studie-29939616",
+      "confidence": 0.9,
+      "source": "pmid:29939616",
+      "note": "Meta-Analyse (20 RCTs): ALA war mit niedrigeren Werten verbunden Fasten-Blutzucker, Insulin und CRP signifikant bei Patienten mit metabolischem Syndrom."
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "studie-26068271",
+      "confidence": 0.9,
+      "source": "pmid:26068271",
+      "note": "Review: ALA war mit Veränderungen verbunden Insulinsensitivität via AMPK-Aktivierung und reduziert oxidativen Stress in Mitochondrien."
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "studie-31137620",
+      "confidence": 0.9,
+      "source": "pmid:31137620",
+      "note": "Review präklinisch neurobiologisch interessanter Effekte: R-ALA wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress, Evidenz hauptsächlich präklinisch."
+    },
+    {
+      "subject": "apigenin",
+      "target": "studie-24360282",
+      "confidence": 0.9,
+      "source": "pmid:24360282",
+      "note": "Grundlagenarbeit: CD38-Aktivität steigt mit dem Alter und verbraucht NAD+. CD38-Deletion bei Mäusen war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene mitochondriale F"
+    },
+    {
+      "subject": "apigenin",
+      "target": "studie-27174929",
+      "confidence": 0.9,
+      "source": "pmid:27174929",
+      "note": "Apigenin hemmt CD38 direkt und war mit höheren Werten verbundene NAD+-Spiegel bei alten Mäusen um ~50 %. Verbesserte Mitochondrienfunktion in Leber und Muskel."
+    },
+    {
+      "subject": "apigenin",
+      "target": "studie-7898410",
+      "confidence": 0.9,
+      "source": "pmid:7898410",
+      "note": "Apigenin bindet an GABA-A-Rezeptoren (benzodiazepinartig) mit anxiolytischer Wirkung ohne Sedierung in Tierversuchen."
+    },
+    {
+      "subject": "apigenin",
+      "target": "studie-20589765",
+      "confidence": 0.9,
+      "source": "pmid:20589765",
+      "note": "Review: Apigenin hemmt NF-κB, COX-2 und proinflammatorische Zytokine in zahlreichen präklinischen Modellen. Antientzündliche Wirkung gut dokumentiert."
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "studie-23439798",
+      "confidence": 0.9,
+      "source": "pmid:23439798",
+      "note": "RCT, n=64, 300 mg KSM-66 2× täglich, 60 Tage: Serum-Cortisol –27,9%, Perceived Stress Scale (PSS) signifikant verbessert, Angst-Scores reduziert vs. Placebo. Gut methodisch."
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "studie-31728244",
+      "confidence": 0.9,
+      "source": "pmid:31728244",
+      "note": "RCT, n=60, 300 mg 2× täglich, 10 Wochen: Schlafqualität (PSQI-Score) signifikant verbessert, Schlaflatenz –22 min vs. Placebo, Angst-Score reduziert."
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "studie-26609282",
+      "confidence": 0.9,
+      "source": "pmid:26609282",
+      "note": "RCT, n=57 junge Männer, Krafttraining: Bankdrücken +18 kg (Ashwagandha) vs. +6 kg (Placebo). Testosteron signifikant erhöht. Studie klein; Ergebnisse müssen repliziert werden."
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "studie-25552213",
+      "confidence": 0.9,
+      "source": "pmid:25552213",
+      "note": "Systematischer Review: Ashwagandha ist bei empfohlenen Dosen (300–600 mg/Tag) sicher. Leberwerte in kontrollierten Studien unauffällig. Nebenwirkungsrate gering."
+    },
+    {
+      "subject": "ashwagandha",
+      "target": "studie-28471731",
+      "confidence": 0.9,
+      "source": "pmid:28471731",
+      "note": "RCT, n=50, 300 mg KSM-66 2× täglich, 8 Wochen: Verbesserung von Gedächtnisleistung (Wechsler Memory Scale), Aufmerksamkeit und Informationsverarbeitung vs. Placebo."
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "studie-24378819",
+      "confidence": 0.9,
+      "source": "pmid:24378819",
+      "note": "Review: Astaxanthin überquert Blut-Hirn-Schranke, wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress. Antioxidative Kapazität 6.000× höher als Vitamin C in vitro."
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "studie-21207795",
+      "confidence": 0.9,
+      "source": "pmid:21207795",
+      "note": "Review: Astaxanthin hemmt LDL-Oxidation, reduziert Entzündungsmarker. Kleine RCTs zeigen Verbesserung des Lipidprofils und Blutdrucks."
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "studie-22428137",
+      "confidence": 0.9,
+      "source": "pmid:22428137",
+      "note": "RCT (n=49 Frauen): 6 mg Astaxanthin/Tag über 6 Wochen war mit Veränderungen verbundene Hautelastizität und -feuchtigkeit signifikant."
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "studie-20637008",
+      "confidence": 0.9,
+      "source": "pmid:20637008",
+      "note": "RCT bei Sportlern: Astaxanthin war mit Veränderungen verbundene Immunmarker nach intensivem Training, reduzierte Oxidationsmarker."
+    },
+    {
+      "subject": "astragalus",
+      "target": "studie-26901749",
+      "confidence": 0.9,
+      "source": "pmid:26901749",
+      "note": "Review: präklinisch interessant, klinische Evidenz bleibt begrenzt."
+    },
+    {
+      "subject": "astragalus",
+      "target": "studie-22899991",
+      "confidence": 0.9,
+      "source": "pmid:22899991",
+      "note": "Telomer- und gesundes Altern-Marketing geht den Daten deutlich voraus."
+    },
+    {
+      "subject": "astragalus",
+      "target": "studie-24344415",
+      "confidence": 0.9,
+      "source": "pmid:24344415",
+      "note": "Telomerase-Narrative sind spannend, aber klinisch weit von gesicherter Relevanz entfernt."
+    },
+    {
+      "subject": "bacopa",
+      "target": "studie-11498727",
+      "confidence": 0.9,
+      "source": "pmid:11498727",
+      "note": "Eine der bekanntesten Humanstudien mit Hinweisen auf Verbesserungen im Gedächtnis nach mehrwöchiger Einnahme."
+    },
+    {
+      "subject": "bacopa",
+      "target": "studie-23387531",
+      "confidence": 0.9,
+      "source": "pmid:23387531",
+      "note": "Review: Bacopa hat unter pflanzlichen Nootropics eine vergleichsweise ordentliche Humanbasis."
+    },
+    {
+      "subject": "bacopa",
+      "target": "studie-24512655",
+      "confidence": 0.9,
+      "source": "pmid:24512655",
+      "note": "Meta-Analyse: leichte bis moderate Vorteile, aber keine Wunderwirkungen."
+    },
+    {
+      "subject": "baicalin",
+      "target": "studie-28111354",
+      "confidence": 0.9,
+      "source": "pmid:28111354",
+      "note": "Review: präklinisch interessante Breite, aber wenige belastbare Human-Daten."
+    },
+    {
+      "subject": "baicalin",
+      "target": "studie-19375465",
+      "confidence": 0.9,
+      "source": "pmid:19375465",
+      "note": "Biologisch relevant, klinisch aber noch kein starker Supplement-Fall."
+    },
+    {
+      "subject": "baicalin",
+      "target": "studie-27094574",
+      "confidence": 0.9,
+      "source": "pmid:27094574",
+      "note": "Traditionsreiche Nutzung, moderne Humanbelege bleiben begrenzt."
+    },
+    {
+      "subject": "berberine",
+      "target": "studie-15466416",
+      "confidence": 0.9,
+      "source": "pmid:15466416",
+      "note": "Berberin war mit niedrigeren Werten verbundene LDL-Cholesterin um 25% über einen neuartigen Mechanismus (LDLR-Stabilisierung) — unabhängig von Statinen."
+    },
+    {
+      "subject": "berberine",
+      "target": "studie-19800084",
+      "confidence": 0.9,
+      "source": "pmid:19800084",
+      "note": "RCT (n=116): Berberin war mit niedrigeren Werten verbundene HbA1c, Nüchternblutzucker und Triglyceride vergleichbar mit Metformin — ein wichtiger Befund."
+    },
+    {
+      "subject": "berberine",
+      "target": "studie-20150526",
+      "confidence": 0.9,
+      "source": "pmid:20150526",
+      "note": "Berberin aktiviert AMPK (wie Metformin) und war mit Veränderungen verbunden Insulinsensitivität in Tier- und Zellstudien über mehrere Mechanismen."
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "studie-22270875",
+      "confidence": 0.9,
+      "source": "pmid:22270875",
+      "note": "Meta-Analyse (15 Studien) fand einen durchschnittlichen Effekt (SMD ~0,24) besonders bei hochintensiven Befreiungen von 60–240 Sekunden."
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "studie-26553563",
+      "confidence": 0.9,
+      "source": "pmid:26553563",
+      "note": "Das ISSN sieht einen belegten Nutzen für Sportler, die wiederholt hochintensiv belasten; keine Empfehlung für Alltagsnutzer."
+    },
+    {
+      "subject": "beta-alanin",
+      "target": "studie-28654511",
+      "confidence": 0.9,
+      "source": "pmid:28654511",
+      "note": "Review mit aktualisierten Daten zur Carnosinsynthese, Dosis-Zeit-Kinetik und Sicherheitsprofil einschließlich Parästhesien."
+    },
+    {
+      "subject": "beta-glucan",
+      "target": "studie-24511820",
+      "confidence": 0.9,
+      "source": "pmid:24511820",
+      "note": "Meta-Analyse: Hafer-Beta-Glucan war mit niedrigeren Werten verbunden LDL-Cholesterin zuverlässig."
+    },
+    {
+      "subject": "beta-glucan",
+      "target": "studie-30727981",
+      "confidence": 0.9,
+      "source": "pmid:30727981",
+      "note": "Immunologische Effekte sind plausibel, aber klinisch weniger robust als viele Claims suggerieren."
+    },
+    {
+      "subject": "beta-glucan",
+      "target": "studie-21348891",
+      "confidence": 0.9,
+      "source": "pmid:21348891",
+      "note": "Die beste Evidenz liegt bei LDL-Cholesterin, nicht bei generellen Wellness-Versprechen."
+    },
+    {
+      "subject": "betain",
+      "target": "studie-23459753",
+      "confidence": 0.9,
+      "source": "pmid:23459753",
+      "note": "RCT (n=12): 2,5 g/Tag Betain zeigte in Studien Veränderungen bei anabolen Hormonsignalen nach Krafttraining."
+    },
+    {
+      "subject": "betain",
+      "target": "studie-23374455",
+      "confidence": 0.9,
+      "source": "pmid:23374455",
+      "note": "RCT (n=23): 2,5 g/Tag über 14 Tage – moderate Verbesserungen bei Kraftleistung und Körperzusammensetzung versus Placebo."
+    },
+    {
+      "subject": "betain",
+      "target": "studie-21969991",
+      "confidence": 0.9,
+      "source": "pmid:21969991",
+      "note": "RCT (n=24): 2,5 g/Tag über 15 Tage – Verbesserungen bei Kraft und Ausdauerleistung in einigen, aber nicht allen gemessenen Parametern."
+    },
+    {
+      "subject": "betain",
+      "target": "studie-15655131",
+      "confidence": 0.9,
+      "source": "pmid:15655131",
+      "note": "Kontrollierte Studie: 6 g/Tag Betain senkte Homocystein-Plasmaspiegel; Effekt war bei gleichzeitig hohem Methionin-Konsum stärker ausgeprägt."
+    },
+    {
+      "subject": "bor",
+      "target": "studie-18752471",
+      "confidence": 0.9,
+      "source": "pmid:18752471",
+      "note": "Review: Bor ist biologisch interessant, aber vieles bleibt vorläufig und nicht klinisch gesichert."
+    },
+    {
+      "subject": "bor",
+      "target": "studie-26770156",
+      "confidence": 0.9,
+      "source": "pmid:26770156",
+      "note": "Review: Hinweise auf potenzielle Bedeutung für Knochen und Mineralstoffhaushalt, aber keine robuste Basis für breite Supplementempfehlungen."
+    },
+    {
+      "subject": "bor",
+      "target": "studie-21873346",
+      "confidence": 0.9,
+      "source": "pmid:21873346",
+      "note": "Zusammenfassung der Datenlage: interessant, aber deutlich unter dem Evidenzniveau klassischer Mikronährstoffe."
+    },
+    {
+      "subject": "calcium",
+      "target": "studie-28093633",
+      "confidence": 0.9,
+      "source": "pmid:28093633",
+      "note": "Meta-Analyse (RCTs, n>50.000): Calcium-Supplementation erhöhte die Knochenmineraldichte (BMD) signifikant um ~0,7–1,8 % über 2 Jahre. Frakturrisikoreduktion war statistisch nicht konsistent nachweisba"
+    },
+    {
+      "subject": "calcium",
+      "target": "studie-27071884",
+      "confidence": 0.9,
+      "source": "pmid:27071884",
+      "note": "RCT-basierter Review: Calcium-Zufuhr (Ernährung + Supplement) war konsistent mit höherer BMD assoziiert; der Effekt bei bereits calciumausreichend versorgten Erwachsenen war kleiner als bei Mangel."
+    },
+    {
+      "subject": "calcium",
+      "target": "studie-29279823",
+      "confidence": 0.9,
+      "source": "pmid:29279823",
+      "note": "Meta-Analyse von 10 RCTs: Calcium-Supplementierung (ohne Vitamin D) war mit einem RR von 1,15 für kardiovaskuläre Ereignisse assoziiert. Das Risiko zeigte sich vor allem bei Dosen &gt;1.000 mg/Tag aus"
+    },
+    {
+      "subject": "calcium",
+      "target": "studie-30958565",
+      "confidence": 0.9,
+      "source": "pmid:30958565",
+      "note": "Review: Veganer nehmen im Schnitt 600–800 mg Calcium/Tag auf — deutlich unter dem DGE-Referenzwert von 1.000 mg. Pflanzliche Quellen wie Grünkohl, Tofu und angereicherte Pflanzenmilch können die Lücke"
+    },
+    {
+      "subject": "cdp-cholin",
+      "target": "studie-8898684",
+      "confidence": 0.9,
+      "source": "pmid:8898684",
+      "note": "Kleine Humanstudie mit positiven Signalen für Gedächtnis."
+    },
+    {
+      "subject": "cdp-cholin",
+      "target": "studie-28054935",
+      "confidence": 0.9,
+      "source": "pmid:28054935",
+      "note": "Review: Citicolin ist neurobiologisch plausibel und gut verträglich, aber nicht in allen Einsatzgebieten klar untersucht."
+    },
+    {
+      "subject": "cdp-cholin",
+      "target": "studie-22819395",
+      "confidence": 0.9,
+      "source": "pmid:22819395",
+      "note": "Hinweise auf war mit Veränderungen verbundene Aufmerksamkeit in kleinen Studien, jedoch keine harte Beweislast."
+    },
+    {
+      "subject": "cholin",
+      "target": "studie-16816108",
+      "confidence": 0.9,
+      "source": "pmid:16816108",
+      "note": "Cholin ist essenziell für Leber, Methylierung und neurologische Entwicklung. Mangel induziert nachweisbar Fettleber und Muskelschäden beim Menschen."
+    },
+    {
+      "subject": "cholin",
+      "target": "studie-30015549",
+      "confidence": 0.9,
+      "source": "pmid:30015549",
+      "note": "Review: Ein erheblicher Anteil der Bevölkerung erreicht die empfohlene Cholinzufuhr nicht. Besonders gefährdet: Schwangere, Veganer und Personen mit Lebererkrankungen."
+    },
+    {
+      "subject": "cholin",
+      "target": "studie-21094641",
+      "confidence": 0.9,
+      "source": "pmid:21094641",
+      "note": "Beobachtungsstudie (n=1391): Höhere Cholinzufuhr war mit besserem verbalem Gedächtnis und geringerer Prävalenz weißer Substanzläsionen assoziiert."
+    },
+    {
+      "subject": "cholin",
+      "target": "studie-14695379",
+      "confidence": 0.9,
+      "source": "pmid:14695379",
+      "note": "Niedrige Cholinzufuhr war auch in einer folsäureverstärkten Population mit erhöhtem Risiko für Neuralrohrdefekte assoziiert (OR ~1,7 im untersten Quintil)."
+    },
+    {
+      "subject": "chrom",
+      "target": "studie-17684127",
+      "confidence": 0.9,
+      "source": "pmid:17684127",
+      "note": "Systematischer Review: Effekte auf Blutzucker sind inkonsistent und insgesamt eher moderat."
+    },
+    {
+      "subject": "chrom",
+      "target": "studie-30741566",
+      "confidence": 0.9,
+      "source": "pmid:30741566",
+      "note": "Review: Chrom bleibt mechanistisch interessant, aber klinische Effekte hängen stark von Population, Ausgangsstatus und Präparat ab."
+    },
+    {
+      "subject": "cistanche",
+      "target": "studie-26830552",
+      "confidence": 0.9,
+      "source": "pmid:26830552",
+      "note": "Review: präklinisch interessante Wirkungen, aber kaum belastbare Human-Endpunkte."
+    },
+    {
+      "subject": "cistanche",
+      "target": "studie-34145276",
+      "confidence": 0.9,
+      "source": "pmid:34145276",
+      "note": "Zusammenfassung der Wirkstoffe und präklinischen Daten."
+    },
+    {
+      "subject": "cistanche",
+      "target": "studie-28167794",
+      "confidence": 0.9,
+      "source": "pmid:28167794",
+      "note": "Traditionsreiche Nutzung, moderne klinische Evidenz aber noch begrenzt."
+    },
+    {
+      "subject": "coq10",
+      "target": "studie-23097267",
+      "confidence": 0.9,
+      "source": "pmid:23097267",
+      "note": "RCT (n=443, ältere Schweden): Kombination Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität um 54% (HR 0,46; 95%-CI 0,28–0,77). Beachtlich, aber noch nicht unabhängig repliziert."
+    },
+    {
+      "subject": "coq10",
+      "target": "studie-25282031",
+      "confidence": 0.9,
+      "source": "pmid:25282031",
+      "note": "RCT (n=420): CoQ10 300 mg/Tag über 2 Jahre reduzierte schwere kardiovaskuläre Ereignisse (14% vs. 25% im Placebo, p=0,003) und Gesamtmortalität bei chronischer Herzinsuffizienz."
+    },
+    {
+      "subject": "coq10",
+      "target": "studie-25154704",
+      "confidence": 0.9,
+      "source": "pmid:25154704",
+      "note": "RCT: CoQ10 100 mg/Tag über 30 Tage reduzierte Muskelschwäche und -schmerzen bei Statin-assozierter Myopathie signifikant gegenüber Placebo."
+    },
+    {
+      "subject": "coq10",
+      "target": "studie-17386983",
+      "confidence": 0.9,
+      "source": "pmid:17386983",
+      "note": "Metaanalyse (12 RCTs): CoQ10 reduzierte systolischen Blutdruck um durchschnittlich 16,6 mmHg und diastolischen um 8,2 mmHg. Effekte in kleineren Studien; größere Replikationen stehen aus."
+    },
+    {
+      "subject": "coq10",
+      "target": "studie-18926930",
+      "confidence": 0.9,
+      "source": "pmid:18926930",
+      "note": "Kohortenstudie (n=236 CHF-Patienten): Niedriger CoQ10-Spiegel war ein unabhängiger Prädiktor für erhöhte Mortalität bei chronischer Herzinsuffizienz. Verstärkt klinisches Interesse an CoQ10-Substituti"
+    },
+    {
+      "subject": "cordyceps",
+      "target": "studie-28025511",
+      "confidence": 0.9,
+      "source": "pmid:28025511",
+      "note": "Einige Hinweise auf Leistungs- oder Fatigue-Effekte, aber keine starke, konsistente Evidenz."
+    },
+    {
+      "subject": "cordyceps",
+      "target": "studie-20412130",
+      "confidence": 0.9,
+      "source": "pmid:20412130",
+      "note": "Kleine Studien deuten auf subjektive Vorteile hin."
+    },
+    {
+      "subject": "cordyceps",
+      "target": "studie-18396376",
+      "confidence": 0.9,
+      "source": "pmid:18396376",
+      "note": "Breite präklinische Aktivität, Human-Daten deutlich begrenzter."
+    },
+    {
+      "subject": "curcumin",
+      "target": "studie-28925728",
+      "confidence": 0.9,
+      "source": "pmid:28925728",
+      "note": "Umfassender Review: Curcumin zeigt antientzündliche und antioxidative Effekte in RCTs, aber schlechte orale Bioverfügbarkeit ist kritischer limitierender Faktor bei Standardformulierungen."
+    },
+    {
+      "subject": "curcumin",
+      "target": "studie-26975974",
+      "confidence": 0.9,
+      "source": "pmid:26975974",
+      "note": "Meta-Analyse (15 RCTs): Signifikante Reduktion von CRP (SMD -0,64), IL-6 und TNF-α. Effektgröße moderat; Studienqualität variierend."
+    },
+    {
+      "subject": "curcumin",
+      "target": "studie-26528921",
+      "confidence": 0.9,
+      "source": "pmid:26528921",
+      "note": "Systematischer Review und Meta-Analyse (8 RCTs): Curcumin-Extrakte reduzierten Gelenkschmerzen (VAS -19 mm, WOMAC-Score signifikant verbessert) vs. Placebo. Methodische Qualität mehrerer Studien einge"
+    },
+    {
+      "subject": "curcumin",
+      "target": "studie-22407780",
+      "confidence": 0.9,
+      "source": "pmid:22407780",
+      "note": "Pilot-RCT, n=45: Curcumin-Gruppe (500 mg/Tag) zeigte bessere Schmerzreduktion als Diclofenac-Natriumgruppe. Begrenzt durch kleine Fallzahl und kurze Laufzeit (8 Wochen)."
+    },
+    {
+      "subject": "curcumin",
+      "target": "studie-26007572",
+      "confidence": 0.9,
+      "source": "pmid:26007572",
+      "note": "Systematischer Review: 1.500 mg Curcumin/Tag war mit niedrigeren Triglycerid- und Blutfettwerten sowie verbesserten Nüchternblutzucker-Werten assoziiert. Studienqualität variiert."
+    },
+    {
+      "subject": "egcg",
+      "target": "studie-23448243",
+      "confidence": 0.9,
+      "source": "pmid:23448243",
+      "note": "Umfassender Review: Grüntee-Catechine zeigen in epidemiologischen Studien inverse Korrelation mit Herz-Kreislauf-Erkrankungen, Stoffwechselauffälligkeiten und einzelnen Krebsarten. Kausalität unklar."
+    },
+    {
+      "subject": "egcg",
+      "target": "studie-19007524",
+      "confidence": 0.9,
+      "source": "pmid:19007524",
+      "note": "Review: EGCG hemmt COMT, aktiviert AMPK und stimuliert Fettoxidation. Kalorienverbrauch steigt moderat (~80 kcal/Tag bei 300 mg EGCG+Koffein)."
+    },
+    {
+      "subject": "egcg",
+      "target": "studie-21715508",
+      "confidence": 0.9,
+      "source": "pmid:21715508",
+      "note": "Meta-Analyse (14 RCTs): Grüntee-Catechine war mit niedrigeren Werten verbundenen LDL-Cholesterin um ~0,19 mmol/L und Gesamtcholesterin signifikant."
+    },
+    {
+      "subject": "egcg",
+      "target": "studie-29684494",
+      "confidence": 0.9,
+      "source": "pmid:29684494",
+      "note": "EGCG aktiviert UCP1 (thermogenes Protein) und beeinflusst Fettgewebsbraunfärbung. Mechanismus für metabolische Effekte."
+    },
+    {
+      "subject": "eisen",
+      "target": "studie-27880062",
+      "confidence": 0.9,
+      "source": "pmid:27880062",
+      "note": "Systematischer Review: Vegetarier haben im Vergleich zu Omnivoren signifikant niedrigere Ferritin-Spiegel (Mittelwert ~20 vs. ~35 µg/L bei Frauen). Eisenmangel-Prävalenz bei vegetarischen Frauen bis z"
+    },
+    {
+      "subject": "eisen",
+      "target": "studie-23107545",
+      "confidence": 0.9,
+      "source": "pmid:23107545",
+      "note": "Nationale US-Querschnittsstudie: Eisenmangel (Ferritin &lt;12 µg/L) betrifft ~9–11 % der Frauen im gebärfähigen Alter, ~2 % der Männer. In der Gesamtbevölkerung ist Eisenmangel die häufigste Nährstoff"
+    },
+    {
+      "subject": "eisen",
+      "target": "studie-29155946",
+      "confidence": 0.9,
+      "source": "pmid:29155946",
+      "note": "Review: Nicht-Hämeisen (Pflanzen) hat eine Absorption von ~2–20 % vs. Hämeisen (Fleisch) ~25 %. Vitamin C (50–100 mg) erhöht die Nicht-Hämeisen-Absorption um das 3–6-fache. Phytate (Getreide, Hülsenfr"
+    },
+    {
+      "subject": "eisen",
+      "target": "studie-31174214",
+      "confidence": 0.9,
+      "source": "pmid:31174214",
+      "note": "Review: Ferritin &lt;30 µg/L als funktioneller Eisenmangel-Schwellenwert (auch ohne manifeste Anämie) hat höhere klinische Sensitivität als der klassische Wert &lt;12 µg/L. Bei chronischer Entzündung "
+    },
+    {
+      "subject": "ergothionein",
+      "target": "studie-20308112",
+      "confidence": 0.9,
+      "source": "pmid:20308112",
+      "note": "Ergothionein hat einzigartige Transportmechanismen (OCTN1) im Körper und reichert sich in mitochondrienreichen Geweben an – Hinweis auf biologische Relevanz."
+    },
+    {
+      "subject": "ergothionein",
+      "target": "studie-36856787",
+      "confidence": 0.9,
+      "source": "pmid:36856787",
+      "note": "Niedrige Ergothionein-Plasmaspiegel korrelieren mit schlechterem kognitivem Status und Frailty bei älteren Menschen (Beobachtungsstudie)."
+    },
+    {
+      "subject": "ergothionein",
+      "target": "studie-21347875",
+      "confidence": 0.9,
+      "source": "pmid:21347875",
+      "note": "In einem Maus-Parkinson-Modell reduzierte Ergothionein neuronale Schäden signifikant."
+    },
+    {
+      "subject": "fisetin",
+      "target": "studie-30279143",
+      "confidence": 0.9,
+      "source": "pmid:30279143",
+      "note": "Tierstudie (Mäuse): Fisetin war das potenteste Senolytikum aus 10 getesteten Flavonoiden. Verlängerte Lebenserwartung um 10 % und war mit Veränderungen verbundene Gesundheitsmarker."
+    },
+    {
+      "subject": "fisetin",
+      "target": "studie-30616726",
+      "confidence": 0.9,
+      "source": "pmid:30616726",
+      "note": "Pilot-Studie mit Dasatinib+Quercetin (verwandter Senolytika-Ansatz): Reduktion seneszenter Zellmarker im Fettgewebe. Basis für größere Studien mit Fisetin."
+    },
+    {
+      "subject": "fisetin",
+      "target": "studie-32131541",
+      "confidence": 0.9,
+      "source": "pmid:32131541",
+      "note": "Review: Fisetin wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress und Entzündung in Tiermodellen. Aktiviert Sirtuin-1 und AMPK."
+    },
+    {
+      "subject": "fisetin",
+      "target": "studie-28575845",
+      "confidence": 0.9,
+      "source": "pmid:28575845",
+      "note": "Review senolytischer Strategien: Fisetin als Kandidat mit günstigem Nebenwirkungsprofil im Vergleich zu pharmakologischen Senolytics."
+    },
+    {
+      "subject": "flohsamenschalen",
+      "target": "studie-10837282",
+      "confidence": 0.9,
+      "source": "pmid:10837282",
+      "note": "Meta-analytische Daten zeigen moderate LDL-Senkung durch Psyllium."
+    },
+    {
+      "subject": "flohsamenschalen",
+      "target": "studie-25743043",
+      "confidence": 0.9,
+      "source": "pmid:25743043",
+      "note": "Psyllium ist für Stuhlregulation gut untersucht und klinisch praktisch relevant."
+    },
+    {
+      "subject": "flohsamenschalen",
+      "target": "studie-23990470",
+      "confidence": 0.9,
+      "source": "pmid:23990470",
+      "note": "Lösliche Ballaststoffe wie Psyllium können Glukoseparameter moderat mit Veränderungen in Verbindung bringen."
+    },
+    {
+      "subject": "folsaeure",
+      "target": "studie-1677062",
+      "confidence": 0.9,
+      "source": "pmid:1677062",
+      "note": "Landmark-RCT: 4 mg Folsäure/Tag reduzierte Wiederholungsrisiko für Neuralrohrdefekte um 72 %. Basis für globale Supplementierungsempfehlungen in der Schwangerschaft."
+    },
+    {
+      "subject": "folsaeure",
+      "target": "studie-22297886",
+      "confidence": 0.9,
+      "source": "pmid:22297886",
+      "note": "Review: Folat ist direkter Methyl-Donor im One-Carbon-Metabolismus. Mangel stört DNA-Methylierungsmuster und war mit höheren Werten verbunden Homocystein. Epigenetische Relevanz gut dokumentiert."
+    },
+    {
+      "subject": "folsaeure",
+      "target": "studie-35042259",
+      "confidence": 0.9,
+      "source": "pmid:35042259",
+      "note": "Meta-Analyse (30 RCTs): Folsäure war mit niedrigeren Werten verbunden Homocystein signifikant, reduziert aber Herzinfarkte und Schlaganfälle nicht konsistent – außer möglicherweise bei Schlaganfall in"
+    },
+    {
+      "subject": "folsaeure",
+      "target": "studie-24144610",
+      "confidence": 0.9,
+      "source": "pmid:24144610",
+      "note": "Review: MTHFR-C677T-Polymorphismus (ca. 10 % der Bevölkerung homozygot) reduziert Folsäureaktivierung um 70 %. Betroffene profitieren stärker von L-Methylfolat als von synthetischer Folsäure."
+    },
+    {
+      "subject": "gaba",
+      "target": "studie-26797602",
+      "confidence": 0.9,
+      "source": "pmid:26797602",
+      "note": "Kleine Humanstudien deuten auf Stress- und Schlaf-Effekte hin, aber die Datenbasis ist dünn."
+    },
+    {
+      "subject": "gaba",
+      "target": "studie-12408439",
+      "confidence": 0.9,
+      "source": "pmid:12408439",
+      "note": "Die BBB-Frage ist zentral: orale GABA-Wirkung im Gehirn bleibt biologisch umstritten."
+    },
+    {
+      "subject": "gaba",
+      "target": "studie-16971751",
+      "confidence": 0.9,
+      "source": "pmid:16971751",
+      "note": "Erste kleine Befunde, aber keine robuste klinische Grundlage."
+    },
+    {
+      "subject": "ginkgo",
+      "target": "studie-19821345",
+      "confidence": 0.9,
+      "source": "pmid:19821345",
+      "note": "Gemischte Datenlage mit teils kleinen Vorteilen in bestimmten Populationen, aber keine klare Universalantwort."
+    },
+    {
+      "subject": "ginkgo",
+      "target": "studie-22440494",
+      "confidence": 0.9,
+      "source": "pmid:22440494",
+      "note": "Heterogene Ergebnisse, abhängig von Population und Studiendesign."
+    },
+    {
+      "subject": "ginkgo",
+      "target": "studie-16007253",
+      "confidence": 0.9,
+      "source": "pmid:16007253",
+      "note": "Wichtige Interaktionsfrage, vor allem im Kontext Blutverdünnung."
+    },
+    {
+      "subject": "ginseng",
+      "target": "studie-19678779",
+      "confidence": 0.9,
+      "source": "pmid:19678779",
+      "note": "Review: Hinweise auf Effekte bei Müdigkeit und Wohlbefinden, aber heterogene Studienbasis."
+    },
+    {
+      "subject": "ginseng",
+      "target": "studie-12113659",
+      "confidence": 0.9,
+      "source": "pmid:12113659",
+      "note": "Im Allgemeinen gut verträglich, aber nicht frei von Interaktions- und Sicherheitsfragen."
+    },
+    {
+      "subject": "ginseng",
+      "target": "studie-20435159",
+      "confidence": 0.9,
+      "source": "pmid:20435159",
+      "note": "Einige Hinweise auf akute kognitive Effekte, aber keine starke, konsistente Evidenz."
+    },
+    {
+      "subject": "glucosamin",
+      "target": "studie-16034828",
+      "confidence": 0.9,
+      "source": "pmid:16034828",
+      "note": "Cochrane-Review: Ergebnisse sind uneinheitlich und hängen u. a. von der verwendeten Glucosamin-Form ab."
+    },
+    {
+      "subject": "glucosamin",
+      "target": "studie-17062856",
+      "confidence": 0.9,
+      "source": "pmid:17062856",
+      "note": "Große GAIT-Studie: Im Gesamtkollektiv kein überzeugender Effekt, in Teilgruppen eventuell Signale."
+    },
+    {
+      "subject": "glucosamin",
+      "target": "studie-27144639",
+      "confidence": 0.9,
+      "source": "pmid:27144639",
+      "note": "Einige Daten deuten auf symptomatische Vorteile hin, die Gesamtbeweislage bleibt aber gemischt."
+    },
+    {
+      "subject": "glutathion",
+      "target": "studie-25602346",
+      "confidence": 0.9,
+      "source": "pmid:25602346",
+      "note": "Kleines RCT (n=54): 500 mg/Tag orales Glutathion über 6 Monate erhöhte GSH-Spiegel in Vollblut um ~30–35 % und in Erythrozyten um ~52 %. Klinische Endpunkte nicht gemessen."
+    },
+    {
+      "subject": "glutathion",
+      "target": "studie-1618779",
+      "confidence": 0.9,
+      "source": "pmid:1618779",
+      "note": "Klassische Pharmakokinetik-Studie: Orales Glutathion (3 g Einmaldosis) erhöhte Plasma-GSH nicht messbar. Schlussfolgerung: Standard-GSH wird im Darm gespalten, bevor es systemisch verfügbar wird."
+    },
+    {
+      "subject": "glutathion",
+      "target": "studie-15212784",
+      "confidence": 0.9,
+      "source": "pmid:15212784",
+      "note": "Review: Glutathion ist zentral für Redox-Homöostase, Entgiftung und Immunfunktion. Aus der biologischen Zentralität folgt jedoch nicht automatisch ein Nutzen von oralem GSH."
+    },
+    {
+      "subject": "glutathion",
+      "target": "studie-24494129",
+      "confidence": 0.9,
+      "source": "pmid:24494129",
+      "note": "Breite Übersicht mit potenziellen Anwendungen (Parkinson, Atherosklerose, Lunge). Beleglage sehr heterogen — manche Anwendungen sind gut untersucht (IV-GSH), orale Supplementierung schwächer."
+    },
+    {
+      "subject": "glutathion",
+      "target": "studie-29062122",
+      "confidence": 0.9,
+      "source": "pmid:29062122",
+      "note": "RCT (n=60): Liposomales GSH (500 mg/Tag, 4 Wochen) erhöhte Vollblut-GSH um ~40 % und verbesserte einige Immunparameter. Besser als Standardform, aber klinische Langzeitdaten fehlen."
+    },
+    {
+      "subject": "glycin",
+      "target": "studie-23171544",
+      "confidence": 0.9,
+      "source": "pmid:23171544",
+      "note": "RCT (n=11): 3 g Glycin vor dem Schlafen war mit Veränderungen verbundene Schlafqualität, Tagesmüdigkeit und kognitive Funktion am nächsten Morgen."
+    },
+    {
+      "subject": "glycin",
+      "target": "studie-33587619",
+      "confidence": 0.9,
+      "source": "pmid:33587619",
+      "note": "RCT (n=24): GlyNAC über 24 Wochen normalisierte Glutathion-Spiegel auf das Niveau junger Erwachsener und war mit Veränderungen verbundene Mitochondrienfunktion."
+    },
+    {
+      "subject": "glycin",
+      "target": "studie-35975308",
+      "confidence": 0.9,
+      "source": "pmid:35975308",
+      "note": "Follow-up RCT: GlyNAC war mit Veränderungen verbundene 8/9 gemessene Hallmarks of Alterung (Oxidation, Entzündung, Mitochondrien, Körperzusammensetzung, Kraft, Gehgeschwindigkeit)."
+    },
+    {
+      "subject": "glycin",
+      "target": "studie-28759885",
+      "confidence": 0.9,
+      "source": "pmid:28759885",
+      "note": "Review: Glycin wird für Glutathion, Kollagen, Hämoglobin, Kreatin und Porphyrine benötigt – täglicher Bedarf übersteigt körpereigene Synthese ab mittlerem Alter."
+    },
+    {
+      "subject": "glynac",
+      "target": "studie-33512051",
+      "confidence": 0.9,
+      "source": "pmid:33512051",
+      "note": "RCT (n=24): GlyNAC bei älteren Erwachsenen stellte Glutathion-Spiegel auf jugendliche Werte wieder her und war mit Veränderungen verbundene Mitochondrienfunktion, Entzündungsmarker, Muskelkraft und Ko"
+    },
+    {
+      "subject": "glynac",
+      "target": "studie-34741443",
+      "confidence": 0.9,
+      "source": "pmid:34741443",
+      "note": "Follow-up-Studie: GlyNAC war mit Veränderungen verbundene Mitochondrien-Energiestoffwechsel, Körperzusammensetzung (weniger Fettmasse) und Gehgeschwindigkeit bei älteren Menschen."
+    },
+    {
+      "subject": "glynac",
+      "target": "studie-35504071",
+      "confidence": 0.9,
+      "source": "pmid:35504071",
+      "note": "Tierstudie: GlyNAC wird im Zusammenhang mit Alterungsforschung diskutierte die Lebensspanne bei Mäusen um 24 % und war mit Veränderungen verbundene multiple Hallmarks of Alterung."
+    },
+    {
+      "subject": "gotu-kola",
+      "target": "studie-28685790",
+      "confidence": 0.9,
+      "source": "pmid:28685790",
+      "note": "Einige Hinweise auf kognitive und stimmungsbezogene Effekte, aber keine sehr starke Datenlage."
+    },
+    {
+      "subject": "gotu-kola",
+      "target": "studie-24006008",
+      "confidence": 0.9,
+      "source": "pmid:24006008",
+      "note": "Traditionelle und experimentelle Daten zu Haut- und Gewebethemen sind plausibel."
+    },
+    {
+      "subject": "gotu-kola",
+      "target": "studie-11297858",
+      "confidence": 0.9,
+      "source": "pmid:11297858",
+      "note": "Breite präklinische Aktivität, Human-Evidenz bleibt begrenzt."
+    },
+    {
+      "subject": "gynostemma",
+      "target": "studie-21062282",
+      "confidence": 0.9,
+      "source": "pmid:21062282",
+      "note": "Gynostemma-Extrakt aktivierte AMPK in Fett- und Muskelzellen, vergleichbar mit Metformin – ohne bekannte Nebenwirkungen des Arzneimittels."
+    },
+    {
+      "subject": "gynostemma",
+      "target": "studie-22784345",
+      "confidence": 0.9,
+      "source": "pmid:22784345",
+      "note": "RCT: Gynostemma-Tee war mit Veränderungen verbundene Insulinsensitivität und war mit niedrigeren Werten verbundene Nüchternblutzucker bei adipösen Probanden nach 8 Wochen."
+    },
+    {
+      "subject": "gynostemma",
+      "target": "studie-19628196",
+      "confidence": 0.9,
+      "source": "pmid:19628196",
+      "note": "Humanpilot: Gynostemma war mit niedrigeren Werten verbundene LDL-Cholesterin und Triglyzeride nach 4 Wochen bei Personen mit leicht war mit höheren Werten verbundenen Blutfettwerten."
+    },
+    {
+      "subject": "hesperidin",
+      "target": "studie-21462495",
+      "confidence": 0.9,
+      "source": "pmid:21462495",
+      "note": "Kleine Humanstudie mit Verbesserungen der Endothelfunktion."
+    },
+    {
+      "subject": "hesperidin",
+      "target": "studie-23810870",
+      "confidence": 0.9,
+      "source": "pmid:23810870",
+      "note": "Review: biologisch plausibel, aber klinisch noch keine sehr vergleichsweise gute Datenlage."
+    },
+    {
+      "subject": "hesperidin",
+      "target": "studie-32245095",
+      "confidence": 0.9,
+      "source": "pmid:32245095",
+      "note": "Breite präklinische Aktivität, Humanrelevanz begrenzt."
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "studie-40911749",
+      "confidence": 0.9,
+      "source": "pmid:40911749",
+      "note": "Meta-Analyse über 7 RCTs: statistisch signifikante Verbesserungen in Hautfeuchtigkeit, Elastizität und Faltentiefe. Trends für TEWL und Faltenvolumen ohne Signifikanz. Fazit: moderate, konsistente Hau"
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "studie-41422283",
+      "confidence": 0.9,
+      "source": "pmid:41422283",
+      "note": "RCT, n=150, 120 mg/Tag Natriumhyaluronat (1,8 MDa) über 12 Wochen: signifikant verbesserte Hautfeuchtigkeit, reduzierte TEWL, verringerte periorbitale Faltentiefe, erhöhte Epidermisdicke und NMF-Spieg"
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "studie-34933842",
+      "confidence": 0.9,
+      "source": "pmid:34933842",
+      "note": "RCT, n=60 Frauen, 200 mg/Tag Full-Spectrum-Hyaluronan, 28 Tage: Hautfeuchtigkeit +10,6 %, Faltentiefe −18,8 %, Faltenvolumen −17,6 %, Elastizität +5,1 %. Alle Parameter statistisch signifikant."
+    },
+    {
+      "subject": "hyaluronsaeure",
+      "target": "studie-25013132",
+      "confidence": 0.9,
+      "source": "pmid:25013132",
+      "note": "RCT, n=96, 120–240 mg/Tag orales Hyaluronan, 12 Wochen: signifikante Verbesserung der Hautfeuchtigkeit und Unterdrückung der Faltenbildung gegenüber Placebo."
+    },
+    {
+      "subject": "hydroxytyrosol",
+      "target": "studie-26975995",
+      "confidence": 0.9,
+      "source": "pmid:26975995",
+      "note": "Review: Hydroxytyrosol zeigt in Humanstudien antioxidative, entzündungshemmende und antiatherosklerotische Wirkungen."
+    },
+    {
+      "subject": "hydroxytyrosol",
+      "target": "studie-21291821",
+      "confidence": 0.9,
+      "source": "pmid:21291821",
+      "note": "RCT: Olive-Extrakt mit Hydroxytyrosol war mit niedrigeren Werten verbundene Blutdruck vergleichbar mit Captopril bei Hypertonie-Patienten."
+    },
+    {
+      "subject": "inulin",
+      "target": "studie-17604172",
+      "confidence": 0.9,
+      "source": "pmid:17604172",
+      "note": "Klassischer Review zur präbiotischen Wirkung von Inulin und verwandten Fructanen."
+    },
+    {
+      "subject": "inulin",
+      "target": "studie-24299756",
+      "confidence": 0.9,
+      "source": "pmid:24299756",
+      "note": "Inulin kann Darmfunktion und mikrobielle Zusammensetzung beeinflussen."
+    },
+    {
+      "subject": "inulin",
+      "target": "studie-28298225",
+      "confidence": 0.9,
+      "source": "pmid:28298225",
+      "note": "Humanstudien zeigen Nutzen für Stuhlgang und Darmkomfort bei bestimmten Gruppen."
+    },
+    {
+      "subject": "jod",
+      "target": "studie-22187108",
+      "confidence": 0.9,
+      "source": "pmid:22187108",
+      "note": "Review: Deutschland hat trotz Jodsalz-Programm weiterhin unzureichende Jodversorgung (medianer Urin-Jodgehalt 108 µg/L – Zielwert WHO: >150). Schwangere besonders betroffen."
+    },
+    {
+      "subject": "jod",
+      "target": "studie-16825686",
+      "confidence": 0.9,
+      "source": "pmid:16825686",
+      "note": "RCT (n=310 Schulkinder in Jodmangelgebiet): Jod-Supplementierung war mit Veränderungen verbundene kognitive Leistung signifikant. Unterstreicht Bedeutung für Gehirnentwicklung."
+    },
+    {
+      "subject": "jod",
+      "target": "studie-22536526",
+      "confidence": 0.9,
+      "source": "pmid:22536526",
+      "note": "Review: Schilddrüsenfunktion beeinflusst Alterungsprozesse direkt – über Stoffwechsel, Mitochondrienfunktion und Entzündungsregulation. Jodversorgung bleibt lebenslang relevant."
+    },
+    {
+      "subject": "jod",
+      "target": "studie-24891972",
+      "confidence": 0.9,
+      "source": "pmid:24891972",
+      "note": "Review: Zu hohe Jodzufuhr kann Hashimoto-Thyreoiditis triggern oder verschlimmern. Besonders bei genetischer Prädisposition. Zeigt die Bedeutung der richtigen Dosierung."
+    },
+    {
+      "subject": "kaempferol",
+      "target": "studie-21127935",
+      "confidence": 0.9,
+      "source": "pmid:21127935",
+      "note": "Review: starke präklinische Breite, aber wenig belastbare Humanstudien."
+    },
+    {
+      "subject": "kaempferol",
+      "target": "studie-12716668",
+      "confidence": 0.9,
+      "source": "pmid:12716668",
+      "note": "Ernährungsbezogen interessant, als isoliertes Supplement aber wenig klar."
+    },
+    {
+      "subject": "kaempferol",
+      "target": "studie-20018833",
+      "confidence": 0.9,
+      "source": "pmid:20018833",
+      "note": "Kaempferol wird diskutiert konzeptionell attraktiv, klinisch aber noch weit von gesicherten Aussagen entfernt."
+    },
+    {
+      "subject": "kalium",
+      "target": "studie-23635871",
+      "confidence": 0.9,
+      "source": "pmid:23635871",
+      "note": "WHO-nahe Meta-Analyse: Höhere Kaliumzufuhr war mit niedrigeren Werten verbunden Blutdruck, besonders bei Menschen mit Hypertonie."
+    },
+    {
+      "subject": "kalium",
+      "target": "studie-25159881",
+      "confidence": 0.9,
+      "source": "pmid:25159881",
+      "note": "Die optimale Kaliumzufuhr hängt vom Kontext ab; Extreme sind nicht automatisch besser."
+    },
+    {
+      "subject": "koffein",
+      "target": "studie-32045577",
+      "confidence": 0.9,
+      "source": "pmid:32045577",
+      "note": "Meta-Analyse (>300 Studien): Koffein verbesserte Ausdauer-, Kraft- und Schnellkraftleistung. Effekte auf Ausdauerleistung waren am konsistentesten (SMD ~0,41)."
+    },
+    {
+      "subject": "koffein",
+      "target": "studie-26830602",
+      "confidence": 0.9,
+      "source": "pmid:26830602",
+      "note": "Systematischer Review (>120 Studien): Koffein verbesserte in Studien Vigilanz, Reaktionszeit und Konzentrationsleistung, insbesondere bei Schlafentzug."
+    },
+    {
+      "subject": "koffein",
+      "target": "studie-20091547",
+      "confidence": 0.9,
+      "source": "pmid:20091547",
+      "note": "Cochrane Review: Koffein reduzierte Fehlerrate und war mit weniger Schläfrigkeit in Schichtarbeit-Settings verbunden."
+    },
+    {
+      "subject": "koffein",
+      "target": "studie-24832163",
+      "confidence": 0.9,
+      "source": "pmid:24832163",
+      "note": "Große Kohortenstudie (NHS, >100.000 Personen): Moderater Kaffeekonsum war mit geringerem T2D-Risiko assoziiert – konfundiert durch weitere Kaffeeinhaltsstoffe, nicht isoliert auf Koffein zurückführbar"
+    },
+    {
+      "subject": "kollagen",
+      "target": "studie-24401291",
+      "confidence": 0.9,
+      "source": "pmid:24401291",
+      "note": "RCT (n=69): 2,5–5 g hydrolysiertes Kollagen/Tag über 8 Wochen war mit Veränderungen verbundene Hautelastizität und Feuchtigkeit signifikant gegenüber Placebo."
+    },
+    {
+      "subject": "kollagen",
+      "target": "studie-27852613",
+      "confidence": 0.9,
+      "source": "pmid:27852613",
+      "note": "24-wöchige RCT bei Sportlern mit Knieschmerzen: Kollagenhydrolysat (10 g/Tag) reduzierte Schmerzen signifikant."
+    },
+    {
+      "subject": "kollagen",
+      "target": "studie-32436266",
+      "confidence": 0.9,
+      "source": "pmid:32436266",
+      "note": "Systematischer Review von 11 RCTs: Konsistente positive Effekte auf Hautelastizität und Feuchtigkeit. Studienqualität insgesamt moderat."
+    },
+    {
+      "subject": "kreatin",
+      "target": "studie-28615996",
+      "confidence": 0.9,
+      "source": "pmid:28615996",
+      "note": "Konsensusdokument: Kreatin ist das am besten belegte legale ergogene Supplement. Sicher bei Langzeitanwendung (bis 5 Jahre untersucht), keine Nierentoxizität bei Gesunden. Empfehlung: 3–5 g/Tag."
+    },
+    {
+      "subject": "kreatin",
+      "target": "studie-17828627",
+      "confidence": 0.9,
+      "source": "pmid:17828627",
+      "note": "RCT, n=45, ältere Erwachsene: Kreatin verbesserte Arbeitsgedächtnis und kognitive Leistung signifikant vs. Placebo. Gehirn-Kreatinspiegel stiegen messbar mit Supplementierung."
+    },
+    {
+      "subject": "kreatin",
+      "target": "studie-29704637",
+      "confidence": 0.9,
+      "source": "pmid:29704637",
+      "note": "Systematischer Review: Kognitive Leistung verbesserte sich konsistent bei Schlafentzug, mentaler Erschöpfung und bei Älteren. Vegetarier profitierten stärker (niedrigere Ausgangsspiegel)."
+    },
+    {
+      "subject": "kreatin",
+      "target": "studie-27328852",
+      "confidence": 0.9,
+      "source": "pmid:27328852",
+      "note": "Meta-Analyse: Kreatin steigert Muskelkraft um ~8% und Muskelmasse signifikant in Kombination mit Krafttraining. Effekt bei Älteren vergleichbar mit Jüngeren."
+    },
+    {
+      "subject": "kreatin",
+      "target": "studie-28994648",
+      "confidence": 0.9,
+      "source": "pmid:28994648",
+      "note": "Meta-Analyse (22 RCTs, ältere Erwachsene): Kreatin + Krafttraining führte zu signifikant mehr fettfreier Masse (+1,37 kg) und Kraft vs. Training allein. Effektgröße klinisch relevant."
+    },
+    {
+      "subject": "kupfer",
+      "target": "studie-18488400",
+      "confidence": 0.9,
+      "source": "pmid:18488400",
+      "note": "Kupfermangel kann Anämie, Neutropenie und neurologische Störungen verursachen. Klinisch besonders relevant nach Malabsorption oder Zink-Überdosierung."
+    },
+    {
+      "subject": "kupfer",
+      "target": "studie-15883553",
+      "confidence": 0.9,
+      "source": "pmid:15883553",
+      "note": "Zink und Kupfer beeinflussen sich gegenseitig. Chronisch hohe Zinkzufuhr kann Kupfermangel begünstigen."
+    },
+    {
+      "subject": "l-carnitin",
+      "target": "studie-27866067",
+      "confidence": 0.9,
+      "source": "pmid:27866067",
+      "note": "Meta-Analyse: Effekte auf Körpergewicht und Performance sind insgesamt klein und nicht konsistent."
+    },
+    {
+      "subject": "l-carnitin",
+      "target": "studie-20369674",
+      "confidence": 0.9,
+      "source": "pmid:20369674",
+      "note": "Review: L-Carnitin ist besonders in medizinischen Spezialkontexten relevant, weniger als universelles Lifestyle-Supplement."
+    },
+    {
+      "subject": "l-carnitin",
+      "target": "studie-32759743",
+      "confidence": 0.9,
+      "source": "pmid:32759743",
+      "note": "Mögliche Nutzen in Erholung und bei älteren Populationen, aber keine starke Basis für breite Allgemeinempfehlungen."
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "studie-20386132",
+      "confidence": 0.9,
+      "source": "pmid:20386132",
+      "note": "RCT (n=41): 8 g Citrullinmalat steigerte die Anzahl der Wiederholungen im Bankdrücken um ca. 52 % und reduzierte Muskelkater."
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "studie-26023227",
+      "confidence": 0.9,
+      "source": "pmid:26023227",
+      "note": "Review mehrerer RCTs: L-Citrullin zeigte in Studien moderate Reduktionen des systolischen Blutdrucks bei Personen mit leicht erhöhten Ausgangswerten."
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "studie-17953788",
+      "confidence": 0.9,
+      "source": "pmid:17953788",
+      "note": "Mechanistischer Beitrag: Citrullin → Arginin-Konversion im Nierenmetabolismus, Grundlage der NO-Synthese-Hypothese."
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "studie-21195829",
+      "confidence": 0.9,
+      "source": "pmid:21195829",
+      "note": "Kleine RCT (n=24): 1,5 g/Tag L-Citrullin zeigte in Studien Verbesserungen bei Erektionshärte – unter Umständen durch erhöhte NO-Verfügbarkeit."
+    },
+    {
+      "subject": "l-citrullin",
+      "target": "studie-42162613",
+      "confidence": 0.9,
+      "source": "pmid:42162613",
+      "note": "Pilot-RCT (n=20 aktive ältere Frauen, 60–75 Jahre): Citrullinmalat-Supplementierung verbesserte in Studien signifikant die Sit-to-Stand-Leistung und zeigte positive Trends bei Gehstrecke und körperlic"
+    },
+    {
+      "subject": "l-theanin",
+      "target": "studie-22214254",
+      "confidence": 0.9,
+      "source": "pmid:22214254",
+      "note": "Randomisierter Doppelblind-Crossover (n=98 Jungen): 400 mg L-Theanin/Tag (2×200 mg) verbesserte objektive Schlafqualität (gemessen per Aktigraphie) ohne sedierende Nebenwirkungen."
+    },
+    {
+      "subject": "l-theanin",
+      "target": "studie-18681988",
+      "confidence": 0.9,
+      "source": "pmid:18681988",
+      "note": "Doppelblind-RCT (n=27): 250 mg Koffein + 250 mg L-Theanin verbesserten Aufmerksamkeit und Reaktionszeit gegenüber beiden Einzelsubstanzen. L-Theanin allein zeigte keine signifikanten kognitiven Verbes"
+    },
+    {
+      "subject": "l-theanin",
+      "target": "studie-18296328",
+      "confidence": 0.9,
+      "source": "pmid:18296328",
+      "note": "Doppelblind-Crossover: 50 mg L-Theanin erhöhte Alpha-Wellenkraft im EEG signifikant. Alpha-Wellen gelten als Marker entspannter Wachheit ohne Sedierung."
+    },
+    {
+      "subject": "l-theanin",
+      "target": "studie-17272967",
+      "confidence": 0.9,
+      "source": "pmid:17272967",
+      "note": "Crossover-Studie (n=12): 200 mg L-Theanin reduzierte Herzrate und salivären IgA-Anstieg als physiologische Stressmarker bei einem mentalen Stress-Task signifikant gegenüber Placebo."
+    },
+    {
+      "subject": "l-theanin",
+      "target": "studie-25761837",
+      "confidence": 0.9,
+      "source": "pmid:25761837",
+      "note": "Doppelblind-Crossover (n=24): Koffein 75 mg + Theanin 50 mg war mit konsistent besserer Konzentrationsleistung und Stimmung verbunden als Placebo oder Einzelsubstanzen."
+    },
+    {
+      "subject": "l-tryptophan",
+      "target": "studie-6818213",
+      "confidence": 0.9,
+      "source": "pmid:6818213",
+      "note": "Frühe Humanstudien zeigen potenzielle Vorteile für Einschlafzeit und Schlafqualität."
+    },
+    {
+      "subject": "l-tryptophan",
+      "target": "studie-19734380",
+      "confidence": 0.9,
+      "source": "pmid:19734380",
+      "note": "Review: Tryptophan ist neurobiologisch relevant, aber Effekte hängen stark vom Kontext ab."
+    },
+    {
+      "subject": "l-tryptophan",
+      "target": "studie-23689751",
+      "confidence": 0.9,
+      "source": "pmid:23689751",
+      "note": "Tryptophan beeinflusst serotonerge Systeme plausibel, aber Supplementeffekte sind nicht automatisch groß."
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "studie-7737166",
+      "confidence": 0.9,
+      "source": "pmid:7737166",
+      "note": "RCT (militärisches Umfeld): L-Tyrosin konnte in Studien kognitive Leistungsabfälle unter extremen Stressbedingungen (Schlafentzug, körperliche Belastung) abmildern."
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "studie-7794222",
+      "confidence": 0.9,
+      "source": "pmid:7794222",
+      "note": "Militärstudie: 150 mg/kg L-Tyrosin milderte den Leistungsabfall bei Schlafentzug um ca. 4 Stunden."
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "studie-7940540",
+      "confidence": 0.9,
+      "source": "pmid:7940540",
+      "note": "Mechanistische Studie: Tyrosin-Depletion reduzierte dopaminabhängige kognitive Parameter, was die Rolle als Neurotransmitter-Vorstufe unterstreicht."
+    },
+    {
+      "subject": "l-tyrosin",
+      "target": "studie-6528626",
+      "confidence": 0.9,
+      "source": "pmid:6528626",
+      "note": "Kontrollierter Test (Kälte- und Lärm-Stressoren): L-Tyrosin milderte in Studien Stressreaktionen und Leistungsabfälle."
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "studie-30093983",
+      "confidence": 0.9,
+      "source": "pmid:30093983",
+      "note": "RCT, n=49 Patienten mit MCI (Mild Cognitive Impairment), 50–80 Jahre: 3 g/Tag Hericium-Fruchtkörperpulver vs. Placebo, 16 Wochen. MMSE- und Cognitive Function Scale-Scores: signifikante Verbesserung i"
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "studie-31413233",
+      "confidence": 0.9,
+      "source": "pmid:31413233",
+      "note": "Präklinische Studie: Hericenon E und Erinacine A stimulierten in primären Neuronen-Kulturen die NGF-mRNA-Expression signifikant (+250–400 % vs. Kontrolle). Erinacine C zeigte stärksten Effekt. Wichtig"
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "studie-32731006",
+      "confidence": 0.9,
+      "source": "pmid:32731006",
+      "note": "Systematischer Review (23 Studien, davon 5 Humanstudien): Konsistente präklinische Evidenz für NGF-Stimulation, Neuroprotektoin und kognitive Effekte. Humanstudien zeigen positive Signale bei MCI, Dep"
+    },
+    {
+      "subject": "lion-s-mane",
+      "target": "studie-36345309",
+      "confidence": 0.9,
+      "source": "pmid:36345309",
+      "note": "RCT, n=77 Erwachsene ohne klinische Diagnose, 4 Wochen: 1,8 g/Tag Hericium-Extrakt vs. Placebo. Pittsburgh Sleep Quality Index: signifikante Verbesserung (p=0,04). Angst- und Depressionsskalen (HADS):"
+    },
+    {
+      "subject": "lithium-orotat",
+      "target": "studie-28147231",
+      "confidence": 0.9,
+      "source": "pmid:28147231",
+      "note": "Lithium als Arzneistoff ist gut untersucht, aber diese Evidenz lässt sich nicht sauber auf frei verkäufliches Lithium-Orotat übertragen."
+    },
+    {
+      "subject": "lithium-orotat",
+      "target": "studie-24813272",
+      "confidence": 0.9,
+      "source": "pmid:24813272",
+      "note": "Diskussion zu möglichen Effekten niedriger Lithiumspiegel – interessant, aber weit entfernt von einer soliden Supplement-Empfehlung."
+    },
+    {
+      "subject": "lithium-orotat",
+      "target": "studie-18072817",
+      "confidence": 0.9,
+      "source": "pmid:18072817",
+      "note": "Warnung vor der Annahme, niedrig dosiertes Lithium sei automatisch harmlos. Sicherheitsdaten für frei verkäufliche Formen sind begrenzt."
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "studie-23644932",
+      "confidence": 0.9,
+      "source": "pmid:23644932",
+      "note": "RCT (n=4.203): Lutein+Zeaxanthin reduzierten das Risiko einer AMD-Progression um 25 % und ersetzten beta-Carotin im AREDS-Supplement (Lungenkrebs-Risiko bei Rauchern). Goldstandard-Studie."
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "studie-7933422",
+      "confidence": 0.9,
+      "source": "pmid:7933422",
+      "note": "Große Kohortenstudie: Höchste Lutein/Zeaxanthin-Aufnahme assoziiert mit 43 % niedrigerem AMD-Risiko. Grundlage für AREDS2-Studie."
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "studie-20660279",
+      "confidence": 0.9,
+      "source": "pmid:20660279",
+      "note": "RCT: Lutein+Zeaxanthin war mit höheren Werten verbundenen Makulapigment-Optische Dichte (MPOD) signifikant und war mit Veränderungen verbundenen Kontrastsehen, Blendempfindlichkeit und Erholung nach L"
+    },
+    {
+      "subject": "lutein-zeaxanthin",
+      "target": "studie-24452721",
+      "confidence": 0.9,
+      "source": "pmid:24452721",
+      "note": "Review: Lutein+Zeaxanthin reichern sich nicht nur in der Retina, sondern auch im Gehirn an. Höhere MPOD-Werte korrelieren mit besserem Gedächtnis und kognitiver Geschwindigkeit."
+    },
+    {
+      "subject": "luteolin",
+      "target": "studie-25670000",
+      "confidence": 0.9,
+      "source": "pmid:25670000",
+      "note": "Review: Luteolin ist mechanistisch spannend, vor allem neuroinflammatorisch."
+    },
+    {
+      "subject": "luteolin",
+      "target": "studie-18499654",
+      "confidence": 0.9,
+      "source": "pmid:18499654",
+      "note": "Präklinisch starke Daten, klinisch deutlich weniger."
+    },
+    {
+      "subject": "luteolin",
+      "target": "studie-20005244",
+      "confidence": 0.9,
+      "source": "pmid:20005244",
+      "note": "Flavonoide wie Luteolin sind konzeptionell interessant, aber noch kein belastbares Alterungsforschung-Tool."
+    },
+    {
+      "subject": "maca",
+      "target": "studie-20370918",
+      "confidence": 0.9,
+      "source": "pmid:20370918",
+      "note": "Positive Signale, aber kleine und methodisch begrenzte Studien."
+    },
+    {
+      "subject": "maca",
+      "target": "studie-12472620",
+      "confidence": 0.9,
+      "source": "pmid:12472620",
+      "note": "Hinweise auf gesteigertes sexuelles Verlangen ohne klare Hormonveränderungen."
+    },
+    {
+      "subject": "maca",
+      "target": "studie-18654924",
+      "confidence": 0.9,
+      "source": "pmid:18654924",
+      "note": "Mögliche Vorteile bei subjektivem Wohlbefinden, aber keine starke Datenbasis."
+    },
+    {
+      "subject": "magnesium",
+      "target": "studie-33260549",
+      "confidence": 0.9,
+      "source": "pmid:33260549",
+      "note": "Magnesiumergänzung verbesserte Stressparameter und Schlafqualität; Mangel und Stress verstärken sich gegenseitig in einem negativen Kreislauf."
+    },
+    {
+      "subject": "magnesium",
+      "target": "studie-15189112",
+      "confidence": 0.9,
+      "source": "pmid:15189112",
+      "note": "RCT: Magnesiumsupplementierung (2,5 g MgCl2/Tag für 3 Monate) reduzierte Insulinresistenz bei Personen mit Magnesiummangel signifikant."
+    },
+    {
+      "subject": "magnesium",
+      "target": "studie-20152124",
+      "confidence": 0.9,
+      "source": "pmid:20152124",
+      "note": "Magnesium-L-Threonat erhöhte Gehirn-Magnesiumspiegel bei Ratten und verbesserte Kurz- und Langzeitgedächtnis. Humanstudien noch klein und begrenzt."
+    },
+    {
+      "subject": "magnesium",
+      "target": "studie-26837598",
+      "confidence": 0.9,
+      "source": "pmid:26837598",
+      "note": "Metaanalyse (34 RCTs, n=2.028): Magnesium senkte systolischen Blutdruck um ca. 3–4 mmHg und diastolischen um ca. 2–3 mmHg. Effekt stärker bei höheren Ausgangswerten und niedrigen Magnesiumspiegeln."
+    },
+    {
+      "subject": "magnesium",
+      "target": "studie-23853635",
+      "confidence": 0.9,
+      "source": "pmid:23853635",
+      "note": "RCT (n=46 ältere Erwachsene): 500 mg Magnesium/Tag über 8 Wochen verbesserte Schlafqualität, -dauer und Insomnie-Scores signifikant gegenüber Placebo."
+    },
+    {
+      "subject": "mangan",
+      "target": "studie-23036414",
+      "confidence": 0.9,
+      "source": "pmid:23036414",
+      "note": "Review: Chronisch hohe Manganexposition kann das Nervensystem schädigen. Relevanz besonders bei Überexposition, aber auch ein Grund für Zurückhaltung bei Hochdosis-Supplementen."
+    },
+    {
+      "subject": "mangan",
+      "target": "studie-16099008",
+      "confidence": 0.9,
+      "source": "pmid:16099008",
+      "note": "Mangan ist an Knochen- und Knorpelstoffwechsel beteiligt, aber Supplementnutzen bei gesunden Menschen ist schwach belegt."
+    },
+    {
+      "subject": "melatonin",
+      "target": "studie-15691787",
+      "confidence": 0.9,
+      "source": "pmid:15691787",
+      "note": "Meta-Analyse (17 RCTs): Melatonin verkürzte Einschlafzeit signifikant (-7,2 min) und war mit Veränderungen verbundene Schlafqualität. Effekte bescheiden, aber konsistent."
+    },
+    {
+      "subject": "melatonin",
+      "target": "studie-22471152",
+      "confidence": 0.9,
+      "source": "pmid:22471152",
+      "note": "Review: Melatonin neutralisiert reaktive Sauerstoffspezies direkt und induziert antioxidative Enzyme. Schutz der mitochondrialen DNA vergleichsweise gut untersucht (präklinisch)."
+    },
+    {
+      "subject": "melatonin",
+      "target": "studie-29676709",
+      "confidence": 0.9,
+      "source": "pmid:29676709",
+      "note": "Review: Geringes Melatonin (0,5–1 mg) ist bei Schlafstörungen (besonders ab 55 Jahren) untersuchter als höhere Dosen. Chronobiologischer Effekt, kein sedativer."
+    },
+    {
+      "subject": "melatonin",
+      "target": "studie-23574769",
+      "confidence": 0.9,
+      "source": "pmid:23574769",
+      "note": "Review: Melatonin-Spiegel sinken mit dem Alter (ab ~40 Jahren deutlich). Supplementierung könnte circadiane Dysregulation und oxidativen Stress kompensieren. gesundes Altern-Daten fehlen."
+    },
+    {
+      "subject": "molybdaen",
+      "target": "studie-11911815",
+      "confidence": 0.9,
+      "source": "pmid:11911815",
+      "note": "Review: Molybdän ist für bestimmte Enzymsysteme essenziell, aber der praktische Supplement-Nutzen bei normaler Ernährung ist gering."
+    },
+    {
+      "subject": "molybdaen",
+      "target": "studie-8906638",
+      "confidence": 0.9,
+      "source": "pmid:8906638",
+      "note": "Molybdän zählt zu den Spurenelementen mit klarer biologischer Funktion, aber geringer klinischer Relevanz als Supplement im Alltag."
+    },
+    {
+      "subject": "msm",
+      "target": "studie-16309928",
+      "confidence": 0.9,
+      "source": "pmid:16309928",
+      "note": "Kleine Studie mit Veränderungen bei Schmerz und Funktion im Gelenk-Kontext."
+    },
+    {
+      "subject": "msm",
+      "target": "studie-22348453",
+      "confidence": 0.9,
+      "source": "pmid:22348453",
+      "note": "Hinweise auf Effekte bei Entzündung und Erholung, aber kleine Studienbasis."
+    },
+    {
+      "subject": "msm",
+      "target": "studie-28654723",
+      "confidence": 0.9,
+      "source": "pmid:28654723",
+      "note": "Review: MSM ist gut verträglich, aber die klinische Evidenz bleibt begrenzt."
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "studie-22327358",
+      "confidence": 0.9,
+      "source": "pmid:22327358",
+      "note": "Meta-Analyse: Myo-Inositol war mit Veränderungen verbundene Ovulationsrate, Menstruationsregularität, FSH/LH-Ratio und Insulinsensitivität bei PCOS signifikant vs. Placebo."
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "studie-17952759",
+      "confidence": 0.9,
+      "source": "pmid:17952759",
+      "note": "RCT (n=92): 4 g Myo-Inositol/Tag reduzierte Nüchternblutzucker, Insulin und Androgenspiegel signifikant. Ovulationsrate war mit Veränderungen verbundene sich von 25 % auf 65 %."
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "studie-8874839",
+      "confidence": 0.9,
+      "source": "pmid:8874839",
+      "note": "Cross-over RCT: 18 g Inositol/Tag reduzierte OCD-Symptome signifikant – vergleichbar mit SSRIs. Basis für psychische Einsatzbereiche."
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "studie-7730405",
+      "confidence": 0.9,
+      "source": "pmid:7730405",
+      "note": "RCT: 12 g Inositol/Tag reduzierte Panikattacken-Frequenz signifikant. Mechanismus: Second-Messenger-System des Phosphatidylinositol-Signalwegs."
+    },
+    {
+      "subject": "nac",
+      "target": "studie-28748217",
+      "confidence": 0.9,
+      "source": "pmid:28748217",
+      "note": "Umfassender Review: NAC war mit höheren Werten verbunden konsistent Glutathion-Spiegel und reduziert oxidativen Stress. Vergleichsweise gut untersuchte klinische Anwendung bei Atemwegserkrankungen."
+    },
+    {
+      "subject": "nac",
+      "target": "studie-33587619",
+      "confidence": 0.9,
+      "source": "pmid:33587619",
+      "note": "RCT (n=24, Ältere): GlyNAC (Glycin+NAC) war mit Veränderungen verbundene Glutathion, oxidativen Stress, Mitochondrienfunktion und Körperzusammensetzung signifikant."
+    },
+    {
+      "subject": "nac",
+      "target": "studie-23044574",
+      "confidence": 0.9,
+      "source": "pmid:23044574",
+      "note": "Review: NAC zeigt in RCTs Effekte bei psychiatrischen Erkrankungen (depressive Symptome, Sucht) durch glutamaterge und antioxidative Mechanismen."
+    },
+    {
+      "subject": "nac",
+      "target": "studie-35975308",
+      "confidence": 0.9,
+      "source": "pmid:35975308",
+      "note": "Follow-up RCT mit älteren Probanden: GlyNAC war mit Veränderungen verbundene 8 von 9 Hallmarks of Alterung in 24 Wochen. Noch kleine Stichprobe (n=24)."
+    },
+    {
+      "subject": "nmn",
+      "target": "studie-32283153",
+      "confidence": 0.9,
+      "source": "pmid:32283153",
+      "note": "NMN war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene Gefäßfunktion bei alten Mäusen – kein Humanversuch."
+    },
+    {
+      "subject": "nmn",
+      "target": "studie-31685720",
+      "confidence": 0.9,
+      "source": "pmid:31685720",
+      "note": "Erste Humanpilot-Studie (n=10): NMN wurde sicher aufgenommen und war mit höheren Werten verbundene Blut-NAD+-Metaboliten. Keine klinischen Endpunkte bewertet."
+    },
+    {
+      "subject": "nmn",
+      "target": "studie-28068222",
+      "confidence": 0.9,
+      "source": "pmid:28068222",
+      "note": "Klassische Tierstudie: NMN war mit Veränderungen verbundene Muskelfunktion, Energiestoffwechsel und Insulinsensitivität bei alten Mäusen. Nicht auf Menschen übertragbar."
+    },
+    {
+      "subject": "nmn",
+      "target": "studie-42135539",
+      "confidence": 0.9,
+      "source": "pmid:42135539",
+      "note": "NAD+-Spiegel im Vollblut variieren weder mit dem Alter noch mit Lebensstilinterventionen – stellt die Grundannahme vieler NAD+-Supplement-Versprechen infrage."
+    },
+    {
+      "subject": "nmn",
+      "target": "studie-42143976",
+      "confidence": 0.9,
+      "source": "pmid:42143976",
+      "note": "Tier-/Zellstudie (kein Humanversuch): NMN hemmte in Hypoxie-Modellen Ferroptose in Mikrogliazellen über den Sirt1/Nrf2/HO-1-Signalweg und schützte vor kognitiven Defiziten. Mechanistisch interessant, "
+    },
+    {
+      "subject": "nr",
+      "target": "studie-27534536",
+      "confidence": 0.9,
+      "source": "pmid:27534536",
+      "note": "Erste Humanpharmakokinetik-Studie: NR wird oral aufgenommen und war mit höheren Werten verbunden in Studien den NAD+-Metabolismus im Blut."
+    },
+    {
+      "subject": "nr",
+      "target": "studie-29514974",
+      "confidence": 0.9,
+      "source": "pmid:29514974",
+      "note": "6-wöchige NR-Einnahme (500 mg/Tag) war mit höheren Werten verbundene NAD+ im Blut um ~60%, war mit Veränderungen verbundene aber Blutdruck und arterielle Steifigkeit nicht signifikant."
+    },
+    {
+      "subject": "nr",
+      "target": "studie-30006327",
+      "confidence": 0.9,
+      "source": "pmid:30006327",
+      "note": "12-wöchige RCT bei übergewichtigen Männern: NR war mit höheren Werten verbundene NAD+, war mit Veränderungen verbundene aber Insulinsensitivität, Lipidprofil oder Mitochondrienfunktion nicht signifika"
+    },
+    {
+      "subject": "nr",
+      "target": "studie-42135539",
+      "confidence": 0.9,
+      "source": "pmid:42135539",
+      "note": "NAD+-Spiegel im Vollblut variieren weder mit dem Alter noch mit Lebensstilinterventionen – stellt die Grundannahme vieler NAD+-Supplement-Versprechen infrage."
+    },
+    {
+      "subject": "omega-3",
+      "target": "studie-30415628",
+      "confidence": 0.9,
+      "source": "pmid:30415628",
+      "note": "RCT (n=8.179): Hochdosiertes EPA 4 g/Tag reduzierte schwere kardiovaskuläre Ereignisse um 25% vs. Placebo bei Patienten mit erhöhten Triglyzeriden und Statin-Therapie."
+    },
+    {
+      "subject": "omega-3",
+      "target": "studie-31537771",
+      "confidence": 0.9,
+      "source": "pmid:31537771",
+      "note": "RCT (n=25.871): Omega-3 1 g/Tag ohne signifikante Reduktion kardiovaskulärer Ereignisse in der Primärprävention, aber weniger Myokardinfarkte (–28%)."
+    },
+    {
+      "subject": "omega-3",
+      "target": "studie-33387437",
+      "confidence": 0.9,
+      "source": "pmid:33387437",
+      "note": "Metaanalyse von 40 RCTs: Omega-3 senkt Triglyzeride zuverlässig um 25–30%; kardiovaskulärer Nutzen dosisabhängig und am stärksten bei mehr als 1 g/Tag EPA+DHA."
+    },
+    {
+      "subject": "omega-3",
+      "target": "studie-31980092",
+      "confidence": 0.9,
+      "source": "pmid:31980092",
+      "note": "RCT (n=13.078): Hochdosiertes EPA+DHA (4 g/Tag) keine signifikante Reduktion schwerer CV-Ereignisse vs. Kontrollöl. Kontroverse zum Vergleich mit REDUCE-IT (unterschiedliche Placebos)."
+    },
+    {
+      "subject": "omega-3",
+      "target": "studie-42144109",
+      "confidence": 0.9,
+      "source": "pmid:42144109",
+      "note": "RCT (n=72): Krilöl erhöhte EPA- und DHA-Plasmaspiegel ca. 1,5-fach stärker als Fischöl bei gleicher Omega-3-Dosis – zurückzuführen auf Phospholipid-Form vs. Triglycerid-Form."
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "studie-20523044",
+      "confidence": 0.9,
+      "source": "pmid:20523044",
+      "note": "RCT (n=78, Ältere mit Gedächtnisbeschwerden): 300 mg Soja-PS/Tag über 6 Monate war mit Veränderungen verbundene Gedächtnisfunktion signifikant, besonders Gesichtserkennung und -namen."
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "studie-19966578",
+      "confidence": 0.9,
+      "source": "pmid:19966578",
+      "note": "RCT (n=157, 60–90 Jahre): PS war mit Veränderungen verbundene Kurzzeitgedächtnis und Lernfähigkeit. Stärkste Effekte bei Personen mit höherem Baseline-Gedächtnisdefizit."
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "studie-25933483",
+      "confidence": 0.9,
+      "source": "pmid:25933483",
+      "note": "Review: PS macht 15 % der Gehirn-Phospholipide aus. Unterstützt Neurotransmitterfreisetzung, Acetylcholinproduktion, Cortisol-Clearing und neuronale Plastizität."
+    },
+    {
+      "subject": "phosphatidylserin",
+      "target": "studie-19861941",
+      "confidence": 0.9,
+      "source": "pmid:19861941",
+      "note": "RCT: PS dämpfte Cortisolanstieg bei Belastungstest und war mit Veränderungen verbundene Stimmung und kognitive Leistung unter Stress."
+    },
+    {
+      "subject": "phosphor",
+      "target": "studie-24500942",
+      "confidence": 0.9,
+      "source": "pmid:24500942",
+      "note": "Review: Phosphor ist essenziell, aber hohe Aufnahme aus stark verarbeiteten Lebensmitteln kann problematisch sein."
+    },
+    {
+      "subject": "phosphor",
+      "target": "studie-22510091",
+      "confidence": 0.9,
+      "source": "pmid:22510091",
+      "note": "Phosphat ist biologisch zentral, aber als Supplement für Gesunde selten ein Engpass."
+    },
+    {
+      "subject": "piperin",
+      "target": "studie-9619120",
+      "confidence": 0.9,
+      "source": "pmid:9619120",
+      "note": "Klassische Studie: Piperin kann die Bioverfügbarkeit von Curcumin stark mit höheren Werten in Verbindung bringen."
+    },
+    {
+      "subject": "piperin",
+      "target": "studie-3984604",
+      "confidence": 0.9,
+      "source": "pmid:3984604",
+      "note": "Piperin beeinflusst Enzymsysteme und Transporter – nützlich, aber potenziell interaktionsrelevant."
+    },
+    {
+      "subject": "piperin",
+      "target": "studie-17619763",
+      "confidence": 0.9,
+      "source": "pmid:17619763",
+      "note": "Piperin ist funktional interessant, aber nicht einfach nur ein harmloser Verstärker."
+    },
+    {
+      "subject": "pqq",
+      "target": "studie-16614413",
+      "confidence": 0.9,
+      "source": "pmid:16614413",
+      "note": "Mechanistische und präklinische Daten legen Mitochondrien-Bezug nahe."
+    },
+    {
+      "subject": "pqq",
+      "target": "studie-22805162",
+      "confidence": 0.9,
+      "source": "pmid:22805162",
+      "note": "Kleine Humanstudien zeigen Signale bei Müdigkeit und Entzündungsmarkern, aber keine starke Beweislast."
+    },
+    {
+      "subject": "pqq",
+      "target": "studie-19321502",
+      "confidence": 0.9,
+      "source": "pmid:19321502",
+      "note": "Review: biologisch spannend, aber nicht ausreichend validiert für große Supplement-Versprechen."
+    },
+    {
+      "subject": "probiotika",
+      "target": "studie-22570464",
+      "confidence": 0.9,
+      "source": "pmid:22570464",
+      "note": "Meta-Analyse (63 RCTs, n=11.811): Probiotika reduzierten Antibiotika-assoziierte Diarrhö um 42% (RR 0,58). Stärkste Evidenz für Lactobacillus rhamnosus GG und Saccharomyces boulardii CNCM I-745."
+    },
+    {
+      "subject": "probiotika",
+      "target": "studie-24574972",
+      "confidence": 0.9,
+      "source": "pmid:24574972",
+      "note": "Meta-Analyse (43 RCTs): Probiotika reduzierten IBS-Symptome und Bauchschmerzen signifikant vs. Placebo. NNT ca. 7. Effekte stammabhängig; kein einzelner überlegener Stamm identifiziert."
+    },
+    {
+      "subject": "probiotika",
+      "target": "studie-24492253",
+      "confidence": 0.9,
+      "source": "pmid:24492253",
+      "note": "ISAPP-Konsens: WHO-Definition von Probiotika präzisiert. Stammspezifität, ausreichende Dosierung und Lebensfähigkeit am Wirkort sind Mindestanforderungen für eine korrekte Probiotika-Bezeichnung."
+    },
+    {
+      "subject": "probiotika",
+      "target": "studie-27559846",
+      "confidence": 0.9,
+      "source": "pmid:27559846",
+      "note": "Review: Mikrobiom verändert sich mit dem Alter — weniger Diversität, mehr inflammatorische Stämme. Centenariere haben eine charakteristische, diversere Zusammensetzung. Kausalrichtung unklar."
+    },
+    {
+      "subject": "probiotika",
+      "target": "studie-23384445",
+      "confidence": 0.9,
+      "source": "pmid:23384445",
+      "note": "Review: Darm-Hirn-Achse bidirektional. Darmbakterien produzieren Serotonin-Vorläufer (ca. 90% des Körper-Serotonins werden im Darm produziert), modulieren Stressachse. Angstreduktion in Tier- und klei"
+    },
+    {
+      "subject": "pterostilben",
+      "target": "studie-23682780",
+      "confidence": 0.9,
+      "source": "pmid:23682780",
+      "note": "Review: Pterostilben hat eine orale Bioverfügbarkeit von ~80 % vs. ~20 % für Resveratrol. Aktiviert SIRT1, AMPK und Nrf2. Längere Halbwertszeit durch Methylgruppen statt Hydroxylgruppen."
+    },
+    {
+      "subject": "pterostilben",
+      "target": "studie-23992536",
+      "confidence": 0.9,
+      "source": "pmid:23992536",
+      "note": "RCT (n=80): 250 mg Pterostilben/Tag war mit niedrigeren Werten verbundene systolischen Blutdruck signifikant. Negative Nebenwirkung: LDL-Erhöhung bei 250 mg (nicht bei 125 mg) – wichtiger Befund."
+    },
+    {
+      "subject": "pterostilben",
+      "target": "studie-20562218",
+      "confidence": 0.9,
+      "source": "pmid:20562218",
+      "note": "Präklinisch: Pterostilben hemmt Tumorzellwachstum durch Notch-1-Inhibition. Krebspräventive Effekte in Zellkulturen und Tiermodellen vergleichsweise gut untersucht."
+    },
+    {
+      "subject": "pterostilben",
+      "target": "studie-21219274",
+      "confidence": 0.9,
+      "source": "pmid:21219274",
+      "note": "Pharmakokinetische Studie: Pterostilben erreicht 4-fach höhere Plasma-Spiegel als Resveratrol bei gleicher Dosis, mit längerer Halbwertszeit und war mit Veränderungen verbundener Gewebeaufnahme."
+    },
+    {
+      "subject": "quercetin",
+      "target": "studie-29988130",
+      "confidence": 0.9,
+      "source": "pmid:29988130",
+      "note": "Erste Humanpilot-Studie mit D+Q (Dasatinib + Quercetin): Reduktion seneszenter Zellen im Fettgewebe bei n=9 Personen mit diabetischer Nierenerkrankung. Dasatinib ist ein Krebsmedikament. Quercetin all"
+    },
+    {
+      "subject": "quercetin",
+      "target": "studie-31578601",
+      "confidence": 0.9,
+      "source": "pmid:31578601",
+      "note": "D+Q-Pilotstudie (n=14 IPF-Patienten): Verbesserungen bei körperlicher Leistungsfähigkeit und Ganggeschwindigkeit nach 3 Wochen. Keine Kontrollgruppe, kein Quercetin-Arm allein."
+    },
+    {
+      "subject": "quercetin",
+      "target": "studie-32233013",
+      "confidence": 0.9,
+      "source": "pmid:32233013",
+      "note": "Review der Mayo-Klinik-Gruppe: Zusammenfassung der Senolytik-Evidenz. Vielversprechend in Tiermodellen, aber Humanstudien in sehr früher Phase und nur mit D+Q-Kombination."
+    },
+    {
+      "subject": "quercetin",
+      "target": "studie-19402938",
+      "confidence": 0.9,
+      "source": "pmid:19402938",
+      "note": "Doppelblind-Crossover-RCT (n=93): 150 mg Quercetin/Tag über 6 Wochen reduzierte systolischen Blutdruck signifikant (~3 mmHg) und oxidiertes LDL bei übergewichtigen Hochrisikopersonen."
+    },
+    {
+      "subject": "quercetin",
+      "target": "studie-27405231",
+      "confidence": 0.9,
+      "source": "pmid:27405231",
+      "note": "Meta-Analyse (7 RCTs): Quercetin-Supplementierung senkte systolischen Blutdruck um ~3,09 mmHg. Effekte nur bei ≥500 mg/Tag und &gt;8 Wochen signifikant. Effektgröße: klein."
+    },
+    {
+      "subject": "reishi",
+      "target": "studie-17336393",
+      "confidence": 0.9,
+      "source": "pmid:17336393",
+      "note": "Review: viele präklinische Daten, aber wenig robuste Human-Endpunkte."
+    },
+    {
+      "subject": "reishi",
+      "target": "studie-26058794",
+      "confidence": 0.9,
+      "source": "pmid:26058794",
+      "note": "Cochrane-nahe Bewertung: klinische Evidenz bleibt schwach."
+    },
+    {
+      "subject": "reishi",
+      "target": "studie-21438650",
+      "confidence": 0.9,
+      "source": "pmid:21438650",
+      "note": "Biologisch plausibel, aber nicht gleichbedeutend mit starkem Supplement-Nutzen."
+    },
+    {
+      "subject": "resveratrol",
+      "target": "studie-25905295",
+      "confidence": 0.9,
+      "source": "pmid:25905295",
+      "note": "RCT, n=6: Oral verabreichtes Resveratrol (25 mg) wurde zu ~70 % absorbiert, aber durch extensiven First-Pass-Metabolismus in Leber und Darmwand rasch konjugiert. Bioverfügbarkeit als freies Trans-Resv"
+    },
+    {
+      "subject": "resveratrol",
+      "target": "studie-26975060",
+      "confidence": 0.9,
+      "source": "pmid:26975060",
+      "note": "Meta-Analyse (11 RCTs): Resveratrol reduzierte Triglyceride signifikant um ~6,5 mg/dL und Nüchternblutzucker um ~4,4 mg/dL. LDL, HDL, CRP und Blutdruck zeigten keine signifikante Veränderung. Effekte "
+    },
+    {
+      "subject": "resveratrol",
+      "target": "studie-27789331",
+      "confidence": 0.9,
+      "source": "pmid:27789331",
+      "note": "Systematischer Review (6 RCTs, n&lt;500): Resveratrol zeigte inkonsistente Effekte auf kognitive Endpunkte. Eine Studie fand Verbesserungen in Gedächtnisaufgaben bei postmenopausalen Frauen; andere St"
+    },
+    {
+      "subject": "resveratrol",
+      "target": "studie-28359099",
+      "confidence": 0.9,
+      "source": "pmid:28359099",
+      "note": "Mechanistischer Review: Resveratrol aktiviert SIRT1 (möglicherweise indirekt via AMPK), PGC-1α und beeinflusst mTOR. In Tiermodellen verlängerte es die Lebensspanne bei kalorienreicher Diät. Kritische"
+    },
+    {
+      "subject": "rhodiola",
+      "target": "studie-19016404",
+      "confidence": 0.9,
+      "source": "pmid:19016404",
+      "note": "RCT (n=60): SHR-5 (576 mg/Tag) war mit Veränderungen verbundene Erschöpfung, Konzentration und Wohlbefinden signifikant nach 28 Tagen. Gut verträglich, keine ernsthaften Nebenwirkungen."
+    },
+    {
+      "subject": "rhodiola",
+      "target": "studie-12725561",
+      "confidence": 0.9,
+      "source": "pmid:12725561",
+      "note": "RCT (n=161 Ärzte im Nachtdienst): Einzeldosis Rhodiola war mit Veränderungen verbundene kognitive Leistung und Reaktionszeit unter Erschöpfungsbedingungen signifikant vs. Placebo."
+    },
+    {
+      "subject": "rhodiola",
+      "target": "studie-17990197",
+      "confidence": 0.9,
+      "source": "pmid:17990197",
+      "note": "RCT (n=56): Rhodiola reduzierte physische und mentale Erschöpfung bei Studierenden in Prüfungsperioden signifikant. Stimmung und allgemeines Wohlbefinden war mit Veränderungen verbunden."
+    },
+    {
+      "subject": "rhodiola",
+      "target": "studie-28219059",
+      "confidence": 0.9,
+      "source": "pmid:28219059",
+      "note": "Offene Studie (n=118, starke Erschöpfung-Patienten): 400 mg/Tag über 12 Wochen reduzierte alle starke Erschöpfung-Symptome signifikant. Kein Placebo-Arm, aber klinisch relevante Effektgrößen."
+    },
+    {
+      "subject": "rutin",
+      "target": "studie-28694736",
+      "confidence": 0.9,
+      "source": "pmid:28694736",
+      "note": "Review: Rutin ist präklinisch breit interessant, aber klinische Evidenz bleibt überschaubar."
+    },
+    {
+      "subject": "rutin",
+      "target": "studie-11448538",
+      "confidence": 0.9,
+      "source": "pmid:11448538",
+      "note": "Hinweise auf gefäßbezogene Effekte, jedoch keine starke moderne Humanbasis."
+    },
+    {
+      "subject": "rutin",
+      "target": "studie-11285671",
+      "confidence": 0.9,
+      "source": "pmid:11285671",
+      "note": "Flavonoide sind interessant, aber konkrete Supplementempfehlungen bleiben schwierig."
+    },
+    {
+      "subject": "same",
+      "target": "studie-20595412",
+      "confidence": 0.9,
+      "source": "pmid:20595412",
+      "note": "Kontrollierte Daten zeigen Nutzen bei depressive Symptome, auch als Add-on in bestimmten Settings."
+    },
+    {
+      "subject": "same",
+      "target": "studie-12472441",
+      "confidence": 0.9,
+      "source": "pmid:12472441",
+      "note": "Meta-Analyse mit Hinweisen auf symptomatische Vorteile im Gelenk-Kontext."
+    },
+    {
+      "subject": "same",
+      "target": "studie-12062105",
+      "confidence": 0.9,
+      "source": "pmid:12062105",
+      "note": "Review: klinisch interessanter Stoff mit echter Substanz, aber nicht ohne Interaktions- und Sicherheitsfragen."
+    },
+    {
+      "subject": "schisandra",
+      "target": "studie-18515024",
+      "confidence": 0.9,
+      "source": "pmid:18515024",
+      "note": "Review: Schisandra passt adaptogen-theoretisch gut, klinische Daten bleiben jedoch begrenzt."
+    },
+    {
+      "subject": "schisandra",
+      "target": "studie-28724448",
+      "confidence": 0.9,
+      "source": "pmid:28724448",
+      "note": "Präklinisch und traditionell interessant, klinische Evidenz bei Supplements aber nicht stark."
+    },
+    {
+      "subject": "schisandra",
+      "target": "studie-20109491",
+      "confidence": 0.9,
+      "source": "pmid:20109491",
+      "note": "Schisandra ist Teil des Adaptogen-Konzepts; robuste Outcome-Evidenz bleibt dennoch begrenzt."
+    },
+    {
+      "subject": "selen",
+      "target": "studie-22381456",
+      "confidence": 0.9,
+      "source": "pmid:22381456",
+      "note": "Flagship-Review in The Lancet: Selen ist essenziell für 25 Selenoproteine. Optimaler Blutspiegel für Gesundheit: 125–150 µg/L Plasma-Selen. Enge therapeutische Breite."
+    },
+    {
+      "subject": "selen",
+      "target": "studie-28326808",
+      "confidence": 0.9,
+      "source": "pmid:28326808",
+      "note": "Review: Selen ist Cofaktor der Jodthyronin-Deiodinasen (T4→T3-Umwandlung). Supplementierung bei Hashimoto reduziert Anti-TPO-Antikörper signifikant in RCTs."
+    },
+    {
+      "subject": "selen",
+      "target": "studie-25793781",
+      "confidence": 0.9,
+      "source": "pmid:25793781",
+      "note": "Systematischer Review: Deutschland, Österreich, Osteuropa haben die niedrigsten Selenspiegel in Europa. Median: 84 µg/L (DE) vs. 125 µg/L (UK) – deutlich unter optimalem Bereich."
+    },
+    {
+      "subject": "selen",
+      "target": "studie-23746916",
+      "confidence": 0.9,
+      "source": "pmid:23746916",
+      "note": "RCT (n=443, Ältere): Selen+CoQ10 über 4 Jahre reduzierten kardiovaskuläre Mortalität um 54 % vs. Placebo. Methodisch umstritten, aber viel zitiert."
+    },
+    {
+      "subject": "shilajit",
+      "target": "studie-26395129",
+      "confidence": 0.9,
+      "source": "pmid:26395129",
+      "note": "Kleine Humanstudien mit Signalen, aber keine breite robuste Evidenz."
+    },
+    {
+      "subject": "shilajit",
+      "target": "studie-23717060",
+      "confidence": 0.9,
+      "source": "pmid:23717060",
+      "note": "Review: biochemisch interessant, aber die Datenlage bleibt vorläufig."
+    },
+    {
+      "subject": "shilajit",
+      "target": "studie-12204876",
+      "confidence": 0.9,
+      "source": "pmid:12204876",
+      "note": "Qualitäts- und Reinheitsfragen sind bei mineralischen Naturprodukten besonders wichtig."
+    },
+    {
+      "subject": "silicium",
+      "target": "studie-17435952",
+      "confidence": 0.9,
+      "source": "pmid:17435952",
+      "note": "Review: Silicium ist biologisch plausibel für Knochen und Bindegewebe, aber die klinische Evidenz bleibt begrenzt."
+    },
+    {
+      "subject": "silicium",
+      "target": "studie-15701098",
+      "confidence": 0.9,
+      "source": "pmid:15701098",
+      "note": "Kleine Studie mit Hinweisen auf Verbesserungen bei Haut und fragilen Haaren. Aussagekraft begrenzt."
+    },
+    {
+      "subject": "silicium",
+      "target": "studie-18197562",
+      "confidence": 0.9,
+      "source": "pmid:18197562",
+      "note": "Review: Potenzial vorhanden, aber klare klinische Belege fehlen."
+    },
+    {
+      "subject": "silymarin",
+      "target": "studie-29562618",
+      "confidence": 0.9,
+      "source": "pmid:29562618",
+      "note": "Review: potenziell nützlich in bestimmten Leberkontexten, aber heterogene klinische Evidenz."
+    },
+    {
+      "subject": "silymarin",
+      "target": "studie-28137772",
+      "confidence": 0.9,
+      "source": "pmid:28137772",
+      "note": "Biologisch plausibel, aber klinischer Nutzen ist nicht in allen Settings überzeugend gezeigt."
+    },
+    {
+      "subject": "silymarin",
+      "target": "studie-21738288",
+      "confidence": 0.9,
+      "source": "pmid:21738288",
+      "note": "Leberbezogene Pflanzenstoffe wie Silymarin sind interessant, aber nicht gleichzusetzen mit gesicherten medizinischen Kontextn."
+    },
+    {
+      "subject": "spermidine",
+      "target": "studie-30955569",
+      "confidence": 0.9,
+      "source": "pmid:30955569",
+      "note": "Mechanistische Studie (Zellmodelle und C. elegans): Spermidin induziert Autophagie über Hypusinierung des Translationsfaktors eIF5A — ein neu identifizierter Mechanismus zusätzlich zur bekannten mTOR-"
+    },
+    {
+      "subject": "spermidine",
+      "target": "studie-32428599",
+      "confidence": 0.9,
+      "source": "pmid:32428599",
+      "note": "RCT, n=85 ältere Erwachsene mit subjektiven GedächtnisBeschwerden (SCI), 3 Monate Weizenkeimextrakt (~1,2 mg Spermidin/Tag) vs. Placebo. Primärer Endpunkt (Mnemonic Discrimination Task): kein signifik"
+    },
+    {
+      "subject": "spermidine",
+      "target": "studie-33762175",
+      "confidence": 0.9,
+      "source": "pmid:33762175",
+      "note": "Translationsstudie: Spermidin verbesserte in alten Mäusen die diastolische Herzfunktion und verlängerte die Lebensspanne (+10 %). Begleitende epidemiologische Auswertung (n=3.407): Höhere diätetische "
+    },
+    {
+      "subject": "spermidine",
+      "target": "studie-34929611",
+      "confidence": 0.9,
+      "source": "pmid:34929611",
+      "note": "Prospektive Beobachtungsstudie, n=829, 20 Jahre Follow-up (Bruneck-Kohorte, Österreich): Höchstes Spermidin-Tertil der Nahrungsaufnahme war mit HR 0,62 für Gesamtmortalität assoziiert vs. niedrigstes "
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "studie-8091226",
+      "confidence": 0.9,
+      "source": "pmid:8091226",
+      "note": "Entdeckungspaper: Sulforaphan induziert Phase-2-Detoxifikationsenzyme und hemmt Tumorwachstum in Tiermodellen. Legte Grundstein für die gesamte Sulforaphan-Forschung."
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "studie-9294217",
+      "confidence": 0.9,
+      "source": "pmid:9294217",
+      "note": "Brokkoli-Keimlinge enthalten 20–50× mehr Glucoraphanin als ausgewachsener Brokkoli. Basis für Supplement-Ansatz."
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "studie-21593586",
+      "confidence": 0.9,
+      "source": "pmid:21593586",
+      "note": "RCT (n=291): Sulforaphan-reicher Brokkoli-Keimlingsdrink war mit höheren Werten verbundene Ausscheidung von Aflatoxin- und Benzol-Metaboliten signifikant – Entgiftungseffekt beim Menschen belegt."
+    },
+    {
+      "subject": "sulforaphan",
+      "target": "studie-25313065",
+      "confidence": 0.9,
+      "source": "pmid:25313065",
+      "note": "RCT bei ASD-Jugendlichen: Sulforaphan war mit Veränderungen verbundene soziale Interaktion und Verhalten signifikant. Illustriert präklinisch neurobiologisch interessante Wirkung via Nrf2/Hitzeschockp"
+    },
+    {
+      "subject": "taurin",
+      "target": "studie-37289866",
+      "confidence": 0.9,
+      "source": "pmid:37289866",
+      "note": "Science 2023: Taurinspiegel sinken mit dem Alter um 80–90 % (Maus, Affe, Mensch). Supplementierung wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne bei Mäusen um ~12 % und war mit "
+    },
+    {
+      "subject": "taurin",
+      "target": "studie-24349057",
+      "confidence": 0.9,
+      "source": "pmid:24349057",
+      "note": "Review: Taurin ist in nahezu jedem Gewebe vorhanden, besonders in Herz, Gehirn, Retina und Skelettmuskel. Funktion als Osmolyt, Antioxidans und Membranstabilisator."
+    },
+    {
+      "subject": "taurin",
+      "target": "studie-26781281",
+      "confidence": 0.9,
+      "source": "pmid:26781281",
+      "note": "RCT (n=120): 1,6 g Taurin/Tag über 12 Wochen war mit niedrigeren Werten verbundene systolischen Blutdruck um 7,2 mmHg, war mit Veränderungen verbundene Gefäßfunktion."
+    },
+    {
+      "subject": "taurin",
+      "target": "studie-11953940",
+      "confidence": 0.9,
+      "source": "pmid:11953940",
+      "note": "Taurin war mit niedrigeren Werten verbunden Triglyceride und war mit Veränderungen verbunden LDL-Oxidation. Kardioprotektive Effekte in mehreren kleinen Studien belegt."
+    },
+    {
+      "subject": "tmg",
+      "target": "studie-12514275",
+      "confidence": 0.9,
+      "source": "pmid:12514275",
+      "note": "TMG war mit niedrigeren Werten verbundene Homocystein in Humanstudien zuverlässig. Ob das automatisch klinische Vorteile erzeugt, bleibt offen."
+    },
+    {
+      "subject": "tmg",
+      "target": "studie-15466943",
+      "confidence": 0.9,
+      "source": "pmid:15466943",
+      "note": "Review: TMG ist metabolisch relevant, besonders als Methylgruppendonor und Osmolyt. Die Praxisanwendungen gehen der Evidenz teils voraus."
+    },
+    {
+      "subject": "tmg",
+      "target": "studie-21485974",
+      "confidence": 0.9,
+      "source": "pmid:21485974",
+      "note": "Homocystein sinkt, harte klinische Endpunkte bleiben aber unklar."
+    },
+    {
+      "subject": "tongkat-ali",
+      "target": "studie-23273445",
+      "confidence": 0.9,
+      "source": "pmid:23273445",
+      "note": "Kleine Datenbasis mit Hinweisen auf war mit Veränderungen verbundene androgenbezogene Marker in bestimmten Gruppen."
+    },
+    {
+      "subject": "tongkat-ali",
+      "target": "studie-23754792",
+      "confidence": 0.9,
+      "source": "pmid:23754792",
+      "note": "Kleine Studie mit Effekten auf Stressparameter und Stimmung."
+    },
+    {
+      "subject": "tongkat-ali",
+      "target": "studie-22971603",
+      "confidence": 0.9,
+      "source": "pmid:22971603",
+      "note": "Review: interessant, aber noch klar im Bereich moderater und vorläufiger Evidenz."
+    },
+    {
+      "subject": "trehalose",
+      "target": "studie-15300606",
+      "confidence": 0.9,
+      "source": "pmid:15300606",
+      "note": "Trehalose induzierte Autophagie und reduzierte Proteinaggregation im Maus-Huntington-Modell signifikant."
+    },
+    {
+      "subject": "trehalose",
+      "target": "studie-24481086",
+      "confidence": 0.9,
+      "source": "pmid:24481086",
+      "note": "Trehalose verlangsamte Herzalterung bei Ratten durch gesteigerte Autophagie – Mitochondrienfunktion war mit Veränderungen verbunden."
+    },
+    {
+      "subject": "trehalose",
+      "target": "studie-31978754",
+      "confidence": 0.9,
+      "source": "pmid:31978754",
+      "note": "Pilota-Humanstudie: Trehalose-Einnahme war mit Veränderungen verbundene Glukosetoleranz und arterielle Steifigkeit bei übergewichtigen Erwachsenen."
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "studie-27400265",
+      "confidence": 0.9,
+      "source": "pmid:27400265",
+      "note": "Nature Medicine: Urolithin A wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne in C. elegans um ~45 % und war mit Veränderungen verbundene Muskelkraft in alten Ratten. Erstnachweis "
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "studie-32694659",
+      "confidence": 0.9,
+      "source": "pmid:32694659",
+      "note": "Erster Humanversuch: 500 mg Urolithin A/Tag war mit Veränderungen verbundene Mitochondrienmarker im Muskelgewebe älterer Erwachsener signifikant. Gut verträglich."
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "studie-35468083",
+      "confidence": 0.9,
+      "source": "pmid:35468083",
+      "note": "RCT (n=66, Ältere): 1 g Urolithin A/Tag über 4 Monate war mit Veränderungen verbundene Muskelausdauer und Mitochondrien-Biomarker signifikant vs. Placebo."
+    },
+    {
+      "subject": "urolithin-a",
+      "target": "studie-19640941",
+      "confidence": 0.9,
+      "source": "pmid:19640941",
+      "note": "Nur ~40 % der Menschen haben Darmbakterien, die Ellagsäure effizient zu Urolithin A umwandeln. Supplementierung umgeht dieses Konversionsproblem."
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "studie-35129835",
+      "confidence": 0.9,
+      "source": "pmid:35129835",
+      "note": "Cochrane-Review: In Regionen mit Mangel reduziert Vitamin-A-Supplementierung Kindersterblichkeit und bestimmte Infektionen. Aussage vor allem für Mangelpopulationen relevant."
+    },
+    {
+      "subject": "vitamin-a",
+      "target": "studie-29058795",
+      "confidence": 0.9,
+      "source": "pmid:29058795",
+      "note": "Review: Vitamin A reguliert angeborene und adaptive Immunität sowie Schleimhautbarrieren. Biologisch gut plausibel, aber Nutzen von Extra-Supplementen hängt stark vom Versorgungsstatus ab."
+    },
+    {
+      "subject": "vitamin-b1",
+      "target": "studie-30295520",
+      "confidence": 0.9,
+      "source": "pmid:30295520",
+      "note": "Review: Thiaminmangel ist klinisch relevant und oft unterdiagnostiziert. Besonders gefährdet sind Menschen mit Alkoholmissbrauch, Mangelernährung oder war mit höheren Werten verbundenem metabolischem "
+    },
+    {
+      "subject": "vitamin-b1",
+      "target": "studie-22489203",
+      "confidence": 0.9,
+      "source": "pmid:22489203",
+      "note": "Review: Auch in westlichen Ländern kommt funktioneller B1-Mangel bei Risikogruppen vor, etwa nach bariatrischer Chirurgie oder bei chronischer Fehlernährung."
+    },
+    {
+      "subject": "vitamin-b1",
+      "target": "studie-17405083",
+      "confidence": 0.9,
+      "source": "pmid:17405083",
+      "note": "Thiaminmangel kann schwere neurologische Schäden verursachen. Frühzeitige Substitution ist in Risikosituationen klinisch hochrelevant."
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "studie-28660890",
+      "confidence": 0.9,
+      "source": "pmid:28660890",
+      "note": "Umfassender Review: B12-Mangel betrifft ca. 6% der unter 60-Jährigen und bis zu 20% der über 60-Jährigen. Folgen: Polyneuropathie, kognitive Störungen, megaloblastäre Anämie. Orale Supplementierung ef"
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "studie-18489294",
+      "confidence": 0.9,
+      "source": "pmid:18489294",
+      "note": "Review: Hauptursachen in Deutschland – vegane/vegetarische Ernährung, atrophische Gastritis (Alter), Metformin-Einnahme. Methylmalonsäure ist der sensitivste diagnostische Marker."
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "studie-21205692",
+      "confidence": 0.9,
+      "source": "pmid:21205692",
+      "note": "Metaanalyse: B-Vitamine (inkl. B12) senken Homocystein signifikant, aber Homocysteinreduktion führt nicht konsistent zu weniger Herzinfarkten – wichtiger umstrittener Befund."
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "studie-22238392",
+      "confidence": 0.9,
+      "source": "pmid:22238392",
+      "note": "Kohortenstudie (USA, NHANES): Metformin-Nutzer hatten signifikant niedrigere B12-Spiegel. Bei mehr als 3 Jahren Einnahme war das Mangelrisiko 4,3-fach erhöht."
+    },
+    {
+      "subject": "vitamin-b12",
+      "target": "studie-20838622",
+      "confidence": 0.9,
+      "source": "pmid:20838622",
+      "note": "RCT (n=168): B-Vitamine (inkl. B12) verlangsamten bei erhöhtem Homocystein die Hirnatrophie bei milder kognitiver Beeinträchtigung um 53%. Effekt nur bei hohem Homocystein-Ausgangswert."
+    },
+    {
+      "subject": "vitamin-b2",
+      "target": "studie-9484373",
+      "confidence": 0.9,
+      "source": "pmid:9484373",
+      "note": "RCT: 400 mg Riboflavin pro Tag reduzierten Migräneattacken gegenüber Placebo. Einer der bekanntesten klinischen Einsatzbereiche von hochdosiertem B2."
+    },
+    {
+      "subject": "vitamin-b2",
+      "target": "studie-12791609",
+      "confidence": 0.9,
+      "source": "pmid:12791609",
+      "note": "Review zu Biochemie, Bedarf und Mangelsymptomen von Riboflavin. B2 ist für Redoxreaktionen und Energiegewinnung essenziell."
+    },
+    {
+      "subject": "vitamin-b2",
+      "target": "studie-28273806",
+      "confidence": 0.9,
+      "source": "pmid:28273806",
+      "note": "Review: Auch in Industrieländern kann ein suboptimaler B2-Status vorkommen, jedoch meist ohne dramatische klinische Symptome."
+    },
+    {
+      "subject": "vitamin-b3",
+      "target": "studie-23676243",
+      "confidence": 0.9,
+      "source": "pmid:23676243",
+      "note": "Review: Niacin war mit Veränderungen verbunden Lipidmarker, klinischer Zusatznutzen in der modernen Statin-Ära ist aber begrenzt und Nebenwirkungen sind häufig."
+    },
+    {
+      "subject": "vitamin-b3",
+      "target": "studie-25014686",
+      "confidence": 0.9,
+      "source": "pmid:25014686",
+      "note": "Große Studie: Trotz günstiger Effekte auf HDL/Triglyceride kein überzeugender klinischer Vorteil, dafür mehr Nebenwirkungen."
+    },
+    {
+      "subject": "vitamin-b3",
+      "target": "studie-18454811",
+      "confidence": 0.9,
+      "source": "pmid:18454811",
+      "note": "Review zu Biochemie und Stoffwechsel: Niacin ist zentral für NAD/NADP und damit für Energie- und Redoxstoffwechsel."
+    },
+    {
+      "subject": "vitamin-b5",
+      "target": "studie-8595692",
+      "confidence": 0.9,
+      "source": "pmid:8595692",
+      "note": "Review zu Biochemie und Bedarf: Pantothensäure ist als Vorstufe von Coenzym A fundamental für den Stoffwechsel, echter Mangel aber selten."
+    },
+    {
+      "subject": "vitamin-b5",
+      "target": "studie-17119255",
+      "confidence": 0.9,
+      "source": "pmid:17119255",
+      "note": "Review: Klassische Mängel einzelner Vitamine sind bei gemischter Ernährung selten; der Nutzen von B5-Supplementen bei Gesunden ist kaum untersucht."
+    },
+    {
+      "subject": "vitamin-b6",
+      "target": "studie-34469291",
+      "confidence": 0.9,
+      "source": "pmid:34469291",
+      "note": "Review: Chronisch hohe Pyridoxin-Dosen können sensorische Neuropathien verursachen. Sicherheit ist stark dosis- und dauerabhängig."
+    },
+    {
+      "subject": "vitamin-b6",
+      "target": "studie-30286045",
+      "confidence": 0.9,
+      "source": "pmid:30286045",
+      "note": "Review: B6 ist an über 100 enzymatischen Reaktionen beteiligt. Klinische Relevanz besonders bei Mangel, Schwangerschaftsübelkeit und bestimmten Stoffwechselsituationen."
+    },
+    {
+      "subject": "vitamin-b7",
+      "target": "studie-28879195",
+      "confidence": 0.9,
+      "source": "pmid:28879195",
+      "note": "Review: Evidenz für Biotin bei Haarproblemen ist schwach und fast immer auf dokumentierte Mangelzustände oder spezielle Erkrankungen beschränkt."
+    },
+    {
+      "subject": "vitamin-b7",
+      "target": "studie-28362283",
+      "confidence": 0.9,
+      "source": "pmid:28362283",
+      "note": "Biotin in Supplementdosen kann Laboruntersuchungen relevant verfälschen, darunter Schilddrüsenwerte und Herzmarker."
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "studie-29099763",
+      "confidence": 0.9,
+      "source": "pmid:29099763",
+      "note": "Review: Vitamin C akkumuliert in Immunzellen und unterstützt Funktion von Neutrophilen, Lymphozyten und NK-Zellen. Bei Mangel deutlich reduzierte Immunabwehr."
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "studie-23440782",
+      "confidence": 0.9,
+      "source": "pmid:23440782",
+      "note": "Cochrane-Review (29 RCTs): Regelmäßige Vitamin-C-Einnahme verkürzt Erkältungsdauer um ~8 % (Erwachsene) bis 14 % (Kinder). Verhindert Erkältungen nur bei extremer körperlicher Belastung (Marathonläufe"
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "studie-23675558",
+      "confidence": 0.9,
+      "source": "pmid:23675558",
+      "note": "Review: Vitamin C ist essenzieller Cofaktor für Prolyl- und Lysylhydroxylasen (Kollagensynthese) und trägt zur Regeneration von Vitamin E bei. Plasma-Spiegel spiegeln Ernährungsqualität wider."
+    },
+    {
+      "subject": "vitamin-c",
+      "target": "studie-8644688",
+      "confidence": 0.9,
+      "source": "pmid:8644688",
+      "note": "NIH-Studie: Plasmasättigung tritt bei ~200 mg/Tag auf. Höhere Dosen werden renal ausgeschieden ohne proportionalen Nutzen. Optimale Dosis für gesunde Erwachsene: 200–400 mg/Tag."
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "studie-32234639",
+      "confidence": 0.9,
+      "source": "pmid:32234639",
+      "note": "RCT, n=421, ältere Erwachsene: 60.000 IE Vitamin D/Monat verbesserte Glukosestoffwechsel, Blutdruck und Lebensqualität signifikant vs. Placebo über 3 Jahre."
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "studie-31537771",
+      "confidence": 0.9,
+      "source": "pmid:31537771",
+      "note": "RCT, n=25.871: 2.000 IE Vitamin D/Tag reduzierte Krebssterblichkeit um 25% in einer Subgruppenanalyse. Kein signifikanter Effekt auf kardiovaskuläre Ereignisse in der Gesamtpopulation."
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "studie-17634462",
+      "confidence": 0.9,
+      "source": "pmid:17634462",
+      "note": "Grundlagenreview in NEJM: Vitamin D wird in der Haut durch UV-B synthetisiert; 25(OH)D &lt;50 nmol/l gilt als Mangel. Schätzungsweise 1 Milliarde Menschen weltweit sind unzureichend versorgt."
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "studie-15514282",
+      "confidence": 0.9,
+      "source": "pmid:15514282",
+      "note": "Prospektive Kohorte, n=4.807: Höhere K2-Aufnahme (MK-7 bis MK-9) war mit 41% niedrigerem Herzinfarkt-Risiko assoziiert. K1-Aufnahme zeigte keinen vergleichbaren Effekt."
+    },
+    {
+      "subject": "vitamin-d3-k2",
+      "target": "studie-22516723",
+      "confidence": 0.9,
+      "source": "pmid:22516723",
+      "note": "Systematischer Review: Beobachtungsstudien zeigen konsistent Zusammenhang zwischen hoher K2-Aufnahme und geringerer Gefäßverkalkung; RCT-Evidenz noch begrenzt."
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "studie-28202713",
+      "confidence": 0.9,
+      "source": "pmid:28202713",
+      "note": "Cochrane-Metaanalyse (n=11.321): Vitamin D reduzierte akute Atemwegsinfektionen moderat (aOR 0,88; 95%-CI 0,81–0,96). Nutzen größer bei Ausgangsmangel unter 25 nmol/L."
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "studie-30611908",
+      "confidence": 0.9,
+      "source": "pmid:30611908",
+      "note": "Umfassender Review: Klare Evidenz für Knochen und Mangelkontext; deutlich schwächer für diffuse Claims ohne nachgewiesenen Mangel."
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "studie-30415629",
+      "confidence": 0.9,
+      "source": "pmid:30415629",
+      "note": "Großes RCT (n=25.871): 2.000 IU/Tag kein signifikanter Nutzen für kardiovaskuläre Ereignisse oder Krebsinzidenz in der Primärprävention bei normal versorgten Personen."
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "studie-22762317",
+      "confidence": 0.9,
+      "source": "pmid:22762317",
+      "note": "Gepoolte Analyse (11 RCTs, n=31.022): Vitamin D mind. 800 IU/Tag reduzierte Hüftfrakturen bei Personen ab 65 J. um ca. 30% gegenüber Placebo."
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "studie-17846391",
+      "confidence": 0.9,
+      "source": "pmid:17846391",
+      "note": "Metaanalyse von 18 RCTs (n=57.311): Vitamin-D-Supplementierung assoziiert mit 7% Reduktion der Gesamtmortalität (RR 0,93; 95%-CI 0,87–0,99). Effekt primär in Mangelpopulationen."
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "studie-22050429",
+      "confidence": 0.9,
+      "source": "pmid:22050429",
+      "note": "RCT (n=35.533): 400 IE synthetisches Vitamin E/Tag war mit höheren Werten verbundene Prostatakrebsrisiko um 17 % signifikant. Studie vorzeitig abgebrochen. Wichtigstes Sicherheitssignal der letzten Ja"
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "studie-15537682",
+      "confidence": 0.9,
+      "source": "pmid:15537682",
+      "note": "Meta-Analyse: Hochdosiertes Vitamin E (>400 IE/Tag) assoziiert mit leicht war mit höheren Werten verbundener Gesamtmortalität. Methodisch umstritten, aber wichtiges Signal."
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "studie-10485337",
+      "confidence": 0.9,
+      "source": "pmid:10485337",
+      "note": "Review: Vitamin E wird mit Schutzmechanismen in Verbindung gebracht mehrfach ungesättigte Fettsäuren in Zellmembranen vor Peroxidation. Alpha-Tocopherol hat höchste Bindungsaffinität zum Transportprot"
+    },
+    {
+      "subject": "vitamin-e",
+      "target": "studie-16753142",
+      "confidence": 0.9,
+      "source": "pmid:16753142",
+      "note": "Review: Tocotrienole (besonders Delta- und Gamma-) zeigen präklinisch neurobiologisch interessante, antikanzerogene und kardioprotektive Effekte, die Alpha-Tocopherol nicht hat. Möglicherweise überleg"
+    },
+    {
+      "subject": "vitamin-k1",
+      "target": "studie-22516723",
+      "confidence": 0.9,
+      "source": "pmid:22516723",
+      "note": "Review zu Funktionen von Vitamin K in Blutgerinnung und Knochenstoffwechsel. Die essenzielle Rolle ist vergleichsweise gut untersucht."
+    },
+    {
+      "subject": "vitamin-k1",
+      "target": "studie-30945251",
+      "confidence": 0.9,
+      "source": "pmid:30945251",
+      "note": "Review: Vitamin-K-Zufuhr ist für viele Menschen ausreichend, kann aber bei geringer Gemüsezufuhr suboptimal sein."
+    },
+    {
+      "subject": "vitamin-k1",
+      "target": "studie-20236064",
+      "confidence": 0.9,
+      "source": "pmid:20236064",
+      "note": "Schwankende Vitamin-K-Zufuhr kann die Steuerung von Vitamin-K-Antagonisten erschweren. Relevanz vor allem für Warfarin/Phenprocoumon-Nutzer."
+    },
+    {
+      "subject": "vitamin-k2",
+      "target": "studie-15514282",
+      "confidence": 0.9,
+      "source": "pmid:15514282",
+      "note": "Rotterdam-Studie (n=4.807): Hohes Menaquinon-Intake reduzierte koronare Herzerkrankung um 41 % und kardiovaskuläre Mortalität um 57 %. Starke epidemiologische Grundlage."
+    },
+    {
+      "subject": "vitamin-k2",
+      "target": "studie-26501375",
+      "confidence": 0.9,
+      "source": "pmid:26501375",
+      "note": "RCT (n=244, 3 Jahre): 180 µg MK-7/Tag verlangsamte den altersassoziierten Anstieg der Arteriensteifigkeit signifikant. Osteocalcin-Carboxylierung war mit Veränderungen verbunden."
+    },
+    {
+      "subject": "vitamin-k2",
+      "target": "studie-23525894",
+      "confidence": 0.9,
+      "source": "pmid:23525894",
+      "note": "RCT (n=244, 3 Jahre): MK-7 war mit Veränderungen verbundene Knochendichte und -stärke signifikant vs. Placebo. Klinisch relevante Reduktion des Knochenschwunds."
+    },
+    {
+      "subject": "vitamin-k2",
+      "target": "studie-17138823",
+      "confidence": 0.9,
+      "source": "pmid:17138823",
+      "note": "MK-7 hat eine Halbwertszeit von 72 Stunden (vs. 1–2 Stunden für K1/MK-4) und wird effizienter in extrahepatische Gewebe (Knochen, Arterien) transportiert."
+    },
+    {
+      "subject": "zink",
+      "target": "studie-18385818",
+      "confidence": 0.9,
+      "source": "pmid:18385818",
+      "note": "Umfassender Review: Zinkmangel beeinträchtigt T-Zell-Funktion, war mit höheren Werten verbunden oxidativen Stress und Entzündungsmarker. Supplementierung normalisiert Immunfunktion bei Mangel."
+    },
+    {
+      "subject": "zink",
+      "target": "studie-18793724",
+      "confidence": 0.9,
+      "source": "pmid:18793724",
+      "note": "Meta-Analyse: Zinksupplementierung reduziert Diarrhoe-Inzidenz bei Kindern um 25 %, Pneumonie um 41 %. Zeigt biologische Relevanz der Zinkversorgung."
+    },
+    {
+      "subject": "zink",
+      "target": "studie-8875519",
+      "confidence": 0.9,
+      "source": "pmid:8875519",
+      "note": "Bei zinkmangelnden älteren Männern: Supplementierung war mit höheren Werten verbundene Testosteron von 8,3 auf 16,0 nmol/L. Kein Effekt bei gut versorgten Männern."
+    },
+    {
+      "subject": "zink",
+      "target": "studie-18385819",
+      "confidence": 0.9,
+      "source": "pmid:18385819",
+      "note": "Review: Zinkmangel nimmt mit dem Alter zu, korreliert mit Immunseneszenz, Entzündung und war mit höheren Werten verbundenem Oxidationsstress. Supplementierung bei Älteren war mit Veränderungen verbund"
+    }
+  ]
+}

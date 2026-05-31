@@ -1,0 +1,16 @@
+{
+  "id": "silymarin",
+  "type": "ingredient",
+  "name": "Silymarin (Mariendistel)",
+  "summary": "Silymarin ist der klassische Leber-Stoff. Die Evidenz ist nicht null, aber deutlich gemischter als sein Ruf in Detox- und Liver-Support-Produkten.",
+  "aliases": [
+    "Silymarin",
+    "Milk Thistle",
+    "Mariendistel-Extrakt"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 300
+}

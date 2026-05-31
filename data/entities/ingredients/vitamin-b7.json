@@ -1,0 +1,16 @@
+{
+  "id": "vitamin-b7",
+  "type": "ingredient",
+  "name": "Vitamin B7 (Biotin)",
+  "summary": "Biotin ist essenziell, aber Mangel selten. Für Haare und Nägel nur dann wirklich sinnvoll, wenn ein Defizit vorliegt – plus Laborwerte können verfälscht werden.",
+  "aliases": [
+    "Biotin",
+    "Vitamin H",
+    "Vitamin B7"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "caution",
+  "efsa_approved": true,
+  "typical_dose_mg": 1
+}

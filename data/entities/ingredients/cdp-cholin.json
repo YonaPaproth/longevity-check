@@ -1,0 +1,16 @@
+{
+  "id": "cdp-cholin",
+  "type": "ingredient",
+  "name": "CDP-Cholin",
+  "summary": "CDP-Cholin ist eine interessante Cholinform für Gehirn und Membranstoffwechsel. Die Evidenz ist ordentlich, aber nicht stark genug für große Versprechen.",
+  "aliases": [
+    "Citicolin",
+    "CDP-Choline",
+    "Cytidindiphosphat-Cholin"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 250
+}

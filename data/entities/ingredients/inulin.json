@@ -1,0 +1,16 @@
+{
+  "id": "inulin",
+  "type": "ingredient",
+  "name": "Inulin (Prebiotikum)",
+  "summary": "Inulin ist ein präbiotischer Ballaststoff mit solider Plausibilität für Darmgesundheit. Praktisch relevant, aber kein glamouröser gesundes Altern-Shortcut.",
+  "aliases": [
+    "Inulin",
+    "Prebiotische Ballaststoffe",
+    "Fructan"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 5000
+}

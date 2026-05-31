@@ -1,0 +1,16 @@
+{
+  "id": "schisandra",
+  "type": "ingredient",
+  "name": "Schisandra",
+  "summary": "Schisandra ist ein klassisches Adaptogen mit Leber-, Stress- und Leistungsstory. Die Human-Evidenz ist vorhanden, aber eher begrenzt.",
+  "aliases": [
+    "Schisandra chinensis",
+    "Wu Wei Zi",
+    "Magnolia Vine"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

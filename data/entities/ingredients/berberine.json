@@ -1,0 +1,16 @@
+{
+  "id": "berberine",
+  "type": "ingredient",
+  "name": "Berberin",
+  "summary": "Berberin wird vor allem für Blutzucker- und Lipidmarker untersucht. Wechselwirkungen mit Medikamenten und der unsichere EU-Status sprechen für Vorsicht.",
+  "aliases": [
+    "Berberine",
+    "Berberinhydrochlorid",
+    "Natur-Metformin"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 2,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

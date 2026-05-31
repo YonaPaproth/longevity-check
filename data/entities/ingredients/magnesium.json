@@ -1,0 +1,18 @@
+{
+  "id": "magnesium",
+  "type": "ingredient",
+  "name": "Magnesium",
+  "summary": "Magnesium ist an über 300 enzymatischen Reaktionen beteiligt. Niedrige Zufuhr ist in Deutschland häufig. Die Form beeinflusst Bioverfügbarkeit und Verträglichkeit deutlich.",
+  "aliases": [
+    "Magnesiumglycinat",
+    "Magnesiumcitrat",
+    "Magnesium-L-Threonat",
+    "Magnesiumoxid",
+    "Magnesiummalat"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 1,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 300
+}

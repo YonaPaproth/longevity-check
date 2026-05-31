@@ -1,0 +1,19 @@
+{
+  "id": "curcumin",
+  "type": "ingredient",
+  "name": "Curcumin (Kurkuma-Extrakt)",
+  "summary": "Curcumin beeinflusst verschiedene Entzündungs- und Oxidationswege. Hauptproblem bleibt die Bioverfügbarkeit; positive Daten stammen meist aus speziellen Formulierungen.",
+  "aliases": [
+    "Kurkuma",
+    "Turmeric",
+    "Curcuma longa",
+    "BCM-95",
+    "Meriva",
+    "Theracurmin"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

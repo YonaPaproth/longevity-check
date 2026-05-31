@@ -1,0 +1,121 @@
+{
+  "entity": "astaxanthin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "augen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "neuroprotektiv",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "blut-hirn-schranke",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "crp",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "tsh",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24378819",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24378819",
+      "note": "Review: Astaxanthin überquert Blut-Hirn-Schranke, wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress. Antioxidative Kapazität 6.000× höher als Vitamin C in vitro."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21207795",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21207795",
+      "note": "Review: Astaxanthin hemmt LDL-Oxidation, reduziert Entzündungsmarker. Kleine RCTs zeigen Verbesserung des Lipidprofils und Blutdrucks."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22428137",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22428137",
+      "note": "RCT (n=49 Frauen): 6 mg Astaxanthin/Tag über 6 Wochen war mit Veränderungen verbundene Hautelastizität und -feuchtigkeit signifikant."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20637008",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20637008",
+      "note": "RCT bei Sportlern: Astaxanthin war mit Veränderungen verbundene Immunmarker nach intensivem Training, reduzierte Oxidationsmarker."
+    }
+  ]
+}

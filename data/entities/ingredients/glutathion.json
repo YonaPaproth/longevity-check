@@ -1,0 +1,18 @@
+{
+  "id": "glutathion",
+  "type": "ingredient",
+  "name": "Glutathion",
+  "summary": "Glutathion ist das berühmte körpereigene Antioxidans. Als Supplement bleibt die Datenlage deutlich weniger beeindruckend als der Ruf.",
+  "aliases": [
+    "Glutathione",
+    "Reduced Glutathione",
+    "GSH",
+    "Liposomales Glutathion",
+    "S-Acetyl-Glutathion"
+  ],
+  "category": "antioxidants",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

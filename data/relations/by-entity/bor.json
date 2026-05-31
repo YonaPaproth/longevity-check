@@ -1,0 +1,54 @@
+{
+  "entity": "bor",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18752471",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18752471",
+      "note": "Review: Bor ist biologisch interessant, aber vieles bleibt vorläufig und nicht klinisch gesichert."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-26770156",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26770156",
+      "note": "Review: Hinweise auf potenzielle Bedeutung für Knochen und Mineralstoffhaushalt, aber keine robuste Basis für breite Supplementempfehlungen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21873346",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21873346",
+      "note": "Zusammenfassung der Datenlage: interessant, aber deutlich unter dem Evidenzniveau klassischer Mikronährstoffe."
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "eisen",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "Bei Entzündungen steigt Hepcidin ebenfalls — weshalb Laborwerte bei Infekten nicht zuverlässig sind."
+    }
+  ]
+}

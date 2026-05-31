@@ -1,0 +1,16 @@
+{
+  "id": "l-theanin",
+  "type": "ingredient",
+  "name": "L-Theanin",
+  "summary": "L-Theanin gehört zu den populäreren Nootropics: Es wird vor allem für Ruhe ohne starke Sedierung untersucht, besonders in Kombination mit Koffein.",
+  "aliases": [
+    "L-Theanine",
+    "Theanin",
+    "Tea Amino Acid"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 200
+}

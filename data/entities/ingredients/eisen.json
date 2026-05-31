@@ -1,0 +1,18 @@
+{
+  "id": "eisen",
+  "type": "ingredient",
+  "name": "Eisen",
+  "summary": "Essenziell für Sauerstofftransport, Energiestoffwechsel und Immunfunktion. Bei bestätigtem Mangel klar wirksam — ohne Labordiagnose sollte Eisen nicht blind supplementiert werden.",
+  "aliases": [
+    "Iron",
+    "Eisenbisglycinat",
+    "Eisensulfat",
+    "Ferritin",
+    "Hämeisen"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "caution",
+  "efsa_approved": true,
+  "typical_dose_mg": 20
+}

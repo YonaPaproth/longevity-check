@@ -1,0 +1,100 @@
+{
+  "entity": "nmn",
+  "relations": [
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "note": "Das ist ein komplementärer Ansatz zu **NMN oder NR** (die NAD+ von der Synthese-Seite erhöhen)."
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nad-biosynthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "nad-spiegel",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-32283153",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32283153",
+      "note": "NMN war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene Gefäßfunktion bei alten Mäusen – kein Humanversuch."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-31685720",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31685720",
+      "note": "Erste Humanpilot-Studie (n=10): NMN wurde sicher aufgenommen und war mit höheren Werten verbundene Blut-NAD+-Metaboliten. Keine klinischen Endpunkte bewertet."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28068222",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28068222",
+      "note": "Klassische Tierstudie: NMN war mit Veränderungen verbundene Muskelfunktion, Energiestoffwechsel und Insulinsensitivität bei alten Mäusen. Nicht auf Menschen übertragbar."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-42135539",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42135539",
+      "note": "NAD+-Spiegel im Vollblut variieren weder mit dem Alter noch mit Lebensstilinterventionen – stellt die Grundannahme vieler NAD+-Supplement-Versprechen infrage."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-42143976",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42143976",
+      "note": "Tier-/Zellstudie (kein Humanversuch): NMN hemmte in Hypoxie-Modellen Ferroptose in Mikrogliazellen über den Sirt1/Nrf2/HO-1-Signalweg und schützte vor kognitiven Defiziten. Mechanistisch interessant, "
+    }
+  ]
+}

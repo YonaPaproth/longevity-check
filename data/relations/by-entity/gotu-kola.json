@@ -1,0 +1,47 @@
+{
+  "entity": "gotu-kola",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28685790",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28685790",
+      "note": "Einige Hinweise auf kognitive und stimmungsbezogene Effekte, aber keine sehr starke Datenlage."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24006008",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24006008",
+      "note": "Traditionelle und experimentelle Daten zu Haut- und Gewebethemen sind plausibel."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-11297858",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:11297858",
+      "note": "Breite präklinische Aktivität, Human-Evidenz bleibt begrenzt."
+    }
+  ]
+}

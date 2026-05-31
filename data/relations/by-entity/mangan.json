@@ -1,0 +1,63 @@
+{
+  "entity": "mangan",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23036414",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23036414",
+      "note": "Review: Chronisch hohe Manganexposition kann das Nervensystem schädigen. Relevanz besonders bei Überexposition, aber auch ein Grund für Zurückhaltung bei Hochdosis-Supplementen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-16099008",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:16099008",
+      "note": "Mangan ist an Knochen- und Knorpelstoffwechsel beteiligt, aber Supplementnutzen bei gesunden Menschen ist schwach belegt."
+    }
+  ]
+}

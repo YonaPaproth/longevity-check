@@ -1,0 +1,41 @@
+{
+  "entity": "bacopa",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-11498727",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:11498727",
+      "note": "Eine der bekanntesten Humanstudien mit Hinweisen auf Verbesserungen im Gedächtnis nach mehrwöchiger Einnahme."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23387531",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23387531",
+      "note": "Review: Bacopa hat unter pflanzlichen Nootropics eine vergleichsweise ordentliche Humanbasis."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24512655",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24512655",
+      "note": "Meta-Analyse: leichte bis moderate Vorteile, aber keine Wunderwirkungen."
+    }
+  ]
+}

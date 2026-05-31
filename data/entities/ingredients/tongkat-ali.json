@@ -1,0 +1,16 @@
+{
+  "id": "tongkat-ali",
+  "type": "ingredient",
+  "name": "Tongkat Ali",
+  "summary": "Tongkat Ali ist in Männer- und Testosteron-Stacks populär. Die Daten sind interessant, aber klein, extraktabhängig und nicht frei von Hype.",
+  "aliases": [
+    "Eurycoma longifolia",
+    "Tongkat Ali",
+    "Longjack"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 3,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 200
+}

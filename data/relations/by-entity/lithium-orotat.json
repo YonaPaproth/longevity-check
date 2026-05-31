@@ -1,0 +1,41 @@
+{
+  "entity": "lithium-orotat",
+  "relations": [
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-28147231",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28147231",
+      "note": "Lithium als Arzneistoff ist gut untersucht, aber diese Evidenz lässt sich nicht sauber auf frei verkäufliches Lithium-Orotat übertragen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24813272",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24813272",
+      "note": "Diskussion zu möglichen Effekten niedriger Lithiumspiegel – interessant, aber weit entfernt von einer soliden Supplement-Empfehlung."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-18072817",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:18072817",
+      "note": "Warnung vor der Annahme, niedrig dosiertes Lithium sei automatisch harmlos. Sicherheitsdaten für frei verkäufliche Formen sind begrenzt."
+    }
+  ]
+}

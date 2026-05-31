@@ -1,0 +1,18 @@
+{
+  "id": "rhodiola",
+  "type": "ingredient",
+  "name": "Rhodiola Rosea (Rosenwurz)",
+  "summary": "Rhodiola rosea ist ein Adaptogen mit RCTs zu mentaler Erschöpfung und Stresswahrnehmung. Die Datenlage ist interessant, aber nicht frei von Heterogenität.",
+  "aliases": [
+    "Rosenwurz",
+    "Rhodiola",
+    "Goldene Wurzel",
+    "Arktische Wurzel",
+    "SHR-5"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 400
+}

@@ -1,0 +1,95 @@
+{
+  "entity": "ergothionein",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "augen",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "glutathion-spiegel",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-20308112",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20308112",
+      "note": "Ergothionein hat einzigartige Transportmechanismen (OCTN1) im Körper und reichert sich in mitochondrienreichen Geweben an – Hinweis auf biologische Relevanz."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-36856787",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:36856787",
+      "note": "Niedrige Ergothionein-Plasmaspiegel korrelieren mit schlechterem kognitivem Status und Frailty bei älteren Menschen (Beobachtungsstudie)."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21347875",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21347875",
+      "note": "In einem Maus-Parkinson-Modell reduzierte Ergothionein neuronale Schäden signifikant."
+    }
+  ]
+}

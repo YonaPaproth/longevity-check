@@ -1,0 +1,18 @@
+{
+  "id": "vitamin-d3-k2",
+  "type": "ingredient",
+  "name": "Vitamin D3 + K2",
+  "summary": "Niedrige Vitamin-D-Spiegel sind in Deutschland verbreitet. Die Supplementierung ist vor allem in Mangelkontexten vergleichsweise gut untersucht; K2 wird oft kombiniert, ist aber als eigenständiges…",
+  "aliases": [
+    "Cholecalciferol",
+    "Vitamin D",
+    "Menaquinon",
+    "MK-7",
+    "Vitamin K2"
+  ],
+  "category": "other",
+  "evidenceLevel": 1,
+  "safety": "safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 25
+}

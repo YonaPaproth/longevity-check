@@ -1,0 +1,53 @@
+{
+  "entity": "beta-glucan",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24511820",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24511820",
+      "note": "Meta-Analyse: Hafer-Beta-Glucan war mit niedrigeren Werten verbunden LDL-Cholesterin zuverlässig."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30727981",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30727981",
+      "note": "Immunologische Effekte sind plausibel, aber klinisch weniger robust als viele Claims suggerieren."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21348891",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21348891",
+      "note": "Die beste Evidenz liegt bei LDL-Cholesterin, nicht bei generellen Wellness-Versprechen."
+    }
+  ]
+}

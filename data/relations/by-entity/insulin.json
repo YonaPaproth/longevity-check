@@ -1,0 +1,23 @@
+{
+  "entity": "insulin",
+  "relations": [
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "alpha-liponsaeure",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.6
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "myo-inositol",
+      "direction": "incoming",
+      "confidence": 0.6
+    }
+  ]
+}

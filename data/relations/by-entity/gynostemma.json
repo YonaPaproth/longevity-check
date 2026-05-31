@@ -1,0 +1,89 @@
+{
+  "entity": "gynostemma",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "ampk-aktivierung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-autoimmunerkrankung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-21062282",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21062282",
+      "note": "Gynostemma-Extrakt aktivierte AMPK in Fett- und Muskelzellen, vergleichbar mit Metformin – ohne bekannte Nebenwirkungen des Arzneimittels."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-22784345",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22784345",
+      "note": "RCT: Gynostemma-Tee war mit Veränderungen verbundene Insulinsensitivität und war mit niedrigeren Werten verbundene Nüchternblutzucker bei adipösen Probanden nach 8 Wochen."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-19628196",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19628196",
+      "note": "Humanpilot: Gynostemma war mit niedrigeren Werten verbundene LDL-Cholesterin und Triglyzeride nach 4 Wochen bei Personen mit leicht war mit höheren Werten verbundenen Blutfettwerten."
+    }
+  ]
+}

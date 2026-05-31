@@ -1,0 +1,15 @@
+{
+  "id": "taurin",
+  "type": "ingredient",
+  "name": "Taurin",
+  "summary": "Taurin ist eine Aminosäure mit zentraler Rolle im Energiestoffwechsel. Tier- und Beobachtungsdaten haben die Alterungsforschung befeuert; belastbare Humanbelege sind deutlich begrenzter.",
+  "aliases": [
+    "Taurine",
+    "2-Aminoethansulfonsäure"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 2000
+}

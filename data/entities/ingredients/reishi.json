@@ -1,0 +1,16 @@
+{
+  "id": "reishi",
+  "type": "ingredient",
+  "name": "Reishi",
+  "summary": "Reishi ist einer der bekanntesten Medicinal Mushrooms. Die Immun- und gesundes Altern-Story ist groß, die Human-Evidenz deutlich kleiner.",
+  "aliases": [
+    "Ganoderma lucidum",
+    "Reishi",
+    "Lingzhi"
+  ],
+  "category": "adaptogens",
+  "evidenceLevel": 4,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 1000
+}
