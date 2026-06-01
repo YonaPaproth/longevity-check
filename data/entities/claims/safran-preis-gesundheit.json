@@ -1,0 +1,13 @@
+{
+  "id": "safran-preis-gesundheit",
+  "type": "claim",
+  "name": "Ist Safran den Preis allein wegen der Gesundheit wert?",
+  "ingredient": "safran",
+  "summary": "Preis-/Nutzen-Claim zu Safran: interessante Human-Evidenz, aber nicht stark genug, um den hohen Preis pauschal gesundheitlich zu rechtfertigen.",
+  "claimEvidence": {
+    "human": "begrenzt"
+  },
+  "regulatory": {
+    "efsa": "efsa-nicht-zugelassen"
+  }
+}

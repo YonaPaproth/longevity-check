@@ -1,0 +1,65 @@
+{
+  "entity": "safran",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.4
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "serotonin-synthese",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.5
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24299602",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24299602",
+      "note": "Meta-Analyse: Safran war Placebo überlegen und in kleinen Studien ähnlich wirksam wie Antidepressiva bei leichter bis moderater Depression."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-30036891",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30036891",
+      "note": "Meta-Analyse mit positivem Signal bei depressiven Symptomen, aber limitierter Datenbasis."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-32221179",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32221179",
+      "note": "Systematic Review: Safran war meist gut verträglich und zeigte Vorteile gegenüber Placebo bei depressiven Symptomen."
+    }
+  ]
+}

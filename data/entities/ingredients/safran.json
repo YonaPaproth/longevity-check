@@ -1,0 +1,16 @@
+{
+  "id": "safran",
+  "type": "ingredient",
+  "name": "Safran (Crocus sativus)",
+  "summary": "Safran wird vor allem für Stimmung, Stress und PMS untersucht. Die Humanstudien sind interessant, aber klein und nicht stark genug für große Gesundheitsversprechen.",
+  "aliases": [
+    "Crocus sativus",
+    "Saffron",
+    "Safran-Extrakt"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 30
+}

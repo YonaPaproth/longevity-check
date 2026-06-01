@@ -1,0 +1,47 @@
+{
+  "entity": "safran-preis-gesundheit",
+  "relations": [
+    {
+      "relation": "bezieht_sich_auf",
+      "target": "safran",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "serotonin-synthese",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.5
+    },
+    {
+      "relation": "zielt_auf",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "zielt_auf",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "verwandter_wirkstoff",
+      "target": "ashwagandha",
+      "direction": "outgoing",
+      "confidence": 0.5
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}
