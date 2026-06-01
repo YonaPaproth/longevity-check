@@ -18,7 +18,8 @@ const previewClaims = [...claims]
 ---
 
 <BaseLayout
-  title="Supplements &amp; Longevity, science-based"
+  title="MikroScore — Evidence-based supplement ratings"
+  description="Independent supplement reviews rated by study quality and EU regulatory status. No hype, no paywall."
   locale="en"
   hreflang={{ de: '/', en: '/en' }}
 >
@@ -27,10 +28,10 @@ const previewClaims = [...claims]
   <section class="bg-white border-b border-slate-200">
     <div class="max-w-5xl mx-auto px-4 py-16">
       <h1 class="text-4xl font-bold text-slate-900 mb-4 max-w-2xl leading-tight">
-        Supplements &amp; Longevity,<br />science-based.
+        Supplement ratings<br />built on studies, not hype.
       </h1>
       <p class="text-lg text-slate-600 max-w-xl mb-5">
-        NMN, Ashwagandha, Curcumin &amp; more — rated by study quality and EU regulation. Our ratings assess product transparency and research quality, not health effects (most supplements have no approved EU health claims).
+        NMN, Ashwagandha, Curcumin and more — rated by clinical evidence quality and EU regulatory status. We assess product transparency and research quality, not health effects. Most longevity supplements carry no approved EU health claims.
       </p>
       <div class="flex gap-3 flex-wrap">
         <a href="/en/ingredients" class="bg-teal-600 text-white px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-teal-700 no-underline transition-colors">
@@ -65,8 +66,8 @@ const previewClaims = [...claims]
           <span class="ml-1.5">Claims checked</span>
         </div>
         <div>
-          <span class="text-2xl font-bold text-slate-900">€0</span>
-          <span class="ml-1.5">Paywall</span>
+          <span class="text-2xl font-bold text-slate-900">Free</span>
+          <span class="ml-1.5">No paywall</span>
         </div>
       </div>
     </div>
@@ -79,20 +80,20 @@ const previewClaims = [...claims]
       <div class="bg-teal-50 rounded-2xl border border-teal-200 p-6 shadow-sm">
         <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-2">Personal nutrient risk assessment</div>
         <h3 class="font-semibold text-slate-900 mb-2">Nutrient Check</h3>
-        <p class="text-sm text-slate-600 mb-3">15 questions — we estimate which nutrients you may be at risk of under-consuming.</p>
+        <p class="text-sm text-slate-600 mb-3">15 questions — we estimate which nutrients you may be at risk of under-consuming, based on your diet and lifestyle.</p>
         <a href="/en/nutrient-check" class="text-sm font-medium text-teal-700 hover:text-teal-900 no-underline">Start check →</a>
       </div>
       <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
         <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-2">Evidence-based ingredient research</div>
         <h3 class="font-semibold text-slate-900 mb-2">Ingredient Dossiers</h3>
-        <p class="text-sm text-slate-600 mb-3">RCTs, meta-analyses, EFSA and BfR assessments — clearly sorted by evidence strength.</p>
-        <a href="/en/ingredients" class="text-sm font-medium text-teal-700 hover:text-teal-900 no-underline">All {ingredients.length} ingredients →</a>
+        <p class="text-sm text-slate-600 mb-3">RCTs, meta-analyses, and EFSA assessments — each ingredient rated on a 1–5 evidence scale, with EFSA health claim status flagged.</p>
+        <a href="/en/ingredients" class="text-sm font-medium text-teal-700 hover:text-teal-900 no-underline">All {ingredients.length} ingredient{ingredients.length !== 1 ? 's' : ''} →</a>
       </div>
       <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
         <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-2">Transparent product comparison</div>
         <h3 class="font-semibold text-slate-900 mb-2">Product Comparison</h3>
-        <p class="text-sm text-slate-600 mb-3">Concrete products rated by price per dose, purity, certification, and label honesty.</p>
-        <a href="/en/products" class="text-sm font-medium text-teal-700 hover:text-teal-900 no-underline">All {products.length} products →</a>
+        <p class="text-sm text-slate-600 mb-3">Concrete products rated by price per dose, purity, label accuracy, and third-party certification — not just ingredient quality.</p>
+        <a href="/en/products" class="text-sm font-medium text-teal-700 hover:text-teal-900 no-underline">All {products.length} product{products.length !== 1 ? 's' : ''} →</a>
       </div>
     </div>
   </section>
@@ -107,10 +108,10 @@ const previewClaims = [...claims]
               <p class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-2">Marketing claims, evidence checked</p>
               <h2 class="text-xl font-semibold text-slate-800">Claims Check</h2>
               <p class="text-sm text-slate-600 mt-2 max-w-2xl">
-                We take supplement marketing claims at face value and check what is actually supported by studies, EFSA logic, or sound evidence.
+                We take supplement marketing claims and check what is actually supported by studies, EFSA assessments, or sound evidence — and what is exaggerated or false.
               </p>
             </div>
-            <a href="/en/claims" class="text-sm text-teal-600 hover:text-teal-800 no-underline font-medium whitespace-nowrap">All {claims.length} claims →</a>
+            <a href="/en/claims" class="text-sm text-teal-600 hover:text-teal-800 no-underline font-medium whitespace-nowrap">All {claims.length} claim{claims.length !== 1 ? 's' : ''} →</a>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             {previewClaims.map(claim => (
@@ -158,8 +159,8 @@ const previewClaims = [...claims]
   <!-- Trust strip -->
   <section class="max-w-5xl mx-auto px-4 py-8">
     <div class="bg-teal-50 border border-teal-200 rounded-xl p-6">
-      <h2 class="font-semibold text-teal-900 mb-2">Our sources</h2>
-      <p class="text-sm text-teal-800 mb-4">We rely exclusively on publicly accessible, citable sources:</p>
+      <h2 class="font-semibold text-teal-900 mb-2">What we cite</h2>
+      <p class="text-sm text-teal-800 mb-4">We rely exclusively on publicly accessible, peer-reviewed, and citable sources:</p>
       <div class="flex flex-wrap gap-3 text-xs">
         {['PubMed / PMC', 'NIH ODS Fact Sheets', 'EFSA Health Claims Register', 'BfR Germany'].map(source => (
           <span class="bg-white border border-teal-300 text-teal-700 rounded-full px-3 py-1">{source}</span>

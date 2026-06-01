@@ -4,7 +4,7 @@ import NutrientAssessmentIllustration from '../../components/illustrations/Nutri
 ---
 
 <BaseLayout
-  title="Nutrient Check"
+  title="Nutrient Check | MikroScore"
   description="Estimate your personal risk of nutrient deficiency in 60 seconds — based on diet and lifestyle."
   locale="en"
   hreflang={{ de: '/ernaehrungs-check', en: '/en/nutrient-check' }}
@@ -25,26 +25,21 @@ import NutrientAssessmentIllustration from '../../components/illustrations/Nutri
 
     <h1 class="text-3xl font-bold text-slate-900 mb-4">Nutrient Check</h1>
     <p class="text-slate-600 mb-6 max-w-2xl">
-      Answer 15 questions about your diet and lifestyle. We'll estimate which nutrients you may be at risk of under-consuming — based on population data and research, not personalised medical advice.
+      Answer 15 questions about your diet and lifestyle. We estimate which nutrients you may be at risk of under-consuming — based on population data and research, not personalised medical advice.
     </p>
 
     <!-- Coming soon notice -->
     <div class="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8">
-      <div class="flex items-start gap-3">
-        <span class="text-2xl" aria-hidden="true">🚧</span>
-        <div>
-          <p class="font-semibold text-teal-900 mb-1">English version coming soon</p>
-          <p class="text-sm text-teal-700 mb-4">
-            The Nutrient Check is currently available in German. The English version is being prepared.
-          </p>
-          <a
-            href="/ernaehrungs-check"
-            class="inline-block text-sm font-medium bg-teal-600 text-white hover:bg-teal-700 rounded-lg px-4 py-2 no-underline transition-colors"
-          >
-            Use German version →
-          </a>
-        </div>
-      </div>
+      <p class="font-semibold text-teal-900 mb-1">English version coming soon</p>
+      <p class="text-sm text-teal-700 mb-4">
+        The Nutrient Check is currently available in German. The English version is in preparation — the logic and nutrient coverage will be identical.
+      </p>
+      <a
+        href="/ernaehrungs-check"
+        class="inline-block text-sm font-medium bg-teal-600 text-white hover:bg-teal-700 rounded-lg px-4 py-2 no-underline transition-colors"
+      >
+        Use German version →
+      </a>
     </div>
 
     <!-- What it covers -->
@@ -52,16 +47,33 @@ import NutrientAssessmentIllustration from '../../components/illustrations/Nutri
       <h2 class="text-xl font-semibold text-slate-800 mb-4">What the check covers</h2>
       <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
         {[
-          { nutrient: 'Vitamin D', icon: '☀️' },
-          { nutrient: 'Omega-3', icon: '🐟' },
-          { nutrient: 'Magnesium', icon: '🌿' },
-          { nutrient: 'Iron', icon: '🔴' },
-          { nutrient: 'Zinc', icon: '⚡' },
-          { nutrient: 'Vitamin B12', icon: '🧬' },
-        ].map(({ nutrient, icon }) => (
-          <div class="bg-white border border-slate-200 rounded-xl p-4 text-center">
-            <span class="text-2xl block mb-1" aria-hidden="true">{icon}</span>
-            <p class="text-sm font-medium text-slate-700">{nutrient}</p>
+          { nutrient: 'Vitamin D', note: 'Sun exposure & diet risk' },
+          { nutrient: 'Omega-3', note: 'EPA & DHA from fish/plants' },
+          { nutrient: 'Magnesium', note: 'Diet quality & absorption' },
+          { nutrient: 'Iron', note: 'Diet type & absorption risk' },
+          { nutrient: 'Zinc', note: 'Animal vs. plant sources' },
+          { nutrient: 'Vitamin B12', note: 'Especially plant-based diets' },
+        ].map(({ nutrient, note }) => (
+          <div class="bg-white border border-slate-200 rounded-xl p-4">
+            <p class="text-sm font-semibold text-slate-800 mb-1">{nutrient}</p>
+            <p class="text-xs text-slate-500">{note}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">How it works</h2>
+      <div class="space-y-3">
+        {[
+          { step: '1', text: 'Answer 15 questions about your diet, lifestyle, and health context.' },
+          { step: '2', text: 'We estimate your risk level (high / possible gap / likely adequate) for each nutrient.' },
+          { step: '3', text: 'For each flagged nutrient, we show food sources, testing options, and relevant ingredient dossiers.' },
+        ].map(({ step, text }) => (
+          <div class="flex gap-4 bg-white border border-slate-200 rounded-xl p-4">
+            <span class="w-7 h-7 rounded-full bg-teal-100 text-teal-800 text-xs font-bold flex items-center justify-center shrink-0">{step}</span>
+            <p class="text-sm text-slate-700">{text}</p>
           </div>
         ))}
       </div>

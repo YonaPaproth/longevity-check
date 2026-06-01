@@ -9,7 +9,7 @@ const sorted = [...claims].sort((a, b) => b.data.publishedAt.getTime() - a.data.
 ---
 
 <BaseLayout
-  title="Claims Check"
+  title="Claims Check | MikroScore"
   description="Supplement marketing claims checked against studies, EFSA regulation, and sound evidence."
   locale="en"
   hreflang={{ de: '/claims', en: '/en/claims' }}
@@ -28,18 +28,34 @@ const sorted = [...claims].sort((a, b) => b.data.publishedAt.getTime() - a.data.
       <ClaimCheckIllustration />
     </div>
 
-    <div class="mb-8">
+    <div class="mb-6">
       <h1 class="text-3xl font-bold text-slate-900 mb-3">Claims Check</h1>
-      <p class="text-slate-600 max-w-2xl">
-        We take supplement marketing claims at face value and check what is actually supported by studies, EFSA logic, or sound evidence.
+      <p class="text-slate-600 max-w-2xl mb-4">
+        Supplement brands make bold claims — "boosts energy", "extends lifespan", "reduces biological age". We take these claims at face value and check what the evidence actually supports: studies, EFSA assessments, and regulatory reality.
+      </p>
+      <p class="text-sm text-slate-500">
         {sorted.length} claim{sorted.length !== 1 ? 's' : ''} reviewed.
       </p>
     </div>
 
+    <!-- Verdict legend -->
+    <div class="flex flex-wrap gap-2 mb-8">
+      {[
+        { label: 'Supported', color: 'bg-emerald-100 text-emerald-700 border-emerald-200' },
+        { label: 'Exaggerated', color: 'bg-yellow-100 text-yellow-700 border-yellow-200' },
+        { label: 'False', color: 'bg-red-100 text-red-700 border-red-200' },
+        { label: 'Too early to say', color: 'bg-slate-100 text-slate-600 border-slate-200' },
+      ].map(({ label, color }) => (
+        <span class:list={['text-xs font-medium px-2.5 py-1 rounded-full border', color]}>{label}</span>
+      ))}
+      <a href="/en/methodology#claims-check-verdicts" class="text-xs text-slate-400 hover:text-teal-600 self-center ml-1 no-underline">How we assess →</a>
+    </div>
+
     {sorted.length === 0 ? (
       <div class="bg-slate-50 border border-slate-200 rounded-xl p-8 text-center">
-        <p class="text-slate-500">English claims checks are being added. Check back soon.</p>
-        <a href="/claims" class="inline-block mt-4 text-sm text-teal-600 hover:underline">Read German claims →</a>
+        <p class="text-slate-500 mb-2">English claims checks are being added.</p>
+        <p class="text-xs text-slate-400 mb-4">German claims checks are available in the meantime.</p>
+        <a href="/claims" class="inline-block text-sm text-teal-600 hover:underline">Browse German claims →</a>
       </div>
     ) : (
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">

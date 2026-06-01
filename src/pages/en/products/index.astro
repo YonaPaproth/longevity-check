@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import VerdictBadge from '../../../components/VerdictBadge.astro';
+import ProductTransparencyIllustration from '../../../components/illustrations/ProductTransparencyIllustration.astro';
 import { getCollection } from 'astro:content';
 import { compositeScore } from '../../../utils/scoring';
 
@@ -19,16 +20,10 @@ for (const [key, group] of byIngredient) {
 }
 
 const ingredientMap = new Map(ingredients.map(i => [i.data.slug, i.data]));
-
-const verdictLabel: Record<string, string> = {
-  empfehlenswert: 'Recommended',
-  akzeptabel: 'Acceptable',
-  'nicht-empfehlenswert': 'Not recommended',
-};
 ---
 
 <BaseLayout
-  title="Product Reviews"
+  title="Product Reviews | MikroScore"
   description="Transparent supplement product reviews — rated by evidence quality, price per dose, label honesty, and third-party testing."
   locale="en"
   hreflang={{ de: '/produkte', en: '/en/products' }}
@@ -41,17 +36,32 @@ const verdictLabel: Record<string, string> = {
       <span class="text-slate-600">Products</span>
     </nav>
 
-    <div class="mb-8">
+    <!-- Illustration banner -->
+    <div class="rounded-2xl overflow-hidden border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-teal-50/40 mb-8 px-4 py-3">
+      <div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-1.5">Transparent product comparison</div>
+      <ProductTransparencyIllustration />
+    </div>
+
+    <div class="mb-6">
       <h1 class="text-3xl font-bold text-slate-900 mb-3">Product Reviews</h1>
       <p class="text-slate-600 max-w-2xl">
-        {products.length} product{products.length !== 1 ? 's' : ''} reviewed across {byIngredient.size} ingredient{byIngredient.size !== 1 ? 's' : ''}. Rated on evidence, value for money, quality, label honesty, and third-party testing.
+        {products.length} product{products.length !== 1 ? 's' : ''} reviewed across {byIngredient.size} ingredient{byIngredient.size !== 1 ? 's' : ''}. Each product receives a Transparency Index score (0–10) based on evidence quality, price per dose, label accuracy, and independent certification — not on whether we like the brand.
       </p>
+    </div>
+
+    <!-- Rating dimensions explainer -->
+    <div class="flex flex-wrap gap-2 mb-8 text-xs text-slate-500">
+      {['Evidence for ingredient', 'Value for money', 'Product quality', 'Label honesty', 'Third-party testing'].map(dim => (
+        <span class="bg-slate-100 rounded-full px-3 py-1">{dim}</span>
+      ))}
+      <a href="/en/methodology" class="text-xs text-slate-400 hover:text-teal-600 self-center ml-1 no-underline">How scores work →</a>
     </div>
 
     {products.length === 0 ? (
       <div class="bg-slate-50 border border-slate-200 rounded-xl p-8 text-center">
-        <p class="text-slate-500">English product reviews are being added. Check back soon.</p>
-        <a href="/produkte" class="inline-block mt-4 text-sm text-teal-600 hover:underline">Read German reviews →</a>
+        <p class="text-slate-500 mb-2">English product reviews are being added.</p>
+        <p class="text-xs text-slate-400 mb-4">German reviews are available in the meantime.</p>
+        <a href="/produkte" class="inline-block text-sm text-teal-600 hover:underline">Browse German reviews →</a>
       </div>
     ) : (
       <div class="space-y-10">

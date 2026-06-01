@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import EvidenceBadge from '../../../components/EvidenceBadge.astro';
+import EvidenceResearchIllustration from '../../../components/illustrations/EvidenceResearchIllustration.astro';
 import { getCollection } from 'astro:content';
 
 const ingredients = await getCollection('enIngredients');
@@ -11,8 +12,8 @@ const sorted = [...ingredients].sort((a, b) =>
 ---
 
 <BaseLayout
-  title="Ingredient Dossiers"
-  description="Evidence-based dossiers for longevity supplements — rated by study quality, EFSA status, and safety."
+  title="Ingredient Dossiers | MikroScore"
+  description="Evidence-based dossiers for longevity supplement ingredients — rated by study quality, EFSA status, and safety profile."
   locale="en"
   hreflang={{ de: '/wirkstoffe', en: '/en/ingredients' }}
 >
@@ -24,17 +25,40 @@ const sorted = [...ingredients].sort((a, b) =>
       <span class="text-slate-600">Ingredients</span>
     </nav>
 
-    <div class="mb-8">
+    <!-- Illustration banner -->
+    <div class="rounded-2xl overflow-hidden border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-teal-50/40 mb-8 px-4 py-3">
+      <div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-1.5">Evidence-based ingredient research</div>
+      <EvidenceResearchIllustration />
+    </div>
+
+    <div class="mb-6">
       <h1 class="text-3xl font-bold text-slate-900 mb-3">Ingredient Dossiers</h1>
       <p class="text-slate-600 max-w-2xl">
-        {sorted.length} ingredient{sorted.length !== 1 ? 's' : ''} rated by study quality, EFSA health claim status, and safety. Evidence level 1 = strongest (multiple consistent RCTs in humans).
+        {sorted.length} ingredient{sorted.length !== 1 ? 's' : ''} rated by study quality, EFSA health claim status, and safety profile. Sorted by evidence strength — level 1 means multiple consistent human RCTs, level 5 means no credible human evidence.
       </p>
+    </div>
+
+    <!-- Evidence level legend -->
+    <div class="flex flex-wrap gap-2 mb-8">
+      {[
+        { level: '1', label: 'Strong', color: 'bg-emerald-100 text-emerald-700 border-emerald-200' },
+        { level: '2', label: 'Moderate', color: 'bg-lime-100 text-lime-700 border-lime-200' },
+        { level: '3', label: 'Limited', color: 'bg-yellow-100 text-yellow-700 border-yellow-200' },
+        { level: '4', label: 'Weak', color: 'bg-orange-100 text-orange-700 border-orange-200' },
+        { level: '5', label: 'None', color: 'bg-red-100 text-red-700 border-red-200' },
+      ].map(({ level, label, color }) => (
+        <span class:list={['text-xs font-medium px-2.5 py-1 rounded-full border', color]}>
+          {level} — {label}
+        </span>
+      ))}
+      <a href="/en/methodology" class="text-xs text-slate-400 hover:text-teal-600 self-center ml-1 no-underline">What do these mean? →</a>
     </div>
 
     {sorted.length === 0 ? (
       <div class="bg-slate-50 border border-slate-200 rounded-xl p-8 text-center">
-        <p class="text-slate-500">English ingredient dossiers are being added. Check back soon.</p>
-        <a href="/wirkstoffe" class="inline-block mt-4 text-sm text-teal-600 hover:underline">Read German dossiers →</a>
+        <p class="text-slate-500 mb-2">English ingredient dossiers are being added.</p>
+        <p class="text-xs text-slate-400 mb-4">German dossiers are available in the meantime.</p>
+        <a href="/wirkstoffe" class="inline-block text-sm text-teal-600 hover:underline">Browse German dossiers →</a>
       </div>
     ) : (
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">

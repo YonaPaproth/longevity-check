@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="Methodology"
+  title="Methodology | MikroScore"
   description="How MikroScore rates supplement ingredients and products — evidence levels, Transparency Index, EU health claims."
   locale="en"
   hreflang={{ de: '/methodik', en: '/en/methodology' }}
@@ -17,15 +17,20 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     </nav>
 
     <h1 class="text-3xl font-bold text-slate-900 mb-4">Methodology</h1>
-    <p class="text-slate-600 mb-10 max-w-2xl">
+    <p class="text-slate-600 mb-6 max-w-2xl">
       How we assess the evidence for supplement ingredients and rate products.
     </p>
+
+    <!-- Medical disclaimer -->
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-10 text-sm text-amber-800">
+      Our ratings assess <strong>product transparency and research quality</strong> — not health effects or medical outcomes. MikroScore is not a medical service and nothing on this site constitutes medical advice.
+    </div>
 
     <!-- Evidence levels -->
     <section class="mb-12">
       <h2 class="text-xl font-semibold text-slate-800 mb-4">Evidence Levels (1–5)</h2>
       <p class="text-sm text-slate-600 mb-6">
-        Each ingredient is assigned an evidence level reflecting the quality and consistency of available human research.
+        Each ingredient is assigned an evidence level reflecting the quality and consistency of available human research. Level 1 is the strongest.
       </p>
       <div class="space-y-3">
         {[
@@ -52,7 +57,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <section class="mb-12">
       <h2 class="text-xl font-semibold text-slate-800 mb-4">Transparency Index (0–10)</h2>
       <p class="text-sm text-slate-600 mb-6">
-        Products are rated across five dimensions. The weighted composite score is the Transparency Index.
+        Products are rated across five dimensions. The weighted composite score is the Transparency Index — a measure of how honestly and responsibly a product is presented, not of whether the ingredient works.
       </p>
       <div class="overflow-x-auto">
         <table class="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
@@ -106,6 +111,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <!-- Claims verdicts -->
     <section class="mb-12">
       <h2 class="text-xl font-semibold text-slate-800 mb-4">Claims Check Verdicts</h2>
+      <p class="text-sm text-slate-600 mb-4">
+        For each marketing claim we check the underlying evidence and assign one of four verdicts.
+      </p>
       <div class="space-y-3">
         {[
           { v: 'Supported',          desc: 'The claim is backed by high-quality studies and is accurate in scope.', color: 'bg-emerald-100 text-emerald-800' },
@@ -129,7 +137,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
           Under EU Regulation (EC) No 1924/2006, health-related claims on food and supplement labels are only permitted if approved by EFSA (European Food Safety Authority) and listed in the EU Register of Authorised Health Claims.
         </p>
         <p>
-          The vast majority of longevity supplement ingredients (NMN, ashwagandha, resveratrol, etc.) have <strong>no approved EU health claims</strong>. This does not mean the ingredients have no effects — it means vendors cannot legally advertise health effects on EU labels.
+          The vast majority of longevity supplement ingredients (NMN, ashwagandha, resveratrol, etc.) have <strong>no approved EU health claims</strong>. This does not mean these ingredients have no effects — it means vendors cannot legally advertise health effects on EU labels.
         </p>
         <p>
           We flag EFSA approval status on every ingredient dossier so you can distinguish between legally claimable effects and effects that are merely research findings.
