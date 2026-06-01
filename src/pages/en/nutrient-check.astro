@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NutrientAssessmentIllustration from '../../components/illustrations/NutrientAssessmentIllustration.astro';
+---
+
+<BaseLayout
+  title="Nutrient Check"
+  description="Estimate your personal risk of nutrient deficiency in 60 seconds — based on diet and lifestyle."
+  locale="en"
+  hreflang={{ de: '/ernaehrungs-check', en: '/en/nutrient-check' }}
+>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/en" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">Nutrient Check</span>
+    </nav>
+
+    <!-- Illustration banner -->
+    <div class="rounded-2xl overflow-hidden border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-teal-50/40 mb-8 px-4 py-3">
+      <div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-1.5">Personal nutrient risk assessment</div>
+      <NutrientAssessmentIllustration />
+    </div>
+
+    <h1 class="text-3xl font-bold text-slate-900 mb-4">Nutrient Check</h1>
+    <p class="text-slate-600 mb-6 max-w-2xl">
+      Answer 15 questions about your diet and lifestyle. We'll estimate which nutrients you may be at risk of under-consuming — based on population data and research, not personalised medical advice.
+    </p>
+
+    <!-- Coming soon notice -->
+    <div class="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8">
+      <div class="flex items-start gap-3">
+        <span class="text-2xl" aria-hidden="true">🚧</span>
+        <div>
+          <p class="font-semibold text-teal-900 mb-1">English version coming soon</p>
+          <p class="text-sm text-teal-700 mb-4">
+            The Nutrient Check is currently available in German. The English version is being prepared.
+          </p>
+          <a
+            href="/ernaehrungs-check"
+            class="inline-block text-sm font-medium bg-teal-600 text-white hover:bg-teal-700 rounded-lg px-4 py-2 no-underline transition-colors"
+          >
+            Use German version →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- What it covers -->
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">What the check covers</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {[
+          { nutrient: 'Vitamin D', icon: '☀️' },
+          { nutrient: 'Omega-3', icon: '🐟' },
+          { nutrient: 'Magnesium', icon: '🌿' },
+          { nutrient: 'Iron', icon: '🔴' },
+          { nutrient: 'Zinc', icon: '⚡' },
+          { nutrient: 'Vitamin B12', icon: '🧬' },
+        ].map(({ nutrient, icon }) => (
+          <div class="bg-white border border-slate-200 rounded-xl p-4 text-center">
+            <span class="text-2xl block mb-1" aria-hidden="true">{icon}</span>
+            <p class="text-sm font-medium text-slate-700">{nutrient}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Privacy note -->
+    <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 text-xs text-slate-500">
+      <strong>Privacy:</strong> The check runs entirely in your browser. No answers are transmitted or stored on any server.
+    </div>
+
+  </div>
+</BaseLayout>

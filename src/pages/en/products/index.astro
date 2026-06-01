@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import VerdictBadge from '../../../components/VerdictBadge.astro';
+import { getCollection } from 'astro:content';
+import { compositeScore } from '../../../utils/scoring';
+
+const products = await getCollection('enProducts');
+const ingredients = await getCollection('enIngredients');
+
+// Group products by ingredient, sort each group by score
+const byIngredient = new Map<string, typeof products>();
+for (const p of products) {
+  const key = p.data.ingredient;
+  if (!byIngredient.has(key)) byIngredient.set(key, []);
+  byIngredient.get(key)!.push(p);
+}
+for (const [key, group] of byIngredient) {
+  byIngredient.set(key, group.sort((a, b) => compositeScore(b.data.ratings) - compositeScore(a.data.ratings)));
+}
+
+const ingredientMap = new Map(ingredients.map(i => [i.data.slug, i.data]));
+
+const verdictLabel: Record<string, string> = {
+  empfehlenswert: 'Recommended',
+  akzeptabel: 'Acceptable',
+  'nicht-empfehlenswert': 'Not recommended',
+};
+---
+
+<BaseLayout
+  title="Product Reviews"
+  description="Transparent supplement product reviews — rated by evidence quality, price per dose, label honesty, and third-party testing."
+  locale="en"
+  hreflang={{ de: '/produkte', en: '/en/products' }}
+>
+  <div class="max-w-5xl mx-auto px-4 py-10">
+
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/en" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">Products</span>
+    </nav>
+
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-slate-900 mb-3">Product Reviews</h1>
+      <p class="text-slate-600 max-w-2xl">
+        {products.length} product{products.length !== 1 ? 's' : ''} reviewed across {byIngredient.size} ingredient{byIngredient.size !== 1 ? 's' : ''}. Rated on evidence, value for money, quality, label honesty, and third-party testing.
+      </p>
+    </div>
+
+    {products.length === 0 ? (
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-8 text-center">
+        <p class="text-slate-500">English product reviews are being added. Check back soon.</p>
+        <a href="/produkte" class="inline-block mt-4 text-sm text-teal-600 hover:underline">Read German reviews →</a>
+      </div>
+    ) : (
+      <div class="space-y-10">
+        {[...byIngredient.entries()].map(([ingredientSlug, group]) => {
+          const ing = ingredientMap.get(ingredientSlug);
+          return (
+            <div>
+              {ing && (
+                <div class="flex items-baseline justify-between mb-4">
+                  <h2 class="text-lg font-semibold text-slate-800">{ing.title}</h2>
+                  <a href={`/en/ingredients/${ingredientSlug}`} class="text-xs text-teal-600 hover:underline">
+                    View dossier →
+                  </a>
+                </div>
+              )}
+              <div class="space-y-3">
+                {group.map((p, i) => {
+                  const score = compositeScore(p.data.ratings);
+                  return (
+                    <a
+                      href={`/en/products/${p.data.slug}`}
+                      class="flex items-center justify-between bg-white border border-slate-200 rounded-xl px-5 py-4 hover:border-teal-400 transition-all no-underline group gap-4"
+                    >
+                      <div class="flex items-center gap-3 min-w-0">
+                        {group.length > 1 && (
+                          <span class="text-xs font-bold text-slate-300 w-4 shrink-0">#{i + 1}</span>
+                        )}
+                        <div class="min-w-0">
+                          <p class="font-medium text-slate-800 group-hover:text-teal-700 text-sm truncate">{p.data.title}</p>
+                          <p class="text-xs text-slate-500">
+                            {p.data.vendor}
+                            <span class="mx-1 text-slate-300">·</span>
+                            {p.data.doseMg} mg
+                            <span class="mx-1 text-slate-300">·</span>
+                            €{p.data.pricePerDayEur.toFixed(2)}/day
+                          </p>
+                        </div>
+                      </div>
+                      <div class="flex items-center gap-3 shrink-0">
+                        <span class="text-sm font-semibold text-slate-700">
+                          {score.toFixed(1)}<span class="text-xs font-normal text-slate-400">/10</span>
+                        </span>
+                        <VerdictBadge verdict={p.data.verdict} />
+                      </div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    )}
+
+  </div>
+</BaseLayout>

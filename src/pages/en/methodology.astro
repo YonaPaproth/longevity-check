@@ -1,0 +1,149 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Methodology"
+  description="How MikroScore rates supplement ingredients and products — evidence levels, Transparency Index, EU health claims."
+  locale="en"
+  hreflang={{ de: '/methodik', en: '/en/methodology' }}
+>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/en" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">Methodology</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-slate-900 mb-4">Methodology</h1>
+    <p class="text-slate-600 mb-10 max-w-2xl">
+      How we assess the evidence for supplement ingredients and rate products.
+    </p>
+
+    <!-- Evidence levels -->
+    <section class="mb-12">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">Evidence Levels (1–5)</h2>
+      <p class="text-sm text-slate-600 mb-6">
+        Each ingredient is assigned an evidence level reflecting the quality and consistency of available human research.
+      </p>
+      <div class="space-y-3">
+        {[
+          { level: '1', label: 'Strong evidence', desc: 'Multiple consistent RCTs in humans. Meta-analyses available. Effect is well-replicated.', color: 'bg-emerald-100 text-emerald-800 border-emerald-200' },
+          { level: '2', label: 'Moderate evidence', desc: 'At least one solid RCT in humans. Effect is plausible but needs more replication.', color: 'bg-lime-100 text-lime-800 border-lime-200' },
+          { level: '3', label: 'Limited evidence', desc: 'Observational studies or small RCTs only. Human evidence is preliminary.', color: 'bg-yellow-100 text-yellow-800 border-yellow-200' },
+          { level: '4', label: 'Weak evidence', desc: 'Animal or in vitro data only. No convincing human evidence.', color: 'bg-orange-100 text-orange-800 border-orange-200' },
+          { level: '5', label: 'No evidence', desc: 'No relevant studies, or evidence is limited to testimonials and case reports.', color: 'bg-red-100 text-red-800 border-red-200' },
+        ].map(({ level, label, desc, color }) => (
+          <div class="flex gap-4 bg-white border border-slate-200 rounded-xl p-4">
+            <span class:list={['rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold shrink-0 border', color]}>
+              {level}
+            </span>
+            <div>
+              <p class="font-semibold text-slate-800 text-sm">{label}</p>
+              <p class="text-sm text-slate-500">{desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Transparency Index -->
+    <section class="mb-12">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">Transparency Index (0–10)</h2>
+      <p class="text-sm text-slate-600 mb-6">
+        Products are rated across five dimensions. The weighted composite score is the Transparency Index.
+      </p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
+          <thead>
+            <tr class="bg-slate-50 border-b border-slate-200">
+              <th class="text-left px-4 py-3 font-semibold text-slate-700">Dimension</th>
+              <th class="text-right px-4 py-3 font-semibold text-slate-700">Weight</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100">
+            {[
+              { dim: 'Evidence for ingredient', weight: '10%', desc: 'How strong is the clinical evidence for the active ingredient?' },
+              { dim: 'Value for money', weight: '30%', desc: 'Is the price per dose fair given available alternatives?' },
+              { dim: 'Product quality', weight: '25%', desc: 'Form, standardisation, excipients, manufacturing standards.' },
+              { dim: 'Label honesty', weight: '20%', desc: 'Are doses and claims accurately stated? No proprietary blends?' },
+              { dim: 'Third-party testing', weight: '15%', desc: 'Is the product independently certified (Informed Sport, NSF, etc.)?' },
+            ].map(({ dim, weight, desc }) => (
+              <tr class="hover:bg-slate-50/50">
+                <td class="px-4 py-3">
+                  <p class="font-medium text-slate-800">{dim}</p>
+                  <p class="text-xs text-slate-500">{desc}</p>
+                </td>
+                <td class="px-4 py-3 text-right font-semibold text-teal-700">{weight}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Verdicts -->
+    <section class="mb-12">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">Product Verdicts</h2>
+      <div class="space-y-3">
+        {[
+          { v: 'Recommended', score: '≥ 7.0 / 10', desc: 'Good evidence, fair price, honest label, and ideally third-party certified.', color: 'bg-teal-100 text-teal-800' },
+          { v: 'Acceptable', score: '5.0 – 6.9 / 10', desc: 'Decent product with some weaknesses — may still be a reasonable choice.', color: 'bg-amber-100 text-amber-800' },
+          { v: 'Not recommended', score: '< 5.0 / 10', desc: 'Significant shortcomings in at least one key dimension.', color: 'bg-red-100 text-red-800' },
+        ].map(({ v, score, desc, color }) => (
+          <div class="bg-white border border-slate-200 rounded-xl p-4 flex gap-4">
+            <span class:list={['rounded-full px-3 py-1 text-xs font-semibold shrink-0 h-fit', color]}>{v}</span>
+            <div>
+              <p class="text-sm font-medium text-slate-700">{score}</p>
+              <p class="text-sm text-slate-500">{desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Claims verdicts -->
+    <section class="mb-12">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">Claims Check Verdicts</h2>
+      <div class="space-y-3">
+        {[
+          { v: 'Supported',          desc: 'The claim is backed by high-quality studies and is accurate in scope.', color: 'bg-emerald-100 text-emerald-800' },
+          { v: 'Exaggerated',        desc: 'There is a real underlying effect, but the claim overstates its size or certainty.', color: 'bg-yellow-100 text-yellow-800' },
+          { v: 'False',              desc: 'The claim contradicts available evidence.', color: 'bg-red-100 text-red-800' },
+          { v: 'Too early to say',   desc: 'Preliminary findings exist but evidence is insufficient to draw conclusions.', color: 'bg-slate-100 text-slate-700' },
+        ].map(({ v, desc, color }) => (
+          <div class="bg-white border border-slate-200 rounded-xl p-4 flex gap-4">
+            <span class:list={['rounded-full px-3 py-1 text-xs font-semibold shrink-0 h-fit', color]}>{v}</span>
+            <p class="text-sm text-slate-500">{desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- EU Health Claims -->
+    <section class="mb-12">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">EU Health Claims</h2>
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 text-sm text-slate-700 space-y-3">
+        <p>
+          Under EU Regulation (EC) No 1924/2006, health-related claims on food and supplement labels are only permitted if approved by EFSA (European Food Safety Authority) and listed in the EU Register of Authorised Health Claims.
+        </p>
+        <p>
+          The vast majority of longevity supplement ingredients (NMN, ashwagandha, resveratrol, etc.) have <strong>no approved EU health claims</strong>. This does not mean the ingredients have no effects — it means vendors cannot legally advertise health effects on EU labels.
+        </p>
+        <p>
+          We flag EFSA approval status on every ingredient dossier so you can distinguish between legally claimable effects and effects that are merely research findings.
+        </p>
+      </div>
+    </section>
+
+    <!-- Update frequency -->
+    <section class="bg-teal-50 border border-teal-200 rounded-xl p-5">
+      <h2 class="font-semibold text-teal-900 mb-2">Update frequency</h2>
+      <p class="text-sm text-teal-800">
+        Ingredient dossiers are reviewed when new relevant studies are published. Product ratings are updated when pricing, formulation, or certification status changes. Each page shows the last updated date.
+      </p>
+    </section>
+
+  </div>
+</BaseLayout>

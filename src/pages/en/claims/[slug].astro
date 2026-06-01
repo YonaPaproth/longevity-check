@@ -1,0 +1,106 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import VerdictBadge from '../../../components/VerdictBadge.astro';
+import ClaimCheckIllustration from '../../../components/illustrations/ClaimCheckIllustration.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const claims = await getCollection('enClaims');
+  return claims.map(entry => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+
+<BaseLayout
+  title={`Claims Check: "${d.title}"`}
+  description={d.summary}
+  locale="en"
+  hreflang={{ en: `/en/claims/${d.slug}` }}
+>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/en" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/en/claims" class="hover:text-teal-600">Claims Check</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">{d.title}</span>
+    </nav>
+
+    <!-- Illustration banner -->
+    <div class="rounded-2xl overflow-hidden border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-teal-50/40 mb-6 px-4 py-3">
+      <div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-1.5">Marketing claims, evidence checked</div>
+      <ClaimCheckIllustration />
+    </div>
+
+    <p class="text-sm text-slate-500 mb-2">Claims Check</p>
+    <h1 class="text-2xl font-bold text-slate-900 mb-4">"{d.title}"</h1>
+
+    <div class="flex items-center gap-3 mb-6">
+      <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
+    </div>
+
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-8 text-xs text-amber-800 leading-5">
+      <strong>Editorial notice:</strong> This page provides an editorial assessment of a widely circulated claim. It does not constitute an approved health claim under Regulation (EC) No 1924/2006 and is not a substitute for medical advice. Statements about studies, biomarkers, or mechanisms are to be understood as evidence appraisal — not as recommendations to treat, alleviate, or prevent any disease.
+    </div>
+
+    <!-- Claim context (inline summary) -->
+    {d.claimContext && (
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-6">
+        <h2 class="text-sm font-semibold text-slate-700 mb-3">Evidence context</h2>
+        <div class="grid grid-cols-2 gap-3 text-sm">
+          {d.claimContext.humanEvidence && (
+            <div>
+              <p class="text-xs text-slate-400 mb-0.5">Human evidence</p>
+              <p class="font-medium text-slate-700 capitalize">{d.claimContext.humanEvidence}</p>
+            </div>
+          )}
+          {d.claimContext.ingredientEvidenceScore !== undefined && (
+            <div>
+              <p class="text-xs text-slate-400 mb-0.5">Ingredient evidence score</p>
+              <p class="font-medium text-slate-700">{d.claimContext.ingredientEvidenceScore}/10</p>
+            </div>
+          )}
+          {d.claimContext.regulatoryStatus && (
+            <div class="col-span-2">
+              <p class="text-xs text-slate-400 mb-0.5">Regulatory status</p>
+              <p class="text-slate-600 text-xs">{d.claimContext.regulatoryStatus}</p>
+            </div>
+          )}
+        </div>
+      </div>
+    )}
+
+    <article class="prose max-w-none mb-10">
+      <Content />
+    </article>
+
+    <!-- Sources -->
+    {d.sources.length > 0 && (
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-5">
+        <p class="text-sm font-semibold text-slate-700 mb-3">Sources</p>
+        <ul class="space-y-2">
+          {d.sources.map(source => (
+            <li class="text-sm">
+              <a href={source.url} target="_blank" rel="noopener noreferrer"
+                 class="text-teal-600 hover:underline">
+                {source.label} ↗
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mt-8 text-xs text-amber-800 leading-5">
+      <strong>Legal context:</strong> Even where individual studies show positive effects, this does not automatically permit health-related advertising claims. What is relevant for foods and food supplements are the health claims approved in the EU and their conditions of use.
+    </div>
+
+  </div>
+</BaseLayout>

@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Transparency"
+  description="How MikroScore is funded, who runs it, and how our editorial process works."
+  locale="en"
+  hreflang={{ de: '/transparenz', en: '/en/transparency' }}
+>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/en" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">Transparency</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-slate-900 mb-4">Transparency</h1>
+    <p class="text-slate-600 mb-10 max-w-2xl">
+      We hold supplement brands to high standards of honesty. We hold ourselves to the same.
+    </p>
+
+    <!-- Who we are -->
+    <section class="mb-10">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">Who we are</h2>
+      <div class="bg-white border border-slate-200 rounded-xl p-5 text-sm text-slate-700 space-y-3">
+        <p>
+          MikroScore is operated by Yona Paproth and Dr. Sarah Rahmati, based in Krefeld, Germany.
+        </p>
+        <p>
+          We are not affiliated with any supplement brand, distributor, or manufacturer. We receive no payments from companies whose products we review.
+        </p>
+      </div>
+    </section>
+
+    <!-- How we are funded -->
+    <section class="mb-10">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">How we are funded</h2>
+      <div class="bg-white border border-slate-200 rounded-xl p-5 text-sm text-slate-700 space-y-3">
+        <p>
+          <strong>Currently:</strong> MikroScore is self-funded. There is no advertising, no paywall, and no sponsored content.
+        </p>
+        <p>
+          <strong>Planned:</strong> We may add affiliate links to products in the future (e.g. Amazon.de, iHerb). If and when we do, we will disclose this clearly on every affected page. Affiliate relationships will never influence our ratings or verdicts.
+        </p>
+        <p>
+          We will always separate editorial assessment from commercial relationships. If we add affiliate links, the rating is done first, then the link — never the other way around.
+        </p>
+      </div>
+    </section>
+
+    <!-- Editorial process -->
+    <section class="mb-10">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">Editorial process</h2>
+      <div class="bg-white border border-slate-200 rounded-xl p-5 text-sm text-slate-700 space-y-3">
+        <p>
+          Each ingredient dossier is based on a systematic review of publicly accessible, peer-reviewed literature sourced from PubMed/PMC, NIH ODS Fact Sheets, the EFSA Health Claims Register, and BfR Germany.
+        </p>
+        <p>
+          We do not use press releases, brand-commissioned white papers, or unpublished data as primary sources.
+        </p>
+        <p>
+          Product ratings are based on publicly available product information. We purchase products independently where possible. We do not accept free samples from brands in exchange for reviews.
+        </p>
+        <p>
+          Our evidence level scale is described in detail on the <a href="/en/methodology" class="text-teal-600 hover:underline">Methodology</a> page.
+        </p>
+      </div>
+    </section>
+
+    <!-- Corrections -->
+    <section class="mb-10">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">Corrections</h2>
+      <div class="bg-white border border-slate-200 rounded-xl p-5 text-sm text-slate-700 space-y-3">
+        <p>
+          If you believe a dossier contains a factual error, we want to know. We will review and correct errors promptly. Corrections are noted on the affected page with an updated date.
+        </p>
+        <p>
+          Contact us at the address listed in the <a href="/impressum" class="text-teal-600 hover:underline">Legal Notice</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Analytics & data -->
+    <section class="mb-10">
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">Analytics &amp; data</h2>
+      <div class="bg-teal-50 border border-teal-200 rounded-xl p-5 text-sm text-teal-800 space-y-3">
+        <p>
+          We use <strong>Vercel Analytics</strong> — a privacy-friendly, cookieless analytics service. No personal data is stored, no fingerprinting is used, and no data is shared with third parties.
+        </p>
+        <p>
+          We do not use Google Analytics, Meta Pixel, or any other tracking technology.
+        </p>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

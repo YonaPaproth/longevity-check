@@ -1,18 +1,46 @@
 ---
 import '../styles/global.css';
 import Analytics from '@vercel/analytics/astro';
+import { de, en } from '../i18n/index';
+import type { Locale } from '../i18n/index';
 
 interface Props {
   title: string;
   description?: string;
+  locale?: Locale;
+  /** Optional hreflang alternate URLs (absolute paths, e.g. "/en/ingredients/ashwagandha") */
+  hreflang?: { de?: string; en?: string };
 }
 
-const { title, description = 'Evidenzbasierte Bewertungen von Longevity-Supplements – kostenlos, auf Deutsch.' } = Astro.props;
+const {
+  title,
+  locale = 'de',
+  hreflang,
+} = Astro.props;
+
+const dict = locale === 'en' ? en : de;
+
+const defaultDescription = locale === 'en'
+  ? 'Evidence-based longevity supplement ratings — free, transparent, EU-focused.'
+  : 'Evidenzbasierte Bewertungen von Longevity-Supplements – kostenlos, auf Deutsch.';
+
+const description = Astro.props.description ?? defaultDescription;
+
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+
+const navLinks = [
+  dict.nav.nutrientCheck,
+  dict.nav.ingredients,
+  dict.nav.products,
+  dict.nav.claimsCheck,
+  dict.nav.methodology,
+];
+
+const homeHref = dict.nav.home;
 ---
 
 <!doctype html>
-<html lang="de">
+<html lang={locale}>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,6 +50,15 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
   <meta property="og:title" content={`${title} | MikroScore`} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
+  {hreflang?.de && (
+    <link rel="alternate" hreflang="de" href={new URL(hreflang.de, Astro.site)} />
+  )}
+  {hreflang?.en && (
+    <link rel="alternate" hreflang="en" href={new URL(hreflang.en, Astro.site)} />
+  )}
+  {(hreflang?.de || hreflang?.en) && (
+    <link rel="alternate" hreflang="x-default" href={new URL(hreflang.de ?? hreflang.en ?? '/', Astro.site)} />
+  )}
   <slot name="head" />
 </head>
 <body class="min-h-screen flex flex-col">
@@ -29,19 +66,24 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
   <!-- Header -->
   <header class="border-b border-slate-200 bg-white sticky top-0 z-10">
     <div class="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
-      <a href="/" class="font-bold text-lg text-slate-900 no-underline hover:text-teal-700 shrink-0">
+      <a href={homeHref} class="font-bold text-lg text-slate-900 no-underline hover:text-teal-700 shrink-0">
         Mikro<span class="text-teal-600">Score</span>
       </a>
       <!-- Desktop nav -->
       <nav class="hidden md:flex gap-6 text-sm items-center">
-        <a href="/ernaehrungs-check" class="text-slate-600 hover:text-teal-700 no-underline">Ernährungs-Check</a>
-        <a href="/wirkstoffe" class="text-slate-600 hover:text-teal-700 no-underline">Wirkstoffe</a>
-        <a href="/produkte" class="text-slate-600 hover:text-teal-700 no-underline">Produkte</a>
-        <a href="/claims" class="text-slate-600 hover:text-teal-700 no-underline">Claims-Check</a>
-        <a href="/methodik" class="text-slate-600 hover:text-teal-700 no-underline">Methodik</a>
+        {navLinks.map(link => (
+          <a href={link.href} class="text-slate-600 hover:text-teal-700 no-underline">{link.label}</a>
+        ))}
+        <a
+          href={dict.nav.langSwitch.href}
+          class="ml-2 text-xs font-semibold text-slate-400 hover:text-teal-600 border border-slate-200 rounded px-2 py-0.5 no-underline transition-colors"
+          aria-label={locale === 'en' ? 'Zur deutschen Version' : 'Switch to English'}
+        >
+          {dict.nav.langSwitch.label}
+        </a>
       </nav>
       <!-- Mobile hamburger -->
-      <button id="menu-btn" class="md:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 transition-colors" aria-label="Menü öffnen">
+      <button id="menu-btn" class="md:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 transition-colors" aria-label="Open menu">
         <svg id="icon-open" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
@@ -52,11 +94,15 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     </div>
     <!-- Mobile menu dropdown -->
     <div id="mobile-menu" class="hidden md:hidden border-t border-slate-100 bg-white px-4 py-3 flex flex-col gap-1">
-      <a href="/ernaehrungs-check" class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">Ernährungs-Check</a>
-      <a href="/wirkstoffe" class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">Wirkstoffe</a>
-      <a href="/produkte" class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">Produkte</a>
-      <a href="/claims" class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">Claims-Check</a>
-      <a href="/methodik" class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">Methodik</a>
+      {navLinks.map(link => (
+        <a href={link.href} class="text-sm text-slate-700 hover:text-teal-700 no-underline py-2 px-2 rounded-lg hover:bg-slate-50">{link.label}</a>
+      ))}
+      <a
+        href={dict.nav.langSwitch.href}
+        class="text-sm text-slate-400 hover:text-teal-600 no-underline py-2 px-2 rounded-lg hover:bg-slate-50"
+      >
+        {dict.nav.langSwitch.label} — {locale === 'en' ? 'Deutsche Version' : 'English version'}
+      </a>
     </div>
   </header>
 
@@ -84,17 +130,17 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
       <div class="flex flex-wrap gap-6 justify-between items-start">
         <div>
           <p class="font-medium text-slate-700 mb-1">MikroScore</p>
-          <p>Evidenzbasierte Supplement-Bewertungen. Kostenlos.</p>
+          <p>{dict.footer.tagline}</p>
         </div>
         <div class="flex gap-6">
-          <a href="/claims" class="hover:text-teal-700">Claims-Check</a>
-          <a href="/methodik" class="hover:text-teal-700">Methodik</a>
-          <a href="/impressum" class="hover:text-teal-700">Impressum</a>
-          <a href="/datenschutz" class="hover:text-teal-700">Datenschutz</a>
+          <a href={dict.nav.claimsCheck.href} class="hover:text-teal-700">{dict.footer.claimsCheck}</a>
+          <a href={dict.nav.methodology.href} class="hover:text-teal-700">{dict.footer.methodology}</a>
+          <a href="/impressum" class="hover:text-teal-700">{dict.footer.legalNotice}</a>
+          <a href="/datenschutz" class="hover:text-teal-700">{dict.footer.privacy}</a>
         </div>
       </div>
       <p class="mt-6 text-xs text-slate-400">
-        <strong>Rechtlicher Hinweis:</strong> MikroScore ist ein redaktionelles Informationsangebot. Alle Inhalte ersetzen keine medizinische oder pharmazeutische Beratung und stellen keine Diagnose, Therapieempfehlung oder Heilversprechen dar. Die Bewertungen sind redaktionelle Einschätzungen zu Produktqualität und Transparenz — keine Aussagen über gesundheitliche Wirkungen. Individuelle Ergebnisse können stark variieren. Konsultiere vor der Einnahme von Nahrungsergänzungsmitteln — insbesondere bei Erkrankungen, Medikamenteneinnahme oder in der Schwangerschaft — eine Ärztin oder einen Arzt.
+        <strong>{locale === 'en' ? 'Legal Notice' : 'Rechtlicher Hinweis'}:</strong> {dict.footer.disclaimer}
       </p>
     </div>
   </footer>
