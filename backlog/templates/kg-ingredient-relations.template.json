@@ -1,0 +1,31 @@
+{
+  "entity": "<ingredient-slug>",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "<symptom-id>",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "<mechanism-id>",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-<pmid>",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:<pmid>",
+      "note": "<One-line summary of the study finding in project style.>"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "entity": "<claim-entity-id>",
+  "relations": [
+    {
+      "relation": "bezieht_sich_auf",
+      "target": "<ingredient-slug>",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "<mechanism-id>",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "zielt_auf",
+      "target": "<symptom-id>",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "verwandter_wirkstoff",
+      "target": "<related-ingredient-id>",
+      "direction": "outgoing",
+      "confidence": 0.5
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

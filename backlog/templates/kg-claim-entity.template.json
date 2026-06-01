@@ -1,0 +1,14 @@
+{
+  "id": "<claim-entity-id>",
+  "type": "claim",
+  "name": "<DE claim display name>",
+  "ingredient": "<ingredient-slug>",
+  "summary": "<Short internal summary>",
+  "claimEvidence": {
+    "animal": "begrenzt",
+    "human": "begrenzt"
+  },
+  "regulatory": {
+    "efsa": "efsa-nicht-zugelassen"
+  }
+}

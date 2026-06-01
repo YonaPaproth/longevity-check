@@ -1,0 +1,15 @@
+{
+  "id": "<ingredient-slug>",
+  "type": "ingredient",
+  "name": "<DE display name>",
+  "summary": "<Short internal summary in DE or neutral project style>",
+  "aliases": [
+    "<Alias 1>",
+    "<Alias 2>"
+  ],
+  "category": "other",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 30
+}
