@@ -42,15 +42,15 @@ const d = entry.data;
       <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
     </div>
 
-    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-8 text-xs text-amber-800 leading-5">
-      <strong>Redaktioneller Hinweis:</strong> Diese Seite bewertet eine verbreitete Aussage redaktionell. Sie macht keine zulässigen Health Claims im Sinne der VO (EG) Nr. 1924/2006 und ersetzt keine medizinische Beratung. Aussagen zu Studien, Biomarkern oder Mechanismen sind als Einordnung der Evidenz zu verstehen, nicht als Empfehlung zur Behandlung, Linderung oder Vorbeugung von Krankheiten.
-    </div>
-
     <ClaimContextModule claimSlug={d.slug} ingredientSlug={d.ingredient} claimContext={d.claimContext} />
 
     <article class="prose max-w-none mb-10">
       <Content />
     </article>
+
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-8 text-xs text-amber-800 leading-5">
+      <strong>Redaktioneller Hinweis:</strong> Diese Seite bewertet eine verbreitete Aussage redaktionell. Sie macht keine zulässigen Health Claims im Sinne der VO (EG) Nr. 1924/2006 und ersetzt keine medizinische Beratung. Aussagen zu Studien, Biomarkern oder Mechanismen sind als Einordnung der Evidenz zu verstehen, nicht als Empfehlung zur Behandlung, Linderung oder Vorbeugung von Krankheiten.
+    </div>
 
     <!-- Sources -->
     {d.sources.length > 0 && (
