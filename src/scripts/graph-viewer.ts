@@ -72,15 +72,25 @@ function applyFilters() {
     return;
   }
 
-  const visibleNodes = cy.nodes().filter((n) => {
+  const directMatches = cy.nodes().filter((n) => {
     const matchesSearch = !hasSearch || String(n.data('label')).toLowerCase().includes(searchQuery);
-    const matchesType   = !hasTypeFilter || activeTypes.has(String(n.data('type')));
+    const matchesType = !hasTypeFilter || activeTypes.has(String(n.data('type')));
     return matchesSearch && matchesType;
   });
 
+  let visibleNodes = directMatches;
+
+  // For search, keep the immediate neighborhood visible so users can see
+  // connected ingredients/claims/mechanisms instead of an isolated hit.
+  if (hasSearch && directMatches.length > 0) {
+    visibleNodes = directMatches.union(directMatches.neighborhood().nodes());
+  }
+
   cy.nodes().forEach((n) => {
-    if (visibleNodes.has(n)) {
+    if (directMatches.has(n)) {
       n.removeClass('ks-hidden ks-faded').addClass('ks-highlighted');
+    } else if (visibleNodes.has(n)) {
+      n.removeClass('ks-hidden ks-highlighted').addClass('ks-faded');
     } else {
       n.removeClass('ks-highlighted ks-faded').addClass('ks-hidden');
     }
@@ -90,7 +100,12 @@ function applyFilters() {
     const srcVisible = !e.source().hasClass('ks-hidden');
     const tgtVisible = !e.target().hasClass('ks-hidden');
     if (srcVisible && tgtVisible) {
-      e.removeClass('ks-hidden ks-faded');
+      e.removeClass('ks-hidden');
+      if (directMatches.has(e.source()) || directMatches.has(e.target())) {
+        e.removeClass('ks-faded');
+      } else {
+        e.addClass('ks-faded');
+      }
     } else {
       e.removeClass('ks-faded').addClass('ks-hidden');
     }
