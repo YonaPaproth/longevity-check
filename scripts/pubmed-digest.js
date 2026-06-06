@@ -42,6 +42,60 @@ const INGREDIENTS = [
 
 const DAYS_BACK = 8;
 const DRAFT_DIR = path.join(__dirname, '..', 'backlog', 'research-review-drafts');
+const MAX_PUBMED = 3;
+const MAX_CT = 2;
+
+const STRONG_PUBMED_PATTERNS = [
+  /meta-analysis/i,
+  /systematic review/i,
+  /umbrella review/i,
+  /randomized/i,
+  /randomised/i,
+  /placebo/i,
+  /trial/i,
+  /supplementation/i,
+  /human/i,
+  /adults?/i,
+];
+
+const WEAK_PUBMED_PATTERNS = [
+  /mice/i,
+  /mouse/i,
+  /murine/i,
+  /rat/i,
+  /zebrafish/i,
+  /drosophila/i,
+  /c\.? elegans/i,
+  /nanoparticle/i,
+  /in vitro/i,
+  /cell line/i,
+  /biosynthesis/i,
+  /transition-state/i,
+  /cultivars?/i,
+  /wound healing/i,
+];
+
+const STRONG_CT_PATTERNS = [
+  /supplement/i,
+  /oral/i,
+  /randomized/i,
+  /randomised/i,
+  /double blind/i,
+  /placebo/i,
+  /adults?/i,
+  /healthy/i,
+  /patients?/i,
+];
+
+const WEAK_CT_PATTERNS = [
+  /validation/i,
+  /nail and hair/i,
+  /surgery/i,
+  /labor induction/i,
+  /cardiac amyloidosis/i,
+  /moderate to severe asthma/i,
+  /extremely preterm/i,
+];
 
 function getDateRange() {
   const to = new Date();
@@ -153,6 +207,37 @@ function writeDraft(results, fromIso, toIso) {
   const filePath = path.join(DRAFT_DIR, `${toIso}.mdx`);
   fs.writeFileSync(filePath, buildDraft(results, fromIso, toIso), 'utf8');
   return filePath;
+}
+
+function scoreByPatterns(text, positive, negative) {
+  let score = 0;
+  for (const pattern of positive) if (pattern.test(text)) score += 2;
+  for (const pattern of negative) if (pattern.test(text)) score -= 3;
+  return score;
+}
+
+function filterPubMedRecords(records) {
+  return records
+    .map(r => ({
+      ...r,
+      _score: scoreByPatterns(`${r.title} ${r.journal} ${r.date}`, STRONG_PUBMED_PATTERNS, WEAK_PUBMED_PATTERNS),
+    }))
+    .filter(r => r._score >= 1)
+    .sort((a, b) => b._score - a._score)
+    .slice(0, MAX_PUBMED)
+    .map(({ _score, ...rest }) => rest);
+}
+
+function filterClinicalTrials(records) {
+  return records
+    .map(r => ({
+      ...r,
+      _score: scoreByPatterns(`${r.title} ${r.status} ${r.phase} ${r.startDate}`, STRONG_CT_PATTERNS, WEAK_CT_PATTERNS),
+    }))
+    .filter(r => r._score >= 1)
+    .sort((a, b) => b._score - a._score)
+    .slice(0, MAX_CT)
+    .map(({ _score, ...rest }) => rest);
 }
 
 async function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -277,7 +362,7 @@ async function main() {
     // PubMed
     try {
       const ids = await searchPubMed(ing.pubmed, from, to);
-      if (ids.length) entry.pubmed = await fetchPubMedTitles(ids);
+      if (ids.length) entry.pubmed = filterPubMedRecords(await fetchPubMedTitles(ids));
       await delay(400); // respect rate limit
     } catch (e) { console.error(`PubMed/${ing.slug}: ${e.message}`); }
 
@@ -288,7 +373,7 @@ async function main() {
 
     // ClinicalTrials.gov
     try {
-      entry.ct = await searchClinicalTrials(ing.ct, fromIso);
+      entry.ct = filterClinicalTrials(await searchClinicalTrials(ing.ct, fromIso));
       await delay(300);
     } catch (e) { console.error(`CT/${ing.slug}: ${e.message}`); }
 
