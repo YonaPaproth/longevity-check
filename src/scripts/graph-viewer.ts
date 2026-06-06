@@ -2,6 +2,11 @@
  * Client-side knowledge graph viewer using Cytoscape.js.
  * Reads locale from the `data-locale` attribute of `#cy-container`.
  * Fetches graph data from /data/graph.json (DE) or /data/graph.en.json (EN).
+ *
+ * Layout modes:
+ *   map        – COSE organic layout (default)
+ *   structured – Preset positions with Y lanes by node type and X buckets by
+ *                regulatory/evidence status inferred from edges.
  */
 
 import cytoscape from 'cytoscape';
@@ -42,11 +47,38 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
   },
 };
 
-// ── Filter state ──────────────────────────────────────────────────────────────
+// ── Structured layout constants ───────────────────────────────────────────────
 
-let searchQuery = '';
-let activeTypes = new Set<string>();
+/** Y position (as fraction of container height) for each node type lane. */
+const STRUCTURED_LANES: Array<{ type: string; yFrac: number }> = [
+  { type: 'regulatory', yFrac: 0.06 },
+  { type: 'claim',      yFrac: 0.22 },
+  { type: 'ingredient', yFrac: 0.44 },
+  { type: 'mechanism',  yFrac: 0.63 },
+  { type: 'biomarker',  yFrac: 0.78 },
+  { type: 'symptom',    yFrac: 0.92 },
+];
+
+/** X range [min, max] as fraction of width for each bucket.
+ *  Bucket 0 = strong/approved (left), 1 = unknown/mixed (centre), 2 = not-approved/weak (right). */
+const BUCKET_X_RANGE: [[number, number], [number, number], [number, number]] = [
+  [0.04, 0.36],
+  [0.40, 0.60],
+  [0.64, 0.96],
+];
+
+// ── Filter + layout state ─────────────────────────────────────────────────────
+
+let searchQuery  = '';
+let activeTypes  = new Set<string>();
+let layoutMode: 'map' | 'structured' = 'map';
 let cy: Core | null = null;
+
+// Cached graph data (needed to re-compute structured positions after filter)
+let cachedNodes: Array<{ id: string; type: string; label: string; path?: string }> = [];
+let cachedEdges: Array<{ source: string; target: string; relation: string; confidence: number }> = [];
+
+// ── Fit helpers ───────────────────────────────────────────────────────────────
 
 function fitElements(target = cy?.elements()) {
   if (!cy || !target || target.length === 0) return;
@@ -59,10 +91,12 @@ function fitElements(target = cy?.elements()) {
   }
 }
 
+// ── Filter logic ──────────────────────────────────────────────────────────────
+
 function applyFilters() {
   if (!cy) return;
 
-  const hasSearch = searchQuery.length > 0;
+  const hasSearch     = searchQuery.length > 0;
   const hasTypeFilter = activeTypes.size > 0;
 
   if (!hasSearch && !hasTypeFilter) {
@@ -74,14 +108,12 @@ function applyFilters() {
 
   const directMatches = cy.nodes().filter((n) => {
     const matchesSearch = !hasSearch || String(n.data('label')).toLowerCase().includes(searchQuery);
-    const matchesType = !hasTypeFilter || activeTypes.has(String(n.data('type')));
+    const matchesType   = !hasTypeFilter || activeTypes.has(String(n.data('type')));
     return matchesSearch && matchesType;
   });
 
   let visibleNodes = directMatches;
 
-  // For search, keep the immediate neighborhood visible so users can see
-  // connected ingredients/claims/mechanisms instead of an isolated hit.
   if (hasSearch && directMatches.length > 0) {
     visibleNodes = directMatches.union(directMatches.neighborhood().nodes());
   }
@@ -111,7 +143,9 @@ function applyFilters() {
     }
   });
 
-  const visibleElements = visibleNodes.union(visibleNodes.connectedEdges().filter((e) => !e.hasClass('ks-hidden')));
+  const visibleElements = visibleNodes.union(
+    visibleNodes.connectedEdges().filter((e) => !e.hasClass('ks-hidden')),
+  );
   fitElements(visibleElements);
 }
 
@@ -121,10 +155,10 @@ function showNodeDetail(node: NodeSingular, locale: string) {
   const panel = document.getElementById('ks-node-detail');
   if (!panel) return;
 
-  const labels = TYPE_LABELS[locale] ?? TYPE_LABELS.de;
-  const data = node.data();
+  const labels   = TYPE_LABELS[locale] ?? TYPE_LABELS.de;
+  const data     = node.data();
   const typeLabel = labels[data.type as string] ?? data.type;
-  const color = ENTITY_COLORS[data.type as string] ?? '#94a3b8';
+  const color     = ENTITY_COLORS[data.type as string] ?? '#94a3b8';
 
   const nameEl   = panel.querySelector<HTMLElement>('[data-ks="name"]');
   const typeEl   = panel.querySelector<HTMLElement>('[data-ks="type"]');
@@ -154,6 +188,274 @@ function hideNodeDetail() {
   document.getElementById('ks-node-detail')?.classList.add('hidden');
 }
 
+// ── Structured layout helpers ─────────────────────────────────────────────────
+
+/** Simple deterministic hash of a string → non-negative int */
+function simpleHash(str: string): number {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) {
+    h = (h * 31 + str.charCodeAt(i)) & 0x7fffffff;
+  }
+  return h;
+}
+
+/**
+ * Assign every node an X bucket (0=approved/strong, 1=mixed, 2=not-approved/weak)
+ * using the following heuristic:
+ *
+ *  1. Regulatory nodes: by node id substring
+ *     – contains "nicht" / "not" / "reject" / "ablehnt"  → bucket 2
+ *     – contains "zulassung" / "zugelas" / "approved" / "authoris"  → bucket 0
+ *     – otherwise → bucket 1
+ *
+ *  2. Ingredient / Claim nodes: average bucket of all regulatory neighbours
+ *     (via "hat_regulatorischen_status" edges). No regulatory neighbour → bucket 1.
+ *
+ *  3. Mechanism / Biomarker / Symptom: average bucket of ALL neighbours
+ *     (after the above passes have set their buckets). Fallback → bucket 1.
+ */
+function assignXBuckets(
+  nodes: Array<{ id: string; type: string }>,
+  edges: Array<{ source: string; target: string; relation: string }>,
+): Map<string, number> {
+  const buckets = new Map<string, number>();
+
+  // Pass 1 – regulatory
+  for (const node of nodes) {
+    if (node.type !== 'regulatory') continue;
+    const id = node.id.toLowerCase();
+    if (id.includes('nicht') || id.includes('-not-') || id.includes('reject') || id.includes('ablehnt')) {
+      buckets.set(node.id, 2);
+    } else if (
+      id.includes('zugelas') || id.includes('zulassung') ||
+      id.includes('approved') || id.includes('authoris')
+    ) {
+      buckets.set(node.id, 0);
+    } else {
+      buckets.set(node.id, 1);
+    }
+  }
+
+  const regEdges = edges.filter(e => e.relation === 'hat_regulatorischen_status');
+
+  // Pass 2 – ingredient / claim
+  for (const node of nodes) {
+    if (node.type !== 'ingredient' && node.type !== 'claim') continue;
+    const connBuckets = regEdges
+      .filter(e => e.source === node.id)
+      .map(e => buckets.get(e.target))
+      .filter((b): b is number => b !== undefined);
+
+    if (connBuckets.length === 0) {
+      buckets.set(node.id, 1);
+    } else {
+      const avg = connBuckets.reduce((a, b) => a + b, 0) / connBuckets.length;
+      buckets.set(node.id, avg < 0.7 ? 0 : avg > 1.3 ? 2 : 1);
+    }
+  }
+
+  // Pass 3 – mechanism / biomarker / symptom (use already-resolved neighbour buckets)
+  for (const node of nodes) {
+    if (!['mechanism', 'biomarker', 'symptom'].includes(node.type)) continue;
+    const neighborBuckets = edges
+      .filter(e => e.source === node.id || e.target === node.id)
+      .map(e => {
+        const neighborId = e.source === node.id ? e.target : e.source;
+        return buckets.get(neighborId);
+      })
+      .filter((b): b is number => b !== undefined);
+
+    if (neighborBuckets.length === 0) {
+      buckets.set(node.id, 1);
+    } else {
+      const avg = neighborBuckets.reduce((a, b) => a + b, 0) / neighborBuckets.length;
+      buckets.set(node.id, avg < 0.7 ? 0 : avg > 1.3 ? 2 : 1);
+    }
+  }
+
+  return buckets;
+}
+
+/**
+ * Compute preset {x, y} positions for all nodes for the structured layout.
+ * Nodes are placed in Y-lanes by type and spread horizontally within their
+ * X bucket.  A small deterministic vertical jitter (±18px) prevents exact
+ * overlaps in crowded lanes.
+ */
+function computeStructuredPositions(
+  nodes: Array<{ id: string; type: string }>,
+  edges: Array<{ source: string; target: string; relation: string }>,
+  containerWidth: number,
+  containerHeight: number,
+): Map<string, { x: number; y: number }> {
+  const buckets     = assignXBuckets(nodes, edges);
+  const laneYByType = new Map(STRUCTURED_LANES.map(l => [l.type, l.yFrac]));
+
+  // Group nodes by (type, bucket) for even horizontal spread
+  const groups = new Map<string, string[]>();
+  for (const node of nodes) {
+    const bucket = buckets.get(node.id) ?? 1;
+    const key    = `${node.type}::${bucket}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key)!.push(node.id);
+  }
+
+  const positions = new Map<string, { x: number; y: number }>();
+
+  for (const [key, ids] of groups) {
+    const [typeStr, bucketStr] = key.split('::');
+    const bucket = Math.min(2, Math.max(0, parseInt(bucketStr, 10))) as 0 | 1 | 2;
+    const [xMin, xMax] = BUCKET_X_RANGE[bucket];
+    const yFrac         = laneYByType.get(typeStr) ?? 0.5;
+
+    // Sort alphabetically for stable, repeatable ordering across modes
+    ids.sort();
+
+    for (let i = 0; i < ids.length; i++) {
+      const xFrac = ids.length === 1
+        ? (xMin + xMax) / 2
+        : xMin + (xMax - xMin) * (i / (ids.length - 1));
+
+      // Deterministic vertical jitter so nodes in the same lane don't overlap
+      const yJitter = ((simpleHash(ids[i]) % 37) - 18); // ±18 px
+
+      positions.set(ids[i], {
+        x: xFrac * containerWidth,
+        y: yFrac * containerHeight + yJitter,
+      });
+    }
+  }
+
+  return positions;
+}
+
+// ── Lane label overlay ────────────────────────────────────────────────────────
+
+function buildLaneOverlay(
+  container: HTMLElement,
+  locale: string,
+  labels: Record<string, string>,
+): HTMLElement {
+  const old = container.querySelector('#ks-lane-overlay');
+  if (old) old.remove();
+
+  const overlay = document.createElement('div');
+  overlay.id        = 'ks-lane-overlay';
+  overlay.className = 'absolute inset-0 pointer-events-none hidden z-10';
+
+  // Y lane labels on the left edge
+  for (const { type, yFrac } of STRUCTURED_LANES) {
+    const label = labels[type] ?? type;
+    const div   = document.createElement('div');
+    div.className = 'absolute left-2 text-[10px] font-semibold tracking-wide uppercase opacity-40 -translate-y-1/2 whitespace-nowrap';
+    div.style.cssText = `top:${yFrac * 100}%; color:${ENTITY_COLORS[type] ?? '#94a3b8'}`;
+    div.textContent   = label;
+    overlay.appendChild(div);
+  }
+
+  // Faint horizontal separator lines at each lane boundary
+  const laneMidpoints = STRUCTURED_LANES.map(l => l.yFrac);
+  for (let i = 0; i < laneMidpoints.length - 1; i++) {
+    const lineY = (laneMidpoints[i] + laneMidpoints[i + 1]) / 2;
+    const line  = document.createElement('div');
+    line.className = 'absolute inset-x-0 h-px opacity-10 bg-slate-400';
+    line.style.top = `${lineY * 100}%`;
+    overlay.appendChild(line);
+  }
+
+  // X-axis bucket headers at the very top
+  const xHeader = document.createElement('div');
+  xHeader.className = 'absolute top-1 left-16 right-2 flex justify-between text-[9px] font-medium tracking-wide uppercase opacity-30 text-slate-300';
+  const leftLabel  = locale === 'en' ? 'EFSA approved'     : 'EFSA zugelassen';
+  const midLabel   = locale === 'en' ? 'Mixed / unknown'   : 'Gemischt';
+  const rightLabel = locale === 'en' ? 'EFSA not approved' : 'EFSA abgelehnt';
+  xHeader.innerHTML = `<span>${leftLabel}</span><span>${midLabel}</span><span>${rightLabel}</span>`;
+  overlay.appendChild(xHeader);
+
+  container.appendChild(overlay);
+  return overlay;
+}
+
+// ── Layout mode switching ─────────────────────────────────────────────────────
+
+function applyStructuredLayout() {
+  if (!cy) return;
+
+  const container = document.getElementById('ks-cy-container');
+  if (!container) return;
+
+  const w = container.offsetWidth  || 800;
+  const h = container.offsetHeight || 600;
+
+  const positions = computeStructuredPositions(cachedNodes, cachedEdges, w, h);
+
+  const presetLayout = cy.layout({
+    name: 'preset',
+    positions: (node) => {
+      const pos = positions.get(node.id());
+      return pos ?? { x: w / 2, y: h / 2 };
+    },
+    fit:     true,
+    padding: 40,
+  } as Parameters<Core['layout']>[0]);
+
+  presetLayout.run();
+
+  // Show lane overlay
+  const overlay = container.querySelector<HTMLElement>('#ks-lane-overlay');
+  if (overlay) overlay.classList.remove('hidden');
+}
+
+function applyMapLayout() {
+  if (!cy) return;
+
+  // Hide lane overlay
+  const container = document.getElementById('ks-cy-container');
+  const overlay   = container?.querySelector<HTMLElement>('#ks-lane-overlay');
+  if (overlay) overlay.classList.add('hidden');
+
+  cy.layout({
+    name:            'cose',
+    animate:         false,
+    fit:             true,
+    padding:         64,
+    randomize:       true,
+    nodeRepulsion:   (_node: unknown) => 180000,
+    idealEdgeLength: (_edge: unknown) => 90,
+    edgeElasticity:  (_edge: unknown) => 80,
+    nodeOverlap:     8,
+    gravity:         1,
+    numIter:         900,
+    componentSpacing: 120,
+  } as Parameters<Core['layout']>[0]).run();
+}
+
+function setLayoutMode(mode: 'map' | 'structured', locale: string) {
+  layoutMode = mode;
+
+  const mapBtn        = document.getElementById('ks-mode-map');
+  const structuredBtn = document.getElementById('ks-mode-structured');
+
+  const activeClass   = 'bg-teal-600 text-white border-teal-600';
+  const inactiveClass = 'bg-white text-slate-600 border-slate-300 hover:bg-slate-50';
+
+  if (mapBtn && structuredBtn) {
+    if (mode === 'map') {
+      mapBtn.className        = `px-3 py-2 text-xs font-medium border-y border-l rounded-l-lg transition-colors ${activeClass}`;
+      structuredBtn.className = `px-3 py-2 text-xs font-medium border rounded-r-lg transition-colors ${inactiveClass}`;
+    } else {
+      mapBtn.className        = `px-3 py-2 text-xs font-medium border-y border-l rounded-l-lg transition-colors ${inactiveClass}`;
+      structuredBtn.className = `px-3 py-2 text-xs font-medium border rounded-r-lg transition-colors ${activeClass}`;
+    }
+  }
+
+  if (mode === 'structured') {
+    applyStructuredLayout();
+  } else {
+    applyMapLayout();
+  }
+}
+
 // ── Main init ─────────────────────────────────────────────────────────────────
 
 async function initGraph() {
@@ -168,13 +470,16 @@ async function initGraph() {
   const errorEl   = document.getElementById('ks-error');
 
   // ── Fetch graph data ─────────────────────────────────────────────────────
-  let graphData: { nodes: Array<{ id: string; type: string; label: string; path?: string }>; edges: Array<{ source: string; target: string; relation: string; confidence: number }> };
+  let graphData: {
+    nodes: Array<{ id: string; type: string; label: string; path?: string }>;
+    edges: Array<{ source: string; target: string; relation: string; confidence: number }>;
+  };
 
   try {
     const res = await fetch(endpoint);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     graphData = await res.json();
-  } catch (err) {
+  } catch {
     if (loadingEl) loadingEl.classList.add('hidden');
     if (errorEl)   errorEl.classList.remove('hidden');
     return;
@@ -191,6 +496,10 @@ async function initGraph() {
     }
     return;
   }
+
+  // Cache data for structured layout re-computation
+  cachedNodes = graphData.nodes;
+  cachedEdges = graphData.edges;
 
   // ── Build Cytoscape elements ──────────────────────────────────────────────
   const elements = [
@@ -215,6 +524,9 @@ async function initGraph() {
     })),
   ];
 
+  // ── Build lane overlay (hidden initially) ─────────────────────────────────
+  buildLaneOverlay(container, locale, labels);
+
   // ── Initialise Cytoscape ──────────────────────────────────────────────────
   cy = cytoscape({
     container,
@@ -223,36 +535,36 @@ async function initGraph() {
       {
         selector: 'node',
         style: {
-          'background-color':  'data(color)',
-          'label':             '',
-          'width':             '18px',
-          'height':            '18px',
-          'border-width':      1.5,
-          'border-color':      'data(color)',
-          'border-opacity':    0.35,
-          'opacity':           0.95,
+          'background-color': 'data(color)',
+          'label':            '',
+          'width':            '18px',
+          'height':           '18px',
+          'border-width':     1.5,
+          'border-color':     'data(color)',
+          'border-opacity':   0.35,
+          'opacity':          0.95,
         },
       },
       {
         selector: 'node.ks-highlighted',
         style: {
-          'label':             'data(label)',
-          'color':             '#e2e8f0',
-          'font-size':         '10px',
-          'font-weight':       '500',
-          'text-valign':       'bottom',
-          'text-halign':       'center',
-          'text-wrap':         'wrap',
-          'text-max-width':    '120px',
-          'text-margin-y':     '-10px',
+          'label':              'data(label)',
+          'color':              '#e2e8f0',
+          'font-size':          '10px',
+          'font-weight':        '500',
+          'text-valign':        'bottom',
+          'text-halign':        'center',
+          'text-wrap':          'wrap',
+          'text-max-width':     '120px',
+          'text-margin-y':      '-10px',
           'text-outline-width': 2,
           'text-outline-color': '#0f172a',
-          'border-opacity':    1,
-          'border-color':      '#ffffff',
-          'border-width':      3,
-          'width':             '24px',
-          'height':            '24px',
-          'z-index':           10,
+          'border-opacity':     1,
+          'border-color':       '#ffffff',
+          'border-width':       3,
+          'width':              '24px',
+          'height':             '24px',
+          'z-index':            10,
         },
       },
       {
@@ -266,16 +578,16 @@ async function initGraph() {
       {
         selector: 'node:selected',
         style: {
-          'label':             'data(label)',
-          'color':             '#ffffff',
+          'label':              'data(label)',
+          'color':              '#ffffff',
           'text-outline-width': 2,
           'text-outline-color': '#0f172a',
-          'border-opacity':    1,
-          'border-color':      '#ffffff',
-          'border-width':      3,
-          'width':             '26px',
-          'height':            '26px',
-          'z-index':           12,
+          'border-opacity':     1,
+          'border-color':       '#ffffff',
+          'border-width':       3,
+          'width':              '26px',
+          'height':             '26px',
+          'z-index':            12,
         },
       },
       {
@@ -297,20 +609,18 @@ async function initGraph() {
         style: { display: 'none' },
       },
     ],
-    // Now that the renderer mounts into a stable-height container, COSE gives
-    // a much more readable "obsidian-like" spread than the compressed fallback.
     layout: {
-      name: 'cose',
-      animate: false,
-      fit: true,
-      padding: 64,
-      randomize: true,
-      nodeRepulsion: (_node: unknown) => 180000,
+      name:            'cose',
+      animate:         false,
+      fit:             true,
+      padding:         64,
+      randomize:       true,
+      nodeRepulsion:   (_node: unknown) => 180000,
       idealEdgeLength: (_edge: unknown) => 90,
-      edgeElasticity: (_edge: unknown) => 80,
-      nodeOverlap: 8,
-      gravity: 1,
-      numIter: 900,
+      edgeElasticity:  (_edge: unknown) => 80,
+      nodeOverlap:     8,
+      gravity:         1,
+      numIter:         900,
       componentSpacing: 120,
     } as Parameters<Core['layout']>[0],
     minZoom:          0.08,
@@ -323,22 +633,15 @@ async function initGraph() {
     fitElements(cy.elements());
   };
 
-  // Cytoscape can occasionally initialise before the mount has a stable size,
-  // which leaves the canvas visually blank even though the data loaded.
-  // Re-fit after the next paint, after load, and on container resize.
   requestAnimationFrame(() => requestAnimationFrame(fitGraph));
   window.addEventListener('load', fitGraph, { once: true });
 
   if (typeof ResizeObserver !== 'undefined') {
-    const observer = new ResizeObserver(() => {
-      fitGraph();
-    });
+    const observer = new ResizeObserver(() => { fitGraph(); });
     observer.observe(container);
   }
 
-  cy.one('layoutstop', () => {
-    fitGraph();
-  });
+  cy.one('layoutstop', () => { fitGraph(); });
 
   // ── Node click: show neighbourhood ───────────────────────────────────────
   cy.on('tap', 'node', evt => {
@@ -373,14 +676,12 @@ async function initGraph() {
 
   // ── Type filter chips ────────────────────────────────────────────────────
   const typesInGraph = new Set(graphData.nodes.map(n => n.type));
-  const filterRow = document.getElementById('ks-type-filters');
+  const filterRow    = document.getElementById('ks-type-filters');
 
   if (filterRow) {
-    // "All" chip
     const allChip = makeFilterChip(labels.all ?? 'All', 'all', true);
     filterRow.appendChild(allChip);
 
-    // One chip per entity type present in the graph
     const typeOrder = ['ingredient', 'claim', 'mechanism', 'biomarker', 'symptom', 'regulatory'];
     for (const type of typeOrder) {
       if (!typesInGraph.has(type)) continue;
@@ -401,7 +702,6 @@ async function initGraph() {
           syncChipStyle(b);
         });
       } else {
-        // Toggle
         if (activeTypes.has(type)) {
           activeTypes.delete(type);
           btn.dataset.active = 'false';
@@ -409,7 +709,6 @@ async function initGraph() {
           activeTypes.add(type);
           btn.dataset.active = 'true';
         }
-        // Update "All" chip
         const allBtn = filterRow.querySelector<HTMLButtonElement>('[data-type="all"]');
         if (allBtn) {
           allBtn.dataset.active = activeTypes.size === 0 ? 'true' : 'false';
@@ -426,15 +725,24 @@ async function initGraph() {
     cy!.fit(undefined, 40);
   });
 
+  // ── Layout mode toggle ───────────────────────────────────────────────────
+  document.getElementById('ks-mode-map')?.addEventListener('click', () => {
+    if (layoutMode !== 'map') setLayoutMode('map', locale);
+  });
+
+  document.getElementById('ks-mode-structured')?.addEventListener('click', () => {
+    if (layoutMode !== 'structured') setLayoutMode('structured', locale);
+  });
+
+  // Initialise button styles (map is default active)
+  setLayoutMode('map', locale);
+
   // ── Node count display ───────────────────────────────────────────────────
   const countEl = document.getElementById('ks-node-count');
-  if (countEl) {
-    countEl.textContent = String(graphData.nodes.length);
-  }
+  if (countEl) countEl.textContent = String(graphData.nodes.length);
+
   const edgeCountEl = document.getElementById('ks-edge-count');
-  if (edgeCountEl) {
-    edgeCountEl.textContent = String(graphData.edges.length);
-  }
+  if (edgeCountEl) edgeCountEl.textContent = String(graphData.edges.length);
 }
 
 // ── Helper: filter chip DOM builder ──────────────────────────────────────────
@@ -444,11 +752,7 @@ function makeFilterChip(label: string, type: string, active: boolean, color?: st
   btn.dataset.type   = type;
   btn.dataset.active = active ? 'true' : 'false';
   btn.textContent    = label;
-
-  if (color) {
-    btn.style.setProperty('--chip-color', color);
-  }
-
+  if (color) btn.style.setProperty('--chip-color', color);
   syncChipStyle(btn);
   return btn;
 }

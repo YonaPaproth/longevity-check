@@ -50,6 +50,20 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         </svg>
         Fit view
       </button>
+
+      <!-- Layout mode toggle -->
+      <div class="flex rounded-lg overflow-hidden whitespace-nowrap" role="group" aria-label="Select layout">
+        <button
+          id="ks-mode-map"
+          title="Organic graph layout"
+          class="px-3 py-2 text-xs font-medium border-y border-l rounded-l-lg transition-colors"
+        >Map</button>
+        <button
+          id="ks-mode-structured"
+          title="Structured layout by regulatory status and node type"
+          class="px-3 py-2 text-xs font-medium border rounded-r-lg transition-colors"
+        >Structured</button>
+      </div>
     </div>
 
     <!-- Type filter chips (populated by JS) -->
