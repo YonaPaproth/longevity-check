@@ -17,6 +17,7 @@
     "@tailwindcss/vite": "^4.3.0",
     "@vercel/analytics": "^2.0.1",
     "astro": "^6.3.3",
+    "cytoscape": "^3.30.4",
     "tailwindcss": "^4.3.0",
     "zod": "^4.4.3"
   },

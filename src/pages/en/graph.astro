@@ -1,0 +1,137 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Knowledge Graph"
+  description="Explore connections between ingredients, mechanisms, biomarkers, symptoms, and regulatory assessments in the MikroScore knowledge graph."
+  locale="en"
+  hreflang={{ de: '/graph', en: '/en/graph' }}
+>
+  <div class="max-w-7xl mx-auto px-4 py-6">
+
+    <!-- Header -->
+    <div class="mb-5">
+      <h1 class="text-2xl font-bold text-slate-900">Knowledge Graph</h1>
+      <p class="text-sm text-slate-500 mt-1">
+        Connections between
+        <span class="font-medium text-teal-700">ingredients</span>,
+        <span class="font-medium text-blue-600">mechanisms</span>,
+        <span class="font-medium text-violet-600">biomarkers</span>,
+        <span class="font-medium text-orange-500">symptoms</span>, and
+        <span class="font-medium text-amber-600">regulatory</span> assessments.
+        Click a node to see details.
+      </p>
+    </div>
+
+    <!-- Controls -->
+    <div class="flex flex-col sm:flex-row gap-3 mb-4">
+      <!-- Search -->
+      <div class="relative flex-1 max-w-xs">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
+        </svg>
+        <input
+          id="ks-search"
+          type="search"
+          placeholder="Search…"
+          class="w-full pl-9 pr-3 py-2 text-sm border border-slate-300 rounded-lg bg-white text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
+        />
+      </div>
+
+      <!-- Fit button -->
+      <button
+        id="ks-fit"
+        class="flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-slate-600 border border-slate-300 rounded-lg bg-white hover:bg-slate-50 transition-colors whitespace-nowrap"
+        title="Fit graph to view"
+      >
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4"/>
+        </svg>
+        Fit view
+      </button>
+    </div>
+
+    <!-- Type filter chips (populated by JS) -->
+    <div id="ks-type-filters" class="flex flex-wrap gap-2 mb-4"></div>
+
+    <!-- Stats -->
+    <p class="text-xs text-slate-400 mb-3">
+      <span id="ks-node-count">–</span> nodes ·
+      <span id="ks-edge-count">–</span> connections
+    </p>
+
+    <!-- Graph + detail layout -->
+    <div class="flex flex-col lg:flex-row gap-4">
+
+      <!-- Cytoscape canvas -->
+      <div
+        id="ks-cy-container"
+        data-locale="en"
+        class="relative flex-1 rounded-xl border border-slate-200 bg-slate-900 overflow-hidden"
+        style="height: calc(100vh - 320px); min-height: 450px;"
+      >
+        <!-- Loading indicator -->
+        <div id="ks-loading" class="absolute inset-0 flex items-center justify-center text-slate-400 text-sm">
+          <svg class="animate-spin w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
+          </svg>
+          Loading graph data…
+        </div>
+        <!-- Error message -->
+        <div id="ks-error" class="hidden absolute inset-0 flex items-center justify-center text-slate-400 text-sm px-6 text-center">
+          Failed to load graph data.
+        </div>
+        <!-- Cytoscape mount point -->
+        <div id="ks-cy" class="absolute inset-0"></div>
+      </div>
+
+      <!-- Node detail panel -->
+      <div
+        id="ks-node-detail"
+        class="hidden lg:w-64 shrink-0 rounded-xl border border-slate-200 bg-white p-5 self-start"
+      >
+        <div class="flex items-center gap-2 mb-3">
+          <span
+            data-ks="badge"
+            class="px-2 py-0.5 rounded-full text-white text-xs font-semibold"
+          ></span>
+        </div>
+        <h2 data-ks="name" class="font-semibold text-slate-900 text-sm leading-snug mb-3"></h2>
+        <p class="text-xs text-slate-500 mb-1">Type</p>
+        <p data-ks="type" class="text-sm text-slate-700 mb-4"></p>
+        <a
+          data-ks="link"
+          href="#"
+          class="hidden inline-block w-full text-center text-sm font-medium text-white bg-teal-600 hover:bg-teal-700 rounded-lg px-4 py-2 no-underline transition-colors"
+        >
+          Open dossier →
+        </a>
+        <p
+          data-ks="no-link"
+          class="hidden text-xs text-slate-400 italic"
+        >
+          No dedicated page available yet.
+        </p>
+      </div>
+    </div>
+
+    <!-- Legend -->
+    <div class="mt-4 flex flex-wrap gap-4 text-xs text-slate-500">
+      <span class="font-medium text-slate-600">Legend:</span>
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full inline-block" style="background:#0d9488"></span>Ingredient</span>
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full inline-block" style="background:#3b82f6"></span>Mechanism</span>
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full inline-block" style="background:#8b5cf6"></span>Biomarker</span>
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full inline-block" style="background:#f97316"></span>Symptom</span>
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full inline-block" style="background:#f59e0b"></span>Regulatory</span>
+      <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full inline-block" style="background:#ef4444"></span>Claim</span>
+    </div>
+
+  </div>
+
+  <script>
+    import '../../scripts/graph-viewer.ts';
+  </script>
+
+</BaseLayout>

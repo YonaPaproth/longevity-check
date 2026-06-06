@@ -10,6 +10,7 @@ export const en: Dict = {
     products:      { label: 'Products',         href: '/en/products' },
     claimsCheck:   { label: 'Claims Check',     href: '/en/claims' },
     methodology:   { label: 'Methodology',      href: '/en/methodology' },
+    graph:         { label: 'Knowledge Graph',  href: '/en/graph' },
     langSwitch:    { label: 'DE', href: '/' },
   },
 

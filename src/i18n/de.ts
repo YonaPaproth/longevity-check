@@ -8,6 +8,7 @@ export const de = {
     products:      { label: 'Produkte',          href: '/produkte' },
     claimsCheck:   { label: 'Claims-Check',      href: '/claims' },
     methodology:   { label: 'Methodik',          href: '/methodik' },
+    graph:         { label: 'Wissensgraph',      href: '/graph' },
     langSwitch:    { label: 'EN', href: '/en' },
   },
 
