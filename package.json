@@ -7,6 +7,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "validate:ingredients": "node scripts/validate-ingredients.mjs",
+    "validate:kg": "tsx scripts/validate-kg.ts",
+    "validate:all": "pnpm validate:ingredients && pnpm validate:kg",
     "audit:health-claims": "node scripts/audit-health-claims.mjs"
   },
   "dependencies": {

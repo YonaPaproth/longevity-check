@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MikroScore Knowledge Graph — Study Entity",
+  "description": "Schema for study entities stored in data/entities/studies/*.json. Studies are first-class KG entities but are hidden from default public graph visualization.",
+  "type": "object",
+  "required": ["id", "type", "title", "authors", "year", "url"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Canonical study ID. Rules (in priority order): pmid-{PMID} when PMID exists; doi-{normalized-doi} when DOI exists (slashes replaced with dashes); studie-{PMID} is a legacy format that is still accepted.",
+      "pattern": "^(pmid-\\d+|studie-\\d+|doi-.+)$"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["study"]
+    },
+    "title": {
+      "type": "string",
+      "description": "Full study title"
+    },
+    "authors": {
+      "type": "string",
+      "description": "Author string, e.g. 'Smith J, Jones A' or 'Smith J et al.'"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL — prefer PubMed when available"
+    },
+    "pmid": {
+      "type": "string",
+      "pattern": "^\\d+$",
+      "description": "PubMed ID (digits only, no 'pmid:' prefix)"
+    },
+    "doi": {
+      "type": "string",
+      "description": "DOI string, e.g. '10.1038/nature12345'"
+    },
+    "journal": {
+      "type": "string"
+    },
+    "studyType": {
+      "type": "string",
+      "enum": ["rct", "observational", "meta-analysis", "review", "animal", "in-vitro", "case-report", "other"],
+      "description": "Study design classification"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Neutral data summary (not page-specific editorial framing). Describes what was measured and what was found.",
+      "maxLength": 500
+    }
+  },
+  "additionalProperties": false,
+  "notes": [
+    "Study entities are locale-neutral — title and summary are in the language of the original paper or in DE/EN as appropriate.",
+    "MDX pages control which studies are surfaced and may add short editorial highlights.",
+    "The public graph endpoint excludes study nodes by default; they are available to page components on the server side."
+  ]
+}

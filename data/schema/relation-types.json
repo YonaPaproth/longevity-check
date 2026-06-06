@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MikroScore KG — Allowed Relation Types",
+  "description": "Canonical vocabulary of relation types used in data/relations/by-entity/*.json. Derived from actual repo usage. Add new types here before using them in data files.",
+  "allowedTypes": [
+    {
+      "type": "wird_eingesetzt_fuer",
+      "description": "Ingredient/compound is used for a symptom or health goal",
+      "usedIn": ["ingredient", "mechanism"],
+      "targetTypes": ["symptom"]
+    },
+    {
+      "type": "wirkt_ueber",
+      "description": "Entity acts via a mechanism",
+      "usedIn": ["ingredient", "claim"],
+      "targetTypes": ["mechanism"]
+    },
+    {
+      "type": "zielt_auf",
+      "description": "Claim targets a symptom or health outcome",
+      "usedIn": ["claim"],
+      "targetTypes": ["symptom"]
+    },
+    {
+      "type": "bezieht_sich_auf",
+      "description": "Claim refers to an ingredient",
+      "usedIn": ["claim"],
+      "targetTypes": ["ingredient"]
+    },
+    {
+      "type": "verwandter_wirkstoff",
+      "description": "Ingredient is related to another ingredient",
+      "usedIn": ["ingredient", "claim"],
+      "targetTypes": ["ingredient"]
+    },
+    {
+      "type": "hat_regulatorischen_status",
+      "description": "Entity has a regulatory status (e.g. EFSA approval)",
+      "usedIn": ["ingredient", "claim"],
+      "targetTypes": ["regulatory"]
+    },
+    {
+      "type": "basiert_auf_studie",
+      "description": "Entity is supported by or based on a study",
+      "usedIn": ["ingredient", "claim", "mechanism", "symptom"],
+      "targetTypes": ["study"]
+    },
+    {
+      "type": "benoetigt_biomarker_check",
+      "description": "Ingredient warrants monitoring a specific biomarker",
+      "usedIn": ["ingredient"],
+      "targetTypes": ["biomarker"]
+    },
+    {
+      "type": "hat_interaktion_mit",
+      "description": "Ingredient interacts with another ingredient or compound",
+      "usedIn": ["ingredient"],
+      "targetTypes": ["ingredient"]
+    },
+    {
+      "type": "hat_nebenwirkung",
+      "description": "Ingredient has a known side effect",
+      "usedIn": ["ingredient"],
+      "targetTypes": ["symptom"]
+    },
+    {
+      "type": "kontraindiziert_bei",
+      "description": "Ingredient is contraindicated for a condition",
+      "usedIn": ["ingredient"],
+      "targetTypes": ["symptom"]
+    }
+  ],
+  "notes": [
+    "All relation types are stored as outgoing from the perspective of the source entity.",
+    "Incoming relations may also appear in by-entity files when explicitly authored.",
+    "Study targets for basiert_auf_studie use id format: pmid-{PMID} (preferred), studie-{PMID} (legacy), or doi-{doi}."
+  ]
+}
