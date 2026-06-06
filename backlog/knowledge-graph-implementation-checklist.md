@@ -771,6 +771,29 @@ Should create:
 - [ ] keep `sources` for non-study references
 - [ ] validate after each batch
 
+## 10.2b Bridge graph coverage before full claim migration
+
+Problem observed in current repo:
+
+- many claim MDX pages already exist in `src/content/claims/*`
+- but only a small subset currently exists as `data/entities/claims/*`
+- result: the graph UI only shows the migrated claims, which makes claim coverage feel incomplete
+
+Add an interim backlog item:
+
+- [ ] derive fallback claim graph nodes from `src/content/claims/*.mdx` when no matching `data/entities/claims/*.json` exists yet
+- [ ] use claim page slug as fallback node `id`
+- [ ] use frontmatter title / summary / verdict / ingredient / claimContext metadata for fallback node enrichment
+- [ ] prefer canonical KG claim entity data whenever a real claim entity exists
+- [ ] do **not** invent graph relations that are not present; only derive safe fallback metadata until claim entities are migrated
+- [ ] clearly document that fallback claim nodes are transitional and should disappear as real KG claim entities are added
+
+### Definition of done
+
+- [ ] all existing claim pages can appear as graph nodes even before full KG claim migration
+- [ ] migrated KG claim entities always win over fallback MDX-derived claim nodes
+- [ ] the graph UI no longer looks artificially sparse just because claim migration is incomplete
+
 ## 10.3 Clean up deprecated fields later, not now
 
 Only after migration is complete:
