@@ -72,7 +72,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         style="height: calc(100vh - 320px); min-height: 450px;"
       >
         <!-- Loading indicator -->
-        <div id="ks-loading" class="absolute inset-0 flex items-center justify-center text-slate-400 text-sm">
+        <div id="ks-loading" class="absolute inset-0 z-10 flex items-center justify-center text-slate-400 text-sm pointer-events-none">
           <svg class="animate-spin w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24">
             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
             <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
@@ -80,7 +80,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
           Loading graph data…
         </div>
         <!-- Error message -->
-        <div id="ks-error" class="hidden absolute inset-0 flex items-center justify-center text-slate-400 text-sm px-6 text-center">
+        <div id="ks-error" class="hidden absolute inset-0 z-10 flex items-center justify-center text-slate-400 text-sm px-6 text-center pointer-events-none">
           Failed to load graph data.
         </div>
         <!-- Cytoscape mount point -->

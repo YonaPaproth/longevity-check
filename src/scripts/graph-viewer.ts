@@ -183,7 +183,7 @@ async function initGraph() {
 
   // ── Initialise Cytoscape ──────────────────────────────────────────────────
   cy = cytoscape({
-    container: document.getElementById('ks-cy'),
+    container,
     elements,
     style: [
       {
@@ -240,24 +240,48 @@ async function initGraph() {
         style: { opacity: 0.05 },
       },
     ],
+    // A deterministic initial layout is more robust here than a force layout.
+    // The previous COSE setup could end up rendering a visually blank canvas
+    // on some machines/browsers even though the data had loaded correctly.
     layout: {
-      name:            'cose',
-      animate:         false,
-      randomize:       true,
-      nodeRepulsion:   (_node: unknown) => 450000,
-      nodeOverlap:     20,
-      idealEdgeLength: (_edge: unknown) => 90,
-      edgeElasticity:  (_edge: unknown) => 100,
-      nestingFactor:   5,
-      gravity:         80,
-      numIter:         1200,
-      initialTemp:     200,
-      coolingFactor:   0.95,
-      minTemp:         1.0,
+      name: 'concentric',
+      animate: false,
+      fit: true,
+      padding: 56,
+      minNodeSpacing: 18,
+      concentric: (node) => node.degree(false),
+      levelWidth: () => 2,
+      startAngle: (3 / 2) * Math.PI,
+      sweep: 2 * Math.PI,
+      clockwise: true,
     } as Parameters<Core['layout']>[0],
     minZoom:          0.08,
     maxZoom:          3,
     wheelSensitivity: 0.25,
+  });
+
+  const fitGraph = () => {
+    if (!cy) return;
+    cy.resize();
+    cy.fit(cy.elements(), 48);
+    cy.center();
+  };
+
+  // Cytoscape can occasionally initialise before the mount has a stable size,
+  // which leaves the canvas visually blank even though the data loaded.
+  // Re-fit after the next paint, after load, and on container resize.
+  requestAnimationFrame(() => requestAnimationFrame(fitGraph));
+  window.addEventListener('load', fitGraph, { once: true });
+
+  if (typeof ResizeObserver !== 'undefined') {
+    const observer = new ResizeObserver(() => {
+      fitGraph();
+    });
+    observer.observe(container);
+  }
+
+  cy.one('layoutstop', () => {
+    fitGraph();
   });
 
   // ── Node click: show neighbourhood ───────────────────────────────────────
