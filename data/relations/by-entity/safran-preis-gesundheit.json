@@ -42,6 +42,30 @@
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
       "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "pmid-24299602",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24299602",
+      "note": "Meta-Analyse zu Safran und Depression als Kernstück der Claim-Bewertung."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "pmid-30036891",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30036891",
+      "note": "Meta-Analyse mit positivem Signal, aber limitierter Evidenzbasis."
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "pmid-32221179",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32221179",
+      "note": "Systematic Review und Meta-Analyse zu Wirksamkeit und Verträglichkeit."
     }
   ]
 }

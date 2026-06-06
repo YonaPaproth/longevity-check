@@ -37,6 +37,9 @@ const ingredients = defineCollection({
     typical_dose_mg: z.number().optional(),
     publishedAt: z.coerce.date(),
     updatedAt: z.coerce.date().optional(),
+    // New canonical study reference field for KG-backed study entities.
+    // Keep key_studies temporarily for backward compatibility during migration.
+    keyStudyIds: z.array(z.string()).max(10).optional(),
     key_studies: z.array(z.object({
       title: z.string(),
       authors: z.string(),
@@ -44,7 +47,7 @@ const ingredients = defineCollection({
       pmid: z.string().optional(),
       url: z.string().url().optional(),
       finding: z.string(),
-    })).max(5),
+    })).max(5).optional(),
   }),
 });
 
@@ -105,6 +108,9 @@ const claims = defineCollection({
     publishedAt: z.coerce.date(),
     updatedAt: z.coerce.date().optional(),
     summary: z.string().max(200),
+    // KG-backed study references for claim pages. Keep sources for non-study references
+    // and mixed migration states.
+    studyIds: z.array(z.string()).max(10).optional(),
     claimContext: z.object({
       claimEntityId: z.string().optional(),
       ingredientEvidenceScore: z.number().min(0).max(10).optional(),
@@ -143,6 +149,7 @@ const enIngredients = defineCollection({
     typical_dose_mg: z.number().optional(),
     publishedAt: z.coerce.date(),
     updatedAt: z.coerce.date().optional(),
+    keyStudyIds: z.array(z.string()).max(10).optional(),
     key_studies: z.array(z.object({
       title: z.string(),
       authors: z.string(),
@@ -150,7 +157,7 @@ const enIngredients = defineCollection({
       pmid: z.string().optional(),
       url: z.string().url().optional(),
       finding: z.string(),
-    })).max(5),
+    })).max(5).optional(),
   }),
 });
 
@@ -207,6 +214,7 @@ const enClaims = defineCollection({
     publishedAt: z.coerce.date(),
     updatedAt: z.coerce.date().optional(),
     summary: z.string().max(200),
+    studyIds: z.array(z.string()).max(10).optional(),
     claimContext: z.object({
       claimEntityId: z.string().optional(),
       ingredientEvidenceScore: z.number().min(0).max(10).optional(),

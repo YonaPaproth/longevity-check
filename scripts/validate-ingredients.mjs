@@ -65,6 +65,12 @@ function parseKeyStudies(frontmatter) {
   return block.split(/^\s*-\s+/m).filter(Boolean);
 }
 
+function parseKeyStudyIds(frontmatter) {
+  const block = getBlock(frontmatter, 'keyStudyIds');
+  if (!block) return [];
+  return [...block.matchAll(/"([^"]+)"/g)].map((m) => m[1]);
+}
+
 function parseBacklog(md) {
   const rows = md.split('\n').filter((line) => /^\|\s*\d+\s*\|/.test(line));
   return rows.map((line) => {
@@ -100,6 +106,7 @@ for (const file of files) {
   const updatedAt = getField(frontmatter, 'updatedAt');
   const aliases = parseAliases(frontmatter);
   const keyStudies = parseKeyStudies(frontmatter);
+  const keyStudyIds = parseKeyStudyIds(frontmatter);
 
   if (!title) issues.push(`${file}: missing title`);
   if (!slug) issues.push(`${file}: missing slug`);
@@ -129,8 +136,16 @@ for (const file of files) {
     warnings.push(`${file}: aliases array looks empty`);
   }
 
-  if (keyStudies.length === 0) {
-    issues.push(`${file}: key_studies missing`);
+  if (keyStudies.length === 0 && keyStudyIds.length === 0) {
+    issues.push(`${file}: both key_studies and keyStudyIds are missing`);
+  }
+
+  if (keyStudyIds.length > 0) {
+    for (const id of keyStudyIds) {
+      if (!/^(pmid-\d+|studie-\d+|doi-.+)$/.test(id)) {
+        warnings.push(`${file}: keyStudyId '${id}' does not match expected study id patterns`);
+      }
+    }
   }
 
   if (!updatedAt) {
