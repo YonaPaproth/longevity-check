@@ -232,4 +232,16 @@ const enClaims = defineCollection({
   }),
 });
 
-export const collections = { ingredients, products, claims, enIngredients, enProducts, enClaims };
+const researchReview = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/research-review' }),
+  schema: z.object({
+    title: z.string(),
+    slug,
+    publishedAt: z.coerce.date(),
+    summary: z.string().max(220),
+    status: z.enum(['draft', 'published', 'experimental']).default('draft'),
+    tags: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { ingredients, products, claims, enIngredients, enProducts, enClaims, researchReview };
