@@ -177,7 +177,7 @@ function showNodeDetail(node: NodeSingular, locale: string) {
     badgeEl.style.backgroundColor = color;
   }
 
-  const canOpenDossier = Boolean(data.path) && data.type !== 'symptom';
+  const canOpenDossier = Boolean(data.path) && ['ingredient', 'claim'].includes(String(data.type));
 
   if (canOpenDossier) {
     if (linkEl)   { linkEl.href = data.path; linkEl.classList.remove('hidden'); }
