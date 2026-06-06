@@ -1,8 +1,10 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import VerdictBadge from '../../../components/VerdictBadge.astro';
+import ClaimContextModule from '../../../components/ClaimContextModule.astro';
 import ClaimCheckIllustration from '../../../components/illustrations/ClaimCheckIllustration.astro';
 import { getCollection, render } from 'astro:content';
+import { getEntityById, getStudyExternalUrl } from '../../../lib/graph/index.ts';
 
 export async function getStaticPaths() {
   const claims = await getCollection('enClaims');
@@ -15,6 +17,20 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const d = entry.data;
+
+function normalizeUrl(url: string) {
+  return url.replace(/\/$/, '');
+}
+
+const studyUrls = new Set(
+  (d.studyIds ?? [])
+    .map((id) => getEntityById(id))
+    .map((entity) => entity ? getStudyExternalUrl(entity) : undefined)
+    .filter((url): url is string => Boolean(url))
+    .map(normalizeUrl)
+);
+
+const nonStudySources = d.sources.filter((source) => !studyUrls.has(normalizeUrl(source.url)));
 ---
 
 <BaseLayout
@@ -46,32 +62,7 @@ const d = entry.data;
       <VerdictBadge verdict={d.verdict} note={d.verdictNote} />
     </div>
 
-    <!-- Claim context (inline summary) -->
-    {d.claimContext && (
-      <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-6">
-        <h2 class="text-sm font-semibold text-slate-700 mb-3">Evidence context</h2>
-        <div class="grid grid-cols-2 gap-3 text-sm">
-          {d.claimContext.humanEvidence && (
-            <div>
-              <p class="text-xs text-slate-400 mb-0.5">Human evidence</p>
-              <p class="font-medium text-slate-700 capitalize">{d.claimContext.humanEvidence}</p>
-            </div>
-          )}
-          {d.claimContext.ingredientEvidenceScore !== undefined && (
-            <div>
-              <p class="text-xs text-slate-400 mb-0.5">Ingredient evidence score</p>
-              <p class="font-medium text-slate-700">{d.claimContext.ingredientEvidenceScore}/10</p>
-            </div>
-          )}
-          {d.claimContext.regulatoryStatus && (
-            <div class="col-span-2">
-              <p class="text-xs text-slate-400 mb-0.5">Regulatory status</p>
-              <p class="text-slate-600 text-xs">{d.claimContext.regulatoryStatus}</p>
-            </div>
-          )}
-        </div>
-      </div>
-    )}
+    <ClaimContextModule claimSlug={d.slug} ingredientSlug={d.ingredient} claimContext={d.claimContext} studyIds={d.studyIds} locale="en" />
 
     <article class="prose max-w-none mb-10">
       <Content />
@@ -82,11 +73,11 @@ const d = entry.data;
     </div>
 
     <!-- Sources -->
-    {d.sources.length > 0 && (
+    {nonStudySources.length > 0 && (
       <div class="bg-slate-50 border border-slate-200 rounded-xl p-5">
         <p class="text-sm font-semibold text-slate-700 mb-3">Sources</p>
         <ul class="space-y-2">
-          {d.sources.map(source => (
+          {nonStudySources.map(source => (
             <li class="text-sm">
               <a href={source.url} target="_blank" rel="noopener noreferrer"
                  class="text-teal-600 hover:underline">

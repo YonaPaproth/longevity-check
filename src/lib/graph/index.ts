@@ -8,4 +8,5 @@ export * from './types.ts';
 export * from './entities.ts';
 export * from './relations.ts';
 export * from './paths.ts';
+export * from './labels.ts';
 export * from './validate.ts';
