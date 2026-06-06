@@ -130,6 +130,14 @@ export interface GraphNode {
   label: string;
   /** Internal site path, or undefined when no public page exists yet */
   path: string | undefined;
+  /** Evidence level 1 (strongest) – 5 (weakest). Ingredients only. */
+  evidenceLevel?: number;
+  /** Whether EFSA has approved health claims for this ingredient. Ingredients only. */
+  efsaApproved?: boolean;
+  /** Human evidence strength for this claim ('stark'|'moderat'|'begrenzt'|'negativ'|'keine-daten'). Claims only. */
+  claimHumanEvidence?: string;
+  /** Regulatory EFSA reference id (e.g. 'efsa-nicht-zugelassen'). Claims only. */
+  regulatoryEfsa?: string;
 }
 
 /** A graph edge ready for UI rendering or JSON API output */

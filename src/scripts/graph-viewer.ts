@@ -71,11 +71,15 @@ const BUCKET_X_RANGE: [[number, number], [number, number], [number, number]] = [
 
 let searchQuery  = '';
 let activeTypes  = new Set<string>();
-let layoutMode: 'map' | 'structured' = 'map';
+let layoutMode: 'map' | 'structured' = 'structured';
 let cy: Core | null = null;
 
 // Cached graph data (needed to re-compute structured positions after filter)
-let cachedNodes: Array<{ id: string; type: string; label: string; path?: string }> = [];
+let cachedNodes: Array<{
+  id: string; type: string; label: string; path?: string;
+  evidenceLevel?: number; efsaApproved?: boolean;
+  claimHumanEvidence?: string; regulatoryEfsa?: string;
+}> = [];
 let cachedEdges: Array<{ source: string; target: string; relation: string; confidence: number }> = [];
 
 // ── Fit helpers ───────────────────────────────────────────────────────────────
@@ -200,27 +204,42 @@ function simpleHash(str: string): number {
 }
 
 /**
- * Assign every node an X bucket (0=approved/strong, 1=mixed, 2=not-approved/weak)
- * using the following heuristic:
+ * Assign every node an X bucket (0=approved/strong, 1=mixed, 2=not-approved/weak).
+ *
+ * Priority order per type:
  *
  *  1. Regulatory nodes: by node id substring
  *     – contains "nicht" / "not" / "reject" / "ablehnt"  → bucket 2
  *     – contains "zulassung" / "zugelas" / "approved" / "authoris"  → bucket 0
  *     – otherwise → bucket 1
  *
- *  2. Ingredient / Claim nodes: average bucket of all regulatory neighbours
- *     (via "hat_regulatorischen_status" edges). No regulatory neighbour → bucket 1.
+ *  2. Ingredient nodes: metadata-first, then regulatory-edge fallback
+ *     a) efsaApproved === true  → bucket 0 (EFSA approved)
+ *     b) efsaApproved === false, evidenceLevel 1–2 → bucket 1 (strong evidence, no EFSA claim)
+ *     c) efsaApproved === false, evidenceLevel 3–5 → bucket 2 (weak evidence, not approved)
+ *     d) efsaApproved undefined, evidenceLevel 1–2 → bucket 0 (strong evidence)
+ *     e) efsaApproved undefined, evidenceLevel 3–5 → bucket 2 (weak evidence)
+ *     f) No metadata → average bucket of regulatory neighbours; fallback bucket 1
  *
- *  3. Mechanism / Biomarker / Symptom: average bucket of ALL neighbours
- *     (after the above passes have set their buckets). Fallback → bucket 1.
+ *  3. Claim nodes: metadata-first, then regulatory-edge fallback
+ *     a) regulatoryEfsa contains "nicht" / "not" → bucket 2
+ *     b) regulatoryEfsa contains "zugelas" / "approved" → bucket 0
+ *     c) claimHumanEvidence "stark" → bucket 0; "moderat" → bucket 1; else → bucket 2
+ *     d) No metadata → average bucket of regulatory neighbours; fallback bucket 1
+ *
+ *  4. Mechanism / Biomarker / Symptom: average bucket of ALL neighbours; fallback bucket 1
  */
 function assignXBuckets(
-  nodes: Array<{ id: string; type: string }>,
+  nodes: Array<{
+    id: string; type: string;
+    evidenceLevel?: number; efsaApproved?: boolean;
+    claimHumanEvidence?: string; regulatoryEfsa?: string;
+  }>,
   edges: Array<{ source: string; target: string; relation: string }>,
 ): Map<string, number> {
   const buckets = new Map<string, number>();
 
-  // Pass 1 – regulatory
+  // Pass 1 – regulatory (id-name heuristic, unchanged)
   for (const node of nodes) {
     if (node.type !== 'regulatory') continue;
     const id = node.id.toLowerCase();
@@ -238,23 +257,70 @@ function assignXBuckets(
 
   const regEdges = edges.filter(e => e.relation === 'hat_regulatorischen_status');
 
-  // Pass 2 – ingredient / claim
+  // Pass 2 – ingredients: metadata signals first, edge-based fallback
   for (const node of nodes) {
-    if (node.type !== 'ingredient' && node.type !== 'claim') continue;
-    const connBuckets = regEdges
-      .filter(e => e.source === node.id)
-      .map(e => buckets.get(e.target))
-      .filter((b): b is number => b !== undefined);
+    if (node.type !== 'ingredient') continue;
 
-    if (connBuckets.length === 0) {
-      buckets.set(node.id, 1);
+    const hasEfsa    = node.efsaApproved !== undefined;
+    const hasEvidence = node.evidenceLevel !== undefined;
+
+    if (hasEfsa && node.efsaApproved === true) {
+      // EFSA approved → left column
+      buckets.set(node.id, 0);
+    } else if (hasEfsa && node.efsaApproved === false && hasEvidence) {
+      // Not EFSA approved: position by evidence strength
+      buckets.set(node.id, node.evidenceLevel! <= 2 ? 1 : 2);
+    } else if (!hasEfsa && hasEvidence) {
+      // No EFSA data: use evidence level alone
+      buckets.set(node.id, node.evidenceLevel! <= 2 ? 0 : 2);
     } else {
-      const avg = connBuckets.reduce((a, b) => a + b, 0) / connBuckets.length;
-      buckets.set(node.id, avg < 0.7 ? 0 : avg > 1.3 ? 2 : 1);
+      // Fallback: regulatory-edge neighbours
+      const connBuckets = regEdges
+        .filter(e => e.source === node.id)
+        .map(e => buckets.get(e.target))
+        .filter((b): b is number => b !== undefined);
+      if (connBuckets.length === 0) {
+        buckets.set(node.id, 1);
+      } else {
+        const avg = connBuckets.reduce((a, b) => a + b, 0) / connBuckets.length;
+        buckets.set(node.id, avg < 0.7 ? 0 : avg > 1.3 ? 2 : 1);
+      }
     }
   }
 
-  // Pass 3 – mechanism / biomarker / symptom (use already-resolved neighbour buckets)
+  // Pass 3 – claims: metadata signals first, edge-based fallback
+  for (const node of nodes) {
+    if (node.type !== 'claim') continue;
+
+    const regEfsa = node.regulatoryEfsa?.toLowerCase() ?? '';
+    const humanEv = node.claimHumanEvidence ?? '';
+
+    if (regEfsa.includes('nicht') || regEfsa.includes('not')) {
+      buckets.set(node.id, 2);
+    } else if (regEfsa.includes('zugelas') || regEfsa.includes('approved')) {
+      buckets.set(node.id, 0);
+    } else if (humanEv === 'stark') {
+      buckets.set(node.id, 0);
+    } else if (humanEv === 'moderat') {
+      buckets.set(node.id, 1);
+    } else if (humanEv === 'begrenzt' || humanEv === 'negativ' || humanEv === 'keine-daten') {
+      buckets.set(node.id, 2);
+    } else {
+      // Fallback: regulatory-edge neighbours
+      const connBuckets = regEdges
+        .filter(e => e.source === node.id)
+        .map(e => buckets.get(e.target))
+        .filter((b): b is number => b !== undefined);
+      if (connBuckets.length === 0) {
+        buckets.set(node.id, 1);
+      } else {
+        const avg = connBuckets.reduce((a, b) => a + b, 0) / connBuckets.length;
+        buckets.set(node.id, avg < 0.7 ? 0 : avg > 1.3 ? 2 : 1);
+      }
+    }
+  }
+
+  // Pass 4 – mechanism / biomarker / symptom (use already-resolved neighbour buckets)
   for (const node of nodes) {
     if (!['mechanism', 'biomarker', 'symptom'].includes(node.type)) continue;
     const neighborBuckets = edges
@@ -471,7 +537,11 @@ async function initGraph() {
 
   // ── Fetch graph data ─────────────────────────────────────────────────────
   let graphData: {
-    nodes: Array<{ id: string; type: string; label: string; path?: string }>;
+    nodes: Array<{
+      id: string; type: string; label: string; path?: string;
+      evidenceLevel?: number; efsaApproved?: boolean;
+      claimHumanEvidence?: string; regulatoryEfsa?: string;
+    }>;
     edges: Array<{ source: string; target: string; relation: string; confidence: number }>;
   };
 
@@ -528,6 +598,7 @@ async function initGraph() {
   buildLaneOverlay(container, locale, labels);
 
   // ── Initialise Cytoscape ──────────────────────────────────────────────────
+  // Use null layout on init; setLayoutMode below applies the actual layout
   cy = cytoscape({
     container,
     elements,
@@ -609,20 +680,7 @@ async function initGraph() {
         style: { display: 'none' },
       },
     ],
-    layout: {
-      name:            'cose',
-      animate:         false,
-      fit:             true,
-      padding:         64,
-      randomize:       true,
-      nodeRepulsion:   (_node: unknown) => 180000,
-      idealEdgeLength: (_edge: unknown) => 90,
-      edgeElasticity:  (_edge: unknown) => 80,
-      nodeOverlap:     8,
-      gravity:         1,
-      numIter:         900,
-      componentSpacing: 120,
-    } as Parameters<Core['layout']>[0],
+    layout: { name: 'null' } as Parameters<Core['layout']>[0],
     minZoom:          0.08,
     maxZoom:          3,
     wheelSensitivity: 0.25,
@@ -734,8 +792,8 @@ async function initGraph() {
     if (layoutMode !== 'structured') setLayoutMode('structured', locale);
   });
 
-  // Initialise button styles (map is default active)
-  setLayoutMode('map', locale);
+  // Initialise with structured layout as default
+  setLayoutMode('structured', locale);
 
   // ── Node count display ───────────────────────────────────────────────────
   const countEl = document.getElementById('ks-node-count');

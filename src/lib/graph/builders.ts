@@ -126,7 +126,21 @@ export function buildFullGraph(
     if (entity.type === 'study' && !includeStudies) continue;
     const label = getEntityLabel(entity, locale) ?? entity.id;
     const path = getEntityPath(entity, locale);
-    nodeMap.set(entity.id, { id: entity.id, type: entity.type, label, path });
+
+    const node: GraphNode = { id: entity.id, type: entity.type, label, path };
+
+    // Enrich with layout-relevant metadata where available
+    if (entity.type === 'ingredient') {
+      if (typeof entity.evidenceLevel === 'number') node.evidenceLevel = entity.evidenceLevel;
+      if (typeof entity.efsa_approved === 'boolean') node.efsaApproved = entity.efsa_approved;
+    } else if (entity.type === 'claim') {
+      const evidence = entity.claimEvidence as Record<string, unknown> | undefined;
+      if (typeof evidence?.human === 'string') node.claimHumanEvidence = evidence.human;
+      const regulatory = entity.regulatory as Record<string, unknown> | undefined;
+      if (typeof regulatory?.efsa === 'string') node.regulatoryEfsa = regulatory.efsa;
+    }
+
+    nodeMap.set(entity.id, node);
   }
 
   // Add all stored relations as edges
