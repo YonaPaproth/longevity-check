@@ -5,6 +5,13 @@
  * Runs every Saturday 08:00 via OpenClaw cron.
  */
 
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const INGREDIENTS = [
   { slug: 'nmn',          pubmed: 'NMN OR "nicotinamide mononucleotide"',                     efsa: 'nicotinamide mononucleotide', ct: 'NMN supplement' },
   { slug: 'nr',           pubmed: '"nicotinamide riboside"',                                   efsa: 'nicotinamide riboside',       ct: 'nicotinamide riboside' },
@@ -34,6 +41,7 @@ const INGREDIENTS = [
 ];
 
 const DAYS_BACK = 8;
+const DRAFT_DIR = path.join(__dirname, '..', 'backlog', 'research-review-drafts');
 
 function getDateRange() {
   const to = new Date();
@@ -41,6 +49,110 @@ function getDateRange() {
   const fmt = d => d.toISOString().slice(0, 10).replace(/-/g, '/');
   const isoFmt = d => d.toISOString().slice(0, 10);
   return { from: fmt(from), to: fmt(to), fromIso: isoFmt(from), toIso: isoFmt(to) };
+}
+
+function esc(str) {
+  return String(str ?? '').replace(/"/g, '\\"');
+}
+
+function truncate(str, max = 180) {
+  const s = String(str ?? '').trim();
+  return s.length > max ? `${s.slice(0, max - 1)}…` : s;
+}
+
+function buildDraft(results, fromIso, toIso) {
+  const title = `Neue Forschung der Woche (${toIso})`;
+  const touched = results.map(r => r.slug);
+  const summary = truncate(
+    results.length === 0
+      ? 'Diese Woche wurden keine relevanten neuen Papers oder Trials für die beobachteten MikroScore-Wirkstoffe gefunden.'
+      : `Wöchentliche MikroScore-Research-Review mit neuen Papers, EFSA-Treffern und Clinical-Trial-Updates für ${results.length} beobachtete Wirkstoffe.`
+  , 200);
+
+  const topHighlights = results.slice(0, 5).map(r => {
+    const count = r.pubmed.length + r.efsa.length + r.ct.length;
+    return `- **${r.slug}**: ${count} neue Treffer (${r.pubmed.length} PubMed, ${r.efsa.length} EFSA, ${r.ct.length} Trials)`;
+  }).join('\n');
+
+  const sections = results.map(r => {
+    const total = r.pubmed.length + r.efsa.length + r.ct.length;
+    let out = `## ${r.slug}\n\n`;
+    out += `**Neue Treffer gesamt:** ${total}\n\n`;
+
+    if (r.pubmed.length) {
+      out += `### PubMed\n\n`;
+      for (const p of r.pubmed) {
+        out += `- **${p.title}**  \n`;
+        out += `  Journal: ${p.journal || 'n/a'} · Datum: ${p.date || 'n/a'}  \n`;
+        out += `  Link: https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/\n`;
+      }
+      out += `\n`;
+    }
+
+    if (r.efsa.length) {
+      out += `### EFSA\n\n`;
+      for (const e of r.efsa) {
+        out += `- **${e.title}**  \n`;
+        out += `  Link: ${e.url}\n`;
+      }
+      out += `\n`;
+    }
+
+    if (r.ct.length) {
+      out += `### ClinicalTrials.gov\n\n`;
+      for (const c of r.ct) {
+        out += `- **${c.title}**  \n`;
+        out += `  Status: ${c.status || 'n/a'}${c.phase ? ` · Phase: ${c.phase}` : ''}${c.startDate ? ` · Start: ${c.startDate}` : ''}  \n`;
+        out += `  Link: https://clinicaltrials.gov/study/${c.nctId}\n`;
+      }
+      out += `\n`;
+    }
+
+    out += `### MikroScore-Einordnung\n\n`;
+    out += `- Prüfen, ob bestehendes Dossier ${'`'}${r.slug}${'`'} aktualisiert werden sollte.\n`;
+    out += `- Nur relevante Human-Daten oder starke Meta-Analysen später öffentlich hervorheben.\n`;
+    out += `- EFSA-/Claim-Relevanz separat gegen bestehende Claims prüfen.\n\n`;
+    return out;
+  }).join('\n');
+
+  return `---
+title: "${esc(title)}"
+slug: "${toIso}"
+publishedAt: ${toIso}
+summary: "${esc(summary)}"
+status: "draft"
+tags:
+${touched.map(tag => `  - ${tag}`).join('\n')}
+---
+
+# ${title}
+
+## Kurzfazit
+
+${results.length === 0 ? 'Diese Woche gab es keine relevanten neuen Papers oder Trial-Updates für die beobachteten MikroScore-Wirkstoffe.' : topHighlights}
+
+## Rohentwurf
+
+Dieser Entwurf wurde automatisch aus dem wöchentlichen Research-Run erzeugt und **muss vor Veröffentlichung manuell geprüft** werden.
+
+- Zeitraum: **${fromIso} bis ${toIso}**
+- Quellen: **PubMed, EFSA Journal, ClinicalTrials.gov**
+- Status: **Draft / nicht veröffentlicht**
+
+${sections || '## Keine relevanten Treffer\n'}
+## Nächste Schritte
+
+- Relevante Treffer priorisieren
+- ggf. Dossier-/Claim-Updates ableiten
+- nur hochwertige Signale in einen öffentlichen Research-Review übernehmen
+`;
+}
+
+function writeDraft(results, fromIso, toIso) {
+  fs.mkdirSync(DRAFT_DIR, { recursive: true });
+  const filePath = path.join(DRAFT_DIR, `${toIso}.mdx`);
+  fs.writeFileSync(filePath, buildDraft(results, fromIso, toIso), 'utf8');
+  return filePath;
 }
 
 async function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -156,7 +268,7 @@ async function searchClinicalTrials(term, fromIso) {
 // ── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const { from, to, fromIso } = getDateRange();
+  const { from, to, fromIso, toIso } = getDateRange();
   const results = [];
 
   for (const ing of INGREDIENTS) {
@@ -185,10 +297,12 @@ async function main() {
     }
   }
 
+  const draftPath = writeDraft(results, fromIso, toIso);
+
   // ── Format digest ──────────────────────────────────────────────────────────
 
   if (results.length === 0) {
-    console.log(`🔬 *MikroScore Research-Digest (${from} – ${to})*\n\nKeine neuen relevanten Studien oder Trials diese Woche.`);
+    console.log(`🔬 *MikroScore Research-Digest (${from} – ${to})*\n\nKeine neuen relevanten Studien oder Trials diese Woche.\n\n📝 Draft aktualisiert: \`${draftPath}\`\n\nKein Auto-Update – bei interessanten Studien bitte manuell prüfen.`);
     return;
   }
 
@@ -227,7 +341,8 @@ async function main() {
     msg += '\n';
   }
 
-  msg += `---\n_Quellen: PubMed · EFSA Journal · ClinicalTrials.gov_\n_Kein Auto-Update – bitte manuell prüfen ob Dossier-Updates nötig sind._`;
+  msg += `📝 Draft: \`${draftPath}\`\n\n`;
+  msg += `---\n_Quellen: PubMed · EFSA Journal · ClinicalTrials.gov_\n_Kein Auto-Update – bei interessanten Studien bitte manuell prüfen._`;
 
   console.log(msg);
 }
