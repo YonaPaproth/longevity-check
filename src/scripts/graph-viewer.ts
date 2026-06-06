@@ -48,6 +48,17 @@ let searchQuery = '';
 let activeTypes = new Set<string>();
 let cy: Core | null = null;
 
+function fitElements(target = cy?.elements()) {
+  if (!cy || !target || target.length === 0) return;
+  cy.resize();
+  cy.fit(target, 64);
+  const minUsefulZoom = 0.42;
+  if (cy.zoom() < minUsefulZoom) {
+    cy.zoom(minUsefulZoom);
+    cy.center(target);
+  }
+}
+
 function applyFilters() {
   if (!cy) return;
 
@@ -55,30 +66,38 @@ function applyFilters() {
   const hasTypeFilter = activeTypes.size > 0;
 
   if (!hasSearch && !hasTypeFilter) {
-    cy.nodes().removeClass('ks-faded ks-highlighted');
-    cy.edges().removeClass('ks-faded');
+    cy.nodes().removeClass('ks-faded ks-highlighted ks-hidden');
+    cy.edges().removeClass('ks-faded ks-hidden');
+    fitElements(cy.elements());
     return;
   }
 
-  cy.nodes().forEach(n => {
-    const matchesSearch = !hasSearch || n.data('label').toLowerCase().includes(searchQuery);
-    const matchesType   = !hasTypeFilter || activeTypes.has(n.data('type'));
-    if (matchesSearch && matchesType) {
-      n.removeClass('ks-faded').addClass('ks-highlighted');
+  const visibleNodes = cy.nodes().filter((n) => {
+    const matchesSearch = !hasSearch || String(n.data('label')).toLowerCase().includes(searchQuery);
+    const matchesType   = !hasTypeFilter || activeTypes.has(String(n.data('type')));
+    return matchesSearch && matchesType;
+  });
+
+  cy.nodes().forEach((n) => {
+    if (visibleNodes.has(n)) {
+      n.removeClass('ks-hidden ks-faded').addClass('ks-highlighted');
     } else {
-      n.removeClass('ks-highlighted').addClass('ks-faded');
+      n.removeClass('ks-highlighted ks-faded').addClass('ks-hidden');
     }
   });
 
-  cy.edges().forEach(e => {
-    const srcFaded = e.source().hasClass('ks-faded');
-    const tgtFaded = e.target().hasClass('ks-faded');
-    if (srcFaded || tgtFaded) {
-      e.addClass('ks-faded');
+  cy.edges().forEach((e) => {
+    const srcVisible = !e.source().hasClass('ks-hidden');
+    const tgtVisible = !e.target().hasClass('ks-hidden');
+    if (srcVisible && tgtVisible) {
+      e.removeClass('ks-hidden ks-faded');
     } else {
-      e.removeClass('ks-faded');
+      e.removeClass('ks-faded').addClass('ks-hidden');
     }
   });
+
+  const visibleElements = visibleNodes.union(visibleNodes.connectedEdges().filter((e) => !e.hasClass('ks-hidden')));
+  fitElements(visibleElements);
 }
 
 // ── Node detail panel ─────────────────────────────────────────────────────────
@@ -190,70 +209,94 @@ async function initGraph() {
         selector: 'node',
         style: {
           'background-color':  'data(color)',
-          'label':             'data(label)',
-          'color':             '#ffffff',
-          'font-size':         '10px',
-          'font-weight':       '500',
-          'text-valign':       'center',
-          'text-halign':       'center',
-          'text-wrap':         'wrap',
-          'text-max-width':    '72px',
-          'width':             '60px',
-          'height':            '60px',
-          'border-width':      2,
+          'label':             '',
+          'width':             '18px',
+          'height':            '18px',
+          'border-width':      1.5,
           'border-color':      'data(color)',
-          'border-opacity':    0,
+          'border-opacity':    0.35,
+          'opacity':           0.95,
         },
       },
       {
         selector: 'node.ks-highlighted',
         style: {
-          'border-opacity': 1,
-          'border-color':   '#ffffff',
-          'border-width':   3,
+          'label':             'data(label)',
+          'color':             '#e2e8f0',
+          'font-size':         '10px',
+          'font-weight':       '500',
+          'text-valign':       'bottom',
+          'text-halign':       'center',
+          'text-wrap':         'wrap',
+          'text-max-width':    '120px',
+          'text-margin-y':     '-10px',
+          'text-outline-width': 2,
+          'text-outline-color': '#0f172a',
+          'border-opacity':    1,
+          'border-color':      '#ffffff',
+          'border-width':      3,
+          'width':             '24px',
+          'height':            '24px',
+          'z-index':           10,
         },
       },
       {
         selector: 'node.ks-faded',
-        style: { opacity: 0.12 },
+        style: { opacity: 0.1 },
+      },
+      {
+        selector: 'node.ks-hidden',
+        style: { display: 'none' },
       },
       {
         selector: 'node:selected',
         style: {
-          'border-opacity': 1,
-          'border-color':   '#ffffff',
-          'border-width':   3,
+          'label':             'data(label)',
+          'color':             '#ffffff',
+          'text-outline-width': 2,
+          'text-outline-color': '#0f172a',
+          'border-opacity':    1,
+          'border-color':      '#ffffff',
+          'border-width':      3,
+          'width':             '26px',
+          'height':            '26px',
+          'z-index':           12,
         },
       },
       {
         selector: 'edge',
         style: {
-          width:              1.5,
-          'line-color':       '#cbd5e1',
-          'curve-style':      'bezier',
-          opacity:            0.55,
+          width:                1,
+          'line-color':         '#94a3b8',
+          'curve-style':        'bezier',
+          'opacity':            0.18,
           'target-arrow-shape': 'none',
         },
       },
       {
         selector: 'edge.ks-faded',
-        style: { opacity: 0.05 },
+        style: { opacity: 0.04 },
+      },
+      {
+        selector: 'edge.ks-hidden',
+        style: { display: 'none' },
       },
     ],
-    // A deterministic initial layout is more robust here than a force layout.
-    // The previous COSE setup could end up rendering a visually blank canvas
-    // on some machines/browsers even though the data had loaded correctly.
+    // Now that the renderer mounts into a stable-height container, COSE gives
+    // a much more readable "obsidian-like" spread than the compressed fallback.
     layout: {
-      name: 'concentric',
+      name: 'cose',
       animate: false,
       fit: true,
-      padding: 56,
-      minNodeSpacing: 18,
-      concentric: (node) => node.degree(false),
-      levelWidth: () => 2,
-      startAngle: (3 / 2) * Math.PI,
-      sweep: 2 * Math.PI,
-      clockwise: true,
+      padding: 64,
+      randomize: true,
+      nodeRepulsion: (_node: unknown) => 180000,
+      idealEdgeLength: (_edge: unknown) => 90,
+      edgeElasticity: (_edge: unknown) => 80,
+      nodeOverlap: 8,
+      gravity: 1,
+      numIter: 900,
+      componentSpacing: 120,
     } as Parameters<Core['layout']>[0],
     minZoom:          0.08,
     maxZoom:          3,
@@ -262,9 +305,7 @@ async function initGraph() {
 
   const fitGraph = () => {
     if (!cy) return;
-    cy.resize();
-    cy.fit(cy.elements(), 48);
-    cy.center();
+    fitElements(cy.elements());
   };
 
   // Cytoscape can occasionally initialise before the mount has a stable size,
