@@ -1,6 +1,6 @@
 # Mikroscore knowledge graph implementation checklist
 
-_Status: implementation-ready_
+_Status: implementation-ready (v1 architecture with studies as first-class KG entities)_
 
 This checklist turns the higher-level plan into an execution sequence that fits the current repo.
 
@@ -12,14 +12,48 @@ This checklist turns the higher-level plan into an execution sequence that fits 
 - `src/pages/data/*.json.ts` already exists for other derived APIs.
 - `tsx` and `zod` are already installed.
 - DE + EN content collections already exist in `src/content.config.ts`.
+- Study metadata is currently split across MDX frontmatter:
+  - ingredient pages use `key_studies`
+  - claim pages use `sources`
+  - KG does not yet model studies as first-class entities
+
+## V1 architecture decision
+
+**Studies belong in the KG from the start.**
+
+That means:
+
+- the KG becomes the canonical home for study metadata
+- ingredient/claim pages reference studies by ID instead of duplicating title/PMID/link data
+- editorial pages still control which studies to surface and how to describe them
+- the public graph UI does **not** need to show study nodes by default
+
+## Canonical ownership rules
+
+### KG owns
+
+- graph structure
+- entity identity
+- relation identity
+- study metadata
+- reusable labels/path resolution
+
+### MDX owns
+
+- prose
+- verdicts and editorial framing
+- page-specific display order
+- optional page-specific study highlights or overrides
 
 ## Implementation rules
 
 - Do **not** rebuild content architecture from scratch.
 - Make the **knowledge graph canonical for relationships**.
+- Make the **knowledge graph canonical for reusable study metadata**.
 - Keep MDX canonical for **editorial prose and page-specific nuance**.
 - Centralize graph logic in `src/lib/graph/*` so components/pages/scripts stop reimplementing file loading.
 - Keep rollout backward-compatible until validation and migration are in place.
+- Hide `study` nodes from default graph visualization unless explicitly enabled.
 
 ---
 
@@ -34,6 +68,7 @@ This checklist turns the higher-level plan into an execution sequence that fits 
   - [ ] `symptom`
   - [ ] `regulatory`
   - [ ] `biomarker`
+  - [ ] `study`
 - [ ] Finalize the list of supported relation types currently used in repo.
 - [ ] Confirm required relation fields:
   - [ ] `relation`
@@ -46,11 +81,41 @@ This checklist turns the higher-level plan into an execution sequence that fits 
   - [ ] `nodes[]`
   - [ ] `edges[]`
   - [ ] optional top-level metadata
+- [ ] Decide the canonical study ID rule:
+  - [ ] prefer `pmid-<PMID>` when PMID exists
+  - [ ] otherwise `doi-<normalized-doi>`
+  - [ ] otherwise one explicit fallback rule, documented in schema
+
+## 0.2 Define the study model up front
+
+- [ ] Decide minimum required study fields for v1:
+  - [ ] `id`
+  - [ ] `type: "study"`
+  - [ ] `title`
+  - [ ] `authors`
+  - [ ] `year`
+  - [ ] `url`
+- [ ] Decide recommended optional fields:
+  - [ ] `pmid`
+  - [ ] `doi`
+  - [ ] `journal`
+  - [ ] `studyType`
+  - [ ] `summary`
+- [ ] Decide whether study summaries are neutral data summaries or page-specific editorial summaries.
+- [ ] Decide how claim pages distinguish between:
+  - [ ] study-backed citations
+  - [ ] non-study sources such as EFSA pages, regulator docs, reviews, news, product pages
+
+### Recommended v1 rule
+
+- Study entity = reusable bibliographic record
+- MDX page = selects study IDs and may add short editorial note/highlight
+- Claim `sources` remains available for non-study references
 
 ### Definition of done
 
 - [ ] The allowed types and output shape are written down in code comments and schema files.
-- [ ] No future task in this checklist depends on an undefined relation or locale rule.
+- [ ] No future task in this checklist depends on an undefined relation, locale rule, or study ID convention.
 
 ---
 
@@ -83,6 +148,7 @@ In `src/lib/graph/types.ts`:
   - [ ] `GraphEntity`
   - [ ] `GraphRelation`
   - [ ] `GraphRelationFile`
+  - [ ] `StudyEntity`
 - [ ] Add derived UI/API types:
   - [ ] `GraphNode`
   - [ ] `GraphEdge`
@@ -102,6 +168,7 @@ In `src/lib/graph/types.ts`:
 In `src/lib/graph/entities.ts`:
 
 - [ ] Create a single source of truth for entity directories by type.
+- [ ] Include `data/entities/studies`.
 - [ ] Load all entity JSON files.
 - [ ] Build an in-memory index keyed by `id`.
 - [ ] Export:
@@ -115,6 +182,7 @@ In `src/lib/graph/entities.ts`:
 ### Definition of done
 
 - [ ] Any component/page/script can resolve an entity by id without scanning folders ad hoc.
+- [ ] Study entities load exactly like other entity types.
 
 ## 1.4 Implement relation loading helpers
 
@@ -129,6 +197,10 @@ In `src/lib/graph/relations.ts`:
   - [ ] `hasRelationsFile(id)`
 - [ ] Derive incoming relations by scanning all outgoing relations if needed.
 - [ ] Ensure each relation file’s `entity` matches the filename.
+- [ ] Ensure study relations are supported:
+  - [ ] `ingredient -> study`
+  - [ ] `claim -> study`
+  - [ ] optionally later `mechanism -> study`, `symptom -> study`
 
 ### Definition of done
 
@@ -140,6 +212,9 @@ In `src/lib/graph/labels.ts`:
 
 - [ ] Define how DE labels are resolved from entity JSON today.
 - [ ] Define how EN labels are resolved in v1.
+- [ ] Define study label behavior:
+  - [ ] UI-friendly short label for a study node/card
+  - [ ] fallback if title is very long
 - [ ] Export:
   - [ ] `getEntityLabel(entity, locale)`
   - [ ] `getEntityDescription(entity, locale)`
@@ -149,10 +224,11 @@ In `src/lib/graph/labels.ts`:
 ### Recommended v1 fallback behavior
 
 - DE:
-  - Prefer `entity.name`
+  - Prefer `entity.name` for normal entities
+  - Prefer `entity.title` for study entities
 - EN:
   - Prefer explicit EN mapping if available later
-  - Otherwise fall back to `entity.name`
+  - Otherwise fall back to the stored entity title/name
 
 ### Definition of done
 
@@ -172,6 +248,15 @@ In `src/lib/graph/paths.ts`:
 - [ ] Decide behavior for entity types that do not yet have public pages:
   - [ ] return `undefined`
   - [ ] or route to future placeholder pages
+- [ ] Decide study entity path behavior in v1:
+  - [ ] return PubMed/DOI external URL only in study cards, not as normal site path
+  - [ ] or return `undefined` and keep external links as separate fields
+
+### Recommended v1 rule
+
+- `getEntityPath()` returns internal site paths only
+- studies expose `externalUrl` separately
+- graph UI does not pretend study entities are first-class public pages yet
 
 ### Definition of done
 
@@ -181,10 +266,10 @@ In `src/lib/graph/paths.ts`:
 
 In `src/lib/graph/builders.ts`:
 
-- [ ] Add `buildEntityNeighborhood(entityId, locale, depth = 1)`.
-- [ ] Add `buildIngredientGraph(slug, locale)`.
-- [ ] Add `buildClaimGraph(slug, locale)`.
-- [ ] Add `buildFullGraph(locale)`.
+- [ ] Add `buildEntityNeighborhood(entityId, locale, depth = 1, options?)`.
+- [ ] Add `buildIngredientGraph(slug, locale, options?)`.
+- [ ] Add `buildClaimGraph(slug, locale, options?)`.
+- [ ] Add `buildFullGraph(locale, options?)`.
 - [ ] Deduplicate nodes and edges.
 - [ ] Include node metadata needed for UI:
   - [ ] `id`
@@ -196,6 +281,14 @@ In `src/lib/graph/builders.ts`:
   - [ ] `target`
   - [ ] `relation`
   - [ ] `confidence`
+- [ ] Add option flags such as:
+  - [ ] `includeStudies?: boolean`
+  - [ ] `includeExternalOnlyNodes?: boolean`
+
+### Recommended v1 rule
+
+- Detail views may include study nodes/cards when explicitly requested
+- Full graph endpoint may include studies as data, but graph UI should be able to hide them by default
 
 ### Definition of done
 
@@ -213,8 +306,9 @@ Create:
 - [ ] `data/schema/entity-types.json`
 - [ ] `data/schema/relation.schema.json`
 - [ ] `data/schema/entity.schema.json`
+- [ ] `data/schema/study-entity.schema.json`
 
-> A single generic `entity.schema.json` is likely better than separate ingredient/claim files at first. It is simpler and easier to extend.
+> A single generic `entity.schema.json` is still useful, but studies are structured enough to justify a dedicated schema early.
 
 ## 2.2 Define allowed relation vocabulary from real repo usage
 
@@ -244,6 +338,11 @@ In `src/lib/graph/validate.ts`:
 - [ ] Validate relation direction.
 - [ ] Validate filename ↔ `id` / `entity` consistency.
 - [ ] Validate duplicate entity ids.
+- [ ] Validate study ID format.
+- [ ] Validate study identifier uniqueness:
+  - [ ] no duplicate PMIDs
+  - [ ] no duplicate DOIs after normalization
+- [ ] Validate study required fields.
 - [ ] Return machine-readable issue objects, not only strings.
 
 ### Definition of done
@@ -270,6 +369,9 @@ Create `scripts/validate-kg.ts`:
 - [ ] no duplicate entity IDs
 - [ ] every by-entity filename matches `entity`
 - [ ] every relation source entity exists
+- [ ] every study entity has a valid canonical ID
+- [ ] every study entity has at least one stable identifier or documented fallback
+- [ ] no duplicate PMID/DOI records
 
 ## 2.5 Wire package scripts
 
@@ -296,7 +398,7 @@ Recommended initial scripts:
 
 ---
 
-# Phase 3 — Refactor current component usage to the new graph layer
+# Phase 3 — Refactor content architecture to KG-backed studies and relations
 
 ## 3.1 Refactor `ClaimContextModule.astro`
 
@@ -313,28 +415,56 @@ Tasks:
 - [ ] Resolve labels and paths through shared helpers.
 - [ ] Keep current display intact unless user-facing improvement is intentional.
 
-## 3.2 Slim `claimContext` architecture without breaking content
+## 3.2 Add study-backed content contracts in `src/content.config.ts`
 
-In `src/content.config.ts`:
+### Ingredient collection
 
-- [ ] Keep existing fields for now.
-- [ ] Add optional `displayOverrides` object if needed.
-- [ ] Mark duplicated relation fields as deprecated in comments.
+- [ ] Add `keyStudyIds: string[]` as the new canonical study reference field.
+- [ ] Keep `key_studies` temporarily for backward compatibility.
+- [ ] Mark `key_studies` as deprecated in comments.
+- [ ] Optionally add `studyHighlights` keyed by study ID if page-level nuance is needed.
 
-Target long-term `claimContext`:
+### Claim collection
+
+- [ ] Add `studyIds: string[]` for claim pages when a claim relies on explicit study entities.
+- [ ] Keep `sources` for non-study references and mixed references during migration.
+- [ ] Decide whether `sources` may temporarily contain study URLs during migration.
+
+### Recommended v1 field shape
+
+Ingredient pages:
 
 ```yaml
-claimContext:
-  claimEntityId: "..."
-  ingredientEvidenceScore: 5
-  displayOverrides:
-    regulatoryStatus: "..."
+keyStudyIds:
+  - pmid-24299602
+  - pmid-30036891
 ```
+
+Claim pages:
+
+```yaml
+studyIds:
+  - pmid-24299602
+  - pmid-32221179
+sources:
+  - label: "EFSA Register entry"
+    url: "..."
+```
+
+## 3.3 Add study rendering helpers/components
+
+- [ ] Add graph helper(s) to resolve `studyIds` into study entities.
+- [ ] Add a reusable study list/card renderer if needed.
+- [ ] Decide where external links appear:
+  - [ ] PubMed URL
+  - [ ] DOI URL
+  - [ ] both if available
 
 ### Definition of done
 
 - [ ] Existing claim pages still render.
-- [ ] New claim pages can rely on KG for mechanisms, symptoms, related ingredients, and regulatory links.
+- [ ] New ingredient and claim pages can reference studies by ID.
+- [ ] Duplicated study title/PMID/link metadata is no longer required in new MDX.
 
 ---
 
@@ -349,8 +479,8 @@ Create:
 
 Tasks:
 
-- [ ] Use `buildFullGraph('de')` for DE endpoint.
-- [ ] Use `buildFullGraph('en')` for EN endpoint.
+- [ ] Use `buildFullGraph('de', options)` for DE endpoint.
+- [ ] Use `buildFullGraph('en', options)` for EN endpoint.
 - [ ] Match the style of existing `src/pages/data/*.json.ts` files.
 - [ ] Add caching headers consistent with current JSON endpoints.
 
@@ -364,7 +494,8 @@ Recommended response:
     "locale": "de",
     "generatedAt": "...",
     "nodeCount": 0,
-    "edgeCount": 0
+    "edgeCount": 0,
+    "includesStudies": false
   },
   "nodes": [],
   "edges": []
@@ -385,10 +516,24 @@ Edge minimum fields:
 - [ ] `relation`
 - [ ] `confidence`
 
+## 4.3 Decide study exposure policy in APIs
+
+Choose explicitly:
+
+- [ ] `/data/graph*.json` excludes studies by default
+- [ ] `/data/graph*.json` includes studies by default
+- [ ] `/data/graph*.json` includes a query flag or separate endpoint for studies
+
+### Recommended v1 rule
+
+- default `/data/graph*.json` excludes `study` nodes for public visualization simplicity
+- add a future option such as `/data/graph.full.json` or query-flagged inclusion later
+- page-level components may still fetch study data through graph helpers on the server side
+
 ### Definition of done
 
-- [ ] `/data/graph.json` returns a complete graph snapshot.
-- [ ] `/data/graph.en.json` returns the EN view of the same graph.
+- [ ] `/data/graph.json` returns a complete public graph snapshot appropriate for visualization.
+- [ ] Study data is available in the KG model even if hidden from the first public graph endpoint.
 
 ---
 
@@ -409,6 +554,7 @@ Tasks:
 - [ ] Render related symptoms.
 - [ ] Render related ingredients.
 - [ ] Render regulatory status where present.
+- [ ] Render linked studies as a supporting evidence section when useful.
 - [ ] Use chips/cards/list layout, not a force graph yet.
 
 ## 5.2 Decide first integration point
@@ -422,10 +568,12 @@ Choose one:
 Recommended first integration:
 
 - [ ] start with claim pages because `ClaimContextModule.astro` already exists and provides a natural migration target
+- [ ] then add study-backed ingredient evidence sections
 
 ### Definition of done
 
 - [ ] At least one live page type renders graph-backed context through shared graph helpers.
+- [ ] At least one live page type renders KG-backed study references without duplicating citation metadata in MDX.
 
 ---
 
@@ -454,6 +602,7 @@ Not required for v1:
 - [ ] pan/zoom
 - [ ] Cytoscape / D3 integration
 - [ ] graph physics tuning
+- [ ] study nodes in the default public visualization
 
 ### Definition of done
 
@@ -461,7 +610,7 @@ Not required for v1:
 
 ---
 
-# Phase 7 — Content-link validation
+# Phase 7 — Content-link and citation validation
 
 ## 7.1 Add content ↔ graph validation script
 
@@ -473,10 +622,19 @@ Checks:
 
 - [ ] every claim `ingredient` slug maps to a real ingredient entity
 - [ ] every `claimEntityId` maps to a real claim entity
+- [ ] every `keyStudyIds[]` entry maps to a real study entity
+- [ ] every `studyIds[]` entry maps to a real study entity
 - [ ] graph-backed linked entities resolve to valid paths or intentionally no path
 - [ ] claim pages do not reference deleted graph ids in deprecated fallback fields
 
-## 7.2 Wire package scripts
+## 7.2 Add study/citation consistency checks
+
+- [ ] detect ingredient pages that still duplicate full `key_studies` metadata after migration
+- [ ] detect claim pages whose `sources` duplicate a known study entity URL/PMID
+- [ ] warn when a study is referenced by page frontmatter but not connected in KG relations
+- [ ] warn when a KG study relation exists but the page never surfaces the study in any study ID list
+
+## 7.3 Wire package scripts
 
 - [ ] add `validate:content-links`
 - [ ] extend `validate:all`
@@ -496,6 +654,7 @@ Recommended script set at this stage:
 ### Definition of done
 
 - [ ] Broken cross-links between MDX and KG are caught before deploy.
+- [ ] Duplicated study/citation drift is caught before deploy.
 
 ---
 
@@ -514,6 +673,7 @@ Checks:
 - [ ] DE and EN use the same base slug where intended
 - [ ] EN page titles are not accidentally still DE where avoidable
 - [ ] EN graph labels have explicit fallback behavior
+- [ ] study entities remain locale-neutral while labels/rendering stay deterministic
 
 ## 8.2 Decide the bilingual policy explicitly
 
@@ -524,6 +684,7 @@ Checks:
 Recommended v1 policy:
 
 - [ ] report missing EN counterparts as warnings unless the content is marked priority/bilingual
+- [ ] keep study entities locale-neutral and reuse them across DE/EN pages
 
 ### Definition of done
 
@@ -537,6 +698,7 @@ Recommended v1 policy:
 
 Create:
 
+- [ ] `scripts/new-study.ts`
 - [ ] `scripts/new-ingredient.ts`
 - [ ] `scripts/new-claim.ts`
 - [ ] `scripts/new-bilingual-topic.ts`
@@ -572,22 +734,44 @@ Should also create:
 - [ ] claim entity file(s)
 - [ ] claim relation file(s)
 
+## 9.3 Add study scaffolding
+
+Command target:
+
+```bash
+pnpm tsx scripts/new-study.ts --pmid 24299602
+```
+
+Should create:
+
+- [ ] `data/entities/studies/pmid-24299602.json`
+- [ ] optionally patch one or more `data/relations/by-entity/*.json` files when `--link ingredient:safran` or `--link claim:safran-preis-gesundheit` is supplied
+
 ### Definition of done
 
 - [ ] New topics can be scaffolded without manual file drift between MDX and KG.
+- [ ] New studies can be added once and reused across multiple pages/entities.
 
 ---
 
 # Phase 10 — Migration and cleanup
 
-## 10.1 Migrate claim pages gradually
+## 10.1 Migrate ingredient pages gradually
 
-- [ ] identify all claim pages using duplicated relation fields in frontmatter
-- [ ] migrate one small batch first
+- [ ] identify all ingredient pages still using `key_studies`
+- [ ] create study entities for their referenced papers
+- [ ] convert one small batch first from `key_studies` to `keyStudyIds`
 - [ ] validate after each batch
-- [ ] remove duplicated relation data only after graph rendering is confirmed stable
+- [ ] keep `key_studies` only until rendering and validation are stable
 
-## 10.2 Clean up deprecated fields later, not now
+## 10.2 Migrate claim pages gradually
+
+- [ ] identify claim pages where `sources` are actually studies
+- [ ] convert reusable study citations into study entities + `studyIds`
+- [ ] keep `sources` for non-study references
+- [ ] validate after each batch
+
+## 10.3 Clean up deprecated fields later, not now
 
 Only after migration is complete:
 
@@ -595,10 +779,13 @@ Only after migration is complete:
 - [ ] remove `relatedSymptoms` from schema
 - [ ] remove `relatedIngredients` from schema
 - [ ] remove `regulatoryStatus` from schema if KG fully covers it
+- [ ] remove ingredient `key_studies` from schema once all migrated
+- [ ] narrow claim `sources` docs to non-study sources only if desired
 
 ### Definition of done
 
 - [ ] Frontmatter no longer carries graph structure except narrowly scoped display overrides.
+- [ ] Study metadata is no longer duplicated across ingredient and claim MDX.
 
 ---
 
@@ -607,31 +794,42 @@ Only after migration is complete:
 ## Batch 1 — highest leverage, lowest disruption
 
 - [ ] create `src/lib/graph/*`
+- [ ] add `study` to graph types and entity loading
 - [ ] add `data/schema/relation-types.json`
+- [ ] add `data/schema/study-entity.schema.json`
 - [ ] add `src/lib/graph/validate.ts`
 - [ ] add `scripts/validate-kg.ts`
 - [ ] add `pnpm validate:kg`
 
-## Batch 2 — remove duplication in active rendering path
+## Batch 2 — introduce study entities without changing all page rendering yet
+
+- [ ] add `data/entities/studies/*`
+- [ ] add initial study relation links for one pilot ingredient and one pilot claim
+- [ ] verify validation catches duplicate/bad study IDs
+
+## Batch 3 — remove duplication in active rendering paths
 
 - [ ] refactor `ClaimContextModule.astro` to use graph helpers
+- [ ] add `keyStudyIds` / `studyIds` support in schemas
 - [ ] keep frontmatter fallback
 - [ ] verify current claim pages still render
 
-## Batch 3 — expose graph as derived data product
+## Batch 4 — expose graph as derived data product
 
 - [ ] add `/data/graph.json`
 - [ ] add `/data/graph.en.json`
+- [ ] keep studies hidden from default public graph endpoint unless explicitly included
 - [ ] confirm output shape is stable enough for UI use
 
-## Batch 4 — useful graph UI, no overengineering
+## Batch 5 — useful graph UI, no overengineering
 
 - [ ] add `EntityGraphContext.astro`
 - [ ] add `/graph`
 - [ ] add `/en/graph`
 - [ ] ship search + filters + neighborhood panel
+- [ ] render study-backed evidence lists on entity pages
 
-## Batch 5 — future-proof authoring workflow
+## Batch 6 — future-proof authoring workflow
 
 - [ ] add content/link validators
 - [ ] add bilingual validator
@@ -651,6 +849,7 @@ If the goal is to start implementation immediately, make PR 1 only this:
 - [ ] `src/lib/graph/validate.ts`
 - [ ] `src/lib/graph/index.ts`
 - [ ] `data/schema/relation-types.json`
+- [ ] `data/schema/study-entity.schema.json`
 - [ ] `scripts/validate-kg.ts`
 - [ ] `package.json` script updates
 
@@ -658,16 +857,24 @@ PR 1 acceptance criteria:
 
 - [ ] `pnpm validate:kg` passes
 - [ ] graph helpers can load the current KG
+- [ ] graph helpers are ready for `study` entities even if only a pilot set exists at first
 - [ ] duplicate ids / broken targets / invalid relations are caught
 - [ ] no page rendering behavior changes yet
 
 PR 2 should then be:
 
-- [ ] refactor `ClaimContextModule.astro`
-- [ ] add `buildEntityNeighborhood()`
-- [ ] keep old frontmatter fallback behavior
+- [ ] add pilot study entities
+- [ ] connect one ingredient and one claim to studies via KG relations
+- [ ] add `keyStudyIds` / `studyIds` schema support
+- [ ] keep old fallback behavior
 
 PR 3 should then be:
+
+- [ ] refactor `ClaimContextModule.astro`
+- [ ] add study-backed rendering helpers
+- [ ] start using KG-backed studies on pages
+
+PR 4 should then be:
 
 - [ ] add `/data/graph.json`
 - [ ] add `/data/graph.en.json`
@@ -705,13 +912,16 @@ pnpm build
 - [ ] EN labels promised before data actually supports them well
 - [ ] relation vocabulary frozen too early without scanning repo reality
 - [ ] `ClaimContextModule.astro` and graph library diverging
-- [ ] premature graph visualization complexity slowing real progress
+- [ ] study nodes overwhelming the public graph view
+- [ ] study entities with inconsistent PMID/DOI normalization
+- [ ] duplicated study metadata lingering in MDX too long
+- [ ] mixing study citations and non-study sources without a clear rule
 
 ---
 
 # Final recommendation
 
-Start with **library + validation**, not UI.
+Start with **library + validation + study entity support**, not UI.
 
 The best first move is not a graph page.
 The best first move is making the existing KG:
@@ -719,5 +929,6 @@ The best first move is making the existing KG:
 - loadable from one place
 - validated from one command
 - reusable across components, pages, and scripts
+- ready to store studies once instead of duplicating them across MDX
 
 Once that exists, the rest becomes straightforward.
