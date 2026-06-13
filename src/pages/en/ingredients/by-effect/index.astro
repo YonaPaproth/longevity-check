@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import EvidenceBadge from '../../../../components/EvidenceBadge.astro';
+import { getCollection } from 'astro:content';
+import { readFileSync } from 'fs';
+
+// Load KG data
+const indexData = JSON.parse(readFileSync('data/index.json', 'utf-8'));
+const symptoms = indexData.symptoms as string[];
+
+// Load EN labels
+const enLabels = JSON.parse(readFileSync('data/i18n/kg-entities.en.json', 'utf-8'));
+
+// Load all symptom entities + their relations
+const symptomData = symptoms.map(id => {
+  const entity = JSON.parse(readFileSync(`data/entities/symptoms/${id}.json`, 'utf-8'));
+  const rels = JSON.parse(readFileSync(`data/relations/by-entity/${id}.json`, 'utf-8'));
+  const ingredientIds = rels.relations
+    .filter((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.direction === 'incoming')
+    .map((r: any) => r.target);
+  return { ...entity, ingredientCount: ingredientIds.length, ingredientIds };
+}).sort((a, b) => b.ingredientCount - a.ingredientCount);
+
+// Load EN ingredient collection
+const ingredients = await getCollection('enIngredients');
+const ingredientMap = new Map(ingredients.map(i => [i.data.slug, i.data]));
+
+const symptomLabelsEn: Record<string, string> = {
+  'schlaf': '😴 Sleep',
+  'energie': '⚡ Energy',
+  'kognition': '🧠 Cognition',
+  'immunsystem': '🛡️ Immune System',
+  'entzuendung': '🔥 Inflammation',
+  'blutdruck': '💓 Blood Pressure',
+  'blutzucker': '🩸 Blood Sugar',
+  'stress': '🧘 Stress',
+  'depression': '💭 Mood',
+  'herz-kreislauf': '❤️ Cardiovascular',
+  'gelenke': '🦴 Joint Health',
+  'haut': '✨ Skin',
+  'muskel': '💪 Muscle',
+  'verdauung': '🫁 Digestion',
+  'alterung': '⏳ Aging',
+  'oxidativer-stress': '🔬 Oxidative Stress',
+  'knochen': '🦷 Bone Health',
+  'augen': '👁️ Eye Health',
+  'leber': '🫘 Liver',
+  'schilddruese': '🦋 Thyroid',
+  'fertilitat': '🌱 Fertility',
+  'migraene': '🤕 Migraine',
+  'neuroprotektiv': '🧬 Neuroprotection',
+};
+---
+
+<BaseLayout
+  title="Ingredients by Research Area"
+  description="Which supplements have been studied for which effects? 111 ingredients sorted by research area."
+  locale="en"
+  hreflang={{ de: '/wirkstoffe/nach-wirkung', en: '/en/ingredients/by-effect' }}
+>
+  <div class="max-w-5xl mx-auto px-4 py-12">
+
+    <!-- Header -->
+    <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-8">
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.07),transparent_30%)]"></div>
+      <div class="relative p-6 md:p-8">
+        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-3">Knowledge Graph</div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">Ingredients by Research Area</h1>
+        <p class="text-slate-600 max-w-xl">
+          Which ingredients have been studied for which effects? Click on a topic to see the related dossiers.
+        </p>
+      </div>
+    </div>
+
+    <!-- Symptom Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {symptomData.map(symptom => (
+        <a href={`/en/ingredients/by-effect/${symptom.id}`} class="group block bg-white border border-slate-200 rounded-xl p-5 hover:border-teal-300 hover:shadow-md transition-all">
+          <div class="flex items-start justify-between mb-3">
+            <h2 class="text-lg font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">
+              {symptomLabelsEn[symptom.id] || enLabels[symptom.id] || symptom.name}
+            </h2>
+            <span class="text-xs font-medium bg-teal-50 text-teal-700 px-2 py-0.5 rounded-full">
+              {symptom.ingredientCount} ingredients
+            </span>
+          </div>
+          <div class="flex flex-wrap gap-1.5">
+            {symptom.ingredientIds.slice(0, 6).map((id: string) => {
+              const ing = ingredientMap.get(id);
+              return ing ? (
+                <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">{ing.title}</span>
+              ) : null;
+            })}
+            {symptom.ingredientCount > 6 && (
+              <span class="text-xs text-slate-400">+{symptom.ingredientCount - 6} more</span>
+            )}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- Stats -->
+    <div class="mt-12 text-center text-sm text-slate-400">
+      Based on {indexData.stats.relations} automatically extracted relations from {ingredients.length} ingredient dossiers.
+      <br />Last updated: {indexData.stats.lastUpdated}
+    </div>
+
+  </div>
+</BaseLayout>

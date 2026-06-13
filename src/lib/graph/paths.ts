@@ -41,9 +41,9 @@ export function getEntityPath(entity: GraphEntity, locale: GraphLocale = 'de'): 
   if (locale === 'en') {
     switch (type) {
       case 'ingredient': return `/en/ingredients/${id}`;
+      case 'symptom':    return `/en/ingredients/by-effect/${id}`;
       case 'claim':      return `/en/claims/${id}`;
       // No public EN pages yet for these types:
-      case 'symptom':
       case 'mechanism':
       case 'biomarker':
       case 'regulatory':
