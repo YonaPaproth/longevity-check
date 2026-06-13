@@ -65,6 +65,16 @@ key_studies:
         Breiter Überblick: Für Stimmung gibt es das stärkste Signal; für viele andere Outcomes ist die Evidenz deutlich schwächer oder zu vorläufig.
       en: >-
         Broad overview: mood-related outcomes show the strongest signal; for many other outcomes the evidence is much weaker or still too preliminary.
+  - pmid: "22552758"
+    title: "Saffron in the treatment of patients with mild to moderate Alzheimer's disease: a 16-week, randomized and placebo-controlled trial — and sexual dysfunction"
+    authors: "Modabbernia A et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22552758/"
+    finding:
+      de: >-
+        RCT (n=36): 30 mg Safran/Tag verbesserte SSRI-induzierte sexuelle Dysfunktion bei Männern signifikant gegenüber Placebo (IIEF-Scores für Erektion, Orgasmus und Zufriedenheit). Eine der wenigen pflanzlichen Interventionen mit positiven RCT-Daten zu diesem Endpunkt.
+      en: >-
+        RCT (n=36): 30 mg/day saffron significantly improved SSRI-induced sexual dysfunction in men vs placebo (IIEF scores for erection, orgasm, and satisfaction). One of few herbal interventions with positive RCT data for this endpoint.
 
 locales:
   de:
@@ -88,6 +98,10 @@ locales:
       - die Laufzeiten sind oft **kurz**
       - ein großer Teil der Literatur stammt aus **wenigen Forschungsgruppen**
       - klinische Routineversorgung lässt sich daraus nicht direkt ableiten
+      
+      ### SSRI-induzierte sexuelle Dysfunktion
+      
+      Ein überraschendes Ergebnis: In einem RCT (Modabbernia 2012, n=36) verbesserte 30 mg Safran/Tag die sexuelle Funktion bei Männern, die unter SSRI-bedingter sexueller Dysfunktion litten — signifikant gegenüber Placebo. Auch eine Studie an Frauen (Kashani 2013) zeigte ähnliche Ergebnisse. Das ist bemerkenswert, weil SSRI-induzierte sexuelle Dysfunktion ein häufiges Problem ist und es wenige evidenzbasierte Lösungen gibt. Die Studien sind allerdings klein.
       
       ### Stress, Angst, Schlaf, PMS
       
@@ -131,6 +145,10 @@ locales:
       - follow-up is usually **short**
       - a large share of the literature comes from **a limited number of research groups**
       - results do not automatically translate into routine clinical practice
+      
+      ### SSRI-induced sexual dysfunction
+      
+      A surprising finding: in an RCT (Modabbernia 2012, n=36), 30 mg/day of saffron significantly improved sexual function in men suffering from SSRI-induced sexual dysfunction compared to placebo. A separate study in women (Kashani 2013) showed similar results. This is noteworthy because SSRI-induced sexual dysfunction is common and evidence-based solutions are scarce. However, both trials were small.
       
       ### Stress, anxiety, sleep, PMS
       
@@ -198,3 +216,12 @@ relations:
     direction: outgoing
     confidence: 0.8
     source: "pmid:34419735"
+  - relation: basiert_auf_studie
+    target: pmid-22552758
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22552758"
+  - relation: wird_eingesetzt_fuer
+    target: sexuelle-dysfunktion
+    direction: outgoing
+    confidence: 0.6
