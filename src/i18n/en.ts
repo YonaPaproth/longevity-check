@@ -11,6 +11,7 @@ export const en: Dict = {
     claimsCheck:   { label: 'Claims Check',     href: '/en/claims' },
     methodology:   { label: 'Methodology',      href: '/en/methodology' },
     graph:         { label: 'Knowledge Graph',  href: '/en/graph' },
+    researchReview:{ label: 'Research Review',  href: '/research-review' },
     langSwitch:    { label: 'DE', href: '/' },
   },
 
