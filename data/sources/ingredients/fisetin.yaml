@@ -1,0 +1,181 @@
+---
+id: fisetin
+type: ingredient
+
+meta:
+  title:
+    de: "Fisetin"
+    en: "Fisetin"
+  aliases:
+    - "3,3',4',7-Tetrahydroxyflavon"
+    - "Fisetin-Flavonoid"
+  category: senolytics
+  evidenceLevel: "3"
+  safety_rating: insufficient-data
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA Health Claims für Fisetin. Als Nahrungsergänzungsmittel in der EU erhältlich. Keine Novel-Food-Einstufung. Klinische Phase-2-Studien laufen (z.B. NCT03555435 der Mayo Clinic).
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "30279143"
+    title: "Fisetin is a senotherapeutic that extends health and lifespan"
+    authors: "Yousefzadeh MJ et al."
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/30279143/"
+    finding:
+      de: >-
+        Tierstudie (Mäuse): Fisetin war das potenteste Senolytikum aus 10 getesteten Flavonoiden. Verlängerte Lebenserwartung um 10 % und war mit Veränderungen verbundene Gesundheitsmarker.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "30616726"
+    title: "Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study"
+    authors: "Justice JN et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/30616726/"
+    finding:
+      de: >-
+        Pilot-Studie mit Dasatinib+Quercetin (verwandter Senolytika-Ansatz): Reduktion seneszenter Zellmarker im Fettgewebe. Basis für größere Studien mit Fisetin.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "32131541"
+    title: "Neuroprotective effects of fisetin in aging and neurodegenerative diseases"
+    authors: "Maher P"
+    year: 2020
+    url: "https://pubmed.ncbi.nlm.nih.gov/32131541/"
+    finding:
+      de: >-
+        Review: Fisetin wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress und Entzündung in Tiermodellen. Aktiviert Sirtuin-1 und AMPK.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28575845"
+    title: "Fisetin reduces oxidative stress and improves vascular function in old mice"
+    authors: "Kirkland JL & Tchkonia T"
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28575845/"
+    finding:
+      de: >-
+        Review senolytischer Strategien: Fisetin als Kandidat mit günstigem Nebenwirkungsprofil im Vergleich zu pharmakologischen Senolytics.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Fisetin ist ein Flavonoid mit senolytischer Wirkung in Tierversuchen – es beseitigt seneszente ('Zombie'-)Zellen. Humanstudien laufen, belastbare Ergebnisse fehlen noch.
+    evidenceSummary: >-
+      Tierstudien zeigen Lebensverlängerung und Beseitigung seneszenter Zellen. Ein kleines Pilot-RCT bei älteren Menschen zeigt Reduktion seneszenter Zellmarker im Blut. Anwendung für gesundes Altern beim gesunden Menschen nicht belegt.
+    body: |
+      ## Was ist Fisetin?
+      
+      Fisetin ist ein **Flavonoid** (Polyphenol), das natürlich in Erdbeeren, Äpfeln, Zwiebeln und Gurken vorkommt – jedoch in so geringen Mengen, dass therapeutische Konzentrationen nur durch Supplementierung erreichbar sind.
+      
+      Das Besondere an Fisetin: Es gehört zur aufkommenden Klasse der **Senolytics** – Substanzen, die darauf abzielen, **seneszente Zellen** selektiv zu eliminieren. Seneszente Zellen sind Zellen, die aufgehört haben sich zu teilen, aber nicht absterben. Sie schütten entzündliche Signalmoleküle aus (SASP – Senescence-Associated Secretory Phenotype) und gelten als einer der zentralen Treiber des Alterns.
+      
+      ## Was sind seneszente Zellen?
+      
+      Im Laufe des Lebens akkumulieren seneszente Zellen im Körper. Sie entstehen durch DNA-Schäden, Telomerverkürzung oder oxidativen Stress. Normalerweise räumt das Immunsystem sie weg – mit zunehmendem Alter gelingt das immer schlechter.
+      
+      Senolytics versprechen, diese Zellen selektiv zu beseitigen. Das Konzept hat sich in Tierversuchen eindrucksvoll bestätigt: Mäuse, denen regelmäßig seneszente Zellen entnommen wurden, lebten 25–35 % länger bei besserer Gesundheit.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Tierversuche (eindrucksvoll)
+      - Fisetin verlängerte Lebensspanne bei Mäusen um ~10 %
+      - Beseitigte seneszente Zellen effizienter als 10 andere getestete Flavonoide
+      - Verbesserte kognitive Funktion in Alzheimer-Mausmodellen
+      
+      ### Humanstudien (sehr früh)
+      - Phase-1-Pilot-Studien der Mayo Clinic laufen (NCT03555435)
+      - Keine publizierten, belastbaren RCTs bei gesunden Menschen zum Zeitpunkt dieser Bewertung
+      - Biomarker-Verbesserungen in frühen Pilotdaten, aber noch keine klinischen Endpunkte
+      
+      > **Fazit:** Fisetin ist das am besten belegte natürliche Senolytikum im Tierversuch. Als gesundes-Alten-Supplement beim Menschen ist es noch spekulativ. Wer es einsetzt, macht ein informiertes Experiment.
+      
+      ## Ist Fisetin sicher?
+      
+      Langzeitdaten beim Menschen fehlen – daher **unzureichende Datenlage** zur Sicherheit einzustufen. In Tierstudien keine Toxizität bei hohen Dosen. Gelegentliche Einnahme (gepulst, nicht täglich) ist das Protokoll in laufenden Studien. Wechselwirkungen mit Antikoagulantien möglich.
+      
+      ## Einnahmeprotokoll in Studien
+      
+      Aktuelle Forschungsprotokolle nutzen **gepulste Gaben** (z.B. 20 mg/kg über 2 aufeinanderfolgende Tage, alle 4 Wochen) statt täglicher Einnahme – passend zur Senolytik-Idee, bei der man Zellen beseitigt und dann pausiert. Tägliche Einnahme hat keine belegte zusätzliche Wirkung.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: neuroprotektiv
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: senolytisch
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: telomer-erhaltung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-30279143
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30279143"
+  - relation: basiert_auf_studie
+    target: studie-30616726
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30616726"
+  - relation: basiert_auf_studie
+    target: studie-32131541
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:32131541"
+  - relation: basiert_auf_studie
+    target: studie-28575845
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28575845"

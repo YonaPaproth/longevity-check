@@ -77,36 +77,31 @@
       "relation": "hat_interaktion_mit",
       "target": "glutathion",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "glynac",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "kollagen",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "kreatin",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+      "confidence": 0.7
     },
     {
       "relation": "hat_regulatorischen_status",
@@ -119,32 +114,28 @@
       "target": "studie-23171544",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23171544",
-      "note": "RCT (n=11): 3 g Glycin vor dem Schlafen war mit Veränderungen verbundene Schlafqualität, Tagesmüdigkeit und kognitive Funktion am nächsten Morgen."
+      "source": "pmid:23171544"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-33587619",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:33587619",
-      "note": "RCT (n=24): GlyNAC über 24 Wochen normalisierte Glutathion-Spiegel auf das Niveau junger Erwachsener und war mit Veränderungen verbundene Mitochondrienfunktion."
+      "source": "pmid:33587619"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-35975308",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:35975308",
-      "note": "Follow-up RCT: GlyNAC war mit Veränderungen verbundene 8/9 gemessene Hallmarks of Alterung (Oxidation, Entzündung, Mitochondrien, Körperzusammensetzung, Kraft, Gehgeschwindigkeit)."
+      "source": "pmid:35975308"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28759885",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28759885",
-      "note": "Review: Glycin wird für Glutathion, Kollagen, Hämoglobin, Kreatin und Porphyrine benötigt – täglicher Bedarf übersteigt körpereigene Synthese ab mittlerem Alter."
+      "source": "pmid:28759885"
     }
   ]
 }

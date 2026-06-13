@@ -1,0 +1,109 @@
+---
+id: bacopa
+type: ingredient
+
+meta:
+  title:
+    de: "Bacopa monnieri"
+    en: "Bacopa monnieri"
+  aliases:
+    - "Bacopa monnieri"
+    - "Brahmi"
+    - "Water Hyssop"
+  category: adaptogens
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 300
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Bacopa gibt es in der EU keine zugelassenen Claims zu Gedächtnis, Lernen oder Fokus.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "11498727"
+    title: "The chronic effects of Bacopa monnieri on cognitive function in healthy human subjects"
+    authors: "Stough C et al."
+    year: 2001
+    url: "https://pubmed.ncbi.nlm.nih.gov/11498727/"
+    finding:
+      de: >-
+        Eine der bekanntesten Humanstudien mit Hinweisen auf Verbesserungen im Gedächtnis nach mehrwöchiger Einnahme.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23387531"
+    title: "Bacopa monnieri, a reputed nootropic plant: an overview"
+    authors: "Aguiar S et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23387531/"
+    finding:
+      de: >-
+        Review: Bacopa hat unter pflanzlichen Nootropics eine vergleichsweise ordentliche Humanbasis.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "24512655"
+    title: "Bacopa monnieri and cognitive performance: a meta-analysis"
+    authors: "Kongkeaw C et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24512655/"
+    finding:
+      de: >-
+        Meta-Analyse: leichte bis moderate Vorteile, aber keine Wunderwirkungen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Bacopa ist einer der seriöseren Nootropic-Pflanzenstoffe. Es gibt brauchbare Daten für Gedächtnis, aber die Effekte sind eher moderat als spektakulär.
+    evidenceSummary: >-
+      Bacopa ist für Gedächtnis, Aufmerksamkeit und Stress in mehreren Humanstudien untersucht. Die Evidenz ist deutlich besser als bei vielen anderen Pflanzen-Nootropics, aber die Effekte bleiben moderat und hängen von Extrakt, Dosis und Dauer ab.
+    body: |
+      ## Was ist Bacopa?
+      
+      Bacopa monnieri ist eine traditionelle Pflanze aus dem Ayurveda und heute vor allem als **Gedächtnis- und Fokus-Supplement** bekannt.
+      
+      ## Was ist der faire Take?
+      
+      Bacopa gehört zu den Pflanzenstoffen, bei denen man sagen kann: **da ist wirklich etwas dran** – nur eben nicht in Hollywood-Ausmaß.
+      
+      ## Fazit
+      
+      Bacopa ist ein **solider Mid-to-High-Tier-Kandidat** im Nootropic-Bereich.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-11498727
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:11498727"
+  - relation: basiert_auf_studie
+    target: studie-23387531
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23387531"
+  - relation: basiert_auf_studie
+    target: studie-24512655
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24512655"

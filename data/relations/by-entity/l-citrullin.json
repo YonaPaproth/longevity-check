@@ -65,8 +65,7 @@
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Übliche Handelsware enthält Citrullinmalat im Verhältnis 2:1 (Citrullin:Äpfelsäure nach Gewicht)."
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -97,40 +96,35 @@
       "target": "studie-20386132",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20386132",
-      "note": "RCT (n=41): 8 g Citrullinmalat steigerte die Anzahl der Wiederholungen im Bankdrücken um ca. 52 % und reduzierte Muskelkater."
+      "source": "pmid:20386132"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-26023227",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26023227",
-      "note": "Review mehrerer RCTs: L-Citrullin zeigte in Studien moderate Reduktionen des systolischen Blutdrucks bei Personen mit leicht erhöhten Ausgangswerten."
+      "source": "pmid:26023227"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17953788",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17953788",
-      "note": "Mechanistischer Beitrag: Citrullin → Arginin-Konversion im Nierenmetabolismus, Grundlage der NO-Synthese-Hypothese."
+      "source": "pmid:17953788"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21195829",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21195829",
-      "note": "Kleine RCT (n=24): 1,5 g/Tag L-Citrullin zeigte in Studien Verbesserungen bei Erektionshärte – unter Umständen durch erhöhte NO-Verfügbarkeit."
+      "source": "pmid:21195829"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-42162613",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:42162613",
-      "note": "Pilot-RCT (n=20 aktive ältere Frauen, 60–75 Jahre): Citrullinmalat-Supplementierung verbesserte in Studien signifikant die Sit-to-Stand-Leistung und zeigte positive Trends bei Gehstrecke und körperlic"
+      "source": "pmid:42162613"
     }
   ]
 }

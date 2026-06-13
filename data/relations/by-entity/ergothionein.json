@@ -72,24 +72,21 @@
       "target": "studie-20308112",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20308112",
-      "note": "Ergothionein hat einzigartige Transportmechanismen (OCTN1) im Körper und reichert sich in mitochondrienreichen Geweben an – Hinweis auf biologische Relevanz."
+      "source": "pmid:20308112"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-36856787",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:36856787",
-      "note": "Niedrige Ergothionein-Plasmaspiegel korrelieren mit schlechterem kognitivem Status und Frailty bei älteren Menschen (Beobachtungsstudie)."
+      "source": "pmid:36856787"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21347875",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21347875",
-      "note": "In einem Maus-Parkinson-Modell reduzierte Ergothionein neuronale Schäden signifikant."
+      "source": "pmid:21347875"
     }
   ]
 }

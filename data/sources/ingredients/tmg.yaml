@@ -1,0 +1,129 @@
+---
+id: tmg
+type: ingredient
+
+meta:
+  title:
+    de: "TMG (Trimethylglycin)"
+    en: "TMG (Trimethylglycin)"
+  aliases:
+    - "Trimethylglycin"
+    - "Betaine"
+    - "TMG"
+  category: metabolic
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1000
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Betain gibt es in der EU nur enge, spezifische Claims in Bezug auf Homocystein-Stoffwechsel unter definierten Bedingungen. Breite gesundes-Alten-, Performance- oder Leber-Claims sind regulatorisch nicht gedeckt.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "12514275"
+    title: "Betaine supplementation decreases plasma homocysteine in healthy adult humans"
+    authors: "Olthof MR et al."
+    year: 2003
+    url: "https://pubmed.ncbi.nlm.nih.gov/12514275/"
+    finding:
+      de: >-
+        TMG war mit niedrigeren Werten verbundene Homocystein in Humanstudien zuverlässig. Ob das automatisch klinische Vorteile erzeugt, bleibt offen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "15466943"
+    title: "Betaine in human nutrition"
+    authors: "Craig SA"
+    year: 2004
+    url: "https://pubmed.ncbi.nlm.nih.gov/15466943/"
+    finding:
+      de: >-
+        Review: TMG ist metabolisch relevant, besonders als Methylgruppendonor und Osmolyt. Die Praxisanwendungen gehen der Evidenz teils voraus.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "21485974"
+    title: "Betaine supplementation and cardiovascular risk"
+    authors: "Lever M et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21485974/"
+    finding:
+      de: >-
+        Homocystein sinkt, harte klinische Endpunkte bleiben aber unklar.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      TMG liefert Methylgruppen und kann Homocystein mit niedrigeren Werten in Verbindung bringen. Biochemisch plausibel, aber als gesundes Altern-Supplement bisher eher ein Spezialfall als ein Muss.
+    evidenceSummary: >-
+      TMG ist als Methylgruppendonor biochemisch gut verstanden und kann Homocystein mit niedrigeren Werten in Verbindung bringen. Ob daraus bei gesunden Erwachsenen relevante Gesundheits- oder gesundes Altern-Vorteile entstehen, ist deutlich weniger klar. Die Human-Evidenz ist begrenzt und kontextabhängig.
+    body: |
+      ## Was ist TMG?
+      
+      TMG, also **Trimethylglycin**, auch Betain genannt, ist ein Stoff, der im Körper **Methylgruppen** bereitstellt. Dadurch ist er besonders im Zusammenhang mit **Homocystein**, **Leberstoffwechsel** und **Methylierung** interessant.
+      
+      ## Was ist vergleichsweise gut untersucht?
+      
+      - Kann Homocystein senken
+      - Biochemisch relevanter Methylgruppendonor
+      - Interessant in bestimmten Stoffwechsel-Kontexten
+      
+      ## Was ist nicht vergleichsweise gut untersucht?
+      
+      - Klare gesundes-Alten-Effekte
+      - Allgemeiner Zusatznutzen für alle gesunden Erwachsenen
+      - Breiter Pflichtstoff im Supplement-Stack
+      
+      ## Fazit
+      
+      TMG ist **biochemisch sinnvoll, aber nicht automatisch klinisch spektakulär**. Eher ein gezielter Stoff als ein universeller Must-have-Wirkstoff.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: methylierung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: homocystein
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-12514275
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12514275"
+  - relation: basiert_auf_studie
+    target: studie-15466943
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:15466943"
+  - relation: basiert_auf_studie
+    target: studie-21485974
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21485974"

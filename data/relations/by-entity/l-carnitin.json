@@ -24,24 +24,21 @@
       "target": "studie-27866067",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27866067",
-      "note": "Meta-Analyse: Effekte auf Körpergewicht und Performance sind insgesamt klein und nicht konsistent."
+      "source": "pmid:27866067"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20369674",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20369674",
-      "note": "Review: L-Carnitin ist besonders in medizinischen Spezialkontexten relevant, weniger als universelles Lifestyle-Supplement."
+      "source": "pmid:20369674"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-32759743",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32759743",
-      "note": "Mögliche Nutzen in Erholung und bei älteren Populationen, aber keine starke Basis für breite Allgemeinempfehlungen."
+      "source": "pmid:32759743"
     }
   ]
 }

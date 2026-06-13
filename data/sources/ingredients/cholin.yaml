@@ -1,0 +1,288 @@
+---
+id: cholin
+type: ingredient
+
+meta:
+  title:
+    de: "Cholin"
+    en: "Cholin"
+  aliases:
+    - "Choline"
+    - "Cholinbitartrat"
+    - "Phosphatidylcholin"
+    - "Alpha-GPC"
+    - "CDP-Cholin"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 400
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Cholin sind in der EU Claims zum normalen Homocystein-Stoffwechsel, Fettstoffwechsel und zur Leberfunktion zugelassen (Anhang der VO (EU) Nr. 432/2012). Kognitive oder Nootropics-Claims sind damit nicht automatisch abgedeckt.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "16816108"
+    title: "Choline: critical role during fetal development and dietary requirements in adults"
+    authors: "Zeisel SH et al."
+    year: 2006
+    url: "https://pubmed.ncbi.nlm.nih.gov/16816108/"
+    finding:
+      de: >-
+        Cholin ist essenziell für Leber, Methylierung und neurologische Entwicklung. Mangel induziert nachweisbar Fettleber und Muskelschäden beim Menschen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: ""
+    title: "Dietary Reference Values for choline – EFSA NDA Panel"
+    authors: "EFSA NDA Panel"
+    year: 2016
+    url: "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2016.4484"
+    finding:
+      de: >-
+        EFSA legte Adequate Intake (AI) für Cholin fest: 400 mg/Tag für Erwachsene, 480 mg/Tag in der Schwangerschaft, 520 mg/Tag in der Stillzeit.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "30015549"
+    title: "Choline intake and health outcomes: a review"
+    authors: "Wallace TC et al."
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/30015549/"
+    finding:
+      de: >-
+        Review: Ein erheblicher Anteil der Bevölkerung erreicht die empfohlene Cholinzufuhr nicht. Besonders gefährdet: Schwangere, Veganer und Personen mit Lebererkrankungen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "21094641"
+    title: "The relation of dietary choline to cognitive performance and white-matter hyperintensity in the Framingham Offspring Cohort"
+    authors: "Poly C et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21094641/"
+    finding:
+      de: >-
+        Beobachtungsstudie (n=1391): Höhere Cholinzufuhr war mit besserem verbalem Gedächtnis und geringerer Prävalenz weißer Substanzläsionen assoziiert.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "14695379"
+    title: "Choline and risk of neural tube defects in a folate-fortified population"
+    authors: "Shaw GM et al."
+    year: 2004
+    url: "https://pubmed.ncbi.nlm.nih.gov/14695379/"
+    finding:
+      de: >-
+        Niedrige Cholinzufuhr war auch in einer folsäureverstärkten Population mit erhöhtem Risiko für Neuralrohrdefekte assoziiert (OR ~1,7 im untersten Quintil).
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Cholin ist essenziell für Zellmembranen, Leber und Acetylcholin. Wichtig bei Unterversorgung – aber nicht jede Cholin-Form hat denselben Nutzen fürs Gehirn.
+    evidenceSummary: >-
+      Cholin ist ein essenzieller Nährstoff mit klar definierter Rolle in Membranaufbau, Leberstoffwechsel, Methylierung und Neurotransmitter-Synthese. Die EFSA hat 2016 Referenzwerte festgelegt; eine unzureichende Aufnahme kommt in der Praxis vor. Supplement-Nutzen hängt stark von Form, Dosis und Ausgangsstatus ab.
+    body: |
+      ## Was ist Cholin?
+      
+      Cholin ist ein **essenzieller Nährstoff**, der 1998 vom US-amerikanischen Institute of Medicine offiziell als solcher anerkannt wurde. Es ist kein klassisches Vitamin – der Körper kann geringe Mengen selbst synthetisieren (hauptsächlich über den PEMT-Pathway in der Leber), aber nicht genug, um den Bedarf zu decken. Cholin muss daher über die Ernährung oder Supplements aufgenommen werden.
+      
+      Chemisch gesehen ist Cholin ein quaternäres Ammoniumsalz mit der Summenformel [(CH₃)₃N⁺CH₂CH₂OH]. Es ist wasserlöslich, hitzestabil und in vielen tierischen Lebensmitteln konzentriert vorhanden.
+      
+      ## Physiologische Funktionen
+      
+      Cholin erfüllt mehrere biologisch bedeutsame Funktionen:
+      
+      **Zellmembran-Aufbau:** Phosphatidylcholin (PC) ist der wichtigste Phospholipid-Bestandteil aller Zellmembranen und macht ~40–50 % der Phospholipide in menschlichen Zellen aus. Ohne ausreichend Cholin leidet die Membranintegrität.
+      
+      **Neurotransmitter-Synthese:** Im zentralen und peripheren Nervensystem wird Cholin zu **Acetylcholin** synthetisiert – dem wichtigsten Neurotransmitter für Gedächtnis, Lernen, Motorik und das parasympathische Nervensystem. Das cholinerge System verliert mit dem Alter an Effizienz.
+      
+      **Leberstoffwechsel und Lipidexport:** Ohne ausreichend Cholin kann die Leber Fett nicht über VLDL-Partikel in den Kreislauf abgeben. Ein Cholinmangel ist eine etablierte experimentelle Methode, um bei Menschen nicht-alkoholische Fettlebererkrankung (NAFLD) zu induzieren – messbar innerhalb weniger Wochen bei cholinarmer Diät.
+      
+      **Methylierung:** Über die Abbaukette Cholin → Betain → Methionin trägt Cholin zur Methylierung von Homocystein bei. Cholinmangel kann den Homocysteinhaushalt stören, was als Risikofaktor für kardiovaskuläre Erkrankungen gilt.
+      
+      **Fetalentwicklung:** Cholin ist für die neuronale Entwicklung des Fötus essenziell. Die Hippokampus-Entwicklung, Synaptogenese und Myelinisierung hängen von ausreichend Cholin ab.
+      
+      ## Bedarf und Versorgungslage
+      
+      Die EFSA hat 2016 in einem umfassenden [Dietary Reference Values-Gutachten](https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2016.4484) Adequate Intake (AI)-Werte für Cholin festgelegt:
+      
+      | Personengruppe | AI/Tag |
+      |---|---|
+      | Erwachsene | 400 mg |
+      | Schwangere | 480 mg |
+      | Stillende | 520 mg |
+      
+      **Natürliche Quellen:** Cholin ist vor allem in tierischen Lebensmitteln konzentriert: Hühnerei (1 Ei ≈ 125 mg), Rinderleber (100 g ≈ 350 mg), Rinderhack (100 g ≈ 70 mg), Lachs (100 g ≈ 90 mg). Pflanzliche Quellen wie Soja (100 g ≈ 115 mg), Kichererbsen und Brokkoli enthalten Cholin, aber deutlich weniger pro Kalorie.
+      
+      **Versorgungslücke in der Praxis:** Auswertungen aus DACH und anderen EU-Ländern zeigen, dass ein relevanter Teil der Bevölkerung – besonders Frauen in gebärfähigem Alter, Veganer und Personen über 60 – den AI von 400 mg/Tag nicht erreicht. Vollständig pflanzliche Ernährung ohne gezielte Supplementierung ist diesbezüglich besonders risikobehaftet.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Klar belegt
+      
+      **Lebergesundheit:** Cholinmangel induziert Leberzellschäden und Fettleber beim Menschen — das ist mechanistisch gut belegt und klinisch reproduzierbar. Supplementierung reversibler Cholinspiegel normalisiert diesen Effekt.
+      
+      **Fetalentwicklung:** Studien zeigen Zusammenhänge zwischen niedriger mütterlicher Cholinzufuhr und erhöhtem Risiko für Neuralrohrdefekte, auch unabhängig von Folsäure (OR ~1,7 im untersten vs. höchstem Aufnahmequintil). Empfehlung: Schwangere sollten aktiv auf 480 mg/Tag Cholin achten.
+      
+      **Methylierung und Homocystein:** Die biochemische Verbindung zwischen Cholinzufuhr und Homocysteinmetabolismus ist gut etabliert.
+      
+      ### Gut untersucht, aber mit Einschränkungen
+      
+      **Kognition im Alter:** Beobachtungsstudien wie die Framingham-Kohorte (n=1.391) zeigen Assoziationen zwischen höherer Cholinzufuhr und besserem verbalem Gedächtnis sowie weniger weißen Substanzläsionen. Aber: Diese Studien sind observational und von Confoundern (Fleischverzehr, Bildung, Gesamternährungsqualität) schwer trennbar.
+      
+      **Alpha-GPC und CDP-Cholin für Kognition:** RCTs mit hochbioverfügbaren Cholin-Formen (Alpha-GPC, CDP-Cholin) an Personen mit leichter kognitiver Beeinträchtigung zeigen positive Effekte. Ob diese auf gesunde, gut versorgte Erwachsene übertragbar sind, ist unklar.
+      
+      ### Was nicht belegt ist
+      
+      - "Mehr Cholin = mehr Fokus" als generelle Aussage ohne Kontextbezug
+      - Kognitive Verbesserungen durch Cholinbitartrat allein (schlechte ZNS-Verfügbarkeit)
+      - Alzheimer-Prävention oder -Therapie durch Cholin-Supplementierung
+      
+      ## Supplement-Formen im Vergleich
+      
+      Nicht alle Cholin-Supplements sind gleich wirksam:
+      
+      | Form | Cholingehalt | Besonderheit |
+      |---|---|---|
+      | Cholinbitartrat | ~40 % Cholin | Günstig, schlechte Blut-Hirn-Schranken-Penetration |
+      | Phosphatidylcholin | ~15 % Cholin | Aus Sojalecithin; gut für Leber, kaum ZNS |
+      | Alpha-GPC | ~40 % Cholin | Überquert Blut-Hirn-Schranke effektiv; in klinischen Studien zu Kognition bevorzugt |
+      | CDP-Cholin (Citicolin) | ~18 % Cholin | Liefert zusätzlich Cytidin (Uridinvorläufer); gut ZNS-verfügbar |
+      
+      Für rein kognitive Zwecke sind **Alpha-GPC** und **CDP-Cholin** den günstigeren Formen vorzuziehen, wenn ZNS-Effekte das Ziel sind.
+      
+      ## Dosierung
+      
+      - **Basisversorgung:** 400 mg/Tag Cholin aus allen Quellen (Nahrung + Supplement)
+      - **Supplement bei Leberstoffwechsel-Unterstützung:** 250–500 mg Phosphatidylcholin oder Cholinbitartrat/Tag
+      - **Kognitive Studien (Alpha-GPC):** 400–1200 mg/Tag wurden in klinischen Studien verwendet
+      - **Schwangerschaft:** Mindestens 480 mg/Tag aus allen Quellen; Rücksprache mit Arzt empfohlen
+      
+      ## Sicherheit und obere Grenzen
+      
+      Die EFSA und das IOM haben obere Toleranzgrenzen (UL) für Cholin bei **3.500 mg/Tag** für Erwachsene festgelegt. Typische Supplementierungsdosen von 250–1.000 mg/Tag liegen weit darunter.
+      
+      Mögliche Nebenwirkungen bei deutlicher Überdosierung:
+      - Fischiger Körpergeruch (durch Trimethylamin-Bildung im Darm bei hohen Dosen)
+      - Hypotonie (Blutdruckabfall)
+      - Magen-Darm-Beschwerden
+      
+      Bei normaler Dosierung sind diese Effekte nicht zu erwarten.
+      
+      ## EFSA- und regulatorischer Status
+      
+      In der EU sind für Cholin **Health Claims zugelassen** (Anhang der Verordnung (EU) Nr. 432/2012):
+      - Cholin trägt zum normalen Fettstoffwechsel bei.
+      - Cholin trägt zur normalen Leberfunktion bei.
+      - Cholin trägt zum normalen Homocystein-Stoffwechsel bei.
+      
+      Diese Claims beziehen sich auf die Erhaltung normaler Körperfunktionen bei ausreichender Zufuhr – nicht auf therapeutische oder kognitive Effekte.
+      
+      ## Ehrliche Limitierungen
+      
+      - Die meisten kognitiven Studien zu Cholin sind observational; gut kontrollierte RCTs mit Cholinbitartrat bei gesunden Erwachsenen sind rar.
+      - Studien zu Alpha-GPC und CDP-Cholin sind oft klein (n &lt; 60) und an klinischen Populationen durchgeführt.
+      - Die Generalisierbarkeit auf gesunde, ausreichend versorgte Erwachsene ist unklar.
+      - Cholingehalte in Lebensmitteln sind in vielen Datenbanken unvollständig erfasst, was eine genaue Zufuhrschätzung erschwert.
+      - Individuelle Variation im PEMT-Pathway (genetischer Polymorphismus) beeinflusst den Cholin-Bedarf erheblich — ein Faktor, der in Populationsstudien selten kontrolliert wird.
+      
+      ## Fazit
+      
+      Cholin ist ein **echter Basisnährstoff** — ohne Hype, aber mit solider biologischer Substanz. Wer tierische Produkte meidet, schwanger ist oder Leberprobleme hat, sollte die eigene Zufuhr prüfen. Als kognitives Supplement ist die Form entscheidend: Cholinbitartrat überquert die Blut-Hirn-Schranke kaum; Alpha-GPC und CDP-Cholin sind hier überlegen. Wer den Grundbedarf gut aus der Ernährung deckt, profitiert wahrscheinlich wenig von zusätzlicher Supplementierung — es sei denn, eine Unterversorgung ist nachgewiesen.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: neuroprotektiv
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: methylierung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: blut-hirn-schranke
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: homocystein
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: kontraindiziert_bei
+    target: kontra-schwangerschaft
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-lebererkrankung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-blutdruckabfall
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-16816108
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:16816108"
+  - relation: basiert_auf_studie
+    target: studie-30015549
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30015549"
+  - relation: basiert_auf_studie
+    target: studie-21094641
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21094641"
+  - relation: basiert_auf_studie
+    target: studie-14695379
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:14695379"
+  - relation: hat_interaktion_mit
+    target: curcumin
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: phosphatidylserin
+    direction: incoming
+    confidence: 0.7

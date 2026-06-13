@@ -1,0 +1,109 @@
+---
+id: gotu-kola
+type: ingredient
+
+meta:
+  title:
+    de: "Gotu Kola"
+    en: "Gotu Kola"
+  aliases:
+    - "Centella asiatica"
+    - "Gotu Kola"
+    - "Tigergras"
+  category: adaptogens
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Gotu Kola gibt es in der EU keine zugelassenen Claims zu Gehirn, Haut oder Gefäßen im frei formulierten Supplement-Marketing.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "28685790"
+    title: "Centella asiatica in cognition and mood"
+    authors: "Puttarak P et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28685790/"
+    finding:
+      de: >-
+        Einige Hinweise auf kognitive und stimmungsbezogene Effekte, aber keine sehr starke Datenlage.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "24006008"
+    title: "Centella asiatica and wound healing"
+    authors: "Bylka W et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/24006008/"
+    finding:
+      de: >-
+        Traditionelle und experimentelle Daten zu Haut- und Gewebethemen sind plausibel.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "11297858"
+    title: "Pharmacology of Centella asiatica"
+    authors: "James JT et al."
+    year: 2001
+    url: "https://pubmed.ncbi.nlm.nih.gov/11297858/"
+    finding:
+      de: >-
+        Breite präklinische Aktivität, Human-Evidenz bleibt begrenzt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Gotu Kola wird für Gefäße, Haut und Gehirn diskutiert. Die Daten sind interessant, aber eher patchy als stark.
+    evidenceSummary: >-
+      Centella asiatica ist für venöse Funktion, Wundheilung, Haut und teils kognitive Themen untersucht. Es gibt positive Signale, aber die Evidenz ist uneinheitlich und insgesamt moderat.
+    body: |
+      ## Was ist Gotu Kola?
+      
+      Gotu Kola ist eine traditionelle Heilpflanze, die oft zwischen **Skin Health, Gefäßfunktion und Brain Support** verortet wird.
+      
+      ## Fazit
+      
+      Gotu Kola ist **interessant, aber noch kein klarer Front-Runner**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: haut
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28685790
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28685790"
+  - relation: basiert_auf_studie
+    target: studie-24006008
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24006008"
+  - relation: basiert_auf_studie
+    target: studie-11297858
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:11297858"

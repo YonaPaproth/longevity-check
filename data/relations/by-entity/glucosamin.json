@@ -18,24 +18,21 @@
       "target": "studie-16034828",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:16034828",
-      "note": "Cochrane-Review: Ergebnisse sind uneinheitlich und hängen u. a. von der verwendeten Glucosamin-Form ab."
+      "source": "pmid:16034828"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17062856",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17062856",
-      "note": "Große GAIT-Studie: Im Gesamtkollektiv kein überzeugender Effekt, in Teilgruppen eventuell Signale."
+      "source": "pmid:17062856"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-27144639",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27144639",
-      "note": "Einige Daten deuten auf symptomatische Vorteile hin, die Gesamtbeweislage bleibt aber gemischt."
+      "source": "pmid:27144639"
     }
   ]
 }

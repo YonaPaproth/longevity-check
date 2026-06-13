@@ -1,0 +1,229 @@
+---
+id: vitamin-c
+type: ingredient
+
+meta:
+  title:
+    de: "Vitamin C (Ascorbinsäure)"
+    en: "Vitamin C (Ascorbinsäure)"
+  aliases:
+    - "Ascorbinsäure"
+    - "Ascorbic Acid"
+    - "L-Ascorbinsäure"
+    - "Vitamin C"
+  category: antioxidants
+  evidenceLevel: "1"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 500
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat zahlreiche Health Claims für Vitamin C zugelassen: Kollagenbildung, Immunsystem, Nervensystem, Energiestoffwechsel, Verringerung von Müdigkeit, Schutz vor oxidativem Stress, Verbesserung der Eisenresorption. Tagesbedarf: 110 mg (Männer), 95 mg (Frauen).
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "29099763"
+    title: "Vitamin C and immune function"
+    authors: "Carr AC & Maggini S"
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/29099763/"
+    finding:
+      de: >-
+        Review: Vitamin C akkumuliert in Immunzellen und unterstützt Funktion von Neutrophilen, Lymphozyten und NK-Zellen. Bei Mangel deutlich reduzierte Immunabwehr.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23440782"
+    title: "Vitamin C supplementation and common cold duration: meta-analysis"
+    authors: "Hemilä H & Chalker E"
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23440782/"
+    finding:
+      de: >-
+        Cochrane-Review (29 RCTs): Regelmäßige Vitamin-C-Einnahme verkürzt Erkältungsdauer um ~8 % (Erwachsene) bis 14 % (Kinder). Verhindert Erkältungen nur bei extremer körperlicher Belastung (Marathonläufer, Soldaten).
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23675558"
+    title: "Vitamin C in disease prevention and cure: an overview"
+    authors: "Pohanka M"
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23675558/"
+    finding:
+      de: >-
+        Review: Vitamin C ist essenzieller Cofaktor für Prolyl- und Lysylhydroxylasen (Kollagensynthese) und trägt zur Regeneration von Vitamin E bei. Plasma-Spiegel spiegeln Ernährungsqualität wider.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "8644688"
+    title: "High-dose vitamin C supplementation increases the Km of ascorbate"
+    authors: "Levine M et al."
+    year: 1996
+    url: "https://pubmed.ncbi.nlm.nih.gov/8644688/"
+    finding:
+      de: >-
+        NIH-Studie: Plasmasättigung tritt bei ~200 mg/Tag auf. Höhere Dosen werden renal ausgeschieden ohne proportionalen Nutzen. Optimale Dosis für gesunde Erwachsene: 200–400 mg/Tag.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Vitamin C ist essenziell für Kollagensynthese und weitere normale Körperfunktionen. Dafür bestehen zugelassene EFSA-Claims. Megadosen zeigen über die ausreichende Versorgung hinaus keinen klaren…
+    evidenceSummary: >-
+      Vergleichsweise gute Datenlage für essenzielle Funktionen: Kollagensynthese, Immunfunktion, Eisenresorption, Antioxidans. EFSA Health Claims zugelassen. Hochdosis-Supplementierung (>1 g/Tag) hat keinen nachgewiesenen Zusatznutzen bei gut versorgten Personen und birgt Risiken.
+    body: |
+      ## Was ist Vitamin C?
+      
+      Vitamin C (Ascorbinsäure) ist ein wasserlösliches Vitamin, das Menschen – im Gegensatz zu den meisten Tieren – nicht selbst synthetisieren können. Es muss zwingend über die Nahrung aufgenommen werden.
+      
+      Es ist an einer Vielzahl physiologischer Prozesse beteiligt:
+      - **Kollagensynthese**: Cofaktor für Hydroxylasen, die Kollagen quervernetzen – essenziell für Haut, Knochen, Gefäße und Wundheilung
+      - **Immunfunktion**: Akkumuliert in weißen Blutkörperchen (bis 50× höhere Konzentration als im Plasma)
+      - **Antioxidans**: Reagiert direkt mit freien Radikalen und trägt zur Regeneration von Vitamin E bei
+      - **Eisenresorption**: Kann die Aufnahme von Non-Häm-Eisen aus pflanzlichen Quellen erhöhen
+      
+      ## Mangel in Deutschland: selten, aber existent
+      
+      Ein echter Vitamin-C-Mangel (Skorbut) ist in Deutschland extrem selten. Aber suboptimale Versorgung ist häufiger als gedacht – besonders bei Rauchern (war mit höheren Werten verbundener Verbrauch), älteren Menschen mit einseitiger Ernährung und bei sehr niedrigem Obst- und Gemüsekonsum.
+      
+      **Raucher** brauchen ~35 mg/Tag mehr als Nichtraucher – der Empfehlungswert liegt deshalb bei 135 mg/Tag für Raucher.
+      
+      ## Der Megadosen-Mythos
+      
+      Linus Pauling propagierte in den 1970ern Vitamin C in Gramm-Dosen gegen Erkältungen und Krebs. Die Forschung hat das nicht bestätigt:
+      
+      - Plasmasättigung tritt bereits bei ~200 mg/Tag auf
+      - Dosen über 500 mg/Tag werden renal ausgeschieden ohne proportionalen Plasmaspiegelanstieg
+      - Meta-Analysen zeigen keine Reduktion von Herzerkrankungen oder Krebsmortalität durch Hochdosierung
+      - Erkältungsprophylaxe nur bei extremer körperlicher Belastung belegt
+      
+      > **Fazit:** 200–500 mg/Tag aus Supplements oder Nahrung ist optimal. Mehr ist nicht besser – und ab ~2 g/Tag mit Risiken verbunden.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Klar belegt (EFSA-zugelassen)
+      - Kollagenbildung für normale Funktion von Haut, Zähnen, Zahnfleisch, Knochen und Knorpel
+      - Normale Immunfunktion
+      - Schutz vor oxidativem Stress
+      - Verbesserung der Eisenresorption aus pflanzlichen Quellen
+      
+      ### Vergleichsweise gut untersucht
+      - Erkältungsdauer-Verkürzung bei regelmäßiger Einnahme (~8 %)
+      - Verringerung von Erschöpfung (bei Mangel)
+      
+      ### Nicht belegt
+      - Orale Hochdosis-Konzepte im Krebs-Kontext
+      - Herzinfarktverhütung
+      - Alterungsforschung-Wirkung über normalen Bedarf hinaus
+      
+      ## Ist Vitamin C sicher?
+      
+      Bei 200–1.000 mg/Tag: **wahrscheinlich sicher**. Ab 2 g/Tag: Osmotische Diarrhö möglich. Ab 6 g/Tag dauerhaft: war mit höheren Werten verbundenes Nierensteinrisiko (Oxalat-Steine) bei prädisponierten Personen. Nicht zusammen mit hohen Eisenpräparaten und Chemo- oder Strahlentherapie ohne Arzt.
+      
+      ## Nahrungsquellen
+      
+      Vitamin C ist in frischen Lebensmitteln reichlich vorhanden: Paprika (200 mg/100 g), Hagebutten (400–1.300 mg/100 g), Sanddorn, Brokkoli, Kiwi, Zitrusfrüchte. Wer täglich frisches Obst und Gemüse isst, ist gut versorgt und braucht kein Supplement.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: hat_interaktion_mit
+    target: sulforaphan
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: gelenke
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: haut
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: kollagen-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: eisen
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nr
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-29099763
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:29099763"
+  - relation: basiert_auf_studie
+    target: studie-23440782
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23440782"
+  - relation: basiert_auf_studie
+    target: studie-23675558
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23675558"
+  - relation: basiert_auf_studie
+    target: studie-8644688
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:8644688"

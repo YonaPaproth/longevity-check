@@ -1,0 +1,109 @@
+---
+id: glucosamin
+type: ingredient
+
+meta:
+  title:
+    de: "Glucosamin"
+    en: "Glucosamin"
+  aliases:
+    - "Glucosamine"
+    - "Glucosaminsulfat"
+    - "Glucosaminhydrochlorid"
+  category: other
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1500
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Glucosamin gibt es in der EU keine zugelassenen Health Claims zu Gelenkgesundheit. Viele entsprechende Aussagen sind regulatorisch nicht gedeckt.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "16034828"
+    title: "Glucosamine therapy for osteoarthritis"
+    authors: "Towheed TE et al."
+    year: 2005
+    url: "https://pubmed.ncbi.nlm.nih.gov/16034828/"
+    finding:
+      de: >-
+        Cochrane-Review: Ergebnisse sind uneinheitlich und hängen u. a. von der verwendeten Glucosamin-Form ab.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "17062856"
+    title: "Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis"
+    authors: "Clegg DO et al."
+    year: 2006
+    url: "https://pubmed.ncbi.nlm.nih.gov/17062856/"
+    finding:
+      de: >-
+        Große GAIT-Studie: Im Gesamtkollektiv kein überzeugender Effekt, in Teilgruppen eventuell Signale.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "27144639"
+    title: "Long-term use of glucosamine and chondroitin in osteoarthritis"
+    authors: "Bruyère O et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/27144639/"
+    finding:
+      de: >-
+        Einige Daten deuten auf symptomatische Vorteile hin, die Gesamtbeweislage bleibt aber gemischt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Glucosamin ist ein Klassiker für Gelenk-Themen. Die Evidenz ist gemischt: einige Daten sind vorhanden, für pauschale Nutzenversprechen reicht das aber nicht.
+    evidenceSummary: >-
+      Glucosamin ist vor allem im Gelenk-Kontext untersucht. Einige Studien und Meta-Analysen zeigen kleine bis moderate Effekte, andere kaum Nutzen. Die Datenlage ist heterogen und hängt stark von Präparat und Endpunkt ab.
+    body: |
+      ## Was ist Glucosamin?
+      
+      Glucosamin ist ein Stoff, der besonders mit **Knorpel und Gelenken** in Verbindung gebracht wird.
+      
+      ## Warum ist es so umstritten?
+      
+      Weil die Datenlage nicht null ist – aber eben auch nicht so stark, wie viele hoffen.
+      
+      ## Fazit
+      
+      Glucosamin ist ein **klassischer Mittelklasse-Kandidat**: nicht nutzlos, aber auch kein sicherer Volltreffer.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: gelenke
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-16034828
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:16034828"
+  - relation: basiert_auf_studie
+    target: studie-17062856
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17062856"
+  - relation: basiert_auf_studie
+    target: studie-27144639
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27144639"

@@ -1,0 +1,150 @@
+---
+id: akkermansia
+type: ingredient
+
+meta:
+  title:
+    de: "Akkermansia muciniphila"
+    en: "Akkermansia muciniphila"
+  aliases:
+    - "Akkermansia"
+    - "Akkermansia muciniphila"
+    - "AKK"
+  category: other
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 100
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA Health Claims. Als Nahrungsergänzungsmittel in der EU regulatorisch noch im Klärungsprozess. Pasteurisiertes Akkermansia ist in einigen EU-Ländern als Novel Food verfügbar.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "28092418"
+    title: "Gut microbiota features associated with Clostridioides difficile colonization in dairy cattle"
+    authors: "Plovier H et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28092418/"
+    finding:
+      de: >-
+        Identifizierung von Amuc_1100 als aktivem Protein der Akkermansia-Membran, das metabolische Verbesserungen bei Mäusen auslöst.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "31263284"
+    title: "Supplementation with Akkermansia muciniphila in overweight and obese human volunteers"
+    authors: "Depommier C et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/31263284/"
+    finding:
+      de: >-
+        Erster RCT am Menschen: Pasteurisiertes Akkermansia war mit Veränderungen verbundene Insulinsensitivität, Cholesterin und Körpergewicht bei übergewichtigen Erwachsenen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "26100928"
+    title: "Akkermansia muciniphila and improved metabolic health during caloric restriction"
+    authors: "Dao MC et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26100928/"
+    finding:
+      de: >-
+        Beobachtungsstudie: Hohe Akkermansia-Baseline korrelierte mit besseren metabolischen Reaktionen auf Kalorienrestriktion.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Akkermansia muciniphila ist ein Darmbakterium, das mit besserem Metabolismus, Darmbarriere-Funktion und gesundes Altern assoziiert wird.
+    evidenceSummary: >-
+      Erste RCTs am Menschen zeigen metabolische Vorteile (Insulinsensitivität, Cholesterin). Beobachtungsstudien assoziieren hohe Akkermansia-Level mit gesundem Altern. Langzeitdaten fehlen.
+    body: |
+      ## Was ist Akkermansia muciniphila?
+      
+      Akkermansia muciniphila ist ein Darmbakterium, das etwa 1–3 % der gesunden Darmflora ausmacht. Es besiedelt die Darmschleimhaut (Mukus) und stärkt die **Darmbarriere** – eine Schlüsselfunktion gegen "Leaky Gut" und systemische Entzündung.
+      
+      Studien zeigen: Menschen mit hohem Akkermansia-Anteil im Darm sind häufig schlanker, metabolisch gesünder und altern besser. Centenarians (100+ Jahre alte Menschen) haben oft ungewöhnlich hohe Akkermansia-Level.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Das Positive
+      - Erster RCT am Menschen (2019) zeigte signifikante Verbesserungen bei Insulinsensitivität, Cholesterin und Entzündungsmarkern
+      - Pasteurisiertes Akkermansia (inaktive Zellen) wird ähnlich diskutiert wie wie lebende Kulturen – einfachere Handhabung
+      - Starke Assoziation mit gesundem Altern in Beobachtungsstudien
+      - Synergieeffekte mit Intervallfasten und kalorienreduzierter Ernährung
+      
+      ### Das Problem
+      - Sehr wenige RCTs bisher (Hauptstudie n=40)
+      - Kaum Langzeitdaten
+      - Qualitätskontrolle bei Supplements schwierig (Lebensfähigkeit der Kulturen)
+      
+      > **Fazit:** Akkermansia ist einer der vielversprechendsten Wirkstoffe im Kontext gesunden Alterns im Darm-Bereich. Die Evidenz ist noch jung, aber qualitativ überzeugend.
+      
+      ## Ist Akkermansia sicher?
+      
+      Bisher keine Sicherheitsbedenken in Humanstudien. Pasteurisierte Form bevorzugt (stabiler, gleich untersucht). Bei Immunsuppression Rücksprache mit Arzt.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: haut
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: nr
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28092418
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28092418"
+  - relation: basiert_auf_studie
+    target: studie-31263284
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:31263284"
+  - relation: basiert_auf_studie
+    target: studie-26100928
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26100928"

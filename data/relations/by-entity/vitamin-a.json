@@ -84,16 +84,14 @@
       "target": "studie-35129835",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:35129835",
-      "note": "Cochrane-Review: In Regionen mit Mangel reduziert Vitamin-A-Supplementierung Kindersterblichkeit und bestimmte Infektionen. Aussage vor allem für Mangelpopulationen relevant."
+      "source": "pmid:35129835"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-29058795",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29058795",
-      "note": "Review: Vitamin A reguliert angeborene und adaptive Immunität sowie Schleimhautbarrieren. Biologisch gut plausibel, aber Nutzen von Extra-Supplementen hängt stark vom Versorgungsstatus ab."
+      "source": "pmid:29058795"
     }
   ]
 }

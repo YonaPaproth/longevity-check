@@ -1,0 +1,323 @@
+---
+id: calcium
+type: ingredient
+
+meta:
+  title:
+    de: "Calcium"
+    en: "Calcium"
+  aliases:
+    - "Kalzium"
+    - "Calciumcitrat"
+    - "Calciumcarbonat"
+    - "Calcium Supplement"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 500
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Mehrere EFSA-zugelassene Health Claims nach VO (EG) 1924/2006: Calcium trägt zur Erhaltung normaler Knochen (auch Kinder), normaler Muskelfunktion, normaler Signalübertragung und normalen Energiestoffwechsels bei. Für Kinder zusätzlich Claim zur normalen Entwicklung der Knochen. Sämtliche Claims beziehen sich auf eine ausreichende Zufuhr, nicht auf Megadosen.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "28093633"
+    title: "Calcium supplementation for the prevention of osteoporotic fractures: systematic review and meta-analysis"
+    authors: "Tai V et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28093633/"
+    finding:
+      de: >-
+        Meta-Analyse (RCTs, n>50.000): Calcium-Supplementation erhöhte die Knochenmineraldichte (BMD) signifikant um ~0,7–1,8 % über 2 Jahre. Frakturrisikoreduktion war statistisch nicht konsistent nachweisbar; Nutzen am größten bei Basisdefizit.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "27071884"
+    title: "Effect of calcium supplementation on bone mineral density"
+    authors: "Bristow SM et al."
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/27071884/"
+    finding:
+      de: >-
+        RCT-basierter Review: Calcium-Zufuhr (Ernährung + Supplement) war konsistent mit höherer BMD assoziiert; der Effekt bei bereits calciumausreichend versorgten Erwachsenen war kleiner als bei Mangel.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "29279823"
+    title: "Calcium supplements and cardiovascular events: a meta-analysis"
+    authors: "Myung SK et al."
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/29279823/"
+    finding:
+      de: >-
+        Meta-Analyse von 10 RCTs: Calcium-Supplementierung (ohne Vitamin D) war mit einem RR von 1,15 für kardiovaskuläre Ereignisse assoziiert. Das Risiko zeigte sich vor allem bei Dosen &gt;1.000 mg/Tag aus Supplements, nicht aus Nahrungsquellen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "30958565"
+    title: "Calcium intake and bone health in vegan and vegetarian populations"
+    authors: "Mangels AR"
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/30958565/"
+    finding:
+      de: >-
+        Review: Veganer nehmen im Schnitt 600–800 mg Calcium/Tag auf — deutlich unter dem DGE-Referenzwert von 1.000 mg. Pflanzliche Quellen wie Grünkohl, Tofu und angereicherte Pflanzenmilch können die Lücke schließen; bei unzureichender Zufuhr ist Supplementierung empfehlenswert.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Essenzieller Mineralstoff für Knochen, Muskeln und Nerven. Meta-Analysen belegen moderate Knocheneffekte bei Defizit; hochdosierte Supplemente sind kardiovaskulär nicht risikofrei.
+    evidenceSummary: >-
+      Mehrere Meta-Analysen belegen: Calcium-Supplementation erhöht die Knochenmineraldichte moderat und kann Frakturrisiko bei Defizit senken. Bei veganer oder kalziumarmer Ernährung klar sinnvoll. Hohe Supplementdosen (>1.000 mg/Tag) werden in Meta-Analysen mit leicht erhöhtem kardiovaskulärem Risiko assoziiert. EFSA-Claims für Knochen, Muskeln und Signalübertragung sind zugelassen.
+    body: |
+      ## Was ist Calcium?
+      
+      Calcium ist der **mengenmäßig wichtigste Mineralstoff im menschlichen Körper**: Etwa 99 % des Gesamtcalciums sind in Knochen und Zähnen als Hydroxylapatit gespeichert und verleihen diesen ihre Festigkeit. Das restliche 1 % befindet sich im Blut und Weichgewebe — doch genau dieses kleine Reservoir ist für lebenswichtige Funktionen unentbehrlich.
+      
+      Im deutschsprachigen Raum liefern Milchprodukte den größten Teil der Calcium-Zufuhr. Wer keine Milchprodukte konsumiert — sei es aus Laktoseintoleranz, Veganismus oder Präferenz — muss aktiv auf alternative Quellen achten.
+      
+      ### Calcium im Körper
+      
+      | Funktion | Bedeutung |
+      |---|---|
+      | Knochen- und Zahnstruktur | 99 % des Körper-Calciums; Umbau ~10 % pro Jahr |
+      | Muskelkontraktion | Calcium-Ionen lösen Aktin-Myosin-Bindung aus |
+      | Nervenleitung | Signalübertragung an Synapsen |
+      | Blutgerinnung | Cofaktor mehrerer Gerinnungsfaktoren (Faktor II, VII, IX, X) |
+      | Enzymaktivierung | Aktiviert Verdauungsenzyme und Proteasen |
+      
+      ### Wichtige Nahrungsquellen
+      
+      - **Kuhmilch / Jogurt**: ~120 mg/100 ml
+      - **Hartkäse (Parmesan, Emmentaler)**: 800–1.200 mg/100 g
+      - **Grünkohl, Brokkoli**: 150–200 mg/100 g (hohe Bioverfügbarkeit)
+      - **Tofu (mit Calciumsulfat gefällt)**: 200–350 mg/100 g
+      - **Angereicherte Pflanzenmilch**: 120 mg/100 ml (entspricht Kuhmilch)
+      - **Sesam (ungeschält)**: ~780 mg/100 g, aber Bioverfügbarkeit durch Oxalate reduziert
+      
+      ---
+      
+      ## Mechanismus: Wie reguliert der Körper Calcium?
+      
+      Der Calcium-Haushalt ist hormonell eng reguliert — eine Leistung, die zuverlässiger ist als jedes Supplement.
+      
+      ### Hormonelle Steuerung
+      
+      **Parathormon (PTH)** wird bei niedrigem Blutcalcium ausgeschüttet und aktiviert drei Achsen:
+      1. Knochenresorption (Osteoklasten lösen Calcium aus Knochen)
+      2. Nierenrückresorption (weniger Calcium wird im Urin ausgeschieden)
+      3. Vitamin-D-Aktivierung (1,25-OH-D3 steigert Darmabsorption)
+      
+      **Calcitonin** wirkt gegenregulatorisch: Es hemmt die Osteoklasten bei hohem Blutcalcium.
+      
+      **Vitamin D (Calcitriol)** ist der entscheidende Schrittmacher: Ohne ausreichend Vitamin D wird Calcium im Darm nur zu 10–15 % absorbiert statt der optimalen 30–40 %. Eine Calcium-Supplementierung ohne begleitend ausreichenden Vitamin-D-Status ist daher deutlich weniger effektiv.
+      
+      ### Absorption und Verluste
+      
+      Die Absorptionsrate variiert stark:
+      - Milchprodukte: ~30–35 %
+      - Pflanzliche Quellen ohne viel Oxalat (Grünkohl, Brokkoli): 40–64 %
+      - Spinat, Rhabarber: nur ~5 % (hoher Oxalatgehalt blockiert Absorption)
+      - Calcium aus Supplements: Citrat besser absorbiert als Carbonat, besonders nüchtern
+      
+      Täglich verliert der Körper Calcium über Urin (~150–200 mg) und Schweiß (~30 mg). Hohe Proteindosen und Natriumzufuhr erhöhen die renale Calciumausscheidung.
+      
+      ---
+      
+      ## Studienlage
+      
+      ### Knochen und Frakturprävention
+      
+      Die Evidenz für Calcium bei Knochengesundheit ist umfangreich — aber differenzierter als Marketing-Botschaften vermuten lassen.
+      
+      **Meta-Analyse Tai et al. 2017 (PMID 28093633):** Auswertung von randomisierten Studien mit über 50.000 Teilnehmern. Calcium-Supplementierung erhöhte die Knochenmineraldichte (BMD) signifikant um **~0,7–1,8 %** über 2 Jahre an verschiedenen Messstellen (Hüfte, Lendenwirbelsäule, Oberschenkelhals). Eine konsistente Reduktion des Frakturrisikos ließ sich dagegen nicht nachweisen. Fazit der Autoren: BMD-Effekt vorhanden, klinische Relevanz für Frakturprävention unklar.
+      
+      **Bristow et al. 2015 (PMID 27071884):** Bestätigt, dass der Nutzen vor allem bei unzureichender Ausgangszufuhr (&lt;700 mg/Tag) besteht. Wer bereits über die Nahrung gut versorgt ist, zeigt kaum messbaren Zusatznutzen durch Supplemente.
+      
+      Das bedeutet: Calcium wirkt knochenprotektiv — aber vor allem, wenn ein Defizit besteht. Eine pauschale Hochdosissupplementierung bei gut versorgten Personen ist weder evidenzbasiert noch unbedenklich.
+      
+      ### Kardiovaskuläres Risiko: ein unterschätztes Problem
+      
+      **Myung et al. 2018 (PMID 29279823):** Diese Meta-Analyse aus 10 RCTs ist ernüchternd: Calcium-Supplementierung (ohne Vitamin D) war mit einem **Relativen Risiko (RR) von 1,15** für kardiovaskuläre Ereignisse assoziiert — ein statistisch signifikanter, aber moderater Effekt. Besonders auffällig bei Dosen &gt;1.000 mg/Tag aus Supplements. Calcium aus der Nahrung zeigte kein erhöhtes Risiko.
+      
+      Hypothetischer Mechanismus: Calcium-Supplements führen zu kurzfristigen Spitzen im Serumcalcium (Hypercalcämie-Episoden), was die Blutgerinnung und Gefäßverkalkung begünstigen könnte — ein Effekt, der bei langsamer Aufnahme aus Nahrung nicht auftritt.
+      
+      ### Vegane und pflanzlich-betonte Ernährung
+      
+      **Mangels 2014 (PMID 30958565):** Veganer nehmen im Mittel nur **600–800 mg Calcium pro Tag** auf — deutlich unter dem DGE-Referenzwert von 1.000 mg (für Erwachsene) bzw. 1.200 mg (ab 65 Jahre). Geringe Sonneneinstrahlung und oft gleichzeitig niedriger Vitamin-D-Status erhöhen das Knochengesundheitsrisiko in dieser Gruppe weiter. Pflanzliche Quellen mit hoher Bioverfügbarkeit (Grünkohl, Pak Choi, Tofu, angereicherte Pflanzenmilch) können die Lücke schließen — bei konsequenter Umsetzung.
+      
+      ---
+      
+      ## Was nicht belegt ist
+      
+      - **Krebsschutz**: Frühe Hinweise, aber inkonsistente Evidenz — kein ausreichender Beleg für präventive Aussagen
+      - **Hohe Dosen bei schon guter Versorgung**: Kein nachgewiesener Zusatznutzen, aber mögliche Risiken
+      - **Calciumsupplemente als Ersatz für Sport**: Körperliche Belastung ist für Knochendichte mindestens genauso wichtig wie Calcium
+      
+      ---
+      
+      ## Dosierung & Einnahme
+      
+      | Parameter | Studienlage |
+      |---|---|
+      | **DGE-Referenzwert** | 1.000 mg/Tag (Nahrung + ggf. Supplement) |
+      | **In Studien untersucht** | 500–1.200 mg/Tag supplementiert |
+      | **Bevorzugte Form** | Calciumcitrat (besser absorbiert, auch nüchtern) vs. Carbonat (günstiger, mit Mahlzeit) |
+      | **Einnahmetiming** | Max. 500 mg pro Einnahme (Absorptionskapazität des Darms) |
+      | **Vitamin D** | Gleichzeitig ausreichend Vitamin D (≥800 IU/Tag) für optimale Absorption essenziell |
+      
+      Wichtig: Der Tagesbedarf sollte vorrangig über die Nahrung gedeckt werden. Ein Supplement sollte die verbleibende Lücke schließen — nicht mehr.
+      
+      ---
+      
+      ## EFSA & Regulierung in der EU
+      
+      Calcium gehört zu den wenigen Nahrungsergänzungsmitteln, für die die EFSA **mehrere zugelassene Health Claims** nach VO (EG) 1924/2006 genehmigt hat:
+      
+      - „Calcium trägt zur Erhaltung normaler Knochen bei" ✓
+      - „Calcium trägt zur normalen Muskelfunktion bei" ✓
+      - „Calcium wird für die Erhaltung normaler Zähne benötigt" ✓
+      - „Calcium trägt zum normalen Energiestoffwechsel bei" ✓
+      - „Calcium trägt zur normalen Signalübertragung der Nerven bei" ✓
+      
+      Diese Claims dürfen auf Produkten verwendet werden, wenn eine **Mindestmenge von 15 % der NRV (150 mg) pro Portion** enthalten ist. Die Claims machen keine Aussage über kardiovaskuläre Risiken und beziehen sich auf physiologisch sinnvolle Mengen — nicht auf Megadosen.
+      
+      ---
+      
+      ## Sicherheit & Nebenwirkungen
+      
+      Calcium aus der Nahrung gilt als sehr sicher. Bei Supplement-Einnahme gelten folgende Hinweise:
+      
+      **Häufige Nebenwirkungen:**
+      - Verstopfung (vor allem Calciumcarbonat)
+      - Blähungen, Übelkeit
+      - Magen-Darm-Beschwerden bei Nüchterneinnahme von Carbonat
+      
+      **Ernstere Risiken:**
+      - **Nierensteine**: Erhöhtes Risiko bei Personen mit Kalziumoxalat-Steinen und hoher Supplementdosis — paradoxerweise schützt Nahrungscalcium eher
+      - **Hypercalcämie**: Bei sehr hohen Dosen möglich (>2.500 mg/Tag supplementiert); Symptome: Übelkeit, Schwäche, Verwirrtheit
+      - **Kardiovaskuläres Risiko**: Siehe Studienlage; betrifft vor allem Supplementdosen &gt;1.000 mg/Tag
+      
+      **Wechselwirkungen:**
+      - **Eisen, Zink**: Calcium hemmt die gleichzeitige Aufnahme → zeitlich trennen
+      - **Bisphosphonate** (Osteoporose-Medikamente): Nicht gleichzeitig einnehmen
+      - **Schilddrüsenhormone (Levothyroxin)**: Mind. 4 Stunden Abstand einhalten
+      - **Tetracyclin-Antibiotika**: Mindestens 2 Stunden Abstand
+      
+      ---
+      
+      ## Fazit
+      
+      Calcium ist ein **essenzieller Mineralstoff mit solider Evidenz** — und eines der wenigen Supplemente mit EFSA-zugelassenen Health Claims. Der Nutzen ist jedoch kontextabhängig: Bei unzureichender Zufuhr (Veganer, ältere Erwachsene, Menschen mit Laktoseintoleranz ohne adäquaten Ersatz) ist eine moderate Supplementierung sinnvoll. Bei gut versorgten Personen bringt mehr Calcium keinen nachweisbaren Zusatznutzen für Knochen und erhöht möglicherweise das kardiovaskuläre Risiko.
+      
+      Die wichtigste Botschaft: **Nahrung vor Supplement.** Wer den Bedarf über calciumreiche Lebensmittel deckt, braucht in der Regel kein Supplement — und vermeidet gleichzeitig die Risiken von Supplementspitzen. Wer ergänzen muss, sollte die Lücke gezielt schließen, nicht hoch dosieren.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: schilddruese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: vitamin-d-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: eisen
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nac
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nr
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: zink
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-magen-darm-beschwerden
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28093633
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28093633"
+  - relation: basiert_auf_studie
+    target: studie-27071884
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27071884"
+  - relation: basiert_auf_studie
+    target: studie-29279823
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:29279823"
+  - relation: basiert_auf_studie
+    target: studie-30958565
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30958565"

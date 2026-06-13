@@ -30,24 +30,21 @@
       "target": "studie-17336393",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17336393",
-      "note": "Review: viele präklinische Daten, aber wenig robuste Human-Endpunkte."
+      "source": "pmid:17336393"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-26058794",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26058794",
-      "note": "Cochrane-nahe Bewertung: klinische Evidenz bleibt schwach."
+      "source": "pmid:26058794"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21438650",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21438650",
-      "note": "Biologisch plausibel, aber nicht gleichbedeutend mit starkem Supplement-Nutzen."
+      "source": "pmid:21438650"
     }
   ]
 }

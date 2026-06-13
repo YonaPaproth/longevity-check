@@ -1,0 +1,148 @@
+---
+id: vitamin-b2
+type: ingredient
+
+meta:
+  title:
+    de: "Vitamin B2 (Riboflavin)"
+    en: "Vitamin B2 (Riboflavin)"
+  aliases:
+    - "Riboflavin"
+    - "Vitamin B2"
+    - "Lactoflavin"
+  category: other
+  evidenceLevel: "2"
+  safety_rating: safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 100
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Riboflavin sind in der EU Health Claims zu Energiestoffwechsel, Nervensystem, roten Blutkörperchen, Haut, Sehkraft und Schutz vor oxidativem Stress zugelassen. Diese Claims betreffen die normale Funktion.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "9484373"
+    title: "Effectiveness of high-dose riboflavin in migraine prophylaxis"
+    authors: "Schoenen J et al."
+    year: 1998
+    url: "https://pubmed.ncbi.nlm.nih.gov/9484373/"
+    finding:
+      de: >-
+        RCT: 400 mg Riboflavin pro Tag reduzierten Migräneattacken gegenüber Placebo. Einer der bekanntesten klinischen Einsatzbereiche von hochdosiertem B2.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "12791609"
+    title: "Riboflavin"
+    authors: "Powers HJ"
+    year: 2003
+    url: "https://pubmed.ncbi.nlm.nih.gov/12791609/"
+    finding:
+      de: >-
+        Review zu Biochemie, Bedarf und Mangelsymptomen von Riboflavin. B2 ist für Redoxreaktionen und Energiegewinnung essenziell.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28273806"
+    title: "Riboflavin deficiency in the developed world"
+    authors: "Pinto JT et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28273806/"
+    finding:
+      de: >-
+        Review: Auch in Industrieländern kann ein suboptimaler B2-Status vorkommen, jedoch meist ohne dramatische klinische Symptome.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Vitamin B2 ist essenziell für Energiestoffwechsel und antioxidative Enzyme. Wirklich interessant vor allem bei Mangel und möglicherweise zur Migräne-Prävention.
+    evidenceSummary: >-
+      Riboflavin ist als essenzieller Nährstoff vergleichsweise gut untersucht. Darüber hinaus gibt es brauchbare Evidenz für hochdosiertes Riboflavin zur Migräneprophylaxe. Für allgemeine Alterungsforschung- oder Leistungs-Effekte bei gut versorgten Erwachsenen fehlen überzeugende Daten.
+    body: |
+      ## Was ist Vitamin B2?
+      
+      Vitamin B2, auch **Riboflavin**, ist ein wasserlösliches Vitamin. Es ist Bestandteil der Coenzyme **FAD** und **FMN**, die in zahllosen Stoffwechselreaktionen gebraucht werden.
+      
+      Kurz gesagt: Ohne B2 läuft der zelluläre Energiestoffwechsel nicht sauber.
+      
+      ## Was ist vergleichsweise gut untersucht?
+      
+      - **Essenzieller Nährstoff** für Energieproduktion
+      - Rolle bei Haut, Schleimhäuten und roten Blutkörperchen
+      - Beitrag zum antioxidativen System
+      - **Migräneprophylaxe** in hoher Dosierung bei manchen Betroffenen
+      
+      ## Was ist nicht vergleichsweise gut untersucht?
+      
+      - Mehr Energie bei normal versorgten Erwachsenen
+      - gesundes-Alten-Nutzen durch Extra-Supplemente
+      - Generelle Leistungssteigerung ohne Mangel
+      
+      ## Sicherheitsprofil
+      
+      Riboflavin gilt als **sehr sicher**. Selbst hohe Dosen werden meist gut vertragen. Typisch ist nur ein intensiv gelber Urin – harmlos, aber auffällig.
+      
+      ## Fazit
+      
+      Vitamin B2 ist in erster Linie ein **solider Basisnährstoff**. Für die meisten Menschen ist es nur dann als Supplement spannend, wenn ein Mangel vorliegt oder Migräne ein Thema ist.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: haut
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: migraene
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-9484373
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:9484373"
+  - relation: basiert_auf_studie
+    target: studie-12791609
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12791609"
+  - relation: basiert_auf_studie
+    target: studie-28273806
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28273806"

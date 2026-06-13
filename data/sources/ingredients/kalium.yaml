@@ -1,0 +1,129 @@
+---
+id: kalium
+type: ingredient
+
+meta:
+  title:
+    de: "Kalium"
+    en: "Kalium"
+  aliases:
+    - "Potassium"
+    - "Kaliumcitrat"
+    - "Kaliumchlorid"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: caution
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 300
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Kalium sind in der EU Claims zu normalem Blutdruck, Muskelfunktion und Nervensystem zugelassen. Aufgrund möglicher Risiken ist Kalium regulatorisch und praktisch sensibler als viele andere Mineralstoffe.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "23635871"
+    title: "Increased potassium intake to reduce blood pressure and cardiovascular risk"
+    authors: "Aburto NJ et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23635871/"
+    finding:
+      de: >-
+        WHO-nahe Meta-Analyse: Höhere Kaliumzufuhr war mit niedrigeren Werten verbunden Blutdruck, besonders bei Menschen mit Hypertonie.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "25159881"
+    title: "Potassium intake and all-cause mortality"
+    authors: "O'Donnell M et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/25159881/"
+    finding:
+      de: >-
+        Die optimale Kaliumzufuhr hängt vom Kontext ab; Extreme sind nicht automatisch besser.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: ""
+    title: "Potassium"
+    authors: "Office of Dietary Supplements, NIH"
+    year: 2022
+    url: "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
+    finding:
+      de: >-
+        Übersicht zu Nutzen und Risiken. Problematisch vor allem bei Nierenerkrankungen oder bestimmten Medikamenten.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Kalium ist essenziell für Blutdruck, Nerven und Muskeln. Über Ernährung oft wichtiger als als Supplement – und bei Überdosierung potenziell riskant.
+    evidenceSummary: >-
+      Kalium ist essenziell für Blutdruckregulation, Nervenleitung und Muskelkontraktion. Eine kaliumreiche Ernährung ist vergleichsweise gut untersucht mit kardiovaskulären Vorteilen assoziiert. Supplemente sind jedoch nicht für jeden geeignet und können bei Nierenproblemen gefährlich werden.
+    body: |
+      ## Was ist Kalium?
+      
+      Kalium ist ein zentraler Elektrolyt für:
+      - Blutdruckregulation
+      - Nervenleitung
+      - Muskel- und Herzfunktion
+      
+      In der Praxis ist Kalium oft eher ein **Ernährungs-** als ein Supplement-Thema.
+      
+      ## Was ist vergleichsweise gut untersucht?
+      
+      - Kaliumreiche Ernährung unterstützt normalen Blutdruck
+      - Essenziell für Herz- und Muskelfunktion
+      
+      ## Wichtige Warnung
+      
+      Kalium ist nicht harmlos in hoher Dosis, vor allem bei:
+      - Nierenerkrankungen
+      - ACE-Hemmern/ARBs
+      - kaliumsparenden Diuretika
+      
+      ## Fazit
+      
+      Kalium ist wichtig, aber eher etwas, das man **über Lebensmittel optimiert** statt blind als Hochdosis-Supplement einzusetzen.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-nierenerkrankung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-23635871
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23635871"
+  - relation: basiert_auf_studie
+    target: studie-25159881
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25159881"

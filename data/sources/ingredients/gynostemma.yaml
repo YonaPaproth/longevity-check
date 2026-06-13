@@ -1,0 +1,156 @@
+---
+id: gynostemma
+type: ingredient
+
+meta:
+  title:
+    de: "Gynostemma (Jiaogulan)"
+    en: "Gynostemma (Jiaogulan)"
+  aliases:
+    - "Gynostemma pentaphyllum"
+    - "Jiaogulan"
+    - "Southern Ginseng"
+    - "Gynostemma"
+  category: adaptogens
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 450
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA Health Claims. In Europa als Kräutertee und Supplement erhältlich. Regulatorisch unkompliziert, da traditionelles Lebensmittel.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "21062282"
+    title: "Gynostemma pentaphyllum extract activates AMPK and improves insulin resistance"
+    authors: "Nguyen PH et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21062282/"
+    finding:
+      de: >-
+        Gynostemma-Extrakt aktivierte AMPK in Fett- und Muskelzellen, vergleichbar mit Metformin – ohne bekannte Nebenwirkungen des Arzneimittels.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "22784345"
+    title: "Effect of Gynostemma pentaphyllum tea on metabolism in obese subjects"
+    authors: "Müller C et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22784345/"
+    finding:
+      de: >-
+        RCT: Gynostemma-Tee war mit Veränderungen verbundene Insulinsensitivität und war mit niedrigeren Werten verbundene Nüchternblutzucker bei adipösen Probanden nach 8 Wochen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "19628196"
+    title: "Gynostemma pentaphyllum and lipid-lowering effects"
+    authors: "Olsson EM et al."
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19628196/"
+    finding:
+      de: >-
+        Humanpilot: Gynostemma war mit niedrigeren Werten verbundene LDL-Cholesterin und Triglyzeride nach 4 Wochen bei Personen mit leicht war mit höheren Werten verbundenen Blutfettwerten.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Gynostemma ist ein adaptogenes Kraut aus Südostasien, das AMPK aktiviert – ähnlich wie Metformin – und mit gesundes Altern-Populationen in China assoziiert wird.
+    evidenceSummary: >-
+      Gynostemma aktiviert AMPK in Tier- und Zellstudien. Humanstudien zeigen positive Effekte auf Blutfette, Blutzucker und Entzündungsmarker. Keine gesundes Altern-RCTs beim Menschen.
+    body: |
+      ## Was ist Gynostemma?
+      
+      Gynostemma pentaphyllum – auf Chinesisch **Jiaogulan** – ist ein Kletterkraut aus Südostasien, das in der Region Guizhou (China) angebaut wird, wo überdurchschnittlich viele Hundertjährige leben. Es wird dort seit Jahrhunderten als Tee getrunken.
+      
+      Der entscheidende Mechanismus: Gynostemma enthält **Gypenoside**, die den Energie-Sensor **AMPK** (AMP-aktivierte Proteinkinase) aktivieren. AMPK ist ein zentraler Regulator von Stoffwechsel und Zellalterung – derselbe Signalweg, der durch Metformin, Intervallfasten und Sport aktiviert wird.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Das Positive
+      - AMPK-Aktivierung ist einer der stärksten und am besten belegten gesundes-Alten-Mechanismen
+      - Humanstudien zeigen Verbesserung von Blutzucker, Insulinsensitivität und Blutfetten
+      - Traditionelle Verwendung über Jahrhunderte ohne bekannte Schäden
+      - Preiswert (als Tee sehr günstig)
+      
+      ### Das Problem
+      - Humanstudien meist klein und kurzfristig
+      - Wirkstoff-Standardisierung bei Supplements variiert stark
+      - Keine direkten Endpunkte zu gesundem Altern beim Menschen
+      - AMPK-Aktivierung allein garantiert kein längeres Leben
+      
+      > **Fazit:** Gynostemma ist ein unterschätztes Adaptogen mit klarem Mechanismus (AMPK) und positiver Humanevidenz. Als Tee eine sehr kostengünstige Möglichkeit, metabolische Gesundheit zu unterstützen.
+      
+      ## Ist Gynostemma sicher?
+      
+      In traditioneller Verwendung als Tee seit Jahrhunderten sicher. Bei sehr hohen Dosen mögliche GI-Beschwerden. Vorsicht bei Autoimmunerkrankungen (immunmodulierende Wirkung). Nicht in der Schwangerschaft.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: ampk-aktivierung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: kontraindiziert_bei
+    target: kontra-schwangerschaft
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-autoimmunerkrankung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-21062282
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21062282"
+  - relation: basiert_auf_studie
+    target: studie-22784345
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22784345"
+  - relation: basiert_auf_studie
+    target: studie-19628196
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19628196"

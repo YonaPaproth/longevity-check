@@ -5,8 +5,7 @@
       "relation": "hat_interaktion_mit",
       "target": "apigenin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Das ist ein komplementärer Ansatz zu **NMN oder NR** (die NAD+ von der Synthese-Seite erhöhen)."
+      "confidence": 0.7
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -61,40 +60,35 @@
       "target": "studie-32283153",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32283153",
-      "note": "NMN war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene Gefäßfunktion bei alten Mäusen – kein Humanversuch."
+      "source": "pmid:32283153"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-31685720",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:31685720",
-      "note": "Erste Humanpilot-Studie (n=10): NMN wurde sicher aufgenommen und war mit höheren Werten verbundene Blut-NAD+-Metaboliten. Keine klinischen Endpunkte bewertet."
+      "source": "pmid:31685720"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28068222",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28068222",
-      "note": "Klassische Tierstudie: NMN war mit Veränderungen verbundene Muskelfunktion, Energiestoffwechsel und Insulinsensitivität bei alten Mäusen. Nicht auf Menschen übertragbar."
+      "source": "pmid:28068222"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-42135539",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:42135539",
-      "note": "NAD+-Spiegel im Vollblut variieren weder mit dem Alter noch mit Lebensstilinterventionen – stellt die Grundannahme vieler NAD+-Supplement-Versprechen infrage."
+      "source": "pmid:42135539"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-42143976",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:42143976",
-      "note": "Tier-/Zellstudie (kein Humanversuch): NMN hemmte in Hypoxie-Modellen Ferroptose in Mikrogliazellen über den Sirt1/Nrf2/HO-1-Signalweg und schützte vor kognitiven Defiziten. Mechanistisch interessant, "
+      "source": "pmid:42143976"
     }
   ]
 }

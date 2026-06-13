@@ -1,0 +1,115 @@
+---
+id: flohsamenschalen
+type: ingredient
+
+meta:
+  title:
+    de: "Flohsamenschalen (Psyllium)"
+    en: "Flohsamenschalen (Psyllium)"
+  aliases:
+    - "Psyllium"
+    - "Flohsamenschalen"
+    - "Plantago ovata"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 5000
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für bestimmte Ballaststoff-bezogene Wirkungen bestehen in der EU teils zugelassene Claims, abhängig von Produkt und Dosierung. Psyllium ist regulatorisch deutlich solider als viele Lifestyle-Supplements.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "10837282"
+    title: "The effect of psyllium on serum lipids"
+    authors: "Anderson JW et al."
+    year: 2000
+    url: "https://pubmed.ncbi.nlm.nih.gov/10837282/"
+    finding:
+      de: >-
+        Meta-analytische Daten zeigen moderate LDL-Senkung durch Psyllium.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "25743043"
+    title: "Psyllium fiber improves bowel function"
+    authors: "McRorie JW"
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/25743043/"
+    finding:
+      de: >-
+        Psyllium ist für Stuhlregulation gut untersucht und klinisch praktisch relevant.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23990470"
+    title: "Soluble fiber and glycemic control"
+    authors: "Silva FM et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23990470/"
+    finding:
+      de: >-
+        Lösliche Ballaststoffe wie Psyllium können Glukoseparameter moderat mit Veränderungen in Verbindung bringen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Psyllium ist ein gut untersuchter Ballaststoff für Verdauung; auch Cholesterin- und Blutzuckermarker werden untersucht. Wenig Hype, aber praktisch relevant.
+    evidenceSummary: >-
+      Psyllium ist ein sehr vergleichsweise gut untersuchter löslicher Ballaststoff. Es war mit Veränderungen verbunden Stuhlregulation und kann moderate Vorteile bei LDL-Cholesterin und Blutzuckerparametern bringen. Für einen unspektakulären Stoff ist die Evidenz bemerkenswert stark.
+    body: |
+      ## Was ist Psyllium?
+      
+      Flohsamenschalen sind ein löslicher Ballaststoff. Sie quellen im Darm auf und verbessern dadurch Stuhlregulation und Sättigung.
+      
+      ## Warum ist das so interessant?
+      
+      Weil Psyllium einer dieser Stoffe ist, die:
+      - nicht sexy wirken
+      - aber tatsächlich ordentlich funktionieren
+      
+      ## Fazit
+      
+      Psyllium ist **low hype, high utility**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-10837282
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:10837282"
+  - relation: basiert_auf_studie
+    target: studie-25743043
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25743043"
+  - relation: basiert_auf_studie
+    target: studie-23990470
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23990470"

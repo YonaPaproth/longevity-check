@@ -36,24 +36,21 @@
       "target": "studie-16614413",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:16614413",
-      "note": "Mechanistische und präklinische Daten legen Mitochondrien-Bezug nahe."
+      "source": "pmid:16614413"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22805162",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22805162",
-      "note": "Kleine Humanstudien zeigen Signale bei Müdigkeit und Entzündungsmarkern, aber keine starke Beweislast."
+      "source": "pmid:22805162"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19321502",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19321502",
-      "note": "Review: biologisch spannend, aber nicht ausreichend validiert für große Supplement-Versprechen."
+      "source": "pmid:19321502"
     }
   ]
 }

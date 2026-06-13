@@ -53,15 +53,13 @@
       "relation": "hat_interaktion_mit",
       "target": "l-tryptophan",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Es wird aus L-Tryptophan (aus der Nahrung) synthetisiert und ist der letzte Schritt vor der Serotoninbildung."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nr",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": ")\n- SNRIs (Venlafaxin, Duloxetin)\n- MAO-Hemmern (Tranylcypromin, Moclobemid)\n- Tramadol, Triptanen (Migränemittel)\n- Lithium, Linezolid\n\nDas Serotonin-Syndrom ist ein potenziell lebensbedrohlicher Zus"
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -98,32 +96,28 @@
       "target": "studie-16716930",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:16716930",
-      "note": "Review: 5-HTP überquert Blut-Hirn-Schranke effizient und war mit höheren Werten verbunden zentralnervöse Serotoninsynthese. Klinische Studien zeigen antidepressive Wirkung vergleichbar mit Fluvoxamin "
+      "source": "pmid:16716930"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-9727088",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:9727088",
-      "note": "Review klinischer Daten: 5-HTP untersucht bei depressive Symptome, Schlaf-Problemen, Fibromyalgie und Adipositas in RCTs. Klare Warnung: nicht mit MAO-Hemmern oder SSRIs kombinieren (Serotonin-Syndrom"
+      "source": "pmid:9727088"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-4424806",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:4424806",
-      "note": "RCT: 5-HTP wird im Zusammenhang mit Alterungsforschung diskutierte REM-Schlafphasen und war mit Veränderungen verbundene Schlafqualität. Basis für Schlaf-Indikation."
+      "source": "pmid:4424806"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28077136",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28077136",
-      "note": "Review: Unter pflanzlichen Supplements zeigt 5-HTP die konsistenteste antidepressive Evidenz, mit moderaten Effektgrößen in mehreren Studien der 1990er bis 2000er Jahre."
+      "source": "pmid:28077136"
     }
   ]
 }

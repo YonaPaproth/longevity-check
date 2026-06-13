@@ -1,0 +1,204 @@
+---
+id: taurin
+type: ingredient
+
+meta:
+  title:
+    de: "Taurin"
+    en: "Taurin"
+  aliases:
+    - "Taurine"
+    - "2-Aminoethansulfonsäure"
+  category: metabolic
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 2000
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA Health Claims für Taurin als gesundes-Alten-Supplement. In Energie-Drinks (Red Bull) ist Taurin als Zusatzstoff zugelassen, aber ohne Health-Claim-Grundlage. Als NEM in der EU frei erhältlich.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "37289866"
+    title: "Taurine deficiency as a driver of aging"
+    authors: "Singh P et al."
+    year: 2023
+    url: "https://pubmed.ncbi.nlm.nih.gov/37289866/"
+    finding:
+      de: >-
+        Science 2023: Taurinspiegel sinken mit dem Alter um 80–90 % (Maus, Affe, Mensch). Supplementierung wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne bei Mäusen um ~12 % und war mit Veränderungen verbundene Gesundheitsmarker bei Affen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "24349057"
+    title: "Taurine: A very essential amino acid"
+    authors: "Menzie J et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/24349057/"
+    finding:
+      de: >-
+        Review: Taurin ist in nahezu jedem Gewebe vorhanden, besonders in Herz, Gehirn, Retina und Skelettmuskel. Funktion als Osmolyt, Antioxidans und Membranstabilisator.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "26781281"
+    title: "Taurine supplementation lowers blood pressure and improves vascular function in prehypertension"
+    authors: "Sun Q et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26781281/"
+    finding:
+      de: >-
+        RCT (n=120): 1,6 g Taurin/Tag über 12 Wochen war mit niedrigeren Werten verbundene systolischen Blutdruck um 7,2 mmHg, war mit Veränderungen verbundene Gefäßfunktion.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "11953940"
+    title: "Effects of taurine on plasma lipid levels in post-menopausal women"
+    authors: "Militante JD & Lombardini JB"
+    year: 2002
+    url: "https://pubmed.ncbi.nlm.nih.gov/11953940/"
+    finding:
+      de: >-
+        Taurin war mit niedrigeren Werten verbunden Triglyceride und war mit Veränderungen verbunden LDL-Oxidation. Kardioprotektive Effekte in mehreren kleinen Studien belegt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Taurin ist eine Aminosäure mit zentraler Rolle im Energiestoffwechsel. Tier- und Beobachtungsdaten haben die Alterungsforschung befeuert; belastbare Humanbelege sind deutlich begrenzter.
+    evidenceSummary: >-
+      Ein hochrangiges Science-Paper (2023) zeigt Taurinmangel als Treiber von Alterungshallmarks in Mäusen und Makaken. Ergänzung wird im Zusammenhang mit Alterungsforschung diskutierte Lebenserwartung bei Mäusen um ~12 %. Erste Humanpilotdaten vorhanden. RCTs beim gesunden Menschen fehlen.
+    body: |
+      ## Was ist Taurin?
+      
+      Taurin ist eine schwefelhaltige Aminosäure – genauer gesagt eine **Aminosulfonsäure** – die der Körper selbst produziert und die in fast allen Geweben in hoher Konzentration vorliegt. Sie ist besonders reichhaltig in Herz, Gehirn, Retina und Skelettmuskel.
+      
+      Taurin ist keine proteinogene Aminosäure (wird also nicht in Proteine eingebaut), hat aber fundamentale Funktionen: als **Osmolyt** (reguliert den Wasserhaushalt der Zellen), als **Antioxidans**, als **Membranstabilisator** und als Regulator des Kalzium- und Taurinspiegels im Herzgewebe.
+      
+      ## Das 2023-Paper das alles veränderte
+      
+      Im Juni 2023 veröffentlichte eine internationale Forschergruppe in der Zeitschrift *Science* einen bahnbrechenden Befund: **Taurinspiegel sinken mit dem Alter** – bei Mäusen, Makaken und Menschen – um 80–90 %. Und dieser Mangel ist nicht nur Begleiterscheinung, sondern aktiver **Treiber von Alterungsprozessen**.
+      
+      Die Kernergebnisse der Studie:
+      - Taurinsupplementierung verlängerte die Lebensspanne bei Mäusen um **~12 %** (Weibchen ~18 %)
+      - Verbesserte Knochen-, Muskel-, Darm- und metabolische Gesundheit bei älteren Mäusen und Makaken
+      - Bei älteren Menschen: niedrige Taurinspiegel korrelieren mit Adipositas, Stoffwechselauffälligkeiten und Entzündungsmarkern
+      - Ein kurzes Ausdauer-Experiment zeigte, dass Sport Taurinspiegel beim Menschen war mit höheren Werten verbunden
+      
+      > Diese Studie macht Taurin zu einem der interessantesten gesundes-Alten-Kandidaten des Jahrzehnts. Die Humankausalität ist aber noch nicht bewiesen.
+      
+      ## Was sagen weitere Studien?
+      
+      ### Belegt
+      - Blutdrucksenkung: RCT zeigt ~7 mmHg systolisch bei Prehypertonie
+      - Insulinsensitivität und Glukosestoffwechsel: Mehrere kleinere Studien positiv
+      - Herzfunktion: Taurin ist essenziell für Herzmuskelkontraktilität
+      
+      ### Früh/präklinisch
+      - Direkte Lebensverlängerung beim gesunden Menschen (noch kein RCT)
+      - Neurokognitive Schutzwirkung
+      
+      ## Taurin in Energy Drinks?
+      
+      Ja – Red Bull enthält 1.000 mg Taurin pro Dose. Aber: Die Wirkung kommt vom **Koffein**, nicht vom Taurin. Die Datenlage zu Energy-Drink-Taurin ist durch die Kombination mit Koffein und Zucker nicht auf reines Taurin-Supplementing übertragbar.
+      
+      ## Ist Taurin sicher?
+      
+      Bei bis zu 3 g/Tag gilt Taurin als **wahrscheinlich sicher**. Selbst 6 g/Tag wurden in Studien ohne ernsthafte Nebenwirkungen vertragen. Keine bekannten relevanten Wechselwirkungen.
+      
+      ## Quellen
+      
+      Taurin kommt reichlich in Fleisch, Fisch und Meeresfrüchten vor. Veganer haben in Studien oft niedrigere Taurinspiegel – ein möglicher Unterschied im Kontext gesunden Alterns, der aber noch unzureichend untersucht ist.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: augen
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: blutdruck-werte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-37289866
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:37289866"
+  - relation: basiert_auf_studie
+    target: studie-24349057
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24349057"
+  - relation: basiert_auf_studie
+    target: studie-26781281
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26781281"
+  - relation: basiert_auf_studie
+    target: studie-11953940
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:11953940"

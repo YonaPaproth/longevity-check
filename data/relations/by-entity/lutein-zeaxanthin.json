@@ -54,32 +54,28 @@
       "target": "studie-23644932",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23644932",
-      "note": "RCT (n=4.203): Lutein+Zeaxanthin reduzierten das Risiko einer AMD-Progression um 25 % und ersetzten beta-Carotin im AREDS-Supplement (Lungenkrebs-Risiko bei Rauchern). Goldstandard-Studie."
+      "source": "pmid:23644932"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-7933422",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:7933422",
-      "note": "Große Kohortenstudie: Höchste Lutein/Zeaxanthin-Aufnahme assoziiert mit 43 % niedrigerem AMD-Risiko. Grundlage für AREDS2-Studie."
+      "source": "pmid:7933422"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20660279",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20660279",
-      "note": "RCT: Lutein+Zeaxanthin war mit höheren Werten verbundenen Makulapigment-Optische Dichte (MPOD) signifikant und war mit Veränderungen verbundenen Kontrastsehen, Blendempfindlichkeit und Erholung nach L"
+      "source": "pmid:20660279"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24452721",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24452721",
-      "note": "Review: Lutein+Zeaxanthin reichern sich nicht nur in der Retina, sondern auch im Gehirn an. Höhere MPOD-Werte korrelieren mit besserem Gedächtnis und kognitiver Geschwindigkeit."
+      "source": "pmid:24452721"
     }
   ]
 }

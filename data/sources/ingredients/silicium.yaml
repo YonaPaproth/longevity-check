@@ -1,0 +1,120 @@
+---
+id: silicium
+type: ingredient
+
+meta:
+  title:
+    de: "Silicium"
+    en: "Silicium"
+  aliases:
+    - "Silicon"
+    - "Kieselsäure"
+    - "Silica"
+    - "Orthokieselsäure"
+  category: other
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 10
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Silicium bestehen in der EU keine belastbaren zugelassenen Health Claims für Beauty- oder Bindegewebsversprechen. Viele Aussagen sind eher Marketing als solide Regulierung.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "17435952"
+    title: "The role of silicon in bone formation and maintenance"
+    authors: "Jugdaohsingh R"
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17435952/"
+    finding:
+      de: >-
+        Review: Silicium ist biologisch plausibel für Knochen und Bindegewebe, aber die klinische Evidenz bleibt begrenzt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "15701098"
+    title: "Oral intake of choline-stabilized orthosilicic acid affects skin, nails and hair"
+    authors: "Barel A et al."
+    year: 2005
+    url: "https://pubmed.ncbi.nlm.nih.gov/15701098/"
+    finding:
+      de: >-
+        Kleine Studie mit Hinweisen auf Verbesserungen bei Haut und fragilen Haaren. Aussagekraft begrenzt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "18197562"
+    title: "Silicon: a review of its potential role in the prevention and treatment of postmenopausal osteoporosis"
+    authors: "Spector TD et al."
+    year: 2008
+    url: "https://pubmed.ncbi.nlm.nih.gov/18197562/"
+    finding:
+      de: >-
+        Review: Potenzial vorhanden, aber klare klinische Belege fehlen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Silicium wird für Haut, Haare, Nägel und Bindegewebe beworben. Biologisch plausibel, aber die klinische Evidenz ist eher begrenzt.
+    evidenceSummary: >-
+      Silicium wird mit Bindegewebe, Haut, Haaren und Knochen in Verbindung gebracht. Einige kleine Studien zeigen mögliche Vorteile, doch die Evidenzbasis ist insgesamt überschaubar und deutlich schwächer als das Marketing.
+    body: |
+      ## Was ist Silicium?
+      
+      Silicium wird oft in Beauty- und Gelenk-Supplements eingesetzt. Die Argumentation: Es könnte Bindegewebe, Haut, Haare, Nägel oder Knochen unterstützen.
+      
+      ## Reality Check
+      
+      - Biologisch nicht absurd
+      - Klinisch aber eher dünn
+      - Kein Stoff mit starker Human-Evidenz
+      
+      ## Fazit
+      
+      Silicium ist eher ein **kosmetisch vermarkteter Randkandidat** als ein Top-Tier-Wirkstoff.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: gelenke
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: haut
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-17435952
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17435952"
+  - relation: basiert_auf_studie
+    target: studie-15701098
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:15701098"
+  - relation: basiert_auf_studie
+    target: studie-18197562
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:18197562"

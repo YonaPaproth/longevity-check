@@ -1,0 +1,320 @@
+---
+id: vitamin-d3
+type: ingredient
+
+meta:
+  title:
+    de: "Vitamin D3"
+    en: "Vitamin D3"
+  aliases:
+    - "Cholecalciferol"
+    - "Vitamin D3"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 0.025
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat für Vitamin D mehrere Health Claims zugelassen: Knochen, Muskelfunktion, Calciumabsorption, Immunsystem, Sturzprävention (ab 60 J.). Gilt für Produkte mit mind. 15% des NRV pro Portion.
+  en: >-
+    EFSA has approved multiple health claims for vitamin D: bone, muscle function, calcium absorption, immune system, fall prevention (from age 60). Applies to products providing at least 15% of the NRV per serving.
+
+key_studies:
+  - pmid: "28202713"
+    title: "Vitamin D supplementation to prevent acute respiratory tract infections"
+    authors: "Martineau AR et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28202713/"
+    finding:
+      de: >-
+        Cochrane-Metaanalyse (n=11.321): Vitamin D reduzierte akute Atemwegsinfektionen moderat (aOR 0,88; 95%-CI 0,81–0,96). Nutzen größer bei Ausgangsmangel unter 25 nmol/L.
+      en: >-
+        Cochrane meta-analysis (n=11,321): vitamin D moderately reduced acute respiratory infections (aOR 0.88; 95% CI 0.81–0.96). Benefit greater with baseline deficiency below 25 nmol/L.
+  - pmid: "30611908"
+    title: "Vitamin D and skeletal health"
+    authors: "Bouillon R et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/30611908/"
+    finding:
+      de: >-
+        Umfassender Review: Klare Evidenz für Knochen und Mangelkontext; deutlich schwächer für diffuse Claims ohne nachgewiesenen Mangel.
+      en: >-
+        Comprehensive review: clear evidence for bone in deficiency contexts; substantially weaker for broad claims in the absence of confirmed deficiency.
+  - pmid: "30415629"
+    title: "Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease (VITAL)"
+    authors: "Manson JE et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/30415629/"
+    finding:
+      de: >-
+        Großes RCT (n=25.871): 2.000 IU/Tag kein signifikanter Nutzen für kardiovaskuläre Ereignisse oder Krebsinzidenz in der Primärprävention bei normal versorgten Personen.
+      en: >-
+        Large RCT (n=25,871): 2,000 IU/day showed no significant benefit for cardiovascular events or cancer incidence in primary prevention in adequately nourished individuals.
+  - pmid: "22762317"
+    title: "A pooled analysis of vitamin D dose requirements for fracture prevention"
+    authors: "Bischoff-Ferrari HA et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22762317/"
+    finding:
+      de: >-
+        Gepoolte Analyse (11 RCTs, n=31.022): Vitamin D mind. 800 IU/Tag reduzierte Hüftfrakturen bei Personen ab 65 J. um ca. 30% gegenüber Placebo.
+      en: >-
+        Pooled analysis (11 RCTs, n=31,022): vitamin D at least 800 IU/day reduced hip fractures in people aged 65+ by ~30% vs. placebo.
+  - pmid: "17846391"
+    title: "Vitamin D supplementation and total mortality: a meta-analysis of randomized controlled trials"
+    authors: "Autier P & Gandini S"
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17846391/"
+    finding:
+      de: >-
+        Metaanalyse von 18 RCTs (n=57.311): Vitamin-D-Supplementierung assoziiert mit 7% Reduktion der Gesamtmortalität (RR 0,93; 95%-CI 0,87–0,99). Effekt primär in Mangelpopulationen.
+      en: >-
+        Meta-analysis of 18 RCTs (n=57,311): vitamin D supplementation associated with 7% reduction in all-cause mortality (RR 0.93; 95% CI 0.87–0.99). Effect primarily in deficient populations.
+
+locales:
+  de:
+    summary: >-
+      Vitamin D3 ist bei nachgewiesenem Mangel gut belegt für Knochen, Muskeln und Immunabwehr. Ohne Mangel ist der Zusatznutzen deutlich schwächer – kein Universal-Upgrade.
+    evidenceSummary: >-
+      Bei Mangel ist Vitamin D3 für Knochen, Muskelkraft und Infektprophylaxe gut belegt. Die VITAL-Studie (n=25.871) zeigt keinen CV-Nutzen bei normaler Versorgung. Mangelstatus (25-OH-D3 unter 50 nmol/L) bleibt der entscheidende Faktor; Dosisabhängigkeit wichtig.
+    body: |
+      ## Was ist Vitamin D3?
+      
+      Vitamin D3 (Cholecalciferol) ist ein fettlösliches Vitamin und Prohormon. Im Körper wird es zunächst in der Leber zu 25-OH-D3 (Calcidiol), dann in der Niere zur aktiven Form Calcitriol (1,25-Dihydroxyvitamin D) umgewandelt. Calcitriol wirkt als Steroidhormon an Vitamin-D-Rezeptoren, die in fast allen Körpergeweben vorkommen – Knochen, Muskeln, Immunzellen, Herz, Gehirn und Darm sind alle betroffen.
+      
+      Ca. **80% des Bedarfs** wird durch UVB-Strahlung auf der Haut gebildet. In Deutschland ist eine relevante Eigensynthese nur von etwa **Mai bis September zwischen 11 und 15 Uhr** möglich. Im Winterhalbjahr reicht die Sonnenstrahlung nicht aus – die Spiegel sinken bei den meisten Menschen deutlich ab.
+      
+      ## Wie verbreitet ist Mangel?
+      
+      Laut RKI-Daten haben in Deutschland ca. **56–61% der Bevölkerung im Winter** 25-OH-D3-Spiegel unter 50 nmol/L – dem von der DGE definierten Schwellenwert für ausreichende Versorgung. Risikogruppen umfassen:
+      
+      - Personen ab 65 Jahren (weniger Hautsynthese, weniger Zeit im Freien)
+      - Menschen mit dunkler Hautfarbe (höherer Melaningehalt reduziert UVB-Absorption)
+      - Menschen mit Adipositas (Vitamin D wird in Fettgewebe sequestriert)
+      - Personen mit wenig Aufenthalt im Freien, Pflegebedürftige
+      - Menschen mit Malabsorptionsstörungen (M. Crohn, Zöliakie, Magenbypass)
+      
+      ## Was sagen die Studien?
+      
+      ### Klar belegt
+      
+      **Knochen und Frakturen:** Vitamin D ist essenziell für die intestinale Calciumabsorption. Eine gepoolte Analyse von 11 RCTs (Bischoff-Ferrari et al. 2012, n=31.022) zeigte: Vitamin D mind. **800 IU/Tag reduzierte Hüftfrakturen bei Personen ab 65 Jahren um ca. 30%** gegenüber Placebo – allerdings nur in Kombination mit ausreichender Calciumzufuhr.
+      
+      **Atemwegsinfektionen:** Die Cochrane-Metaanalyse von Martineau et al. (2017, n=11.321) zeigte eine moderate Schutzwirkung vor akuten Atemwegsinfektionen (aOR 0,88; 95%-CI 0,81–0,96). Der Effekt war am deutlichsten bei Personen mit schwerem Ausgangsmangel (Spiegel unter 25 nmol/L).
+      
+      **Muskelkraft und Sturzprävention:** Mehrere Metaanalysen zeigen bei Personen ab 65 Jahren eine **Reduktion von Stürzen um ca. 10–20%** bei täglicher Einnahme von mind. 800 IU. Das ist einer der konsistentesten Effekte in der Vitamin-D-Forschung.
+      
+      **Mortalität:** Eine Metaanalyse von 18 RCTs (Autier & Gandini 2007, n=57.311) zeigte eine **7% Reduktion der Gesamtmortalität** (RR 0,93; 95%-CI 0,87–0,99) – Effekte hauptsächlich in Mangelpopulationen sichtbar.
+      
+      ### Weniger klar
+      
+      **Herz-Kreislauf und Krebs:** Die VITAL-Studie (Manson 2019, n=25.871) – eine der größten Vitamin-D-Studien überhaupt – fand **keinen signifikanten Nutzen** von 2.000 IU/Tag für kardiovaskuläre Ereignisse oder Krebsinzidenz in der Primärprävention bei gut versorgten Personen.
+      
+      **Depression und Kognition:** Beobachtungsstudien zeigen Assoziationen, aber RCTs sind inkonsistent. Für Personen ohne Mangel kein belегter Nutzen.
+      
+      ## Dosierung und Einnahme
+      
+      | Situation | Empfehlung | Anmerkung |
+      |---|---|---|
+      | Prävention / Erhalt im Winter | 1.000–2.000 IU/Tag (25–50 µg) | Bei fehlender Sonnenexposition |
+      | Mangelkorrektur | 2.000–4.000 IU/Tag | Nach Blutbild anpassen |
+      | DGE-Referenzwert | 800 IU/Tag (20 µg) | Wenn keine ausreichende Sonnenexposition |
+      | EFSA Upper Level | 4.000 IU/Tag | Langzeitsicherheitsgrenze für Erwachsene |
+      
+      Vitamin D ist fettlöslich – Einnahme zur Mahlzeit verbessert die Resorption um ca. 30%. Toxizität (Hypercalcämie) tritt erst bei anhaltend über 10.000 IU/Tag auf; bei üblichen Supplement-Dosen kein realistisches Risiko.
+      
+      **Kombination mit K2:** Wird oft empfohlen, um Calcium in Knochen statt in Gefäßwände zu lenken. Die direkte RCT-Evidenz für diese Kombination beim gesunden Menschen ist begrenzt; das Sicherheitsprofil ist gut. Bei ausgeprägtem Vitamin-D-Mangel ist K2 keine zwingende Ergänzung.
+      
+      ## Diagnostik: Wann testen?
+      
+      Diagnose über den **25-OH-D3-Serumtest** (Zielwert nach DGE: mind. 50 nmol/L, nach manchen klinischen Leitlinien mind. 75 nmol/L). Die GKV übernimmt die Kosten nur bei klinischem Verdacht; private Tests kosten ca. 20–40 €. Wer zu einer Risikogruppe gehört, sollte zumindest einmalig den Spiegel bestimmen lassen.
+      
+      ## Limitierungen der Forschung
+      
+      - Viele ältere Studien nutzten zu **niedrige Dosen** (400 IU/Tag) und haben damit kaum Aussagekraft
+      - **Kurze Laufzeiten** (unter 1 Jahr) erfassen keine kumulativen Knocheneffekte
+      - **Confounding:** Gesündere, aktivere Menschen haben höhere D-Spiegel durch Lebensstil, nicht durch Supplement
+      - Große RCTs wie VITAL schlossen Personen mit **normalem Ausgangsstatus** ein – ihre Ergebnisse übertragen sich nicht direkt auf Mangelpopulationen
+      - **Dose-Response** ist nicht linear; unter 50 nmol/L steigt der Nutzen deutlicher, oberhalb flacht er ab
+      
+      ## EFSA-Status
+      
+      EFSA hat auf Basis wissenschaftlicher Bewertungen mehrere Health Claims für Vitamin D nach VO (EG) 1924/2006 zugelassen. Details sind im [EFSA-Register für Nährwert- und gesundheitsbezogene Angaben](https://www.efsa.europa.eu/en/topics/topic/nutrition) einsehbar. Zugelassene Aussagen umfassen:
+      
+      - Beitrag zur normalen Calciumabsorption und zum Erhalt normaler Knochen und Zähne
+      - Normale Muskelfunktion
+      - Normale Funktion des Immunsystems
+      - **Verringerung des Sturzrisikos** bei Personen ab 60 Jahren (tägliche Dosis mind. 20 µg)
+      
+      Diese Claims gelten für Produkte, die mind. **15% des NRV** (= 1,5 µg / 60 IU) pro angegebener Tagesportion liefern.
+      
+      ## Fazit
+      
+      Vitamin D3 ist kein Zaubermittel, aber bei nachgewiesenem Mangel – der in Deutschland im Winter weit verbreitet ist – relevant und gut untersucht. Für Knochen, Muskelkraft und Infektprävention bei Risikogruppen ist die Evidenz stark. Als allgemeines Longevity-Supplement für gut versorgte Personen ohne Mangel ist der belegte Zusatznutzen deutlich schwächer.
+
+  en:
+    summary: >-
+      Vitamin D3 is well supported for bone, muscle, and immune function when deficiency is confirmed. Without deficiency, additional benefit is significantly weaker — not a universal upgrade.
+    evidenceSummary: >-
+      At deficiency, vitamin D3 is well established for bone, muscle strength, and infection prevention. The VITAL trial (n=25,871) showed no cardiovascular benefit in those with adequate levels. Deficiency status (25-OH-D3 below 50 nmol/L) is the decisive factor.
+    body: |
+      ## What Is Vitamin D3?
+      
+      Vitamin D3 (cholecalciferol) is a fat-soluble vitamin and prohormone. In the body it is first converted in the liver to 25-OH-D3 (calcidiol), then in the kidneys to the active form calcitriol (1,25-dihydroxyvitamin D). Calcitriol acts as a steroid hormone at vitamin D receptors found in almost all body tissues — bone, muscle, immune cells, heart, brain, and gut are all involved.
+      
+      Approximately **80% of the body's requirement** is met through UVB irradiation of the skin. In northern and central Europe, meaningful endogenous synthesis is only possible from roughly **May to September around midday**. During winter months, sunlight is insufficient and levels in most people decline significantly.
+      
+      ## How Common Is Deficiency?
+      
+      Data from health surveys across northern and central Europe indicate that a significant proportion of the population — estimates range from 40–60% — have 25-OH-D3 levels below 50 nmol/L in winter, the threshold defined by most national guidelines as sufficient. High-risk groups include:
+      
+      - Adults aged 65+ (lower skin synthesis, less time outdoors)
+      - People with darker skin pigmentation (higher melanin reduces UVB absorption)
+      - People with obesity (vitamin D is sequestered in adipose tissue)
+      - Those with little sun exposure, care home residents
+      - People with malabsorption disorders (Crohn's disease, coeliac disease, gastric bypass)
+      
+      ## What Do the Studies Show?
+      
+      ### Clearly established
+      
+      **Bone and fractures:** Vitamin D is essential for intestinal calcium absorption. A pooled analysis of 11 RCTs (Bischoff-Ferrari et al. 2012, n=31,022) showed: vitamin D at least **800 IU/day reduced hip fractures in people aged 65+ by ~30%** vs. placebo — but only in combination with adequate calcium intake.
+      
+      **Respiratory infections:** The Cochrane meta-analysis by Martineau et al. (2017, n=11,321) showed moderate protection against acute respiratory infections (aOR 0.88; 95% CI 0.81–0.96). Effect was strongest in people with severe baseline deficiency (levels below 25 nmol/L).
+      
+      **Muscle strength and fall prevention:** Multiple meta-analyses show a **~10–20% reduction in falls** in people aged 65+ with daily supplementation of at least 800 IU. This is one of the most consistent effects in vitamin D research.
+      
+      **Mortality:** A meta-analysis of 18 RCTs (Autier & Gandini 2007, n=57,311) showed a **7% reduction in all-cause mortality** (RR 0.93; 95% CI 0.87–0.99) — effects mainly in deficient populations.
+      
+      ### Less certain
+      
+      **Cardiovascular disease and cancer:** The VITAL trial (Manson 2019, n=25,871) — one of the largest vitamin D trials ever conducted — found **no significant benefit** from 2,000 IU/day for cardiovascular events or cancer incidence in primary prevention in adequately nourished individuals.
+      
+      **Depression and cognition:** Observational studies show associations, but RCTs are inconsistent. No established benefit in people without deficiency.
+      
+      ## Dosage and Supplementation
+      
+      | Situation | Recommendation | Notes |
+      |---|---|---|
+      | Prevention / maintenance in winter | 1,000–2,000 IU/day (25–50 µg) | If sun exposure is limited |
+      | Correcting deficiency | 2,000–4,000 IU/day | Adjust based on blood levels |
+      | EU Reference Intake | 600–800 IU/day (15–20 µg) | Without adequate sun exposure |
+      | EFSA Upper Level | 4,000 IU/day | Long-term safety limit for adults |
+      
+      Vitamin D is fat-soluble — taking it with a meal improves absorption by ~30%. Toxicity (hypercalcaemia) occurs only with sustained intake above 10,000 IU/day; at usual supplement doses, this is not a realistic concern.
+      
+      **Combination with K2:** Often recommended to direct calcium into bone rather than vessel walls. Direct RCT evidence for this combination in healthy individuals is limited; the safety profile is good. For severe vitamin D deficiency, K2 is not a strict requirement.
+      
+      ## Testing: When Is It Worth It?
+      
+      Diagnosis via the **25-OH-D3 serum test** (target ≥50 nmol/L per most guidelines, some clinicians use ≥75 nmol/L). If you belong to a high-risk group, testing at least once is worthwhile.
+      
+      ## Research Limitations
+      
+      - Many older studies used **doses too low** (400 IU/day) to be informative
+      - **Short durations** (under 1 year) miss cumulative bone effects
+      - **Confounding:** healthier, more active people have higher vitamin D levels through lifestyle, not supplements
+      - Large RCTs like VITAL enrolled people with **adequate baseline levels** — results don't directly apply to deficient populations
+      - **Dose-response** is non-linear: benefit rises more steeply below 50 nmol/L and flattens above
+      
+      ## EFSA Status
+      
+      EFSA has approved multiple health claims for vitamin D. Approved statements include:
+      
+      - Contributes to normal absorption of calcium and phosphorus, and normal bone and teeth
+      - Normal muscle function
+      - Normal immune system function
+      - **Reduction of the risk of falling** in people aged 60+ (daily dose of at least 20 µg)
+      
+      These claims apply to products providing at least **15% of the NRV** (= 1.5 µg / 60 IU) per stated daily serving.
+      
+      ## Summary
+      
+      Vitamin D3 is not a magic bullet, but in confirmed deficiency — which is widespread in winter in northern and central Europe — it is relevant and well studied. For bone health, muscle strength, and infection prevention in at-risk groups, the evidence is strong. As a general longevity supplement for adequately nourished individuals, the established additional benefit is considerably weaker.
+
+relations:
+  - relation: hat_interaktion_mit
+    target: vitamin-d3-k2
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: depression
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: haut
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: vitamin-d-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28202713
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28202713"
+  - relation: basiert_auf_studie
+    target: studie-30611908
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30611908"
+  - relation: basiert_auf_studie
+    target: studie-30415629
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30415629"
+  - relation: basiert_auf_studie
+    target: studie-22762317
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22762317"
+  - relation: basiert_auf_studie
+    target: studie-17846391
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17846391"

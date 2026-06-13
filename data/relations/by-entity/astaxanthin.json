@@ -90,32 +90,28 @@
       "target": "studie-24378819",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24378819",
-      "note": "Review: Astaxanthin überquert Blut-Hirn-Schranke, wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress. Antioxidative Kapazität 6.000× höher als Vitamin C in vitro."
+      "source": "pmid:24378819"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21207795",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21207795",
-      "note": "Review: Astaxanthin hemmt LDL-Oxidation, reduziert Entzündungsmarker. Kleine RCTs zeigen Verbesserung des Lipidprofils und Blutdrucks."
+      "source": "pmid:21207795"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22428137",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22428137",
-      "note": "RCT (n=49 Frauen): 6 mg Astaxanthin/Tag über 6 Wochen war mit Veränderungen verbundene Hautelastizität und -feuchtigkeit signifikant."
+      "source": "pmid:22428137"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20637008",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20637008",
-      "note": "RCT bei Sportlern: Astaxanthin war mit Veränderungen verbundene Immunmarker nach intensivem Training, reduzierte Oxidationsmarker."
+      "source": "pmid:20637008"
     }
   ]
 }

@@ -24,24 +24,21 @@
       "target": "studie-28685790",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28685790",
-      "note": "Einige Hinweise auf kognitive und stimmungsbezogene Effekte, aber keine sehr starke Datenlage."
+      "source": "pmid:28685790"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24006008",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24006008",
-      "note": "Traditionelle und experimentelle Daten zu Haut- und Gewebethemen sind plausibel."
+      "source": "pmid:24006008"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-11297858",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:11297858",
-      "note": "Breite präklinische Aktivität, Human-Evidenz bleibt begrenzt."
+      "source": "pmid:11297858"
     }
   ]
 }

@@ -18,24 +18,21 @@
       "target": "studie-19821345",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19821345",
-      "note": "Gemischte Datenlage mit teils kleinen Vorteilen in bestimmten Populationen, aber keine klare Universalantwort."
+      "source": "pmid:19821345"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22440494",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22440494",
-      "note": "Heterogene Ergebnisse, abhängig von Population und Studiendesign."
+      "source": "pmid:22440494"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-16007253",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:16007253",
-      "note": "Wichtige Interaktionsfrage, vor allem im Kontext Blutverdünnung."
+      "source": "pmid:16007253"
     }
   ]
 }

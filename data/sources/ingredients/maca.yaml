@@ -1,0 +1,109 @@
+---
+id: maca
+type: ingredient
+
+meta:
+  title:
+    de: "Maca"
+    en: "Maca"
+  aliases:
+    - "Maca"
+    - "Lepidium meyenii"
+    - "Peruanischer Ginseng"
+  category: adaptogens
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1500
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Maca gibt es in der EU keine zugelassenen Claims zu Libido, Hormonen oder Energie.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "20370918"
+    title: "A systematic review of the evidence for maca"
+    authors: "Shin BC et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20370918/"
+    finding:
+      de: >-
+        Positive Signale, aber kleine und methodisch begrenzte Studien.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "12472620"
+    title: "Maca for sexual desire"
+    authors: "Gonzales GF et al."
+    year: 2002
+    url: "https://pubmed.ncbi.nlm.nih.gov/12472620/"
+    finding:
+      de: >-
+        Hinweise auf gesteigertes sexuelles Verlangen ohne klare Hormonveränderungen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "18654924"
+    title: "Maca in menopause"
+    authors: "Brooks NA et al."
+    year: 2008
+    url: "https://pubmed.ncbi.nlm.nih.gov/18654924/"
+    finding:
+      de: >-
+        Mögliche Vorteile bei subjektivem Wohlbefinden, aber keine starke Datenbasis.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Maca wird für Libido, Energie und hormonelle Balance beworben. Die Human-Daten sind da, aber eher klein und nicht so robust wie der Hype.
+    evidenceSummary: >-
+      Maca ist vor allem für Libido, subjektives Wohlbefinden und menopausale Symptome untersucht. Es gibt positive Signale, aber die Daten sind klein und heterogen. Solide Hormoneffekte oder gesundes Altern-Vorteile sind nicht überzeugend belegt.
+    body: |
+      ## Was ist Maca?
+      
+      Maca ist eine Wurzel aus den Anden und wird oft als natürlicher Stoff für **Libido, Energie und hormonelle Balance** verkauft.
+      
+      ## Reality Check
+      
+      Es gibt ein paar positive Studien – aber wenig, was nach wirklich harter klinischer Evidenz aussieht.
+      
+      ## Fazit
+      
+      Maca ist **sympathisch, aber weich belegt**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-20370918
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20370918"
+  - relation: basiert_auf_studie
+    target: studie-12472620
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12472620"
+  - relation: basiert_auf_studie
+    target: studie-18654924
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:18654924"

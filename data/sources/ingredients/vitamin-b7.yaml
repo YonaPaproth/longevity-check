@@ -1,0 +1,135 @@
+---
+id: vitamin-b7
+type: ingredient
+
+meta:
+  title:
+    de: "Vitamin B7 (Biotin)"
+    en: "Vitamin B7 (Biotin)"
+  aliases:
+    - "Biotin"
+    - "Vitamin H"
+    - "Vitamin B7"
+  category: other
+  evidenceLevel: "3"
+  safety_rating: caution
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 1
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Biotin sind in der EU Health Claims zu Haut, Haaren, Nervensystem, psychischer Funktion und Makronährstoff-Stoffwechsel zugelassen. In der Praxis werden diese Claims oft marketingseitig überzogen interpretiert.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "28879195"
+    title: "A review of the use of biotin for hair loss"
+    authors: "Patel DP et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28879195/"
+    finding:
+      de: >-
+        Review: Evidenz für Biotin bei Haarproblemen ist schwach und fast immer auf dokumentierte Mangelzustände oder spezielle Erkrankungen beschränkt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28362283"
+    title: "Biotin interference in immunoassays: a cause for concern"
+    authors: "Piketty ML et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28362283/"
+    finding:
+      de: >-
+        Biotin in Supplementdosen kann Laboruntersuchungen relevant verfälschen, darunter Schilddrüsenwerte und Herzmarker.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: ""
+    title: "Biotin"
+    authors: "Office of Dietary Supplements, NIH"
+    year: 2022
+    url: "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/"
+    finding:
+      de: >-
+        Übersicht zu Bedarf, Mangel, Sicherheit und Interaktionen. Hauptproblem moderner Hochdosisprodukte ist weniger Toxizität als Diagnostik-Interferenz.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Biotin ist essenziell, aber Mangel selten. Für Haare und Nägel nur dann wirklich sinnvoll, wenn ein Defizit vorliegt – plus Laborwerte können verfälscht werden.
+    evidenceSummary: >-
+      Biotin ist ein essenzieller Nährstoff, aber Mängel sind selten. Die populären Claims zu Haaren und Nägeln sind biologisch plausibel, jedoch klinisch vor allem bei Mangelzuständen überzeugend. Wichtig: Biotin kann Laborwerte, etwa Schilddrüsen- und Troponin-Tests, verfälschen.
+    body: |
+      ## Was ist Biotin?
+      
+      Biotin ist ein wasserlösliches B-Vitamin. Es wird für verschiedene **Carboxylase-Enzyme** gebraucht und spielt damit eine Rolle im Fett-, Kohlenhydrat- und Aminosäurestoffwechsel.
+      
+      Bekannt ist Biotin vor allem aus Beauty-Supplements für **Haare, Haut und Nägel**.
+      
+      ## Was sagen die Daten?
+      
+      ### Plausibel und sinnvoll
+      - Korrektur von echtem Biotinmangel
+      - Unterstützung normaler Haut- und Haarfunktion als essenzieller Nährstoff
+      
+      ### Weniger überzeugend
+      - Dramatische Haar- oder Nagelverbesserungen bei Menschen ohne Mangel
+      - „Glow“-Versprechen aus Hochdosis-Beauty-Produkten
+      
+      ## Der große praktische Haken: Laborwerte
+      
+      Biotin ist kein klassisches Toxizitätsproblem – aber ein **Diagnostikproblem**.
+      
+      Hohe Biotinmengen können Laborwerte verfälschen, z. B.:
+      - Schilddrüsenparameter
+      - Troponin
+      - andere Immunoassays
+      
+      Das kann im Extremfall sogar zu Fehlinterpretationen in der Notfallmedizin führen.
+      
+      ## Sicherheitsprofil
+      
+      Biotin wird meist gut vertragen. Das wichtigste Risiko ist **nicht** die direkte Toxizität, sondern die Störung von Laboranalysen.
+      
+      ## Fazit
+      
+      Biotin ist **kein Wundermittel für schöne Haare**. Bei Mangel oder speziellen Situationen sinnvoll – sonst oft überschätzt. Und vor Bluttests sollte man Biotin-Supplemente im Blick haben.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: haut
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: schilddruese
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28879195
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28879195"
+  - relation: basiert_auf_studie
+    target: studie-28362283
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28362283"

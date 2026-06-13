@@ -36,24 +36,21 @@
       "target": "studie-12514275",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12514275",
-      "note": "TMG war mit niedrigeren Werten verbundene Homocystein in Humanstudien zuverlässig. Ob das automatisch klinische Vorteile erzeugt, bleibt offen."
+      "source": "pmid:12514275"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-15466943",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:15466943",
-      "note": "Review: TMG ist metabolisch relevant, besonders als Methylgruppendonor und Osmolyt. Die Praxisanwendungen gehen der Evidenz teils voraus."
+      "source": "pmid:15466943"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21485974",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21485974",
-      "note": "Homocystein sinkt, harte klinische Endpunkte bleiben aber unklar."
+      "source": "pmid:21485974"
     }
   ]
 }

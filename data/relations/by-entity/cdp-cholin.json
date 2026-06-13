@@ -12,24 +12,21 @@
       "target": "studie-8898684",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:8898684",
-      "note": "Kleine Humanstudie mit positiven Signalen für Gedächtnis."
+      "source": "pmid:8898684"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28054935",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28054935",
-      "note": "Review: Citicolin ist neurobiologisch plausibel und gut verträglich, aber nicht in allen Einsatzgebieten klar untersucht."
+      "source": "pmid:28054935"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22819395",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22819395",
-      "note": "Hinweise auf war mit Veränderungen verbundene Aufmerksamkeit in kleinen Studien, jedoch keine harte Beweislast."
+      "source": "pmid:22819395"
     }
   ]
 }

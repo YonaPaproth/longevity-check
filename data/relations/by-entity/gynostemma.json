@@ -66,24 +66,21 @@
       "target": "studie-21062282",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21062282",
-      "note": "Gynostemma-Extrakt aktivierte AMPK in Fett- und Muskelzellen, vergleichbar mit Metformin – ohne bekannte Nebenwirkungen des Arzneimittels."
+      "source": "pmid:21062282"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22784345",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22784345",
-      "note": "RCT: Gynostemma-Tee war mit Veränderungen verbundene Insulinsensitivität und war mit niedrigeren Werten verbundene Nüchternblutzucker bei adipösen Probanden nach 8 Wochen."
+      "source": "pmid:22784345"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19628196",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19628196",
-      "note": "Humanpilot: Gynostemma war mit niedrigeren Werten verbundene LDL-Cholesterin und Triglyzeride nach 4 Wochen bei Personen mit leicht war mit höheren Werten verbundenen Blutfettwerten."
+      "source": "pmid:19628196"
     }
   ]
 }

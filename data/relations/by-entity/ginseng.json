@@ -30,24 +30,21 @@
       "target": "studie-19678779",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19678779",
-      "note": "Review: Hinweise auf Effekte bei Müdigkeit und Wohlbefinden, aber heterogene Studienbasis."
+      "source": "pmid:19678779"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-12113659",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12113659",
-      "note": "Im Allgemeinen gut verträglich, aber nicht frei von Interaktions- und Sicherheitsfragen."
+      "source": "pmid:12113659"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20435159",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20435159",
-      "note": "Einige Hinweise auf akute kognitive Effekte, aber keine starke, konsistente Evidenz."
+      "source": "pmid:20435159"
     }
   ]
 }

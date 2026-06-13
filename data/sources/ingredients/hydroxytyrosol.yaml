@@ -1,0 +1,145 @@
+---
+id: hydroxytyrosol
+type: ingredient
+
+meta:
+  title:
+    de: "Hydroxytyrosol"
+    en: "Hydroxytyrosol"
+  aliases:
+    - "HT"
+    - "Hydroxytyrosol"
+    - "3,4-DHPEA"
+  category: antioxidants
+  evidenceLevel: "2"
+  safety_rating: safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 20
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat Health Claims für Olivenpolyphenole (Hauptkomponente Hydroxytyrosol) zum Schutz von LDL-Cholesterin vor oxidativem Stress zugelassen – bei mind. 5 mg/Tag aus Olivenöl. Einer der sehr wenigen zugelassenen Polyphenol-Claims in der EU.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: ""
+    title: "Scientific Opinion on the substantiation of health claims related to polyphenols in olive"
+    authors: "EFSA Panel on Dietetic Products, Nutrition and Allergies"
+    year: 2011
+    url: "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2011.2033"
+    finding:
+      de: >-
+        EFSA bestätigt: Olivenpolyphenole (mind. 5 mg Hydroxytyrosol + Derivate pro Tag) werden mit Schutzmechanismen in Verbindung gebracht LDL-Cholesterin vor oxidativer Schädigung.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "26975995"
+    title: "Hydroxytyrosol and potential uses in cardiovascular diseases, cancer, and AIDS"
+    authors: "Fabiani R et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26975995/"
+    finding:
+      de: >-
+        Review: Hydroxytyrosol zeigt in Humanstudien antioxidative, entzündungshemmende und antiatherosklerotische Wirkungen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "21291821"
+    title: "Hydroxytyrosol supplementation improves endothelial function"
+    authors: "Susalit E et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21291821/"
+    finding:
+      de: >-
+        RCT: Olive-Extrakt mit Hydroxytyrosol war mit niedrigeren Werten verbundene Blutdruck vergleichbar mit Captopril bei Hypertonie-Patienten.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Hydroxytyrosol ist ein Olivenpolyphenol, das für oxidative Prozesse und Gefäßmarker untersucht wird. Im Alltag wird es oft unterschätzt.
+    evidenceSummary: >-
+      Mehrere RCTs und Humanstudien belegen kardiovaskuläre Schutzwirkung. Die EFSA hat einen der wenigen zugelassenen Health Claims für Olivenpolyphenole (inkl. Hydroxytyrosol) erteilt.
+    body: |
+      ## Was ist Hydroxytyrosol?
+      
+      Hydroxytyrosol ist ein **Polyphenol**, das natürlich in Olivenöl, Oliven und Olivenblättern vorkommt. Es gilt als eines der stärksten natürlichen Antioxidantien – mit einem ORAC-Wert, der deutlich über Resveratrol und Quercetin liegt.
+      
+      Die mediterrane Diät verdankt einen Teil ihrer gesundheitlichen Vorteile vermutlich diesem Wirkstoff. Im Gegensatz zu vielen anderen Polyphenolen hat Hydroxytyrosol eine **sehr hohe Bioverfügbarkeit** (bis 95 %) und übersteht den Verdauungsprozess gut.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Das Positive
+      - **EFSA-Health-Claim**: Einer der wenigen EU-zugelassenen Wirksamkeitsnachweise für ein Polyphenol
+      - Wird mit geringerer LDL-Oxidation in Verbindung gebracht – ein diskutierter Mechanismus im Arteriosklerose-Kontext
+      - Mehrere RCTs zeigen Blutdrucksenkung und Verbesserung von Endothelfunktion
+      - Anti-inflammatorisch über NF-κB-Hemmung
+      
+      ### Das Problem
+      - Viele Studien mit Olivenöl-Extrakten, nicht isoliertem Hydroxytyrosol
+      - Optimale Supplement-Dosierung noch nicht abschließend geklärt
+      - Langzeitdaten zur Lebenserwartung fehlen
+      
+      > **Fazit:** Hydroxytyrosol ist einer der am besten belegten Polyphenole. Wer wenig Olivenöl konsumiert, profitiert wahrscheinlich am meisten von einer Supplementierung.
+      
+      ## Ist Hydroxytyrosol sicher?
+      
+      Ja – als Lebensmittelbestandteil unbedenklich. Keine bekannten Wechselwirkungen oder Toxizitätssignale bei normalen Dosen.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: nf-kb-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-26975995
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26975995"
+  - relation: basiert_auf_studie
+    target: studie-21291821
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21291821"

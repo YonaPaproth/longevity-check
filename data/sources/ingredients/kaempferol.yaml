@@ -1,0 +1,104 @@
+---
+id: kaempferol
+type: ingredient
+
+meta:
+  title:
+    de: "Kaempferol"
+    en: "Kaempferol"
+  aliases:
+    - "Kaempferol"
+    - "Flavonol Kaempferol"
+  category: antioxidants
+  evidenceLevel: "4"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 100
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Kaempferol gibt es in der EU keine zugelassenen Claims zu Antioxidans-, Gefäß- oder Alterungsforschung-Effekten.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "21127935"
+    title: "Kaempferol: chemistry and pharmacology"
+    authors: "Calderón-Montaño JM et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21127935/"
+    finding:
+      de: >-
+        Review: starke präklinische Breite, aber wenig belastbare Humanstudien.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "12716668"
+    title: "Dietary flavonols and health"
+    authors: "Beecher GR"
+    year: 2003
+    url: "https://pubmed.ncbi.nlm.nih.gov/12716668/"
+    finding:
+      de: >-
+        Ernährungsbezogen interessant, als isoliertes Supplement aber wenig klar.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "20018833"
+    title: "Flavonoids and aging-related disease"
+    authors: "Vauzour D et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20018833/"
+    finding:
+      de: >-
+        Kaempferol wird diskutiert konzeptionell attraktiv, klinisch aber noch weit von gesicherten Aussagen entfernt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Kaempferol ist ein weiteres flavonoides Dauer-Versprechen: mechanistisch spannend, aber klinisch derzeit eher dünn.
+    evidenceSummary: >-
+      Kaempferol zeigt in präklinischen Modellen antioxidative, entzündungsbezogene und potenziell altersrelevante Effekte. Für konkrete klinische Vorteile beim Menschen fehlt aber bisher eine mehrere Datenpunktebasis.
+    body: |
+      ## Was ist Kaempferol?
+      
+      Kaempferol ist ein pflanzliches Flavonol, das oft zusammen mit anderen Polyphenolen in Kontext gesunden Alterns diskutiert wird.
+      
+      ## Fazit
+      
+      Kaempferol ist **interessant für Nerds, aber noch nicht stark für echte Produktaussagen**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-21127935
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21127935"
+  - relation: basiert_auf_studie
+    target: studie-12716668
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12716668"
+  - relation: basiert_auf_studie
+    target: studie-20018833
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20018833"

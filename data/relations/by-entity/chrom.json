@@ -24,30 +24,26 @@
       "target": "studie-17684127",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17684127",
-      "note": "Systematischer Review: Effekte auf Blutzucker sind inkonsistent und insgesamt eher moderat."
+      "source": "pmid:17684127"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-30741566",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30741566",
-      "note": "Review: Chrom bleibt mechanistisch interessant, aber klinische Effekte hängen stark von Population, Ausgangsstatus und Präparat ab."
+      "source": "pmid:30741566"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "eisen",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "### Eisen im menschlichen Körper\n\n| Kompartiment | Anteil am Körpereisen | Funktion |\n|---|---|---|\n| Hämoglobin (rote Blutkörperchen) | ~65 % | Sauerstofftransport |\n| Ferritin / Hämosiderin (Speiche"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "quercetin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Mögliche Wechselwirkungen:\n- **CYP3A4-Hemmung:** Quercetin hemmt in vitro Cytochrom-P450-Enzyme, was die Spiegel anderer Medikamente beeinflussen könnte."
+      "confidence": 0.7
     }
   ]
 }

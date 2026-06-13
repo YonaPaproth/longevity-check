@@ -30,24 +30,21 @@
       "target": "studie-16309928",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:16309928",
-      "note": "Kleine Studie mit Veränderungen bei Schmerz und Funktion im Gelenk-Kontext."
+      "source": "pmid:16309928"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22348453",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22348453",
-      "note": "Hinweise auf Effekte bei Entzündung und Erholung, aber kleine Studienbasis."
+      "source": "pmid:22348453"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28654723",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28654723",
-      "note": "Review: MSM ist gut verträglich, aber die klinische Evidenz bleibt begrenzt."
+      "source": "pmid:28654723"
     }
   ]
 }

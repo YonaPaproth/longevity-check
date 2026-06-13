@@ -1,0 +1,146 @@
+---
+id: vitamin-b1
+type: ingredient
+
+meta:
+  title:
+    de: "Vitamin B1 (Thiamin)"
+    en: "Vitamin B1 (Thiamin)"
+  aliases:
+    - "Thiamin"
+    - "Aneurin"
+    - "Vitamin B1"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 50
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Thiamin sind in der EU Health Claims zu Energiestoffwechsel, Herzfunktion, psychischer Funktion und Nervensystem zugelassen. Sie beziehen sich auf die normale physiologische Funktion, nicht auf Leistungssteigerung über den Normalzustand hinaus.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "30295520"
+    title: "Thiamine deficiency disorders: diagnosis, prevalence, and a roadmap for global control programs"
+    authors: "Whitfield KC et al."
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/30295520/"
+    finding:
+      de: >-
+        Review: Thiaminmangel ist klinisch relevant und oft unterdiagnostiziert. Besonders gefährdet sind Menschen mit Alkoholmissbrauch, Mangelernährung oder war mit höheren Werten verbundenem metabolischem Bedarf.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "22489203"
+    title: "Thiamine deficiency in diabetes, obesity and bariatric surgery"
+    authors: "Via M"
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22489203/"
+    finding:
+      de: >-
+        Review: Auch in westlichen Ländern kommt funktioneller B1-Mangel bei Risikogruppen vor, etwa nach bariatrischer Chirurgie oder bei chronischer Fehlernährung.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "17405083"
+    title: "Wernicke encephalopathy in clinical practice"
+    authors: "Sechi G et al."
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17405083/"
+    finding:
+      de: >-
+        Thiaminmangel kann schwere neurologische Schäden verursachen. Frühzeitige Substitution ist in Risikosituationen klinisch hochrelevant.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Vitamin B1 ist essenziell für Energie- und Nervenstoffwechsel. Supplemente helfen vor allem bei Mangel oder Risiko-Gruppen – nicht als allgemeiner gesundes Altern-Booster.
+    evidenceSummary: >-
+      Thiamin ist ein essenzieller Mikronährstoff mit klar belegter Rolle im Kohlenhydratstoffwechsel und Nervensystem. Supplemente sind besonders bei Mangel, Alkoholabusus, Malnutrition oder bestimmten Erkrankungen relevant. Zusätzlicher Nutzen bei gut versorgten Erwachsenen ist kaum belegt.
+    body: |
+      ## Was ist Vitamin B1?
+      
+      Vitamin B1, auch **Thiamin**, ist ein wasserlösliches Vitamin. Es spielt eine zentrale Rolle im **Energiestoffwechsel**, vor allem bei der Verarbeitung von Kohlenhydraten, und ist für **Nerven- und Herzfunktion** essenziell.
+      
+      Der Körper speichert nur begrenzte Mengen. Deshalb kann ein Mangel bei Risikogruppen relativ schnell relevant werden.
+      
+      ## Was bringt Supplementierung?
+      
+      ### Vergleichsweise gut untersucht
+      - **Mangelbehandlung und -prävention**
+      - Unterstützung des normalen Energiestoffwechsels
+      - Klinisch wichtig bei Alkoholabhängigkeit, schwerer Fehlernährung oder Resorptionsstörungen
+      
+      ### Nicht vergleichsweise gut untersucht
+      - Mehr Energie bei bereits normal versorgten Personen
+      - Cognitive Enhancement oder gesundes-Alten-Effekte über den Mangel-Ausgleich hinaus
+      
+      ## Wer hat eher ein Risiko für Mangel?
+      
+      - Chronischer Alkoholkonsum
+      - Sehr einseitige Ernährung
+      - Essstörungen oder Unterernährung
+      - Bariatrische Operationen
+      - Bestimmte chronische Erkrankungen
+      
+      ## Sicherheitsprofil
+      
+      Thiamin gilt in üblichen Dosierungen als **sehr sicher**. Überschüsse werden größtenteils ausgeschieden. Relevante Nebenwirkungen sind bei oraler Einnahme selten.
+      
+      ## Fazit
+      
+      Vitamin B1 ist wichtig – aber vor allem dort, wo ein Defizit vorliegt. Für gesunde Erwachsene ohne Mangel ist es eher ein **Basisnährstoff** als ein spannender Wirkstoff im Kontext gesunden Alterns.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-30295520
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30295520"
+  - relation: basiert_auf_studie
+    target: studie-22489203
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22489203"
+  - relation: basiert_auf_studie
+    target: studie-17405083
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17405083"
+  - relation: hat_interaktion_mit
+    target: vitamin-b12
+    direction: incoming
+    confidence: 0.7

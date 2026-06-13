@@ -95,22 +95,19 @@
       "relation": "hat_interaktion_mit",
       "target": "gaba",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Historisch ist es vor allem als aktiver Wirkstoff im Kamillentee bekannt, dessen leicht beruhigende Wirkung auf GABA-Rezeptorbindung zurückgeführt wird."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nmn",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Das ist ein komplementärer Ansatz zu **NMN oder NR** (die NAD+ von der Synthese-Seite erhöhen)."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nr",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Das ist ein komplementärer Ansatz zu **NMN oder NR** (die NAD+ von der Synthese-Seite erhöhen)."
+      "confidence": 0.7
     },
     {
       "relation": "hat_regulatorischen_status",
@@ -123,32 +120,28 @@
       "target": "studie-24360282",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24360282",
-      "note": "Grundlagenarbeit: CD38-Aktivität steigt mit dem Alter und verbraucht NAD+. CD38-Deletion bei Mäusen war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene mitochondriale F"
+      "source": "pmid:24360282"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-27174929",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27174929",
-      "note": "Apigenin hemmt CD38 direkt und war mit höheren Werten verbundene NAD+-Spiegel bei alten Mäusen um ~50 %. Verbesserte Mitochondrienfunktion in Leber und Muskel."
+      "source": "pmid:27174929"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-7898410",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:7898410",
-      "note": "Apigenin bindet an GABA-A-Rezeptoren (benzodiazepinartig) mit anxiolytischer Wirkung ohne Sedierung in Tierversuchen."
+      "source": "pmid:7898410"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20589765",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20589765",
-      "note": "Review: Apigenin hemmt NF-κB, COX-2 und proinflammatorische Zytokine in zahlreichen präklinischen Modellen. Antientzündliche Wirkung gut dokumentiert."
+      "source": "pmid:20589765"
     }
   ]
 }

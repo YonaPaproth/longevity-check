@@ -1,0 +1,200 @@
+---
+id: safran
+type: ingredient
+
+meta:
+  title:
+    de: "Safran (Crocus sativus)"
+    en: "Saffron (Crocus sativus)"
+  aliases:
+    - "Crocus sativus"
+    - "Saffron"
+    - "Safran-Extrakt"
+  category: other
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 30
+  publishedAt: "2026-06-01"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Safran gibt es in der EU keine zugelassenen Health Claims. Positive Studien zu Stimmung oder Stress erlauben daher keine freien Werbeaussagen zu antidepressiven, beruhigenden oder sonstigen Gesundheitswirkungen.
+  en: >-
+    There are no approved EU health claims for saffron. Positive trials on mood or stress do not allow free marketing claims about antidepressant, calming, or broader health effects.
+
+key_studies:
+  - pmid: "24299602"
+    title: "Saffron (Crocus sativus L.) and major depressive disorder: a meta-analysis of randomized clinical trials"
+    authors: "Hausenblas HA et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/24299602/"
+    finding:
+      de: >-
+        Frühe Meta-Analyse: Safran war Placebo überlegen und in kleinen Studien ähnlich wirksam wie Antidepressiva bei leichter bis moderater Depression.
+      en: >-
+        Early meta-analysis: saffron outperformed placebo and in small studies appeared comparable to antidepressants in mild to moderate depression.
+  - pmid: "30036891"
+    title: "The Efficacy of Saffron in the Treatment of Mild to Moderate Depression: A Meta-analysis"
+    authors: "Marx W et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/30036891/"
+    finding:
+      de: >-
+        Meta-analytisch zeigt sich ein Signal für depressive Symptome, aber die Evidenz bleibt durch kleine und regionale Studien limitiert.
+      en: >-
+        Meta-analytic signal for depressive symptoms, but the evidence remains limited by small and geographically concentrated trials.
+  - pmid: "32221179"
+    title: "Safety and Efficacy of Saffron (Crocus sativus L.) for Treating Mild to Moderate Depression: A Systematic Review and Meta-analysis"
+    authors: "Tóth B et al."
+    year: 2020
+    url: "https://pubmed.ncbi.nlm.nih.gov/32221179/"
+    finding:
+      de: >-
+        Safran war in den eingeschlossenen Studien meist gut verträglich und zeigte gegenüber Placebo Vorteile bei depressiven Symptomen.
+      en: >-
+        Saffron was generally well tolerated in included trials and showed advantages over placebo for depressive symptoms.
+  - pmid: "34419735"
+    title: "Saffron (Crocus sativus L.) and health outcomes: a meta-research review of meta-analyses and an evidence mapping study"
+    authors: "Lopresti AL et al."
+    year: 2021
+    url: "https://pubmed.ncbi.nlm.nih.gov/34419735/"
+    finding:
+      de: >-
+        Breiter Überblick: Für Stimmung gibt es das stärkste Signal; für viele andere Outcomes ist die Evidenz deutlich schwächer oder zu vorläufig.
+      en: >-
+        Broad overview: mood-related outcomes show the strongest signal; for many other outcomes the evidence is much weaker or still too preliminary.
+
+locales:
+  de:
+    summary: >-
+      Safran wird vor allem für Stimmung, Stress und PMS untersucht. Die Humanstudien sind interessant, aber klein und nicht stark genug für große Gesundheitsversprechen.
+    evidenceSummary: >-
+      Für Safran gibt es mehrere kleine randomisierte Humanstudien und Meta-Analysen, vor allem zu depressiven Symptomen und teils zu Angst, PMS oder Schlaf. Die Ergebnisse sind oft positiv, aber die Datengrundlage bleibt begrenzt: kleine Stichproben, kurze Laufzeiten und starke Abhängigkeit von wenigen Forschungsgruppen.
+    body: |
+      ## Was ist Safran?
+      
+      Safran ist das getrocknete Narbengewebe von *Crocus sativus*. Als Gewürz ist er extrem teuer; als Supplement wird meist standardisierter Extrakt eingesetzt. In der Forschung geht es weniger um allgemeine „Longevity“-Versprechen, sondern vor allem um **Stimmung, Stress, PMS und teils Schlaf**.
+      
+      ## Was zeigen die Studien?
+      
+      ### Stimmung und depressive Symptome
+      
+      Hier liegt der Schwerpunkt der Humanforschung. Mehrere kleine randomisierte Studien und Meta-Analysen zeigen, dass Safran bei **leichter bis moderater depressiver Symptomatik** besser abschneiden kann als Placebo und in einzelnen Studien ähnlich wirksam war wie Standardmedikamente.
+      
+      Das klingt stark — aber die Einschränkungen sind wichtig:
+      - viele Studien sind **klein**
+      - die Laufzeiten sind oft **kurz**
+      - ein großer Teil der Literatur stammt aus **wenigen Forschungsgruppen**
+      - klinische Routineversorgung lässt sich daraus nicht direkt ableiten
+      
+      ### Stress, Angst, Schlaf, PMS
+      
+      Auch hier gibt es positive Signale, aber die Datenbasis ist noch dünner als bei depressiven Symptomen. Safran ist deshalb eher ein **interessanter Kandidat** als ein klar belegter Allround-Wirkstoff.
+      
+      ## Lohnt sich Safran als Supplement?
+      
+      Das ist genau die richtige Frage, weil Safran fast immer teurer ist als einfachere Alternativen. Die vorhandene Evidenz reicht aus, um ihn wissenschaftlich interessant zu nennen — **nicht**, um den hohen Preis pauschal als gesundheitlich gerechtfertigt darzustellen.
+      
+      → Siehe auch unseren [Claims-Check zu Preis und Gesundheitsnutzen von Safran](/claims/safran-preis-gesundheit).
+      
+      ## Sicherheit
+      
+      In typischen Studien-Dosen von etwa **15–30 mg/Tag** wirkt Safran meist gut verträglich. Berichtet werden vor allem leichte Nebenwirkungen wie Magen-Darm-Beschwerden, Kopfschmerzen oder Mundtrockenheit. Vorsicht ist sinnvoll bei:
+      - Schwangerschaft (höhere Dosen meiden)
+      - bipolaren Störungen
+      - sehr hoch dosierten Produkten ohne klare Standardisierung
+      
+      ## Fazit
+      
+      Safran ist **mehr als nur teures Gewürz-Marketing** — aber auch kein klar bewiesener Premium-Wirkstoff. Für Stimmung gibt es die interessantesten Daten. Für breite Gesundheitsversprechen oder die pauschale Rechtfertigung des hohen Preises reicht die Evidenz nicht aus.
+
+  en:
+    summary: >-
+      Saffron is mainly studied for mood, stress, and PMS. Human trials are interesting, but still too small and narrow to justify broad health claims or premium pricing narratives.
+    evidenceSummary: >-
+      There are multiple small randomized human trials and meta-analyses on saffron, especially for depressive symptoms and in some cases anxiety, PMS, or sleep. Results are often positive, but the evidence base remains limited: small samples, short durations, and heavy dependence on a few research groups.
+    body: |
+      ## What is saffron?
+      
+      Saffron is the dried stigma of *Crocus sativus*. As a culinary spice it is famously expensive; as a supplement it is usually sold as a standardised extract. In research, saffron is less about broad longevity promises and more about **mood, stress, PMS, and in some cases sleep**.
+      
+      ## What does the evidence show?
+      
+      ### Mood and depressive symptoms
+      
+      This is where most of the human evidence sits. Several small randomized trials and meta-analyses suggest that saffron can perform **better than placebo in mild to moderate depressive symptoms**, and in some studies it appeared similar to standard antidepressants.
+      
+      That sounds impressive, but the limitations matter:
+      - many studies are **small**
+      - follow-up is usually **short**
+      - a large share of the literature comes from **a limited number of research groups**
+      - results do not automatically translate into routine clinical practice
+      
+      ### Stress, anxiety, sleep, PMS
+      
+      There are also positive signals here, but the evidence base is thinner than for depressive symptoms. That makes saffron more of an **interesting candidate** than a clearly established multi-purpose supplement.
+      
+      ## Is saffron worth it as a supplement?
+      
+      That is the right question, because saffron is almost always more expensive than simpler alternatives. The current evidence is good enough to call it scientifically interesting — **not** good enough to claim that the high price is clearly justified on health grounds alone.
+      
+      → See also our [claim check on whether saffron is worth the price for health alone](/en/claims/saffron-worth-the-price-for-health).
+      
+      ## Safety
+      
+      At typical study doses of around **15–30 mg/day**, saffron is generally well tolerated. Reported adverse effects are usually mild: gastrointestinal upset, headache, or dry mouth. Extra caution makes sense in:
+      - pregnancy (avoid higher doses)
+      - bipolar disorder
+      - very high-dose products without clear standardisation
+      
+      ## Verdict
+      
+      Saffron is **more than expensive-spice marketing** — but it is not a clearly proven premium health supplement either. Mood-related outcomes show the most interesting human data. That is still not enough to justify broad health promises or to claim that the price is obviously worth it.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: depression
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.6
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.4
+  - relation: wirkt_ueber
+    target: serotonin-synthese
+    direction: outgoing
+    confidence: 0.6
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.5
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: pmid-24299602
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24299602"
+  - relation: basiert_auf_studie
+    target: pmid-30036891
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30036891"
+  - relation: basiert_auf_studie
+    target: pmid-32221179
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:32221179"
+  - relation: basiert_auf_studie
+    target: pmid-34419735
+    direction: outgoing
+    confidence: 0.8
+    source: "pmid:34419735"

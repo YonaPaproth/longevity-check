@@ -1,0 +1,190 @@
+---
+id: urolithin-a
+type: ingredient
+
+meta:
+  title:
+    de: "Urolithin A"
+    en: "Urolithin A"
+  aliases:
+    - "Urolithin A"
+    - "UA"
+    - "Mitopure"
+    - "Ellagsäure-Metabolit"
+  category: metabolic
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA Health Claims für Urolithin A. Synthetisches Urolithin A (Mitopure von Amazentis) hat Novel-Food-Zulassung in der EU erhalten (2022). Natürlich aus Granatapfel gewonnenes UA in einer regulatorischen Grauzone.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "27400265"
+    title: "Urolithin A induces mitophagy and prolongs lifespan in C. elegans and increases muscle function in rodents"
+    authors: "Ryu D et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/27400265/"
+    finding:
+      de: >-
+        Nature Medicine: Urolithin A wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne in C. elegans um ~45 % und war mit Veränderungen verbundene Muskelkraft in alten Ratten. Erstnachweis der Mitophagie-Induktion.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "32694659"
+    title: "Mitophagy is required for mitochondrial biogenesis and myofiber growth in response to exercise"
+    authors: "Andreux PA et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/32694659/"
+    finding:
+      de: >-
+        Erster Humanversuch: 500 mg Urolithin A/Tag war mit Veränderungen verbundene Mitochondrienmarker im Muskelgewebe älterer Erwachsener signifikant. Gut verträglich.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "35468083"
+    title: "Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in older adults"
+    authors: "Liu S et al."
+    year: 2022
+    url: "https://pubmed.ncbi.nlm.nih.gov/35468083/"
+    finding:
+      de: >-
+        RCT (n=66, Ältere): 1 g Urolithin A/Tag über 4 Monate war mit Veränderungen verbundene Muskelausdauer und Mitochondrien-Biomarker signifikant vs. Placebo.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "19640941"
+    title: "The gut microbiome determines the bioavailability of pomegranate polyphenols and their metabolite urolithin A"
+    authors: "Selma MV et al."
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19640941/"
+    finding:
+      de: >-
+        Nur ~40 % der Menschen haben Darmbakterien, die Ellagsäure effizient zu Urolithin A umwandeln. Supplementierung umgeht dieses Konversionsproblem.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: ""
+    title: "Effects of Urolithin A Supplementation on Glucose Metabolism in Healthy Adults 55+ Years Old"
+    authors: "ClinicalTrials.gov"
+    year: 2026
+    url: "https://clinicaltrials.gov/study/NCT06274749"
+    finding:
+      de: >-
+        Laufende Studie (ClinicalTrials NCT06274749): Untersucht Effekte von Urolithin-A-Supplementierung auf den Glukosestoffwechsel bei gesunden Erwachsenen ab 55 Jahren. Noch keine Ergebnisse veröffentlicht.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Urolithin A wird aus Granatapfel-Polyphenolen durch Darmbakterien gebildet und wird beim Menschen im Zusammenhang mit Mitophagie untersucht.
+    evidenceSummary: >-
+      Zwei RCTs (Andreux 2019, Liu 2022) zeigen Verbesserung der Mitochondrienfunktion und Muskelausdauer bei älteren Erwachsenen. Mitophagie-Induktion erstmals beim Menschen durch einen Nahrungsstoff belegt. Noch kleine Studiengruppen.
+    body: |
+      ## Was ist Urolithin A?
+      
+      Urolithin A ist kein Pflanzenstoff, sondern ein **Darmmikrobiom-Metabolit**. Der Körper produziert es, wenn Darmbakterien **Ellagsäure** (aus Granatäpfeln, Walnüssen, Himbeeren) abbauen.
+      
+      Das macht Urolithin A biologisch einzigartig: Es ist der erste bekannte Nahrungsstoff, dessen Metabolit beim Menschen mit **Mitophagie** in Verbindung gebracht wurde – die selektive Beseitigung alter und beschädigter Mitochondrien, um die Mitochondrien-Qualität zu erhalten.
+      
+      ## Mitophagie: warum sie für gesundes Altern relevant ist
+      
+      Mitochondrien sind die Energiefabriken der Zellen. Mit dem Alter akkumulieren **beschädigte Mitochondrien** – sie produzieren weniger Energie und mehr reaktive Sauerstoffspezies. Mitophagie räumt diese auf und sorgt für Erneuerung.
+      
+      Geschwächte Mitophagie ist mit Muskelschwund, neurobiologischen Problemen und allgemeiner Alterung assoziiert. Urolithin A wird in diesem Zusammenhang als möglicher Auslöser dieses Selbstreinigungsmechanismus untersucht.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Belegt
+      - **Mitophagie-Induktion beim Menschen**: Erstmals 2019 durch Muskelbiopsie gezeigt (Andreux et al.)
+      - **Mitochondrien-Biomarker**: Verbesserungen in RCTs (mtDNA/nDNA-Ratio, ATP-Produktion)
+      - **Muskelausdauer**: Signifikante Verbesserung bei älteren Erwachsenen in 4-Monats-RCT
+      
+      ### Noch früh
+      - Langzeiteffekte unklar (längster RCT: 4 Monate)
+      - Wirkung bei jüngeren, gesunden Menschen weniger klar
+      - Kaum Daten zu kognitiven oder kardiovaskulären Endpunkten
+      
+      ### Nicht belegt
+      - Lebensverlängerung beim Menschen
+      
+      ## Das Darmmikrobiom-Problem
+      
+      Nur etwa **30–40 % der Menschen** besitzen die richtigen Darmbakterien (*Gordonibacter urolithinfaciens*, *Ellagibacter isourolithinifaciens*), um Ellagsäure effizient zu Urolithin A umzuwandeln. Granatapfelsaft allein reicht für den Rest der Menschen nicht – daher ist ein direktes Supplement hier sinnvoller als bei vielen anderen Stoffen.
+      
+      ## Ist Urolithin A sicher?
+      
+      Beide RCTs berichten keine ernsthaften Nebenwirkungen. Als **wahrscheinlich sicher** einzustufen bei 500–1.000 mg/Tag. Synthethisches Urolithin A (Marke Mitopure) hat in der EU Novel-Food-Zulassung – ein Qualitätsindikator für die regulatorische Prüfung.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: autophagie
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-27400265
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27400265"
+  - relation: basiert_auf_studie
+    target: studie-32694659
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:32694659"
+  - relation: basiert_auf_studie
+    target: studie-35468083
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:35468083"
+  - relation: basiert_auf_studie
+    target: studie-19640941
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19640941"

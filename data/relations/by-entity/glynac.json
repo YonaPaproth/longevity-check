@@ -5,8 +5,7 @@
       "relation": "hat_interaktion_mit",
       "target": "glycin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+      "confidence": 0.7
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -61,31 +60,27 @@
       "target": "studie-33512051",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:33512051",
-      "note": "RCT (n=24): GlyNAC bei älteren Erwachsenen stellte Glutathion-Spiegel auf jugendliche Werte wieder her und war mit Veränderungen verbundene Mitochondrienfunktion, Entzündungsmarker, Muskelkraft und Ko"
+      "source": "pmid:33512051"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-34741443",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:34741443",
-      "note": "Follow-up-Studie: GlyNAC war mit Veränderungen verbundene Mitochondrien-Energiestoffwechsel, Körperzusammensetzung (weniger Fettmasse) und Gehgeschwindigkeit bei älteren Menschen."
+      "source": "pmid:34741443"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-35504071",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:35504071",
-      "note": "Tierstudie: GlyNAC wird im Zusammenhang mit Alterungsforschung diskutierte die Lebensspanne bei Mäusen um 24 % und war mit Veränderungen verbundene multiple Hallmarks of Alterung."
+      "source": "pmid:35504071"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Im Kontext gesunden Alterns ist es in Kombination mit **Glycin** (GlyNAC) besonders spannend."
+      "confidence": 0.7
     }
   ]
 }

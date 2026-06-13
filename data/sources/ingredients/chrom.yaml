@@ -1,0 +1,123 @@
+---
+id: chrom
+type: ingredient
+
+meta:
+  title:
+    de: "Chrom"
+    en: "Chrom"
+  aliases:
+    - "Chromium"
+    - "Chrompicolinat"
+    - "Chromhefe"
+  category: metabolic
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 0.2
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Chrom ist in der EU ein Claim zum Erhalt normaler Blutzuckerwerte und zum Makronährstoffstoffwechsel zugelassen. Das heißt nicht, dass hohe Chromdosen metabolische Probleme zuverlässig lösen.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "17684127"
+    title: "Chromium supplementation in type 2 diabetes mellitus"
+    authors: "Balk EM et al."
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17684127/"
+    finding:
+      de: >-
+        Systematischer Review: Effekte auf Blutzucker sind inkonsistent und insgesamt eher moderat.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "30741566"
+    title: "Chromium picolinate supplementation and glucose metabolism"
+    authors: "Vincent JB"
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/30741566/"
+    finding:
+      de: >-
+        Review: Chrom bleibt mechanistisch interessant, aber klinische Effekte hängen stark von Population, Ausgangsstatus und Präparat ab.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: ""
+    title: "Chromium"
+    authors: "Office of Dietary Supplements, NIH"
+    year: 2022
+    url: "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/"
+    finding:
+      de: >-
+        Übersicht zu Bedarf, Datenlage und Sicherheit. Chrom ist kein Wundermittel gegen metabolische Probleme.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Chrom wird oft für Blutzucker und Heißhunger beworben. Die Evidenz ist gemischt, und bei Gesunden ist der Zusatznutzen meist klein.
+    evidenceSummary: >-
+      Chrom ist ein Spurenelement mit möglicher Rolle im Glukosestoffwechsel, aber die Evidenz für Supplemente ist inkonsistent. Bei Stoffwechselauffälligkeiten wie Insulinresistenz gibt es gemischte Ergebnisse, bei gesunden Erwachsenen meist nur geringe oder keine Effekte.
+    body: |
+      ## Was ist Chrom?
+      
+      Chrom ist ein Spurenelement, das oft mit **Insulinsensitivität** und **Blutzuckerregulation** in Verbindung gebracht wird. Deshalb taucht es regelmäßig in Stoffwechsel- und Abnehm-Supplements auf.
+      
+      ## Was ist vergleichsweise gut untersucht?
+      
+      - Grundlegende Rolle im Makronährstoffstoffwechsel
+      - Möglicherweise kleine Effekte in bestimmten Populationen mit metabolischen Problemen
+      
+      ## Was ist nicht vergleichsweise gut untersucht?
+      
+      - Deutliche Blutzuckerverbesserung bei allen
+      - Weniger Heißhunger oder Gewichtsverlust als verlässlicher Effekt
+      - Relevante gesundes-Alten-Effekte
+      
+      ## Fazit
+      
+      Chrom ist eher **okay, aber unspektakulär**. In der Bubble wird es oft größer gemacht, als die klinischen Daten hergeben.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-17684127
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17684127"
+  - relation: basiert_auf_studie
+    target: studie-30741566
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30741566"
+  - relation: hat_interaktion_mit
+    target: eisen
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: quercetin
+    direction: incoming
+    confidence: 0.7

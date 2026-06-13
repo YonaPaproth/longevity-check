@@ -74,7 +74,7 @@ src/
 
 ## Aktueller Stand
 
-- **111 Wirkstoff-Dossiers** (DE), **13 EN-Dossiers**
+- **111 Wirkstoff-Dossiers** (DE), **111 EN-Dossiers** (davon 90 noch NEEDS_EN-Platzhalter)
 - **~100 Produkt-Reviews** mit Affiliate-Links
 - **21 Claims-Checks** (DE), **19 EN**
 - **2 Research Reviews** (wöchentliche Studienübersichten)
@@ -108,7 +108,46 @@ data/sources/ingredients/<slug>.yaml    ← EDIT THIS (Single Source of Truth)
 **Schema-Doku:** `data/sources/schema.md`
 **Formales Schema:** `data/schema/ingredient-source.schema.yaml`
 
-**Hinweis:** Noch nicht alle 111 Dossiers sind auf YAML migriert. Berberine ist der Pilot. Nicht-migrierte Dossiers werden weiterhin direkt als MDX editiert.
+**Status:** Alle 111 Dossiers sind auf YAML migriert. 90 davon brauchen noch EN-Übersetzung (markiert mit `NEEDS_EN_TRANSLATION` / `NEEDS_EN_BODY`).
+
+### EN-Übersetzung: Workflow für Agents
+
+**90 Dossiers brauchen EN-Prosa.** So geht's:
+
+```bash
+# 1. Finde Dossiers die EN brauchen:
+grep -l "NEEDS_EN" data/sources/ingredients/*.yaml
+
+# 2. Öffne das YAML und ersetze alle NEEDS_EN-Platzhalter:
+#    - NEEDS_EN_TRANSLATION → Englische Übersetzung des DE-Texts
+#    - NEEDS_EN_BODY → Komplettes englisches Dossier (800+ Wörter)
+#
+#    Qualitätsregeln für EN:
+#    - Nicht wörtlich übersetzen, sondern für EN-Leser neu schreiben
+#    - Konkrete Effektgrößen, CIs, Stichprobengrößen
+#    - Ehrliche Limitationen
+#    - EFSA-Status klar benennen
+#    - Kein Marketing
+#    - summary: max 200 Zeichen!
+
+# 3. Generiere die MDX:
+npx tsx data/scripts/generate-from-source.ts <slug>
+
+# 4. Build testen:
+pnpm build
+
+# 5. Commit: YAML + generierte Dateien zusammen
+```
+
+**Batch-Migration-Script:** `python3 data/scripts/migrate-mdx-to-yaml.py`
+- `--dry-run` — Preview ohne Schreiben
+- `--list-missing-en` — Zeigt alle Slugs die EN brauchen
+- Ohne Argumente: migriert alle noch nicht migrierten MDX
+
+**Priorisierung für EN-Übersetzung:**
+- **Top-Priorität:** Dossiers mit >800w DE (hohes Suchvolumen)
+- **Mittel:** 400-800w DE
+- **Niedrig:** <400w DE (oft nur Kurztexte wie Mineralien)
 
 ---
 

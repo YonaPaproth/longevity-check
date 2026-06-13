@@ -1,0 +1,139 @@
+---
+id: trehalose
+type: ingredient
+
+meta:
+  title:
+    de: "Trehalose"
+    en: "Trehalose"
+  aliases:
+    - "Trehalose"
+    - "Mycose"
+    - "Tremalose"
+  category: metabolic
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 3000
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA Health Claims. Trehalose ist als Lebensmittelzusatz in der EU zugelassen (E 955 in einigen Ländern). Als Supplement regulatorisch unbedenklich.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "15300606"
+    title: "Trehalose alleviates polyglutamine-mediated pathology in a mouse model of Huntington disease"
+    authors: "Tanaka M et al."
+    year: 2004
+    url: "https://pubmed.ncbi.nlm.nih.gov/15300606/"
+    finding:
+      de: >-
+        Trehalose induzierte Autophagie und reduzierte Proteinaggregation im Maus-Huntington-Modell signifikant.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "24481086"
+    title: "Trehalose delays cardiac aging by enhancing autophagy"
+    authors: "Wohlgemuth SE et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24481086/"
+    finding:
+      de: >-
+        Trehalose verlangsamte Herzalterung bei Ratten durch gesteigerte Autophagie – Mitochondrienfunktion war mit Veränderungen verbunden.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "31978754"
+    title: "Trehalose improves cardiometabolic function in humans"
+    authors: "Bhatt MV et al."
+    year: 2020
+    url: "https://pubmed.ncbi.nlm.nih.gov/31978754/"
+    finding:
+      de: >-
+        Pilota-Humanstudie: Trehalose-Einnahme war mit Veränderungen verbundene Glukosetoleranz und arterielle Steifigkeit bei übergewichtigen Erwachsenen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Trehalose ist ein natürlicher Zweifachzucker, der in präklinischen Modellen für Autophagie und Alterung untersucht wird. Humanstudien sind bisher rar.
+    evidenceSummary: >-
+      Trehalose aktiviert Autophagie über mTOR-unabhängige Wege in Tiermodellen. Humanstudien zu gesundes Altern fehlen. Einige Studien zeigen positive metabolische Effekte bei Menschen.
+    body: |
+      ## Was ist Trehalose?
+      
+      Trehalose ist ein natürlicher **Disaccharid** (Zweifachzucker), bestehend aus zwei Glukosemolekülen. Er kommt in Pilzen, Insekten, Pflanzen und Hefe vor – und wird mit Schutzmechanismen in Verbindung gebracht diese bei extremer Hitze, Trockenheit oder Kälte.
+      
+      Für gesundes-Alten-Forscher interessant: Trehalose ist einer der wenigen Wirkstoffe, der **Autophagie über einen mTOR-unabhängigen Weg** aktiviert. Autophagie ist der zelluläre Selbstreinigungsprozess, bei dem beschädigte Proteine und Organellen abgebaut werden – zentral für gesundes Altern.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Das Positive
+      - Aktiviert Autophagie in Zellkulturen und Tiermodellen konsistent
+      - Kann Proteinfaltung beeinflussen und Aggregation reduzieren (relevant in neurobiologischen Kontexten)
+      - Erste Humanstudien zeigen positive metabolische Effekte
+      - Synergieeffekte mit Intervallfasten möglich
+      
+      ### Das Problem
+      - Sehr wenige Humanstudien, keine gesundes-Alten-RCTs
+      - Hohe Dosen nötig (3–10 g/Tag), was als Supplement teuer wird
+      - Kalorisch (Zucker!) – relevant bei metabolischen Erkrankungen
+      - Manche Studien in vitro, Übertragbarkeit fraglich
+      
+      > **Fazit:** Trehalose ist ein nischenartiger, aber wissenschaftlich interessanter gesundes-Alten-Kandidat. Für Healthy-Aging-Enthusiasten mit Interesse an Autophagie-Optimierung spannend – aber noch zu früh für klare Empfehlungen.
+      
+      ## Ist Trehalose sicher?
+      
+      Als Lebensmittelbestandteil seit Jahrtausenden sicher. In der EU als Lebensmittelzusatz zugelassen. Bei hohen Dosen kalorische Last beachten.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: mtor-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: autophagie
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-15300606
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:15300606"
+  - relation: basiert_auf_studie
+    target: studie-24481086
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24481086"
+  - relation: basiert_auf_studie
+    target: studie-31978754
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:31978754"

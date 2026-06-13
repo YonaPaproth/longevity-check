@@ -96,32 +96,28 @@
       "target": "studie-37289866",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:37289866",
-      "note": "Science 2023: Taurinspiegel sinken mit dem Alter um 80–90 % (Maus, Affe, Mensch). Supplementierung wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne bei Mäusen um ~12 % und war mit "
+      "source": "pmid:37289866"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24349057",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24349057",
-      "note": "Review: Taurin ist in nahezu jedem Gewebe vorhanden, besonders in Herz, Gehirn, Retina und Skelettmuskel. Funktion als Osmolyt, Antioxidans und Membranstabilisator."
+      "source": "pmid:24349057"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-26781281",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26781281",
-      "note": "RCT (n=120): 1,6 g Taurin/Tag über 12 Wochen war mit niedrigeren Werten verbundene systolischen Blutdruck um 7,2 mmHg, war mit Veränderungen verbundene Gefäßfunktion."
+      "source": "pmid:26781281"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-11953940",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:11953940",
-      "note": "Taurin war mit niedrigeren Werten verbunden Triglyceride und war mit Veränderungen verbunden LDL-Oxidation. Kardioprotektive Effekte in mehreren kleinen Studien belegt."
+      "source": "pmid:11953940"
     }
   ]
 }

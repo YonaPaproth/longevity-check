@@ -1,0 +1,112 @@
+---
+id: l-tryptophan
+type: ingredient
+
+meta:
+  title:
+    de: "L-Tryptophan"
+    en: "L-Tryptophan"
+  aliases:
+    - "Tryptophan"
+    - "L-Tryptophan"
+  category: other
+  evidenceLevel: "3"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für L-Tryptophan gibt es in der EU keine zugelassenen Claims zu Schlaf oder Stimmung.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "6818213"
+    title: "Tryptophan and sleep"
+    authors: "Hartmann E"
+    year: 1982
+    url: "https://pubmed.ncbi.nlm.nih.gov/6818213/"
+    finding:
+      de: >-
+        Frühe Humanstudien zeigen potenzielle Vorteile für Einschlafzeit und Schlafqualität.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "19734380"
+    title: "The role of tryptophan in mood and cognition"
+    authors: "Richard DM et al."
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19734380/"
+    finding:
+      de: >-
+        Review: Tryptophan ist neurobiologisch relevant, aber Effekte hängen stark vom Kontext ab.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23689751"
+    title: "Tryptophan depletion and psychiatric vulnerability"
+    authors: "Young SN"
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23689751/"
+    finding:
+      de: >-
+        Tryptophan beeinflusst serotonerge Systeme plausibel, aber Supplementeffekte sind nicht automatisch groß.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      L-Tryptophan ist die Vorstufe von Serotonin und Melatonin. Für Schlaf- und Stimmungsfragen biologisch plausibel, aber die direkte Wirkung als Supplement bleibt begrenzt.
+    evidenceSummary: >-
+      L-Tryptophan ist biologisch plausibel für Schlaf und Stimmung, da es Vorstufe von Serotonin und Melatonin ist. Es gibt positive Daten, aber die Effekte sind meist moderat und variabel. Die direkte Wirkung ist oft schwächer als bei gezielteren Stoffen wie 5-HTP oder Melatonin.
+    body: |
+      ## Was ist L-Tryptophan?
+      
+      L-Tryptophan ist eine essenzielle Aminosäure und Vorstufe von **Serotonin** und **Melatonin**.
+      
+      ## Was ist das Problem in der Praxis?
+      
+      Die Umwandlung ist nicht automatisch effizient, und Tryptophan konkurriert mit anderen Aminosäuren beim Transport.
+      
+      ## Fazit
+      
+      L-Tryptophan ist **plausibel, aber nicht maximal effizient**. Eher ein sanfter Kandidat als ein klarer Gamechanger.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: hat_interaktion_mit
+    target: 5-htp
+    direction: incoming
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: serotonin-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-6818213
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:6818213"
+  - relation: basiert_auf_studie
+    target: studie-19734380
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19734380"
+  - relation: basiert_auf_studie
+    target: studie-23689751
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23689751"

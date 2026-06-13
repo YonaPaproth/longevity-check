@@ -1,0 +1,274 @@
+---
+id: quercetin
+type: ingredient
+
+meta:
+  title:
+    de: "Quercetin"
+    en: "Quercetin"
+  aliases:
+    - "Quercetin Supplement"
+    - "Quercetin + Dasatinib"
+    - "Senolytikum"
+    - "Quercefit"
+  category: senolytics
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat keine Health Claims für Quercetin zugelassen. Hochdosierte Supplements (500+ mg) sind in der EU regulatorisch uneinheitlich behandelt; als Novel Food gilt Quercetin nicht. Marketingaussagen zu Senolytik oder Longevity sind ohne Zulassungsbasis.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "29988130"
+    title: "Quercetin and Dasatinib Reduce Senescent Cells in Humans (Mayo Clinic)"
+    authors: "Xu M et al."
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/29988130/"
+    finding:
+      de: >-
+        Erste Humanpilot-Studie mit D+Q (Dasatinib + Quercetin): Reduktion seneszenter Zellen im Fettgewebe bei n=9 Personen mit diabetischer Nierenerkrankung. Dasatinib ist ein Krebsmedikament. Quercetin allein wurde nicht getestet.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "31578601"
+    title: "Quercetin and Dasatinib in Idiopathic Pulmonary Fibrosis"
+    authors: "Justice JN et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/31578601/"
+    finding:
+      de: >-
+        D+Q-Pilotstudie (n=14 IPF-Patienten): Verbesserungen bei körperlicher Leistungsfähigkeit und Ganggeschwindigkeit nach 3 Wochen. Keine Kontrollgruppe, kein Quercetin-Arm allein.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "32233013"
+    title: "The Senolytic Drug Quercetin Removes Senescent Cells and Improves Physical Function"
+    authors: "Kirkland JL & Tchkonia T"
+    year: 2020
+    url: "https://pubmed.ncbi.nlm.nih.gov/32233013/"
+    finding:
+      de: >-
+        Review der Mayo-Klinik-Gruppe: Zusammenfassung der Senolytik-Evidenz. Vielversprechend in Tiermodellen, aber Humanstudien in sehr früher Phase und nur mit D+Q-Kombination.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "19402938"
+    title: "Quercetin reduces systolic blood pressure in overweight subjects"
+    authors: "Egert S et al."
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19402938/"
+    finding:
+      de: >-
+        Doppelblind-Crossover-RCT (n=93): 150 mg Quercetin/Tag über 6 Wochen reduzierte systolischen Blutdruck signifikant (~3 mmHg) und oxidiertes LDL bei übergewichtigen Hochrisikopersonen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "27405231"
+    title: "A systematic review and meta-analysis of Quercetin supplementation and blood pressure"
+    authors: "Serban MC et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/27405231/"
+    finding:
+      de: >-
+        Meta-Analyse (7 RCTs): Quercetin-Supplementierung senkte systolischen Blutdruck um ~3,09 mmHg. Effekte nur bei ≥500 mg/Tag und &gt;8 Wochen signifikant. Effektgröße: klein.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Quercetin ist ein Pflanzenstoff mit antioxidativer Wirkung und gilt als potenzielles Senolytikum. Die Senolytik-Evidenz stammt fast ausschließlich aus Tier- und In-vitro-Studien.
+    evidenceSummary: >-
+      Quercetin hat mäßige Human-Evidenz für einige Biomarker-Effekte (Blutdruck, Entzündungsmarker), aber die Effektgrößen sind gering und Studien oft klein. Als Senolytikum (Entfernung seneszenter Zellen) existiert nur ein winziges Pilot-Set an Humanstudien — ausschließlich mit Quercetin + Dasatinib, nicht mit Quercetin allein. Schlechte Bioverfügbarkeit bleibt das zentrale Problem.
+    body: |
+      ## Was ist Quercetin?
+      
+      Quercetin ist ein **Flavonoid** — ein gelber Pflanzenstoff (lat. *quercus* = Eiche), der natürlich in Zwiebeln (~20–50 mg/100 g), Kapern (~180 mg/100 g), Äpfeln, Weintrauben und grünem Tee vorkommt. Die durchschnittliche tägliche Aufnahme über die Ernährung liegt bei etwa **10–25 mg/Tag** bei gemischter westlicher Kost.
+      
+      Als Supplement wird Quercetin in Dosierungen von 250–1000 mg/Tag vermarktet — also dem 10- bis 40-fachen der Nahrungsmenge. Diese Skalierung ist entscheidend für das Verständnis der Evidenzlage.
+      
+      ## Das zentrale Problem: Bioverfügbarkeit
+      
+      **Oral eingenommenes Quercetin wird schlecht und variabel absorbiert.** Die systemische Bioverfügbarkeit variiert in Studien stark — Schätzungen reichen von unter 1 % bis etwa 17 %, abhängig von Formulierung, Lebensmittelmatrix und individuellen Faktoren (Darmbiom, Genetik).
+      
+      Quercetin wird im Darm und in der Leber intensiv metabolisiert. Was im Blut messbar ist, sind größtenteils **Metaboliten** (Quercetin-Glucuronide, Sulfate), deren biologische Aktivität von der der Ausgangssubstanz abweichen kann.
+      
+      Neuere Formulierungen versuchen, dieses Problem zu umgehen:
+      - **Quercefit / Phytosome (Quercetin-Phospholipid-Komplex):** In einer kleinen Studie ~20-fach bessere Absorption als Standardquercetin.
+      - **Quercetin-Dihydrat:** Leicht bessere Löslichkeit als Aglycone-Form.
+      - Ob verbesserte Bioverfügbarkeit klinisch relevante Unterschiede macht, ist nicht gut untersucht.
+      
+      ## Quercetin als Antioxidans — was sagen die Humanstudien?
+      
+      In Zellkulturen und Tiermodellen zeigt Quercetin robuste antioxidative und entzündungshemmende Effekte. In Humanstudien sind die Befunde deutlich bescheidener:
+      
+      **Blutdruck:** Die bislang größte Meta-Analyse (7 RCTs, n=587) zeigte eine durchschnittliche Reduktion des systolischen Blutdrucks um **~3,09 mmHg** bei Dosen ≥500 mg/Tag und einer Mindestdauer von 8 Wochen. Dieser Effekt ist statistisch signifikant, aber klinisch klein (zum Vergleich: Lebensstiländerungen können 5–10 mmHg erreichen).
+      
+      **Entzündungsmarker:** Einige RCTs zeigen leichte Reduktionen bei CRP und Interleukin-6. Die Effekte sind inkonsistent zwischen Studien und meist gering.
+      
+      **Oxidatives LDL:** Einzelne Studien (z. B. Egert 2009) zeigen Reduktionen bei oxidiertem LDL bei hochrisikoreichen Personen. Replikationen fehlen weitgehend.
+      
+      ## Quercetin als Senolytikum — Hype vs. Realität
+      
+      ### Was ist Senolytik?
+      
+      Seneszente ("Zombie") Zellen teilen sich nicht mehr, sterben aber auch nicht ab. Sie senden entzündliche SASP-Signale (Senescence-Associated Secretory Phenotype) aus und akkumulieren mit dem Alter in verschiedenen Geweben. Die Idee: Gezielte Entfernung dieser Zellen könnte Alterserscheinungen verlangsamen.
+      
+      In Mausmodellen sind die Daten eindrucksvoll: Senolytische Interventionen verlängerten funktionelle Gesundheitsspanne, verbesserten Organfunktion und reduzierten altersassoziierte Pathologien.
+      
+      ### Das Dasatinib-Problem
+      
+      Die bekannten Senolytik-Studien am Menschen kommen ausnahmslos vom Mayo-Klinik-Team und verwenden **Dasatinib + Quercetin (D+Q)**. Dasatinib ist ein **Krebsmedikament** (BCR-ABL-Inhibitor, First-Line-Therapie bei CML) und ohne Verschreibung nicht verfügbar.
+      
+      Die Humanstudien mit D+Q haben ausserdem winzige Stichproben: n=9 in der ersten Pilotstudie (Xu 2018), n=14 in der IPF-Studie (Justice 2019). Eine Kontrollgruppe ohne Dasatinib fehlte in beiden. **Ob Quercetin allein senolytische Wirkung beim Menschen hat, ist durch keine Studie belegt.**
+      
+      ### Was fehlt
+      
+      - Keine Phase-2/3-RCTs mit Quercetin allein und senolytischen Endpunkten
+      - Keine Langzeitstudien (>3 Monate) zu seneszenten Zellmarkern unter Quercetin-Supplementierung
+      - Kein Wirkungsnachweis bei gesunden, nicht-kranken Menschen
+      
+      ## Dosierung und verfügbare Formulierungen
+      
+      - **Antioxidativer/kardiovaskulärer Kontext (in Studien):** 150–1000 mg/Tag, meist als Quercetin-Dihydrat oder -Aglycone
+      - **Senolytik-Protokoll (D+Q, nur in Studien und unter ärztlicher Aufsicht):** 3 Tage, dann 3 Wochen Pause — kein etabliertes OTC-Protokoll
+      - **Quercefit-Phytosome:** 250 mg werden als äquivalent zu höheren Standard-Quercetin-Dosen angegeben (noch wenig klinische Bestätigung)
+      
+      Einnahme mit einer fetthaltigen Mahlzeit verbessert die Absorption geringfügig.
+      
+      ## Sicherheit und Wechselwirkungen
+      
+      Quercetin als Nahrungsbestandteil ist unbedenklich. Als hochdosiertes Supplement (500–1000 mg/Tag) gibt es keine alarmierten Sicherheitssignale, aber die Langzeitsicherheitsdaten sind dünn.
+      
+      Mögliche Wechselwirkungen:
+      - **CYP3A4-Hemmung:** Quercetin hemmt in vitro Cytochrom-P450-Enzyme, was die Spiegel anderer Medikamente beeinflussen könnte. Klinische Relevanz bei üblichen Dosen unklar.
+      - **Antikoagulanzien (Warfarin):** Theoretisch additive Effekte möglich; Vorsicht geboten.
+      - **Immunsuppressiva:** Interaktionen mit Cyclosporin und ähnlichen Substanzen nicht ausgeschlossen.
+      
+      ## EFSA- und regulatorischer Status
+      
+      Die EFSA hat in einem wissenschaftlichen Gutachten (EFSA Journal 2011) **keine Health Claims für Quercetin zugelassen**. Das offizielle EFSA-Gutachten zu Quercetin-Wirkungsansprüchen ist unter [efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2011.2067](https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2011.2067) einsehbar. Marketingaussagen zu Senolytik, Longevity oder Zellschutz sind ohne Zulassungsbasis in der EU nicht erlaubt.
+      
+      Als Lebensmittelbestandteil gilt Quercetin als unbedenklich; als hochdosiertes Supplement ist die regulatorische Einordnung in der EU uneinheitlich (kein Novel Food, aber EFSA hat keine Wirkungsansprüche positiv bewertet).
+      
+      ## Ehrliche Limitierungen
+      
+      - Senolytische Wirkung in Humanstudien ausschließlich für D+Q-Kombination gezeigt, nicht für Quercetin allein.
+      - Alle D+Q-Humanstudien sind klein (n &lt; 15), ohne Kontrollgruppe und mit sehr kurzer Laufzeit.
+      - Antioxidative Effekte in Humanstudien sind real, aber klein und klinisch wenig spektakulär.
+      - Schlechte Bioverfügbarkeit macht Dosierungsaussagen unsicher; verbesserte Formulierungen fehlt klinische Validierung.
+      - Langzeitsicherheit bei 500–1000 mg/Tag ist nicht gut dokumentiert.
+      
+      ## Fazit
+      
+      Als **Lebensmittelbestandteil** ist Quercetin unbedenklich und wahrscheinlich nützlich im Kontext einer Ernährung mit viel Obst und Gemüse. Als **hochdosiertes Longevity-Supplement** rechtfertigt die vorhandene Evidenz den Hype nicht. Wer an Senolytika interessiert ist, sollte die laufenden klinischen Studien (ClinicalTrials.gov) abwarten — das Feld entwickelt sich, aber die Extrapolation von Mäusen auf gesunde Menschen über freiverkäufliche Kapseln ist derzeit nicht wissenschaftlich fundiert.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: senolytisch
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: crp
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: blutdruck-werte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: glutathion-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: chrom
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-organtransplantation
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-29988130
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:29988130"
+  - relation: basiert_auf_studie
+    target: studie-31578601
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:31578601"
+  - relation: basiert_auf_studie
+    target: studie-32233013
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:32233013"
+  - relation: basiert_auf_studie
+    target: studie-19402938
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19402938"
+  - relation: basiert_auf_studie
+    target: studie-27405231
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27405231"

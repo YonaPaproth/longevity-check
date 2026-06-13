@@ -1,0 +1,222 @@
+---
+id: apigenin
+type: ingredient
+
+meta:
+  title:
+    de: "Apigenin"
+    en: "Apigenin"
+  aliases:
+    - "Apigenin"
+    - "4',5,7-Trihydroxyflavon"
+    - "Kamillenflavonoid"
+    - "CD38-Inhibitor"
+  category: antioxidants
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 50
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA Health Claims für Apigenin. Als Pflanzenstoff in Nahrungsergänzungsmitteln in der EU erhältlich. Klinische Studien laufen. Keine Novel-Food-Einstufung.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "24360282"
+    title: "Declining NAD+ induces a pseudohypoxic state disrupting nuclear-mitochondrial communication during aging"
+    authors: "Gomes AP et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/24360282/"
+    finding:
+      de: >-
+        Grundlagenarbeit: CD38-Aktivität steigt mit dem Alter und verbraucht NAD+. CD38-Deletion bei Mäusen war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene mitochondriale Funktion deutlich.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "27174929"
+    title: "Apigenin as a CD38 inhibitor in aging"
+    authors: "Camacho-Pereira J et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/27174929/"
+    finding:
+      de: >-
+        Apigenin hemmt CD38 direkt und war mit höheren Werten verbundene NAD+-Spiegel bei alten Mäusen um ~50 %. Verbesserte Mitochondrienfunktion in Leber und Muskel.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "7898410"
+    title: "Anxiolytic-like activity and apigenin treatment in a model of generalized anxiety"
+    authors: "Viola H et al."
+    year: 1995
+    url: "https://pubmed.ncbi.nlm.nih.gov/7898410/"
+    finding:
+      de: >-
+        Apigenin bindet an GABA-A-Rezeptoren (benzodiazepinartig) mit anxiolytischer Wirkung ohne Sedierung in Tierversuchen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "20589765"
+    title: "Luteolin and apigenin as inhibitors of inflammation"
+    authors: "Shukla S & Gupta S"
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20589765/"
+    finding:
+      de: >-
+        Review: Apigenin hemmt NF-κB, COX-2 und proinflammatorische Zytokine in zahlreichen präklinischen Modellen. Antientzündliche Wirkung gut dokumentiert.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Apigenin ist ein Flavonoid aus Kamille und Petersilie, das CD38 hemmt – ein Enzym, das NAD+ abbaut. Damit ergänzt es NMN/NR aus einem anderen Winkel. Noch frühe Humanstudien.
+    evidenceSummary: >-
+      CD38-Hemmung präklinisch vergleichsweise gut untersucht – war mit höheren Werten verbunden NAD+-Spiegel in Mäusen. Erste kleine Humanstudien zeigen Verbesserungen bei Angst und kognitiver Funktion. Direkte gesundes Altern-Effekte beim Menschen nicht untersucht.
+    body: |
+      ## Was ist Apigenin?
+      
+      Apigenin ist ein **Flavon** – ein Polyphenol, das natürlich in Kamille (Matricaria chamomilla), Petersilie, Sellerie, Thymian und bestimmten Früchten vorkommt. Historisch ist es vor allem als aktiver Wirkstoff im Kamillentee bekannt, dessen leicht beruhigende Wirkung auf GABA-Rezeptorbindung zurückgeführt wird.
+      
+      Im Kontext gesunden Alterns hat Apigenin eine zweite, viel spannendere Identität: Es ist ein **CD38-Inhibitor** – und das macht es zu einem interessanten Baustein der NAD+-Strategie.
+      
+      ## Die CD38/NAD+-Verbindung
+      
+      **CD38** ist ein Enzym, das NAD+ abbaut – und seine Aktivität steigt mit zunehmendem Alter drastisch an. Forschung von David Sinclair und anderen zeigt: Ein erheblicher Teil des altersbedingten NAD+-Rückgangs wird nicht durch weniger Produktion verursacht, sondern durch **mehr Abbau durch CD38**.
+      
+      Hier greift Apigenin an: Indem es CD38 hemmt, verlangsamt es den NAD+-Abbau – ohne NAD+ direkt zuzuführen. Das ist ein komplementärer Ansatz zu **NMN oder NR** (die NAD+ von der Synthese-Seite erhöhen).
+      
+      In der Praxis kombinieren manche gesundes-Alten-Enthusiasten deshalb NMN + Apigenin – Synthese erhöhen und Abbau hemmen gleichzeitig.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Präklinisch vergleichsweise gut untersucht
+      - CD38-Hemmung war mit höheren Werten verbunden NAD+-Spiegel bei alten Mäusen messbar (~50 %)
+      - Verbesserte mitochondriale Funktion in Leber und Skelettmuskel
+      - Anxiolytische Wirkung über GABA-Rezeptoren (ohne Sedierung)
+      - Entzündungshemmung via NF-κB, COX-2
+      
+      ### Humanstudien: sehr früh
+      - Keine RCTs zu NAD+-Effekten beim Menschen zum Zeitpunkt dieser Bewertung
+      - Kleine Studien zu Angst und Schlaf (Kamille-Extrakt) – aber mit gemischten Formulierungen
+      - Epidemiologisch: hohe Flavon-Aufnahme assoziiert mit weniger kognitiven Einbußen
+      
+      ### Nicht belegt beim Menschen
+      - Direkte NAD+-Erhöhung durch orale Apigenin-Supplementierung
+      - Endpunkte zu gesundem Altern
+      
+      > **Fazit:** Apigenin ist biologisch plausibel als CD38-Inhibitor, aber der Schritt von Mausdaten zu humaner Wirkung ist bei NAD+-Strategien besonders unsicher. Wer NMN supplementiert, hat eine rationale Grundlage, Apigenin zu ergänzen – wer aber keine NAD+-Strategie verfolgt, hat wenig direkte Evidenz.
+      
+      ## Apigenin als Schlaf-/Angst-Supplement
+      
+      Separat von der gesundes-Alten-Wirkung: Kamillentee (Apigenin-Quelle) hat tatsächlich milde anxiolytische Eigenschaften. RCTs mit standardisierten Kamille-Extrakten zeigen Reduktion von Angst-Scores bei generalisierten Angststörungen. Das ist ein eigenständiger, etwas besser belegter Nutzen.
+      
+      ## Ist Apigenin sicher?
+      
+      Bei üblichen Dosen (25–100 mg/Tag) als **wahrscheinlich sicher** einzustufen. In sehr hohen Dosen zeigten Tierversuche Einfluss auf Schilddrüsenhormone und Reproduktionsfunktion – kein Beleg beim Menschen, aber ein Signal für Vorsicht bei sehr hoher Dosierung.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: schilddruese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: nad-biosynthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: gaba-rezeptor
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: nf-kb-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: prostaglandin-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: nad-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: glutathion-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: gaba
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nmn
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nr
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-24360282
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24360282"
+  - relation: basiert_auf_studie
+    target: studie-27174929
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27174929"
+  - relation: basiert_auf_studie
+    target: studie-7898410
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:7898410"
+  - relation: basiert_auf_studie
+    target: studie-20589765
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20589765"

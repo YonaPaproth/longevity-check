@@ -1,0 +1,122 @@
+---
+id: pqq
+type: ingredient
+
+meta:
+  title:
+    de: "PQQ"
+    en: "PQQ"
+  aliases:
+    - "Pyrroloquinoline quinone"
+    - "PQQ"
+  category: antioxidants
+  evidenceLevel: "4"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 20
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für PQQ gibt es in der EU keine zugelassenen Health Claims zu Energie, Gehirn oder Mitochondrien.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "16614413"
+    title: "PQQ and mitochondrial function"
+    authors: "Stites T et al."
+    year: 2006
+    url: "https://pubmed.ncbi.nlm.nih.gov/16614413/"
+    finding:
+      de: >-
+        Mechanistische und präklinische Daten legen Mitochondrien-Bezug nahe.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "22805162"
+    title: "Pyrroloquinoline quinone disodium supplementation in humans"
+    authors: "Nakano M et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22805162/"
+    finding:
+      de: >-
+        Kleine Humanstudien zeigen Signale bei Müdigkeit und Entzündungsmarkern, aber keine starke Beweislast.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "19321502"
+    title: "PQQ: a novel vitamin-like compound?"
+    authors: "Rucker R et al."
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19321502/"
+    finding:
+      de: >-
+        Review: biologisch spannend, aber nicht ausreichend validiert für große Supplement-Versprechen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      PQQ wird gern mit Mitochondrien und Zellenergie verknüpft. Das klingt elegant, aber die Human-Evidenz ist bisher dünn.
+    evidenceSummary: >-
+      PQQ ist mechanistisch interessant, vor allem im Zusammenhang mit Mitochondrien und oxidativem Stress. Die Human-Evidenz bleibt jedoch klein und vorläufig. Viele starke Claims in der Supplement-Welt sind durch robuste klinische Daten nicht gedeckt.
+    body: |
+      ## Was ist PQQ?
+      
+      PQQ ist ein Stoff, der in der Biohacker- und Szene für gesundes Altern wegen möglicher Effekte auf **Mitochondrien** und **oxidativen Stress** diskutiert wird.
+      
+      ## Reality Check
+      
+      - gute Story
+      - interessante Mechanismen
+      - aber noch wenig robuste Human-Daten
+      
+      ## Fazit
+      
+      PQQ ist aktuell eher ein **„scientifically sexy, clinically early“**-Kandidat.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-16614413
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:16614413"
+  - relation: basiert_auf_studie
+    target: studie-22805162
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22805162"
+  - relation: basiert_auf_studie
+    target: studie-19321502
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19321502"

@@ -1,0 +1,177 @@
+---
+id: vitamin-k2
+type: ingredient
+
+meta:
+  title:
+    de: "Vitamin K2 (MK-7)"
+    en: "Vitamin K2 (MK-7)"
+  aliases:
+    - "Menaquinon-7"
+    - "MK-7"
+    - "Menaquinon-4"
+    - "MK-4"
+    - "Vitamin K2"
+    - "Natto"
+  category: metabolic
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 0
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat Health Claims für Vitamin K allgemein zugelassen (K1+K2): normale Blutgerinnung und Knochenerhaltung. Spezifische Claims für K2 (Arteriengesundheit) nicht zugelassen. Tagesbedarf: 70 µg. Keine festgelegte obere Zufuhrgrenze.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "15514282"
+    title: "Dietary intake of menaquinone is associated with a reduced risk of coronary heart disease: the Rotterdam Study"
+    authors: "Geleijnse JM et al."
+    year: 2004
+    url: "https://pubmed.ncbi.nlm.nih.gov/15514282/"
+    finding:
+      de: >-
+        Rotterdam-Studie (n=4.807): Hohes Menaquinon-Intake reduzierte koronare Herzerkrankung um 41 % und kardiovaskuläre Mortalität um 57 %. Starke epidemiologische Grundlage.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "26501375"
+    title: "Vitamin K2 reduces arterial stiffness in healthy postmenopausal women – a randomised double blind clinical trial"
+    authors: "Knapen MHJ et al."
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/26501375/"
+    finding:
+      de: >-
+        RCT (n=244, 3 Jahre): 180 µg MK-7/Tag verlangsamte den altersassoziierten Anstieg der Arteriensteifigkeit signifikant. Osteocalcin-Carboxylierung war mit Veränderungen verbunden.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23525894"
+    title: "Three-year low-dose menaquinone-7 supplementation helps decrease bone loss in healthy postmenopausal women"
+    authors: "Knapen MHJ et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23525894/"
+    finding:
+      de: >-
+        RCT (n=244, 3 Jahre): MK-7 war mit Veränderungen verbundene Knochendichte und -stärke signifikant vs. Placebo. Klinisch relevante Reduktion des Knochenschwunds.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "17138823"
+    title: "Differential lipoprotein transport pathways of K-vitamins in healthy subjects"
+    authors: "Schurgers LJ et al."
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17138823/"
+    finding:
+      de: >-
+        MK-7 hat eine Halbwertszeit von 72 Stunden (vs. 1–2 Stunden für K1/MK-4) und wird effizienter in extrahepatische Gewebe (Knochen, Arterien) transportiert.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Vitamin K2 aktiviert Proteine des Calciumstoffwechsels und wird vor allem im Zusammenhang mit Knochen- und Gefäßmarkern diskutiert. MK-7 aus Natto gilt als gut bioverfügbar.
+    evidenceSummary: >-
+      Epidemiologische Evidenz für K2-reiche Ernährung und weniger Herzerkrankungen (Rotterdam-Studie). RCTs zeigen Verbesserung von Arteriensteifigkeit und Knochendichte. Mechanismus (MGP, Osteocalcin) präklinisch und klinisch vergleichsweise gut untersucht. Große Outcome-RCTs fehlen.
+    body: |
+      ## Was ist Vitamin K2?
+      
+      Vitamin K2 gehört zur Familie der **Menachinone** und ist strukturell verschieden von Vitamin K1 (Phylloquinon aus grünen Gemüsen, primär für Blutgerinnung in der Leber).
+      
+      K2 hat einen anderen Job: Es aktiviert zwei Proteine, die für die **Kalziumverteilung** im Körper entscheidend sind:
+      - **Osteocalcin**: Bindet Kalzium in den Knochen – aktiviert durch K2-abhängige Carboxylierung
+      - **Matrix-Gla-Protein (MGP)**: Hemmt Kalziumablagerungen in Arterien und Weichgewebe
+      
+      Das Prinzip ist einfach: Ohne ausreichend K2 „parkt" Kalzium an den falschen Stellen – in Arterienwänden statt in Knochen. K2 lenkt das Kalzium dorthin, wo es hingehört.
+      
+      ## MK-4 vs. MK-7: ein wichtiger Unterschied
+      
+      | Form | Quelle | Halbwertszeit | Bioverfügbarkeit |
+      |---|---|---|---|
+      | MK-4 | Tierfleisch, Butter, Eier | ~1–2 Stunden | Niedrig, kurz |
+      | MK-7 | Natto (fermentierte Sojabohnen), Supplements | ~72 Stunden | Hoch, lang |
+      
+      MK-7 ist die überlegene Supplementform: Es wird in Knochen und Gefäßgewebe transportiert und hat eine dreimal längere Halbwertszeit als MK-4. Die meisten klinischen Studien wurden mit MK-7 durchgeführt.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Starke epidemiologische Basis
+      - Rotterdam-Studie: Höchste K2-Aufnahme → 41 % weniger koronare Herzerkrankungen
+      - Bestätigt in der Prospect-EPIC-Studie (Niederlande)
+      
+      ### Belegte RCT-Effekte
+      - **Arteriensteifigkeit**: 3-Jahres-RCT zeigt signifikante Verlangsamung bei postmenopausalen Frauen
+      - **Knochendichte**: Konsistente Verbesserungen in mehreren RCTs
+      - **Osteocalcin-Aktivierung**: Biomarker-Verbesserungen zuverlässig
+      
+      ### Noch nicht in großen Outcome-Studien
+      - Kein RCT hat bisher Herzinfarkte oder Schlaganfälle als Endpunkt bewiesen
+      - Große Interventionsstudie (VitaK-CAC) läuft noch
+      
+      ## Die D3+K2-Kombination
+      
+      Vitamin D3 fördert die Kalziumresorption aus dem Darm. Vitamin K2 wird in diesem Zusammenhang oft als Cofaktor des Calciumstoffwechsels diskutiert. Die Kombination D3+K2 ist daher populär, auch wenn harte Endpunktdaten weiterhin begrenzt sind.
+      
+      ## Ist Vitamin K2 sicher?
+      
+      K2 ist bei normalen Dosen **wahrscheinlich sicher** – keine bekannte Toxizität. Wichtige Ausnahme: Vitamin K (alle Formen) interagiert mit **Antikoagulantien wie Marcumar/Warfarin** – dort unbedingt Arzt informieren. Neue orale Antikoagulantien (NOAK) sind nicht betroffen.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-15514282
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:15514282"
+  - relation: basiert_auf_studie
+    target: studie-26501375
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26501375"
+  - relation: basiert_auf_studie
+    target: studie-23525894
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23525894"
+  - relation: basiert_auf_studie
+    target: studie-17138823
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17138823"

@@ -18,24 +18,21 @@
       "target": "studie-28111354",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28111354",
-      "note": "Review: präklinisch interessante Breite, aber wenige belastbare Human-Daten."
+      "source": "pmid:28111354"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19375465",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19375465",
-      "note": "Biologisch relevant, klinisch aber noch kein starker Supplement-Fall."
+      "source": "pmid:19375465"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-27094574",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27094574",
-      "note": "Traditionsreiche Nutzung, moderne Humanbelege bleiben begrenzt."
+      "source": "pmid:27094574"
     }
   ]
 }

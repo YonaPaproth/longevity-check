@@ -30,24 +30,21 @@
       "target": "studie-24511820",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24511820",
-      "note": "Meta-Analyse: Hafer-Beta-Glucan war mit niedrigeren Werten verbunden LDL-Cholesterin zuverlässig."
+      "source": "pmid:24511820"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-30727981",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30727981",
-      "note": "Immunologische Effekte sind plausibel, aber klinisch weniger robust als viele Claims suggerieren."
+      "source": "pmid:30727981"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21348891",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21348891",
-      "note": "Die beste Evidenz liegt bei LDL-Cholesterin, nicht bei generellen Wellness-Versprechen."
+      "source": "pmid:21348891"
     }
   ]
 }

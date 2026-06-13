@@ -77,15 +77,13 @@
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Dies macht Vitamin D zu einem der wenigen Supplements, bei denen eine gezielte Supplementierung bei Nachgewiesenem Mangel klar indiziert ist."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "vitamin-d3",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "## Warum D3 + K2 zusammen?\n\nVitamin D3 fördert die Aufnahme von Kalzium im Darm — eine seiner am besten belegten Wirkungen."
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -104,40 +102,35 @@
       "target": "studie-32234639",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32234639",
-      "note": "RCT, n=421, ältere Erwachsene: 60.000 IE Vitamin D/Monat verbesserte Glukosestoffwechsel, Blutdruck und Lebensqualität signifikant vs. Placebo über 3 Jahre."
+      "source": "pmid:32234639"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-31537771",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:31537771",
-      "note": "RCT, n=25.871: 2.000 IE Vitamin D/Tag reduzierte Krebssterblichkeit um 25% in einer Subgruppenanalyse. Kein signifikanter Effekt auf kardiovaskuläre Ereignisse in der Gesamtpopulation."
+      "source": "pmid:31537771"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17634462",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17634462",
-      "note": "Grundlagenreview in NEJM: Vitamin D wird in der Haut durch UV-B synthetisiert; 25(OH)D &lt;50 nmol/l gilt als Mangel. Schätzungsweise 1 Milliarde Menschen weltweit sind unzureichend versorgt."
+      "source": "pmid:17634462"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-15514282",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:15514282",
-      "note": "Prospektive Kohorte, n=4.807: Höhere K2-Aufnahme (MK-7 bis MK-9) war mit 41% niedrigerem Herzinfarkt-Risiko assoziiert. K1-Aufnahme zeigte keinen vergleichbaren Effekt."
+      "source": "pmid:15514282"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22516723",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22516723",
-      "note": "Systematischer Review: Beobachtungsstudien zeigen konsistent Zusammenhang zwischen hoher K2-Aufnahme und geringerer Gefäßverkalkung; RCT-Evidenz noch begrenzt."
+      "source": "pmid:22516723"
     }
   ]
 }

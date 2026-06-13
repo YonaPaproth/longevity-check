@@ -1,0 +1,115 @@
+---
+id: inulin
+type: ingredient
+
+meta:
+  title:
+    de: "Inulin (Prebiotikum)"
+    en: "Inulin (Prebiotikum)"
+  aliases:
+    - "Inulin"
+    - "Prebiotische Ballaststoffe"
+    - "Fructan"
+  category: other
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 5000
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Inulin gibt es in der EU keine breit formulierten Health Claims zur Darmgesundheit in der Art, wie sie häufig im Marketing genutzt werden.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "17604172"
+    title: "Prebiotic effects of inulin-type fructans"
+    authors: "Roberfroid M"
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17604172/"
+    finding:
+      de: >-
+        Klassischer Review zur präbiotischen Wirkung von Inulin und verwandten Fructanen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "24299756"
+    title: "Inulin-type fructans and gut health"
+    authors: "Slavin J"
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/24299756/"
+    finding:
+      de: >-
+        Inulin kann Darmfunktion und mikrobielle Zusammensetzung beeinflussen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28298225"
+    title: "Effects of dietary inulin on bowel habits"
+    authors: "Micka A et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28298225/"
+    finding:
+      de: >-
+        Humanstudien zeigen Nutzen für Stuhlgang und Darmkomfort bei bestimmten Gruppen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Inulin ist ein präbiotischer Ballaststoff mit solider Plausibilität für Darmgesundheit. Praktisch relevant, aber kein glamouröser gesundes Altern-Shortcut.
+    evidenceSummary: >-
+      Inulin ist als präbiotischer Ballaststoff gut untersucht und kann Darmmikrobiom, Stuhlgang und Sättigung beeinflussen. Die Effekte sind real, aber eher ernährungsnah und moderat als spektakulär.
+    body: |
+      ## Was ist Inulin?
+      
+      Inulin ist ein **präbiotischer Ballaststoff**, der vor allem Darmbakterien als Futter dient.
+      
+      ## Was ist vergleichsweise gut untersucht?
+      
+      - präbiotische Wirkung
+      - Einfluss auf Stuhlgang und Darmfunktion
+      - potenziell etwas mehr Sättigung
+      
+      ## Fazit
+      
+      Inulin ist eher ein **solider Ernährungsstoff** als ein aufregender Biohacker-Wirkstoff.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-17604172
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17604172"
+  - relation: basiert_auf_studie
+    target: studie-24299756
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24299756"
+  - relation: basiert_auf_studie
+    target: studie-28298225
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28298225"

@@ -66,32 +66,28 @@
       "target": "studie-27400265",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27400265",
-      "note": "Nature Medicine: Urolithin A wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne in C. elegans um ~45 % und war mit Veränderungen verbundene Muskelkraft in alten Ratten. Erstnachweis "
+      "source": "pmid:27400265"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-32694659",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32694659",
-      "note": "Erster Humanversuch: 500 mg Urolithin A/Tag war mit Veränderungen verbundene Mitochondrienmarker im Muskelgewebe älterer Erwachsener signifikant. Gut verträglich."
+      "source": "pmid:32694659"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-35468083",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:35468083",
-      "note": "RCT (n=66, Ältere): 1 g Urolithin A/Tag über 4 Monate war mit Veränderungen verbundene Muskelausdauer und Mitochondrien-Biomarker signifikant vs. Placebo."
+      "source": "pmid:35468083"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19640941",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19640941",
-      "note": "Nur ~40 % der Menschen haben Darmbakterien, die Ellagsäure effizient zu Urolithin A umwandeln. Supplementierung umgeht dieses Konversionsproblem."
+      "source": "pmid:19640941"
     }
   ]
 }

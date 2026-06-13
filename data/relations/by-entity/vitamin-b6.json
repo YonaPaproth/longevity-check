@@ -60,16 +60,14 @@
       "target": "studie-34469291",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:34469291",
-      "note": "Review: Chronisch hohe Pyridoxin-Dosen können sensorische Neuropathien verursachen. Sicherheit ist stark dosis- und dauerabhängig."
+      "source": "pmid:34469291"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-30286045",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30286045",
-      "note": "Review: B6 ist an über 100 enzymatischen Reaktionen beteiligt. Klinische Relevanz besonders bei Mangel, Schwangerschaftsübelkeit und bestimmten Stoffwechselsituationen."
+      "source": "pmid:30286045"
     }
   ]
 }

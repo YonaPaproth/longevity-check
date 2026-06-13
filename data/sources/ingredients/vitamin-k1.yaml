@@ -1,0 +1,134 @@
+---
+id: vitamin-k1
+type: ingredient
+
+meta:
+  title:
+    de: "Vitamin K1"
+    en: "Vitamin K1"
+  aliases:
+    - "Phyllochinon"
+    - "Phylloquinone"
+    - "Vitamin K1"
+  category: other
+  evidenceLevel: "2"
+  safety_rating: caution
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 0.1
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Vitamin K sind in der EU Health Claims zur normalen Blutgerinnung und Erhaltung normaler Knochen zugelassen. Bei Einnahme von Vitamin-K-Antagonisten ist die Zufuhr medizinisch relevant.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "22516723"
+    title: "Vitamin K"
+    authors: "Booth SL"
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22516723/"
+    finding:
+      de: >-
+        Review zu Funktionen von Vitamin K in Blutgerinnung und Knochenstoffwechsel. Die essenzielle Rolle ist vergleichsweise gut untersucht.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "30945251"
+    title: "Dietary intake and adequacy of vitamin K"
+    authors: "Schurgers LJ et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/30945251/"
+    finding:
+      de: >-
+        Review: Vitamin-K-Zufuhr ist für viele Menschen ausreichend, kann aber bei geringer Gemüsezufuhr suboptimal sein.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "20236064"
+    title: "Interaction between vitamin K intake and anticoagulation by vitamin K antagonists"
+    authors: "Gebuis EP et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20236064/"
+    finding:
+      de: >-
+        Schwankende Vitamin-K-Zufuhr kann die Steuerung von Vitamin-K-Antagonisten erschweren. Relevanz vor allem für Warfarin/Phenprocoumon-Nutzer.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Vitamin K1 ist essenziell für Blutgerinnung und wahrscheinlich auch für Knochenstoffwechsel. Sinnvoll bei niedriger Zufuhr – aber relevant für Menschen mit Gerinnungshemmern.
+    evidenceSummary: >-
+      Vitamin K1 ist als essenzieller Nährstoff für Blutgerinnung klar belegt. Es gibt zudem Hinweise auf Bedeutung für Knochen und Gefäßgesundheit, wobei hier K2 oft stärker diskutiert wird. Zusatznutzen durch Supplemente hängt stark vom Ausgangsstatus ab.
+    body: |
+      ## Was ist Vitamin K1?
+      
+      Vitamin K1, auch **Phyllochinon**, ist die klassische Form von Vitamin K aus grünen Pflanzen. Es spielt eine zentrale Rolle bei der **Aktivierung von Gerinnungsfaktoren**.
+      
+      Ohne Vitamin K läuft die normale Blutgerinnung nicht stabil.
+      
+      ## Was ist vergleichsweise gut untersucht?
+      
+      - Essenziell für normale Blutgerinnung
+      - Relevanz für den Knochenstoffwechsel
+      - Unterversorgung ist klinisch relevant, auch wenn schwerer Mangel bei Erwachsenen selten ist
+      
+      ## Was ist nicht vergleichsweise gut untersucht?
+      
+      - Spektakuläre gesundes-Alten-Effekte durch K1-Supplemente
+      - Großer Zusatznutzen bei bereits guter Gemüsezufuhr
+      
+      ## Sicherheitsprofil
+      
+      Für die meisten Menschen ist Vitamin K1 in üblichen Mengen **unproblematisch**.
+      
+      Wichtig ist aber:
+      - Bei **Vitamin-K-Antagonisten** (z. B. Marcumar/Warfarin) ist die Zufuhr relevant
+      - Problematisch ist oft nicht eine moderate Zufuhr, sondern stark schwankende Zufuhr
+      
+      ## Fazit
+      
+      Vitamin K1 ist ein **wichtiges Basisvitamin**, aber kein glamouröser gesundes-Alten-Star. Für Menschen mit wenig grünem Gemüse oder in speziellen medizinischen Situationen kann es relevant sein.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-22516723
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22516723"
+  - relation: basiert_auf_studie
+    target: studie-30945251
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30945251"
+  - relation: basiert_auf_studie
+    target: studie-20236064
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20236064"

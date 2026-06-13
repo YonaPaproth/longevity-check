@@ -1,0 +1,109 @@
+---
+id: shilajit
+type: ingredient
+
+meta:
+  title:
+    de: "Shilajit"
+    en: "Shilajit"
+  aliases:
+    - "Shilajit"
+    - "Asphaltum punjabianum"
+    - "Mineral Pitch"
+  category: other
+  evidenceLevel: "4"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 250
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Shilajit gibt es in der EU keine zugelassenen Claims zu Energie, Testosteron oder Alterungsforschung. Produktqualität und regulatorische Einordnung sind besonders relevant.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "26395129"
+    title: "Clinical evaluation of purified shilajit"
+    authors: "Pandit S et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26395129/"
+    finding:
+      de: >-
+        Kleine Humanstudien mit Signalen, aber keine breite robuste Evidenz.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23717060"
+    title: "Shilajit: a natural phytocomplex"
+    authors: "Carrasco-Gallardo C et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/23717060/"
+    finding:
+      de: >-
+        Review: biochemisch interessant, aber die Datenlage bleibt vorläufig.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "12204876"
+    title: "Safety concerns with herbo-mineral products"
+    authors: "Ernst E"
+    year: 2002
+    url: "https://pubmed.ncbi.nlm.nih.gov/12204876/"
+    finding:
+      de: >-
+        Qualitäts- und Reinheitsfragen sind bei mineralischen Naturprodukten besonders wichtig.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Shilajit wird für Energie, Testosteron und Mitochondrien vermarktet. Die Daten sind begrenzt und Qualitätsprobleme bei Produkten sind ein reales Thema.
+    evidenceSummary: >-
+      Shilajit ist in der Supplement-Welt populär, aber die Human-Evidenz ist begrenzt. Dazu kommen erhebliche Qualitäts- und Reinheitsfragen, etwa bei Schwermetallen oder Verunreinigungen. Viele starke Claims sind deutlich über dem Datenstand.
+    body: |
+      ## Was ist Shilajit?
+      
+      Shilajit ist ein harzähnliches Naturprodukt, das vor allem in traditionellen Medizinsystemen vorkommt und heute gern in Energie- und Männlichkeits-Stacks vermarktet wird.
+      
+      ## Der große praktische Punkt
+      
+      Selbst wenn ein Stoff interessant ist, bringt das wenig, wenn **Produktqualität** das eigentliche Risiko ist.
+      
+      ## Fazit
+      
+      Shilajit ist aktuell eher ein **Qualitäts- und Hype-Risikofall** als ein sauber evidenzbasierter Wirkstoff.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-26395129
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26395129"
+  - relation: basiert_auf_studie
+    target: studie-23717060
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23717060"
+  - relation: basiert_auf_studie
+    target: studie-12204876
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12204876"

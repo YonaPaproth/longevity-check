@@ -1,0 +1,105 @@
+---
+id: tongkat-ali
+type: ingredient
+
+meta:
+  title:
+    de: "Tongkat Ali"
+    en: "Tongkat Ali"
+  aliases:
+    - "Eurycoma longifolia"
+    - "Tongkat Ali"
+    - "Longjack"
+  category: adaptogens
+  evidenceLevel: "3"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 200
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Tongkat Ali gibt es in der EU keine zugelassenen Claims zu Testosteron, Männlichkeit, Muskelaufbau oder Libido.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "23273445"
+    title: "Eurycoma longifolia and testosterone"
+    authors: "Tambi MI et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/23273445/"
+    finding:
+      de: >-
+        Kleine Datenbasis mit Hinweisen auf war mit Veränderungen verbundene androgenbezogene Marker in bestimmten Gruppen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23754792"
+    title: "Tongkat Ali as a potential adaptogen"
+    authors: "Talbott SM et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23754792/"
+    finding:
+      de: >-
+        Kleine Studie mit Effekten auf Stressparameter und Stimmung.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "22971603"
+    title: "Safety and efficacy of Eurycoma longifolia"
+    authors: "Ismail SB et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22971603/"
+    finding:
+      de: >-
+        Review: interessant, aber noch klar im Bereich moderater und vorläufiger Evidenz.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Tongkat Ali ist in Männer- und Testosteron-Stacks populär. Die Daten sind interessant, aber klein, extraktabhängig und nicht frei von Hype.
+    evidenceSummary: >-
+      Für Tongkat Ali gibt es einige Humanstudien mit Signalen bei Stress, Libido und teils Testosteron-bezogenen Parametern. Die Evidenz ist aber überschaubar, stark extraktabhängig und nicht robust genug für große Versprechen.
+    body: |
+      ## Was ist Tongkat Ali?
+      
+      Tongkat Ali ist ein Pflanzenextrakt, der vor allem in **Männergesundheit-, Performance- und Testosteron-Stacks** auftaucht.
+      
+      ## Was ist das Problem?
+      
+      Die Story ist stark, die Human-Evidenz aber noch eher mittel.
+      
+      ## Fazit
+      
+      Tongkat Ali ist **interessant, aber deutlich weniger settled als seine Fans behaupten**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-23273445
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23273445"
+  - relation: basiert_auf_studie
+    target: studie-23754792
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23754792"
+  - relation: basiert_auf_studie
+    target: studie-22971603
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22971603"

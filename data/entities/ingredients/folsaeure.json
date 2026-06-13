@@ -13,5 +13,6 @@
   "category": "metabolic",
   "evidenceLevel": 1,
   "safety": "likely-safe",
-  "efsa_approved": true
+  "efsa_approved": true,
+  "typical_dose_mg": 0
 }

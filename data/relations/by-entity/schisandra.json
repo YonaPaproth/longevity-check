@@ -36,24 +36,21 @@
       "target": "studie-18515024",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:18515024",
-      "note": "Review: Schisandra passt adaptogen-theoretisch gut, klinische Daten bleiben jedoch begrenzt."
+      "source": "pmid:18515024"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28724448",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28724448",
-      "note": "Präklinisch und traditionell interessant, klinische Evidenz bei Supplements aber nicht stark."
+      "source": "pmid:28724448"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20109491",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20109491",
-      "note": "Schisandra ist Teil des Adaptogen-Konzepts; robuste Outcome-Evidenz bleibt dennoch begrenzt."
+      "source": "pmid:20109491"
     }
   ]
 }

@@ -1,0 +1,180 @@
+---
+id: phosphatidylserin
+type: ingredient
+
+meta:
+  title:
+    de: "Phosphatidylserin"
+    en: "Phosphatidylserin"
+  aliases:
+    - "Phosphatidylserine"
+    - "PS"
+    - "Sharp-PS"
+    - "Soja-Phosphatidylserin"
+  category: other
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 300
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat 2010 einen Health Claim für Phosphatidylserin zugelassen: 'Phosphatidylserin trägt zur Aufrechterhaltung normaler kognitiver Funktion bei' (100 mg/Tag). Einer der wenigen zugelassenen kognitiven Claims überhaupt. Produkt muss Soja- oder Sonnenblumen-PS enthalten.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "20523044"
+    title: "Soy-derived phosphatidylserine improves memory function of the elderly Japanese subjects with memory complaints"
+    authors: "Kato-Kataoka A et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20523044/"
+    finding:
+      de: >-
+        RCT (n=78, Ältere mit Gedächtnisbeschwerden): 300 mg Soja-PS/Tag über 6 Monate war mit Veränderungen verbundene Gedächtnisfunktion signifikant, besonders Gesichtserkennung und -namen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "19966578"
+    title: "Memory enhancement with soybean-derived phosphatidylserine in Israeli subjects with memory complaints: a double-blind and placebo-controlled trial"
+    authors: "Vakhapova V et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/19966578/"
+    finding:
+      de: >-
+        RCT (n=157, 60–90 Jahre): PS war mit Veränderungen verbundene Kurzzeitgedächtnis und Lernfähigkeit. Stärkste Effekte bei Personen mit höherem Baseline-Gedächtnisdefizit.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "25933483"
+    title: "Phosphatidylserine and the human brain"
+    authors: "Glade MJ & Smith K"
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/25933483/"
+    finding:
+      de: >-
+        Review: PS macht 15 % der Gehirn-Phospholipide aus. Unterstützt Neurotransmitterfreisetzung, Acetylcholinproduktion, Cortisol-Clearing und neuronale Plastizität.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "19861941"
+    title: "Phosphatidylserine reduces stress and improves cognitive performance in elderly individuals"
+    authors: "Baumeister J et al."
+    year: 2008
+    url: "https://pubmed.ncbi.nlm.nih.gov/19861941/"
+    finding:
+      de: >-
+        RCT: PS dämpfte Cortisolanstieg bei Belastungstest und war mit Veränderungen verbundene Stimmung und kognitive Leistung unter Stress.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Phosphatidylserin ist ein Membranphospholipid. In der EU existiert ein zugelassener Claim zur Aufrechterhaltung normaler kognitiver Funktion unter definierten Bedingungen.
+    evidenceSummary: >-
+      Mehrere RCTs zeigen Verbesserungen bei Gedächtnis und kognitiver Funktion, besonders bei älteren Erwachsenen. EFSA hat einen Health Claim zugelassen. Ursprüngliche bovine PS-Quelle durch sicherere Soja-PS ersetzt. Effekte bei Jüngeren kleiner.
+    body: |
+      ## Was ist Phosphatidylserin?
+      
+      Phosphatidylserin (PS) ist ein **Phospholipid** – ein Fettmolekül, das essenzieller Bestandteil aller Zellmembranen ist. Im Gehirn macht es etwa **15 % der gesamten Phospholipidmasse** aus. Besonders konzentriert findet es sich in der inneren Schicht der neuronalen Zellmembranen.
+      
+      PS hat im Gehirn mehrere Funktionen:
+      - Stabilisierung der Zellmembran-Fluidität
+      - Unterstützung der **Acetylcholinfreisetzung** (Gedächtnis-Neurotransmitter)
+      - Regulierung des **Cortisol-Clearings** nach Stressreaktionen
+      - Beteiligung an neuronaler Signalübertragung und Apoptose-Regulierung
+      
+      ## Die besondere Stellung im EU-Recht
+      
+      Phosphatidylserin ist **eines der ganz wenigen Nahrungsergänzungsmittel**, für die die EFSA einen Health Claim für kognitive Funktion zugelassen hat. Das ist außergewöhnlich: Die EFSA ist bekannt für ihren strengen Maßstab – die überwiegende Mehrheit der beantragten Cognitive Claims wurde abgelehnt.
+      
+      Der zugelassene Claim: *„Phosphatidylserin trägt zur Aufrechterhaltung normaler kognitiver Funktion bei"* – bei mindestens 100 mg/Tag.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Vergleichsweise gut untersucht
+      - **Gedächtnis bei Älteren**: RCTs zeigen konsistente Verbesserungen bei Kurzzeitgedächtnis und Lernfähigkeit, besonders bei beginnendem kognitivem Abbau
+      - **Cortisolreduktion**: Dämpft HPA-Achsen-Aktivierung nach Stressbelastung
+      - **Acetylcholin**: Präklinisch vergleichsweise gut untersuchte Förderung der Synthese
+      
+      ### Begrenzt belegt
+      - Wirkung bei jüngeren, kognitiv normalen Personen ist kleiner und weniger konsistent
+      - Effekt auf Demenz/Alzheimer: Studien zeigen Verlangsamung, aber kein Stopp der Progression
+      
+      ### Nicht belegt
+      - Lebensverlängerung
+      - Schutz vor kognitiver Degeneration in Präventionsstudien
+      
+      ## Bovine vs. Soja-PS: Sicherheitsgeschichte
+      
+      Die ursprünglichen RCTs (1990er Jahre) nutzten **bovines PS** (aus Rinderhirn) – mit starken Effekten, aber BSE-Risiko. Seit Anfang 2000er wurden alle Studien auf **Soja-PS** (Sharp-PS) oder Sonnenblumen-PS umgestellt. Diese gelten als sicher, haben aber leicht geringere Wirksamkeit in Studien.
+      
+      ## Ist Phosphatidylserin sicher?
+      
+      Bei 100–300 mg/Tag gilt es als **wahrscheinlich sicher**. Bei hohen Dosen (&gt;800 mg/Tag): vereinzelte Berichte über Magenprobleme. Mögliche Wechselwirkung mit Antikoagulantien (schwach). Nicht zusammen mit Anticholinergika einnehmen.
+      
+      ## Für wen ist es besonders relevant?
+      
+      Personen über 50 mit subjektiven Gedächtnisbeschwerden (häufig vergessen, Namen, Gesichter), die eine evidenzbasierte Option suchen. Der EFSA-zugelassene Claim gibt hier solide Rückendeckung.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: neuroprotektiv
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: cholin
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-20523044
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20523044"
+  - relation: basiert_auf_studie
+    target: studie-19966578
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19966578"
+  - relation: basiert_auf_studie
+    target: studie-25933483
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25933483"
+  - relation: basiert_auf_studie
+    target: studie-19861941
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19861941"

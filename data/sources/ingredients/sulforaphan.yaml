@@ -1,0 +1,227 @@
+---
+id: sulforaphan
+type: ingredient
+
+meta:
+  title:
+    de: "Sulforaphan"
+    en: "Sulforaphan"
+  aliases:
+    - "Sulforaphane"
+    - "Brokkoli-Extrakt"
+    - "Glucoraphanin"
+    - "SGS"
+  category: antioxidants
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 30
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA Health Claims für Sulforaphan. Als Brokkoli-Extrakt oder Glucoraphanin-Supplement in der EU frei erhältlich. Krebspräventions-Aussagen sind nach EU-Recht verboten. Forschung an mehreren europäischen Institutionen aktiv.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "8091226"
+    title: "Cancer chemopreventive activity of sulforaphane, a natural product derived from broccoli"
+    authors: "Zhang Y et al."
+    year: 1994
+    url: "https://pubmed.ncbi.nlm.nih.gov/8091226/"
+    finding:
+      de: >-
+        Entdeckungspaper: Sulforaphan induziert Phase-2-Detoxifikationsenzyme und hemmt Tumorwachstum in Tiermodellen. Legte Grundstein für die gesamte Sulforaphan-Forschung.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "9294217"
+    title: "Broccoli sprouts: an exceptionally rich source of inducers of enzymes that protect against chemical carcinogens"
+    authors: "Fahey JW et al."
+    year: 1997
+    url: "https://pubmed.ncbi.nlm.nih.gov/9294217/"
+    finding:
+      de: >-
+        Brokkoli-Keimlinge enthalten 20–50× mehr Glucoraphanin als ausgewachsener Brokkoli. Basis für Supplement-Ansatz.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "21593586"
+    title: "Bioavailability of sulforaphane from two broccoli sprout beverages: results of a short-term, cross-over clinical trial in Qidong, China"
+    authors: "Egner PA et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21593586/"
+    finding:
+      de: >-
+        RCT (n=291): Sulforaphan-reicher Brokkoli-Keimlingsdrink war mit höheren Werten verbundene Ausscheidung von Aflatoxin- und Benzol-Metaboliten signifikant – Entgiftungseffekt beim Menschen belegt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "25313065"
+    title: "Sulforaphane treatment of autism spectrum disorder (ASD): a randomized double-blind placebo-controlled trial"
+    authors: "Singh K et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/25313065/"
+    finding:
+      de: >-
+        RCT bei ASD-Jugendlichen: Sulforaphan war mit Veränderungen verbundene soziale Interaktion und Verhalten signifikant. Illustriert präklinisch neurobiologisch interessante Wirkung via Nrf2/Hitzeschockproteine.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Sulforaphan aktiviert Nrf2-abhängige Schutzmechanismen und wird oft aus Brokkoli-Keimlingen gewonnen. Die Datenlage ist präklinisch stark und klinisch noch im Aufbau; zugelassene EU-Health-Claims…
+    evidenceSummary: >-
+      Starke präklinische Evidenz und mehrere RCTs für antioxidative, antientzündliche und möglicherweise krebspräventive Wirkung. Nrf2-Aktivierung vergleichsweise gut untersucht. Klinische Endpunkte (Krebsprävention) beim Menschen noch nicht in großen RCTs bewiesen.
+    body: |
+      ## Was ist Sulforaphan?
+      
+      Sulforaphan ist ein **Isothiocyanat** – ein schwefelreicher Pflanzenstoff, der in Kreuzblütlern (Brassica-Familie) vorkommt: Brokkoli, Rosenkohl, Kohl, Kohlrabi. Es entsteht nicht direkt in der Pflanze, sondern wenn das Vorläufermolekül **Glucoraphanin** beim Kauen oder Schneiden mit dem Enzym **Myrosinase** in Kontakt kommt.
+      
+      Der Mechanismus macht Sulforaphan besonders interessant: Es aktiviert **Nrf2** (Nuclear factor erythroid 2-related factor 2) – einen Transkriptionsfaktor, der hunderte Gene für zelluläre Schutz- und Entgiftungssysteme hochreguliert. Nrf2 gilt als einer der wichtigsten endogenen Schutzmechanismen gegen oxidativen Stress, Entzündung und chemische Toxine.
+      
+      ## Nrf2: der Masterregulator
+      
+      Wenn Sulforaphan Nrf2 aktiviert, produziert die Zelle mehr:
+      - **Glutathion** (zentrales Antioxidans)
+      - **Häm-Oxygenase-1** (entzündungshemmend)
+      - **Phase-2-Detoxifikationsenzyme** (Entgiftung von Karzinogenen)
+      - **Thioredoxin** (reduziert oxidativen Stress)
+      
+      Dieser Mechanismus unterscheidet Sulforaphan von direkten Antioxidantien wie Vitamin C: Es induziert die **körpereigene** Antioxidationskapazität, statt selbst Radikale abzufangen.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Vergleichsweise gut untersucht
+      - **Entgiftung**: RCTs zeigen messbar war mit höheren Werten verbundene Ausscheidung von Aflatoxin und Benzol-Metaboliten
+      - **Entzündungsmarker**: CRP, NF-κB-Aktivität sinken in mehreren Studien
+      - **Nrf2-Aktivierung**: Biomarker-Studien konsistent positiv
+      
+      ### Vielversprechend
+      - Kognitive Funktion (Schizophrenie, ASD-Studien)
+      - Blutdruckreduktion
+      - Glukosemetabolismus
+      
+      ### Nicht (noch nicht) belegt
+      - Krebsprävention beim Menschen in RCTs (nur epidemiologisch und präklinisch)
+      - Direkte Lebensverlängerung
+      
+      ## Das Zubereitungsproblem
+      
+      Normales Kochen zerstört die Myrosinase – und damit die Sulforaphan-Bildung. **Kurzes Dämpfen (3–4 Minuten)** erhält die Enzymaktivität besser. Alternativ: Sulforaphan-Supplements aus stabilisierten Brokkoli-Keimlingen.
+      
+      Tipp: Senf oder Meerrettich zum gedämpften Brokkoli hinzufügen – sie enthalten Myrosinase und können die Sulforaphan-Bildung auch aus gekochtem Brokkoli initiieren.
+      
+      ## Ist Sulforaphan sicher?
+      
+      Bei üblichen Supplement-Dosen (10–50 mg/Tag) gilt es als **wahrscheinlich sicher**. Bei sehr hohen Dosen mögliche Schilddrüsenprobleme (Isothiocyanate hemmen Jodaufnahme) – bei normaler Jodversorgung kein Risiko. Nicht in der Schwangerschaft in hohen Dosen einsetzen.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: hat_interaktion_mit
+    target: pterostilben
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: schilddruese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: nf-kb-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: crp
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: glutathion-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: glutathion
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: jod
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nr
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: vitamin-c
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-schwangerschaft
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-8091226
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:8091226"
+  - relation: basiert_auf_studie
+    target: studie-9294217
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:9294217"
+  - relation: basiert_auf_studie
+    target: studie-21593586
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21593586"
+  - relation: basiert_auf_studie
+    target: studie-25313065
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25313065"

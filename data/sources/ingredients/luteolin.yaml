@@ -1,0 +1,108 @@
+---
+id: luteolin
+type: ingredient
+
+meta:
+  title:
+    de: "Luteolin"
+    en: "Luteolin"
+  aliases:
+    - "Luteolin"
+    - "Flavonoid Luteolin"
+  category: antioxidants
+  evidenceLevel: "4"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 100
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Luteolin gibt es in der EU keine zugelassenen Claims zu Neuroprotektion, Entzündungshemmung oder Longevity.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "25670000"
+    title: "Luteolin as a neuroprotective flavonoid"
+    authors: "Theoharides TC et al."
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/25670000/"
+    finding:
+      de: >-
+        Review: Luteolin ist mechanistisch spannend, vor allem neuroinflammatorisch.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "18499654"
+    title: "Anti-inflammatory properties of luteolin"
+    authors: "Seelinger G et al."
+    year: 2008
+    url: "https://pubmed.ncbi.nlm.nih.gov/18499654/"
+    finding:
+      de: >-
+        Präklinisch starke Daten, klinisch deutlich weniger.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "20005244"
+    title: "Flavonoids in brain aging"
+    authors: "Spencer JPE"
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20005244/"
+    finding:
+      de: >-
+        Flavonoide wie Luteolin sind konzeptionell interessant, aber noch kein belastbares Alterungsforschung-Tool.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Luteolin ist ein spannendes Flavonoid mit Neuro- und Entzündungsstory. Das Problem: die Human-Evidenz hinkt der Mechanik deutlich hinterher.
+    evidenceSummary: >-
+      Luteolin ist präklinisch interessant, besonders bei Entzündungs- und Neurothemen. Für konkrete klinische Vorteile beim Menschen ist die Evidenz aber bisher schwach. Viele attraktive Mechanismen sind noch kein belastbarer Nutzenbeweis.
+    body: |
+      ## Was ist Luteolin?
+      
+      Luteolin ist ein Flavonoid, das oft mit **Neuroinflammation, Mastzellen und Brain Health** verknüpft wird.
+      
+      ## Fazit
+      
+      Luteolin ist aktuell vor allem **präklinisch sexy**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-25670000
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25670000"
+  - relation: basiert_auf_studie
+    target: studie-18499654
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:18499654"
+  - relation: basiert_auf_studie
+    target: studie-20005244
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20005244"

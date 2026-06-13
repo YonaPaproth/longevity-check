@@ -1,0 +1,197 @@
+---
+id: melatonin
+type: ingredient
+
+meta:
+  title:
+    de: "Melatonin"
+    en: "Melatonin"
+  aliases:
+    - "Melatonin"
+    - "N-Acetyl-5-methoxytryptamin"
+    - "Schlafhormon"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 1
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat Health Claims für Melatonin zugelassen: 'Melatonin trägt zur Verkürzung der Einschlafzeit bei' (0,5 mg vor dem Schlafen) und 'Melatonin hilft, Jetlag-Symptome zu lindern' (0,5 mg). Gleichzeitig ist Melatonin in Deutschland ab 0,5 mg Tagesdosis verschreibungspflichtig – ein Sonderfall in der EU.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "15691787"
+    title: "Melatonin for treatment of sleep disorders – meta-analysis"
+    authors: "Brzezinski A et al."
+    year: 2005
+    url: "https://pubmed.ncbi.nlm.nih.gov/15691787/"
+    finding:
+      de: >-
+        Meta-Analyse (17 RCTs): Melatonin verkürzte Einschlafzeit signifikant (-7,2 min) und war mit Veränderungen verbundene Schlafqualität. Effekte bescheiden, aber konsistent.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "22471152"
+    title: "Melatonin as an antioxidant: under promises but over delivers"
+    authors: "Hardeland R"
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22471152/"
+    finding:
+      de: >-
+        Review: Melatonin neutralisiert reaktive Sauerstoffspezies direkt und induziert antioxidative Enzyme. Schutz der mitochondrialen DNA vergleichsweise gut untersucht (präklinisch).
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "29676709"
+    title: "New perspectives on the role of melatonin in human sleep, circadian rhythms and their regulation"
+    authors: "Zisapel N"
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/29676709/"
+    finding:
+      de: >-
+        Review: Geringes Melatonin (0,5–1 mg) ist bei Schlafstörungen (besonders ab 55 Jahren) untersuchter als höhere Dosen. Chronobiologischer Effekt, kein sedativer.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23574769"
+    title: "Melatonin and aging: prospects for human intervention"
+    authors: "Cardinali DP et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23574769/"
+    finding:
+      de: >-
+        Review: Melatonin-Spiegel sinken mit dem Alter (ab ~40 Jahren deutlich). Supplementierung könnte circadiane Dysregulation und oxidativen Stress kompensieren. gesundes Altern-Daten fehlen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Melatonin reguliert den Schlaf-Wach-Rhythmus und hat antioxidative Eigenschaften. Vergleichsweise gut untersucht ist es vor allem bei Jetlag und bestimmten Schlafkontexten. In Deutschland sind…
+    evidenceSummary: >-
+      Vergleichsweise gute Datenlage (mehrere Metaanalysen) für Verbesserung der Schlafqualität, Einschlafzeit und Jetlag. Antioxidative und potenziell zytoprotektive Effekte präklinisch vergleichsweise gut untersucht. gesundes Altern-Endpunkte beim gesunden Menschen nicht direkt untersucht.
+    body: |
+      ## Was ist Melatonin?
+      
+      Melatonin ist ein **körpereigenes Hormon**, das in der Zirbeldrüse produziert wird und den **circadianen Rhythmus** (Tag-Nacht-Zyklus) reguliert. Bei Dunkelheit steigt der Spiegel an, signalisiert dem Körper „Nacht" und bereitet ihn auf den Schlaf vor.
+      
+      Mit dem Alter sinken die Melatonin-Spiegel deutlich: Im Alter von 60–70 Jahren produzieren Menschen oft nur noch 50 % der Menge wie Jüngere. Das trägt zu schlechterem Schlaf, gestörten circadianen Rhythmen und möglicherweise zu war mit höheren Werten verbundenem oxidativem Stress bei.
+      
+      ## Der Kontext gesunden Alterns
+      
+      Melatonin ist nicht nur ein Schlafhormon, sondern auch ein **potentes endogenes Antioxidans** – es überquert alle Zellmembranen und wird mit Schutzmechanismen in Verbindung gebracht mitochondriale DNA direkt. In Tierversuchen verlängertes es die Lebensspanne verschiedener Organismen.
+      
+      Für Menschen gilt: Schlechter Schlaf ist ein relevanter Risikofaktor für verschiedene altersbezogene Gesundheitsprobleme. Melatonin, das im Schlaf-Kontext mit Veränderungen verbunden, könnte daher indirekt gesundes-Alten-relevant sein – auch wenn das nicht direkt gemessen wurde.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Klar belegt (EFSA-zugelassen)
+      - Verkürzte Einschlafzeit (0,5 mg, 30 min vor Schlaf)
+      - Jetlag-Linderung (0,5–1 mg)
+      - Verbesserter Schlaf bei Schichtarbeitern
+      
+      ### Vergleichsweise gut untersuchte Wirkung
+      - Schlafstörungen ab 55 Jahren (alter Rhythmus: besonders untersucht)
+      - Antioxidative Wirkung: Glutathion- und SOD-Induktion präklinisch solide
+      
+      ### Nicht belegt
+      - Direkte Lebensverlängerung beim Menschen
+      - Wirksamkeit über zirkadiane Effekte hinaus bei Gesunden
+      
+      ## Der deutsche Sonderfall: Verschreibungspflicht
+      
+      In Deutschland ist Melatonin ab **0,5 mg Tagesdosis** verschreibungspflichtig (Arzneimittel). Das bedeutet: Über 0,5 mg offiziell nur mit Rezept. Produkte unter 0,5 mg sind als NEM erhältlich. In vielen anderen EU-Ländern (Niederlande, UK, Österreich) ist Melatonin frei verkäuflich in höheren Dosen.
+      
+      > Wer regulär in Deutschland kauft, findet daher meist nur 0,5 mg-Produkte – was nach der EFSA-Datenlage auch die untersuchte Dosis ist.
+      
+      ## Ist Melatonin sicher?
+      
+      Bei 0,5–5 mg kurzfristig ist es in Studien **vergleichsweise gut untersucht; die Verträglichkeit wurde meist als unauffällig beschrieben**. Nicht für Kinder ohne ärztliche Empfehlung. Nicht zusammen mit Alkohol. Kann Wechselwirkungen mit Antikoagulantien, Antidepressiva und blutzuckerwirksamen Medikamenten haben.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: depression
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: same
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-kinder
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-ssri-einnahme
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-schlaflosigkeit
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-15691787
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:15691787"
+  - relation: basiert_auf_studie
+    target: studie-22471152
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22471152"
+  - relation: basiert_auf_studie
+    target: studie-29676709
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:29676709"
+  - relation: basiert_auf_studie
+    target: studie-23574769
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23574769"

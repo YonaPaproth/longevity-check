@@ -18,24 +18,21 @@
       "target": "studie-28025511",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28025511",
-      "note": "Einige Hinweise auf Leistungs- oder Fatigue-Effekte, aber keine starke, konsistente Evidenz."
+      "source": "pmid:28025511"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20412130",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20412130",
-      "note": "Kleine Studien deuten auf subjektive Vorteile hin."
+      "source": "pmid:20412130"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-18396376",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:18396376",
-      "note": "Breite präklinische Aktivität, Human-Daten deutlich begrenzter."
+      "source": "pmid:18396376"
     }
   ]
 }

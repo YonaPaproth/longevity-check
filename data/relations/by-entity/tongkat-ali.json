@@ -12,24 +12,21 @@
       "target": "studie-23273445",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23273445",
-      "note": "Kleine Datenbasis mit Hinweisen auf war mit Veränderungen verbundene androgenbezogene Marker in bestimmten Gruppen."
+      "source": "pmid:23273445"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23754792",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23754792",
-      "note": "Kleine Studie mit Effekten auf Stressparameter und Stimmung."
+      "source": "pmid:23754792"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22971603",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22971603",
-      "note": "Review: interessant, aber noch klar im Bereich moderater und vorläufiger Evidenz."
+      "source": "pmid:22971603"
     }
   ]
 }

@@ -1,0 +1,105 @@
+---
+id: baicalin
+type: ingredient
+
+meta:
+  title:
+    de: "Baicalin"
+    en: "Baicalin"
+  aliases:
+    - "Baicalin"
+    - "Baicalein-Glykosid"
+    - "Scutellaria baicalensis extract"
+  category: antioxidants
+  evidenceLevel: "4"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 250
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Baicalin gibt es in der EU keine zugelassenen Claims zu Entzündung, Gehirn oder Langlebigkeit.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "28111354"
+    title: "Baicalin and baicalein in inflammation and neuroprotection"
+    authors: "Dinda B et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28111354/"
+    finding:
+      de: >-
+        Review: präklinisch interessante Breite, aber wenige belastbare Human-Daten.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "19375465"
+    title: "Scutellaria baicalensis and bioactive flavones"
+    authors: "Li-Weber M"
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19375465/"
+    finding:
+      de: >-
+        Biologisch relevant, klinisch aber noch kein starker Supplement-Fall.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "27094574"
+    title: "Traditional Chinese medicine compounds in modern pharmacology"
+    authors: "Liu Y et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/27094574/"
+    finding:
+      de: >-
+        Traditionsreiche Nutzung, moderne Humanbelege bleiben begrenzt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Baicalin ist ein TCM-Flavonoid mit interessanter Entzündungs- und Neuro-Story. Klinisch ist das Ganze noch ziemlich früh.
+    evidenceSummary: >-
+      Baicalin ist präklinisch breit untersucht, etwa bei Entzündung, neurobiologische Forschung und Stoffwechsel. Für konkrete klinische Vorteile als Supplement beim Menschen ist die Evidenz derzeit jedoch schwach.
+    body: |
+      ## Was ist Baicalin?
+      
+      Baicalin stammt aus der chinesischen Heilpflanze **Scutellaria baicalensis** und wird heute oft wegen Neuro- und Entzündungs-Claims diskutiert.
+      
+      ## Fazit
+      
+      Baicalin ist **früh interessant, aber noch nicht klinisch überzeugend**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28111354
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28111354"
+  - relation: basiert_auf_studie
+    target: studie-19375465
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19375465"
+  - relation: basiert_auf_studie
+    target: studie-27094574
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27094574"

@@ -1,0 +1,112 @@
+---
+id: lithium-orotat
+type: ingredient
+
+meta:
+  title:
+    de: "Lithium (Orotat)"
+    en: "Lithium (Orotat)"
+  aliases:
+    - "Lithium Orotate"
+    - "Lithiumorotat"
+    - "Mikrodosis-Lithium"
+  category: other
+  evidenceLevel: "4"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 5
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Lithium-Orotat gibt es in der EU keine zugelassenen Health Claims. Die Einordnung als Supplement ist regulatorisch sensibel, weil Lithium pharmakologisch aktiv ist und eng mit Arzneimittelanwendungen verknüpft bleibt.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "28147231"
+    title: "Lithium in neuropsychiatry: a historical overview and current perspectives"
+    authors: "Malhi GS et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28147231/"
+    finding:
+      de: >-
+        Lithium als Arzneistoff ist gut untersucht, aber diese Evidenz lässt sich nicht sauber auf frei verkäufliches Lithium-Orotat übertragen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "24813272"
+    title: "Lithium: how low can you go?"
+    authors: "Mauer S et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24813272/"
+    finding:
+      de: >-
+        Diskussion zu möglichen Effekten niedriger Lithiumspiegel – interessant, aber weit entfernt von einer soliden Supplement-Empfehlung.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "18072817"
+    title: "Possible dangers of dietary lithium supplementation"
+    authors: "Pauzé DK et al."
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/18072817/"
+    finding:
+      de: >-
+        Warnung vor der Annahme, niedrig dosiertes Lithium sei automatisch harmlos. Sicherheitsdaten für frei verkäufliche Formen sind begrenzt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Lithium-Orotat wird für Stimmung und neurobiologische Forschung gehypt. Die Datenlage ist dünn, während die Sicherheits- und Regulierungslage heikel bleibt.
+    evidenceSummary: >-
+      Für streng qualitätsorientiertes Lithium gibt es vergleichsweise gute Datenlage in der Psychiatrie. Für niedrig dosiertes Lithium-Orotat als Nahrungsergänzung sind die Daten jedoch sehr dünn. Vieles in der gesundes Altern-Bubble ist spekulativ und extrapoliert aus völlig anderen Dosen und Indikationen.
+    body: |
+      ## Was ist Lithium-Orotat?
+      
+      Lithium-Orotat ist eine Supplement-Form von Lithium, die in Online-Bubbles oft als sanfte Version des psychiatrischen Medikaments dargestellt wird.
+      
+      ## Das Problem dabei
+      
+      Das ist ein ziemlich großer Sprung:
+      - Die solide Evidenz bezieht sich auf **verschreibungspflichtiges Lithium**
+      - Nicht auf frei verkäufliche Mikrodosis-Produkte
+      - Nicht auf Claims zu gesundem Altern
+      
+      ## Fazit
+      
+      Lithium-Orotat ist aktuell eher ein **riskanter Hype-Kandidat** als ein sauber evidenzbasierter Wirkstoff.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28147231
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28147231"
+  - relation: basiert_auf_studie
+    target: studie-24813272
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24813272"
+  - relation: basiert_auf_studie
+    target: studie-18072817
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:18072817"

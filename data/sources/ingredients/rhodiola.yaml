@@ -1,0 +1,190 @@
+---
+id: rhodiola
+type: ingredient
+
+meta:
+  title:
+    de: "Rhodiola Rosea (Rosenwurz)"
+    en: "Rhodiola Rosea (Rosenwurz)"
+  aliases:
+    - "Rosenwurz"
+    - "Rhodiola"
+    - "Goldene Wurzel"
+    - "Arktische Wurzel"
+    - "SHR-5"
+  category: adaptogens
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 400
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA Health Claims für Rhodiola Rosea. Als traditionelles pflanzliches Arzneimittel (THMP) in der EU nach HMPC-Monographie zugelassen für temporäre Stresslinderung und Erschöpfungssymptome – ein höherer Regulierungsstatus als ein bloßes NEM.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "19016404"
+    title: "A randomised, double-blind, placebo-controlled, parallel-group study of SHR-5 extract in the treatment of stress related fatigue"
+    authors: "Olsson EM et al."
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19016404/"
+    finding:
+      de: >-
+        RCT (n=60): SHR-5 (576 mg/Tag) war mit Veränderungen verbundene Erschöpfung, Konzentration und Wohlbefinden signifikant nach 28 Tagen. Gut verträglich, keine ernsthaften Nebenwirkungen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "12725561"
+    title: "Rhodiola rosea in stress induced fatigue – a double blind cross-over study of a standardized extract SHR-5"
+    authors: "Shevtsov VA et al."
+    year: 2003
+    url: "https://pubmed.ncbi.nlm.nih.gov/12725561/"
+    finding:
+      de: >-
+        RCT (n=161 Ärzte im Nachtdienst): Einzeldosis Rhodiola war mit Veränderungen verbundene kognitive Leistung und Reaktionszeit unter Erschöpfungsbedingungen signifikant vs. Placebo.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "17990197"
+    title: "Rhodiola rosea for mental and physical fatigue in nursing students"
+    authors: "Darbinyan V et al."
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17990197/"
+    finding:
+      de: >-
+        RCT (n=56): Rhodiola reduzierte physische und mentale Erschöpfung bei Studierenden in Prüfungsperioden signifikant. Stimmung und allgemeines Wohlbefinden war mit Veränderungen verbunden.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28219059"
+    title: "Multicenter, open-label study of Rhodiola rosea extract in patients with burnout syndrome"
+    authors: "Kasper S & Dienel A"
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28219059/"
+    finding:
+      de: >-
+        Offene Studie (n=118, starke Erschöpfung-Patienten): 400 mg/Tag über 12 Wochen reduzierte alle starke Erschöpfung-Symptome signifikant. Kein Placebo-Arm, aber klinisch relevante Effektgrößen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Rhodiola rosea ist ein Adaptogen mit RCTs zu mentaler Erschöpfung und Stresswahrnehmung. Die Datenlage ist interessant, aber nicht frei von Heterogenität.
+    evidenceSummary: >-
+      Mehrere RCTs zeigen signifikante Reduktion von Erschöpfung, starke Erschöpfung-Symptomen und kognitiver Beeinträchtigung unter Stress. Standardisierter Extrakt SHR-5 am besten untersucht. Sicherheitsprofil gut. gesundes Altern-Endpunkte nicht direkt untersucht.
+    body: |
+      ## Was ist Rhodiola Rosea?
+      
+      Rhodiola Rosea (Rosenwurz) ist eine Heilpflanze aus den Hochgebirgen Skandinaviens, Sibiriens und Zentralasiens, wo sie seit Jahrhunderten als **Adaptogen** eingesetzt wird – zur Steigerung von Stressresistenz, Ausdauer und mentaler Leistung unter widrigen Bedingungen.
+      
+      Die aktiven Inhaltsstoffe sind **Rosavine** (spezifisch für Rhodiola rosea) und **Salidrosid** (Tyrosol-Glykosid). Qualitätsprodukte werden auf beide standardisiert, typischerweise auf mindestens 3 % Rosavine und 1 % Salidrosid.
+      
+      ## Der HMPC-Vorteil
+      
+      Rhodiola hat in der EU einen besonderen Status: Das **HMPC** (Committee on Herbal Medicinal Products der EMA) hat eine Monographie verabschiedet, die Rhodiola als **traditionelles pflanzliches Arzneimittel** für Erschöpfungs- und Stresssymptome anerkennt. Das ist regulatorisch wertvoller als ein bloßes Nahrungsergänzungsmittel und zeigt, dass die EU-Behörden die Evidenzlage als ausreichend für einen medizinischen Anspruch betrachten.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Vergleichsweise gut untersucht
+      - **Mentale Erschöpfung**: Mehrere RCTs (Studenten, Ärzte, Büroarbeiter) zeigen konsistente Reduktion von Erschöpfungssymptomen
+      - **Kognitive Leistung unter Stress**: Reaktionszeit, Konzentration und Arbeitsgedächtnis verbessern sich
+      - **starker Erschöpfung-Symptome**: Klinisch relevante Verbesserungen in offenen Studien
+      
+      ### Weniger klar belegt
+      - Körperliche Ausdauerleistung (gemischte Ergebnisse in Sportstudien)
+      - Angst und depressive Symptome (kleinere Studien, vielversprechend aber nicht robust)
+      
+      ### Nicht belegt
+      - Endpunkte zu gesundem Altern beim Menschen
+      - Überlegenheit gegenüber anderen Adaptogens (keine direkten Vergleichsstudien)
+      
+      ## Rhodiola vs. Ashwagandha
+      
+      Beide sind Adaptogens – aber mit unterschiedlichem Profil:
+      
+      | | Rhodiola | Ashwagandha |
+      |---|---|---|
+      | Stärke | Akute mentale Erschöpfung | Chronischer Stress, Cortisol |
+      | Wirkbeginn | Schneller (Stunden) | Langsamer (Wochen) |
+      | Einsatz | Prüfungen, Nachtdienst, akuter Stress | starker Erschöpfung-Prävention, Schlaf, Testosteron |
+      | HMPC-Monographie | Ja | Nein |
+      
+      ## Ist Rhodiola sicher?
+      
+      Bei 200–600 mg/Tag gilt es als **wahrscheinlich sicher**. Häufigste Nebenwirkungen: Schwindel, Mundtrockenheit bei höheren Dosen. Nicht empfohlen in der Schwangerschaft. Mögliche Wechselwirkungen mit MAO-Hemmern und Antikoagulantien. **Morgens oder mittags einnehmen** – kann bei Abendeinnahme schlafstörend wirken (stimulierender Effekt).
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: depression
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: kontraindiziert_bei
+    target: kontra-schwangerschaft
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-mao-hemmer
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-19016404
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19016404"
+  - relation: basiert_auf_studie
+    target: studie-12725561
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12725561"
+  - relation: basiert_auf_studie
+    target: studie-17990197
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17990197"
+  - relation: basiert_auf_studie
+    target: studie-28219059
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28219059"

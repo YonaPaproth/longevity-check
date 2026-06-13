@@ -18,24 +18,21 @@
       "target": "studie-20370918",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20370918",
-      "note": "Positive Signale, aber kleine und methodisch begrenzte Studien."
+      "source": "pmid:20370918"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-12472620",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12472620",
-      "note": "Hinweise auf gesteigertes sexuelles Verlangen ohne klare Hormonveränderungen."
+      "source": "pmid:12472620"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-18654924",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:18654924",
-      "note": "Mögliche Vorteile bei subjektivem Wohlbefinden, aber keine starke Datenbasis."
+      "source": "pmid:18654924"
     }
   ]
 }

@@ -90,32 +90,28 @@
       "target": "studie-7649494",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:7649494",
-      "note": "Grundlagenarbeit: ALA recycelt Vitamin C, E, Glutathion und CoQ10 – wird diskutiert als universelles Antioxidans in Mitochondrien."
+      "source": "pmid:7649494"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-29939616",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29939616",
-      "note": "Meta-Analyse (20 RCTs): ALA war mit niedrigeren Werten verbunden Fasten-Blutzucker, Insulin und CRP signifikant bei Patienten mit metabolischem Syndrom."
+      "source": "pmid:29939616"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-26068271",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26068271",
-      "note": "Review: ALA war mit Veränderungen verbunden Insulinsensitivität via AMPK-Aktivierung und reduziert oxidativen Stress in Mitochondrien."
+      "source": "pmid:26068271"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-31137620",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:31137620",
-      "note": "Review präklinisch neurobiologisch interessanter Effekte: R-ALA wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress, Evidenz hauptsächlich präklinisch."
+      "source": "pmid:31137620"
     }
   ]
 }

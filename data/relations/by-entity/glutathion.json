@@ -90,61 +90,53 @@
       "target": "studie-25602346",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25602346",
-      "note": "Kleines RCT (n=54): 500 mg/Tag orales Glutathion über 6 Monate erhöhte GSH-Spiegel in Vollblut um ~30–35 % und in Erythrozyten um ~52 %. Klinische Endpunkte nicht gemessen."
+      "source": "pmid:25602346"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-1618779",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:1618779",
-      "note": "Klassische Pharmakokinetik-Studie: Orales Glutathion (3 g Einmaldosis) erhöhte Plasma-GSH nicht messbar. Schlussfolgerung: Standard-GSH wird im Darm gespalten, bevor es systemisch verfügbar wird."
+      "source": "pmid:1618779"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-15212784",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:15212784",
-      "note": "Review: Glutathion ist zentral für Redox-Homöostase, Entgiftung und Immunfunktion. Aus der biologischen Zentralität folgt jedoch nicht automatisch ein Nutzen von oralem GSH."
+      "source": "pmid:15212784"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24494129",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24494129",
-      "note": "Breite Übersicht mit potenziellen Anwendungen (Parkinson, Atherosklerose, Lunge). Beleglage sehr heterogen — manche Anwendungen sind gut untersucht (IV-GSH), orale Supplementierung schwächer."
+      "source": "pmid:24494129"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-29062122",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29062122",
-      "note": "RCT (n=60): Liposomales GSH (500 mg/Tag, 4 Wochen) erhöhte Vollblut-GSH um ~40 % und verbesserte einige Immunparameter. Besser als Standardform, aber klinische Langzeitdaten fehlen."
+      "source": "pmid:29062122"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "glycin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "## Was ist NAC?\n\nN-Acetylcystein (NAC) ist ein acetyliertes Derivat der Aminosäure Cystein und der wichtigste **Glutathion-Vorläufer**, den der Körper aufnehmen kann."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "sulforaphan",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "## Nrf2: der Masterregulator\n\nWenn Sulforaphan Nrf2 aktiviert, produziert die Zelle mehr:\n- **Glutathion** (zentrales Antioxidans)\n- **Häm-Oxygenase-1** (entzündungshemmend)\n- **Phase-2-Detoxifikation"
+      "confidence": 0.7
     }
   ]
 }

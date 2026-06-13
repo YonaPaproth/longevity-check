@@ -1,0 +1,117 @@
+---
+id: schisandra
+type: ingredient
+
+meta:
+  title:
+    de: "Schisandra"
+    en: "Schisandra"
+  aliases:
+    - "Schisandra chinensis"
+    - "Wu Wei Zi"
+    - "Magnolia Vine"
+  category: adaptogens
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Schisandra gibt es in der EU keine zugelassenen Claims zu Stress, Leber oder Leistungsfähigkeit als Supplement.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "18515024"
+    title: "Schisandra chinensis in traditional and modern use"
+    authors: "Panossian A et al."
+    year: 2008
+    url: "https://pubmed.ncbi.nlm.nih.gov/18515024/"
+    finding:
+      de: >-
+        Review: Schisandra passt adaptogen-theoretisch gut, klinische Daten bleiben jedoch begrenzt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28724448"
+    title: "Liver-protective effects of Schisandra"
+    authors: "Szopa A et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28724448/"
+    finding:
+      de: >-
+        Präklinisch und traditionell interessant, klinische Evidenz bei Supplements aber nicht stark.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "20109491"
+    title: "Adaptogens and stress protection"
+    authors: "Panossian A et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20109491/"
+    finding:
+      de: >-
+        Schisandra ist Teil des Adaptogen-Konzepts; robuste Outcome-Evidenz bleibt dennoch begrenzt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Schisandra ist ein klassisches Adaptogen mit Leber-, Stress- und Leistungsstory. Die Human-Evidenz ist vorhanden, aber eher begrenzt.
+    evidenceSummary: >-
+      Schisandra ist traditionell breit genutzt und präklinisch interessant. Human-Daten gibt es vor allem in kleineren oder älteren Studien, die keine sehr robuste Basis für große moderne Claims liefern.
+    body: |
+      ## Was ist Schisandra?
+      
+      Schisandra ist eine traditionelle adaptogene Pflanze, die oft mit **Stressresistenz, Leberfunktion und mentaler Belastbarkeit** verbunden wird.
+      
+      ## Fazit
+      
+      Schisandra ist **solide traditionell, aber modern klinisch noch nicht stark abgesichert**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-18515024
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:18515024"
+  - relation: basiert_auf_studie
+    target: studie-28724448
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28724448"
+  - relation: basiert_auf_studie
+    target: studie-20109491
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20109491"

@@ -72,32 +72,28 @@
       "target": "studie-19016404",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19016404",
-      "note": "RCT (n=60): SHR-5 (576 mg/Tag) war mit Veränderungen verbundene Erschöpfung, Konzentration und Wohlbefinden signifikant nach 28 Tagen. Gut verträglich, keine ernsthaften Nebenwirkungen."
+      "source": "pmid:19016404"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-12725561",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12725561",
-      "note": "RCT (n=161 Ärzte im Nachtdienst): Einzeldosis Rhodiola war mit Veränderungen verbundene kognitive Leistung und Reaktionszeit unter Erschöpfungsbedingungen signifikant vs. Placebo."
+      "source": "pmid:12725561"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17990197",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17990197",
-      "note": "RCT (n=56): Rhodiola reduzierte physische und mentale Erschöpfung bei Studierenden in Prüfungsperioden signifikant. Stimmung und allgemeines Wohlbefinden war mit Veränderungen verbunden."
+      "source": "pmid:17990197"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28219059",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28219059",
-      "note": "Offene Studie (n=118, starke Erschöpfung-Patienten): 400 mg/Tag über 12 Wochen reduzierte alle starke Erschöpfung-Symptome signifikant. Kein Placebo-Arm, aber klinisch relevante Effektgrößen."
+      "source": "pmid:28219059"
     }
   ]
 }

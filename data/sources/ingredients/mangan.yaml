@@ -1,0 +1,135 @@
+---
+id: mangan
+type: ingredient
+
+meta:
+  title:
+    de: "Mangan"
+    en: "Mangan"
+  aliases:
+    - "Manganese"
+    - "Mangangluconat"
+    - "Manganbisglycinat"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: caution
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 2
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Mangan sind in der EU Claims zu Energiestoffwechsel, Bindegewebe, Knochen und Schutz vor oxidativem Stress zugelassen. Diese Claims rechtfertigen keine beliebig hohe Supplementierung.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: ""
+    title: "Manganese"
+    authors: "Office of Dietary Supplements, NIH"
+    year: 2022
+    url: "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/"
+    finding:
+      de: >-
+        Übersicht zu Funktionen, Bedarf und Sicherheit. Manganmangel ist selten, Überversorgung kann problematisch sein.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23036414"
+    title: "Manganese-induced neurotoxicity: a review of its behavioral consequences and neuroprotective strategies"
+    authors: "Martinez-Finley EJ et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23036414/"
+    finding:
+      de: >-
+        Review: Chronisch hohe Manganexposition kann das Nervensystem schädigen. Relevanz besonders bei Überexposition, aber auch ein Grund für Zurückhaltung bei Hochdosis-Supplementen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "16099008"
+    title: "The role of manganese in bone health"
+    authors: "Aschner M et al."
+    year: 2005
+    url: "https://pubmed.ncbi.nlm.nih.gov/16099008/"
+    finding:
+      de: >-
+        Mangan ist an Knochen- und Knorpelstoffwechsel beteiligt, aber Supplementnutzen bei gesunden Menschen ist schwach belegt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Mangan ist ein essenzielles Spurenelement für Enzyme, Knochen und antioxidative Systeme. Mangel ist selten, Extra-Supplemente meist unnötig.
+    evidenceSummary: >-
+      Mangan ist essenziell für zahlreiche Enzyme und Stoffwechselprozesse. Klinisch relevante Mängel sind selten. Für gesunde Erwachsene ist ein zusätzlicher Nutzen durch Supplemente kaum belegt, während hohe Zufuhr neurotoxisch sein kann.
+    body: |
+      ## Was ist Mangan?
+      
+      Mangan ist ein **essenzielles Spurenelement**, das für verschiedene Enzyme gebraucht wird. Es spielt eine Rolle bei Energiestoffwechsel, Knochenbildung und antioxidativen Schutzmechanismen.
+      
+      ## Was ist vergleichsweise gut untersucht?
+      
+      - Essenzieller Cofaktor für Enzyme
+      - Beitrag zu normalem Bindegewebe und Knochenstoffwechsel
+      - Rolle im antioxidativen System
+      
+      ## Was ist nicht vergleichsweise gut untersucht?
+      
+      - Spürbare Zusatznutzen bei gut versorgten Erwachsenen
+      - gesundes-Alten- oder Performance-Effekte durch Extra-Mangan
+      
+      ## Sicherheitsprofil
+      
+      Mangan ist einer dieser Stoffe, bei denen **mehr nicht besser** ist. Zu hohe chronische Exposition kann neurotoxisch sein.
+      
+      ## Fazit
+      
+      Mangan ist biologisch wichtig, aber als Supplement meist **kein Priority-Item** – außer bei sehr speziellen Ernährungs- oder Resorptionsproblemen.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-23036414
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23036414"
+  - relation: basiert_auf_studie
+    target: studie-16099008
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:16099008"

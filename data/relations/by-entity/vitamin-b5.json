@@ -42,16 +42,14 @@
       "target": "studie-8595692",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:8595692",
-      "note": "Review zu Biochemie und Bedarf: Pantothensäure ist als Vorstufe von Coenzym A fundamental für den Stoffwechsel, echter Mangel aber selten."
+      "source": "pmid:8595692"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17119255",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17119255",
-      "note": "Review: Klassische Mängel einzelner Vitamine sind bei gemischter Ernährung selten; der Nutzen von B5-Supplementen bei Gesunden ist kaum untersucht."
+      "source": "pmid:17119255"
     }
   ]
 }

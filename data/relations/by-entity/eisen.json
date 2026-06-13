@@ -5,15 +5,13 @@
       "relation": "hat_interaktion_mit",
       "target": "calcium",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Eine konsistente Reduktion des Frakturrisikos ließ sich dagegen nicht nachweisen."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "egcg",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Nicht mit Eisenpräparaten kombinieren (EGCG hemmt Eisenresorption)."
+      "confidence": 0.7
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -109,15 +107,13 @@
       "relation": "hat_interaktion_mit",
       "target": "bor",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Bei Entzündungen steigt Hepcidin ebenfalls — weshalb Laborwerte bei Infekten nicht zuverlässig sind."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "chrom",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "### Eisen im menschlichen Körper\n\n| Kompartiment | Anteil am Körpereisen | Funktion |\n|---|---|---|\n| Hämoglobin (rote Blutkörperchen) | ~65 % | Sauerstofftransport |\n| Ferritin / Hämosiderin (Speiche"
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -148,46 +144,40 @@
       "target": "studie-27880062",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27880062",
-      "note": "Systematischer Review: Vegetarier haben im Vergleich zu Omnivoren signifikant niedrigere Ferritin-Spiegel (Mittelwert ~20 vs. ~35 µg/L bei Frauen). Eisenmangel-Prävalenz bei vegetarischen Frauen bis z"
+      "source": "pmid:27880062"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23107545",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23107545",
-      "note": "Nationale US-Querschnittsstudie: Eisenmangel (Ferritin &lt;12 µg/L) betrifft ~9–11 % der Frauen im gebärfähigen Alter, ~2 % der Männer. In der Gesamtbevölkerung ist Eisenmangel die häufigste Nährstoff"
+      "source": "pmid:23107545"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-29155946",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29155946",
-      "note": "Review: Nicht-Hämeisen (Pflanzen) hat eine Absorption von ~2–20 % vs. Hämeisen (Fleisch) ~25 %. Vitamin C (50–100 mg) erhöht die Nicht-Hämeisen-Absorption um das 3–6-fache. Phytate (Getreide, Hülsenfr"
+      "source": "pmid:29155946"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-31174214",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:31174214",
-      "note": "Review: Ferritin &lt;30 µg/L als funktioneller Eisenmangel-Schwellenwert (auch ohne manifeste Anämie) hat höhere klinische Sensitivität als der klassische Wert &lt;12 µg/L. Bei chronischer Entzündung "
+      "source": "pmid:31174214"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "spermidine",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "### Kardiovaskuläre Gesundheit (PMID 33762175)\n\nEisenberg et al."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "vitamin-c",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Es ist an einer Vielzahl physiologischer Prozesse beteiligt:\n- **Kollagensynthese**: Cofaktor für Hydroxylasen, die Kollagen quervernetzen – essenziell für Haut, Knochen, Gefäße und Wundheilung\n- **Im"
+      "confidence": 0.7
     }
   ]
 }

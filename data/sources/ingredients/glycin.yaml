@@ -1,0 +1,212 @@
+---
+id: glycin
+type: ingredient
+
+meta:
+  title:
+    de: "Glycin"
+    en: "Glycin"
+  aliases:
+    - "Glycine"
+    - "Aminoessigsäure"
+  category: metabolic
+  evidenceLevel: "2"
+  safety_rating: safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 3000
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine zugelassenen EFSA Health Claims für Glycin als Supplement. Als Aminosäure ist es in der EU als Nahrungsergänzungsmittel frei erhältlich. In der Medizin als Glycin-Infusion bei Prostataoperationen eingesetzt.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "23171544"
+    title: "Glycine ingestion improves subjective sleep quality in human volunteers, correlating with polysomnographic changes"
+    authors: "Bannai M et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/23171544/"
+    finding:
+      de: >-
+        RCT (n=11): 3 g Glycin vor dem Schlafen war mit Veränderungen verbundene Schlafqualität, Tagesmüdigkeit und kognitive Funktion am nächsten Morgen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "33587619"
+    title: "GlyNAC supplementation in older adults improves glutathione deficiency, oxidative stress, mitochondrial dysfunction and aging hallmarks"
+    authors: "Kumar P et al."
+    year: 2021
+    url: "https://pubmed.ncbi.nlm.nih.gov/33587619/"
+    finding:
+      de: >-
+        RCT (n=24): GlyNAC über 24 Wochen normalisierte Glutathion-Spiegel auf das Niveau junger Erwachsener und war mit Veränderungen verbundene Mitochondrienfunktion.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "35975308"
+    title: "GlyNAC Supplementation Improves Aging Hallmarks in Older Humans"
+    authors: "Sekhar RV"
+    year: 2022
+    url: "https://pubmed.ncbi.nlm.nih.gov/35975308/"
+    finding:
+      de: >-
+        Follow-up RCT: GlyNAC war mit Veränderungen verbundene 8/9 gemessene Hallmarks of Alterung (Oxidation, Entzündung, Mitochondrien, Körperzusammensetzung, Kraft, Gehgeschwindigkeit).
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28759885"
+    title: "Glycine metabolism in animals and humans: implications for nutrition and health"
+    authors: "Razak MA et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28759885/"
+    finding:
+      de: >-
+        Review: Glycin wird für Glutathion, Kollagen, Hämoglobin, Kreatin und Porphyrine benötigt – täglicher Bedarf übersteigt körpereigene Synthese ab mittlerem Alter.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Glycin ist die kleinste Aminosäure und wird für Glutathion, Kollagen und Kreatin benötigt. Als GlyNAC-Kombination wird es auch im Zusammenhang mit Alterung-Hallmarks untersucht.
+    evidenceSummary: >-
+      Vergleichsweise gut untersuchte Wirkung auf Schlafqualität (RCT). Als GlyNAC kombiniert mit NAC zeigen kleinere RCTs signifikante Verbesserungen bei Glutathion, oxidativem Stress und Mitochondrienfunktion bei älteren Menschen.
+    body: |
+      ## Was ist Glycin?
+      
+      Glycin ist die kleinste und einfachste **proteinogene Aminosäure**. Der Körper kann sie selbst synthetisieren, aber laut Forschung reicht die endogene Produktion mit zunehmendem Alter möglicherweise nicht mehr aus, um den Bedarf zu decken.
+      
+      Glycin ist an erstaunlich vielen Prozessen beteiligt:
+      - **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren
+      - **Kollagensynthese**: Jede dritte Aminosäure in Kollagen ist Glycin
+      - **Kreatinsynthese**: Zusammen mit Arginin und Methionin
+      - **Hämoglobinbildung**: Teil des Porphyrin-Ringsystems
+      - **Neurotransmitter**: Inhibitorischer Neurotransmitter im Rückenmark und Hirnstamm
+      
+      ## Der GlyNAC-Ansatz
+      
+      Die spannendste gesundes-Alten-Anwendung ist die Kombination mit NAC (N-Acetylcystein). Beide Aminosäuren sind Vorläufer von Glutathion – Glycin liefert die Strukturkomponente, Cystein (via NAC) die reaktive Gruppe.
+      
+      Rajagopal Sekhars Forschungsgruppe (Baylor) zeigte in zwei RCTs, dass GlyNAC bei über 70-jährigen Probanden:
+      - Glutathion auf das Niveau 20–30-Jähriger normalisierte
+      - Oxidativen Stress, Entzündungsmarker und Insulinsensitivität war mit Veränderungen verbundene
+      - Mitochondrienfunktion, Körperfett, Muskelmasse und Gehgeschwindigkeit war mit Veränderungen verbundene
+      
+      **Einschränkung:** n=24, ein Labor, 24 Wochen. Unabhängige Replikationen laufen, aber fehlen noch.
+      
+      ## Schlaf-Effekt: einer der besten belegten Supplementeffekte
+      
+      3 g Glycin 30 Minuten vor dem Schlafen:
+      - Verkürzte Einschlafzeit und war mit Veränderungen verbundene Schlafstruktur (PSG-bestätigt)
+      - Reduzierte Tagesmüdigkeit am Folgetag (gemessen mit Fatigue-Scores)
+      - Mechanismus: Glycin war mit niedrigeren Werten verbunden die Körperkerntemperatur (vasodilatorisch) – ein bekannter Schlafauslöser
+      
+      ## Ist Glycin sicher?
+      
+      Glycin wird in der Medizin in Gramm-Dosen intravenös eingesetzt. Oral gilt es bei bis zu 10 g/Tag als **sicher**. Keine relevanten Wechselwirkungen bekannt. Taste ist leicht süßlich – problemlos im Wasser löslich.
+      
+      ## Praktische Empfehlung
+      
+      Glycin ist günstig (oft unter 0,10 €/g), sicher und hat solide Evidenz für Schlaf und als GlyNAC-Kombination. Als reines Schlaf-Supplement: **3 g vor dem Schlafen**. Für den GlyNAC-Ansatz: **1,33 g Glycin pro 1 g NAC**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: haut
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: kollagen-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: glutathion
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: glynac
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: kollagen
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: kreatin
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nac
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-23171544
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23171544"
+  - relation: basiert_auf_studie
+    target: studie-33587619
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:33587619"
+  - relation: basiert_auf_studie
+    target: studie-35975308
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:35975308"
+  - relation: basiert_auf_studie
+    target: studie-28759885
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28759885"

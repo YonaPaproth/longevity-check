@@ -53,8 +53,7 @@
       "relation": "hat_interaktion_mit",
       "target": "same",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Kann Wechselwirkungen mit Antikoagulantien, Antidepressiva und blutzuckerwirksamen Medikamenten haben."
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -91,32 +90,28 @@
       "target": "studie-15691787",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:15691787",
-      "note": "Meta-Analyse (17 RCTs): Melatonin verkürzte Einschlafzeit signifikant (-7,2 min) und war mit Veränderungen verbundene Schlafqualität. Effekte bescheiden, aber konsistent."
+      "source": "pmid:15691787"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22471152",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22471152",
-      "note": "Review: Melatonin neutralisiert reaktive Sauerstoffspezies direkt und induziert antioxidative Enzyme. Schutz der mitochondrialen DNA vergleichsweise gut untersucht (präklinisch)."
+      "source": "pmid:22471152"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-29676709",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29676709",
-      "note": "Review: Geringes Melatonin (0,5–1 mg) ist bei Schlafstörungen (besonders ab 55 Jahren) untersuchter als höhere Dosen. Chronobiologischer Effekt, kein sedativer."
+      "source": "pmid:29676709"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23574769",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23574769",
-      "note": "Review: Melatonin-Spiegel sinken mit dem Alter (ab ~40 Jahren deutlich). Supplementierung könnte circadiane Dysregulation und oxidativen Stress kompensieren. gesundes Altern-Daten fehlen."
+      "source": "pmid:23574769"
     }
   ]
 }

@@ -35,8 +35,7 @@
       "relation": "hat_interaktion_mit",
       "target": "cholin",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "PS hat im Gehirn mehrere Funktionen:\n- Stabilisierung der Zellmembran-Fluidität\n- Unterstützung der **Acetylcholinfreisetzung** (Gedächtnis-Neurotransmitter)\n- Regulierung des **Cortisol-Clearings** n"
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -55,32 +54,28 @@
       "target": "studie-20523044",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20523044",
-      "note": "RCT (n=78, Ältere mit Gedächtnisbeschwerden): 300 mg Soja-PS/Tag über 6 Monate war mit Veränderungen verbundene Gedächtnisfunktion signifikant, besonders Gesichtserkennung und -namen."
+      "source": "pmid:20523044"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19966578",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19966578",
-      "note": "RCT (n=157, 60–90 Jahre): PS war mit Veränderungen verbundene Kurzzeitgedächtnis und Lernfähigkeit. Stärkste Effekte bei Personen mit höherem Baseline-Gedächtnisdefizit."
+      "source": "pmid:19966578"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-25933483",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25933483",
-      "note": "Review: PS macht 15 % der Gehirn-Phospholipide aus. Unterstützt Neurotransmitterfreisetzung, Acetylcholinproduktion, Cortisol-Clearing und neuronale Plastizität."
+      "source": "pmid:25933483"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19861941",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19861941",
-      "note": "RCT: PS dämpfte Cortisolanstieg bei Belastungstest und war mit Veränderungen verbundene Stimmung und kognitive Leistung unter Stress."
+      "source": "pmid:19861941"
     }
   ]
 }

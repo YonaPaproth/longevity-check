@@ -1,0 +1,116 @@
+---
+id: phosphor
+type: ingredient
+
+meta:
+  title:
+    de: "Phosphor"
+    en: "Phosphor"
+  aliases:
+    - "Phosphorus"
+    - "Phosphat"
+    - "Phosphor"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 250
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Phosphor sind in der EU Claims zu Knochen, Zähnen, Energiestoffwechsel und Zellmembranen zugelassen. Da Phosphor in vielen Lebensmitteln reichlich vorkommt, ist Unterversorgung im Alltag selten.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: ""
+    title: "Phosphorus"
+    authors: "Office of Dietary Supplements, NIH"
+    year: 2022
+    url: "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/"
+    finding:
+      de: >-
+        Übersicht zu Funktionen, Bedarf und Risiken. In westlichen Ernährungsumgebungen ist eher zu viel als zu wenig ein Thema.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "24500942"
+    title: "Dietary phosphorus and health"
+    authors: "Calvo MS et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24500942/"
+    finding:
+      de: >-
+        Review: Phosphor ist essenziell, aber hohe Aufnahme aus stark verarbeiteten Lebensmitteln kann problematisch sein.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "22510091"
+    title: "Phosphate homeostasis and its role in bone health"
+    authors: "Takeda E et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22510091/"
+    finding:
+      de: >-
+        Phosphat ist biologisch zentral, aber als Supplement für Gesunde selten ein Engpass.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Phosphor ist essenziell für Knochen, ATP und Zellmembranen. Mangel ist selten, und Supplemente sind für die meisten Menschen unnötig.
+    evidenceSummary: >-
+      Phosphor ist ein essenzieller Mineralstoff für Knochen, Zellmembranen und ATP. Bei normaler Ernährung ist die Versorgung meist ausreichend. Für zusätzliche Supplemente gibt es außerhalb spezieller medizinischer Kontexte kaum überzeugende Gründe.
+    body: |
+      ## Was ist Phosphor?
+      
+      Phosphor ist Bestandteil von **ATP**, Zellmembranen und Knochen. Ohne Phosphat läuft praktisch kein Energiestoffwechsel.
+      
+      ## Praxis
+      
+      Das Problem ist im Alltag fast nie zu wenig Phosphor, sondern eher: Man braucht in der Regel **kein extra Phosphor-Supplement**.
+      
+      ## Fazit
+      
+      Wichtig? Ja. Als separates Supplement spannend? Für die meisten eher nein.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-24500942
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24500942"
+  - relation: basiert_auf_studie
+    target: studie-22510091
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22510091"

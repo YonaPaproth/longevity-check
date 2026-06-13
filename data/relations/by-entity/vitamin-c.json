@@ -5,8 +5,7 @@
       "relation": "hat_interaktion_mit",
       "target": "sulforaphan",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "## Nrf2: der Masterregulator\n\nWenn Sulforaphan Nrf2 aktiviert, produziert die Zelle mehr:\n- **Glutathion** (zentrales Antioxidans)\n- **Häm-Oxygenase-1** (entzündungshemmend)\n- **Phase-2-Detoxifikation"
+      "confidence": 0.7
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -96,15 +95,13 @@
       "relation": "hat_interaktion_mit",
       "target": "eisen",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Es ist an einer Vielzahl physiologischer Prozesse beteiligt:\n- **Kollagensynthese**: Cofaktor für Hydroxylasen, die Kollagen quervernetzen – essenziell für Haut, Knochen, Gefäße und Wundheilung\n- **Im"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nr",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Es ist an einer Vielzahl physiologischer Prozesse beteiligt:\n- **Kollagensynthese**: Cofaktor für Hydroxylasen, die Kollagen quervernetzen – essenziell für Haut, Knochen, Gefäße und Wundheilung\n- **Im"
+      "confidence": 0.7
     },
     {
       "relation": "hat_regulatorischen_status",
@@ -117,32 +114,28 @@
       "target": "studie-29099763",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29099763",
-      "note": "Review: Vitamin C akkumuliert in Immunzellen und unterstützt Funktion von Neutrophilen, Lymphozyten und NK-Zellen. Bei Mangel deutlich reduzierte Immunabwehr."
+      "source": "pmid:29099763"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23440782",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23440782",
-      "note": "Cochrane-Review (29 RCTs): Regelmäßige Vitamin-C-Einnahme verkürzt Erkältungsdauer um ~8 % (Erwachsene) bis 14 % (Kinder). Verhindert Erkältungen nur bei extremer körperlicher Belastung (Marathonläufe"
+      "source": "pmid:23440782"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23675558",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23675558",
-      "note": "Review: Vitamin C ist essenzieller Cofaktor für Prolyl- und Lysylhydroxylasen (Kollagensynthese) und trägt zur Regeneration von Vitamin E bei. Plasma-Spiegel spiegeln Ernährungsqualität wider."
+      "source": "pmid:23675558"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-8644688",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:8644688",
-      "note": "NIH-Studie: Plasmasättigung tritt bei ~200 mg/Tag auf. Höhere Dosen werden renal ausgeschieden ohne proportionalen Nutzen. Optimale Dosis für gesunde Erwachsene: 200–400 mg/Tag."
+      "source": "pmid:8644688"
     }
   ]
 }

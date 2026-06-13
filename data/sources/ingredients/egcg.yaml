@@ -1,0 +1,226 @@
+---
+id: egcg
+type: ingredient
+
+meta:
+  title:
+    de: "EGCG (Grüntee-Extrakt)"
+    en: "EGCG (Grüntee-Extrakt)"
+  aliases:
+    - "Epigallocatechingallat"
+    - "Grüner Tee Extrakt"
+    - "Green Tea Extract"
+    - "Catechine"
+    - "EGC"
+  category: antioxidants
+  evidenceLevel: "2"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 400
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA Health Claims für EGCG. EFSA hat 2018 ein Gutachten veröffentlicht: Grüntee-Catechine in Supplements ab 800 mg/Tag als potenziell hepatotoxisch eingestuft. Als Getränk (normaler Tee) als sicher bewertet.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "23448243"
+    title: "Tea and health: studies in humans"
+    authors: "Khan N & Mukhtar H"
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23448243/"
+    finding:
+      de: >-
+        Umfassender Review: Grüntee-Catechine zeigen in epidemiologischen Studien inverse Korrelation mit Herz-Kreislauf-Erkrankungen, Stoffwechselauffälligkeiten und einzelnen Krebsarten. Kausalität unklar.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "19007524"
+    title: "The metabolic effects of epigallocatechin-3-gallate: mechanisms and applications"
+    authors: "Thielecke F & Boschmann M"
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19007524/"
+    finding:
+      de: >-
+        Review: EGCG hemmt COMT, aktiviert AMPK und stimuliert Fettoxidation. Kalorienverbrauch steigt moderat (~80 kcal/Tag bei 300 mg EGCG+Koffein).
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "21715508"
+    title: "Green tea catechins reduce total and LDL cholesterol: a systematic review and meta-analysis"
+    authors: "Zheng XX et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21715508/"
+    finding:
+      de: >-
+        Meta-Analyse (14 RCTs): Grüntee-Catechine war mit niedrigeren Werten verbundenen LDL-Cholesterin um ~0,19 mmol/L und Gesamtcholesterin signifikant.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "29684494"
+    title: "Green tea extract induces genes related to browning of white adipose tissue and limits weight-gain in high fat diet-fed rat"
+    authors: "Henning SM et al."
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/29684494/"
+    finding:
+      de: >-
+        EGCG aktiviert UCP1 (thermogenes Protein) und beeinflusst Fettgewebsbraunfärbung. Mechanismus für metabolische Effekte.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      EGCG ist das Hauptcatechin im Grüntee und wird für Stoffwechsel- und Zellschutzmechanismen untersucht. Höher dosierte Supplemente können mit Leberrisiken verbunden sein.
+    evidenceSummary: >-
+      Mehrere RCTs zeigen antioxidative, antientzündliche und metabolische Effekte (Blutdruck, Insulin, Fettmasse). AMPK-Aktivierung und Autophagie-Induktion präklinisch vergleichsweise gut untersucht. gesundes Altern-Endpunkte fehlen. Lebertoxizität bei hochkonzentrierten Extrakten dokumentiert.
+    body: |
+      ## Was ist EGCG?
+      
+      Epigallocatechingallat (EGCG) ist das mengenmäßig bedeutendste und biologisch aktivste **Catechin** im Grünen Tee. Es macht 50–80 % der gesamten Catechin-Menge aus und ist der Hauptgrund, warum Grüntee seit Jahrzehnten intensiv erforscht wird.
+      
+      Im Kontext gesunden Alterns sind zwei Mechanismen besonders relevant:
+      - **AMPK-Aktivierung**: AMPK ist ein zellulärer Energiesensor – bei Aktivierung fördert er Fettverbrennung, hemmt mTOR und stimuliert Autophagie (zelluläre Selbstreinigung)
+      - **Autophagie-Induktion**: EGCG fördert direkt die Beseitigung beschädigter Zellbestandteile – ein zentraler Hallmark-of-Aging-Mechanismus
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Belegt
+      - LDL-Senkung: Meta-Analysen konsistent positiv (–0,15 bis –0,20 mmol/L)
+      - Entzündungsmarker: CRP, IL-6 sinken in RCTs
+      - Blutdruck: Kleine, aber konsistente Reduktionen in mehreren RCTs
+      - Fettmasse: Geringfügige Reduktion (kombiniert mit Koffein stärker)
+      
+      ### Epidemiologisch stark, kausal unklar
+      - Japanische Studien: Hohes Grünteekonsum korreliert mit weniger Herzerkrankungen und bestimmten Krebsarten
+      - Problem: Confounding (Grünteetrinker haben oft gesündere Lebensstile)
+      
+      ### Nicht belegt beim Menschen
+      - Direkte Lebensverlängerung
+      - Starke krebspräventive Wirkung in kontrollierten Studien
+      
+      ## Das Sicherheitsproblem bei Hochdosis-Supplements
+      
+      Hier ist Vorsicht angebracht: Die EFSA hat 2018 Grüntee-Catechine in hochkonzentrierten Supplements (≥800 mg/Tag) als **potenziell hepatotoxisch** eingestuft. Weltweit gibt es mehrere dokumentierte Fälle von schwerer Leberschädigung durch EGCG-Supplements.
+      
+      Das betrifft **konzentrierte Extrakte** in Kapseln – nicht das tägliche Trinken von normalem Grüntee, das als sicher gilt.
+      
+      > Wenn du Grüntee-Extrakt kaufst: Max. 400–500 mg EGCG/Tag, nie auf nüchternem Magen, und bei Lebererkrankungen meiden.
+      
+      ## Grüntee trinken vs. Supplement
+      
+      3–5 Tassen Grüntee täglich liefern ~200–400 mg EGCG ohne Toxizitätsrisiko und mit epidemiologisch vergleichsweise gut untersuchtem Benefit. Das ist für die meisten Menschen die bessere Option als hochdosierte Kapseln.
+      
+      ## Ist EGCG sicher?
+      
+      Bei bis zu 400 mg/Tag aus Supplements: **mit Vorsicht**. Auf leeren Magen kann es Übelkeit auslösen. Wechselwirkung mit Antikoagulantien möglich. Nicht mit Eisenpräparaten kombinieren (EGCG hemmt Eisenresorption).
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: ampk-aktivierung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: mtor-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: autophagie
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: crp
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: eisen
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: koffein
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nr
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-lebererkrankung
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-magen-darm-beschwerden
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-lebertoxizitaet
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-23448243
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23448243"
+  - relation: basiert_auf_studie
+    target: studie-19007524
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19007524"
+  - relation: basiert_auf_studie
+    target: studie-21715508
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21715508"
+  - relation: basiert_auf_studie
+    target: studie-29684494
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:29684494"

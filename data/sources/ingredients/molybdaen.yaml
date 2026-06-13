@@ -1,0 +1,109 @@
+---
+id: molybdaen
+type: ingredient
+
+meta:
+  title:
+    de: "Molybdän"
+    en: "Molybdän"
+  aliases:
+    - "Molybdenum"
+    - "Molybdän"
+    - "Ammoniummolybdat"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 0.05
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Molybdän ist in der EU ein Claim zum normalen schwefelhaltigen Aminosäurestoffwechsel zugelassen. Das ist biochemisch korrekt, aber praktisch für die meisten Menschen wenig relevant.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: ""
+    title: "Molybdenum"
+    authors: "Office of Dietary Supplements, NIH"
+    year: 2022
+    url: "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/"
+    finding:
+      de: >-
+        Übersicht zu Funktionen, Bedarf und Sicherheit. Mangel ist extrem selten.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "11911815"
+    title: "The biological chemistry of molybdenum"
+    authors: "Hille R"
+    year: 2002
+    url: "https://pubmed.ncbi.nlm.nih.gov/11911815/"
+    finding:
+      de: >-
+        Review: Molybdän ist für bestimmte Enzymsysteme essenziell, aber der praktische Supplement-Nutzen bei normaler Ernährung ist gering.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "8906638"
+    title: "Trace elements in human nutrition"
+    authors: "Nielsen FH"
+    year: 1996
+    url: "https://pubmed.ncbi.nlm.nih.gov/8906638/"
+    finding:
+      de: >-
+        Molybdän zählt zu den Spurenelementen mit klarer biologischer Funktion, aber geringer klinischer Relevanz als Supplement im Alltag.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Molybdän ist ein essenzielles Spurenelement für bestimmte Enzyme. Mangel ist selten, und für Extra-Supplemente gibt es meist keinen guten Grund.
+    evidenceSummary: >-
+      Molybdän ist essenziell für einige Enzyme, unter anderem im Schwefel- und Purinstoffwechsel. Klinische Mängel sind selten. Für zusätzliche Supplementierung bei gesunden Erwachsenen gibt es kaum Evidenz für relevanten Nutzen.
+    body: |
+      ## Was ist Molybdän?
+      
+      Molybdän ist ein Spurenelement, das als Cofaktor für einige Enzyme gebraucht wird, etwa im Abbau schwefelhaltiger Aminosäuren.
+      
+      ## Praxisrelevanz
+      
+      Biologisch wichtig? Ja.
+      Als Supplement für die meisten Menschen spannend? Eher nein.
+      
+      ## Fazit
+      
+      Molybdän ist ein **Basis-Spurenelement ohne großen Hype-Wert**. Für MikroScore eher der Typ „der Vollständigkeit halber relevant“.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-11911815
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:11911815"
+  - relation: basiert_auf_studie
+    target: studie-8906638
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:8906638"

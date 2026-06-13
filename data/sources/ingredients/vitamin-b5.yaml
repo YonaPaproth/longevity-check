@@ -1,0 +1,134 @@
+---
+id: vitamin-b5
+type: ingredient
+
+meta:
+  title:
+    de: "Vitamin B5 (Pantothensäure)"
+    en: "Vitamin B5 (Pantothensäure)"
+  aliases:
+    - "Pantothensäure"
+    - "Vitamin B5"
+    - "Pantothenat"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 10
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Pantothensäure sind in der EU Claims zu normalem Energiestoffwechsel, geistiger Leistung und Synthese von Steroidhormonen, Vitamin D und Neurotransmittern zugelassen. Diese Claims bedeuten nicht, dass hohe Dosierungen zusätzlichen Nutzen bringen.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "8595692"
+    title: "Pantothenic acid"
+    authors: "Plesofsky-Vig N"
+    year: 1996
+    url: "https://pubmed.ncbi.nlm.nih.gov/8595692/"
+    finding:
+      de: >-
+        Review zu Biochemie und Bedarf: Pantothensäure ist als Vorstufe von Coenzym A fundamental für den Stoffwechsel, echter Mangel aber selten.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: ""
+    title: "Pantothenic acid"
+    authors: "National Institutes of Health Office of Dietary Supplements"
+    year: 2022
+    url: "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/"
+    finding:
+      de: >-
+        Übersicht zu Bedarf, Lebensmitteln, Sicherheit und Mangel. Supplemente sind bei normaler Ernährung meist nicht nötig.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "17119255"
+    title: "Vitamin deficiencies in elderly people"
+    authors: "Lesourd B"
+    year: 2006
+    url: "https://pubmed.ncbi.nlm.nih.gov/17119255/"
+    finding:
+      de: >-
+        Review: Klassische Mängel einzelner Vitamine sind bei gemischter Ernährung selten; der Nutzen von B5-Supplementen bei Gesunden ist kaum untersucht.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Vitamin B5 ist essenziell für Coenzym A und Energiestoffwechsel. Mangel ist selten – Extra-Supplemente bringen bei guter Versorgung meist wenig.
+    evidenceSummary: >-
+      Pantothensäure ist ein essenzieller Nährstoff und Bestandteil von Coenzym A. Ihre physiologische Rolle ist vergleichsweise gut untersucht, klinische Relevanz als Supplement besteht aber vor allem bei Mangel oder sehr speziellen Situationen. Für allgemeine Gesundheits- oder gesundes Altern-Vorteile fehlen belastbare Daten.
+    body: |
+      ## Was ist Vitamin B5?
+      
+      Vitamin B5, also **Pantothensäure**, wird für die Bildung von **Coenzym A** gebraucht. Coenzym A ist wiederum zentral für den Stoffwechsel von Fettsäuren, Kohlenhydraten und Aminosäuren.
+      
+      Das Vitamin ist also zweifellos wichtig – aber gerade deshalb auch sehr breit in Lebensmitteln enthalten.
+      
+      ## Was ist vergleichsweise gut untersucht?
+      
+      - Essenzieller Beitrag zum Energiestoffwechsel
+      - Notwendig für Synthese und Abbau vieler Biomoleküle
+      - Relevanz bei echter Unterversorgung
+      
+      ## Was ist nicht vergleichsweise gut untersucht?
+      
+      - Mehr Energie durch hohe B5-Dosen bei normaler Versorgung
+      - Anti-Stress- oder gesundes-Alten-Effekte
+      - Relevante Zusatznutzen für die meisten gesunden Erwachsenen
+      
+      ## Sicherheitsprofil
+      
+      Pantothensäure gilt in üblichen Dosierungen als **sehr sicher**. Sehr hohe Dosen können Magen-Darm-Beschwerden verursachen.
+      
+      ## Fazit
+      
+      Vitamin B5 ist ein **klassischer Basisnährstoff**: biologisch wichtig, aber als Einzel-Supplement oft nicht besonders spannend – außer es gibt einen konkreten Grund dafür.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-8595692
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:8595692"
+  - relation: basiert_auf_studie
+    target: studie-17119255
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17119255"

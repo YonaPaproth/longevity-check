@@ -1,0 +1,151 @@
+---
+id: kupfer
+type: ingredient
+
+meta:
+  title:
+    de: "Kupfer"
+    en: "Kupfer"
+  aliases:
+    - "Copper"
+    - "Kupfergluconat"
+    - "Kupferbisglycinat"
+  category: other
+  evidenceLevel: "1"
+  safety_rating: caution
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 1
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Kupfer sind in der EU Claims zu Bindegewebe, Energiestoffwechsel, Pigmentierung, Nervensystem, Immunsystem und Schutz vor oxidativem Stress zugelassen. Hohe Langzeitdosen sind dennoch nicht unproblematisch.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: ""
+    title: "Copper"
+    authors: "Office of Dietary Supplements, NIH"
+    year: 2022
+    url: "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/"
+    finding:
+      de: >-
+        Übersicht zu Bedarf, Mangel, Sicherheit und Interaktionen. Kupfer ist essenziell, aber Supplemente sollten eher gezielt als pauschal eingesetzt werden.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "18488400"
+    title: "Copper deficiency, a new triad: anemia, leucopenia, and myeloneuropathy"
+    authors: "Halfdanarson TR et al."
+    year: 2008
+    url: "https://pubmed.ncbi.nlm.nih.gov/18488400/"
+    finding:
+      de: >-
+        Kupfermangel kann Anämie, Neutropenie und neurologische Störungen verursachen. Klinisch besonders relevant nach Malabsorption oder Zink-Überdosierung.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "15883553"
+    title: "Interactions between copper and zinc in human nutrition"
+    authors: "Fischer Walker C et al."
+    year: 2005
+    url: "https://pubmed.ncbi.nlm.nih.gov/15883553/"
+    finding:
+      de: >-
+        Zink und Kupfer beeinflussen sich gegenseitig. Chronisch hohe Zinkzufuhr kann Kupfermangel begünstigen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Kupfer ist essenziell für Enzyme, Eisenstoffwechsel und Bindegewebe. Sinnvoll bei Mangel – isoliert hochdosiert aber keine gute Idee.
+    evidenceSummary: >-
+      Kupfer ist ein essenzielles Spurenelement mit klar belegter Rolle in Eisenstoffwechsel, antioxidativen Enzymen, Nervenfunktion und Bindegewebe. Supplemente sind primär bei Mangel oder speziellen Konstellationen relevant. Zusätzlicher Nutzen bei normaler Versorgung ist kaum belegt.
+    body: |
+      ## Was ist Kupfer?
+      
+      Kupfer ist ein **essenzielles Spurenelement**. Es wird für viele Enzyme gebraucht, etwa im Energiestoffwechsel, bei der Bildung von Bindegewebe und im antioxidativen Schutzsystem.
+      
+      Außerdem ist Kupfer eng mit dem **Eisenstoffwechsel** verknüpft.
+      
+      ## Was ist vergleichsweise gut untersucht?
+      
+      - Essenziell für normale Enzymfunktion
+      - Relevant für Blutbildung und Eisenverwertung
+      - Wichtig für Bindegewebe, Nervensystem und antioxidative Enzyme
+      
+      ## Was ist nicht vergleichsweise gut untersucht?
+      
+      - Allgemeine Leistungs- oder gesundes-Alten-Effekte durch Extra-Supplemente
+      - Pauschaler Nutzen für gesunde Erwachsene mit normaler Versorgung
+      
+      ## Wann kann Kupfer relevant werden?
+      
+      - Nachgewiesener Mangel
+      - Chronisch hohe Zink-Supplementierung
+      - Malabsorption oder bestimmte Magen-Darm-Erkrankungen
+      
+      ## Sicherheitsprofil
+      
+      Zu viel Kupfer ist ebenfalls kein Vorteil:
+      - Übelkeit und Magen-Darm-Beschwerden
+      - bei chronischer Überversorgung potenziell problematisch
+      
+      Kupfer sollte deshalb nicht blind hochdosiert werden.
+      
+      ## Fazit
+      
+      Kupfer ist wichtig – aber eher ein **Balance-Thema** als ein Hype-Supplement. Besonders relevant wird es oft dann, wenn andere Dinge wie Zink aus dem Gleichgewicht geraten.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_nebenwirkung
+    target: nw-magen-darm-beschwerden
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-18488400
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:18488400"
+  - relation: basiert_auf_studie
+    target: studie-15883553
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:15883553"

@@ -24,24 +24,21 @@
       "target": "studie-17604172",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17604172",
-      "note": "Klassischer Review zur präbiotischen Wirkung von Inulin und verwandten Fructanen."
+      "source": "pmid:17604172"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24299756",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24299756",
-      "note": "Inulin kann Darmfunktion und mikrobielle Zusammensetzung beeinflussen."
+      "source": "pmid:24299756"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28298225",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28298225",
-      "note": "Humanstudien zeigen Nutzen für Stuhlgang und Darmkomfort bei bestimmten Gruppen."
+      "source": "pmid:28298225"
     }
   ]
 }

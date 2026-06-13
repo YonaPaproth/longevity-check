@@ -1,0 +1,113 @@
+---
+id: reishi
+type: ingredient
+
+meta:
+  title:
+    de: "Reishi"
+    en: "Reishi"
+  aliases:
+    - "Ganoderma lucidum"
+    - "Reishi"
+    - "Lingzhi"
+  category: adaptogens
+  evidenceLevel: "4"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1000
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Reishi gibt es in der EU keine zugelassenen Claims zu Immunboosting, Alterungsforschung oder Stressresistenz.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "17336393"
+    title: "Ganoderma lucidum for pharmacologically relevant effects"
+    authors: "Boh B et al."
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17336393/"
+    finding:
+      de: >-
+        Review: viele präklinische Daten, aber wenig robuste Human-Endpunkte.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "26058794"
+    title: "Ganoderma lucidum in cardiovascular risk factors"
+    authors: "Klupp NL et al."
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/26058794/"
+    finding:
+      de: >-
+        Cochrane-nahe Bewertung: klinische Evidenz bleibt schwach.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "21438650"
+    title: "Reishi mushroom and immune modulation"
+    authors: "Wachtel-Galor S et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21438650/"
+    finding:
+      de: >-
+        Biologisch plausibel, aber nicht gleichbedeutend mit starkem Supplement-Nutzen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Reishi ist einer der bekanntesten Medicinal Mushrooms. Die Immun- und gesundes Altern-Story ist groß, die Human-Evidenz deutlich kleiner.
+    evidenceSummary: >-
+      Reishi ist präklinisch und traditionell stark aufgeladen, vor allem im Bereich Immunfunktion und Stress. Für robuste klinische Vorteile bei gesunden Menschen ist die Evidenz bislang aber schwach.
+    body: |
+      ## Was ist Reishi?
+      
+      Reishi ist der vielleicht ikonischste „Heilpilz“ und wird gern mit **Immunsystem, Langlebigkeit und Stressresistenz** verbunden.
+      
+      ## Fazit
+      
+      Reishi ist **kulturell groß, klinisch noch eher klein**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-17336393
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17336393"
+  - relation: basiert_auf_studie
+    target: studie-26058794
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26058794"
+  - relation: basiert_auf_studie
+    target: studie-21438650
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21438650"

@@ -18,24 +18,21 @@
       "target": "studie-26395129",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26395129",
-      "note": "Kleine Humanstudien mit Signalen, aber keine breite robuste Evidenz."
+      "source": "pmid:26395129"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23717060",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23717060",
-      "note": "Review: biochemisch interessant, aber die Datenlage bleibt vorläufig."
+      "source": "pmid:23717060"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-12204876",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12204876",
-      "note": "Qualitäts- und Reinheitsfragen sind bei mineralischen Naturprodukten besonders wichtig."
+      "source": "pmid:12204876"
     }
   ]
 }

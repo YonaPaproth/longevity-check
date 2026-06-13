@@ -24,16 +24,14 @@
       "target": "studie-11911815",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:11911815",
-      "note": "Review: Molybdän ist für bestimmte Enzymsysteme essenziell, aber der praktische Supplement-Nutzen bei normaler Ernährung ist gering."
+      "source": "pmid:11911815"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-8906638",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:8906638",
-      "note": "Molybdän zählt zu den Spurenelementen mit klarer biologischer Funktion, aber geringer klinischer Relevanz als Supplement im Alltag."
+      "source": "pmid:8906638"
     }
   ]
 }

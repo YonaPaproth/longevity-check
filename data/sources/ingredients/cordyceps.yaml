@@ -1,0 +1,105 @@
+---
+id: cordyceps
+type: ingredient
+
+meta:
+  title:
+    de: "Cordyceps"
+    en: "Cordyceps"
+  aliases:
+    - "Cordyceps"
+    - "Cordyceps sinensis"
+    - "Cordyceps militaris"
+  category: adaptogens
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1000
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Cordyceps gibt es in der EU keine zugelassenen Claims zu Ausdauer, Energie oder Leistung.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "28025511"
+    title: "Cordyceps supplementation and exercise performance"
+    authors: "Hirsch KR et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28025511/"
+    finding:
+      de: >-
+        Einige Hinweise auf Leistungs- oder Fatigue-Effekte, aber keine starke, konsistente Evidenz.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "20412130"
+    title: "Cordyceps and fatigue"
+    authors: "Chen S et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20412130/"
+    finding:
+      de: >-
+        Kleine Studien deuten auf subjektive Vorteile hin.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "18396376"
+    title: "Pharmacology of Cordyceps"
+    authors: "Paterson RRM"
+    year: 2008
+    url: "https://pubmed.ncbi.nlm.nih.gov/18396376/"
+    finding:
+      de: >-
+        Breite präklinische Aktivität, Human-Daten deutlich begrenzter.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Cordyceps wird für Energie, Ausdauer und Vitalität verkauft. Es gibt interessante Signale, aber keine starke Grundlage für große Performance-Versprechen.
+    evidenceSummary: >-
+      Cordyceps ist für Energie, Leistungsfähigkeit und Fatigue untersucht. Es gibt einige positive Humanstudien, aber die Daten sind heterogen und meist nicht stark genug für verlässliche große Effekte.
+    body: |
+      ## Was ist Cordyceps?
+      
+      Cordyceps ist ein Pilz, der in der Supplement-Welt vor allem mit **Energie, Ausdauer und Vitalität** verbunden wird.
+      
+      ## Fazit
+      
+      Cordyceps ist **interessant, aber nicht die gesicherte Geheimwaffe für Performance**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28025511
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28025511"
+  - relation: basiert_auf_studie
+    target: studie-20412130
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20412130"
+  - relation: basiert_auf_studie
+    target: studie-18396376
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:18396376"

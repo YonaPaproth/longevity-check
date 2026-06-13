@@ -1,0 +1,116 @@
+---
+id: acetyl-l-carnitin
+type: ingredient
+
+meta:
+  title:
+    de: "Acetyl-L-Carnitin"
+    en: "Acetyl-L-Carnitin"
+  aliases:
+    - "ALCAR"
+    - "Acetyl-L-Carnitine"
+    - "Acetylcarnitin"
+  category: metabolic
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1000
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für ALCAR gibt es in der EU keine zugelassenen Claims zu Gehirnleistung, Alterungsforschung oder Energie.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "12849737"
+    title: "Acetyl-L-carnitine in the treatment of cognitive decline"
+    authors: "Montgomery SA et al."
+    year: 2003
+    url: "https://pubmed.ncbi.nlm.nih.gov/12849737/"
+    finding:
+      de: >-
+        Meta-analytische Hinweise auf Nutzen in älteren und kognitiv beeinträchtigten Populationen, aber keine saubere Übertragbarkeit auf gesunde Nutzer.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "25932463"
+    title: "Acetyl-L-carnitine and neuropathic pain"
+    authors: "Li S et al."
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/25932463/"
+    finding:
+      de: >-
+        Möglicher Nutzen in bestimmten neurologischen Kontexten.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "16517407"
+    title: "Acetyl-L-carnitine in aging and neuroprotection"
+    authors: "Calabrese V et al."
+    year: 2006
+    url: "https://pubmed.ncbi.nlm.nih.gov/16517407/"
+    finding:
+      de: >-
+        Mechanistisch interessant, aber Human-Endpunkte bleiben begrenzt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      ALCAR ist die gehirngängigere Carnitin-Form und deshalb in Brain- und gesundes Altern-Stacks beliebt. Die Evidenz ist interessant, aber nicht spektakulär.
+    evidenceSummary: >-
+      Acetyl-L-Carnitin ist biologisch plausibel für Energiestoffwechsel und Nervensystem. Es gibt moderate Hinweise auf Nutzen in bestimmten neurologischen oder altersbezogenen Kontexten, aber keine robuste Basis für breite Alterungsforschung-Claims bei Gesunden.
+    body: |
+      ## Was ist ALCAR?
+      
+      ALCAR ist die acetylierte Form von Carnitin und gilt als **gehirnnäher** als normales L-Carnitin.
+      
+      ## Warum ist es beliebt?
+      
+      Weil es:
+      - metabolisch sinnvoll klingt
+      - fürs Gehirn plausibel ist
+      - in Aging- und Nootropic-Bubbles gut in die Story passt
+      
+      ## Fazit
+      
+      ALCAR ist ein **interessanter Mid-Tier-Kandidat**: besser als reiner Hype, aber weit weg von einem klar belegten Must-have.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-12849737
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12849737"
+  - relation: basiert_auf_studie
+    target: studie-25932463
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25932463"
+  - relation: basiert_auf_studie
+    target: studie-16517407
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:16517407"

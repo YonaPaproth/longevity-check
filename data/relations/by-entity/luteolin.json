@@ -24,24 +24,21 @@
       "target": "studie-25670000",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25670000",
-      "note": "Review: Luteolin ist mechanistisch spannend, vor allem neuroinflammatorisch."
+      "source": "pmid:25670000"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-18499654",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:18499654",
-      "note": "Präklinisch starke Daten, klinisch deutlich weniger."
+      "source": "pmid:18499654"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20005244",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20005244",
-      "note": "Flavonoide wie Luteolin sind konzeptionell interessant, aber noch kein belastbares Alterungsforschung-Tool."
+      "source": "pmid:20005244"
     }
   ]
 }

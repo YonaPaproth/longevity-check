@@ -5,8 +5,7 @@
       "relation": "hat_interaktion_mit",
       "target": "5-htp",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Es wird aus L-Tryptophan (aus der Nahrung) synthetisiert und ist der letzte Schritt vor der Serotoninbildung."
+      "confidence": 0.7
     },
     {
       "relation": "wirkt_ueber",
@@ -25,24 +24,21 @@
       "target": "studie-6818213",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:6818213",
-      "note": "Frühe Humanstudien zeigen potenzielle Vorteile für Einschlafzeit und Schlafqualität."
+      "source": "pmid:6818213"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19734380",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19734380",
-      "note": "Review: Tryptophan ist neurobiologisch relevant, aber Effekte hängen stark vom Kontext ab."
+      "source": "pmid:19734380"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23689751",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23689751",
-      "note": "Tryptophan beeinflusst serotonerge Systeme plausibel, aber Supplementeffekte sind nicht automatisch groß."
+      "source": "pmid:23689751"
     }
   ]
 }

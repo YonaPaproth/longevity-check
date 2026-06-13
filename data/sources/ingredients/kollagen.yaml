@@ -1,0 +1,163 @@
+---
+id: kollagen
+type: ingredient
+
+meta:
+  title:
+    de: "Kollagen"
+    en: "Kollagen"
+  aliases:
+    - "Collagen"
+    - "Kollagenpeptide"
+    - "Hydrolysiertes Kollagen"
+    - "Kollagen Typ I"
+    - "Kollagen Typ II"
+    - "Marine Collagen"
+  category: other
+  evidenceLevel: "2"
+  safety_rating: safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 10000
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat keine Health Claims für Kollagen zugelassen. Anträge für Aussagen zur Hautpflege und Gelenkgesundheit wurden abgelehnt, da die Evidenz als unzureichend eingestuft wurde. Kollagen ist als Lebensmittelzutat und Nahrungsergänzungsmittel zugelassen.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "24401291"
+    title: "Oral Supplementation of Specific Collagen Peptides Has Beneficial Effects on Human Skin Physiology"
+    authors: "Proksch E et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24401291/"
+    finding:
+      de: >-
+        RCT (n=69): 2,5–5 g hydrolysiertes Kollagen/Tag über 8 Wochen war mit Veränderungen verbundene Hautelastizität und Feuchtigkeit signifikant gegenüber Placebo.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "27852613"
+    title: "Collagen Peptides Improve Knee Osteoarthritis in Athletes"
+    authors: "Shaw G et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/27852613/"
+    finding:
+      de: >-
+        24-wöchige RCT bei Sportlern mit Knieschmerzen: Kollagenhydrolysat (10 g/Tag) reduzierte Schmerzen signifikant.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "32436266"
+    title: "Effect of Collagen Supplementation on Skin Aging: A Systematic Review"
+    authors: "Barati M et al."
+    year: 2020
+    url: "https://pubmed.ncbi.nlm.nih.gov/32436236/"
+    finding:
+      de: >-
+        Systematischer Review von 11 RCTs: Konsistente positive Effekte auf Hautelastizität und Feuchtigkeit. Studienqualität insgesamt moderat.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Kollagen ist eines der bekanntesten Supplements. Für Haut und Gelenkmarker gibt es Humanstudien; weitergehende Verjüngungsversprechen sind nicht belegt.
+    evidenceSummary: >-
+      Mehrere kleine bis mittelgroße RCTs zeigen Verbesserungen bei Hautelastizität und Gelenkschmerzen. Die Effekte sind real, aber moderat. Ob aufgenommene Kollagenpeptide tatsächlich im Zielgewebe ankommen, ist biochemisch noch diskutiert. Lebensverlängernde Effekte: nicht untersucht.
+    body: |
+      ## Warum Kollagen so populär ist
+      
+      Kollagen ist das häufigste Strukturprotein im menschlichen Körper — Haut, Knochen, Sehnen und Knorpel bestehen hauptsächlich daraus. Die körpereigene Produktion sinkt ab dem 25. Lebensjahr um ca. 1% pro Jahr. Dieser gut dokumentierte Rückgang macht Kollagen zum intuitiv plausiblen Supplement.
+      
+      ## Die Grundfrage: Kommt es an?
+      
+      Ob oral eingenommene Kollagenpeptide tatsächlich in Haut oder Gelenken ankommen, ist biochemisch nicht trivial. Verdauungsenzyme zerteilen Proteine normalerweise in Aminosäuren — nicht in spezifische Peptide. Die aktuelle Forschung deutet darauf hin, dass spezifische di- und tripeptide aus hydrolysiertem Kollagen tatsächlich im Blutkreislauf nachweisbar sind und gezielt Fibroblasten (kollagenproduzierende Zellen) aktivieren können.
+      
+      ## Was ist belegt?
+      
+      ### Haut
+      Die stärkste Evidenz liegt für Hautelastizität vor. Mehrere RCTs zeigen moderate, aber konsistente Verbesserungen mit 2,5–10 g hydrolysiertem Kollagen täglich.
+      
+      ### Gelenke
+      Bei Gelenkschmerzen (besonders Knie) zeigen Studien moderate Schmerzreduktion. Die Evidenz ist weniger stark als für Haut, aber vorhanden.
+      
+      ### Was nicht belegt ist
+      - Lebensverlängerung
+      - Muskelaufbau (dafür ist Kollagen als Protein minderwertig — kein vollständiges Aminosäureprofil)
+      - Knochenbruchprävention in der Gesamtbevölkerung
+      
+      ## Kollagentypen und -quellen
+      
+      | Typ | Hauptvorkommen | Quellen |
+      |---|---|---|
+      | Typ I | Haut, Sehnen, Knochen | Rind, Fisch, Schwein |
+      | Typ II | Knorpel | Hühnchen, Rind |
+      | Typ III | Haut, Blutgefäße | Rind, Fisch |
+      
+      **Marine Kollagen** (aus Fischhaut) hat bessere Bioverfügbarkeit als Rinderkollagen und ist für Menschen geeignet, die kein Schweine- oder Rindfleisch essen.
+      
+      ## Wichtiger Kaufhinweis
+      
+      Qualitätsunterschiede sind enorm. Auf folgende Punkte achten:
+      - **Hydrolysiert/Peptide**: nur diese Form wird aufgenommen
+      - **Molekulargewicht**: 2.000–5.000 Da gilt als optimal
+      - **Zertifizierung**: Rückverfolgbarkeit der Quelle (Rind: BSE-frei, Fisch: nachhaltige Quelle)
+      - **Kein Zucker**: viele Collagen-Drinks sind hochgezuckert
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: hat_interaktion_mit
+    target: glycin
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: gelenke
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: haut
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-24401291
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24401291"
+  - relation: basiert_auf_studie
+    target: studie-27852613
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27852613"
+  - relation: basiert_auf_studie
+    target: studie-32436266
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:32436266"

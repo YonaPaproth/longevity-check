@@ -5,50 +5,43 @@
       "relation": "hat_interaktion_mit",
       "target": "5-htp",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": ")\n- SNRIs (Venlafaxin, Duloxetin)\n- MAO-Hemmern (Tranylcypromin, Moclobemid)\n- Tramadol, Triptanen (Migränemittel)\n- Lithium, Linezolid\n\nDas Serotonin-Syndrom ist ein potenziell lebensbedrohlicher Zus"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "akkermansia",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "## Was sagen die Studien wirklich?\n\n### Das Positive\n- Erster RCT am Menschen (2019) zeigte signifikante Verbesserungen bei Insulinsensitivität, Cholesterin und Entzündungsmarkern\n- Pasteurisiertes Ak"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "apigenin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Das ist ein komplementärer Ansatz zu **NMN oder NR** (die NAD+ von der Synthese-Seite erhöhen)."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "ashwagandha",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "## Wirkmechanismus\n\nDie primären Mechanismen:\n- **HPA-Achsen-Modulation:** Ashwagandha scheint die Hypothalamus-Hypophysen-Nebennierenrinden-Achse zu modulieren, was zu niedrigeren Cortisol-Spiegeln f"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "calcium",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Knochenresorption (Osteoklasten lösen Calcium aus Knochen)\n2."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "curcumin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "**Relevante Wirkmechanismen:**\n- Hemmung von **NF-κB**, dem zentralen Transkriptionsfaktor für proinflammatorische Zytokine\n- Aktivierung von **Nrf2**, einem Masterregulator antioxidativer Genexpressi"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "egcg",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Nicht mit Eisenpräparaten kombinieren (EGCG hemmt Eisenresorption)."
+      "confidence": 0.7
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -109,60 +102,52 @@
       "target": "studie-27534536",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27534536",
-      "note": "Erste Humanpharmakokinetik-Studie: NR wird oral aufgenommen und war mit höheren Werten verbunden in Studien den NAD+-Metabolismus im Blut."
+      "source": "pmid:27534536"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-29514974",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29514974",
-      "note": "6-wöchige NR-Einnahme (500 mg/Tag) war mit höheren Werten verbundene NAD+ im Blut um ~60%, war mit Veränderungen verbundene aber Blutdruck und arterielle Steifigkeit nicht signifikant."
+      "source": "pmid:29514974"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-30006327",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30006327",
-      "note": "12-wöchige RCT bei übergewichtigen Männern: NR war mit höheren Werten verbundene NAD+, war mit Veränderungen verbundene aber Insulinsensitivität, Lipidprofil oder Mitochondrienfunktion nicht signifika"
+      "source": "pmid:30006327"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-42135539",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:42135539",
-      "note": "NAD+-Spiegel im Vollblut variieren weder mit dem Alter noch mit Lebensstilinterventionen – stellt die Grundannahme vieler NAD+-Supplement-Versprechen infrage."
+      "source": "pmid:42135539"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "pterostilben",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "## Wirkmechanismen (ähnlich wie Resveratrol)\n\n- **SIRT1-Aktivierung**: Deacetylase, die Stressresistenz, Mitochondrienbiogenese und DNA-Reparatur fördert\n- **AMPK**: Energiesensor, hemmt mTOR und förd"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "spermidine",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "**mTORC1-Hemmung**: Spermidin hemmt indirekt mTOR (mammalian Target of Rapamycin) — ähnlich wie Kalorienrestriktion und Metformin\n2."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "sulforaphan",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Der Mechanismus macht Sulforaphan besonders interessant: Es aktiviert **Nrf2** (Nuclear factor erythroid 2-related factor 2) – einen Transkriptionsfaktor, der hunderte Gene für zelluläre Schutz- und E"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "vitamin-c",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Es ist an einer Vielzahl physiologischer Prozesse beteiligt:\n- **Kollagensynthese**: Cofaktor für Hydroxylasen, die Kollagen quervernetzen – essenziell für Haut, Knochen, Gefäße und Wundheilung\n- **Im"
+      "confidence": 0.7
     }
   ]
 }

@@ -1,0 +1,111 @@
+---
+id: cistanche
+type: ingredient
+
+meta:
+  title:
+    de: "Cistanche"
+    en: "Cistanche"
+  aliases:
+    - "Cistanche deserticola"
+    - "Cistanche tubulosa"
+    - "Rou Cong Rong"
+  category: adaptogens
+  evidenceLevel: "4"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Cistanche gibt es in der EU keine zugelassenen Health Claims zu Energie, Libido oder Langlebigkeit.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "26830552"
+    title: "Cistanche and Alterungsforschung pharmacology"
+    authors: "Jiang Y et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26830552/"
+    finding:
+      de: >-
+        Review: präklinisch interessante Wirkungen, aber kaum belastbare Human-Endpunkte.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "34145276"
+    title: "Phytochemistry and pharmacology of Cistanche"
+    authors: "Li Z et al."
+    year: 2021
+    url: "https://pubmed.ncbi.nlm.nih.gov/34145276/"
+    finding:
+      de: >-
+        Zusammenfassung der Wirkstoffe und präklinischen Daten.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28167794"
+    title: "Traditional uses and modern evidence of Cistanche"
+    authors: "Wang T et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28167794/"
+    finding:
+      de: >-
+        Traditionsreiche Nutzung, moderne klinische Evidenz aber noch begrenzt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Cistanche ist ein TCM-Stoff mit wachsender gesundes Altern-Popularität. Die Human-Evidenz ist bislang aber sehr begrenzt.
+    evidenceSummary: >-
+      Cistanche ist präklinisch interessant, etwa für Fatigue, neurobiologische Forschung und altersbezogene Mechanismen. Die Human-Evidenz bleibt jedoch dünn. Viele moderne gesundes Altern-Claims basieren eher auf Tierdaten und traditioneller Nutzung als auf robusten klinischen Belegen.
+    body: |
+      ## Was ist Cistanche?
+      
+      Cistanche ist eine traditionelle Heilpflanze, die inzwischen auch in westlichen gesundes-Alten-Kreisen auftaucht.
+      
+      ## Was ist der aktuelle Stand?
+      
+      - interessante präklinische Daten
+      - starke Story
+      - noch wenig harte Human-Evidenz
+      
+      ## Fazit
+      
+      Cistanche ist **früh spannend, aber noch nicht klinisch überzeugend**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-26830552
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26830552"
+  - relation: basiert_auf_studie
+    target: studie-34145276
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:34145276"
+  - relation: basiert_auf_studie
+    target: studie-28167794
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28167794"

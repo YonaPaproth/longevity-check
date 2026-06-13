@@ -1,0 +1,111 @@
+---
+id: piperin
+type: ingredient
+
+meta:
+  title:
+    de: "Piperin"
+    en: "Piperin"
+  aliases:
+    - "Piperine"
+    - "Schwarzer Pfeffer Extrakt"
+    - "Bioperine"
+  category: other
+  evidenceLevel: "2"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 10
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Piperin gibt es in der EU keine zugelassenen Claims zu Bioverfügbarkeit, Stoffwechsel oder Gewichtsmanagement als frei vermarktete Supplement-Botschaft.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "9619120"
+    title: "Influence of piperine on the pharmacokinetics of curcumin"
+    authors: "Shoba G et al."
+    year: 1998
+    url: "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+    finding:
+      de: >-
+        Klassische Studie: Piperin kann die Bioverfügbarkeit von Curcumin stark mit höheren Werten in Verbindung bringen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "3984604"
+    title: "Piperine and drug metabolism"
+    authors: "Atal CK et al."
+    year: 1985
+    url: "https://pubmed.ncbi.nlm.nih.gov/3984604/"
+    finding:
+      de: >-
+        Piperin beeinflusst Enzymsysteme und Transporter – nützlich, aber potenziell interaktionsrelevant.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "17619763"
+    title: "Piperine, a major alkaloid of black pepper: a review"
+    authors: "Srinivasan K"
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17619763/"
+    finding:
+      de: >-
+        Piperin ist funktional interessant, aber nicht einfach nur ein harmloser Verstärker.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Piperin ist vor allem ein Bioverfügbarkeits-Booster. Praktisch nützlich, aber nicht harmlos, weil genau diese Wirkung auch Interaktionen verstärken kann.
+    evidenceSummary: >-
+      Piperin ist gut bekannt dafür, die Aufnahme bestimmter Stoffe zu mit höheren Werten in Verbindung bringen, etwa Curcumin. Genau daraus ergeben sich aber auch Interaktionsfragen mit Medikamenten und anderen Wirkstoffen. Als eigenständiger gesundes Altern-Wirkstoff ist Piperin wenig überzeugend.
+    body: |
+      ## Was ist Piperin?
+      
+      Piperin ist der scharfe Hauptstoff aus schwarzem Pfeffer und in Supplements vor allem als **Absorptions-Booster** bekannt.
+      
+      ## Der wichtige Punkt
+      
+      Genau das, was nützlich ist, kann auch problematisch sein:
+      - bessere Aufnahme erwünschter Stoffe
+      - aber potenziell auch mehr Interaktionen
+      
+      ## Fazit
+      
+      Piperin ist **praktisch, aber nicht banal**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: hat_interaktion_mit
+    target: curcumin
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-9619120
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:9619120"
+  - relation: basiert_auf_studie
+    target: studie-3984604
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:3984604"
+  - relation: basiert_auf_studie
+    target: studie-17619763
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17619763"

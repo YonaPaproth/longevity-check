@@ -30,24 +30,21 @@
       "target": "studie-26901749",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26901749",
-      "note": "Review: präklinisch interessant, klinische Evidenz bleibt begrenzt."
+      "source": "pmid:26901749"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22899991",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22899991",
-      "note": "Telomer- und gesundes Altern-Marketing geht den Daten deutlich voraus."
+      "source": "pmid:22899991"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24344415",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24344415",
-      "note": "Telomerase-Narrative sind spannend, aber klinisch weit von gesicherter Relevanz entfernt."
+      "source": "pmid:24344415"
     }
   ]
 }

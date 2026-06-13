@@ -1,0 +1,198 @@
+---
+id: selen
+type: ingredient
+
+meta:
+  title:
+    de: "Selen"
+    en: "Selen"
+  aliases:
+    - "Selenium"
+    - "Selenomethionin"
+    - "Natriumselenit"
+    - "Se"
+  category: antioxidants
+  evidenceLevel: "1"
+  safety_rating: caution
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 0
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat Health Claims für Selen zugelassen: Schutz der Zellen vor oxidativem Stress, normaler Schilddrüsenfunktion, normales Immunsystem, Spermienbildung, Haare und Nägel. Tagesbedarf: 55 µg. Obere tolerierbare Zufuhr: 300 µg/Tag.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "22381456"
+    title: "Selenium and human health"
+    authors: "Rayman MP"
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22381456/"
+    finding:
+      de: >-
+        Flagship-Review in The Lancet: Selen ist essenziell für 25 Selenoproteine. Optimaler Blutspiegel für Gesundheit: 125–150 µg/L Plasma-Selen. Enge therapeutische Breite.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28326808"
+    title: "Selenium and thyroid disease: from pathophysiology to treatment"
+    authors: "Ventura M et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28326808/"
+    finding:
+      de: >-
+        Review: Selen ist Cofaktor der Jodthyronin-Deiodinasen (T4→T3-Umwandlung). Supplementierung bei Hashimoto reduziert Anti-TPO-Antikörper signifikant in RCTs.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "25793781"
+    title: "Selenium status in Europe: a systematic review"
+    authors: "Stoffaneller R & Morse NL"
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/25793781/"
+    finding:
+      de: >-
+        Systematischer Review: Deutschland, Österreich, Osteuropa haben die niedrigsten Selenspiegel in Europa. Median: 84 µg/L (DE) vs. 125 µg/L (UK) – deutlich unter optimalem Bereich.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "23746916"
+    title: "KiSel-10 study: cardiovascular events with selenium and CoQ10 supplementation"
+    authors: "Alehagen U et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23746916/"
+    finding:
+      de: >-
+        RCT (n=443, Ältere): Selen+CoQ10 über 4 Jahre reduzierten kardiovaskuläre Mortalität um 54 % vs. Placebo. Methodisch umstritten, aber viel zitiert.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Selen ist essenziell für Glutathionperoxidasen und Schilddrüsenhormone. In Deutschland und Österreich ist die Selenversorgung durch selenarme Böden strukturell niedrig.
+    evidenceSummary: >-
+      Vergleichsweise gute Datenlage für essentielle Funktionen: Antioxidantien-Enzyme, Schilddrüse, normale Immunfunktion. EFSA Claims zugelassen. Deutschen Böden sind selenarm – Unterversorgung häufig. Dosierungsfenster eng: Mangel und Überdosierung haben beide ernste Folgen.
+    body: |
+      ## Was ist Selen?
+      
+      Selen ist ein **essenzielles Spurenelement**, das struktureller Bestandteil von **25 Selenoproteinen** ist – darunter die **Glutathionperoxidasen** (GPx1–4), die wichtigste Familie antioxidativer Enzyme im Körper, und die **Jodthyronin-Deiodinasen**, die für die Aktivierung von Schilddrüsenhormonen (T4 → T3) verantwortlich sind.
+      
+      ## Das Deutschland-Problem
+      
+      Anders als in vielen anderen Ländern sind die Böden in Deutschland, Österreich und der Schweiz **natürlicherweise selenarm** – eine Folge der Eiszeit und des sauren Regens. Das bedeutet: Wer sich rein mit lokalen pflanzlichen Lebensmitteln ernährt, nimmt strukturell weniger Selen auf.
+      
+      Aktuelle Daten zeigen, dass der Median-Selenspiegel in Deutschland bei **84 µg/L** liegt – deutlich unter dem optimalen Bereich von 125–150 µg/L. Besonders betroffen: Veganer, Ältere, Schwangere.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Klar belegt (EFSA-zugelassen)
+      - Schutz der Zellen vor oxidativem Stress (via GPx-Enzyme)
+      - Normale Schilddrüsenfunktion (Deiodinase-Cofaktor)
+      - Normale Immunfunktion
+      - Spermienbildung und -motilität
+      
+      ### Vergleichsweise gut untersucht
+      - **Hashimoto-Thyreoiditis**: Mehrere RCTs zeigen Reduktion von Anti-TPO-Antikörpern bei 200 µg/Tag Selenomethionin
+      - **KiSel-10-Studie**: Selen+CoQ10 bei Älteren war mit niedrigeren Werten verbundene kardiovaskuläre Mortalität (umstrittene, aber replizierte Studie)
+      
+      ### Nicht belegt
+      - Krebsprävention: SELECT-Studie zeigte keinen Nutzen bei gut versorgten US-Amerikanern (möglicherweise bereits optimal versorgt)
+      - Lebensverlängerung beim Menschen
+      
+      ## Das enge Dosierungsfenster
+      
+      Selen ist ein gutes Beispiel für eine enge Dosis-Spanne: Zu wenig ist ungünstig, zu viel kann toxisch sein (z. B. Selenose: Haarausfall, Nagelveränderungen, neurologische Störungen).
+      
+      | Status | Blutspiegel | Wirkung |
+      |---|---|---|
+      | Mangel | &lt;60 µg/L | Immunschwäche, Schilddrüsendysfunktion |
+      | Optimal | 125–150 µg/L | Maximale GPx-Aktivität |
+      | Grenzwertig hoch | &gt;200 µg/L | Kein Zusatznutzen |
+      | Toxisch | &gt;400 µg/L | Selenose-Symptome |
+      
+      ## Welche Form?
+      
+      - **Selenomethionin**: Beste Bioverfügbarkeit, natürliche Form, in Studien am besten belegt
+      - **Natriumselenit**: Günstiger, aber geringere Bioverfügbarkeit; geeignet für Infusionen
+      - **Selen aus Hefe** (selenisierte Hefe): Enthält hauptsächlich Selenomethionin + andere Selenoproteine
+      
+      ## Praktische Empfehlung
+      
+      Lass deinen Selenspiegel einmal messen (Selen im Vollblut oder Serum). Bei Werten unter 100 µg/L: 50–100 µg/Tag Selenomethionin ist sinnvoll. Bei normalen Werten: Supplementierung ist unnötig und potenziell schädlich.
+      
+      2–3 **Paranüsse täglich** liefern ca. 100–200 µg Selen – eine natürliche und günstige Alternative zum Supplement.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: hat_interaktion_mit
+    target: coq10
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: schilddruese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: fertilitat
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: kontraindiziert_bei
+    target: kontra-schilddruesenerkrankung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-22381456
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22381456"
+  - relation: basiert_auf_studie
+    target: studie-28326808
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28326808"
+  - relation: basiert_auf_studie
+    target: studie-25793781
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25793781"
+  - relation: basiert_auf_studie
+    target: studie-23746916
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23746916"

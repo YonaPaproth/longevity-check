@@ -24,24 +24,21 @@
       "target": "studie-10837282",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:10837282",
-      "note": "Meta-analytische Daten zeigen moderate LDL-Senkung durch Psyllium."
+      "source": "pmid:10837282"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-25743043",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25743043",
-      "note": "Psyllium ist für Stuhlregulation gut untersucht und klinisch praktisch relevant."
+      "source": "pmid:25743043"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23990470",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23990470",
-      "note": "Lösliche Ballaststoffe wie Psyllium können Glukoseparameter moderat mit Veränderungen in Verbindung bringen."
+      "source": "pmid:23990470"
     }
   ]
 }

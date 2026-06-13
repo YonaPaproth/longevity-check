@@ -1,0 +1,117 @@
+---
+id: rutin
+type: ingredient
+
+meta:
+  title:
+    de: "Rutin"
+    en: "Rutin"
+  aliases:
+    - "Rutin"
+    - "Rutosid"
+    - "Quercetin-3-rutinoside"
+  category: antioxidants
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 250
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Rutin gibt es in der EU keine zugelassenen Claims zu Gefäßschutz, Antioxidantienwirkung oder Venenstärkung im Nahrungsergänzungskontext.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "28694736"
+    title: "Pharmacological effects of rutin"
+    authors: "Ganeshpurkar A et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28694736/"
+    finding:
+      de: >-
+        Review: Rutin ist präklinisch breit interessant, aber klinische Evidenz bleibt überschaubar.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "11448538"
+    title: "Rutin and vascular health"
+    authors: "Guardia T et al."
+    year: 2001
+    url: "https://pubmed.ncbi.nlm.nih.gov/11448538/"
+    finding:
+      de: >-
+        Hinweise auf gefäßbezogene Effekte, jedoch keine starke moderne Humanbasis.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "11285671"
+    title: "Flavonoids including rutin in chronic disease prevention"
+    authors: "Nijveldt RJ et al."
+    year: 2001
+    url: "https://pubmed.ncbi.nlm.nih.gov/11285671/"
+    finding:
+      de: >-
+        Flavonoide sind interessant, aber konkrete Supplementempfehlungen bleiben schwierig.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Rutin ist ein Flavonoid mit Gefäß- und Antioxidans-Story. Biologisch plausibel, klinisch aber eher ein Nischenthema.
+    evidenceSummary: >-
+      Rutin ist ein pflanzliches Flavonoid mit antioxidativen und gefäßbezogenen Eigenschaften. Es gibt einige Daten in spezifischen Gefäß- oder Entzündungskontexten, aber keine starke Basis für breite Health- oder gesundes Altern-Claims.
+    body: |
+      ## Was ist Rutin?
+      
+      Rutin ist ein Flavonoid, das oft mit **Gefäßgesundheit, Antioxidans-Effekten und Entzündungshemmung** verbunden wird.
+      
+      ## Fazit
+      
+      Rutin ist eher ein **sinnvoller Nebendarsteller** als ein Top-Wirkstoff mit starker Human-Evidenz.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: glutathion-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28694736
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28694736"
+  - relation: basiert_auf_studie
+    target: studie-11448538
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:11448538"
+  - relation: basiert_auf_studie
+    target: studie-11285671
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:11285671"

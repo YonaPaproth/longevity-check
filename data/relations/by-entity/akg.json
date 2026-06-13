@@ -42,24 +42,21 @@
       "target": "studie-32242179",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32242179",
-      "note": "Tierstudie: AKG war mit Veränderungen verbundene einige Altersmarker bei Mäusen. Spannend, aber kein Humanbeweis."
+      "source": "pmid:32242179"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24828042",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24828042",
-      "note": "Mausdaten machen AKG populär in der gesundes Altern-Szene, reichen aber nicht für belastbare Human-Claims."
+      "source": "pmid:24828042"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28332804",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28332804",
-      "note": "Review: AKG ist metabolisch wichtig, doch daraus folgt nicht automatisch ein Nutzen als Supplement."
+      "source": "pmid:28332804"
     }
   ]
 }

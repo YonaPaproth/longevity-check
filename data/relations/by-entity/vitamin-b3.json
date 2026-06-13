@@ -60,24 +60,21 @@
       "target": "studie-23676243",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23676243",
-      "note": "Review: Niacin war mit Veränderungen verbunden Lipidmarker, klinischer Zusatznutzen in der modernen Statin-Ära ist aber begrenzt und Nebenwirkungen sind häufig."
+      "source": "pmid:23676243"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-25014686",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25014686",
-      "note": "Große Studie: Trotz günstiger Effekte auf HDL/Triglyceride kein überzeugender klinischer Vorteil, dafür mehr Nebenwirkungen."
+      "source": "pmid:25014686"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-18454811",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:18454811",
-      "note": "Review zu Biochemie und Stoffwechsel: Niacin ist zentral für NAD/NADP und damit für Energie- und Redoxstoffwechsel."
+      "source": "pmid:18454811"
     }
   ]
 }

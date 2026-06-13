@@ -89,8 +89,7 @@
       "relation": "hat_interaktion_mit",
       "target": "chrom",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Mögliche Wechselwirkungen:\n- **CYP3A4-Hemmung:** Quercetin hemmt in vitro Cytochrom-P450-Enzyme, was die Spiegel anderer Medikamente beeinflussen könnte."
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -115,40 +114,35 @@
       "target": "studie-29988130",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29988130",
-      "note": "Erste Humanpilot-Studie mit D+Q (Dasatinib + Quercetin): Reduktion seneszenter Zellen im Fettgewebe bei n=9 Personen mit diabetischer Nierenerkrankung. Dasatinib ist ein Krebsmedikament. Quercetin all"
+      "source": "pmid:29988130"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-31578601",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:31578601",
-      "note": "D+Q-Pilotstudie (n=14 IPF-Patienten): Verbesserungen bei körperlicher Leistungsfähigkeit und Ganggeschwindigkeit nach 3 Wochen. Keine Kontrollgruppe, kein Quercetin-Arm allein."
+      "source": "pmid:31578601"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-32233013",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32233013",
-      "note": "Review der Mayo-Klinik-Gruppe: Zusammenfassung der Senolytik-Evidenz. Vielversprechend in Tiermodellen, aber Humanstudien in sehr früher Phase und nur mit D+Q-Kombination."
+      "source": "pmid:32233013"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19402938",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19402938",
-      "note": "Doppelblind-Crossover-RCT (n=93): 150 mg Quercetin/Tag über 6 Wochen reduzierte systolischen Blutdruck signifikant (~3 mmHg) und oxidiertes LDL bei übergewichtigen Hochrisikopersonen."
+      "source": "pmid:19402938"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-27405231",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27405231",
-      "note": "Meta-Analyse (7 RCTs): Quercetin-Supplementierung senkte systolischen Blutdruck um ~3,09 mmHg. Effekte nur bei ≥500 mg/Tag und &gt;8 Wochen signifikant. Effektgröße: klein."
+      "source": "pmid:27405231"
     }
   ]
 }

@@ -5,8 +5,7 @@
       "relation": "hat_interaktion_mit",
       "target": "coq10",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "### Ältere Menschen\n\n**KiSel-10 (Alehagen 2013, n=443)**: Kombination aus Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität bei älteren Schweden um **54% (HR 0,46)**."
+      "confidence": 0.7
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -73,32 +72,28 @@
       "target": "studie-22381456",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22381456",
-      "note": "Flagship-Review in The Lancet: Selen ist essenziell für 25 Selenoproteine. Optimaler Blutspiegel für Gesundheit: 125–150 µg/L Plasma-Selen. Enge therapeutische Breite."
+      "source": "pmid:22381456"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28326808",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28326808",
-      "note": "Review: Selen ist Cofaktor der Jodthyronin-Deiodinasen (T4→T3-Umwandlung). Supplementierung bei Hashimoto reduziert Anti-TPO-Antikörper signifikant in RCTs."
+      "source": "pmid:28326808"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-25793781",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25793781",
-      "note": "Systematischer Review: Deutschland, Österreich, Osteuropa haben die niedrigsten Selenspiegel in Europa. Median: 84 µg/L (DE) vs. 125 µg/L (UK) – deutlich unter optimalem Bereich."
+      "source": "pmid:25793781"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23746916",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23746916",
-      "note": "RCT (n=443, Ältere): Selen+CoQ10 über 4 Jahre reduzierten kardiovaskuläre Mortalität um 54 % vs. Placebo. Methodisch umstritten, aber viel zitiert."
+      "source": "pmid:23746916"
     }
   ]
 }

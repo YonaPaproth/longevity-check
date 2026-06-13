@@ -90,46 +90,40 @@
       "target": "studie-16816108",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:16816108",
-      "note": "Cholin ist essenziell für Leber, Methylierung und neurologische Entwicklung. Mangel induziert nachweisbar Fettleber und Muskelschäden beim Menschen."
+      "source": "pmid:16816108"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-30015549",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30015549",
-      "note": "Review: Ein erheblicher Anteil der Bevölkerung erreicht die empfohlene Cholinzufuhr nicht. Besonders gefährdet: Schwangere, Veganer und Personen mit Lebererkrankungen."
+      "source": "pmid:30015549"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21094641",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21094641",
-      "note": "Beobachtungsstudie (n=1391): Höhere Cholinzufuhr war mit besserem verbalem Gedächtnis und geringerer Prävalenz weißer Substanzläsionen assoziiert."
+      "source": "pmid:21094641"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-14695379",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:14695379",
-      "note": "Niedrige Cholinzufuhr war auch in einer folsäureverstärkten Population mit erhöhtem Risiko für Neuralrohrdefekte assoziiert (OR ~1,7 im untersten Quintil)."
+      "source": "pmid:14695379"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "curcumin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "- **Meriva** (Phosphatidylcholin-Komplex): ~29-fach höhere Resorption vs."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "phosphatidylserin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "PS hat im Gehirn mehrere Funktionen:\n- Stabilisierung der Zellmembran-Fluidität\n- Unterstützung der **Acetylcholinfreisetzung** (Gedächtnis-Neurotransmitter)\n- Regulierung des **Cortisol-Clearings** n"
+      "confidence": 0.7
     }
   ]
 }

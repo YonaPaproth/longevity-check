@@ -1,0 +1,112 @@
+---
+id: ginkgo
+type: ingredient
+
+meta:
+  title:
+    de: "Ginkgo biloba"
+    en: "Ginkgo biloba"
+  aliases:
+    - "Ginkgo biloba"
+    - "Ginkgo"
+    - "Maidenhair Tree Extract"
+  category: adaptogens
+  evidenceLevel: "3"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 120
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Ginkgo gibt es in der EU keine breit zugelassenen Claims zu Gedächtnis, Konzentration oder Durchblutung im freiverkäuflichen Supplement-Kontext.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "19821345"
+    title: "Ginkgo biloba for cognitive impairment and dementia"
+    authors: "Birks J et al."
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19821345/"
+    finding:
+      de: >-
+        Gemischte Datenlage mit teils kleinen Vorteilen in bestimmten Populationen, aber keine klare Universalantwort.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "22440494"
+    title: "Systematic review of Ginkgo biloba extract for cognitive function"
+    authors: "Laws KR et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22440494/"
+    finding:
+      de: >-
+        Heterogene Ergebnisse, abhängig von Population und Studiendesign.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "16007253"
+    title: "Drug interactions with Ginkgo biloba"
+    authors: "Izzo AA et al."
+    year: 2005
+    url: "https://pubmed.ncbi.nlm.nih.gov/16007253/"
+    finding:
+      de: >-
+        Wichtige Interaktionsfrage, vor allem im Kontext Blutverdünnung.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Ginkgo ist ein berühmter Gehirn- und Durchblutungsstoff. Die Evidenz ist gemischt, und die Blutungs-/Interaktionsfrage sollte man nicht wegwinken.
+    evidenceSummary: >-
+      Ginkgo ist breit untersucht, vor allem für Kognition und periphere Durchblutung. Die Gesamtdatenlage ist heterogen und liefert keine überzeugende Basis für allgemeine Cognitive-Enhancement-Versprechen bei Gesunden. Wichtig sind potenzielle Interaktionen mit Antikoagulanzien.
+    body: |
+      ## Was ist Ginkgo?
+      
+      Ginkgo biloba ist einer der bekanntesten Pflanzenstoffe für Gedächtnis und Durchblutung.
+      
+      ## Warum ist er schwierig zu bewerten?
+      
+      Weil:
+      - viel untersucht wurde
+      - die Ergebnisse aber erstaunlich uneinheitlich sind
+      - Sicherheits- und Interaktionsfragen nicht ganz trivial sind
+      
+      ## Fazit
+      
+      Ginkgo ist **bekannt, aber nicht klar gewonnen**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-19821345
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19821345"
+  - relation: basiert_auf_studie
+    target: studie-22440494
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22440494"
+  - relation: basiert_auf_studie
+    target: studie-16007253
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:16007253"

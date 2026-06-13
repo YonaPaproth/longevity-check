@@ -60,24 +60,21 @@
       "target": "studie-22270875",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22270875",
-      "note": "Meta-Analyse (15 Studien) fand einen durchschnittlichen Effekt (SMD ~0,24) besonders bei hochintensiven Befreiungen von 60–240 Sekunden."
+      "source": "pmid:22270875"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-26553563",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26553563",
-      "note": "Das ISSN sieht einen belegten Nutzen für Sportler, die wiederholt hochintensiv belasten; keine Empfehlung für Alltagsnutzer."
+      "source": "pmid:26553563"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28654511",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28654511",
-      "note": "Review mit aktualisierten Daten zur Carnosinsynthese, Dosis-Zeit-Kinetik und Sicherheitsprofil einschließlich Parästhesien."
+      "source": "pmid:28654511"
     }
   ]
 }

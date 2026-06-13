@@ -1,0 +1,117 @@
+---
+id: ginseng
+type: ingredient
+
+meta:
+  title:
+    de: "Ginseng (Panax)"
+    en: "Ginseng (Panax)"
+  aliases:
+    - "Panax Ginseng"
+    - "Koreanischer Ginseng"
+    - "Roter Ginseng"
+  category: adaptogens
+  evidenceLevel: "3"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 200
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Ginseng gibt es in der EU keine frei schwebenden zugelassenen Claims zu Energie, Vitalität oder Stressresistenz in der Form, wie sie oft vermarktet werden.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "19678779"
+    title: "Panax ginseng for fatigue"
+    authors: "Bahrke MS et al."
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19678779/"
+    finding:
+      de: >-
+        Review: Hinweise auf Effekte bei Müdigkeit und Wohlbefinden, aber heterogene Studienbasis.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "12113659"
+    title: "Panax ginseng: a systematic review of adverse effects"
+    authors: "Coon JT et al."
+    year: 2002
+    url: "https://pubmed.ncbi.nlm.nih.gov/12113659/"
+    finding:
+      de: >-
+        Im Allgemeinen gut verträglich, aber nicht frei von Interaktions- und Sicherheitsfragen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "20435159"
+    title: "Ginseng and cognition"
+    authors: "Reay JL et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20435159/"
+    finding:
+      de: >-
+        Einige Hinweise auf akute kognitive Effekte, aber keine starke, konsistente Evidenz.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Ginseng ist einer der alten Klassiker für Energie und Stress. Die Evidenz ist nicht leer, aber heterogen und stark abhängig vom Extrakt.
+    evidenceSummary: >-
+      Panax Ginseng ist in vielen Humanstudien untersucht, doch Qualität und Ergebnisse sind uneinheitlich. Es gibt Signale für Müdigkeit, subjektives Wohlbefinden und teils Glukosestoffwechsel, aber keine saubere Grundlage für breite Leistungs- oder gesundes Altern-Claims.
+    body: |
+      ## Was ist Ginseng?
+      
+      Panax Ginseng ist ein klassisches Adaptogen und wird seit langem für **Energie, Belastbarkeit und Vitalität** genutzt.
+      
+      ## Das Problem
+      
+      „Ginseng“ ist ein Oberbegriff, und die Qualität von Studien hängt stark vom verwendeten Extrakt ab.
+      
+      ## Fazit
+      
+      Ginseng ist **seriöser als viele Trendstoffe**, aber gleichzeitig viel unklarer, als Marketing oft glauben macht.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-19678779
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:19678779"
+  - relation: basiert_auf_studie
+    target: studie-12113659
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12113659"
+  - relation: basiert_auf_studie
+    target: studie-20435159
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20435159"

@@ -42,24 +42,21 @@
       "target": "studie-15300606",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:15300606",
-      "note": "Trehalose induzierte Autophagie und reduzierte Proteinaggregation im Maus-Huntington-Modell signifikant."
+      "source": "pmid:15300606"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24481086",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24481086",
-      "note": "Trehalose verlangsamte Herzalterung bei Ratten durch gesteigerte Autophagie – Mitochondrienfunktion war mit Veränderungen verbunden."
+      "source": "pmid:24481086"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-31978754",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:31978754",
-      "note": "Pilota-Humanstudie: Trehalose-Einnahme war mit Veränderungen verbundene Glukosetoleranz und arterielle Steifigkeit bei übergewichtigen Erwachsenen."
+      "source": "pmid:31978754"
     }
   ]
 }

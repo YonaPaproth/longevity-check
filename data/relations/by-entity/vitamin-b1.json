@@ -36,31 +36,27 @@
       "target": "studie-30295520",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30295520",
-      "note": "Review: Thiaminmangel ist klinisch relevant und oft unterdiagnostiziert. Besonders gefährdet sind Menschen mit Alkoholmissbrauch, Mangelernährung oder war mit höheren Werten verbundenem metabolischem "
+      "source": "pmid:30295520"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22489203",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22489203",
-      "note": "Review: Auch in westlichen Ländern kommt funktioneller B1-Mangel bei Risikogruppen vor, etwa nach bariatrischer Chirurgie oder bei chronischer Fehlernährung."
+      "source": "pmid:22489203"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17405083",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17405083",
-      "note": "Thiaminmangel kann schwere neurologische Schäden verursachen. Frühzeitige Substitution ist in Risikosituationen klinisch hochrelevant."
+      "source": "pmid:17405083"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "vitamin-b12",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "## Was ist Vitamin B12?\n\nVitamin B12 (Cobalamin) ist ein wasserlösliches Vitamin, das ausschließlich von Mikroorganismen synthetisiert wird und in der menschlichen Ernährung **nur in tierischen Produk"
+      "confidence": 0.7
     }
   ]
 }

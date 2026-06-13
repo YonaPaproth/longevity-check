@@ -138,32 +138,28 @@
       "target": "studie-7737166",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:7737166",
-      "note": "RCT (militärisches Umfeld): L-Tyrosin konnte in Studien kognitive Leistungsabfälle unter extremen Stressbedingungen (Schlafentzug, körperliche Belastung) abmildern."
+      "source": "pmid:7737166"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-7794222",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:7794222",
-      "note": "Militärstudie: 150 mg/kg L-Tyrosin milderte den Leistungsabfall bei Schlafentzug um ca. 4 Stunden."
+      "source": "pmid:7794222"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-7940540",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:7940540",
-      "note": "Mechanistische Studie: Tyrosin-Depletion reduzierte dopaminabhängige kognitive Parameter, was die Rolle als Neurotransmitter-Vorstufe unterstreicht."
+      "source": "pmid:7940540"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-6528626",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:6528626",
-      "note": "Kontrollierter Test (Kälte- und Lärm-Stressoren): L-Tyrosin milderte in Studien Stressreaktionen und Leistungsabfälle."
+      "source": "pmid:6528626"
     }
   ]
 }

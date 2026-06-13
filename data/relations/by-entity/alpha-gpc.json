@@ -18,24 +18,21 @@
       "target": "studie-11396858",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:11396858",
-      "note": "Ältere klinische Daten deuten auf kognitive Vorteile in bestimmten Populationen hin, aber die Evidenz ist nicht modern und nicht sehr breit repliziert."
+      "source": "pmid:11396858"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-18461736",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:18461736",
-      "note": "Kleine Studie mit Hinweisen auf Leistungs-Effekte. Aussagekraft begrenzt."
+      "source": "pmid:18461736"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23912283",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23912283",
-      "note": "Review: Alpha-GPC ist interessant, aber keine magische Abkürzung zu mehr Kognition."
+      "source": "pmid:23912283"
     }
   ]
 }

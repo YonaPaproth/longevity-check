@@ -1,0 +1,157 @@
+---
+id: ergothionein
+type: ingredient
+
+meta:
+  title:
+    de: "Ergothionein"
+    en: "Ergothionein"
+  aliases:
+    - "Ergothioneine"
+    - "ERGO"
+    - "L-Ergothioneine"
+  category: antioxidants
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 5
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA-zugelassenen Health Claims. In der EU regulatorisch als übliche Substanz eingestuft, da natürlich in Lebensmitteln vorkommend.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "20308112"
+    title: "Ergothioneine, a diet-derived antioxidant with therapeutic potential"
+    authors: "Paul BD, Snyder SH"
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20308112/"
+    finding:
+      de: >-
+        Ergothionein hat einzigartige Transportmechanismen (OCTN1) im Körper und reichert sich in mitochondrienreichen Geweben an – Hinweis auf biologische Relevanz.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "36856787"
+    title: "Association of plasma ergothioneine with healthy aging"
+    authors: "Cheah IK et al."
+    year: 2023
+    url: "https://pubmed.ncbi.nlm.nih.gov/36856787/"
+    finding:
+      de: >-
+        Niedrige Ergothionein-Plasmaspiegel korrelieren mit schlechterem kognitivem Status und Frailty bei älteren Menschen (Beobachtungsstudie).
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "21347875"
+    title: "Ergothioneine reduces the severity of MPTP-induced Parkinson's disease"
+    authors: "Koh YH et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21347875/"
+    finding:
+      de: >-
+        In einem Maus-Parkinson-Modell reduzierte Ergothionein neuronale Schäden signifikant.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Ergothionein ist ein seltenes Aminosäurederivat aus Pilzen, das als antioxidativ diskutiert wird und teils als potenzielles „gesundes Altern-Vitamin“ beschrieben wird.
+    evidenceSummary: >-
+      Beobachtungsstudien zeigen inverse Korrelation zwischen Ergothionein-Spiegeln und altersbedingten Erkrankungen. RCTs beim Menschen fehlen weitgehend. Tiermodelle sind vielversprechend.
+    body: |
+      ## Was ist Ergothionein?
+      
+      Ergothionein (ERGO) ist eine schwefelhaltige Aminosäure, die Menschen nicht selbst synthetisieren können – sie muss über die Nahrung aufgenommen werden. Hauptquellen sind **Pilze**, sowie in kleineren Mengen Leber, Nieren und manche Bohnen.
+      
+      Was Ergothionein besonders macht: Der Körper hat einen **spezifischen Transporter** (OCTN1) der ausschließlich für diesen Stoff da ist – ein starkes Indiz, dass er biologisch bedeutsam ist. Ergothionein reichert sich besonders in Organen mit hohem oxidativem Stress an: Leber, Nieren, rote Blutkörperchen, Linse des Auges.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Das Positive
+      - Niedrige Ergothionein-Spiegel im Blut korrelieren mit war mit höheren Werten verbundenem Risiko für kognitive Störungen, kardiovaskuläre Erkrankungen und Frailty
+      - Starke antioxidative und entzündungshemmende Wirkung in Zell- und Tiermodellen
+      - Der dedizierte Transporter OCTN1 deutet auf evolutionäre Wichtigkeit hin
+      
+      ### Das Problem
+      - Kaum kontrollierte Humanstudien (RCTs) vorhanden
+      - Korrelation ≠ Kausalität: Wer mehr Pilze isst, hat ohnehin gesündere Ernährungsgewohnheiten
+      - Optimale Dosierung für Supplements unklar
+      
+      > **Fazit:** Ergothionein ist einer der spannendsten Wirkstoffe im Kontext gesunden Alterns aktuell – aber die Evidenz ist noch dünn. Wer regelmäßig Pilze isst, deckt seinen Bedarf wahrscheinlich ab.
+      
+      ## Ist Ergothionein sicher?
+      
+      Ja – als natürlicher Nahrungsbestandteil seit Jahrtausenden konsumiert. Keine bekannten Toxizitätssignale bis zu 30 mg/Tag in Kurzzeit-Studien.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: augen
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: glutathion-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-20308112
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20308112"
+  - relation: basiert_auf_studie
+    target: studie-36856787
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:36856787"
+  - relation: basiert_auf_studie
+    target: studie-21347875
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21347875"

@@ -36,16 +36,14 @@
       "target": "studie-24500942",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24500942",
-      "note": "Review: Phosphor ist essenziell, aber hohe Aufnahme aus stark verarbeiteten Lebensmitteln kann problematisch sein."
+      "source": "pmid:24500942"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22510091",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22510091",
-      "note": "Phosphat ist biologisch zentral, aber als Supplement für Gesunde selten ein Engpass."
+      "source": "pmid:22510091"
     }
   ]
 }

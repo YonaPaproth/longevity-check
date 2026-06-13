@@ -1,0 +1,120 @@
+---
+id: beta-glucan
+type: ingredient
+
+meta:
+  title:
+    de: "Beta-Glucan"
+    en: "Beta-Glucan"
+  aliases:
+    - "Beta-Glucan"
+    - "Hafer-Beta-Glucan"
+    - "Pilz-Beta-Glucane"
+  category: other
+  evidenceLevel: "2"
+  safety_rating: safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 3000
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Hafer- und Gersten-Beta-Glucane bestehen in der EU spezifische Claims zur Cholesterinsenkung unter klaren Dosierungsbedingungen. Für diffuse Immun-Claims gilt das nicht in gleicher Weise.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "24511820"
+    title: "Health benefits of oat beta-glucan"
+    authors: "Whitehead A et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24511820/"
+    finding:
+      de: >-
+        Meta-Analyse: Hafer-Beta-Glucan war mit niedrigeren Werten verbunden LDL-Cholesterin zuverlässig.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "30727981"
+    title: "β-Glucans and immune function"
+    authors: "Vetvicka V et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/30727981/"
+    finding:
+      de: >-
+        Immunologische Effekte sind plausibel, aber klinisch weniger robust als viele Claims suggerieren.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "21348891"
+    title: "Oat beta-glucan and cardiometabolic health"
+    authors: "Tiwari U et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21348891/"
+    finding:
+      de: >-
+        Die beste Evidenz liegt bei LDL-Cholesterin, nicht bei generellen Wellness-Versprechen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Beta-Glucane sind je nach Quelle unterschiedlich spannend. Für Cholesterin aus Hafer solide, für Immun-Claims aus Pilzen deutlich weicher.
+    evidenceSummary: >-
+      Beta-Glucane aus Hafer und Gerste sind gut für LDL-Senkung untersucht. Für immunologische Effekte, etwa aus Pilzen oder Hefe, gibt es biologische Plausibilität und einige Daten, aber deutlich weniger robuste klinische Belege.
+    body: |
+      ## Was ist Beta-Glucan?
+      
+      Beta-Glucane sind Ballaststoffe oder Polysaccharide aus unterschiedlichen Quellen – zum Beispiel Hafer, Gerste, Hefe oder Pilzen.
+      
+      ## Der wichtige Punkt
+      
+      **Nicht jedes Beta-Glucan ist dasselbe.**
+      
+      - aus Hafer: stark bei Cholesterin
+      - aus Pilzen/Hefe: eher Immun-Story, aber schwächere Human-Daten
+      
+      ## Fazit
+      
+      Beta-Glucan ist **ein guter Stoff, wenn man die Quelle sauber unterscheidet**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-24511820
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24511820"
+  - relation: basiert_auf_studie
+    target: studie-30727981
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30727981"
+  - relation: basiert_auf_studie
+    target: studie-21348891
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21348891"

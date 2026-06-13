@@ -1,0 +1,121 @@
+---
+id: same
+type: ingredient
+
+meta:
+  title:
+    de: "SAMe"
+    en: "SAMe"
+  aliases:
+    - "S-Adenosylmethionin"
+    - "SAMe"
+    - "SAM-e"
+  category: metabolic
+  evidenceLevel: "2"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 400
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für SAMe gibt es in der EU keine zugelassenen Claims zu Stimmung, Gelenken oder Leber. Aufgrund der pharmakologischen Nähe ist eine nüchterne Darstellung besonders wichtig.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "20595412"
+    title: "S-adenosylmethionine in depression"
+    authors: "Papakostas GI et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20595412/"
+    finding:
+      de: >-
+        Kontrollierte Daten zeigen Nutzen bei depressive Symptome, auch als Add-on in bestimmten Settings.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "12472441"
+    title: "SAMe for osteoarthritis"
+    authors: "Soeken KL et al."
+    year: 2002
+    url: "https://pubmed.ncbi.nlm.nih.gov/12472441/"
+    finding:
+      de: >-
+        Meta-Analyse mit Hinweisen auf symptomatische Vorteile im Gelenk-Kontext.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "12062105"
+    title: "S-adenosylmethionine: from biochemistry to clinical use"
+    authors: "Mischoulon D et al."
+    year: 2002
+    url: "https://pubmed.ncbi.nlm.nih.gov/12062105/"
+    finding:
+      de: >-
+        Review: klinisch interessanter Stoff mit echter Substanz, aber nicht ohne Interaktions- und Sicherheitsfragen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      SAMe ist interessant für Stimmung, Leber und Methylierung. Es hat klinische Substanz, wird aber deutlich arzneinäher eingeordnet als viele andere Supplements.
+    evidenceSummary: >-
+      SAMe ist ein zentraler Methylgruppendonor mit brauchbarer Evidenz für bestimmte Anwendungen, vor allem im Bereich depressiver Symptome und teilweise im Gelenk-Kontext. Die Daten sind deutlich besser als bei vielen Bubble-Stoffen, aber das Profil ist eher therapeutisch als lifestyle-orientiert.
+    body: |
+      ## Was ist SAMe?
+      
+      SAMe ist ein körpereigenes Molekül und ein zentraler **Methylgruppendonor**. Es ist relevant für Neurotransmitter, Leberstoffwechsel und viele biochemische Prozesse.
+      
+      ## Warum ist es anders als viele andere Supplements?
+      
+      Weil SAMe eher **therapeutisch** wird diskutiert als nach klassischem Wellness-Supplement.
+      
+      ## Fazit
+      
+      SAMe ist **ernsthafter als viele Hype-Stoffe**, aber auch nichts, was man ganz locker und gedankenlos supplementieren sollte.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: hat_interaktion_mit
+    target: berberine
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: melatonin
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: methylierung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-20595412
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20595412"
+  - relation: basiert_auf_studie
+    target: studie-12472441
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12472441"
+  - relation: basiert_auf_studie
+    target: studie-12062105
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12062105"

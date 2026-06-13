@@ -5,8 +5,7 @@
       "relation": "hat_interaktion_mit",
       "target": "coq10",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Diese Effektgröße ist beträchtlich – größer als bei Magnesium."
+      "confidence": 0.7
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -139,40 +138,35 @@
       "target": "studie-33260549",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:33260549",
-      "note": "Magnesiumergänzung verbesserte Stressparameter und Schlafqualität; Mangel und Stress verstärken sich gegenseitig in einem negativen Kreislauf."
+      "source": "pmid:33260549"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-15189112",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:15189112",
-      "note": "RCT: Magnesiumsupplementierung (2,5 g MgCl2/Tag für 3 Monate) reduzierte Insulinresistenz bei Personen mit Magnesiummangel signifikant."
+      "source": "pmid:15189112"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20152124",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20152124",
-      "note": "Magnesium-L-Threonat erhöhte Gehirn-Magnesiumspiegel bei Ratten und verbesserte Kurz- und Langzeitgedächtnis. Humanstudien noch klein und begrenzt."
+      "source": "pmid:20152124"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-26837598",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26837598",
-      "note": "Metaanalyse (34 RCTs, n=2.028): Magnesium senkte systolischen Blutdruck um ca. 3–4 mmHg und diastolischen um ca. 2–3 mmHg. Effekt stärker bei höheren Ausgangswerten und niedrigen Magnesiumspiegeln."
+      "source": "pmid:26837598"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23853635",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23853635",
-      "note": "RCT (n=46 ältere Erwachsene): 500 mg Magnesium/Tag über 8 Wochen verbesserte Schlafqualität, -dauer und Insomnie-Scores signifikant gegenüber Placebo."
+      "source": "pmid:23853635"
     }
   ]
 }

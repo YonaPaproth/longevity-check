@@ -1,0 +1,255 @@
+---
+id: nr
+type: ingredient
+
+meta:
+  title:
+    de: "NR (Nicotinamid-Ribosid)"
+    en: "NR (Nicotinamide Riboside)"
+  aliases:
+    - "Nicotinamide Riboside"
+    - "Niagen"
+    - "Tru Niagen"
+    - "NR Supplement"
+  category: nad-precursors
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 300
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    NR ist seit 2021 in der EU als Novel Food zugelassen (Durchführungsverordnung EU 2021/468) — im Gegensatz zu NMN, das sich noch im Zulassungsverfahren befindet. Health Claims wurden jedoch nicht zugelassen. Der regulatorische Status ist damit klarer als bei NMN.
+  en: >-
+    NR has been approved in the EU as a Novel Food since 2021 (Implementing Regulation EU 2021/468) — unlike NMN, which is still awaiting authorisation. No health claims have been approved. The regulatory situation is therefore clearer than for NMN.
+
+key_studies:
+  - pmid: "27534536"
+    title: "Nicotinamide Riboside Is Uniquely and Orally Bioavailable in Healthy Humans"
+    authors: "Trammell SA et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/27534536/"
+    finding:
+      de: >-
+        Erste Humanpharmakokinetik-Studie: NR wird oral aufgenommen und war mit höheren Werten verbunden in Studien den NAD+-Metabolismus im Blut.
+      en: >-
+        First human pharmacokinetic study: NR is orally absorbed and raises NAD+ metabolism in blood.
+  - pmid: "29514974"
+    title: "Chronic Nicotinamide Riboside Supplementation Is Well-Tolerated in Healthy Middle-Aged and Older Adults (CONIFER)"
+    authors: "Martens CR et al."
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/29514974/"
+    finding:
+      de: >-
+        6-wöchige NR-Einnahme (500 mg/Tag) war mit höheren Werten verbundene NAD+ im Blut um ~60%, war mit Veränderungen verbundene aber Blutdruck und arterielle Steifigkeit nicht signifikant.
+      en: >-
+        6-week NR supplementation (500 mg/day) raised blood NAD+ by ~60% but did not significantly improve blood pressure or arterial stiffness.
+  - pmid: "30006327"
+    title: "Effect of Nicotinamide Riboside on Insulin Sensitivity, Lipid Mobilization, and Mitochondrial Biogenesis"
+    authors: "Dollerup OL et al."
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/30006327/"
+    finding:
+      de: >-
+        12-wöchige RCT bei übergewichtigen Männern: NR war mit höheren Werten verbundene NAD+, war mit Veränderungen verbundene aber Insulinsensitivität, Lipidprofil oder Mitochondrienfunktion nicht signifikant.
+      en: >-
+        12-week RCT in overweight men: NR raised NAD+ but did not significantly improve insulin sensitivity, lipid profile, or mitochondrial function.
+  - pmid: "42135539"
+    title: "Human whole-blood NAD+ levels do not vary with age or lifestyle interventions"
+    authors: "Schmauck-Medina T et al."
+    year: 2026
+    url: "https://pubmed.ncbi.nlm.nih.gov/42135539/"
+    finding:
+      de: >-
+        NAD+-Spiegel im Vollblut variieren weder mit dem Alter noch mit Lebensstilinterventionen – stellt die Grundannahme vieler NAD+-Supplement-Versprechen infrage.
+      en: >-
+        Whole-blood NAD+ levels vary neither with age nor with lifestyle interventions — challenges the core assumption behind many NAD+ supplement claims.
+
+locales:
+  de:
+    summary: >-
+      NR ist wie NMN ein NAD+-Vorläufer, aber im Gegensatz zu NMN in der EU als Novel Food zugelassen. Humanstudien zeigen NAD+-Erhöhung, klinische Vorteile sind noch unklar.
+    evidenceSummary: >-
+      Mehrere RCTs am Menschen zeigen, dass NR den NAD+-Spiegel im Blut zuverlässig war mit höheren Werten verbunden. Klinisch relevante Wirkungen (Energie, Muskelfunktion, kognitive Leistung) sind in großen Studien bisher nicht konsistent belegt. Die Evidenzlage ist vergleichbar mit NMN.
+    body: |
+      ## NR vs. NMN — was ist der Unterschied?
+      
+      Beide erhöhen NAD+-Spiegel im Körper, gehen aber unterschiedliche biochemische Wege. Der wichtigste praktische Unterschied: **NR ist in der EU als Novel Food zugelassen**, NMN befindet sich noch im Zulassungsverfahren und bewegt sich in einer Grauzone.
+      
+      | | NR | NMN |
+      |---|---|---|
+      | EU Novel Food | Ja (seit 2021) | Nein (Antrag hängig) |
+      | EFSA Health Claims | Nein | Nein |
+      | Humanstudien | ~10 RCTs | ~8 RCTs |
+      | Bekanntheit | Tru Niagen, ChromaDex | Breiter Markt |
+      | Preis/Tag | ~1,20–1,80 € | ~0,80–1,50 € |
+      
+      ## Was sagen die Studien?
+      
+      ### Klar gezeigt
+      - NR war mit höheren Werten verbunden den NAD+-Spiegel im Blut zuverlässig — das ist gut repliziert
+      - Oral bioverfügbar und sicher bei Dosen bis 1.000 mg/Tag
+      
+      ### Nicht gezeigt
+      - Verbesserung der Insulinsensitivität: In der größten randomisierten Studie kein Effekt
+      - Blutdrucksenkung: Kein konsistenter Effekt
+      - Kognitive Verbesserung: Keine ausreichend großen Humanstudien
+      - Lebensverlängerung: Nicht untersucht
+      
+      ## Das NAD+-Problem
+      
+      Sowohl NR als auch NMN stoßen auf dasselbe grundlegende Problem: NAD+ im Blut zu erhöhen ist kein klinischer Endpunkt. Ob höhere NAD+-Spiegel im Blut tatsächlich bedeuten, dass auch die Zellen mehr NAD+ haben und dies klinisch relevant ist, wird noch erforscht.
+      
+      ## Ist NR besser als NMN?
+      
+      Aus regulatorischer Sicht (EU-Zulassung) ja. Aus Evidenzsicht sind beide vergleichbar schwach was klinische Endpunkte angeht. NR hat den Vorteil, dass ChromaDex (Hersteller von Tru Niagen) ein umfangreiches klinisches Programm unterhält und sehr transparent über Studien berichtet.
+      
+      ## Sicherheit
+      
+      Bis 1.000 mg/Tag gut verträglich in Studien. Keine ernsthaften Nebenwirkungen bekannt. Flush (Hautrötung) tritt seltener auf als bei klassischem Niacin.
+
+  en:
+    summary: >-
+      Like NMN, NR is a NAD+ precursor — but unlike NMN, it is approved as a Novel Food in the EU. Human studies confirm NAD+ elevation; clinical benefits remain unclear.
+    evidenceSummary: >-
+      Multiple human RCTs show that NR reliably raises blood NAD+ levels. Clinically relevant outcomes (energy, muscle function, cognition) have not been consistently demonstrated in large trials. Evidence is comparable to NMN.
+    body: |
+      ## NR vs. NMN — What Is the Difference?
+      
+      Both raise NAD+ levels in the body via different biochemical pathways. The most important practical distinction: **NR is approved as a Novel Food in the EU**, while NMN is still awaiting authorisation and occupies a grey zone.
+      
+      | | NR | NMN |
+      |---|---|---|
+      | EU Novel Food | Yes (since 2021) | No (application pending) |
+      | EFSA Health Claims | No | No |
+      | Human studies | ~10 RCTs | ~8 RCTs |
+      | Brand recognition | Tru Niagen, ChromaDex | Broad market |
+      | Price per day | ~€1.20–1.80 | ~€0.80–1.50 |
+      
+      ## What Do the Studies Show?
+      
+      ### Clearly established
+      - NR reliably raises blood NAD+ levels — this is well replicated
+      - Orally bioavailable and safe at doses up to 1,000 mg/day
+      
+      ### Not established
+      - Improvement in insulin sensitivity: no effect in the largest randomised trial
+      - Blood pressure reduction: no consistent effect
+      - Cognitive improvement: no adequately powered human studies
+      - Life extension: not studied
+      
+      ## The NAD+ Problem
+      
+      Both NR and NMN face the same fundamental limitation: raising blood NAD+ is not a clinical endpoint. Whether higher blood NAD+ levels actually mean cells have more NAD+, and whether this is clinically meaningful, is still being investigated.
+      
+      ## Is NR Better Than NMN?
+      
+      From a regulatory standpoint (EU approval): yes. From an evidence standpoint, both are comparably weak on clinical endpoints. NR has the advantage that ChromaDex (maker of Tru Niagen) runs an extensive clinical programme and communicates transparently about study results.
+      
+      ## Safety
+      
+      Well tolerated up to 1,000 mg/day in studies. No serious adverse effects known. Flushing (skin redness) occurs less often than with classic niacin.
+
+relations:
+  - relation: hat_interaktion_mit
+    target: 5-htp
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: akkermansia
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: apigenin
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: ashwagandha
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: calcium
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: curcumin
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: egcg
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: haut
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: nad-biosynthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: nad-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_nebenwirkung
+    target: nw-flush
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-27534536
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27534536"
+  - relation: basiert_auf_studie
+    target: studie-29514974
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:29514974"
+  - relation: basiert_auf_studie
+    target: studie-30006327
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30006327"
+  - relation: basiert_auf_studie
+    target: studie-42135539
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:42135539"
+  - relation: hat_interaktion_mit
+    target: pterostilben
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: spermidine
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: sulforaphan
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: vitamin-c
+    direction: incoming
+    confidence: 0.7

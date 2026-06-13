@@ -72,32 +72,28 @@
       "target": "studie-30279143",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30279143",
-      "note": "Tierstudie (Mäuse): Fisetin war das potenteste Senolytikum aus 10 getesteten Flavonoiden. Verlängerte Lebenserwartung um 10 % und war mit Veränderungen verbundene Gesundheitsmarker."
+      "source": "pmid:30279143"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-30616726",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30616726",
-      "note": "Pilot-Studie mit Dasatinib+Quercetin (verwandter Senolytika-Ansatz): Reduktion seneszenter Zellmarker im Fettgewebe. Basis für größere Studien mit Fisetin."
+      "source": "pmid:30616726"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-32131541",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32131541",
-      "note": "Review: Fisetin wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress und Entzündung in Tiermodellen. Aktiviert Sirtuin-1 und AMPK."
+      "source": "pmid:32131541"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28575845",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28575845",
-      "note": "Review senolytischer Strategien: Fisetin als Kandidat mit günstigem Nebenwirkungsprofil im Vergleich zu pharmakologischen Senolytics."
+      "source": "pmid:28575845"
     }
   ]
 }

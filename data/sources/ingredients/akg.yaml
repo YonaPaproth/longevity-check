@@ -1,0 +1,135 @@
+---
+id: akg
+type: ingredient
+
+meta:
+  title:
+    de: "Alpha-Ketoglutarat (AKG)"
+    en: "Alpha-Ketoglutarat (AKG)"
+  aliases:
+    - "Alpha-Ketoglutarat"
+    - "Ca-AKG"
+    - "Calcium Alpha-Ketoglutarate"
+    - "AKG"
+  category: metabolic
+  evidenceLevel: "4"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1000
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für AKG gibt es in der EU keine zugelassenen Health Claims zu Alterungsforschung oder Langlebigkeit. Solche Aussagen sind derzeit vor allem Marketing.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "32242179"
+    title: "Rejuvenating effects of the alpha-ketoglutarate metabolite"
+    authors: "Asadi Shahmirzadi A et al."
+    year: 2020
+    url: "https://pubmed.ncbi.nlm.nih.gov/32242179/"
+    finding:
+      de: >-
+        Tierstudie: AKG war mit Veränderungen verbundene einige Altersmarker bei Mäusen. Spannend, aber kein Humanbeweis.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "24828042"
+    title: "Alpha-ketoglutarate, an endogenous metabolite, extends lifespan and compresses morbidity in aging mice"
+    authors: "Chin RM et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24828042/"
+    finding:
+      de: >-
+        Mausdaten machen AKG populär in der gesundes Altern-Szene, reichen aber nicht für belastbare Human-Claims.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28332804"
+    title: "The biology of alpha-ketoglutarate"
+    authors: "Zdzisinska B et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28332804/"
+    finding:
+      de: >-
+        Review: AKG ist metabolisch wichtig, doch daraus folgt nicht automatisch ein Nutzen als Supplement.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      AKG ist in der gesundes Altern-Bubble beliebt, vor allem als Ca-AKG. Die Human-Evidenz für Alterungsforschung-Effekte ist aber bislang sehr dünn.
+    evidenceSummary: >-
+      AKG ist ein zentrales Molekül des Energiestoffwechsels und in Tiermodellen interessant. Für gesundes Altern-Claims beim Menschen ist die Evidenz bisher schwach. Die meisten Versprechen beruhen auf Tierdaten, Mechanismen und kleinen, nicht robusten Humanbefunden.
+    body: |
+      ## Was ist AKG?
+      
+      Alpha-Ketoglutarat ist ein Zwischenprodukt des **Citratzyklus** und damit zentral im Energiestoffwechsel.
+      
+      ## Warum ist es in der Bubble für gesundes Altern so beliebt?
+      
+      Vor allem wegen:
+      - Tierstudien
+      - theoretischer Effekte auf Stoffwechsel und Epigenetik
+      - Vermarktung von **Ca-AKG** als Alterungsforschung-Tool
+      
+      ## Was fehlt?
+      
+      - gute große Humanstudien
+      - belastbare Endpunkte
+      - klare klinische Relevanz für gesunde Menschen
+      
+      ## Fazit
+      
+      AKG ist **wissenschaftlich interessant**, aber aktuell eher ein Zukunftskandidat als ein sauber validierter Wirkstoff im Kontext gesunden Alterns.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: epigenetisch
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-32242179
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:32242179"
+  - relation: basiert_auf_studie
+    target: studie-24828042
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24828042"
+  - relation: basiert_auf_studie
+    target: studie-28332804
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28332804"

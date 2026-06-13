@@ -1,0 +1,201 @@
+---
+id: folsaeure
+type: ingredient
+
+meta:
+  title:
+    de: "Folsäure (Vitamin B9)"
+    en: "Folsäure (Vitamin B9)"
+  aliases:
+    - "Vitamin B9"
+    - "Folat"
+    - "Folic Acid"
+    - "L-Methylfolat"
+    - "5-MTHF"
+  category: metabolic
+  evidenceLevel: "1"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 0
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat Health Claims für Folsäure zugelassen: normale Blutbildung, normale Homocystein-Metabolisierung, normale psychische Funktion, normale Immunfunktion sowie maternale Gewebewachstum in der Schwangerschaft. Öffentliche Empfehlung: 400 µg/Tag für Frauen mit Kinderwunsch.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "1677062"
+    title: "Prevention of neural tube defects: results of the Medical Research Council Vitamin Study"
+    authors: "MRC Vitamin Study Research Group"
+    year: 1991
+    url: "https://pubmed.ncbi.nlm.nih.gov/1677062/"
+    finding:
+      de: >-
+        Landmark-RCT: 4 mg Folsäure/Tag reduzierte Wiederholungsrisiko für Neuralrohrdefekte um 72 %. Basis für globale Supplementierungsempfehlungen in der Schwangerschaft.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "22297886"
+    title: "Folate and DNA methylation: a review of molecular mechanisms and the evidence for folate's role"
+    authors: "Crider KS et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22297886/"
+    finding:
+      de: >-
+        Review: Folat ist direkter Methyl-Donor im One-Carbon-Metabolismus. Mangel stört DNA-Methylierungsmuster und war mit höheren Werten verbunden Homocystein. Epigenetische Relevanz gut dokumentiert.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "35042259"
+    title: "Folic acid supplementation and risk of cardiovascular diseases: meta-analysis"
+    authors: "Zhao JV et al."
+    year: 2022
+    url: "https://pubmed.ncbi.nlm.nih.gov/35042259/"
+    finding:
+      de: >-
+        Meta-Analyse (30 RCTs): Folsäure war mit niedrigeren Werten verbunden Homocystein signifikant, reduziert aber Herzinfarkte und Schlaganfälle nicht konsistent – außer möglicherweise bei Schlaganfall in folsäurearmen Populationen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "24144610"
+    title: "MTHFR C677T polymorphism and folate metabolism"
+    authors: "Nazki FH et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24144610/"
+    finding:
+      de: >-
+        Review: MTHFR-C677T-Polymorphismus (ca. 10 % der Bevölkerung homozygot) reduziert Folsäureaktivierung um 70 %. Betroffene profitieren stärker von L-Methylfolat als von synthetischer Folsäure.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Folsäure ist essenziell für DNA-Synthese, Zellteilung und Homocystein-Stoffwechsel. In der Schwangerschaft ist sie besonders relevant. L-Methylfolat wird teils für spezielle Konstellationen…
+    evidenceSummary: >-
+      Vergleichsweise gute Datenlage: Folsäuremangel in der Schwangerschaft verursacht Neuralrohrdefekte (präventiv vergleichsweise gut untersucht). EFSA-Claims zugelassen. Homocystein-Senkung konsistent, aber kein gesicherter Kardioprotektionseffekt daraus. MTHFR-Polymorphismus klinisch relevant.
+    body: |
+      ## Was ist Folsäure?
+      
+      Folsäure (Vitamin B9) ist ein wasserlösliches B-Vitamin, das als **Methyl-Donor** im **One-Carbon-Metabolismus** fungiert – einem zentralen biochemischen Netzwerk, das DNA-Synthese, DNA-Reparatur, DNA-Methylierung und Homocysteinabbau koordiniert.
+      
+      Natürliches Folat kommt in Lebensmitteln vor (Hülsenfrüchte, grünes Blattgemüse, Leber). Synthetische **Folsäure** in Supplements und angereicherten Lebensmitteln wird im Körper zunächst in die aktive Form **5-Methyltetrahydrofolat (5-MTHF)** umgewandelt.
+      
+      ## Schwangerschaft: klare Pflichtempfehlung
+      
+      Die Empfehlung für Frauen mit Kinderwunsch und in der Frühschwangerschaft ist eine der stärksten und konsistentesten in der Nutritionsmedizin:
+      
+      - **400 µg/Tag** mindestens 4 Wochen vor der Empfängnis und bis zum Ende des ersten Trimesters
+      - Reduziert Neuralrohrdefekte (Spina bifida, Anenzephalie) um 50–70 %
+      - Empfehlung: BfR, WHO, EFSA, RKI – global konsensiert
+      
+      ## Der One-Carbon-Metabolismus
+      
+      Folat sitzt im Zentrum des methylierungsrelevantesten Stoffwechselwegs:
+      
+      1. Folat aktiviert → 5-MTHF
+      2. 5-MTHF überträgt Methylgruppe auf Homocystein → Methionin
+      3. Methionin → S-Adenosylmethionin (SAM) – der universelle Methylspender
+      4. SAM methyliert DNA, RNA, Proteine, Neurotransmitter
+      
+      Folat-Mangel → Homocystein-Anstieg → war mit höheren Werten verbundenes Risiko für Gefäßschäden, kognitive Störungen und gestörte Epigenetik.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Klar belegt (EFSA-Claims)
+      - Neuralrohrdefekte-Prävention (Schwangerschaft)
+      - Normale Blutbildung (mit B12)
+      - Homocystein-Senkung: konsistent in RCTs
+      
+      ### Umstritten
+      - Herzschutz durch Homocysteinreduktion: Meta-Analysen inkonsistent – Homocystein scheint eher Marker als Ursache zu sein
+      - Krebsprävention: komplexes Bild – normaler Bedarf protektiv, Hochdosen bei bestehendem Krebsrisiko möglicherweise kontraproduktiv
+      
+      ### Nicht belegt
+      - Alterungsforschung-Wirkung über normalen Bedarf hinaus
+      
+      ## Folsäure vs. L-Methylfolat: wer braucht was?
+      
+      **Synthetische Folsäure** muss im Körper erst durch das Enzym MTHFR aktiviert werden. Träger des **MTHFR-C677T-Polymorphismus** (ca. 10–15 % der deutschen Bevölkerung homozygot) haben hier eine reduzierte Enzymaktivität von bis zu 70 % und akkumulieren möglicherweise unmetabolisierte Folsäure.
+      
+      **L-Methylfolat (5-MTHF)** ist die bereits aktive Form – umgeht das MTHFR-Problem vollständig. Teurer, aber für MTHFR-Träger klinisch überlegen.
+      
+      Test: MTHFR-Genotypisierung ist über Bluttest möglich.
+      
+      ## Ist Folsäure sicher?
+      
+      Bei 200–400 µg/Tag: **wahrscheinlich sicher** für alle. Obere tolerierbare Zufuhrmenge (EFSA): 1.000 µg/Tag synthetische Folsäure (keine Obergrenze für natürliches Folat). Hauptrisiko bei Hochdosen: Maskierung eines Vitamin-B12-Mangels (neurologische Schäden können fortschreiten, während Anämie korrigiert wird). Daher: B12-Spiegel immer mitprüfen.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: dna-reparatur
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: methylierung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: epigenetisch
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: homocystein
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: kontraindiziert_bei
+    target: kontra-schwangerschaft
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-1677062
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:1677062"
+  - relation: basiert_auf_studie
+    target: studie-22297886
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22297886"
+  - relation: basiert_auf_studie
+    target: studie-35042259
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:35042259"
+  - relation: basiert_auf_studie
+    target: studie-24144610
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24144610"

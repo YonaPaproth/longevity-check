@@ -30,24 +30,21 @@
       "target": "studie-22516723",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22516723",
-      "note": "Review zu Funktionen von Vitamin K in Blutgerinnung und Knochenstoffwechsel. Die essenzielle Rolle ist vergleichsweise gut untersucht."
+      "source": "pmid:22516723"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-30945251",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30945251",
-      "note": "Review: Vitamin-K-Zufuhr ist für viele Menschen ausreichend, kann aber bei geringer Gemüsezufuhr suboptimal sein."
+      "source": "pmid:30945251"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20236064",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20236064",
-      "note": "Schwankende Vitamin-K-Zufuhr kann die Steuerung von Vitamin-K-Antagonisten erschweren. Relevanz vor allem für Warfarin/Phenprocoumon-Nutzer."
+      "source": "pmid:20236064"
     }
   ]
 }

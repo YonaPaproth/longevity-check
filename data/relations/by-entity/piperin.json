@@ -5,8 +5,7 @@
       "relation": "hat_interaktion_mit",
       "target": "curcumin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "**Lösungsansätze mit klinischen Daten:**\n- **Piperin** (aus schwarzem Pfeffer, 20 mg): Steigert Curcumin-Bioverfügbarkeit um bis zu 2."
+      "confidence": 0.7
     },
     {
       "relation": "hat_regulatorischen_status",
@@ -19,24 +18,21 @@
       "target": "studie-9619120",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:9619120",
-      "note": "Klassische Studie: Piperin kann die Bioverfügbarkeit von Curcumin stark mit höheren Werten in Verbindung bringen."
+      "source": "pmid:9619120"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-3984604",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:3984604",
-      "note": "Piperin beeinflusst Enzymsysteme und Transporter – nützlich, aber potenziell interaktionsrelevant."
+      "source": "pmid:3984604"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17619763",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17619763",
-      "note": "Piperin ist funktional interessant, aber nicht einfach nur ein harmloser Verstärker."
+      "source": "pmid:17619763"
     }
   ]
 }

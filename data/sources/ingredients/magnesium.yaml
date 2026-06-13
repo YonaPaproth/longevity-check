@@ -1,0 +1,373 @@
+---
+id: magnesium
+type: ingredient
+
+meta:
+  title:
+    de: "Magnesium"
+    en: "Magnesium"
+  aliases:
+    - "Magnesiumglycinat"
+    - "Magnesiumcitrat"
+    - "Magnesium-L-Threonat"
+    - "Magnesiumoxid"
+    - "Magnesiummalat"
+  category: metabolic
+  evidenceLevel: "1"
+  safety_rating: safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 300
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat für Magnesium umfangreiche Claims zugelassen: normaler Energiestoffwechsel, Nervensystem, Muskelkontraktion, Proteinsynthese, psychische Funktion, Müdigkeit, Knochen und Zähne. Einer der am breitesten anerkannten Wirkstoffe im EFSA-Register.
+  en: >-
+    EFSA has approved extensive claims for magnesium: normal energy metabolism, nervous system, muscle contraction, protein synthesis, psychological function, fatigue reduction, bone and teeth. One of the most broadly recognised ingredients in the EFSA health claims register.
+
+key_studies:
+  - pmid: "33260549"
+    title: "Magnesium Status and Stress: The Vicious Circle Concept Revisited"
+    authors: "Pickering G et al."
+    year: 2020
+    url: "https://pubmed.ncbi.nlm.nih.gov/33260549/"
+    finding:
+      de: >-
+        Magnesiumergänzung verbesserte Stressparameter und Schlafqualität; Mangel und Stress verstärken sich gegenseitig in einem negativen Kreislauf.
+      en: >-
+        Magnesium supplementation improved stress parameters and sleep quality; deficiency and stress reinforce each other in a negative cycle.
+  - pmid: "15189112"
+    title: "Oral Magnesium Supplementation Reduces Insulin Resistance in Non-Diabetic Subjects"
+    authors: "Guerrero-Romero F et al."
+    year: 2004
+    url: "https://pubmed.ncbi.nlm.nih.gov/15189112/"
+    finding:
+      de: >-
+        RCT: Magnesiumsupplementierung (2,5 g MgCl2/Tag für 3 Monate) reduzierte Insulinresistenz bei Personen mit Magnesiummangel signifikant.
+      en: >-
+        RCT: magnesium supplementation (2.5 g MgCl2/day for 3 months) significantly reduced insulin resistance in individuals with magnesium deficiency.
+  - pmid: "20152124"
+    title: "Enhancement of Learning and Memory by Elevating Brain Magnesium (Mg-L-Threonate)"
+    authors: "Slutsky I et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20152124/"
+    finding:
+      de: >-
+        Magnesium-L-Threonat erhöhte Gehirn-Magnesiumspiegel bei Ratten und verbesserte Kurz- und Langzeitgedächtnis. Humanstudien noch klein und begrenzt.
+      en: >-
+        Magnesium L-threonate raised brain magnesium levels in rats and improved short- and long-term memory. Human studies are still small and limited.
+  - pmid: "26837598"
+    title: "Effects of Magnesium Supplementation on Blood Pressure: A Meta-Analysis of Randomized Double-Blind Placebo-Controlled Trials"
+    authors: "Zhang X et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26837598/"
+    finding:
+      de: >-
+        Metaanalyse (34 RCTs, n=2.028): Magnesium senkte systolischen Blutdruck um ca. 3–4 mmHg und diastolischen um ca. 2–3 mmHg. Effekt stärker bei höheren Ausgangswerten und niedrigen Magnesiumspiegeln.
+      en: >-
+        Meta-analysis (34 RCTs, n=2,028): magnesium lowered systolic blood pressure by ~3–4 mmHg and diastolic by ~2–3 mmHg. Effect stronger at higher baseline values and lower magnesium levels.
+  - pmid: "23853635"
+    title: "The effect of magnesium supplementation on primary insomnia in elderly"
+    authors: "Abbasi B et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/23853635/"
+    finding:
+      de: >-
+        RCT (n=46 ältere Erwachsene): 500 mg Magnesium/Tag über 8 Wochen verbesserte Schlafqualität, -dauer und Insomnie-Scores signifikant gegenüber Placebo.
+      en: >-
+        RCT (n=46 older adults): 500 mg magnesium/day over 8 weeks significantly improved sleep quality, duration, and insomnia scores vs. placebo.
+
+locales:
+  de:
+    summary: >-
+      Magnesium ist an über 300 enzymatischen Reaktionen beteiligt. Niedrige Zufuhr ist in Deutschland häufig. Die Form beeinflusst Bioverfügbarkeit und Verträglichkeit deutlich.
+    evidenceSummary: >-
+      Für grundlegende Körperfunktionen (Energie, Muskeln, Nerven) exzellent belegt; EFSA hat zahlreiche Claims zugelassen. Metaanalysen zeigen Blutdrucksenkung um 3–4 mmHg systolisch und Verbesserung der Insulinsensitivität bei Mangel. Kognitive Wirkung von Mg-L-Threonat beim Menschen noch begrenzt belegt.
+    body: |
+      ## Die wichtigste Frage: Welche Form?
+      
+      Nicht alle Magnesiumformen sind gleich – das ist der häufigste Fehler beim Kauf. Viele günstige Produkte enthalten Magnesiumoxid, das bei einer Bioverfügbarkeit von ca. **4–5%** kaum sinnvoll ist.
+      
+      | Form | Bioverfügbarkeit | Besonders geeignet für |
+      |---|---|---|
+      | **Magnesiumglycinat** | Sehr hoch (~80%) | Schlaf, Nerven, allgemein – gute Verträglichkeit |
+      | **Magnesiumcitrat** | Hoch (~65%) | Allgemein; leicht abführend bei hohen Dosen |
+      | **Magnesium-L-Threonat** | Hoch (Gehirn-spezifisch) | Kognition; teurer |
+      | **Magnesiummalat** | Hoch (~60%) | Energie, Muskelkater |
+      | **Magnesiumoxid** | Sehr gering (~4–5%) | Kaum sinnvoll als Supplement |
+      
+      ## Warum ist Magnesiummangel so häufig?
+      
+      Laut Nationaler Verzehrsstudie II nehmen ca. **26–29% der deutschen Erwachsenen** weniger Magnesium auf als von der DGE empfohlen. Besonders betroffen:
+      
+      - Regelmäßiger Alkoholkonsum (erhöht renale Ausscheidung)
+      - Starkes Schwitzen durch Sport (Verlust über Schweiß)
+      - Einnahme von Protonenpumpenhemmern (z. B. Omeprazol) oder Diuretika
+      - Diabetes mellitus Typ 2 (erhöhter renaler Verlust)
+      - Ältere Menschen (geringere Absorption, weniger Aufnahme über Ernährung)
+      
+      ## Was ist gut untersucht?
+      
+      ### Blutdruck
+      
+      Eine Metaanalyse von 34 RCTs (Zhang et al. 2016, n=2.028) zeigte: Magnesiumsupplementierung senkte den systolischen Blutdruck im Durchschnitt um **ca. 3–4 mmHg** und den diastolischen um **ca. 2–3 mmHg**. Der Effekt war stärker bei Personen mit niedrigen Ausgangsspiegeln und höherem Blutdruck – klinisch relevant als Ergänzung bei der Hypertonie-Behandlung, kein Ersatz für Medikamente.
+      
+      ### Schlafqualität
+      
+      Ein RCT (Abbasi 2012, n=46 ältere Erwachsene) zeigte: **500 mg Magnesium/Tag** über 8 Wochen verbesserte Schlafqualität, Schlafdauer und Insomnie-Scores signifikant gegenüber Placebo. Subgruppe älterer Personen mit niedrigen Spiegeln profitiert am stärksten.
+      
+      ### Insulinsensitivität bei Mangel
+      
+      Guerrero-Romero et al. (2004) zeigten in einem RCT: 2,5 g MgCl₂/Tag (entspricht ca. 300 mg elementarem Magnesium) über 3 Monate reduzierte Insulinresistenz bei Personen mit Magnesiummangel signifikant. Effekt auf Insulinsensitivität bei normalen Magnesiumspiegeln schwächer belegt.
+      
+      ### Energie und enzymatische Funktionen
+      
+      Magnesium ist Cofaktor für über **300 enzymatische Prozesse**, darunter ATP-Synthese, DNA-Reparatur und Proteinsynthese. EFSA hat entsprechende Claims für normalen Energiestoffwechsel und Reduzierung von Müdigkeit auf Basis dieser fundamentalen biochemischen Rolle zugelassen.
+      
+      ### Migräneprophylaxe
+      
+      Die Deutsche Gesellschaft für Neurologie empfiehlt Magnesium (400–600 mg/Tag) als Prophylaxe bei Migräne mit dokumentiertem Mangel – eine der wenigen nicht-medikamentösen Optionen mit konsistenter Evidenz aus mehreren RCTs.
+      
+      ## Was ist weniger klar?
+      
+      **Magnesium-L-Threonat als Kognitions-Booster:** Die Tierstudie von Slutsky et al. (2010) zeigte beeindruckende Effekte auf Gedächtnis beim Nagetier, aber Humanstudien sind noch klein und kurzfristig. Direkte kognitive Verbesserung beim gesunden Menschen ohne Mangel: nicht belegt.
+      
+      **Direkte Longevity-Wirkung:** Keine RCT-Evidenz, dass Magnesiumsupplementierung bei ausreichend Versorgten die Lebensdauer verlängert.
+      
+      **Depressionsbehandlung:** Einige Studien zeigen Zusammenhänge mit Stimmung, aber die Evidenzqualität für therapeutische Effekte ist begrenzt.
+      
+      ## Dosierung
+      
+      Empfohlene Tageszufuhr laut DGE: **300–350 mg/Tag** für Erwachsene (375 mg Referenzwert auf deutschen Supplement-Etiketten).
+      
+      Bei Supplementierung: **200–400 mg elementares Magnesium/Tag**. Höhere Dosen können abführend wirken (osmotischer Effekt im Darm – daher nutzen manche Magnesiumcitrat gezielt bei Verstopfung). Gut verträgliche Formen wie Magnesiumglycinat haben seltener gastrointestinale Nebenwirkungen.
+      
+      **Wann einnehmen?** Abends (vor dem Schlafengehen) wird häufig empfohlen – insbesondere bei Schlafproblemen und Magnesiumglycinat. Mahlzeiten verlangsamen die Aufnahme leicht, aber verbessern in der Regel die Verträglichkeit.
+      
+      ## Limitierungen der Forschung
+      
+      - Viele Studien haben kurze Laufzeiten (unter 3 Monate) und kleine Stichprobengrößen
+      - Heterogene Studiendesigns machen Metaanalysen schwierig (verschiedene Formen, Dosen, Populations)
+      - Mangel ist schwer zu definieren: Serum-Magnesium reflektiert nur ~0,3% des Körpermagnesiums und ist ein unsensibler Marker
+      - Positive Effekte auf Blutdruck und Insulinsensitivität gelten primär für Mangelpopulationen
+      
+      ## EFSA-Status
+      
+      Magnesium ist einer der am breitesten durch EFSA anerkannten Wirkstoffe. Im [EFSA-Register für Health Claims](https://www.efsa.europa.eu/en/topics/topic/nutrition) sind zugelassene Aussagen für Magnesium dokumentiert, darunter:
+      
+      - Normaler Energiestoffwechsel
+      - Normales Nervensystem und normale psychische Funktion
+      - Normale Muskelkontraktion und -funktion
+      - Verringerung von Müdigkeit und Ermüdung
+      - Normale Proteinsynthese
+      - Normale Knochen und Zähne
+      
+      ## Fazit
+      
+      Magnesium ist ein echter Basis-Nährstoff mit breiter EFSA-Anerkennung und konsistenter Evidenz für mehrere klinische Endpunkte. Bei Mangel – der in Deutschland weit verbreitet ist – ist Supplementierung sinnvoll. Entscheidend ist die Wahl einer bioverfügbaren Form; Magnesiumoxid ist meist Geldverschwendung.
+
+  en:
+    summary: >-
+      Magnesium is involved in over 300 enzymatic reactions. Low intake is common. The form significantly affects bioavailability and tolerability.
+    evidenceSummary: >-
+      For core body functions (energy, muscles, nerves) the evidence is excellent; EFSA has approved numerous claims. Meta-analyses show blood pressure reduction of 3–4 mmHg systolic and improved insulin sensitivity in deficiency. Cognitive effects of Mg-L-threonate are less established in humans.
+    body: |
+      ## The Key Question: Which Form?
+      
+      Not all magnesium forms are equal — this is the most common mistake when buying. Many cheap products contain magnesium oxide, with a bioavailability of around **4–5%**, which makes it largely pointless.
+      
+      | Form | Bioavailability | Best suited for |
+      |---|---|---|
+      | **Magnesium glycinate** | Very high (~80%) | Sleep, nerves, general — good tolerability |
+      | **Magnesium citrate** | High (~65%) | General; mildly laxative at high doses |
+      | **Magnesium L-threonate** | High (brain-specific) | Cognition; more expensive |
+      | **Magnesium malate** | High (~60%) | Energy, muscle soreness |
+      | **Magnesium oxide** | Very low (~4–5%) | Rarely worth buying as a supplement |
+      
+      ## Why Is Magnesium Deficiency So Common?
+      
+      National dietary surveys in Germany (NVS II) indicate that approximately **26–29% of German adults** consume less magnesium than recommended by the DGE. Those particularly affected include:
+      
+      - Regular alcohol consumption (increases renal excretion)
+      - Intense sweating through sport (loss in sweat)
+      - Use of proton pump inhibitors (e.g., omeprazole) or diuretics
+      - Type 2 diabetes (increased renal loss)
+      - Older adults (reduced absorption, lower dietary intake)
+      
+      Surveys in other European countries report similar patterns.
+      
+      ## What Is Well Established?
+      
+      ### Blood pressure
+      
+      A meta-analysis of 34 RCTs (Zhang et al. 2016, n=2,028) showed: magnesium supplementation lowered systolic blood pressure by an average of **~3–4 mmHg** and diastolic by **~2–3 mmHg**. The effect was stronger in people with low baseline levels and higher blood pressure — clinically relevant as an adjunct in hypertension management, not a replacement for medication.
+      
+      ### Sleep quality
+      
+      An RCT (Abbasi 2012, n=46 older adults) showed: **500 mg magnesium/day** over 8 weeks significantly improved sleep quality, sleep duration, and insomnia scores vs. placebo. The subgroup of older individuals with low magnesium levels benefited most.
+      
+      ### Insulin sensitivity in deficiency
+      
+      Guerrero-Romero et al. (2004) demonstrated in an RCT: 2.5 g MgCl₂/day (equivalent to ~300 mg elemental magnesium) over 3 months significantly reduced insulin resistance in individuals with magnesium deficiency. Effect on insulin sensitivity in people with normal magnesium levels is less well established.
+      
+      ### Energy and enzymatic functions
+      
+      Magnesium is a cofactor for over **300 enzymatic processes**, including ATP synthesis, DNA repair, and protein synthesis. EFSA has approved corresponding claims for normal energy metabolism and reduction of fatigue based on this fundamental biochemical role.
+      
+      ### Migraine prophylaxis
+      
+      German neurological guidelines recommend magnesium (400–600 mg/day) as prophylaxis for migraine in those with documented deficiency — one of the few non-pharmacological options with consistent evidence from multiple RCTs.
+      
+      ## What Is Less Certain?
+      
+      **Magnesium L-threonate as a cognition booster:** The animal study by Slutsky et al. (2010) showed impressive memory effects in rodents, but human studies are still small and short-term. Direct cognitive improvement in healthy people without deficiency: not established.
+      
+      **Direct longevity effects:** No RCT evidence that magnesium supplementation extends lifespan in adequately nourished individuals.
+      
+      **Depression treatment:** Some studies show associations with mood, but evidence quality for therapeutic effects is limited.
+      
+      ## Dosage
+      
+      EU Reference Intake: **375 mg/day** (on supplement labels). National guidelines vary slightly.
+      
+      With supplementation: **200–400 mg elemental magnesium/day**. Higher doses can have a laxative effect (osmotic effect in the gut — some people use magnesium citrate deliberately for constipation). Highly bioavailable forms such as magnesium glycinate have fewer gastrointestinal side effects.
+      
+      **When to take:** Evening (before bed) is frequently recommended — particularly for sleep issues and magnesium glycinate. Food slows absorption slightly but generally improves tolerability.
+      
+      ## Research Limitations
+      
+      - Many studies have short durations (under 3 months) and small sample sizes
+      - Heterogeneous study designs make meta-analyses difficult (different forms, doses, populations)
+      - Deficiency is difficult to define: serum magnesium reflects only ~0.3% of total body magnesium and is an insensitive marker
+      - Positive effects on blood pressure and insulin sensitivity apply primarily to deficient populations
+      
+      ## EFSA Status
+      
+      Magnesium is one of the most broadly recognised ingredients in the EFSA health claims register. Approved claims include:
+      
+      - Normal energy metabolism
+      - Normal nervous system and psychological function
+      - Normal muscle contraction and function
+      - Reduction of tiredness and fatigue
+      - Normal protein synthesis
+      - Normal bone and teeth
+      
+      ## Summary
+      
+      Magnesium is a genuine foundational nutrient with broad EFSA recognition and consistent evidence for several clinical endpoints. In deficiency — which is widespread — supplementation is reasonable. Choosing a bioavailable form is essential; magnesium oxide is typically a waste of money.
+
+relations:
+  - relation: hat_interaktion_mit
+    target: coq10
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: depression
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: migraene
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: dna-reparatur
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: serum-magnesium
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: blutdruck-werte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: insulin
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_nebenwirkung
+    target: nw-magen-darm-beschwerden
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-schlaflosigkeit
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-33260549
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:33260549"
+  - relation: basiert_auf_studie
+    target: studie-15189112
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:15189112"
+  - relation: basiert_auf_studie
+    target: studie-20152124
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20152124"
+  - relation: basiert_auf_studie
+    target: studie-26837598
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26837598"
+  - relation: basiert_auf_studie
+    target: studie-23853635
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23853635"

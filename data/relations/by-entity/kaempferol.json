@@ -18,24 +18,21 @@
       "target": "studie-21127935",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21127935",
-      "note": "Review: starke präklinische Breite, aber wenig belastbare Humanstudien."
+      "source": "pmid:21127935"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-12716668",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12716668",
-      "note": "Ernährungsbezogen interessant, als isoliertes Supplement aber wenig klar."
+      "source": "pmid:12716668"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20018833",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20018833",
-      "note": "Kaempferol wird diskutiert konzeptionell attraktiv, klinisch aber noch weit von gesicherten Aussagen entfernt."
+      "source": "pmid:20018833"
     }
   ]
 }

@@ -1,0 +1,155 @@
+---
+id: glynac
+type: ingredient
+
+meta:
+  title:
+    de: "GlyNAC (Glycin + NAC)"
+    en: "GlyNAC (Glycin + NAC)"
+  aliases:
+    - "GlyNAC"
+    - "Glycine NAC combination"
+    - "Glycin + N-Acetylcystein"
+  category: antioxidants
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1800
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine spezifischen EFSA Health Claims für die Kombination GlyNAC. Einzelsubstanzen (Glycin, NAC) sind gut charakterisiert und sicher.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "33512051"
+    title: "Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves Glutathione Deficiency"
+    authors: "Kumar P et al."
+    year: 2021
+    url: "https://pubmed.ncbi.nlm.nih.gov/33512051/"
+    finding:
+      de: >-
+        RCT (n=24): GlyNAC bei älteren Erwachsenen stellte Glutathion-Spiegel auf jugendliche Werte wieder her und war mit Veränderungen verbundene Mitochondrienfunktion, Entzündungsmarker, Muskelkraft und Kognition.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "34741443"
+    title: "GlyNAC (Glycine and N-Acetylcysteine) Supplementation Improves Impaired Mitochondrial Fuel Oxidation"
+    authors: "Kumar P et al."
+    year: 2022
+    url: "https://pubmed.ncbi.nlm.nih.gov/34741443/"
+    finding:
+      de: >-
+        Follow-up-Studie: GlyNAC war mit Veränderungen verbundene Mitochondrien-Energiestoffwechsel, Körperzusammensetzung (weniger Fettmasse) und Gehgeschwindigkeit bei älteren Menschen.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "35504071"
+    title: "GlyNAC Supplementation in Mice Increases Length of Life"
+    authors: "Kumar P et al."
+    year: 2022
+    url: "https://pubmed.ncbi.nlm.nih.gov/35504071/"
+    finding:
+      de: >-
+        Tierstudie: GlyNAC wird im Zusammenhang mit Alterungsforschung diskutierte die Lebensspanne bei Mäusen um 24 % und war mit Veränderungen verbundene multiple Hallmarks of Alterung.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      GlyNAC ist die Kombination aus Glycin und N-Acetylcystein (NAC) zur Unterstützung der Glutathion-Synthese. Erste klinische Daten zu Healthy-Alterung-Kontexten sind interessant, aber noch begrenzt.
+    evidenceSummary: >-
+      Mehrere RCTs zeigen, dass GlyNAC altersbedingte Glutathion-Defizite ausgleicht und dabei Muskelkraft, Körperzusammensetzung, Kognition und Entzündungsmarker war mit Veränderungen verbunden.
+    body: |
+      ## Was ist GlyNAC?
+      
+      GlyNAC ist keine einzelne Substanz, sondern die **Kombination aus Glycin und N-Acetylcystein (NAC)**. Beide sind Vorläufer des körpereigenen Antioxidans **Glutathion** – dem wichtigsten intrazellulären Schutzmolekül.
+      
+      Das Problem: Mit zunehmendem Alter sinkt die Glutathion-Produktion stark ab. NAC allein war mit höheren Werten verbunden den Cystein-Anteil, aber Glycin – die zweite Aminosäure – fehlt oft. GlyNAC liefert beide Bausteine zusammen und ist damit effektiver als Einzel-Supplementierung.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Das Positive
+      - **Stärkste klinische Evidenz** aller gesundes-Alten-Supplements in dieser Kategorie
+      - Gleichzeitige Verbesserung von: Glutathion, Mitochondrienfunktion, Entzündung, Muskelkraft, Kognition, Körperzusammensetzung – in einem einzigen RCT
+      - Günstig: Glycin und NAC sind billig und weit verfügbar
+      - Lebensverlängerung bei Mäusen um 24 %
+      
+      ### Das Problem
+      - Humanstudien noch relativ klein (n=24 in Haupt-RCT)
+      - Hauptforscher (Kumar) hat potenziellen Interessenkonflikt (eigene Publikationen)
+      - Langzeit-Sicherheit bei hohen NAC-Dosen nicht abschließend geklärt
+      - Einzeln habt ihr Glycin und NAC – Kombi-Produkte sind noch selten
+      
+      > **Fazit:** GlyNAC ist eines der überzeugendsten gesundes-Alten-Supplements mit echter klinischer Humanstudien-Evidenz. Preis-Leistung sehr gut, wenn man Glycin und NAC separat kauft.
+      
+      ## Ist GlyNAC sicher?
+      
+      Beide Einzelsubstanzen gut charakterisiert und seit Jahrzehnten in Gebrauch. NAC: bei sehr hohen Dosen (>3 g/Tag) mögliche GI-Nebenwirkungen. Glycin: sehr sicher. Bei Asthma NAC mit Vorsicht.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: hat_interaktion_mit
+    target: glycin
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-33512051
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:33512051"
+  - relation: basiert_auf_studie
+    target: studie-34741443
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:34741443"
+  - relation: basiert_auf_studie
+    target: studie-35504071
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:35504071"
+  - relation: hat_interaktion_mit
+    target: nac
+    direction: incoming
+    confidence: 0.7

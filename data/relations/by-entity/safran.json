@@ -42,32 +42,28 @@
       "target": "pmid-24299602",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24299602",
-      "note": "Meta-Analyse: Safran war Placebo überlegen und in kleinen Studien ähnlich wirksam wie Antidepressiva bei leichter bis moderater Depression."
+      "source": "pmid:24299602"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "pmid-30036891",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30036891",
-      "note": "Meta-Analyse mit positivem Signal bei depressiven Symptomen, aber limitierter Datenbasis."
+      "source": "pmid:30036891"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "pmid-32221179",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32221179",
-      "note": "Systematic Review: Safran war meist gut verträglich und zeigte Vorteile gegenüber Placebo bei depressiven Symptomen."
+      "source": "pmid:32221179"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "pmid-34419735",
       "direction": "outgoing",
       "confidence": 0.8,
-      "source": "pmid:34419735",
-      "note": "Meta-research Review: Stimmung zeigt das stärkste Signal; viele andere Outcomes bleiben schwächer oder vorläufig."
+      "source": "pmid:34419735"
     }
   ]
 }

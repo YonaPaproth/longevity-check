@@ -60,16 +60,14 @@
       "target": "studie-26975995",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26975995",
-      "note": "Review: Hydroxytyrosol zeigt in Humanstudien antioxidative, entzündungshemmende und antiatherosklerotische Wirkungen."
+      "source": "pmid:26975995"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21291821",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21291821",
-      "note": "RCT: Olive-Extrakt mit Hydroxytyrosol war mit niedrigeren Werten verbundene Blutdruck vergleichbar mit Captopril bei Hypertonie-Patienten."
+      "source": "pmid:21291821"
     }
   ]
 }

@@ -77,22 +77,19 @@
       "relation": "hat_interaktion_mit",
       "target": "eisen",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Nicht mit Eisenpräparaten kombinieren (EGCG hemmt Eisenresorption)."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "koffein",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Im Kontext gesunden Alterns sind zwei Mechanismen besonders relevant:\n- **AMPK-Aktivierung**: AMPK ist ein zellulärer Energiesensor – bei Aktivierung fördert er Fettverbrennung, hemmt mTOR und stimuli"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nr",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Nicht mit Eisenpräparaten kombinieren (EGCG hemmt Eisenresorption)."
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -129,32 +126,28 @@
       "target": "studie-23448243",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23448243",
-      "note": "Umfassender Review: Grüntee-Catechine zeigen in epidemiologischen Studien inverse Korrelation mit Herz-Kreislauf-Erkrankungen, Stoffwechselauffälligkeiten und einzelnen Krebsarten. Kausalität unklar."
+      "source": "pmid:23448243"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19007524",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19007524",
-      "note": "Review: EGCG hemmt COMT, aktiviert AMPK und stimuliert Fettoxidation. Kalorienverbrauch steigt moderat (~80 kcal/Tag bei 300 mg EGCG+Koffein)."
+      "source": "pmid:19007524"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21715508",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21715508",
-      "note": "Meta-Analyse (14 RCTs): Grüntee-Catechine war mit niedrigeren Werten verbundenen LDL-Cholesterin um ~0,19 mmol/L und Gesamtcholesterin signifikant."
+      "source": "pmid:21715508"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-29684494",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29684494",
-      "note": "EGCG aktiviert UCP1 (thermogenes Protein) und beeinflusst Fettgewebsbraunfärbung. Mechanismus für metabolische Effekte."
+      "source": "pmid:29684494"
     }
   ]
 }

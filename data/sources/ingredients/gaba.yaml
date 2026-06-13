@@ -1,0 +1,137 @@
+---
+id: gaba
+type: ingredient
+
+meta:
+  title:
+    de: "GABA"
+    en: "GABA"
+  aliases:
+    - "Gamma-Aminobuttersäure"
+    - "Gamma-Aminobutyric Acid"
+    - "GABA"
+  category: other
+  evidenceLevel: "4"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 250
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für GABA gibt es in der EU keine zugelassenen Claims zu Stress, Schlaf oder Entspannung.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "26797602"
+    title: "Effects of oral GABA administration on stress and sleep"
+    authors: "Yamatsu A et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26797602/"
+    finding:
+      de: >-
+        Kleine Humanstudien deuten auf Stress- und Schlaf-Effekte hin, aber die Datenbasis ist dünn.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "12408439"
+    title: "GABA and the blood-brain barrier"
+    authors: "Shyamaladevi N et al."
+    year: 2002
+    url: "https://pubmed.ncbi.nlm.nih.gov/12408439/"
+    finding:
+      de: >-
+        Die BBB-Frage ist zentral: orale GABA-Wirkung im Gehirn bleibt biologisch umstritten.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "16971751"
+    title: "Neurotransmitters as food supplements: the case of GABA"
+    authors: "Abdou AM et al."
+    year: 2006
+    url: "https://pubmed.ncbi.nlm.nih.gov/16971751/"
+    finding:
+      de: >-
+        Erste kleine Befunde, aber keine robuste klinische Grundlage.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      GABA klingt logisch für Entspannung und Schlaf. Das Hauptproblem: oral eingenommen erreicht es das Gehirn wahrscheinlich nur begrenzt.
+    evidenceSummary: >-
+      GABA ist der wichtigste hemmende Neurotransmitter des Gehirns. Als orales Supplement ist die Evidenz aber schwach, weil unklar ist, wie viel überhaupt die Blut-Hirn-Schranke überwindet. Kleine Studien zeigen Signale, aber keine starke Beweislast.
+    body: |
+      ## Was ist GABA?
+      
+      GABA ist der wichtigste hemmende Neurotransmitter des zentralen Nervensystems. Deshalb klingt ein GABA-Supplement intuitiv nach mehr Ruhe, weniger Angst und besserem Schlaf.
+      
+      ## Der Haken
+      
+      Die große offene Frage ist: **kommt oral eingenommenes GABA überhaupt relevant im Gehirn an?**
+      
+      ## Fazit
+      
+      GABA ist ein klassischer Fall von **super Story, schwächere Supplement-Evidenz**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: hat_interaktion_mit
+    target: apigenin
+    direction: incoming
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: ashwagandha
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: gaba-rezeptor
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nac
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-26797602
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26797602"
+  - relation: basiert_auf_studie
+    target: studie-12408439
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:12408439"
+  - relation: basiert_auf_studie
+    target: studie-16971751
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:16971751"
+  - relation: hat_interaktion_mit
+    target: l-theanin
+    direction: incoming
+    confidence: 0.7

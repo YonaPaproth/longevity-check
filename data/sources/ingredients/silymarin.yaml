@@ -1,0 +1,118 @@
+---
+id: silymarin
+type: ingredient
+
+meta:
+  title:
+    de: "Silymarin (Mariendistel)"
+    en: "Silymarin (Mariendistel)"
+  aliases:
+    - "Silymarin"
+    - "Milk Thistle"
+    - "Mariendistel-Extrakt"
+  category: other
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 300
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für Silymarin bzw. Mariendistel gibt es in der EU keine frei schwebenden zugelassenen Claims zu Entgiftung oder Leberreinigung im Supplement-Marketing-Stil.
+  en: >-
+    NEEDS_EN_TRANSLATION
+
+key_studies:
+  - pmid: "29562618"
+    title: "Milk thistle in liver disease"
+    authors: "Abenavoli L et al."
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/29562618/"
+    finding:
+      de: >-
+        Review: potenziell nützlich in bestimmten Leberkontexten, aber heterogene klinische Evidenz.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "28137772"
+    title: "Silymarin and the liver"
+    authors: "Federico A et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28137772/"
+    finding:
+      de: >-
+        Biologisch plausibel, aber klinischer Nutzen ist nicht in allen Settings überzeugend gezeigt.
+      en: >-
+        NEEDS_EN_TRANSLATION
+  - pmid: "21738288"
+    title: "Herbal products for nonalcoholic fatty liver disease"
+    authors: "Loguercio C et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/21738288/"
+    finding:
+      de: >-
+        Leberbezogene Pflanzenstoffe wie Silymarin sind interessant, aber nicht gleichzusetzen mit gesicherten medizinischen Kontextn.
+      en: >-
+        NEEDS_EN_TRANSLATION
+
+locales:
+  de:
+    summary: >-
+      Silymarin ist der klassische Leber-Stoff. Die Evidenz ist nicht null, aber deutlich gemischter als sein Ruf in Detox- und Liver-Support-Produkten.
+    evidenceSummary: >-
+      Silymarin ist vor allem für leberbezogene Fragestellungen untersucht. Es gibt biologische Plausibilität und einzelne positive Daten, aber keine robuste Basis für breite Detox- oder gesundes Altern-Versprechen.
+    body: |
+      ## Was ist Silymarin?
+      
+      Silymarin ist ein Wirkstoffkomplex aus der **Mariendistel**, der seit langem mit **Lebergesundheit** verbunden wird.
+      
+      ## Warum ist der Stoff so populär?
+      
+      Weil er perfekt in die Story von:
+      - Detox
+      - Leberreinigung
+      - Schutz vor „modernen Belastungen"
+      
+      passt.
+      
+      ## Fazit
+      
+      Silymarin ist **nicht wertlos, aber deutlich weniger magisch als Liver-Detox-Marketing**.
+
+  en:
+    summary: >-
+      NEEDS_EN_TRANSLATION
+    evidenceSummary: >-
+      NEEDS_EN_TRANSLATION
+    body: |
+      NEEDS_EN_BODY
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-29562618
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:29562618"
+  - relation: basiert_auf_studie
+    target: studie-28137772
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28137772"
+  - relation: basiert_auf_studie
+    target: studie-21738288
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:21738288"

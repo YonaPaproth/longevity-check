@@ -71,15 +71,13 @@
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "## Wer hat Risiko für Mangel?\n\nB12-Mangel ist eine der häufigsten, aber auch am häufigsten übersehenen Mangelernährungen in Deutschland:\n\n| Risikogruppe | Ursache | Kommentar |\n|---|---|---|\n| Veganer"
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "vitamin-b1",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "## Was ist Vitamin B12?\n\nVitamin B12 (Cobalamin) ist ein wasserlösliches Vitamin, das ausschließlich von Mikroorganismen synthetisiert wird und in der menschlichen Ernährung **nur in tierischen Produk"
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -98,40 +96,35 @@
       "target": "studie-28660890",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28660890",
-      "note": "Umfassender Review: B12-Mangel betrifft ca. 6% der unter 60-Jährigen und bis zu 20% der über 60-Jährigen. Folgen: Polyneuropathie, kognitive Störungen, megaloblastäre Anämie. Orale Supplementierung ef"
+      "source": "pmid:28660890"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-18489294",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:18489294",
-      "note": "Review: Hauptursachen in Deutschland – vegane/vegetarische Ernährung, atrophische Gastritis (Alter), Metformin-Einnahme. Methylmalonsäure ist der sensitivste diagnostische Marker."
+      "source": "pmid:18489294"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21205692",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21205692",
-      "note": "Metaanalyse: B-Vitamine (inkl. B12) senken Homocystein signifikant, aber Homocysteinreduktion führt nicht konsistent zu weniger Herzinfarkten – wichtiger umstrittener Befund."
+      "source": "pmid:21205692"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22238392",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22238392",
-      "note": "Kohortenstudie (USA, NHANES): Metformin-Nutzer hatten signifikant niedrigere B12-Spiegel. Bei mehr als 3 Jahren Einnahme war das Mangelrisiko 4,3-fach erhöht."
+      "source": "pmid:22238392"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20838622",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20838622",
-      "note": "RCT (n=168): B-Vitamine (inkl. B12) verlangsamten bei erhöhtem Homocystein die Hirnatrophie bei milder kognitiver Beeinträchtigung um 53%. Effekt nur bei hohem Homocystein-Ausgangswert."
+      "source": "pmid:20838622"
     }
   ]
 }

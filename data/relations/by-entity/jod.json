@@ -90,39 +90,34 @@
       "target": "studie-22187108",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22187108",
-      "note": "Review: Deutschland hat trotz Jodsalz-Programm weiterhin unzureichende Jodversorgung (medianer Urin-Jodgehalt 108 µg/L – Zielwert WHO: >150). Schwangere besonders betroffen."
+      "source": "pmid:22187108"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-16825686",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:16825686",
-      "note": "RCT (n=310 Schulkinder in Jodmangelgebiet): Jod-Supplementierung war mit Veränderungen verbundene kognitive Leistung signifikant. Unterstreicht Bedeutung für Gehirnentwicklung."
+      "source": "pmid:16825686"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22536526",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22536526",
-      "note": "Review: Schilddrüsenfunktion beeinflusst Alterungsprozesse direkt – über Stoffwechsel, Mitochondrienfunktion und Entzündungsregulation. Jodversorgung bleibt lebenslang relevant."
+      "source": "pmid:22536526"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24891972",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24891972",
-      "note": "Review: Zu hohe Jodzufuhr kann Hashimoto-Thyreoiditis triggern oder verschlimmern. Besonders bei genetischer Prädisposition. Zeigt die Bedeutung der richtigen Dosierung."
+      "source": "pmid:24891972"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "sulforaphan",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Bei sehr hohen Dosen mögliche Schilddrüsenprobleme (Isothiocyanate hemmen Jodaufnahme) – bei normaler Jodversorgung kein Risiko."
+      "confidence": 0.7
     }
   ]
 }
