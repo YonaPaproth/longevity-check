@@ -1,0 +1,462 @@
+---
+id: lion-s-mane
+type: ingredient
+
+meta:
+  title:
+    de: "Lion's Mane (Hericium erinaceus)"
+    en: "Lion's Mane (Hericium erinaceus)"
+  aliases:
+    - "Igelstachelbart"
+    - "Hericium erinaceus"
+    - "Yamabushitake"
+    - "Löwenmähne-Pilz"
+    - "Lions Mane"
+  category: other
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1000
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA-zugelassenen Health Claims für Hericium erinaceus. In der EU als Nahrungsergänzungsmittel (Pilzextrakt) erhältlich. Keine Novel-Food-Pflicht bei traditionell genutztem Speisepilz. Aussagen zu Neuroprotektion, NGF-Stimulation oder kognitiver Förderung sind regulatorisch nicht erlaubt.
+  en: >-
+    No EFSA-approved health claims exist for Hericium erinaceus. In the EU, it is marketed as a food supplement (mushroom extract) without novel food requirements, as it is a traditionally consumed edible mushroom. Claims relating to neuroprotection, NGF stimulation, or cognitive enhancement are not permitted under EU regulations.
+
+key_studies:
+  - pmid: "30093983"
+    title: "Hericium erinaceus and cognitive function in mild cognitive impairment: a double-blind placebo-controlled clinical trial"
+    authors: "Mori K et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/30093983/"
+    finding:
+      de: >-
+        RCT, n=49 Patienten mit MCI (Mild Cognitive Impairment), 50–80 Jahre: 3 g/Tag Hericium-Fruchtkörperpulver vs. Placebo, 16 Wochen. MMSE- und Cognitive Function Scale-Scores: signifikante Verbesserung in der Verum-Gruppe vs. Placebo (p&lt;0,05). 4 Wochen nach Studienende: Rückgang der kognitiven Werte in der Verum-Gruppe — Effekt nicht dauerhaft ohne Supplementierung.
+      en: >-
+        RCT, n=49 patients with MCI (Mild Cognitive Impairment), aged 50–80: 3 g/day Hericium fruiting body powder vs. placebo, 16 weeks. MMSE and Cognitive Function Scale scores improved significantly in the treatment group vs. placebo (p&lt;0.05). Four weeks after study end, cognitive scores in the treatment group returned toward baseline — the effect does not persist without continued supplementation.
+  - pmid: "31413233"
+    title: "Nerve growth factor-inducing activity of Hericium erinaceus bioactive compounds"
+    authors: "Zhang J et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/31413233/"
+    finding:
+      de: >-
+        Präklinische Studie: Hericenon E und Erinacine A stimulierten in primären Neuronen-Kulturen die NGF-mRNA-Expression signifikant (+250–400 % vs. Kontrolle). Erinacine C zeigte stärksten Effekt. Wichtig: Erinacine sind hauptsächlich im Myzel enthalten, Hericenone im Fruchtkörper — beide Fraktionen für optimale Wirkung relevant.
+      en: >-
+        Preclinical study: Hericenone E and Erinacine A significantly stimulated NGF mRNA expression in primary neuron cultures (+250–400% vs. control). Erinacine C showed the strongest effect among compounds tested. Notably, erinacines are concentrated in the mycelium while hericenones are found in the fruiting body — both fractions are relevant for optimal bioactivity.
+  - pmid: "32731006"
+    title: "Efficacy of Hericium erinaceus: a systematic review"
+    authors: "Spelman K et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/32731006/"
+    finding:
+      de: >-
+        Systematischer Review (23 Studien, davon 5 Humanstudien): Konsistente präklinische Evidenz für NGF-Stimulation, Neuroprotektoin und kognitive Effekte. Humanstudien zeigen positive Signale bei MCI, Depressivität und Magen-Darm-Mukosa. Kritik: Kleine Stichprobengrößen (n=30–77), fehlende Dosisoptimierung und Standardisierung der Extrakte limitieren Schlussfolgerungen.
+      en: >-
+        Systematic review (23 studies, 5 human trials): consistent preclinical evidence for NGF stimulation, neuroprotection, and cognitive effects. Human trials show positive signals in MCI, depressive symptoms, and gastrointestinal mucosa. Limitations: small sample sizes (n=30–77), lack of dose optimization, and poor extract standardization constrain conclusions.
+  - pmid: "36345309"
+    title: "Reduction of anxiety and depressive symptoms with Hericium erinaceus intake: a randomized, double-blind placebo-controlled study"
+    authors: "Nagano M et al."
+    year: 2023
+    url: "https://pubmed.ncbi.nlm.nih.gov/36345309/"
+    finding:
+      de: >-
+        RCT, n=77 Erwachsene ohne klinische Diagnose, 4 Wochen: 1,8 g/Tag Hericium-Extrakt vs. Placebo. Pittsburgh Sleep Quality Index: signifikante Verbesserung (p=0,04). Angst- und Depressionsskalen (HADS): signifikante Reduktion in der Verum-Gruppe. Begrenzte Studiendauer und Fehlen klinisch diagnostizierter Angsterkrankungen schränken Generalisierbarkeit ein.
+      en: >-
+        RCT, n=77 adults without clinical psychiatric diagnosis, 4 weeks: 1.8 g/day Hericium extract vs. placebo. Pittsburgh Sleep Quality Index: significant improvement (p=0.04). Anxiety and depression scales (HADS): significant reduction in the treatment group. Short study duration and absence of clinically diagnosed anxiety disorders limit generalizability.
+
+locales:
+  de:
+    summary: >-
+      Speisepilz mit Wirkstoffen (Hericenone, Erinacine), die NGF- und BDNF-Synthese stimulieren. Erste RCTs bei MCI und Angstsymptomen positiv — Evidenz bleibt früh und begrenzt.
+    evidenceSummary: >-
+      Hericium erinaceus stimuliert in Zellkulturen und Tiermodellen die Synthese von NGF und BDNF konsistent. Ein RCT (n=49, 2019) zeigt signifikante kognitive Verbesserungen bei MCI-Patienten nach 16 Wochen. Ein RCT (n=77, 2023) zeigt Reduktion von Angst- und Depressionssymptomen. Systematische Reviews bewerten die Evidenz als vielversprechend, aber noch begrenzt. Entscheidend: Produktqualität (Fruchtkörper vs. Myzelium) variiert stark.
+    body: |
+      ## Was ist Lion's Mane?
+      
+      *Hericium erinaceus*, auf Deutsch **Igelstachelbart** oder **Lion's Mane**, ist ein weißer, zotteliger Speisepilz, der in Ostasien, Nordamerika und Europa in Laub- und Mischwäldern auf Totholz wächst. Er wird traditionell in der chinesischen und japanischen Medizin eingesetzt — und hat in den letzten Jahren als kognitives Supplement erhebliche Popularität gewonnen.
+      
+      Was Lion's Mane von anderen Adaptogen-Pilzen unterscheidet, ist ein **einzigartiges phytochemisches Profil**: Die Wirkstoffe **Hericenone** (im Fruchtkörper) und **Erinacine** (im Myzel) stimulieren in Zell- und Tiermodellen die Synthese von **Nerve Growth Factor (NGF)** und **Brain-Derived Neurotrophic Factor (BDNF)** — neurotrophe Proteine, die für Wachstum, Erhalt und Plastizität von Nervenzellen essenziell sind.
+      
+      ### NGF und BDNF: warum sie relevant sind
+      
+      NGF und BDNF nehmen mit dem Alter ab. Niedrige Spiegel sind mit kognitiver Beeinträchtigung, Depression und neurodegenerativen Erkrankungen assoziiert. Substanzen, die diese Faktoren erhöhen, gelten als potenzielle neuroprotektive Kandidaten — weshalb Lion's Mane im Kontext von Kognitions-Supplementierung besonderes Interesse genießt.
+      
+      ### Zwei Fraktionen, zwei Wirkstoffe
+      
+      | Pilzteil | Hauptwirkstoffe | Besonderheit |
+      |---|---|---|
+      | Fruchtkörper | Hericenone (C–H), Sterole | Stimulieren NGF-Synthese in Neuronen |
+      | Myzel | Erinacine (A–K), Cyathane-Terpene | Stärkste NGF-Induktion; durchqueren Blut-Hirn-Schranke |
+      
+      **Konsequenz für Produktqualität**: Der Markt enthält viele Produkte, die ausschließlich auf **Myzelium auf Getreide (mycelated grain)** basieren — ein Substrat, das hauptsächlich aus Stärke besteht und kaum Erinacine oder Hericenone enthält. Für jedes seriöse Supplement ist die Angabe des Ausgangssubstrats und idealerweise eine Standardisierung auf Beta-Glucan-Gehalt (&gt;20 %) unverzichtbar.
+      
+      ---
+      
+      ## Mechanismus: NGF-Stimulation und Neuroplastizität
+      
+      ### Wie Erinacine und Hericenone wirken
+      
+      Zhang et al. (PMID 31413233) untersuchten die NGF-induzierende Aktivität gereinigter Hericium-Verbindungen in primären Neuronen-Kulturen:
+      
+      - **Hericenon E** und **Erinacine A** erhöhten die NGF-mRNA-Expression um **+250–400 %** gegenüber unbehandelten Kontrollen
+      - **Erinacine C** zeigte den stärksten Effekt unter den getesteten Verbindungen
+      - Der Mechanismus verläuft über Aktivierung des TrkA-Rezeptors (High-Affinity-NGF-Rezeptor) und des MAPK/ERK-Signalwegs
+      
+      In Tiermodellen zeigten Erinacine (aufgrund ihrer kleinen Molekülgröße) die Fähigkeit, die **Blut-Hirn-Schranke zu durchqueren** — ein wichtiger Vorteil gegenüber NGF selbst, das diese Barriere nicht passiert.
+      
+      ### BDNF-Effekte
+      
+      Neben NGF wurden in Tier- und Zellmodellen auch BDNF-erhöhende Effekte dokumentiert. BDNF ist besonders relevant für Hippocampus-Neurogenese und -plastizität — Prozesse, die mit Gedächtnisbildung und Depression-Resilienz assoziiert werden.
+      
+      ---
+      
+      ## Studienlage
+      
+      ### Kognition bei MCI: Mori et al. 2019 (PMID 30093983)
+      
+      Der methodisch stärkste Einzeltrial zur kognitiven Wirkung:
+      
+      - **Design**: Randomisiert, doppelblind, Placebo-kontrolliert
+      - **Population**: n=49, Alter 50–80 Jahre, Mild Cognitive Impairment (MCI) nach ICD-10
+      - **Intervention**: 3 g/Tag Hericium erinaceus Fruchtkörperpulver (standardisiert) vs. Placebo, **16 Wochen**
+      - **Primäre Endpunkte**: MMSE (Mini-Mental State Examination), Cognitive Function Scale (CFS)
+      - **Ergebnis**: Signifikante Verbesserung in der Verum-Gruppe auf beiden Skalen (p&lt;0,05). Kein Teilnehmer zeigte schwerwiegende Nebenwirkungen
+      - **Kritischer Befund**: 4 Wochen nach Absetzen **kehrten die Werte in der Verum-Gruppe zurück auf Ausgangsniveau** — der Effekt scheint kontinuierliche Einnahme vorauszusetzen
+      
+      **Grenzen dieser Studie**: n=49 ist für klinische Schlussfolgerungen sehr klein; einzige Forschungsgruppe ohne unabhängige Replikation; Ausgangs-Population hat MCI, kein Transfer auf kognitiv Gesunde belegt.
+      
+      ### Angst und Depression: Nagano et al. 2023 (PMID 36345309)
+      
+      - **Design**: Randomisiert, doppelblind, Placebo-kontrolliert
+      - **Population**: n=77 gesunde Erwachsene ohne klinische psychiatrische Diagnose
+      - **Intervention**: 1,8 g/Tag Hericium-Extrakt vs. Placebo, **4 Wochen**
+      - **Primäre Endpunkte**: HADS (Hospital Anxiety and Depression Scale), Pittsburgh Sleep Quality Index
+      - **Ergebnis**: Signifikante Reduktion von Angst- (p=0,04) und Depressivitäts-Scores (p=0,02) in der Verum-Gruppe. Schlafqualität signifikant verbessert (p=0,04)
+      - **Einschränkungen**: Nur 4 Wochen; Probanden ohne klinische Diagnose; Basisscores im niedrig-normalen Bereich — klinische Relevanz dieser Verbesserungen ist begrenzt
+      
+      ### Systematische Einordnung (PMID 32731006)
+      
+      Spelman et al. werteten 23 Studien aus. Fazit: Die präklinische Evidenz ist konsistent und stark; die Humanstudien zeigen positive Signale, aber alle haben kleine Fallzahlen (n=30–77), kurze Laufzeiten (4–16 Wochen) und keine Standardisierung der Extrakte. Kein einziger RCT wurde von einer unabhängigen Gruppe repliziert.
+      
+      ---
+      
+      ## Was nicht belegt ist
+      
+      - **Wirksamkeit bei kognitiv gesunden Jüngeren** (&lt;50 Jahre): Keine RCT-Daten
+      - **Prävention oder Behandlung von Alzheimer oder anderen Demenzen**: Nur präklinische Daten
+      - **Langzeiteffekte**: Kein Trial über 16 Wochen hinaus
+      - **Anti-Aging oder Lebenserwartung**: Nicht untersucht
+      - **Krebstherapie**: Präklinisch interessant, aber keine Humanevidenz
+      - **Überlegenheit von Supplements über vollwertige Pilznahrung**: Nicht belegt
+      
+      ---
+      
+      ## Fruchtkörper vs. Myzel: das Qualitätsproblem
+      
+      Dies ist praktisch das wichtigste Qualitätskriterium beim Kauf:
+      
+      **Hochwertige Produkte:**
+      - Hergestellt aus Fruchtkörper-Extrakt (Fruiting Body Extract)
+      - Oder Dual-Extrakt (Fruchtkörper + Myzel)
+      - Standardisiert auf Beta-Glucan-Gehalt (&gt;20 %)
+      - Angabe von Hericenon/Erinacin-Gehalt (wünschenswert)
+      
+      **Minderwertige Produkte:**
+      - Nur „Mycelium on grain" oder „mycelated grain" ohne Extraktion
+      - Hauptbestandteil: Getreidestärke
+      - Beta-Glucan-Gehalt oft &lt;5 %
+      - Kaum messbare aktive Verbindungen
+      
+      In US-Marktanalysen wurden in einem signifikanten Anteil der günstigen Lion's-Mane-Produkte wenig bis keine bioaktiven Pilzverbindungen nachgewiesen. Bei EU-Produkten gilt dasselbe Grundproblem.
+      
+      ---
+      
+      ## Dosierung & Einnahme
+      
+      | Parameter | Studienlage |
+      |---|---|
+      | **In Humanstudien verwendet** | 1,0–3,0 g/Tag Fruchtkörperpulver oder -extrakt |
+      | **MCI-Studie** | 3 g/Tag Fruchtkörperpulver, 16 Wochen |
+      | **Angst-/Schlaf-Studie** | 1,8 g/Tag Extrakt, 4 Wochen |
+      | **Bevorzugte Form** | Fruchtkörper-Extrakt, standardisiert auf Beta-Glucane |
+      | **Einnahmetiming** | Keine Präferenz aus Studien; morgens naheliegend bei kognitiven Zielen |
+      | **Wirkungseintritt** | 4–8 Wochen für kognitive Effekte; bei Absetzen Rückgang der Wirkung |
+      
+      ---
+      
+      ## EFSA & Regulierung in der EU
+      
+      Lion's Mane ist in der EU als **Lebensmittel (Speisepilz)** und als Nahrungsergänzungsmittel (Pilzextrakt) ohne Novel-Food-Anforderungen verkehrsfähig, da es sich um einen traditionell genutzten Speisepilz handelt.
+      
+      **Nicht zulässige Aussagen auf Produkten:**
+      - „Fördert die Bildung neuer Nervenzellen"
+      - „Stimuliert NGF"
+      - „Verbessert Gedächtnis oder kognitive Funktion"
+      - „Schützt vor Alzheimer"
+      
+      Alle kognitiven und neuroprotektiven Claims für Pilzextrakte sind in der EU nicht durch EFSA-Zulassungen gedeckt.
+      
+      ---
+      
+      ## Sicherheit & Nebenwirkungen
+      
+      Hericium erinaceus gilt als **Lebensmittelpilz mit sehr gutem Sicherheitsprofil**.
+      
+      **In Studien berichtet:** Keine schwerwiegenden Nebenwirkungen; gelegentlich leichte Magenprobleme bei hohen Dosen.
+      
+      **Fallberichte:**
+      - Vereinzelte Fälle von **Kontaktdermatitis** bei topischer Exposition (Pilzberufung, Küche)
+      - Ein Fall eines **allergischen Asthmaanfalls** durch inhalativen Kontakt mit Pilzsporen
+      
+      **Bei Pilzallergien**: Vorsicht; Kreuzreaktionen sind möglich, aber nicht systematisch untersucht.
+      
+      **Schwangerschaft / Stillzeit**: Keine humanen Sicherheitsdaten — aus Vorsicht nicht empfohlen.
+      
+      **Immunsupprimierte Personen**: Pilzextrakte können das Immunsystem modulieren — bei aktiver Immunsuppression Rücksprache mit Arzt.
+      
+      ---
+      
+      ## Fazit
+      
+      Lion's Mane ist unter den kognitiven Supplements eines der wissenschaftlich interessanteren — dank eines biologisch plausiblen und präklinisch gut belegten Mechanismus (NGF-/BDNF-Stimulation) sowie ersten positiven Humanstudien. Der RCT bei MCI-Patienten (Mori et al. 2019) ist bemerkenswert, aber zu klein für starke Schlussfolgerungen, und der Effekt kehrt nach Absetzen zurück.
+      
+      Die ehrliche Einschätzung: Lion's Mane gehört zu den Pilz-Supplements, bei denen sich eine Beobachtung lohnt — mit wachsender Studienbasis. Für gesunde junge Erwachsene gibt es keine RCT-Belege; für ältere Erwachsene mit subjektiven Gedächtnisanliegen oder leichter kognitiver Beeinträchtigung sind erste Humanbelege vorhanden. **Produktqualität ist entscheidend**: nur Fruchtkörperextrakte oder Dual-Extrakte mit bekanntem Beta-Glucan-Gehalt sind potenzielle Wirkstoffquellen. Günstige Myzelium-auf-Getreide-Produkte bieten vermutlich wenig bis keinen Effekt.
+
+  en:
+    summary: >-
+      Edible mushroom with active compounds (hericenones, erinacines) that stimulate NGF and BDNF synthesis. Early RCTs in MCI and anxiety show positive signals — evidence remains preliminary.
+    evidenceSummary: >-
+      Hericium erinaceus consistently stimulates NGF and BDNF synthesis in cell cultures and animal models. One RCT (n=49, 2019) found significant cognitive improvements in MCI patients after 16 weeks, though effects reversed upon discontinuation. A second RCT (n=77, 2023) demonstrated reductions in anxiety and depression scores. Systematic reviews rate the evidence as promising but limited by small sample sizes and lack of independent replication.
+    body: |
+      ## What Is Lion's Mane?
+
+      *Hericium erinaceus* — known as Lion's Mane, Yamabushitake, or hedgehog mushroom — is a distinctive white, shaggy edible fungus that grows on dead and dying hardwoods across East Asia, North America, and Europe. Long used in traditional Chinese and Japanese medicine, it has gained substantial attention in recent years as a nootropic supplement, primarily for its potential effects on cognitive function and neurological health.
+
+      What sets Lion's Mane apart from other adaptogenic mushrooms is a **unique phytochemical profile**: two classes of bioactive compounds — **hericenones** (found in the fruiting body) and **erinacines** (found in the mycelium) — have been shown in cell and animal models to stimulate the synthesis of **Nerve Growth Factor (NGF)** and **Brain-Derived Neurotrophic Factor (BDNF)**. These neurotrophins are essential for the growth, maintenance, and plasticity of nerve cells.
+
+      ### Why NGF and BDNF Matter
+
+      NGF and BDNF levels decline with age. Low levels are associated with cognitive decline, depression, and neurodegenerative conditions. Compounds that upregulate these factors are considered potential neuroprotective candidates — making Lion's Mane one of the more scientifically interesting entries in the cognitive supplement space.
+
+      ### Two Fractions, Two Sets of Actives
+
+      | Mushroom Part | Main Compounds | Key Property |
+      |---|---|---|
+      | Fruiting body | Hericenones (C–H), sterols | Stimulate NGF synthesis in neurons |
+      | Mycelium | Erinacines (A–K), cyathane diterpenes | Strongest NGF induction; cross blood-brain barrier |
+
+      **Product quality implication**: Many supplements on the market are made from **mycelium grown on grain (mycelated grain)** — a substrate consisting largely of starch with minimal erinacines or hericenones. Reputable supplements specify their source material and ideally provide standardization to beta-glucan content (&gt;20%).
+
+      ---
+
+      ## Mechanism: NGF Stimulation and Neuroplasticity
+
+      ### How Erinacines and Hericenones Work
+
+      Zhang et al. (PMID 31413233) investigated the NGF-inducing activity of purified Hericium compounds in primary neuron cultures:
+
+      - **Hericenone E** and **Erinacine A** increased NGF mRNA expression by **+250–400%** relative to untreated controls
+      - **Erinacine C** showed the strongest effect among all compounds tested
+      - The mechanism operates via activation of the TrkA receptor (high-affinity NGF receptor) and the MAPK/ERK signaling pathway
+
+      In animal models, erinacines — due to their small molecular size — demonstrated the ability to **cross the blood-brain barrier**, a significant advantage over exogenous NGF protein, which cannot.
+
+      ### BDNF Effects
+
+      Beyond NGF, BDNF-elevating effects have been documented in animal and cell studies. BDNF is particularly relevant for hippocampal neurogenesis and synaptic plasticity — processes linked to memory formation and resilience against depression.
+
+      ---
+
+      ## Clinical Evidence
+
+      ### Cognition in MCI: Mori et al. 2019 (PMID 30093983)
+
+      The methodologically strongest single trial on cognitive effects:
+
+      - **Design**: Randomized, double-blind, placebo-controlled
+      - **Population**: n=49, aged 50–80, diagnosed with Mild Cognitive Impairment (MCI) per ICD-10 criteria
+      - **Intervention**: 3 g/day Hericium erinaceus fruiting body powder (standardized) vs. placebo for **16 weeks**
+      - **Primary endpoints**: MMSE (Mini-Mental State Examination), Cognitive Function Scale (CFS)
+      - **Result**: Significant improvement in the treatment group on both scales (p&lt;0.05). No serious adverse events
+      - **Critical finding**: Four weeks after discontinuation, **cognitive scores in the treatment group returned to near-baseline** — the effect appears to require ongoing supplementation
+
+      **Study limitations**: n=49 is too small for robust clinical conclusions; conducted by a single research group without independent replication; results apply to MCI patients, not cognitively healthy individuals.
+
+      ### Anxiety and Depression: Nagano et al. 2023 (PMID 36345309)
+
+      - **Design**: Randomized, double-blind, placebo-controlled
+      - **Population**: n=77 healthy adults without clinical psychiatric diagnoses
+      - **Intervention**: 1.8 g/day Hericium extract vs. placebo for **4 weeks**
+      - **Primary endpoints**: HADS (Hospital Anxiety and Depression Scale), Pittsburgh Sleep Quality Index (PSQI)
+      - **Result**: Significant reductions in anxiety scores (p=0.04) and depression scores (p=0.02) in the treatment group. Sleep quality significantly improved (p=0.04)
+      - **Limitations**: Only 4 weeks; non-clinical population with low baseline scores; clinical relevance of these improvements is uncertain
+
+      ### Systematic Review (PMID 32731006)
+
+      Spelman et al. analyzed 23 studies, including 5 human trials. Key conclusion: preclinical evidence for NGF stimulation and neuroprotection is consistent and robust; human trials show positive directional signals in MCI, mood, and gastrointestinal health, but all are limited by small sample sizes (n=30–77), short durations (4–16 weeks), and insufficient extract standardization. No RCT has been independently replicated.
+
+      ---
+
+      ## What Is Not Established
+
+      - **Efficacy in cognitively healthy younger adults** (&lt;50 years): no RCT data
+      - **Prevention or treatment of Alzheimer's disease or other dementias**: preclinical data only
+      - **Long-term effects**: no trial has run beyond 16 weeks
+      - **Anti-aging or lifespan extension**: not studied in humans
+      - **Cancer therapy**: preclinically interesting, no human evidence
+      - **Superiority of supplements over whole mushroom in food**: not established
+
+      ---
+
+      ## Fruiting Body vs. Mycelium: The Quality Problem
+
+      This is arguably the most important practical consideration when buying Lion's Mane:
+
+      **Higher-quality products:**
+      - Made from fruiting body extract
+      - Or dual-extract (fruiting body + mycelium), with extraction process specified
+      - Standardized to beta-glucan content (&gt;20%)
+      - Hericenone/erinacine content disclosed (ideal)
+
+      **Lower-quality products:**
+      - "Mycelium on grain" or "mycelated grain" without extraction
+      - Primary ingredient: cereal starch
+      - Beta-glucan content often &lt;5%
+      - Minimal measurable bioactive compounds
+
+      US market analyses have found that a significant proportion of budget Lion's Mane products contain little to no detectable mushroom bioactives. The same problem applies to EU products.
+
+      ---
+
+      ## Dosage and Administration
+
+      | Parameter | Evidence base |
+      |---|---|
+      | **Range used in human trials** | 1.0–3.0 g/day fruiting body powder or extract |
+      | **MCI trial dose** | 3 g/day fruiting body powder, 16 weeks |
+      | **Anxiety/sleep trial dose** | 1.8 g/day extract, 4 weeks |
+      | **Preferred form** | Fruiting body extract, standardized to beta-glucans |
+      | **Timing** | No study-based preference; morning plausible for cognitive goals |
+      | **Onset** | 4–8 weeks for cognitive effects; effects reverse upon discontinuation |
+
+      ---
+
+      ## EFSA Status and EU Regulation
+
+      Lion's Mane is legally marketable in the EU as both a **food (edible mushroom)** and as a food supplement (mushroom extract) without novel food classification, given its history of traditional consumption.
+
+      **Claims not permitted on EU products:**
+      - "Promotes nerve cell regeneration"
+      - "Stimulates NGF production"
+      - "Improves memory or cognitive function"
+      - "Protects against Alzheimer's disease"
+
+      All cognitive and neuroprotective claims for mushroom extracts are unsupported by EFSA authorizations under Regulation (EC) No 1924/2006.
+
+      ---
+
+      ## Safety and Side Effects
+
+      Hericium erinaceus has a **strong safety profile** consistent with its use as a food mushroom.
+
+      **In clinical trials**: No serious adverse events reported; occasional mild gastrointestinal discomfort at higher doses.
+
+      **Case reports:**
+      - Isolated cases of **contact dermatitis** from topical exposure (occupational, culinary)
+      - One reported case of **allergic asthma** triggered by inhalation of mushroom spores
+
+      **Mushroom allergies**: Caution advised; cross-reactivity is possible but not systematically studied.
+
+      **Pregnancy/breastfeeding**: No human safety data — not recommended out of precaution.
+
+      **Immunosuppressed individuals**: Mushroom extracts can modulate immune function — consult a physician before use if on active immunosuppressive therapy.
+
+      ---
+
+      ## Conclusion
+
+      Lion's Mane is among the more scientifically credible cognitive supplements, supported by a biologically plausible and preclinically well-documented mechanism (NGF/BDNF stimulation) and early positive human trials. The MCI RCT (Mori et al. 2019) is genuinely noteworthy, but too small to draw firm conclusions, and the effect reverses after discontinuation.
+
+      The honest assessment: Lion's Mane is worth watching as the evidence base grows. For cognitively healthy younger adults, no RCT evidence exists. For older adults with subjective memory concerns or mild cognitive impairment, early human data provide some support. **Product quality is critical**: only fruiting body extracts or dual-extracts with disclosed beta-glucan content are likely to contain meaningful bioactive levels. Cheap mycelium-on-grain products probably offer little to no effect.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: depression
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: neuroprotektiv
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: blut-hirn-schranke
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: kontraindiziert_bei
+    target: kontra-schwangerschaft
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-chemotherapie
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-organtransplantation
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-30093983
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30093983"
+  - relation: basiert_auf_studie
+    target: studie-31413233
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:31413233"
+  - relation: basiert_auf_studie
+    target: studie-32731006
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:32731006"
+  - relation: basiert_auf_studie
+    target: studie-36345309
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:36345309"

@@ -1,0 +1,438 @@
+---
+id: koffein
+type: ingredient
+
+meta:
+  title:
+    de: "Koffein"
+    en: "Caffeine"
+  aliases:
+    - "Caffeine"
+    - "Coffein"
+    - "Koffein-Anhydrat"
+    - "Caffeine Anhydrous"
+    - "1,3,7-Trimethylxanthin"
+  category: metabolic
+  evidenceLevel: "1"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 200
+  publishedAt: "2026-05-23"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Die EFSA hat 2011 in einem Scientific Opinion Koffein umfassend bewertet. Zugelassene Health Claims nach VO (EG) Nr. 1924/2006 gibt es fuer Koffein aktuell nicht im Anhang der EU-Liste (Stand 2024), obwohl die EFSA-Gutachten positive Befunde zu Wachheit, Konzentration und Ausdauer dokumentieren. Getraenke mit Koffein ab 150 mg/L muessen in der EU den Pflichthinweis Erhoehter Koffeingehalt tragen.
+  en: >-
+    EFSA conducted a comprehensive safety assessment of caffeine in 2011 and published a dedicated opinion in 2015. No authorised health claims for caffeine are currently listed in the EU register under Regulation (EC) No 1924/2006 (as of 2024), despite EFSA's scientific opinions documenting positive findings on alertness, concentration, and endurance. Beverages containing ≥150 mg/L caffeine must carry the mandatory EU label statement "High caffeine content. Not recommended for children or pregnant or breastfeeding women."
+
+key_studies:
+  - pmid: ""
+    title: "Scientific Opinion on the safety of caffeine – EFSA Panel on Dietetic Products"
+    authors: "EFSA NDA Panel"
+    year: 2015
+    url: "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4102"
+    finding:
+      de: >-
+        EFSA-Gutachten: Einzeldosen bis 200 mg Koffein gelten bei gesunden Erwachsenen als sicher. 400 mg/Tag aus allen Quellen gilt als Obergrenze für Erwachsene ohne Risiko. Schwangere: max. 200 mg/Tag.
+      en: >-
+        EFSA safety opinion: single doses up to 200 mg caffeine are considered safe in healthy adults. 400 mg/day from all sources is the recommended upper limit for adults without identified risk. Pregnant women: maximum 200 mg/day.
+  - pmid: "32045577"
+    title: "Caffeine supplementation and physical performance, a meta-analysis"
+    authors: "Grgic J et al."
+    year: 2020
+    url: "https://pubmed.ncbi.nlm.nih.gov/32045577/"
+    finding:
+      de: >-
+        Meta-Analyse (>300 Studien): Koffein verbesserte Ausdauer-, Kraft- und Schnellkraftleistung. Effekte auf Ausdauerleistung waren am konsistentesten (SMD ~0,41).
+      en: >-
+        Meta-analysis (>300 studies): caffeine improved endurance, strength, and power performance. Effects on endurance performance were the most consistent (SMD ~0.41).
+  - pmid: "26830602"
+    title: "Effects of caffeine on cognitive performance, mood and alertness"
+    authors: "McLellan TM et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26830602/"
+    finding:
+      de: >-
+        Systematischer Review (>120 Studien): Koffein verbesserte in Studien Vigilanz, Reaktionszeit und Konzentrationsleistung, insbesondere bei Schlafentzug.
+      en: >-
+        Systematic review (>120 studies): caffeine improved vigilance, reaction time, and attentional performance across studies, particularly under conditions of sleep deprivation.
+  - pmid: "20091547"
+    title: "Caffeine for the prevention of injuries and errors in shift workers"
+    authors: "Ker K et al."
+    year: 2010
+    url: "https://pubmed.ncbi.nlm.nih.gov/20091547/"
+    finding:
+      de: >-
+        Cochrane Review: Koffein reduzierte Fehlerrate und war mit weniger Schläfrigkeit in Schichtarbeit-Settings verbunden.
+      en: >-
+        Cochrane review: caffeine reduced error rates and was associated with less drowsiness in shift-work settings.
+  - pmid: "24832163"
+    title: "Association of habitual coffee consumption with risk of type 2 diabetes and cardiovascular disease"
+    authors: "Ding M et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24832163/"
+    finding:
+      de: >-
+        Große Kohortenstudie (NHS, >100.000 Personen): Moderater Kaffeekonsum war mit geringerem T2D-Risiko assoziiert – konfundiert durch weitere Kaffeeinhaltsstoffe, nicht isoliert auf Koffein zurückführbar.
+      en: >-
+        Large cohort study (NHS, >100,000 participants): moderate coffee consumption was associated with lower type 2 diabetes risk — confounded by other coffee constituents; effect cannot be attributed to caffeine alone.
+
+locales:
+  de:
+    summary: >-
+      Koffein ist die weltweit am häufigsten konsumierte psychoaktive Substanz. Hunderte RCTs belegen Effekte auf Wachheit, Reaktionszeit, Ausdauerleistung und kurzfristige Kognition.
+    evidenceSummary: >-
+      Koffein ist eines der am besten untersuchten Supplements überhaupt. Hunderte RCTs, mehrere Cochrane-Reviews und ein EFSA-Gutachten belegen kognitive und physische Leistungseffekte. Die EFSA hat mehrere Sicherheits- und Wirkungsaussagen formal bewertet.
+    body: |
+      > **Regulatorischer Hinweis:** Koffein in Lebensmitteln und Nahrungsergänzungsmitteln unterliegt in der EU besonderen Kennzeichnungspflichten. Getränke mit ≥150 mg/L Koffein müssen den Hinweis 'Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfehlenswert" tragen. Die nachfolgenden Ausführungen sind Studienzusammenfassungen und keine Health Claims im Sinne der VO (EG) Nr. 1924/2006.
+      
+      ## Was ist Koffein?
+      
+      Koffein (chemisch: 1,3,7-Trimethylxanthin) ist ein **Xanthin-Alkaloid**, das natürlich in Kaffeebohnen, Teeblättern, Kakao, Guarana und Mate vorkommt. Es ist die **weltweit am häufigsten konsumierte psychoaktive Substanz** – täglich nehmen Milliarden von Menschen Koffein in irgendeiner Form zu sich.
+      
+      Als Nahrungsergänzungsmittel wird **Koffein-Anhydrat** verwendet: ein weißes, kristallines Pulver mit standardisiertem Koffeingehalt ohne die Begleitstoffe natürlicher Quellen.
+      
+      ## Mechanismus: Adenosin-Antagonismus
+      
+      Der primäre Wirkmechanismus von Koffein ist **kompetitive Hemmung der Adenosin-Rezeptoren** (vor allem A1 und A2A) im zentralen Nervensystem.
+      
+      **Adenosin** ist ein Schlafsignal-Molekül: Es akkumuliert im Gehirn während der Wachzeit, bindet an Rezeptoren und erzeugt zunehmend Schläfrigkeit. Koffein blockiert diese Rezeptoren, ohne Adenosin selbst zu erzeugen oder abzubauen – dadurch wird das Schlafempfinden vorübergehend supprimiert.
+      
+      Weitere Effekte:
+      - **Adrenalin-Ausschüttung:** Koffein stimuliert indirekt das Nebennierenmark → leichte Stresshormon-Reaktion.
+      - **Dopaminerg:** Koffein erhöht die Dopaminverfügbarkeit in bestimmten Hirnarealen (Belohnungssystem), was zur positiven Stimmungswirkung beitragen kann.
+      - **Muskuläre Effekte:** Koffein verbessert die Kalzium-Freisetzung aus dem sarkoplasmatischen Retikulum der Muskelzellen, was die Kontraktionsstärke steigern kann.
+      - **Fettverbrennung:** Koffein erhöht die Lipolyse (Fettmobilisierung) über Adrenalin-vermittelte Signalwege – ein Effekt, der bei chronischer Einnahme aber nachlässt.
+      
+      ## Was sagen die Studien wirklich?
+      
+      ### Klar belegt (hunderte RCTs, mehrere Meta-Analysen)
+      - **Wachheit, Vigilanz und Reaktionszeit:** Koffein reduziert in Studien zuverlässig Schläfrigkeit und verbessert Vigilanz – insbesondere bei Schlafentzug oder langen Schichten.
+      - **Ausdauerleistung:** Meta-Analysen berichten konsistente Verbesserungen bei Laufen, Radfahren und anderen Ausdauerdisziplinen (~1–4 % Zeitgewinn; SMD ~0,3–0,4).
+      - **Kraft und Schnellkraft:** Moderate Effekte bei Maximalkraft und Leistungsabgabe in Sprints, konsistenter bei Oberkörperübungen.
+      - **Kognition:** Verbesserte Verarbeitungsgeschwindigkeit, Kurzzeitgedächtnis und Konzentration – stärker ausgeprägt unter Schlafentzug oder Müdigkeit.
+      
+      ### Gut untersucht, aber mit Einschränkungen
+      - **Toleranzentwicklung:** Bei regelmäßiger Einnahme bildet sich Toleranz gegen Wachheitseffekte. Die leistungssteigernden Effekte auf Ausdauer bleiben länger erhalten.
+      - **Gewichtsmanagement:** Koffein kann kurzfristig den Energieverbrauch leicht erhöhen und die Fettoxidation steigern – langfristige Gewichtseffekte sind jedoch minimal und stark toleranzabhängig.
+      - **Stimmung:** Kleine bis moderate Verbesserungen von Stimmung und Wohlbefinden in Studien; bei Überdosierung kehrt sich der Effekt um.
+      
+      ### Offene Fragen
+      - Langzeitige Auswirkungen von hochdosiertem Koffein-Anhydrat auf Herzrhythmus, Blutdruck und Schlafarchitektur sind noch nicht abschließend bewertet.
+      - Kaffee-assoziierte epidemiologische Vorteile (Diabetes, Mortalität) sind schwer auf Koffein allein zurückzuführen – Kaffee enthält Hunderte von Verbindungen (Chlorogensäuren, Diterpene etc.).
+      
+      ## Dosierung
+      
+      - **Übliche Supplement-Dosis:** 100–200 mg vor Belastung oder kognitiv anspruchsvollen Aufgaben.
+      - **Ausdauerleistung (in Studien):** 3–6 mg/kg Körpergewicht ~60 Minuten vor der Belastung; bei 70 kg entspricht das ~210–420 mg.
+      - **EFSA-Sicherheitsgrenze:** Einzeldosen bis **200 mg** gelten als sicher; **400 mg/Tag** aus allen Quellen ist der empfohlene Maximalwert für gesunde Erwachsene.
+      - **Schwangere:** Maximal 200 mg/Tag aus allen Quellen (Kaffee, Tee, Schokolade, Supplements zusammen).
+      - **Anwendungszeitpunkt:** Halbwertszeit 3–5 Stunden; Einnahme nach 14–15 Uhr kann die Nachtschlafqualität unter Umständen beeinträchtigen.
+      
+      ## Koffein-Quellen und Äquivalente
+      
+      | Quelle | Typischer Koffeingehalt |
+      |--------|------------------------|
+      | Espresso (30 ml) | 60–80 mg |
+      | Filterkaffee (200 ml) | 80–120 mg |
+      | Schwarztee (200 ml) | 30–60 mg |
+      | Grüntee (200 ml) | 20–40 mg |
+      | Energy Drink (250 ml) | 80 mg |
+      | Koffein-Anhydrat-Kapsel | 100–200 mg (standardisiert) |
+      
+      ## Toleranz und Abhängigkeit
+      
+      Koffein führt bei regelmäßiger Einnahme zu **Toleranz**: Die Rezeptordichte der Adenosin-Rezeptoren nimmt zu (Upregulation), sodass gleiche Dosen schwächere Effekte erzielen. Das erklärt, warum Kaffeepausen-Effekte bei regelmäßigen Konsumenten schwächer ausfallen als bei Gelegenheitskonsumenten.
+      
+      Bei **Absetzen** nach regelmäßiger Einnahme (≥200 mg/Tag über mehrere Wochen) können typische Entzugssymptome auftreten:
+      - Kopfschmerzen (häufigstes Symptom)
+      - Müdigkeit und Lethargie
+      - Konzentrationsschwierigkeiten
+      - Niedergeschlagenheit
+      
+      Diese Symptome klingen in der Regel innerhalb **2–9 Tagen** ab. Koffein-Abhängigkeit gilt im psychiatrischen Sinne nicht als Sucht, erfüllt aber Kriterien für Toleranz und Entzugssymptome.
+      
+      ## Wechselwirkungen
+      
+      - **Adenosin-Analoga / Herzmedikamente:** Koffein hebt Adenosin-Effekte auf; kann z. B. diagnostische Adenosin-Gaben beeinflussen.
+      - **Ephedrin / Synephrin:** Kombination mit adrenergen Stimulanzien erhöht das kardiovaskuläre Risiko; solche Kombinationen in Supplements sind in der EU weitgehend verboten.
+      - **Antikoagulanzien (Warfarin):** Koffein in sehr hohen Dosen kann die Pharmakokinetik beeinflussen; klinisch selten relevant.
+      - **Andere Stimulanzien (L-Tyrosin, Guarana):** Additive Effekte; Gesamtkoffeinzufuhr im Blick behalten.
+      - **Alkohol:** Koffein mildert subjektive Müdigkeit, aber nicht die objektive motorische Beeinträchtigung durch Alkohol.
+      
+      ## Ist Koffein sicher?
+      
+      Koffein in moderaten Mengen gilt bei gesunden Erwachsenen als **wahrscheinlich sicher und gut verträglich**. Der EFSA-Sicherheitsbericht (2015) dokumentiert klare Risikoschwellen:
+      
+      - **Bis 400 mg/Tag** (gesunde Erwachsene): kein Gesundheitsrisiko laut EFSA.
+      - **Bis 200 mg/Einzelgabe**: sicher vor sportlicher Belastung.
+      - **Schwangere und Stillende**: max. 200 mg/Tag aus allen Quellen.
+      - **Kinder und Jugendliche**: EFSA empfiehlt max. 3 mg/kg Körpergewicht/Tag.
+      
+      Mögliche Nebenwirkungen bei übermäßigem Konsum:
+      - Herzrasen (Tachykardie), Herzrhythmusstörungen
+      - Bluthochdruck bei empfindlichen Personen
+      - Schlafstörungen
+      - Angst, Nervosität, Zittern
+      - Magen-Darm-Beschwerden (Magensäure-Stimulation)
+      
+      **Besondere Vorsicht** bei:
+      - Herzrhythmusstörungen oder koronarer Herzkrankheit
+      - Bluthochdruck
+      - Schwangerschaft
+      - Angststörungen
+      - Schlafstörungen
+      
+      ## Regulatorischer Status in Deutschland und der EU
+      
+      - Koffein ist in der EU **kein Novel Food** und darf in Lebensmitteln und Nahrungsergänzungsmitteln verwendet werden.
+      - **Kennzeichnungspflicht:** Produkte (Getränke) mit ≥150 mg/L Koffein müssen den Hinweis 'Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfehlenswert (X mg Koffein/100 ml)" tragen.
+      - **Health Claims:** Trotz positiver EFSA-Gutachten zu Wachheit und Ausdauer (2011) sind für Koffein **keine** Health Claims in die EU-Liste (Anhang der VO (EU) Nr. 432/2012) aufgenommen worden.
+      - **Reinheitskoffein:** Hochkonzentrierte Koffein-Anhydrat-Produkte (z. B. als Pulver) unterlagen in einigen EU-Ländern zusätzlichen Beschränkungen; in Deutschland gilt das Lebensmittel- und Futtermittelgesetzbuch (LFGB) für die sichere Dosierung.
+      
+      ## Fazit
+      
+      Koffein ist das am besten untersuchte leistungssteigernde Supplement und liefert in moderaten Dosierungen zuverlässige Effekte auf Wachheit, Ausdauerleistung und kurzfristige Kognition. Die Effekte sind bei regelmäßigem Konsum durch Toleranzentwicklung reduziert; gelegentlicher oder zyklischer Einsatz kann die Wirkung optimieren. Für allgemeine Longevity-Ziele ist Koffein weniger relevant als für akute Leistungsoptimierung. Die Sicherheitsgrenze von 400 mg/Tag sollte eingehalten werden; empfindliche Gruppen (Schwangere, Herzpatienten, Kinder) benötigen niedrigere Grenzwerte.
+
+  en:
+    summary: >-
+      The world's most widely consumed psychoactive substance. Hundreds of RCTs confirm effects on alertness, reaction time, endurance, and short-term cognition.
+    evidenceSummary: >-
+      Caffeine is among the most thoroughly researched supplements in existence. Hundreds of RCTs, multiple Cochrane reviews, and a dedicated EFSA safety opinion document consistent cognitive and physical performance effects. Effect sizes for endurance (SMD ~0.3–0.4) and vigilance are robust across study populations, though tolerance development limits chronic efficacy for alertness-related outcomes.
+    body: |
+      > **Regulatory note:** Caffeine in food and dietary supplements is subject to specific labelling requirements in the EU. Beverages containing ≥150 mg/L caffeine must carry the statement "High caffeine content. Not recommended for children or pregnant or breastfeeding women." The following is a summary of published research and does not constitute a health claim under Regulation (EC) No 1924/2006.
+
+      ## What is Caffeine?
+
+      Caffeine (chemical name: 1,3,7-trimethylxanthine) is a **xanthine alkaloid** found naturally in coffee beans, tea leaves, cacao, guarana, and yerba maté. It is the **most widely consumed psychoactive substance in the world** — billions of people ingest caffeine in some form every day.
+
+      In supplement form, **caffeine anhydrous** is used: a white crystalline powder with a standardised caffeine content, free from the accompanying compounds found in natural sources.
+
+      ## Mechanism: Adenosine Receptor Antagonism
+
+      Caffeine's primary mechanism is **competitive inhibition of adenosine receptors** (predominantly A1 and A2A) in the central nervous system.
+
+      **Adenosine** is the brain's sleep-pressure signal: it accumulates during waking hours, binds to receptors, and progressively induces drowsiness. Caffeine blocks these receptors without degrading or generating adenosine itself — temporarily suppressing the subjective sensation of fatigue without resolving the underlying sleep debt.
+
+      Additional mechanisms:
+      - **Adrenaline release:** Caffeine indirectly stimulates the adrenal medulla, producing a mild sympathomimetic response.
+      - **Dopaminergic effects:** Caffeine increases dopamine availability in specific brain regions (reward circuitry), which may contribute to its mood-enhancing properties.
+      - **Muscular effects:** Caffeine enhances calcium release from the sarcoplasmic reticulum in muscle cells, improving contractile force output.
+      - **Fat mobilisation:** Caffeine increases lipolysis via adrenaline-mediated pathways — an effect that attenuates substantially with habitual use.
+
+      ## What the Evidence Actually Shows
+
+      ### Well-established (hundreds of RCTs, multiple meta-analyses)
+
+      - **Alertness, vigilance, and reaction time:** Caffeine reliably reduces subjective sleepiness and improves vigilance in controlled studies — most pronounced under sleep deprivation or during extended shifts. A systematic review by McLellan et al. (2016) covering >120 studies found consistent benefits across military and occupational populations.
+      - **Endurance performance:** Meta-analyses report consistent improvements in running, cycling, and rowing tasks (~1–4% time trial improvement; SMD ~0.3–0.4). A 2020 meta-analysis by Grgic et al. (>300 studies) confirms endurance as the most robustly affected domain.
+      - **Strength and power output:** Moderate effects on maximal strength and sprint power; more consistent for upper-body exercises. Effect sizes are smaller than for endurance (SMD ~0.2–0.3).
+      - **Cognition:** Improved processing speed, working memory, and sustained attention — more pronounced under fatigue or sleep restriction. Benefits in fully rested individuals are smaller.
+
+      ### Well-studied, but with important caveats
+
+      - **Tolerance development:** With daily use, tolerance to alertness effects develops within days to weeks as adenosine receptor density upregulates. Endurance performance benefits appear more resistant to tolerance than wakefulness effects — but the evidence base here is less definitive.
+      - **Weight management:** Caffeine modestly increases energy expenditure (roughly 3–4% in acute studies) and fat oxidation rate. Long-term effects on body weight are minimal and tolerance-dependent; caffeine is not a meaningful fat-loss intervention on its own.
+      - **Mood:** Small to moderate improvements in mood and well-being in experimental settings; at high doses, anxiety and dysphoria can emerge instead.
+
+      ### Limitations and open questions
+
+      - Long-term effects of high-dose caffeine anhydrous on cardiac rhythm, blood pressure, and sleep architecture remain incompletely characterised.
+      - Epidemiological benefits associated with habitual coffee consumption (reduced diabetes risk, lower all-cause mortality) cannot be attributed to caffeine alone. Coffee contains hundreds of bioactive compounds — chlorogenic acids, diterpenes, trigonelline — that likely contribute independently.
+      - Most performance trials use doses of 3–6 mg/kg body weight in trained athletes. Effects in untrained populations or at lower doses are more variable.
+
+      ## Dosing
+
+      - **Typical supplement dose:** 100–200 mg, taken 30–60 minutes before exercise or cognitively demanding tasks.
+      - **Endurance performance (evidence-based):** 3–6 mg/kg body weight ~60 minutes before exercise. At 70 kg body weight, this corresponds to ~210–420 mg.
+      - **EFSA safety threshold:** Single doses up to **200 mg** are considered safe; **400 mg/day** from all sources is the recommended maximum for healthy adults.
+      - **Pregnant women:** Maximum 200 mg/day from all sources combined (coffee, tea, chocolate, supplements).
+      - **Timing:** Half-life is 3–5 hours in most adults (up to 9–10 hours in some individuals). Consumption after 2–3 pm may impair sleep quality.
+
+      ## Caffeine Sources — Reference Table
+
+      | Source | Typical caffeine content |
+      |--------|--------------------------|
+      | Espresso (30 ml) | 60–80 mg |
+      | Filter coffee (200 ml) | 80–120 mg |
+      | Black tea (200 ml) | 30–60 mg |
+      | Green tea (200 ml) | 20–40 mg |
+      | Energy drink (250 ml) | 80 mg |
+      | Caffeine anhydrous capsule | 100–200 mg (standardised) |
+
+      ## Tolerance and Dependence
+
+      Regular caffeine use leads to **tolerance**: adenosine receptor density increases (upregulation), so the same dose produces weaker effects over time. This explains why habitual coffee drinkers experience far less stimulation than occasional users from an identical dose.
+
+      **Withdrawal** after sustained intake (≥200 mg/day for several weeks) typically produces:
+      - Headaches (most common symptom)
+      - Fatigue and lethargy
+      - Difficulty concentrating
+      - Low mood
+
+      Symptoms typically resolve within **2–9 days**. Caffeine dependence does not meet psychiatric criteria for addiction but does fulfil criteria for tolerance and withdrawal. The DSM-5 lists caffeine withdrawal as a diagnosable condition.
+
+      ## Interactions
+
+      - **Adenosine analogues / cardiac medications:** Caffeine antagonises adenosine effects and may interfere with diagnostic adenosine infusions used in cardiac stress testing.
+      - **Ephedrine / synephrine:** Combining caffeine with adrenergic stimulants significantly increases cardiovascular risk; such combinations in supplements are broadly prohibited in the EU.
+      - **Anticoagulants (warfarin):** Very high caffeine doses may affect pharmacokinetics; clinically relevant interactions are uncommon.
+      - **Other stimulants (L-tyrosine, guarana):** Additive effects — track total daily caffeine from all sources.
+      - **Alcohol:** Caffeine reduces subjective sleepiness without reversing alcohol's objective impairment of motor coordination — a potentially dangerous dissociation.
+
+      ## Safety
+
+      Caffeine in moderate amounts is considered **likely safe and well-tolerated** in healthy adults. The EFSA safety opinion (2015) provides clear risk thresholds:
+
+      - **Up to 400 mg/day** (healthy adults): no identified health risk.
+      - **Up to 200 mg per single dose**: safe before physical exertion.
+      - **Pregnant and breastfeeding women**: max. 200 mg/day from all sources.
+      - **Children and adolescents**: EFSA recommends a maximum of 3 mg/kg body weight/day.
+
+      Adverse effects at excessive doses:
+      - Tachycardia and cardiac arrhythmias
+      - Elevated blood pressure in susceptible individuals
+      - Insomnia and disrupted sleep architecture
+      - Anxiety, nervousness, tremor
+      - Gastrointestinal discomfort (gastric acid stimulation)
+
+      **Use with caution in:**
+      - Cardiac arrhythmias or coronary artery disease
+      - Hypertension
+      - Pregnancy
+      - Anxiety disorders
+      - Chronic insomnia
+
+      ## Regulatory Status in Germany and the EU
+
+      - Caffeine is **not a novel food** in the EU and may be used in food products and dietary supplements.
+      - **Mandatory labelling:** Beverages with ≥150 mg/L caffeine must carry the warning "High caffeine content. Not recommended for children or pregnant or breastfeeding women (X mg caffeine/100 ml)."
+      - **Health claims:** Despite positive EFSA scientific opinions on alertness and endurance performance (2011), **no** caffeine health claims have been added to the EU authorised list (Annex of Regulation (EU) No 432/2012).
+      - **Pure caffeine powder:** Highly concentrated caffeine anhydrous products (e.g. bulk powder) have faced additional restrictions in several EU member states due to overdose risks; in Germany, the LFGB (Food and Feed Code) governs safe dosing requirements.
+
+      ## Conclusion
+
+      Caffeine is the most thoroughly researched ergogenic supplement available and delivers reliable, reproducible effects on alertness, endurance performance, and short-term cognitive function at moderate doses. Effects on wakefulness are substantially reduced with habitual use due to tolerance; periodic abstinence or cyclical use can restore sensitivity. For general longevity purposes, caffeine is less relevant than for acute performance optimisation. The 400 mg/day safety threshold should be respected; sensitive groups — pregnant women, individuals with cardiac conditions, children — require lower limits.
+
+relations:
+  - relation: hat_interaktion_mit
+    target: egcg
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: depression
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: migraene
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: dopamin-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: kontraindiziert_bei
+    target: kontra-schwangerschaft
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-kinder
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-kopfschmerzen
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-schlaflosigkeit
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-32045577
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:32045577"
+  - relation: basiert_auf_studie
+    target: studie-26830602
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26830602"
+  - relation: basiert_auf_studie
+    target: studie-20091547
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:20091547"
+  - relation: basiert_auf_studie
+    target: studie-24832163
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24832163"
+  - relation: hat_interaktion_mit
+    target: l-theanin
+    direction: incoming
+    confidence: 0.7

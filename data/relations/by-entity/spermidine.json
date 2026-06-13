@@ -83,15 +83,13 @@
       "relation": "hat_interaktion_mit",
       "target": "eisen",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "### Kardiovaskuläre Gesundheit (PMID 33762175)\n\nEisenberg et al."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nr",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "**mTORC1-Hemmung**: Spermidin hemmt indirekt mTOR (mammalian Target of Rapamycin) — ähnlich wie Kalorienrestriktion und Metformin\n2."
+      "confidence": 0.7
     },
     {
       "relation": "hat_nebenwirkung",
@@ -110,32 +108,28 @@
       "target": "studie-30955569",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30955569",
-      "note": "Mechanistische Studie (Zellmodelle und C. elegans): Spermidin induziert Autophagie über Hypusinierung des Translationsfaktors eIF5A — ein neu identifizierter Mechanismus zusätzlich zur bekannten mTOR-"
+      "source": "pmid:30955569"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-32428599",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32428599",
-      "note": "RCT, n=85 ältere Erwachsene mit subjektiven GedächtnisBeschwerden (SCI), 3 Monate Weizenkeimextrakt (~1,2 mg Spermidin/Tag) vs. Placebo. Primärer Endpunkt (Mnemonic Discrimination Task): kein signifik"
+      "source": "pmid:32428599"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-33762175",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:33762175",
-      "note": "Translationsstudie: Spermidin verbesserte in alten Mäusen die diastolische Herzfunktion und verlängerte die Lebensspanne (+10 %). Begleitende epidemiologische Auswertung (n=3.407): Höhere diätetische "
+      "source": "pmid:33762175"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-34929611",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:34929611",
-      "note": "Prospektive Beobachtungsstudie, n=829, 20 Jahre Follow-up (Bruneck-Kohorte, Österreich): Höchstes Spermidin-Tertil der Nahrungsaufnahme war mit HR 0,62 für Gesamtmortalität assoziiert vs. niedrigstes "
+      "source": "pmid:34929611"
     }
   ]
 }

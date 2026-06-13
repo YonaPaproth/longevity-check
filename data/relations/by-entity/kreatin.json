@@ -5,8 +5,7 @@
       "relation": "hat_interaktion_mit",
       "target": "glycin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
+      "confidence": 0.7
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -78,8 +77,7 @@
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "**Praktische Protokolle:**\n- **Für den zugelassenen Claim:** 3 g/Tag Kreatinmonohydrat, kontinuierlich, kombiniert mit aufeinanderfolgenden kurzen, intensiven Belastungen\n- **Ohne Loading:** 3–5 g/Tag"
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -104,40 +102,35 @@
       "target": "studie-28615996",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28615996",
-      "note": "Konsensusdokument: Kreatin ist das am besten belegte legale ergogene Supplement. Sicher bei Langzeitanwendung (bis 5 Jahre untersucht), keine Nierentoxizität bei Gesunden. Empfehlung: 3–5 g/Tag."
+      "source": "pmid:28615996"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17828627",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17828627",
-      "note": "RCT, n=45, ältere Erwachsene: Kreatin verbesserte Arbeitsgedächtnis und kognitive Leistung signifikant vs. Placebo. Gehirn-Kreatinspiegel stiegen messbar mit Supplementierung."
+      "source": "pmid:17828627"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-29704637",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29704637",
-      "note": "Systematischer Review: Kognitive Leistung verbesserte sich konsistent bei Schlafentzug, mentaler Erschöpfung und bei Älteren. Vegetarier profitierten stärker (niedrigere Ausgangsspiegel)."
+      "source": "pmid:29704637"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-27328852",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27328852",
-      "note": "Meta-Analyse: Kreatin steigert Muskelkraft um ~8% und Muskelmasse signifikant in Kombination mit Krafttraining. Effekt bei Älteren vergleichbar mit Jüngeren."
+      "source": "pmid:27328852"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28994648",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28994648",
-      "note": "Meta-Analyse (22 RCTs, ältere Erwachsene): Kreatin + Krafttraining führte zu signifikant mehr fettfreier Masse (+1,37 kg) und Kraft vs. Training allein. Effektgröße klinisch relevant."
+      "source": "pmid:28994648"
     }
   ]
 }

@@ -5,8 +5,7 @@
       "relation": "hat_interaktion_mit",
       "target": "egcg",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Im Kontext gesunden Alterns sind zwei Mechanismen besonders relevant:\n- **AMPK-Aktivierung**: AMPK ist ein zellulärer Energiesensor – bei Aktivierung fördert er Fettverbrennung, hemmt mTOR und stimuli"
+      "confidence": 0.7
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -151,39 +150,34 @@
       "target": "studie-32045577",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32045577",
-      "note": "Meta-Analyse (>300 Studien): Koffein verbesserte Ausdauer-, Kraft- und Schnellkraftleistung. Effekte auf Ausdauerleistung waren am konsistentesten (SMD ~0,41)."
+      "source": "pmid:32045577"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-26830602",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26830602",
-      "note": "Systematischer Review (>120 Studien): Koffein verbesserte in Studien Vigilanz, Reaktionszeit und Konzentrationsleistung, insbesondere bei Schlafentzug."
+      "source": "pmid:26830602"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20091547",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20091547",
-      "note": "Cochrane Review: Koffein reduzierte Fehlerrate und war mit weniger Schläfrigkeit in Schichtarbeit-Settings verbunden."
+      "source": "pmid:20091547"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24832163",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24832163",
-      "note": "Große Kohortenstudie (NHS, >100.000 Personen): Moderater Kaffeekonsum war mit geringerem T2D-Risiko assoziiert – konfundiert durch weitere Kaffeeinhaltsstoffe, nicht isoliert auf Koffein zurückführbar"
+      "source": "pmid:24832163"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "l-theanin",
       "direction": "incoming",
-      "confidence": 0.7,
-      "note": "**Koffein-Interaktion:** Theanin und Koffein interagieren am adenosinergen System auf komplementäre Weise."
+      "confidence": 0.7
     }
   ]
 }

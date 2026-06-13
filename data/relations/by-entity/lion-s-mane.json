@@ -90,32 +90,28 @@
       "target": "studie-30093983",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30093983",
-      "note": "RCT, n=49 Patienten mit MCI (Mild Cognitive Impairment), 50–80 Jahre: 3 g/Tag Hericium-Fruchtkörperpulver vs. Placebo, 16 Wochen. MMSE- und Cognitive Function Scale-Scores: signifikante Verbesserung i"
+      "source": "pmid:30093983"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-31413233",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:31413233",
-      "note": "Präklinische Studie: Hericenon E und Erinacine A stimulierten in primären Neuronen-Kulturen die NGF-mRNA-Expression signifikant (+250–400 % vs. Kontrolle). Erinacine C zeigte stärksten Effekt. Wichtig"
+      "source": "pmid:31413233"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-32731006",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32731006",
-      "note": "Systematischer Review (23 Studien, davon 5 Humanstudien): Konsistente präklinische Evidenz für NGF-Stimulation, Neuroprotektoin und kognitive Effekte. Humanstudien zeigen positive Signale bei MCI, Dep"
+      "source": "pmid:32731006"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-36345309",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:36345309",
-      "note": "RCT, n=77 Erwachsene ohne klinische Diagnose, 4 Wochen: 1,8 g/Tag Hericium-Extrakt vs. Placebo. Pittsburgh Sleep Quality Index: signifikante Verbesserung (p=0,04). Angst- und Depressionsskalen (HADS):"
+      "source": "pmid:36345309"
     }
   ]
 }

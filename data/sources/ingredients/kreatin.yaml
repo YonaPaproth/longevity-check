@@ -1,0 +1,314 @@
+---
+id: kreatin
+type: ingredient
+
+meta:
+  title:
+    de: "Kreatin (Creatin)"
+    en: "Creatine (Creatine Monohydrate)"
+  aliases:
+    - "Creatin"
+    - "Creatine"
+    - "Kreatinmonohydrat"
+    - "Creatine Monohydrate"
+  category: metabolic
+  evidenceLevel: "1"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: true
+  typical_dose_mg: 3000
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat einen Article-13(1)-Health-Claim zugelassen: Kreatin steigert die körperliche Leistungsfähigkeit bei aufeinanderfolgenden kurzen, intensiven Belastungen (3 g/Tag, nur Erwachsene). Weitere Aussagen sind redaktionelle Studienzusammenfassungen und keine zulässigen Claims.
+  en: >-
+    EFSA has approved one Article-13(1) health claim: creatine increases physical performance during successive bursts of short-term, high-intensity exercise (3 g/day, adults only). Other statements are editorial research summaries and are not permissible claims.
+
+key_studies:
+  - pmid: "28615996"
+    title: "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation"
+    authors: "Kreider RB et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28615996/"
+    finding:
+      de: >-
+        Konsensusdokument: Kreatin ist das am besten belegte legale ergogene Supplement. Sicher bei Langzeitanwendung (bis 5 Jahre untersucht), keine Nierentoxizität bei Gesunden. Empfehlung: 3–5 g/Tag.
+      en: >-
+        Consensus document: creatine is the most evidence-backed legal ergogenic supplement. Safe with long-term use (studied up to 5 years), no renal toxicity in healthy individuals. Recommendation: 3–5 g/day.
+  - pmid: "17828627"
+    title: "Creatine supplementation and cognitive performance in elderly individuals"
+    authors: "McMorris T et al."
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17828627/"
+    finding:
+      de: >-
+        RCT, n=45, ältere Erwachsene: Kreatin verbesserte Arbeitsgedächtnis und kognitive Leistung signifikant vs. Placebo. Gehirn-Kreatinspiegel stiegen messbar mit Supplementierung.
+      en: >-
+        RCT, n=45, older adults: creatine significantly improved working memory and cognitive performance vs. placebo. Brain creatine levels rose measurably with supplementation.
+  - pmid: "29704637"
+    title: "Creatine supplementation and brain health"
+    authors: "Avgerinos KI et al."
+    year: 2018
+    url: "https://pubmed.ncbi.nlm.nih.gov/29704637/"
+    finding:
+      de: >-
+        Systematischer Review: Kognitive Leistung verbesserte sich konsistent bei Schlafentzug, mentaler Erschöpfung und bei Älteren. Vegetarier profitierten stärker (niedrigere Ausgangsspiegel).
+      en: >-
+        Systematic review: cognitive performance improved consistently during sleep deprivation, mental fatigue, and in older adults. Vegetarians benefited more (lower baseline levels).
+  - pmid: "27328852"
+    title: "Creatine supplementation for muscle growth: a scoping review"
+    authors: "Lanhers C et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/27328852/"
+    finding:
+      de: >-
+        Meta-Analyse: Kreatin steigert Muskelkraft um ~8% und Muskelmasse signifikant in Kombination mit Krafttraining. Effekt bei Älteren vergleichbar mit Jüngeren.
+      en: >-
+        Meta-analysis: creatine increases muscle strength by ~8% and muscle mass significantly in combination with resistance training. Effect in older adults comparable to younger individuals.
+  - pmid: "28994648"
+    title: "Effect of creatine supplementation during resistance training on lean tissue mass and muscular strength in older adults: a meta-analysis"
+    authors: "Chilibeck PD et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28994648/"
+    finding:
+      de: >-
+        Meta-Analyse (22 RCTs, ältere Erwachsene): Kreatin + Krafttraining führte zu signifikant mehr fettfreier Masse (+1,37 kg) und Kraft vs. Training allein. Effektgröße klinisch relevant.
+      en: >-
+        Meta-analysis (22 RCTs, older adults): creatine + resistance training led to significantly more lean mass (+1.37 kg) and strength vs. training alone. Effect size is clinically meaningful.
+
+locales:
+  de:
+    summary: >-
+      Kreatin ist eines der bestuntersuchten Supplements für hochintensive Muskelarbeit. Die stärkste Evidenz stammt aus Kraft- und Schnellkraftstudien; weitere Einsatzfelder werden weiterhin erforscht.
+    evidenceSummary: >-
+      Hunderte RCTs und Meta-Analysen belegen Leistungs- und Muskelzuwächse bei kurzen, intensiven Belastungen (+5–15% Kraft). Daten zu Kognition und älteren Erwachsenen existieren, gelten aber nicht als Grundlage für EU-Health-Claims jenseits des zugelassenen Leistungs-Claims.
+    body: |
+      > **Hinweis für die EU:** Zulässig ist ausschließlich der Health Claim „Kreatin steigert die körperliche Leistungsfähigkeit bei aufeinanderfolgenden kurzen, intensiven Belastungen" (3 g/Tag, nur Erwachsene, intensives Training). Alle weiteren Aussagen sind redaktionelle Zusammenfassungen der Studienlage und keine Health Claims im Sinne der VO (EG) Nr. 1924/2006. EFSA-Gutachten: [efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2011.2303](https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2011.2303)
+      
+      ## Was ist Kreatin?
+      
+      Kreatin ist eine **natürlich vorkommende Verbindung** aus den Aminosäuren Arginin, Glycin und Methionin. Der Körper produziert täglich ~1–2 g; weitere 1–2 g stammen bei omnivorer Ernährung aus Fleisch und Fisch. Vegetarisch oder vegan lebende Menschen haben im Mittel 20–30% niedrigere Muskel-Kreatinspiegel als Omnivore — was erklärt, warum sie in Supplementierungsstudien stärker profitieren.
+      
+      Im Körper wird Kreatin zu **Phosphokreatin** phosphoryliert. Phosphokreatin dient als schnell verfügbarer Energiepuffer: Es regeneriert ATP in Muskeln und Gehirn innerhalb von Sekunden — entscheidend bei kurzen, explosiven Belastungen wie Sprints, Gewichtheben oder HIIT.
+      
+      ## Warum ist Kreatin so gut erforscht?
+      
+      Kreatin ist seit den frühen 1990er-Jahren intensiv untersucht. Über 500 kontrollierte Studien liegen vor, die Datenlage ist für ein Supplement außergewöhnlich konsistent. Das erklärt, warum die EFSA einen Health Claim zugelassen hat — einer der wenigen, die für ein Supplementinhaltsstoff in der EU genehmigt wurden.
+      
+      ## Was die Studien wirklich sagen
+      
+      ### Klar belegt: Kraft und Leistung
+      
+      - **Muskelkraft:** Meta-Analysen (100+ RCTs) zeigen konsistent +5–15% Kraftzuwachs vs. Placebo in Kombination mit Widerstandstraining. Eine Meta-Analyse (Lanhers 2017) berichtet ~8% Steigerung.
+      - **Wiederholende Schnellkraftleistung:** Sprints, Hochintensitätsintervalle — hier ist die Datenlage am stärksten, direkt durch den Phosphokreatin-Mechanismus erklärbar.
+      - **Muskelmasse:** Kreatin + Krafttraining führt in mehrwöchigen Protokollen zu signifikant mehr fettfreier Körpermasse vs. Training allein. Teils durch Wassereinlagerung in Muskeln, teils durch verstärkte Proteinbiosynthese.
+      
+      ### Ältere Erwachsene: besonders relevant
+      
+      Die Meta-Analyse von Chilibeck et al. (2017, 22 RCTs) zeigte, dass ältere Erwachsene mit Kreatin+Krafttraining durchschnittlich +1,37 kg mehr fettfreie Masse gewannen als mit Training allein. Das ist angesichts von Sarkopenie (Muskelabbau im Alter) klinisch bedeutsam. Diese Daten begründen kein EFSA-Health-Claim, sind aber gut belegt.
+      
+      ### Kognition: gut untersucht, aber ohne Health Claim
+      
+      Mehrere RCTs und systematische Reviews zeigen kognitive Verbesserungen bei Schlafentzug, mentaler Erschöpfung und bei Personen mit niedrigen Ausgangsspiegeln (Vegetarier). Vegetarier profitieren konsistent stärker — was auf Ausgangsspiegel als Moderator hinweist. Diese Effekte sind wissenschaftlich interessant, aber regulatorisch ohne Health-Claim-Status.
+      
+      ### Frühphase / Hypothesen
+      
+      - Pilotstudien zu neurologischen Erkrankungen (Parkinson, Huntington): Effekte in Tiermodellen überzeugend, Humanstudien bisher enttäuschend
+      - Gesundes Altern und Longevity: Mechanistische Plausibilität (Mitochondrien-Energetik, oxidativer Stress), keine humanen Langzeitdaten
+      
+      ## Regulatorischer Status
+      
+      Die EFSA hat **einen** Claim zugelassen: „Kreatin steigert die körperliche Leistungsfähigkeit bei aufeinanderfolgenden kurzen, intensiven Belastungen" (Reg. EU 432/2012, Annex). Voraussetzungen: täglich 3 g Kreatinmonohydrat, ausschließlich Erwachsene, im Kontext der genannten Belastungsform. Andere Aussagen — auch wenn sie sich auf Studien stützen — dürfen nicht als gesundheitsbezogene Werbung verwendet werden.
+      
+      ## Welche Form und Dosis?
+      
+      **Kreatinmonohydrat** ist die am besten belegte und günstigste Form. Andere Formen (Kre-Alkalyn, Kreatin-HCl, Kreatin-Ethylester) haben trotz Marketing keine überzeugenden Vorteile in direkten Vergleichen gezeigt.
+      
+      **Praktische Protokolle:**
+      - **Für den zugelassenen Claim:** 3 g/Tag Kreatinmonohydrat, kontinuierlich, kombiniert mit aufeinanderfolgenden kurzen, intensiven Belastungen
+      - **Ohne Loading:** 3–5 g/Tag konstant — speicherfüllend nach ca. 4 Wochen, das meistgenutzte Protokoll in Studien
+      - **Mit Loading:** 20 g/Tag (4 × 5 g) für 5–7 Tage, dann 3–5 g/Tag — beschleunigt Sättigung der Muskeldepots, regulatorisch nicht erforderlich und mit mehr Magen-Darm-Beschwerden assoziiert
+      - **Timing:** Einnahme mit einer kohlenhydrat- oder proteinhaltigen Mahlzeit kann Aufnahme leicht verbessern; spielt bei täglicher Supplementierung nur eine untergeordnete Rolle
+      - **Hitze und Feuchtigkeit:** Kreatinmonohydrat ist relativ stabil; bei sehr hohen Temperaturen und Feuchtigkeit kann Abbau zu Kreatinin beschleunigt sein
+      
+      ## Ist Kreatin sicher?
+      
+      Kreatin gilt bei gesunden Erwachsenen als **sehr gut untersucht und in üblichen Dosierungen gut verträglich**. Langzeitstudien (bis 5 Jahre) zeigen keine Nierentoxizität bei Personen ohne Vorerkrankungen — ein hartnäckiger Mythos, der in der wissenschaftlichen Literatur widerlegt ist. Die Nieren filtrieren Kreatin effizient; Kreatinin-Werte im Blut können jedoch erhöht sein, was bei Labortests zu Fehlinterpretationen führen kann (kein Zeichen von Nierenschaden).
+      
+      **Vorsicht geboten bei:**
+      - Bestehenden Nierenerkrankungen (präventive ärztliche Konsultation)
+      - Schwangerschaft und Stillzeit (unzureichend untersucht)
+      - Dauermedikation, die renal ausgeschieden wird
+      
+      Häufigste Beobachtung: eine leichte intramuskuläre Wasserbindung (gewünschter Trainingseffekt, kein pathologisches Ödem).
+      
+      ## Ehrliche Einschränkungen
+      
+      - Kreatin wirkt nicht bei allen gleich stark: ~20–30% der Personen sprechen kaum an („Non-Responder"), wahrscheinlich weil ihre Muskeln bereits gesättigt sind
+      - Wirkung ohne begleitendes Widerstandstraining ist für die meisten Outcomes deutlich geringer
+      - Kognitive Effekte sind vorwiegend bei stressexponierten oder schlafentzugbetroffenen Personen sowie Vegetariern belegt — nicht als Alltagsstimulanz geeignet
+      - Kein Beweis für Lebensverlängerung beim Menschen
+
+  en:
+    summary: >-
+      Creatine is one of the most thoroughly studied supplements for high-intensity muscular work. The strongest evidence is from strength and power sports; further applications are still being explored.
+    evidenceSummary: >-
+      Hundreds of RCTs and meta-analyses confirm performance and muscle gains during short, intense exertion (+5–15% strength). Data on cognition and older adults exist but do not form the basis of EU health claims beyond the approved performance claim.
+    body: |
+      > **EU regulatory note:** The only permissible health claim is: "Creatine increases physical performance during successive bursts of short-term, high-intensity exercise" (3 g/day, adults only, in the context of the stated exercise type). All other statements are editorial summaries of the research and are not health claims within the meaning of Regulation (EC) No 1924/2006.
+      
+      ## What Is Creatine?
+      
+      Creatine is a **naturally occurring compound** made from the amino acids arginine, glycine, and methionine. The body produces ~1–2 g/day; a further 1–2 g come from meat and fish in an omnivore diet. Vegetarians and vegans have on average 20–30% lower muscle creatine levels — which explains why they tend to benefit more from supplementation.
+      
+      In the body, creatine is phosphorylated to **phosphocreatine**. Phosphocreatine serves as a rapidly available energy buffer: it regenerates ATP in muscle and brain within seconds — critical during short, explosive efforts like sprints, weightlifting, or HIIT.
+      
+      ## Why Is Creatine So Well Studied?
+      
+      Creatine has been intensively researched since the early 1990s. Over 500 controlled studies exist; the evidence base is exceptionally consistent for a supplement. This is why EFSA approved a health claim — one of the very few approved for a supplement ingredient in the EU.
+      
+      ## What the Studies Actually Show
+      
+      ### Clearly established: strength and performance
+      
+      - **Muscle strength:** Meta-analyses (100+ RCTs) consistently show +5–15% strength gains vs. placebo in combination with resistance training. One meta-analysis (Lanhers 2017) reports ~8% improvement.
+      - **Repeated high-intensity performance:** Sprints, high-intensity intervals — this is where the evidence is strongest, directly explained by the phosphocreatine mechanism.
+      - **Lean mass:** Creatine + resistance training leads to significantly more lean body mass vs. training alone over multi-week protocols. Partly from intramuscular water retention, partly from enhanced protein synthesis.
+      
+      ### Older adults: particularly relevant
+      
+      The meta-analysis by Chilibeck et al. (2017, 22 RCTs) showed that older adults with creatine + resistance training gained an average of **+1.37 kg more lean mass** than with training alone. Given sarcopenia (age-related muscle loss), this is clinically meaningful. This data does not support an EFSA health claim, but is well established.
+      
+      ### Cognition: well studied, but without a health claim
+      
+      Multiple RCTs and systematic reviews show cognitive improvements during sleep deprivation, mental fatigue, and in people with low baseline levels (vegetarians). Vegetarians benefit consistently more — pointing to baseline levels as a moderating factor. These effects are scientifically interesting but carry no health-claim status under EU regulation.
+      
+      ### Early phase / hypotheses
+      
+      - Pilot studies in neurological conditions (Parkinson's, Huntington's): effects in animal models were compelling, human studies so far disappointing
+      - Healthy ageing and longevity: mechanistic plausibility (mitochondrial energetics, oxidative stress), no long-term human data
+      
+      ## Regulatory Status
+      
+      EFSA has approved **one** claim: "Creatine increases physical performance during successive bursts of short-term, high-intensity exercise" (Reg. EU 432/2012, Annex). Requirements: 3 g creatine monohydrate daily, adults only, in the context of the stated exercise type. Other statements — even if backed by studies — may not be used as health claims in advertising.
+      
+      ## Which Form and Dose?
+      
+      **Creatine monohydrate** is the most evidence-backed and most affordable form. Other forms (Kre-Alkalyn, creatine HCl, creatine ethyl ester) have not shown convincing advantages in direct comparisons despite marketing claims.
+      
+      **Practical protocols:**
+      - **For the approved claim:** 3 g/day creatine monohydrate, continuously, in the context of successive short-duration, high-intensity exercise
+      - **Without loading:** 3–5 g/day continuously — reaches muscle saturation in ~4 weeks; the most commonly used protocol in studies
+      - **With loading:** 20 g/day (4 × 5 g) for 5–7 days, then 3–5 g/day — accelerates muscle depot saturation, not required regulatorily, associated with more gastrointestinal discomfort
+      - **Timing:** Taking with a carbohydrate- or protein-containing meal may slightly improve uptake; plays a minor role with daily supplementation
+      - **Stability:** Creatine monohydrate is relatively stable; degradation to creatinine may be accelerated by high heat and moisture
+      
+      ## Is Creatine Safe?
+      
+      Creatine is considered **very well studied and well tolerated at usual doses** in healthy adults. Long-term studies (up to 5 years) show no renal toxicity in people without pre-existing conditions — a persistent myth refuted in the scientific literature. The kidneys filter creatine efficiently; creatinine levels in blood may rise, which can cause false interpretations on lab tests (not a sign of kidney damage).
+      
+      **Caution advised with:**
+      - Pre-existing kidney disease (preventive medical consultation recommended)
+      - Pregnancy and breastfeeding (insufficiently studied)
+      - Long-term medication excreted renally
+      
+      Most common observation: mild intramuscular water retention (a desired training effect, not pathological oedema).
+      
+      ## Honest Limitations
+      
+      - Creatine does not work equally well for everyone: ~20–30% of individuals barely respond ("non-responders"), probably because their muscles are already saturated
+      - Effects without accompanying resistance training are substantially smaller for most outcomes
+      - Cognitive effects are primarily established in stress-exposed or sleep-deprived individuals and vegetarians — not suitable as an everyday stimulant
+      - No evidence of lifespan extension in humans
+
+relations:
+  - relation: hat_interaktion_mit
+    target: glycin
+    direction: incoming
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: neuroprotektiv
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: nac
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-schwangerschaft
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-nierenerkrankung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28615996
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28615996"
+  - relation: basiert_auf_studie
+    target: studie-17828627
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17828627"
+  - relation: basiert_auf_studie
+    target: studie-29704637
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:29704637"
+  - relation: basiert_auf_studie
+    target: studie-27328852
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27328852"
+  - relation: basiert_auf_studie
+    target: studie-28994648
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28994648"

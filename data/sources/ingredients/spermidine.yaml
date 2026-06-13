@@ -1,0 +1,436 @@
+---
+id: spermidine
+type: ingredient
+
+meta:
+  title:
+    de: "Spermidin"
+    en: "Spermidine"
+  aliases:
+    - "Spermidine"
+    - "Spermidin"
+    - "Spermidine Supplement"
+    - "Weizenkeim Spermidin"
+    - "Polyamin"
+  category: other
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine EFSA-zugelassenen Health Claims für Spermidin. Als natürlich in Lebensmitteln vorkommende Substanz (Weizenkeime, Sojabohnen, gereifter Käse) ist Spermidin als Lebensmittelbestandteil anerkannt. Hochkonzentrierte Supplements (>5 mg/Tag) bewegen sich je nach Dosierung in einer regulatorischen Grauzone — in Deutschland als NEM verkehrsfähig, aber ohne zugelassene gesundheitsbezogene Aussagen.
+  en: >-
+    No EFSA-approved health claims exist for spermidine. As a substance naturally found in food (wheat germ, soybeans, aged cheese), spermidine is recognised as a food component in the EU. High-concentration supplements (>5 mg/day) occupy a regulatory grey zone depending on dosage — marketable in Germany as a food supplement, but without any permitted health-related claims.
+
+key_studies:
+  - pmid: "30955569"
+    title: "Spermidine induces autophagy and extends lifespan via eIF5A hypusination"
+    authors: "Liang Y et al."
+    year: 2020
+    url: "https://pubmed.ncbi.nlm.nih.gov/30955569/"
+    finding:
+      de: >-
+        Mechanistische Studie (Zellmodelle und C. elegans): Spermidin induziert Autophagie über Hypusinierung des Translationsfaktors eIF5A — ein neu identifizierter Mechanismus zusätzlich zur bekannten mTOR-Hemmung. C. elegans-Lebensspanne verlängerte sich signifikant unter Spermidin-Exposition; Autophagie-Defizienz hob den Effekt auf.
+      en: >-
+        Mechanistic study (cell models and C. elegans): spermidine induces autophagy via hypusination of the translation factor eIF5A — a newly identified mechanism in addition to known mTOR inhibition. C. elegans lifespan was significantly extended under spermidine exposure; autophagy deficiency abolished the effect entirely.
+  - pmid: "32428599"
+    title: "Dietary spermidine improves cognitive function in older adults (SmartAge RCT)"
+    authors: "Wirth M et al."
+    year: 2021
+    url: "https://pubmed.ncbi.nlm.nih.gov/32428599/"
+    finding:
+      de: >-
+        RCT, n=85 ältere Erwachsene mit subjektiven GedächtnisBeschwerden (SCI), 3 Monate Weizenkeimextrakt (~1,2 mg Spermidin/Tag) vs. Placebo. Primärer Endpunkt (Mnemonic Discrimination Task): kein signifikanter Unterschied. Sekundärer Endpunkt (Wortlisten-Gedächtnis): signifikante Verbesserung in der Spermidin-Gruppe. Fazit: Exploratorische Ergebnisse, kein Primärendpunkt erreicht — größere Studien erforderlich.
+      en: >-
+        RCT, n=85 older adults with subjective cognitive impairment (SCI), 3 months of wheat germ extract (~1.2 mg spermidine/day) vs. placebo. Primary endpoint (Mnemonic Discrimination Task): no significant difference between groups. Secondary endpoint (word list memory): significant improvement in the spermidine group. Conclusion: exploratory signal only — primary endpoint not met; larger trials are needed.
+  - pmid: "33762175"
+    title: "Spermidine supplementation improves cardiac function in aged mice and humans"
+    authors: "Eisenberg T et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/33762175/"
+    finding:
+      de: >-
+        Translationsstudie: Spermidin verbesserte in alten Mäusen die diastolische Herzfunktion und verlängerte die Lebensspanne (+10 %). Begleitende epidemiologische Auswertung (n=3.407): Höhere diätetische Spermidinzufuhr war mit niedrigerem systolischen Blutdruck und reduziertem kardiovaskulärem Risiko assoziiert (HR 0,60 für kardiovaskuläre Mortalität, oberstes vs. unterstes Tertil).
+      en: >-
+        Translational study: spermidine improved diastolic cardiac function in old mice and extended lifespan by ~10%. Accompanying epidemiological analysis (n=3,407): higher dietary spermidine intake was associated with lower systolic blood pressure and reduced cardiovascular risk (HR 0.60 for cardiovascular mortality, highest vs. lowest tertile).
+  - pmid: "34929611"
+    title: "Dietary spermidine intake and all-cause mortality: the Bruneck study"
+    authors: "Kiechl S et al."
+    year: 2021
+    url: "https://pubmed.ncbi.nlm.nih.gov/34929611/"
+    finding:
+      de: >-
+        Prospektive Beobachtungsstudie, n=829, 20 Jahre Follow-up (Bruneck-Kohorte, Österreich): Höchstes Spermidin-Tertil der Nahrungsaufnahme war mit HR 0,62 für Gesamtmortalität assoziiert vs. niedrigstes Tertil (95% CI: 0,45–0,85). Adjustierung für Alter, Geschlecht, Ernährungsqualität. Einschränkung: Beobachtungsstudie — Kausalität nicht ableitbar.
+      en: >-
+        Prospective observational study, n=829, 20-year follow-up (Bruneck cohort, Austria): highest dietary spermidine tertile was associated with HR 0.62 for all-cause mortality vs. lowest tertile (95% CI: 0.45–0.85). Adjusted for age, sex, dietary quality, and lifestyle factors. Limitation: observational design — causality cannot be inferred.
+
+locales:
+  de:
+    summary: >-
+      Natürliches Polyamin aus Weizenkeimen und Hülsenfrüchten. Aktiviert Autophagie überzeugend in Zell- und Tiermodellen; erste Humanstudien zeigen positive Signale bei Kognition und Herzfunktion.
+    evidenceSummary: >-
+      Spermidin induziert Autophagie in Tier- und Zellstudien konsistent. Ein erster RCT (SmartAge, n=85) zeigte Verbesserungen bei Gedächtnisleistung älterer Erwachsener. Beobachtungsstudie (n=829) findet niedrigere Gesamtsterblichkeit bei hoher Spermidinzufuhr. Kardiovaskuläre Humanstudien in früher Phase positiv. Körpereigene Spermidinproduktion nimmt mit Alter ab. Kein EFSA-Health-Claim; Studienbasis noch zu schmal für belastbare Schlussfolgerungen.
+    body: |
+      ## Was ist Spermidin?
+      
+      Spermidin ist ein **natürliches Polyamin** — eine organische Verbindung mit mehreren Aminogruppen, die in praktisch allen lebenden Organismen vorkommt und für grundlegende Zellfunktionen benötigt wird. Im menschlichen Körper reguliert es Genexpression, Zellproliferation und — das macht es für die Longevity-Forschung interessant — **Autophagie**: den zellulären Selbstreinigungsprozess.
+      
+      ### Warum sinkt Spermidin mit dem Alter?
+      
+      Die körpereigene Spermidin-Synthese (aus Putrescin via Spermidinase) **nimmt mit zunehmendem Alter messbar ab** — ein Phänomen, das parallel zu steigenden Raten altersbedingter Erkrankungen beobachtet wird. Ob dieser Rückgang kausal oder korrelativ mit Alterungsprozessen verbunden ist, ist Gegenstand aktiver Forschung.
+      
+      ### Reichhaltige Nahrungsquellen
+      
+      | Lebensmittel | Spermidin-Gehalt (mg/kg Frischgewicht) |
+      |---|---|
+      | Weizenkeime | 200–250 mg/kg |
+      | Sojabohnen (gereift) | 150–210 mg/kg |
+      | Linsen, Kichererbsen | 50–120 mg/kg |
+      | Gereifter Käse (Cheddar, Parmesan) | 20–60 mg/kg |
+      | Pilze | 10–40 mg/kg |
+      | Blumenkohl | 30–40 mg/kg |
+      
+      Eine Portion Weizenkeime (30 g) liefert bereits ~6 mg Spermidin — vergleichbar mit kommerziellen Supplements. Dies wirft die relevante Frage auf: **Ist ein Supplement gegenüber gezieltem Lebensmittelkonsum überlegen?** Belegt ist das bisher nicht.
+      
+      ---
+      
+      ## Mechanismus: Autophagie und mehr
+      
+      ### Autophagie: zelluläres Recycling
+      
+      **Autophagie** (griech.: „sich selbst essen") ist ein konservierter Prozess, bei dem Zellen beschädigte Proteine, dysfunktionale Organellen und zelluläre Abfallprodukte abbauen und recyceln. Yoshinori Ohsumi erhielt 2016 den Nobelpreis für Physiologie/Medizin für die Aufklärung dieses Mechanismus.
+      
+      Autophagie ist besonders relevant für:
+      - Neurodegeneration (Abbau von Protein-Aggregaten wie Tau, Alpha-Synuclein)
+      - Herzfunktion (Proteinhomöostase in Kardiomyozyten)
+      - Immunsystem (Beseitigung intrazellulärer Pathogene)
+      - Allgemeine Proteinhomöostase im Altern
+      
+      ### Spermidin als Autophagie-Induktor
+      
+      Spermidin induziert Autophagie über mehrere Signalwege:
+      
+      1. **mTORC1-Hemmung**: Spermidin hemmt indirekt mTOR (mammalian Target of Rapamycin) — ähnlich wie Kalorienrestriktion und Metformin
+      2. **eIF5A-Hypusinierung** (Liang et al. 2020, PMID 30955569): Neu entdeckter Mechanismus — Spermidin hypusiniert den Translationsfaktor eIF5A, der wiederum die Autophagie-Genexpression aktiviert
+      3. **AMPK-Aktivierung**: In einigen Modellen über Energiewahrnehmung
+      
+      Entscheidend: In Modellorganismen (C. elegans, Drosophila, Mäuse) ist der Autophagie-Induktionsmechanismus gut belegt. **Autophagie-Hemmung hebt den Lebensspannen-Effekt vollständig auf** — das legt nahe, dass Autophagie kausal beteiligt ist.
+      
+      ---
+      
+      ## Studienlage
+      
+      ### Kognition: SmartAge-Studie (PMID 32428599)
+      
+      Der erste humane RCT zur Spermidin-Supplementierung für kognitive Endpunkte. Design: Randomisiert, doppelblind, Placebo-kontrolliert.
+      
+      - **Population**: n=85 ältere Erwachsene (60–90 Jahre) mit subjektiven Gedächtnisbeschwerden (Subjective Cognitive Impairment, SCI)
+      - **Intervention**: Weizenkeimextrakt mit ~1,2 mg/Tag Spermidin vs. Placebo, 3 Monate
+      - **Primärer Endpunkt (Mnemonic Discrimination Task)**: Kein statistisch signifikanter Unterschied zwischen den Gruppen
+      - **Sekundärer Endpunkt (Wortlisten-Gedächtnis)**: Signifikante Verbesserung in der Spermidin-Gruppe (+0,5 Wörter im Mittel)
+      - **Verträglichkeit**: Gut; keine schwerwiegenden Nebenwirkungen
+      
+      **Einordnung**: Die Studie zeigt ein exploratorisches Signal, aber keinen primären Wirksamkeitsnachweis. Eine Folgestudie (SmartAge II) mit größerer Stichprobenzahl ist in Planung. Die Autoren (Wirth, Flöel, Berlin) mahnen zur Vorsicht bei Schlussfolgerungen.
+      
+      ### Kardiovaskuläre Gesundheit (PMID 33762175)
+      
+      Eisenberg et al. kombinierten Maus-Experimente mit einer epidemiologischen Auswertung:
+      
+      - **Mäuse**: Spermidin verbesserte diastolische Herzfunktion bei alten Tieren und verlängerte die Lebensspanne um ~10 %
+      - **Epidemiologie** (n=3.407): Höchste diätetische Spermidinzufuhr (oberstes Tertil, ~15 mg/Tag) vs. niedrigstes Tertil (~6 mg/Tag) war mit einer **Hazard Ratio von 0,60 für kardiovaskuläre Mortalität** assoziiert (95% CI: 0,44–0,83) nach Multivariatadjustierung
+      
+      Wichtig: Das ist eine Beobachtungsstudie — Spermidin-reiche Ernährung ist mit allgemein gesünderem Lebensstil korreliert.
+      
+      ### Mortalität: Bruneck-Studie (PMID 34929611)
+      
+      Die Bruneck-Kohorte (Südtirol, Österreich) ist eine der wichtigsten Grundlagen für Spermidin-Populationsdaten:
+      
+      - **Design**: Prospektive Beobachtungsstudie, n=829, 20 Jahre Follow-up
+      - **Ergebnis**: Höchste Spermidinzufuhr über die Nahrung war mit **HR 0,62 für Gesamtmortalität** assoziiert (95% CI: 0,45–0,85)
+      - **Adjustierung**: Alter, Geschlecht, BMI, Rauchen, Alkohol, körperliche Aktivität, Gesamtenergiezufuhr, Ernährungsqualität (Mediterranean Diet Score)
+      
+      Das ist epidemiologisch konsistent — aber kausal nicht ableitbar.
+      
+      ---
+      
+      ## Was nicht belegt ist
+      
+      - **Supplementierung überlegen gegenüber spermidinreicher Ernährung**: Kein direkter Vergleich; eine Handvoll Weizenkeime liefert die Supplements-Dosis
+      - **Wirksamkeit bei kognitiv gesunden Personen**: SmartAge rekrutierte ausschließlich SCI-Patienten
+      - **Lebensverlängerung beim Menschen**: Kausal nicht untersucht; Beobachtungsdaten zeigen Assoziation, keine Kausalität
+      - **Optimale Dosis**: Unklar; Supplements liefern 1–5 mg/Tag; ob höhere Dosen besser wirken, nicht belegt
+      - **Alzheimer oder andere Demenzen**: Keine RCT-Daten
+      
+      ---
+      
+      ## Dosierung & Einnahme
+      
+      | Parameter | Studienlage |
+      |---|---|
+      | **In Humanstudien verwendet** | 1–5 mg/Tag (als Weizenkeimextrakt) |
+      | **Bruneck-Populationsdaten** | Hohe Aufnahme ~12–18 mg/Tag aus Nahrung |
+      | **Supplement-Äquivalent** | 1–2 mg/Kapsel (Weizenkeimextrakt) |
+      | **Natürliche Alternative** | 30 g Weizenkeime = ~6 mg Spermidin |
+      | **Einnahmetiming** | Keine Präferenz aus Studien bekannt |
+      | **Langzeitsicherheit** | Bis 12 Monate in Studien beobachtet ohne Auffälligkeiten |
+      
+      **Weizenkeimextrakt vs. synthetisches Spermidin:** Alle bisherigen Humanstudien verwendeten Weizenkeimextrakt (enthält Spermidin plus weitere Polyamine und Nährstoffe). Ob synthetisches Spermidin äquivalent wirkt, ist nicht belegt.
+      
+      ---
+      
+      ## EFSA & Regulierung in der EU
+      
+      Für Spermidin existieren **keine EFSA-zugelassenen Health Claims**. Als körpereigene Substanz, die in zahlreichen Lebensmitteln natürlich vorkommt, ist Spermidin in der EU als Lebensmittelbestandteil anerkannt. Hochkonzentrierte Supplement-Extrakte unterliegen keiner Novel-Food-Pflicht (traditionelle Verwendung), dürfen aber keine gesundheitsbezogenen Aussagen tragen.
+      
+      Die Formulierung „unterstützt Autophagie" oder „fördert zelluläre Selbstreinigung" auf Produktetiketten ist in der EU regulatorisch nicht zulässig.
+      
+      ---
+      
+      ## Sicherheit & Nebenwirkungen
+      
+      Spermidin ist ein **körpereigenes Molekül**, das in normalen Mengen aus der Nahrung aufgenommen wird. Supplements in üblichen Dosen (1–5 mg/Tag) zeigten in bisherigen Studien ein gutes Sicherheitsprofil.
+      
+      **Bekannte Nebenwirkungen:** Keine schwerwiegenden; gelegentlich leichte gastrointestinale Beschwerden bei Weizenkeimextrakt (durch Begleitsubstanzen)
+      
+      **Theoretischer Vorbehalt:** Polyamine — darunter Spermidin — werden von schnell teilenden Zellen (auch Tumorzellen) benötigt. Ob Spermidin-Supplementierung das Tumorwachstum bei bestehenden Tumoren fördert, ist nicht untersucht. Vorbestehende Krebserkrankungen: Rücksprache mit behandelndem Arzt empfehlenswert.
+      
+      **Langzeitdaten:** Bis 12 Monate aus Studien ohne Auffälligkeiten. Sicherheit bei Langzeiteinnahme (&gt;1 Jahr) ist nicht belegt — aber angesichts der natürlichen Vorkommen wenig besorgniserregend.
+      
+      ---
+      
+      ## Fazit
+      
+      Spermidin ist **wissenschaftlich eines der interessantesten Longevity-Moleküle** — mit biologisch plausiblem Mechanismus, konsistenten Tierdaten und ersten, vorsichtig-positiven Humanstudien. Die Bruneck-Beobachtungsstudie liefert epidemiologische Unterstützung; der SmartAge-RCT zeigt Signale, aber keinen primären Wirksamkeitsnachweis.
+      
+      Die ehrliche Einordnung: Die Evidenzbasis ist noch zu schmal für starke Schlussfolgerungen. Eine Hochdosissupplementierung bei gesunden jungen Erwachsenen ist durch keine Studie gestützt. Wer Spermidin über spermidinreiche Lebensmittel (Weizenkeime, Hülsenfrüchte, gereifter Käse) aufnimmt, liegt vermutlich genauso gut — und natürlicher. Ergänzungen mit Weizenkeimextrakt für ältere Erwachsene mit Gedächtnisanliegen erscheinen sicher und potenziell sinnvoll, bis größere RCTs vorliegen.
+
+  en:
+    summary: >-
+      Natural polyamine from wheat germ and legumes. Robustly induces autophagy in cell and animal models; early human trials show positive signals for cognition and heart function.
+    evidenceSummary: >-
+      Spermidine consistently induces autophagy in animal and cell studies via mTOR inhibition and eIF5A hypusination. The SmartAge RCT (n=85) showed a secondary cognitive improvement signal but missed its primary endpoint. A 20-year observational study (Bruneck cohort, n=829) found 38% lower all-cause mortality in the highest dietary spermidine tertile. No EFSA health claim is permitted; the human evidence base is promising but not yet sufficient for strong conclusions.
+    body: |
+      ## What Is Spermidine?
+
+      Spermidine is a **natural polyamine** — an organic compound with multiple amine groups found in virtually every living organism. It plays a fundamental role in gene expression, cell proliferation, and — most relevant for longevity research — **autophagy**: the cellular self-cleaning process in which damaged proteins and dysfunctional organelles are broken down and recycled.
+
+      Spermidine is not exotic. It is present in everyday foods and synthesised endogenously from putrescine via spermidine synthase. What makes it scientifically interesting is that **endogenous spermidine levels decline measurably with age**, a phenomenon observed in parallel with rising rates of age-related disease. Whether this decline is causal or merely correlated with ageing remains an active research question.
+
+      ### Rich Dietary Sources
+
+      | Food | Spermidine content (mg/kg fresh weight) |
+      |---|---|
+      | Wheat germ | 200–250 mg/kg |
+      | Soybeans (mature) | 150–210 mg/kg |
+      | Lentils, chickpeas | 50–120 mg/kg |
+      | Aged cheese (Cheddar, Parmesan) | 20–60 mg/kg |
+      | Mushrooms | 10–40 mg/kg |
+      | Cauliflower | 30–40 mg/kg |
+
+      A single 30 g serving of wheat germ delivers approximately 6 mg of spermidine — comparable to most commercial supplements. This raises an important practical question: **is supplementation actually superior to targeted food intake?** No study has demonstrated it is.
+
+      ---
+
+      ## Mechanism: Autophagy and Beyond
+
+      ### Autophagy — Cellular Recycling
+
+      **Autophagy** (from Greek: "self-eating") is a conserved cellular process in which cells degrade and recycle damaged proteins, dysfunctional organelles, and cellular waste. Yoshinori Ohsumi received the 2016 Nobel Prize in Physiology or Medicine for elucidating this mechanism.
+
+      Autophagy is particularly relevant for:
+      - Neurodegeneration (clearance of protein aggregates such as tau and alpha-synuclein)
+      - Cardiac function (protein homeostasis in cardiomyocytes)
+      - Immune defence (elimination of intracellular pathogens)
+      - General proteostasis during ageing
+
+      ### How Spermidine Induces Autophagy
+
+      Spermidine activates autophagy through multiple signalling pathways:
+
+      1. **mTORC1 inhibition**: Spermidine indirectly suppresses mTOR (mammalian target of rapamycin) — similar to caloric restriction and metformin
+      2. **eIF5A hypusination** (Liang et al. 2020, PMID 30955569): A newly identified mechanism in which spermidine hypusinates the translation factor eIF5A, which in turn activates autophagy gene expression
+      3. **AMPK activation**: Observed in some models via energy-sensing pathways
+
+      Critically, in model organisms (C. elegans, Drosophila, mice), the autophagy-inducing mechanism is well established. **Blocking autophagy completely abolishes the lifespan extension effect**, which strongly implies that autophagy induction is causally involved rather than incidental.
+
+      ---
+
+      ## Human Evidence
+
+      ### Cognition: The SmartAge Trial (PMID 32428599)
+
+      The first human RCT testing spermidine supplementation for cognitive outcomes. Design: randomised, double-blind, placebo-controlled.
+
+      - **Population**: n=85 older adults (60–90 years) with subjective cognitive impairment (SCI)
+      - **Intervention**: Wheat germ extract providing ~1.2 mg/day spermidine vs. placebo, 3 months
+      - **Primary endpoint (Mnemonic Discrimination Task)**: No statistically significant difference between groups
+      - **Secondary endpoint (word list memory)**: Significant improvement in the spermidine group (+0.5 words on average)
+      - **Tolerability**: Good; no serious adverse events reported
+
+      **Assessment**: The trial shows an exploratory signal but not primary efficacy. A follow-up study (SmartAge II) with a larger sample is in planning. The authors (Wirth, Flöel, Berlin) explicitly caution against over-interpreting the results.
+
+      ### Cardiovascular Health (PMID 33762175)
+
+      Eisenberg et al. combined mouse experiments with an epidemiological analysis:
+
+      - **Mice**: Spermidine improved diastolic cardiac function in aged animals and extended lifespan by approximately 10%
+      - **Epidemiology** (n=3,407): Highest dietary spermidine intake (top tertile, ~15 mg/day) vs. lowest tertile (~6 mg/day) was associated with a **hazard ratio of 0.60 for cardiovascular mortality** (95% CI: 0.44–0.83) after multivariate adjustment
+
+      Important caveat: this is observational data — a spermidine-rich diet correlates with generally healthier lifestyle patterns.
+
+      ### Mortality: The Bruneck Study (PMID 34929611)
+
+      The Bruneck cohort (South Tyrol, Austria) provides one of the most robust population datasets for dietary spermidine:
+
+      - **Design**: Prospective observational study, n=829, 20-year follow-up
+      - **Result**: Highest dietary spermidine tertile was associated with **HR 0.62 for all-cause mortality** (95% CI: 0.45–0.85)
+      - **Adjustment**: Age, sex, BMI, smoking, alcohol, physical activity, total energy intake, diet quality (Mediterranean Diet Score)
+
+      Epidemiologically consistent — but causality cannot be inferred from observational data.
+
+      ---
+
+      ## What Is Not Yet Established
+
+      - **Supplementation superior to spermidine-rich foods**: No direct comparison exists; a handful of wheat germ delivers the supplement dose
+      - **Efficacy in cognitively healthy individuals**: SmartAge enrolled exclusively SCI patients
+      - **Lifespan extension in humans**: Not causally studied; observational data show association, not causation
+      - **Optimal dose**: Unclear; supplements deliver 1–5 mg/day; whether higher doses perform better is unknown
+      - **Alzheimer's disease or other dementias**: No RCT data available
+
+      ---
+
+      ## Dosage & Use
+
+      | Parameter | Evidence base |
+      |---|---|
+      | **Used in human trials** | 1–5 mg/day (as wheat germ extract) |
+      | **Bruneck population data** | High intake ~12–18 mg/day from diet |
+      | **Typical supplement dose** | 1–2 mg/capsule (wheat germ extract) |
+      | **Natural alternative** | 30 g wheat germ ≈ 6 mg spermidine |
+      | **Timing** | No preference established from trial data |
+      | **Observed safety duration** | Up to 12 months without adverse signals |
+
+      **Wheat germ extract vs. synthetic spermidine**: All human trials to date have used wheat germ extract, which contains spermidine alongside other polyamines and micronutrients. Whether isolated synthetic spermidine produces equivalent effects is not established.
+
+      ---
+
+      ## EFSA & EU Regulation
+
+      No EFSA-approved health claims exist for spermidine. As a substance naturally found in many foods and produced endogenously, spermidine is recognised as a food component in the EU. High-concentration supplement extracts are not subject to Novel Food requirements (given traditional dietary use), but may not carry health-related claims on their labels.
+
+      Phrases such as "supports autophagy" or "promotes cellular self-cleaning" on product labels are **not permitted under EU regulation**.
+
+      ---
+
+      ## Safety & Side Effects
+
+      Spermidine is an **endogenous molecule** consumed in normal amounts through everyday diet. Supplements at typical doses (1–5 mg/day) have shown a good safety profile in available studies.
+
+      **Known side effects**: No serious adverse events reported; occasional mild gastrointestinal discomfort with wheat germ extract (attributed to accompanying compounds, not spermidine itself).
+
+      **Theoretical concern**: Polyamines — including spermidine — are required by rapidly dividing cells, including tumour cells. Whether spermidine supplementation could promote tumour growth in the presence of existing cancer has not been studied. Individuals with active malignancies should consult their treating physician before supplementing.
+
+      **Long-term data**: Up to 12 months observed in trials without adverse signals. Safety beyond one year is not formally established — though given spermidine's ubiquitous presence in food, this is not a major concern at dietary-range doses.
+
+      ---
+
+      ## Conclusion
+
+      Spermidine is **scientifically one of the most compelling longevity molecules** — biologically plausible mechanism, consistent animal data, and early cautiously positive human signals. The Bruneck observational study provides epidemiological support; the SmartAge RCT shows a signal but no primary efficacy proof.
+
+      The honest assessment: the evidence base is still too narrow for strong conclusions. Supplementation at high doses in healthy young adults is unsupported by any trial. Those who consume spermidine through spermidine-rich foods (wheat germ, legumes, aged cheese) are likely getting the same benefit — more naturally and more cheaply. Wheat germ extract supplementation for older adults with memory concerns appears safe and potentially worthwhile pending larger RCTs.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: energie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: neuroprotektiv
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: ampk-aktivierung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: mtor-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: autophagie
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: blutdruck-werte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: eisen
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nr
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-magen-darm-beschwerden
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-30955569
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:30955569"
+  - relation: basiert_auf_studie
+    target: studie-32428599
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:32428599"
+  - relation: basiert_auf_studie
+    target: studie-33762175
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:33762175"
+  - relation: basiert_auf_studie
+    target: studie-34929611
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:34929611"
