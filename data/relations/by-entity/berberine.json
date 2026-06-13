@@ -5,56 +5,133 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "blutzucker",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.85,
+      "evidence_strength": "hoch",
+      "source": "pmid:19800084",
+      "note": "RCT (n=116): HbA1c -2,0 PP, Nüchternblutzucker -3,5 mmol/L, vergleichbar mit Metformin"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "herz-kreislauf",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.6,
+      "evidence_strength": "moderat",
+      "note": "LDL-Senkung 15-25% in Humanstudien via LDLR-Mechanismus; keine kardiovaskulären Endpunktstudien"
     },
     {
       "relation": "wird_eingesetzt_fuer",
-      "target": "leber",
+      "target": "verdauung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.4,
+      "evidence_strength": "niedrig",
+      "note": "Einflüsse auf Darmmikrobiom in Tierstudien; Humanstudien explorativ"
     },
     {
       "relation": "wirkt_ueber",
       "target": "ampk-aktivierung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.9,
+      "source": "pmid:20150526",
+      "note": "Hemmung von Komplex I der Atmungskette → ATP/AMP-Abfall → AMPK-Aktivierung"
     },
     {
-      "relation": "benoetigt_biomarker_check",
-      "target": "leberwerte",
+      "relation": "wirkt_ueber",
+      "target": "nf-kb-hemmung",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "Entzündungshemmende Effekte über NF-κB in Zellstudien belegt"
     },
     {
       "relation": "hat_interaktion_mit",
-      "target": "same",
+      "target": "warfarin",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Viele der stärkeren Befunde stammen aus Populationen mit metabolischen Auffälligkeiten\n- **Langzeitdaten:** Studien meist kurz (3–6 Monate)\n- **Gesundes Altern:** Als direkte Intervention nicht unters"
+      "confidence": 0.8,
+      "note": "CYP2C9-Hemmung → erhöhte Antikoagulantien-Spiegel → Blutungsrisiko"
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "metformin",
+      "direction": "outgoing",
+      "confidence": 0.85,
+      "note": "Additiver blutzuckersenkender Effekt über AMPK → Hypoglykämiegefahr bei Kombination"
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "ciclosporin",
+      "direction": "outgoing",
+      "confidence": 0.8,
+      "note": "CYP3A4-Hemmung → klinisch signifikant erhöhte Ciclosporin-Spiegel dokumentiert"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schwangerschaft",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "note": "Embryotoxische Effekte im Tiermodell; Berberin passiert die Plazenta"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-blutgerinnungsstoerung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.8,
+      "note": "CYP2C9-Hemmung erhöht Blutungsrisiko bei Antikoagulantien-Einnahme"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-diabetes-medikamente",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.85,
+      "note": "Additiver Effekt mit Antidiabetika → Hypoglykämiegefahr"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-organtransplantation",
+      "direction": "outgoing",
+      "confidence": 0.85,
+      "note": "CYP3A4-Hemmung erhöht Ciclosporin/Tacrolimus-Spiegel klinisch signifikant"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-darm-beschwerden",
+      "direction": "outgoing",
+      "confidence": 0.85,
+      "note": "Übelkeit, Durchfall, Bauchkrämpfe bei 10-20% der Studienteilnehmer"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-blutzuckerabfall",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Hypoglykämie bei Kombination mit Antidiabetika möglich"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "leberwerte",
+      "direction": "outgoing",
+      "confidence": 0.6,
+      "note": "Leberwertekontrolle bei Langzeitanwendung >3 Monate empfohlen"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "nüchternblutzucker",
+      "direction": "outgoing",
+      "confidence": 0.85,
+      "source": "pmid:19800084",
+      "note": "Primärer Endpunkt in Berberinsstudien; monitoring bei Diabetikern"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "hba1c",
+      "direction": "outgoing",
+      "confidence": 0.85,
+      "note": "HbA1c-Senkung ist ein Haupteffekt in RCTs bei Typ-2-Diabetes"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "cholesterin",
+      "direction": "outgoing",
+      "confidence": 0.75,
+      "note": "LDL-Senkung via LDLR-Mechanismus; Lipidprofil-Kontrolle sinnvoll"
     },
     {
       "relation": "hat_regulatorischen_status",
@@ -68,7 +145,7 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:15466416",
-      "note": "Berberin war mit niedrigeren Werten verbundene LDL-Cholesterin um 25% über einen neuartigen Mechanismus (LDLR-Stabilisierung) — unabhängig von Statinen."
+      "note": "LDL-Cholesterin -25% via LDLR-Stabilisierung, Statin-unabhängiger Mechanismus"
     },
     {
       "relation": "basiert_auf_studie",
@@ -76,15 +153,23 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:19800084",
-      "note": "RCT (n=116): Berberin war mit niedrigeren Werten verbundene HbA1c, Nüchternblutzucker und Triglyceride vergleichbar mit Metformin — ein wichtiger Befund."
+      "note": "RCT n=116: HbA1c -2,0PP, Nüchternblutzucker -3,5 mmol/L vs. Metformin"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-23118793",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23118793",
+      "note": "Meta-Analyse 14 RCTs n=1.068: Blutzucker und HbA1c Senkung bei T2DM"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20150526",
       "direction": "outgoing",
-      "confidence": 0.9,
+      "confidence": 0.85,
       "source": "pmid:20150526",
-      "note": "Berberin aktiviert AMPK (wie Metformin) und war mit Veränderungen verbunden Insulinsensitivität in Tier- und Zellstudien über mehrere Mechanismen."
+      "note": "AMPK-Aktivierung Mechanismus, Insulinsensitivität in Tiermodell"
     }
   ]
 }

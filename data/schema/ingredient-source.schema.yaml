@@ -1,0 +1,179 @@
+# Ingredient Source Schema v1.0
+#
+# This file documents the structure of YAML source files in data/sources/ingredients/.
+# Each source file is the Single Source of Truth for one ingredient.
+#
+# From a source file, the generator (data/scripts/generate-from-source.ts) produces:
+#   - src/content/ingredients/<slug>.mdx         (DE dossier)
+#   - src/content/en/ingredients/<slug>.mdx      (EN dossier)
+#   - data/entities/ingredients/<slug>.json      (KG entity)
+#   - data/relations/by-entity/<slug>.json       (KG relations)
+#
+# Usage:
+#   npx tsx data/scripts/generate-from-source.ts berberine
+#   npx tsx data/scripts/generate-from-source.ts   # all sources
+
+# ── Root fields ────────────────────────────────────────────────────────────────
+
+id:
+  type: string
+  pattern: "^[a-z0-9-]+$"
+  required: true
+  description: "Kebab-case slug, matches filename without extension"
+
+type:
+  type: string
+  enum: [ingredient]
+  required: true
+
+# ── meta: language-neutral frontmatter fields ──────────────────────────────────
+
+meta:
+  title:
+    type: object
+    properties:
+      de: { type: string, required: true }
+      en: { type: string, required: true }
+
+  aliases:
+    type: array
+    items: { type: string }
+    description: "Trade names, alternate spellings, common search terms"
+
+  category:
+    type: string
+    enum: [nad-precursors, senolytics, antioxidants, adaptogens, metabolic, other]
+    required: true
+
+  evidenceLevel:
+    type: string
+    enum: ["1", "2", "3", "4", "5"]
+    required: true
+    description: |
+      1 = Multiple RCTs, consistent
+      2 = Single RCT or limited RCTs
+      3 = Observational human studies
+      4 = Animal / in-vitro only
+      5 = No studies / testimonials only
+
+  safety_rating:
+    type: string
+    enum: [safe, likely-safe, caution, insufficient-data]
+    required: true
+
+  efsa_health_claims_allowed:
+    type: boolean
+    required: true
+
+  typical_dose_mg:
+    type: number
+    description: "Typical single dose in mg as used in key studies"
+
+  publishedAt:
+    type: string
+    format: date
+    description: "ISO date string YYYY-MM-DD"
+
+  updatedAt:
+    type: string
+    format: date
+    description: "ISO date string YYYY-MM-DD"
+
+# ── efsa_notes: per-locale EFSA status text ────────────────────────────────────
+
+efsa_notes:
+  type: object
+  properties:
+    de: { type: string, required: true }
+    en: { type: string, required: true }
+
+# ── key_studies: up to 5 studies, findings per locale ─────────────────────────
+
+key_studies:
+  type: array
+  maxItems: 5
+  items:
+    pmid:
+      type: string
+      description: "PubMed ID, digits only"
+    title:
+      type: string
+      required: true
+    authors:
+      type: string
+      required: true
+    year:
+      type: integer
+      required: true
+    url:
+      type: string
+      format: uri
+    finding:
+      type: object
+      properties:
+        de: { type: string, required: true }
+        en: { type: string, required: true }
+
+# ── locales: prose content per language ───────────────────────────────────────
+
+locales:
+  type: object
+  description: "Prose content for each supported locale"
+  properties:
+    de:
+      summary:
+        type: string
+        maxLength: 200
+        required: true
+        description: "Short teaser, shown in ingredient cards"
+      evidenceSummary:
+        type: string
+        required: true
+        description: "2-4 sentence evidence overview for the dossier header"
+      body:
+        type: string
+        required: true
+        description: "Full Markdown prose for the MDX body (900+ words)"
+    en:
+      summary:
+        type: string
+        maxLength: 200
+        required: true
+      evidenceSummary:
+        type: string
+        required: true
+      body:
+        type: string
+        required: true
+
+# ── relations: KG relations for this ingredient ───────────────────────────────
+
+relations:
+  type: array
+  description: "Manually curated KG relations. Replaces auto-extracted relations."
+  items:
+    relation:
+      type: string
+      description: "Must be one of the relation types in data/schema/relation-types.json"
+      required: true
+    target:
+      type: string
+      description: "Target entity ID (kebab-case)"
+      required: true
+    direction:
+      type: string
+      enum: [outgoing, incoming]
+      default: outgoing
+    confidence:
+      type: number
+      minimum: 0
+      maximum: 1
+    evidence_strength:
+      type: string
+      enum: [hoch, moderat, niedrig]
+    source:
+      type: string
+      description: "e.g. pmid:19800084"
+    note:
+      type: string
+      maxLength: 300
