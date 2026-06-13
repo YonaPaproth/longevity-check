@@ -1,0 +1,324 @@
+---
+id: coq10
+type: ingredient
+
+meta:
+  title:
+    de: "CoQ10 (Ubiquinol / Ubiquinon)"
+    en: "CoQ10 (Ubiquinol / Ubiquinone)"
+  aliases:
+    - Coenzym Q10
+    - Ubiquinol
+    - Ubiquinon
+    - CoQ10 Supplement
+    - Q10
+  category: antioxidants
+  evidenceLevel: "2"
+  safety_rating: safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 200
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat einen Health-Claim-Antrag für CoQ10 (Beitrag zur normalen Herzfunktion) im Jahr 2010 abgelehnt – Evidenz als unzureichend eingestuft. CoQ10-Produkte dürfen in der EU keine gesundheitsbezogenen Aussagen machen.
+  en: >-
+    EFSA rejected a health claim application for CoQ10 (contribution to normal heart function) in 2010, citing insufficient evidence. CoQ10 products may not make health claims in the EU.
+
+key_studies:
+  - pmid: "23097267"
+    title: "Selenium and Coenzyme Q10 Reduces Cardiovascular Mortality (KiSel-10)"
+    authors: "Alehagen U et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23097267/"
+    finding:
+      de: >-
+        RCT (n=443, ältere Schweden): Kombination Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität um 54% (HR 0,46; 95%-CI 0,28–0,77). Beachtlich, aber noch nicht unabhängig repliziert.
+      en: >-
+        RCT (n=443, older Swedish adults): Selenium + CoQ10 combination over 4 years reduced cardiovascular mortality by 54% (HR 0.46; 95% CI 0.28–0.77). Impressive, but not yet independently replicated.
+  - pmid: "25282031"
+    title: "Effect of Coenzyme Q10 on Morbidity and Mortality in Chronic Heart Failure (Q-SYMBIO)"
+    authors: "Mortensen SA et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/25282031/"
+    finding:
+      de: >-
+        RCT (n=420): CoQ10 300 mg/Tag über 2 Jahre reduzierte schwere kardiovaskuläre Ereignisse (14% vs. 25% im Placebo, p=0,003) und Gesamtmortalität bei chronischer Herzinsuffizienz.
+      en: >-
+        RCT (n=420): CoQ10 300 mg/day over 2 years reduced major cardiovascular events (14% vs. 25% in placebo, p=0.003) and all-cause mortality in chronic heart failure.
+  - pmid: "25154704"
+    title: "Coenzyme Q10 Supplementation Reduces Statin-Related Myopathy"
+    authors: "Skarlovnik A et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/25154704/"
+    finding:
+      de: >-
+        RCT: CoQ10 100 mg/Tag über 30 Tage reduzierte Muskelschwäche und -schmerzen bei Statin-assozierter Myopathie signifikant gegenüber Placebo.
+      en: >-
+        RCT: CoQ10 100 mg/day for 30 days significantly reduced muscle weakness and pain in statin-associated myopathy vs. placebo.
+  - pmid: "17386983"
+    title: "Coenzyme Q10 in the treatment of hypertension: a meta-analysis of the clinical trials"
+    authors: "Rosenfeldt FL et al."
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17386983/"
+    finding:
+      de: >-
+        Metaanalyse (12 RCTs): CoQ10 reduzierte systolischen Blutdruck um durchschnittlich 16,6 mmHg und diastolischen um 8,2 mmHg. Effekte in kleineren Studien; größere Replikationen stehen aus.
+      en: >-
+        Meta-analysis (12 RCTs): CoQ10 reduced systolic blood pressure by an average of 16.6 mmHg and diastolic by 8.2 mmHg. Effects observed in smaller trials; larger replication studies pending.
+  - pmid: "18926930"
+    title: "Coenzyme Q10 as a predictor of mortality in chronic heart failure"
+    authors: "Molyneux SL et al."
+    year: 2008
+    url: "https://pubmed.ncbi.nlm.nih.gov/18926930/"
+    finding:
+      de: >-
+        Kohortenstudie (n=236 CHF-Patienten): Niedriger CoQ10-Spiegel war ein unabhängiger Prädiktor für erhöhte Mortalität bei chronischer Herzinsuffizienz. Verstärkt klinisches Interesse an CoQ10-Substitution.
+      en: >-
+        Cohort study (n=236 heart failure patients): Low CoQ10 level was an independent predictor of increased mortality in chronic heart failure, supporting clinical interest in CoQ10 supplementation.
+
+locales:
+  de:
+    summary: >-
+      CoQ10 ist ein zelluläres Antioxidans, das vor allem bei Herzinsuffizienz und Statin-Nebenwirkungen untersucht wird. Bei Gesunden ohne Risikofaktoren ist der Zusatznutzen unklar.
+    evidenceSummary: >-
+      Q-SYMBIO (n=420) und KiSel-10 zeigen positive Ergebnisse für CoQ10 bei Herzinsuffizienz und älteren Erwachsenen. Statin-assoziierte Myopathie: mehrere kleine RCTs positiv. Bei gesunden Personen ohne Mangel sind klinisch relevante Effekte nicht belegt. EFSA lehnte Health-Claim-Antrag 2010 ab.
+    body: |
+      ## Was ist CoQ10?
+
+      Coenzym Q10 (Ubiquinon / Ubiquinol) ist ein fettlösliches Antioxidans, das in den Mitochondrien aller Körperzellen vorkommt und für die Energieproduktion (ATP-Synthese in der Elektronentransportkette) unverzichtbar ist. Die Substanz existiert in zwei Formen:
+
+      - **Ubiquinon** (oxidierte Form): günstigere Form in Supplements; muss vom Körper zu Ubiquinol reduziert werden
+      - **Ubiquinol** (reduzierte, aktive Form): direkt einsetzbar; höhere Bioverfügbarkeit, besonders relevant ab ca. 40–50 Jahren
+
+      Der Körper produziert CoQ10 selbst, aber die Endogensynthese nimmt ab dem **30. Lebensjahr** kontinuierlich ab. Plasma-CoQ10-Spiegel erreichen ihr Maximum bei ca. 20 Jahren und sinken bis zum 80. Lebensjahr auf ca. **35–65% des Maximalwerts**. Statine (Cholesterinsenker) hemmen zusätzlich die CoQ10-Synthese über den Mevalonat-Weg.
+
+      ## Für wen ist CoQ10 besonders relevant?
+
+      ### Statin-Einnehmer
+
+      Statine blockieren die HMG-CoA-Reduktase – denselben Stoffwechselweg, über den der Körper CoQ10 produziert. Bekannte Folge: Statin-assoziierte Myopathie mit Muskelschwäche und -schmerzen bei ca. **5–10% der Statin-Nutzer**. Mehrere RCTs, darunter Skarlovnik et al. (2014), zeigen Linderung dieser Beschwerden durch CoQ10-Supplementierung (100 mg/Tag). Die Evidenz ist positiv, aber die Studienlage insgesamt noch heterogen.
+
+      ### Herzinsuffizienz-Patienten
+
+      **Q-SYMBIO (Mortensen 2014, n=420)** ist die stärkste Studie für CoQ10: Bei Patienten mit chronischer Herzinsuffizienz reduzierte CoQ10 300 mg/Tag über 2 Jahre schwere kardiovaskuläre Ereignisse von 25% auf **14% (p=0,003)** und senkte die Gesamtmortalität. Das ist ein klinisch bedeutsamer Effekt in einem verblindeten RCT.
+
+      Ergänzend: Eine Kohortenstudie (Molyneux 2008, n=236) zeigte, dass niedriger CoQ10-Spiegel ein **unabhängiger Prädiktor für Mortalität** bei Herzinsuffizienz ist – was das therapeutische Interesse an CoQ10-Substitution begründet.
+
+      ### Ältere Menschen
+
+      **KiSel-10 (Alehagen 2013, n=443)**: Kombination aus Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität bei älteren Schweden um **54% (HR 0,46)**. Das ist ein beeindruckendes Ergebnis – aber die Studie war relativ klein und kombinierte zwei Substanzen; unabhängige Replikation steht aus.
+
+      ## Blutdruck
+
+      Eine Metaanalyse von 12 RCTs (Rosenfeldt 2007) zeigte eine Blutdrucksenkung durch CoQ10 von durchschnittlich **16,6 mmHg systolisch und 8,2 mmHg diastolisch**. Diese Effektgröße ist beträchtlich – größer als bei Magnesium. Allerdings waren die Einzelstudien klein; robuste Phase-III-Daten fehlen.
+
+      ## Ubiquinon vs. Ubiquinol: Welche Form wählen?
+
+      Ab etwa 40–50 Jahren nimmt die körpereigene Fähigkeit ab, Ubiquinon in Ubiquinol umzuwandeln. Für Personen ab 40 Jahren wird Ubiquinol daher oft empfohlen – obwohl direkte Vergleichsstudien bezüglich klinischer Endpunkte (nicht nur Plasma-Spiegel) noch begrenzt sind.
+
+      ## Dosierung und Praktische Anwendung
+
+      | Indikation | Dosierung | Dauer | Hinweis |
+      |---|---|---|---|
+      | Statin-assoziierte Myopathie | 100–200 mg/Tag | 4–8 Wochen | Ubiquinol bevorzugt; parallel zum Statin |
+      | Herzinsuffizienz | 300 mg/Tag | Langzeit | Nur unter ärztlicher Überwachung (Q-SYMBIO: 2 Jahre) |
+      | Blutdruckunterstützung | 100–200 mg/Tag | 12 Wochen | Keine First-Line-Therapie; adjuvant zu etablierten Verfahren |
+      | Allgemeine Supplement | 100–200 mg/Tag | langfristig | Ubiquinol ab 40 Jahren; mit Mahlzeit |
+
+      ## Limitationen und kritische Punkte
+
+      1. **Evidenz ist vor allem bei Herzpatienten stark.** Q-SYMBIO und KiSel-10 sind die Flaggschiffstudien, aber beide sind relativ klein und begrenzt auf ältere / kranke Populationen.
+
+      2. **Keine etablierte Wirkung bei gesunden Menschen.** Studien bei jungen, gesunden Probanden ohne Herzerkrankung oder Statin-Einsatz existieren praktisch nicht.
+
+      3. **KiSel-10 kombiniert zwei Substanzen.** Es ist unklar, wie viel des 54%-Mortalitätseffekts auf CoQ10 vs. Selen entfällt.
+
+      4. **Ubiquinol vs. Ubiquinon: Direkter Vergleich fehlt.** Für klinische Endpunkte gibt es keine RCTs, die die beiden Formen direkt vergleichen.
+
+      5. **Blutdruck-Effekte sind moderat und variabel.** Die Meta-Analyse zeigt im Mittel 16,6 mmHg Senkung – aber einzelne Studien sind heterogen.
+
+      ## Für wen ist CoQ10 sinnvoll?
+
+      - **Statin-Nutzer mit Muskelsymptomen**: 100–200 mg/Tag Ubiquinol, parallel zum Statin
+      - **Herzinsuffizienz-Patienten**: Unter ärztlicher Leitung, 300 mg/Tag (Q-SYMBIO-Dosis)
+      - **Ältere Menschen (>60)**: Ubiquinol 100–200 mg/Tag könnte präventiv sinnvoll sein – aber keine starke Evidenz
+      - **Gesunde junge Menschen ohne Statin/Herzerkrankung**: Evidenz für Zusatznutzen fehlt
+
+      ## Fazit
+
+      CoQ10 hat die stärkste Evidenz bei chronischer Herzinsuffizienz (Q-SYMBIO, Mortalitätsreduktion) und bei Statin-assoziierten Myopathien. Bei älteren Menschen könnte es (in Kombination mit Selen) kardiovaskuläre Mortalität reduzieren. Bei gesunden Personen ohne Herzerkrankung oder Statingebrauch ist der klinische Nutzen unbewiesen. Die Körpersynthese sinkt mit dem Alter, was CoQ10-Supplementierung ab ~40 Jahren plausibel macht – aber große RCTs bei gesunden älteren Menschen fehlen. Ubiquinol ist ab 40 Jahren wahrscheinlich ubiquinon vorzuziehen, direkter Vergleich für Endpunkte fehlt jedoch.
+
+  en:
+    summary: >-
+      CoQ10 reduces mortality in heart failure (Q-SYMBIO); relieves statin-induced muscle pain. In healthy individuals without heart disease, benefits are unproven.
+    evidenceSummary: >-
+      Q-SYMBIO (n=420) shows mortality reduction in heart failure; KiSel-10 (n=443) shows 54% cardiovascular mortality reduction in older adults (combined with selenium). Small RCTs support benefit in statin-induced myopathy. No established role in healthy individuals. EFSA rejected health claim in 2010.
+    body: |
+      ## What Is CoQ10?
+
+      Coenzyme Q10 (ubiquinone/ubiquinol) is a fat-soluble antioxidant present in the mitochondria of all body cells, where it is essential for energy production (ATP synthesis in the electron transport chain). The substance exists in two forms:
+
+      - **Ubiquinone** (oxidized form): cheaper in supplements; the body must reduce it to ubiquinol for use
+      - **Ubiquinol** (reduced, active form): immediately bioavailable; higher bioavailability, especially relevant after age 40–50
+
+      The body synthesizes CoQ10 endogenously, but production declines continuously from the **third decade onward**. Plasma CoQ10 levels peak around age 20 and decline to approximately **35–65% of peak levels** by age 80. Statins (cholesterol-lowering drugs) further suppress CoQ10 synthesis via the mevalonate pathway.
+
+      ## Who Benefits from CoQ10?
+
+      ### Statin Users
+
+      Statins block HMG-CoA reductase—the same enzyme involved in CoQ10 synthesis. Consequence: statin-associated myopathy with muscle weakness and pain in approximately **5–10% of statin users**. Multiple RCTs, including Skarlovnik et al. (2014), show relief of these symptoms with CoQ10 supplementation (100 mg/day). The evidence is positive, but the overall study landscape remains heterogeneous.
+
+      ### Heart Failure Patients
+
+      **Q-SYMBIO (Mortensen 2014, n=420)** is the landmark trial for CoQ10: In chronic heart failure patients, CoQ10 300 mg/day over 2 years reduced major cardiovascular events from 25% to **14% (p=0.003)** and lowered all-cause mortality. This is a clinically meaningful effect in a blinded RCT.
+
+      Additionally, a cohort study (Molyneux 2008, n=236) showed that low CoQ10 levels independently predicted mortality in heart failure—supporting therapeutic interest in CoQ10 repletion.
+
+      ### Older Adults
+
+      **KiSel-10 (Alehagen 2013, n=443):** A combination of selenium + CoQ10 over 4 years reduced cardiovascular mortality in older Swedish adults by **54% (HR 0.46)**. Impressive—but the study was relatively small and combined two substances; independent replication is needed.
+
+      ## Blood Pressure
+
+      A meta-analysis of 12 RCTs (Rosenfeldt 2007) showed blood pressure reduction with CoQ10 of approximately **16.6 mmHg systolic and 8.2 mmHg diastolic**. This effect size is substantial—larger than typical for magnesium. However, individual studies were small; robust Phase III data are lacking.
+
+      ## Ubiquinone vs. Ubiquinol: Which Form?
+
+      After age 40–50, the body's capacity to convert ubiquinone to ubiquinol declines. For individuals over 40, ubiquinol is often recommended—though direct comparison trials for clinical endpoints (not just plasma levels) are limited.
+
+      ## Dosing and Practical Use
+
+      | Indication | Dose | Duration | Notes |
+      |---|---|---|---|
+      | Statin-induced myopathy | 100–200 mg/day | 4–8 weeks | Ubiquinol preferred; concurrent with statin |
+      | Heart failure | 300 mg/day | Long-term | Only under medical supervision (Q-SYMBIO: 2 years) |
+      | Blood pressure support | 100–200 mg/day | 12 weeks | Not first-line; adjunctive to established therapy |
+      | General supplement | 100–200 mg/day | Long-term | Ubiquinol after age 40; take with food |
+
+      ## Key Limitations and Critical Points
+
+      1. **Evidence is strongest in cardiac patients.** Q-SYMBIO and KiSel-10 are the flagship trials, but both are relatively small and limited to older/diseased populations.
+
+      2. **No established benefit in healthy people.** Studies in young, healthy individuals without heart disease or statin use are virtually absent.
+
+      3. **KiSel-10 combines two substances.** It is unclear how much of the 54% mortality reduction is attributable to CoQ10 vs. selenium.
+
+      4. **Ubiquinol vs. ubiquinone: head-to-head comparison missing.** No RCTs directly compare the two forms for clinical endpoints.
+
+      5. **Blood pressure effects are modest and variable.** The meta-analysis shows 16.6 mmHg reduction on average—but individual studies are heterogeneous.
+
+      ## For Whom Is CoQ10 Reasonable?
+
+      - **Statin users with muscle symptoms:** 100–200 mg/day ubiquinol, concurrent with statin
+      - **Heart failure patients:** Under medical supervision, 300 mg/day (Q-SYMBIO dose)
+      - **Older adults (>60):** Ubiquinol 100–200 mg/day may have preventive merit—but evidence is indirect
+      - **Healthy younger people without statin/heart disease:** Evidence for additional benefit is lacking
+
+      ## Summary
+
+      CoQ10 has the strongest evidence in chronic heart failure (Q-SYMBIO mortality reduction) and statin-induced myopathy. In older adults, it may (combined with selenium) reduce cardiovascular mortality. In healthy individuals without heart disease or statin use, clinical benefit is unproven. Endogenous synthesis declines with age, making CoQ10 supplementation plausible after ~40 years—but large RCTs in healthy older people are lacking. Ubiquinol is likely preferable to ubiquinone after age 40, though head-to-head clinical endpoint trials are absent.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.8
+  - relation: wird_eingesetzt_fuer
+    target: herzinsuffizienz
+    direction: outgoing
+    confidence: 0.8
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: myopathie
+    direction: outgoing
+    confidence: 0.8
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.6
+  - relation: wird_eingesetzt_fuer
+    target: muskelgesundheit
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.85
+  - relation: wirkt_ueber
+    target: mitochondrial-biogenese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: coq10-spiegel
+    direction: outgoing
+    confidence: 0.8
+  - relation: benoetigt_biomarker_check
+    target: troponin
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: bnp
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: ejektionsfraktion
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: statin
+    direction: outgoing
+    confidence: 0.85
+    note: "Statine hemmen die CoQ10-Synthese über den Mevalonat-Weg; Supplementation kann Myopathie-Symptome lindern"
+  - relation: hat_interaktion_mit
+    target: selen
+    direction: outgoing
+    confidence: 0.75
+    note: "KiSel-10 Studie: Kombination Selen + CoQ10 zeigte Mortalitätsreduktion bei älteren Menschen"
+  - relation: hat_nebenwirkung
+    target: nw-magen-beschwerden
+    direction: outgoing
+    confidence: 0.5
+  - relation: hat_nebenwirkung
+    target: nw-schlaflosigkeit
+    direction: outgoing
+    confidence: 0.4
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+    note: "EFSA lehnte Health-Claim für CoQ10 2010 ab"
+  - relation: basiert_auf_studie
+    target: studie-23097267
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23097267"
+  - relation: basiert_auf_studie
+    target: studie-25282031
+    direction: outgoing
+    confidence: 0.95
+    source: "pmid:25282031"
+  - relation: basiert_auf_studie
+    target: studie-25154704
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25154704"
+  - relation: basiert_auf_studie
+    target: studie-17386983
+    direction: outgoing
+    confidence: 0.8
+    source: "pmid:17386983"
+  - relation: basiert_auf_studie
+    target: studie-18926930
+    direction: outgoing
+    confidence: 0.85
+    source: "pmid:18926930"

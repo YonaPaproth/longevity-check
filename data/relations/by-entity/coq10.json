@@ -3,15 +3,15 @@
   "relations": [
     {
       "relation": "wird_eingesetzt_fuer",
-      "target": "energie",
+      "target": "herz-kreislauf",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
       "relation": "wird_eingesetzt_fuer",
-      "target": "kognition",
+      "target": "herzinsuffizienz",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -21,31 +21,31 @@
     },
     {
       "relation": "wird_eingesetzt_fuer",
-      "target": "herz-kreislauf",
+      "target": "myopathie",
       "direction": "outgoing",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "muskel",
-      "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "alterung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.6
     },
     {
       "relation": "wird_eingesetzt_fuer",
-      "target": "oxidativer-stress",
+      "target": "muskelgesundheit",
       "direction": "outgoing",
       "confidence": 0.7
     },
     {
       "relation": "wirkt_ueber",
       "target": "atp-synthese",
+      "direction": "outgoing",
+      "confidence": 0.85
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "mitochondrial-biogenese",
       "direction": "outgoing",
       "confidence": 0.7
     },
@@ -57,87 +57,95 @@
     },
     {
       "relation": "benoetigt_biomarker_check",
-      "target": "leberwerte",
+      "target": "coq10-spiegel",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.8
     },
     {
       "relation": "benoetigt_biomarker_check",
-      "target": "blutdruck-werte",
+      "target": "troponin",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.7
     },
     {
       "relation": "benoetigt_biomarker_check",
-      "target": "glutathion-spiegel",
+      "target": "bnp",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "ejektionsfraktion",
+      "direction": "outgoing",
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
-      "target": "magnesium",
+      "target": "statin",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Diese Effektgröße ist beträchtlich – größer als bei Magnesium."
+      "confidence": 0.85,
+      "note": "Statine hemmen die CoQ10-Synthese über den Mevalonat-Weg; Supplementation kann Myopathie-Symptome lindern"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "selen",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "### Ältere Menschen\n\n**KiSel-10 (Alehagen 2013, n=443)**: Kombination aus Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität bei älteren Schweden um **54% (HR 0,46)**."
+      "confidence": 0.75,
+      "note": "KiSel-10 Studie: Kombination Selen + CoQ10 zeigte Mortalitätsreduktion bei älteren Menschen"
     },
     {
-      "relation": "kontraindiziert_bei",
-      "target": "kontra-blutgerinnungsstoerung",
+      "relation": "hat_nebenwirkung",
+      "target": "nw-magen-beschwerden",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.5
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nw-schlaflosigkeit",
+      "direction": "outgoing",
+      "confidence": 0.4
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "note": "EFSA lehnte Health-Claim für CoQ10 2010 ab"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23097267",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23097267",
-      "note": "RCT (n=443, ältere Schweden): Kombination Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität um 54% (HR 0,46; 95%-CI 0,28–0,77). Beachtlich, aber noch nicht unabhängig repliziert."
+      "source": "pmid:23097267"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-25282031",
       "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:25282031",
-      "note": "RCT (n=420): CoQ10 300 mg/Tag über 2 Jahre reduzierte schwere kardiovaskuläre Ereignisse (14% vs. 25% im Placebo, p=0,003) und Gesamtmortalität bei chronischer Herzinsuffizienz."
+      "confidence": 0.95,
+      "source": "pmid:25282031"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-25154704",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25154704",
-      "note": "RCT: CoQ10 100 mg/Tag über 30 Tage reduzierte Muskelschwäche und -schmerzen bei Statin-assozierter Myopathie signifikant gegenüber Placebo."
+      "source": "pmid:25154704"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17386983",
       "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:17386983",
-      "note": "Metaanalyse (12 RCTs): CoQ10 reduzierte systolischen Blutdruck um durchschnittlich 16,6 mmHg und diastolischen um 8,2 mmHg. Effekte in kleineren Studien; größere Replikationen stehen aus."
+      "confidence": 0.8,
+      "source": "pmid:17386983"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-18926930",
       "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:18926930",
-      "note": "Kohortenstudie (n=236 CHF-Patienten): Niedriger CoQ10-Spiegel war ein unabhängiger Prädiktor für erhöhte Mortalität bei chronischer Herzinsuffizienz. Verstärkt klinisches Interesse an CoQ10-Substituti"
+      "confidence": 0.85,
+      "source": "pmid:18926930"
     }
   ]
 }

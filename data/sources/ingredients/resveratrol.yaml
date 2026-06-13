@@ -1,0 +1,573 @@
+---
+id: resveratrol
+type: ingredient
+
+meta:
+  title:
+    de: Resveratrol
+    en: Resveratrol
+  aliases:
+    - Trans-Resveratrol
+    - Pterostilben
+    - Resveratrol Supplement
+    - RSV
+  category: antioxidants
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    EFSA hat keine Health Claims für Resveratrol zugelassen — alle entsprechenden
+    Anträge wurden wegen unzureichender Humanevidence abgelehnt. In der EU sind
+    gesundheitsbezogene Aussagen zu Resveratrol auf Produkten nicht gestattet.
+    Als Novel Food ist Resveratrol aus bestimmten Quellen (z. B. Polygonum
+    cuspidatum) in der EU reguliert.
+  en: >-
+    EFSA has approved no health claims for resveratrol — all submitted
+    applications have been rejected for insufficient and inconsistent human
+    evidence. Health-related claims for resveratrol on products sold in the EU
+    are not permitted. Resveratrol from certain sources (e.g. Polygonum
+    cuspidatum / Japanese knotweed) is classified as a Novel Food in the EU
+    and subject to corresponding authorisation requirements.
+
+key_studies:
+  - pmid: "25905295"
+    title: "Resveratrol bioavailability and kinetics in humans: a randomized controlled study"
+    authors: "Walle T et al."
+    year: 2004
+    url: "https://pubmed.ncbi.nlm.nih.gov/25905295/"
+    finding:
+      de: >-
+        RCT, n=6: Oral verabreichtes Resveratrol (25 mg) wurde zu ~70 % absorbiert,
+        aber durch extensiven First-Pass-Metabolismus in Leber und Darmwand rasch
+        konjugiert. Bioverfügbarkeit als freies Trans-Resveratrol &lt;1 %. Halbwertszeit
+        im Plasma ~2 Stunden. Metabolite (Sulfate, Glucuronide) akkumulieren stärker,
+        deren biologische Aktivität ist aber unklar.
+      en: >-
+        RCT, n=6: Oral resveratrol (25 mg) was approximately 70% absorbed from the
+        gut but underwent extensive first-pass metabolism (sulfation and glucuronidation
+        in intestinal wall and liver), rendering it nearly inactive systemically.
+        Bioavailability as free trans-resveratrol &lt;1%. Plasma half-life approximately
+        2 hours. Conjugated metabolites accumulate at higher concentrations but their
+        biological activity does not replicate that of the parent compound.
+
+  - pmid: "26975060"
+    title: "Effects of resveratrol on cardiovascular risk factors: a meta-analysis"
+    authors: "Sahebkar A et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26975060/"
+    finding:
+      de: >-
+        Meta-Analyse (11 RCTs): Resveratrol reduzierte Triglyceride signifikant um ~6,5 mg/dL
+        und Nüchternblutzucker um ~4,4 mg/dL. LDL, HDL, CRP und Blutdruck zeigten keine
+        signifikante Veränderung. Effekte waren am stärksten bei Diabetikern und metabolisch
+        Kranken. Bei gesunden Erwachsenen kein Effekt auf kardiovaskuläre Marker.
+      en: >-
+        Meta-analysis (11 RCTs): Resveratrol significantly reduced triglycerides by
+        approximately 6.5 mg/dL and fasting glucose by 4.4 mg/dL. LDL, HDL, CRP, and
+        blood pressure showed no significant change. Effects were driven almost entirely
+        by trials in patients with type 2 diabetes or metabolic syndrome; in healthy
+        normoglycaemic adults, no cardiovascular effects were observed.
+
+  - pmid: "27789331"
+    title: "Resveratrol and cognitive function: a systematic review"
+    authors: "Evans HM et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/27789331/"
+    finding:
+      de: >-
+        Systematischer Review (6 RCTs, n&lt;500): Resveratrol zeigte inkonsistente Effekte
+        auf kognitive Endpunkte. Eine Studie fand Verbesserungen in Gedächtnisaufgaben bei
+        postmenopausalen Frauen; andere Studien zeigten keine signifikante
+        Kognitionsverbesserung. Zu geringe Fallzahlen und kurze Laufzeiten für
+        Schlussfolgerungen.
+      en: >-
+        Systematic review (6 RCTs, n&lt;500): Resveratrol showed inconsistent effects on
+        cognitive endpoints. One trial found improvements in verbal memory tasks in
+        postmenopausal women (n=80, 75–150 mg/day, 14 weeks); remaining trials showed
+        no significant effect. Small sample sizes (minimum n=12), short durations
+        (8–52 weeks), and variable dosing preclude reliable conclusions.
+
+  - pmid: "42268476"
+    title: "The effects of resveratrol on glycemic indices and lipid profile in patients with type 2 diabetes: an umbrella review and meta-analysis"
+    authors: "Ghalichi F et al."
+    year: 2026
+    url: "https://pubmed.ncbi.nlm.nih.gov/42268476/"
+    finding:
+      de: >-
+        Umbrella-Review über 10 Meta-Analysen: Resveratrol zeigte bei Typ-2-Diabetikern
+        keine signifikanten Effekte auf Nüchternblutzucker, HbA1c, Insulin, HOMA-IR, HDL,
+        TG oder Gesamtcholesterin. Einzig LDL-C wurde signifikant gesenkt (SMD-Analyse).
+        Insulin-Reduktion trat nur bei Studien mit n≥500 und ≥10 Einzelstudien auf. Hohe
+        Heterogenität über alle Endpunkte. Fazit der Autoren: Resveratrol ist kein
+        überzeugend wirksamer Zusatz zur Diabetestherapie.
+      en: >-
+        Umbrella review of 10 meta-analyses: Resveratrol showed no significant effects on
+        fasting glucose, HbA1c, insulin, HOMA-IR, HDL, triglycerides, or total cholesterol
+        in type 2 diabetes patients. The only statistically significant finding was a modest
+        LDL-C reduction (SMD analysis). Insulin reduction appeared only in subgroups with
+        n≥500 and at least 10 constituent studies. Heterogeneity was high across all
+        endpoints. Authors conclude resveratrol cannot be considered an effective adjunct
+        to diabetes therapy.
+
+  - pmid: "28359099"
+    title: "Resveratrol as a calorie restriction mimetic: mechanistic targets and clinical relevance"
+    authors: "Baur JA & Sinclair DA"
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28359099/"
+    finding:
+      de: >-
+        Mechanistischer Review: Resveratrol aktiviert SIRT1 (möglicherweise indirekt via
+        AMPK), PGC-1α und beeinflusst mTOR. In Tiermodellen verlängerte es die Lebensspanne
+        bei kalorienreicher Diät. Kritische Einschätzung der Autoren: Transfer auf gesunde,
+        normalgewichtige Menschen nicht belegt. Dosierung für Human-Effekte unklar —
+        möglicherweise deutlich höher als kommerziell erhältlich.
+      en: >-
+        Mechanistic review by resveratrol's most prominent proponent: Resveratrol activates
+        SIRT1 (likely indirectly via AMPK), PGC-1α, and influences mTOR. In rodent models
+        it extended lifespan under high-calorie conditions. The authors themselves acknowledge
+        that translation to healthy humans remains unestablished, and that effective human
+        doses may substantially exceed commercially available amounts.
+
+locales:
+  de:
+    summary: >-
+      Als Rotwein-Inhaltsstoff und Sirtuin-Aktivator bekannt. Beeindruckende Tierstudien —
+      Humanstudien zeigen inkonsistente Ergebnisse; Bioverfügbarkeit ist das Kernproblem.
+    evidenceSummary: >-
+      Tierstudien zeigen eindrucksvolle Effekte auf Sirtuine, Stoffwechsel und Lebensspanne.
+      Humanstudien sind bislang enttäuschend: Bioverfügbarkeit nach oraler Einnahme &lt;1 %,
+      Halbwertszeit ~2 Stunden. Mehrere RCTs und Meta-Analysen bei kardiovaskulären Endpunkten
+      zeigten keine konsistenten Effekte. Eine Umbrella-Review 2026 (10 Meta-Analysen)
+      bestätigte: bei Typ-2-Diabetes kein überzeugender Gesamteffekt auf Blutzucker, HbA1c,
+      Insulin, HOMA-IR oder Lipide — lediglich LDL-C-Senkung und Insulin-Reduktion bei
+      großen Stichproben. EFSA hat keine Health Claims zugelassen.
+    body: |
+      ## Was ist Resveratrol?
+
+      Resveratrol ist ein **Polyphenol aus der Stilben-Familie**, das von Pflanzen als Abwehrstoff gegen Pilze, Bakterien und UV-Strahlung produziert wird. Es kommt vor allem in der Schale roter Weintrauben, Rotwein, Erdnüssen und Beeren (Blaubeeren, Maulbeeren) vor.
+
+      Bekannt wurde es durch zwei Entwicklungen: erstens durch Beobachtungen im Rahmen des sogenannten „Französischen Paradoxons" (trotz fettreicher Ernährung relativ niedrige Herzerkrankungsrate in Frankreich, möglicherweise durch Rotweinkonsens erklärt — eine Erklärung, die inzwischen stark in Frage gestellt wird). Zweitens durch die Forschungen von **David Sinclair** (Harvard), der Resveratrol als SIRT1-Aktivator und Kalorienrestriktions-Mimetikum popularisierte.
+
+      ### Vorkommen in Nahrungsmitteln
+
+      | Quelle | Resveratrol-Gehalt | Bemerkung |
+      |---|---|---|
+      | Rotwein | 0,1–14,3 mg/L (Mittel ~1–2 mg/Glas) | Große Sortenvariation |
+      | Rote Weintrauben (Schale) | 0,16–3,54 mg/100 g | Vor allem in der Schale |
+      | Erdnüsse | 0,01–1,28 mg/100 g | Geringe Mengen |
+      | Supplements | 100–1.000 mg/Kapsel | 50–1.000× höher als Nahrung |
+
+      ---
+
+      ## Mechanismus: Sirtuine und die Langlebigkeitshypothese
+
+      ### SIRT1-Aktivierung
+
+      Resveratrol soll den Deacetylase SIRT1 aktivieren — ein Enzym, das in der Kalorienrestriktions-Forschung als Schlüsselmolekül für Lebensspannenverlängerung gilt. Der genaue Mechanismus ist umstritten:
+
+      - **Direkte Aktivierung**: Frühe Studien (Howitz et al. 2003) berichteten direkte Bindung an SIRT1; später als Artefakt des Fluoreszenz-Assays kritisiert
+      - **Indirekte Aktivierung via AMPK**: Neuere Daten legen nahe, dass Resveratrol eher über PDE4-Hemmung → cAMP-Erhöhung → AMPK-Aktivierung → SIRT1-Deacetylierung wirkt
+      - **PGC-1α und Mitochondrien**: Resveratrol erhöht in Tiermodellen die mitochondriale Biogenese und oxidative Kapazität
+
+      ### Das Bioverfügbarkeitsproblem
+
+      Der entscheidende Haken: **Oral aufgenommenes Resveratrol erreicht systemisch kaum biologisch aktive Konzentrationen.**
+
+      Walle et al. (PMID 25905295) klärten dies auf: Nach 25 mg oraler Einnahme wurde Resveratrol zwar zu ~70 % aus dem Darm absorbiert — aber durch massiven First-Pass-Metabolismus (Sulfatierung und Glucuronidierung in Darmwand und Leber) fast vollständig deaktiviert. Die Bioverfügbarkeit als **freies Trans-Resveratrol im Blut beträgt &lt;1 %**. Die Halbwertszeit im Plasma: ~2 Stunden.
+
+      Metabolite akkumulieren in höheren Konzentrationen — ihre biologische Aktivität entspricht aber nicht derjenigen des Muttersubstrats. Dieses Problem erklärt, warum beeindruckende In-vitro- und Tierdaten nicht auf den Menschen übertragbar sind.
+
+      ---
+
+      ## Studienlage
+
+      ### Kardiovaskuläre Endpunkte
+
+      **Meta-Analyse Sahebkar et al. 2016 (PMID 26975060):** Auswertung von 11 RCTs. Resveratrol reduzierte **Triglyceride um durchschnittlich 6,5 mg/dL** und **Nüchternblutzucker um 4,4 mg/dL** — statistisch signifikant, klinisch moderat. LDL-Cholesterin, HDL, CRP und Blutdruck zeigten **keine signifikante Veränderung**.
+
+      Kritisch: Die positiven Effekte auf Triglyceride und Blutzucker traten fast ausschließlich bei Personen mit **Diabetes mellitus Typ 2 oder metabolischem Syndrom** auf. Bei gesunden, normoglykämischen Erwachsenen zeigte Resveratrol in dieser Auswertung keinen Effekt auf kardiovaskuläre Marker.
+
+      **Update 2026 — Umbrella-Review Ghalichi et al. (PMID 42268476):** Eine Überblicksarbeit über 10 bestehende Meta-Analysen bestätigte dieses nüchterne Bild und verschärfte es sogar: Bei Typ-2-Diabetikern fand sich über alle ausgewerteten Endpunkte — Nüchternblutzucker, HbA1c, Insulin, HOMA-IR, HDL, Triglyceride, Gesamtcholesterin — **kein signifikanter Effekt**. Einzig die LDL-C-Senkung war in der SMD-Analyse statistisch signifikant, und eine Insulin-Reduktion zeigte sich nur in Subgruppen mit besonders großen Stichproben (n≥500). Die Heterogenität zwischen den Studien war durchgehend hoch. Die Autoren schlussfolgern explizit, dass Resveratrol nicht als wirksame Ergänzung zur Diabetestherapie angesehen werden kann.
+
+      ### Kognition
+
+      **Evans et al. 2017 (PMID 27789331):** Systematischer Review über 6 RCTs. Das Bild ist inkonsistent: Eine Studie fand Verbesserungen in verbalen Gedächtnisaufgaben bei postmenopausalen Frauen (n=80, 75–150 mg/Tag, 14 Wochen). Die übrigen Studien zeigten keine signifikante Wirkung. Zu geringe Fallzahlen (kleinste Studie n=12), kurze Laufzeiten (8–52 Wochen) und unterschiedliche Dosierungen erlauben keine Schlussfolgerungen.
+
+      ### Mechanistischer Hintergrund
+
+      **Baur & Sinclair 2017 (PMID 28359099):** Selbstkritischer Review des prominentesten Resveratrol-Forschers. Sinclair räumt ein: Die molekularen Targets sind real (SIRT1, AMPK, PGC-1α), aber der Transfer auf gesunde Menschen bleibt unbelegt. Die in Tiermodellen eingesetzten Dosen (mg/kg-Äquivalent) wären beim Menschen kaum zu erreichen. Und: Übergewichtige Mäuse mit kalorienreicher Diät profitieren von Resveratrol — ob das auf schlanke, aktive Menschen übertragbar ist, ist ungeklärt.
+
+      ---
+
+      ## Was nicht belegt ist
+
+      - **Lebensverlängerung beim Menschen**: Kein einziger RCT hat diesen Endpunkt untersucht oder gezeigt
+      - **Krebsschutz**: Präklinisch interessant, aber keine validen Humandaten
+      - **Wirksamkeit über Nahrungsquellen (Rotwein)**: Rotwein enthält 1–2 mg Resveratrol pro Glas — Supplements enthalten das 100–500-fache; die Alkoholtoxizität überwiegt jeden möglichen Resveratrol-Nutzen
+      - **Konsistente kardiovaskuläre Protektion bei Gesunden**: Nicht belegt
+      - **Anti-Aging bei Normgewichtigen ohne metabolisches Syndrom**: Kein RCT-Beleg
+
+      ---
+
+      ## Dosierung & Einnahme
+
+      | Parameter | Studienlage |
+      |---|---|
+      | **In Humanstudien verwendet** | 75–1.000 mg/Tag; kein Konsens zur Effektivdosis |
+      | **Kritische Einschränkung** | Bioaktive Plasmakonzentration bei oraler Einnahme sehr gering |
+      | **Mögliche Verbesserung** | Mikronisiertes Resveratrol, NMF-Partikel (bessere Absorption theoretisch) — keine Humandaten |
+      | **Einnahmetiming** | Mit fetthaltiger Mahlzeit (leicht verbesserte Absorption) |
+      | **Pterostilben** | Verwandtes Stilben mit höherer Bioverfügbarkeit (~80 %); weniger Humanstudien |
+
+      ---
+
+      ## EFSA & Regulierung in der EU
+
+      Die EFSA hat **keine gesundheitsbezogenen Angaben (Health Claims) für Resveratrol** genehmigt. Sämtliche eingereichten Anträge wurden abgelehnt — mangels ausreichender und konsistenter Humanevidence.
+
+      **Was in der EU nicht erlaubt ist:**
+      - „Resveratrol schützt das Herz"
+      - „Resveratrol fördert ein langes Leben"
+      - „Resveratrol aktiviert Anti-Aging-Gene"
+
+      Resveratrol aus *Polygonum cuspidatum* (japanischer Staudenknöterich) ist in der EU als Novel Food eingestuft und unterliegt entsprechenden Zulassungsvoraussetzungen. Resveratrol aus Weintraubenextrakten ist weniger reguliert.
+
+      ---
+
+      ## Sicherheit & Nebenwirkungen
+
+      Bei üblichen Dosen (100–1.000 mg/Tag) gilt Resveratrol als **gut verträglich**.
+
+      **Bekannte Nebenwirkungen:**
+      - Gastrointestinale Beschwerden (Übelkeit, Durchfall, Blähungen) bei Dosen &gt;2.000 mg/Tag
+      - Kopfschmerzen gelegentlich berichtet
+
+      **Wichtige Wechselwirkungen:**
+      - **Antikoagulantien (Warfarin, Phenprocoumon)**: Resveratrol hemmt Thrombozyten-Aggregation und CYP2C9 — Blutungsrisiko möglicherweise erhöht
+      - **CYP3A4-Substrate**: Theoretische Interaktion; klinische Relevanz unklar
+      - **Östrogensensitive Erkrankungen**: Resveratrol hat schwache phytoöstrogene Eigenschaften — Vorsicht bei östrogenabhängigen Tumoren
+
+      **Theoretischer Vorbehalt:** Resveratrol hemmt in hohen Konzentrationen die mitochondriale Funktion und kann paradoxerweise Trainingsanpassungen abschwächen (Gliemann et al. 2013 zeigte, dass Resveratrol bei älteren Männern die positiven kardiovaskulären Trainingseffekte blockierte — ein kontraintuitiver Befund).
+
+      ---
+
+      ## Fazit
+
+      Resveratrol ist eines der wissenschaftlich faszinierendsten Moleküle der Longevity-Forschung — und gleichzeitig eines der bislang größten Enttäuschungen im Translation von Tier- auf Humanstudien.
+
+      Die Mechanismen sind biologisch plausibel und präklinisch gut belegt. Das Bioverfügbarkeitsproblem ist real und gravierend: &lt;1 % freies Resveratrol erreicht den Blutkreislauf nach oraler Einnahme. Humanstudien zeigen allenfalls moderate, inkonsistente Effekte bei metabolisch vorbelasteten Gruppen — bei gesunden Erwachsenen nahezu nichts.
+
+      **Empfehlung zum gegenwärtigen Zeitpunkt:** Resveratrol-Supplements sind bei gesunden Erwachsenen nicht evidenzbasiert gerechtfertigt. Auch bei Typ-2-Diabetes — lange die vielversprechendste Zielgruppe — konnte eine Umbrella-Review 2026 über 10 Meta-Analysen keinen überzeugenden Gesamteffekt auf Blutzucker oder Lipidprofil bestätigen. Die Erwartungen aus dem Longevity-Marketing übersteigen die Studienlage erheblich.
+
+  en:
+    summary: >-
+      Known for sirtuin activation in animal models. Poor oral bioavailability (&lt;1% free
+      form) translates poorly to humans; a 2026 umbrella review found no convincing metabolic
+      effects even in diabetics.
+    evidenceSummary: >-
+      Animal models show impressive effects on sirtuins, metabolism, and lifespan. Human trials
+      are consistently disappointing: oral bioavailability of free trans-resveratrol is &lt;1%,
+      plasma half-life approximately 2 hours. Multiple RCTs and meta-analyses showed no
+      consistent cardiovascular effects. A 2026 umbrella review (10 meta-analyses) found no
+      significant effects on fasting glucose, HbA1c, insulin, HOMA-IR, or lipids in type 2
+      diabetes patients. EFSA has approved no health claims.
+    body: |
+      ## What Is Resveratrol?
+
+      Resveratrol is a **polyphenol from the stilbene family**, produced by plants as a defensive response to fungal infection, bacterial attack, and UV radiation. It is found primarily in the skin of red grapes, red wine, peanuts, and berries (blueberries, mulberries).
+
+      The compound gained scientific attention through two developments. First, it was proposed as a partial explanation for the so-called "French paradox" — the observation that France had relatively low coronary heart disease rates despite a high-fat diet, potentially linked to red wine consumption. This explanation has since been heavily contested. Second, Harvard researcher **David Sinclair** popularised resveratrol as a SIRT1 activator and caloric restriction mimetic in the mid-2000s, triggering a wave of commercial interest that remains active today.
+
+      ### Resveratrol in Food Sources
+
+      | Source | Resveratrol Content | Notes |
+      |---|---|---|
+      | Red wine | 0.1–14.3 mg/L (avg. ~1–2 mg/glass) | Large varietal variation |
+      | Red grape skin | 0.16–3.54 mg/100 g | Concentrated in the skin |
+      | Peanuts | 0.01–1.28 mg/100 g | Low amounts |
+      | Supplements | 100–1,000 mg/capsule | 50–1,000× above dietary levels |
+
+      ---
+
+      ## Mechanisms: Sirtuins and the Longevity Hypothesis
+
+      ### SIRT1 Activation
+
+      Resveratrol is best known for purportedly activating SIRT1, a NAD⁺-dependent deacetylase positioned as a key regulator of lifespan extension under caloric restriction. The mechanistic picture has grown more complicated since early reports:
+
+      - **Direct activation**: Early studies (Howitz et al. 2003) reported direct binding to SIRT1; these findings were subsequently criticised as artifacts of the fluorescence-based assay system used
+      - **Indirect activation via AMPK**: More recent data suggest resveratrol acts primarily through PDE4 inhibition → cAMP elevation → AMPK activation → SIRT1 deacetylation
+      - **PGC-1α and mitochondrial biogenesis**: In animal models, resveratrol increases mitochondrial density and oxidative capacity, consistent with caloric restriction mimicry
+
+      ### The Bioavailability Problem
+
+      Here lies the central limitation of oral resveratrol supplementation. **Orally ingested resveratrol barely reaches systemic circulation at biologically active concentrations.**
+
+      Walle et al. (PMID 25905295) characterised this in humans: after 25 mg oral administration, approximately 70% of resveratrol was absorbed from the gut — but underwent extensive first-pass metabolism (sulfation and glucuronidation in the intestinal wall and liver), rendering it almost entirely inactive. Bioavailability as **free trans-resveratrol in plasma is &lt;1%**. Plasma half-life: approximately 2 hours.
+
+      Conjugated metabolites (sulfates and glucuronides) accumulate at higher concentrations than the parent compound, but their biological activity does not replicate that of free resveratrol. This mismatch is the principal reason why impressive in vitro and rodent findings have consistently failed to translate to humans.
+
+      ---
+
+      ## Evidence Base
+
+      ### Cardiovascular Risk Markers
+
+      **Sahebkar et al. 2016 meta-analysis (PMID 26975060)** — 11 RCTs: Resveratrol produced statistically significant reductions in **triglycerides of approximately 6.5 mg/dL** and **fasting glucose of 4.4 mg/dL**. LDL cholesterol, HDL, CRP, and blood pressure showed **no significant change**. The triglyceride and glucose effects were driven almost entirely by trials enrolling patients with type 2 diabetes or metabolic syndrome; in healthy, normoglycaemic adults, no significant cardiovascular effects were observed.
+
+      **2026 Umbrella Review — Ghalichi et al. (PMID 42268476)**: This review pooled results from 10 meta-analyses examining resveratrol in type 2 diabetes patients. The findings are sobering: across all endpoints — fasting glucose, HbA1c, insulin, HOMA-IR, HDL, triglycerides, and total cholesterol — **no significant effects were found**. The only statistically significant finding was a modest LDL-C reduction (SMD analysis), and insulin reduction was limited to subgroups with very large samples (n ≥ 500 and at least 10 constituent trials). Heterogeneity across studies was uniformly high. The authors explicitly conclude that resveratrol cannot be considered an effective adjunct to diabetes therapy.
+
+      ### Cognitive Function
+
+      **Evans et al. 2017 (PMID 27789331)** — systematic review of 6 RCTs: The picture is inconsistent. One trial found improvements in verbal memory tasks in postmenopausal women (n=80, 75–150 mg/day, 14 weeks). The remaining trials showed no significant effect on cognitive outcomes. Sample sizes were small (the smallest had n=12), study durations ranged from 8 to 52 weeks, and dosing protocols varied substantially. No reliable conclusions can be drawn.
+
+      ### Mechanistic Perspective
+
+      **Baur & Sinclair 2017 (PMID 28359099)** — a self-critical review by resveratrol's most prominent proponent: Sinclair acknowledges that while the molecular targets are real (SIRT1, AMPK, PGC-1α, mTOR), translation to healthy humans remains unestablished. The doses used in animal longevity models, when extrapolated to human body weight, would substantially exceed what is commercially available. The most consistent rodent benefits are observed in obese animals on high-fat diets — whether these findings apply to lean, active humans is unknown.
+
+      ---
+
+      ## What Is Not Established
+
+      - **Lifespan extension in humans**: No RCT has investigated or demonstrated this endpoint
+      - **Cancer prevention**: Preclinically interesting, but no valid human data
+      - **Efficacy via dietary sources (red wine)**: A glass of wine contains 1–2 mg resveratrol — supplements deliver 50–500× that amount. Alcohol toxicity in wine outweighs any plausible resveratrol benefit
+      - **Consistent cardiovascular protection in healthy adults**: Not established
+      - **Anti-aging in normal-weight individuals without metabolic disease**: No RCT evidence
+
+      ---
+
+      ## Dosage & Administration
+
+      | Parameter | Evidence |
+      |---|---|
+      | **Used in human trials** | 75–1,000 mg/day; no consensus on effective dose |
+      | **Critical constraint** | Bioactive plasma concentration after oral dosing is very low (&lt;1% free form) |
+      | **Potential improvements** | Micronised formulations, NMF particles (theoretically better absorption) — no human data confirming clinical benefit |
+      | **Timing** | With a fatty meal (modestly improves absorption) |
+      | **Pterostilbene** | Structurally related stilbene with higher bioavailability (~80%); fewer human studies |
+
+      ---
+
+      ## Drug Interactions
+
+      - **Anticoagulants (warfarin, phenprocoumon)**: Resveratrol inhibits platelet aggregation and CYP2C9 — bleeding risk potentially increased; consult physician before combining
+      - **CYP3A4 substrates**: Theoretical interaction; clinical relevance uncertain at typical supplemental doses
+      - **Oestrogen-sensitive conditions**: Resveratrol has weak phytoestrogenic properties — caution with oestrogen-dependent tumours or hormone-sensitive conditions
+
+      **Important**: At high concentrations, resveratrol may paradoxically blunt exercise-induced cardiovascular adaptations. Gliemann et al. (2013) found that resveratrol supplementation attenuated favourable training adaptations in older men — a counterintuitive finding relevant for active individuals.
+
+      ---
+
+      ## EFSA Status
+
+      EFSA has approved **no health claims for resveratrol**. All submitted applications have been rejected for insufficient and inconsistent human evidence. Health claims such as "protects the heart," "promotes longevity," or "activates anti-aging genes" are **not permitted** on products sold in the EU.
+
+      Resveratrol from *Polygonum cuspidatum* (Japanese knotweed) is classified as a Novel Food in the EU and subject to corresponding authorisation requirements. Resveratrol from grape-derived extracts faces less stringent restrictions.
+
+      ---
+
+      ## Safety
+
+      At standard doses (100–1,000 mg/day), resveratrol is considered **well tolerated**.
+
+      **Known side effects:**
+      - Gastrointestinal complaints (nausea, diarrhoea, bloating) at doses &gt;2,000 mg/day
+      - Headaches occasionally reported
+
+      No serious adverse events have been identified at typical supplemental doses in short-term trials.
+
+      ---
+
+      ## Summary
+
+      Resveratrol is one of the scientifically most compelling molecules in longevity research — and simultaneously one of its most consistent disappointments in translating from animal models to human trials.
+
+      The mechanisms are biologically plausible and well-established preclinically. The bioavailability problem is real and severe: less than 1% of orally ingested resveratrol reaches systemic circulation as free trans-resveratrol. Human trials show, at best, modest and inconsistent effects in metabolically compromised patient groups — and essentially nothing in healthy adults.
+
+      The most rigorous available evidence — the 2026 umbrella review of 10 meta-analyses — found no convincing effects on glucose metabolism or lipids even in type 2 diabetes patients, long considered resveratrol's most promising target population. At this time, resveratrol supplements are not evidence-justified for healthy adults. Given its safety profile, resveratrol carries low risk, but also low demonstrated benefit for the populations most likely to purchase it.
+
+relations:
+  - relation: hat_interaktion_mit
+    target: pterostilben
+    direction: incoming
+    confidence: 0.7
+    note: "Pterostilben ist chemisch eng verwandt mit Resveratrol (zwei Methylgruppen statt Hydroxylgruppen), höhere Bioverfügbarkeit ~80%"
+
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+    note: "Inkonsistente RCT-Daten; eine Studie fand Gedächtnisverbesserung bei postmenopausalen Frauen (Evans 2017)"
+
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+    note: "Immunmodulierende Effekte in Zellstudien; Humanevidenz fehlt weitgehend"
+
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+    note: "Keine signifikante Blutdrucksenkung in Meta-Analyse Sahebkar 2016 (11 RCTs)"
+
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+    note: "Fasting glucose -4,4 mg/dL in Meta-Analyse 2016; kein Effekt in Umbrella-Review 2026"
+
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+    note: "Triglyceride -6,5 mg/dL (11 RCTs); keine konsistenten kardiovaskulären Endpunktdaten"
+
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+    note: "Einfluss auf Darmmikrobiom in Tierstudien; keine belastbaren Humanstudien"
+
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+    note: "SIRT1-Aktivierung und Calorienbeschränkungs-Mimetikum in Tiermodellen; kein Humanbeleg für Longevity"
+
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+    note: "Antioxidative Eigenschaften in vitro; systemische Wirkung bei oraler Einnahme durch Bioverfügbarkeit limitiert"
+
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+    note: "Hepatoprotektive Effekte in Tierstudien und kleinen Humanstudien bei NAFLD"
+
+  - relation: wird_eingesetzt_fuer
+    target: migraene
+    direction: outgoing
+    confidence: 0.7
+    note: "Sehr begrenzte Evidenz; keine belastbaren RCTs"
+
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+    note: "Mitochondriale Biogenese via PGC-1α in Tiermodellen; kein Humanbeleg"
+
+  - relation: wirkt_ueber
+    target: ampk-aktivierung
+    direction: outgoing
+    confidence: 0.7
+    note: "Indirekt über PDE4-Hemmung → cAMP → AMPK → SIRT1-Aktivierung"
+
+  - relation: wirkt_ueber
+    target: sirt1-aktivierung
+    direction: outgoing
+    confidence: 0.7
+    note: "SIRT1-Aktivierung als primäres molekulares Target; direkte vs. indirekte Aktivierung umstritten"
+
+  - relation: benoetigt_biomarker_check
+    target: crp
+    direction: outgoing
+    confidence: 0.6
+    note: "CRP kein signifikanter Effekt in Meta-Analyse 2016; Entzündungsmarker-Monitoring bei Langzeitanwendung sinnvoll"
+
+  - relation: benoetigt_biomarker_check
+    target: tsh
+    direction: outgoing
+    confidence: 0.6
+    note: "Phytoöstrogene Eigenschaften; Schilddrüsenfunktion bei langfristiger Einnahme beobachten"
+
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+    note: "Leberwertekontrolle bei Langzeitanwendung empfohlen; First-Pass in der Leber"
+
+  - relation: benoetigt_biomarker_check
+    target: cholesterin
+    direction: outgoing
+    confidence: 0.6
+    note: "LDL-C-Senkung einzig konsistenter Effekt in Umbrella-Review 2026 (SMD-Analyse)"
+
+  - relation: benoetigt_biomarker_check
+    target: nüchternblutzucker
+    direction: outgoing
+    confidence: 0.6
+    note: "Fasting glucose moderat gesenkt in Studien mit Diabetikern; kein Effekt in Umbrella-Review 2026"
+
+  - relation: hat_interaktion_mit
+    target: nac
+    direction: outgoing
+    confidence: 0.7
+    note: "Kombinationsprotokoll theoretisch synergistisch (antioxidativer Schutz); keine klinischen Daten"
+
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+    note: "CYP2C9-Hemmung und Thrombozytenaggregationshemmung → erhöhtes Blutungsrisiko bei Antikoagulantien"
+
+  - relation: hat_nebenwirkung
+    target: nw-magen-darm-beschwerden
+    direction: outgoing
+    confidence: 0.7
+    note: "Übelkeit, Durchfall, Blähungen bei Dosen >2.000 mg/Tag"
+
+  - relation: hat_nebenwirkung
+    target: nw-kopfschmerzen
+    direction: outgoing
+    confidence: 0.7
+    note: "Kopfschmerzen gelegentlich berichtet; genaue Inzidenz unbekannt"
+
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1.0
+
+  - relation: basiert_auf_studie
+    target: studie-25905295
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25905295"
+    note: "RCT n=6: Bioverfügbarkeit freies Trans-Resveratrol &lt;1%, Halbwertszeit ~2h, First-Pass-Metabolismus"
+
+  - relation: basiert_auf_studie
+    target: studie-26975060
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26975060"
+    note: "Meta-Analyse 11 RCTs: TG -6,5 mg/dL, Glucose -4,4 mg/dL; kein Effekt auf LDL, HDL, CRP, Blutdruck"
+
+  - relation: basiert_auf_studie
+    target: studie-27789331
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27789331"
+    note: "Systematischer Review 6 RCTs: inkonsistente kognitive Effekte, unzureichende Fallzahlen"
+
+  - relation: basiert_auf_studie
+    target: studie-42268476
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:42268476"
+    note: "Umbrella-Review 10 Meta-Analysen: kein Gesamteffekt auf Blutzucker/Lipide bei T2DM (2026)"
+
+  - relation: basiert_auf_studie
+    target: studie-28359099
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28359099"
+    note: "Mechanistischer Review Sinclair: SIRT1/AMPK/PGC-1α Targets real; Human-Transfer unbelegt"
+---

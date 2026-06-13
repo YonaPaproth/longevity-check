@@ -1,0 +1,376 @@
+---
+id: curcumin
+type: ingredient
+
+meta:
+  title:
+    de: "Curcumin (Kurkuma-Extrakt)"
+    en: "Curcumin (Turmeric Extract)"
+  aliases:
+    - Kurkuma
+    - Turmeric
+    - Curcuma longa
+    - BCM-95
+    - Meriva
+    - Theracurmin
+  category: antioxidants
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Die EFSA hat keine Health Claims für Curcumin zugelassen. Kurkuma-Extrakte dürfen in der EU als Nahrungsergänzungsmittel verkauft werden. Spezifische Wirkaussagen (z.B. 'entzündungshemmend') sind ohne Zulassung verboten.
+  en: >-
+    EFSA has approved no health claims for curcumin. Turmeric extracts may be sold as dietary supplements in the EU, but specific efficacy claims (e.g., "anti-inflammatory") are prohibited without regulatory approval.
+
+key_studies:
+  - pmid: "28925728"
+    title: "Curcumin: A Review of Its Effects on Human Health"
+    authors: "Hewlings SJ & Kalman DS"
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28925728/"
+    finding:
+      de: >-
+        Umfassender Review: Curcumin zeigt antientzündliche und antioxidative Effekte in RCTs, aber schlechte orale Bioverfügbarkeit ist kritischer limitierender Faktor bei Standardformulierungen.
+      en: >-
+        Comprehensive review: Curcumin exhibits anti-inflammatory and antioxidant effects in RCTs, but poor oral bioavailability is the critical limiting factor for standard formulations.
+  - pmid: "26975974"
+    title: "Effect of curcuminoids on inflammatory biomarkers: meta-analysis of RCTs"
+    authors: "Sahebkar A et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26975974/"
+    finding:
+      de: >-
+        Meta-Analyse (15 RCTs): Signifikante Reduktion von CRP (SMD -0,64), IL-6 und TNF-α. Effektgröße moderat; Studienqualität variierend.
+      en: >-
+        Meta-analysis (15 RCTs): Significant reduction in CRP (SMD −0.64), IL-6, and TNF-α. Moderate effect size; study quality variable.
+  - pmid: "26528921"
+    title: "Efficacy of Turmeric Extracts and Curcumin for Alleviating the Symptoms of Joint Arthritis: Systematic Review and Meta-Analysis"
+    authors: "Daily JW et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/26528921/"
+    finding:
+      de: >-
+        Systematischer Review und Meta-Analyse (8 RCTs): Curcumin-Extrakte reduzierten Gelenkschmerzen (VAS -19 mm, WOMAC-Score signifikant verbessert) vs. Placebo. Methodische Qualität mehrerer Studien eingeschränkt.
+      en: >-
+        Systematic review and meta-analysis (8 RCTs): Curcumin extracts reduced joint pain (VAS −19 mm, WOMAC score significantly improved) vs. placebo. Methodological quality of several studies limited.
+  - pmid: "22407780"
+    title: "A randomized, pilot study to assess the efficacy and safety of curcumin in patients with active rheumatoid arthritis"
+    authors: "Chandran B & Goel A"
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22407780/"
+    finding:
+      de: >-
+        Pilot-RCT, n=45: Curcumin-Gruppe (500 mg/Tag) zeigte bessere Schmerzreduktion als Diclofenac-Natriumgruppe. Begrenzt durch kleine Fallzahl und kurze Laufzeit (8 Wochen).
+      en: >-
+        Pilot RCT, n=45: Curcumin group (500 mg/day) showed superior pain reduction vs. diclofenac sodium. Limited by small sample size and short duration (8 weeks).
+  - pmid: "26007572"
+    title: "A systematic review on the effect of curcumin on metabolic syndrome components"
+    authors: "Panahi Y et al."
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/26007572/"
+    finding:
+      de: >-
+        Systematischer Review: 1.500 mg Curcumin/Tag war mit niedrigeren Triglycerid- und Blutfettwerten sowie verbesserten Nüchternblutzucker-Werten assoziiert. Studienqualität variiert.
+      en: >-
+        Systematic review: 1,500 mg curcumin/day was associated with lower triglycerides, reduced blood lipids, and improved fasting glucose. Study quality variable.
+
+locales:
+  de:
+    summary: >-
+      Curcumin beeinflusst verschiedene Entzündungs- und Oxidationswege. Hauptproblem bleibt die Bioverfügbarkeit; positive Daten stammen meist aus speziellen Formulierungen.
+    evidenceSummary: >-
+      RCTs zeigen moderate Reduktion von CRP, IL-6 und TNF-α sowie Effekte auf Gelenkschmerzen. Wirkung stark formulierungsabhängig (BCM-95, Meriva, Theracurmin). Longevity-Evidenz beim Menschen fehlt; Bioverfügbarkeit bleibt die zentrale Einschränkung.
+    body: |
+      ## Was ist Curcumin?
+
+      Curcumin ist der Hauptwirkstoff aus **Kurkuma** (*Curcuma longa*), dem gelben Gewürz der Curry-Grundlage. Es macht ~2–5% des Trockengewichts von Kurkumapulver aus. Im Kontext gesunden Alterns ist Curcumin interessant, weil es mehrere Entzündungs- und Oxidationswege moduliert, die bei chronischen Erkrankungen und Alterungsprozessen eine Rolle spielen.
+
+      **Relevante Wirkmechanismen:**
+      - Hemmung von **NF-κB**, dem zentralen Transkriptionsfaktor für proinflammatorische Zytokine
+      - Aktivierung von **Nrf2**, einem Masterregulator antioxidativer Genexpression
+      - Einfluss auf **COX-2** und **5-LOX** (Entzündungsmediatoren, ähnlich wie NSAID-Targets)
+      - In Tierversuchen: Effekte auf mTOR und AMPK (Autophagie, Zellerneuerung) — bisher kein direkter Humanbeleg für Longevity-Wirkung
+
+      ## Das zentrale Problem: Bioverfügbarkeit
+
+      Reines Curcumin wird im Darm kaum aufgenommen: Bioverfügbarkeit liegt bei &lt;1% der oralen Dosis. Es wird schnell in der Darmwand konjugiert und in der Leber glucuronidiert. Im Plasma sind nach Standardkapseln nur Spuren nachweisbar.
+
+      **Lösungsansätze mit klinischen Daten:**
+      - **Piperin** (aus schwarzem Pfeffer, 20 mg): Steigert Curcumin-Bioverfügbarkeit um bis zu 2.000% durch CYP3A4- und P-Glykoprotein-Hemmung. **Cave:** Gleichzeitig werden andere Arzneimittel (Warfarin, Statine, Antiepileptika) stärker resorbiert — bei Dauermedikation unbedingt ärztlich besprechen.
+      - **Meriva** (Phosphatidylcholin-Komplex): ~29-fach höhere Resorption vs. Standardextrakt in direktem Vergleich
+      - **BCM-95** (Curcumin-ätherisches Öl): ~6-fach höhere Absorption, gut dokumentiert in RCTs
+      - **Theracurmin** (kolloidale Submikronpartikel): Höchste Plasmaspiegel in direkten Vergleichsstudien
+
+      > Produkte ohne Formulierungsangabe (kein Piperin, kein Phytosomkomplex, kein nanopartikulärer Ansatz) haben wahrscheinlich keine klinisch relevante Wirkung — egal wie hoch die Curcumin-mg-Angabe auf der Packung ist.
+
+      ## Was sagen die Studien?
+
+      ### Entzündungsmarker (vergleichsweise gut untersucht)
+
+      Meta-Analyse Sahebkar et al. (2016, 15 RCTs): Curcumin senkte CRP (SMD -0,64), IL-6 und TNF-α signifikant vs. Placebo. Effektgröße moderat. Wichtig: Fast alle positiven Studien verwendeten verbesserte Formulierungen (Meriva, BCM-95, Theracurmin) oder Piperin-Zusatz.
+
+      ### Gelenkschmerzen und Arthrose
+
+      Die Meta-Analyse von Daily et al. (2016, 8 RCTs): Curcumin-Extrakte reduzierten Gelenkschmerzen auf der VAS-Skala im Mittel um ca. 19 mm und verbesserten WOMAC-Scores signifikant vs. Placebo. Ein direkter Vergleich mit Ibuprofen (1.200 mg/Tag) in einer Pilot-RCT ergab vergleichbare Schmerzreduktion bei weniger gastrointestinalen Nebenwirkungen — diese Studie war jedoch klein (n=45) und hat methodische Einschränkungen.
+
+      ### Metabolische Marker
+
+      Systematischer Review (Panahi 2015): Höhere Curcumin-Dosen (1.500 mg/Tag) waren mit niedrigeren Triglyceriden, reduzierten Nüchternblutzuckerwerten und verbesserten Lipidprofilen assoziiert. Die Studienqualität war jedoch variabel, und die Effektgröße für Nüchternblutzucker war moderat.
+
+      ### Kognition und Neuroinflammation
+
+      Bei Menschen: Wenige RCTs, keine überzeugenden Humanstudien für Kognition. Tiermodelle zeigen Effekte auf Neuroinflammation und β-Amyloid, aber humanstudien fehlen.
+
+      ## Limitationen und kritische Punkte
+
+      1. **Bioverfügbarkeit ist nicht gelöst** — Standard-Curcumin-Kapseln (ohne Piperin oder Phytosomkomplex) führen zu messbaren Plasma-Spiegeln im Nanomol-Bereich. Es ist unklar, ob das biologisch relevant ist.
+
+      2. **Keine Longevity-Daten beim Menschen** — Tierversuche mit Curcumin zeigen Lifespan-Effekte, aber RCTs bei älteren Menschen ohne Erkrankung fehlen völlig.
+
+      3. **Studienqualität variabel** — Viele Curcumin-Studien sind klein (n=30–60) und kurz (8–12 Wochen). Placebo-Effekte und Publikationsbias sind relevant.
+
+      4. **Formulierungsabhängigkeit ist real** — Die klinische Wirksamkeit hängt stark ab von der Formulierung (BCM-95, Meriva, Theracurmin). Generische Curcumin-Extrakte sind wahrscheinlich wirkungslos.
+
+      ## Dosierung und praktische Anwendung
+
+      - **Standard Curcumin** (ohne Bioverfügbarkeitshilfe): 500–1.000 mg/Tag — wahrscheinlich unwirksam
+      - **Mit Piperin** (20 mg): 500–1.000 mg Curcumin + 20 mg Piperin, 1–3× täglich
+      - **Meriva, BCM-95, Theracurmin**: 500–1.000 mg/Tag, 1–2× täglich (je nach Produkt)
+      - **Mahlzeit-Abhängigkeit**: Fettlöslich — mit Mahlzeit einnehmen für bessere Resorption
+
+      ## Fazit
+
+      Curcumin moduliert entzündliche und oxidative Signalwege und zeigt in RCTs moderate Effekte auf Entzündungsmarker und Gelenkschmerzen — aber **nur mit verbesserten Formulierungen oder Piperin-Zusatz**. Für Longevity beim Menschen fehlt Evidenz. Die Bioverfügbarkeit bleibt die zentrale Hürde, und generische Produkte sind wahrscheinlich unwirksam. Für wen? Patienten mit chronischen Entzündungen oder Gelenkschmerzen könnten von einer hochresorbierbaren Formulierung profitieren; für Gesunde ohne Entzündungssignale ist der Nutzen unbewiesen.
+
+  en:
+    summary: >-
+      Curcumin modulates inflammatory and oxidative pathways; moderate effects on CRP, IL-6, and joint pain—but only with enhanced formulations. Bioavailability is the limiting factor.
+    evidenceSummary: >-
+      RCTs demonstrate moderate reductions in CRP, IL-6, and TNF-α; benefits on joint pain are well-documented. Efficacy is strongly formulation-dependent (BCM-95, Meriva, Theracurmin). Human longevity data absent; bioavailability is the critical bottleneck.
+    body: |
+      ## What Is Curcumin?
+
+      Curcumin is the primary active compound in **turmeric** (*Curcuma longa*), the yellow spice that forms the base of curry powder. It comprises approximately 2–5% of turmeric's dry weight. In the context of healthy aging, curcumin is of interest because it modulates multiple inflammatory and oxidative pathways implicated in chronic disease and aging.
+
+      **Key mechanisms of action:**
+      - Inhibition of **NF-κB**, the central transcription factor for pro-inflammatory cytokines
+      - Activation of **Nrf2**, a master regulator of antioxidant gene expression
+      - Modulation of **COX-2** and **5-LOX** (inflammatory mediators, similar to NSAID targets)
+      - In animal models: effects on mTOR and AMPK (autophagy, cellular renewal)—but no direct human evidence for longevity benefit yet
+
+      ## The Central Problem: Bioavailability
+
+      Plain curcumin is poorly absorbed in the gastrointestinal tract. Oral bioavailability is &lt;1% under standard conditions. The compound is rapidly conjugated in the intestinal wall and glucuronidated in the liver. After standard curcumin capsules, only trace amounts are detectable in plasma.
+
+      **Solutions with clinical support:**
+      - **Piperine** (black pepper extract, 20 mg): Increases curcumin bioavailability up to 2,000-fold via CYP3A4 and P-glycoprotein inhibition. **Caveat:** This also enhances absorption of other drugs (warfarin, statins, anticonvulsants)—must be discussed with a physician if taking regular medications.
+      - **Meriva** (phosphatidylcholine complex): ~29-fold higher absorption vs. standard extract in head-to-head comparison
+      - **BCM-95** (curcumin + essential oil): ~6-fold higher bioavailability, well-documented in RCTs
+      - **Theracurmin** (colloidal submicron particles): Highest plasma levels in direct comparison studies
+
+      > Products without bioavailability enhancement (no piperine, no phytosome, no nanoparticulate form) likely have no clinically meaningful effect—regardless of the milligram amount on the label.
+
+      ## What the Evidence Shows
+
+      ### Inflammatory Markers
+
+      **Meta-analysis (Sahebkar et al., 2016; 15 RCTs):** Curcumin reduced CRP (SMD −0.64), IL-6, and TNF-α significantly vs. placebo. The effect size is moderate. Importantly, nearly all positive trials used enhanced formulations (Meriva, BCM-95, Theracurmin) or piperine co-administration.
+
+      ### Joint Pain and Osteoarthritis
+
+      **Meta-analysis (Daily et al., 2016; 8 RCTs):** Curcumin extracts reduced joint pain on the visual analog scale (VAS) by approximately 19 mm on average and improved WOMAC scores significantly vs. placebo. One small pilot RCT (n=45) found curcumin 500 mg/day to be comparable to ibuprofen 1,200 mg/day for pain relief, with fewer gastrointestinal side effects—but this study was underpowered and has methodological limitations.
+
+      ### Metabolic Markers
+
+      **Systematic review (Panahi et al., 2015):** Higher curcumin doses (1,500 mg/day) were associated with lower triglycerides, improved fasting glucose, and better lipid profiles. However, study quality was variable and effect sizes for glucose were modest.
+
+      ### Cognition and Neuroinflammation
+
+      **In humans:** Virtually no RCT data. Animal models show effects on neuroinflammation and β-amyloid, but human studies are entirely absent.
+
+      ## Key Limitations and Critical Points
+
+      1. **Bioavailability is unresolved for standard formulations.** Standard curcumin capsules without piperine or phytosome enhancement yield plasma concentrations in the low nanomolar range. Clinical relevance is uncertain.
+
+      2. **No human longevity data.** Animal studies show lifespan extension with curcumin; no RCTs exist in aging humans without disease.
+
+      3. **Study quality is variable.** Most curcumin trials are small (n=30–60) and short (8–12 weeks). Placebo effects and publication bias are relevant concerns.
+
+      4. **Formulation dependence is real.** Clinical efficacy depends heavily on the specific formulation (BCM-95, Meriva, Theracurmin). Generic curcumin extracts are likely ineffective.
+
+      5. **Lack of dose-finding studies.** Optimal doses for different formulations are not well-established.
+
+      ## Dosage and Practical Use
+
+      - **Standard curcumin** (without bioavailability enhancement): 500–1,000 mg/day—likely ineffective
+      - **With piperine** (20 mg): 500–1,000 mg curcumin + 20 mg piperine, 1–3 times daily
+      - **Meriva, BCM-95, Theracurmin:** 500–1,000 mg/day, 1–2 times daily (product-dependent)
+      - **Take with food:** Fat-soluble; absorption is better with meals
+
+      ## Summary
+
+      Curcumin modulates inflammatory and oxidative signaling pathways and shows moderate effects on inflammatory markers and joint pain in RCTs—**but only with enhanced formulations or piperine co-administration**. Human longevity evidence is absent. Bioavailability remains the fundamental barrier, and generic products are probably ineffective. **For whom?** Patients with chronic inflammation or joint pain might benefit from high-bioavailability formulations. For healthy individuals without inflammatory markers, the clinical utility is unproven.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: gelenke
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: migraene
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: ampk-aktivierung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: mtor-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: nf-kb-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: autophagie
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: telomer-erhaltung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: prostaglandin-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: crp
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: hba1c
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: glutathion-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: cholesterin
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: nüchternblutzucker
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: cholin
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nac
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: nr
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: piperin
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-schwangerschaft
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-magen-darm-beschwerden
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-kopfschmerzen
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28925728
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28925728"
+  - relation: basiert_auf_studie
+    target: studie-26975974
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26975974"
+  - relation: basiert_auf_studie
+    target: studie-26528921
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26528921"
+  - relation: basiert_auf_studie
+    target: studie-22407780
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22407780"
+  - relation: basiert_auf_studie
+    target: studie-26007572
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:26007572"

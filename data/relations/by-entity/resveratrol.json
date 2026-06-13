@@ -6,140 +6,161 @@
       "target": "pterostilben",
       "direction": "incoming",
       "confidence": 0.7,
-      "note": "## Was ist Pterostilben?\n\nPterostilben ist ein **natürlich vorkommendes Stilbenoid** – chemisch eng verwandt mit Resveratrol, aber mit zwei **Methylgruppen** statt Hydroxylgruppen."
+      "note": "Pterostilben ist chemisch eng verwandt mit Resveratrol (zwei Methylgruppen statt Hydroxylgruppen), höhere Bioverfügbarkeit ~80%"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Inkonsistente RCT-Daten; eine Studie fand Gedächtnisverbesserung bei postmenopausalen Frauen (Evans 2017)"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "immunsystem",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Immunmodulierende Effekte in Zellstudien; Humanevidenz fehlt weitgehend"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "blutdruck",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Keine signifikante Blutdrucksenkung in Meta-Analyse Sahebkar 2016 (11 RCTs)"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "blutzucker",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Fasting glucose -4,4 mg/dL in Meta-Analyse 2016; kein Effekt in Umbrella-Review 2026"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "herz-kreislauf",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Triglyceride -6,5 mg/dL (11 RCTs); keine konsistenten kardiovaskulären Endpunktdaten"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "verdauung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Einfluss auf Darmmikrobiom in Tierstudien; keine belastbaren Humanstudien"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "alterung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "SIRT1-Aktivierung und Calorienbeschränkungs-Mimetikum in Tiermodellen; kein Humanbeleg für Longevity"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "oxidativer-stress",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Antioxidative Eigenschaften in vitro; systemische Wirkung bei oraler Einnahme durch Bioverfügbarkeit limitiert"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "leber",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Hepatoprotektive Effekte in Tierstudien und kleinen Humanstudien bei NAFLD"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "migraene",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Sehr begrenzte Evidenz; keine belastbaren RCTs"
     },
     {
       "relation": "wirkt_ueber",
       "target": "atp-synthese",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Mitochondriale Biogenese via PGC-1α in Tiermodellen; kein Humanbeleg"
     },
     {
       "relation": "wirkt_ueber",
       "target": "ampk-aktivierung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Indirekt über PDE4-Hemmung → cAMP → AMPK → SIRT1-Aktivierung"
     },
     {
       "relation": "wirkt_ueber",
       "target": "sirt1-aktivierung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "SIRT1-Aktivierung als primäres molekulares Target; direkte vs. indirekte Aktivierung umstritten"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "crp",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "CRP kein signifikanter Effekt in Meta-Analyse 2016; Entzündungsmarker-Monitoring bei Langzeitanwendung sinnvoll"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "tsh",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "Phytoöstrogene Eigenschaften; Schilddrüsenfunktion bei langfristiger Einnahme beobachten"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "Leberwertekontrolle bei Langzeitanwendung empfohlen; First-Pass in der Leber"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "cholesterin",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "LDL-C-Senkung einzig konsistenter Effekt in Umbrella-Review 2026 (SMD-Analyse)"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "nüchternblutzucker",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "Fasting glucose moderat gesenkt in Studien mit Diabetikern; kein Effekt in Umbrella-Review 2026"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "(PMID 25905295) klärten dies auf: Nach 25 mg oraler Einnahme wurde Resveratrol zwar zu ~70 % aus dem Darm absorbiert — aber durch massiven First-Pass-Metabolismus (Sulfatierung und Glucuronidierung in"
+      "note": "Kombinationsprotokoll theoretisch synergistisch (antioxidativer Schutz); keine klinischen Daten"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-blutgerinnungsstoerung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "CYP2C9-Hemmung und Thrombozytenaggregationshemmung → erhöhtes Blutungsrisiko bei Antikoagulantien"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-magen-darm-beschwerden",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Übelkeit, Durchfall, Blähungen bei Dosen >2.000 mg/Tag"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-kopfschmerzen",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Kopfschmerzen gelegentlich berichtet; genaue Inzidenz unbekannt"
     },
     {
       "relation": "hat_regulatorischen_status",
@@ -153,7 +174,7 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:25905295",
-      "note": "RCT, n=6: Oral verabreichtes Resveratrol (25 mg) wurde zu ~70 % absorbiert, aber durch extensiven First-Pass-Metabolismus in Leber und Darmwand rasch konjugiert. Bioverfügbarkeit als freies Trans-Resv"
+      "note": "RCT n=6: Bioverfügbarkeit freies Trans-Resveratrol &lt;1%, Halbwertszeit ~2h, First-Pass-Metabolismus"
     },
     {
       "relation": "basiert_auf_studie",
@@ -161,7 +182,7 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:26975060",
-      "note": "Meta-Analyse (11 RCTs): Resveratrol reduzierte Triglyceride signifikant um ~6,5 mg/dL und Nüchternblutzucker um ~4,4 mg/dL. LDL, HDL, CRP und Blutdruck zeigten keine signifikante Veränderung. Effekte "
+      "note": "Meta-Analyse 11 RCTs: TG -6,5 mg/dL, Glucose -4,4 mg/dL; kein Effekt auf LDL, HDL, CRP, Blutdruck"
     },
     {
       "relation": "basiert_auf_studie",
@@ -169,7 +190,15 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:27789331",
-      "note": "Systematischer Review (6 RCTs, n&lt;500): Resveratrol zeigte inkonsistente Effekte auf kognitive Endpunkte. Eine Studie fand Verbesserungen in Gedächtnisaufgaben bei postmenopausalen Frauen; andere St"
+      "note": "Systematischer Review 6 RCTs: inkonsistente kognitive Effekte, unzureichende Fallzahlen"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-42268476",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42268476",
+      "note": "Umbrella-Review 10 Meta-Analysen: kein Gesamteffekt auf Blutzucker/Lipide bei T2DM (2026)"
     },
     {
       "relation": "basiert_auf_studie",
@@ -177,7 +206,7 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:28359099",
-      "note": "Mechanistischer Review: Resveratrol aktiviert SIRT1 (möglicherweise indirekt via AMPK), PGC-1α und beeinflusst mTOR. In Tiermodellen verlängerte es die Lebensspanne bei kalorienreicher Diät. Kritische"
+      "note": "Mechanistischer Review Sinclair: SIRT1/AMPK/PGC-1α Targets real; Human-Transfer unbelegt"
     }
   ]
 }
