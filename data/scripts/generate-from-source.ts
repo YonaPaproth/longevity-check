@@ -136,7 +136,9 @@ function validate(source: unknown, slug: string): source is IngredientSource {
  * blockquotes. Already-escaped &lt; is left unchanged.
  */
 function escapeMdx(str: string): string {
-  return str.replace(/(?<!&lt|&amp|&#\d{1,5})<(?!\/?\w)/g, '&lt;');
+  // Escape all bare < that are not already part of an HTML entity.
+  // We preserve only actual HTML/JSX tags like <div>, </div>, <br />.
+  return str.replace(/(?<!&lt|&amp|&#\d{1,5})<(?!\/?\s*[a-zA-Z][a-zA-Z0-9]*[\s>\/])/g, '&lt;');
 }
 
 /**

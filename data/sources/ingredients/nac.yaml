@@ -1,0 +1,321 @@
+---
+id: nac
+type: ingredient
+
+meta:
+  title:
+    de: "NAC (N-Acetylcystein)"
+    en: "NAC (N-Acetylcysteine)"
+  aliases:
+    - N-Acetylcystein
+    - N-Acetyl Cysteine
+    - NAC
+    - Acetylcystein
+  category: antioxidants
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 600
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Die EFSA hat keine Health Claims für NAC als Supplement zugelassen. Die FDA erwägt, NAC aus dem Supplement-Markt zu nehmen (da es als Arzneimittel zugelassen ist), hat aber noch keine endgültige Entscheidung getroffen. In der EU ist NAC als NEM erhältlich.
+  en: >-
+    EFSA has not approved any health claims for NAC as a supplement. The FDA has considered removing NAC from the supplement market (since it is approved as a drug), but no final decision has been made. In the EU, NAC remains available as a dietary supplement.
+
+key_studies:
+  - pmid: "28748217"
+    title: "Pharmacological and clinical overview of oral acetylcysteine in respiratory diseases"
+    authors: "Mokhtari V et al."
+    year: 2017
+    url: "https://pubmed.ncbi.nlm.nih.gov/28748217/"
+    finding:
+      de: >-
+        Umfassender Review: NAC war mit höheren Werten verbunden konsistent Glutathion-Spiegel und reduziert oxidativen Stress. Vergleichsweise gut untersuchte klinische Anwendung bei Atemwegserkrankungen.
+      en: >-
+        Comprehensive review: NAC consistently raised glutathione levels and reduced oxidative stress markers. Well-established clinical use in respiratory diseases as a mucolytic.
+  - pmid: "33587619"
+    title: "GlyNAC supplementation in older adults improves glutathione deficiency, oxidative stress, mitochondrial dysfunction and aging hallmarks"
+    authors: "Kumar P et al."
+    year: 2021
+    url: "https://pubmed.ncbi.nlm.nih.gov/33587619/"
+    finding:
+      de: >-
+        RCT (n=24, Ältere): GlyNAC (Glycin+NAC) war mit Veränderungen verbundene Glutathion, oxidativen Stress, Mitochondrienfunktion und Körperzusammensetzung signifikant.
+      en: >-
+        RCT (n=24, older adults): GlyNAC (glycine + NAC) significantly improved glutathione levels, oxidative stress markers, mitochondrial function, and body composition.
+  - pmid: "23044574"
+    title: "N-acetyl cysteine: the ongoing search for clinical proof"
+    authors: "Berk M et al."
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23044574/"
+    finding:
+      de: >-
+        Review: NAC zeigt in RCTs Effekte bei psychiatrischen Erkrankungen (depressive Symptome, Sucht) durch glutamaterge und antioxidative Mechanismen.
+      en: >-
+        Review: NAC shows effects in RCTs for psychiatric conditions (depressive symptoms, addiction) via glutamatergic and antioxidant mechanisms.
+  - pmid: "35975308"
+    title: "GlyNAC Supplementation Improves Aging Hallmarks in Humans"
+    authors: "Sekhar RV"
+    year: 2022
+    url: "https://pubmed.ncbi.nlm.nih.gov/35975308/"
+    finding:
+      de: >-
+        Follow-up RCT mit älteren Probanden: GlyNAC war mit Veränderungen verbundene 8 von 9 Hallmarks of Alterung in 24 Wochen. Noch kleine Stichprobe (n=24).
+      en: >-
+        Follow-up RCT in older adults: GlyNAC improved 8 of 9 hallmarks of aging within 24 weeks. Still a small sample (n=24), single research group.
+
+locales:
+  de:
+    summary: >-
+      NAC ist ein Glutathion-Vorläufer mit etablierter medizinischer Nutzung. Als gesundes Altern-Supplement wird es diskutiert, die Evidenz bei gesunden Menschen bleibt aber begrenzt.
+    evidenceSummary: >-
+      Klinisch vergleichsweise gut untersucht als Antidot und Schleimhautlöser. In RCTs mit älteren Menschen (kombiniert mit Glycin als GlyNAC) zeigen sich Verbesserungen bei oxidativem Stress, Mitochondrienfunktion und Muskelmasse. Langzeitstudien fehlen.
+    body: |
+      ## Was ist NAC?
+
+      N-Acetylcystein (NAC) ist ein acetyliertes Derivat der Aminosäure Cystein und der wichtigste **Glutathion-Vorläufer**, den der Körper aufnehmen kann. Glutathion ist das wichtigste endogene Antioxidans – es schützt Zellen vor oxidativem Stress, entgiftet die Leber und unterstützt die Immunfunktion.
+
+      In der Medizin ist NAC seit Jahrzehnten etabliert: als Antidot bei Paracetamol-Vergiftungen und als Schleimlöser bei Atemwegserkrankungen. Im Kontext gesunden Alterns ist es in Kombination mit **Glycin** (GlyNAC) besonders spannend.
+
+      ## Der GlyNAC-Ansatz im Kontext gesunden Alterns
+
+      Mit dem Alter sinken Glutathion-Spiegel deutlich. Die Ursache ist nicht nur Cysteinmangel, sondern auch Glycinmangel – beides wird für die Glutathionsynthese benötigt. Die Kombination GlyNAC adressiert beide Engpässe gleichzeitig.
+
+      Die Arbeitsgruppe von **Rajagopal Sekhar** (Baylor College of Medicine) führte bisher die interessantesten Humanstudien durch:
+      - Glutathion-Spiegel normalisiert (auf das Niveau junger Erwachsener)
+      - Verbesserungen bei Mitochondrienfunktion, Körperfett, Muskelkraft, Gehleistung
+      - Verbesserungen bei oxidativen Stressmarkern, Entzündung und Insulinsensitivität
+
+      **Einschränkung:** Alle Studien sind klein (n=24) und dauerten max. 24 Wochen. Unabhängige Replikationen fehlen noch.
+
+      ## Was sagen die Studien wirklich?
+
+      ### Klar belegt
+      - Erhöhung von Glutathion-Spiegeln (zuverlässig bei oraler Einnahme)
+      - Reduktion von oxidativem Stress in klinischen Populationen
+      - Wirksamkeit bei Paracetamol-Überdosierung (Goldstandard)
+
+      ### Vielversprechend, aber früh
+      - GlyNAC-Effekte auf Aging-Hallmarks (kleine Studien, ein Labor)
+      - Verbesserungen bei Muskelmasse und Kraft bei Älteren
+      - Neuroprotektive Effekte (Alzheimer-Tiermodelle)
+
+      ### Nicht belegt
+      - Lebensverlängerung beim Menschen
+      - Direkte Krebsprävention
+
+      ## Psychiatrische Anwendungen
+
+      NAC zeigt in RCTs moderate Effekte bei psychiatrischen Erkrankungen, darunter depressive Symptome, Zwangsstörungen und Suchtverhalten. Der Mechanismus umfasst sowohl glutamaterge Modulation als auch antioxidative Effekte im Gehirn. Die Evidenz ist vielversprechend, aber Studiengrößen sind oft begrenzt.
+
+      ## Ist NAC sicher?
+
+      Bei 600–1.200 mg/Tag gilt NAC als **wahrscheinlich sicher**. Mögliche Nebenwirkungen: Übelkeit, Erbrechen, Blähungen. Nicht kombinieren mit Nitraten (Blutdruckinteraktion). Bei Asthma Vorsicht (kann Bronchospasmus auslösen). Die FDA prüft eine mögliche Neuregelung für den US-Markt – in der EU ist NAC als Supplement weiterhin legal.
+
+      ## Praktischer Hinweis
+
+      NAC alleine reicht für optimale Glutathionbildung oft nicht. **GlyNAC (700–1.000 mg NAC + gleiche Menge Glycin)** ist nach aktueller Datenlage sinnvoller als NAC einzeln.
+
+      ## Fazit
+
+      NAC hat eine solide Grundlage als Glutathion-Vorläufer mit etablierter klinischer Nutzung. Die GlyNAC-Forschung ist der spannendste Ansatz im Longevity-Kontext, aber noch früh und nicht unabhängig repliziert. Als Einzelsupplement bei Gesunden ohne spezifische Indikation ist der Nutzen nicht gesichert.
+
+  en:
+    summary: >-
+      NAC is a glutathione precursor with established medical use. As a longevity supplement (especially as GlyNAC), early human data is promising but limited.
+    evidenceSummary: >-
+      Well-studied clinically as an antidote and mucolytic. GlyNAC (glycine + NAC) RCTs in older adults show improvements in oxidative stress, mitochondrial function, and body composition. All aging studies are from one lab (n=24). Long-term data absent.
+    body: |
+      ## What Is NAC?
+
+      N-acetylcysteine (NAC) is an acetylated derivative of the amino acid cysteine and the body's most important **glutathione precursor**. Glutathione is the primary endogenous antioxidant—it protects cells from oxidative damage, supports liver detoxification, and plays a key role in immune function.
+
+      In clinical medicine, NAC has been established for decades: as the **gold-standard antidote for acetaminophen (paracetamol) overdose** and as a mucolytic agent for respiratory conditions. In the context of healthy aging, it has gained attention primarily through combination with **glycine** (GlyNAC).
+
+      ## The GlyNAC Approach to Healthy Aging
+
+      Glutathione levels decline substantially with age. The cause is not only cysteine deficiency but also **glycine depletion**—both amino acids are required for glutathione synthesis. GlyNAC addresses both bottlenecks simultaneously.
+
+      The research group of **Rajagopal Sekhar** at Baylor College of Medicine has conducted the most compelling human studies to date:
+
+      - **Kumar et al. (2021, n=24 older adults):** GlyNAC supplementation (NAC 600 mg + glycine 600 mg, twice daily) for 16 weeks normalized glutathione to young-adult levels, improved mitochondrial function (measured by fatty acid oxidation), reduced oxidative stress (TBARS, F2-isoprostanes), and improved body composition (reduced waist circumference).
+      - **Sekhar (2022, n=24):** Follow-up RCT showed improvements in 8 of 9 hallmarks of aging over 24 weeks, including genomic damage, mitochondrial dysfunction, inflammation, and insulin resistance.
+
+      **Critical limitations:**
+      - All human aging studies come from **one research group** (Sekhar lab, Baylor). No independent replication exists.
+      - Sample sizes are **very small** (n=24 per trial).
+      - Maximum study duration is **24 weeks**. Long-term safety and efficacy are unknown.
+      - Studies compared GlyNAC to placebo, not to NAC alone or glycine alone—making it difficult to attribute effects to either component.
+
+      ## Beyond Aging: Established and Emerging Uses
+
+      ### Gold-standard clinical use
+      - **Acetaminophen overdose:** NAC is the definitive treatment, used in emergency medicine worldwide. Efficacy is unquestioned.
+      - **Mucolytic (respiratory):** Oral NAC 600 mg/day reduces mucus viscosity; meta-analyses show reduced exacerbation frequency in chronic bronchitis (Mokhtari et al. 2017).
+
+      ### Psychiatric applications
+      NAC shows moderate effects in RCTs for psychiatric conditions, including depressive symptoms, OCD, and addictive behaviors. The mechanism involves both glutamatergic modulation and antioxidant effects in the brain (Berk et al. 2013). Evidence is promising but study sizes are often limited.
+
+      ### Glutathione repletion
+      Oral NAC (600–1,200 mg/day) reliably increases plasma glutathione levels. This is the most robust and reproducible biochemical effect across multiple populations.
+
+      ## What Is NOT Proven
+
+      - **Lifespan extension** in humans
+      - **Cancer prevention** (theoretical antioxidant benefit, but no clinical evidence; some concern that antioxidants may theoretically protect tumor cells)
+      - **Cognitive enhancement** in healthy adults
+      - **Long-Covid treatment** (widely discussed, clinical trials ongoing, no conclusive results as of 2026)
+
+      ## Safety
+
+      At 600–1,200 mg/day, NAC is considered **likely safe**. Common side effects: nausea, vomiting, flatulence (typically mild and transient).
+
+      **Important warnings:**
+      - Do not combine with **nitroglycerin** or nitrate medications (additive blood pressure–lowering, potentially dangerous hypotension)
+      - **Asthma patients:** NAC can trigger bronchospasm in rare cases
+      - **FDA regulatory status** in the US is uncertain (NAC was approved as a drug before it was sold as a supplement; the FDA has considered—but not finalized—restricting supplement sales)
+      - In the EU, NAC remains legally available as a dietary supplement
+
+      ## Dosage and Practical Use
+
+      - **Standard supplementation:** 600 mg once or twice daily
+      - **GlyNAC protocol (Sekhar studies):** 600 mg NAC + 600 mg glycine, twice daily (1,200 mg each per day)
+      - **Mucolytic use:** 600 mg/day, well-established dose
+      - **Take on empty stomach or with food:** Both approaches used in studies; no strong evidence favoring either
+
+      ## Practical Note
+
+      NAC alone is often insufficient for optimal glutathione synthesis. **GlyNAC (NAC + glycine in equal amounts)** is more effective than NAC alone based on current data—the dual-precursor approach addresses both rate-limiting amino acids.
+
+      ## Summary
+
+      NAC has a solid foundation as a glutathione precursor with decades of established clinical use. The GlyNAC research is the most exciting development in the longevity context, but it remains early-stage: small samples, one lab, no independent replication, maximum 24-week follow-up. As a standalone supplement in healthy individuals without specific indications, the benefit is not established. For older adults interested in glutathione optimization, GlyNAC appears more rational than NAC alone—but with the clear caveat that the evidence base is preliminary.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: leber
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: neuroprotektiv
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: atp-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: benoetigt_biomarker_check
+    target: glutathion-spiegel
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: glutathion
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: glynac
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: glycin
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: calcium
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: curcumin
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: kreatin
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: probiotika
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: resveratrol
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: vitamin-b12
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: vitamin-d3-k2
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-magen-darm-beschwerden
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-28748217
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:28748217"
+  - relation: basiert_auf_studie
+    target: studie-33587619
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:33587619"
+  - relation: basiert_auf_studie
+    target: studie-23044574
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23044574"
+  - relation: basiert_auf_studie
+    target: studie-35975308
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:35975308"

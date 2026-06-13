@@ -1,0 +1,339 @@
+---
+id: probiotika
+type: ingredient
+
+meta:
+  title:
+    de: "Probiotika"
+    en: "Probiotics"
+  aliases:
+    - Probiotics
+    - Lactobacillus
+    - Bifidobacterium
+    - Darmbakterien
+    - Mikrobiom
+  category: other
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 0
+  publishedAt: "2026-05-14"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Die EFSA hat alle eingereichten Health Claims für Probiotika abgelehnt, weil Wirkungen stammspezifisch sind und generische 'Probiotika'-Claims nicht belegt werden können. Das bedeutet nicht fehlende Wirksamkeit spezifischer Stämme, sondern regulatorische Anforderungen an Generalaussagen.
+  en: >-
+    EFSA has rejected all submitted health claims for probiotics because effects are strain-specific and generic 'probiotic' claims cannot be substantiated. This reflects regulatory standards for general claims, not absence of efficacy for specific strains.
+
+key_studies:
+  - pmid: "22570464"
+    title: "Probiotics for the prevention of antibiotic-associated diarrhea: meta-analysis"
+    authors: "Hempel S et al."
+    year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22570464/"
+    finding:
+      de: >-
+        Meta-Analyse (63 RCTs, n=11.811): Probiotika reduzierten Antibiotika-assoziierte Diarrhö um 42% (RR 0,58). Stärkste Evidenz für Lactobacillus rhamnosus GG und Saccharomyces boulardii CNCM I-745.
+      en: >-
+        Meta-analysis (63 RCTs, n=11,811): Probiotics reduced antibiotic-associated diarrhea by 42% (RR 0.58). Strongest evidence for Lactobacillus rhamnosus GG and Saccharomyces boulardii CNCM I-745.
+  - pmid: "24574972"
+    title: "Probiotics and irritable bowel syndrome: systematic review and meta-analysis"
+    authors: "Ford AC et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24574972/"
+    finding:
+      de: >-
+        Meta-Analyse (43 RCTs): Probiotika reduzierten IBS-Symptome und Bauchschmerzen signifikant vs. Placebo. NNT ca. 7. Effekte stammabhängig; kein einzelner überlegener Stamm identifiziert.
+      en: >-
+        Meta-analysis (43 RCTs): Probiotics significantly reduced IBS symptoms and abdominal pain vs. placebo. NNT approximately 7. Effects strain-dependent; no single superior strain identified.
+  - pmid: "24492253"
+    title: "Expert consensus document: The ISAPP consensus statement on the scope and appropriate use of the term probiotic"
+    authors: "Hill C et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24492253/"
+    finding:
+      de: >-
+        ISAPP-Konsens: WHO-Definition von Probiotika präzisiert. Stammspezifität, ausreichende Dosierung und Lebensfähigkeit am Wirkort sind Mindestanforderungen für eine korrekte Probiotika-Bezeichnung.
+      en: >-
+        ISAPP consensus: Refined WHO definition of probiotics. Strain specificity, adequate dosing, and viability at the site of action are minimum requirements for correct probiotic designation.
+  - pmid: "27559846"
+    title: "Gut microbiome and aging: physiological and mechanistic insights"
+    authors: "Biagi E et al."
+    year: 2016
+    url: "https://pubmed.ncbi.nlm.nih.gov/27559846/"
+    finding:
+      de: >-
+        Review: Mikrobiom verändert sich mit dem Alter — weniger Diversität, mehr inflammatorische Stämme. Centenariere haben eine charakteristische, diversere Zusammensetzung. Kausalrichtung unklar.
+      en: >-
+        Review: The microbiome changes with age—reduced diversity, increased inflammatory strains. Centenarians have a characteristically more diverse composition. Causal direction unclear.
+  - pmid: "23384445"
+    title: "Gut-brain axis: how the microbiome influences anxiety and depression"
+    authors: "Foster JA & McVey Neufeld KA"
+    year: 2013
+    url: "https://pubmed.ncbi.nlm.nih.gov/23384445/"
+    finding:
+      de: >-
+        Review: Darm-Hirn-Achse bidirektional. Darmbakterien produzieren Serotonin-Vorläufer (ca. 90% des Körper-Serotonins werden im Darm produziert), modulieren Stressachse. Angstreduktion in Tier- und kleinen Humanstudien.
+      en: >-
+        Review: Gut-brain axis is bidirectional. Gut bacteria produce serotonin precursors (approximately 90% of body serotonin is produced in the gut), modulate the stress axis. Anxiety reduction demonstrated in animal and small human studies.
+
+locales:
+  de:
+    summary: >-
+      Probiotika sind lebende Mikroorganismen mit stammspezifischen Eigenschaften im Darm-Kontext. Das Hauptproblem ist die Produktqualität: Viele Angebote sind nur begrenzt dokumentiert.
+    evidenceSummary: >-
+      Stammspezifische Wirkung für definierte Indikationen gut belegt: Antibiotika-Diarrhö (RR 0,58), IBS-Symptome (NNT ~7). EFSA lehnte alle generischen Probiotika-Claims ab — nicht mangels Wirkung, sondern wegen fehlender Stamm-Indikations-Spezifität. Produktqualität variiert stark.
+    body: |
+      ## Was sind Probiotika?
+
+      Probiotika sind laut WHO-Definition **„lebende Mikroorganismen, die, wenn in ausreichender Menge verabreicht, dem Wirt einen gesundheitlichen Nutzen bringen"**. Die wichtigsten Gattungen in Supplements: *Lactobacillus*, *Bifidobacterium* und die Hefe *Saccharomyces boulardii*.
+
+      Das menschliche Darm-Mikrobiom enthält ~38 Billionen Bakterien — ungefähr so viele wie Körperzellen. Diese Gemeinschaft beeinflusst Verdauung, Immunabwehr, Entzündungsregulation, Stoffwechsel und über die **Darm-Hirn-Achse** die mentale Gesundheit. Ca. 90% des körpereigenen Serotonins werden im Darm produziert — ein Maß für die enge Verknüpfung zwischen Mikrobiom und Nervensystem.
+
+      ## Das zentrale Problem: Stammspezifität
+
+      Der wichtigste Grundsatz bei Probiotika:
+
+      > **Was für einen Stamm gilt, gilt nicht automatisch für einen anderen — auch nicht für dieselbe Gattung.**
+
+      *Lactobacillus rhamnosus GG* hat starke Evidenz für Antibiotika-Diarrhö. *Lactobacillus acidophilus NCFM* für IBS. *Saccharomyces boulardii CNCM I-745* für Reisediarrhö. Das bedeutet nicht, dass jeder *Lactobacillus*-haltige Joghurt oder jedes günstige Kombinationsprobiotikum diese Wirkungen hat.
+
+      Die EFSA hat deshalb **alle** generischen Probiotika-Claims abgelehnt — nicht weil spezifische Stämme nicht wirken, sondern weil man Stamm, Produkt und Indikation gemeinsam belegen muss. Dies ist ein regulatorischer Konsistenzanspruch, keine Aussage über die Wirklosigkeit. Details zur EFSA-Position: [www.efsa.europa.eu/en/topics/topic/nutrition-claims](https://www.efsa.europa.eu/en/topics/topic/nutrition-claims)
+
+      ## Was sagen die Studien?
+
+      ### Klar belegt (stammspezifisch)
+
+      **Antibiotika-assoziierte Diarrhö (AAD):** Das stärkste Evidenzgebiet. Die Meta-Analyse von Hempel et al. (63 RCTs, n=11.811) zeigt RR 0,58 — also 42% Risikoreduktion. NNT: etwa 13. Stärkste Evidenz: *L. rhamnosus GG* und *S. boulardii CNCM I-745*. Diese Stämme sind auch für *Clostridioides difficile*-assoziierte Diarrhö untersucht, mit moderater Evidenz.
+
+      **Reizdarmsyndrom (IBS):** Meta-Analyse Ford et al. (43 RCTs): signifikante Verbesserung von globalen IBS-Symptomen und Bauchschmerzen, NNT ~7. Kein einzelner Stamm klar überlegen; Multispecies-Präparate gut untersucht. Effekte sind moderat, aber reproduzierbar.
+
+      **Reisediarrhö:** *S. boulardii* und *L. rhamnosus GG* zeigen präventive Effekte in RCTs. Effektgröße variiert nach Reiseland und Exposition.
+
+      ### Gut untersucht, aber moderatere Datenlage
+
+      **Immunmodulation:** Mehrere RCTs zeigen kürzere Erkältungsdauer (–1 bis –2 Tage) mit spezifischen Stämmen. Effektgröße klein bis moderat, aber klinisch plausibel.
+
+      **Laktose-Intoleranz:** Fermentierte Produkte mit *S. thermophilus* und *L. bulgaricus* verbessern Laktosetoleranz durch bakterielle Laktase-Aktivität — einer der mechanistisch direktesten Effekte.
+
+      **Vaginales Mikrobiom:** *Lactobacillus*-dominiertes vaginales Mikrobiom assoziiert mit geringerem Infektionsrisiko; orale Probiotika-Übertragung in diesen Bereich ist möglich, aber nicht konsistent belegt.
+
+      ### Biologisch plausibel, aber früh
+
+      **Darm-Hirn-Achse und Stimmung:** Kleinere RCTs zeigen Reduktion von Angst- und Depressions-Scores mit spezifischen „Psychobiotika"-Stämmen. Ergebnisse vielversprechend, aber Studiengrößen oft <100 Teilnehmende, kurze Laufzeiten. Nicht für therapeutischen Einsatz geeignet.
+
+      **Gesundes Altern und Mikrobiom-Diversität:** Centenariere haben ein charakteristisch anderes Mikrobiom als jüngere Ältere: mehr Diversität, mehr kurzkettige Fettsäure-Produzenten (*Akkermansia muciniphila*, *Faecalibacterium prausnitzii*), weniger inflammatorische Stämme. Die Kausalrichtung ist unbekannt — ob das gesunde Mikrobiom gesundes Altern verursacht oder Folge davon ist, bleibt offen.
+
+      **Akkermansia muciniphila** ist ein besonders vielversprechender Stamm: in Beobachtungsstudien assoziiert mit gesundem Gewicht, besserer Insulinsensitivität und geringerer Entzündung. Pasteurisierte Akkermansia-Supplements sind auf dem Markt, aber die klinische Evidenz ist noch begrenzt.
+
+      ### Nicht belegt
+
+      - Allgemeine „Darmgesundheit" ohne spezifische Indikation
+      - Lebensverlängerung beim Menschen
+      - Krebsprävention
+
+      ## Gesundes Altern und das Mikrobiom
+
+      Das Mikrobiom verändert sich tiefgreifend mit dem Alter: Diversität nimmt ab, opportunistische Pathobionten nehmen zu, kurzkettige Fettsäure-Produzenten (Butyrat-Produzenten) nehmen ab. Dies ist mit chronischer niedriggradiger Entzündung (Inflammaging) assoziiert.
+
+      Ob gezielte Probiotika-Supplementierung diesen Prozess verlangsamen kann, ist ein aktives Forschungsgebiet. Erste Studien mit spezifischen Stämmen (z.B. Bifidobacterium longum) zeigen Verbesserungen von Entzündungsmarkern bei älteren Erwachsenen — aber Langzeitdaten fehlen.
+
+      ## Qualitätskriterien beim Kauf
+
+      1. **Stammbezeichnung vollständig** (Gattung + Art + Stamm-Kennziffer, z.B. *L. rhamnosus GG* oder *L. rhamnosus ATCC 53103*)
+      2. **KBE-Angabe** (koloniebildende Einheiten) — mind. 10⁹ (1 Milliarde) KBE/Tagesdosis zum Ablaufdatum (nicht bei Herstellung)
+      3. **Stabilität**: Kühllagerung oder microverkapselter Schutz; Einnahme mit Mahlzeit verbessert Überleben im Magen
+      4. **Passiert den Magen**: Magensäureschutz (gastroprotektierte Kapsel) oder Einnahme mit Mahlzeit — ohne Schutz verlieren viele Stämme >99% ihrer Aktivität beim Magenpassage
+      5. **Indikationskongruenz**: Kaufe den Stamm, für den die Evidenz für deine Indikation spricht — nicht das Präparat mit den meisten Stämmen
+
+      ## Sicherheit
+
+      Bei gesunden Erwachsenen gilt kurzfristige Einnahme als **wahrscheinlich sicher**. Häufige Nebenwirkungen (Blähungen, veränderte Stuhlkonsistenz) sind meist vorübergehend.
+
+      **Warnhinweise:**
+      - Bei Immunsuppression, HIV, aktiver Krebstherapie oder kritischer Erkrankung: erhöhtes Risiko — einzelne Fälle von Sepsis mit Probiotika-Stämmen dokumentiert
+      - Nach bariatrischer Chirurgie oder mit intestinalen Katheterisierungen: Vorsicht
+      - *S. boulardii* ist eine Hefe: bei Fluconazol-Einnahme (Azol-Antimykotika) mögliche Interaktion
+
+      Für gesunde Menschen ohne relevante Erkrankung: Die übliche Kurzzeit-Einnahme (4–12 Wochen) gilt als gut verträglich.
+
+      ## Ehrliche Einschränkungen
+
+      - Stammspezifität macht pauschale Bewertungen schwierig: Die Evidenz des stärksten Stamms überträgt sich nicht auf das gesamte Segment
+      - Viele Supplements haben nicht die auf der Packung angegebenen lebenden KBE — unabhängige Qualitätsprüfung (z.B. ConsumerLab) empfehlenswert
+      - Langzeiteffekte (>12 Monate) und optimale Dosierungsdauer sind für die meisten Stämme nicht ausreichend erforscht
+      - Das Mikrobiom ist hochindividuell: Dieselbe Interventionsstudie zeigt bei verschiedenen Ausgangsmikrobiomen sehr unterschiedliche Ansprechraten
+
+  en:
+    summary: >-
+      Probiotics are live microorganisms with strain-specific effects. Strong evidence for antibiotic diarrhea and IBS; product quality varies dramatically.
+    evidenceSummary: >-
+      Strain-specific effects well-documented: antibiotic-associated diarrhea (RR 0.58, 63 RCTs), IBS symptoms (NNT ~7, 43 RCTs). EFSA rejected all generic probiotic claims—not for lack of efficacy, but because effects are strain-specific. Product quality varies widely.
+    body: |
+      ## What Are Probiotics?
+
+      Probiotics are, per the WHO definition, **"live microorganisms which, when administered in adequate amounts, confer a health benefit on the host."** The most important genera in supplements: *Lactobacillus*, *Bifidobacterium*, and the yeast *Saccharomyces boulardii*.
+
+      The human gut microbiome contains approximately 38 trillion bacteria—roughly as many as human body cells. This community influences digestion, immune defense, inflammation regulation, metabolism, and—via the **gut-brain axis**—mental health. Approximately 90% of the body's serotonin is produced in the gut, illustrating the tight link between microbiome and nervous system.
+
+      ## The Central Problem: Strain Specificity
+
+      The most important principle in probiotics:
+
+      > **What is true for one strain is not automatically true for another—even within the same genus.**
+
+      *Lactobacillus rhamnosus GG* has strong evidence for antibiotic-associated diarrhea. *Lactobacillus acidophilus NCFM* for IBS. *Saccharomyces boulardii CNCM I-745* for traveler's diarrhea. This does not mean that any *Lactobacillus*-containing yogurt or cheap combination probiotic has these effects.
+
+      EFSA rejected **all** generic probiotic health claims for precisely this reason—not because specific strains don't work, but because strain, product, and indication must be jointly substantiated.
+
+      ## What Does the Evidence Show?
+
+      ### Clearly Established (Strain-Specific)
+
+      **Antibiotic-associated diarrhea (AAD):** The strongest evidence area. The Hempel et al. meta-analysis (63 RCTs, n=11,811) shows RR 0.58—a 42% risk reduction. NNT: approximately 13. Strongest evidence: *L. rhamnosus GG* and *S. boulardii CNCM I-745*. These strains are also studied for *Clostridioides difficile*-associated diarrhea, with moderate evidence.
+
+      **Irritable bowel syndrome (IBS):** Ford et al. meta-analysis (43 RCTs): significant improvement in global IBS symptoms and abdominal pain, NNT ~7. No single strain clearly superior; multi-species preparations are well-studied. Effects are moderate but reproducible.
+
+      **Traveler's diarrhea:** *S. boulardii* and *L. rhamnosus GG* show preventive effects in RCTs. Effect size varies by destination and exposure.
+
+      ### Well-Studied but More Moderate Evidence
+
+      **Immune modulation:** Multiple RCTs show shorter cold duration (−1 to −2 days) with specific strains. Effect size small to moderate but clinically plausible.
+
+      **Lactose intolerance:** Fermented products with *S. thermophilus* and *L. bulgaricus* improve lactose tolerance through bacterial lactase activity—one of the most mechanistically direct effects.
+
+      **Vaginal microbiome:** *Lactobacillus*-dominated vaginal microbiome associated with lower infection risk; oral probiotic transfer to the vaginal environment is possible but not consistently demonstrated.
+
+      ### Biologically Plausible but Early
+
+      **Gut-brain axis and mood:** Smaller RCTs show reductions in anxiety and depression scores with specific "psychobiotic" strains. Results promising, but study sizes often <100 participants, short durations. Not suitable for therapeutic use.
+
+      **Healthy aging and microbiome diversity:** Centenarians have a characteristically different microbiome than younger elderly: more diversity, more short-chain fatty acid producers (*Akkermansia muciniphila*, *Faecalibacterium prausnitzii*), fewer inflammatory strains. The causal direction is unknown—whether the healthy microbiome causes healthy aging or results from it remains open.
+
+      **Akkermansia muciniphila** is particularly promising: associated in observational studies with healthy weight, better insulin sensitivity, and lower inflammation. Pasteurized Akkermansia supplements are on the market, but clinical evidence remains limited.
+
+      ### Not Proven
+
+      - General "gut health" without specific indication
+      - Lifespan extension in humans
+      - Cancer prevention
+
+      ## Aging and the Microbiome
+
+      The microbiome changes profoundly with age: diversity decreases, opportunistic pathobionts increase, short-chain fatty acid producers (butyrate producers) decline. This is associated with chronic low-grade inflammation (inflammaging).
+
+      Whether targeted probiotic supplementation can slow this process is an active research area. Initial studies with specific strains (e.g., *Bifidobacterium longum*) show improvements in inflammatory markers in older adults—but long-term data are absent.
+
+      ## Quality Criteria When Buying
+
+      1. **Full strain designation** (genus + species + strain identifier, e.g., *L. rhamnosus GG* or *L. rhamnosus ATCC 53103*)
+      2. **CFU count** (colony-forming units)—minimum 10⁹ (1 billion) CFU per daily dose at expiration date (not at manufacture)
+      3. **Stability:** Refrigerated storage or microencapsulated protection; taking with food improves gastric survival
+      4. **Gastric survival:** Acid-resistant capsule or taken with food—without protection, many strains lose >99% of viability during gastric passage
+      5. **Indication match:** Choose the strain for which evidence supports your specific indication—not the product with the most strains
+
+      ## Safety
+
+      Short-term use in healthy adults is considered **likely safe**. Common side effects (bloating, changes in stool consistency) are usually transient.
+
+      **Warnings:**
+      - In immunosuppressed patients, active cancer therapy, or critical illness: increased risk—individual cases of sepsis with probiotic strains documented
+      - After bariatric surgery or with intestinal catheters: use with caution
+      - *S. boulardii* is a yeast: possible interaction with fluconazole (azole antifungals)
+
+      For healthy individuals without relevant conditions: standard short-term use (4–12 weeks) is well-tolerated.
+
+      ## Honest Limitations
+
+      - Strain specificity makes blanket assessments difficult: the evidence for the strongest strain does not transfer to the entire category
+      - Many supplements do not contain the viable CFU count stated on the label—independent quality testing (e.g., ConsumerLab) recommended
+      - Long-term effects (>12 months) and optimal dosing duration are insufficiently studied for most strains
+      - The microbiome is highly individual: the same intervention study shows very different response rates depending on baseline microbiome composition
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutzucker
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: depression
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: serotonin-synthese
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: nac
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-chemotherapie
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-organtransplantation
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_nebenwirkung
+    target: nw-magen-darm-beschwerden
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-22570464
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22570464"
+  - relation: basiert_auf_studie
+    target: studie-24574972
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24574972"
+  - relation: basiert_auf_studie
+    target: studie-24492253
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24492253"
+  - relation: basiert_auf_studie
+    target: studie-27559846
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:27559846"
+  - relation: basiert_auf_studie
+    target: studie-23384445
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:23384445"

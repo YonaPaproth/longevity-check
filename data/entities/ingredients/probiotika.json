@@ -13,5 +13,6 @@
   "category": "other",
   "evidenceLevel": 2,
   "safety": "likely-safe",
-  "efsa_approved": false
+  "efsa_approved": false,
+  "typical_dose_mg": 0
 }

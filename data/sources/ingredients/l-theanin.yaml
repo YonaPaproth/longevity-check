@@ -1,0 +1,309 @@
+---
+id: l-theanin
+type: ingredient
+
+meta:
+  title:
+    de: "L-Theanin"
+    en: "L-Theanine"
+  aliases:
+    - L-Theanine
+    - Theanin
+    - Tea Amino Acid
+  category: other
+  evidenceLevel: "2"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 200
+  publishedAt: "2026-05-16"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Für L-Theanin bestehen in der EU keine zugelassenen Claims zu Fokus, Ruhe oder Stressabbau. EFSA hat entsprechende Anträge nicht positiv bewertet.
+  en: >-
+    EFSA has not approved any health claims for L-theanine related to focus, relaxation, or stress reduction. Corresponding applications were not positively evaluated.
+
+key_studies:
+  - pmid: "22214254"
+    title: "Effects of L-theanine on objective sleep quality in boys with ADHD"
+    authors: "Higashiyama A et al."
+    year: 2011
+    url: "https://pubmed.ncbi.nlm.nih.gov/22214254/"
+    finding:
+      de: >-
+        Randomisierter Doppelblind-Crossover (n=98 Jungen): 400 mg L-Theanin/Tag (2×200 mg) verbesserte objektive Schlafqualität (gemessen per Aktigraphie) ohne sedierende Nebenwirkungen.
+      en: >-
+        Randomized double-blind crossover (n=98 boys): 400 mg L-theanine/day (2×200 mg) improved objective sleep quality (measured by actigraphy) without sedative side effects.
+  - pmid: "18681988"
+    title: "Behavioral effects of compounds co-consumed in dietary amounts with caffeine"
+    authors: "Haskell CF et al."
+    year: 2008
+    url: "https://pubmed.ncbi.nlm.nih.gov/18681988/"
+    finding:
+      de: >-
+        Doppelblind-RCT (n=27): 250 mg Koffein + 250 mg L-Theanin verbesserten Aufmerksamkeit und Reaktionszeit gegenüber beiden Einzelsubstanzen. L-Theanin allein zeigte keine signifikanten kognitiven Verbesserungen.
+      en: >-
+        Double-blind RCT (n=27): 250 mg caffeine + 250 mg L-theanine improved attention and reaction time compared to either substance alone. L-theanine alone showed no significant cognitive improvements.
+  - pmid: "18296328"
+    title: "L-theanine, a natural constituent in tea, and its effect on mental state"
+    authors: "Nobre AC et al."
+    year: 2008
+    url: "https://pubmed.ncbi.nlm.nih.gov/18296328/"
+    finding:
+      de: >-
+        Doppelblind-Crossover: 50 mg L-Theanin erhöhte Alpha-Wellenkraft im EEG signifikant. Alpha-Wellen gelten als Marker entspannter Wachheit ohne Sedierung.
+      en: >-
+        Double-blind crossover: 50 mg L-theanine significantly increased alpha wave power on EEG. Alpha waves are considered a marker of relaxed alertness without sedation.
+  - pmid: "17272967"
+    title: "L-Theanine reduces psychological and physiological stress responses"
+    authors: "Kimura K et al."
+    year: 2007
+    url: "https://pubmed.ncbi.nlm.nih.gov/17272967/"
+    finding:
+      de: >-
+        Crossover-Studie (n=12): 200 mg L-Theanin reduzierte Herzrate und salivären IgA-Anstieg als physiologische Stressmarker bei einem mentalen Stress-Task signifikant gegenüber Placebo.
+      en: >-
+        Crossover study (n=12): 200 mg L-theanine significantly reduced heart rate and salivary IgA increase as physiological stress markers during a mental arithmetic stress task vs. placebo.
+  - pmid: "25761837"
+    title: "A double-blind, placebo-controlled study evaluating caffeine and L-theanine on cognitive function"
+    authors: "Dodd FL et al."
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/25761837/"
+    finding:
+      de: >-
+        Doppelblind-Crossover (n=24): Koffein 75 mg + Theanin 50 mg war mit konsistent besserer Konzentrationsleistung und Stimmung verbunden als Placebo oder Einzelsubstanzen.
+      en: >-
+        Double-blind crossover (n=24): Caffeine 75 mg + theanine 50 mg was associated with consistently better concentration performance and mood vs. placebo or either substance alone.
+
+locales:
+  de:
+    summary: >-
+      L-Theanin gehört zu den populäreren Nootropics: Es wird vor allem für Ruhe ohne starke Sedierung untersucht, besonders in Kombination mit Koffein.
+    evidenceSummary: >-
+      L-Theanin hat brauchbare Human-Evidenz für Stressreduktion, subjektive Entspannung und in Kombination mit Koffein teilweise messbare Aufmerksamkeitseffekte. Die Effekte sind real, aber moderat; Replikationen sind weniger konsistent als bei Koffein allein. Langzeitdaten fehlen weitgehend.
+    body: |
+      ## Was ist L-Theanin?
+
+      L-Theanin ist eine nicht-proteinogene Aminosäure, die natürlich in den Blättern der Teepflanze (*Camellia sinensis*) vorkommt. Grüntee enthält typischerweise **20–40 mg Theanin pro 200 ml Tasse**; Matcha deutlich mehr (~50–100 mg pro Portion). Außerhalb von Tee ist L-Theanin kaum in Lebensmitteln verbreitet — eine Ausnahme bildet der Pilz *Xerocomus badius*.
+
+      Als Supplement wird L-Theanin in Kapseln oder Pulver mit standardisierten Dosierungen von meist 100–200 mg angeboten. Die Substanz wurde vor allem in Japan intensiv im Kontext des Grüntee-Konsums erforscht und gehört zu den meistverkauften Nootropics weltweit.
+
+      ## Mechanismus: Wie wirkt L-Theanin?
+
+      L-Theanin hat in pharmakologischen und neurowissenschaftlichen Studien mehrere Wirkmechanismen gezeigt:
+
+      **Alpha-Wellen-Aktivierung:** EEG-Studien zeigen konsistent, dass bereits 50 mg L-Theanin die Alpha-Wellenkraft im Gehirn signifikant erhöhen. Alpha-Wellen (8–12 Hz) sind charakteristisch für entspannte, fokussierte Wachheit — ein Zustand, den viele Nutzer als "ruhigen Fokus" beschreiben.
+
+      **Glutamat-Antagonismus:** Theanin ist strukturell dem exzitatorischen Neurotransmitter Glutamat ähnlich und bindet kompetitiv an NMDA- und AMPA-Rezeptoren, ohne diese vollständig zu aktivieren. Dies kann übermäßige neuronale Erregung dämpfen.
+
+      **GABAerge Modulation:** Es gibt Hinweise auf eine Modulation inhibitorischer GABAerger Signale, die zur entspannenden Wirkung ohne klassische Sedierung beitragen könnte.
+
+      **Koffein-Interaktion:** Theanin und Koffein interagieren am adenosinergen System auf komplementäre Weise. Theanin kann einige der unerwünschten Aspekte von Koffein (Angst, Herzrasen bei empfindlichen Personen) abschwächen, ohne die Wachheitseffekte zu unterdrücken.
+
+      ## Was sagen die Studien wirklich?
+
+      ### Was vergleichsweise konsistent gezeigt wurde
+
+      **Alpha-Wellen im EEG:** Mehrere Studien belegen eine messbare Erhöhung der Alpha-Wellenkraft bei 50–200 mg L-Theanin. Dies ist der robusteste biologische Marker für die Wirkung von L-Theanin.
+
+      **Stressreduktion:** In kleinen Crossover-Studien reduzierte L-Theanin (200 mg) physiologische Stressmarker wie Herzrate und speichelgebundene IgA-Spiegel bei mental stressigen Aufgaben.
+
+      **Theanin + Koffein — synergistischer Effekt:** Mehrere RCTs zeigen, dass die Kombination aus L-Theanin und Koffein (~50 mg Theanin + 75 mg Koffein) bei Aufmerksamkeitsaufgaben konsistent besser abschneidet als beide Substanzen einzeln. Dies ist der am besten belegte Anwendungskontext.
+
+      **Schlafqualität:** Eine randomisierte Studie an Jungen mit ADHS zeigte verbesserte objektive Schlafqualität (Aktigraphie) bei 400 mg/Tag ohne sedierende Nebenwirkungen.
+
+      ### Wichtige Einschränkungen
+
+      - Die meisten Studien sind **sehr klein** (n < 30) und meist einsitzige Akut-Crossover-Designs. Langzeiteffekte über Wochen oder Monate sind kaum untersucht.
+      - **L-Theanin allein** (ohne Koffein) zeigt bei gesunden, ausgeschlafenen Erwachsenen in kognitiven Tests oft keine signifikanten Verbesserungen gegenüber Placebo.
+      - **Subjektive Stressskalen** sind anfällig für Placebo-Effekte; der Anteil echten pharmakologischen Effekts ist schwer zu trennen.
+      - Effektgrößen sind moderat und klinisch wenig spektakulär: Reaktionszeitgewinne liegen häufig im Bereich von 10–30 ms — messbar, aber im Alltag kaum spürbar.
+      - Reproduzierbarkeit zwischen unabhängigen Labors ist uneinheitlicher als bei Koffein oder Kreatin.
+
+      > **Bottom Line:** Die Kombination mit Koffein ist deutlich besser belegt als L-Theanin als Einzelsupplement. Wer keinen Koffein-Kontext hat, sollte bescheidene Erwartungen mitbringen.
+
+      ## Theanin aus Tee vs. Supplement
+
+      Ein typisches Supplement mit 200 mg L-Theanin entspricht dem Theaningehalt von ca. **5–10 Tassen Grüntee** — das ist viel Tee, enthält aber dann auch erhebliche Mengen Koffein (~150–300 mg). Die isolierte Supplementierung ergibt Sinn, wenn man das Koffein-zu-Theanin-Verhältnis bewusst steuern will.
+
+      Das in Studien gut untersuchte Verhältnis Koffein:Theanin beträgt **1:2** (z. B. 100 mg Koffein + 200 mg Theanin). Matcha enthält von Natur aus ein ähnliches Verhältnis (~1:2 bis 1:3).
+
+      ## Dosierung
+
+      - **Allgemeine Entspannung:** 100–200 mg L-Theanin
+      - **Koffein-Kombination (in Studien):** 1:2-Verhältnis, z. B. 100 mg Koffein + 200 mg Theanin
+      - **Schlaf (Studienlage bei Kindern):** 200 mg zweimal täglich (400 mg/Tag)
+      - **Einnahme:** Auf nüchternen Magen oder mit Mahlzeit — kaum Unterschied in Studien belegt
+
+      ## Sicherheit
+
+      L-Theanin gilt bei üblichen Dosen als **wahrscheinlich sicher**. In Japan ist es seit Jahrzehnten als Lebensmittelzusatz ("FOSHU") zugelassen. In Humanstudien wurden bis 400 mg/Tag ohne unerwünschte Wirkungen eingesetzt. Für höhere Dosen oder Langzeiteinnahme über Monate gibt es wenig Daten.
+
+      Vorsicht bei gleichzeitiger Einnahme mit Blutdruckmitteln (leicht additive blutdrucksenkende Effekte möglich) und bei Personen, die empfindlich auf Glutamat-Modulatoren reagieren.
+
+      ## EFSA- und regulatorischer Status
+
+      Die EFSA hat **keine Health Claims für L-Theanin** zugelassen. Aussagen zu Entspannung, Fokus oder Stressabbau sind in der EU daher nicht als Health Claim zulässig. Das EFSA-Health-Claims-Register unter [efsa.europa.eu](https://efsa.europa.eu/en/topics/topic/health-claims) enthält keine positiv bewerteten Claims für L-Theanin.
+
+      L-Theanin ist in der EU nicht als Novel Food eingestuft und darf in Supplements verwendet werden — solange keine zugelassenen Gesundheitsaussagen gemacht werden.
+
+      ## Fazit
+
+      L-Theanin ist einer der **vernünftigeren Nootropics-Stoffe**: keine Wunderwirkung, aber mit messbarer, wenn auch moderater Evidenz für Entspannung und synergistische Effekte mit Koffein. Als Kombination mit Koffein im 1:2-Verhältnis ist es gut untersucht und für viele Menschen eine praktische Option. Als Solo-Supplement ohne Koffein-Kontext ist die Evidenz schwächer. Hype-Ansprüche (tiefer Schlaf, kognitive Leistungssteigerung, Anti-Aging) sind durch die vorhandene Studienlage nicht gedeckt.
+
+  en:
+    summary: >-
+      L-theanine promotes relaxed alertness via alpha-wave activation. Best evidence for caffeine synergy; moderate effects on stress markers. Alone, cognitive benefits are limited.
+    evidenceSummary: >-
+      Decent human evidence for stress reduction and relaxation via EEG alpha-wave modulation. Caffeine + L-theanine combination shows consistent attention benefits in RCTs. Effects are real but moderate; most studies are small (n<30) acute crossover designs. Long-term data largely absent.
+    body: |
+      ## What Is L-Theanine?
+
+      L-theanine is a non-proteinogenic amino acid found naturally in tea leaves (*Camellia sinensis*). Green tea typically contains **20–40 mg theanine per 200 ml cup**; matcha provides considerably more (~50–100 mg per serving). Outside of tea, L-theanine is rarely found in foods—one exception being the mushroom *Xerocomus badius*.
+
+      As a supplement, L-theanine is available in capsules or powder, typically standardized to 100–200 mg per dose. The compound has been studied most extensively in Japan in the context of green tea consumption and ranks among the best-selling nootropics worldwide.
+
+      ## Mechanism: How Does L-Theanine Work?
+
+      Pharmacological and neuroscience studies have identified several mechanisms of action:
+
+      **Alpha-wave activation:** EEG studies consistently show that as little as 50 mg L-theanine significantly increases alpha-wave power in the brain. Alpha waves (8–12 Hz) are characteristic of relaxed, focused wakefulness—a state often described as "calm focus."
+
+      **Glutamate antagonism:** Theanine is structurally similar to the excitatory neurotransmitter glutamate and competitively binds to NMDA and AMPA receptors without fully activating them. This can dampen excessive neuronal excitation.
+
+      **GABAergic modulation:** Evidence suggests modulation of inhibitory GABAergic signaling, which may contribute to the relaxing effect without classical sedation.
+
+      **Caffeine interaction:** Theanine and caffeine interact complementarily at the adenosinergic system. Theanine can attenuate some undesirable effects of caffeine (anxiety, elevated heart rate in sensitive individuals) without suppressing wakefulness.
+
+      ## What Does the Evidence Actually Show?
+
+      ### Reasonably Consistent Findings
+
+      **Alpha waves on EEG:** Multiple studies confirm measurable increases in alpha-wave power at 50–200 mg L-theanine. This is the most robust biomarker for L-theanine's effect.
+
+      **Stress reduction:** In small crossover studies, L-theanine (200 mg) reduced physiological stress markers such as heart rate and salivary IgA levels during mentally stressful tasks (Kimura et al. 2007, n=12).
+
+      **Theanine + caffeine — synergistic effect:** Multiple RCTs show that the combination of L-theanine and caffeine (~50 mg theanine + 75 mg caffeine) consistently outperforms either substance alone on attention tasks. This is the best-supported use case (Haskell et al. 2008, n=27; Dodd et al. 2015, n=24).
+
+      **Sleep quality:** A randomized study in boys with ADHD showed improved objective sleep quality (actigraphy) at 400 mg/day without sedative side effects (Higashiyama et al. 2011, n=98).
+
+      ### Important Limitations
+
+      - Most studies are **very small** (n<30) and typically single-session acute crossover designs. Long-term effects over weeks or months are hardly studied.
+      - **L-theanine alone** (without caffeine) often shows no significant cognitive improvements vs. placebo in healthy, well-rested adults.
+      - **Subjective stress scales** are vulnerable to placebo effects; separating true pharmacological effect from expectation is difficult.
+      - Effect sizes are moderate and clinically unspectacular: reaction time gains are typically in the 10–30 ms range—measurable, but barely noticeable in daily life.
+      - Reproducibility across independent labs is less consistent than for caffeine or creatine.
+
+      > **Bottom line:** The combination with caffeine is far better supported than L-theanine as a standalone supplement. Without a caffeine context, expectations should be modest.
+
+      ## Tea vs. Supplement
+
+      A typical 200 mg L-theanine supplement provides the theanine equivalent of approximately **5–10 cups of green tea**—which would also deliver substantial caffeine (~150–300 mg). Isolated supplementation makes sense when you want to deliberately control the caffeine-to-theanine ratio.
+
+      The well-studied caffeine:theanine ratio is **1:2** (e.g., 100 mg caffeine + 200 mg theanine). Matcha naturally provides a similar ratio (~1:2 to 1:3).
+
+      ## Dosage
+
+      - **General relaxation:** 100–200 mg L-theanine
+      - **Caffeine combination (studied ratio):** 1:2, e.g., 100 mg caffeine + 200 mg theanine
+      - **Sleep (data in children):** 200 mg twice daily (400 mg/day)
+      - **Timing:** On an empty stomach or with a meal—no significant difference documented
+
+      ## Safety
+
+      L-theanine is considered **likely safe** at standard doses. In Japan, it has been approved as a food additive ("FOSHU") for decades. Human studies have used up to 400 mg/day without adverse effects. Data for higher doses or long-term use over months is limited.
+
+      Caution with concurrent blood pressure medications (mildly additive blood pressure–lowering effects possible) and in individuals sensitive to glutamate modulators.
+
+      ## Summary
+
+      L-theanine is one of the **more reasonable nootropics**: no miracle effects, but measurable—if moderate—evidence for relaxation and synergistic benefits with caffeine. As a 1:2 combination with caffeine, it is well-studied and a practical option for many people. As a solo supplement without caffeine, the evidence is weaker. Hype claims (deep sleep, cognitive enhancement, anti-aging) are not supported by the existing literature.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: schlaf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blutdruck
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: oxidativer-stress
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: gaba-rezeptor
+    direction: outgoing
+    confidence: 0.7
+  - relation: benoetigt_biomarker_check
+    target: leberwerte
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_interaktion_mit
+    target: gaba
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_interaktion_mit
+    target: koffein
+    direction: outgoing
+    confidence: 0.7
+  - relation: kontraindiziert_bei
+    target: kontra-blutdruckmedikamente
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-22214254
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:22214254"
+  - relation: basiert_auf_studie
+    target: studie-18681988
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:18681988"
+  - relation: basiert_auf_studie
+    target: studie-18296328
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:18296328"
+  - relation: basiert_auf_studie
+    target: studie-17272967
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:17272967"
+  - relation: basiert_auf_studie
+    target: studie-25761837
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25761837"

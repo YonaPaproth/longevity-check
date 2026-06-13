@@ -2,55 +2,6 @@
   "entity": "nac",
   "relations": [
     {
-      "relation": "hat_interaktion_mit",
-      "target": "calcium",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Eine konsistente Reduktion des Frakturrisikos ließ sich dagegen nicht nachweisen."
-    },
-    {
-      "relation": "hat_interaktion_mit",
-      "target": "curcumin",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Im Plasma sind nach Standardkapseln nur Spuren nachweisbar."
-    },
-    {
-      "relation": "hat_interaktion_mit",
-      "target": "gaba",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Deshalb klingt ein GABA-Supplement intuitiv nach mehr Ruhe, weniger Angst und besserem Schlaf."
-    },
-    {
-      "relation": "hat_interaktion_mit",
-      "target": "glycin",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Glycin ist an erstaunlich vielen Prozessen beteiligt:\n- **Glutathionsynthese**: Zusammen mit Cystein und Glutaminsäure – Glycinmangel ist ein Engpass bei Älteren\n- **Kollagensynthese**: Jede dritte Am"
-    },
-    {
-      "relation": "hat_interaktion_mit",
-      "target": "kreatin",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "**Praktische Protokolle:**\n- **Für den zugelassenen Claim:** 3 g/Tag Kreatinmonohydrat, kontinuierlich, kombiniert mit aufeinanderfolgenden kurzen, intensiven Belastungen\n- **Ohne Loading:** 3–5 g/Tag"
-    },
-    {
-      "relation": "hat_interaktion_mit",
-      "target": "l-citrullin",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Übliche Handelsware enthält Citrullinmalat im Verhältnis 2:1 (Citrullin:Äpfelsäure nach Gewicht)."
-    },
-    {
-      "relation": "hat_interaktion_mit",
-      "target": "myo-inositol",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Mehrere RCTs zeigen:\n- Normalisierung des Menstruationszyklus\n- Verbesserte Ovulationsrate\n- Reduktion von Androgenen (Testosteron, DHEA)\n- Verbesserung der Insulinsensitivität\n- Günstige Effekte auf "
-    },
-    {
       "relation": "wird_eingesetzt_fuer",
       "target": "immunsystem",
       "direction": "outgoing",
@@ -138,15 +89,61 @@
       "relation": "hat_interaktion_mit",
       "target": "glutathion",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "## Was ist NAC?\n\nN-Acetylcystein (NAC) ist ein acetyliertes Derivat der Aminosäure Cystein und der wichtigste **Glutathion-Vorläufer**, den der Körper aufnehmen kann."
+      "confidence": 0.7
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "glynac",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Im Kontext gesunden Alterns ist es in Kombination mit **Glycin** (GlyNAC) besonders spannend."
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "glycin",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "calcium",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "curcumin",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "kreatin",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "probiotika",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "resveratrol",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "vitamin-b12",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "hat_interaktion_mit",
+      "target": "vitamin-d3-k2",
+      "direction": "outgoing",
+      "confidence": 0.7
     },
     {
       "relation": "hat_nebenwirkung",
@@ -165,60 +162,28 @@
       "target": "studie-28748217",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28748217",
-      "note": "Umfassender Review: NAC war mit höheren Werten verbunden konsistent Glutathion-Spiegel und reduziert oxidativen Stress. Vergleichsweise gut untersuchte klinische Anwendung bei Atemwegserkrankungen."
+      "source": "pmid:28748217"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-33587619",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:33587619",
-      "note": "RCT (n=24, Ältere): GlyNAC (Glycin+NAC) war mit Veränderungen verbundene Glutathion, oxidativen Stress, Mitochondrienfunktion und Körperzusammensetzung signifikant."
+      "source": "pmid:33587619"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23044574",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23044574",
-      "note": "Review: NAC zeigt in RCTs Effekte bei psychiatrischen Erkrankungen (depressive Symptome, Sucht) durch glutamaterge und antioxidative Mechanismen."
+      "source": "pmid:23044574"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-35975308",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:35975308",
-      "note": "Follow-up RCT mit älteren Probanden: GlyNAC war mit Veränderungen verbundene 8 von 9 Hallmarks of Alterung in 24 Wochen. Noch kleine Stichprobe (n=24)."
-    },
-    {
-      "relation": "hat_interaktion_mit",
-      "target": "probiotika",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Effektgröße variiert nach Reiseland und Exposition."
-    },
-    {
-      "relation": "hat_interaktion_mit",
-      "target": "resveratrol",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "(PMID 25905295) klärten dies auf: Nach 25 mg oraler Einnahme wurde Resveratrol zwar zu ~70 % aus dem Darm absorbiert — aber durch massiven First-Pass-Metabolismus (Sulfatierung und Glucuronidierung in"
-    },
-    {
-      "relation": "hat_interaktion_mit",
-      "target": "vitamin-b12",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "## Wer hat Risiko für Mangel?\n\nB12-Mangel ist eine der häufigsten, aber auch am häufigsten übersehenen Mangelernährungen in Deutschland:\n\n| Risikogruppe | Ursache | Kommentar |\n|---|---|---|\n| Veganer"
-    },
-    {
-      "relation": "hat_interaktion_mit",
-      "target": "vitamin-d3-k2",
-      "direction": "incoming",
-      "confidence": 0.7,
-      "note": "Dies macht Vitamin D zu einem der wenigen Supplements, bei denen eine gezielte Supplementierung bei Nachgewiesenem Mangel klar indiziert ist."
+      "source": "pmid:35975308"
     }
   ]
 }

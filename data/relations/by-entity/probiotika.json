@@ -65,8 +65,7 @@
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
-      "confidence": 0.7,
-      "note": "Effektgröße variiert nach Reiseland und Exposition."
+      "confidence": 0.7
     },
     {
       "relation": "kontraindiziert_bei",
@@ -97,40 +96,35 @@
       "target": "studie-22570464",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22570464",
-      "note": "Meta-Analyse (63 RCTs, n=11.811): Probiotika reduzierten Antibiotika-assoziierte Diarrhö um 42% (RR 0,58). Stärkste Evidenz für Lactobacillus rhamnosus GG und Saccharomyces boulardii CNCM I-745."
+      "source": "pmid:22570464"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24574972",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24574972",
-      "note": "Meta-Analyse (43 RCTs): Probiotika reduzierten IBS-Symptome und Bauchschmerzen signifikant vs. Placebo. NNT ca. 7. Effekte stammabhängig; kein einzelner überlegener Stamm identifiziert."
+      "source": "pmid:24574972"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24492253",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24492253",
-      "note": "ISAPP-Konsens: WHO-Definition von Probiotika präzisiert. Stammspezifität, ausreichende Dosierung und Lebensfähigkeit am Wirkort sind Mindestanforderungen für eine korrekte Probiotika-Bezeichnung."
+      "source": "pmid:24492253"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-27559846",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27559846",
-      "note": "Review: Mikrobiom verändert sich mit dem Alter — weniger Diversität, mehr inflammatorische Stämme. Centenariere haben eine charakteristische, diversere Zusammensetzung. Kausalrichtung unklar."
+      "source": "pmid:27559846"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23384445",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23384445",
-      "note": "Review: Darm-Hirn-Achse bidirektional. Darmbakterien produzieren Serotonin-Vorläufer (ca. 90% des Körper-Serotonins werden im Darm produziert), modulieren Stressachse. Angstreduktion in Tier- und klei"
+      "source": "pmid:23384445"
     }
   ]
 }
