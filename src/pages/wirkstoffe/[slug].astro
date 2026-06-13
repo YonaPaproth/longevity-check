@@ -100,7 +100,7 @@ const efsaStatus = d.efsa_health_claims_allowed
   : `Nicht zugelassen. ${efsaSnippet}`;
 ---
 
-<BaseLayout title={d.title} description={ingredientDescription}>
+<BaseLayout title={`${d.title}: Wirkung, Studien & Nebenwirkungen`} description={ingredientDescription}>
   <Fragment slot="head">
     <meta name="keywords" content={`${d.title} kaufen, ${d.title} Wirkung`} />
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
