@@ -1,0 +1,280 @@
+---
+id: rapamycin
+type: ingredient
+
+meta:
+  title:
+    de: "Rapamycin (Sirolimus)"
+    en: "Rapamycin (Sirolimus)"
+  aliases:
+    - "Sirolimus"
+    - "Rapamune"
+    - "mTOR-Inhibitor"
+    - "Rapa"
+  category: other
+  evidenceLevel: "3"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 5
+  publishedAt: "2026-06-13"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Rapamycin ist ein verschreibungspflichtiges Medikament (Immunsuppressivum), kein Nahrungsergänzungsmittel. Es gibt keine EFSA Health Claims, und eine Selbstmedikation ohne ärztliche Aufsicht ist nicht empfehlenswert und in vielen Kontexten illegal.
+  en: >-
+    Rapamycin is a prescription drug (immunosuppressant), not a dietary supplement. There are no EFSA health claims, and self-medication without medical supervision is inadvisable and in many contexts illegal.
+
+key_studies:
+  - pmid: "19587680"
+    title: "Rapamycin fed late in life extends lifespan in genetically heterogeneous mice"
+    authors: "Harrison DE et al."
+    year: 2009
+    url: "https://pubmed.ncbi.nlm.nih.gov/19587680/"
+    finding:
+      de: >-
+        Bahnbrechende ITP-Studie: Rapamycin verlängerte die Lebensspanne genetisch heterogener Mäuse um 9–14 %, selbst wenn es erst im Alter von 600 Tagen begonnen wurde. Erster überzeugender pharmakologischer Nachweis einer Lebensverlängerung bei Säugetieren.
+      en: >-
+        Landmark ITP study: rapamycin extended lifespan by 9–14% in genetically heterogeneous mice, even when started at 600 days of age. First compelling pharmacological evidence of lifespan extension in mammals.
+  - pmid: "25540326"
+    title: "mTOR inhibition improves immune function in the elderly"
+    authors: "Mannick JB et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/25540326/"
+    finding:
+      de: >-
+        RCT (n=218, 65+): Niedrigdosis-Everolimus (mTOR-Inhibitor wie Rapamycin) über 6 Wochen verbesserte die Immunantwort auf Grippeimpfung um ~20 %. Erste Humanstudie, die zeigt, dass mTOR-Hemmung altersbedingte Immunschwäche teilweise umkehren kann.
+      en: >-
+        RCT (n=218, age 65+): low-dose everolimus (mTOR inhibitor like rapamycin) for 6 weeks improved influenza vaccine response by ~20%. First human trial showing mTOR inhibition can partially reverse age-related immune decline.
+  - pmid: "36789432"
+    title: "PEARL Trial: Rapamycin for aging — a randomized controlled trial in humans"
+    authors: "Kraig E et al."
+    year: 2023
+    url: "https://pubmed.ncbi.nlm.nih.gov/36789432/"
+    finding:
+      de: >-
+        RCT (n=40, 55–85 Jahre): 5 mg Rapamycin wöchentlich über 8 Wochen war sicher und gut verträglich. Keine schweren Nebenwirkungen, keine Immunsuppression bei wöchentlicher Dosierung. Wichtiger Safety-Datenpunkt für den Off-Label-Einsatz.
+      en: >-
+        RCT (n=40, age 55–85): 5 mg rapamycin weekly for 8 weeks was safe and well tolerated. No serious adverse events, no immunosuppression at weekly dosing. Important safety data point for off-label longevity use.
+  - pmid: "31346894"
+    title: "Rapamycin and risk of cardiovascular disease: a systematic review and meta-analysis of randomized controlled trials"
+    authors: "Sehgal SN et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/31346894/"
+    finding:
+      de: >-
+        Meta-Analyse: Rapamycin/Sirolimus-Stents zeigten in kardiologischen RCTs Lipidstörungen (Hyperlipidämie, erhöhte Triglyceride) als konsistenteste Nebenwirkung. Klinisch relevant bei Langzeitanwendung.
+      en: >-
+        Meta-analysis: rapamycin/sirolimus-eluting stents in cardiology RCTs showed lipid disturbances (hyperlipidemia, elevated triglycerides) as the most consistent side effect. Clinically relevant for long-term use.
+  - pmid: "32686767"
+    title: "mTOR as a central regulator of lifespan and aging"
+    authors: "Papadopoli D et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/32686767/"
+    finding:
+      de: >-
+        Umfassender Review: mTOR-Hemmung verlängerte die Lebensspanne in Hefe, Würmern, Fliegen und Mäusen konsistent. Der Mechanismus läuft über reduzierte Proteinsynthese, verstärkte Autophagie und verbesserte Stammzellfunktion. Translation zum Menschen bleibt die große offene Frage.
+      en: >-
+        Comprehensive review: mTOR inhibition consistently extended lifespan in yeast, worms, flies, and mice. Mechanism operates via reduced protein synthesis, enhanced autophagy, and improved stem cell function. Translation to humans remains the major open question.
+
+locales:
+  de:
+    summary: >-
+      Rapamycin ist das am besten belegte Longevity-Medikament in Tierstudien, aber verschreibungspflichtig und beim Menschen noch nicht für Anti-Aging zugelassen.
+    evidenceSummary: >-
+      Rapamycin (Sirolimus) ist der einzige Wirkstoff, der in mehreren großen Tierstudien (ITP) konsistent die Lebensspanne verlängert hat. Erste kleine Humanstudien (PEARL, Mannick) zeigen Sicherheit bei niedriger Dosierung und verbesserte Immunfunktion bei Älteren. Für klinische Anti-Aging-Endpunkte beim Menschen fehlen jedoch große Studien. Es ist ein verschreibungspflichtiges Immunsuppressivum — kein Supplement.
+    body: |
+      ## Was ist Rapamycin?
+
+      Rapamycin (Sirolimus) ist ein Makrolid-Antibiotikum, das 1972 auf der Osterinsel (Rapa Nui) entdeckt wurde. Es hemmt das Enzym **mTOR** (mechanistic Target of Rapamycin) — einen zentralen Wachstumsregulator in Zellen. In der Medizin ist es als Immunsuppressivum nach Organtransplantationen zugelassen und wird in beschichteten Stents gegen Restenose eingesetzt.
+
+      In der Longevity-Forschung ist Rapamycin ein Sonderfall: Es ist **der einzige Wirkstoff**, der in mehreren unabhängigen, qualitativ hochwertigen Tierstudien konsistent die Lebensspanne verlängert hat.
+
+      ## Was zeigen die Tierstudien?
+
+      ### Das ITP-Programm
+
+      Das Interventions Testing Program (ITP) des US-amerikanischen National Institute on Aging testet Substanzen an genetisch heterogenen Mäusen an drei unabhängigen Standorten. Rapamycin ist der klare Star dieses Programms:
+
+      - **Harrison 2009:** Lebensspanne +9 % (Männchen) bis +14 % (Weibchen), selbst bei Start im Alter von 600 Tagen
+      - **Miller 2014:** Dosisabhängiger Effekt bestätigt — höhere Dosen zeigten stärkere Effekte
+      - Die Ergebnisse wurden in Hefe, Würmern, Fliegen und anderen Mausmodellen repliziert
+
+      Das ist einzigartig in der Longevity-Forschung. Kein anderer Wirkstoff hat eine so konsistente Datenbasis in Tiermodellen.
+
+      ### Der Mechanismus: mTOR-Hemmung
+
+      mTOR ist ein zellulärer „Wachstumsschalter". Wenn mTOR aktiv ist, baut die Zelle Proteine, wächst und teilt sich. Wenn mTOR gehemmt wird:
+
+      - **Autophagie** wird aktiviert (Zellreinigung)
+      - **Proteinsynthese** wird reduziert (weniger fehlerhafte Proteine)
+      - **Stammzellfunktion** verbessert sich
+      - **Entzündungsprozesse** werden gedämpft
+
+      Diese Effekte erklären, warum mTOR-Hemmung in so vielen Organismen die Lebensspanne verlängert. Es ist im Grunde ein pharmakologisches Äquivalent zu kalorischer Restriktion — dem anderen robusten Longevity-Intervention.
+
+      ## Was zeigen die Humanstudien?
+
+      ### PEARL Trial (2023)
+
+      Der erste dedizierte Longevity-RCT mit Rapamycin am Menschen. 40 gesunde Erwachsene (55–85 Jahre) erhielten **5 mg Rapamycin wöchentlich** oder Placebo über 8 Wochen.
+
+      Ergebnis: **Gut verträglich, keine schweren Nebenwirkungen, keine messbare Immunsuppression** bei wöchentlicher Dosierung. Die Studie war nicht groß genug für Wirksamkeitsaussagen, aber sie lieferte wichtige Sicherheitsdaten.
+
+      ### Mannick 2014 (Immunseneszenz)
+
+      218 Personen über 65 erhielten niedrig dosierten Everolimus (ein Rapamycin-Analogon). Nach 6 Wochen war die **Immunantwort auf eine Grippeimpfung um ~20 % verbessert** — ein direkter Nachweis, dass mTOR-Hemmung altersbedingte Immunschwäche teilweise umkehren kann.
+
+      ### Off-Label-Bewegung
+
+      Eine wachsende Zahl von Longevity-Ärzten (vor allem in den USA) verschreibt Rapamycin off-label in niedrigen Dosen (typisch: 3–6 mg einmal wöchentlich). Diese Praxis basiert auf der Tierevidenz und den bisherigen Sicherheitsdaten, ist aber **nicht durch große Humanstudien validiert**.
+
+      ## Risiken und Nebenwirkungen
+
+      Rapamycin ist kein Supplement — es ist ein potentes Medikament mit realen Risiken:
+
+      - **Immunsuppression** bei täglicher Hochdosis-Einnahme (Transplantationsdosen)
+      - **Hyperlipidämie:** Erhöhte Cholesterin- und Triglyceridwerte sind die konsistenteste Nebenwirkung
+      - **Wundheilungsstörungen** bei chronischer Einnahme
+      - **Mundschleimhautulzera** (Aphten) bei ~20 % der Patienten
+      - **Diabetes-Risiko:** Paradoxerweise kann mTOR-Hemmung die Glukosetoleranz verschlechtern
+
+      Bei der wöchentlichen Niedrigdosis-Einnahme scheinen viele dieser Nebenwirkungen seltener aufzutreten (PEARL-Daten), aber die Langzeitdaten fehlen.
+
+      ## Verschreibungspflicht und Rechtslage
+
+      Rapamycin ist in der EU und den USA **verschreibungspflichtig**. Es gibt keine legale Möglichkeit, es als Supplement zu kaufen. Online-Bezugsquellen ohne Rezept sind rechtlich problematisch und qualitativ unkontrolliert.
+
+      ## Fazit
+
+      Rapamycin ist das **wissenschaftlich am besten fundierte Longevity-Medikament** — aber eben ein Medikament, kein Supplement. Die Tierdaten sind einzigartig stark, die ersten Humandaten ermutigend, aber für eine klare Empfehlung am gesunden Menschen fehlen große, langfristige RCTs. Wer Rapamycin off-label einnimmt, sollte dies nur unter ärztlicher Aufsicht tun und regelmäßig Lipide, Blutzucker und Immunparameter kontrollieren lassen.
+
+  en:
+    summary: >-
+      Rapamycin is the best-supported longevity drug in animal studies, but it is prescription-only and not approved for anti-aging use in humans.
+    evidenceSummary: >-
+      Rapamycin (sirolimus) is the only compound that has consistently extended lifespan in multiple large-scale animal studies (ITP). Initial small human trials (PEARL, Mannick) show safety at low doses and improved immune function in older adults. However, large trials with clinical anti-aging endpoints in humans are still missing. It is a prescription immunosuppressant — not a supplement.
+    body: |
+      ## What is rapamycin?
+
+      Rapamycin (sirolimus) is a macrolide antibiotic discovered in 1972 on Easter Island (Rapa Nui). It inhibits the enzyme **mTOR** (mechanistic Target of Rapamycin) — a central growth regulator in cells. In medicine, it is approved as an immunosuppressant after organ transplantation and used in drug-eluting stents to prevent restenosis.
+
+      In longevity research, rapamycin is an outlier: it is **the only compound** that has consistently extended lifespan in multiple independent, high-quality animal studies.
+
+      ## What do the animal studies show?
+
+      ### The ITP program
+
+      The Interventions Testing Program (ITP), run by the US National Institute on Aging, tests compounds in genetically heterogeneous mice across three independent sites. Rapamycin is the clear star of this program:
+
+      - **Harrison 2009:** Lifespan extended by +9% (males) to +14% (females), even when started at 600 days of age
+      - **Miller 2014:** Dose-dependent effect confirmed — higher doses showed stronger effects
+      - Results have been replicated in yeast, worms, flies, and other mouse models
+
+      This is unique in longevity research. No other compound has such a consistent evidence base across animal models.
+
+      ### The mechanism: mTOR inhibition
+
+      mTOR is a cellular "growth switch." When mTOR is active, cells build proteins, grow, and divide. When mTOR is inhibited:
+
+      - **Autophagy** is activated (cellular cleanup)
+      - **Protein synthesis** is reduced (fewer misfolded proteins)
+      - **Stem cell function** improves
+      - **Inflammatory processes** are dampened
+
+      These effects explain why mTOR inhibition extends lifespan across so many organisms. It is essentially a pharmacological equivalent of caloric restriction — the other robust longevity intervention.
+
+      ## What do the human studies show?
+
+      ### PEARL Trial (2023)
+
+      The first dedicated longevity RCT with rapamycin in humans. 40 healthy adults (ages 55–85) received **5 mg rapamycin weekly** or placebo for 8 weeks.
+
+      Result: **Well tolerated, no serious adverse events, no measurable immunosuppression** at weekly dosing. The study was not powered for efficacy claims, but it provided important safety data.
+
+      ### Mannick 2014 (Immunosenescence)
+
+      218 adults over 65 received low-dose everolimus (a rapamycin analogue). After 6 weeks, the **immune response to influenza vaccination improved by ~20%** — direct evidence that mTOR inhibition can partially reverse age-related immune decline.
+
+      ### The off-label movement
+
+      A growing number of longevity physicians (mainly in the US) prescribe rapamycin off-label at low doses (typically 3–6 mg once weekly). This practice is based on animal evidence and initial safety data, but is **not validated by large human trials**.
+
+      ## Risks and side effects
+
+      Rapamycin is not a supplement — it is a potent drug with real risks:
+
+      - **Immunosuppression** at daily high doses (transplant doses)
+      - **Hyperlipidemia:** elevated cholesterol and triglycerides are the most consistent side effect
+      - **Impaired wound healing** with chronic use
+      - **Oral mucositis** (mouth ulcers) in ~20% of patients
+      - **Diabetes risk:** paradoxically, mTOR inhibition can worsen glucose tolerance
+
+      At weekly low-dose schedules, many of these side effects appear less frequent (PEARL data), but long-term data are lacking.
+
+      ## Prescription status and legal situation
+
+      Rapamycin is **prescription-only** in the EU and the US. There is no legal way to purchase it as a supplement. Online sources without prescription are legally questionable and quality-uncontrolled.
+
+      ## Verdict
+
+      Rapamycin is the **scientifically best-supported longevity drug** — but it is a drug, not a supplement. The animal data are uniquely strong, the initial human data encouraging, but clear recommendations for healthy humans await large, long-term RCTs. Anyone taking rapamycin off-label should do so only under medical supervision, with regular monitoring of lipids, blood glucose, and immune parameters.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: alterung
+    direction: outgoing
+    confidence: 0.8
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.6
+  - relation: wirkt_ueber
+    target: mtor-hemmung
+    direction: outgoing
+    confidence: 0.95
+  - relation: wirkt_ueber
+    target: autophagie
+    direction: outgoing
+    confidence: 0.85
+  - relation: hat_nebenwirkung
+    target: hyperlipidaemie
+    direction: outgoing
+    confidence: 0.8
+  - relation: hat_nebenwirkung
+    target: immunsuppression
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: hat_regulatorischen_status
+    target: verschreibungspflichtig
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: pmid-19587680
+    direction: outgoing
+    confidence: 0.95
+    source: "pmid:19587680"
+  - relation: basiert_auf_studie
+    target: pmid-25540326
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:25540326"
+  - relation: basiert_auf_studie
+    target: pmid-36789432
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:36789432"
+  - relation: basiert_auf_studie
+    target: pmid-31346894
+    direction: outgoing
+    confidence: 0.8
+    source: "pmid:31346894"
+  - relation: basiert_auf_studie
+    target: pmid-32686767
+    direction: outgoing
+    confidence: 0.85
+    source: "pmid:32686767"

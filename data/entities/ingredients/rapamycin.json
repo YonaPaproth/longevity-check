@@ -1,0 +1,17 @@
+{
+  "id": "rapamycin",
+  "type": "ingredient",
+  "name": "Rapamycin (Sirolimus)",
+  "summary": "Rapamycin ist das am besten belegte Longevity-Medikament in Tierstudien, aber verschreibungspflichtig und beim Menschen noch nicht für Anti-Aging zugelassen.",
+  "aliases": [
+    "Sirolimus",
+    "Rapamune",
+    "mTOR-Inhibitor",
+    "Rapa"
+  ],
+  "category": "other",
+  "evidenceLevel": 3,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 5
+}
