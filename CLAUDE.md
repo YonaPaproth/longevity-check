@@ -24,28 +24,34 @@ Betreiber: Yona Paproth & Dr. Sarah Rahmati (Krefeld)
 ## Projektstruktur
 
 ```
+data/
+  sources/ingredients/       # YAML Single Source of Truth (neue Architektur)
+  entities/ingredients/      # KG Entity JSONs (111 Stück)
+  relations/by-entity/       # KG Relations JSONs (169 Stück)
+  relations/by-type/         # KG Relations nach Typ (8 Stück)
+  schema/                    # JSON + YAML Schemas
+  scripts/                   # Generator + Migration Scripts
 src/
   content/
-    ingredients/   # 41 Wirkstoff-Dossiers (MDX)
-    products/      # Produkt-Reviews (MDX)
-    claims/        # Claims-Checks (MDX)
-  content.config.ts  # Zod-Schemas für alle Collections
+    ingredients/             # 111 Wirkstoff-Dossiers (DE, MDX)
+    en/ingredients/          # 13 Wirkstoff-Dossiers (EN, MDX)
+    products/                # ~100 Produkt-Reviews (MDX)
+    claims/                  # 21 Claims-Checks (DE, MDX)
+    en/claims/               # 19 Claims-Checks (EN, MDX)
+    research-review/         # Wöchentliche Studienübersichten (MDX)
+  content.config.ts          # Zod-Schemas für alle Collections
   pages/
-    index.astro
-    wirkstoffe/index.astro   # Mit Client-Side-Filter (Kategorie, Evidenz, Suche)
-    wirkstoffe/[slug].astro  # Dossier-Detail mit Produkte-Section + Check-Teaser
-    produkte/index.astro
-    produkte/[slug].astro
-    ernaehrungs-check.astro  # 10-Fragen-Check, 6 Nährstoffe, localStorage-frei
-    methodik.astro
-    impressum.astro
-    datenschutz.astro
-  layouts/BaseLayout.astro   # Nav, Footer, Vercel Analytics
-  components/
-    EvidenceBadge.astro      # Evidenzstufen 1-5 (Punkte + Label)
-    RatingBar.astro
-    VerdictBadge.astro
-  utils/scoring.ts           # compositeScore() + WEIGHTS (single source of truth)
+    wirkstoffe/              # Wirkstoff-Übersicht + Detail
+    produkte/                # Produkt-Übersicht + Detail
+    claims/                  # Claims-Check
+    research-review/         # Wöchentliche Research Reviews
+    graph.astro              # Knowledge Graph Viewer
+    ernaehrungs-check.astro  # 10-Fragen-Check
+    interaktions-check.astro # Wechselwirkungen prüfen
+    en/                      # Englische Seiten
+  layouts/BaseLayout.astro   # Nav, Footer, Vercel Analytics, i18n
+  lib/graph/                 # KG Library (TypeScript)
+  utils/scoring.ts           # compositeScore() + WEIGHTS
 ```
 
 ---
@@ -68,11 +74,41 @@ src/
 
 ## Aktueller Stand
 
-- **41 Wirkstoff-Dossiers** live (4 Batches à 10, +NMN als erstes)
-- **1 Produkt-Review**: Do Not Age NMN 500
-- **1 Claims-Check**: NMN verlängert das Leben
-- Ernährungs-Check: 10 Fragen, 6 Nährstoffe (Vitamin D, Omega-3, Magnesium, Eisen, Zink, B12)
+- **111 Wirkstoff-Dossiers** (DE), **13 EN-Dossiers**
+- **~100 Produkt-Reviews** mit Affiliate-Links
+- **21 Claims-Checks** (DE), **19 EN**
+- **2 Research Reviews** (wöchentliche Studienübersichten)
+- **Knowledge Graph** mit 168 Entities, 1.429 Relationen
+- Ernährungs-Check, Interaktions-Check, Vegan-Check
 - Flow: Check → Dossier → Produkte vollständig verknüpft
+
+---
+
+## YAML Single Source of Truth (ab Juni 2026)
+
+**Neue Architektur für Wirkstoff-Dossiers:**
+
+```
+data/sources/ingredients/<slug>.yaml    ← EDIT THIS (Single Source of Truth)
+        │
+        ├── src/content/ingredients/<slug>.mdx          (DE, generiert)
+        ├── src/content/en/ingredients/<slug>.mdx       (EN, generiert)
+        ├── data/entities/ingredients/<slug>.json       (KG Entity, generiert)
+        └── data/relations/by-entity/<slug>.json        (KG Relations, generiert)
+```
+
+**Workflow:**
+1. Editiere nur `data/sources/ingredients/<slug>.yaml`
+2. Generiere: `npx tsx data/scripts/generate-from-source.ts [slug]`
+3. Build: `pnpm build`
+4. Committe YAML + alle generierten Dateien zusammen
+
+**Wichtig:** Generierte MDX-Dateien **nicht** manuell editieren! Änderungen gehen ins YAML.
+
+**Schema-Doku:** `data/sources/schema.md`
+**Formales Schema:** `data/schema/ingredient-source.schema.yaml`
+
+**Hinweis:** Noch nicht alle 111 Dossiers sind auf YAML migriert. Berberine ist der Pilot. Nicht-migrierte Dossiers werden weiterhin direkt als MDX editiert.
 
 ---
 
