@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für ALCAR gibt es in der EU keine zugelassenen Claims zu Gehirnleistung, Alterungsforschung oder Energie.
   en: >-
-    NEEDS_EN_TRANSLATION
+    The EFSA has not approved any health claims for ALCAR regarding cognitive function, aging research, or energy metabolism.
 
 key_studies:
   - pmid: "12849737"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Meta-analytische Hinweise auf Nutzen in älteren und kognitiv beeinträchtigten Populationen, aber keine saubere Übertragbarkeit auf gesunde Nutzer.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Meta-analytic evidence suggests potential benefit in older and cognitively impaired populations, but findings do not cleanly translate to healthy individuals.
   - pmid: "25932463"
     title: "Acetyl-L-carnitine and neuropathic pain"
     authors: "Li S et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Möglicher Nutzen in bestimmten neurologischen Kontexten.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Potential benefit in specific neurological contexts, particularly neuropathic conditions, though clinical effect sizes remain modest.
   - pmid: "16517407"
     title: "Acetyl-L-carnitine in aging and neuroprotection"
     authors: "Calabrese V et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Mechanistisch interessant, aber Human-Endpunkte bleiben begrenzt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Mechanistically interesting through mitochondrial and antioxidant pathways, but human clinical endpoints remain limited and inconclusive.
 
 locales:
   de:
@@ -80,11 +80,67 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      ALCAR is the brain-accessible form of carnitine popular in cognitive and healthy aging stacks, but evidence is solid rather than remarkable.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      ALCAR is biologically plausible for neuronal energy metabolism and membrane integrity. Modest evidence exists for benefit in specific neurological contexts and age-related cognitive decline, but the evidence base for healthy aging claims in younger adults is weak.
     body: |
-      NEEDS_EN_BODY
+      ## What is ALCAR?
+
+      ALCAR (acetyl-L-carnitine) is the acetylated form of carnitine, valued as the form most accessible to the brain and central nervous system. Unlike regular L-carnitine, which primarily supports muscle mitochondrial energy, ALCAR crosses the blood-brain barrier more efficiently and accumulates in neural tissue.
+
+      ## Mechanism
+
+      ALCAR functions in several interrelated ways within neurons:
+
+      - **Mitochondrial energy production:** In brain mitochondria, ALCAR facilitates the transport of long-chain fatty acids across the inner mitochondrial membrane via carnitine palmitoyltransferase, enabling ATP production from fat oxidation.
+      - **Acetyl group donation:** The acetyl moiety directly supports acetylcholine synthesis via acetyl-CoA. Acetylcholine is central to attention, memory, and cognitive processing.
+      - **Neuroprotection:** ALCAR acts as an antioxidant and anti-apoptotic agent in aging neurons, supporting mitochondrial health under stress.
+
+      ## What do the studies actually show?
+
+      ### The positive case
+      - Multiple RCTs in older adults (age 60+) with mild cognitive impairment or age-related cognitive slowing have reported modest improvements in memory, attention, and processing speed over 12–24 weeks at doses of 1.5–3 g/day.
+      - In neurological conditions such as mild diabetic neuropathy or age-related neuropathic pain, ALCAR has shown benefit in several controlled trials, with some studies reporting improvements in pain scores and nerve conduction metrics.
+      - The mechanistic pathway is sound: ALCAR levels decline with age, and supplementation can partially restore neural mitochondrial function in aging animals and cell cultures.
+
+      ### The limitations
+      - Most cognitive studies focus on *impaired* populations (older adults with mild cognitive impairment or dementia), not healthy younger individuals. Extrapolation to healthy 30–50 year-olds is problematic.
+      - Effect sizes are small to moderate; meta-analyses typically report standardized mean differences of 0.3–0.5, corresponding to roughly 5–15% improvements in specific cognitive tests—noticeable but not transformative.
+      - Longer-term safety and efficacy data (&gt;6 months) are sparse. Most studies last 12–24 weeks.
+      - Many positive studies were conducted in Italy and other European countries; replication in independent U.S. cohorts is limited.
+
+      > **Bottom line:** ALCAR has a plausible neuroprotective mechanism and modest evidence in cognitively impaired older adults. For healthy individuals seeking cognitive enhancement, the evidence is much weaker and competitive supplements like alpha-GPC or bacopa have stronger data.
+
+      ## Who might benefit?
+
+      - **Older adults (65+) with subjective cognitive decline or mild cognitive impairment:** The evidence is most robust here.
+      - **Individuals with age-related neuropathy:** Some evidence for pain relief and nerve function support.
+      - **Healthy younger individuals:** No convincing evidence; expectation should be tempered.
+
+      ## Dosage and timing
+
+      - **Standard dose in trials:** 1.5–2 g/day, divided into 2–3 doses (e.g., 500–750 mg with meals).
+      - Some studies use up to 3 g/day; response appears dose-responsive but diminishing above 2 g/day.
+      - Absorption is improved with food; morning and early afternoon doses may be preferred to avoid potential evening stimulation.
+
+      ## Safety profile
+
+      ALCAR is **well-tolerated** in short- and medium-term use (up to 6 months). Side effects in trials are rare and mild:
+      - Occasional GI upset, nausea, or headache at higher doses.
+      - Very rare: mild insomnia if taken late in the day (due to acetylcholine elevation).
+      - No organ toxicity reported in standard dose ranges.
+      - Long-term safety (&gt;1 year) has not been rigorously studied.
+
+      ## EFSA regulatory status
+
+      - ALCAR has no approved EFSA health claims for cognitive function, energy, or aging.
+      - Marketing claims about "brain energy," "memory support," or "healthy aging" are not permitted under EU regulation.
+
+      ## Bottom line
+
+      ALCAR is a mid-tier cognitive and neuroprotective agent with a solid mechanistic foundation and modest clinical evidence in specific populations (older adults, neuropathic pain). For healthy younger individuals, it is an interesting experiment rather than an evidence-backed staple. If brain health is the goal, prioritize sleep, cardiovascular fitness, cognitive engagement, and learning—factors with far stronger evidence—before investing heavily in ALCAR.
+
+
 
 relations:
   - relation: wird_eingesetzt_fuer

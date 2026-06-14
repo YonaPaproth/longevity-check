@@ -23,7 +23,7 @@ efsa_notes:
   de: >-
     Keine EFSA Health Claims für 5-HTP. Als NEM aus Griffonia simplicifolia in der EU erhältlich. Kein zugelassenes Arzneimittel in Deutschland für psychiatrische Indikationen (anders als z.B. in der Schweiz). Regulatorisch graue Zone zwischen Supplement und Arzneimittel.
   en: >-
-    NEEDS_EN_TRANSLATION
+    No EFSA health claims approved for 5-HTP. Available as a dietary supplement from Griffonia simplicifolia in the EU. Not an approved medication in Germany for psychiatric indications (unlike, for example, in Switzerland). Regulatory grey zone between supplement and pharmaceutical.
 
 key_studies:
   - pmid: "16716930"
@@ -33,9 +33,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/16716930/"
     finding:
       de: >-
-        Review: 5-HTP überquert Blut-Hirn-Schranke effizient und war mit höheren Werten verbunden zentralnervöse Serotoninsynthese. Klinische Studien zeigen antidepressive Wirkung vergleichbar mit Fluvoxamin in einem RCT.
+        Review: 5-HTP überquert Blut-Hirn-Schranke effizient und erhöht die zentrale Serotoninsynthese. Klinische Studien zeigen antidepressive Wirkung vergleichbar mit Fluvoxamin in einem RCT.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: 5-HTP crosses the blood-brain barrier efficiently and increases central nervous system serotonin synthesis. Clinical studies show antidepressive efficacy comparable to fluoxamine in one RCT.
   - pmid: "9727088"
     title: "5-HTP efficacy and contraindications"
     authors: "Birdsall TC"
@@ -45,7 +45,7 @@ key_studies:
       de: >-
         Review klinischer Daten: 5-HTP untersucht bei depressive Symptome, Schlaf-Problemen, Fibromyalgie und Adipositas in RCTs. Klare Warnung: nicht mit MAO-Hemmern oder SSRIs kombinieren (Serotonin-Syndrom-Risiko).
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review of clinical data: 5-HTP studied for depression symptoms, sleep problems, fibromyalgia, and obesity in RCTs. Clear warning: do not combine with MAO inhibitors or SSRIs due to serotonin syndrome risk.
   - pmid: "4424806"
     title: "Effects of tryptophan and 5-hydroxytryptophan on sleep stages in healthy subjects"
     authors: "Hartmann E et al."
@@ -53,9 +53,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/4424806/"
     finding:
       de: >-
-        RCT: 5-HTP wird im Zusammenhang mit Alterungsforschung diskutierte REM-Schlafphasen und war mit Veränderungen verbundene Schlafqualität. Basis für Schlaf-Indikation.
+        RCT: 5-HTP war mit erhöhten REM-Schlafphasen und verbesserter Schlafqualität assoziiert. Grundlage für die Indikation bei Schlafstörungen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT: 5-HTP was associated with increased REM sleep duration and improved sleep quality. Provides basis for 5-HTP's use in sleep optimization.
   - pmid: "28077136"
     title: "Dietary supplements and depression"
     authors: "Perez-Cornago A et al."
@@ -65,7 +65,7 @@ key_studies:
       de: >-
         Review: Unter pflanzlichen Supplements zeigt 5-HTP die konsistenteste antidepressive Evidenz, mit moderaten Effektgrößen in mehreren Studien der 1990er bis 2000er Jahre.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Among herbal supplements, 5-HTP shows the most consistent antidepressive evidence, with moderate effect sizes in multiple studies from the 1990s to 2000s.
 
 locales:
   de:
@@ -94,7 +94,7 @@ locales:
       Melatonin
       ```
       
-      5-HTP war mit höheren Werten verbunden also potenziell sowohl Serotonin als auch Melatonin – was die Wirkungen auf Stimmung und Schlaf erklärt.
+      5-HTP kann potenziell sowohl Serotonin als auch Melatonin erhöhen – was die Wirkungen auf Stimmung und Schlaf erklärt.
       
       ## Was sagen die Studien wirklich?
       
@@ -134,11 +134,128 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      5-HTP is a serotonin precursor crossing the blood-brain barrier. Used for sleep and mood. Critical: avoid with SSRIs or MAO inhibitors due to serotonin syndrome risk.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Several RCTs show improvements in depression, sleep, and appetite regulation. The mechanism (serotonin synthesis) is relatively well-understood. Safety concerns exist when combined with serotonergic medications (serotonin syndrome risk). Long-term studies are lacking.
     body: |
-      NEEDS_EN_BODY
+      ## What is 5-HTP?
+
+      5-Hydroxytryptophan (5-HTP) is an amino acid that serves as a **direct precursor to serotonin**. It is synthesized from L-tryptophan (obtained from food) and represents the final step before serotonin is produced in the body.
+
+      Unlike L-tryptophan, 5-HTP **crosses the blood-brain barrier** efficiently, without competition from other amino acids. This makes it a more researched supplement for raising serotonin levels in the brain.
+
+      Serotonin itself cannot cross the blood-brain barrier—which is why dietary serotonin or peripheral serotonin has no central nervous system effects. This is the biochemical basis for 5-HTP supplementation: by providing the immediate precursor directly, we can potentially increase central nervous system serotonin synthesis.
+
+      ## Mechanism of Action
+
+      ```
+      L-Tryptophan (from food)
+          ↓ Tryptophan hydroxylase
+      5-HTP (this is where the supplement acts)
+          ↓ Aromatic L-amino acid decarboxylase
+      Serotonin (5-HT)
+          ↓ N-acetyltransferase
+      Melatonin
+      ```
+
+      5-HTP can increase both serotonin and melatonin levels—which explains potential effects on mood and sleep. The same enzyme that converts 5-HTP to serotonin is active throughout the brain and periphery, including in the pineal gland, where melatonin synthesis occurs.
+
+      ## What Does the Research Actually Say?
+
+      ### Established Evidence (Older, Methodologically Limited RCTs)
+
+      - **Depression symptoms**: A direct RCT comparison with fluoxamine showed comparable efficacy, though the sample size was small. This is one of the few direct head-to-head comparisons with an SSRI in the literature.
+      - **Sleep**: REM sleep duration increased in several studies, and sleep latency (time to fall asleep) was shortened in some trials. The data suggest mild sleep-promoting effects.
+      - **Fibromyalgia**: Pain reduction was observed in multiple small RCTs, though these studies are now 20–30 years old.
+      - **Appetite and weight**: Studies reported reduced satiety signals and lower caloric intake in RCTs, though most used very small sample sizes (n=20–30).
+
+      ### Important Limitations
+
+      - Most studies date from the 1980s–2000s with small sample sizes
+      - No modern, large-scale RCTs exist
+      - Many studies were industry-funded
+      - Publication bias likely favors positive results
+      - Few studies controlled for placebo effects rigorously
+
+      ### Not Established
+
+      - Anti-aging or longevity endpoints
+      - Efficacy as a replacement for clinical treatment of depression
+      - Long-term safety beyond 12–16 weeks of continuous use
+      - Comparative efficacy vs. L-tryptophan (direct comparison studies are lacking)
+
+      ## The Critical Safety Warning
+
+      5-HTP carries a real interaction risk that many users underestimate:
+
+      **Serotonin Syndrome** can occur when combined with:
+      - SSRIs (fluoxetine, sertraline, escitalopram, paroxetine, citalopram, etc.)
+      - SNRIs (venlafaxine, duloxetine, desvenlafaxine)
+      - MAO inhibitors (tranylcypromine, phenelzine, moclobemid)
+      - Tramadol (opioid analgesic with serotonergic activity)
+      - Triptans (migraine medications like sumatriptan, rizatriptan)
+      - Lithium (mood stabilizer—enhances serotonergic transmission)
+      - Linezolid (antibiotic with MAOI activity)
+
+      **Serotonin syndrome is a potentially life-threatening condition** characterized by:
+      - Hyperthermia (dangerous elevation in body temperature)
+      - Agitation and confusion
+      - Tremor and muscle rigidity
+      - Seizures
+      - Cardiovascular instability
+
+      > **If you take any of these medications, do not use 5-HTP without first consulting your physician.**
+
+      ### Mechanism of the Interaction
+
+      5-HTP bypasses the first enzymatic step and directly elevates serotonin. When combined with drugs that block serotonin reuptake (SSRIs) or block its degradation (MAOIs), serotonin can accumulate to toxic levels in the synapse. This is not a theoretical risk—case reports in the medical literature document serotonin syndrome from 5-HTP combinations.
+
+      ## Is 5-HTP Safe?
+
+      At doses of 50–200 mg/day for short-term use (≤12 weeks), **and in people not taking serotonergic medications**, 5-HTP is **possibly safe**, but should be approached with caution.
+
+      ### Common Side Effects
+
+      - Nausea (especially at doses >150 mg or when first starting)
+      - Diarrhea and loose stools
+      - Decreased appetite (paradoxically, despite its use for appetite control)
+      - Mild stomach upset
+      - Headaches in some users
+
+      Most side effects diminish after 1–2 weeks of use.
+
+      ### Long-Term Safety
+
+      This is poorly studied. There are no long-term safety trials in humans beyond 16 weeks. Concerns about chronic serotonin elevation:
+      - Potential for tachyphylaxis (tolerance development)
+      - Possible effects on heart valve function (serotonin can affect cardiac tissue—though 5-HTP appears lower risk than fenfluramine)
+      - Endocrine effects: high serotonin might suppress cortisol or affect sex hormone pathways (speculative, not well-studied)
+
+      **Recommendation**: Do not take 5-HTP continuously for months without medical supervision. Use intermittently or in cycles (e.g., 4–6 weeks on, 1–2 weeks off).
+
+      ### Who Should Avoid 5-HTP
+
+      - Anyone taking SSRIs, SNRIs, MAOIs, tramadol, or triptans
+      - Pregnant or breastfeeding women (limited safety data)
+      - Individuals with history of cardiac valve disease
+      - People with uncontrolled hypertension
+      - Carcinoid syndrome patients (5-HTP use can trigger carcinoid crisis)
+
+      ## Comparison to L-Tryptophan
+
+      Both are serotonin precursors, but operate at different steps:
+      - **L-Tryptophan**: First step (converted to 5-HTP by tryptophan hydroxylase). Shares transport across the blood-brain barrier with other large neutral amino acids—less reliable CNS entry.
+      - **5-HTP**: Directly converted to serotonin. Better blood-brain barrier penetration but lacks direct head-to-head comparison in modern RCTs.
+
+      The choice between them depends on individual tolerance and the strength of desired effect.
+
+      ## Summary and Evidence Grade
+
+      **Evidence Level: 2** (Moderate evidence from older RCTs, limited modern data)
+
+      5-HTP has biochemical plausibility and shows modest efficacy in older clinical trials for depression, sleep, and appetite regulation. However, the evidence base is aging, studies are small, and no modern large-scale RCTs exist. Most importantly, the **serotonin syndrome risk is real and non-theoretical**, making 5-HTP unsuitable for anyone already taking serotonergic medications.
+
+      If you are not on serotonergic drugs and wish to trial 5-HTP for sleep or mood support, doses of 100–200 mg/day for up to 12 weeks can be considered, with close attention to side effects. Do not combine with any serotonergic medication without explicit medical clearance.
 
 relations:
   - relation: wird_eingesetzt_fuer

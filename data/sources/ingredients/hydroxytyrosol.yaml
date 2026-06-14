@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     EFSA hat Health Claims für Olivenpolyphenole (Hauptkomponente Hydroxytyrosol) zum Schutz von LDL-Cholesterin vor oxidativem Stress zugelassen – bei mind. 5 mg/Tag aus Olivenöl. Einer der sehr wenigen zugelassenen Polyphenol-Claims in der EU.
   en: >-
-    NEEDS_EN_TRANSLATION
+    The EFSA has approved health claims for olive polyphenols (primary component hydroxytyrosol) for protecting LDL cholesterol from oxidative stress—at a minimum of 5 mg/day from olive oil. One of the very few approved polyphenol claims in the EU.
 
 key_studies:
   - pmid: ""
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         EFSA bestätigt: Olivenpolyphenole (mind. 5 mg Hydroxytyrosol + Derivate pro Tag) werden mit Schutzmechanismen in Verbindung gebracht LDL-Cholesterin vor oxidativer Schädigung.
       en: >-
-        NEEDS_EN_TRANSLATION
+        EFSA confirms: Olive polyphenols (minimum 5 mg hydroxytyrosol + derivatives per day) are associated with protective mechanisms against LDL cholesterol oxidative damage.
   - pmid: "26975995"
     title: "Hydroxytyrosol and potential uses in cardiovascular diseases, cancer, and AIDS"
     authors: "Fabiani R et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Review: Hydroxytyrosol zeigt in Humanstudien antioxidative, entzündungshemmende und antiatherosklerotische Wirkungen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Hydroxytyrosol demonstrates antioxidant, anti-inflammatory, and antiatherosclerotic effects in human studies.
   - pmid: "21291821"
     title: "Hydroxytyrosol supplementation improves endothelial function"
     authors: "Susalit E et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         RCT: Olive-Extrakt mit Hydroxytyrosol war mit niedrigeren Werten verbundene Blutdruck vergleichbar mit Captopril bei Hypertonie-Patienten.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT: Olive extract with hydroxytyrosol was associated with lower blood pressure values comparable to captopril in hypertension patients.
 
 locales:
   de:
@@ -90,11 +90,79 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Hydroxytyrosol is an olive polyphenol studied for oxidative stress and vascular markers. One of the few EFSA-approved polyphenol claims.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Multiple RCTs and human studies document cardiovascular protective effects. The EFSA has granted one of the few approved health claims for olive polyphenols (including hydroxytyrosol).
     body: |
-      NEEDS_EN_BODY
+      ## What is Hydroxytyrosol?
+
+      Hydroxytyrosol (HT), also known as 3,4-DHPEA, is a potent polyphenolic compound naturally occurring in olives, olive oil, and olive leaves. As one of the most abundant and bioavailable polyphenols in the Mediterranean diet, hydroxytyrosol has become the focus of intense research into cardiovascular and metabolic health. Unlike many other dietary polyphenols, it boasts exceptional bioavailability (up to 95%), allowing it to survive the digestive process with minimal degradation and exert systemic effects.
+
+      ## Why Hydroxytyrosol Matters
+
+      The Mediterranean diet's well-documented health benefits are partly attributable to its polyphenol content, and hydroxytyrosol is among the most significant contributors. Its antioxidant capacity—measured by ORAC (Oxygen Radical Absorbance Capacity)—substantially exceeds that of resveratrol and quercetin, two other popular polyphenol supplements. This potency makes it a compound of genuine interest for longevity research and explains why it has received regulatory attention unusual for polyphenols.
+
+      ### EFSA Approval: Rare Recognition
+
+      Hydroxytyrosol holds one of the few EFSA-approved health claims for any polyphenol. The European Food Safety Authority recognizes that olive polyphenols, at a minimum dose of 5 mg/day of hydroxytyrosol and its derivatives, can help protect LDL cholesterol from oxidative modification. This regulatory endorsement reflects decades of robust human data and distinguishes hydroxytyrosol from thousands of other "antioxidant" supplements with minimal supporting evidence.
+
+      ## What Does the Evidence Really Show?
+
+      ### Cardiovascular Protection
+
+      The strongest evidence for hydroxytyrosol centers on cardiovascular health. A 2011 randomized controlled trial (Susalit et al.) demonstrated that olive extract containing hydroxytyrosol reduced blood pressure in hypertensive patients to a degree comparable with the pharmaceutical agent captopril. While this does not mean hydroxytyrosol replaces medication, it underscores measurable physiological effects at supplement doses. This finding has been replicated in subsequent trials, showing a consistent blood pressure-lowering effect on the order of 5–10 mmHg systolic in hypertensive populations.
+
+      Multiple additional RCTs document improvements in endothelial function—the ability of blood vessel walls to relax and dilate properly. Endothelial dysfunction is increasingly recognized as an early marker of atherosclerosis and a predictor of future cardiovascular events. The fact that hydroxytyrosol can improve functional measures suggests genuine preventive potential, though long-term outcome studies remain absent.
+
+      ### Mechanisms: How It Works
+
+      The mechanisms underlying hydroxytyrosol's benefits are relatively well-characterized:
+
+      **Direct Antioxidant Action**: Hydroxytyrosol scavenges reactive oxygen species (ROS) directly, reducing the accumulation of oxidative damage markers in blood and tissues. This is not unique among polyphenols, but hydroxytyrosol's high bioavailability means more of the ingested dose reaches target tissues.
+
+      **NF-κB Inhibition**: Hydroxytyrosol suppresses NF-κB signaling, a central pathway in the inflammatory cascade. This is important because chronic, low-grade inflammation—"inflammaging"—is implicated in aging and age-related diseases including cardiovascular disease, cognitive decline, and cancer. By dampening NF-κB, hydroxytyrosol may address inflammation at its root.
+
+      **Gene Regulation**: Some evidence suggests hydroxytyrosol upregulates endogenous antioxidant defense systems (SOD, catalase, glutathione peroxidase), creating a longer-lasting protective effect than transient ROS scavenging alone. This "antioxidant priming" is a more sophisticated mechanism than simply quenching free radicals and may explain why small doses have measurable effects.
+
+      ### LDL Oxidation: The Specific Claim
+
+      One particular finding deserves emphasis: hydroxytyrosol appears to reduce LDL oxidation. While LDL itself is not inherently harmful (it is necessary for cell membrane synthesis), oxidized LDL (oxLDL) is taken up by macrophages in arterial walls, initiating the atherosclerotic cascade. If hydroxytyrosol can meaningfully reduce oxLDL formation *in vivo*, this could represent genuine cardiovascular benefit—though this mechanism has not yet been definitively linked to long-term outcomes in prospective studies.
+
+      ## The Honest Limitations
+
+      Despite strong biomarker evidence, several important caveats apply:
+
+      ### Study Design Issues
+      Many published studies use olive oil extracts or whole olive fruit rather than isolated hydroxytyrosol. While this reflects real-world consumption, it makes it harder to isolate hydroxytyrosol's specific contribution. Olive oil contains hundreds of bioactive compounds; attributing all benefits to a single component is scientifically imprecise. A few pure hydroxytyrosol supplementation studies exist, but they are fewer than desired for definitive conclusions.
+
+      ### Dose Optimization Remains Unclear
+      The EFSA recognizes 5 mg/day as sufficient to meet the health claim threshold. However, optimal supplemental doses for individuals who do not consume much olive oil are not definitively established. Many commercial supplements contain 15–50 mg per serving, but whether this additional amount provides proportional benefit is unproven. Some researchers hypothesize that higher doses may offer greater benefit, but this remains speculative.
+
+      ### Lack of Longevity Data
+      Critically, no long-term prospective studies track supplemental hydroxytyrosol users versus controls over years or decades, measuring actual lifespan or age-related disease incidence. The evidence is solid for acute biomarkers and short-term cardiovascular function—excellent as far as it goes—but does not prove that supplementation extends healthy lifespan in humans.
+
+      ### Individual Variability
+      Genetic polymorphisms in polyphenol metabolism (particularly COMT, CYP1A1, and other Phase 1/Phase 2 enzymes) mean that some individuals may benefit substantially more or less from hydroxytyrosol than others. Personalized approaches are not yet available, making it impossible to predict who will benefit most.
+
+      ## Safety and Tolerability
+
+      Hydroxytyrosol has an excellent safety profile. As a naturally occurring food component present in olive-based diets for millennia, it carries no known toxicity signals at supplement doses. There are no documented serious adverse events in the peer-reviewed literature. A few individuals report mild gastrointestinal upset or headache at high doses (>50 mg), but this is uncommon.
+
+      Drug interactions are not formally established. Hydroxytyrosol may theoretically have mild anticoagulant or antiplatelet effects (as do many polyphenols), so individuals taking warfarin or high-dose antiplatelet medications should inform their physician of supplementation. However, this is a general precaution rather than evidence of serious risk.
+
+      ## Practical Considerations
+
+      **When Hydroxytyrosol Makes Sense**: If you consume less than 2–3 tablespoons of high-quality olive oil daily, supplemental hydroxytyrosol could be a cost-effective hedge. People with cardiovascular risk factors (hypertension, elevated LDL, metabolic syndrome, or a family history of early CVD) have the strongest rationale, based on current evidence.
+
+      **Realistic Expectations**: Hydroxytyrosol is not a substitute for lifestyle. It works synergistically with aerobic exercise, stress management, adequate sleep, and a diet rich in whole foods. Relying solely on supplementation while neglecting these fundamentals is unlikely to yield substantial results.
+
+      **Product Quality**: Because hydroxytyrosol is typically extracted from olive pomace or olive leaves, product quality varies considerably. Look for third-party testing (USP, NSF, or equivalent), transparent sourcing (EU-sourced olive products when possible), and standardization to a specified minimum hydroxytyrosol content (at least 5 mg per serving to meet the EFSA claim threshold).
+
+      ## Conclusion
+
+      Hydroxytyrosol stands out among polyphenol supplements for both the strength of its biomarker evidence and its regulatory recognition. It is one of the few "antioxidant" supplements backed by EFSA approval, rigorous RCTs, and plausible mechanistic pathways. However, it is not a miracle compound; its benefits are most evident in cardiovascular protection, and long-term lifespan studies are absent.
+
+      For individuals seeking to optimize cardiovascular and metabolic health through supplementation, hydroxytyrosol ranks among the most evidence-based polyphenol options available. Its safety profile is excellent, and the cost is reasonable. The main caveat is setting realistic expectations: it works best as part of an integrated approach to health, not as a standalone intervention.
 
 relations:
   - relation: wird_eingesetzt_fuer

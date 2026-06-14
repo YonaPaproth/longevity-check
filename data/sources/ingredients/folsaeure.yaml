@@ -24,7 +24,7 @@ efsa_notes:
   de: >-
     EFSA hat Health Claims für Folsäure zugelassen: normale Blutbildung, normale Homocystein-Metabolisierung, normale psychische Funktion, normale Immunfunktion sowie maternale Gewebewachstum in der Schwangerschaft. Öffentliche Empfehlung: 400 µg/Tag für Frauen mit Kinderwunsch.
   en: >-
-    NEEDS_EN_TRANSLATION
+    EFSA has authorized health claims for folic acid: normal blood cell formation, normal homocysteine metabolism, normal psychological function, normal immune function, and maternal tissue growth during pregnancy. Public recommendation: 400 µg/day for women planning pregnancy.
 
 key_studies:
   - pmid: "1677062"
@@ -36,7 +36,7 @@ key_studies:
       de: >-
         Landmark-RCT: 4 mg Folsäure/Tag reduzierte Wiederholungsrisiko für Neuralrohrdefekte um 72 %. Basis für globale Supplementierungsempfehlungen in der Schwangerschaft.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Landmark RCT: 4 mg folic acid/day reduced the risk of neural tube defect recurrence by 72%. Foundation for global supplementation recommendations during pregnancy.
   - pmid: "22297886"
     title: "Folate and DNA methylation: a review of molecular mechanisms and the evidence for folate's role"
     authors: "Crider KS et al."
@@ -46,7 +46,7 @@ key_studies:
       de: >-
         Review: Folat ist direkter Methyl-Donor im One-Carbon-Metabolismus. Mangel stört DNA-Methylierungsmuster und war mit höheren Werten verbunden Homocystein. Epigenetische Relevanz gut dokumentiert.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Folate is a direct methyl donor in one-carbon metabolism. Deficiency disrupts DNA methylation patterns and is associated with elevated homocysteine. Epigenetic relevance is well documented.
   - pmid: "35042259"
     title: "Folic acid supplementation and risk of cardiovascular diseases: meta-analysis"
     authors: "Zhao JV et al."
@@ -56,7 +56,7 @@ key_studies:
       de: >-
         Meta-Analyse (30 RCTs): Folsäure war mit niedrigeren Werten verbunden Homocystein signifikant, reduziert aber Herzinfarkte und Schlaganfälle nicht konsistent – außer möglicherweise bei Schlaganfall in folsäurearmen Populationen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Meta-analysis (30 RCTs): Folic acid was consistently associated with lower homocysteine levels, but does not consistently reduce heart attacks and strokes—except possibly for stroke prevention in folate-deficient populations.
   - pmid: "24144610"
     title: "MTHFR C677T polymorphism and folate metabolism"
     authors: "Nazki FH et al."
@@ -66,7 +66,7 @@ key_studies:
       de: >-
         Review: MTHFR-C677T-Polymorphismus (ca. 10 % der Bevölkerung homozygot) reduziert Folsäureaktivierung um 70 %. Betroffene profitieren stärker von L-Methylfolat als von synthetischer Folsäure.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: The MTHFR C677T polymorphism (approximately 10% of the population homozygous) reduces folic acid activation by 70%. Carriers benefit more from L-methylfolate than from synthetic folic acid.
 
 locales:
   de:
@@ -128,11 +128,79 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Essential B-vitamin for DNA synthesis, cell division, and homocysteine metabolism. Strong evidence for neural tube defect prevention in pregnancy. L-methylfolate benefits MTHFR carriers.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Relatively strong evidence base: folic acid deficiency in pregnancy causes neural tube defects (prevention well studied). EFSA health claims approved. Homocysteine-lowering effect consistent, but no established cardiovascular protection from this mechanism. MTHFR polymorphism clinically relevant for responders.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Folic Acid?
+
+      Folic acid (Vitamin B9) is a water-soluble B-vitamin that functions as a **methyl donor** in the **one-carbon metabolism**—a central biochemical network coordinating DNA synthesis, DNA repair, DNA methylation, and homocysteine breakdown. It is one of the most extensively studied micronutrients in medicine, with particularly strong evidence in reproductive health and epigenetic regulation.
+
+      Natural folate occurs in whole foods (legumes, leafy greens, liver, asparagus). Synthetic **folic acid** in supplements and fortified foods must first be converted in the body to the active form **5-methyltetrahydrofolate (5-MTHF)**. This conversion step matters: some people carry genetic variants that slow or impair this process, explaining why L-methylfolate supplementation can outperform standard folic acid for certain individuals.
+
+      ## Pregnancy: The Clearest Evidence
+
+      The recommendation for folic acid supplementation in women planning pregnancy and during early pregnancy is one of the strongest and most universally agreed-upon recommendations in nutritional medicine:
+
+      - **400 µg/day** at minimum for four weeks before conception and continuing through the first trimester
+      - Reduces neural tube defects (spina bifida, anencephaly) by 50–70%
+      - Endorsed globally: BfR, WHO, EFSA, CDC, RKI—absolute consensus across regulatory bodies
+
+      The evidence base is exceptional. The landmark 1991 MRC Vitamin Study showed a 72% reduction in neural tube defect recurrence in high-risk pregnancies receiving 4 mg/day, fundamentally shifting periconception medicine worldwide. This recommendation is non-negotiable: every woman of reproductive age with adequate access should maintain baseline folate status (ideally serum folate &gt;7 ng/mL or RBC folate &gt;300 ng/mL) and supplement 400 µg daily when planning pregnancy.
+
+      ## The One-Carbon Metabolism
+
+      Folate sits at the metabolic crossroads of methylation biology:
+
+      1. Dietary folate (or supplemental folic acid) is activated → 5-MTHF
+      2. 5-MTHF transfers a methyl group to homocysteine → methionine
+      3. Methionine is converted → S-Adenosylmethionine (SAM), the universal methyl donor
+      4. SAM methylates DNA, RNA, proteins, neurotransmitters, and membrane components
+
+      Folate deficiency creates a bottleneck: homocysteine accumulates, methylation capacity decreases, and epigenetic regulation becomes dysregulated. Elevated homocysteine has been associated with vascular endothelial dysfunction, impaired cognitive performance, and aberrant DNA methylation patterns—though whether it is primarily a driver or a marker of disease remains debated.
+
+      What is certain: adequate folate is required for this system to function. Below-threshold folate impairs DNA synthesis in rapidly dividing cells (bone marrow, epithelium, fetus), which is why deficiency manifests as megaloblastic anemia and, in pregnancy, neural tube defects and fetal growth restriction.
+
+      ## What the Studies Actually Show
+
+      ### Clearly Established (EFSA-Approved Claims)
+      - **Neural tube defect prevention** (periconception): RCTs and epidemiologic data are robust and consistent
+      - **Normal red blood cell formation**: folate works with B12; deficiency causes megaloblastic anemia
+      - **Homocysteine reduction**: consistent and dose-dependent in supplementation trials
+      - **Normal psychological function**: folate is required for neurotransmitter synthesis and myelin formation
+
+      ### Mixed or Ambiguous Evidence
+      - **Cardiovascular protection via homocysteine reduction**: This is the "folate paradox." Meta-analyses show folic acid consistently lowers homocysteine levels, yet cardiovascular event rates (heart attack, stroke) are not consistently reduced. A 2022 meta-analysis of 30 RCTs found no significant benefit for stroke or MI prevention in general populations, except possibly for stroke risk reduction in regions with historically low folate intake or in specific subgroups. This suggests homocysteine is more a biomarker than a causal risk factor—lowering it does not automatically improve outcomes.
+
+      - **Cancer risk**: The picture is complex. Normal folate status is protective; high-dose supplementation in people with existing adenomas or high cancer risk may potentially increase risk (a counterintuitive phenomenon sometimes called "the folate paradox in cancer"), likely because folate accelerates cell division in already-initiated lesions. For general prevention, maintaining adequate status rather than megadosing is prudent.
+
+      ### Not Established
+      - **Slowing aging beyond normal nutritional needs**: Folate does not extend lifespan or slow aging in the absence of deficiency. Claims of "anti-aging" properties without a documented folate deficit are marketing.
+
+      ## Folic Acid vs. L-Methylfolate: Who Needs What?
+
+      The enzyme **methylenetetrahydrofolate reductase (MTHFR)** catalyzes the final activation step of folic acid to 5-MTHF. A common genetic variant, **MTHFR C677T**, occurs in approximately 30% of Caucasians (10% homozygous); frequency varies by ancestry. Homozygous carriers have roughly 70% reduced enzyme activity, which can result in:
+
+      - Slower conversion of synthetic folic acid to its active form
+      - Accumulation of unmetabolized folic acid (potentially immunoactive)
+      - Relative 5-MTHF insufficiency despite adequate intake
+
+      **For most people (MTHFR wild-type or heterozygous):** Standard folic acid supplementation (200–400 µg/day) is effective and sufficient.
+
+      **For MTHFR C677T homozygotes:** L-methylfolate (5-MTHF), available as methylfolate glucosamine salt or other forms, bypasses the enzymatic bottleneck entirely. Clinical studies and observational data suggest MTHFR carriers tolerate and respond better to L-methylfolate than to folic acid, particularly if they report neurological or methylation-sensitive symptoms (mood, cognitive changes).
+
+      Testing: MTHFR genotyping via blood test is available (though not routinely covered by insurance in many countries). Given the low cost of L-methylfolate relative to the potential benefit for carriers, some practitioners recommend empirical trial in people with unclear folate response or a family history of MTHFR-related symptoms.
+
+      ## Safety Profile
+
+      At physiological doses (200–400 µg/day), folic acid is **well-tolerated and safe** across all population groups except in specific contexts:
+
+      - **Upper tolerable intake:** EFSA sets 1,000 µg/day synthetic folic acid; no upper limit for natural folate (excess is poorly absorbed)
+      - **Primary concern:** High-dose folic acid can **mask vitamin B12 deficiency**. Folate corrects the anemia associated with B12 deficiency, but neurological damage (subacute combined degeneration, peripheral neuropathy, cognitive decline) continues silently. Therefore, B12 status must always be checked alongside folate.
+      - **Drug interactions:** Some anticonvulsants (phenytoin, phenobarbital) impair folate metabolism; supplementation may be warranted with medical oversight
+      - **Mild side effects:** Rare at standard doses; high doses can cause insomnia, irritability, or nausea in sensitive individuals
+
+      For pregnancy, lactation, and genetic MTHFR variants, discuss supplementation strategy with a healthcare provider to ensure the appropriate form (folic acid vs. L-methylfolate) and dose.
 
 relations:
   - relation: wird_eingesetzt_fuer

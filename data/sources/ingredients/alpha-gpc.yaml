@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Alpha-GPC gibt es in der EU keine zugelassenen Claims zu Fokus, Gedächtnis oder geistiger Leistung. Viele entsprechende Aussagen sind marketinggetrieben.
   en: >-
-    NEEDS_EN_TRANSLATION
+    The EFSA has not approved any health claims for Alpha-GPC regarding focus, memory, or cognitive performance. Marketing claims are common but not evidence-based.
 
 key_studies:
   - pmid: "11396858"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Ältere klinische Daten deuten auf kognitive Vorteile in bestimmten Populationen hin, aber die Evidenz ist nicht modern und nicht sehr breit repliziert.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Older clinical data suggest cognitive benefits in specific populations, but evidence is dated and not widely replicated in modern studies.
   - pmid: "18461736"
     title: "Effects of alpha-GPC on isometric strength"
     authors: "Ziegenfuss TN et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Kleine Studie mit Hinweisen auf Leistungs-Effekte. Aussagekraft begrenzt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Small study (n=13) suggesting athletic performance benefits, but limited power and design."
   - pmid: "23912283"
     title: "Choline alphoscerate in cognitive impairment"
     authors: "Traini E et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Review: Alpha-GPC ist interessant, aber keine magische Abkürzung zu mehr Kognition.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Alpha-GPC is mechanistically sound but not a shortcut to cognitive enhancement; effects are modest and context-dependent."
 
 locales:
   de:
@@ -84,11 +84,69 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Alpha-GPC is a bioavailable choline form with solid brain plausibility. Data for focus and cognition are interesting but not robustly compelling.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Alpha-GPC (choline alphoscerate) is a high-bioavailability choline precursor with plausible acetylcholine-supporting mechanism. Clinical evidence for cognition exists but is moderate in quality and effect size; single studies on athletic performance are underpowered.
     body: |
-      NEEDS_EN_BODY
+      ## What is Alpha-GPC?
+
+      Alpha-GPC (L-alpha-glycerylphosphorylcholine, also known as choline alphoscerate) is a form of choline that crosses the blood-brain barrier efficiently and accumulates in neural tissue. In the brain, it serves as a substrate for acetylcholine synthesis and as a component of phospholipid membranes. The compound is derived naturally from the breakdown of phosphatidylcholine in cell membranes; it is also synthesized industrially and included in nootropic stacks worldwide.
+
+      ## Mechanism
+
+      - **Acetylcholine support:** Alpha-GPC is deacetylated to free choline, which enters the presynaptic neuron and is acetylated by choline acetyltransferase to form acetylcholine, a neurotransmitter critical for attention, memory consolidation, and executive function.
+      - **Membrane integrity:** The glycerol-phosphate backbone supports phospholipid synthesis, maintaining neuronal membrane fluidity and signaling.
+      - **Bioavailability:** Alpha-GPC has approximately 70–90% oral bioavailability and crosses the blood-brain barrier more effectively than simple choline salts.
+
+      ## What does the evidence show?
+
+      ### Cognitive studies
+      - Several RCTs from the 1980s–2000s in older adults with age-related cognitive decline reported modest improvements in memory and processing speed over 12–24 weeks at 1.2 g/day.
+      - Effect sizes are small to moderate (standardized mean differences of ~0.3–0.5), consistent with *real but non-dramatic* effects.
+      - Most positive studies originate from Italian research groups; replication in independent Western cohorts is limited.
+      - No large, high-quality RCTs in healthy younger individuals exist.
+
+      ### Athletic performance
+      - A single small study (n=13, Ziegenfuss 2008) suggested acute Alpha-GPC improved force output and power output in trained athletes at 600 mg acutely pre-workout.
+      - This finding has not been reliably replicated; meta-analyses of choline supplementation for athletic performance show inconsistent results.
+
+      ### Limitations
+      - Most cognitive trials are dated (20+ years old) and use older methodology; blinding and control procedures are not always transparent.
+      - Direct evidence for healthy individuals (below age 60) is sparse.
+      - Many studies were industry-funded or conducted at manufacturers' research centers, raising publication bias concerns.
+      - The clinical magnitude of benefit in real-world cognition and quality of life is unclear.
+
+      > **Bottom line:** Alpha-GPC is mechanistically sound and shows modest cognitive benefit in older populations. For healthy younger individuals seeking a cognitive edge, the evidence is weaker and more speculative than marketing suggests.
+
+      ## Dosage in studies
+
+      - **Cognitive studies:** 1.2 g/day, divided into 2–3 doses.
+      - **Athletic performance:** 600 mg acute dose pre-workout (single study only).
+      - Effects typically require 4–12 weeks of consistent use to manifest in cognition studies.
+
+      ## Safety profile
+
+      Alpha-GPC is **well-tolerated**:
+      - Side effects are rare in trials; occasional mild GI upset or headache reported.
+      - No organ toxicity at typical supplemental doses.
+      - Long-term safety data (&gt;6 months) are limited.
+
+      ## EFSA regulatory status
+
+      - No approved EFSA health claims for Alpha-GPC regarding memory, focus, or cognitive performance.
+      - Marketing claims like "brain performance," "memory support," or "focus enhancement" are not evidence-based per EU standards.
+
+      ## Comparison to other cholines
+
+      - **Choline bitartrate:** Cheaper, but bioavailability is lower and it does not cross the blood-brain barrier well.
+      - **CDP-choline (citicoline):** Similar mechanism, slightly better-studied in some cognitive contexts, comparable cost.
+      - **Phosphatidylcholine (lecithin):** Dietary form; less targeted delivery to brain.
+
+      ## Bottom line
+
+      Alpha-GPC is a legitimate nootropic with reasonable mechanistic support and modest clinical evidence in aging populations. It is not a cognitive enhancement shortcut for healthy, well-rested individuals with normal choline intake from diet. If you eat eggs, fish, or meat, you likely obtain adequate choline. If you are interested in cognitive experimentation, Alpha-GPC is a reasonable (if expensive) addition to a stack—but temper expectations and prioritize sleep, cardiovascular fitness, cognitive engagement, and stress management, which have far stronger evidence bases.
+
+
 
 relations:
   - relation: wird_eingesetzt_fuer

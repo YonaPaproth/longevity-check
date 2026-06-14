@@ -24,7 +24,7 @@ efsa_notes:
   de: >-
     Für Betain gibt es in der EU keine zugelassenen Health Claims. Homocystein-bezogene Claims sind aktuell nicht zugelassen – Vitamin B6, B12 und Folat haben entsprechende Claims für normalen Homocystein-Stoffwechsel.
   en: >-
-    NEEDS_EN_TRANSLATION
+    No EFSA health claims are approved for betaine. Homocysteine-related claims are not permitted for betaine; B vitamins (B6, B12, folate) hold those claims.
 
 key_studies:
   - pmid: "23459753"
@@ -36,7 +36,7 @@ key_studies:
       de: >-
         RCT (n=12): 2,5 g/Tag Betain zeigte in Studien Veränderungen bei anabolen Hormonsignalen nach Krafttraining.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT (n=12): 2.5 g/day betaine showed changes in anabolic hormone signaling and mTOR/Akt pathways post-resistance training."
   - pmid: "23374455"
     title: "Effects of betaine supplementation on muscle strength and power"
     authors: "Cholewa JM et al."
@@ -46,7 +46,7 @@ key_studies:
       de: >-
         RCT (n=23): 2,5 g/Tag über 14 Tage – moderate Verbesserungen bei Kraftleistung und Körperzusammensetzung versus Placebo.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT (n=23): 2.5 g/day for 14 days showed moderate improvements in strength performance and body composition vs. placebo."
   - pmid: "21969991"
     title: "Betaine supplementation and exercise performance"
     authors: "Trepanowski JF et al."
@@ -56,7 +56,7 @@ key_studies:
       de: >-
         RCT (n=24): 2,5 g/Tag über 15 Tage – Verbesserungen bei Kraft und Ausdauerleistung in einigen, aber nicht allen gemessenen Parametern.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT (n=24): 2.5 g/day for 15 days improved some strength and endurance metrics but not others; results inconsistent."
   - pmid: "15655131"
     title: "Effect of betaine on homocysteine concentrations"
     authors: "Olthof MR, Verhoef P"
@@ -66,7 +66,7 @@ key_studies:
       de: >-
         Kontrollierte Studie: 6 g/Tag Betain senkte Homocystein-Plasmaspiegel; Effekt war bei gleichzeitig hohem Methionin-Konsum stärker ausgeprägt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Controlled study: 6 g/day betaine lowered plasma homocysteine; effect was greater in high-methionine dietary contexts."
 
 locales:
   de:
@@ -147,11 +147,89 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Betaine is a natural methyl donor that lowers homocysteine and shows modest strength gains in some studies, but evidence is inconsistent and limited.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Some RCTs show effects on strength, body composition, and homocysteine levels. However, data are uneven, many positive studies were manufacturer-funded, and long-term human efficacy for healthy aging is absent.
     body: |
-      NEEDS_EN_BODY
+      ## What is betaine?
+
+      Betaine (chemical name: trimethylglycin, or TMG) is a naturally occurring amino acid metabolite found in nutrient-rich foods—notably **red beets (hence the name), spinach, wheat, and quinoa**. It consists of the amino acid glycine with three methyl groups attached. In the body, betaine serves two primary functions:
+
+      1. **One-carbon metabolism / methyl donor:** Betaine transfers one of its three methyl groups to homocysteine via the enzyme betaine-homocysteine methyltransferase (BHMT), converting homocysteine back to methionine. This is a critical step in homocysteine detoxification, particularly in the liver and kidneys.
+      2. **Osmolyte:** Inside cells, betaine acts as an osmolyte, protecting cells from dehydration and osmotic stress, particularly under intense exercise conditions.
+
+      In supplements, betaine is supplied as **betaine anhydrous** (water-free form), often found in pre-workout formulations and sports nutrition products.
+
+      ## Mechanisms: Homocysteine reduction and osmolytic support
+
+      ### Homocysteine metabolism
+      Homocysteine is an amino acid byproduct of methionine metabolism. Chronically elevated homocysteine (hyperhomocysteinemia) is associated with cardiovascular risk, but whether *lowering* homocysteine actually reduces disease remains debated. Betaine reduces homocysteine via BHMT-mediated remethylation, a real biochemical effect. However, B vitamins (B6, B12, folate) also lower homocysteine via the folate cycle and have stronger clinical evidence for cardiovascular benefit.
+
+      ### Osmolytic and training effects
+      Betaine maintains cellular hydration during stress. In theory, better cell hydration supports force production and muscle protein synthesis. The mechanism is similar to creatine, though less directly proven. Proposed anabolic pathways involve mTOR and IGF signaling, but human evidence is limited.
+
+      ## What do the studies show?
+
+      ### Positive findings
+      - **Strength and power:** A few RCTs (Cholewa 2013, n=23; Trepanowski 2011, n=24) reported modest improvements in bench press strength, squat performance, or total training volume after 2.5 g/day betaine for 2–4 weeks.
+      - **Body composition:** One study (Cholewa 2013) reported modest lean mass gains or fat loss with betaine + training.
+      - **Homocysteine:** Olthof & Verhoef (2005) showed that 6 g/day betaine significantly lowered plasma homocysteine in healthy adults, with effects proportional to baseline homocysteine and methionine intake.
+      - **Mechanism signals:** Apicella et al. (2013) found betaine enhanced phosphorylation of Akt (a key anabolic signaling node) in muscle post-resistance exercise.
+
+      ### Critical limitations
+      - **Small sample sizes:** Most betaine studies are n &lt; 30, limiting statistical power.
+      - **Inconsistent outcomes:** Not all studies show strength or body composition gains; results are mixed even among positive investigations.
+      - **Short duration:** Trials last 2–4 weeks; long-term efficacy (&gt;8 weeks) is unknown.
+      - **Manufacturer funding:** Many positive betaine studies were supported by supplement makers, raising publication bias concerns.
+      - **Modest effect sizes:** Where improvements are found, they are typically 3–7% gains, smaller than those from established ergogenic aids like creatine.
+      - **Homocysteine reduction vs. cardiovascular benefit:** While betaine lowers homocysteine, it is unclear whether this translates to real cardiovascular or aging benefits. B vitamins (which also lower homocysteine) have stronger clinical endorsement for heart health.
+
+      > **Bottom line:** Betaine has a plausible mechanism and shows modest signals in small studies, particularly for strength. However, evidence is much less consistent than for creatine, and long-term efficacy for longevity or general health is absent.
+
+      ## Dosage in trials
+
+      - **Typical dose:** 2.5 g/day, often split into 2 doses (morning and pre-workout).
+      - **Range in studies:** 1.25–6 g/day; 2.5 g is the most studied dose.
+      - **Timeframe:** Effects typically assessed after 2–4 weeks, though some studies run 6–12 weeks.
+
+      ## Safety profile
+
+      Betaine is **generally well-tolerated** at supplemental doses (up to ~6 g/day):
+      - Occasional GI upset, nausea, or loose stools at higher doses.
+      - No organ toxicity reported in short- or medium-term studies.
+      - **Potential concern:** At very high doses (&gt;6 g/day), some studies observed modest increases in LDL-cholesterol. This is reversible but worth monitoring in individuals with pre-existing dyslipidemia.
+      - Long-term safety (&gt;6 months) has not been rigorously studied.
+
+      ### Special populations needing caution
+      - **Elevated cholesterol:** Monitor lipid panel if using high-dose betaine (≥6 g/day).
+      - **Homocystinuria (rare genetic condition):** Betaine is used therapeutically but under medical supervision.
+      - **Pregnant/nursing:** Insufficient safety data; not recommended.
+
+      ## Interactions
+
+      - **High-methionine diets:** Paradoxically, betaine may be less effective at lowering homocysteine in high-methionine contexts (e.g., very high protein intake), since methionine is a precursor to homocysteine.
+      - **B vitamins (B6, B12, folate):** These have complementary homocysteine-lowering effects; combining both systems is seldom necessary.
+      - No major drug interactions at typical supplemental doses.
+
+      ## Regulatory status in the EU
+
+      - Betaine anhydrous is **not a novel food** in the EU; it is permitted as a supplement ingredient.
+      - **EFSA health claims:** None approved for betaine. Homocysteine-related claims—while biologically plausible—are reserved for B vitamins (B6, B12, folate).
+      - Marketing claims about "strength support," "muscle growth," or "heart health" are not evidence-based per EU standards.
+
+      ## Comparison to creatine
+
+      Creatine monohydrate is far better studied, more effective for strength and muscle gain, and cheaper. Betaine is sometimes positioned as an alternative or adjunct:
+      - **Creatine:** Strong, consistent evidence for 5–15% strength gains; increases body water; cheaper.
+      - **Betaine:** Weaker, less consistent evidence; may not increase water weight; more expensive than creatine.
+
+      For pure strength and muscle building, **creatine is the evidence-backed choice.** Betaine might be a supplementary tool, but it does not replace creatine.
+
+      ## Bottom line
+
+      Betaine is a functional methyl donor with plausible anabolic and homocysteine-lowering mechanisms, but evidence is modest and uneven. For **strength athletes**, a 2.5 g/day trial for 4–6 weeks may be worth testing, especially if combined with creatine and resistance training. For **healthy aging and longevity**, there is no data; if homocysteine reduction is a goal, **B vitamins (especially folate and B12) have stronger clinical support** and should be prioritized. Betaine is not harmful but should be viewed as a speculative add-on rather than a foundation supplement.
+
+
 
 relations:
   - relation: wird_eingesetzt_fuer

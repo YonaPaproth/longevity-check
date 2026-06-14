@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Bor sind in der EU keine zugelassenen Health Claims etabliert. Zudem ist die Sicherheitsmarge enger als viele Supplement-Marketingtexte suggerieren.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, no authorized health claims for boron have been established. Moreover, the safety margin is narrower than many supplement marketing texts suggest.
 
 key_studies:
   - pmid: "18752471"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Review: Bor ist biologisch interessant, aber vieles bleibt vorläufig und nicht klinisch gesichert.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Boron is biologically interesting, but much remains preliminary and not clinically established.
   - pmid: "26770156"
     title: "Boron and bone health"
     authors: "Pizzorno L"
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Review: Hinweise auf potenzielle Bedeutung für Knochen und Mineralstoffhaushalt, aber keine robuste Basis für breite Supplementempfehlungen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Evidence suggests potential importance for bone and mineral homeostasis, but insufficient robust basis for broad supplementation recommendations.
   - pmid: "21873346"
     title: "Boron in human health: evidence and open questions"
     authors: "Scorei ID et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Zusammenfassung der Datenlage: interessant, aber deutlich unter dem Evidenzniveau klassischer Mikronährstoffe.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Evidence summary: Interesting, but significantly below the evidence level of classical micronutrients.
 
 locales:
   de:
@@ -79,11 +79,50 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Boron is discussed for bone, hormone, and inflammation support. Mechanistically interesting, but human evidence remains sparse.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Boron is not a classic micronutrient standout, but is discussed for potential effects on bone metabolism, inflammation markers, and hormone metabolism. Human evidence is limited and largely exploratory.
     body: |
-      NEEDS_EN_BODY
+      ## What is Boron?
+
+      Boron is a trace element frequently discussed in the supplement sphere as an underrated agent for **bone health, hormone metabolism, and inflammation**. While the biologic plausibility is intriguing, the clinical evidence base remains thin and largely circumstantial.
+
+      ## The Mechanism Story
+
+      Boron's proposed mechanisms are mechanistically reasonable but not deeply investigated in humans. The element appears to influence:
+
+      - **Bone metabolism**: Boron may modulate osteoblast activity and affect the turnover rate of bone tissue, potentially influencing magnesium and calcium metabolism.
+      - **Inflammation markers**: Some in vitro and animal studies suggest boron-containing compounds can suppress pro-inflammatory cytokines, though human data are sparse.
+      - **Hormone metabolism**: Boron may influence estrogen and testosterone levels, a claim particularly popular in men's health supplements, but robust human trials are lacking.
+      - **Vitamin D activation**: Preliminary evidence hints that boron may support the conversion of vitamin D to its active form, though the clinical relevance is unclear.
+
+      ## What Does the Evidence Say?
+
+      The evidence for boron in humans is genuinely limited. Most studies are small, mechanistic, or conducted in specialized populations:
+
+      - **Bone health**: A handful of observational studies associate boron intake with higher bone mineral density, but causality is not established. No large RCTs have tested boron supplementation as a bone-health intervention in healthy adults.
+      - **Hormone effects**: The evidence for hormonal effects in humans is even more sparse. Claims about testosterone support rest primarily on animal studies and mechanistic reasoning, not clinical trials.
+      - **Inflammation**: Human evidence for anti-inflammatory effects is essentially absent. Most data come from cell culture or animal models.
+
+      ## Typical Dosing and Safety
+
+      Typical boron supplements contain 1–3 mg per serving. The adequate intake (AI) is not formally established by major health agencies, though 3 mg/day is often cited as a rough target based on typical dietary intake in regions with adequate boron.
+
+      **Safety considerations:**
+      - Boron has a narrow safety margin. Doses above 20 mg/day are associated with nausea, vomiting, and dermatitis in acute toxicity studies.
+      - Chronic excess (>10–20 mg/day over weeks) may impair reproductive function and cause developmental effects in animal models.
+      - Pregnancy and lactation: Boron supplements are generally contraindicated, as high doses are teratogenic in animals.
+      - Iron interaction: Boron may compete with iron absorption, a concern for those already borderline iron-deficient.
+
+      ## What About EFSA and Regulators?
+
+      No EU health claims for boron have been authorized by the European Food Safety Authority (EFSA). This reflects the weakness of the evidence base rather than a finding of inefficacy, but it means that commercial health claims in the EU are not permitted. In the US, boron is not an FDA-recognized essential nutrient, and supplements exist in a legal gray zone.
+
+      ## The Bottom Line
+
+      Boron is "maybe interesting" rather than a foundational supplement. The mechanistic story is plausible—bone turnover, inflammation, hormone metabolism—but the human evidence is too preliminary to support routine supplementation recommendations. If you are already eating a diet rich in nuts, legumes, and whole grains (common boron sources), additional supplementation is unlikely to yield measurable benefit. If you are considering boron for a specific goal (bone loss, hormonal imbalance), the evidence base does not yet support that use convincingly. The narrow safety margin also argues for caution: supplementing boron is not risk-free, and the potential benefit is unproven.
+
+      For those interested in bone health or hormonal balance, prioritize established interventions—vitamin D, calcium, resistance training, sleep, and stress management—before adding an unproven supplement to the regimen.
 
 relations:
   - relation: wird_eingesetzt_fuer

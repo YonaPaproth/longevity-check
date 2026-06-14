@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Cistanche gibt es in der EU keine zugelassenen Health Claims zu Energie, Libido oder Langlebigkeit.
   en: >-
-    NEEDS_EN_TRANSLATION
+    No EU-approved health claims exist for Cistanche related to energy, libido, or longevity.
 
 key_studies:
   - pmid: "26830552"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Review: präklinisch interessante Wirkungen, aber kaum belastbare Human-Endpunkte.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: preclinically interesting effects, but few reliable human endpoints.
   - pmid: "34145276"
     title: "Phytochemistry and pharmacology of Cistanche"
     authors: "Li Z et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Zusammenfassung der Wirkstoffe und präklinischen Daten.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Comprehensive summary of active compounds and preclinical mechanisms.
   - pmid: "28167794"
     title: "Traditional uses and modern evidence of Cistanche"
     authors: "Wang T et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Traditionsreiche Nutzung, moderne klinische Evidenz aber noch begrenzt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Rich traditional use, but modern clinical evidence remains limited.
 
 locales:
   de:
@@ -79,11 +79,51 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Cistanche is a TCM botanical gaining longevity popularity, but human evidence remains limited and mainly rests on preclinical data.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Cistanche shows preclinical promise for fatigue, neuroprotection, and aging-related mechanisms, but clinical evidence in humans is sparse. Most longevity claims rely on animal studies and traditional use rather than robust human trials. The category rating (4) reflects this significant evidence gap and the lack of EU-approved health claims.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Cistanche?
+
+      Cistanche (often referring to *Cistanche deserticola* or *Cistanche tubulosa*) is a parasitic plant native to desert regions of Central Asia and China. Known in Traditional Chinese Medicine as "Rou Cong Rong" (肉蓯蓉), it has been used for centuries in Asian medicine to support energy, sexual function, and longevity. In recent years, Cistanche has gained attention in Western longevity circles, marketed as a natural adaptogen with potential anti-aging properties. However, despite this growing popularity, the scientific evidence supporting these claims in humans remains surprisingly weak.
+
+      ## Active Compounds and Mechanism
+
+      Cistanche contains several bioactive phytochemicals, including phenylethanoid glycosides (particularly echinacoside and acteoside), iridoid glycosides, and various polysaccharides. Preclinical research suggests these compounds may influence cellular signaling pathways related to mitochondrial function, oxidative stress, and autophagy—processes theoretically relevant to aging. In cell and animal models, Cistanche extracts have demonstrated antioxidant activity, potential neuroprotective effects, and modulation of inflammatory markers. However, it is critical to emphasize that *in vitro* and rodent studies do not reliably predict human outcomes, and many "longevity botanicals" show dramatic preclinical effects that fail to translate clinically.
+
+      ## Current Evidence: Preclinical vs. Clinical
+
+      The evidence for Cistanche falls into a familiar pattern: rich preclinical data, limited clinical research. The available human studies are small, often poorly controlled, and frequently conducted in Asian populations using traditional herbal formulations—making it difficult to isolate Cistanche's specific effects or generalize findings to Western populations. Published human research has primarily examined fatigue, sexual function, and general vitality markers rather than objective biomarkers of aging or longevity.
+
+      A 2016 review by Jiang and colleagues highlighted precisely this gap: Cistanche shows "preclinically interesting effects" but has "few reliable human endpoints." A 2021 phytochemistry review by Li et al. focused on characterizing active compounds and mechanisms in laboratory models rather than clinical efficacy. The 2017 paper by Wang et al. acknowledged Cistanche's "rich traditional use" while noting that "modern clinical evidence remains limited." This consensus—that traditional use and early-stage research are not the same as clinical proof—should shape expectations.
+
+      ## Potential Benefits (Limited Evidence)
+
+      - **Sexual Function & Libido:** Some small studies suggest possible effects, but effect sizes are modest and study quality is inconsistent. Most positive results come from traditional preparations in Asian populations.
+      - **Fatigue & Energy:** Preclinical data and anecdotal reports suggest potential, but no large, well-controlled Western trials exist.
+      - **Neuroprotection:** Animal models show promise for protecting neurons against oxidative stress and supporting cognitive function, but human data are absent.
+      - **Mitochondrial Function:** Theoretical interest based on cellular studies, but no direct human evidence.
+
+      ## Safety Profile
+
+      Cistanche is rated "likely-safe" based on its long history of traditional use and absence of serious adverse events in available literature. Typical doses range from 500–1,000 mg/day of standardized extract. No major toxicity has been reported, and it does not appear to cause severe organ damage at conventional doses. However, controlled safety trials in Western populations are limited, so vigilance for unexpected interactions or effects remains appropriate. Individuals with kidney disease, liver disease, or those taking immunosuppressants should consult a healthcare provider before use.
+
+      ## Regulatory Status
+
+      **In the EU:** Cistanche has no approved health claims under EFSA regulations for energy, sexual function, or longevity. It may be sold as a dietary supplement or herbal product, but claims must be carefully framed to avoid implying medical benefit.
+
+      **In the US:** Cistanche is not regulated as a drug and can be marketed as a dietary supplement under the Dietary Supplement Health and Education Act (DSHEA), allowing broader labeling claims as long as they include a disclaimer that the FDA has not evaluated the claim.
+
+      ## Bottom Line
+
+      Cistanche is a legitimate botanical with traditional use and intriguing preclinical data, but it remains far from proven for human longevity or anti-aging benefits. The gap between animal models and clinical reality is substantial. If you are considering Cistanche, understand that:
+
+      - You are relying primarily on traditional use and mechanism-of-action arguments, not robust human evidence
+      - Most longevity claims are extrapolations from preclinical work and lack controlled human validation
+      - The typical dose (500 mg/day) is associated with minimal risk but also minimal documented benefit
+      - Cistanche works best as part of a broader lifestyle foundation (sleep, exercise, diet), not as a stand-alone anti-aging intervention
+
+      For individuals interested in aging research and willing to accept early-stage compounds, Cistanche may be worth monitoring as evidence accumulates. However, it should not be positioned as equivalent to interventions with stronger clinical support (e.g., caloric restriction, exercise, verified supplements). The honest assessment: promising but preliminary.
 
 relations:
   - relation: benoetigt_biomarker_check

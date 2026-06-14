@@ -24,7 +24,7 @@ efsa_notes:
   de: >-
     Keine zugelassenen EFSA Health Claims für Alpha-Liponsäure. In der EU als Nahrungsergänzungsmittel erhältlich. Arzneimittelform (Thioctacid) für Neuropathie-Therapie zugelassen.
   en: >-
-    NEEDS_EN_TRANSLATION
+    No approved EFSA health claims for alpha-lipoic acid. Available as a dietary supplement in the EU. Pharmaceutical formulation (Thioctacid) is approved for neuropathy therapy.
 
 key_studies:
   - pmid: "7649494"
@@ -36,7 +36,7 @@ key_studies:
       de: >-
         Grundlagenarbeit: ALA recycelt Vitamin C, E, Glutathion und CoQ10 – wird diskutiert als universelles Antioxidans in Mitochondrien.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Basic research: ALA recycles vitamin C, E, glutathione, and CoQ10—discussed as a universal antioxidant in mitochondria.
   - pmid: "29939616"
     title: "Effects of alpha-lipoic acid on metabolic syndrome"
     authors: "Akbari M et al."
@@ -44,9 +44,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/29939616/"
     finding:
       de: >-
-        Meta-Analyse (20 RCTs): ALA war mit niedrigeren Werten verbunden Fasten-Blutzucker, Insulin und CRP signifikant bei Patienten mit metabolischem Syndrom.
+        Meta-Analyse (20 RCTs): ALA war mit signifikant niedrigeren Werten von Fasten-Blutzucker, Insulin und CRP verbunden bei Patienten mit metabolischem Syndrom.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Meta-analysis (20 RCTs): ALA was associated with significantly lower fasting blood glucose, insulin, and CRP in patients with metabolic syndrome.
   - pmid: "26068271"
     title: "Alpha-Lipoic Acid Supplementation and Diabetes"
     authors: "Rochette L et al."
@@ -54,9 +54,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/26068271/"
     finding:
       de: >-
-        Review: ALA war mit Veränderungen verbunden Insulinsensitivität via AMPK-Aktivierung und reduziert oxidativen Stress in Mitochondrien.
+        Review: ALA verbesserte die Insulinsensitivität via AMPK-Aktivierung und reduziert oxidativen Stress in Mitochondrien.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: ALA improved insulin sensitivity via AMPK activation and reduces oxidative stress in mitochondria.
   - pmid: "31137620"
     title: "R-alpha-lipoic acid action on cell proliferation and mitochondrial membrane potential"
     authors: "Salehi B et al."
@@ -64,9 +64,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/31137620/"
     finding:
       de: >-
-        Review präklinisch neurobiologisch interessanter Effekte: R-ALA wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress, Evidenz hauptsächlich präklinisch.
+        Review präklinischer neurobiologischer Effekte: R-ALA wird mit Schutzmechanismen der Neuronen vor oxidativem Stress in Verbindung gebracht, Evidenz hauptsächlich präklinisch.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review of preclinical neurobiological effects: R-ALA is associated with neuroprotective mechanisms against oxidative stress; evidence is primarily preclinical.
 
 locales:
   de:
@@ -105,7 +105,7 @@ locales:
       
       ## Ist ALA sicher?
       
-      Bei 300–600 mg/Tag gilt es als **wahrscheinlich sicher**. Nebenwirkungen bei hohen Dosen: Übelkeit, Ausschlag, Hypoglykämie (Vorsicht bei Menschen mit Diabetesn unter Medikation). Bei Thiamin-Mangel kann ALA kontraproduktiv sein. Nicht gleichzeitig mit Mahlzeiten einnehmen (reduziert Resorption).
+      Bei 300–600 mg/Tag gilt es als **wahrscheinlich sicher**. Nebenwirkungen bei hohen Dosen: Übelkeit, Ausschlag, Hypoglykämie (Vorsicht bei Menschen mit Diabetes unter Medikation). Bei Thiamin-Mangel kann ALA kontraproduktiv sein. Nicht gleichzeitig mit Mahlzeiten einnehmen (reduziert Resorption).
       
       ## Für wen ist ALA besonders relevant?
       
@@ -113,11 +113,45 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Mitochondrial antioxidant with dual water/fat solubility. R-form significantly more bioavailable than racemic mixture. Evidence strongest for diabetic neuropathy.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Well-established for diabetic neuropathy with multiple RCTs supporting pain and sensory symptom improvement. Antioxidant and insulin-sensitizing effects demonstrated in RCTs. Healthy aging effects in non-diabetic populations remain understudied.
     body: |
-      NEEDS_EN_BODY
+      ## What is Alpha-Lipoic Acid?
+
+      Alpha-lipoic acid (ALA) is a sulfur-containing fatty acid that the body produces in small amounts and serves as a **cofactor for mitochondrial enzymes**. Its most distinctive feature is **dual solubility**: ALA is both water- and fat-soluble—this allows it to function as an antioxidant both inside cells and in cell membranes.
+
+      Unlike vitamins C and E, ALA is discussed not only as a direct antioxidant but also as a recycler of other antioxidants (glutathione, vitamin C, vitamin E, CoQ10)—which is why it is sometimes called a **"universal antioxidant."** This recycling function makes it somewhat unique among supplements: it may help regenerate the antioxidant capacity of other compounds rather than simply mopping up free radicals on its own.
+
+      ## R-Form vs. S-Form: A Critical Distinction
+
+      Commercial ALA products often contain a **racemic mixture**—a 50:50 blend of R-ALA and S-ALA. Only the **R-form** occurs naturally in the body and demonstrates significantly higher bioavailability and efficacy in studies. The difference is not trivial: R-ALA reaches target tissues much more effectively than the S-form, and only R-ALA is actually incorporated into mitochondrial enzyme complexes.
+
+      R-ALA is more expensive to produce, but it is the biologically relevant form. **Bottom line for purchasing**: Products labeled simply as "alpha-lipoic acid" without specifying the form usually contain cheap racemic mixture. If the label does not explicitly say "R-ALA" or "R-alpha-lipoic acid," assume you are getting half of an irrelevant enantiomer.
+
+      ## What the Research Actually Shows
+
+      ### Well-Established
+      - **Diabetic neuropathy**: Multiple RCTs demonstrate improvement in pain and sensory disturbances with both intravenous and oral administration. This is the strongest evidence base for ALA. Studies typically used 300–600 mg/day orally or 600 mg intravenously, and benefits appeared after 3–4 weeks.
+      - **Insulin sensitivity**: Meta-analyses show reductions in fasting blood glucose and insulin levels in patients with metabolic dysfunction. The effect size is modest but meaningful—typically a 5–10% improvement in glucose control in people with metabolic syndrome or prediabetes.
+      - **Inflammatory markers**: CRP reduction demonstrated in RCTs in patients with metabolic disease. This aligns with ALA's presumed antioxidant mechanism, though the clinical significance of modest CRP reductions remains unclear.
+
+      ### Promising but Early
+      - **Neuroprotective effects**: Animal models (particularly in Alzheimer's disease) show that ALA can reduce neuroinflammation and support mitochondrial function. Human evidence is sparse and limited to small, short-duration studies.
+      - **Weight reduction**: Modest effects in some RCTs, though not consistent across all trials. When weight loss does occur, it may be secondary to improved glucose control rather than a direct metabolic effect.
+      - **Mitochondrial biogenesis**: Preclinical evidence suggests ALA activates PGC-1α and supports new mitochondrial formation, but this has not been rigorously tested in humans.
+
+      ### Not Demonstrated in Humans
+      - **Direct aging-related effects**: Despite ALA's theoretical role in oxidative stress, no human studies have tested whether it extends healthspan or reverses aging-related decline.
+      - **Endpoints related to healthy aging**: No long-term intervention studies in non-diabetic healthy populations measuring mortality, cardiovascular events, or functional decline.
+
+      ## Is ALA Safe?
+
+      At 300–600 mg/day, ALA is considered **likely safe** in most people. Side effects at higher doses include nausea, rash, and in rare cases, hypoglycemia—particularly problematic in people with diabetes on insulin or sulfonylureas. ALA can enhance insulin action, so dose adjustments to diabetes medications may be necessary if you start supplementing. Additionally, ALA may deplete thiamine (vitamin B1) in susceptible individuals; if you have a known thiamine deficiency, consult a doctor before taking ALA. Finally, do not take ALA with meals, as food significantly reduces its absorption—take it on an empty stomach for optimal bioavailability.
+
+      ## Who Is ALA Most Relevant For?
+
+      The evidence base is strongest for people with metabolic dysfunction—specifically insulin resistance, metabolic syndrome, or prediabetes. These are the populations studied most extensively, and the data supports a modest but measurable benefit. For healthy individuals interested in longevity and healthy aging, the evidence is much weaker. CoQ10, GlyNAC (NAC+glycine), and other compounds have stronger aging-related evidence. ALA may have a place in a metabolic-support stack, but it is not a foundational longevity intervention in the absence of metabolic disease.
 
 relations:
   - relation: wird_eingesetzt_fuer

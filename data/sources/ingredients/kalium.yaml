@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Kalium sind in der EU Claims zu normalem Blutdruck, Muskelfunktion und Nervensystem zugelassen. Aufgrund möglicher Risiken ist Kalium regulatorisch und praktisch sensibler als viele andere Mineralstoffe.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, potassium health claims for normal blood pressure, muscle function and nervous system are authorised. Due to potential risks, potassium is subject to stricter regulatory and practical oversight than most other minerals.
 
 key_studies:
   - pmid: "23635871"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         WHO-nahe Meta-Analyse: Höhere Kaliumzufuhr war mit niedrigeren Werten verbunden Blutdruck, besonders bei Menschen mit Hypertonie.
       en: >-
-        NEEDS_EN_TRANSLATION
+        WHO-adjacent meta-analysis: higher potassium intake was associated with lower blood pressure values, especially in individuals with hypertension.
   - pmid: "25159881"
     title: "Potassium intake and all-cause mortality"
     authors: "O'Donnell M et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Die optimale Kaliumzufuhr hängt vom Kontext ab; Extreme sind nicht automatisch besser.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Optimal potassium intake is context-dependent; extreme levels are not automatically beneficial.
   - pmid: ""
     title: "Potassium"
     authors: "Office of Dietary Supplements, NIH"
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Übersicht zu Nutzen und Risiken. Problematisch vor allem bei Nierenerkrankungen oder bestimmten Medikamenten.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Overview of benefits and risks. Particularly problematic in kidney disease or with certain medications.
 
 locales:
   de:
@@ -90,11 +90,63 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Potassium is essential for blood pressure, nerves and muscles. Often more important via diet than supplementation—and potentially risky when overdosed.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Potassium is essential for blood pressure regulation, nerve conduction and muscle contraction. A potassium-rich diet is comparatively well-studied and associated with cardiovascular benefits. However, supplements are not suitable for everyone and can be dangerous in kidney disease.
     body: |
-      NEEDS_EN_BODY
+      ## What is Potassium?
+
+      Potassium is a major electrolyte—one of the body's most important minerals—with critical roles in:
+
+      - **Blood pressure regulation**: Potassium helps counteract sodium's effect on blood vessel tone and vascular resistance. A higher potassium-to-sodium ratio is associated with better blood pressure control.
+      - **Nerve signaling**: Every nerve impulse depends on the potassium-sodium gradient across nerve cell membranes.
+      - **Muscle and heart function**: Potassium is essential for both skeletal muscle contraction and the electrical activity of the heart. Severe deficiency (hypokalemia) can cause dangerous cardiac arrhythmias.
+
+      The typical adult needs around 2,600–3,400 mg of potassium daily, depending on age and sex. Most foods that are naturally nutrient-dense—bananas, leafy greens, beans, potatoes, avocados, yogurt, fish—are rich in potassium. This is why potassium is often better optimized through diet than through supplements.
+
+      ## What Does the Evidence Support?
+
+      **Blood pressure**: The evidence for potassium and blood pressure is among the strongest mineral evidence. A 2013 meta-analysis by Aburto and colleagues (cited by WHO) showed that higher potassium intake is consistently associated with lower systolic and diastolic blood pressure, particularly in people with existing hypertension. The effect size is modest but clinically meaningful—typically a 3–5 mmHg reduction in systolic pressure for higher intakes.
+
+      **Cardiovascular outcomes**: Some observational studies suggest that higher potassium intake is associated with better overall cardiovascular health and lower mortality. However, this is complicated by the fact that people eating potassium-rich diets (whole grains, fruits, vegetables) also tend to have many other healthy behaviors. Determining potassium's independent contribution is difficult.
+
+      **Muscle and bone health**: Potassium is involved in muscle protein synthesis and may play a role in bone metabolism. The evidence is more limited than for blood pressure, but potassium intake is associated with better muscle and bone markers in observational studies.
+
+      **The counterintuitive finding**: A major 2014 study by O'Donnell and colleagues found that the relationship between potassium and cardiovascular outcomes is not linear. Very high potassium intake was sometimes associated with worse outcomes than moderate intake. This suggests that "more is better" does not apply to potassium—there is an optimal range, and that range depends on individual factors like kidney function and medications.
+
+      ## Why the Caution?
+
+      Unlike many minerals that are broadly safe at high doses (excess is often simply excreted), potassium accumulation in the blood can be dangerous. **Hyperkalemia**—abnormally high blood potassium—can cause:
+
+      - Dangerous heart rhythms (arrhythmias)
+      - Muscle weakness
+      - Cardiac arrest in severe cases
+
+      **Who is at risk?**
+
+      - **People with kidney disease**: The kidneys regulate potassium excretion. Even modest supplementation can be dangerous.
+      - **Users of ACE inhibitors or ARBs** (common blood pressure medications): These drugs reduce potassium excretion and substantially increase hyperkalemia risk.
+      - **Users of potassium-sparing diuretics**: Medications like spironolactone intentionally reduce potassium loss; additional potassium raises risk dramatically.
+      - **Older adults**: Kidney function declines with age, and many take multiple medications that affect potassium handling.
+      - **People with diabetes**: Especially those on certain medications.
+
+      ## Practical Considerations for Supplementation
+
+      Most healthy people eating a reasonably varied diet get adequate potassium from food and do not need supplements. Supplements are primarily useful in specific medical contexts:
+
+      - **Clinical hypokalemia** (low blood potassium), which must be managed under medical supervision.
+      - **Certain medication interactions**, but again, this requires medical guidance.
+
+      If you are considering potassium supplementation:
+
+      1. **Check your medications**: Ask your doctor if anything you take affects potassium handling.
+      2. **Know your kidney function**: A simple blood test (creatinine, eGFR) tells you whether your kidneys handle potassium normally.
+      3. **Do not self-supplement with high-dose forms**: Potassium supplements sold over-the-counter are typically limited to 100 mg per tablet (US regulations) precisely because of hyperkalemia risk.
+      4. **Eat more potassium-rich whole foods**: If you want more potassium, eating more vegetables, fruits, legumes and nuts is safer and includes other beneficial compounds.
+
+      ## The Bottom Line
+
+      Potassium is genuinely essential—you cannot be healthy without it—but that does not mean more is always better. The best approach for most people is to ensure adequate intake through a varied, whole-foods diet rich in fruits, vegetables and legumes. Supplementation should only be considered under medical supervision, especially if you have kidney disease or take medications that affect potassium balance. The evidence strongly supports dietary potassium for blood pressure and cardiovascular health, but indiscriminate high-dose supplementation can be risky and is not supported by evidence.
 
 relations:
   - relation: wird_eingesetzt_fuer

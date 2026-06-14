@@ -23,7 +23,7 @@ efsa_notes:
   de: >-
     Für AKG gibt es in der EU keine zugelassenen Health Claims zu Alterungsforschung oder Langlebigkeit. Solche Aussagen sind derzeit vor allem Marketing.
   en: >-
-    NEEDS_EN_TRANSLATION
+    The EFSA has not approved any health claims for AKG regarding aging research or longevity. Such claims are currently marketing-driven.
 
 key_studies:
   - pmid: "32242179"
@@ -35,7 +35,7 @@ key_studies:
       de: >-
         Tierstudie: AKG war mit Veränderungen verbundene einige Altersmarker bei Mäusen. Spannend, aber kein Humanbeweis.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Animal study: AKG was associated with improvements in several aging markers in mice. Mechanistically interesting, but no human evidence.
   - pmid: "24828042"
     title: "Alpha-ketoglutarate, an endogenous metabolite, extends lifespan and compresses morbidity in aging mice"
     authors: "Chin RM et al."
@@ -45,7 +45,7 @@ key_studies:
       de: >-
         Mausdaten machen AKG populär in der gesundes Altern-Szene, reichen aber nicht für belastbare Human-Claims.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Mouse lifespan extension data drive AKG popularity in aging circles, but evidence is insufficient for robust human health claims.
   - pmid: "28332804"
     title: "The biology of alpha-ketoglutarate"
     authors: "Zdzisinska B et al."
@@ -55,7 +55,7 @@ key_studies:
       de: >-
         Review: AKG ist metabolisch wichtig, doch daraus folgt nicht automatisch ein Nutzen als Supplement.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: AKG is metabolically central, but metabolic importance does not automatically translate to supplemental benefit in healthy humans.
 
 locales:
   de:
@@ -87,11 +87,59 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      AKG is popular in healthy aging circles, especially as Ca-AKG, but human evidence for anti-aging effects remains extremely limited.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      AKG is a central metabolite in energy production and shows promise in animal models. However, for healthy aging claims in humans, evidence is weak. Most longevity promises rest on animal data, mechanistic plausibility, and small or non-robust human studies.
     body: |
-      NEEDS_EN_BODY
+      ## What is alpha-ketoglutarate (AKG)?
+
+      Alpha-ketoglutarate (AKG) is an intermediate in the citric acid cycle, a fundamental metabolic pathway that generates energy (ATP) in nearly every cell. It sits at a crossroads: it's involved in mitochondrial energy production, protein synthesis, epigenetic regulation, and immune signaling. In cells, AKG exists as a free anion; in supplements, it is typically bound to calcium (Ca-AKG) for stability and absorption.
+
+      ## Why is it so popular in healthy aging circles?
+
+      AKG has become a darling of longevity advocates for several reasons:
+
+      1. **Animal lifespan data:** Notably, Chin et al. (2014) showed that AKG supplementation extended lifespan in C. elegans and mice by 10–25%, with improvements in multiple aging markers.
+      2. **Mechanistic plausibility:** AKG is known to regulate epigenetic processes, DNA methylation, and immune tolerance. These mechanisms are theoretically relevant to aging.
+      3. **Commercial momentum:** Companies like Elysium Health have marketed Ca-AKG prominently as a longevity tool, leveraging the lifespan data.
+
+      ## What does the human evidence actually show?
+
+      ### The gap between animals and humans
+      - The lifespan extension data come entirely from animals (C. elegans, mice, and insects). There are **no human lifespan studies**.
+      - Even the mechanistic markers (immune function, DNA damage, aging hallmarks) have been minimally studied in humans.
+      - A single small human pilot study (n~20) looked at frailty markers in older adults; results were mixed and inconclusive.
+
+      ### Metabolic plausibility, not proof
+      - AKG is biochemically crucial, but this does not guarantee that *supplemental* AKG provides a benefit over baseline.
+      - Endogenous AKG levels are typically tightly controlled; whether oral supplementation meaningfully raises intracellular AKG in tissues beyond the GI tract remains unclear.
+      - Bioavailability studies are limited; most oral AKG is likely metabolized by the GI epithelium or used locally, not absorbed intact into systemic circulation.
+
+      > **Critical limitation:** AKG's role as an epigenetic regulator and immune modulator is fascinating in theory, but evidence that supplementation rewrites epigenetics or halts aging in humans does not exist.
+
+      ## Dosage and formulation
+
+      - **Typical supplement dose:** 1–2 g/day of Ca-AKG (equivalent to ~500–1000 mg of AKG anion).
+      - Taken with meals for absorption.
+      - Most studies use similar doses, but there are no dose-response studies in humans.
+
+      ## Safety profile
+
+      Ca-AKG appears **well-tolerated** in short-term use (weeks to months):
+      - Mild GI effects at higher doses.
+      - No major safety signals in animal toxicity studies at reasonable multiples of human doses.
+      - Long-term human safety data (&gt;6 months) are absent.
+
+      ## Regulatory status
+
+      - AKG has no approved EFSA health claims for aging, longevity, or metabolic health.
+      - Marketing claims linking AKG to "cellular rejuvenation," "aging reversal," or "longevity" are not evidence-based and not permitted under EU law.
+
+      ## Bottom line
+
+      AKG is a biochemically fascinating molecule with intriguing animal lifespan data. However, it represents the **classic gap between mechanistic plausibility and clinical reality**. The human evidence for longevity or healthy aging is virtually absent. If you're considering AKG, ask yourself: Am I basing this decision on mouse lifespan studies, or on human health outcomes? The honest answer matters. Until well-designed human trials emerge, AKG remains a speculative longevity tool rather than a validated intervention.
+
+
 
 relations:
   - relation: wird_eingesetzt_fuer

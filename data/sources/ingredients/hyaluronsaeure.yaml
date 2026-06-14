@@ -23,7 +23,7 @@ efsa_notes:
   de: >-
     Für orale Hyaluronsäure existieren in der EU keine zugelassenen Health Claims nach VO (EG) 1924/2006. Aussagen zu Hautverjüngung oder Gelenkschutz sind regulatorisch nicht erlaubt.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, there are no approved health claims for oral hyaluronic acid under Regulation (EC) 1924/2006. Claims regarding skin rejuvenation or joint protection are not permitted under regulation.
 
 key_studies:
   - pmid: "40911749"
@@ -35,7 +35,7 @@ key_studies:
       de: >-
         Meta-Analyse über 7 RCTs: statistisch signifikante Verbesserungen in Hautfeuchtigkeit, Elastizität und Faltentiefe. Trends für TEWL und Faltenvolumen ohne Signifikanz. Fazit: moderate, konsistente Haut-Effekte bei oraler HA.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Meta-analysis of 7 RCTs: statistically significant improvements in skin hydration, elasticity, and wrinkle depth. Trends for TEWL and wrinkle volume without significance. Conclusion: moderate, consistent skin effects with oral HA.
   - pmid: "41422283"
     title: "Oral sodium hyaluronate improves skin hydration, barrier function and signs of aging"
     authors: "Dolečková I et al."
@@ -45,7 +45,7 @@ key_studies:
       de: >-
         RCT, n=150, 120 mg/Tag Natriumhyaluronat (1,8 MDa) über 12 Wochen: signifikant verbesserte Hautfeuchtigkeit, reduzierte TEWL, verringerte periorbitale Faltentiefe, erhöhte Epidermisdicke und NMF-Spiegel.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT, n=150, 120 mg/day sodium hyaluronate (1.8 MDa) for 12 weeks: significantly improved skin hydration, reduced TEWL, decreased periorbital wrinkle depth, increased epidermal thickness and NMF levels.
   - pmid: "34933842"
     title: "Oral intake of a new full-spectrum hyaluronan improves skin profilometry and ageing"
     authors: "Michelotti A et al."
@@ -55,7 +55,7 @@ key_studies:
       de: >-
         RCT, n=60 Frauen, 200 mg/Tag Full-Spectrum-Hyaluronan, 28 Tage: Hautfeuchtigkeit +10,6 %, Faltentiefe −18,8 %, Faltenvolumen −17,6 %, Elastizität +5,1 %. Alle Parameter statistisch signifikant.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT, n=60 women, 200 mg/day full-spectrum hyaluronate, 28 days: skin hydration +10.6%, wrinkle depth −18.8%, wrinkle volume −17.6%, elasticity +5.1%. All parameters statistically significant.
   - pmid: "25013132"
     title: "Ingestion of hyaluronan relieves wrinkles: a double-blinded, placebo-controlled study"
     authors: "Kawada C et al."
@@ -65,7 +65,7 @@ key_studies:
       de: >-
         RCT, n=96, 120–240 mg/Tag orales Hyaluronan, 12 Wochen: signifikante Verbesserung der Hautfeuchtigkeit und Unterdrückung der Faltenbildung gegenüber Placebo.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT, n=96, 120–240 mg/day oral hyaluronate, 12 weeks: significant improvement in skin hydration and suppression of wrinkle formation versus placebo.
   - pmid: ""
     title: "Effect of oral hyaluronic acid supplementation on knee osteoarthritis pain"
     authors: "Kalman DS et al."
@@ -74,7 +74,7 @@ key_studies:
       de: >-
         Kleine Pilot-Studie bei Knieschmerzen: Hinweise auf Schmerzreduktion nach oraler HA, aber begrenzte Stichprobengröße und keine Replikation in größeren unabhängigen Trials.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Small pilot study in knee pain: evidence of pain reduction with oral HA, but limited sample size and no replication in larger independent trials.
 
 locales:
   de:
@@ -252,11 +252,174 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Endogenous glycosaminoglycan with high water-binding capacity. Multiple RCTs demonstrate moderate effects on skin hydration and wrinkle reduction; oral joint data weaker.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Multiple RCTs demonstrate moderate but consistent effects on skin hydration, elasticity, and wrinkle reduction at oral doses of 120–240 mg/day. A 2025 meta-analysis of 7 RCTs confirms statistically significant improvements for skin. Joint data rely on weaker studies and are less convincing.
     body: |
-      NEEDS_EN_BODY
+      ## What is Hyaluronic Acid?
+
+      Hyaluronic acid (hyaluronate, HA) is an **endogenous glycosaminoglycan**—a long chain of sugar molecules (disaccharide units composed of glucuronic acid and N-acetylglucosamine) that naturally occurs in the human body. Its outstanding property: it can bind up to 1,000 times its own weight in water, making it one of the most effective biological hydration reservoirs.
+
+      ### Distribution in the Body
+
+      - **Skin (~50% of the total HA pool)**: dermis and epidermis, responsible for tissue hydration, structural support, and wound healing
+      - **Joint cartilage and synovial fluid**: buffer and lubricant in the joint
+      - **Eyes**: the vitreous humor is largely composed of HA
+      - **Connective tissue**: carrier medium in the extracellular matrix
+
+      ### Age-Related Decline
+
+      Beginning around age 25, endogenous HA synthesis declines continuously. By age 50, skin contains approximately half the HA of a 20-year-old. This decline is considered one of the biochemical drivers of skin dryness, loss of elasticity, and wrinkle formation.
+
+      ---
+
+      ## Mechanism: How Does Oral Hyaluronic Acid Work?
+
+      For a long time it was controversial whether orally ingested HA could be effective at all—the stomach and intestines normally break down high-molecular-weight polymers. Recent research has clarified this mechanism.
+
+      ### Absorption and Distribution
+
+      Orally ingested HA is broken down in the intestines by hyaluronidases into smaller oligosaccharides and disaccharides. These fragments are demonstrably absorbed and enter the bloodstream. Radioisotope-labeled studies show that HA degradation products subsequently accumulate preferentially in skin fibroblasts.
+
+      ### Stimulation of Endogenous HA Synthesis
+
+      Low-molecular-weight HA oligosaccharides act as signaling molecules and can stimulate the expression of HA synthases (HAS1, HAS2) in fibroblasts—endogenous HA production is stimulated, not simply replaced from outside.
+
+      ### Molecular Weight: High-MW vs. Low-MW vs. Hydrolysate
+
+      | Type | Molecular Weight | Oral Bioavailability | Remark |
+      |---|---|---|---|
+      | High-MW HA | &gt;1,000 kDa | poor | Poor absorption, better for topical application |
+      | Low-MW HA | &lt;50 kDa | better | Passes intestinal barrier more easily |
+      | Hydrolyzed HA | variable | best | Specifically optimized for oral supplements |
+      | Full-spectrum HA | broad spectrum | good | All MW fractions; examined in Michelotti 2021 |
+
+      For oral supplements, hydrolyzed or low-molecular-weight HA is therefore recommended—or full-spectrum formulations that cover all size fractions.
+
+      ---
+
+      ## Evidence Base: Skin
+
+      ### Overview
+
+      The evidence for oral HA in skin aging has substantially increased between 2014 and 2025. There are at least 7 randomized, controlled trials (RCTs) that have been summarized in a meta-analysis.
+
+      ### Meta-Analysis 2025 (Amin et al., PMID 40911749)
+
+      The most comprehensive review to date pooled data from 7 RCTs and found **statistically significant improvements** for:
+      - Skin hydration
+      - Skin elasticity
+      - Wrinkle depth
+
+      Not significant but with positive trend: transepidermal water loss (TEWL), wrinkle volume, skin firmness. The authors emphasize that heterogeneous study designs (different HA types, dosages, measurement methods) limit comparability and larger follow-up studies are needed.
+
+      ### RCT 2025: Dolečková et al. (PMID 41422283)
+
+      Currently one of the methodologically strongest individual studies on oral HA:
+
+      - **Design**: Randomized, double-blind, placebo-controlled
+      - **N = 150** healthy Caucasian adults
+      - **Intervention**: Sodium hyaluronate (1.8 MDa), 60 mg or 120 mg/day, **12 weeks**
+      - **Results at 120 mg/day**:
+        - Significantly improved skin hydration at multiple body sites
+        - Reduced TEWL (barrier function improved)
+        - Decreased periorbital wrinkle depth
+        - Increased epidermal thickness and dermal density on ultrasound
+        - Elevated NMF levels (Natural Moisturizing Factor)
+
+      The 60-mg group showed similar but weaker effects. No changes in colorimetric parameters or pore size.
+
+      ### RCT 2021: Michelotti et al. (PMID 34933842)
+
+      - **Design**: Randomized, double-blind, placebo-controlled
+      - **N = 60** women with mild to moderately aged skin
+      - **Intervention**: 200 mg/day full-spectrum hyaluronate, **28 days**
+      - **Results**:
+        - Skin hydration: **+10.6%**
+        - Wrinkle depth: **−18.8%**
+        - Wrinkle volume: **−17.6%**
+        - Elasticity/firmness: **+5.1%**
+
+      All measured parameters showed statistically significant improvements. Notably, these effects occurred within 4 weeks.
+
+      ### RCT 2014: Kawada et al. (PMID 25013132)
+
+      - **Design**: Randomized, double-blind, placebo-controlled
+      - **N = 96** subjects
+      - **Intervention**: 120 or 240 mg/day oral hyaluronate, **12 weeks**
+      - **Results**: Significant improvement in skin hydration and suppression of wrinkle formation versus placebo. One of the first larger RCTs on oral HA supplementation.
+
+      ### Assessment
+
+      The evidence base for skin is comparatively solid for a dietary supplement. The effects are **consistent but moderate**—no dramatic transformations, but repeatedly measurable improvements. Important limitations:
+
+      - Studies typically last 4–12 weeks; long-term data are lacking
+      - Many studies are financed by manufacturers
+      - HA type, molecular weight, and dosage vary substantially between studies
+      - Measurement methods (profilometry, corneometry, ultrasound) are not always directly comparable
+
+      ---
+
+      ## Evidence Base: Joints
+
+      The evidence for oral HA in joint complaints is **substantially weaker** than for skin.
+
+      Kalman et al. (2008) examined oral HA in knee pain in a pilot study and found evidence of pain relief—however, the sample size was small and independent replications are lacking. Intra-articular HA injections (injected directly into the joint) are clinically much better documented, but this evidence is not transferable to oral supplements.
+
+      The mechanism via the intestinal barrier to synovial fluid is biologically plausible but has been little directly investigated. Those specifically seeking joint support have collagen peptides as a somewhat better-documented alternative.
+
+      ---
+
+      ## Dosage & Administration
+
+      | Parameter | Recommendation |
+      |---|---|
+      | **Typical dose** | 80–240 mg/day (well-studied: 120–200 mg) |
+      | **Preferred form** | Hydrolyzed or low-molecular-weight (&lt;300 kDa) for better absorption |
+      | **Time of intake** | No known preferences; with or without food |
+      | **Onset of action** | First effects after ~4 weeks, complete after 8–12 weeks |
+
+      The study by Dolečková et al. (2025) shows that 120 mg/day can be just as effective as higher doses. 240 mg offer no clearly stronger effect by current standards.
+
+      ---
+
+      ## EFSA & Regulation in the EU
+
+      In the EU, **no health claims under Regulation (EC) 1924/2006** are approved for oral hyaluronic acid. This means specifically:
+
+      **Not permitted on product packaging or in advertising:**
+      - "Improves skin and joints"
+      - "Reduces wrinkles"
+      - "Prevents joint degeneration"
+
+      **What can be communicated:**
+      - Neutral ingredient declaration on the label
+      - Description of the substance (glycosaminoglycan, endogenous)
+      - Study citations that are clearly identifiable as such
+
+      Anyone buying hyaluronic acid supplements in Germany should know that all skin care and joint promises on the packaging are **not legally covered**—even if the research shows the basic potential.
+
+      ---
+
+      ## Safety
+
+      Oral hyaluronic acid is considered well-tolerated. No serious adverse effects were reported in clinical studies. Mild gastrointestinal complaints were occasionally mentioned, occurring rarely.
+
+      ### Theoretical Caveat: Tumor Biology
+
+      In the scientific literature, there are indications that hyaluronic acid may promote the growth of certain tumors—HA receptors such as CD44 are overexpressed in some cancer cell types. Whether this effect comes into play with oral supplementation at physiologically relevant amounts is **not established** and remains theoretical. People with existing cancer should consult their doctor before taking this supplement.
+
+      ### Contraindications and Interactions
+
+      - No known interactions with standard medications
+      - Pregnancy and lactation: no human data on oral supplementation—caution recommended
+      - Tumor diseases: theoretical precautionary principle (see above)
+
+      ---
+
+      ## Conclusion
+
+      Hyaluronic acid is **neither a hype supplement without substance nor a miracle cure**. The evidence base for oral intake and skin parameters is now among the more solid in the field of cosmetic dietary supplements—multiple RCTs with consistent results, summarized in a 2025 meta-analysis. For joints, the evidence remains weak.
 
 relations:
   - relation: wird_eingesetzt_fuer
