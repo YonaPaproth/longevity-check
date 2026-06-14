@@ -244,4 +244,16 @@ const researchReview = defineCollection({
   }),
 });
 
-export const collections = { ingredients, products, claims, enIngredients, enProducts, enClaims, researchReview };
+const enResearchReview = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/en/research-review' }),
+  schema: z.object({
+    title: z.string(),
+    slug,
+    publishedAt: z.coerce.date(),
+    summary: z.string().max(220),
+    status: z.enum(['draft', 'published', 'experimental']).default('draft'),
+    tags: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { ingredients, products, claims, enIngredients, enProducts, enClaims, researchReview, enResearchReview };
