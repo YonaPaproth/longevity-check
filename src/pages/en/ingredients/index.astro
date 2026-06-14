@@ -1,81 +1,130 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import EvidenceBadge from '../../../components/EvidenceBadge.astro';
 import EvidenceResearchIllustration from '../../../components/illustrations/EvidenceResearchIllustration.astro';
+import CategoryIllustration from '../../../components/illustrations/CategoryIllustration.astro';
 import { getCollection } from 'astro:content';
+import { readFileSync } from 'fs';
 
+// Load KG data
+const indexData = JSON.parse(readFileSync('data/index.json', 'utf-8'));
+const symptoms = indexData.symptoms as string[];
+
+// Load all symptom entities + their relations
+const symptomData = symptoms.map(id => {
+  const entity = JSON.parse(readFileSync(`data/entities/symptoms/${id}.json`, 'utf-8'));
+  const rels = JSON.parse(readFileSync(`data/relations/by-entity/${id}.json`, 'utf-8'));
+  const ingredientIds = rels.relations
+    .filter((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.direction === 'incoming')
+    .map((r: any) => r.target);
+  return { ...entity, ingredientCount: ingredientIds.length, ingredientIds };
+}).sort((a, b) => b.ingredientCount - a.ingredientCount);
+
+// Load EN ingredient entities for display
 const ingredients = await getCollection('enIngredients');
-const sorted = [...ingredients].sort((a, b) =>
-  Number(a.data.evidenceLevel) - Number(b.data.evidenceLevel) ||
-  a.data.title.localeCompare(b.data.title, 'en')
-);
+const ingredientMap = new Map(ingredients.map(i => [i.data.slug, i.data]));
+
+const symptomLabels: Record<string, string> = {
+  'schlaf': 'Sleep',
+  'energie': 'Energy',
+  'kognition': 'Cognition',
+  'immunsystem': 'Immune System',
+  'entzuendung': 'Inflammation',
+  'blutdruck': 'Blood Pressure',
+  'blutzucker': 'Blood Sugar',
+  'stress': 'Stress',
+  'depression': 'Mood',
+  'herz-kreislauf': 'Cardiovascular',
+  'gelenke': 'Joints',
+  'haut': 'Skin',
+  'muskel': 'Muscle',
+  'verdauung': 'Digestion',
+  'alterung': 'Aging',
+  'oxidativer-stress': 'Oxidative Stress',
+  'knochen': 'Bone',
+  'augen': 'Eyes',
+  'leber': 'Liver',
+  'schilddruese': 'Thyroid',
+  'fertilitat': 'Fertility',
+  'migraene': 'Migraine',
+  'neuroprotektiv': 'Neuroprotective',
+};
 ---
 
 <BaseLayout
   title="Ingredient Dossiers | MikroScore"
-  description="Evidence-based dossiers for longevity supplement ingredients — rated by study quality, EFSA status, and safety profile."
+  description="Which supplements have been studied for which effects? 112 ingredients, sorted by research area."
   locale="en"
   hreflang={{ de: '/wirkstoffe', en: '/en/ingredients' }}
 >
-  <div class="max-w-5xl mx-auto px-4 py-10">
+  <div class="max-w-5xl mx-auto px-4 py-12">
 
-    <nav class="text-xs text-slate-400 mb-6">
-      <a href="/en" class="hover:text-teal-600">Home</a>
-      <span class="mx-2">/</span>
-      <span class="text-slate-600">Ingredients</span>
-    </nav>
-
-    <!-- Illustration banner -->
-    <div class="rounded-2xl overflow-hidden border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-teal-50/40 mb-8 px-4 py-3">
-      <div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-1.5">Evidence-based ingredient research</div>
-      <EvidenceResearchIllustration />
-    </div>
-
-    <div class="mb-6">
-      <h1 class="text-3xl font-bold text-slate-900 mb-3">Ingredient Dossiers</h1>
-      <p class="text-slate-600 max-w-2xl">
-        {sorted.length} ingredient{sorted.length !== 1 ? 's' : ''} rated by study quality, EFSA health claim status, and safety profile. Sorted by evidence strength — level 1 means multiple consistent human RCTs, level 5 means no credible human evidence.
-      </p>
-    </div>
-
-    <!-- Evidence level legend -->
-    <div class="flex flex-wrap gap-2 mb-8">
-      {[
-        { level: '1', label: 'Strong', color: 'bg-emerald-100 text-emerald-700 border-emerald-200' },
-        { level: '2', label: 'Moderate', color: 'bg-lime-100 text-lime-700 border-lime-200' },
-        { level: '3', label: 'Limited', color: 'bg-yellow-100 text-yellow-700 border-yellow-200' },
-        { level: '4', label: 'Weak', color: 'bg-orange-100 text-orange-700 border-orange-200' },
-        { level: '5', label: 'None', color: 'bg-red-100 text-red-700 border-red-200' },
-      ].map(({ level, label, color }) => (
-        <span class:list={['text-xs font-medium px-2.5 py-1 rounded-full border', color]}>
-          {level} — {label}
-        </span>
-      ))}
-      <a href="/en/methodology" class="text-xs text-slate-400 hover:text-teal-600 self-center ml-1 no-underline">What do these mean? →</a>
-    </div>
-
-    {sorted.length === 0 ? (
-      <div class="bg-slate-50 border border-slate-200 rounded-xl p-8 text-center">
-        <p class="text-slate-500 mb-2">English ingredient dossiers are being added.</p>
-        <p class="text-xs text-slate-400 mb-4">German dossiers are available in the meantime.</p>
-        <a href="/wirkstoffe" class="inline-block text-sm text-teal-600 hover:underline">Browse German dossiers →</a>
-      </div>
-    ) : (
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {sorted.map(ing => (
-          <a
-            href={`/en/ingredients/${ing.data.slug}`}
-            class="bg-white rounded-xl border border-slate-200 p-5 hover:border-teal-400 hover:shadow-sm transition-all no-underline group"
-          >
-            <div class="flex justify-between items-start mb-3">
-              <h2 class="font-semibold text-slate-800 group-hover:text-teal-700 text-sm pr-2">{ing.data.title}</h2>
-              <EvidenceBadge locale="en" level={ing.data.evidenceLevel} showLabel={false} />
+    <!-- Header with illustration -->
+    <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-8">
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.07),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(15,23,42,0.04),transparent_28%)]"></div>
+      <div class="relative p-6 md:p-8">
+        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-3">Evidence-Based Ingredient Research</div>
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+          <div>
+            <div class="flex items-baseline gap-3 mb-2">
+              <h1 class="text-3xl font-bold text-slate-900">Ingredient Dossiers</h1>
+              <span class="text-sm text-slate-400">{ingredients.length} ingredients</span>
             </div>
-            <p class="text-xs text-slate-500 leading-relaxed">{ing.data.summary}</p>
-          </a>
-        ))}
+            <p class="text-slate-600 max-w-xl">Which ingredients have been studied for which effects? Choose a research area or browse all dossiers.</p>
+          </div>
+          <div class="w-full md:w-72 shrink-0">
+            <div class="mx-auto w-full max-w-[220px] md:max-w-none">
+              <EvidenceResearchIllustration />
+            </div>
+          </div>
+        </div>
       </div>
-    )}
+    </div>
+
+    <!-- Quick link: all ingredients -->
+    <a href="/en/ingredients/all" class="group flex items-center justify-between bg-gradient-to-r from-slate-50 to-white border border-slate-200 rounded-xl px-5 py-4 mb-6 hover:border-teal-400 hover:shadow-sm transition-all">
+      <div class="flex items-center gap-3">
+        <span class="text-xl">📋</span>
+        <div>
+          <span class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">Browse all {ingredients.length} ingredients</span>
+          <p class="text-sm text-slate-500">Complete list with filters by category and evidence level</p>
+        </div>
+      </div>
+      <span class="text-teal-600 group-hover:translate-x-1 transition-transform text-lg">→</span>
+    </a>
+
+    <!-- Symptom Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {symptomData.map(symptom => (
+        <a href={`/en/ingredients/by-effect/${symptom.id}`} class="group block overflow-hidden bg-white border border-slate-200 rounded-2xl hover:border-teal-300 hover:shadow-md transition-all">
+          <div class="aspect-[16/4.4] sm:aspect-[16/5.4] lg:aspect-[16/6.2] bg-gradient-to-br from-slate-50 via-white to-teal-50/60 border-b border-slate-100 p-2.5 sm:p-3.5">
+            <div class="mx-auto h-full w-full max-w-[160px] sm:max-w-[190px] lg:max-w-[220px]">
+              <CategoryIllustration category={symptom.id} />
+            </div>
+          </div>
+          <div class="p-4 sm:p-5">
+            <div class="flex items-start justify-between mb-3 gap-3">
+              <h2 class="text-lg font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">
+                {symptomLabels[symptom.id] || symptom.name}
+              </h2>
+              <span class="shrink-0 text-xs font-medium bg-teal-50 text-teal-700 px-2 py-0.5 rounded-full">
+                {symptom.ingredientCount} ingredients
+              </span>
+            </div>
+            <div class="flex flex-wrap gap-1.5">
+              {symptom.ingredientIds.slice(0, 5).map((id: string) => {
+                const ing = ingredientMap.get(id);
+                return ing ? (
+                  <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">{ing.title}</span>
+                ) : null;
+              })}
+              {symptom.ingredientCount > 5 && (
+                <span class="text-xs text-slate-400">+{symptom.ingredientCount - 5} more</span>
+              )}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
 
   </div>
 </BaseLayout>
