@@ -9,6 +9,7 @@ export const de = {
     claimsCheck:   { label: 'Claims-Check',      href: '/claims' },
     methodology:   { label: 'Methodik',          href: '/methodik' },
     graph:         { label: 'Wissensgraph',      href: '/graph' },
+    stackBuilder:  { label: 'Stack Builder',      href: '/stack-builder' },
     researchReview:{ label: 'Neue Forschung',    href: '/research-review' },
     langSwitch:    { label: 'EN', href: '/en' },
   },
