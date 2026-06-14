@@ -126,7 +126,7 @@ const efsaStatus = d.efsa_health_claims_allowed
     <!-- Header -->
     <div class="mb-8">
       <div class="flex flex-wrap gap-2 mb-3">
-        <EvidenceBadge level={d.evidenceLevel} />
+        <EvidenceBadge locale="en" level={d.evidenceLevel} />
         <span class:list={['rounded-full px-2.5 py-1 text-xs font-medium', safetyStyle[d.safety_rating]]}>
           Safety: {safetyLabel[d.safety_rating]}
         </span>
@@ -146,7 +146,7 @@ const efsaStatus = d.efsa_health_claims_allowed
     <div class="bg-white border border-slate-200 rounded-xl p-5 mb-6 shadow-sm">
       <div class="flex items-center gap-2 mb-2">
         <span class="text-xs font-semibold uppercase tracking-wide text-slate-400">Summary</span>
-        <EvidenceBadge level={d.evidenceLevel} />
+        <EvidenceBadge locale="en" level={d.evidenceLevel} />
       </div>
       <p class="text-base font-medium text-slate-800 leading-relaxed">{d.summary}</p>
     </div>

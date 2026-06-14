@@ -63,7 +63,7 @@ const safetyStyle: Record<string, string> = {
       {matched.map((ing: any) => (
         <a href={`/en/ingredients/${ing.slug}`} class="group flex items-center justify-between bg-white border border-slate-200 rounded-xl px-5 py-4 hover:border-teal-300 hover:shadow-sm transition-all">
           <div class="flex items-center gap-4">
-            <EvidenceBadge level={ing.evidenceLevel} />
+            <EvidenceBadge locale="en" level={ing.evidenceLevel} />
             <div>
               <h2 class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">{ing.title}</h2>
               <p class="text-sm text-slate-500 line-clamp-1">{ing.summary}</p>
