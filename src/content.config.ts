@@ -59,6 +59,9 @@ const products = defineCollection({
     title: z.string(),
     slug,
     ingredient: z.string(),
+    containedIngredients: z.array(z.object({
+      slug: z.string(),
+    })).optional(),
     vendor: z.string(),
     vendorUrl: z.string().url().optional(),
     affiliateUrl: z.string().url().optional(),
