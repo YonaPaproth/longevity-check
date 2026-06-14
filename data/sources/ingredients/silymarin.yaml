@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Silymarin bzw. Mariendistel gibt es in der EU keine frei schwebenden zugelassenen Claims zu Entgiftung oder Leberreinigung im Supplement-Marketing-Stil.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, there are no standalone approved health claims for silymarin or milk thistle regarding detoxification or liver cleansing in supplement marketing style.
 
 key_studies:
   - pmid: "29562618"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Review: potenziell nützlich in bestimmten Leberkontexten, aber heterogene klinische Evidenz.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: potentially useful in certain liver contexts, but heterogeneous clinical evidence.
   - pmid: "28137772"
     title: "Silymarin and the liver"
     authors: "Federico A et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Biologisch plausibel, aber klinischer Nutzen ist nicht in allen Settings überzeugend gezeigt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Biologically plausible, but clinical benefit is not convincingly demonstrated in all settings.
   - pmid: "21738288"
     title: "Herbal products for nonalcoholic fatty liver disease"
     authors: "Loguercio C et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Leberbezogene Pflanzenstoffe wie Silymarin sind interessant, aber nicht gleichzusetzen mit gesicherten medizinischen Kontextn.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Liver-related plant compounds like silymarin are interesting, but not equivalent to established medical contexts.
 
 locales:
   de:
@@ -82,11 +82,72 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Silymarin is the classic liver compound. Evidence exists but is considerably mixed compared to its reputation in detox and liver support products.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Silymarin has primarily been studied for liver-related questions. There is biological plausibility and some positive data, but no robust foundation for broad detoxification or healthy aging claims.
     body: |
-      NEEDS_EN_BODY
+      ## What is Silymarin?
+
+      Silymarin is a mixture of flavonolignans extracted from the seeds of *Silybum marianum*, commonly known as milk thistle. The main active compound is silibinin, which accounts for approximately 50% of the silymarin complex. The extract also contains other flavonoids, including silidianin and silicristin. Silymarin has a long history in European herbal medicine, particularly in Germany where it has been used for centuries in traditional remedies for liver complaints.
+
+      The plant itself is native to the Mediterranean region but has naturalized throughout Europe and North America. The distinctive purple flowers and white-spotted leaves made milk thistle easily recognizable to medieval herbalists, who used it to treat liver and gallbladder disorders. Modern supplements typically contain standardized extracts providing 70–80% silymarin by weight.
+
+      ## Why Silymarin Became Popular
+
+      Silymarin occupies a peculiar position in supplement marketing. It has a degree of scientific credibility that many botanical extracts lack, yet it has also become conflated with detoxification narratives that exceed what the evidence supports.
+
+      Part of its appeal lies in its mechanism of action: silymarin exhibits antioxidant and anti-inflammatory properties in cellular models, inhibits lipid peroxidation, and modulates several signaling pathways (NF-κB, TNF-α). These properties are biologically interesting and provide a mechanistic rationale for hepatoprotection. However, mechanism in cells is not the same as efficacy in humans.
+
+      The extract became particularly popular in the 1980s–2000s as liver health and "detoxification" entered mainstream wellness discourse. The notion that modern life exposes us to toxins that require active removal—and that supplements can facilitate this removal—fit silymarin into a compelling narrative. Marketing materials began positioning it as a hepatic protective agent against pollution, alcohol, medications, and metabolic stress.
+
+      ## The Clinical Evidence: What We Actually Know
+
+      The evidence base for silymarin is modest in size and heterogeneous in quality. Most studies have focused on specific liver pathologies rather than healthy aging or preventive "detox."
+
+      **Chronic Liver Disease:** Several small to medium-sized randomized controlled trials have examined silymarin in chronic hepatitis C, alcoholic liver disease, and nonalcoholic fatty liver disease (NAFLD). Results have been inconsistent. Some trials showed modest improvements in liver enzyme levels (ALT, AST) or histological markers of inflammation, while others found no significant benefit. A 2018 systematic review (Abenavoli et al., published in *Phytotherapy Research*) concluded that silymarin is "potentially useful" in certain liver contexts but acknowledged "heterogeneous clinical evidence" and the need for larger, better-designed trials.
+
+      **Hepatitis C:** In the pre-direct-acting antiviral era, some research suggested silymarin might have antiviral or immunomodulatory effects. However, these studies were generally small and conducted in populations that now have access to curative treatments. The relevance to modern hepatitis C management is limited.
+
+      **Alcoholic Liver Disease:** A few trials in patients with documented alcoholic liver disease found marginal improvements with silymarin supplementation, but effect sizes were small and many studies had methodological limitations (small sample size, short follow-up, inadequate blinding).
+
+      **NAFLD and Metabolic Syndrome:** Emerging evidence suggests silymarin may have modest effects on liver fat accumulation and metabolic markers in NAFLD, but again, the evidence is not robust. Most studies are small and some lack adequate control conditions.
+
+      ## Mechanisms of Action: Why Plausibility Doesn't Equal Efficacy
+
+      In cell culture and animal models, silymarin demonstrates several potentially protective mechanisms:
+
+      - **Antioxidant activity:** Scavenges free radicals and reduces oxidative stress markers
+      - **Hepatocyte stabilization:** Prevents cellular damage and supports membrane integrity
+      - **Anti-inflammatory effects:** Suppresses cytokine production and inflammatory signaling
+      - **Phase I and II enzyme modulation:** May enhance detoxification pathways
+
+      These properties are well-documented in laboratory settings. However, bioavailability is a critical limitation. Silymarin has poor oral absorption, and plasma concentrations after oral dosing are modest. Whether the concentrations achieved systemically are sufficient to produce the effects observed *in vitro* remains unclear. This is a common problem in phytotherapy: compounds that show promise in cells often fail to demonstrate clinical efficacy because they do not reach target tissues at effective concentrations.
+
+      ## Safety and Tolerability
+
+      Silymarin is well-tolerated overall. Adverse event rates in clinical trials are low and mostly consist of mild gastrointestinal symptoms (nausea, diarrhea, dyspepsia). Serious adverse effects are rare.
+
+      It is generally classified as "likely safe" by standards organizations. There is a theoretical concern that because silymarin modulates certain cytochrome P450 enzymes, it could interact with medications metabolized by these pathways, but clinical evidence of significant interactions is limited. Nevertheless, individuals taking medications should inform their healthcare provider if they plan to use silymarin.
+
+      ## Regulatory Status and Health Claims
+
+      In the European Union, no standalone health claims regarding liver protection, detoxification, or hepatic cleansing are approved for silymarin. This reflects the European Food Safety Authority's (EFSA) interpretation that the clinical evidence is insufficient to support such claims. Some traditional use registrations exist (allowing marketing as a traditional herbal remedy under specific conditions), but these do not constitute proof of efficacy and come with the caveat that the preparation has a "long history of use."
+
+      In the United States, the FDA does not approve herbal extracts as drugs for specific disease claims. Silymarin is marketed as a dietary supplement, which requires no pre-market approval and allows only structure–function claims not directed at disease prevention or treatment.
+
+      ## Current Consensus and Realistic Expectations
+
+      The current scientific consensus is that silymarin is biologically plausible and shows promise in preliminary studies, but lacks robust clinical evidence for specific health benefits in otherwise healthy individuals. It may have modest value in people with documented liver disease under medical supervision, but it is not a substitute for established treatments and lifestyle modifications (alcohol cessation, weight loss, medication adherence).
+
+      The gap between silymarin's popular reputation—as a universal liver detoxifier—and what the evidence actually shows is substantial. Marketing claims about "liver cleansing" or "detox support" exceed the science. The extract did not become popular because large clinical trials proved its efficacy; rather, it became popular because it fit into a compelling wellness narrative and has reasonable tolerability.
+
+      ## Who Might Consider It and Why
+
+      Someone with chronic liver disease (hepatitis, NAFLD, alcoholic liver disease) might consider silymarin as an adjunct to medical treatment and lifestyle modification, with the understanding that evidence for benefit is modest and that it is not a replacement for proven therapies.
+
+      Someone in good health seeking to optimize liver function through supplements should understand that the evidence does not support a broad hepatoprotective role in healthy populations. Avoiding known liver toxins (excess alcohol, acetaminophen overuse), maintaining a healthy diet, and regular exercise are far better supported by evidence.
+
+      The key lesson with silymarin is to distinguish between biological plausibility, which is interesting but not actionable, and clinical efficacy, which is what actually matters for health outcomes. Silymarin possesses the former but not yet convincingly the latter in most contexts.
 
 relations:
   - relation: wird_eingesetzt_fuer

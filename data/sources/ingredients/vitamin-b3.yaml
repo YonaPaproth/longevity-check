@@ -23,7 +23,7 @@ efsa_notes:
   de: >-
     Für Niacin sind in der EU Health Claims zu Energiestoffwechsel, psychischer Funktion, Haut und Nervensystem zugelassen. Hochdosisprodukte können jedoch regulatorisch und sicherheitsseitig anders zu bewerten sein als normale Nahrungsergänzung.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, niacin has approved health claims for energy metabolism, mental function, skin and nervous system support. However, high-dose products may be assessed differently both regulatorily and for safety compared to standard supplements.
 
 key_studies:
   - pmid: "23676243"
@@ -35,7 +35,7 @@ key_studies:
       de: >-
         Review: Niacin war mit Veränderungen verbunden Lipidmarker, klinischer Zusatznutzen in der modernen Statin-Ära ist aber begrenzt und Nebenwirkungen sind häufig.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Niacin was associated with lipid marker changes, but clinical added benefit in the modern statin era is limited and side effects are common.
   - pmid: "25014686"
     title: "HPS2-THRIVE randomized placebo-controlled trial in 25,673 high-risk patients of ER niacin/laropiprant"
     authors: "Landray MJ et al."
@@ -45,7 +45,7 @@ key_studies:
       de: >-
         Große Studie: Trotz günstiger Effekte auf HDL/Triglyceride kein überzeugender klinischer Vorteil, dafür mehr Nebenwirkungen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Large trial: Despite favorable effects on HDL and triglycerides, no convincing clinical advantage was demonstrated, with more side effects observed.
   - pmid: "18454811"
     title: "Niacin"
     authors: "Bogan KL et al."
@@ -55,7 +55,7 @@ key_studies:
       de: >-
         Review zu Biochemie und Stoffwechsel: Niacin ist zentral für NAD/NADP und damit für Energie- und Redoxstoffwechsel.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review of biochemistry and metabolism: Niacin is central to NAD/NADP function and thus to energy and redox metabolism.
 
 locales:
   de:
@@ -103,11 +103,79 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Vitamin B3 is essential and a NAD+ precursor. While deficiency correction matters, high-dose niacin causes side effects—benefits for aging in healthy adults remain unclear.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Niacin is established as an essential nutrient and NAD+ precursor. High-dose nicotinic acid modifies blood lipids but carries significant side effects. Evidence for anti-aging or healthy aging benefits in healthy adults is weak.
     body: |
-      NEEDS_EN_BODY
+      ## What is Vitamin B3?
+
+      Vitamin B3 comprises primarily **nicotinic acid** (niacin) and **nicotinamide**. Both forms are precursors to **NAD+**, a central coenzyme required for energy production, redox reactions, and numerous cellular processes. This biochemical role makes B3 particularly interesting in longevity circles: since NAD+ declines with age, the hypothesis follows that supplementing its precursors could slow aging.
+
+      ## What is comparatively well established?
+
+      - B3 is an **essential nutrient** — humans require it for survival
+      - Correcting frank B3 deficiency (rare in developed countries) reliably restores function
+      - Pharmacological doses of nicotinic acid measurably alter blood lipids, particularly raising HDL and lowering triglycerides
+      - NAD+ biochemistry is real and well-characterized
+
+      ## What is comparatively poorly established?
+
+      - Whether increasing NAD+ in healthy, replete individuals translates to health benefits
+      - Anti-aging effects of standard or high-dose niacin in humans with normal baseline nutrition
+      - Whether pharmacological doses of niacin are preferable to dietary intake or other NAD+ pathway modulators
+      - Optimal dose, form, and duration for any longevity claim
+
+      ## The evidence for cardiovascular effects is sobering
+
+      Large trials have repeatedly disappointed. The **HPS2-THRIVE trial** enrolled 25,673 high-risk patients and tested extended-release niacin combined with laropiprant (to reduce flushing). Despite favorable changes in HDL and triglycerides, the trial showed **no reduction in cardiovascular events** and actually more adverse events in the niacin group.
+
+      The lipid effects are real but clinically underwhelming in the modern statin era. Most cardiologists have moved away from niacin monotherapy.
+
+      ## Form matters significantly
+
+      **Nicotinic acid (niacin):**
+      - Causes the characteristic "flush"—transient facial redness, warmth, and itching
+      - Strongest evidence base for lipid effects
+      - More hepatotoxic at high doses
+      - Affects glucose metabolism and uric acid levels more than nicotinamide
+
+      **Nicotinamide:**
+      - Generally better tolerated (no flush)
+      - Different pharmacology—does not raise HDL as effectively
+      - Different side effect profile
+      - Often preferred in supplements marketed for general wellness
+
+      These are not interchangeable. Supplement labels often use "Vitamin B3" without specifying form, creating confusion.
+
+      ## Safety and side effects
+
+      High-dose niacin is not a benign supplement:
+
+      **Common:** Flush, gastrointestinal upset, nausea
+
+      **At pharmacological doses:** Elevated liver enzymes, hyperglycemia, elevated uric acid (gout risk), skin rashes
+
+      **Individual variation:** Some people tolerate high doses; others experience pronounced symptoms at much lower amounts
+
+      The European Food Safety Authority permits health claims for niacin's role in energy metabolism and nervous system function—these reflect its essential nutrient status, not anti-aging properties.
+
+      ## What about NAD+ and aging?
+
+      The observation that NAD+ declines with age is genuine. Animal models (particularly mice) show that restoring NAD+ can improve mitochondrial function and extend lifespan. But translation to humans is unproven. Clinical trials of NAD+ precursors in aging humans are sparse and generally small.
+
+      Niacin's effects on NAD+ in vivo remain unclear at doses used in supplements. The relationship between blood NAD+ levels (rarely measured clinically) and cellular NAD+ is poorly understood. And whether higher NAD+ causally drives healthspan improvements in humans—when all confounders are controlled—remains speculative.
+
+      ## The longevity hype vs. reality gap
+
+      Niacin circulates in anti-aging forums and biohacker communities as a NAD+ booster with supposed effects on cellular senescence, mitochondrial health, and aging slowing. The biochemistry is superficially compelling. But clinical evidence in humans is absent.
+
+      If you are severely niacin-deficient (pellagra is now rare), correction is medically necessary. If you have elevated triglycerides and statin intolerance, a trial of high-dose niacin under medical supervision is reasonable—though even then, the benefit is modest.
+
+      For a healthy person seeking longevity benefits through niacin supplementation, the evidence-to-hype ratio is poor. The side effects are real. The benefits are speculative.
+
+      ## Conclusion
+
+      Vitamin B3 is biochemically essential and interesting, but supplement evidence frequently doesn't match the enthusiasm of the longevity community. Use it as a baseline micronutrient if you're at risk of deficiency. Use it as a tool under medical supervision if you have specific lipid issues. Beyond that, the risk-benefit trade-off remains unfavorable until better human evidence emerges.
 
 relations:
   - relation: wird_eingesetzt_fuer

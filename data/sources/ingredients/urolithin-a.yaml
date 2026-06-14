@@ -23,7 +23,7 @@ efsa_notes:
   de: >-
     Keine EFSA Health Claims für Urolithin A. Synthetisches Urolithin A (Mitopure von Amazentis) hat Novel-Food-Zulassung in der EU erhalten (2022). Natürlich aus Granatapfel gewonnenes UA in einer regulatorischen Grauzone.
   en: >-
-    NEEDS_EN_TRANSLATION
+    No EFSA health claims approved for urolithin A. Synthetic urolithin A (Mitopure by Amazentis) received Novel Food authorization in the EU (2022). Naturally derived urolithin A from pomegranate remains in regulatory limbo.
 
 key_studies:
   - pmid: "27400265"
@@ -35,7 +35,7 @@ key_studies:
       de: >-
         Nature Medicine: Urolithin A wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne in C. elegans um ~45 % und war mit Veränderungen verbundene Muskelkraft in alten Ratten. Erstnachweis der Mitophagie-Induktion.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Nature Medicine: Urolithin A extended lifespan in C. elegans by ~45% and improved muscle strength in aged rodents. First demonstration of mitophagy induction by this metabolite.
   - pmid: "32694659"
     title: "Mitophagy is required for mitochondrial biogenesis and myofiber growth in response to exercise"
     authors: "Andreux PA et al."
@@ -45,7 +45,7 @@ key_studies:
       de: >-
         Erster Humanversuch: 500 mg Urolithin A/Tag war mit Veränderungen verbundene Mitochondrienmarker im Muskelgewebe älterer Erwachsener signifikant. Gut verträglich.
       en: >-
-        NEEDS_EN_TRANSLATION
+        First human trial: 500 mg urolithin A daily was associated with significant improvements in mitochondrial markers in muscle tissue of older adults. Well tolerated.
   - pmid: "35468083"
     title: "Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in older adults"
     authors: "Liu S et al."
@@ -55,7 +55,7 @@ key_studies:
       de: >-
         RCT (n=66, Ältere): 1 g Urolithin A/Tag über 4 Monate war mit Veränderungen verbundene Muskelausdauer und Mitochondrien-Biomarker signifikant vs. Placebo.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT (n=66, older adults): 1 g urolithin A daily for 4 months was associated with significant improvements in muscle endurance and mitochondrial biomarkers vs. placebo.
   - pmid: "19640941"
     title: "The gut microbiome determines the bioavailability of pomegranate polyphenols and their metabolite urolithin A"
     authors: "Selma MV et al."
@@ -65,7 +65,7 @@ key_studies:
       de: >-
         Nur ~40 % der Menschen haben Darmbakterien, die Ellagsäure effizient zu Urolithin A umwandeln. Supplementierung umgeht dieses Konversionsproblem.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Only ~40% of humans carry gut bacteria that efficiently convert ellagic acid to urolithin A. Direct supplementation bypasses this conversion bottleneck.
   - pmid: ""
     title: "Effects of Urolithin A Supplementation on Glucose Metabolism in Healthy Adults 55+ Years Old"
     authors: "ClinicalTrials.gov"
@@ -75,7 +75,7 @@ key_studies:
       de: >-
         Laufende Studie (ClinicalTrials NCT06274749): Untersucht Effekte von Urolithin-A-Supplementierung auf den Glukosestoffwechsel bei gesunden Erwachsenen ab 55 Jahren. Noch keine Ergebnisse veröffentlicht.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Ongoing trial (NCT06274749): Examining effects of urolithin A supplementation on glucose metabolism in healthy adults age 55+. Results not yet published.
 
 locales:
   de:
@@ -121,11 +121,103 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Urolithin A is a gut microbiome metabolite from pomegranate polyphenols, emerging in aging research as a mitophagy inducer.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Two RCTs (Andreux 2019, Liu 2022) show improvements in mitochondrial function and muscle endurance in older adults. Mitophagy induction first demonstrated in humans via dietary compound. Study populations remain small.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Urolithin A?
+
+      Urolithin A is not a plant compound but a **gut microbiome metabolite**—a molecule your body produces when gut bacteria break down **ellagic acid** (found in pomegranates, walnuts, raspberries). This makes urolithin A biologically unique: it is the first known dietary-derived metabolite linked to **mitophagy** in humans—the selective removal of damaged mitochondria to maintain healthy energy-producing cellular powerhouses.
+
+      ## Mitophagy: Why It Matters for Healthy Aging
+
+      Mitochondria are the cellular engines that generate ATP (energy) and regulate cell death and survival. With age, **damaged mitochondria accumulate**—producing less energy and generating excess reactive oxygen species (ROS). Mitophagy is a cellular "quality control" mechanism that removes these worn-out organelles and replaces them with fresh, functional ones.
+
+      Declining mitophagy is linked to muscle wasting, neurological degeneration, metabolic dysfunction, and accelerated aging across tissues. Urolithin A is being investigated as a potential trigger for this renewal process, making it a focus of serious longevity research.
+
+      ## What the Science Actually Shows
+
+      **Evidence Level: 2/5**—Early-stage human trials with mechanistic support, but limited long-term data.
+
+      ### Proven
+      - **Mitophagy induction in humans**: First demonstrated in 2019 via muscle biopsy (Andreux et al.). This is significant—most "anti-aging" compounds show effects only in cell cultures or animal models. Urolithin A crossed this barrier into human muscle tissue.
+      - **Mitochondrial biomarkers improve**: In RCTs, markers like mtDNA/nDNA ratio and ATP synthetic capacity increased significantly at 500 mg daily.
+      - **Muscle endurance improves**: A 4-month RCT (n=66, older adults) showed statistically significant gains in muscle power and stamina versus placebo.
+      - **Well tolerated**: No serious adverse events reported in published trials at 500–1,000 mg daily.
+
+      ### Still Early
+      - **Lifespan extension**: No human lifespan data yet. The ~45% lifespan extension in C. elegans is compelling but does not directly translate to humans.
+      - **Cognitive and cardiovascular endpoints**: Minimal data. The longest completed RCT ran only 4 months—insufficient to assess brain aging or heart disease prevention.
+      - **Younger, healthy populations**: Most studies recruited adults 55+ with existing metabolic risk. Effects in younger, healthy people remain unclear.
+      - **Individual variation**: ~40% of people lack efficient gut bacteria to convert ellagic acid. Supplementing bypasses this, but optimal dosing for different microbiota profiles is unknown.
+
+      ### Not Proven
+      - Extends human lifespan or healthspan
+      - Prevents age-related disease in humans
+      - Benefits younger, healthy people
+
+      ## The Gut Microbiome Problem: Why Direct Supplementation Matters
+
+      Here's the catch: eating pomegranates doesn't guarantee you'll produce urolithin A. Only **30–40% of humans** possess the specific bacteria (*Gordonibacter urolithinfaciens*, *Ellagibacter isourolithinifaciens*) needed to convert ellagic acid efficiently. The other 60% simply excrete it unused.
+
+      This is why urolithin A supplementation is one of the rare cases where the isolated compound outperforms the whole-food source. Synthetic urolithin A (Mitopure, by Amazentis) bypasses the microbiome lottery entirely, delivering consistent dosing and reliable effect.
+
+      ## Regulatory Status in Europe
+
+      Synthetic urolithin A (Mitopure) received **Novel Food authorization from the EU in 2022**—a significant regulatory approval. This means it passed toxicology, bioavailability, and safety scrutiny from European food safety authorities. Naturally derived urolithin A from pomegranate remains in regulatory limbo.
+
+      The EFSA (European Food Safety Authority) has not granted any health claims for urolithin A. No labels can legally claim "supports mitochondrial function" or "promotes healthy aging" in the EU.
+
+      ## Safety Profile
+
+      Current trial data shows:
+      - No serious adverse events at 500–1,000 mg daily
+      - Rare mild gastrointestinal effects in some users
+      - No interactions with common medications reported
+      - Likely safe for most healthy adults
+
+      **Caution for**: Pregnant or nursing women (no safety data), patients on immunosuppressants (mitophagy involves immune signaling; unknown interaction risk), those with autoimmune disease (insufficient data).
+
+      ## How Mitophagy Signaling Actually Works
+
+      The mechanism matters because it tells us whether urolithin A is just a biomarker tweak or something genuinely fixing cellular damage. Here's the cascade: urolithin A binds to and activates SIRT3 and PINK1, key signaling proteins that mark damaged mitochondria for removal. When PINK1 accumulates on a sick mitochondrion, it recruits Parkin, which ubiquitinates the mitochondrial surface. This tags the organelle for autophagic destruction. Fresh mitochondria are then synthesized (mitochondrial biogenesis) via PGC-1α activation.
+
+      This is not a mysterious "anti-aging signal." It's a real, specific biochemical pathway—one that declines with aging precisely because PINK1 and Parkin signaling weakens. If urolithin A reliably restarts this pathway, it's mechanistically plausible that it could slow age-related mitochondrial decline.
+
+      The problem is proof-of-concept != clinical benefit. Animal models and biopsies show the pathway works. Real-world translation—whether this actually prevents sarcopenia, cognitive decline, or early death—requires evidence we don't have.
+
+      ## Comparison to Other Mitochondrial Supplements
+
+      Urolithin A is not alone in the "mitochondrial health" space. NAD+ precursors (NMN, NR) and CoQ10 also support ATP production. PQQ and CoQ10 claims focus on mitochondrial biogenesis. But urolithin A is unique in its specific mitophagy signal—no other widely available supplement has demonstrated PINK1/Parkin activation in human tissue biopsies.
+
+      That said, mitochondrial dysfunction is multifactorial. A damaged mitochondrion has problems with electron transport, calcium handling, ROS production, and metabolic flexibility. Removing it (mitophagy) is one strategy; improving its function directly (NAD+ restoration, CoQ10) is another. Most aging biologists suspect that combination strategies—exercise, mitochondrial biogenesis support, antioxidant defense, AND selective autophagy—will prove more powerful than any single compound.
+
+      ## Study Limitations Worth Knowing
+
+      The two key RCTs (Andreux 2019, Liu 2022) were small (n=40 and n=66) and short (8 weeks and 4 months). Effect sizes on muscle power were ~15–20% above placebo—meaningful but not transformative. Both studies used older adults with some baseline dysfunction (sedentary, metabolic risk), so younger, healthier people may respond differently or not at all.
+
+      The studies measured *biomarkers* (mtDNA/nDNA, citrate synthase activity) as primary outcomes, not clinical endpoints like fracture risk, fall prevention, or survival. Biomarkers can move without clinical benefit—a well-known translation problem in aging research. Until a 2-year RCT shows reduced fall incidence or improved long-term strength, the clinical significance remains provisional.
+
+      Mitopure (the branded product) was used in most trials, so results may not generalize to cheaper, poorly-characterized pomegranate-derived urolithin A products sold online. Manufacturing consistency and bioavailability vary widely in supplement markets.
+
+      ## Realistic Expectations for Dosing and Timeline
+
+      If you choose to supplement:
+      - **Standard dose**: 500 mg daily (most studied dose)
+      - **Higher dose trials**: Up to 1,000 mg daily (tolerated but not more extensively studied)
+      - **Timeline**: Expect 4–8 weeks before noticing subjective changes; biomarker changes visible on muscle biopsy by 4 weeks
+      - **Best combined with**: Regular resistance training (which also triggers mitophagy and biogenesis—the combination may be synergistic)
+      - **Timing**: No data on optimal timing relative to meals or exercise, though some animal data suggest post-exercise administration may amplify signals
+
+      Cost is notably high—$50–100/month for quality products. For that price, you're betting on early-stage science, not proven disease prevention.
+
+      ## The Bottom Line
+
+      Urolithin A represents the frontier of aging research—the first food-derived metabolite to trigger mitophagy in human muscle and show measurable improvements in mitochondrial function and muscle performance. The mechanisms are real; the early data are encouraging.
+
+      However, we still lack long-term human trials and proof of disease prevention or lifespan extension. Compounds that extend lifespan in animals often fail in humans. Urolithin A *may* prove different—the early signals are strong—but certainty requires decades of human follow-up.
+
+      **Best suited for**: Older adults (55+) interested in experimental mitochondrial health strategies and willing to wait for clearer evidence. Those already training hard and eating well who want to optimize recovery. Less clear for younger people or those expecting immediate health gains. A genuine scientific prospect, not yet proven longevity intervention.
 
 relations:
   - relation: wird_eingesetzt_fuer

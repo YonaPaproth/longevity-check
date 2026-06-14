@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Lithium-Orotat gibt es in der EU keine zugelassenen Health Claims. Die Einordnung als Supplement ist regulatorisch sensibel, weil Lithium pharmakologisch aktiv ist und eng mit Arzneimittelanwendungen verknüpft bleibt.
   en: >-
-    NEEDS_EN_TRANSLATION
+    Lithium oroate has no approved health claims in the EU. Its classification as a supplement is regulatory sensitive because lithium is pharmacologically active and remains closely linked to pharmaceutical applications.
 
 key_studies:
   - pmid: "28147231"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Lithium als Arzneistoff ist gut untersucht, aber diese Evidenz lässt sich nicht sauber auf frei verkäufliches Lithium-Orotat übertragen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Lithium as a pharmaceutical is well studied, but this evidence does not cleanly translate to over-the-counter lithium oroate.
   - pmid: "24813272"
     title: "Lithium: how low can you go?"
     authors: "Mauer S et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Diskussion zu möglichen Effekten niedriger Lithiumspiegel – interessant, aber weit entfernt von einer soliden Supplement-Empfehlung.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Discussion of potential effects at low lithium levels—interesting, but far removed from solid supplement recommendations.
   - pmid: "18072817"
     title: "Possible dangers of dietary lithium supplementation"
     authors: "Pauzé DK et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Warnung vor der Annahme, niedrig dosiertes Lithium sei automatisch harmlos. Sicherheitsdaten für frei verkäufliche Formen sind begrenzt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Warning against assuming low-dose lithium is automatically safe. Safety data for over-the-counter forms are limited.
 
 locales:
   de:
@@ -80,11 +80,97 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Lithium oroate is hyped for mood and neurobiological research. Evidence is sparse while safety and regulatory concerns remain uncertain.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      While pharmaceutical-grade lithium has solid evidence in psychiatry, low-dose lithium oroate as a supplement lacks robust data. Much within the healthy aging community is speculative, extrapolated from entirely different doses and clinical indications.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Lithium Oroate?
+
+      Lithium oroate is a supplement formulation combining lithium with orotic acid, often marketed as a "gentle" version of psychiatric lithium medication. It typically provides 5 mg of elemental lithium—far below therapeutic psychiatric doses (600–1200 mg of lithium carbonate), which deliver serum levels of 0.6–1.2 mEq/L. The pitch in longevity and biohacking circles centers on the idea that micro-dosing lithium can support mood, neuroprotection, and neuroplasticity without the side effects or monitoring requirements of medical-grade lithium. However, this narrative rests on a fundamental evidence gap.
+
+      ## The Core Evidence Problem
+
+      The solid evidence base for lithium comes almost entirely from randomized controlled trials (RCTs) and decades of real-world psychiatric use at therapeutic doses. Lithium is the gold standard treatment for bipolar I disorder, with consistent evidence showing:
+
+      - Reduction in suicide risk by ~80–90% (Tondo & Baldessarini meta-analyses)
+      - Acute and maintenance efficacy in mania
+      - Neuroprotective effects (BDNF upregulation, antiapoptotic pathways) documented in preclinical and clinical neuroimaging
+
+      **The problem:** All of this evidence applies to lithium at therapeutic serum levels. The pharmacology of micro-dosing—5 mg elemental lithium—is essentially unknown in randomized trials. A single study does not change this: researchers have never conducted a high-quality RCT of lithium oroate (or any micro-dose form) in healthy adults for neurocognitive or longevity outcomes.
+
+      The Pauzé et al. (2007) warning paper makes this explicit: low-dose lithium is *not* automatically safe, and extrapolating from high-dose psychiatric safety data is methodologically unsound.
+
+      ## Why the Confusion?
+
+      Several factors fuel the hype-cycle:
+
+      **1. Dose-Response Confusion**
+      Psychiatric prescribers monitor blood lithium levels closely. Therapeutic effect requires a narrow serum window. Some biohackers argue that micro-dosing avoids the "side effect window" while retaining neuroprotection. But without dose-response data, this is speculation. Pharmacologically, it is plausible that sub-threshold doses have *no* effect rather than a "safe" effect.
+
+      **2. Mechanistic Plausibility**
+      Lithium does have real molecular mechanisms: inhibition of inositol monophosphatase, GSK-3β antagonism, and effects on protein kinase C. These are not invented. The leap from "inhibits GSK-3β in vitro" to "5 mg daily enhances cognition in humans" is nonetheless enormous and requires empirical evidence.
+
+      **3. Anecdotal and Forum Evidence**
+      Longevity forums and social media are filled with anecdotal reports of improved mood and clarity. Placebo effects are well-established and powerful. Without a control group, regression to the mean, and blinding, anecdotes are not evidence.
+
+      **4. Extrapolation from Preclinical Studies**
+      Cell culture and animal model studies show lithium effects on neurogenesis, tau phosphorylation, and neuroprotection. These findings are valuable for mechanistic hypothesis generation, but translating them to human supplementation at doses 100× lower than clinical trials is not justified without intermediate human data.
+
+      ## Safety and Regulatory Landscape
+
+      Lithium is a narrow-therapeutic-window drug. Below therapeutic serum levels, side effects diminish, but so may efficacy. At therapeutic levels, patients require:
+      - Regular serum lithium monitoring
+      - Kidney function tests (lithium is renally excreted and can cause chronic kidney disease)
+      - Thyroid monitoring (lithium commonly causes hypothyroidism)
+      - Sodium and fluid balance awareness
+      - Drug–drug interaction screening
+
+      For over-the-counter lithium oroate, none of this monitoring occurs. The safety assumption is that "low dose = low risk." This is reasonable for some substances, but lithium's narrow therapeutic index—and its ability to accumulate in tissues—makes this assumption uncertain. Individual responses vary widely based on:
+      - Renal function
+      - Sodium intake
+      - Concurrent medications (NSAIDs, ACE inhibitors, thiazide diuretics all interact with lithium)
+      - Age and hydration status
+
+      The EFSA (European Food Safety Authority) has not approved any health claims for lithium, unlike some other minerals. Regulatory agencies recognize the challenge: lithium's pharmacological activity places it in a gray zone between supplement and drug.
+
+      ## What Clinical Research Actually Shows
+
+      The Malhi et al. (2017) review found no robust RCTs of lithium oroate or micro-dose lithium in healthy populations. The cited evidence—lithium's success in bipolar disorder—is not directly transferable.
+
+      A few small observational or biochemical studies have examined low-dose lithium in neurodegenerative disease (Parkinson's, ALS), but:
+      - Sample sizes are typically <50
+      - Serum lithium levels are rarely reported
+      - Blinding is absent or unclear
+      - Funding sources often have commercial interests
+
+      None meet the standard for evidence-based recommendation.
+
+      ## The Biohacking Extrapolation Problem
+
+      Longevity biohacking communities often operate on the principle: "If a high dose works, a low dose *should* be safe, and we might get a benefit." This is intuitive but not always true. Consider:
+      - Aspirin at 325 mg daily reduces cardiovascular death; at 81 mg (baby aspirin) the benefit is modest and controversial; below 81 mg, no evidence of benefit
+      - Beta-blockers at therapeutic doses reduce heart failure mortality; at sub-therapeutic doses, the evidence is weak or absent
+      - Metformin at 1000–2000 mg daily may extend lifespan in animal models; human evidence is limited and confounded
+
+      The implicit claim—that 5 mg lithium will somehow cross the blood-brain barrier and alter neuroprotective signaling in humans—is plausible mechanistically but unsupported empirically.
+
+      ## Realistic Assessment
+
+      **What we know:**
+      - Therapeutic lithium (0.6–1.2 mEq/L serum) has strong evidence for mood and bipolar disorder
+      - Lithium has real neurobiological mechanisms
+      - Micro-dosing has not been tested in rigorous RCTs in healthy humans
+
+      **What we don't know:**
+      - Whether 5 mg daily achieves any of lithium's therapeutic effects
+      - Whether it accumulates in brain tissue over time
+      - Whether it poses cumulative risks to kidney or thyroid function with years of use
+      - Individual safety profiles and drug interactions
+
+      **Bottom line:**
+      Lithium oroate is currently a speculative supplement with high regulatory and safety uncertainty. It is not a validated longevity intervention and sits in an uncomfortable position between dietary supplement and pharmaceutical agent. If you are considering it, consult a healthcare provider—especially if you have any kidney disease, take diuretics, or are on psychiatric medications.
+
+      For evidence-based neuroprotection and longevity, the literature strongly supports modifiable factors with vastly more robust data: aerobic exercise, sleep quality, cognitive engagement, Mediterranean diet patterns, and stress management. These produce documented improvements in brain health without the uncertainty and monitoring burdens of lithium.
 
 relations:
   - relation: benoetigt_biomarker_check

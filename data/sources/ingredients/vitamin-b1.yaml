@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Thiamin sind in der EU Health Claims zu Energiestoffwechsel, Herzfunktion, psychischer Funktion und Nervensystem zugelassen. Sie beziehen sich auf die normale physiologische Funktion, nicht auf Leistungssteigerung über den Normalzustand hinaus.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, approved health claims for thiamine cover energy metabolism, heart function, psychological function, and nervous system support. These claims address normal physiological function, not enhancement beyond baseline status.
 
 key_studies:
   - pmid: "30295520"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Review: Thiaminmangel ist klinisch relevant und oft unterdiagnostiziert. Besonders gefährdet sind Menschen mit Alkoholmissbrauch, Mangelernährung oder war mit höheren Werten verbundenem metabolischem Bedarf.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Thiamine deficiency is clinically significant and frequently underdiagnosed. High-risk populations include individuals with alcohol use disorder, malnutrition, or metabolic demands exceeding dietary intake.
   - pmid: "22489203"
     title: "Thiamine deficiency in diabetes, obesity and bariatric surgery"
     authors: "Via M"
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Review: Auch in westlichen Ländern kommt funktioneller B1-Mangel bei Risikogruppen vor, etwa nach bariatrischer Chirurgie oder bei chronischer Fehlernährung.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Functional B1 deficiency occurs in Western populations within at-risk groups, particularly following bariatric surgery or with chronic dietary insufficiency.
   - pmid: "17405083"
     title: "Wernicke encephalopathy in clinical practice"
     authors: "Sechi G et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Thiaminmangel kann schwere neurologische Schäden verursachen. Frühzeitige Substitution ist in Risikosituationen klinisch hochrelevant.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Thiamine deficiency can cause severe neurological damage. Early supplementation is clinically high-priority in at-risk situations.
 
 locales:
   de:
@@ -98,11 +98,52 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Vitamin B1 (thiamine) is essential for energy metabolism and nerve function. Supplements address deficiency and help high-risk groups—not a general anti-aging compound.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Thiamine is an essential micronutrient with well-established roles in carbohydrate metabolism and nervous system function. Supplementation is clinically relevant for deficiency, chronic alcohol use, malnutrition, and certain medical conditions. Additional benefit in adequately nourished adults is poorly documented.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Vitamin B1?
+
+      Vitamin B1, also known as **thiamine**, is a water-soluble vitamin. It plays a central role in **energy metabolism**, particularly in carbohydrate processing, and is essential for **nerve and heart function**. Thiamine serves as a coenzyme in several critical metabolic pathways, including the pentose phosphate pathway and branched-chain amino acid metabolism.
+
+      The body stores only limited amounts of thiamine. Because it is water-soluble, excess intake is excreted, and stores become depleted relatively quickly without adequate dietary intake. This is why deficiency can develop fairly rapidly in at-risk populations.
+
+      ## What Does Supplementation Provide?
+
+      ### Well-Researched Applications
+      - **Deficiency treatment and prevention** — this is the primary, evidence-supported use
+      - Supporting normal energy metabolism and cellular function
+      - Clinically important for alcohol use disorder, severe malnutrition, or malabsorption conditions
+      - Prevention in high-risk populations such as post-bariatric surgery patients
+
+      ### Poorly Researched or Unproven Uses
+      - Energy enhancement in adequately nourished individuals
+      - Cognitive enhancement or anti-aging effects beyond correcting deficiency
+      - Performance enhancement in healthy adults
+
+      ## Who Is at Higher Risk for Deficiency?
+
+      Thiamine deficiency remains clinically relevant even in wealthy nations. Key risk groups include:
+
+      - **Chronic alcohol use disorder** — alcohol impairs thiamine absorption and metabolism; one of the most common causes of deficiency in developed countries
+      - Severely restricted or unbalanced diets with minimal whole grains, legumes, and fortified foods
+      - Eating disorders or severe undernutrition
+      - Bariatric surgery — reduces absorption surface area
+      - Certain chronic illnesses with high metabolic demand or poor nutritional intake
+      - Dialysis patients (thiamine is water-soluble and removed during treatment)
+      - Hyperthyroidism or fever (increased metabolic demand)
+
+      Clinical presentations of deficiency range from subtle neurological signs (peripheral neuropathy, weakness) to acute Wernicke encephalopathy, characterized by confusion, ataxia, and ophthalmoplegia — a medical emergency requiring immediate thiamine administration.
+
+      ## Safety Profile
+
+      Thiamine is considered **very safe** at standard supplemental doses. It is water-soluble, and the body has no known toxicity threshold from oral intake. Excess amounts are readily excreted in urine. Side effects from oral supplementation are rare. High-dose intramuscular or intravenous thiamine (used in acute medical settings) is also well-tolerated, though local irritation or anaphylaxis is exceptionally rare.
+
+      No significant drug interactions are documented. Thiamine supplementation does not interfere with common medications and can be safely combined with other B vitamins.
+
+      ## The Bottom Line
+
+      Vitamin B1 is vital — but primarily when deficiency exists or risk factors are present. For healthy adults with adequate dietary intake, it is a **foundational nutrient** rather than a compelling intervention for healthy aging. If you have risk factors for deficiency (heavy alcohol use, bariatric surgery, chronic malabsorption), discussing thiamine assessment and supplementation with your healthcare provider is reasonable. For the general population, prioritizing whole grains, legumes, nuts, and fortified foods typically provides sufficient intake.
 
 relations:
   - relation: wird_eingesetzt_fuer

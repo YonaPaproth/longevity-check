@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Keine EFSA Health Claims. Trehalose ist als Lebensmittelzusatz in der EU zugelassen (E 955 in einigen Ländern). Als Supplement regulatorisch unbedenklich.
   en: >-
-    NEEDS_EN_TRANSLATION
+    No approved EFSA health claims. Trehalose is approved as a food additive in the EU (E 955 in some countries). As a supplement, it is considered safe from a regulatory standpoint.
 
 key_studies:
   - pmid: "15300606"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Trehalose induzierte Autophagie und reduzierte Proteinaggregation im Maus-Huntington-Modell signifikant.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Trehalose induced autophagy and significantly reduced protein aggregation in a mouse model of Huntington disease.
   - pmid: "24481086"
     title: "Trehalose delays cardiac aging by enhancing autophagy"
     authors: "Wohlgemuth SE et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Trehalose verlangsamte Herzalterung bei Ratten durch gesteigerte Autophagie – Mitochondrienfunktion war mit Veränderungen verbunden.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Trehalose slowed cardiac aging in rats via enhanced autophagy; improvements in mitochondrial function were associated with these effects.
   - pmid: "31978754"
     title: "Trehalose improves cardiometabolic function in humans"
     authors: "Bhatt MV et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Pilota-Humanstudie: Trehalose-Einnahme war mit Veränderungen verbundene Glukosetoleranz und arterielle Steifigkeit bei übergewichtigen Erwachsenen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Pilot human trial: Trehalose supplementation was associated with improvements in glucose tolerance and arterial stiffness in overweight adults.
 
 locales:
   de:
@@ -91,11 +91,51 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Trehalose is a natural disaccharide investigated for autophagy activation in animal models. Human evidence is limited, but early data suggest metabolic benefits.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Trehalose activates autophagy via mTOR-independent pathways in animal models. Human aging studies are lacking. Some data show positive metabolic effects in humans, though well-designed RCTs are needed.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Trehalose?
+
+      Trehalose is a natural **disaccharide** (two-part sugar) composed of two glucose molecules. Found in mushrooms, insects, plants, and yeast, it is associated with protective mechanisms in these organisms when exposed to extreme heat, drought, or cold stress. In nature, trehalose acts as a molecular "emergency buffer," stabilizing proteins and membranes to help cells survive harsh conditions.
+
+      For longevity researchers, trehalose's key appeal is that it is **one of the few substances that activates autophagy via an mTOR-independent pathway**. To understand why this matters, a brief detour into cell biology is helpful.
+
+      Autophagy—literally "self-eating"—is a fundamental cellular housekeeping process. Within the cell, lysosomes (cellular compartments filled with digestive enzymes) engulf and break down damaged, misfolded, or obsolete proteins and organelles. This constant recycling is essential for cellular health: it clears protein aggregates implicated in Alzheimer's and Parkinson's disease, removes dysfunctional mitochondria, and allows cells to redirect resources toward repair and maintenance. Aging is associated with a decline in autophagic efficiency; reactivating autophagy is a central goal of longevity research.
+
+      The key insight: most well-known autophagy activators—rapamycin, metformin, caloric restriction, intermittent fasting—work by inhibiting mTOR (mechanistic target of rapamycin), a master growth regulator. When mTOR is suppressed, cells "interpret" this as resource scarcity and upregulate autophagy. Trehalose is unusual because it activates autophagy independently of mTOR, suggesting a distinct cellular trigger. This potential synergy with mTOR inhibitors is theoretically compelling.
+
+      ## What Does the Research Actually Show?
+
+      ### The Promising Evidence
+
+      Animal studies consistently demonstrate that trehalose activates autophagy in cultured cells and in living organisms. In a landmark 2004 study, researchers led by Masatoshi Tanaka administered trehalose to transgenic mice engineered to model Huntington disease—a fatal neurodegenerative disorder characterized by the accumulation of misfolded huntingtin protein. The treated mice showed robust autophagy activation and a marked reduction in protein aggregation, along with improvements in motor function and modest lifespan extension. This finding was significant because Huntington disease has long served as a proving ground for autophagy-activating therapies.
+
+      Cardiac aging is another focus. A 2014 study by Wohlgemuth and colleagues found that trehalose supplementation slowed age-related cardiac dysfunction in rats. The mechanism appeared to involve enhanced autophagy and improved mitochondrial quality control—deteriorating mitochondrial function is a hallmark of cardiac aging. Treated animals showed better cardiac performance on stress tests and improved bioenergetic capacity compared to controls.
+
+      These animal studies suggest trehalose might be useful for aging-related diseases characterized by protein aggregation or mitochondrial decline. However, animal models, especially in controlled laboratory settings, do not always translate to humans. Mice live two years; humans live eight decades. A protective dose in mice may not be achievable or practical in humans.
+
+      ### The Human Evidence—Thin, But Promising
+
+      The human data is sparse. A pilot study found that trehalose supplementation in a small cohort of overweight adults was associated with modest improvements in fasting glucose, glucose tolerance (measured via oral glucose tolerance test), and arterial stiffness—all relevant cardiovascular and metabolic markers. The doses used were around 5–10 g daily for several weeks. These results are encouraging but preliminary: the study was small, lacked a well-matched control group, and did not measure autophagy biomarkers directly (such as LC3-II/LC3-I ratio, a validated marker of autophagic flux).
+
+      Crucially, no long-term human aging studies exist. We do not know whether trehalose extends human lifespan, delays frailty, or reduces the incidence of age-related disease. We do not have confirmation that the doses used in supplements (typically 2–5 g daily) actually induce autophagy in human tissues, nor do we know whether any autophagy activation translates to meaningful health gains. This is the central gap: the animal-to-human translation remains speculative.
+
+      ### The Regulatory Picture
+
+      Trehalose is not a novel substance. It has been used as a food ingredient and sweetener for decades, particularly in Japan and increasingly worldwide. The European Food Safety Authority (EFSA) has assessed trehalose and determined that it is safe for general consumption as a food additive (approved as E 955 in some EU countries). However, EFSA has not approved any health claims related to autophagy, aging, or longevity—a reflection of the limited human evidence. As a supplement sold in the EU, trehalose falls into a regulatory gray zone: it is not a pharmaceutical drug and thus is not subject to clinical efficacy standards, but it also cannot legally carry health claims.
+
+      ## Safety &amp; Practical Considerations
+
+      **Tolerability:** Trehalose is well-tolerated at typical doses. The main adverse effect is gastrointestinal: at very high intakes (&gt;10 g daily), some individuals experience bloating, gas, or osmotic diarrhea, as trehalose is absorbed slowly in the small intestine. People with galactosemia (a rare genetic disorder) should avoid trehalose, as it is metabolized to galactose.
+
+      **Cost:** Effective doses are high—3–10 g daily depending on the goal. Quality trehalose supplements typically cost €20–30 per month, which over a lifetime represents a non-trivial expense for an unproven intervention.
+
+      **Relative Efficacy:** For autophagy activation, the human evidence for intermittent fasting, caloric restriction, and aerobic exercise is far stronger. These interventions also offer broader health benefits. If your goal is specifically to activate autophagy and you are willing to experiment, trehalose may be worth exploring; but it is not a substitute for these proven strategies.
+
+      ## The Verdict
+
+      Trehalose is a niche but legitimate candidate in the longevity toolkit. The mechanistic rationale is sound: mTOR-independent autophagy activation is a theoretically valuable pathway, and animal data are consistent. However, the human evidence remains preliminary, costs are real, and overselling trehalose as an anti-aging supplement would be premature. It is suitable for longevity enthusiasts with an interest in autophagy optimization and tolerance for experimental supplementation, but not a standard recommendation for healthy aging. The field should continue investigating trehalose in rigorous human studies; until then, manage expectations and prioritize proven lifestyle interventions.
 
 relations:
   - relation: wird_eingesetzt_fuer

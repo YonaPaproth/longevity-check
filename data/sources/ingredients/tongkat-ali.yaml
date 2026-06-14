@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Tongkat Ali gibt es in der EU keine zugelassenen Claims zu Testosteron, Männlichkeit, Muskelaufbau oder Libido.
   en: >-
-    NEEDS_EN_TRANSLATION
+    The EU does not permit health claims for Tongkat Ali related to testosterone, virility, muscle building, or sexual function.
 
 key_studies:
   - pmid: "23273445"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Kleine Datenbasis mit Hinweisen auf war mit Veränderungen verbundene androgenbezogene Marker in bestimmten Gruppen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Small sample with signals for androgen-related markers in specific subgroups, but limited generalizability and modest effect sizes.
   - pmid: "23754792"
     title: "Tongkat Ali as a potential adaptogen"
     authors: "Talbott SM et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Kleine Studie mit Effekten auf Stressparameter und Stimmung.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Small study reporting effects on cortisol and mood parameters, but limited sample and single-centre design.
   - pmid: "22971603"
     title: "Safety and efficacy of Eurycoma longifolia"
     authors: "Ismail SB et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Review: interessant, aber noch klar im Bereich moderater und vorläufiger Evidenz.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review concluding the evidence is interesting but remains moderate and preliminary, lacking large-scale replication studies.
 
 locales:
   de:
@@ -77,11 +77,51 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Popular in male health stacks, but evidence is small, extract-dependent, and not hype-free. Interesting signals but modest robustness.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Tongkat Ali has several human studies with signals for stress, libido, and testosterone-related parameters. However, evidence remains modest, highly extract-dependent, and not robust enough to support strong therapeutic claims.
     body: |
-      NEEDS_EN_BODY
+      ## What is Tongkat Ali?
+
+      Tongkat Ali (Eurycoma longifolia) is a Southeast Asian rainforest plant extract that has become increasingly popular in male health, performance, and testosterone-focused supplement stacks. The root extract contains bioactive compounds including quassinoids, alkaloids, and other phytochemicals, though the exact mechanisms of action remain incompletely understood. The ingredient's appeal stems largely from traditional use in Malaysian and Indonesian herbal medicine, combined with a growing portfolio of human clinical studies published over the past two decades.
+
+      ## Why the Interest?
+
+      Tongkat Ali appears in the supplement space with remarkable frequency, particularly in formulations marketed toward men concerned with sexual function, testosterone status, mood, energy, and athletic performance. The ingredient has achieved cult-like status in certain fitness and biohacking communities, often appearing alongside other adaptogens and testosterone-supporting compounds in premium supplement stacks. This popularity is not without reason—there is genuine human research showing biological activity—but the gap between what the science actually shows and what marketing claims suggest is substantial.
+
+      ## The Science: What Actually Exists
+
+      The human evidence for Tongkat Ali consists primarily of small, often industry-sponsored clinical trials conducted between 2009 and 2015. The largest and most frequently cited study (Tambi et al., 2012) examined androgen-related markers in a limited cohort, reporting changes in testosterone-related parameters in specific subgroups. However, the sample sizes are modest, the studies are heterogeneous in design, and many employ proprietary extracts that cannot be directly compared across trials.
+
+      Key findings across the literature include signals for stress-buffering effects, with improvements in cortisol patterns and mood in small populations; some evidence for modest improvements in sexual function and libido in men with baseline low-normal testosterone; mixed results for direct testosterone elevation (most studies show modest changes in testosterone-adjacent biomarkers rather than striking increases); and potential effects on muscle strength and lean mass, though the evidence is preliminary and confounded by exercise variables in the studied populations.
+
+      The review literature (Ismail et al., 2012) concludes that Tongkat Ali is "interesting but clearly within the domain of moderate and preliminary evidence"—a fair summary that the ingredient's advocates often overlook.
+
+      ## The Extract Problem: Critical But Underappreciated
+
+      A critical issue with Tongkat Ali is that the extract used matters enormously. Not all Tongkat Ali extracts are created equal. The studies that showed the most promising results typically used standardized extracts with defined ratios of quassinoids and other bioactives. The commercial supplement market, however, includes a spectrum of extraction qualities: some products use the same extracts from the clinical trials, while others use crude or poorly standardized material that may have substantially different bioactive profiles and potency.
+
+      This extract variability is rarely discussed in marketing materials, but it fundamentally undermines the ability to translate study findings to any given consumer product. Buying "Tongkat Ali" without knowing the extraction method, standardization level, and ideally the specific extract used in published studies is purchasing something that may or may not resemble the ingredient tested in humans. Two products labeled identically may have radically different bioactive concentrations.
+
+      ## Regulatory Status and EU Context
+
+      The European Food Safety Authority (EFSA) has evaluated Tongkat Ali and concluded that there is insufficient evidence to permit health claims related to testosterone, virility, muscle building, or sexual function. This is a meaningful constraint in European regulation: claims that survive EFSA scrutiny have typically met a higher evidentiary bar than is required in other jurisdictions. The absence of approved claims should be interpreted as EFSA's assessment that the current evidence—while interesting—does not yet support marketing language about these endpoints. This reflects a conservative but evidence-driven approach.
+
+      ## Mechanism: Plausible but Unproven in Humans
+
+      The proposed mechanisms for Tongkat Ali's effects involve modulation of testosterone metabolism, anti-inflammatory signaling, and stress hormone regulation. The quassinoids in the extract show bioactivity in cell models and animal studies, and some human mechanistic work suggests effects on aromatase inhibition and other testosterone-adjacent pathways. However, the gap between plausible mechanism and demonstrated clinical efficacy remains wide. Many supplement ingredients have plausible mechanisms; fewer have robust human evidence supporting meaningful clinical outcomes.
+
+      ## Limitations of the Evidence Base
+
+      The human trials are uniformly small (typical n=50–100), lack adequate blinding and placebo controls in some cases, rely on self-reported outcomes (libido, mood) with attendant bias risk, and often combine Tongkat Ali with other ingredients, obscuring its independent contribution. Publication bias is likely: studies showing no effect are less likely to be published, particularly in an industry-driven research landscape. The longest studies run 12 weeks; long-term safety and efficacy data are absent. None of the studies provide the robust, replicable, large-scale evidence that would move Tongkat Ali from "interesting signal" to "established benefit."
+
+      ## Safety Considerations
+
+      Tongkat Ali appears well-tolerated in short-term studies, with few serious adverse events reported in trial populations. However, long-term safety data remain minimal. The ingredient's potential hormonal effects warrant caution in individuals with hormone-sensitive cancers, and interactions with medications affecting testosterone or cortisol metabolism have not been systematically studied. The "caution" safety rating reflects this incomplete picture rather than evidence of acute harm.
+
+      ## The Bottom Line
+
+      Tongkat Ali is genuinely interesting from a mechanistic and preliminary evidence perspective. It is not a fraudulent ingredient, nor is it a myth. However, it is substantially less settled than its reputation in fitness and biohacking communities suggests. The human evidence is real but modest in size and quality; the extract used matters critically and is rarely standardized; the regulatory environment reflects appropriate skepticism about strong claims; and long-term outcomes remain unknown. For individuals interested in evidence-based supplementation, Tongkat Ali represents a speculative purchase with interesting signals but not yet robust proof of benefit for any endpoint. The hype-to-evidence ratio is particularly high for claims about testosterone elevation or sexual enhancement. If exploring Tongkat Ali, ensure the product uses a standardized extract with published clinical backing, maintain realistic expectations, and be aware that regulatory bodies in the EU and elsewhere have not approved strong efficacy claims.
 
 relations:
   - relation: hat_regulatorischen_status

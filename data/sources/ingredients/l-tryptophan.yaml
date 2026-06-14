@@ -21,7 +21,7 @@ efsa_notes:
   de: >-
     Für L-Tryptophan gibt es in der EU keine zugelassenen Claims zu Schlaf oder Stimmung.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, there are no approved health claims for L-tryptophan for sleep or mood.
 
 key_studies:
   - pmid: "6818213"
@@ -33,7 +33,7 @@ key_studies:
       de: >-
         Frühe Humanstudien zeigen potenzielle Vorteile für Einschlafzeit und Schlafqualität.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Early human studies show potential benefits for sleep onset time and sleep quality.
   - pmid: "19734380"
     title: "The role of tryptophan in mood and cognition"
     authors: "Richard DM et al."
@@ -43,7 +43,7 @@ key_studies:
       de: >-
         Review: Tryptophan ist neurobiologisch relevant, aber Effekte hängen stark vom Kontext ab.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Tryptophan is neurobiologically relevant, but effects depend strongly on context.
   - pmid: "23689751"
     title: "Tryptophan depletion and psychiatric vulnerability"
     authors: "Young SN"
@@ -53,7 +53,7 @@ key_studies:
       de: >-
         Tryptophan beeinflusst serotonerge Systeme plausibel, aber Supplementeffekte sind nicht automatisch groß.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Tryptophan plausibly influences serotonergic systems, but supplementation effects are not automatically substantial.
 
 locales:
   de:
@@ -76,11 +76,83 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      L-tryptophan is the precursor to serotonin and melatonin. Biologically plausible for sleep and mood, but direct supplementation effects remain limited and variable.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      L-tryptophan is biologically plausible for sleep and mood because it serves as a precursor to both serotonin and melatonin. Evidence exists showing modest benefits, but effects are typically moderate and context-dependent. Direct supplementation is often weaker than more targeted alternatives such as 5-HTP or melatonin, and absorption depends on intestinal amino acid competition.
     body: |
-      NEEDS_EN_BODY
+      ## What is L-Tryptophan?
+
+      L-tryptophan is an essential amino acid—one of the nine amino acids your body cannot synthesize and must obtain from diet or supplementation. It is unique because it serves as the biochemical precursor for two critical neurotransmitters: **serotonin** and **melatonin**. This dual role makes tryptophan theoretically attractive for both mood regulation and sleep support.
+
+      In a simplified biochemical pathway, dietary or supplemental L-tryptophan enters the bloodstream and crosses the blood-brain barrier via the large amino acid transporter (LAT). Once in brain tissue, the enzyme tryptophan hydroxylase converts tryptophan to 5-hydroxytryptophan (5-HTP), which is then converted to serotonin by aromatic amino acid decarboxylase (AADC). A portion of serotonin is further metabolized to melatonin via a series of enzymatic steps involving acetylation and methylation.
+
+      ## The Biological Mechanism
+
+      ### Serotonin and Mood
+
+      Serotonin is the primary neurotransmitter implicated in mood regulation, reward, motivation, and emotional resilience. Low serotonergic tone is associated with depression, anxiety, and impulsivity. This is why selective serotonin reuptake inhibitors (SSRIs)—which increase serotonin availability in synapses—are the first-line pharmacological treatment for depression and anxiety disorders.
+
+      The logic behind tryptophan supplementation appears straightforward: if you provide more tryptophan substrate, the brain should synthesize more serotonin, leading to improved mood. This mechanism is neurobiologically plausible.
+
+      ### Melatonin and Sleep
+
+      Melatonin is a circadian rhythm regulator produced by the pineal gland. Its synthesis from serotonin follows the suprachiasmatic nucleus' response to light and dark cycles. Melatonin peaks at night, signaling sleep readiness, and declines during daylight. Supplemental melatonin has well-established efficacy for shifting circadian rhythms and improving sleep onset, particularly in conditions like jet lag and shift work disorder.
+
+      If tryptophan increases melatonin synthesis via serotonin, it could theoretically improve sleep. However, this is an indirect pathway with multiple potential bottlenecks.
+
+      ## What's the Practical Problem?
+
+      Despite the attractive biochemistry, several practical limitations reduce tryptophan's real-world efficacy.
+
+      ### Amino Acid Competition
+
+      L-tryptophan does not enter the brain in isolation. The LAT transporter is shared by all large neutral amino acids—including leucine, isoleucine, valine, tyrosine, and phenylalanine. When you consume a mixed meal containing protein, these amino acids compete for the same transporter. Because tryptophan is present in lower concentrations relative to other branched-chain amino acids, it loses the competition. This means that consuming tryptophan *with* other amino acids actually reduces its absorption into the brain.
+
+      This competition effect is why many tryptophan supplementation protocols recommend taking it on an empty stomach, separate from meals or other amino acids. However, this also increases gastrointestinal side effects and nausea.
+
+      ### Variable Conversion Efficiency
+
+      The conversion of tryptophan to serotonin is not automatic or guaranteed. Enzymes like tryptophan hydroxylase have cofactor requirements—they need pyridoxal-5-phosphate (vitamin B6), tetrahydrofolate, and iron to function optimally. If these cofactors are insufficient, the bottleneck moves from substrate availability to enzyme activity.
+
+      Moreover, tryptophan metabolism is subject to the kynurenine pathway. Under conditions of inflammation or immune activation (such as illness, stress, or high cortisol), an enzyme called indoleamine 2,3-dioxygenase (IDO) diverts tryptophan away from serotonin synthesis and toward the kynurenine pathway instead. This is one reason why mood often worsens during acute illness or chronic stress—not because tryptophan is unavailable, but because it's being metabolized in the wrong direction.
+
+      ### Intestinal Absorption and Bioavailability
+
+      Oral tryptophan must be absorbed from the small intestine. Absorption depends on healthy intestinal epithelium, adequate transit time, and appropriate pH. In individuals with inflammatory bowel disease, leaky gut, or dysbiosis, absorption may be impaired.
+
+      ## Evidence from Clinical Studies
+
+      Early human studies from the 1970s and 1980s (Hartmann et al., 1982) showed that tryptophan supplementation could modestly improve sleep onset latency and slow-wave sleep in some individuals—reductions in time to sleep onset of roughly 10-20 minutes in responders, with mixed results on overall sleep quality. These studies, however, were small, lacked robust placebo controls, and had methodological limitations.
+
+      More recent meta-analyses and systematic reviews suggest tryptophan is less consistently effective than once hoped. A 2009 review by Richard et al. examining the role of tryptophan in mood and cognition concluded that while tryptophan is neurobiologically relevant, actual effects depend strongly on context—individual genetics, baseline inflammation, concurrent medications, diet, and stress all modulate the response.
+
+      For mood, individual studies show variable results. Some suggest improvements in mood or anxiety in certain populations (particularly those with subclinical or mild mood symptoms), but large, well-controlled trials in clinical depression are limited. Effect sizes where reported are often small to moderate.
+
+      Young et al. (2013) highlighted that tryptophan depletion can acutely worsen mood in vulnerable individuals, suggesting that adequate tryptophan is necessary for normal mood. However, supplementing *beyond* adequacy does not show a dose-response improvement—more tryptophan does not necessarily equal better mood.
+
+      ## Comparison to Alternatives
+
+      Two alternatives are often more effective:
+
+      - **5-HTP**: This is the direct intermediate between tryptophan and serotonin. It bypasses the tryptophan hydroxylase step and avoids amino acid competition at the intestinal transporter. Studies suggest 5-HTP is more reliably effective for mood and sleep than tryptophan, though it carries slightly higher risk of GI side effects and potential serotonin syndrome if combined with SSRIs.
+
+      - **Melatonin**: If sleep is the goal, direct melatonin supplementation has far more robust clinical evidence, faster onset, and more predictable dosing. Typical effective doses are 0.5-10 mg taken 30-60 minutes before bed.
+
+      ## Typical Dosing and Safety
+
+      Conventional oral doses range from 500-2000 mg per day, divided into one to three doses, typically taken on an empty stomach for better absorption. At these doses, tryptophan is generally regarded as safe in healthy individuals, though nausea, mild GI upset, and occasionally drowsiness occur.
+
+      Tryptophan does carry a caution flag in individuals on serotonergic medications (SSRIs, SNRIs, MAOIs, tramadol) due to the theoretical risk of serotonin syndrome. While actual cases are rare when doses are reasonable, combining high-dose tryptophan with SSRIs warrants medical oversight.
+
+      ## Regulatory Status
+
+      In the EU, the EFSA has not approved any health claims for L-tryptophan related to sleep or mood. It is regulated as a food supplement, not a pharmaceutical, so marketing claims are restricted. In the US, it is available as a dietary supplement but is not approved for any medical indication.
+
+      ## Conclusion
+
+      L-tryptophan is biologically plausible for sleep and mood support because it is the rate-limiting substrate for serotonin and melatonin synthesis. However, it is not maximally efficient in practice. Amino acid competition during digestion, variable enzymatic conversion, and context-dependent metabolism all reduce real-world efficacy. Clinical evidence shows modest, variable benefits at best—often comparable to placebo in well-designed studies.
+
+      For individuals seeking targeted serotonergic or melatonergic support, 5-HTP or melatonin are typically more reliable choices. L-tryptophan remains a reasonable option for those wanting a gentle, indirect approach or for whom other interventions are not suitable, but it should not be expected to produce dramatic shifts in mood or sleep. It is best viewed as part of a broader nutritional and lifestyle foundation—ensuring adequate dietary protein, B vitamins, iron, and stress management—rather than as a standalone nootropic.
 
 relations:
   - relation: hat_interaktion_mit

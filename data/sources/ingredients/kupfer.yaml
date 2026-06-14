@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Kupfer sind in der EU Claims zu Bindegewebe, Energiestoffwechsel, Pigmentierung, Nervensystem, Immunsystem und Schutz vor oxidativem Stress zugelassen. Hohe Langzeitdosen sind dennoch nicht unproblematisch.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, health claims for copper are approved for connective tissue, energy metabolism, pigmentation, nervous system, immune system, and protection against oxidative stress. However, high long-term doses are not without risk.
 
 key_studies:
   - pmid: ""
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Übersicht zu Bedarf, Mangel, Sicherheit und Interaktionen. Kupfer ist essenziell, aber Supplemente sollten eher gezielt als pauschal eingesetzt werden.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Overview of copper requirements, deficiency, safety, and interactions. While copper is essential, supplementation should be targeted rather than broad-based.
   - pmid: "18488400"
     title: "Copper deficiency, a new triad: anemia, leucopenia, and myeloneuropathy"
     authors: "Halfdanarson TR et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Kupfermangel kann Anämie, Neutropenie und neurologische Störungen verursachen. Klinisch besonders relevant nach Malabsorption oder Zink-Überdosierung.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Copper deficiency can cause anemia, neutropenia, and neurological disorders. Clinically particularly relevant following malabsorption or zinc overdosing.
   - pmid: "15883553"
     title: "Interactions between copper and zinc in human nutrition"
     authors: "Fischer Walker C et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Zink und Kupfer beeinflussen sich gegenseitig. Chronisch hohe Zinkzufuhr kann Kupfermangel begünstigen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Zinc and copper interact with each other. Chronic high zinc intake can promote copper deficiency.
 
 locales:
   de:
@@ -100,11 +100,96 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Copper is essential for enzymes, iron metabolism, and connective tissue. Justified for deficiency—but high-dose supplementation isn't advisable for otherwise healthy individuals.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Copper is an essential trace element with a clearly established role in iron metabolism, antioxidant enzymes, nerve function, and connective tissue formation. Supplementation is primarily relevant for deficiency or specific clinical situations. Additional benefits for those with adequate intake are poorly substantiated.
     body: |
-      NEEDS_EN_BODY
+      ## What is Copper?
+
+      Copper is an **essential trace element** required for numerous enzyme systems, including those involved in energy metabolism, connective tissue formation, and antioxidative defense mechanisms. Copper also plays a critical role in iron metabolism and cellular respiration.
+
+      ## What is Comparatively Well-Researched?
+
+      The scientific literature strongly supports copper's essential functions:
+      - Required for normal enzyme function and cellular energy production
+      - Critical for blood formation and iron utilization
+      - Important for connective tissue synthesis, nervous system function, and antioxidant enzyme activity
+      - Essential component of cytochrome c oxidase in the electron transport chain
+      - Role in melanin synthesis and pigmentation
+
+      ## What is Not Comparatively Well-Researched?
+
+      Despite copper's essential nature, certain claims lack robust evidence:
+      - General performance enhancement or healthy aging effects from supplementation
+      - Broad health benefits for supplementation in those with adequate dietary intake
+      - Specific longevity or cognitive enhancement claims beyond deficiency correction
+      - Disease prevention in non-deficient populations
+
+      ## When Can Copper Supplementation Become Relevant?
+
+      Copper supplementation may be warranted in specific clinical scenarios:
+
+      **Documented deficiency:** Clinical copper deficiency is rare in developed countries but can occur following malabsorption, certain gastrointestinal surgeries, or chronic diarrhea.
+
+      **High chronic zinc supplementation:** One of the most common reasons for induced copper deficiency. High-dose zinc supplements (&gt;50 mg/day chronically) interfere with copper absorption and can lead to copper depletion over time.
+
+      **Malabsorption disorders:** Conditions like celiac disease, Crohn's disease, or post-bariatric surgery may reduce copper absorption.
+
+      **Parenteral nutrition:** Individuals receiving long-term intravenous nutrition require adequate copper supplementation.
+
+      ## Safety Profile
+
+      Copper has a narrow therapeutic window. Both deficiency and excess can cause problems:
+
+      **Toxicity from excessive intake:**
+      - Gastrointestinal symptoms: nausea, vomiting, abdominal pain, diarrhea
+      - Neurological effects: tremor, paresthesias, ataxia
+      - Liver and kidney complications with chronic overload
+      - Wilson's disease risk is theoretical but requires vigilance in supplementation
+
+      **Deficiency symptoms:**
+      - Anemia (microcytic, hypochromic)
+      - Neutropenia and immune dysfunction
+      - Neuropathy and myelopathy
+      - Connective tissue disorders
+      - Bone demineralization
+
+      The RDA for copper is 900 μg/day for adults—a small amount. Supplemental doses typically range from 1–3 mg/day, which should be approached cautiously and ideally under medical guidance.
+
+      ## Key Research Context
+
+      The major concern with isolated copper supplementation is the risk of disrupting the delicate copper-zinc balance. Both minerals compete for absorption in the intestine, and supplementing one often affects the other. This makes isolated copper supplementation relatively uncommon in modern practice, as it's more often part of a balanced mineral formula or corrected through dietary changes.
+
+      Research from the NIH Office of Dietary Supplements emphasizes that while copper is essential, supplements should be targeted rather than universal. The 2008 study by Halfdanarson et al. in *Blood* highlighted how copper deficiency can manifest as a triad of anemia, leucopenia, and myeloneuropathy—conditions often initially misdiagnosed because copper deficiency is not routinely screened.
+
+      The Fischer Walker 2005 study in the *Journal of Nutrition* remains a landmark demonstrating the complex interactions between copper and zinc, particularly emphasizing that long-term high-dose zinc supplementation is a common cause of acquired copper deficiency.
+
+      ## EU Health Claims Status
+
+      The European Food Safety Authority (EFSA) has approved specific health claims for copper:
+      - Contribution to normal energy-yielding metabolism
+      - Contribution to normal nervous system function
+      - Contribution to normal connective tissue formation
+      - Contribution to normal iron transport and metabolism
+      - Contribution to normal pigmentation
+      - Contribution to normal immune system function
+      - Contribution to the protection of cells from oxidative stress
+
+      These claims are evidence-based but reflect essential functions rather than therapeutic benefits beyond adequate intake.
+
+      ## Practical Bottom Line
+
+      Copper is a **balance nutrient** rather than a longevity or performance supplement. Its value lies in maintaining adequate intake for essential functions, not in high-dose supplementation.
+
+      Most people obtain sufficient copper from food sources—shellfish, nuts, seeds, legumes, and whole grains are excellent sources. Isolated supplementation is most appropriate when deficiency is documented or when high-dose zinc supplementation is being used.
+
+      If considering copper supplementation, it should be:
+      - Part of a balanced mineral complex rather than isolated
+      - Dosed conservatively (1–2 mg/day maximum)
+      - Coordinated with zinc intake and ratios
+      - Ideally guided by serum copper testing if deficiency is suspected
+
+      Copper supplementation for otherwise healthy individuals with adequate dietary intake offers no evidence-based longevity benefit and carries unnecessary risk of disrupting mineral balance.
 
 relations:
   - relation: wird_eingesetzt_fuer

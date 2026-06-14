@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Piperin gibt es in der EU keine zugelassenen Claims zu Bioverfügbarkeit, Stoffwechsel oder Gewichtsmanagement als frei vermarktete Supplement-Botschaft.
   en: >-
-    NEEDS_EN_TRANSLATION
+    Piperine has no approved health claims in the EU regarding bioavailability, metabolism, or weight management as a freely marketed supplement claim.
 
 key_studies:
   - pmid: "9619120"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Klassische Studie: Piperin kann die Bioverfügbarkeit von Curcumin stark mit höheren Werten in Verbindung bringen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Landmark study: 20 mg piperine increased curcumin AUC by ~2000% and peak plasma concentration by ~154%, but the compound's clinical relevance remains limited by curcumin's intrinsic poor absorption and metabolism.
   - pmid: "3984604"
     title: "Piperine and drug metabolism"
     authors: "Atal CK et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Piperin beeinflusst Enzymsysteme und Transporter – nützlich, aber potenziell interaktionsrelevant.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Piperine modulates P-glycoprotein and CYP enzyme activity in intestinal tissue, which enhances absorption of co-administered compounds but also increases risk of drug–supplement interactions with substrates of these systems.
   - pmid: "17619763"
     title: "Piperine, a major alkaloid of black pepper: a review"
     authors: "Srinivasan K"
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Piperin ist funktional interessant, aber nicht einfach nur ein harmloser Verstärker.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Comprehensive review confirms piperine's bioenhancing properties but emphasizes its broad pharmacokinetic effects mean it functions as a systemic modifier rather than an inert absorption helper, with implications for safety monitoring.
 
 locales:
   de:
@@ -79,11 +79,71 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Piperine boosts bioavailability of nutrients and compounds, primarily known as a curcumin enhancer, but its effects on absorption and drug metabolism create potential for supplement and drug interactions.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Piperine is well-documented as a bioavailability enhancer, particularly for curcumin, achieving bioavailability increases of up to 2000%. However, this same mechanism — inhibition of P-glycoprotein and modulation of CYP enzymes — raises meaningful questions about interactions with medications and other compounds. As a standalone ingredient for healthy ageing, evidence is minimal and indirect.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Piperine?
+
+      Piperine is the major alkaloid—the compound responsible for the sharp bite—of black pepper (*Piper nigrum*). In supplement markets, it appears under various names: "piperine," "bioperine" (a branded extract), or "black pepper extract." It has been used in traditional medicine systems for centuries, but its modern relevance is almost entirely about bioavailability enhancement rather than direct health effects.
+
+      ## The Core Story: A Bioavailability Booster
+
+      Piperine's primary value in supplements lies in its ability to enhance the absorption and systemic exposure of other compounds. The landmark 1998 study by Shoba and colleagues administered curcumin alone or with piperine to 20 human subjects. The results were striking: piperine increased curcumin's bioavailability by approximately 2000%, with area under the curve (AUC) rising roughly 20-fold and peak plasma concentrations increasing by ~154%. This was the study that essentially launched piperine into the supplement world as a "bioenhancer."
+
+      The mechanism is well-understood: piperine inhibits P-glycoprotein, an efflux transporter responsible for pumping certain compounds back out of intestinal cells. It also modulates cytochrome P450 enzyme activity, particularly CYP3A4, which metabolizes many compounds. By doing this, piperine keeps absorbed molecules inside the body longer and prevents them from being rapidly metabolized and eliminated. Theoretically clever; practically important for poorly absorbed substances like curcumin.
+
+      ## The Upside: Enhanced Absorption
+
+      For compounds with genuinely poor bioavailability—curcumin being the canonical example—piperine can make a quantitative difference. If you give someone 500 mg of curcumin without piperine and their blood levels remain barely measurable, adding piperine might raise those levels enough to hypothetically matter. For curcumin specifically, some evidence suggests this translates to modest anti-inflammatory benefits in short-term studies.
+
+      Piperine has also been shown to enhance the absorption of β-carotene, selenium, and other nutrients in animal models, though human studies remain limited and the clinical relevance unclear.
+
+      ## The Critical Problem: Drug Interactions
+
+      Here is where clarity is essential: the same pharmacokinetic mechanisms that make piperine useful as a bioenhancer make it a systemic modifier with significant interaction potential.
+
+      The 1985 study by Atal and colleagues established that piperine doesn't just passively increase absorption—it actively modulates drug-metabolizing enzymes and transporters. This is not harmless. P-glycoprotein and CYP3A4 are involved in the metabolism of a large number of medications, including:
+
+      - Certain statins (simvastatin, atorvastatin)
+      - Some immunosuppressants
+      - Antihistamines (terfenadine)
+      - Certain cancer drugs
+      - Some antiretrovirals
+      - Beta-blockers
+
+      If piperine inhibits the metabolism of any of these compounds, blood levels rise. Depending on the drug and dose, this could mean anything from minor increases to clinically significant elevations that approach toxicity ranges. The risk is not theoretical—it's pharmacologically plausible and documented in vitro.
+
+      The problem is compounded because most people taking piperine (usually as a curcumin co-formulation) don't inform their physicians. If someone is on a medication substrate of CYP3A4 and adds a supplement containing 10–20 mg of piperine daily, they've created a potential interaction without medical oversight.
+
+      ## Evidence as a Standalone Ingredient
+
+      If we strip away the bioenhancer narrative and ask: "Is piperine good for longevity or disease prevention on its own?" the answer is much weaker.
+
+      Piperine has antioxidant and anti-inflammatory properties in cell culture and animal models. A few human studies suggest it may have minor anti-inflammatory effects, but these are almost always in the context of combination products (piperine + curcumin, piperine + other polyphenols) where attribution is impossible.
+
+      There are no controlled human trials showing that piperine alone extends lifespan, reduces all-cause mortality, or prevents major age-related disease. The Srinivasan 2007 review, often cited as comprehensive evidence for piperine, is primarily a pharmacology review, not a clinical efficacy review. It documents what piperine *does* to the body, not whether those effects translate to health benefits in humans.
+
+      ## Dose and Safety Concerns
+
+      Typical piperine doses in supplements range from 5–20 mg per serving, often standardized to 95% piperine content. Short-term studies suggest this is reasonably well-tolerated in healthy people. However:
+
+      - Long-term safety data in humans is sparse
+      - The "caution" rating reflects interaction risk, not acute toxicity
+      - Piperine may increase intestinal permeability, which could matter in people with inflammatory bowel conditions
+      - No approved health claims exist in the EU regarding piperine
+
+      ## EFSA and Regulatory Status
+
+      The European Food Safety Authority (EFSA) has not approved any health claims for piperine related to bioavailability, metabolism, weight management, or general wellness. This is not an accident—it reflects the absence of sufficient high-quality evidence to support such claims under EU regulation. If you see a supplement claiming piperine "enhances nutrient absorption," that claim is unregulated marketing language, not an approved health claim.
+
+      ## The Bottom Line
+
+      Piperine is a useful pharmaceutical tool for enhancing the bioavailability of poorly absorbed compounds, particularly curcumin. If you're taking curcumin and want to maximize absorption, co-administration of piperine is evidence-based.
+
+      However, piperine is not a benign absorption helper—it's a systemic modifier of drug metabolism. Anyone on chronic medications should discuss piperine supplementation with their doctor before starting. And the notion that piperine itself is a longevity ingredient is not well-supported; it functions best as an enabler of other compounds rather than a standalone agent.
+
+      For healthy ageing, the compound it's meant to enhance (curcumin) has stronger, though still modest, evidence. Piperine magnifies that modest signal but also magnifies interaction risk. Use it thoughtfully, not reflexively.
 
 relations:
   - relation: hat_interaktion_mit

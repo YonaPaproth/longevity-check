@@ -24,7 +24,7 @@ efsa_notes:
   de: >-
     Für L-Tyrosin gibt es in der EU keine zugelassenen Health Claims zu kognitiver Funktion, Stressresistenz oder mentaler Leistungsfähigkeit.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, there are no approved EFSA health claims for L-Tyrosin regarding cognitive function, stress resilience, or mental performance.
 
 key_studies:
   - pmid: "7737166"
@@ -36,7 +36,7 @@ key_studies:
       de: >-
         RCT (militärisches Umfeld): L-Tyrosin konnte in Studien kognitive Leistungsabfälle unter extremen Stressbedingungen (Schlafentzug, körperliche Belastung) abmildern.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT (military setting): L-Tyrosin attenuated cognitive performance decline under extreme stress conditions (sleep deprivation, physical exertion) in studies.
   - pmid: "7794222"
     title: "The effects of tyrosine on cognitive performance during extended wakefulness"
     authors: "Neri DF et al."
@@ -46,7 +46,7 @@ key_studies:
       de: >-
         Militärstudie: 150 mg/kg L-Tyrosin milderte den Leistungsabfall bei Schlafentzug um ca. 4 Stunden.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Military study: 150 mg/kg L-Tyrosin attenuated performance decline from sleep deprivation by approximately 4 hours.
   - pmid: "7940540"
     title: "Acute tyrosine/phenylalanine depletion reduces dopamine activity"
     authors: "Shurtleff D et al."
@@ -56,7 +56,7 @@ key_studies:
       de: >-
         Mechanistische Studie: Tyrosin-Depletion reduzierte dopaminabhängige kognitive Parameter, was die Rolle als Neurotransmitter-Vorstufe unterstreicht.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Mechanistic study: Tyrosine depletion reduced dopamine-dependent cognitive parameters, underscoring its role as a neurotransmitter precursor.
   - pmid: "6528626"
     title: "L-tyrosine to alleviate the effects of stress?"
     authors: "Reinstein DK et al."
@@ -66,7 +66,7 @@ key_studies:
       de: >-
         Kontrollierter Test (Kälte- und Lärm-Stressoren): L-Tyrosin milderte in Studien Stressreaktionen und Leistungsabfälle.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Controlled test (cold and noise stressors): In studies, L-Tyrosin attenuated stress reactions and performance decline.
 
 locales:
   de:
@@ -152,11 +152,91 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      L-Tyrosin is an amino acid precursor of dopamine, noradrenaline, and adrenaline. Studies show cognitive benefits under acute stress and sleep deprivation.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Multiple RCTs document cognitive benefits of L-Tyrosin under acute stress (sleep deprivation, cold, cognitive load). At rest without stressors, effects are barely detectable in studies. Athletic performance effects are inconsistent.
     body: |
-      NEEDS_EN_BODY
+      ## What is L-Tyrosin?
+
+      L-Tyrosin is a conditionally essential amino acid synthesized in the body from **L-Phenylalanine**. Although your body can produce L-Tyrosin endogenously, under certain stress conditions or periods of high demand, this internal production may become insufficient to meet neurochemical needs.
+
+      L-Tyrosin serves as the precursor for several critical compounds:
+
+      - **Catecholamines:** Dopamine → Noradrenaline → Adrenaline (the stress hormone cascade)
+      - **Melanin** (skin pigment)
+      - **Thyroid hormones** T3 and T4 (via thyroxine intermediate steps)
+
+      L-Tyrosin has attracted supplement interest because dopamine and noradrenaline are essential for **concentration, working memory, stress response, and cognitive flexibility**. The hypothesis: more Tyrosin substrate → more neurotransmitter production → better cognitive function under load.
+
+      ## What Does the Research Actually Show?
+
+      ### Positive Findings (under acute stress)
+
+      Multiple controlled studies—many involving military personnel or simulated extreme conditions—demonstrate that **L-Tyrosin can attenuate cognitive performance decline under acute stress**. These stressors include sleep deprivation, cold exposure, noise, and mental exhaustion.
+
+      In several RCTs, **working memory, reaction time, and vigilance** improved with supplementation compared to placebo. The strongest effects emerged when the **catecholamine system was already under pressure**—that is, during stress, sleep loss, or high cognitive demand.
+
+      The Deijen & Orlebeke (1994) military RCT found that cadets receiving L-Tyrosin maintained better cognitive performance and lower blood pressure after one week of combat training compared to controls. Similarly, the Neri study (1995) reported that 150 mg/kg doses attenuated performance decline from sleep deprivation by approximately 4 hours—a substantial real-world effect.
+
+      ### Key Limitations
+
+      **At rest** without stressors, most studies show no detectable cognitive advantage from L-Tyrosin supplementation. This suggests that neurotransmitter synthesis is not substrate-limited when the system is not under pressure—the body's endogenous production appears adequate for baseline function.
+
+      Several methodological caveats apply:
+      - Studies are often dated (1980s–2000s) with small sample sizes and military-only populations; generalizability to everyday users is limited
+      - **Athletic performance effects** (strength, endurance) are inconsistent and overall weak
+      - No robust long-term data exist on cognitive function or mood with sustained supplementation
+      - Higher-dose protocols used in military research (7–10 g) are rarely matched in commercial supplements (0.5–2 g)
+
+      > **Bottom line:** L-Tyrosin may help attenuate cognitive decline during acute stress in studies; under normal conditions, effects are minimal to undetectable.
+
+      ## Mechanism: Neurotransmitter Precursor
+
+      The biochemical pathway from L-Tyrosin to neurotransmitters is straightforward:
+
+      1. L-Tyrosin is converted by **Tyrosine Hydroxylase** to **L-DOPA**—this step is rate-limiting
+      2. L-DOPA is converted by **DOPA Decarboxylase** to **Dopamine**
+      3. Dopamine is converted by **Dopamine-β-Hydroxylase** to **Noradrenaline**
+      4. Noradrenaline can be methylated to **Adrenaline**
+
+      Under stress, noradrenaline consumption increases sharply (sympathetic activation). If Tyrosin availability becomes limiting during high catecholamine turnover, additional L-Tyrosin may support neurosynthesis in studies. This "demand-dependent" mechanism explains why Tyrosin appears more effective in stressed individuals than in those at rest.
+
+      ## Dosing
+
+      - **In cognitive stress studies:** 100–150 mg/kg body weight—at 70 kg this translates to ~7–10 g, which is very high and impractical for most users
+      - **Practical supplement dosing:** 500–2,000 mg (0.5–2 g) taken before cognitively demanding tasks or stressful situations. These lower doses are less well-supported by controlled research than the higher military protocols
+      - **N-Acetyl-L-Tyrosin (NALT):** A common supplement form with improved solubility. However, NALT's bioavailability for neurotransmitter synthesis is not clearly superior to L-Tyrosin; some evidence suggests inferior conversion
+
+      ## Drug Interactions
+
+      - **MAO Inhibitors (MAOIs):** L-Tyrosin should not be combined with MAOIs. These drugs block catecholamine breakdown; additional Tyrosin may trigger dangerous blood pressure elevation. This combination is contraindicated.
+      - **L-DOPA medications (Parkinson's therapy):** Potential transporter-level interaction; medical consultation required
+      - **Thyroid hormones:** Since Tyrosin influences thyroid hormone synthesis, individuals with thyroid disease or taking levothyroxine should consult their doctor before supplementing
+      - **Other amino acids:** L-Tyrosin and L-Phenylalanine compete for the same transporter. Taking on an empty stomach may improve absorption
+
+      ## Safety Profile
+
+      L-Tyrosin is considered **likely safe** for healthy adults at typical dietary and supplement doses (up to ~3 g/day). As a natural amino acid, it is part of normal nutrition.
+
+      At higher doses, possible effects include:
+      - Nausea, headache, fatigue in sensitive individuals
+      - Theoretical catecholamine imbalance in persons with psychiatric histories
+
+      Medical consultation or avoidance recommended for:
+      - **Phenylketonuria (PKU):** Although Tyrosin is essential in PKU, supplementation requires medical supervision
+      - **MAO inhibitor use:** Contraindicated due to hypertension risk
+      - **Thyroid disorders:** Risk of altering thyroid function
+      - **Psychiatric conditions** like bipolar disorder (dopamine-sensitive)
+
+      ## Regulatory Status in Germany and the EU
+
+      - L-Tyrosin is **not a Novel Food** in the EU and is permitted as a dietary supplement
+      - **Health claims:** EFSA has **not approved** any health claims for L-Tyrosin regarding cognitive function, mental performance, or stress resilience. Corresponding marketing claims are not permitted
+      - NALT (N-Acetyl-L-Tyrosin) is also commercially available, with no specific approved health claims
+
+      ## Final Assessment
+
+      L-Tyrosin is an interesting option for people facing acute, short-term stress who need to maintain cognitive performance—such as during sleep-deprived periods, intensive exam phases, or physically demanding situations. For daily use without clear stress context, research does not support reliable efficacy. For athletes or as a longevity supplement, there is insufficient evidence. If you are seeking a cognitive supplement for everyday conditions, the scientific literature currently does not provide compelling support for L-Tyrosin; the ingredient appears to show benefit primarily when the neurotransmitter system is genuinely under pressure.
 
 relations:
   - relation: wird_eingesetzt_fuer

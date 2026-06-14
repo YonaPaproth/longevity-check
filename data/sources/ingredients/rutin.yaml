@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Rutin gibt es in der EU keine zugelassenen Claims zu Gefäßschutz, Antioxidantienwirkung oder Venenstärkung im Nahrungsergänzungskontext.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, rutin has no approved claims for vascular protection, antioxidant effects, or vein strengthening in the dietary supplement context.
 
 key_studies:
   - pmid: "28694736"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Review: Rutin ist präklinisch breit interessant, aber klinische Evidenz bleibt überschaubar.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Rutin shows broad preclinical interest but clinical evidence remains limited.
   - pmid: "11448538"
     title: "Rutin and vascular health"
     authors: "Guardia T et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Hinweise auf gefäßbezogene Effekte, jedoch keine starke moderne Humanbasis.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Hints at vascular effects but no strong modern human evidence base.
   - pmid: "11285671"
     title: "Flavonoids including rutin in chronic disease prevention"
     authors: "Nijveldt RJ et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Flavonoide sind interessant, aber konkrete Supplementempfehlungen bleiben schwierig.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Flavonoids are interesting, but concrete supplement recommendations remain difficult.
 
 locales:
   de:
@@ -73,11 +73,67 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Rutin is a flavonoid with vascular and antioxidant properties. Biologically plausible but clinically a niche topic with limited human evidence.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Rutin is a plant-derived flavonoid with antioxidant and vascular properties. Some evidence exists for specific vascular or inflammatory contexts, but insufficient support for broad longevity or healthy aging claims in humans.
     body: |
-      NEEDS_EN_BODY
+      ## What is Rutin?
+
+      Rutin is a flavonoid glycoside—specifically, quercetin-3-rutinoside—found naturally in plants such as buckwheat, citrus peels, apple skins, and black tea. The compound consists of the flavonol quercetin bonded to the disaccharide rutinose. Rutin is often called a bioflavonoid and has been used in traditional European and Asian medicine for centuries, particularly in claims related to vascular health and capillary strength.
+
+      Structurally, rutin is a polyphenolic compound with multiple hydroxyl groups that confer its antioxidant properties. Unlike quercetin aglycone, which is more efficiently absorbed, rutin's glycoside form is less bioavailable in the human gut. This bioavailability limitation is a key factor when evaluating its efficacy in clinical settings.
+
+      ## Proposed Mechanisms of Action
+
+      The scientific interest in rutin centers on three main mechanisms:
+
+      **Antioxidant Activity:** Rutin acts as a free radical scavenger due to its polyphenolic structure. In vitro studies show that it can neutralize reactive oxygen species (ROS) and inhibit lipid peroxidation. This mechanism is well-established in cell culture and animal models but direct evidence in human tissue is sparse.
+
+      **Vascular Effects:** Preclinical studies suggest rutin may strengthen blood vessel walls by increasing collagen cross-linking and reducing endothelial permeability. Some older research hints at effects on capillary fragility and venous insufficiency. These findings arise primarily from in vitro work and animal models; translation to humans remains limited.
+
+      **Anti-Inflammatory Actions:** Rutin appears to modulate inflammatory pathways, including NF-κB signaling and pro-inflammatory cytokine production, at least in cell systems. Whether this translates to meaningful anti-inflammatory effects in humans at typical supplement doses is unclear.
+
+      ## Human Clinical Evidence
+
+      The human evidence base for rutin is modest and does not support strong health claims.
+
+      **Venous Insufficiency:** A handful of older, small randomized trials (mostly from the 1970s–2000s) examined rutin in chronic venous insufficiency and varicose vein symptoms. While some showed marginal improvements in leg edema or symptom scores, the methodological quality was often poor by modern standards. Sample sizes were small, blinding was sometimes unclear, and control treatments were heterogeneous. No large, well-designed modern trial has re-examined this hypothesis.
+
+      **Capillary Fragility:** Limited data suggest rutin may reduce bleeding symptoms in certain niche conditions (e.g., hemophilic patients). These studies are small and not replicated in broader populations.
+
+      **General Health and Aging:** No rigorous human evidence links rutin supplementation to improved lifespan, disease prevention, or healthy aging outcomes. Observational studies on flavonoid-rich diets show associations with better health, but these cannot be attributed to rutin alone, nor do they prove supplementation works.
+
+      **Broader Flavonoid Context:** Epidemiological data suggest populations consuming flavonoid-rich foods (berries, tea, citrus) have lower cardiovascular and cancer risk. However, this evidence does not extend to isolated flavonoid supplements. The evidence for quercetin (of which rutin is a glycoside form) is stronger than for rutin specifically.
+
+      ## Bioavailability and Dosage
+
+      Rutin's glycoside structure makes it poorly absorbed in the human small intestine—bioavailability is estimated at 1–5%. The compound is largely hydrolyzed by gut bacteria and hepatic enzymes. To be effective, absorbed quercetin aglycone concentrations would need to reach the blood, but typical supplemental doses (250–500 mg) may not achieve clinically relevant plasma levels.
+
+      Typical supplement doses range from 250 to 500 mg daily. Some older European supplement guidelines recommended 250–1,000 mg split across meals. However, no dose-finding studies in humans have established optimal levels for any claimed benefit.
+
+      ## Safety Profile
+
+      Rutin is generally regarded as safe at typical supplement doses. Adverse events are rare and mild when reported (occasionally gastrointestinal upset). No serious toxicity has been documented in humans at supplemental doses. Long-term safety is presumed but not formally studied in large trials. Individuals taking anticoagulants should consult a clinician, as some in vitro data suggest quercetin (rutin's aglycone) may have mild antiplatelet effects, though clinical significance is unclear.
+
+      ## EFSA Regulatory Status
+
+      The European Food Safety Authority (EFSA) has not approved health claims for rutin in the dietary supplement context. Rutin has been assessed for claims regarding vascular function, capillary resistance, and general antioxidant effects, but the evidence was deemed insufficient to substantiate such claims under the stringent EU Health Claims Regulation (EC 1924/2006). This reflects the modest and fragmentary nature of the human evidence base.
+
+      ## Where Rutin Might Fit
+
+      Rutin is a reasonable component of a broad polyphenol strategy—i.e., consuming a variety of plant-derived antioxidant compounds as part of a whole-foods diet. If someone wishes to experiment with flavonoid supplementation for vascular health or antioxidant support, rutin is unlikely to cause harm and may offer a small benefit through its flavonoid content.
+
+      However, rutin is not a first-line or high-confidence choice for longevity or disease prevention supplementation. Better-evidenced alternatives include quercetin (higher bioavailability), resveratrol (in specific contexts), or simply eating more flavonoid-rich foods.
+
+      ## Realistic Expectations
+
+      Rutin is biologically plausible in theory but clinically underpowered in practice. Its low bioavailability, lack of large modern trials, and EFSA non-approval all point to the same conclusion: it is a niche ingredient with limited proven benefit in humans. Older European herbals and supplement traditions granted it more status than current evidence warrants.
+
+      If someone takes rutin supplementarily, they should not expect dramatic improvements in vascular health, aging, or disease risk. It may fit into a broader antioxidant regimen, but it is not a cornerstone ingredient.
+
+      ## Conclusion
+
+      Rutin is a well-tolerated flavonoid with a plausible mechanism of action but insufficient human evidence to justify strong health claims. It exemplifies the gap between biological plausibility and clinical proof. For those interested in vascular support or antioxidant supplementation, evidence-based alternatives with larger human databases (e.g., quercetin, horse chestnut seed extract, or simply increasing dietary flavonoid intake) are preferable. Rutin is safe to take but should be viewed as a minor supporting player, not a primary therapeutic agent in longevity supplementation.
 
 relations:
   - relation: wird_eingesetzt_fuer

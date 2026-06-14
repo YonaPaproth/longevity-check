@@ -23,7 +23,7 @@ efsa_notes:
   de: >-
     Für Silicium bestehen in der EU keine belastbaren zugelassenen Health Claims für Beauty- oder Bindegewebsversprechen. Viele Aussagen sind eher Marketing als solide Regulierung.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, there are no substantiated approved health claims for silicon regarding beauty, skin, or connective tissue promises. Most claims are marketing rather than regulatory science.
 
 key_studies:
   - pmid: "17435952"
@@ -35,7 +35,7 @@ key_studies:
       de: >-
         Review: Silicium ist biologisch plausibel für Knochen und Bindegewebe, aber die klinische Evidenz bleibt begrenzt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Silicon is biologically plausible for bone and connective tissue, but clinical evidence in humans remains limited.
   - pmid: "15701098"
     title: "Oral intake of choline-stabilized orthosilicic acid affects skin, nails and hair"
     authors: "Barel A et al."
@@ -45,7 +45,7 @@ key_studies:
       de: >-
         Kleine Studie mit Hinweisen auf Verbesserungen bei Haut und fragilen Haaren. Aussagekraft begrenzt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Small study with hints of improvements in skin and brittle hair quality, though the evidential weight is limited.
   - pmid: "18197562"
     title: "Silicon: a review of its potential role in the prevention and treatment of postmenopausal osteoporosis"
     authors: "Spector TD et al."
@@ -55,7 +55,7 @@ key_studies:
       de: >-
         Review: Potenzial vorhanden, aber klare klinische Belege fehlen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Potential exists, but clear clinical evidence in humans is absent.
 
 locales:
   de:
@@ -80,11 +80,65 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Silicon is marketed for skin, hair, nails and connective tissue. Biologically plausible but clinical evidence is limited.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Silicon is associated with connective tissue, skin, hair and bone health. A few small studies suggest potential benefits, but the evidence base is modest overall and significantly weaker than marketing claims suggest.
     body: |
-      NEEDS_EN_BODY
+      ## What is Silicon?
+
+      Silicon is a naturally occurring element present in the Earth's crust, plants, water, and various foods. In the human body, silicon is found in connective tissues, bones, skin, and hair. In the supplement industry, silicon is often marketed for beauty and joint health with claims that it could support skin elasticity, hair quality, nail strength, bone density, or cartilage integrity.
+
+      The hypothesis is straightforward: since silicon is a structural component of connective tissue and bone, supplementing with it might enhance these tissues. However, the gap between biological plausibility and clinical evidence is substantial—and significantly wider than marketing suggests.
+
+      ## The Biological Story
+
+      Silicon appears to play a role in the cross-linking of collagen and elastin, which are essential proteins for skin elasticity and the structural integrity of connective tissues. Animal studies and mechanistic research suggest it could be involved in bone mineralization and the synthesis of bone matrix components. Some researchers have proposed that silicon deficiency might theoretically impair bone and connective tissue health.
+
+      However, true silicon deficiency in humans consuming a normal diet is extremely rare. Most people obtain sufficient silicon from plant-based foods like whole grains, legumes, and legume-derived beverages. This raises a critical question: if silicon deficiency is uncommon, who would actually benefit from supplementation?
+
+      ## What the Human Studies Show
+
+      The evidence base for silicon supplementation in humans is modest and fragmented. Most studies are small, observational, or mechanistically focused rather than demonstrating clear clinical benefit.
+
+      **Bone Health**: A 2007 review by Jugdaohsingh in the American Journal of Clinical Nutrition examined silicon's role in bone formation and maintenance. The conclusion was cautious: while silicon is biologically plausible as a bone-supporting nutrient, clinical evidence in humans remains limited. Most existing data come from animal models or observational studies in populations with naturally higher dietary silicon intake—not from randomized controlled supplementation trials.
+
+      **Skin, Hair, and Nails**: A 2005 study by Barel and colleagues published in Skin Pharmacology and Physiology tested a soluble form of silicon (choline-stabilized orthosilicic acid) in 50 women over 20 weeks. They reported modest improvements in skin elasticity, some improvements in brittle hair, and nail quality markers. However, the study was small, lacked a rigorous control group, and the observed improvements were modest in magnitude. The practical significance for most users remains unclear.
+
+      **Osteoporosis and Postmenopause**: A 2008 review by Spector and colleagues in Bone examined silicon's potential in preventing and treating postmenopausal osteoporosis. The authors concluded that while silicon has theoretical potential, clear clinical evidence in humans is lacking. Most suggestive data come from epidemiological studies, not randomized controlled trials.
+
+      ## Key Limitations
+
+      Several factors significantly limit confidence in silicon supplementation:
+
+      **Lack of Large Randomized Trials**: The gold standard for establishing supplement efficacy—large, well-designed randomized controlled trials in humans—is largely absent for silicon. Most claims rest on small studies, animal research, or observational correlations, which cannot establish causation.
+
+      **Bioavailability Questions**: The chemical form of silicon matters enormously. Orthosilicic acid is more bioavailable than other forms, but even it has variable absorption. Many commercial supplements use less bioavailable forms (colloidal silica, silica gel) that may pass through the digestive tract with minimal absorption or systemic benefit.
+
+      **Regulatory Assessment**: The European Food Safety Authority (EFSA) has not approved health claims for silicon in any category—neither for bone health, skin health, hair quality, nor connective tissue support. This regulatory judgment reflects the assessment that evidence does not meet the EFSA's threshold for substantiation. This is a significant signal that marketing claims are often unsubstantiated.
+
+      **Natural Silicon Intake**: People in regions with higher dietary silicon intake (from whole grains and drinking water) do not show dramatically better bone or skin health outcomes compared to those in other regions, which somewhat undermines the idea that "more silicon is better."
+
+      ## Safety Profile
+
+      Silicon supplementation is generally considered safe. It is not systemically toxic, and adverse effects are rare. Most reported side effects are mild gastrointestinal effects (bloating or gas). Typical supplemental doses range from 5–25 mg daily, well below any established upper limit for safety. People with kidney disease should exercise caution, as silicon is excreted primarily through the kidneys.
+
+      ## The Marketing Reality
+
+      Silicon is heavily marketed for anti-aging and joint health, particularly in beauty and wellness supplements. Marketing often emphasizes its structural role in collagen and bone, suggests that "your body needs silicon," or implies that modern diets are deficient in it. These narratives are much stronger than what the clinical evidence actually supports.
+
+      Many silicon supplements are positioned as "natural" or "plant-derived" to enhance their appeal. However, the naturalness of a source does not determine efficacy—the clinical trial evidence does.
+
+      ## Who Might Consider It?
+
+      If you have weak hair, brittle nails, or poor skin quality, and you are curious about silicon, the risk profile is low. A 3–6 month trial at a typical dose (10–15 mg daily of bioavailable orthosilicic acid) is unlikely to cause harm. However, do not expect dramatic results, and do not delay proven interventions (adequate protein, micronutrients, sleep, stress management) in favor of silicon.
+
+      Older adults or women at risk for osteoporosis should not view silicon as a substitute for established strategies like adequate calcium and vitamin D intake, resistance exercise, and pharmaceutical options if indicated.
+
+      ## The Bottom Line
+
+      Silicon is biologically plausible but clinically underwhelming. It is not a top-tier longevity or performance supplement. The evidence base is narrow, the EFSA has not approved claims, and most people obtain sufficient silicon from diet. If you are already taking a diverse supplement regimen and are curious about silicon, it is safe to explore—but do not expect transformative results, and do not rely on it as a primary strategy for bone, skin, or joint health.
+
+      For beauty and structural tissue support, interventions with stronger evidence (vitamin C, collagen peptides, adequate protein, zinc) remain more compelling choices.
 
 relations:
   - relation: wird_eingesetzt_fuer

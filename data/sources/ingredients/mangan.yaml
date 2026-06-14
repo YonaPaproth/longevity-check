@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Mangan sind in der EU Claims zu Energiestoffwechsel, Bindegewebe, Knochen und Schutz vor oxidativem Stress zugelassen. Diese Claims rechtfertigen keine beliebig hohe Supplementierung.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, health claims for manganese include contributions to normal energy metabolism, connective tissue formation, bone mineralization, and protection against oxidative stress. These approved claims do not justify arbitrary high-dose supplementation.
 
 key_studies:
   - pmid: ""
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Übersicht zu Funktionen, Bedarf und Sicherheit. Manganmangel ist selten, Überversorgung kann problematisch sein.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Overview of manganese functions, dietary requirements, and safety considerations. Manganese deficiency is rare in well-nourished populations; excess intake poses toxicity concerns, particularly for neurological health.
   - pmid: "23036414"
     title: "Manganese-induced neurotoxicity: a review of its behavioral consequences and neuroprotective strategies"
     authors: "Martinez-Finley EJ et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Review: Chronisch hohe Manganexposition kann das Nervensystem schädigen. Relevanz besonders bei Überexposition, aber auch ein Grund für Zurückhaltung bei Hochdosis-Supplementen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Systematic review showing chronic high manganese exposure damages the nervous system. Demonstrates behavioral and motor deficits in excessive exposure scenarios. Argues for caution with high-dose supplementation in healthy populations.
   - pmid: "16099008"
     title: "The role of manganese in bone health"
     authors: "Aschner M et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Mangan ist an Knochen- und Knorpelstoffwechsel beteiligt, aber Supplementnutzen bei gesunden Menschen ist schwach belegt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Manganese plays a biochemical role in bone and cartilage metabolism, but evidence for supplementation benefits in healthy, adequately nourished individuals remains weak and clinically unconvincing.
 
 locales:
   de:
@@ -88,11 +88,45 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Manganese is an essential trace element for enzyme function, bone metabolism and antioxidant systems. Deficiency is rare; supplementation in healthy adults lacks clear evidence of benefit.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Manganese is essential for numerous enzymes and metabolic processes. Clinical deficiency is rare in developed countries. In healthy adults, supplementation benefits are poorly established, while excessive intake carries documented neurotoxic risk.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Manganese?
+
+      Manganese is an **essential trace element** required as a cofactor for dozens of enzymes involved in energy metabolism, bone formation, immune function and antioxidant defense. Unlike some other minerals, your body cannot synthesize manganese—it must come from food sources. Whole grains, legumes, nuts, seeds, tea and leafy vegetables typically provide adequate amounts to meet physiological needs without supplementation.
+
+      The human body contains approximately 10–20 mg of manganese, with the highest concentrations in bones, liver, pancreas and kidneys. It functions as a structural component and enzymatic cofactor in critical metabolic pathways, including the mitochondrial enzyme manganese superoxide dismutase (MnSOD), which is central to cellular antioxidant defense. It also participates in prolyl and lysyl hydroxylase enzymes that stabilize collagen and are necessary for bone and connective tissue integrity.
+
+      ## What Is Well-Established?
+
+      - **Essential cofactor role**: Manganese is genuinely indispensable for dozens of enzymes across energy metabolism, bone remodeling and antioxidant systems.
+      - **Food-source adequacy**: Typical Western diets supply 1.5–10 mg daily, well above the AI (adequate intake) of 1.6–2.3 mg for adults.
+      - **EFSA-approved claims**: European regulatory bodies endorse claims for contributions to normal energy metabolism, bone health, connective tissue formation and antioxidant defense.
+      - **Biochemical mechanism**: Clear enzymatic roles documented in cell culture and animal models.
+
+      ## What Remains Uncertain?
+
+      - **Supplementation benefit in healthy individuals**: No strong clinical trial evidence shows that giving healthy, adequately nourished adults manganese supplements improves bone density, energy, mood or longevity.
+      - **Optimal intake range**: The gap between AI and the Tolerable Upper Intake Level (UL) is relatively wide (AI ~2 mg; UL ~11 mg), reflecting uncertainty about safety margins in humans.
+      - **Bioavailability of supplements**: Most manganese supplementation studies use small sample sizes; bioavailability and retention of different supplement forms (gluconate, glycinate, sulfate) are not well characterized in diverse populations.
+      - **Age and sex specificity**: Most evidence comes from occupational exposure studies or animal research, not randomized trials in different age groups or sexes.
+
+      ## Safety Profile: A Crucial Consideration
+
+      Manganese illustrates the principle that **more is not better**. Chronic excessive exposure—historically documented in miners and welders exposed to manganese dust, and in animal studies using high-dose oral or parenteral manganese—causes irreversible neurotoxicity. Symptoms include Parkinsonian motor deficits, mood disturbance, cognitive decline and tremor.
+
+      Although occupational poisoning typically involves much higher exposure than oral supplements, the Martinez-Finley 2013 review systematically documented neurotoxic pathways: manganese accumulates in basal ganglia and other brain regions; it catalyzes oxidative stress through Fenton-like chemistry; and it disrupts dopaminergic and GABAergic neurotransmission. In animal models, even subacute high doses cause behavioral and neuropathological changes.
+
+      This is why the Tolerable Upper Intake Level exists and is relatively conservative. Single-nutrient supplement bottles offering 15–30 mg per dose substantially exceed food intake and approach—or exceed—the UL. Long-term safety of such doses in apparently healthy humans has not been adequately studied.
+
+      ## Who Might Actually Need Manganese Supplementation?
+
+      True manganese deficiency in free-living humans is exceptionally rare and confined to severe malabsorption (e.g., short-bowel syndrome) or prolonged total parenteral nutrition without adequate manganese. It is not a concern for people eating ordinary diets, even vegetarian or whole-food-focused ones.
+
+      ## Bottom Line
+
+      Manganese is biochemically important, but it is emphatically **not** a priority supplement for healthy adults. Your diet almost certainly provides adequate manganese. High-dose supplements risk accumulating the mineral in the nervous system without proven clinical benefit. If you suspect manganese insufficiency due to malabsorption or specialized medical conditions, this should be managed under medical supervision, not through self-directed high-dose supplementation. For everyone else, the evidence argues for restraint and food-first thinking.
 
 relations:
   - relation: wird_eingesetzt_fuer

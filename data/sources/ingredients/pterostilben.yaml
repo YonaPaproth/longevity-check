@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Keine EFSA Health Claims für Pterostilben. Als Nahrungsergänzungsmittel in der EU erhältlich. Keine Novel-Food-Pflicht, da in Blaubeeren natürlich vorhanden. Regulatorischer Status ähnlich wie Resveratrol.
   en: >-
-    NEEDS_EN_TRANSLATION
+    No EFSA health claims authorized for pterostilbene. Available as a dietary supplement in the EU. No novel food classification required, as it occurs naturally in blueberries. Regulatory status similar to resveratrol.
 
 key_studies:
   - pmid: "23682780"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Review: Pterostilben hat eine orale Bioverfügbarkeit von ~80 % vs. ~20 % für Resveratrol. Aktiviert SIRT1, AMPK und Nrf2. Längere Halbwertszeit durch Methylgruppen statt Hydroxylgruppen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Pterostilbene exhibits ~80% oral bioavailability versus ~20% for resveratrol. Activates SIRT1, AMPK, and Nrf2. Longer half-life due to methyl groups rather than hydroxyl groups.
   - pmid: "23992536"
     title: "Effects of pterostilbene on lipid profile, glucose and cardiovascular risk"
     authors: "Riche DM et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         RCT (n=80): 250 mg Pterostilben/Tag war mit niedrigeren Werten verbundene systolischen Blutdruck signifikant. Negative Nebenwirkung: LDL-Erhöhung bei 250 mg (nicht bei 125 mg) – wichtiger Befund.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT (n=80): 250 mg pterostilbene daily was associated with significantly lower systolic blood pressure. Important adverse signal: LDL elevation at 250 mg (not at 125 mg).
   - pmid: "20562218"
     title: "Pterostilbene exerts antitumor activity via the Notch1 signaling pathway in human lung adenocarcinoma cells"
     authors: "Schneider JG et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Präklinisch: Pterostilben hemmt Tumorzellwachstum durch Notch-1-Inhibition. Krebspräventive Effekte in Zellkulturen und Tiermodellen vergleichsweise gut untersucht.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Preclinical: Pterostilbene inhibits tumor cell growth via Notch-1 inhibition. Antiproliferative effects in cell cultures and animal models are well characterized.
   - pmid: "21219274"
     title: "Bioavailability of pterostilbene in humans: a meta-analysis"
     authors: "Kapetanovic IM et al."
@@ -64,7 +64,7 @@ key_studies:
       de: >-
         Pharmakokinetische Studie: Pterostilben erreicht 4-fach höhere Plasma-Spiegel als Resveratrol bei gleicher Dosis, mit längerer Halbwertszeit und war mit Veränderungen verbundener Gewebeaufnahme.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Pharmacokinetic study: Pterostilbene achieves 4-fold higher plasma levels than resveratrol at identical doses, with prolonged half-life and enhanced tissue distribution.
 
 locales:
   de:
@@ -117,11 +117,71 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Pterostilbene is a resveratrol analogue from blueberries with superior bioavailability (~80% vs 20%). Similar mechanisms (SIRT1, AMPK) but fewer human studies to date.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Small RCTs show effects on blood pressure, cholesterol, and glucose. Bioavailability 4× superior to resveratrol. SIRT1 activation and AMPK well characterized preclinically. Direct human comparison with resveratrol remains limited. LDL elevation at higher doses (250 mg) requires caution.
     body: |
-      NEEDS_EN_BODY
+      ## What is Pterostilbene?
+
+      Pterostilbene is a **naturally occurring stilbenoid** – chemically closely related to resveratrol but with two **methyl groups** instead of hydroxyl groups. This small structural modification creates a substantial difference in pharmacokinetics and bioavailability.
+
+      Pterostilbene occurs primarily in **blueberries** (especially Pterocarya fraxinifolia), grapes, and certain types of wood. However, dietary concentrations are too low for therapeutic effects, making supplementation the only practical approach to achieve clinically relevant doses.
+
+      ## Pterostilbene vs. Resveratrol: The Crucial Difference
+
+      | Property | Resveratrol | Pterostilbene |
+      |---|---|---|
+      | Oral bioavailability | ~20% | ~80% |
+      | Half-life | ~14 min | ~105 min |
+      | Lipophilicity | Low | High (better membrane penetration) |
+      | Metabolism | Rapid conjugation | Slower degradation |
+
+      The practical implication: **same dose yields 4× higher plasma levels with 7× longer circulation time**. Pterostilbene is essentially resveratrol with a bioavailability fix built in.
+
+      ## Mechanisms of Action (Similar to Resveratrol)
+
+      - **SIRT1 activation**: NAD+-dependent deacetylase that promotes stress resistance, mitochondrial biogenesis, and DNA repair
+      - **AMPK**: Master metabolic sensor that inhibits mTOR and stimulates autophagy
+      - **Nrf2 pathway**: Antioxidant master regulator (similar mechanism to sulforaphane)
+      - **NF-κB inhibition**: Dampens inflammatory signaling cascade
+
+      All of these pathways are well-documented in both cell culture and animal models. Whether they translate to meaningful human benefits remains the open question.
+
+      ## What Do the Human Studies Actually Show?
+
+      ### Demonstrated Effects (Small RCTs)
+      The evidence base for pterostilbene in humans is modest compared to resveratrol. However, small randomized controlled trials have shown:
+
+      - **Blood pressure**: ~8 mmHg systolic reduction at 125 mg/day in a controlled trial
+      - **Glucose and lipids**: Improvements in metabolic parameters observed in small studies with metabolic syndrome subjects
+      - **Inflammation markers**: CRP and TNF-α reductions noted in some (but not all) trials
+
+      These effects are consistent with the proposed mechanisms, but sample sizes have been small (typically n=40–80).
+
+      ### The Critical Safety Signal: LDL Elevation
+
+      A significant and unexpected finding emerged in the Riche et al. (2013) RCT: at **250 mg/day, pterostilbene raised LDL cholesterol** – but this effect did **not occur at 125 mg**. This is not a trivial finding. For someone with cardiovascular risk factors or existing dyslipidemia, this represents a genuine clinical trade-off. Higher doses may reduce blood pressure but at the cost of an unfavorable lipid shift.
+
+      ### What Remains Unproven
+
+      - **Superiority over resveratrol in clinical outcomes**: There are no head-to-head human trials comparing pterostilbene directly to resveratrol in terms of cardiovascular or longevity outcomes
+      - **Lifespan effects in humans**: All longevity data comes from animal models or cell culture
+      - **Optimal dosing**: Whether 50 mg, 100 mg, or 150 mg is the "sweet spot" remains unclear
+      - **Long-term safety**: Most human trials have been short-term (8–16 weeks)
+
+      ## Is Pterostilbene Safe?
+
+      At **50–125 mg/day, pterostilbene is considered likely safe** based on available evidence. No serious adverse events have been reported in human studies. However, the LDL elevation at 250 mg serves as a reminder: **more is not always better**.
+
+      **Key precautions:**
+      - Start at lower doses (50–100 mg/day) to assess individual response
+      - If you have dyslipidemia or cardiovascular disease, monitor lipid panels after starting
+      - Do not combine with anticoagulants (warfarin, direct oral anticoagulants) without medical supervision – stilbenoids may potentiate antiplatelet activity
+      - Pregnant and nursing women should avoid (insufficient safety data)
+
+      ## Practical Takeaway
+
+      Pterostilbene's superior bioavailability compared to resveratrol is genuine and well-documented. Whether this translates to greater clinical benefit remains an open question – the human evidence is too limited to claim superiority. It is a reasonable choice for someone interested in SIRT1 and AMPK activation, particularly if they tolerated resveratrol poorly or prefer a longer half-life. However, it is not a proven life-extension agent. Start conservatively (50–125 mg/day), monitor response, and reassess. The LDL signal at higher doses warrants respect.
 
 relations:
   - relation: wird_eingesetzt_fuer

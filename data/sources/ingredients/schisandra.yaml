@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Schisandra gibt es in der EU keine zugelassenen Claims zu Stress, Leber oder Leistungsfähigkeit als Supplement.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, no health claims are approved for schisandra regarding stress, liver function, or performance enhancement as a supplement.
 
 key_studies:
   - pmid: "18515024"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Review: Schisandra passt adaptogen-theoretisch gut, klinische Daten bleiben jedoch begrenzt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Schisandra fits well within adaptogen theory, but clinical data remains limited.
   - pmid: "28724448"
     title: "Liver-protective effects of Schisandra"
     authors: "Szopa A et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Präklinisch und traditionell interessant, klinische Evidenz bei Supplements aber nicht stark.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Preclinically and traditionally interesting, but clinical evidence in supplement studies is not strong.
   - pmid: "20109491"
     title: "Adaptogens and stress protection"
     authors: "Panossian A et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Schisandra ist Teil des Adaptogen-Konzepts; robuste Outcome-Evidenz bleibt dennoch begrenzt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Schisandra is part of the adaptogen concept; however, robust outcome evidence remains limited.
 
 locales:
   de:
@@ -73,11 +73,47 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Classic adaptogenic berry used for stress resilience and liver support. Traditional use is extensive, but human clinical evidence remains modest and inconsistent.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Schisandra has a long traditional use history and preclinical data supporting adaptogenic mechanisms. Human clinical evidence exists but is primarily from smaller or older trials, which do not provide a robust foundation for strong modern health claims.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Schisandra?
+
+      Schisandra chinensis, also known as Wu Wei Zi ("five-flavored berry") in Chinese medicine, is a traditional adaptogenic plant native to Northeast Asia. The berry itself is used in herbal preparations, typically dried and standardized into extracts for supplement use. The plant has been central to Traditional Chinese Medicine for over 2,000 years, where it is considered a tonic for longevity, mental clarity, and stress resilience. In recent decades, it has gained attention in Western herbalism and supplementation as one of several "adaptogens"—substances theoretically capable of helping the body resist, adapt to, and recover from stress.
+
+      ## Traditional Use and Mechanism
+
+      In Chinese medicine, schisandra is classified as a "qi tonic" with simultaneous yin and yang balancing properties. The berry's name—derived from its five flavor profile (sour, sweet, salty, bitter, acrid)—reflects its traditional application across multiple physiological systems. Schisandra is claimed to support liver function, enhance mental clarity, improve physical endurance, regulate sleep, and increase sexual function.
+
+      From a biochemical perspective, schisandra contains lignans (including schisandrin A, B, C, and others) and other polyphenolic compounds that show antioxidant and anti-inflammatory activity in laboratory settings. These active compounds are believed to influence stress-response pathways, hepatic function, and cellular defense mechanisms. The adaptogenic theory suggests that schisandra helps modulate the hypothalamic-pituitary-adrenal (HPA) axis—the body's central stress-response system—to promote resilience and recovery. However, direct evidence of this mechanism in humans remains limited.
+
+      ## Clinical Evidence in Humans
+
+      The human clinical evidence for schisandra is mixed and modest. Most studies examining schisandra's effects on stress, cognition, and physical performance are small, have methodological limitations, or are several decades old.
+
+      **Stress and Cognitive Function:** A 2010 systematic review by Panossian et al. (PMID 20109491) examined schisandra's role in the broader adaptogen concept but noted that robust outcome evidence remains limited. Some small Russian and Chinese studies have reported modest improvements in mental fatigue, attention, and stress-related symptoms, but effect sizes are typically small and confidence intervals are often wide. One small double-blind study suggested schisandra may improve mental performance under stress, but the sample size (n=36) and methodological rigor limit confidence.
+
+      **Liver Function:** A 2017 review by Szopa et al. (PMID 28724448) concluded that while schisandra shows liver-protective effects in preclinical models and traditional use is consistent, clinical evidence from supplement trials in humans is not strong. Hepatoprotective claims lack rigorous double-blind controlled trials in people. Small studies in patients with hepatitis or elevated liver enzymes have reported benefit, but these are typically from Asian populations and may not generalize. The evidence is insufficient to claim schisandra repairs liver damage or prevents liver disease in otherwise healthy people.
+
+      **Exercise Performance:** Schisandra is sometimes marketed for physical endurance and recovery. A small number of studies in athletes have reported marginal improvements in time-to-exhaustion or subjective fatigue measures, but again, sample sizes are small (typically n=20-50) and effects are inconsistent. No large, modern, well-controlled trial in competitive athletes or trained populations has established schisandra as an ergogenic aid.
+
+      ## Safety and Tolerability
+
+      Schisandra is generally considered well-tolerated and safe at typical supplemental doses (500–1000 mg/day). Adverse events reported in clinical trials are rare and mild, including gastrointestinal upset, insomnia, or appetite suppression in a small proportion of users. Long-term safety data (beyond 2–3 months) is sparse. There are theoretical concerns about liver burden if schisandra is combined with other hepatically metabolized drugs or if used chronically in people with existing liver disease, though this remains speculative. Pregnant and nursing women should avoid schisandra in the absence of safety data.
+
+      ## Regulatory Status in the EU
+
+      In the European Union, schisandra is not on the EFSA's list of approved botanical ingredients for health claims. No claims regarding stress resilience, liver support, cognitive enhancement, or physical performance are permitted for schisandra supplements under EU law. This reflects the regulatory bar: broad-spectrum traditional use and supportive preclinical data are insufficient without consistent, high-quality human clinical evidence. Schisandra products marketed in the EU cannot make health claims, though they may be sold as botanical supplements or traditional herbal products if they meet composition and safety standards.
+
+      ## Practical Perspective
+
+      Schisandra represents a case study in the gap between traditional use and modern scientific validation. It has a coherent mechanism-of-action hypothesis (HPA axis modulation, antioxidative stress), a long history of traditional use, and supportive laboratory data. However, human clinical trials are few, small, often methodologically limited, and their findings do not consistently demonstrate clinically meaningful benefit for stress resilience, cognitive function, liver health, or performance in typical modern populations.
+
+      If you are considering schisandra for stress or cognitive support, realistic expectations are important: this is not an evidence-backed substitute for sleep, exercise, stress management, or medical treatment of mood or cognitive disorders. It may be worth a trial (500–750 mg/day of extract) if you are healthy, tolerate it well, and wish to explore traditional adaptogenic approaches—but do not expect dramatic or measured clinical benefit based on current human data. For people with liver disease, those taking hepatically metabolized medications, or anyone pregnant, schisandra should be avoided pending better safety data.
+
+      ## Conclusion
+
+      Schisandra is a traditional adaptogenic berry with a coherent biochemical story and modest clinical interest. Its human evidence base, however, remains limited in scale and robustness. Preclinically and traditionally, it is plausible; clinically, it is unproven. It is reasonably safe for healthy adults at typical doses but offers no approved health claims in the EU and should not replace evidence-based stress management, cognitive training, or medical care.
 
 relations:
   - relation: wird_eingesetzt_fuer

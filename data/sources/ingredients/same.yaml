@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für SAMe gibt es in der EU keine zugelassenen Claims zu Stimmung, Gelenken oder Leber. Aufgrund der pharmakologischen Nähe ist eine nüchterne Darstellung besonders wichtig.
   en: >-
-    NEEDS_EN_TRANSLATION
+    The EU has not approved any health claims for SAMe regarding mood, joints, or liver function. Due to its pharmacological nature, sober and accurate representation is particularly important.
 
 key_studies:
   - pmid: "20595412"
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Kontrollierte Daten zeigen Nutzen bei depressive Symptome, auch als Add-on in bestimmten Settings.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Controlled data demonstrate benefit for depressive symptoms, including as add-on therapy in certain clinical settings.
   - pmid: "12472441"
     title: "SAMe for osteoarthritis"
     authors: "Soeken KL et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Meta-Analyse mit Hinweisen auf symptomatische Vorteile im Gelenk-Kontext.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Meta-analysis provides evidence for symptomatic benefits in joint-related contexts.
   - pmid: "12062105"
     title: "S-adenosylmethionine: from biochemistry to clinical use"
     authors: "Mischoulon D et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Review: klinisch interessanter Stoff mit echter Substanz, aber nicht ohne Interaktions- und Sicherheitsfragen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: clinically interesting compound with genuine substance, but with notable considerations regarding interactions and safety.
 
 locales:
   de:
@@ -77,11 +77,61 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      SAMe supports mood, liver function, and methylation as a central methyl donor. It has clinical evidence but is regarded as more therapeutic than typical supplements.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      SAMe is a central methyl donor with solid evidence for specific applications, particularly for depressive symptoms and to some extent for joint-related conditions. The research is notably stronger than many trendy supplements, but its profile is primarily therapeutic rather than lifestyle-oriented.
     body: |
-      NEEDS_EN_BODY
+      ## What is SAMe?
+
+      S-adenosylmethionine (SAMe) is an endogenous molecule and one of the body's most important **methyl donors**. It participates in hundreds of biochemical reactions, including the synthesis of neurotransmitters, phospholipids, and other essential molecules. SAMe is naturally produced from the amino acid methionine and the B vitamin folate, but levels decline with age, liver disease, and certain psychiatric conditions.
+
+      Unlike many supplements marketed for wellness, SAMe occupies an intermediate position: it has legitimate clinical research behind it, but it is more accurately described as a therapeutic agent than a lifestyle nutrient. The EU regulatory system has declined to approve health claims for SAMe, reflecting this ambiguous status.
+
+      ## Mechanism: Methylation and Beyond
+
+      SAMe's primary mechanism is methylation—the transfer of methyl groups to DNA, proteins, lipids, and neurotransmitters. This is not a trivial function. Methylation controls gene expression, protects DNA, and is essential for the production of serotonin, dopamine, and norepinephrine. When methylation capacity is impaired (by age, genetic polymorphisms, or nutritional deficiency), multiple systems suffer.
+
+      SAMe also supports the synthesis of glutathione and participates in the polyamine pathway, which is relevant to cell proliferation and liver regeneration. It is also a precursor to S-adenosylhomocysteine, which must be properly metabolized to avoid accumulation of homocysteine.
+
+      ## Evidence for Depression
+
+      The strongest clinical evidence for SAMe comes from depression research. Multiple randomized controlled trials, predominantly from Italy and Germany, have demonstrated efficacy for depressive symptoms. A meta-analysis by Papakostas et al. (2010) in *The American Journal of Clinical Nutrition* found that SAMe outperformed placebo and performed comparably to some tricyclic antidepressants in head-to-head trials.
+
+      Response rates typically ranged from 40–50% in SAMe treatment arms versus 25–30% in placebo arms—a meaningful but not dramatic advantage. Onset of action may be faster than SSRIs (some studies report improvement within 7–10 days). SAMe has been used as add-on therapy in treatment-resistant depression, with some evidence of benefit when combined with conventional antidepressants.
+
+      The mechanism likely involves both methylation-dependent neurotransmitter synthesis and potential direct effects on monoamine systems. However, SAMe carries a notable risk: it can trigger or worsen manic symptoms in people with bipolar disorder, making it contraindicated in bipolar depression unless supervised by a psychiatrist.
+
+      ## Evidence for Joints and Osteoarthritis
+
+      A systematic review by Soeken et al. (2002) examined SAMe for osteoarthritis and found modest symptomatic benefit comparable to NSAIDs in several trials. Improvement in pain and function was observed, particularly in hand and knee osteoarthritis. However, the number of high-quality trials is limited, and effect sizes are modest—typically a 10–30% reduction in pain scores.
+
+      Proposed mechanisms include anti-inflammatory effects, stimulation of cartilage matrix synthesis, and reduction of cartilage degradation through matrix metalloproteinase inhibition. However, direct evidence for cartilage regeneration in humans is lacking. SAMe for joint health remains in the "possibly effective" category with reasonable mechanistic plausibility but modest clinical proof.
+
+      ## Evidence for Liver Function
+
+      SAMe is produced endogenously by the liver and is critical for hepatic detoxification and regeneration. In liver disease—particularly alcoholic cirrhosis and non-alcoholic fatty liver disease—SAMe levels are often depleted. Early studies suggested that SAMe supplementation improved liver histology and survival in cirrhotic patients, but modern evidence is mixed and limited by small sample sizes and publication bias.
+
+      More recent research suggests that SAMe may support glutathione synthesis in the liver, which is relevant to antioxidant defense. However, this remains an area where mechanistic plausibility exceeds clinical proof, and liver patients should not self-supplement without medical guidance.
+
+      ## Dosing and Pharmacokinetics
+
+      Clinical trials typically used 400–1600 mg daily in divided doses. SAMe has poor oral bioavailability (roughly 3–5% in standard formulations) unless enteric-coated or buffered with magnesium and L-tartaric acid. Supplementation with folate and B6 is recommended to support methylation cycles and prevent homocysteine accumulation.
+
+      ## Safety and Tolerability
+
+      SAMe is generally well-tolerated. Gastrointestinal side effects (nausea, diarrhea, abdominal discomfort) are the most common, occurring in roughly 5–15% of users. Insomnia, anxiety, and headache are occasional. The most serious concern is **activation of bipolar disorder**: SAMe can trigger or unmask bipolar mania, particularly in people with a family history of bipolar disorder or prior manic episodes.
+
+      SAMe is not recommended in pregnancy and lactation due to limited safety data. It should be avoided in people taking tramadol, certain serotonergic drugs, or other supplements that raise serotonin (risk of serotonin syndrome, though this is theoretically low).
+
+      ## Drug Interactions
+
+      SAMe increases serotonin availability and can interact with SSRIs, SNRIs, and tramadol. Combined use increases the risk of serotonin syndrome, though this remains rare in practice. It may also potentiate levodopa in Parkinson's disease. People on warfarin should inform their physician, as SAMe may have mild anticoagulant properties (though clinical significance is unclear).
+
+      ## Bottom Line
+
+      SAMe is a legitimate therapeutic option for depression, supported by reasonable clinical evidence and a long history of use in European medicine. It is not a casual wellness supplement; it has drug-like properties, respectable efficacy for mood, and real safety considerations. Evidence for joints is modest, and evidence for liver is mechanistically plausible but clinically underdeveloped.
+
+      If you are considering SAMe for depression, consult a psychiatrist or physician. It is not appropriate for bipolar disorder. For other indications, the risk-benefit calculation is less clear and depends on individual circumstances. SAMe represents a middle ground between supplements and pharmaceuticals—more evidence than most, but fewer guarantees than prescription drugs.
 
 relations:
   - relation: hat_interaktion_mit

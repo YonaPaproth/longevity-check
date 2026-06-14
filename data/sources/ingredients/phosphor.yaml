@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Für Phosphor sind in der EU Claims zu Knochen, Zähnen, Energiestoffwechsel und Zellmembranen zugelassen. Da Phosphor in vielen Lebensmitteln reichlich vorkommt, ist Unterversorgung im Alltag selten.
   en: >-
-    NEEDS_EN_TRANSLATION
+    In the EU, phosphorus is approved for health claims regarding bone, teeth, energy metabolism and cell membranes. Since phosphorus is abundant in many foods, dietary deficiency is rare in practice.
 
 key_studies:
   - pmid: ""
@@ -34,7 +34,7 @@ key_studies:
       de: >-
         Übersicht zu Funktionen, Bedarf und Risiken. In westlichen Ernährungsumgebungen ist eher zu viel als zu wenig ein Thema.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Overview of functions, requirements and risks. In Western dietary environments, excess intake is a greater concern than deficiency.
   - pmid: "24500942"
     title: "Dietary phosphorus and health"
     authors: "Calvo MS et al."
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Review: Phosphor ist essenziell, aber hohe Aufnahme aus stark verarbeiteten Lebensmitteln kann problematisch sein.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Phosphorus is essential, but high intake from highly processed foods can be problematic.
   - pmid: "22510091"
     title: "Phosphate homeostasis and its role in bone health"
     authors: "Takeda E et al."
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Phosphat ist biologisch zentral, aber als Supplement für Gesunde selten ein Engpass.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Phosphate is biologically central, but rarely a limiting factor when supplemented to healthy individuals.
 
 locales:
   de:
@@ -77,11 +77,101 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Phosphorus is essential for bones, ATP and cell membranes. Deficiency is rare, and supplements are unnecessary for most people.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Phosphorus is an essential mineral for bone, cell membranes and ATP production. Normal dietary intake typically provides adequate supply. Outside specific medical contexts, there is little compelling evidence for additional supplementation.
     body: |
-      NEEDS_EN_BODY
+      ## What is Phosphorus?
+
+      Phosphorus is a chemical element and essential macronutrient that plays multiple critical roles in human physiology. It is the second most abundant mineral in the body after calcium, representing approximately 1% of total body weight—roughly 700–800 grams in an average adult. The vast majority (approximately 85%) is stored in bones and teeth as hydroxyapatite, a calcium-phosphate compound that provides structural integrity to the skeleton. The remaining 15% is distributed throughout cells and extracellular fluid, where it participates in dozens of biochemical processes essential to life.
+
+      ## Biochemical Roles and Functions
+
+      **Energy Production and Metabolism**: Phosphorus is central to ATP (adenosine triphosphate) synthesis and metabolism. Every cell in the body depends on ATP for energy, making phosphorus biochemically indispensable. It is also a component of other high-energy phosphate compounds like creatine phosphate, which muscles use for rapid energy mobilization during intense physical activity. Without adequate phosphorus, the entire energy economy of the cell would collapse.
+
+      **Cell Membrane Integrity**: Phospholipids—molecules containing phosphorus—form the fundamental structural basis of all cell membranes. These molecules create the lipid bilayer that compartmentalizes cells and enables selective permeability. Without adequate phosphorus, cell membrane synthesis and integrity would be compromised, affecting cellular function and tissue health.
+
+      **Skeletal and Dental Health**: Phosphate ions combine with calcium to form the mineral matrix of bone and dental enamel, providing hardness, rigidity and structural resilience. This is why phosphorus deficiency can theoretically impair bone mineralization and dental health.
+
+      **Nucleic Acid Synthesis**: Phosphorus is essential for the synthesis of DNA and RNA. It forms the backbone of the nucleotide chains that carry genetic information. Any disruption in phosphorus availability would impair cell division, growth and tissue repair.
+
+      **Protein Synthesis and Post-Translational Modification**: Phosphorus serves as a critical cofactor in protein synthesis and—as phosphate—enables phosphorylation, a post-translational modification that regulates protein function, localization and stability. Countless signaling cascades depend on phosphorylation events.
+
+      **pH Regulation**: Phosphate acts as a biological buffer system, helping maintain blood pH within the narrow range (7.35–7.45) required for life. The phosphate buffer system is one of the body's primary defenses against acid-base disturbances.
+
+      **Co-enzymatic Function**: Phosphorus serves as a cofactor in hundreds of enzymatic reactions across carbohydrate, fat and protein metabolism.
+
+      ## Dietary Sources and Typical Intake
+
+      Phosphorus is remarkably abundant in foods. Rich dietary sources include:
+      - **Animal proteins**: Meat, fish, poultry, eggs
+      - **Dairy products**: Cheese, milk, yogurt
+      - **Plant-based sources**: Nuts, seeds, whole grains, legumes, beans
+      - **Processed food additives**: Phosphate salts are widely used as preservatives, emulsifiers, coloring agents and structural modifiers in soft drinks, baked goods, processed meats and convenience foods
+
+      The recommended dietary allowance (RDA) for adults aged 19–50 is **700 mg/day**, while adults over 51 also maintain the same 700 mg/day target. Studies consistently show that average dietary intake in Western populations **exceeds the RDA**, often by 50–100%, particularly when processed foods are consumed regularly. The typical Western diet provides 1,000–2,000+ mg of phosphorus per day, well above requirements.
+
+      ## The Real Problem: Excess, Not Deficiency
+
+      Unlike most other micronutrients, the practical nutritional problem with phosphorus in modern developed countries is **not deficiency but excess intake**. Dietary phosphorus deficiency is extremely rare in free-living populations and occurs almost exclusively in clinical settings (severe malabsorption, refeeding syndrome, severe illness). However, chronic phosphorus excess is common.
+
+      This excess is particularly pronounced in populations consuming a diet high in processed foods, which often contain phosphate additives (sodium phosphate, calcium phosphate, potassium phosphate) used as preservatives, coloring agents, emulsifiers and structural modifiers. Processed meats, soft drinks, instant foods and baked goods are major contributors.
+
+      **Potential consequences of excess dietary phosphorus** include:
+
+      - **Calcium-phosphorus balance disruption**: An imbalanced ratio (ideally 1:1 to 2:1 calcium:phosphorus) may impair calcium absorption and increase urinary calcium losses, potentially affecting bone health over decades, particularly when combined with low calcium or vitamin D intake.
+
+      - **Secondary hyperparathyroidism**: Chronically elevated serum phosphorus stimulates parathyroid hormone (PTH) secretion, which in turn mobilizes calcium from bone, potentially increasing fracture risk and accelerating bone loss with age.
+
+      - **Vascular calcification**: Observational data suggest that high dietary phosphate—especially from additives—correlates with increased arterial calcification and cardiovascular mortality, particularly in individuals with chronic kidney disease or metabolic dysfunction.
+
+      - **Insulin sensitivity**: Some preliminary research suggests that high phosphorus intake may be associated with reduced insulin sensitivity, though evidence remains limited.
+
+      However, it is important to note that most evidence linking excess dietary phosphorus to adverse outcomes in healthy individuals with normal kidney function remains **associative rather than causally proven**. Randomized controlled trials directly testing phosphorus reduction in healthy populations are limited.
+
+      ## Supplementation: Limited Rationale for Healthy Individuals
+
+      For healthy individuals with normal kidney function and adequate dietary intake, phosphorus supplementation has **no established benefit** and is not recommended by evidence-based medical and nutritional practice. Supplementing phosphorus in a population already consuming excess dietary phosphorus can potentially:
+
+      - **Worsen the calcium-to-phosphorus ratio**, which is ideally around 1:1 to 2:1
+      - **Increase gastrointestinal side effects** including nausea, constipation, abdominal discomfort or diarrhea
+      - **Interfere with absorption of other minerals** including iron, zinc, magnesium and calcium
+      - **Provide no measurable performance or health benefit** for healthy individuals with normal phosphorus status
+
+      Phosphorus supplementation may be medically indicated in specific clinical scenarios:
+      - Severe hypophosphatemia (low blood phosphate) from medical conditions or medications
+      - Critical illness with severe metabolic derangements
+      - Renal osteodystrophy in advanced chronic kidney disease (under strict medical supervision)
+      - Severe malabsorption disorders
+
+      These are exceptions, not typical use cases.
+
+      ## EFSA and Regulatory Status
+
+      The European Food Safety Authority (EFSA) has evaluated and approved health claims for phosphorus regarding:
+      - Contribution to normal energy-yielding metabolism
+      - Contribution to normal bone and tooth mineralization
+      - Contribution to normal cell membrane structure
+
+      These claims reflect that phosphorus **can support** these functions when intake is adequate—not that supplementation beyond dietary levels provides additional benefit. EFSA approval is a baseline threshold that a nutrient is necessary, not evidence that supplementation improves health in people already consuming adequate amounts.
+
+      ## Practical Recommendations
+
+      - **For most healthy adults**: No phosphorus supplementation is necessary. Focus on a balanced diet including adequate protein, dairy products (if tolerated), nuts, seeds and whole grains to ensure phosphorus intake meets the RDA.
+
+      - **For individuals consuming highly processed foods**: Actively reducing processed food intake may help optimize the calcium-to-phosphorus ratio and reduce unnecessary phosphate additive exposure, which may benefit long-term bone health and cardiovascular health.
+
+      - **For those with chronic kidney disease or taking phosphate-binding medications**: Blood phosphate levels should be monitored regularly by a healthcare provider, and supplementation (if any) should be under strict medical supervision, as phosphorus homeostasis becomes increasingly difficult to maintain as kidney function declines.
+
+      - **For athletes and physically active individuals**: While phosphorus is biochemically essential for ATP production and energy metabolism, supplementation has not been shown to improve athletic performance or recovery in individuals with adequate dietary intake. Standard nutrition focusing on total energy and macronutrient intake is sufficient.
+
+      - **For longevity-focused supplementation**: Phosphorus supplementation should be **deprioritized** in favor of more evidence-based interventions. If calcium intake is suboptimal, prioritize calcium. If vitamin D status is low, supplement vitamin D. If magnesium is insufficient, supplement magnesium. Targeted antioxidants (if warranted by individual status or goals) should also take precedence over phosphorus.
+
+      ## Summary and Verdict
+
+      Phosphorus is **biochemically essential and absolutely necessary for life**—there is no debate about that. However, as a **standalone supplement for healthy individuals**, it is neither necessary nor evidence-based. Modern diets in developed countries, particularly those including processed foods, typically provide abundant—if not excessive—phosphorus. The real nutritional challenge is not increasing absolute phosphorus intake but rather optimizing the ratio of calcium to phosphorus and reducing phosphate additive exposure from processed foods.
+
+      For supplement stacks aimed at healthy aging and longevity optimization, phosphorus should not be included unless there is documented hypophosphatemia or a specific medical indication. Resources are better allocated to interventions with stronger evidence and greater unmet need.
 
 relations:
   - relation: wird_eingesetzt_fuer
