@@ -247,6 +247,10 @@ relations:
     target: efsa-zugelassen
     direction: outgoing
     confidence: 1
+  - relation: wird_eingesetzt_fuer
+    target: fertilitat
+    direction: outgoing
+    confidence: 0.9
   - relation: basiert_auf_studie
     target: studie-1677062
     direction: outgoing

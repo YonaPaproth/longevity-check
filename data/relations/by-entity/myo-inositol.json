@@ -80,6 +80,12 @@
       "confidence": 1
     },
     {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "fertilitat",
+      "direction": "outgoing",
+      "confidence": 0.8
+    },
+    {
       "relation": "basiert_auf_studie",
       "target": "studie-22327358",
       "direction": "outgoing",
