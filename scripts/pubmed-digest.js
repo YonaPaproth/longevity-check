@@ -44,6 +44,11 @@ const DAYS_BACK = 8;
 const DRAFT_DIR = path.join(__dirname, '..', 'backlog', 'research-review-drafts');
 const MAX_PUBMED = 3;
 const MAX_CT = 2;
+const MAX_BSKY = 3;
+
+const BSKY_ACCOUNTS = [
+  'biorxiv-pharma.bsky.social',
+];
 
 const STRONG_PUBMED_PATTERNS = [
   /meta-analysis/i,
@@ -124,12 +129,14 @@ function buildDraft(results, fromIso, toIso) {
   , 200);
 
   const topHighlights = results.slice(0, 5).map(r => {
-    const count = r.pubmed.length + r.efsa.length + r.ct.length;
-    return `- **${r.slug}**: ${count} neue Treffer (${r.pubmed.length} PubMed, ${r.efsa.length} EFSA, ${r.ct.length} Trials)`;
+    const count = r.pubmed.length + r.efsa.length + r.ct.length + (r.bsky?.length ?? 0);
+    const parts = [`${r.pubmed.length} PubMed`, `${r.efsa.length} EFSA`, `${r.ct.length} Trials`];
+    if (r.bsky?.length) parts.push(`${r.bsky.length} Preprints`);
+    return `- **${r.slug}**: ${count} neue Treffer (${parts.join(', ')})`;
   }).join('\n');
 
   const sections = results.map(r => {
-    const total = r.pubmed.length + r.efsa.length + r.ct.length;
+    const total = r.pubmed.length + r.efsa.length + r.ct.length + (r.bsky?.length ?? 0);
     let out = `## ${r.slug}\n\n`;
     out += `**Neue Treffer gesamt:** ${total}\n\n`;
 
@@ -158,6 +165,16 @@ function buildDraft(results, fromIso, toIso) {
         out += `- **${c.title}**  \n`;
         out += `  Status: ${c.status || 'n/a'}${c.phase ? ` · Phase: ${c.phase}` : ''}${c.startDate ? ` · Start: ${c.startDate}` : ''}  \n`;
         out += `  Link: https://clinicaltrials.gov/study/${c.nctId}\n`;
+      }
+      out += `\n`;
+    }
+
+    if (r.bsky?.length) {
+      out += `### bioRxiv / Preprints (via Bluesky)\n\n`;
+      for (const b of r.bsky) {
+        out += `- **${b.title}**  \n`;
+        out += `  Datum: ${b.date || 'n/a'}  \n`;
+        if (b.url) out += `  Link: ${b.url}\n`;
       }
       out += `\n`;
     }
@@ -350,6 +367,69 @@ async function searchClinicalTrials(term, fromIso) {
   }
 }
 
+// ── Bluesky / bioRxiv ────────────────────────────────────────────────────────
+
+let _bskyCache = null;
+
+async function getBskyPosts(fromIso) {
+  if (_bskyCache) return _bskyCache;
+  const posts = [];
+  for (const actor of BSKY_ACCOUNTS) {
+    try {
+      const res = await fetch(
+        `https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=${actor}&limit=50`
+      );
+      if (!res.ok) continue;
+      const data = await res.json();
+      const cutoff = new Date(fromIso).getTime();
+      for (const item of data.feed ?? []) {
+        const post = item.post;
+        const text = post.record?.text ?? '';
+        const createdAt = post.record?.createdAt ?? '';
+        if (new Date(createdAt).getTime() < cutoff) continue;
+        const urls = [];
+        for (const facet of post.record?.facets ?? []) {
+          for (const feat of facet.features ?? []) {
+            if (feat.uri) urls.push(feat.uri);
+          }
+        }
+        if (!urls.length) {
+          const urlMatch = text.match(/https?:\/\/[^\s]+/g);
+          if (urlMatch) urls.push(...urlMatch);
+        }
+        posts.push({ text: text.slice(0, 300), url: urls[0] ?? '', date: createdAt.slice(0, 10), actor });
+      }
+    } catch (e) { console.error(`Bluesky/${actor}: ${e.message}`); }
+  }
+  _bskyCache = posts;
+  return posts;
+}
+
+function deriveBskyTerms(ing) {
+  // Extract searchable terms from the pubmed query string
+  const raw = ing.pubmed.replace(/"/g, '').replace(/ OR /g, '|').replace(/ AND /g, '|');
+  const terms = raw.split('|')
+    .map(t => t.replace(/\(|\)/g, '').trim())
+    .filter(t => t.length >= 3 && !['supplement', 'supplementation', 'randomized', 'human', 'clinical', 'aging', 'longevity', 'cognitive', 'performance', 'sleep', 'inflammation', 'thyroid', 'adults'].includes(t.toLowerCase()));
+  // Also add the slug name
+  terms.unshift(ing.slug.replace(/-/g, ' '));
+  return [...new Set(terms.map(t => t.toLowerCase()))];
+}
+
+async function searchBsky(terms, fromIso) {
+  try {
+    const posts = await getBskyPosts(fromIso);
+    return posts
+      .filter(p => terms.some(t => p.text.toLowerCase().includes(t)))
+      .slice(0, MAX_BSKY)
+      .map(p => ({
+        title: p.text.replace(/https?:\/\/\S+/g, '').trim().slice(0, 150),
+        url: p.url,
+        date: p.date,
+      }));
+  } catch { return []; }
+}
+
 // ── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -357,7 +437,7 @@ async function main() {
   const results = [];
 
   for (const ing of INGREDIENTS) {
-    const entry = { slug: ing.slug, pubmed: [], efsa: [], ct: [] };
+    const entry = { slug: ing.slug, pubmed: [], efsa: [], ct: [], bsky: [] };
 
     // PubMed
     try {
@@ -377,7 +457,13 @@ async function main() {
       await delay(300);
     } catch (e) { console.error(`CT/${ing.slug}: ${e.message}`); }
 
-    if (entry.pubmed.length || entry.efsa.length || entry.ct.length) {
+    // Bluesky / bioRxiv preprints
+    try {
+      const bskyTerms = deriveBskyTerms(ing);
+      entry.bsky = await searchBsky(bskyTerms, fromIso);
+    } catch (e) { console.error(`Bluesky/${ing.slug}: ${e.message}`); }
+
+    if (entry.pubmed.length || entry.efsa.length || entry.ct.length || entry.bsky.length) {
       results.push(entry);
     }
   }
@@ -395,7 +481,7 @@ async function main() {
   msg += `Neue Treffer für ${results.length} Wirkstoffe:\n\n`;
 
   for (const r of results) {
-    const total = r.pubmed.length + r.efsa.length + r.ct.length;
+    const total = r.pubmed.length + r.efsa.length + r.ct.length + (r.bsky?.length ?? 0);
     msg += `*${r.slug.toUpperCase()}* (${total} neu)\n`;
 
     if (r.pubmed.length) {
@@ -423,11 +509,19 @@ async function main() {
       }
     }
 
+    if (r.bsky?.length) {
+      msg += `🦋 bioRxiv/Preprints (${r.bsky.length}):\n`;
+      for (const b of r.bsky.slice(0, 2)) {
+        msg += `• ${b.title.slice(0, 100)}${b.title.length > 100 ? '…' : ''}\n`;
+        if (b.url) msg += `  ${b.url}\n`;
+      }
+    }
+
     msg += '\n';
   }
 
   msg += `📝 Draft: \`${draftPath}\`\n\n`;
-  msg += `---\n_Quellen: PubMed · EFSA Journal · ClinicalTrials.gov_\n_Kein Auto-Update – bei interessanten Studien bitte manuell prüfen._`;
+  msg += `---\n_Quellen: PubMed · EFSA Journal · ClinicalTrials.gov · Bluesky/bioRxiv_\n_Kein Auto-Update – bei interessanten Studien bitte manuell prüfen._`;
 
   console.log(msg);
 }
