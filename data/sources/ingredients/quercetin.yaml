@@ -23,7 +23,7 @@ efsa_notes:
   de: >-
     EFSA hat keine Health Claims für Quercetin zugelassen. Hochdosierte Supplements (500+ mg) sind in der EU regulatorisch uneinheitlich behandelt; als Novel Food gilt Quercetin nicht. Marketingaussagen zu Senolytik oder Longevity sind ohne Zulassungsbasis.
   en: >-
-    NEEDS_EN_TRANSLATION
+    EFSA has not approved any health claims for quercetin. High-dose supplements (500+ mg) are treated inconsistently under EU regulations; quercetin is not classified as a Novel Food. Marketing claims related to senolytics or longevity have no regulatory approval basis.
 
 key_studies:
   - pmid: "29988130"
@@ -35,7 +35,7 @@ key_studies:
       de: >-
         Erste Humanpilot-Studie mit D+Q (Dasatinib + Quercetin): Reduktion seneszenter Zellen im Fettgewebe bei n=9 Personen mit diabetischer Nierenerkrankung. Dasatinib ist ein Krebsmedikament. Quercetin allein wurde nicht getestet.
       en: >-
-        NEEDS_EN_TRANSLATION
+        First human pilot study with D+Q (Dasatinib + Quercetin): reduction of senescent cells in adipose tissue in n=9 individuals with diabetic kidney disease. Dasatinib is a prescription cancer drug. Quercetin alone was not tested.
   - pmid: "31578601"
     title: "Quercetin and Dasatinib in Idiopathic Pulmonary Fibrosis"
     authors: "Justice JN et al."
@@ -45,7 +45,7 @@ key_studies:
       de: >-
         D+Q-Pilotstudie (n=14 IPF-Patienten): Verbesserungen bei körperlicher Leistungsfähigkeit und Ganggeschwindigkeit nach 3 Wochen. Keine Kontrollgruppe, kein Quercetin-Arm allein.
       en: >-
-        NEEDS_EN_TRANSLATION
+        D+Q pilot study (n=14 IPF patients): improvements in physical performance and gait speed after 3 weeks of intermittent dosing. No placebo control group, no quercetin-only arm.
   - pmid: "32233013"
     title: "The Senolytic Drug Quercetin Removes Senescent Cells and Improves Physical Function"
     authors: "Kirkland JL & Tchkonia T"
@@ -55,7 +55,7 @@ key_studies:
       de: >-
         Review der Mayo-Klinik-Gruppe: Zusammenfassung der Senolytik-Evidenz. Vielversprechend in Tiermodellen, aber Humanstudien in sehr früher Phase und nur mit D+Q-Kombination.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Mayo Clinic group review: summary of senolytic evidence. Promising in animal models, but human studies are in very early phase and all positive signals involve only the D+Q combination, not quercetin alone.
   - pmid: "19402938"
     title: "Quercetin reduces systolic blood pressure in overweight subjects"
     authors: "Egert S et al."
@@ -65,7 +65,7 @@ key_studies:
       de: >-
         Doppelblind-Crossover-RCT (n=93): 150 mg Quercetin/Tag über 6 Wochen reduzierte systolischen Blutdruck signifikant (~3 mmHg) und oxidiertes LDL bei übergewichtigen Hochrisikopersonen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Double-blind crossover RCT (n=93): 150 mg quercetin/day for 6 weeks significantly reduced systolic blood pressure (~3 mmHg) and oxidized LDL in overweight, high-risk individuals.
   - pmid: "27405231"
     title: "A systematic review and meta-analysis of Quercetin supplementation and blood pressure"
     authors: "Serban MC et al."
@@ -75,7 +75,7 @@ key_studies:
       de: >-
         Meta-Analyse (7 RCTs): Quercetin-Supplementierung senkte systolischen Blutdruck um ~3,09 mmHg. Effekte nur bei ≥500 mg/Tag und &gt;8 Wochen signifikant. Effektgröße: klein.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Meta-analysis (7 RCTs, n=587): quercetin supplementation reduced systolic blood pressure by ~3.09 mmHg. Effects were significant only at ≥500 mg/day and >8 weeks duration. Effect size: small.
 
 locales:
   de:
@@ -168,11 +168,95 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Quercetin is a plant flavonoid with antioxidant and senolytic potential. Human senolytic evidence is limited to tiny pilot studies using Dasatinib+Quercetin combined — not quercetin alone.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Quercetin has moderate human evidence for modest biomarker effects (blood pressure ~3 mmHg, inflammatory markers), but effect sizes are small and studies often underpowered. As a senolytic, only a handful of tiny pilot studies exist — all using Quercetin + Dasatinib, never quercetin alone. Poor bioavailability remains the central limitation.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Quercetin?
+
+      Quercetin is a **flavonoid** — a yellow plant pigment (from Latin *quercus*, oak) found naturally in onions (~20–50 mg/100 g), capers (~180 mg/100 g), apples, grapes, and green tea. Average daily dietary intake is approximately **10–25 mg/day** on a typical Western diet.
+
+      As a supplement, quercetin is marketed at doses of 250–1000 mg/day — ten to forty times the amount obtained from food. This scaling is critical to understanding the evidence.
+
+      ## The Central Problem: Bioavailability
+
+      **Orally administered quercetin is poorly and variably absorbed.** Systemic bioavailability varies widely across studies — estimates range from under 1% to approximately 17%, depending on formulation, food matrix, and individual factors (gut microbiome, genetics).
+
+      Quercetin undergoes extensive first-pass metabolism in the intestine and liver. What is detectable in the bloodstream consists largely of **metabolites** (quercetin glucuronides, sulfates), whose biological activity may differ substantially from the parent compound.
+
+      Newer formulations attempt to address this:
+      - **Quercefit / Phytosome (quercetin-phospholipid complex):** One small study reported ~20-fold higher absorption compared to standard quercetin.
+      - **Quercetin dihydrate:** Slightly better solubility than the aglycone form.
+      - Whether improved bioavailability translates into clinically meaningful differences remains inadequately studied.
+
+      ## Quercetin as an Antioxidant — What Do Human Studies Show?
+
+      In cell cultures and animal models, quercetin demonstrates robust antioxidant and anti-inflammatory effects. In human studies, findings are considerably more modest.
+
+      **Blood pressure:** The largest meta-analysis to date (Serban et al., 2016 — 7 RCTs, n=587) found an average systolic blood pressure reduction of **~3.09 mmHg** at doses ≥500 mg/day and treatment durations of at least 8 weeks. This effect is statistically significant but clinically small — for reference, regular aerobic exercise can reduce systolic BP by 5–10 mmHg.
+
+      **Inflammatory markers:** Several RCTs report modest reductions in CRP and interleukin-6. Effects are inconsistent across studies and generally small in magnitude.
+
+      **Oxidized LDL:** Egert et al. (2009), a double-blind crossover RCT (n=93, overweight high-risk participants), showed reductions in oxidized LDL at 150 mg/day over 6 weeks. Independent replications are sparse.
+
+      **Allergy / antihistamine effects:** Quercetin inhibits mast cell degranulation in vitro and is frequently marketed for allergy relief. Human RCT evidence for this indication is essentially absent. Current data do not support its use as an antihistamine substitute.
+
+      ## Quercetin as a Senolytic — Hype vs. Reality
+
+      ### What Is a Senolytic?
+
+      Senescent ("zombie") cells stop dividing but fail to die. They secrete pro-inflammatory signals — the Senescence-Associated Secretory Phenotype (SASP) — and accumulate in tissues with age. The hypothesis: selectively eliminating these cells could slow age-related deterioration.
+
+      In mouse models, the results are striking. Senolytic interventions extended functional healthspan, improved organ function, and reduced age-related pathologies. These findings drove intense interest in translating senolytics to humans.
+
+      ### The Dasatinib Problem
+
+      All published human senolytic studies come from the Mayo Clinic group and use **Dasatinib + Quercetin (D+Q)**. Dasatinib is a **prescription cancer drug** (BCR-ABL inhibitor, first-line therapy for chronic myeloid leukemia) — not available over the counter.
+
+      The human D+Q studies are tiny: n=9 in the first pilot (Xu et al., 2018), targeting individuals with diabetic kidney disease; n=14 in an idiopathic pulmonary fibrosis (IPF) pilot (Justice et al., 2019), where improvements in physical performance and gait speed were observed after 3 weeks of intermittent dosing. Neither study included a quercetin-only arm or a placebo control. A 2020 narrative review by Kirkland &amp; Tchkonia summarized this nascent field honestly: animal model evidence is compelling, human data are at an earliest exploratory stage, and all positive signals involve the D+Q combination.
+
+      **No published human study has demonstrated senolytic activity for quercetin alone.**
+
+      ### What Is Missing
+
+      - No Phase 2/3 RCTs using quercetin alone with senescent cell endpoints
+      - No long-term studies (&gt;3 months) tracking senescent cell markers under quercetin supplementation
+      - No evidence of efficacy in healthy, non-diseased populations
+
+      ## Dosing and Available Formulations
+
+      - **Antioxidant / cardiovascular context (as studied):** 150–1000 mg/day, typically as quercetin dihydrate or aglycone. Significant blood pressure effects required ≥500 mg/day for ≥8 weeks.
+      - **Senolytic protocol (D+Q, only in supervised clinical studies):** Intermittent dosing — 3 consecutive days on, then 3 weeks off. No established OTC protocol exists, and Dasatinib requires a prescription.
+      - **Quercefit phytosome:** 250 mg claimed equivalent to higher standard quercetin doses; clinical validation rests on a single small pharmacokinetic study.
+
+      Taking quercetin with a fatty meal modestly improves absorption.
+
+      ## Safety and Drug Interactions
+
+      Quercetin from food is safe. As a high-dose supplement (500–1000 mg/day), no serious safety signals have emerged from short-term trials, but long-term safety data are limited.
+
+      Key interactions to consider:
+      - **CYP3A4 inhibition:** Quercetin inhibits cytochrome P450 enzymes in vitro, potentially raising plasma levels of co-administered medications. Clinical relevance at typical supplement doses is unclear but warrants caution with narrow-therapeutic-index drugs.
+      - **Anticoagulants (warfarin):** Additive effects are theoretically possible; caution is warranted.
+      - **Immunosuppressants:** Interactions with cyclosporin and similar agents cannot be excluded.
+
+      ## EFSA and Regulatory Status
+
+      The EFSA evaluated health claims for quercetin in 2011 (EFSA Journal 2011, doi:10.2903/j.efsa.2011.2067) and **rejected all submitted claims**. No health claims for quercetin are authorized in the EU. Marketing statements referencing senolytics, longevity, or cellular protection are without regulatory basis.
+
+      As a food constituent, quercetin is not classified as a Novel Food in the EU. However, no EFSA-authorized health claim exists, and high-dose quercetin supplements occupy a regulatory grey zone across EU member states.
+
+      ## Honest Limitations
+
+      - Senolytic activity in humans has been shown only for the D+Q combination, never for quercetin alone.
+      - All D+Q human studies are tiny (n &lt; 15), lack control groups, and have very short follow-up periods.
+      - Antioxidant and blood pressure effects in humans are real but small; clinical significance is modest at best.
+      - Poor bioavailability makes dose-response relationships uncertain; improved formulations such as Quercefit lack robust clinical validation.
+      - Long-term safety data at 500–1000 mg/day are limited.
+
+      ## Bottom Line
+
+      As a **dietary component**, quercetin is safe and likely beneficial within a diet rich in fruits and vegetables. As a **high-dose longevity supplement**, the available evidence does not justify the hype. Those interested in senolytics should follow ongoing clinical trials (ClinicalTrials.gov) — the field is advancing, but extrapolating from mouse data to healthy humans via over-the-counter capsules is not scientifically defensible at this time.
 
 relations:
   - relation: wird_eingesetzt_fuer
