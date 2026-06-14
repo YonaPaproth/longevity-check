@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     EFSA hat Health Claims für Melatonin zugelassen: 'Melatonin trägt zur Verkürzung der Einschlafzeit bei' (0,5 mg vor dem Schlafen) und 'Melatonin hilft, Jetlag-Symptome zu lindern' (0,5 mg). Gleichzeitig ist Melatonin in Deutschland ab 0,5 mg Tagesdosis verschreibungspflichtig – ein Sonderfall in der EU.
   en: >-
-    NEEDS_EN_TRANSLATION
+    EFSA has approved health claims for melatonin: 'Melatonin contributes to the reduction of time taken to fall asleep' (0.5 mg before bedtime) and 'Melatonin helps alleviate the subjective feeling of jet lag' (0.5 mg). Notably, in Germany melatonin is prescription-only above 0.5 mg per daily dose — a regulatory special case within the EU.
 
 key_studies:
   - pmid: "15691787"
@@ -32,9 +32,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/15691787/"
     finding:
       de: >-
-        Meta-Analyse (17 RCTs): Melatonin verkürzte Einschlafzeit signifikant (-7,2 min) und war mit Veränderungen verbundene Schlafqualität. Effekte bescheiden, aber konsistent.
+        Meta-Analyse (17 RCTs): Melatonin verkürzte Einschlafzeit signifikant (-7,2 min) und verbesserte die Schlafqualität. Effekte bescheiden, aber konsistent.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Meta-analysis (17 RCTs): Melatonin significantly reduced sleep onset latency (−7.2 min) and improved sleep quality. Effect sizes were modest but consistent across trials.
   - pmid: "22471152"
     title: "Melatonin as an antioxidant: under promises but over delivers"
     authors: "Hardeland R"
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Review: Melatonin neutralisiert reaktive Sauerstoffspezies direkt und induziert antioxidative Enzyme. Schutz der mitochondrialen DNA vergleichsweise gut untersucht (präklinisch).
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Melatonin directly scavenges reactive oxygen species and induces antioxidant enzymes. Protection of mitochondrial DNA is comparatively well-studied in preclinical models.
   - pmid: "29676709"
     title: "New perspectives on the role of melatonin in human sleep, circadian rhythms and their regulation"
     authors: "Zisapel N"
@@ -54,7 +54,7 @@ key_studies:
       de: >-
         Review: Geringes Melatonin (0,5–1 mg) ist bei Schlafstörungen (besonders ab 55 Jahren) untersuchter als höhere Dosen. Chronobiologischer Effekt, kein sedativer.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Low-dose melatonin (0.5–1 mg) is better studied for sleep disorders — especially in adults over 55 — than higher doses. The effect is chronobiological, not sedative.
   - pmid: "23574769"
     title: "Melatonin and aging: prospects for human intervention"
     authors: "Cardinali DP et al."
@@ -64,7 +64,7 @@ key_studies:
       de: >-
         Review: Melatonin-Spiegel sinken mit dem Alter (ab ~40 Jahren deutlich). Supplementierung könnte circadiane Dysregulation und oxidativen Stress kompensieren. gesundes Altern-Daten fehlen.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Melatonin levels decline with age, falling noticeably from around age 40. Supplementation may compensate for circadian dysregulation and oxidative stress, but data in healthy aging populations are lacking.
 
 locales:
   de:
@@ -77,13 +77,13 @@ locales:
       
       Melatonin ist ein **körpereigenes Hormon**, das in der Zirbeldrüse produziert wird und den **circadianen Rhythmus** (Tag-Nacht-Zyklus) reguliert. Bei Dunkelheit steigt der Spiegel an, signalisiert dem Körper „Nacht" und bereitet ihn auf den Schlaf vor.
       
-      Mit dem Alter sinken die Melatonin-Spiegel deutlich: Im Alter von 60–70 Jahren produzieren Menschen oft nur noch 50 % der Menge wie Jüngere. Das trägt zu schlechterem Schlaf, gestörten circadianen Rhythmen und möglicherweise zu war mit höheren Werten verbundenem oxidativem Stress bei.
+      Mit dem Alter sinken die Melatonin-Spiegel deutlich: Im Alter von 60–70 Jahren produzieren Menschen oft nur noch 50 % der Menge wie Jüngere. Das trägt zu schlechterem Schlaf, gestörten circadianen Rhythmen und möglicherweise zu erhöhtem oxidativem Stress bei.
       
       ## Der Kontext gesunden Alterns
       
-      Melatonin ist nicht nur ein Schlafhormon, sondern auch ein **potentes endogenes Antioxidans** – es überquert alle Zellmembranen und wird mit Schutzmechanismen in Verbindung gebracht mitochondriale DNA direkt. In Tierversuchen verlängertes es die Lebensspanne verschiedener Organismen.
+      Melatonin ist nicht nur ein Schlafhormon, sondern auch ein **potentes endogenes Antioxidans** – es überquert alle Zellmembranen und schützt mitochondriale DNA direkt. In Tierversuchen verlängerte es die Lebensspanne verschiedener Organismen.
       
-      Für Menschen gilt: Schlechter Schlaf ist ein relevanter Risikofaktor für verschiedene altersbezogene Gesundheitsprobleme. Melatonin, das im Schlaf-Kontext mit Veränderungen verbunden, könnte daher indirekt gesundes-Alten-relevant sein – auch wenn das nicht direkt gemessen wurde.
+      Für Menschen gilt: Schlechter Schlaf ist ein relevanter Risikofaktor für verschiedene altersbezogene Gesundheitsprobleme. Melatonin, das im Schlaf-Kontext Verbesserungen zeigt, könnte daher indirekt gesundes-Altern-relevant sein – auch wenn das nicht direkt gemessen wurde.
       
       ## Was sagen die Studien wirklich?
       
@@ -112,11 +112,83 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Melatonin regulates the sleep–wake cycle and has antioxidant properties. Evidence is strongest for jet lag and sleep onset; prescription-only above 0.5 mg/day in Germany.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Good evidence base (multiple meta-analyses) for improved sleep quality, reduced sleep onset latency, and jet lag relief. Antioxidant and potentially cytoprotective effects are well-characterised preclinically. Healthy-aging endpoints in healthy adults have not been directly studied.
     body: |
-      NEEDS_EN_BODY
+      ## What Is Melatonin?
+
+      Melatonin is an **endogenous hormone** produced by the pineal gland that regulates the **circadian rhythm** (the body's internal day–night cycle). When darkness falls, melatonin levels rise, signalling "night" to the body and preparing it for sleep. It is not a sedative in the classical sense — it does not induce sleep through CNS depression but shifts the body clock.
+
+      The hormone is found across virtually all life forms and is evolutionarily ancient. In humans, secretion peaks between 2–4 AM and is strongly suppressed by light exposure, particularly blue-spectrum light. This makes melatonin a uniquely measurable proxy for circadian phase.
+
+      ## Melatonin and Ageing
+
+      Melatonin levels decline substantially with age. By age 60–70, many people produce only about 50% of the melatonin they did in their twenties. This age-related decline correlates with worsening sleep quality, circadian fragmentation, and increased oxidative stress — all of which are relevant risk factors for age-related health outcomes.
+
+      Beyond sleep, melatonin is one of the body's most potent **endogenous antioxidants**. Unlike water-soluble antioxidants, melatonin crosses all biological membranes — including the blood–brain barrier and the inner mitochondrial membrane — and directly scavenges reactive oxygen species (ROS). It also upregulates antioxidant enzymes such as glutathione peroxidase and superoxide dismutase (SOD). Protection of mitochondrial DNA from oxidative damage has been demonstrated in multiple preclinical studies (PMID: 22471152).
+
+      In animal models, melatonin supplementation has extended lifespan in several species. Whether this translates to humans remains unproven, but the mechanistic rationale — circadian restoration plus antioxidant protection — is scientifically coherent.
+
+      ## What Do the Studies Actually Show?
+
+      ### Clearly Established (EFSA-approved)
+
+      The European Food Safety Authority (EFSA) has approved two health claims for melatonin, both at 0.5 mg taken before sleep:
+
+      - **Reduced time to fall asleep** — substantiated across multiple RCTs; 0.5 mg is the minimum effective dose
+      - **Jet lag relief** — reduces subjective jet lag symptoms when crossing ≥3 time zones
+
+      A 2005 meta-analysis of 17 RCTs (Brzezinski et al., PMID: 15691787) found melatonin reduced sleep onset latency by a mean of **7.2 minutes** and improved overall sleep quality. The effects were modest but consistent, with an excellent tolerability profile.
+
+      ### Comparatively Well-Studied
+
+      - **Sleep in older adults (≥55 years):** This age group shows the clearest benefit, consistent with the natural decline in endogenous melatonin (Zisapel 2018, PMID: 29676709). Effects are chronobiological — melatonin works best when taken at the right circadian time, not simply "before bed."
+      - **Shift workers:** Improved sleep quality during daytime sleep has been demonstrated in controlled studies.
+      - **Antioxidant effects:** Preclinical evidence for ROS scavenging and enzyme induction is solid (Hardeland 2012, PMID: 22471152), though clinical translation to hard health endpoints is unproven.
+
+      ### Not Established
+
+      - Direct life extension in humans
+      - Cognitive protection beyond sleep improvement
+      - Benefits in healthy young adults without circadian disruption
+
+      ## The German Regulatory Special Case
+
+      Germany has an unusual regulatory stance: melatonin products are classified as **prescription-only (verschreibungspflichtig) above 0.5 mg per daily dose**. This means:
+
+      - Products sold over the counter in Germany are capped at 0.5 mg — which happens to align with the EFSA-validated dose
+      - Doses of 1–10 mg, freely available in the US, Netherlands, and Austria, require a prescription in Germany
+      - The prescription drug Circadin® (2 mg prolonged-release) is approved for adults ≥55 years
+
+      The practical implication: German consumers typically encounter 0.5 mg products, which is actually the best-studied dose for circadian effects. Higher doses are not necessarily more effective and may cause next-day grogginess.
+
+      ## Dosing and Timing
+
+      Timing matters more than dose. Melatonin works by shifting the circadian clock, so:
+
+      - **For sleep onset:** 0.5 mg taken 30–60 minutes before desired sleep time
+      - **For jet lag (eastward travel):** 0.5–1 mg taken at the target destination's bedtime, starting the night of arrival
+      - **For jet lag (westward travel):** taken slightly later in the evening
+
+      Higher doses (3–10 mg) are often used in clinical practice but are not better supported by evidence for typical sleep difficulties. The chronobiological signal appears to plateau at low doses.
+
+      ## Safety
+
+      At 0.5–5 mg short-term, melatonin is **well-tolerated in studies**, with most trials reporting no significant adverse effects compared to placebo. Reported side effects at higher doses include morning drowsiness, headache, and dizziness — typically dose-dependent.
+
+      **Relevant interactions and cautions:**
+      - **Anticoagulants (warfarin):** Melatonin may potentiate anticoagulant effects — monitor INR
+      - **Antidepressants / SSRIs:** Pharmacodynamic interaction possible; use with caution
+      - **Blood glucose medications:** Melatonin may affect insulin sensitivity and glucose tolerance
+      - **Alcohol:** Avoid — impairs sleep architecture and may amplify sedative effects
+      - **Children:** Should not be used without medical supervision; long-term effects on pubertal development are unclear
+
+      Long-term safety data beyond 3–6 months are limited. Melatonin is not habit-forming and does not suppress endogenous production at typical doses.
+
+      ## Bottom Line
+
+      Melatonin is one of the few supplements with solid mechanistic rationale, regulatory-approved health claims, and a consistent clinical track record for its primary indication (sleep onset, jet lag). The antioxidant angle is biologically plausible but not yet proven in human longevity endpoints. For adults in Germany, 0.5 mg is both the legal OTC limit and the evidence-backed dose — a rare alignment of regulation and science.
 
 relations:
   - relation: wird_eingesetzt_fuer

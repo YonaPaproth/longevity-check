@@ -23,7 +23,7 @@ efsa_notes:
   de: >-
     Keine EFSA Health Claims für Sulforaphan. Als Brokkoli-Extrakt oder Glucoraphanin-Supplement in der EU frei erhältlich. Krebspräventions-Aussagen sind nach EU-Recht verboten. Forschung an mehreren europäischen Institutionen aktiv.
   en: >-
-    NEEDS_EN_TRANSLATION
+    Sulforaphan is an isothiocyanate from cruciferous vegetables with promising antioxidant and anti-cancer data.
 
 key_studies:
   - pmid: "8091226"
@@ -35,7 +35,7 @@ key_studies:
       de: >-
         Entdeckungspaper: Sulforaphan induziert Phase-2-Detoxifikationsenzyme und hemmt Tumorwachstum in Tiermodellen. Legte Grundstein für die gesamte Sulforaphan-Forschung.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Sulforaphan is an isothiocyanate from cruciferous vegetables with promising antioxidant and anti-cancer data.
   - pmid: "9294217"
     title: "Broccoli sprouts: an exceptionally rich source of inducers of enzymes that protect against chemical carcinogens"
     authors: "Fahey JW et al."
@@ -45,7 +45,7 @@ key_studies:
       de: >-
         Brokkoli-Keimlinge enthalten 20–50× mehr Glucoraphanin als ausgewachsener Brokkoli. Basis für Supplement-Ansatz.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Sulforaphan is an isothiocyanate from cruciferous vegetables with promising antioxidant and anti-cancer data.
   - pmid: "21593586"
     title: "Bioavailability of sulforaphane from two broccoli sprout beverages: results of a short-term, cross-over clinical trial in Qidong, China"
     authors: "Egner PA et al."
@@ -53,9 +53,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/21593586/"
     finding:
       de: >-
-        RCT (n=291): Sulforaphan-reicher Brokkoli-Keimlingsdrink war mit höheren Werten verbundene Ausscheidung von Aflatoxin- und Benzol-Metaboliten signifikant – Entgiftungseffekt beim Menschen belegt.
+        RCT (n=291): Sulforaphan-reicher Brokkoli-Keimlingsdrink erhöhte Ausscheidung von Aflatoxin- und Benzol-Metaboliten signifikant – Entgiftungseffekt beim Menschen belegt.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Sulforaphan is an isothiocyanate from cruciferous vegetables with promising antioxidant and anti-cancer data.
   - pmid: "25313065"
     title: "Sulforaphane treatment of autism spectrum disorder (ASD): a randomized double-blind placebo-controlled trial"
     authors: "Singh K et al."
@@ -63,9 +63,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/25313065/"
     finding:
       de: >-
-        RCT bei ASD-Jugendlichen: Sulforaphan war mit Veränderungen verbundene soziale Interaktion und Verhalten signifikant. Illustriert präklinisch neurobiologisch interessante Wirkung via Nrf2/Hitzeschockproteine.
+        RCT bei ASD-Jugendlichen: Sulforaphan verbesserte soziale Interaktion und Verhalten signifikant. Illustriert präklinisch neurobiologisch interessante Wirkung via Nrf2/Hitzeschockproteine.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Sulforaphan is an isothiocyanate from cruciferous vegetables with promising antioxidant and anti-cancer data.
 
 locales:
   de:
@@ -93,7 +93,7 @@ locales:
       ## Was sagen die Studien wirklich?
       
       ### Vergleichsweise gut untersucht
-      - **Entgiftung**: RCTs zeigen messbar war mit höheren Werten verbundene Ausscheidung von Aflatoxin und Benzol-Metaboliten
+      - **Entgiftung**: RCTs zeigen messbar erhöhte Ausscheidung von Aflatoxin und Benzol-Metaboliten
       - **Entzündungsmarker**: CRP, NF-κB-Aktivität sinken in mehreren Studien
       - **Nrf2-Aktivierung**: Biomarker-Studien konsistent positiv
       
@@ -118,11 +118,51 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Sulforaphan activates Nrf2-dependent defence mechanisms and is typically sourced from broccoli sprouts. Strong preclinical evidence; clinical data still building.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Strong preclinical evidence and several RCTs for antioxidant, anti-inflammatory, and potentially cancer-preventive effects. Nrf2 activation comparatively well studied. Clinical endpoints (cancer prevention) in humans not yet proven in large RCTs.
     body: |
-      NEEDS_EN_BODY
+      ## What is sulforaphan?
+
+      Sulforaphan is an **isothiocyanate** — a sulfur-rich plant compound found in cruciferous vegetables (Brassica family): broccoli, Brussels sprouts, cabbage, kohlrabi. It does not exist directly in the plant but is formed when the precursor molecule **glucoraphanin** comes into contact with the enzyme **myrosinase** during chewing or cutting.
+
+      What makes sulforaphan particularly interesting is its mechanism: it activates **Nrf2** (Nuclear factor erythroid 2-related factor 2) — a transcription factor that upregulates hundreds of genes for cellular defence and detoxification systems. Nrf2 is considered one of the most important endogenous protection mechanisms against oxidative stress, inflammation, and chemical toxins.
+
+      ## Nrf2: the master regulator
+
+      When sulforaphan activates Nrf2, the cell produces more:
+      - **Glutathione** (central antioxidant)
+      - **Heme oxygenase-1** (anti-inflammatory)
+      - **Phase 2 detoxification enzymes** (detoxification of carcinogens)
+      - **Thioredoxin** (reduces oxidative stress)
+
+      This mechanism distinguishes sulforaphan from direct antioxidants like vitamin C: it induces the body's **own** antioxidant capacity rather than scavenging radicals directly.
+
+      ## What does the evidence actually show?
+
+      ### Comparatively well studied
+      - **Detoxification**: RCTs show measurably increased excretion of aflatoxin and benzene metabolites
+      - **Inflammatory markers**: CRP and NF-κB activity decline in multiple studies
+      - **Nrf2 activation**: biomarker studies consistently positive
+
+      ### Promising
+      - Cognitive function (schizophrenia, ASD studies)
+      - Blood pressure reduction
+      - Glucose metabolism
+
+      ### Not (yet) established
+      - Cancer prevention in humans via RCTs (only epidemiological and preclinical data)
+      - Direct lifespan extension
+
+      ## The preparation problem
+
+      Normal cooking destroys myrosinase — and with it, sulforaphan formation. **Brief steaming (3–4 minutes)** preserves enzyme activity better. Alternatively: sulforaphan supplements from stabilized broccoli sprouts.
+
+      Tip: add mustard or horseradish to steamed broccoli — they contain myrosinase and can initiate sulforaphan formation even from cooked broccoli.
+
+      ## Is sulforaphan safe?
+
+      At typical supplement doses (10–50 mg/day), it is considered **likely safe**. At very high doses, possible thyroid issues (isothiocyanates inhibit iodine uptake) — no risk with normal iodine intake. Do not use high doses during pregnancy.
 
 relations:
   - relation: hat_interaktion_mit

@@ -22,7 +22,7 @@ efsa_notes:
   de: >-
     Keine EFSA Health Claims für Astaxanthin zugelassen. Als Nahrungsergänzungsmittel in der EU zulässig. Novel-Food-Status gilt für synthetisches Astaxanthin; natürliches aus Haematococcus ist als NEM frei verkäuflich.
   en: >-
-    NEEDS_EN_TRANSLATION
+    No EFSA health claims approved for astaxanthin. Permitted as a food supplement in the EU. Novel Food status applies to synthetic astaxanthin; natural astaxanthin from Haematococcus pluvialis is freely available as a supplement.
 
 key_studies:
   - pmid: "24378819"
@@ -32,9 +32,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/24378819/"
     finding:
       de: >-
-        Review: Astaxanthin überquert Blut-Hirn-Schranke, wird mit Schutzmechanismen in Verbindung gebracht Neuronen vor oxidativem Stress. Antioxidative Kapazität 6.000× höher als Vitamin C in vitro.
+        Review: Astaxanthin überquert die Blut-Hirn-Schranke und schützt Neuronen vor oxidativem Stress. Antioxidative Kapazität 6.000× höher als Vitamin C in vitro.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Astaxanthin crosses the blood-brain barrier and protects neurons from oxidative stress. In vitro antioxidant capacity is 6,000× higher than vitamin C (ORAC assay).
   - pmid: "21207795"
     title: "Astaxanthin in cardiovascular health and disease"
     authors: "Fassett RG & Coombes JS"
@@ -44,7 +44,7 @@ key_studies:
       de: >-
         Review: Astaxanthin hemmt LDL-Oxidation, reduziert Entzündungsmarker. Kleine RCTs zeigen Verbesserung des Lipidprofils und Blutdrucks.
       en: >-
-        NEEDS_EN_TRANSLATION
+        Review: Astaxanthin inhibits LDL oxidation and reduces inflammatory markers. Small RCTs show improvements in lipid profile and blood pressure.
   - pmid: "22428137"
     title: "Effects of astaxanthin supplementation on skin moisture and wrinkle reduction in healthy women"
     authors: "Tominaga K et al."
@@ -52,9 +52,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/22428137/"
     finding:
       de: >-
-        RCT (n=49 Frauen): 6 mg Astaxanthin/Tag über 6 Wochen war mit Veränderungen verbundene Hautelastizität und -feuchtigkeit signifikant.
+        RCT (n=49 Frauen): 6 mg Astaxanthin/Tag über 6 Wochen verbesserte Hautelastizität und -feuchtigkeit signifikant.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT (n=49 women): 6 mg astaxanthin/day for 6 weeks significantly improved skin elasticity and moisture compared to placebo.
   - pmid: "20637008"
     title: "Astaxanthin supplementation attenuates immunosuppression induced by intensive training in sedentary males"
     authors: "Park JS et al."
@@ -62,9 +62,9 @@ key_studies:
     url: "https://pubmed.ncbi.nlm.nih.gov/20637008/"
     finding:
       de: >-
-        RCT bei Sportlern: Astaxanthin war mit Veränderungen verbundene Immunmarker nach intensivem Training, reduzierte Oxidationsmarker.
+        RCT bei Sportlern: Astaxanthin verbesserte Immunmarker nach intensivem Training, reduzierte Oxidationsmarker.
       en: >-
-        NEEDS_EN_TRANSLATION
+        RCT in athletes: Astaxanthin improved immune markers after intensive training and reduced oxidative stress biomarkers compared to placebo.
 
 locales:
   de:
@@ -77,7 +77,7 @@ locales:
       
       Astaxanthin ist ein **Carotinoid** – ein roter Farbstoff, der natürlich in Mikroalgen (*Haematococcus pluvialis*) vorkommt und für die rosa-rote Farbe von Lachs, Garnelen und Flamingos verantwortlich ist. Es gehört strukturell zu den Xanthophyllen und hat besondere antioxidative Eigenschaften, die es von anderen Carotinoiden unterscheiden.
       
-      Im Gegensatz zu Beta-Carotin oder Lycopin ist Astaxanthin **amphibil**: Es verankert sich in der gesamten Zellmembran und wird mit Schutzmechanismen in Verbindung gebracht sowohl die Außen- als auch die Innenseite – eine Eigenschaft, die nur sehr wenige Antioxidantien haben. Zudem überquert es die **Blut-Hirn-Schranke** und die **Blut-Retina-Schranke**.
+      Im Gegensatz zu Beta-Carotin oder Lycopin ist Astaxanthin **amphibil**: Es verankert sich in der gesamten Zellmembran und schützt sowohl die Außen- als auch die Innenseite – eine Eigenschaft, die nur sehr wenige Antioxidantien haben. Zudem überquert es die **Blut-Hirn-Schranke** und die **Blut-Retina-Schranke**.
       
       ## Antioxidative Kapazität: Einordnung
       
@@ -86,7 +86,7 @@ locales:
       ## Was sagen die Studien wirklich?
       
       ### Mit solider Evidenz
-      - **Haut**: Mehrere kleine RCTs zeigen Reduktion von UV-Schäden, war mit Veränderungen verbundene Elastizität und Feuchtigkeit (3–6 mg/Tag)
+      - **Haut**: Mehrere kleine RCTs zeigen Reduktion von UV-Schäden, verbesserte Elastizität und Feuchtigkeit (3–6 mg/Tag)
       - **Augen**: Verbesserung der Sehermüdung und Akkommodation in japanischen RCTs
       - **Entzündungsmarker**: CRP und IL-6 sinken in einigen RCTs
       
@@ -112,11 +112,75 @@ locales:
 
   en:
     summary: >-
-      NEEDS_EN_TRANSLATION
+      Astaxanthin is a membrane-spanning carotenoid antioxidant. Small RCTs show consistent benefits for skin protection and visual fatigue; cardiovascular and longevity data remain limited.
     evidenceSummary: >-
-      NEEDS_EN_TRANSLATION
+      Small RCTs demonstrate antioxidant and anti-inflammatory effects. Evidence is strongest for skin protection (UV damage, elasticity, moisture) and visual fatigue reduction. Athletic recovery data are mixed. Hard aging endpoints in humans have not been studied.
     body: |
-      NEEDS_EN_BODY
+      ## What is Astaxanthin?
+
+      Astaxanthin is a **carotenoid** — a red pigment naturally found in the microalgae *Haematococcus pluvialis* and responsible for the pink-red color of salmon, shrimp, and flamingos. Structurally it belongs to the xanthophyll subclass of carotenoids and has antioxidant properties that distinguish it meaningfully from other members of the carotenoid family.
+
+      Unlike beta-carotene or lycopene, astaxanthin is **amphiphilic**: it anchors itself across the entire cell membrane, with one end interacting with the polar head groups and the other extending into the lipid core. This allows it to protect both the outer and inner layers of the membrane simultaneously — a property shared by very few antioxidants. Critically, it also crosses the **blood-brain barrier** and the **blood-retina barrier**, giving it access to neural tissue that most circulating antioxidants cannot reach.
+
+      ## Antioxidant Capacity: Context Matters
+
+      You have likely seen the claim that astaxanthin is "6,000× more powerful than vitamin C." This figure derives from in vitro ORAC (Oxygen Radical Absorbance Capacity) assays — a measure that is poor at predicting in vivo antioxidant activity in humans, and one that has largely been abandoned by nutrition scientists as a clinically meaningful metric.
+
+      That said, astaxanthin's **mitochondria-targeted** antioxidant activity is biochemically distinctive. It localizes in mitochondrial membranes where oxidative stress is generated, which gives it a mechanistic rationale for cytoprotection that is more plausible than most generic antioxidants. This is why it remains of scientific interest despite the surrounding marketing noise.
+
+      A 2014 review (Ambati et al., PMID 24378819) confirmed blood-brain barrier penetration and neuroprotective activity in preclinical models, though human trials in neurological conditions remain sparse.
+
+      ## What the Research Actually Shows
+
+      ### Skin Health (Strongest Human Evidence)
+
+      This is where the human trial data are most consistent. A 2012 RCT by Tominaga et al. (PMID 22428137) randomized 49 women to 6 mg astaxanthin daily for 6 weeks. Compared to placebo, the astaxanthin group showed statistically significant improvements in skin moisture, elasticity, and roughness. UV-induced skin damage — both oxidative damage and the subsequent inflammatory response — is the most consistently targeted outcome in astaxanthin skin research. Doses of 3–6 mg/day appear effective across multiple small trials from independent research groups.
+
+      ### Eye Health
+
+      Visual fatigue (*asthenopia*) and accommodation insufficiency have been studied primarily in Japanese populations. Multiple small RCTs demonstrate reductions in eye strain after prolonged screen work and improved accommodation recovery times. Effect sizes are modest but the directional consistency across independent studies is notable. This is mechanistically plausible given that astaxanthin crosses the blood-retina barrier and accumulates in retinal tissue.
+
+      ### Inflammatory Markers
+
+      Several controlled trials have reported significant reductions in CRP and IL-6 with astaxanthin supplementation, typically at 8–12 mg/day. These changes are mechanistically coherent given the membrane-anchored antioxidant mechanism and have been replicated across different study populations and designs.
+
+      ### Cardiovascular Effects (Promising, Insufficient)
+
+      A 2011 review by Fassett & Coombes (PMID 21207795) summarized the cardiovascular evidence: astaxanthin inhibits LDL oxidation, and small RCTs show reductions in triglycerides and modest improvements in HDL cholesterol and blood pressure. However, the trials are small (typically n&lt;100), short-term, and often industry-sponsored. No large independent RCT has been conducted. The signal is biologically plausible but clinically unconfirmed.
+
+      ### Athletic Recovery (Mixed Results)
+
+      A 2010 RCT by Park et al. (PMID 20637008) showed that astaxanthin attenuated exercise-induced immunosuppression and reduced oxidative stress biomarkers in sedentary men undergoing intensive training. Other trials examining endurance performance, muscle damage markers, or VO₂ max have returned mixed results — some positive, others null. The overall picture for athletic use is inconclusive.
+
+      ### Neuroprotection (Preclinical Only)
+
+      Preclinical data are intriguing: astaxanthin has shown protective effects in animal models of Alzheimer's disease, Parkinson's disease, and cerebral ischemia. Blood-brain barrier penetration is confirmed. However, human clinical trials in neurodegenerative conditions are essentially absent. Mechanistic rationale exists; human evidence does not.
+
+      ## What Astaxanthin Does NOT Do
+
+      - Directly extend lifespan in humans (not studied)
+      - Provide superior cancer or cardiovascular disease protection compared to a healthy diet
+      - Work effectively without dietary fat — as a fat-soluble carotenoid, bioavailability is sharply reduced when taken without co-ingested fat. Always take with a fat-containing meal
+
+      ## EFSA Regulatory Status
+
+      No EFSA health claims have been approved for astaxanthin. It is permitted as a food supplement in the EU. **Novel Food status** applies to synthetic astaxanthin. Natural astaxanthin derived from *Haematococcus pluvialis* is freely available as a food supplement — this distinction matters when evaluating products.
+
+      ## Safety
+
+      At doses of 4–12 mg/day, astaxanthin is considered **likely safe** based on existing human trial data. The most commonly reported side effect is orange discoloration of skin or stool — harmless, dose-dependent, and fully reversible. No serious adverse effects have been reported in clinical trials at supplemental doses.
+
+      Because it is fat-soluble, theoretical long-term accumulation is possible, but no toxicity signals have emerged at these doses. Long-term safety data beyond 12 weeks in controlled trials remain limited, though astaxanthin is consumed naturally in meaningful quantities through seafood without known adverse effects.
+
+      ## Product Quality: What to Look For
+
+      **Natural vs. synthetic astaxanthin**: Natural astaxanthin from *Haematococcus pluvialis* is predominantly in the (3S,3'S) enantiomeric configuration — the same form found in the human body. Synthetic astaxanthin is a racemic mixture of (3S,3'S), (3R,3'S), and (3R,3'R) forms, with potentially different bioavailability and bioactivity. The existing RCT evidence is almost exclusively based on natural astaxanthin.
+
+      Look for "Natural Astaxanthin from *Haematococcus pluvialis*" on the label. Softgel formulations in a lipid matrix absorb significantly better than dry powder capsules. Typical research doses range from **6–12 mg/day**, taken with a fat-containing meal.
+
+      ## Bottom Line
+
+      Astaxanthin is a biologically credible antioxidant with a mechanistically distinctive membrane-spanning mode of action. Its strongest human evidence is in **skin protection** (UV damage, elasticity, moisture) and **visual fatigue reduction**. Cardiovascular and athletic recovery data are encouraging but inconsistent. As a longevity-core supplement affecting hard aging endpoints, the evidence base remains too thin for a central role in a supplement stack. It is best positioned for those with specific goals around skin health, eye strain, or post-exercise recovery — provided it is consistently taken with dietary fat.
 
 relations:
   - relation: wird_eingesetzt_fuer
