@@ -1,88 +1,1466 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import LegalNotice from '../../components/LegalNotice.astro';
 import NutrientAssessmentIllustration from '../../components/illustrations/NutrientAssessmentIllustration.astro';
 ---
 
 <BaseLayout
-  title="Nutrient Check | MikroScore"
-  description="Estimate your personal risk of nutrient deficiency in 60 seconds — based on diet and lifestyle."
   locale="en"
   hreflang={{ de: '/ernaehrungs-check', en: '/en/nutrient-check' }}
+  title="Nutrient Check"
+  description="Discover which micronutrients you may lack — based on your diet and lifestyle. Free, evidence-based, in 90 seconds."
 >
-  <div class="max-w-3xl mx-auto px-4 py-10">
+  <div class="max-w-2xl mx-auto px-4 py-12">
 
-    <nav class="text-xs text-slate-400 mb-6">
-      <a href="/en" class="hover:text-teal-600">Home</a>
-      <span class="mx-2">/</span>
-      <span class="text-slate-600">Nutrient Check</span>
+    <!-- Breadcrumb Navigation -->
+    <nav class="flex items-center gap-2 text-sm text-slate-600 mb-8">
+      <a href="/en/" class="hover:text-slate-900 transition-colors">Home</a>
+      <span class="text-slate-400">/</span>
+      <span class="text-slate-900 font-medium">Nutrient Check</span>
     </nav>
 
     <!-- Illustration banner -->
-    <div class="rounded-2xl overflow-hidden border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-teal-50/40 mb-8 px-4 py-3">
-      <div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-1.5">Personal nutrient risk assessment</div>
-      <NutrientAssessmentIllustration />
+    <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-6">
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.07),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(15,23,42,0.04),transparent_28%)]"></div>
+      <div class="relative p-5">
+        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-2">Personal Micronutrient Risk Assessment</div>
+        <NutrientAssessmentIllustration />
+      </div>
     </div>
 
-    <h1 class="text-3xl font-bold text-slate-900 mb-4">Nutrient Check</h1>
-    <p class="text-slate-600 mb-6 max-w-2xl">
-      Answer 15 questions about your diet and lifestyle. We estimate which nutrients you may be at risk of under-consuming — based on population data and research, not personalised medical advice.
-    </p>
-
-    <!-- Coming soon notice -->
-    <div class="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8">
-      <p class="font-semibold text-teal-900 mb-1">English version coming soon</p>
-      <p class="text-sm text-teal-700 mb-4">
-        The Nutrient Check is currently available in German. The English version is in preparation — the logic and nutrient coverage will be identical.
+    <div class="mb-6">
+      <h1 class="text-3xl font-bold text-slate-900 mb-3">Nutrient Check</h1>
+      <p class="text-slate-600">
+        15 questions, about 90 seconds. We estimate which micronutrients
+        may have an elevated risk of insufficient supply — as guidance, not a diagnosis.
       </p>
-      <a
-        href="/ernaehrungs-check"
-        class="inline-block text-sm font-medium bg-teal-600 text-white hover:bg-teal-700 rounded-lg px-4 py-2 no-underline transition-colors"
-      >
-        Use German version →
-      </a>
     </div>
 
-    <!-- What it covers -->
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold text-slate-800 mb-4">What the check covers</h2>
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
-        {[
-          { nutrient: 'Vitamin D', note: 'Sun exposure & diet risk' },
-          { nutrient: 'Omega-3', note: 'EPA & DHA from fish/plants' },
-          { nutrient: 'Magnesium', note: 'Diet quality & absorption' },
-          { nutrient: 'Iron', note: 'Diet type & absorption risk' },
-          { nutrient: 'Zinc', note: 'Animal vs. plant sources' },
-          { nutrient: 'Vitamin B12', note: 'Especially plant-based diets' },
-        ].map(({ nutrient, note }) => (
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <p class="text-sm font-semibold text-slate-800 mb-1">{nutrient}</p>
-            <p class="text-xs text-slate-500">{note}</p>
-          </div>
-        ))}
-      </div>
-    </section>
+    <div class="mb-10">
+      <LegalNotice>
+        The Nutrient Check is a simplified informational tool and not medical diagnostics. Results are estimates based on your responses and do not replace lab tests, medical consultation, or individual treatment recommendations. <strong>Your answers are processed only locally in your browser, are not stored with personal information, and are not transmitted to us.</strong>
+      </LegalNotice>
+    </div>
 
-    <!-- How it works -->
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold text-slate-800 mb-4">How it works</h2>
-      <div class="space-y-3">
-        {[
-          { step: '1', text: 'Answer 15 questions about your diet, lifestyle, and health context.' },
-          { step: '2', text: 'We estimate your risk level (high / possible gap / likely adequate) for each nutrient.' },
-          { step: '3', text: 'For each flagged nutrient, we show food sources, testing options, and relevant ingredient dossiers.' },
-        ].map(({ step, text }) => (
-          <div class="flex gap-4 bg-white border border-slate-200 rounded-xl p-4">
-            <span class="w-7 h-7 rounded-full bg-teal-100 text-teal-800 text-xs font-bold flex items-center justify-center shrink-0">{step}</span>
-            <p class="text-sm text-slate-700">{text}</p>
-          </div>
-        ))}
-      </div>
-    </section>
+    <!-- Privacy Badge -->
+    <div class="flex items-center gap-2 text-sm text-slate-500 bg-slate-50 border border-slate-200 rounded-lg px-4 py-2.5 mb-6">
+      <span class="text-base">🔒</span>
+      <span>Your answers remain <strong>local to your browser</strong> and are not transmitted to MikroScore.</span>
+    </div>
 
-    <!-- Privacy note -->
-    <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 text-xs text-slate-500">
-      <strong>Privacy:</strong> The check runs entirely in your browser. No answers are transmitted or stored on any server.
+    <!-- Questions -->
+    <form id="check-form" class="space-y-8">
+
+      <!-- Section: Diet -->
+      <div class="flex items-center gap-3 mt-2 mb-1">
+        <span class="text-xs font-semibold uppercase tracking-widest text-slate-400">🥦 Diet</span>
+        <div class="flex-1 h-px bg-slate-200"></div>
+      </div>
+
+      <!-- Q1 -->
+      <fieldset class="question" data-qid="1">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          1. How would you describe your diet?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q1" value="omnivor" class="option-input" /><span>Omnivore — I eat everything including meat and fish</span></label>
+          <label class="option-label"><input type="radio" name="q1" value="pescetarisch" class="option-input" /><span>Pescatarian — no meat, but fish</span></label>
+          <label class="option-label"><input type="radio" name="q1" value="vegetarisch" class="option-input" /><span>Vegetarian — no meat, no fish</span></label>
+          <label class="option-label"><input type="radio" name="q1" value="vegan" class="option-input" /><span>Vegan — no animal products</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q2 -->
+      <fieldset class="question" data-qid="2">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          2. How often do you eat fatty fish? (Salmon, mackerel, herring, sardines)
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q2" value="2plus" class="option-input" /><span>2x per week or more</span></label>
+          <label class="option-label"><input type="radio" name="q2" value="1pw" class="option-input" /><span>About 1x per week</span></label>
+          <label class="option-label"><input type="radio" name="q2" value="selten" class="option-input" /><span>1–3x per month</span></label>
+          <label class="option-label"><input type="radio" name="q2" value="nie" class="option-input" /><span>Rarely or never</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q3 -->
+      <fieldset class="question" data-qid="3">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          3. How often do you eat red meat? (Beef, lamb, pork)
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q3" value="3plus" class="option-input" /><span>3x per week or more</span></label>
+          <label class="option-label"><input type="radio" name="q3" value="1-2pw" class="option-input" /><span>1–2x per week</span></label>
+          <label class="option-label"><input type="radio" name="q3" value="selten" class="option-input" /><span>Rarely (1–3x per month)</span></label>
+          <label class="option-label"><input type="radio" name="q3" value="nie" class="option-input" /><span>Never</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Section: Lifestyle -->
+      <div class="flex items-center gap-3 mt-6 mb-1">
+        <span class="text-xs font-semibold uppercase tracking-widest text-slate-400">☀️ Lifestyle</span>
+        <div class="flex-1 h-px bg-slate-200"></div>
+      </div>
+
+      <!-- Q4 -->
+      <fieldset class="question" data-qid="4">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          4. How much time do you spend daily outdoors with exposed skin?
+          <span class="block text-xs font-normal text-slate-500 mt-0.5">Face + arms exposed, from April to September</span>
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q4" value="viel" class="option-input" /><span>More than 30 minutes daily</span></label>
+          <label class="option-label"><input type="radio" name="q4" value="mittel" class="option-input" /><span>15–30 minutes daily</span></label>
+          <label class="option-label"><input type="radio" name="q4" value="wenig" class="option-input" /><span>Less than 15 minutes</span></label>
+          <label class="option-label"><input type="radio" name="q4" value="kaum" class="option-input" /><span>Rarely — I'm mostly indoors or fully covered</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q5 -->
+      <fieldset class="question" data-qid="5">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          5. How often do you eat dark green vegetables? (Spinach, broccoli, kale, chard)
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q5" value="taeglich" class="option-input" /><span>Daily</span></label>
+          <label class="option-label"><input type="radio" name="q5" value="3-4pw" class="option-input" /><span>3–4x per week</span></label>
+          <label class="option-label"><input type="radio" name="q5" value="1-2pw" class="option-input" /><span>1–2x per week</span></label>
+          <label class="option-label"><input type="radio" name="q5" value="selten" class="option-input" /><span>Rarely</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q6 -->
+      <fieldset class="question" data-qid="6">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          6. How often do you eat nuts, seeds, or legumes?
+          <span class="block text-xs font-normal text-slate-500 mt-0.5">E.g., almonds, pumpkin seeds, beans, lentils</span>
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q6" value="taeglich" class="option-input" /><span>Daily</span></label>
+          <label class="option-label"><input type="radio" name="q6" value="mehrpw" class="option-input" /><span>Multiple times per week</span></label>
+          <label class="option-label"><input type="radio" name="q6" value="selten" class="option-input" /><span>Rarely</span></label>
+          <label class="option-label"><input type="radio" name="q6" value="nie" class="option-input" /><span>Never</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Section: Personal & Life Stage -->
+      <div class="flex items-center gap-3 mt-6 mb-1">
+        <span class="text-xs font-semibold uppercase tracking-widest text-slate-400">👤 Personal & Life Stage</span>
+        <div class="flex-1 h-px bg-slate-200"></div>
+      </div>
+
+      <!-- Q7 -->
+      <fieldset class="question" data-qid="7">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          7. Which applies to you?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q7" value="mann" class="option-input" /><span>Male</span></label>
+          <label class="option-label"><input type="radio" name="q7" value="frau-mens" class="option-input" /><span>Female — menstruating</span></label>
+          <label class="option-label"><input type="radio" name="q7" value="frau-keine" class="option-input" /><span>Female — non-menstruating (menopause or other)</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q8 -->
+      <fieldset class="question" data-qid="8">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          8. How old are you?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q8" value="u30" class="option-input" /><span>Under 30</span></label>
+          <label class="option-label"><input type="radio" name="q8" value="30-50" class="option-input" /><span>30–50</span></label>
+          <label class="option-label"><input type="radio" name="q8" value="51-65" class="option-input" /><span>51–65</span></label>
+          <label class="option-label"><input type="radio" name="q8" value="ue65" class="option-input" /><span>Over 65</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q9 -->
+      <fieldset class="question" data-qid="9">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          9. How would you describe your activity level and stress level?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q9" value="hoch" class="option-input" /><span>High activity (&gt;4 hrs/week) and/or sustained high stress</span></label>
+          <label class="option-label"><input type="radio" name="q9" value="mittel" class="option-input" /><span>Moderate activity, normal daily stress</span></label>
+          <label class="option-label"><input type="radio" name="q9" value="niedrig" class="option-input" /><span>Low activity, low stress</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Section: Medication & Supplementation -->
+      <div class="flex items-center gap-3 mt-6 mb-1">
+        <span class="text-xs font-semibold uppercase tracking-widest text-slate-400">💊 Medication & Supplementation</span>
+        <div class="flex-1 h-px bg-slate-200"></div>
+      </div>
+
+      <!-- Q10 -->
+      <fieldset class="question" data-qid="10">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          10. Do you regularly take acid-reducing medication? (e.g., omeprazole, pantoprazole)
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q10" value="nein" class="option-input" /><span>No</span></label>
+          <label class="option-label"><input type="radio" name="q10" value="ja" class="option-input" /><span>Yes, regularly</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q11 -->
+      <fieldset class="question" data-qid="11">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          11. Do you regularly eat eggs?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q11" value="taeglich" class="option-input" /><span>Daily</span></label>
+          <label class="option-label"><input type="radio" name="q11" value="mehrpw" class="option-input" /><span>Multiple times per week</span></label>
+          <label class="option-label"><input type="radio" name="q11" value="selten" class="option-input" /><span>Rarely (1–3x per month)</span></label>
+          <label class="option-label"><input type="radio" name="q11" value="nie" class="option-input" /><span>Never</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q12 -->
+      <fieldset class="question" data-qid="12">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          12. How often do you eat fermented or aged foods?
+          <span class="block text-xs font-normal text-slate-500 mt-0.5">E.g., natto, aged cheese (Gouda, Emmental), kefir, kimchi</span>
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q12" value="taeglich" class="option-input" /><span>Daily (including cheese or kefir)</span></label>
+          <label class="option-label"><input type="radio" name="q12" value="mehrpw" class="option-input" /><span>Multiple times per week</span></label>
+          <label class="option-label"><input type="radio" name="q12" value="gelegentlich" class="option-input" /><span>Occasionally</span></label>
+          <label class="option-label"><input type="radio" name="q12" value="selten" class="option-input" /><span>Rarely or never</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q13 -->
+      <fieldset class="question" data-qid="13">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          13. Which type of salt do you mainly use?
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q13" value="jodiert" class="option-input" /><span>Iodized table salt</span></label>
+          <label class="option-label"><input type="radio" name="q13" value="meersalz" class="option-input" /><span>Sea salt, Himalayan salt, or other non-iodized salt</span></label>
+          <label class="option-label"><input type="radio" name="q13" value="kein" class="option-input" /><span>I rarely use salt</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q14 -->
+      <fieldset class="question" data-qid="14">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          14. Do you regularly eat organ meats or bone broth?
+          <span class="block text-xs font-normal text-slate-500 mt-0.5">E.g., liver, kidney, heart, homemade bone broth</span>
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q14" value="regelmaessig" class="option-input" /><span>Yes, at least 1x per week</span></label>
+          <label class="option-label"><input type="radio" name="q14" value="selten" class="option-input" /><span>Rarely (1–3x per month)</span></label>
+          <label class="option-label"><input type="radio" name="q14" value="nie" class="option-input" /><span>Never</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Q15 -->
+      <fieldset class="question" data-qid="15">
+        <legend class="text-base font-semibold text-slate-800 mb-3">
+          15. Do you take statins? (Cholesterol medication, e.g., atorvastatin, simvastatin)
+        </legend>
+        <div class="space-y-2">
+          <label class="option-label"><input type="radio" name="q15" value="nein" class="option-input" /><span>No</span></label>
+          <label class="option-label"><input type="radio" name="q15" value="ja" class="option-input" /><span>Yes, regularly</span></label>
+        </div>
+      </fieldset>
+
+    </form>
+
+    <!-- Progress indicator -->
+    <div class="mt-8 mb-4">
+      <div class="flex justify-between text-xs text-slate-500 mb-1">
+        <span id="progress-label" aria-live="polite">0 of 15 answered</span>
+        <span id="progress-pct">0%</span>
+      </div>
+      <div class="h-1.5 bg-slate-200 rounded-full overflow-hidden">
+        <div id="progress-bar" class="h-full bg-teal-500 rounded-full transition-all duration-300" style="width:0%"></div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div id="cta-hint" class="hidden">
+      <button id="goto-next" type="button" class="w-full text-sm font-medium text-teal-700 bg-teal-50 border border-teal-200 rounded-lg px-4 py-2.5 hover:bg-teal-100 transition-colors">
+        Go to next unanswered question ↓
+      </button>
+    </div>
+
+    <!-- Results -->
+    <div id="results" class="hidden mt-2">
+      <div class="border-t-2 border-teal-200 pt-8">
+        <h2 class="text-xl font-semibold text-slate-800 mb-2">Your Results</h2>
+        <p class="text-sm text-slate-500 mb-6">
+          Estimate based on your answers — not a replacement for a blood test. 🔒 Calculated locally, nothing transmitted.
+        </p>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 md:p-6 mb-6">
+          <div class="flex flex-wrap items-baseline justify-between gap-3 mb-4">
+            <div>
+              <p class="text-sm font-semibold text-slate-800">Your Risk Profile</p>
+              <p class="text-xs text-slate-500 mt-1">The further out the points, the higher the estimated risk based on your answers.</p>
+            </div>
+            <span class="text-xs font-medium text-slate-400">Scale 0–10</span>
+          </div>
+          <div id="radar-chart" class="mb-4"></div>
+          <div class="rounded-xl border border-slate-200 bg-slate-50/80 p-4 text-xs text-slate-600 leading-6">
+            This quick check covers 20 often-underestimated micronutrients and supplements: from vitamin D, omega-3, and magnesium to creatine, choline, vitamin K2, glycine, and more. A complete nutritional assessment covers much more — such as protein intake, essential amino acids, fiber, omega-6/3 ratio, or individual food sensitivities. <strong>View this result as initial guidance, not a complete analysis.</strong>
+          </div>
+        </div>
+
+        <div id="result-cards" class="space-y-4"></div>
+
+        <div id="export-buttons" class="hidden mt-6 flex gap-3 flex-wrap">
+          <button id="btn-copy" type="button"
+            class="flex items-center gap-2 text-sm font-medium text-slate-700 bg-white border border-slate-200 rounded-lg px-4 py-2 hover:bg-slate-50 transition-colors">
+            📋 Copy Results
+          </button>
+          <button id="btn-print" type="button"
+            class="flex items-center gap-2 text-sm font-medium text-slate-700 bg-white border border-slate-200 rounded-lg px-4 py-2 hover:bg-slate-50 transition-colors">
+            🖨️ Save as PDF
+          </button>
+        </div>
+
+        <!-- Blood Tests — Insurance Coverage -->
+        <div id="gkv-section" class="hidden mt-8">
+          <div class="border border-blue-200 rounded-xl overflow-hidden">
+            <div class="bg-blue-50 px-5 py-4 border-b border-blue-200">
+              <h3 class="font-semibold text-blue-900">🩸 Blood Tests — Insurance Coverage</h3>
+              <p class="text-sm text-blue-700 mt-1">Based on your risk profile — possible insurance-covered tests for your nutrients at risk.</p>
+            </div>
+            <div id="gkv-cards" class="divide-y divide-blue-100"></div>
+            <div class="bg-blue-50/50 px-5 py-3 text-xs text-blue-600">
+              ⚠️ Insurance coverage depends on diagnosis, insurance plan, and physician judgment. This overview is for guidance only — not a legal entitlement. When in doubt, discuss with your doctor.
+            </div>
+          </div>
+        </div>
+
+        <!-- Next steps -->
+        <div class="mt-8 bg-teal-50 border border-teal-200 rounded-xl p-6">
+          <p class="font-semibold text-teal-900 mb-4">What Next?</p>
+          <div class="space-y-3">
+            <a href="/en/ingredients" class="flex items-start gap-3 group no-underline">
+              <span class="text-lg mt-0.5">🔬</span>
+              <div>
+                <p class="text-sm font-medium text-teal-800 group-hover:text-teal-900">Read Ingredient Dossiers</p>
+                <p class="text-xs text-teal-600">Evidence, safety, and regulatory status for every ingredient — before you buy.</p>
+              </div>
+            </a>
+            <a href="/en/products" class="flex items-start gap-3 group no-underline">
+              <span class="text-lg mt-0.5">💶</span>
+              <div>
+                <p class="text-sm font-medium text-teal-800 group-hover:text-teal-900">Compare Products</p>
+                <p class="text-xs text-teal-600">Concrete supplements rated by price/serving, purity, and certification.</p>
+              </div>
+            </a>
+            <div class="flex items-start gap-3">
+              <span class="text-lg mt-0.5">🩸</span>
+              <div>
+                <p class="text-sm font-medium text-teal-800">Get a Blood Test</p>
+                <p class="text-xs text-teal-600">This check is guidance — not a replacement for blood work with your doctor. Ferritin, 25-OH vitamin D, holotranscobalamin.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="mt-6 text-xs text-slate-400 leading-relaxed">
+          This check is based on typical relationships between diet and micronutrient status.
+          It is not medical diagnosis. For accurate determination, we recommend a blood test with your doctor.
+        </p>
+      </div>
     </div>
 
   </div>
 </BaseLayout>
+
+<style>
+  .option-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    font-size: 0.875rem;
+    color: #374151;
+  }
+  .option-label:hover {
+    border-color: #99f6e4;
+    background: #f0fdf4;
+  }
+  .option-label:has(input:checked) {
+    border-color: #0d9488;
+    background: #f0fdfa;
+    color: #134e4a;
+    font-weight: 500;
+  }
+  .option-input {
+    accent-color: #0d9488;
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+  }
+  @media print {
+    /* Hide everything except results */
+    .max-w-2xl > *:not(#results) { display: none !important; }
+    #results { display: block !important; }
+    #export-buttons, #gkv-section, #goto-next { display: none !important; }
+
+    /* Page setup */
+    @page { margin: 1.5cm; size: A4; }
+    body { font-size: 11px; }
+
+    /* Header */
+    #results::before {
+      content: "MikroScore — Nutrient Check";
+      display: block;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    #results::after {
+      content: "Estimate, not a diagnosis · mikroscore.com/en/nutrient-check";
+      display: block;
+      font-size: 9px;
+      color: #94a3b8;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 8px;
+    }
+
+    /* Hide low-risk cards entirely */
+    #result-cards > div:has(span.bg-emerald-100) { display: none !important; }
+
+    /* Compact cards */
+    #result-cards > div { 
+      border: 1px solid #e2e8f0 !important;
+      border-radius: 6px !important;
+      margin-bottom: 6px !important;
+      page-break-inside: avoid;
+    }
+    #result-cards > div > div { padding: 8px 10px !important; }
+
+    /* Hide food tags, details, dossier links — keep name, badge, reason, next step */
+    .flex.flex-wrap.gap-1\.5 { display: none !important; }
+    details { display: none !important; }
+    a[class*="teal"] { display: none !important; }
+
+    /* Smaller risk bar */
+    .h-1\.5 { height: 3px !important; margin-bottom: 6px !important; }
+
+    /* Compact text */
+    p.text-sm { font-size: 10px !important; margin-bottom: 4px !important; }
+    p.text-xs { font-size: 9px !important; }
+    p.font-semibold { font-size: 11px !important; }
+  }
+</style>
+
+<script>
+// ── Scoring model ─────────────────────────────────────────────────────────────
+// Each nutrient starts at a baseline. Answers add/subtract risk points.
+// Final score 0-10. Thresholds: ≥7 high, 4-6 medium, ≤3 low.
+
+type Nutrient =
+  | 'vitaminD' | 'omega3' | 'magnesium' | 'eisen' | 'zink' | 'b12'
+  | 'kreatin' | 'vitaminK2' | 'jod' | 'selen' | 'folat' | 'vitaminB6'
+  | 'coq10' | 'cholin' | 'calcium' | 'kupfer' | 'lutein' | 'taurin' | 'glycin'
+  | 'vitaminA';
+
+type Risk = 'hoch' | 'mittel' | 'niedrig';
+
+interface NutrientResult {
+  id: Nutrient;
+  name: string;
+  slug: string;
+  score: number;
+  risk: Risk;
+  headline: string;
+  explanation: string;
+  foods: string[];
+  supplementNote: string;
+}
+
+interface GkvTest {
+  testName: string;
+  gkvStatus: 'covered' | 'conditional' | 'igel';
+  gkvNote: string;
+  igelCost: string | null;
+  selfPayNote: string | null;
+}
+
+const GKV_TESTS: Partial<Record<Nutrient, GkvTest>> = {
+  eisen:    { testName: 'Ferritin (Iron Storage)', gkvStatus: 'covered', gkvNote: 'For symptoms like fatigue, hair loss, or pallor — speak with your doctor', igelCost: null, selfPayNote: null },
+  b12:      { testName: 'Vitamin B12 (Holotranscobalamin)', gkvStatus: 'conditional', gkvNote: 'Usually covered with vegan diet, acid reducers, or age >60', igelCost: '$15–25', selfPayNote: 'Available as self-pay test at many labs' },
+  vitaminD: { testName: '25-OH-Vitamin D3', gkvStatus: 'igel', gkvNote: 'Not standard insurance coverage — only for suspected rickets/osteomalacia', igelCost: '$20–35', selfPayNote: 'Most common self-pay test — worthwhile for at-risk groups' },
+  omega3:   { testName: 'Omega-3 Index (EPA+DHA in whole blood)', gkvStatus: 'igel', gkvNote: 'Not insurance covered', igelCost: '$30–50', selfPayNote: 'Available through specialty labs or via your GP' },
+  magnesium:{ testName: 'Magnesium (Serum)', gkvStatus: 'conditional', gkvNote: 'Often covered for arrhythmias, muscle cramps, or kidney problems', igelCost: '$10–20', selfPayNote: 'Serum levels less informative — whole blood magnesium more useful' },
+  zink:     { testName: 'Zinc (Serum)', gkvStatus: 'conditional', gkvNote: 'Possible with reasonable suspicion and specific symptoms', igelCost: '$15–25', selfPayNote: null },
+  selen:    { testName: 'Selenium (Whole Blood)', gkvStatus: 'conditional', gkvNote: 'Often covered for thyroid disease or after chemotherapy', igelCost: '$20–35', selfPayNote: null },
+  folat:    { testName: 'Folate (Vitamin B9)', gkvStatus: 'conditional', gkvNote: 'Insurance covered in pregnancy and planning pregnancy; otherwise self-pay', igelCost: '$15–20', selfPayNote: null },
+  jod:      { testName: 'Iodine (Urine)', gkvStatus: 'conditional', gkvNote: 'Covered for thyroid disease; TSH level as indirect indicator', igelCost: '$15–25', selfPayNote: null },
+  coq10:    { testName: 'Coenzyme Q10 (Plasma)', gkvStatus: 'igel', gkvNote: 'Not standard insurance coverage — usually self-pay even with statins', igelCost: '$35–60', selfPayNote: 'Worthwhile with statin use and muscle pain' },
+  calcium:  { testName: 'Calcium (Serum)', gkvStatus: 'covered', gkvNote: 'Part of standard blood work — covered for osteoporosis risk or thyroid problems', igelCost: null, selfPayNote: null },
+  cholin:   { testName: 'Choline (Plasma)', gkvStatus: 'igel', gkvNote: 'Not insurance covered — dietary assessment often sufficient', igelCost: '$40–70', selfPayNote: null },
+};
+
+const SCORING: Record<string, Record<string, Partial<Record<Nutrient, number>>>> = {
+  q1: {
+    omnivor:      { b12: -1, kupfer: -1, vitaminA: -1 },
+    pescetarisch: { b12: -1, eisen: +1, zink: +1, kreatin: +1, taurin: -1 },
+    vegetarisch:  { omega3: +3, eisen: +2, zink: +2, b12: +3, kreatin: +4, taurin: +3, cholin: +2, calcium: +1, vitaminB6: +1, vitaminA: +2 },
+    vegan:        { omega3: +3, eisen: +2, zink: +2, b12: +5, vitaminD: +1, kreatin: +5, taurin: +4, cholin: +2, calcium: +2, vitaminK2: +1, vitaminA: +4 },
+  },
+  q2: {
+    '2plus': { omega3: -4, taurin: -2, selen: -2, vitaminB6: -1 },
+    '1pw':   { omega3: -2, taurin: -1, selen: -1 },
+    selten:  { omega3: +2, taurin: +1, selen: +1 },
+    nie:     { omega3: +4, taurin: +2, selen: +1 },
+  },
+  q3: {
+    '3plus': { eisen: -3, zink: -2, kreatin: -3, taurin: -2, glycin: -1, selen: -1 },
+    '1-2pw': { eisen: -2, zink: -1, kreatin: -2, taurin: -1, glycin: -1 },
+    selten:  { eisen: +1, kreatin: +1, taurin: +1 },
+    nie:     { eisen: +3, zink: +2, kreatin: +3, taurin: +2, glycin: +1 },
+  },
+  q4: {
+    viel:   { vitaminD: -4 },
+    mittel: { vitaminD: -2 },
+    wenig:  { vitaminD: +2 },
+    kaum:   { vitaminD: +4 },
+  },
+  q5: {
+    taeglich: { eisen: -2, magnesium: -1, folat: -3, lutein: -2, calcium: -1 },
+    '3-4pw':  { eisen: -1, folat: -2, lutein: -1 },
+    '1-2pw':  { folat: +1 },
+    selten:   { eisen: +1, magnesium: +1, folat: +2, lutein: +2, calcium: +1 },
+  },
+  q6: {
+    taeglich: { magnesium: -3, zink: -1, kupfer: -2, calcium: -1 },
+    mehrpw:   { magnesium: -2, kupfer: -1 },
+    selten:   { magnesium: +2, kupfer: +1 },
+    nie:      { magnesium: +3, kupfer: +2 },
+  },
+  q7: {
+    mann:         {},
+    'frau-mens':  { eisen: +3, folat: +2 },
+    'frau-keine': { calcium: +1 },
+  },
+  q8: {
+    u30:     {},
+    '30-50': { vitaminD: +1, coq10: +1 },
+    '51-65': { vitaminD: +2, b12: +1, coq10: +2, calcium: +1 },
+    ue65:    { vitaminD: +3, b12: +2, coq10: +3, calcium: +2, vitaminB6: +1 },
+  },
+  q9: {
+    hoch:    { magnesium: +3, kreatin: +2 },
+    mittel:  { magnesium: +1 },
+    niedrig: {},
+  },
+  q10: {
+    nein: {},
+    ja:   { b12: +2, magnesium: +1 },
+  },
+  q11: {
+    taeglich: { cholin: -4, b12: -1, lutein: -3, vitaminD: -1, vitaminA: -2 },
+    mehrpw:   { cholin: -2, lutein: -2, vitaminA: -1 },
+    selten:   { cholin: +2, lutein: +1 },
+    nie:      { cholin: +4, lutein: +3 },
+  },
+  q12: {
+    taeglich:    { vitaminK2: -4 },
+    mehrpw:      { vitaminK2: -2 },
+    gelegentlich:{ vitaminK2: +1 },
+    selten:      { vitaminK2: +3 },
+  },
+  q13: {
+    jodiert:  { jod: -2 },
+    meersalz: { jod: +3 },
+    kein:     { jod: +2 },
+  },
+  q14: {
+    regelmaessig: { glycin: -3, coq10: -2, kupfer: -2, cholin: -2, vitaminA: -4 },
+    selten:       { glycin: +2, coq10: +1, vitaminA: -2 },
+    nie:          { glycin: +3, coq10: +2, kupfer: +1, vitaminA: +2 },
+  },
+  q15: {
+    nein: {},
+    ja:   { coq10: +4 },
+  },
+};
+
+const NUTRIENTS: Record<Nutrient, {
+  name: string; slug: string;
+  headlines: Record<Risk, string>;
+  explanations: Record<Risk, string>;
+  foods: string[];
+  supplementNote: string;
+  nextSteps: Record<Risk, string>;
+}> = {
+  vitaminD: {
+    name: 'Vitamin D3',
+    slug: 'vitamin-d3-k2',
+    headlines: {
+      hoch:    'Vitamin D — High Risk',
+      mittel:  'Vitamin D — Possible Deficiency',
+      niedrig: 'Vitamin D — Likely Well Supplied',
+    },
+    explanations: {
+      hoch:    'In much of the northern hemisphere, winter sunlight is too weak to generate sufficient vitamin D — and your answers suggest minimal dietary intake. Vitamin D deficiency is widespread and affects an estimated 40–60% of the population in winter.',
+      mittel:  'Your supply likely fluctuates seasonally. Adequate in summer, potential gaps in winter.',
+      niedrig: 'Regular sun exposure and fat intake from fish cover your needs well.',
+    },
+    foods: ['Fatty fish (salmon, mackerel, herring)', 'Egg yolk', 'Cod liver oil', 'Fortified products (margarine, some plant drinks)'],
+    supplementNote: '1,000–2,000 IU vitamin D3 supplement from October to March is worthwhile for most people. Combination with K2 (MK-7) recommended.',
+    nextSteps: {
+      hoch:    'Get 25-OH vitamin D level tested by your doctor. Consider supplement (1,000–2,000 IU D3+K2) from October–March.',
+      mittel:  'Utilize sun exposure in summer. Check blood level in winter.',
+      niedrig: 'Well supplied — maintain regular sun exposure.',
+    },
+  },
+  omega3: {
+    name: 'Omega-3 (EPA+DHA)',
+    slug: 'omega-3',
+    headlines: {
+      hoch:    'Omega-3 — High Risk',
+      mittel:  'Omega-3 — Possible Deficiency',
+      niedrig: 'Omega-3 — Likely Well Supplied',
+    },
+    explanations: {
+      hoch:    'EPA and DHA occur almost exclusively in fatty fish and seafood. Your diet likely provides little of these. Plant-based omega-3 sources (flaxseed oil, walnuts) contain ALA, which your body converts to EPA/DHA poorly.',
+      mittel:  'You cover part of your needs from food, but not regularly enough for optimal supply.',
+      niedrig: 'Regular fish consumption provides good EPA/DHA levels.',
+    },
+    foods: ['Salmon (150 g ≈ 2 g EPA+DHA)', 'Mackerel', 'Herring', 'Sardines', 'Oysters'],
+    supplementNote: 'Fish oil or algae oil (vegan) with at least 500 mg EPA+DHA daily. Check TOTOX value <26.',
+    nextSteps: {
+      hoch:    'Test omega-3 index (about $30–50). Consider fish oil or algae oil with at least 500 mg EPA+DHA daily.',
+      mittel:  'Increase fish intake to 1–2x/week or consider algae oil supplement.',
+      niedrig: 'Well supplied — maintain regular fish consumption.',
+    },
+  },
+  magnesium: {
+    name: 'Magnesium',
+    slug: 'magnesium',
+    headlines: {
+      hoch:    'Magnesium — High Risk',
+      mittel:  'Magnesium — Possible Deficiency',
+      niedrig: 'Magnesium — Likely Well Supplied',
+    },
+    explanations: {
+      hoch:    'Your diet provides little of the key magnesium sources, and exercise or stress increase your needs further. Magnesium deficiency often manifests as muscle cramps, poor sleep, and exhaustion.',
+      mittel:  'Your needs are partially met. With high stress or intense exercise, supply can become tight.',
+      niedrig: 'Your diet likely covers magnesium needs well.',
+    },
+    foods: ['Pumpkin seeds (100 g = 540 mg Mg)', 'Sunflower seeds', 'Almonds', 'Spinach', 'Legumes', 'Quinoa'],
+    supplementNote: 'Magnesium glycinate or citrate (200–400 mg/day) — not oxide (poor bioavailability).',
+    nextSteps: {
+      hoch:    'Eat magnesium-rich foods (pumpkin seeds, almonds, legumes) regularly. Supplement: magnesium glycinate 200–400 mg/day in evening.',
+      mittel:  'Focus on magnesium-rich foods, especially with exercise and stress.',
+      niedrig: 'Well supplied — maintain varied diet.',
+    },
+  },
+  eisen: {
+    name: 'Iron',
+    slug: 'eisen',
+    headlines: {
+      hoch:    'Iron — High Risk',
+      mittel:  'Iron — Possible Deficiency',
+      niedrig: 'Iron — Likely Well Supplied',
+    },
+    explanations: {
+      hoch:    'Menstruating women, vegetarians, and vegans face significantly elevated iron deficiency risk. Plant-based (non-heme) iron is absorbed poorly compared to heme iron from meat. Iron deficiency is the most common nutrient deficiency worldwide.',
+      mittel:  'Your risk is elevated. Pay special attention to adequate intake and absorption conditions.',
+      niedrig: 'Your diet likely provides sufficient bioavailable iron.',
+    },
+    foods: ['Red meat (best source)', 'Liver', 'Legumes + vitamin C (improves absorption)', 'Tofu', 'Quinoa', 'Pumpkin seeds'],
+    supplementNote: 'Supplement iron only after blood testing — excess iron is harmful. Determine ferritin levels first.',
+    nextSteps: {
+      hoch:    'Get ferritin tested by your doctor — iron deficiency is the most common nutrient deficiency worldwide. Do not supplement without blood work.',
+      mittel:  'Pair iron-rich foods with vitamin C (improves absorption). Test ferritin if persistent fatigue.',
+      niedrig: 'Well supplied — continue consuming iron-rich foods.',
+    },
+  },
+  zink: {
+    name: 'Zinc',
+    slug: 'zink',
+    headlines: {
+      hoch:    'Zinc — High Risk',
+      mittel:  'Zinc — Possible Deficiency',
+      niedrig: 'Zinc — Likely Well Supplied',
+    },
+    explanations: {
+      hoch:    'Zinc is most abundant in animal products. Plant-based zinc sources contain phytates that inhibit absorption. Vegetarians and vegans face significantly higher zinc deficiency risk.',
+      mittel:  'Partially covered — focus on zinc-rich foods and favorable absorption conditions.',
+      niedrig: 'Regular animal products ensure good zinc supply.',
+    },
+    foods: ['Oysters (richest source)', 'Beef', 'Pumpkin seeds', 'Cashews', 'Legumes (soaked)'],
+    supplementNote: 'Zinc bisglycinate or citrate (15–25 mg/day) for plant-based diets. Do not maintain high doses long-term.',
+    nextSteps: {
+      hoch:    'Include zinc-rich foods (pumpkin seeds, soaked legumes). For plant-based diet consider zinc bisglycinate 15 mg/day.',
+      mittel:  'Focus on good zinc sources. Reduce phytates in grains/legumes by soaking.',
+      niedrig: 'Well supplied.',
+    },
+  },
+  b12: {
+    name: 'Vitamin B12',
+    slug: 'vitamin-b12',
+    headlines: {
+      hoch:    'Vitamin B12 — High Risk',
+      mittel:  'Vitamin B12 — Possible Deficiency',
+      niedrig: 'Vitamin B12 — Likely Well Supplied',
+    },
+    explanations: {
+      hoch:    'B12 occurs exclusively in animal products. Vegans must supplement B12 — no food can replace this. Acid reducers and aging additionally impair absorption.',
+      mittel:  'Your supply could be tight, especially if you eat little meat and dairy or take acid reducers.',
+      niedrig: 'Omnivorous diet with meat and dairy covers B12 well.',
+    },
+    foods: ['Liver (by far richest source)', 'Mussels', 'Sardines', 'Beef', 'Dairy products', 'Eggs'],
+    supplementNote: 'Vegans: 500–1,000 µg methylcobalamin daily or 2,000 µg weekly — mandatory, not optional.',
+    nextSteps: {
+      hoch:    'Supplement B12 — mandatory with vegan diet. 500–1,000 µg methylcobalamin daily. Monitor blood level (holotranscobalamin).',
+      mittel:  'Test B12 status with holotranscobalamin test. Consider supplement with acid reducers or age >60.',
+      niedrig: 'Well supplied — animal products provide adequate B12.',
+    },
+  },
+  kreatin: {
+    name: 'Creatine',
+    slug: 'kreatin',
+    headlines: {
+      hoch:    'Creatine — High Risk',
+      mittel:  'Creatine — Possible Deficiency',
+      niedrig: 'Creatine — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Creatine occurs almost exclusively in meat and fish. Vegans get little dietary creatine and show measurably lower muscle and brain creatine levels in studies. The body can synthesize creatine, but often not in sufficient amounts.',
+      mittel:  'Your dietary creatine intake may be low. This can be relevant with athletic activity.',
+      niedrig: 'Regular meat and fish consumption provides sufficient creatine for body synthesis.',
+    },
+    foods: ['Beef (5 g creatine per kg)', 'Herring (6.5 g/kg)', 'Salmon (4.5 g/kg)', 'Tuna (4 g/kg)', 'Pork (5 g/kg)'],
+    supplementNote: 'Creatine monohydrate (3–5 g/day) is the most well-researched supplement and especially worthwhile for vegans.',
+    nextSteps: {
+      hoch:    'For plant-based diet, creatine supplement (3–5 g/day monohydrate) is worthwhile, especially for muscle and cognitive function.',
+      mittel:  'Integrate red meat and fish as creatine sources into your diet.',
+      niedrig: 'Well supplied through regular meat consumption.',
+    },
+  },
+  vitaminK2: {
+    name: 'Vitamin K2',
+    slug: 'vitamin-k2',
+    headlines: {
+      hoch:    'Vitamin K2 — High Risk',
+      mittel:  'Vitamin K2 — Possible Deficiency',
+      niedrig: 'Vitamin K2 — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Vitamin K2 (MK-7) is widely undersupplied in Western diets. Natto (fermented soybeans) is by far the richest source but rarely eaten outside Asia. Aged cheese and kefir provide smaller amounts of MK-4.',
+      mittel:  'Your K2 intake may be adequate but not optimal. Daily dairy and cheese help.',
+      niedrig: 'Regular fermented and aged products — especially cheese — cover part of K2 needs.',
+    },
+    foods: ['Natto (1,000 µg MK-7 per 100 g — by far richest source)', 'Gouda, Emmental (about 60–75 µg/100 g)', 'Kefir', 'Grass-fed butter', 'Egg yolk'],
+    supplementNote: 'MK-7 form (90–200 µg/day) with vitamin D3 — both support calcium utilization together.',
+    nextSteps: {
+      hoch:    'Add fermented foods (natto, sauerkraut, aged cheese) to your diet. Supplement: MK-7 form (90–200 µg/day).',
+      mittel:  'Eat more fermented products. K2 is often combined with vitamin D3.',
+      niedrig: 'Well supplied.',
+    },
+  },
+  jod: {
+    name: 'Iodine',
+    slug: 'jod',
+    headlines: {
+      hoch:    'Iodine — High Risk',
+      mittel:  'Iodine — Possible Deficiency',
+      niedrig: 'Iodine — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Many regions are iodine-deficient — soils are low in iodine, so local foods contain little. Those who don\'t use iodized salt and rarely eat seafood or dairy are at high risk. Iodine deficiency is the most common preventable cause of thyroid disease.',
+      mittel:  'Your iodine supply could be tight. Iodized salt or regular dairy can help.',
+      niedrig: 'Iodized salt and regular dairy cover iodine needs well.',
+    },
+    foods: ['Seafood (shrimp, mussels)', 'Seafish (cod, haddock)', 'Milk and dairy (about 20–50 µg/100 ml)', 'Iodized table salt', 'Nori seaweed (variable)'],
+    supplementNote: 'For plant-based diet without iodized salt: 100–150 µg potassium iodide daily. Those with thyroid disease should consult doctor first.',
+    nextSteps: {
+      hoch:    'Switch to iodized salt. Eat seafish 1–2x/week. For vegan diet consider iodine supplement (150 µg/day).',
+      mittel:  'Use iodized salt and eat dairy/seafish regularly.',
+      niedrig: 'Well supplied — maintain iodized salt.',
+    },
+  },
+  selen: {
+    name: 'Selenium',
+    slug: 'selen',
+    headlines: {
+      hoch:    'Selenium — High Risk',
+      mittel:  'Selenium — Possible Deficiency',
+      niedrig: 'Selenium — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'European soils are selenium-poor — selenium content in grains and vegetables from many regions is much lower than in the US. Seafood and meat provide more, but with little animal product intake and no Brazil nuts, deficiency is likely.',
+      mittel:  'Your selenium supply may be borderline. Regular animal products or 1–2 Brazil nuts daily can help.',
+      niedrig: 'Regular seafood and meat consumption provides adequate selenium despite poor soils.',
+    },
+    foods: ['Brazil nuts (1–2 per day = about 100–200 µg selenium)', 'Seafish (tuna, salmon)', 'Beef', 'Chicken egg', 'Legumes'],
+    supplementNote: 'Selenomethionine or selenate (50–100 µg/day) — caution: the gap between adequate and excess is narrow. Do not maintain high doses long-term.',
+    nextSteps: {
+      hoch:    '1–2 Brazil nuts daily provide adequate selenium (no more — overdose possible). Alternatively: 55–100 µg selenium/day as supplement.',
+      mittel:  'Use seafish and meat as selenium sources. Check blood level with thyroid problems.',
+      niedrig: 'Well supplied.',
+    },
+  },
+  folat: {
+    name: 'Folate (B9)',
+    slug: 'folsaeure',
+    headlines: {
+      hoch:    'Folate — High Risk',
+      mittel:  'Folate — Possible Deficiency',
+      niedrig: 'Folate — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Folate is richest in dark leafy greens, legumes, and liver. Those who eat these rarely — especially reproductive-age women — have elevated risk. Folate deficiency is the most common vitamin deficiency disease in many populations.',
+      mittel:  'Your folate intake may not be optimal. More dark vegetables and legumes can help.',
+      niedrig: 'Regular dark vegetables and legumes cover folate needs well.',
+    },
+    foods: ['Spinach (100 g = about 145 µg folate)', 'Lentils (100 g = about 180 µg)', 'Asparagus', 'Edamame', 'Chickpeas', 'Liver (very rich)'],
+    supplementNote: 'Methylfolate (5-MTHF, 400–800 µg/day) has better bioavailability than synthetic folic acid, especially for MTHFR variants. Particularly important for women planning pregnancy.',
+    nextSteps: {
+      hoch:    'Eat more dark leafy greens (spinach, broccoli). Women planning pregnancy: supplement 400 µg folate/day.',
+      mittel:  'Eat legumes and green vegetables regularly.',
+      niedrig: 'Well supplied.',
+    },
+  },
+  vitaminB6: {
+    name: 'Vitamin B6',
+    slug: 'vitamin-b6',
+    headlines: {
+      hoch:    'Vitamin B6 — High Risk',
+      mittel:  'Vitamin B6 — Possible Deficiency',
+      niedrig: 'Vitamin B6 — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Vitamin B6 appears in many foods but is heat-sensitive and partially destroyed by cooking. Limited diet variety, little meat and fish, and advancing age increase deficiency risk.',
+      mittel:  'Your B6 supply may be borderline. Potatoes, bananas, and poultry are good plant or lean animal sources.',
+      niedrig: 'A varied diet with meat, fish, potatoes, and legumes covers B6 well.',
+    },
+    foods: ['Chicken breast (100 g = about 0.9 mg B6)', 'Potatoes (medium = about 0.5 mg)', 'Banana (about 0.4 mg)', 'Salmon', 'Chickpeas', 'Sunflower seeds'],
+    supplementNote: 'Pyridoxal-5-phosphate (P5P, 10–25 mg/day) is the active form. Do not maintain high doses long-term — very high doses can cause nerve damage.',
+    nextSteps: {
+      hoch:    'B6 is in meat, fish, potatoes, and bananas. For plant-based diet focus on varied sources.',
+      mittel:  'Varied diet with whole grains and legumes.',
+      niedrig: 'Well supplied.',
+    },
+  },
+  coq10: {
+    name: 'Coenzyme Q10',
+    slug: 'coq10',
+    headlines: {
+      hoch:    'CoQ10 — High Risk',
+      mittel:  'CoQ10 — Possible Deficiency',
+      niedrig: 'CoQ10 — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'CoQ10 is produced by the body itself, but production declines significantly from age 40. Statins further inhibit CoQ10 synthesis. Organ meats (heart, liver) are the richest food sources — those who eat these rarely and take statins are at risk.',
+      mittel:  'Your CoQ10 supply could become tighter with age or statin use. Organ meats and fatty fish provide some CoQ10.',
+      niedrig: 'Regular organ meats, fatty fish, and your age suggest adequate CoQ10 supply.',
+    },
+    foods: ['Beef heart (100 g = about 11 mg CoQ10)', 'Pork liver', 'Mackerel, sardines', 'Beef (muscle meat)', 'Peanuts, pistachios (small amounts)'],
+    supplementNote: 'Ubiquinol (reduced form, 100–200 mg/day) has better bioavailability than ubiquinone, especially from age 40 or with statins.',
+    nextSteps: {
+      hoch:    'With statin use, discuss CoQ10 supplement (100–200 mg/day ubiquinol form) with doctor. CoQ10 plasma level measurable.',
+      mittel:  'From age 40+, body\'s own CoQ10 declines. Ubiquinol form has better bioavailability.',
+      niedrig: 'Well supplied — organ meats and meat as natural sources.',
+    },
+  },
+  cholin: {
+    name: 'Choline',
+    slug: 'cholin',
+    headlines: {
+      hoch:    'Choline — High Risk',
+      mittel:  'Choline — Possible Deficiency',
+      niedrig: 'Choline — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Choline is an often-overlooked nutrient. Egg yolks and liver are by far the richest sources. Studies show over 90% of the population don\'t reach recommended daily amounts — especially those who don\'t eat eggs are at high risk. Choline is important for memory, liver function, and pregnancy.',
+      mittel:  'Your choline supply may be borderline. More eggs (especially yolks) can significantly improve intake.',
+      niedrig: 'Regular eggs, especially yolks, cover choline needs well.',
+    },
+    foods: ['Egg yolk (1 egg = about 150 mg choline)', 'Beef liver (100 g = about 420 mg)', 'Chicken', 'Salmon', 'Edamame, soy'],
+    supplementNote: 'Alpha-GPC or citicoline (CDP-choline) as supplement, 300–600 mg/day. Important in pregnancy: choline supports fetal brain development.',
+    nextSteps: {
+      hoch:    'Eggs are the richest choline source (1 yolk = about 150 mg). For vegan diet, choline is hard to cover — consider supplement (250–500 mg/day).',
+      mittel:  'Eat eggs regularly. Liver, legumes, and broccoli as additional sources.',
+      niedrig: 'Well supplied through regular egg consumption.',
+    },
+  },
+  calcium: {
+    name: 'Calcium',
+    slug: 'calcium',
+    headlines: {
+      hoch:    'Calcium — High Risk',
+      mittel:  'Calcium — Possible Deficiency',
+      niedrig: 'Calcium — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Calcium is the most abundant mineral in the body. Dairy products are the primary source in most diets. Those who don\'t eat dairy and don\'t consume calcium-rich plants or fortified drinks are at high risk — especially vegans and older women.',
+      mittel:  'Your calcium supply could be tight. Fortified plant drinks and calcium-rich mineral water can help.',
+      niedrig: 'Regular dairy, nuts, and green vegetables cover calcium needs well.',
+    },
+    foods: ['Parmesan (100 g = about 1,180 mg Ca)', 'Gouda', 'Milk, yogurt (about 120 mg/100 ml)', 'Fortified soy/oat milk', 'Kale, broccoli', 'Almonds', 'Calcium-rich mineral water (>400 mg/l)'],
+    supplementNote: 'Calcium citrate (500 mg/day) has better bioavailability than carbonate, especially with low stomach acid. Always take with vitamin D3 and K2.',
+    nextSteps: {
+      hoch:    'Add calcium-rich foods: fortified plant milk, sesame, green vegetables. For vegan diet consider supplement (500 mg/day).',
+      mittel:  'Consume dairy or fortified plant milk daily.',
+      niedrig: 'Well supplied.',
+    },
+  },
+  kupfer: {
+    name: 'Copper',
+    slug: 'kupfer',
+    headlines: {
+      hoch:    'Copper — Possible Deficiency Risk',
+      mittel:  'Copper — Slightly Elevated Risk',
+      niedrig: 'Copper — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Copper deficiency is rare but can occur with little organ meat and seafood, few nuts and legumes, or very high zinc intake (zinc and copper compete for absorption). Copper is important for iron metabolism, nerves, and immune function.',
+      mittel:  'Your copper supply may be borderline. Nuts, seeds, and legumes can help.',
+      niedrig: 'Your diet likely provides adequate copper.',
+    },
+    foods: ['Beef liver (100 g = about 14 mg Cu)', 'Oysters (about 4–5 mg/100 g)', 'Cashews (1.7 mg/100 g)', 'Sunflower seeds', 'Lentils, chickpeas', 'Cacao/dark chocolate'],
+    supplementNote: 'Copper supplements only with proven deficiency — excess copper is toxic. Those taking high-dose zinc should monitor copper intake (Zn:Cu ratio about 8–10:1).',
+    nextSteps: {
+      hoch:    'Use liver, oysters, and nuts as copper sources. Copper deficiency is rare — relevant only with very high zinc intake.',
+      mittel:  'Varied diet with nuts and legumes.',
+      niedrig: 'Well supplied.',
+    },
+  },
+  lutein: {
+    name: 'Lutein & Zeaxanthin',
+    slug: 'lutein-zeaxanthin',
+    headlines: {
+      hoch:    'Lutein/Zeaxanthin — High Risk',
+      mittel:  'Lutein/Zeaxanthin — Possible Deficiency',
+      niedrig: 'Lutein/Zeaxanthin — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Lutein and zeaxanthin are carotenoids that concentrate in the retina and act as natural light filters. They occur mainly in dark leafy greens and egg yolks. Those who eat these rarely have low levels — especially relevant with heavy screen time.',
+      mittel:  'Your lutein and zeaxanthin supply may not be optimal. More spinach, kale, and eggs can help.',
+      niedrig: 'Regular dark leafy greens and eggs cover lutein/zeaxanthin needs well.',
+    },
+    foods: ['Kale (100 g = about 18 mg lutein)', 'Spinach (12 mg/100 g)', 'Egg yolk (especially bioavailable)', 'Broccoli', 'Corn', 'Peas'],
+    supplementNote: 'Lutein (10 mg/day) + zeaxanthin (2 mg/day) used in eye health studies. Particularly relevant from age 50 or with heavy screen work.',
+    nextSteps: {
+      hoch:    'Eat more dark leafy greens (kale, spinach) and eggs. Supplement: lutein+zeaxanthin (10 mg/2 mg daily) for eye health.',
+      mittel:  'Add green vegetables and eggs regularly to your diet.',
+      niedrig: 'Well supplied.',
+    },
+  },
+  taurin: {
+    name: 'Taurine',
+    slug: 'taurin',
+    headlines: {
+      hoch:    'Taurine — High Risk',
+      mittel:  'Taurine — Possible Deficiency',
+      niedrig: 'Taurine — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Taurine is an amino acid your body synthesizes from cysteine and methionine, but endogenous production often doesn\'t meet optimal levels. Taurine occurs almost exclusively in animal products — vegans show measurably lower taurine levels. Studies link taurine to heart health, nerve, and muscle function.',
+      mittel:  'Your dietary taurine intake may be low. Seafood and meat are primary sources.',
+      niedrig: 'Regular seafood and meat consumption covers taurine needs well.',
+    },
+    foods: ['Mussels, oysters (very rich, about 400–600 mg/100 g)', 'Octopus, squid', 'Chicken (dark meat)', 'Beef', 'Salmon, mackerel'],
+    supplementNote: 'Taurine (1–3 g/day) is safe and well-tolerated. Especially worthwhile for vegans as food intake is minimal.',
+    nextSteps: {
+      hoch:    'For vegan diet, taurine from food is minimal. Consider supplement: 500–1,000 mg/day.',
+      mittel:  'Use fish and meat as primary taurine sources.',
+      niedrig: 'Well supplied through animal products.',
+    },
+  },
+  glycin: {
+    name: 'Glycine',
+    slug: 'glycin',
+    headlines: {
+      hoch:    'Glycine — High Risk',
+      mittel:  'Glycine — Possible Deficiency',
+      niedrig: 'Glycine — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Glycine is the most abundant amino acid in collagen and appears in skin, bone, tendons, and connective tissue. Traditional diets regularly included these "waste" parts — today most people eat almost exclusively muscle protein, which is low in glycine. Studies show most people consume significantly less glycine than their bodies utilize.',
+      mittel:  'Your glycine intake may not be optimal. Homemade bone broth, gelatin, or collagen-rich meat parts can help.',
+      niedrig: 'Regular organ meats, bone broth, or collagen-rich foods provide adequate glycine.',
+    },
+    foods: ['Homemade bone broth (variable, about 1–3 g/cup)', 'Gelatin (8 g per sheet)', 'Poultry and fish skin', 'Collagen powder', 'Beef cartilage, pork skin'],
+    supplementNote: 'Glycine powder (3–5 g/day) or collagen hydrolysate (10–15 g/day) is simple and inexpensive. Can also improve sleep — take in evening.',
+    nextSteps: {
+      hoch:    'Add collagen-rich foods: bone broth, gelatin, chicken/fish skin. Supplement: glycine 3–5 g/day (inexpensive and well-tolerated).',
+      mittel:  'Occasionally eat collagen-rich foods.',
+      niedrig: 'Well supplied.',
+    },
+  },
+  vitaminA: {
+    name: 'Vitamin A (Retinol)',
+    slug: 'vitamin-a',
+    headlines: {
+      hoch:    'Vitamin A — High Risk',
+      mittel:  'Vitamin A — Possible Deficiency',
+      niedrig: 'Vitamin A — Likely Adequately Supplied',
+    },
+    explanations: {
+      hoch:    'Preformed vitamin A (retinol) occurs exclusively in animal products — liver, egg yolks, milk fat. Plant sources provide beta-carotene, which the body converts poorly to retinol (conversion ratio about 1:12). Vegans and vegetarians who rarely eat eggs or dairy have significantly elevated risk.',
+      mittel:  'Your retinol intake from preformed animal sources may be limited. Beta-carotene from carrots and squash can help but often doesn\'t fully meet needs.',
+      niedrig: 'Regular eggs, dairy, or occasional liver provide adequate preformed vitamin A.',
+    },
+    foods: ['Beef liver (100 g = about 6,500 µg retinol — richest source)', 'Egg yolk (about 150 µg per egg)', 'Butter, whole milk', 'Salmon, mackerel', 'Carrots, squash (beta-carotene — poor conversion)'],
+    supplementNote: 'Retinyl palmitate or acetate (700–1,000 µg RE/day) only with proven deficiency — vitamin A is fat-soluble and toxic at high doses. Vegans often prefer beta-carotene supplements that the body converts as needed.',
+    nextSteps: {
+      hoch:    'Add more egg yolks and dairy. For vegan diet eat beta-carotene-rich vegetables (carrot, squash) daily — conversion to retinol is limited.',
+      mittel:  'Regularly consume eggs and dairy as retinol sources.',
+      niedrig: 'Well supplied — eggs and dairy provide adequate preformed vitamin A.',
+    },
+  },
+};
+
+// ── Scoring logic ─────────────────────────────────────────────────────────────
+
+function getRisk(score: number): Risk {
+  if (score >= 7) return 'hoch';
+  if (score >= 4) return 'mittel';
+  return 'niedrig';
+}
+
+function riskStyle(risk: Risk) {
+  if (risk === 'hoch')   return { bar: 'bg-red-400', badge: 'bg-red-100 text-red-800', label: 'High Risk' };
+  if (risk === 'mittel') return { bar: 'bg-amber-400', badge: 'bg-amber-100 text-amber-800', label: 'Possible Gap' };
+  return { bar: 'bg-emerald-400', badge: 'bg-emerald-100 text-emerald-700', label: 'Well Supplied' };
+}
+
+function computeScores(answers: Record<string, string>): NutrientResult[] {
+  const totals: Record<Nutrient, number> = {
+    vitaminD: 5, omega3: 5, magnesium: 5, eisen: 4, zink: 4, b12: 3,
+    kreatin: 4, vitaminK2: 6, jod: 5, selen: 5, folat: 4, vitaminB6: 3,
+    coq10: 4, cholin: 6, calcium: 4, kupfer: 3, lutein: 5, taurin: 4, glycin: 5,
+    vitaminA: 5,
+  };
+
+  for (const [qid, val] of Object.entries(answers)) {
+    const qMap = SCORING[qid]?.[val];
+    if (!qMap) continue;
+    for (const [nutrient, delta] of Object.entries(qMap) as [Nutrient, number][]) {
+      totals[nutrient] = Math.min(10, Math.max(0, totals[nutrient] + delta));
+    }
+  }
+
+  return (Object.entries(totals) as [Nutrient, number][])
+    .map(([id, score]) => {
+      const def = NUTRIENTS[id];
+      const risk = getRisk(score);
+      return { id, name: def.name, slug: def.slug, score, risk,
+        headline: def.headlines[risk],
+        explanation: def.explanations[risk],
+        foods: def.foods,
+        supplementNote: def.supplementNote,
+      };
+    })
+    .sort((a, b) => b.score - a.score);
+}
+
+// ── UI ────────────────────────────────────────────────────────────────────────
+
+const form = document.getElementById('check-form') as HTMLFormElement;
+const resultsEl = document.getElementById('results')!;
+const ctaHint = document.getElementById('cta-hint')!;
+const resultCards = document.getElementById('result-cards')!;
+const radarEl = document.getElementById('radar-chart')!;
+const progressBar = document.getElementById('progress-bar') as HTMLElement;
+const progressLabel = document.getElementById('progress-label')!;
+const progressPct = document.getElementById('progress-pct')!;
+
+const TOTAL_QUESTIONS = 15;
+
+function getAnswers(): Record<string, string> {
+  const data = new FormData(form);
+  const out: Record<string, string> = {};
+  for (let i = 1; i <= TOTAL_QUESTIONS; i++) {
+    const val = data.get(`q${i}`);
+    if (val) out[`q${i}`] = val as string;
+  }
+  return out;
+}
+
+function renderRadar(results: NutrientResult[]) {
+  const radarResults = [...results].sort((a, b) => a.name.localeCompare(b.name, 'de'));
+  const size = 400;
+  const center = size / 2;
+  const radius = 130;
+  const levels = 5;
+
+  const pointAt = (index: number, value: number) => {
+    const angle = (-Math.PI / 2) + (index / radarResults.length) * Math.PI * 2;
+    const scaled = (value / 10) * radius;
+    return {
+      x: center + Math.cos(angle) * scaled,
+      y: center + Math.sin(angle) * scaled,
+    };
+  };
+
+  const polygonPoints = radarResults
+    .map((r, i) => {
+      const p = pointAt(i, r.score);
+      return `${p.x},${p.y}`;
+    })
+    .join(' ');
+
+  const gridPolygons = Array.from({ length: levels }, (_, idx) => {
+    const factor = (idx + 1) / levels;
+    const points = radarResults
+      .map((_, i) => {
+        const p = pointAt(i, factor * 10);
+        return `${p.x},${p.y}`;
+      })
+      .join(' ');
+    return `<polygon points="${points}" fill="none" stroke="#cbd5e1" stroke-width="1" />`;
+  }).join('');
+
+  const axes = radarResults.map((_, i) => {
+    const p = pointAt(i, 10);
+    return `<line x1="${center}" y1="${center}" x2="${p.x}" y2="${p.y}" stroke="#cbd5e1" stroke-width="1" />`;
+  }).join('');
+
+  const labels = radarResults.map((r, i) => {
+    const p = pointAt(i, 13.5);
+    const anchor = Math.abs(p.x - center) < 14 ? 'middle' : p.x < center ? 'end' : 'start';
+    return `<text x="${p.x}" y="${p.y}" text-anchor="${anchor}" dominant-baseline="middle" fill="#475569" font-size="10" font-weight="500">${r.name}</text>`;
+  }).join('');
+
+  const points = radarResults.map((r, i) => {
+    const p = pointAt(i, r.score);
+    return `<circle cx="${p.x}" cy="${p.y}" r="3.5" fill="#0f766e" stroke="#ffffff" stroke-width="2"><title>${r.name}: ${r.score}/10</title></circle>`;
+  }).join('');
+
+  radarEl.innerHTML = `
+    <div class="flex justify-center">
+      <svg viewBox="0 0 ${size} ${size}" class="w-full max-w-[480px] h-auto overflow-visible" role="img" aria-label="Radar Chart des Risikoprofils">
+        ${gridPolygons}
+        ${axes}
+        <polygon points="${polygonPoints}" fill="rgba(13, 148, 136, 0.18)" stroke="#0f766e" stroke-width="2.5" />
+        ${points}
+        ${labels}
+      </svg>
+    </div>
+  `;
+}
+
+function getReason(id: Nutrient, answers: Record<string, string>): string {
+  const q = answers;
+  switch (id) {
+    case 'vitaminD':
+      if (q.q4 === 'kaum') return 'due to minimal sun exposure';
+      if (q.q4 === 'wenig') return 'due to limited sun exposure';
+      return 'based on your lifestyle';
+    case 'omega3':
+      if (q.q1 === 'vegan' || q.q1 === 'vegetarisch') return 'because plant-based diets contain almost no EPA/DHA';
+      if (q.q2 === 'nie') return 'because no fish is consumed';
+      if (q.q2 === 'selten') return 'because fish is rarely consumed';
+      return 'based on your dietary pattern';
+    case 'magnesium':
+      if (q.q6 === 'nie' && q.q9 === 'hoch') return 'due to few magnesium sources + high exercise/stress';
+      if (q.q6 === 'nie') return 'because few nuts, seeds, or legumes are consumed';
+      if (q.q9 === 'hoch') return 'because exercise and stress increase requirements';
+      return 'based on your responses';
+    case 'eisen':
+      if (q.q7 === 'frau-mens' && (q.q1 === 'vegan' || q.q1 === 'vegetarisch')) return 'because menstruation + plant-based diet greatly increase risk';
+      if (q.q7 === 'frau-mens') return 'because menstrual blood loss increases iron needs';
+      if (q.q3 === 'nie') return 'because no heme iron from meat is consumed';
+      return 'based on your responses';
+    case 'zink':
+      if (q.q1 === 'vegan' || q.q1 === 'vegetarisch') return 'because plant-based zinc has lower bioavailability';
+      return 'based on your dietary pattern';
+    case 'b12':
+      if (q.q1 === 'vegan') return 'because vegan diets contain no B12';
+      if (q.q1 === 'vegetarisch') return 'because vegetarian diets provide little B12';
+      if (q.q10 === 'ja') return 'because acid blockers impair B12 absorption';
+      if (q.q8 === 'ue65') return 'because absorption decreases with age';
+      return 'based on your responses';
+    case 'kreatin':
+      if (q.q1 === 'vegan' || q.q1 === 'vegetarisch') return 'because plant-based diets contain no creatine';
+      if (q.q3 === 'nie') return 'because no red meat is consumed';
+      return 'based on your dietary pattern';
+    case 'vitaminK2':
+      if (q.q12 === 'selten' || q.q12 === 'gelegentlich') return 'because few fermented or aged products are consumed';
+      return 'based on your dietary pattern';
+    case 'jod':
+      if (q.q13 === 'meersalz') return 'because sea salt contains no iodine';
+      return 'based on your salt choice';
+    case 'selen':
+      if (q.q1 === 'vegan') return 'because plant-based diets provide little selenium';
+      return 'based on your dietary pattern';
+    case 'folat':
+      if (q.q5 === 'selten') return 'because little dark green vegetables are consumed';
+      if (q.q1 === 'vegan' || q.q1 === 'vegetarisch') return 'due to plant-based diet without animal folate sources';
+      return 'based on your dietary pattern';
+    case 'vitaminB6':
+      if (q.q1 === 'vegan') return 'because plant sources provide less B6';
+      return 'based on your dietary pattern';
+    case 'coq10':
+      if (q.q15 === 'ja') return 'because statins reduce CoQ10 in the body';
+      if (q.q8 === 'ue65' || q.q8 === '51-65') return 'because CoQ10 declines with age';
+      return 'based on your age or medication';
+    case 'cholin':
+      if (q.q11 === 'selten' || q.q11 === 'nie') return 'because few eggs are consumed (main choline source)';
+      if (q.q1 === 'vegan') return 'because vegan diets contain very little choline';
+      return 'based on your dietary pattern';
+    case 'calcium':
+      if (q.q1 === 'vegan') return 'because animal calcium sources are missing';
+      return 'based on your dietary pattern';
+    case 'kupfer':
+      return 'based on your dietary pattern';
+    case 'lutein':
+      if (q.q11 === 'selten' || q.q11 === 'nie') return 'because few eggs are consumed';
+      if (q.q5 === 'selten') return 'because little green vegetables are consumed';
+      return 'based on your dietary pattern';
+    case 'taurin':
+      if (q.q1 === 'vegan' || q.q1 === 'vegetarisch') return 'because taurine is found almost only in meat and fish';
+      return 'based on your dietary pattern';
+    case 'glycin':
+      if (q.q14 === 'nie') return 'because collagen-rich foods are rarely consumed';
+      return 'based on your dietary pattern';
+    case 'vitaminA':
+      if (q.q1 === 'vegan') return 'because vegan diets contain no preformed retinol';
+      if (q.q1 === 'vegetarisch') return 'because vegetarian diets provide little retinol';
+      if (q.q14 === 'nie') return 'because almost no preformed retinol from liver or organ meats is consumed';
+      return 'based on your dietary pattern';
+    default:
+      return 'based on your responses';
+  }
+}
+
+function renderResults(answers: Record<string, string>) {
+  const results = computeScores(answers);
+  resultCards.innerHTML = '';
+  renderRadar(results);
+
+  const make = (tag: string, className?: string, text?: string) => {
+    const el = document.createElement(tag);
+    if (className) el.className = className;
+    if (text !== undefined) el.textContent = text;
+    return el;
+  };
+
+  results.forEach((r, idx) => {
+    const { bar, badge, label } = riskStyle(r.risk);
+    const isTop3 = idx < 3;
+    const card = make('div', `bg-white border rounded-xl overflow-hidden ${r.risk === 'hoch' ? 'border-red-200' : r.risk === 'mittel' ? 'border-amber-200' : 'border-slate-200'}`);
+    const wrapper = make('div', 'p-5');
+    card.appendChild(wrapper);
+
+    const header = make('div', 'flex items-start justify-between gap-3 mb-3');
+    const left = make('div');
+    const name = make('p', 'font-semibold text-slate-900', r.name);
+    const headline = make('p', 'text-sm font-medium text-slate-600 mt-0.5', r.headline.replace(r.name + ' — ', ''));
+    left.append(name, headline);
+
+    const badgeEl = make('span', `shrink-0 text-xs font-semibold rounded-full px-2.5 py-1 ${badge}`, label);
+    header.append(left, badgeEl);
+    wrapper.appendChild(header);
+
+    const barWrap = make('div', 'h-1.5 bg-slate-100 rounded-full mb-4 overflow-hidden');
+    const barEl = make('div', `h-full rounded-full ${bar}`);
+    barEl.style.width = `${r.score * 10}%`;
+    barWrap.appendChild(barEl);
+    wrapper.appendChild(barWrap);
+
+    const details = make('details', 'text-sm');
+    const summary = make('summary', 'cursor-pointer text-slate-600 hover:text-slate-800 list-none flex items-center gap-2 font-medium');
+    summary.append(
+      make('span', undefined, 'Show details'),
+      make('span', 'text-xs text-slate-400', '↓')
+    );
+    details.appendChild(summary);
+
+    const detailsBody = make('div', 'mt-4 space-y-4 border-t border-slate-100 pt-4');
+
+    if (r.risk === 'hoch' || r.risk === 'mittel') {
+      const reasonEl = make('p', 'text-sm text-slate-400 italic', `Estimated risk — ${getReason(r.id, answers)}`);
+      detailsBody.appendChild(reasonEl);
+    }
+
+    detailsBody.appendChild(make('p', 'text-sm text-slate-600', r.explanation));
+
+    if (isTop3) {
+      const top3Block = make('div', 'space-y-3');
+      const foodsBlock = make('div');
+      foodsBlock.appendChild(make('p', 'text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5', 'Food Sources'));
+
+      const foodsList = make('ul', 'space-y-1');
+      r.foods.forEach((f) => {
+        const li = make('li', 'flex items-start gap-1.5');
+        li.append(make('span', 'text-teal-500 mt-0.5', '•'), document.createTextNode(f));
+        foodsList.appendChild(li);
+      });
+      foodsBlock.appendChild(foodsList);
+
+      const supplementBlock = make('div', 'bg-slate-50 rounded-lg p-3');
+      supplementBlock.appendChild(make('p', 'text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1', 'Supplement Note'));
+      supplementBlock.appendChild(make('p', 'text-slate-600', r.supplementNote));
+
+      top3Block.append(foodsBlock, supplementBlock);
+      detailsBody.appendChild(top3Block);
+    }
+
+    if (r.risk === 'hoch' || r.risk === 'mittel') {
+      const foodBlock = make('div');
+      foodBlock.appendChild(make('p', 'text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5', 'Food Sources'));
+      const foodTags = make('div', 'flex flex-wrap gap-1.5');
+      r.foods.forEach(f => {
+        foodTags.appendChild(make('span', 'text-xs bg-slate-100 text-slate-600 rounded-md px-2 py-1', f));
+      });
+      foodBlock.appendChild(foodTags);
+
+      const veganNutrients: Nutrient[] = ['omega3', 'eisen', 'b12', 'kreatin', 'taurin', 'glycin', 'cholin'];
+      if (answers.q1 === 'vegan' && veganNutrients.includes(r.id)) {
+        foodBlock.appendChild(make('p', 'text-xs text-slate-400 mt-1', 'Plant-based diet: animal sources unavailable — consider supplementation.'));
+      }
+      detailsBody.appendChild(foodBlock);
+    }
+
+    const nextStep = NUTRIENTS[r.id].nextSteps[r.risk];
+    const borderColor = r.risk === 'hoch' ? 'border-red-300' : r.risk === 'mittel' ? 'border-amber-300' : 'border-emerald-300';
+    const nextStepEl = make('div', `text-sm text-slate-700 bg-slate-50 rounded-lg px-3 py-2.5 border-l-2 ${borderColor}`);
+    const nextStepLabel = make('span', 'font-medium', 'Next step: ');
+    nextStepEl.append(nextStepLabel, document.createTextNode(nextStep));
+    detailsBody.appendChild(nextStepEl);
+
+    if (r.slug) {
+      const link = make('a', 'inline-flex items-center gap-1.5 text-sm font-medium text-teal-700 bg-teal-50 hover:bg-teal-100 border border-teal-200 rounded-lg px-3 py-2 no-underline transition-colors', 'Read Ingredient Dossier →');
+      link.setAttribute('href', `/en/ingredients/${r.slug}`);
+      detailsBody.appendChild(link);
+    }
+
+    details.appendChild(detailsBody);
+    wrapper.appendChild(details);
+
+    resultCards.appendChild(card);
+  });
+
+  // GKV section
+  const gkvSection = document.getElementById('gkv-section') as HTMLElement;
+  const gkvCards = document.getElementById('gkv-cards') as HTMLElement;
+  if (gkvSection && gkvCards) {
+    const relevantTests = results
+      .filter(r => r.score >= 5 && GKV_TESTS[r.id as Nutrient])
+      .map(r => ({ ...GKV_TESTS[r.id as Nutrient]!, nutrientName: r.name }));
+
+    if (relevantTests.length > 0) {
+      gkvCards.innerHTML = relevantTests.map(t => {
+        const statusColor = t.gkvStatus === 'covered'
+          ? 'text-emerald-700 bg-emerald-50'
+          : t.gkvStatus === 'conditional'
+          ? 'text-amber-700 bg-amber-50'
+          : 'text-slate-600 bg-slate-50';
+        const statusLabel = t.gkvStatus === 'covered'
+          ? '✅ Insurance Coverage Possible'
+          : t.gkvStatus === 'conditional'
+          ? '⚡ Situational'
+          : '💶 Self-Pay';
+        return `<div class="px-5 py-4">
+          <div class="flex items-start justify-between gap-3 mb-2">
+            <div>
+              <p class="font-medium text-slate-800 text-sm">${t.testName}</p>
+              <p class="text-xs text-slate-500 mt-0.5">for: ${t.nutrientName}</p>
+            </div>
+            <span class="shrink-0 text-xs font-semibold px-2.5 py-1 rounded-full ${statusColor}">${statusLabel}</span>
+          </div>
+          <p class="text-sm text-slate-600">${t.gkvNote}</p>
+          ${t.igelCost ? `<p class="text-xs text-slate-400 mt-1">Self-pay: about ${t.igelCost}</p>` : ''}
+        </div>`;
+      }).join('');
+      gkvSection.classList.remove('hidden');
+    } else {
+      gkvSection.classList.add('hidden');
+    }
+  }
+}
+
+function update() {
+  const answers = getAnswers();
+  const count = Object.keys(answers).length;
+
+  // Update progress
+  const pct = Math.round((count / TOTAL_QUESTIONS) * 100);
+  progressBar.style.width = `${pct}%`;
+  progressLabel.textContent = `${count} of ${TOTAL_QUESTIONS} answered`;
+  progressPct.textContent = `${pct}%`;
+
+  if (count < TOTAL_QUESTIONS) {
+    resultsEl.classList.add('hidden');
+    ctaHint.classList.remove('hidden');
+    document.querySelectorAll('fieldset.question').forEach(fs => {
+      const answered = !!(fs as HTMLFieldSetElement).querySelector('input[type=radio]:checked');
+      if (answered) {
+        fs.classList.remove('border-yellow-400', 'ring-2', 'ring-yellow-200');
+      } else {
+        fs.classList.add('border-yellow-400', 'ring-2', 'ring-yellow-200');
+      }
+    });
+    return;
+  }
+
+  ctaHint.classList.add('hidden');
+  document.querySelectorAll('fieldset.question').forEach(fs => {
+    fs.classList.remove('border-yellow-400', 'ring-2', 'ring-yellow-200');
+  });
+  resultsEl.classList.remove('hidden');
+  document.getElementById('export-buttons')?.classList.remove('hidden');
+  renderResults(answers);
+
+  // Smooth scroll to results
+  resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+form.addEventListener('change', update);
+
+document.getElementById("goto-next")?.addEventListener("click", () => {
+  const unanswered = Array.from(document.querySelectorAll("fieldset.question")).find(
+    fs => !fs.querySelector("input[type=radio]:checked")
+  );
+  if (unanswered) {
+    unanswered.scrollIntoView({ behavior: "smooth", block: "center" });
+    (unanswered.querySelector("input[type=radio]") as HTMLInputElement)?.focus();
+  }
+});
+
+document.getElementById("btn-copy")?.addEventListener("click", () => {
+  const lines: string[] = [];
+  lines.push("MikroScore Nutrient Check — " + new Date().toLocaleDateString("en-GB"));
+  lines.push("Note: Estimate, not a diagnosis. Calculated locally.");
+  lines.push("");
+
+  document.querySelectorAll("#result-cards > div").forEach(card => {
+    const name = card.querySelector("p.font-semibold")?.textContent?.trim() || "";
+    const badge = card.querySelector("span[class*=rounded-full]")?.textContent?.trim() || "";
+    const reason = card.querySelector("p.italic")?.textContent?.trim() || "";
+    const nextStep = card.querySelector("div[class*=border-l-2] span + span, div[class*=border-l-2]")?.textContent?.replace("Next step:", "").trim() || "";
+    if (name) {
+      lines.push(`${name} — ${badge}`);
+      if (reason) lines.push(`  → ${reason}`);
+      if (nextStep) lines.push(`  Next step: ${nextStep}`);
+      lines.push("");
+    }
+  });
+
+  lines.push("---");
+  lines.push("Source: mikroscore.com/en/nutrient-check");
+
+  navigator.clipboard.writeText(lines.join("\n")).then(() => {
+    const btn = document.getElementById("btn-copy");
+    if (btn) { btn.textContent = "✅ Copied!"; setTimeout(() => { btn.innerHTML = "📋 Copy Results"; }, 2000); }
+  }).catch(() => {
+    alert("Could not copy — please select manually.");
+  });
+});
+
+document.getElementById("btn-print")?.addEventListener("click", () => {
+  window.print();
+});
+</script>
