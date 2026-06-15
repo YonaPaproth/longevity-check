@@ -29,8 +29,8 @@ const productsData = products.map(p => ({
 ---
 
 <BaseLayout
-  title="Stack Builder | MikroScore"
-  description="Finde die wenigsten Produkte, die alle deine Wunsch-Wirkstoffe abdecken. Optimiert nach Preis, Qualität und Evidenz."
+  title="Supplement Stack Builder — Finde die besten Produktkombinationen | MikroScore"
+  description="Baue deinen optimalen Supplement-Stack: Wähle deine Wirkstoffe und finde sofort die wenigsten Produkte, die alles abdecken. 230+ Produkte nach Preis, Evidenz und Qualität — kostenlos, ohne Anmeldung."
   hreflang={{ de: '/stack-builder', en: '/en/stack-builder' }}
 >
   <div class="max-w-4xl mx-auto px-4 py-10">
@@ -50,6 +50,37 @@ const productsData = products.map(p => ({
         </p>
       </div>
     </div>
+
+    <!-- SEO-Content -->
+    <article class="prose prose-slate max-w-none mb-10">
+      <h2 class="text-lg font-semibold text-slate-800">So funktioniert der Stack Builder</h2>
+      <p>
+        Die meisten Supplement-Nutzer nehmen mehrere Produkte — eins für Magnesium, eins für Omega-3, ein weiteres für Vitamin D. Aber viele Supplements enthalten mehr als einen Wirkstoff. Ein guter B-Komplex deckt bereits Folsäure, B12 und B6 in einer Kapsel ab. Eine Longevity-Formel bündelt NMN, Resveratrol und TMG zusammen.
+      </p>
+      <p>
+        Der MikroScore Stack Builder hilft dir, diese Überschneidungen zu finden. Wähle die Wirkstoffe, die du brauchst, und unser Algorithmus identifiziert sofort, welche Produkte mehrere Wirkstoffe gleichzeitig abdecken — damit du weniger Kapseln schluckst, weniger ausgibst und unnötige Doppelungen vermeidest.
+      </p>
+
+      <h3 class="text-base font-semibold text-slate-700">Was dieses Tool besonders macht</h3>
+      <p>
+        Anders als einfache Produktfinder nutzt der Stack Builder einen <strong>Set-Cover-Optimierungsalgorithmus</strong>. Statt nur Produkte aufzulisten, die deine Wirkstoffe enthalten, berechnet er die <em>minimale Anzahl an Produkten</em>, die deine gesamte Liste abdecken. Jedes Produkt wird nach Evidenzqualität (basierend auf RCTs und Meta-Analysen), Preis pro Tag und Herstellungsqualität bewertet — so sind die Empfehlungen nicht nur praktisch, sondern evidenzbasiert.
+      </p>
+
+      <h3 class="text-base font-semibold text-slate-700">Was in der Datenbank steckt</h3>
+      <p>
+        Wir tracken aktuell <strong>{productsData.length} Supplement-Produkte</strong> von Marken wie Life Extension, Thorne, Pure Encapsulations, NOW Foods, Sunday Natural, Jarrow, BIOGENA und weiteren. Jedes Produkt wurde auf Wirkstoffgehalt, Dosierung, Form, Zertifizierungen und Preis-Leistung geprüft. Produkte mit mehreren Wirkstoffen sind mit allen enthaltenen Substanzen getaggt — so erkennt der Stack Builder jede Überschneidung.
+      </p>
+
+      <h3 class="text-base font-semibold text-slate-700">So nutzt du den Stack Builder</h3>
+      <ol>
+        <li><strong>Wähle deine Wirkstoffe</strong> — klicke auf die Tags unten oder nutze die Suche. Wähle alles, was du in deinem täglichen Stack haben willst.</li>
+        <li><strong>Prüfe den optimierten Stack</strong> — der Algorithmus schlägt die wenigsten Produkte vor, die alle deine Wirkstoffe abdecken, inklusive Tageskosten.</li>
+        <li><strong>Entdecke Alternativen</strong> — unter dem optimierten Stack findest du alle passenden Produkte, sortiert nach Überlappung, Evidenz-Rating und Preis.</li>
+      </ol>
+      <p>
+        Alles läuft in deinem Browser — keine Daten werden an einen Server gesendet, keine Anmeldung nötig. Das Tool ist kostenlos und bleibt es auch.
+      </p>
+    </article>
 
     <!-- Schritt 1: Wirkstoff-Auswahl -->
     <div id="step-select" class="mb-8">

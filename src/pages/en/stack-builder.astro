@@ -31,8 +31,8 @@ const productsData = products.map(p => ({
 ---
 
 <BaseLayout
-  title="Stack Builder | MikroScore"
-  description="Find the fewest supplement products that cover all your desired ingredients. Optimize for price, quality, and evidence."
+  title="Supplement Stack Builder — Find the Best Product Combinations | MikroScore"
+  description="Build your optimal supplement stack: select your desired ingredients and instantly find the fewest products that cover them all. Compare 230+ products by price, evidence, and quality — free, no signup."
   locale="en"
 >
   <div class="max-w-4xl mx-auto px-4 py-10">
@@ -52,6 +52,37 @@ const productsData = products.map(p => ({
         </p>
       </div>
     </div>
+
+    <!-- SEO content -->
+    <article class="prose prose-slate max-w-none mb-10">
+      <h2 class="text-lg font-semibold text-slate-800">How the Stack Builder works</h2>
+      <p>
+        Most supplement users take multiple products — one for magnesium, one for omega-3, another for vitamin D. But many supplements contain more than one active ingredient. A quality B-complex might already cover your folate, B12, and B6 needs in a single capsule. A longevity formula could bundle NMN, resveratrol, and TMG together.
+      </p>
+      <p>
+        The MikroScore Stack Builder helps you find these overlaps. Select the ingredients you care about, and our algorithm instantly identifies which products cover multiple ingredients at once — so you can take fewer capsules, spend less, and avoid unnecessary overlap.
+      </p>
+
+      <h3 class="text-base font-semibold text-slate-700">What makes this different</h3>
+      <p>
+        Unlike simple product finders, the Stack Builder uses a <strong>set cover optimization algorithm</strong>. Instead of just listing products that contain your ingredients, it calculates the <em>minimum number of products</em> needed to cover your entire list. Each product is scored by evidence quality (based on RCTs and meta-analyses), price per day, and manufacturing quality — so the recommendations aren't just convenient, they're evidence-informed.
+      </p>
+
+      <h3 class="text-base font-semibold text-slate-700">What's in the database</h3>
+      <p>
+        We currently track <strong>{productsData.length} supplement products</strong> from brands like Life Extension, Thorne, Pure Encapsulations, NOW Foods, Sunday Natural, Jarrow, BIOGENA, and more. Each product has been reviewed for ingredient content, dosage, form, certifications, and value for money. Products with multiple active ingredients are tagged with all contained compounds — making the Stack Builder aware of every overlap.
+      </p>
+
+      <h3 class="text-base font-semibold text-slate-700">How to use it</h3>
+      <ol>
+        <li><strong>Select your ingredients</strong> — click the tags below or use the search box. Pick everything you want in your daily stack.</li>
+        <li><strong>Review the optimized stack</strong> — the algorithm suggests the fewest products covering all your selections, with total daily cost.</li>
+        <li><strong>Explore alternatives</strong> — below the optimized stack, you'll find all matching products sorted by overlap count, evidence rating, and price.</li>
+      </ol>
+      <p>
+        Everything runs in your browser — no data is sent to any server, no signup required. The tool is free and always will be.
+      </p>
+    </article>
 
     <!-- Step 1: Ingredient Selection -->
     <div id="step-select" class="mb-8">
