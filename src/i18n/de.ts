@@ -3,7 +3,13 @@ export const de = {
 
   nav: {
     home: '/',
-    nutrientCheck: { label: 'Ernährungs-Check', href: '/ernaehrungs-check' },
+    checks: {
+      label: 'Checks',
+      items: [
+        { label: 'Ernährungs-Check', href: '/ernaehrungs-check', desc: 'Allgemeiner Nährstoff-Risikotest' },
+        { label: 'Vegan-Check', href: '/vegan-supplement-check', desc: 'Speziell für pflanzliche Ernährung' },
+      ],
+    },
     ingredients:   { label: 'Wirkstoffe',       href: '/wirkstoffe' },
     products:      { label: 'Produkte',          href: '/produkte' },
     claimsCheck:   { label: 'Claims-Check',      href: '/claims' },

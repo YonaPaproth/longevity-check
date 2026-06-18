@@ -5,7 +5,13 @@ export const en: Dict = {
 
   nav: {
     home: '/en',
-    nutrientCheck: { label: 'Nutrient Check',  href: '/en/nutrient-check' },
+    checks: {
+      label: 'Checks',
+      items: [
+        { label: 'Nutrient Check', href: '/en/nutrient-check', desc: 'General nutrient risk assessment' },
+        { label: 'Vegan Check', href: '/en/vegan-supplement-check', desc: 'Tailored for plant-based diets' },
+      ],
+    },
     ingredients:   { label: 'Ingredients',     href: '/en/ingredients' },
     products:      { label: 'Products',         href: '/en/products' },
     claimsCheck:   { label: 'Claims Check',     href: '/en/claims' },
