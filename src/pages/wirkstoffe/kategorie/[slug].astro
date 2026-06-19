@@ -1,0 +1,107 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { healthCategories, getCategoryBySlug } from '../../../data/health-categories';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export function getStaticPaths() {
+  return healthCategories.map(c => ({ params: { slug: c.slug } }));
+}
+
+const { slug } = Astro.params;
+const cat = getCategoryBySlug(slug!)!;
+const locale = 'de';
+const t = cat.de;
+
+// Load relations for this category
+const relPath = path.join(process.cwd(), 'data/relations/by-entity', `${slug}.json`);
+let ingredientSlugs: string[] = [];
+if (fs.existsSync(relPath)) {
+  const relData = JSON.parse(fs.readFileSync(relPath, 'utf-8'));
+  ingredientSlugs = relData.relations
+    .filter((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.direction === 'incoming')
+    .map((r: any) => r.target);
+}
+
+// Get ingredient data
+const allIngredients = await getCollection('ingredients');
+const matchedIngredients = allIngredients
+  .filter(i => ingredientSlugs.includes(i.data.slug))
+  .sort((a, b) => {
+    const aLevel = Number(a.data.evidenceLevel ?? 3);
+    const bLevel = Number(b.data.evidenceLevel ?? 3);
+    return aLevel - bLevel; // 1 = best evidence first
+  });
+
+const evidenceLabel = (level: number) => {
+  if (level === 1) return { text: 'Sehr stark', color: 'bg-teal-100 text-teal-800' };
+  if (level === 2) return { text: 'Stark', color: 'bg-emerald-100 text-emerald-800' };
+  if (level === 3) return { text: 'Moderat', color: 'bg-amber-100 text-amber-800' };
+  if (level === 4) return { text: 'Schwach', color: 'bg-orange-100 text-orange-800' };
+  return { text: 'Vorläufig', color: 'bg-red-100 text-red-800' };
+};
+---
+
+<BaseLayout
+  title={`${t.title} | MikroScore`}
+  description={t.description}
+  hreflang={{ de: `/wirkstoffe/kategorie/${slug}`, en: `/en/ingredients/category/${slug}` }}
+>
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/wirkstoffe" class="hover:text-teal-600">Wirkstoffe</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">{t.name}</span>
+    </nav>
+
+    <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-8">
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.07),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(15,23,42,0.04),transparent_28%)]"></div>
+      <div class="relative p-6">
+        <div class="text-3xl mb-2">{t.emoji}</div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">{t.title}</h1>
+        <p class="text-slate-600">{t.description}</p>
+        <div class="mt-3 text-xs text-slate-400">
+          {matchedIngredients.length} Wirkstoffe · Sortiert nach Evidenzstärke ·
+          <a href={`/graph?highlight=${slug}`} class="text-teal-600 hover:text-teal-800 no-underline">Im Wissensgraph ansehen →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid gap-3">
+      {matchedIngredients.map(ing => {
+        const level = Number(ing.data.evidenceLevel ?? 3);
+        const badge = evidenceLabel(level);
+        return (
+          <a
+            href={`/wirkstoffe/${ing.data.slug}`}
+            class="block bg-white rounded-xl border border-slate-200 px-5 py-4 hover:border-teal-400 transition-all no-underline group"
+          >
+            <div class="flex items-center justify-between gap-3">
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center gap-2 mb-1">
+                  <p class="text-sm font-medium text-slate-800 group-hover:text-teal-700 truncate">{ing.data.title}</p>
+                  <span class={`text-[10px] font-semibold px-2 py-0.5 rounded-full whitespace-nowrap ${badge.color}`}>
+                    {badge.text}
+                  </span>
+                </div>
+                <p class="text-xs text-slate-500 line-clamp-2">{ing.data.summary}</p>
+              </div>
+              <svg class="w-4 h-4 text-slate-300 group-hover:text-teal-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+
+    {matchedIngredients.length === 0 && (
+      <div class="text-center text-slate-400 py-12">
+        <p>Noch keine Wirkstoffe für diese Kategorie verknüpft.</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

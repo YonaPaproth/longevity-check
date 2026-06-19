@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { healthCategories } from '../../../../data/health-categories';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const categoryCounts = healthCategories.map(cat => {
+  const relPath = path.join(process.cwd(), 'data/relations/by-entity', `${cat.slug}.json`);
+  let count = 0;
+  if (fs.existsSync(relPath)) {
+    const relData = JSON.parse(fs.readFileSync(relPath, 'utf-8'));
+    count = relData.relations.filter((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.direction === 'incoming').length;
+  }
+  return { ...cat, count };
+}).sort((a, b) => b.count - a.count);
+---
+
+<BaseLayout
+  title="Supplements by Health Goal | MikroScore"
+  description="Find supplements by health goal: cognition, sleep, heart, immune system, longevity and more — sorted by evidence."
+  locale="en"
+  hreflang={{ de: '/wirkstoffe/kategorie', en: '/en/ingredients/category' }}
+>
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/en" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/en/ingredients" class="hover:text-teal-600">Ingredients</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">Categories</span>
+    </nav>
+
+    <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-8">
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.07),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(15,23,42,0.04),transparent_28%)]"></div>
+      <div class="relative p-6">
+        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-3">By Health Goal</div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">Supplements by Category</h1>
+        <p class="text-slate-600">Find supplements by what you want to achieve — from cognition to longevity.</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      {categoryCounts.map(cat => (
+        <a
+          href={`/en/ingredients/category/${cat.slug}`}
+          class="block bg-white rounded-xl border border-slate-200 px-5 py-4 hover:border-teal-400 transition-all no-underline group"
+        >
+          <div class="text-2xl mb-2">{cat.en.emoji}</div>
+          <p class="text-sm font-medium text-slate-800 group-hover:text-teal-700">{cat.en.name}</p>
+          <p class="text-xs text-slate-400 mt-1">{cat.count} ingredients</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
