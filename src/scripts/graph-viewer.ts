@@ -51,12 +51,11 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
 
 /** Y position (as fraction of container height) for each node type lane. */
 const STRUCTURED_LANES: Array<{ type: string; yFrac: number }> = [
-  { type: 'regulatory', yFrac: 0.06 },
-  { type: 'claim',      yFrac: 0.22 },
-  { type: 'ingredient', yFrac: 0.44 },
-  { type: 'mechanism',  yFrac: 0.63 },
-  { type: 'biomarker',  yFrac: 0.78 },
-  { type: 'symptom',    yFrac: 0.92 },
+  { type: 'regulatory', yFrac: 0.08 },
+  { type: 'ingredient', yFrac: 0.32 },
+  { type: 'mechanism',  yFrac: 0.54 },
+  { type: 'biomarker',  yFrac: 0.72 },
+  { type: 'symptom',    yFrac: 0.90 },
 ];
 
 /** X range [min, max] as fraction of width for each bucket.
@@ -177,10 +176,20 @@ function showNodeDetail(node: NodeSingular, locale: string) {
     badgeEl.style.backgroundColor = color;
   }
 
-  const canOpenDossier = Boolean(data.path) && ['ingredient', 'claim'].includes(String(data.type));
+  // Determine link: ingredients get dossier path, symptoms get category page
+  let nodePath = data.path;
+  if (String(data.type) === 'symptom' && !nodePath) {
+    const catSlug = String(data.id);
+    const loc = document.getElementById('ks-cy-container')?.dataset.locale ?? 'de';
+    nodePath = loc === 'en'
+      ? `/en/ingredients/category/${catSlug}`
+      : `/wirkstoffe/kategorie/${catSlug}`;
+  }
+
+  const canOpenDossier = Boolean(nodePath) && ['ingredient', 'symptom'].includes(String(data.type));
 
   if (canOpenDossier) {
-    if (linkEl)   { linkEl.href = data.path; linkEl.classList.remove('hidden'); }
+    if (linkEl)   { linkEl.href = nodePath; linkEl.classList.remove('hidden'); }
     if (noLinkEl) noLinkEl.classList.add('hidden');
   } else {
     if (linkEl)   linkEl.classList.add('hidden');
@@ -569,6 +578,11 @@ async function initGraph() {
     return;
   }
 
+  // Filter out claim nodes and their edges
+  const claimIds = new Set(graphData.nodes.filter(n => n.type === 'claim').map(n => n.id));
+  graphData.nodes = graphData.nodes.filter(n => n.type !== 'claim');
+  graphData.edges = graphData.edges.filter(e => !claimIds.has(e.source) && !claimIds.has(e.target));
+
   // Cache data for structured layout re-computation
   cachedNodes = graphData.nodes;
   cachedEdges = graphData.edges;
@@ -742,7 +756,7 @@ async function initGraph() {
     const allChip = makeFilterChip(labels.all ?? 'All', 'all', true);
     filterRow.appendChild(allChip);
 
-    const typeOrder = ['ingredient', 'claim', 'mechanism', 'biomarker', 'symptom', 'regulatory'];
+    const typeOrder = ['ingredient', 'mechanism', 'biomarker', 'symptom', 'regulatory'];
     for (const type of typeOrder) {
       if (!typesInGraph.has(type)) continue;
       const chip = makeFilterChip(labels[type] ?? type, type, false, ENTITY_COLORS[type]);
