@@ -164,6 +164,36 @@ export function buildFullGraph(
     }
   }
 
+  // ── Infer mechanism → symptom/contraindication edges ────────────────────
+  // If ingredient A wirkt_ueber mechanism M AND wird_eingesetzt_fuer symptom S,
+  // then infer M → beeinflusst → S (deduplicated, lower confidence)
+  const mechToTargets = new Map<string, Set<string>>();
+
+  for (const [, edge] of edgeMap) {
+    if (edge.relation !== 'wirkt_ueber') continue;
+    const ingredientId = edge.source;
+    const mechanismId = edge.target;
+    if (!nodeMap.has(mechanismId) || nodeMap.get(mechanismId)?.type !== 'mechanism') continue;
+
+    for (const [, e2] of edgeMap) {
+      if (e2.source !== ingredientId) continue;
+      if (e2.relation !== 'wird_eingesetzt_fuer' && e2.relation !== 'kontraindiziert_bei') continue;
+      if (!nodeMap.has(e2.target)) continue;
+
+      if (!mechToTargets.has(mechanismId)) mechToTargets.set(mechanismId, new Set());
+      mechToTargets.get(mechanismId)!.add(e2.target);
+    }
+  }
+
+  for (const [mech, targets] of mechToTargets) {
+    for (const target of targets) {
+      const k = edgeKey(mech, target, 'beeinflusst');
+      if (!edgeMap.has(k)) {
+        edgeMap.set(k, { source: mech, target, relation: 'beeinflusst', confidence: 0.5 });
+      }
+    }
+  }
+
   const nodes = Array.from(nodeMap.values());
   const edges = Array.from(edgeMap.values());
 
