@@ -54,11 +54,10 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
 
 /** Y position (as fraction of container height) for each node type lane. */
 const STRUCTURED_LANES: Array<{ type: string; yFrac: number }> = [
-  { type: 'regulatory',       yFrac: 0.06 },
-  { type: 'ingredient',       yFrac: 0.26 },
-  { type: 'mechanism',        yFrac: 0.46 },
-  { type: 'biomarker',        yFrac: 0.62 },
-  { type: 'symptom',          yFrac: 0.78 },
+  { type: 'regulatory',       yFrac: 0.08 },
+  { type: 'ingredient',       yFrac: 0.30 },
+  { type: 'mechanism',        yFrac: 0.52 },
+  { type: 'symptom',          yFrac: 0.74 },
   { type: 'contraindication', yFrac: 0.92 },
 ];
 
@@ -582,10 +581,10 @@ async function initGraph() {
     return;
   }
 
-  // Filter out claim nodes and their edges
-  const claimIds = new Set(graphData.nodes.filter(n => n.type === 'claim').map(n => n.id));
-  graphData.nodes = graphData.nodes.filter(n => n.type !== 'claim');
-  graphData.edges = graphData.edges.filter(e => !claimIds.has(e.source) && !claimIds.has(e.target));
+  // Filter out claim and biomarker nodes and their edges
+  const hiddenIds = new Set(graphData.nodes.filter(n => n.type === 'claim' || n.type === 'biomarker').map(n => n.id));
+  graphData.nodes = graphData.nodes.filter(n => n.type !== 'claim' && n.type !== 'biomarker');
+  graphData.edges = graphData.edges.filter(e => !hiddenIds.has(e.source) && !hiddenIds.has(e.target));
 
   // Reclassify kontra-* symptom nodes as contraindication type
   for (const n of graphData.nodes) {
@@ -767,7 +766,7 @@ async function initGraph() {
     const allChip = makeFilterChip(labels.all ?? 'All', 'all', true);
     filterRow.appendChild(allChip);
 
-    const typeOrder = ['ingredient', 'mechanism', 'biomarker', 'symptom', 'contraindication', 'regulatory'];
+    const typeOrder = ['ingredient', 'mechanism', 'symptom', 'contraindication', 'regulatory'];
     for (const type of typeOrder) {
       if (!typesInGraph.has(type)) continue;
       const chip = makeFilterChip(labels[type] ?? type, type, false, ENTITY_COLORS[type]);
