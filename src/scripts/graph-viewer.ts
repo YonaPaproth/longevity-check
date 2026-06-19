@@ -15,13 +15,14 @@ import type { Core, NodeSingular } from 'cytoscape';
 // ── Entity type colours (aligned with site palette) ──────────────────────────
 
 const ENTITY_COLORS: Record<string, string> = {
-  ingredient: '#0d9488',   // teal-600
-  mechanism:  '#3b82f6',   // blue-500
-  biomarker:  '#8b5cf6',   // violet-500
-  symptom:    '#f97316',   // orange-500
-  regulatory: '#f59e0b',   // amber-500
-  claim:      '#ef4444',   // red-500
-  study:      '#94a3b8',   // slate-400
+  ingredient:      '#0d9488',   // teal-600
+  mechanism:       '#3b82f6',   // blue-500
+  biomarker:       '#8b5cf6',   // violet-500
+  symptom:         '#f97316',   // orange-500
+  contraindication:'#ef4444',   // red-500
+  regulatory:      '#f59e0b',   // amber-500
+  claim:           '#ef4444',   // red-500
+  study:           '#94a3b8',   // slate-400
 };
 
 const TYPE_LABELS: Record<string, Record<string, string>> = {
@@ -29,21 +30,23 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
     ingredient: 'Wirkstoff',
     mechanism:  'Mechanismus',
     biomarker:  'Biomarker',
-    symptom:    'Symptom',
-    regulatory: 'Regulatorik',
-    claim:      'Claim',
-    study:      'Studie',
-    all:        'Alle',
+    symptom:         'Symptom',
+    contraindication:'Kontraindikation',
+    regulatory:      'Regulatorik',
+    claim:           'Claim',
+    study:           'Studie',
+    all:             'Alle',
   },
   en: {
-    ingredient: 'Ingredient',
-    mechanism:  'Mechanism',
-    biomarker:  'Biomarker',
-    symptom:    'Symptom',
-    regulatory: 'Regulatory',
-    claim:      'Claim',
-    study:      'Study',
-    all:        'All',
+    ingredient:      'Ingredient',
+    mechanism:       'Mechanism',
+    biomarker:       'Biomarker',
+    symptom:         'Symptom',
+    contraindication:'Contraindication',
+    regulatory:      'Regulatory',
+    claim:           'Claim',
+    study:           'Study',
+    all:             'All',
   },
 };
 
@@ -51,11 +54,12 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
 
 /** Y position (as fraction of container height) for each node type lane. */
 const STRUCTURED_LANES: Array<{ type: string; yFrac: number }> = [
-  { type: 'regulatory', yFrac: 0.08 },
-  { type: 'ingredient', yFrac: 0.32 },
-  { type: 'mechanism',  yFrac: 0.54 },
-  { type: 'biomarker',  yFrac: 0.72 },
-  { type: 'symptom',    yFrac: 0.90 },
+  { type: 'regulatory',       yFrac: 0.06 },
+  { type: 'ingredient',       yFrac: 0.26 },
+  { type: 'mechanism',        yFrac: 0.46 },
+  { type: 'biomarker',        yFrac: 0.62 },
+  { type: 'symptom',          yFrac: 0.78 },
+  { type: 'contraindication', yFrac: 0.92 },
 ];
 
 /** X range [min, max] as fraction of width for each bucket.
@@ -178,7 +182,7 @@ function showNodeDetail(node: NodeSingular, locale: string) {
 
   // Determine link: ingredients get dossier path, symptoms get category page
   let nodePath = data.path;
-  if (String(data.type) === 'symptom' && !nodePath) {
+  if ((String(data.type) === 'symptom' || String(data.type) === 'contraindication') && !nodePath) {
     const catSlug = String(data.id);
     const loc = document.getElementById('ks-cy-container')?.dataset.locale ?? 'de';
     nodePath = loc === 'en'
@@ -186,7 +190,7 @@ function showNodeDetail(node: NodeSingular, locale: string) {
       : `/wirkstoffe/kategorie/${catSlug}`;
   }
 
-  const canOpenDossier = Boolean(nodePath) && ['ingredient', 'symptom'].includes(String(data.type));
+  const canOpenDossier = Boolean(nodePath) && ['ingredient', 'symptom', 'contraindication'].includes(String(data.type));
 
   if (canOpenDossier) {
     if (linkEl)   { linkEl.href = nodePath; linkEl.classList.remove('hidden'); }
@@ -583,6 +587,13 @@ async function initGraph() {
   graphData.nodes = graphData.nodes.filter(n => n.type !== 'claim');
   graphData.edges = graphData.edges.filter(e => !claimIds.has(e.source) && !claimIds.has(e.target));
 
+  // Reclassify kontra-* symptom nodes as contraindication type
+  for (const n of graphData.nodes) {
+    if (n.type === 'symptom' && n.id.startsWith('kontra-')) {
+      n.type = 'contraindication';
+    }
+  }
+
   // Cache data for structured layout re-computation
   cachedNodes = graphData.nodes;
   cachedEdges = graphData.edges;
@@ -756,7 +767,7 @@ async function initGraph() {
     const allChip = makeFilterChip(labels.all ?? 'All', 'all', true);
     filterRow.appendChild(allChip);
 
-    const typeOrder = ['ingredient', 'mechanism', 'biomarker', 'symptom', 'regulatory'];
+    const typeOrder = ['ingredient', 'mechanism', 'biomarker', 'symptom', 'contraindication', 'regulatory'];
     for (const type of typeOrder) {
       if (!typesInGraph.has(type)) continue;
       const chip = makeFilterChip(labels[type] ?? type, type, false, ENTITY_COLORS[type]);
