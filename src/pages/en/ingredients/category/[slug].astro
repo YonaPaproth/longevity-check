@@ -1,26 +1,37 @@
 ---
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { healthCategories, getCategoryBySlug } from '../../../../data/health-categories';
+import { allCategories, getCategoryBySlugAll } from '../../../../data/health-categories';
 import fs from 'node:fs';
 import path from 'node:path';
 
 export function getStaticPaths() {
-  return healthCategories.map(c => ({ params: { slug: c.slug } }));
+  return allCategories.map(c => ({ params: { slug: c.slug } }));
 }
 
 const { slug } = Astro.params;
-const cat = getCategoryBySlug(slug!)!;
+const cat = getCategoryBySlugAll(slug!)!;
+const isContra = slug!.startsWith('kontra-');
 const t = cat.en;
 
-// Load relations for this category
-const relPath = path.join(process.cwd(), 'data/relations/by-entity', `${slug}.json`);
+// Load relations
 let ingredientSlugs: string[] = [];
-if (fs.existsSync(relPath)) {
-  const relData = JSON.parse(fs.readFileSync(relPath, 'utf-8'));
-  ingredientSlugs = relData.relations
-    .filter((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.direction === 'incoming')
-    .map((r: any) => r.target);
+if (isContra) {
+  const byEntityDir = path.join(process.cwd(), 'data/relations/by-entity');
+  const files = fs.readdirSync(byEntityDir).filter(f => f.endsWith('.json'));
+  for (const file of files) {
+    const data = JSON.parse(fs.readFileSync(path.join(byEntityDir, file), 'utf-8'));
+    const hasContra = data.relations?.some((r: any) => r.relation === 'kontraindiziert_bei' && r.target === slug);
+    if (hasContra) ingredientSlugs.push(data.entity);
+  }
+} else {
+  const relPath = path.join(process.cwd(), 'data/relations/by-entity', `${slug}.json`);
+  if (fs.existsSync(relPath)) {
+    const relData = JSON.parse(fs.readFileSync(relPath, 'utf-8'));
+    ingredientSlugs = relData.relations
+      .filter((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.direction === 'incoming')
+      .map((r: any) => r.target);
+  }
 }
 
 // Get ingredient data (prefer EN, fallback DE)

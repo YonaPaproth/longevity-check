@@ -125,3 +125,78 @@ export const healthCategories: HealthCategory[] = [
 export function getCategoryBySlug(slug: string) {
   return healthCategories.find(c => c.slug === slug);
 }
+
+// Contraindication categories
+export const contraCategories: HealthCategory[] = [
+  {
+    slug: 'kontra-schwangerschaft',
+    de: { name: 'Schwangerschaft & Stillzeit', title: 'Vorsicht bei Schwangerschaft & Stillzeit', description: 'Wirkstoffe, bei denen in Schwangerschaft oder Stillzeit besondere Vorsicht geboten ist.', emoji: '🤰' },
+    en: { name: 'Pregnancy & Breastfeeding', title: 'Caution During Pregnancy & Breastfeeding', description: 'Supplements that require special caution during pregnancy or breastfeeding.', emoji: '🤰' },
+  },
+  {
+    slug: 'kontra-autoimmunerkrankung',
+    de: { name: 'Autoimmunerkrankungen', title: 'Vorsicht bei Autoimmunerkrankungen', description: 'Wirkstoffe, die bei Autoimmunerkrankungen problematisch sein können.', emoji: '⚠️' },
+    en: { name: 'Autoimmune Conditions', title: 'Caution with Autoimmune Conditions', description: 'Supplements that may be problematic with autoimmune conditions.', emoji: '⚠️' },
+  },
+  {
+    slug: 'kontra-blutdruckmedikamente',
+    de: { name: 'Blutdruckmedikamente', title: 'Vorsicht bei Blutdruckmedikamenten', description: 'Wirkstoffe mit möglichen Wechselwirkungen zu Blutdruckmedikamenten.', emoji: '💊' },
+    en: { name: 'Blood Pressure Medication', title: 'Caution with Blood Pressure Medication', description: 'Supplements with potential interactions with blood pressure medication.', emoji: '💊' },
+  },
+  {
+    slug: 'kontra-blutgerinnungsstoerung',
+    de: { name: 'Blutgerinnungsstörungen', title: 'Vorsicht bei Blutgerinnungsstörungen', description: 'Wirkstoffe, die die Blutgerinnung beeinflussen können.', emoji: '🩸' },
+    en: { name: 'Blood Clotting Disorders', title: 'Caution with Blood Clotting Disorders', description: 'Supplements that may affect blood clotting.', emoji: '🩸' },
+  },
+  {
+    slug: 'kontra-chemotherapie',
+    de: { name: 'Chemotherapie', title: 'Vorsicht bei Chemotherapie', description: 'Wirkstoffe mit möglichen Wechselwirkungen bei Chemotherapie.', emoji: '🏥' },
+    en: { name: 'Chemotherapy', title: 'Caution During Chemotherapy', description: 'Supplements with potential interactions during chemotherapy.', emoji: '🏥' },
+  },
+  {
+    slug: 'kontra-diabetes-medikamente',
+    de: { name: 'Diabetes-Medikamente', title: 'Vorsicht bei Diabetes-Medikamenten', description: 'Wirkstoffe mit möglichen Wechselwirkungen zu Diabetes-Medikamenten.', emoji: '💉' },
+    en: { name: 'Diabetes Medication', title: 'Caution with Diabetes Medication', description: 'Supplements with potential interactions with diabetes medication.', emoji: '💉' },
+  },
+  {
+    slug: 'kontra-kinder',
+    de: { name: 'Kinder', title: 'Vorsicht bei Kindern', description: 'Wirkstoffe, die für Kinder nicht oder nur eingeschränkt geeignet sind.', emoji: '👶' },
+    en: { name: 'Children', title: 'Caution for Children', description: 'Supplements that may not be suitable or have limited suitability for children.', emoji: '👶' },
+  },
+  {
+    slug: 'kontra-lebererkrankung',
+    de: { name: 'Lebererkrankungen', title: 'Vorsicht bei Lebererkrankungen', description: 'Wirkstoffe mit potenzieller Hepatotoxizität oder Leberwechselwirkung.', emoji: '🫁' },
+    en: { name: 'Liver Disease', title: 'Caution with Liver Disease', description: 'Supplements with potential hepatotoxicity or liver interactions.', emoji: '🫁' },
+  },
+  {
+    slug: 'kontra-mao-hemmer',
+    de: { name: 'MAO-Hemmer', title: 'Vorsicht bei MAO-Hemmern', description: 'Wirkstoffe mit Wechselwirkungen zu MAO-Inhibitoren.', emoji: '💊' },
+    en: { name: 'MAO Inhibitors', title: 'Caution with MAO Inhibitors', description: 'Supplements with interactions with MAO inhibitors.', emoji: '💊' },
+  },
+  {
+    slug: 'kontra-nierenerkrankung',
+    de: { name: 'Nierenerkrankungen', title: 'Vorsicht bei Nierenerkrankungen', description: 'Wirkstoffe mit potenzieller Nephrotoxizität oder Nierenwechselwirkung.', emoji: '🫘' },
+    en: { name: 'Kidney Disease', title: 'Caution with Kidney Disease', description: 'Supplements with potential nephrotoxicity or kidney interactions.', emoji: '🫘' },
+  },
+  {
+    slug: 'kontra-organtransplantation',
+    de: { name: 'Organtransplantation', title: 'Vorsicht nach Organtransplantation', description: 'Wirkstoffe mit Wechselwirkungen zu Immunsuppressiva.', emoji: '🏥' },
+    en: { name: 'Organ Transplant', title: 'Caution After Organ Transplant', description: 'Supplements with interactions with immunosuppressants.', emoji: '🏥' },
+  },
+  {
+    slug: 'kontra-schilddruesenerkrankung',
+    de: { name: 'Schilddrüsenerkrankungen', title: 'Vorsicht bei Schilddrüsenerkrankungen', description: 'Wirkstoffe, die Schilddrüsenfunktion oder -medikation beeinflussen können.', emoji: '🦋' },
+    en: { name: 'Thyroid Conditions', title: 'Caution with Thyroid Conditions', description: 'Supplements that may affect thyroid function or medication.', emoji: '🦋' },
+  },
+  {
+    slug: 'kontra-ssri-einnahme',
+    de: { name: 'SSRI-Einnahme', title: 'Vorsicht bei SSRI-Einnahme', description: 'Wirkstoffe mit Wechselwirkungen zu SSRI-Antidepressiva.', emoji: '💊' },
+    en: { name: 'SSRI Use', title: 'Caution with SSRIs', description: 'Supplements with interactions with SSRI antidepressants.', emoji: '💊' },
+  },
+];
+
+export const allCategories = [...healthCategories, ...contraCategories];
+
+export function getCategoryBySlugAll(slug: string) {
+  return allCategories.find(c => c.slug === slug);
+}
