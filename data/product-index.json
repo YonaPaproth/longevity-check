@@ -1,0 +1,3895 @@
+[
+  {
+    "slug": "alive-by-science-nmn-sublingual",
+    "title": "Alive By Science NMN Sublingual",
+    "vendor": "Alive By Science",
+    "ingredient": "nmn",
+    "containedIngredients": [
+      "nmn"
+    ],
+    "priceEur": 49,
+    "doseMg": 125,
+    "pricePerDayEur": 0.49,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "biogena-coq10-100",
+    "title": "BIOGENA CoQ10 100 aktiv",
+    "vendor": "BIOGENA",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10"
+    ],
+    "priceEur": 39.9,
+    "doseMg": 100,
+    "pricePerDayEur": 0.67,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "biogena-curcuma-500",
+    "title": "BIOGENA Curcuma 500 Plus",
+    "vendor": "BIOGENA",
+    "ingredient": "curcumin",
+    "containedIngredients": [
+      "curcumin",
+      "piperin"
+    ],
+    "priceEur": 29.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.5,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "biogena-magnesium-7-salze",
+    "title": "BIOGENA Magnesium 7 Salze",
+    "vendor": "BIOGENA",
+    "ingredient": "magnesium",
+    "containedIngredients": [
+      "magnesium"
+    ],
+    "priceEur": 32.9,
+    "doseMg": 300,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "biogena-omega-3-premium",
+    "title": "BIOGENA Omega 3 Premium",
+    "vendor": "BIOGENA",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 39.9,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.33,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "biogena-selen-200",
+    "title": "BIOGENA Selen 200 Komplex",
+    "vendor": "BIOGENA",
+    "ingredient": "selen",
+    "containedIngredients": [
+      "selen"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 0.2,
+    "pricePerDayEur": 0.33,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "biogena-ubiquinol-50",
+    "title": "BIOGENA Ubiquinol 50 CoQH",
+    "vendor": "BIOGENA",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10"
+    ],
+    "priceEur": 34.9,
+    "doseMg": 50,
+    "pricePerDayEur": 0.58,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "biogena-vitamin-d3-k2-2000",
+    "title": "BIOGENA Vitamin D3 K2 2000 I.E.",
+    "vendor": "BIOGENA",
+    "ingredient": "vitamin-d3-k2",
+    "containedIngredients": [
+      "vitamin-d3-k2"
+    ],
+    "priceEur": 29.9,
+    "doseMg": 50,
+    "pricePerDayEur": 0.25,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "biogena-zink-15",
+    "title": "BIOGENA Zink 15 Komplex",
+    "vendor": "BIOGENA",
+    "ingredient": "zink",
+    "containedIngredients": [
+      "zink"
+    ],
+    "priceEur": 18.9,
+    "doseMg": 15,
+    "pricePerDayEur": 0.21,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "bloom-naturals-magtein-magnesium-l-threonat",
+    "title": "Bloom Naturals Magtein Magnesium L-Threonat",
+    "vendor": "Bloom Naturals",
+    "ingredient": "magnesium",
+    "containedIngredients": [
+      "magnesium"
+    ],
+    "priceEur": 34.99,
+    "doseMg": 144,
+    "pricePerDayEur": 1.17,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "bloom-naturals-selen-3-fach-komplex",
+    "title": "Bloom Naturals Selen 3-Fach Komplex",
+    "vendor": "Bloom Naturals",
+    "ingredient": "selen",
+    "containedIngredients": [
+      "selen"
+    ],
+    "priceEur": 15.95,
+    "doseMg": 0.2,
+    "pricePerDayEur": 0.04,
+    "form": "tablet",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 400
+  },
+  {
+    "slug": "braineffect-nad-boost",
+    "title": "Braineffect NAD+ Boost 300 mg",
+    "vendor": "Braineffect",
+    "ingredient": "nr",
+    "containedIngredients": [
+      "nr",
+      "tmg",
+      "vitamin-b12",
+      "vitamin-b6",
+      "vitamin-b3"
+    ],
+    "priceEur": 49.9,
+    "doseMg": 300,
+    "pricePerDayEur": 0.83,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "tru-niagen-nr-300",
+    "title": "Tru Niagen NR 300",
+    "vendor": "ChromaDex / Tru Niagen",
+    "ingredient": "nr",
+    "containedIngredients": [
+      "nr"
+    ],
+    "priceEur": 49.95,
+    "doseMg": 300,
+    "pricePerDayEur": 0.83,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "do-not-age-nmn-500",
+    "title": "Do Not Age NMN 500",
+    "vendor": "Do Not Age",
+    "ingredient": "nmn",
+    "containedIngredients": [
+      "nmn"
+    ],
+    "priceEur": 49.95,
+    "doseMg": 500,
+    "pricePerDayEur": 0.83,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "do-not-age-nr-300",
+    "title": "Do Not Age NR Cell Restoration 300 mg",
+    "vendor": "Do Not Age",
+    "ingredient": "nr",
+    "containedIngredients": [
+      "nr"
+    ],
+    "priceEur": 74.5,
+    "doseMg": 300,
+    "pricePerDayEur": 1.24,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "doctors-best-astaxanthin-12",
+    "title": "Doctor's Best Astaxanthin 12mg",
+    "vendor": "Doctor's Best",
+    "ingredient": "astaxanthin",
+    "containedIngredients": [
+      "astaxanthin"
+    ],
+    "priceEur": 28,
+    "doseMg": 12,
+    "pricePerDayEur": 0.47,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "doctors-best-coq10-200",
+    "title": "Doctor's Best High Absorption CoQ10 200mg",
+    "vendor": "Doctor's Best",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10",
+      "piperin"
+    ],
+    "priceEur": 42,
+    "doseMg": 200,
+    "pricePerDayEur": 0.7,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "doctors-best-quercetin",
+    "title": "Doctor's Best Quercetin Bromelain",
+    "vendor": "Doctor's Best",
+    "ingredient": "quercetin",
+    "containedIngredients": [
+      "quercetin"
+    ],
+    "priceEur": 24.95,
+    "doseMg": 500,
+    "pricePerDayEur": 0.28,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "doctors-best-ala-r-lipoic",
+    "title": "Doctor's Best R-Lipoic Acid",
+    "vendor": "Doctor's Best",
+    "ingredient": "alpha-liponsaeure",
+    "containedIngredients": [
+      "alpha-liponsaeure"
+    ],
+    "priceEur": 39.5,
+    "doseMg": 100,
+    "pricePerDayEur": 0.66,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "double-wood-alpha-gpc-600",
+    "title": "Double Wood Alpha-GPC 600mg",
+    "vendor": "Double Wood",
+    "ingredient": "alpha-gpc",
+    "containedIngredients": [
+      "alpha-gpc"
+    ],
+    "priceEur": 42,
+    "doseMg": 600,
+    "pricePerDayEur": 0.7,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "double-wood-apigenin-50",
+    "title": "Double Wood Apigenin 50mg",
+    "vendor": "Double Wood",
+    "ingredient": "apigenin",
+    "containedIngredients": [
+      "apigenin"
+    ],
+    "priceEur": 28,
+    "doseMg": 50,
+    "pricePerDayEur": 0.31,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "double-wood-bacopa-320",
+    "title": "Double Wood Bacopa 320mg",
+    "vendor": "Double Wood",
+    "ingredient": "bacopa",
+    "containedIngredients": [
+      "bacopa"
+    ],
+    "priceEur": 32,
+    "doseMg": 320,
+    "pricePerDayEur": 0.36,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "double-wood-cistanche-500",
+    "title": "Double Wood Cistanche Tubulosa 500mg",
+    "vendor": "Double Wood",
+    "ingredient": "cistanche",
+    "containedIngredients": [
+      "cistanche"
+    ],
+    "priceEur": 38,
+    "doseMg": 500,
+    "pricePerDayEur": 0.63,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "double-wood-fisetin-500",
+    "title": "Double Wood Fisetin 500mg",
+    "vendor": "Double Wood",
+    "ingredient": "fisetin",
+    "containedIngredients": [
+      "fisetin"
+    ],
+    "priceEur": 44.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.75,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "double-wood-lions-mane",
+    "title": "Double Wood Lion's Mane 500mg",
+    "vendor": "Double Wood",
+    "ingredient": "lions-mane",
+    "containedIngredients": [
+      "lion-s-mane"
+    ],
+    "priceEur": 38,
+    "doseMg": 500,
+    "pricePerDayEur": 0.32,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "double-wood-liposomal-nmn",
+    "title": "Double Wood Liposomal NMN 250 mg",
+    "vendor": "Double Wood",
+    "ingredient": "nmn",
+    "containedIngredients": [
+      "nmn"
+    ],
+    "priceEur": 64,
+    "doseMg": 250,
+    "pricePerDayEur": 1.07,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "double-wood-shilajit-250",
+    "title": "Double Wood Shilajit 250mg",
+    "vendor": "Double Wood",
+    "ingredient": "shilajit",
+    "containedIngredients": [
+      "shilajit"
+    ],
+    "priceEur": 38,
+    "doseMg": 250,
+    "pricePerDayEur": 0.63,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "double-wood-spermidine-1",
+    "title": "Double Wood Spermidine 1 mg",
+    "vendor": "Double Wood",
+    "ingredient": "spermidine",
+    "containedIngredients": [
+      "spermidine"
+    ],
+    "priceEur": 34,
+    "doseMg": 1,
+    "pricePerDayEur": 0.57,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "double-wood-tongkat-ali",
+    "title": "Double Wood Tongkat Ali 400",
+    "vendor": "Double Wood",
+    "ingredient": "tongkat-ali",
+    "containedIngredients": [
+      "tongkat-ali"
+    ],
+    "priceEur": 38,
+    "doseMg": 400,
+    "pricePerDayEur": 0.63,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "dr-loges-omega-3",
+    "title": "Dr. Loges Omega-3",
+    "vendor": "Dr. Loges",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.42,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "elevant-prime-nmn-125",
+    "title": "Elevant Prime NMN 125",
+    "vendor": "Elevant",
+    "ingredient": "nmn",
+    "containedIngredients": [
+      "nmn"
+    ],
+    "priceEur": 69.9,
+    "doseMg": 125,
+    "pricePerDayEur": 0.58,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "elysium-basis-nr",
+    "title": "Elysium Basis NR",
+    "vendor": "Elysium Health",
+    "ingredient": "nr",
+    "containedIngredients": [
+      "nr",
+      "pterostilben"
+    ],
+    "priceEur": 60,
+    "doseMg": 300,
+    "pricePerDayEur": 1,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "fairvital-b12-aktiv-komplex-1000",
+    "title": "Fairvital B-12 Aktiv-Komplex 1000 µg",
+    "vendor": "Fairvital",
+    "ingredient": "vitamin-b12",
+    "containedIngredients": [
+      "vitamin-b12"
+    ],
+    "priceEur": 16.95,
+    "doseMg": 1,
+    "pricePerDayEur": 0.19,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "fairvital-coq10-200",
+    "title": "Fairvital CoQ10 200 mg",
+    "vendor": "Fairvital",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10"
+    ],
+    "priceEur": 34,
+    "doseMg": 200,
+    "pricePerDayEur": 0.38,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "fairvital-eisen-komplex-25",
+    "title": "Fairvital Eisen-Komplex 25 mg",
+    "vendor": "Fairvital",
+    "ingredient": "eisen",
+    "containedIngredients": [
+      "eisen"
+    ],
+    "priceEur": 14.95,
+    "doseMg": 25,
+    "pricePerDayEur": 0.17,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "fairvital-vitamin-d3-k2",
+    "title": "Fairvital Vitamin D3+K2",
+    "vendor": "Fairvital",
+    "ingredient": "vitamin-d3-k2",
+    "containedIngredients": [
+      "vitamin-d3-k2"
+    ],
+    "priceEur": 16.95,
+    "doseMg": 25,
+    "pricePerDayEur": 0.09,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 180
+  },
+  {
+    "slug": "fairvital-zinkbisglycinat-25",
+    "title": "Fairvital Zinkbisglycinat 25 mg",
+    "vendor": "Fairvital",
+    "ingredient": "zink",
+    "containedIngredients": [
+      "zink"
+    ],
+    "priceEur": 17.95,
+    "doseMg": 25,
+    "pricePerDayEur": 0.15,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "igennus-vitamin-d3-k2",
+    "title": "Igennus Vitamin D3+K2",
+    "vendor": "Igennus Healthcare",
+    "ingredient": "vitamin-d3-k2",
+    "containedIngredients": [
+      "vitamin-d3-k2"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 0.2,
+    "pricePerDayEur": 0.22,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "jarrow-acetyl-l-carnitine-1000",
+    "title": "Jarrow Acetyl-L-Carnitine 1000mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "acetyl-l-carnitin",
+    "containedIngredients": [
+      "acetyl-l-carnitin"
+    ],
+    "priceEur": 38,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.38,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-acetyl-l-carnitine-500",
+    "title": "Jarrow Acetyl-L-Carnitine 500mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "acetyl-l-carnitin",
+    "containedIngredients": [
+      "acetyl-l-carnitin"
+    ],
+    "priceEur": 28,
+    "doseMg": 500,
+    "pricePerDayEur": 0.28,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-ashwagandha-ksm66",
+    "title": "Jarrow Ashwagandha KSM-66",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "ashwagandha",
+    "containedIngredients": [
+      "ashwagandha"
+    ],
+    "priceEur": 19.95,
+    "doseMg": 300,
+    "pricePerDayEur": 0.33,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-ashwagandha-ksm66-300",
+    "title": "Jarrow Ashwagandha KSM-66 300mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "ashwagandha",
+    "containedIngredients": [
+      "ashwagandha"
+    ],
+    "priceEur": 34,
+    "doseMg": 300,
+    "pricePerDayEur": 0.28,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "jarrow-beta-glucan-immune",
+    "title": "Jarrow Beta Glucan 250 mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "beta-glucan",
+    "containedIngredients": [
+      "beta-glucan"
+    ],
+    "priceEur": 24,
+    "doseMg": 250,
+    "pricePerDayEur": 0.4,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-creatine-monohydrate-500g",
+    "title": "Jarrow Creatine Monohydrate 1kg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "kreatin",
+    "containedIngredients": [
+      "kreatin"
+    ],
+    "priceEur": 32,
+    "doseMg": 5000,
+    "pricePerDayEur": 0.16,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 200
+  },
+  {
+    "slug": "jarrow-creatine-monohydrate",
+    "title": "Jarrow Creatine Monohydrate Powder",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "kreatin",
+    "containedIngredients": [
+      "kreatin"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 5000,
+    "pricePerDayEur": 0.25,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-5-htp-50",
+    "title": "Jarrow Formulas 5-HTP 50mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "5-htp",
+    "containedIngredients": [
+      "5-htp"
+    ],
+    "priceEur": 18,
+    "doseMg": 50,
+    "pricePerDayEur": 0.2,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "jarrow-astaxanthin-6",
+    "title": "Jarrow Formulas Astaxanthin 6 mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "astaxanthin",
+    "containedIngredients": [
+      "astaxanthin"
+    ],
+    "priceEur": 22,
+    "doseMg": 6,
+    "pricePerDayEur": 0.73,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "jarrow-bacopa-100",
+    "title": "Jarrow Formulas Bacopa 100",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "bacopa",
+    "containedIngredients": [
+      "bacopa"
+    ],
+    "priceEur": 22,
+    "doseMg": 100,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-boron-3mg",
+    "title": "Jarrow Formulas Boron 3 mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "bor",
+    "containedIngredients": [
+      "bor"
+    ],
+    "priceEur": 12,
+    "doseMg": 3,
+    "pricePerDayEur": 0.12,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-citrulline-1500",
+    "title": "Jarrow Formulas Citrulline Malate 1500mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "taurin",
+    "containedIngredients": [
+      "l-citrullin"
+    ],
+    "priceEur": 28,
+    "doseMg": 1500,
+    "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-coq10-100",
+    "title": "Jarrow Formulas CoQ10 100mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10"
+    ],
+    "priceEur": 22.95,
+    "doseMg": 100,
+    "pricePerDayEur": 0.38,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-glutathione-500",
+    "title": "Jarrow Formulas Glutathione Reduced 500",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "glutathion",
+    "containedIngredients": [
+      "glutathion"
+    ],
+    "priceEur": 44,
+    "doseMg": 500,
+    "pricePerDayEur": 0.73,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-gotu-kola-500",
+    "title": "Jarrow Formulas Gotu Kola 500mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "gotu-kola",
+    "containedIngredients": [
+      "gotu-kola"
+    ],
+    "priceEur": 18,
+    "doseMg": 500,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-l-tryptophan-500",
+    "title": "Jarrow Formulas L-Tryptophan 500 mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "l-tryptophan",
+    "containedIngredients": [
+      "l-tryptophan"
+    ],
+    "priceEur": 22,
+    "doseMg": 500,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-luteolin-100",
+    "title": "Jarrow Formulas Luteolin 100 mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "luteolin",
+    "containedIngredients": [
+      "luteolin"
+    ],
+    "priceEur": 24,
+    "doseMg": 100,
+    "pricePerDayEur": 0.8,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "jarrow-max-dha",
+    "title": "Jarrow Formulas Max DHA",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 36,
+    "doseMg": 600,
+    "pricePerDayEur": 0.4,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "jarrow-methylcobalamin-1000",
+    "title": "Jarrow Formulas Methylcobalamin B12 1000mcg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "vitamin-b12",
+    "containedIngredients": [
+      "vitamin-b12"
+    ],
+    "priceEur": 16,
+    "doseMg": 1,
+    "pricePerDayEur": 0.16,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-milk-thistle-150",
+    "title": "Jarrow Formulas Milk Thistle 150mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "silymarin",
+    "containedIngredients": [
+      "silymarin"
+    ],
+    "priceEur": 18,
+    "doseMg": 150,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-formulas-msm-1000",
+    "title": "Jarrow Formulas MSM 1000mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "msm",
+    "containedIngredients": [
+      "msm"
+    ],
+    "priceEur": 16,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.08,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 200
+  },
+  {
+    "slug": "jarrow-phosphatidylserine-100",
+    "title": "Jarrow Formulas Phosphatidylserine 100 mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "phosphatidylserin",
+    "containedIngredients": [
+      "phosphatidylserin"
+    ],
+    "priceEur": 28,
+    "doseMg": 100,
+    "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-pqq-20",
+    "title": "Jarrow Formulas PQQ 20mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "pqq",
+    "containedIngredients": [
+      "pqq"
+    ],
+    "priceEur": 34,
+    "doseMg": 20,
+    "pricePerDayEur": 1.13,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "jarrow-rose-hip-750",
+    "title": "Jarrow Formulas Rose Hips 750mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "vitamin-c",
+    "containedIngredients": [
+      "vitamin-c"
+    ],
+    "priceEur": 14,
+    "doseMg": 750,
+    "pricePerDayEur": 0.14,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-silica-10mg",
+    "title": "Jarrow Formulas Silica (BioSil) 10 mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "silicium",
+    "containedIngredients": [
+      "silicium"
+    ],
+    "priceEur": 18,
+    "doseMg": 10,
+    "pricePerDayEur": 0.18,
+    "form": "liquid",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-taurine-1000",
+    "title": "Jarrow Formulas Taurine 1000mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "taurin",
+    "containedIngredients": [
+      "taurin"
+    ],
+    "priceEur": 16,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.16,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-tmg-1000",
+    "title": "Jarrow Formulas TMG 1000",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "tmg",
+    "containedIngredients": [
+      "tmg"
+    ],
+    "priceEur": 27,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.27,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-vitamin-e-200",
+    "title": "Jarrow Formulas Vitamin E 200 IU",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "vitamin-e",
+    "containedIngredients": [
+      "vitamin-e"
+    ],
+    "priceEur": 22,
+    "doseMg": 134,
+    "pricePerDayEur": 0.22,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-ideal-bowel-support",
+    "title": "Jarrow Ideal Bowel Support 299v",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "probiotika",
+    "containedIngredients": [
+      "probiotika"
+    ],
+    "priceEur": 34,
+    "doseMg": 10,
+    "pricePerDayEur": 1.13,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "jarrow-lions-mane-1000",
+    "title": "Jarrow Lion's Mane 1000mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "lion-s-mane",
+    "containedIngredients": [
+      "lion-s-mane"
+    ],
+    "priceEur": 34,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.57,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-maca-1500",
+    "title": "Jarrow Maca 1500mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "maca",
+    "containedIngredients": [
+      "maca"
+    ],
+    "priceEur": 22,
+    "doseMg": 1500,
+    "pricePerDayEur": 0.24,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "jarrow-milk-thistle-30-1",
+    "title": "Jarrow Milk Thistle 30:1",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "silymarin",
+    "containedIngredients": [
+      "silymarin"
+    ],
+    "priceEur": 24,
+    "doseMg": 150,
+    "pricePerDayEur": 0.4,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-vitamin-k2-mk7-90",
+    "title": "Jarrow MK-7 90mcg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "vitamin-k2",
+    "containedIngredients": [
+      "vitamin-k2"
+    ],
+    "priceEur": 22,
+    "doseMg": 0.09,
+    "pricePerDayEur": 0.37,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-nac-sustain-600",
+    "title": "Jarrow NAC Sustain 600mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "nac",
+    "containedIngredients": [
+      "nac"
+    ],
+    "priceEur": 28,
+    "doseMg": 600,
+    "pricePerDayEur": 0.28,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "jarrow-suntheanine-l-theanine",
+    "title": "Jarrow Suntheanine L-Theanine 100mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "l-theanin",
+    "containedIngredients": [
+      "l-theanin"
+    ],
+    "priceEur": 22,
+    "doseMg": 100,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-ubiquinol-coq10-200",
+    "title": "Jarrow Ubiquinol QH-Absorb 200mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10"
+    ],
+    "priceEur": 52,
+    "doseMg": 200,
+    "pricePerDayEur": 0.87,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-zinc-balance",
+    "title": "Jarrow Zinc Balance 15mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "zink",
+    "containedIngredients": [
+      "zink",
+      "kupfer"
+    ],
+    "priceEur": 16,
+    "doseMg": 15,
+    "pricePerDayEur": 0.16,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "life-extension-artichoke-leaf",
+    "title": "Life Extension Artichoke Leaf Extract 500mg",
+    "vendor": "Life Extension",
+    "ingredient": "luteolin",
+    "containedIngredients": [
+      "luteolin"
+    ],
+    "priceEur": 22,
+    "doseMg": 500,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-ashwagandha-ksm66",
+    "title": "Life Extension Ashwagandha KSM-66",
+    "vendor": "Life Extension",
+    "ingredient": "ashwagandha",
+    "containedIngredients": [
+      "ashwagandha"
+    ],
+    "priceEur": 29,
+    "doseMg": 300,
+    "pricePerDayEur": 0.48,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-bacopa",
+    "title": "Life Extension Bacopa 300",
+    "vendor": "Life Extension",
+    "ingredient": "bacopa",
+    "containedIngredients": [
+      "bacopa"
+    ],
+    "priceEur": 24,
+    "doseMg": 300,
+    "pricePerDayEur": 0.4,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-baicalin-100",
+    "title": "Life Extension Baicalin 100 mg",
+    "vendor": "Life Extension",
+    "ingredient": "baicalin",
+    "containedIngredients": [
+      "baicalin"
+    ],
+    "priceEur": 28,
+    "doseMg": 100,
+    "pricePerDayEur": 0.93,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-black-seed-oil",
+    "title": "Life Extension Black Seed Oil",
+    "vendor": "Life Extension",
+    "ingredient": "other",
+    "containedIngredients": [
+      "other"
+    ],
+    "priceEur": 22,
+    "doseMg": 500,
+    "pricePerDayEur": 0.37,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-sulforaphane",
+    "title": "Life Extension Broccoli Sulforaphane",
+    "vendor": "Life Extension",
+    "ingredient": "sulforaphan",
+    "containedIngredients": [
+      "sulforaphan"
+    ],
+    "priceEur": 36,
+    "doseMg": 400,
+    "pricePerDayEur": 1.2,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-curcumin-elite",
+    "title": "Life Extension Curcumin Elite Longvida",
+    "vendor": "Life Extension",
+    "ingredient": "curcumin",
+    "containedIngredients": [
+      "curcumin"
+    ],
+    "priceEur": 42,
+    "doseMg": 400,
+    "pricePerDayEur": 1.4,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-immune-senescence",
+    "title": "Life Extension Enhanced Zinc Lozenges 18,75 mg",
+    "vendor": "Life Extension",
+    "ingredient": "zink",
+    "containedIngredients": [
+      "zink"
+    ],
+    "priceEur": 14,
+    "doseMg": 18.75,
+    "pricePerDayEur": 0.23,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-fisetin-elite",
+    "title": "Life Extension Fisetin Elite 125mg",
+    "vendor": "Life Extension",
+    "ingredient": "fisetin",
+    "containedIngredients": [
+      "fisetin"
+    ],
+    "priceEur": 48.9,
+    "doseMg": 125,
+    "pricePerDayEur": 1.63,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-gamma-e-mixed-tocopherols",
+    "title": "Life Extension Gamma E Mixed Tocopherols",
+    "vendor": "Life Extension",
+    "ingredient": "vitamin-e",
+    "containedIngredients": [
+      "vitamin-e"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 268,
+    "pricePerDayEur": 0.42,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-ginkgo-120",
+    "title": "Life Extension Ginkgo Biloba 120 mg",
+    "vendor": "Life Extension",
+    "ingredient": "ginkgo",
+    "containedIngredients": [
+      "ginkgo"
+    ],
+    "priceEur": 22,
+    "doseMg": 120,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-glutathione-setria",
+    "title": "Life Extension Glutathione Elevated Setria",
+    "vendor": "Life Extension",
+    "ingredient": "glutathion",
+    "containedIngredients": [
+      "glutathion"
+    ],
+    "priceEur": 52,
+    "doseMg": 500,
+    "pricePerDayEur": 1.73,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-glycine-1000",
+    "title": "Life Extension Glycine 1000mg",
+    "vendor": "Life Extension",
+    "ingredient": "glycin",
+    "containedIngredients": [
+      "glycin"
+    ],
+    "priceEur": 16,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.16,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "life-extension-lithium-1000",
+    "title": "Life Extension Lithium 1000mcg",
+    "vendor": "Life Extension",
+    "ingredient": "lithium-orotat",
+    "containedIngredients": [
+      "lithium-orotat"
+    ],
+    "priceEur": 14,
+    "doseMg": 1,
+    "pricePerDayEur": 0.14,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "life-extension-longevity-mix",
+    "title": "Life Extension Longevity Mix Tablets",
+    "vendor": "Life Extension",
+    "ingredient": "vitamin-b6",
+    "containedIngredients": [
+      "vitamin-b6",
+      "folsaeure",
+      "vitamin-b12",
+      "quercetin",
+      "pqq",
+      "lutein-zeaxanthin",
+      "resveratrol",
+      "bor",
+      "sulforaphan",
+      "egcg"
+    ],
+    "priceEur": 54,
+    "doseMg": 3000,
+    "pricePerDayEur": 0.6,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "life-extension-lutein-zeaxanthin",
+    "title": "Life Extension Lutein/Zeaxanthin 20 mg",
+    "vendor": "Life Extension",
+    "ingredient": "lutein-zeaxanthin",
+    "containedIngredients": [
+      "lutein-zeaxanthin"
+    ],
+    "priceEur": 22,
+    "doseMg": 20,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-urolithin-a",
+    "title": "Life Extension Mitopure Urolithin A",
+    "vendor": "Life Extension",
+    "ingredient": "urolithin-a",
+    "containedIngredients": [
+      "urolithin-a"
+    ],
+    "priceEur": 62,
+    "doseMg": 500,
+    "pricePerDayEur": 1.03,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-urolithin-mitopure",
+    "title": "Life Extension Mitopure Urolithin A",
+    "vendor": "Life Extension",
+    "ingredient": "urolithin-a",
+    "containedIngredients": [
+      "urolithin-a",
+      "vitamin-e"
+    ],
+    "priceEur": 68,
+    "doseMg": 500,
+    "pricePerDayEur": 2.27,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-n-acetyl-cysteine",
+    "title": "Life Extension N-Acetyl-L-Cysteine 600mg",
+    "vendor": "Life Extension",
+    "ingredient": "nac",
+    "containedIngredients": [
+      "nac"
+    ],
+    "priceEur": 22,
+    "doseMg": 600,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-resveratrol",
+    "title": "Life Extension Optimized Resveratrol",
+    "vendor": "Life Extension",
+    "ingredient": "resveratrol",
+    "containedIngredients": [
+      "resveratrol",
+      "quercetin",
+      "fisetin"
+    ],
+    "priceEur": 29.95,
+    "doseMg": 100,
+    "pricePerDayEur": 0.5,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-phosphatidylserine",
+    "title": "Life Extension Phosphatidylserine 100 mg",
+    "vendor": "Life Extension",
+    "ingredient": "phosphatidylserin",
+    "containedIngredients": [
+      "phosphatidylserin"
+    ],
+    "priceEur": 32,
+    "doseMg": 100,
+    "pricePerDayEur": 0.53,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-pqq-10",
+    "title": "Life Extension PQQ 10mg",
+    "vendor": "Life Extension",
+    "ingredient": "pqq",
+    "containedIngredients": [
+      "pqq"
+    ],
+    "priceEur": 28,
+    "doseMg": 10,
+    "pricePerDayEur": 0.93,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-pterostilbene",
+    "title": "Life Extension Pterostilbene 50mg",
+    "vendor": "Life Extension",
+    "ingredient": "pterostilben",
+    "containedIngredients": [
+      "pterostilben"
+    ],
+    "priceEur": 32,
+    "doseMg": 50,
+    "pricePerDayEur": 0.53,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-reishi-1000",
+    "title": "Life Extension Reishi Extract 1000mg",
+    "vendor": "Life Extension",
+    "ingredient": "reishi",
+    "containedIngredients": [
+      "reishi"
+    ],
+    "priceEur": 28,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-same-400",
+    "title": "Life Extension SAMe 400 mg",
+    "vendor": "Life Extension",
+    "ingredient": "same",
+    "containedIngredients": [
+      "same"
+    ],
+    "priceEur": 44,
+    "doseMg": 400,
+    "pricePerDayEur": 1.47,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-selenium-200",
+    "title": "Life Extension Se-Methyl L-Selenocysteine 200mcg",
+    "vendor": "Life Extension",
+    "ingredient": "selen",
+    "containedIngredients": [
+      "selen"
+    ],
+    "priceEur": 19.5,
+    "doseMg": 0.2,
+    "pricePerDayEur": 0.22,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "life-extension-senolytic-activator",
+    "title": "Life Extension Senolytic Activator",
+    "vendor": "Life Extension",
+    "ingredient": "fisetin",
+    "containedIngredients": [
+      "fisetin",
+      "quercetin"
+    ],
+    "priceEur": 64.9,
+    "doseMg": 500,
+    "pricePerDayEur": 2.16,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-spermidine",
+    "title": "Life Extension Spermidine 1mg",
+    "vendor": "Life Extension",
+    "ingredient": "spermidine",
+    "containedIngredients": [
+      "spermidine"
+    ],
+    "priceEur": 32,
+    "doseMg": 1,
+    "pricePerDayEur": 1.07,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-blueberry-extrakt",
+    "title": "Life Extension Standardized European Blueberry 100mg",
+    "vendor": "Life Extension",
+    "ingredient": "egcg",
+    "containedIngredients": [
+      "egcg"
+    ],
+    "priceEur": 24,
+    "doseMg": 100,
+    "pricePerDayEur": 0.4,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-rutin-500",
+    "title": "Life Extension Super Absorbable Rutin 500 mg",
+    "vendor": "Life Extension",
+    "ingredient": "rutin",
+    "containedIngredients": [
+      "rutin"
+    ],
+    "priceEur": 18,
+    "doseMg": 500,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "life-extension-super-glutathione",
+    "title": "Life Extension Super Glutathione",
+    "vendor": "Life Extension",
+    "ingredient": "glutathion",
+    "containedIngredients": [
+      "glutathion",
+      "vitamin-c"
+    ],
+    "priceEur": 32,
+    "doseMg": 100,
+    "pricePerDayEur": 0.32,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "life-extension-super-selenium",
+    "title": "Life Extension Super Selenium Complex 200 mcg",
+    "vendor": "Life Extension",
+    "ingredient": "selen",
+    "containedIngredients": [
+      "selen",
+      "vitamin-e"
+    ],
+    "priceEur": 19.5,
+    "doseMg": 0.2,
+    "pricePerDayEur": 0.2,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "life-extension-super-ubiquinol-coq10",
+    "title": "Life Extension Super Ubiquinol CoQ10 100mg",
+    "vendor": "Life Extension",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10",
+      "piperin",
+      "alpha-liponsaeure",
+      "vitamin-e"
+    ],
+    "priceEur": 60,
+    "doseMg": 100,
+    "pricePerDayEur": 2,
+    "form": "softgel",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-two-per-day",
+    "title": "Life Extension Two-Per-Day",
+    "vendor": "Life Extension",
+    "ingredient": "vitamin-b6",
+    "containedIngredients": [
+      "vitamin-b6",
+      "vitamin-b12",
+      "folsaeure",
+      "vitamin-e"
+    ],
+    "priceEur": 28,
+    "doseMg": 2000,
+    "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "life-extension-vitamin-d3-k2",
+    "title": "Life Extension Vitamin D3 + K2",
+    "vendor": "Life Extension",
+    "ingredient": "vitamin-d3-k2",
+    "containedIngredients": [
+      "vitamin-d3-k2"
+    ],
+    "priceEur": 22,
+    "doseMg": 0.125,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "moleqlar-fisetin-250",
+    "title": "MoleQlar Fisetin 250 mg",
+    "vendor": "MoleQlar",
+    "ingredient": "fisetin",
+    "containedIngredients": [
+      "fisetin"
+    ],
+    "priceEur": 52,
+    "doseMg": 250,
+    "pricePerDayEur": 0.87,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "moleqlar-liposomal-glutathion",
+    "title": "MoleQlar Liposomales Glutathion 500 mg",
+    "vendor": "MoleQlar",
+    "ingredient": "glutathion",
+    "containedIngredients": [
+      "glutathion"
+    ],
+    "priceEur": 54,
+    "doseMg": 500,
+    "pricePerDayEur": 1.8,
+    "form": "liquid",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "moleqlar-nmn-sublingual-250",
+    "title": "MoleQlar NMN Sublingual Tabs 250 mg",
+    "vendor": "MoleQlar",
+    "ingredient": "nmn",
+    "containedIngredients": [
+      "nmn"
+    ],
+    "priceEur": 64.9,
+    "doseMg": 250,
+    "pricePerDayEur": 0.54,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "moleqlar-nmn-500",
+    "title": "MoleQlar NMN Uthever 500mg",
+    "vendor": "MoleQlar",
+    "ingredient": "nmn",
+    "containedIngredients": [
+      "nmn"
+    ],
+    "priceEur": 89.9,
+    "doseMg": 500,
+    "pricePerDayEur": 1.5,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "moleqlar-oneshot-morning",
+    "title": "MoleQlar OneShoT Morning",
+    "vendor": "MoleQlar",
+    "ingredient": "nmn",
+    "containedIngredients": [
+      "nmn",
+      "tmg",
+      "resveratrol",
+      "curcumin"
+    ],
+    "priceEur": 79,
+    "doseMg": 3000,
+    "pricePerDayEur": 2.63,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "moleqlar-spermidine-plus",
+    "title": "MoleQlar Spermidin Plus 3.5 mg",
+    "vendor": "MoleQlar",
+    "ingredient": "spermidine",
+    "containedIngredients": [
+      "spermidine"
+    ],
+    "priceEur": 59,
+    "doseMg": 3.5,
+    "pricePerDayEur": 0.98,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "moleqlar-tmg-plus-2000",
+    "title": "MoleQlar TMG Plus 2000 mg",
+    "vendor": "MoleQlar",
+    "ingredient": "tmg",
+    "containedIngredients": [
+      "tmg",
+      "folsaeure",
+      "vitamin-b12"
+    ],
+    "priceEur": 44,
+    "doseMg": 2000,
+    "pricePerDayEur": 0.73,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "mother-nature-black-maca-750",
+    "title": "Mother Nature Black Maca 750 mg + BioPerine",
+    "vendor": "Mother Nature",
+    "ingredient": "maca",
+    "containedIngredients": [
+      "maca",
+      "piperin"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 750,
+    "pricePerDayEur": 0.17,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "natural-elements-omega-3",
+    "title": "Natural Elements Omega-3 2000 mg",
+    "vendor": "Natural Elements",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 2000,
+    "pricePerDayEur": 0.28,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "naturewise-vitamin-e-400",
+    "title": "NatureWise Vitamin E 400 IU",
+    "vendor": "NatureWise",
+    "ingredient": "vitamin-e",
+    "containedIngredients": [
+      "vitamin-e"
+    ],
+    "priceEur": 16.9,
+    "doseMg": 268,
+    "pricePerDayEur": 0.14,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "nordic-naturals-algae-omega",
+    "title": "Nordic Naturals Algae Omega",
+    "vendor": "Nordic Naturals",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 42,
+    "doseMg": 715,
+    "pricePerDayEur": 0.7,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "nordic-naturals-pro-omega-2000",
+    "title": "Nordic Naturals Pro Omega 2000",
+    "vendor": "Nordic Naturals",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 54,
+    "doseMg": 2000,
+    "pricePerDayEur": 0.9,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "nordic-naturals-omega-3",
+    "title": "Nordic Naturals Ultimate Omega 1280mg",
+    "vendor": "Nordic Naturals",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 39.9,
+    "doseMg": 1280,
+    "pricePerDayEur": 0.66,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "nordic-naturals-vitamin-d3-2000",
+    "title": "Nordic Naturals Vitamin D3 2000 IU",
+    "vendor": "Nordic Naturals",
+    "ingredient": "vitamin-d3",
+    "containedIngredients": [
+      "vitamin-d3"
+    ],
+    "priceEur": 18,
+    "doseMg": 0.05,
+    "pricePerDayEur": 0.15,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "norsan-omega-3-total",
+    "title": "NORSAN Omega-3 Total",
+    "vendor": "NORSAN",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 29.95,
+    "doseMg": 2000,
+    "pricePerDayEur": 0.75,
+    "form": "liquid",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 40
+  },
+  {
+    "slug": "norsan-omega-3-vegan",
+    "title": "NORSAN Omega-3 Vegan",
+    "vendor": "NORSAN",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 34.9,
+    "doseMg": 2000,
+    "pricePerDayEur": 0.78,
+    "form": "liquid",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 45
+  },
+  {
+    "slug": "now-foods-5-htp-100",
+    "title": "NOW Foods 5-HTP 100mg",
+    "vendor": "NOW Foods",
+    "ingredient": "5-htp",
+    "containedIngredients": [
+      "5-htp"
+    ],
+    "priceEur": 24,
+    "doseMg": 100,
+    "pricePerDayEur": 0.2,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "now-foods-adam-men-multi",
+    "title": "NOW Foods ADAM Men's Multi",
+    "vendor": "NOW Foods",
+    "ingredient": "vitamin-b6",
+    "containedIngredients": [
+      "vitamin-b6",
+      "alpha-liponsaeure"
+    ],
+    "priceEur": 32,
+    "doseMg": 2000,
+    "pricePerDayEur": 0.36,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "now-foods-alpha-lipoic-acid-300",
+    "title": "NOW Foods Alpha Lipoic Acid 300",
+    "vendor": "NOW Foods",
+    "ingredient": "alpha-liponsaeure",
+    "containedIngredients": [
+      "alpha-liponsaeure"
+    ],
+    "priceEur": 31,
+    "doseMg": 300,
+    "pricePerDayEur": 0.26,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "now-foods-alpha-gpc-300",
+    "title": "NOW Foods Alpha-GPC 300mg",
+    "vendor": "NOW Foods",
+    "ingredient": "alpha-gpc",
+    "containedIngredients": [
+      "alpha-gpc"
+    ],
+    "priceEur": 34,
+    "doseMg": 300,
+    "pricePerDayEur": 0.57,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-astaxanthin-10",
+    "title": "NOW Foods Astaxanthin 10mg",
+    "vendor": "NOW Foods",
+    "ingredient": "astaxanthin",
+    "containedIngredients": [
+      "astaxanthin"
+    ],
+    "priceEur": 28,
+    "doseMg": 10,
+    "pricePerDayEur": 0.47,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-astaxanthin-4",
+    "title": "NOW Foods Astaxanthin 4 mg Softgels",
+    "vendor": "NOW Foods",
+    "ingredient": "astaxanthin",
+    "containedIngredients": [
+      "astaxanthin"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 4,
+    "pricePerDayEur": 0.33,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-berberine-1000",
+    "title": "NOW Foods Berberine 1000 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "berberine",
+    "containedIngredients": [
+      "berberine"
+    ],
+    "priceEur": 38,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.63,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-beta-glucan-250",
+    "title": "NOW Foods Beta-Glucan 250 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "beta-glucan",
+    "containedIngredients": [
+      "beta-glucan"
+    ],
+    "priceEur": 28,
+    "doseMg": 250,
+    "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-collagen-peptides",
+    "title": "NOW Foods Collagen Peptides Powder 10 g",
+    "vendor": "NOW Foods",
+    "ingredient": "kollagen",
+    "containedIngredients": [
+      "kollagen"
+    ],
+    "priceEur": 34,
+    "doseMg": 10000,
+    "pricePerDayEur": 0.68,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 50
+  },
+  {
+    "slug": "now-foods-collagen-type-2",
+    "title": "NOW Foods Collagen Type II 500mg",
+    "vendor": "NOW Foods",
+    "ingredient": "kollagen",
+    "containedIngredients": [
+      "kollagen"
+    ],
+    "priceEur": 28,
+    "doseMg": 500,
+    "pricePerDayEur": 0.23,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "now-foods-copper-2mg",
+    "title": "NOW Foods Copper 2 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "kupfer",
+    "containedIngredients": [
+      "kupfer"
+    ],
+    "priceEur": 10,
+    "doseMg": 2,
+    "pricePerDayEur": 0.1,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-coq10-200",
+    "title": "NOW Foods CoQ10 200mg",
+    "vendor": "NOW Foods",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10"
+    ],
+    "priceEur": 48,
+    "doseMg": 200,
+    "pricePerDayEur": 0.8,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-cordyceps",
+    "title": "NOW Foods Cordyceps 750mg",
+    "vendor": "NOW Foods",
+    "ingredient": "cordyceps",
+    "containedIngredients": [
+      "cordyceps"
+    ],
+    "priceEur": 32,
+    "doseMg": 750,
+    "pricePerDayEur": 0.36,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "now-foods-egcg-400",
+    "title": "NOW Foods EGCg 400mg",
+    "vendor": "NOW Foods",
+    "ingredient": "egcg",
+    "containedIngredients": [
+      "egcg"
+    ],
+    "priceEur": 24,
+    "doseMg": 400,
+    "pricePerDayEur": 0.27,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "now-foods-fisetin-100",
+    "title": "NOW Foods Fisetin 100mg",
+    "vendor": "NOW Foods",
+    "ingredient": "fisetin",
+    "containedIngredients": [
+      "fisetin"
+    ],
+    "priceEur": 29.9,
+    "doseMg": 100,
+    "pricePerDayEur": 0.33,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "now-foods-folate-800",
+    "title": "NOW Foods Folate 800mcg DFE",
+    "vendor": "NOW Foods",
+    "ingredient": "folsaeure",
+    "containedIngredients": [
+      "folsaeure"
+    ],
+    "priceEur": 14,
+    "doseMg": 1,
+    "pricePerDayEur": 0.06,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 250
+  },
+  {
+    "slug": "now-foods-gaba-500",
+    "title": "NOW Foods GABA 500mg",
+    "vendor": "NOW Foods",
+    "ingredient": "gaba",
+    "containedIngredients": [
+      "gaba",
+      "vitamin-b6"
+    ],
+    "priceEur": 18,
+    "doseMg": 500,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-glucosamine-chondroitin",
+    "title": "NOW Foods Glucosamine & Chondroitin Extra Strength",
+    "vendor": "NOW Foods",
+    "ingredient": "glucosamin",
+    "containedIngredients": [
+      "glucosamin",
+      "msm"
+    ],
+    "priceEur": 32,
+    "doseMg": 1500,
+    "pricePerDayEur": 0.27,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "now-foods-glycine-1000",
+    "title": "NOW Foods Glycine 1000mg",
+    "vendor": "NOW Foods",
+    "ingredient": "glycin",
+    "containedIngredients": [
+      "glycin"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.2,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-grape-seed-100",
+    "title": "NOW Foods Grape Seed 100",
+    "vendor": "NOW Foods",
+    "ingredient": "resveratrol",
+    "containedIngredients": [
+      "resveratrol"
+    ],
+    "priceEur": 18,
+    "doseMg": 100,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-hesperidin-500",
+    "title": "NOW Foods Hesperidin 500 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "hesperidin",
+    "containedIngredients": [
+      "hesperidin"
+    ],
+    "priceEur": 18,
+    "doseMg": 500,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-hyaluronic-acid-100",
+    "title": "NOW Foods Hyaluronic Acid 100mg",
+    "vendor": "NOW Foods",
+    "ingredient": "hyaluronsaeure",
+    "containedIngredients": [
+      "hyaluronsaeure",
+      "glucosamin",
+      "msm"
+    ],
+    "priceEur": 28,
+    "doseMg": 100,
+    "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-inositol-500",
+    "title": "NOW Foods Inositol 500mg",
+    "vendor": "NOW Foods",
+    "ingredient": "myo-inositol",
+    "containedIngredients": [
+      "myo-inositol"
+    ],
+    "priceEur": 18,
+    "doseMg": 500,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-kelp-325",
+    "title": "NOW Foods Kelp 325mcg Iodine",
+    "vendor": "NOW Foods",
+    "ingredient": "jod",
+    "containedIngredients": [
+      "jod"
+    ],
+    "priceEur": 12,
+    "doseMg": 1,
+    "pricePerDayEur": 0.05,
+    "form": "tablet",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 250
+  },
+  {
+    "slug": "now-foods-l-carnitine-500",
+    "title": "NOW Foods L-Carnitine 500",
+    "vendor": "NOW Foods",
+    "ingredient": "l-carnitin",
+    "containedIngredients": [
+      "l-carnitin"
+    ],
+    "priceEur": 29,
+    "doseMg": 500,
+    "pricePerDayEur": 0.48,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-l-theanine-200",
+    "title": "NOW Foods L-Theanine Double Strength 200mg",
+    "vendor": "NOW Foods",
+    "ingredient": "l-theanin",
+    "containedIngredients": [
+      "l-theanin"
+    ],
+    "priceEur": 22,
+    "doseMg": 200,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-lion-s-mane-500",
+    "title": "NOW Foods Lion's Mane 500mg",
+    "vendor": "NOW Foods",
+    "ingredient": "lion-s-mane",
+    "containedIngredients": [
+      "lion-s-mane"
+    ],
+    "priceEur": 24,
+    "doseMg": 500,
+    "pricePerDayEur": 0.4,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-lutein-20",
+    "title": "NOW Foods Lutein 20 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "lutein-zeaxanthin",
+    "containedIngredients": [
+      "lutein-zeaxanthin"
+    ],
+    "priceEur": 18,
+    "doseMg": 20,
+    "pricePerDayEur": 0.2,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "now-foods-maca-750",
+    "title": "NOW Foods Maca 750 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "maca",
+    "containedIngredients": [
+      "maca"
+    ],
+    "priceEur": 24,
+    "doseMg": 750,
+    "pricePerDayEur": 0.27,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "now-foods-magnesium-citrate-400",
+    "title": "NOW Foods Magnesium Citrate 400 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "magnesium",
+    "containedIngredients": [
+      "magnesium"
+    ],
+    "priceEur": 19,
+    "doseMg": 400,
+    "pricePerDayEur": 0.16,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "now-foods-magnesium-glycinate",
+    "title": "NOW Foods Magnesium Glycinate 400mg",
+    "vendor": "NOW Foods",
+    "ingredient": "magnesium",
+    "containedIngredients": [
+      "magnesium"
+    ],
+    "priceEur": 34,
+    "doseMg": 400,
+    "pricePerDayEur": 0.19,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 180
+  },
+  {
+    "slug": "now-foods-magnesium-malate-1000",
+    "title": "NOW Foods Magnesium Malate 1000",
+    "vendor": "NOW Foods",
+    "ingredient": "magnesium",
+    "containedIngredients": [
+      "magnesium"
+    ],
+    "priceEur": 22,
+    "doseMg": 125,
+    "pricePerDayEur": 0.12,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 180
+  },
+  {
+    "slug": "now-foods-melatonin-1mg",
+    "title": "NOW Foods Melatonin 1mg",
+    "vendor": "NOW Foods",
+    "ingredient": "melatonin",
+    "containedIngredients": [
+      "melatonin"
+    ],
+    "priceEur": 12,
+    "doseMg": 1,
+    "pricePerDayEur": 0.12,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-melatonin-3mg",
+    "title": "NOW Foods Melatonin 3mg",
+    "vendor": "NOW Foods",
+    "ingredient": "melatonin",
+    "containedIngredients": [
+      "melatonin"
+    ],
+    "priceEur": 14,
+    "doseMg": 3,
+    "pricePerDayEur": 0.08,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 180
+  },
+  {
+    "slug": "now-foods-krill-oil-500",
+    "title": "NOW Foods Neptune Krill Oil 500 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3",
+      "astaxanthin"
+    ],
+    "priceEur": 34,
+    "doseMg": 500,
+    "pricePerDayEur": 0.57,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-olive-leaf-500",
+    "title": "NOW Foods Olive Leaf Extract 500mg",
+    "vendor": "NOW Foods",
+    "ingredient": "hydroxytyrosol",
+    "containedIngredients": [
+      "hydroxytyrosol"
+    ],
+    "priceEur": 22,
+    "doseMg": 500,
+    "pricePerDayEur": 0.37,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-probiotic-10",
+    "title": "NOW Foods Probiotic-10 25 Billion",
+    "vendor": "NOW Foods",
+    "ingredient": "probiotika",
+    "containedIngredients": [
+      "probiotika"
+    ],
+    "priceEur": 32,
+    "doseMg": 25,
+    "pricePerDayEur": 0.64,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 50
+  },
+  {
+    "slug": "now-foods-psyllium-husk-500",
+    "title": "NOW Foods Psyllium Husk Caps 500 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "flohsamenschalen",
+    "containedIngredients": [
+      "flohsamenschalen"
+    ],
+    "priceEur": 14.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.22,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 200
+  },
+  {
+    "slug": "now-foods-pterostilbene-100",
+    "title": "NOW Foods Pterostilbene 100 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "pterostilben",
+    "containedIngredients": [
+      "pterostilben"
+    ],
+    "priceEur": 32,
+    "doseMg": 100,
+    "pricePerDayEur": 0.53,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-reishi-200",
+    "title": "NOW Foods Reishi 200",
+    "vendor": "NOW Foods",
+    "ingredient": "reishi",
+    "containedIngredients": [
+      "reishi"
+    ],
+    "priceEur": 26,
+    "doseMg": 200,
+    "pricePerDayEur": 0.26,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-resveratrol-200",
+    "title": "NOW Foods Resveratrol 200mg",
+    "vendor": "NOW Foods",
+    "ingredient": "resveratrol",
+    "containedIngredients": [
+      "resveratrol"
+    ],
+    "priceEur": 36,
+    "doseMg": 200,
+    "pricePerDayEur": 0.6,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-rhodiola-500",
+    "title": "NOW Foods Rhodiola 500mg",
+    "vendor": "NOW Foods",
+    "ingredient": "rhodiola",
+    "containedIngredients": [
+      "rhodiola"
+    ],
+    "priceEur": 28,
+    "doseMg": 500,
+    "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-same-200",
+    "title": "NOW Foods SAMe 200 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "same",
+    "containedIngredients": [
+      "same"
+    ],
+    "priceEur": 28,
+    "doseMg": 200,
+    "pricePerDayEur": 0.47,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-selenium-200",
+    "title": "NOW Foods Selenium 200mcg",
+    "vendor": "NOW Foods",
+    "ingredient": "selen",
+    "containedIngredients": [
+      "selen"
+    ],
+    "priceEur": 14,
+    "doseMg": 0.2,
+    "pricePerDayEur": 0.08,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 180
+  },
+  {
+    "slug": "now-foods-taurine-1000",
+    "title": "NOW Foods Taurine 1000mg",
+    "vendor": "NOW Foods",
+    "ingredient": "taurin",
+    "containedIngredients": [
+      "taurin"
+    ],
+    "priceEur": 21,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.21,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-tongkat-ali-400",
+    "title": "NOW Foods Tongkat Ali 400mg",
+    "vendor": "NOW Foods",
+    "ingredient": "tongkat-ali",
+    "containedIngredients": [
+      "tongkat-ali"
+    ],
+    "priceEur": 34,
+    "doseMg": 400,
+    "pricePerDayEur": 0.57,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-vitamin-c-1000",
+    "title": "NOW Foods Vitamin C 1000 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "vitamin-c",
+    "containedIngredients": [
+      "vitamin-c"
+    ],
+    "priceEur": 18,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-vitamin-d3-5000",
+    "title": "NOW Foods Vitamin D3 5000 IU",
+    "vendor": "NOW Foods",
+    "ingredient": "vitamin-d3",
+    "containedIngredients": [
+      "vitamin-d3"
+    ],
+    "priceEur": 18,
+    "doseMg": 0.125,
+    "pricePerDayEur": 0.15,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "now-foods-zinc-50",
+    "title": "NOW Foods Zinc Gluconate 50 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "zink",
+    "containedIngredients": [
+      "zink"
+    ],
+    "priceEur": 12,
+    "doseMg": 50,
+    "pricePerDayEur": 0.05,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 250
+  },
+  {
+    "slug": "now-foods-zinc-picolinate",
+    "title": "NOW Foods Zinc Picolinate 50mg",
+    "vendor": "NOW Foods",
+    "ingredient": "zink",
+    "containedIngredients": [
+      "zink"
+    ],
+    "priceEur": 16,
+    "doseMg": 50,
+    "pricePerDayEur": 0.13,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "now-foods-beta-alanine-750",
+    "title": "NOW Foods Beta-Alanine 750mg",
+    "vendor": "NOW Sports",
+    "ingredient": "beta-alanin",
+    "containedIngredients": [
+      "beta-alanin"
+    ],
+    "priceEur": 24,
+    "doseMg": 750,
+    "pricePerDayEur": 0.2,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "now-foods-creatine-monohydrate-500g",
+    "title": "NOW Foods Creatine Monohydrate Powder 500g",
+    "vendor": "NOW Sports",
+    "ingredient": "kreatin",
+    "containedIngredients": [
+      "kreatin"
+    ],
+    "priceEur": 29,
+    "doseMg": 5000,
+    "pricePerDayEur": 0.29,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-l-glutamine-1000",
+    "title": "NOW Foods L-Glutamine 1000mg",
+    "vendor": "NOW Sports",
+    "ingredient": "glycin",
+    "containedIngredients": [
+      "glycin"
+    ],
+    "priceEur": 22,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "nutricost-nac-600",
+    "title": "Nutricost NAC 600 mg",
+    "vendor": "Nutricost",
+    "ingredient": "nac",
+    "containedIngredients": [
+      "nac"
+    ],
+    "priceEur": 13.95,
+    "doseMg": 600,
+    "pricePerDayEur": 0.12,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "prohealth-nmn-pro-500",
+    "title": "ProHealth Longevity NMN Pro 500",
+    "vendor": "ProHealth Longevity",
+    "ingredient": "nmn",
+    "containedIngredients": [
+      "nmn"
+    ],
+    "priceEur": 95,
+    "doseMg": 500,
+    "pricePerDayEur": 1.58,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-encapsulations-alpha-lipoic-200",
+    "title": "Pure Encapsulations Alpha Lipoic Acid 200 mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "alpha-liponsaeure",
+    "containedIngredients": [
+      "alpha-liponsaeure"
+    ],
+    "priceEur": 42,
+    "doseMg": 200,
+    "pricePerDayEur": 0.7,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-encapsulations-b-complex",
+    "title": "Pure Encapsulations B-Complex Plus",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "vitamin-b6",
+    "containedIngredients": [
+      "vitamin-b6",
+      "vitamin-b1",
+      "folsaeure",
+      "vitamin-b12",
+      "cholin",
+      "myo-inositol",
+      "vitamin-b2"
+    ],
+    "priceEur": 44,
+    "doseMg": 50,
+    "pricePerDayEur": 0.73,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-encapsulations-bacopa-150",
+    "title": "Pure Encapsulations Bacopa 150 mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "bacopa",
+    "containedIngredients": [
+      "bacopa"
+    ],
+    "priceEur": 38,
+    "doseMg": 150,
+    "pricePerDayEur": 0.42,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-carnosine-500",
+    "title": "Pure Encapsulations Carnosine 500mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "glycin",
+    "containedIngredients": [
+      "glycin"
+    ],
+    "priceEur": 44,
+    "doseMg": 500,
+    "pricePerDayEur": 0.73,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-encapsulations-chromium",
+    "title": "Pure Encapsulations Chromium 200mcg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "chrom",
+    "containedIngredients": [
+      "chrom"
+    ],
+    "priceEur": 22,
+    "doseMg": 0.2,
+    "pricePerDayEur": 0.24,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-collagen-c",
+    "title": "Pure Encapsulations Collagen-C",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "kollagen",
+    "containedIngredients": [
+      "kollagen",
+      "vitamin-c"
+    ],
+    "priceEur": 52,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.87,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-encapsulations-kreatin-5g",
+    "title": "Pure Encapsulations Creatine Powder",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "kreatin",
+    "containedIngredients": [
+      "kreatin"
+    ],
+    "priceEur": 34,
+    "doseMg": 5000,
+    "pricePerDayEur": 0.57,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-encapsulations-iodine-225",
+    "title": "Pure Encapsulations Iodine 225mcg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "jod",
+    "containedIngredients": [
+      "jod"
+    ],
+    "priceEur": 18,
+    "doseMg": 1,
+    "pricePerDayEur": 0.2,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-l-carnitine-500",
+    "title": "Pure Encapsulations L-Carnitine 500 mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "l-carnitin",
+    "containedIngredients": [
+      "l-carnitin"
+    ],
+    "priceEur": 42,
+    "doseMg": 500,
+    "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-l-theanine-200",
+    "title": "Pure Encapsulations L-Theanine 200mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "l-theanin",
+    "containedIngredients": [
+      "l-theanin"
+    ],
+    "priceEur": 34,
+    "doseMg": 200,
+    "pricePerDayEur": 0.57,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-encapsulations-lions-mane",
+    "title": "Pure Encapsulations Lion's Mane 500",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "lions-mane",
+    "containedIngredients": [
+      "lion-s-mane"
+    ],
+    "priceEur": 54,
+    "doseMg": 500,
+    "pricePerDayEur": 0.6,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-magnesium-citrate",
+    "title": "Pure Encapsulations Magnesium Citrate",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "magnesium",
+    "containedIngredients": [
+      "magnesium"
+    ],
+    "priceEur": 36,
+    "doseMg": 150,
+    "pricePerDayEur": 0.4,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-magnesium",
+    "title": "Pure Encapsulations Magnesium Glycinate",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "magnesium",
+    "containedIngredients": [
+      "magnesium",
+      "glycin"
+    ],
+    "priceEur": 32.95,
+    "doseMg": 120,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 180
+  },
+  {
+    "slug": "pure-encapsulations-manganese",
+    "title": "Pure Encapsulations Manganese 5 mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "mangan",
+    "containedIngredients": [
+      "mangan"
+    ],
+    "priceEur": 18,
+    "doseMg": 5,
+    "pricePerDayEur": 0.2,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-nac-900",
+    "title": "Pure Encapsulations NAC 900mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "nac",
+    "containedIngredients": [
+      "nac"
+    ],
+    "priceEur": 44,
+    "doseMg": 900,
+    "pricePerDayEur": 0.73,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-encapsulations-one-daily",
+    "title": "Pure Encapsulations ONE Daily",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "vitamin-b6",
+    "containedIngredients": [
+      "vitamin-b6",
+      "vitamin-c",
+      "folsaeure",
+      "vitamin-b12"
+    ],
+    "priceEur": 44,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.49,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-p5p-50",
+    "title": "Pure Encapsulations P-5-P 50mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "vitamin-b6",
+    "containedIngredients": [
+      "vitamin-b6"
+    ],
+    "priceEur": 28,
+    "doseMg": 50,
+    "pricePerDayEur": 0.31,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-probiotic-5",
+    "title": "Pure Encapsulations Probiotic 5",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "probiotika",
+    "containedIngredients": [
+      "probiotika"
+    ],
+    "priceEur": 42,
+    "doseMg": 5,
+    "pricePerDayEur": 0.7,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-encapsulations-probiotic-g-i",
+    "title": "Pure Encapsulations Probiotic G.I.",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "probiotika",
+    "containedIngredients": [
+      "probiotika"
+    ],
+    "priceEur": 58,
+    "doseMg": 500,
+    "pricePerDayEur": 0.97,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-encapsulations-quercetin-250",
+    "title": "Pure Encapsulations Quercetin 250",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "quercetin",
+    "containedIngredients": [
+      "quercetin"
+    ],
+    "priceEur": 39,
+    "doseMg": 250,
+    "pricePerDayEur": 0.33,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "pure-encapsulations-selenium-200",
+    "title": "Pure Encapsulations Selenium 200",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "selen",
+    "containedIngredients": [
+      "selen"
+    ],
+    "priceEur": 24,
+    "doseMg": 0.2,
+    "pricePerDayEur": 0.27,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-taurine-1000",
+    "title": "Pure Encapsulations Taurine 1000mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "taurin",
+    "containedIngredients": [
+      "taurin"
+    ],
+    "priceEur": 32,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.36,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-vitamin-a",
+    "title": "Pure Encapsulations Vitamin A 10000 IU",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "vitamin-a",
+    "containedIngredients": [
+      "vitamin-a"
+    ],
+    "priceEur": 24,
+    "doseMg": 3,
+    "pricePerDayEur": 0.2,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "pure-encapsulations-vitamin-d3-5000",
+    "title": "Pure Encapsulations Vitamin D3 5000",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "vitamin-d3",
+    "containedIngredients": [
+      "vitamin-d3"
+    ],
+    "priceEur": 28,
+    "doseMg": 0.125,
+    "pricePerDayEur": 0.23,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "pure-encapsulations-zinc-30",
+    "title": "Pure Encapsulations Zinc 30",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "zink",
+    "containedIngredients": [
+      "zink"
+    ],
+    "priceEur": 16.9,
+    "doseMg": 30,
+    "pricePerDayEur": 0.28,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "pure-therapeutics-methyl-multi",
+    "title": "Pure Therapeutics Methyl Multi Without Iron",
+    "vendor": "Pure Therapeutics",
+    "ingredient": "vitamin-b12",
+    "containedIngredients": [
+      "vitamin-b12",
+      "folsaeure",
+      "vitamin-b6",
+      "vitamin-d3",
+      "vitamin-c",
+      "zink",
+      "selen",
+      "chrom"
+    ],
+    "priceEur": 34.9,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.58,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "qunol-mega-coq10-ubiquinol-100",
+    "title": "Qunol Mega CoQ10 Ubiquinol 100 mg",
+    "vendor": "Qunol",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10"
+    ],
+    "priceEur": 32.9,
+    "doseMg": 100,
+    "pricePerDayEur": 0.55,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "renue-by-science-nmn-500",
+    "title": "Renue By Science NMN 500",
+    "vendor": "Renue By Science",
+    "ingredient": "nmn",
+    "containedIngredients": [
+      "nmn"
+    ],
+    "priceEur": 52,
+    "doseMg": 500,
+    "pricePerDayEur": 0.87,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "sports-research-vitamin-c-liposomal-1000",
+    "title": "Sports Research Liposomal Vitamin C 1000 mg (PureWay-C)",
+    "vendor": "Sports Research",
+    "ingredient": "vitamin-c",
+    "containedIngredients": [
+      "vitamin-c"
+    ],
+    "priceEur": 26.9,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.45,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "sports-research-omega-3-krill-oil-1000",
+    "title": "Sports Research Omega-3 Krill Oil 1000 mg",
+    "vendor": "Sports Research",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3",
+      "astaxanthin"
+    ],
+    "priceEur": 28.9,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.48,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "sports-research-d3-k2-5000",
+    "title": "Sports Research Plant-Based D3+K2 5000 IU",
+    "vendor": "Sports Research",
+    "ingredient": "vitamin-d3-k2",
+    "containedIngredients": [
+      "vitamin-d3-k2"
+    ],
+    "priceEur": 22.9,
+    "doseMg": 125,
+    "pricePerDayEur": 0.38,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "sports-research-omega-3-fish-oil-1250",
+    "title": "Sports Research Triple Strength Omega-3 Fish Oil 1250 mg",
+    "vendor": "Sports Research",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 1250,
+    "pricePerDayEur": 0.28,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "sports-research-curcumin-c3-complex",
+    "title": "Sports Research Turmeric Curcumin C3 Complex + BioPerine",
+    "vendor": "Sports Research",
+    "ingredient": "curcumin",
+    "containedIngredients": [
+      "curcumin",
+      "piperin"
+    ],
+    "priceEur": 21.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.18,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "sunday-natural-ashwagandha-600",
+    "title": "Sunday Natural Ashwagandha KSM-66 600",
+    "vendor": "Sunday Natural",
+    "ingredient": "ashwagandha",
+    "containedIngredients": [
+      "ashwagandha"
+    ],
+    "priceEur": 22.9,
+    "doseMg": 600,
+    "pricePerDayEur": 0.25,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "sunday-natural-coq10-ubiquinol-100",
+    "title": "Sunday Natural CoQ10 Ubiquinol 100",
+    "vendor": "Sunday Natural",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10"
+    ],
+    "priceEur": 34.9,
+    "doseMg": 100,
+    "pricePerDayEur": 0.58,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "sunday-natural-kollagen",
+    "title": "Sunday Natural Kollagen Hydrolysat Pulver",
+    "vendor": "Sunday Natural",
+    "ingredient": "kollagen",
+    "containedIngredients": [
+      "kollagen"
+    ],
+    "priceEur": 29.9,
+    "doseMg": 10000,
+    "pricePerDayEur": 1,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "sunday-natural-lions-mane-500",
+    "title": "Sunday Natural Lion's Mane Extrakt 500",
+    "vendor": "Sunday Natural",
+    "ingredient": "lion-s-mane",
+    "containedIngredients": [
+      "lion-s-mane"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.28,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "sunday-natural-magnesium-komplex",
+    "title": "Sunday Natural Magnesium Komplex",
+    "vendor": "Sunday Natural",
+    "ingredient": "magnesium",
+    "containedIngredients": [
+      "magnesium",
+      "piperin"
+    ],
+    "priceEur": 29.9,
+    "doseMg": 300,
+    "pricePerDayEur": 0.33,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "sunday-natural-nmn-400",
+    "title": "Sunday Natural NMN 400 mg",
+    "vendor": "Sunday Natural",
+    "ingredient": "nmn",
+    "containedIngredients": [
+      "nmn"
+    ],
+    "priceEur": 76,
+    "doseMg": 400,
+    "pricePerDayEur": 1.27,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "sunday-natural-omega-3-1000",
+    "title": "Sunday Natural Omega-3 Fischöl 1000",
+    "vendor": "Sunday Natural",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.21,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "sunday-natural-rhodiola-rosea",
+    "title": "Sunday Natural Rhodiola Rosea 500mg",
+    "vendor": "Sunday Natural",
+    "ingredient": "rhodiola",
+    "containedIngredients": [
+      "rhodiola"
+    ],
+    "priceEur": 29.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.33,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "sunday-natural-schisandra",
+    "title": "Sunday Natural Schisandra 500 mg",
+    "vendor": "Sunday Natural",
+    "ingredient": "schisandra",
+    "containedIngredients": [
+      "schisandra"
+    ],
+    "priceEur": 29.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.33,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "sunday-natural-vitamin-b-komplex",
+    "title": "Sunday Natural Vitamin B Komplex",
+    "vendor": "Sunday Natural",
+    "ingredient": "vitamin-b6",
+    "containedIngredients": [
+      "vitamin-b1",
+      "vitamin-b2",
+      "vitamin-b3",
+      "vitamin-b5",
+      "vitamin-b6",
+      "vitamin-b7",
+      "vitamin-b12",
+      "folsaeure",
+      "cholin",
+      "myo-inositol"
+    ],
+    "priceEur": 24,
+    "doseMg": 50,
+    "pricePerDayEur": 0.4,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "sunday-natural-d3-k2-2000",
+    "title": "Sunday Natural Vitamin D3+K2 2000 I.E.",
+    "vendor": "Sunday Natural",
+    "ingredient": "vitamin-d3-k2",
+    "containedIngredients": [
+      "vitamin-d3-k2"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 50,
+    "pricePerDayEur": 0.17,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "sunfood-liposomal-vitamin-c",
+    "title": "Sunfood Liposomal Vitamin C 1000 mg",
+    "vendor": "Sunfood",
+    "ingredient": "vitamin-c",
+    "containedIngredients": [
+      "vitamin-c"
+    ],
+    "priceEur": 34,
+    "doseMg": 1000,
+    "pricePerDayEur": 1.13,
+    "form": "liquid",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
+    "slug": "swanson-fisetin-100",
+    "title": "Swanson Fisetin 100 mg",
+    "vendor": "Swanson",
+    "ingredient": "fisetin",
+    "containedIngredients": [
+      "fisetin"
+    ],
+    "priceEur": 23.9,
+    "doseMg": 100,
+    "pricePerDayEur": 0.4,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "swanson-vitamin-d3-5000",
+    "title": "Swanson Vitamin D3 5000 IU",
+    "vendor": "Swanson",
+    "ingredient": "vitamin-d3",
+    "containedIngredients": [
+      "vitamin-d3"
+    ],
+    "priceEur": 12,
+    "doseMg": 0.125,
+    "pricePerDayEur": 0.05,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 250
+  },
+  {
+    "slug": "thorne-alpha-lipoic-acid-300",
+    "title": "Thorne Alpha-Lipoic Acid 300 mg",
+    "vendor": "Thorne",
+    "ingredient": "alpha-liponsaeure",
+    "containedIngredients": [
+      "alpha-liponsaeure"
+    ],
+    "priceEur": 38,
+    "doseMg": 300,
+    "pricePerDayEur": 0.63,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-b12-methylcobalamin",
+    "title": "Thorne B12 Methylcobalamin 1mg",
+    "vendor": "Thorne",
+    "ingredient": "vitamin-b12",
+    "containedIngredients": [
+      "vitamin-b12"
+    ],
+    "priceEur": 24,
+    "doseMg": 1,
+    "pricePerDayEur": 0.4,
+    "form": "liquid",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-basic-nutrients-2day",
+    "title": "Thorne Basic Nutrients 2/Day",
+    "vendor": "Thorne",
+    "ingredient": "vitamin-b6",
+    "containedIngredients": [
+      "vitamin-b12",
+      "folsaeure",
+      "cholin",
+      "bor",
+      "chrom"
+    ],
+    "priceEur": 48,
+    "doseMg": 2000,
+    "pricePerDayEur": 0.8,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-berberine-500",
+    "title": "Thorne Berberine 500mg",
+    "vendor": "Thorne",
+    "ingredient": "berberine",
+    "containedIngredients": [
+      "berberine"
+    ],
+    "priceEur": 54,
+    "doseMg": 500,
+    "pricePerDayEur": 0.9,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-berberine-phytosome",
+    "title": "Thorne Berberine Phytosome 500mg",
+    "vendor": "Thorne",
+    "ingredient": "berberine",
+    "containedIngredients": [
+      "berberine"
+    ],
+    "priceEur": 64,
+    "doseMg": 500,
+    "pricePerDayEur": 1.07,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-berberine",
+    "title": "Thorne Berberine-500",
+    "vendor": "Thorne",
+    "ingredient": "berberine",
+    "containedIngredients": [
+      "berberine"
+    ],
+    "priceEur": 36.95,
+    "doseMg": 500,
+    "pricePerDayEur": 0.62,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-coq10-100",
+    "title": "Thorne CoQ10 100mg",
+    "vendor": "Thorne",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10"
+    ],
+    "priceEur": 44,
+    "doseMg": 100,
+    "pricePerDayEur": 0.73,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-creatine-powder",
+    "title": "Thorne Creatine Powder 450g",
+    "vendor": "Thorne",
+    "ingredient": "kreatin",
+    "containedIngredients": [
+      "kreatin"
+    ],
+    "priceEur": 42,
+    "doseMg": 5000,
+    "pricePerDayEur": 0.47,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "thorne-curcumin-phytosome",
+    "title": "Thorne Curcumin Phytosome 500mg",
+    "vendor": "Thorne",
+    "ingredient": "curcumin",
+    "containedIngredients": [
+      "curcumin"
+    ],
+    "priceEur": 64,
+    "doseMg": 500,
+    "pricePerDayEur": 1.07,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-glutathione-sr",
+    "title": "Thorne Glutathione-SR 100mg",
+    "vendor": "Thorne",
+    "ingredient": "glutathion",
+    "containedIngredients": [
+      "glutathion"
+    ],
+    "priceEur": 56,
+    "doseMg": 100,
+    "pricePerDayEur": 0.93,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-glycine-1000",
+    "title": "Thorne Glycine 1000mg",
+    "vendor": "Thorne",
+    "ingredient": "glycin",
+    "containedIngredients": [
+      "glycin"
+    ],
+    "priceEur": 24,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.27,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "thorne-iodine-selenium",
+    "title": "Thorne Iodine & Tyrosine",
+    "vendor": "Thorne",
+    "ingredient": "jod",
+    "containedIngredients": [
+      "jod",
+      "selen",
+      "l-tyrosin"
+    ],
+    "priceEur": 28,
+    "doseMg": 225,
+    "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-magnesium-bisglycinate",
+    "title": "Thorne Magnesium Bisglycinate",
+    "vendor": "Thorne",
+    "ingredient": "magnesium",
+    "containedIngredients": [
+      "magnesium"
+    ],
+    "priceEur": 32,
+    "doseMg": 200,
+    "pricePerDayEur": 0.36,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "thorne-niacel-400",
+    "title": "Thorne NiaCel 400",
+    "vendor": "Thorne",
+    "ingredient": "nr",
+    "containedIngredients": [
+      "nr"
+    ],
+    "priceEur": 92,
+    "doseMg": 415,
+    "pricePerDayEur": 1.53,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-quercenase",
+    "title": "Thorne Quercenase 250 mg",
+    "vendor": "Thorne",
+    "ingredient": "quercetin",
+    "containedIngredients": [
+      "quercetin"
+    ],
+    "priceEur": 52,
+    "doseMg": 250,
+    "pricePerDayEur": 0.87,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-quercetin-phytosome",
+    "title": "Thorne Quercetin Phytosome",
+    "vendor": "Thorne",
+    "ingredient": "quercetin",
+    "containedIngredients": [
+      "quercetin"
+    ],
+    "priceEur": 52,
+    "doseMg": 250,
+    "pricePerDayEur": 0.87,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-red-yeast-rice-cholesterol",
+    "title": "Thorne Red Yeast Rice + CoQ10",
+    "vendor": "Thorne",
+    "ingredient": "coq10",
+    "containedIngredients": [
+      "coq10"
+    ],
+    "priceEur": 34.9,
+    "doseMg": 600,
+    "pricePerDayEur": 0.58,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "thorne-resveracel",
+    "title": "Thorne ResveraCel",
+    "vendor": "Thorne",
+    "ingredient": "resveratrol",
+    "containedIngredients": [
+      "nr",
+      "quercetin",
+      "betain",
+      "resveratrol"
+    ],
+    "priceEur": 118,
+    "doseMg": 415,
+    "pricePerDayEur": 1.97,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-selenomethionine-200",
+    "title": "Thorne Selenomethionine 200",
+    "vendor": "Thorne",
+    "ingredient": "selen",
+    "containedIngredients": [
+      "selen"
+    ],
+    "priceEur": 22,
+    "doseMg": 0.2,
+    "pricePerDayEur": 0.24,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "thorne-vitamin-c-ascorbic",
+    "title": "Thorne Vitamin C with Flavonoids",
+    "vendor": "Thorne",
+    "ingredient": "vitamin-c",
+    "containedIngredients": [
+      "vitamin-c",
+      "quercetin",
+      "rutin"
+    ],
+    "priceEur": 28,
+    "doseMg": 500,
+    "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "thorne-zinc-bisglycinate-15",
+    "title": "Thorne Zinc Bisglycinate 15mg",
+    "vendor": "Thorne",
+    "ingredient": "zink",
+    "containedIngredients": [
+      "zink"
+    ],
+    "priceEur": 18,
+    "doseMg": 15,
+    "pricePerDayEur": 0.3,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "toniiq-fisetin-300",
+    "title": "Toniiq Ultra High Purity Fisetin 300mg",
+    "vendor": "Toniiq",
+    "ingredient": "fisetin",
+    "containedIngredients": [
+      "fisetin"
+    ],
+    "priceEur": 44,
+    "doseMg": 300,
+    "pricePerDayEur": 0.49,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "dihydroberberine-supplement",
+    "title": "Dihydroberberine (GlucoVantage) 200 mg",
+    "vendor": "Various",
+    "ingredient": "berberine",
+    "containedIngredients": [
+      "berberine"
+    ],
+    "priceEur": 29.9,
+    "doseMg": 200,
+    "pricePerDayEur": 0.5,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "vit4ever-vitamin-d3-k2",
+    "title": "Vit4ever Vitamin D3 K2 Depot 20000 IU",
+    "vendor": "Vit4ever",
+    "ingredient": "vitamin-d3-k2",
+    "containedIngredients": [
+      "vitamin-d3-k2"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 0.5,
+    "pricePerDayEur": 0.17,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "vital-proteins-collagen-peptides",
+    "title": "Vital Proteins Collagen Peptides 20g",
+    "vendor": "Vital Proteins",
+    "ingredient": "kollagen",
+    "containedIngredients": [
+      "kollagen",
+      "hyaluronsaeure"
+    ],
+    "priceEur": 44,
+    "doseMg": 20000,
+    "pricePerDayEur": 1.57,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 28
+  },
+  {
+    "slug": "viva-naturals-omega-3-fish-oil",
+    "title": "Viva Naturals Triple Strength Omega-3 Fish Oil",
+    "vendor": "Viva Naturals",
+    "ingredient": "omega-3",
+    "containedIngredients": [
+      "omega-3"
+    ],
+    "priceEur": 22.9,
+    "doseMg": 1000,
+    "pricePerDayEur": 0.25,
+    "form": "softgel",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  }
+]
