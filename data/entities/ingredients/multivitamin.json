@@ -1,0 +1,12 @@
+{
+  "id": "multivitamin",
+  "type": "ingredient",
+  "name": "Multivitamin",
+  "summary": "Meistverkauftes Supplement weltweit. Moderate Evidenz für Krebsrisiko-Reduktion und Kognition bei Älteren.",
+  "aliases": ["Multi-Vitamin", "MVM", "Multivitaminpräparat"],
+  "category": "general-health",
+  "evidenceLevel": 2,
+  "safety": "likely-safe",
+  "efsa_approved": true,
+  "typical_dose_mg": 0
+}

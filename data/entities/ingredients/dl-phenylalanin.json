@@ -1,0 +1,12 @@
+{
+  "id": "dl-phenylalanin",
+  "type": "ingredient",
+  "name": "D,L-Phenylalanin",
+  "summary": "DLPA kombiniert die Dopamin-Vorstufe L-Phenylalanin mit der D-Form als Enkephalinase-Inhibitor.",
+  "aliases": ["DLPA", "DL-Phenylalanine", "D,L-Phenylalanine"],
+  "category": "cognitive",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}

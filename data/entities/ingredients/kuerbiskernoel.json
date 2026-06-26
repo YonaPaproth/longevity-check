@@ -1,0 +1,12 @@
+{
+  "id": "kuerbiskernoel",
+  "type": "ingredient",
+  "name": "Kürbiskernöl",
+  "summary": "Kürbiskernöl enthält Phytosterole und Delta-7-Sterine für Prostata- und Blasengesundheit.",
+  "aliases": ["Pumpkin Seed Oil", "Cucurbita pepo", "Kürbiskern-Extrakt"],
+  "category": "hormonal",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 1000
+}

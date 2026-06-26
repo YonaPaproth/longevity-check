@@ -1,0 +1,12 @@
+{
+  "id": "sea-moss",
+  "type": "ingredient",
+  "name": "Irish Sea Moss",
+  "summary": "Rotalge mit hohem Mineralstoffgehalt, aber praktisch keiner klinischen Evidenz. Social-Media-Trend.",
+  "aliases": ["Sea Moss", "Chondrus crispus", "Irisches Moos", "Irish Moss"],
+  "category": "general-health",
+  "evidenceLevel": 5,
+  "safety": "caution",
+  "efsa_approved": false,
+  "typical_dose_mg": 1000
+}
