@@ -106,6 +106,24 @@
     "servingsPerPack": 120
   },
   {
+    "slug": "biogena-osteo-calbon-komplex-gold",
+    "title": "BIOGENA Osteo Calbon Komplex Gold",
+    "vendor": "BIOGENA",
+    "ingredient": "calcium",
+    "containedIngredients": [
+      "calcium",
+      "vitamin-d3-k2",
+      "bor",
+      "silicium"
+    ],
+    "priceEur": 39.9,
+    "doseMg": 750,
+    "pricePerDayEur": 1.33,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
     "slug": "biogena-selen-200",
     "title": "BIOGENA Selen 200 Komplex",
     "vendor": "BIOGENA",
