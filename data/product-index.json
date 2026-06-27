@@ -260,6 +260,21 @@
     "servingsPerPack": 60
   },
   {
+    "slug": "doctors-best-fucoidan-300",
+    "title": "Doctor's Best Fucoidan 70% 300 mg",
+    "vendor": "Doctor's Best",
+    "ingredient": "fucoidan",
+    "containedIngredients": [
+      "fucoidan"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 300,
+    "pricePerDayEur": 0.41,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
     "slug": "doctors-best-coq10-200",
     "title": "Doctor's Best High Absorption CoQ10 200mg",
     "vendor": "Doctor's Best",

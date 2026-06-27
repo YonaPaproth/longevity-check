@@ -1,0 +1,12 @@
+{
+  "id": "fucoidan",
+  "type": "ingredient",
+  "name": "Fucoidan",
+  "summary": "Sulfatiertes Polysaccharid aus Braunalgen mit wachsender Evidenz für Immunmodulation, Darmgesundheit und kardiovaskuläre Marker.",
+  "aliases": ["Fucoidane", "Brown Seaweed Extract", "Braunalgen-Extrakt"],
+  "category": "general-health",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 500
+}
