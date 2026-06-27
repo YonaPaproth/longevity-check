@@ -1,0 +1,10 @@
+{
+  "entity": "kuerbiskernoel",
+  "relations": [
+    {"relation": "wird_eingesetzt_fuer", "target": "prostata", "direction": "outgoing", "confidence": 0.7},
+    {"relation": "wird_eingesetzt_fuer", "target": "blase", "direction": "outgoing", "confidence": 0.6},
+    {"relation": "wirkt_ueber", "target": "5-alpha-reduktase-hemmung", "direction": "outgoing", "confidence": 0.6},
+    {"relation": "hat_regulatorischen_status", "target": "efsa-nicht-zugelassen", "direction": "outgoing", "confidence": 1},
+    {"relation": "basiert_auf_studie", "target": "studie-25196580", "direction": "outgoing", "confidence": 0.8, "source": "pmid:25196580"}
+  ]
+}

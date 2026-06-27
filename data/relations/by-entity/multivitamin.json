@@ -1,0 +1,11 @@
+{
+  "entity": "multivitamin",
+  "relations": [
+    {"relation": "wird_eingesetzt_fuer", "target": "immunsystem", "direction": "outgoing", "confidence": 0.7},
+    {"relation": "wird_eingesetzt_fuer", "target": "energie", "direction": "outgoing", "confidence": 0.6},
+    {"relation": "wird_eingesetzt_fuer", "target": "kognition", "direction": "outgoing", "confidence": 0.6},
+    {"relation": "wird_eingesetzt_fuer", "target": "alterung", "direction": "outgoing", "confidence": 0.5},
+    {"relation": "hat_regulatorischen_status", "target": "efsa-zugelassen", "direction": "outgoing", "confidence": 1},
+    {"relation": "basiert_auf_studie", "target": "studie-23162860", "direction": "outgoing", "confidence": 0.9, "source": "pmid:23162860"}
+  ]
+}

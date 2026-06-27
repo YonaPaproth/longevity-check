@@ -1,0 +1,12 @@
+{
+  "entity": "sea-moss",
+  "relations": [
+    {"relation": "wird_eingesetzt_fuer", "target": "immunsystem", "direction": "outgoing", "confidence": 0.4},
+    {"relation": "wird_eingesetzt_fuer", "target": "verdauung", "direction": "outgoing", "confidence": 0.4},
+    {"relation": "wird_eingesetzt_fuer", "target": "schilddruese", "direction": "outgoing", "confidence": 0.4},
+    {"relation": "kontraindiziert_bei", "target": "kontra-schilddruesenerkrankung", "direction": "outgoing", "confidence": 0.9},
+    {"relation": "kontraindiziert_bei", "target": "kontra-schwangerschaft", "direction": "outgoing", "confidence": 0.8},
+    {"relation": "hat_nebenwirkung", "target": "nw-schilddruesenueberfunktion", "direction": "outgoing", "confidence": 0.7},
+    {"relation": "hat_regulatorischen_status", "target": "efsa-nicht-zugelassen", "direction": "outgoing", "confidence": 1}
+  ]
+}
