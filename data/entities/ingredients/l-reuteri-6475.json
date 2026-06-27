@@ -1,0 +1,12 @@
+{
+  "id": "l-reuteri-6475",
+  "type": "ingredient",
+  "name": "L. reuteri ATCC PTA 6475",
+  "summary": "Stammspezifisches Probiotikum mit RCT-Evidenz für Knochengesundheit. Reduzierte Knochenverlust um ~50% bei älteren Frauen.",
+  "aliases": ["Lactobacillus reuteri 6475", "BioGaia Osfortis", "Limosilactobacillus reuteri"],
+  "category": "general-health",
+  "evidenceLevel": 3,
+  "safety": "likely-safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 0
+}

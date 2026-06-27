@@ -30,6 +30,21 @@
     "servingsPerPack": 120
   },
   {
+    "slug": "biogaia-osfortis",
+    "title": "BioGaia Osfortis (L. reuteri 6475)",
+    "vendor": "BioGaia",
+    "ingredient": "l-reuteri-6475",
+    "containedIngredients": [
+      "l-reuteri-6475"
+    ],
+    "priceEur": 29.9,
+    "doseMg": 0,
+    "pricePerDayEur": 1,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 30
+  },
+  {
     "slug": "biogena-coq10-100",
     "title": "BIOGENA CoQ10 100 aktiv",
     "vendor": "BIOGENA",
