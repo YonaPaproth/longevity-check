@@ -54,12 +54,23 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
 
 /** Y position (as fraction of container height) for each node type lane. */
 const STRUCTURED_LANES: Array<{ type: string; yFrac: number }> = [
-  { type: 'ingredient',       yFrac: 0.10 },
-  { type: 'regulatory',       yFrac: 0.28 },
-  { type: 'mechanism',        yFrac: 0.46 },
-  { type: 'symptom',          yFrac: 0.64 },
-  { type: 'contraindication', yFrac: 0.88 },
+  { type: 'ingredient',       yFrac: 0.14 },
+  { type: 'regulatory',       yFrac: 0.34 },
+  { type: 'mechanism',        yFrac: 0.48 },
+  { type: 'symptom',          yFrac: 0.62 },
+  { type: 'contraindication', yFrac: 0.82 },
 ];
+
+/**
+ * How many sub-rows a lane gets and how much vertical space (fraction) it spans.
+ * Nodes are distributed across sub-rows to avoid overlap in crowded lanes.
+ */
+const LANE_ROWS: Record<string, { rows: number; span: number }> = {
+  ingredient:       { rows: 3, span: 0.16 },
+  mechanism:        { rows: 2, span: 0.08 },
+  symptom:          { rows: 2, span: 0.10 },
+  contraindication: { rows: 2, span: 0.10 },
+};
 
 /** X range [min, max] as fraction of width for each bucket.
  *  Bucket 0 = strong/approved (left), 1 = unknown/mixed (centre), 2 = not-approved/weak (right). */
@@ -395,17 +406,31 @@ function computeStructuredPositions(
     // Sort alphabetically for stable, repeatable ordering across modes
     ids.sort();
 
-    for (let i = 0; i < ids.length; i++) {
-      const xFrac = ids.length === 1
-        ? (xMin + xMax) / 2
-        : xMin + (xMax - xMin) * (i / (ids.length - 1));
+    // Multi-row layout: distribute nodes across sub-rows for crowded lanes
+    const laneConfig = LANE_ROWS[typeStr];
+    const numRows = laneConfig?.rows ?? 1;
+    const spanFrac = laneConfig?.span ?? 0;
 
-      // Deterministic vertical jitter so nodes in the same lane don't overlap
-      const yJitter = ((simpleHash(ids[i]) % 37) - 18); // ±18 px
+    for (let i = 0; i < ids.length; i++) {
+      const row = i % numRows;
+      const colInRow = Math.floor(i / numRows);
+      const totalInRow = Math.ceil(ids.length / numRows);
+
+      const xFrac = totalInRow === 1
+        ? (xMin + xMax) / 2
+        : xMin + (xMax - xMin) * (colInRow / (totalInRow - 1));
+
+      // Spread rows evenly around the lane center
+      const rowOffset = numRows <= 1
+        ? 0
+        : (row / (numRows - 1) - 0.5) * spanFrac;
+
+      // Tiny deterministic jitter to prevent exact overlaps
+      const yJitter = ((simpleHash(ids[i]) % 9) - 4); // ±4 px
 
       positions.set(ids[i], {
         x: xFrac * containerWidth,
-        y: yFrac * containerHeight + yJitter,
+        y: (yFrac + rowOffset) * containerHeight + yJitter,
       });
     }
   }
