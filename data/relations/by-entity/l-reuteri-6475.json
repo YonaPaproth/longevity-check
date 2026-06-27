@@ -1,0 +1,85 @@
+{
+  "entity": "l-reuteri-6475",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.9
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.6
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "nfkb-hemmung",
+      "direction": "outgoing",
+      "confidence": 0.8
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "darmbarriere-staerkung",
+      "direction": "outgoing",
+      "confidence": 0.8
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "wnt-signalweg",
+      "direction": "outgoing",
+      "confidence": 0.7
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "vitamin-d-spiegel",
+      "direction": "outgoing",
+      "confidence": 0.5
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-immunsuppression",
+      "direction": "outgoing",
+      "confidence": 0.8
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-29926979",
+      "direction": "outgoing",
+      "confidence": 0.95,
+      "source": "pmid:29926979"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-24700406",
+      "direction": "outgoing",
+      "confidence": 0.8,
+      "source": "pmid:24700406"
+    }
+  ]
+}
