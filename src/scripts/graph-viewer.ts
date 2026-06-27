@@ -54,11 +54,11 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
 
 /** Y position (as fraction of container height) for each node type lane. */
 const STRUCTURED_LANES: Array<{ type: string; yFrac: number }> = [
-  { type: 'regulatory',       yFrac: 0.08 },
-  { type: 'ingredient',       yFrac: 0.30 },
-  { type: 'mechanism',        yFrac: 0.52 },
-  { type: 'symptom',          yFrac: 0.74 },
-  { type: 'contraindication', yFrac: 0.92 },
+  { type: 'ingredient',       yFrac: 0.10 },
+  { type: 'regulatory',       yFrac: 0.28 },
+  { type: 'mechanism',        yFrac: 0.46 },
+  { type: 'symptom',          yFrac: 0.64 },
+  { type: 'contraindication', yFrac: 0.88 },
 ];
 
 /** X range [min, max] as fraction of width for each bucket.
@@ -372,10 +372,14 @@ function computeStructuredPositions(
   const laneYByType = new Map(STRUCTURED_LANES.map(l => [l.type, l.yFrac]));
 
   // Group nodes by (type, bucket) for even horizontal spread
+  // Treat kontra-* and nw-* symptom nodes as contraindications for layout
   const groups = new Map<string, string[]>();
   for (const node of nodes) {
     const bucket = buckets.get(node.id) ?? 1;
-    const key    = `${node.type}::${bucket}`;
+    const layoutType = (node.type === 'symptom' && (node.id.startsWith('kontra-') || node.id.startsWith('nw-')))
+      ? 'contraindication'
+      : node.type;
+    const key    = `${layoutType}::${bucket}`;
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key)!.push(node.id);
   }
