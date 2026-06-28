@@ -60,7 +60,7 @@ const safetyStyle: Record<string, string> = {
 };
 ---
 
-<BaseLayout title={`Forschungsgebiet ${label} — untersuchte Wirkstoffe`} description={`${matched.length} Wirkstoffe, die in Studien auf eine Wirkung im Bereich ${label} untersucht wurden — sortiert nach Evidenzstärke.`}>
+<BaseLayout title={`Forschungsgebiet ${label} — untersuchte Wirkstoffe`} description={`${matched.length} Wirkstoffe, die in Studien auf eine Wirkung im Bereich ${label} untersucht wurden — sortiert nach Forschungsrelevanz.`}>
   <div class="max-w-4xl mx-auto px-4 py-12">
 
     <nav class="text-sm text-slate-400 mb-6">
@@ -73,7 +73,7 @@ const safetyStyle: Record<string, string> = {
 
     <div class="mb-8">
       <h1 class="text-3xl font-bold text-slate-900 mb-2">Forschungsgebiet: {label}</h1>
-      <p class="text-slate-600">{matched.length} Wirkstoffe, die in Studien auf eine Wirkung im Bereich {label} untersucht wurden — sortiert nach Evidenzstärke.</p>
+      <p class="text-slate-600">{matched.length} Wirkstoffe, die in Studien auf eine Wirkung im Bereich {label} untersucht wurden — sortiert nach Forschungsrelevanz.</p>
     </div>
 
     <div class="space-y-3">

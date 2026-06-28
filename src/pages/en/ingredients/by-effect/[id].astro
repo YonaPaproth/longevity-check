@@ -52,7 +52,7 @@ const safetyStyle: Record<string, string> = {
 
 <BaseLayout
   title={`Research Area: ${label} — Studied Ingredients`}
-  description={`${matched.length} ingredients studied for effects on ${label} — sorted by evidence strength.`}
+  description={`${matched.length} ingredients studied for effects on ${label} — sorted by research relevance.`}
   locale="en"
   hreflang={{ de: `/wirkstoffe/nach-wirkung/${id}`, en: `/en/ingredients/by-effect/${id}` }}
 >
@@ -68,7 +68,7 @@ const safetyStyle: Record<string, string> = {
 
     <div class="mb-8">
       <h1 class="text-3xl font-bold text-slate-900 mb-2">Research Area: {label}</h1>
-      <p class="text-slate-600">{matched.length} ingredients studied for effects on {label} — sorted by evidence strength.</p>
+      <p class="text-slate-600">{matched.length} ingredients studied for effects on {label} — sorted by research relevance.</p>
     </div>
 
     <div class="space-y-3">
