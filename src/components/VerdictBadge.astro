@@ -1,4 +1,7 @@
 ---
+import { de } from '../i18n/de';
+import { en } from '../i18n/en';
+
 interface Props {
   verdict: 'empfehlenswert' | 'akzeptabel' | 'nicht-empfehlenswert' | 'belegt' | 'uebertrieben' | 'falsch' | 'zu-frueh';
   note?: string;
@@ -6,18 +9,26 @@ interface Props {
 }
 
 const { verdict, note, hideNote = false } = Astro.props;
+const isEn = Astro.url.pathname.startsWith('/en/') || Astro.url.pathname === '/en';
+const dict = isEn ? en : de;
 
-const config = {
-  'empfehlenswert':       { label: 'Hohe Produkttransparenz',        style: 'bg-emerald-50 text-emerald-700 ring-1 ring-inset ring-emerald-200' },
-  'akzeptabel':           { label: 'Mittlere Produkttransparenz',            style: 'bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-200' },
-  'nicht-empfehlenswert': { label: 'Geringe Produkttransparenz',  style: 'bg-red-50 text-red-700 ring-1 ring-inset ring-red-200' },
-  'belegt':               { label: '✓ Belegt',              style: 'bg-emerald-50 text-emerald-700 ring-1 ring-inset ring-emerald-200' },
-  'uebertrieben':         { label: 'Übertrieben',           style: 'bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-200' },
-  'falsch':               { label: '✗ Falsch',              style: 'bg-red-50 text-red-700 ring-1 ring-inset ring-red-200' },
-  'zu-frueh':             { label: 'Zu früh',               style: 'bg-slate-50 text-slate-700 ring-1 ring-inset ring-slate-200' },
-} as const;
+const styles: Record<string, string> = {
+  'empfehlenswert':       'bg-emerald-50 text-emerald-700 ring-1 ring-inset ring-emerald-200',
+  'akzeptabel':           'bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-200',
+  'nicht-empfehlenswert': 'bg-red-50 text-red-700 ring-1 ring-inset ring-red-200',
+  'belegt':               'bg-emerald-50 text-emerald-700 ring-1 ring-inset ring-emerald-200',
+  'uebertrieben':         'bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-200',
+  'falsch':               'bg-red-50 text-red-700 ring-1 ring-inset ring-red-200',
+  'zu-frueh':             'bg-slate-50 text-slate-700 ring-1 ring-inset ring-slate-200',
+};
 
-const { label, style } = config[verdict];
+const prefixes: Record<string, string> = {
+  'belegt': '✓ ',
+  'falsch': '✗ ',
+};
+
+const label = (prefixes[verdict] ?? '') + ((dict as any).verdict?.[verdict] ?? verdict);
+const style = styles[verdict] ?? styles['zu-frueh'];
 ---
 
 <div class="inline-flex max-w-md flex-col gap-2">
