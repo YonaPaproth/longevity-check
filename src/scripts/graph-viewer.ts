@@ -18,8 +18,8 @@ const ENTITY_COLORS: Record<string, string> = {
   ingredient:      '#0d9488',   // teal-600
   mechanism:       '#3b82f6',   // blue-500
   biomarker:       '#8b5cf6',   // violet-500
-  symptom:         '#f97316',   // orange-500
-  contraindication:'#ef4444',   // red-500
+  symptom:         '#94a3b8',   // slate-400 (grey)
+  contraindication:'#1e293b',   // slate-800 (black)
   regulatory:      '#f59e0b',   // amber-500
   claim:           '#ef4444',   // red-500
   study:           '#94a3b8',   // slate-400
@@ -385,8 +385,9 @@ function computeStructuredPositions(
   // Group nodes by (type, bucket) for even horizontal spread
   // Treat kontra-* and nw-* symptom nodes as contraindications for layout
   const groups = new Map<string, string[]>();
-  // Separate list for symptom nodes (distributed evenly, ignoring buckets)
+  // Separate lists for equally-distributed lanes (symptoms + contraindications)
   const symptomIds: string[] = [];
+  const contraIds: string[] = [];
 
   for (const node of nodes) {
     const bucket = buckets.get(node.id) ?? 1;
@@ -394,9 +395,13 @@ function computeStructuredPositions(
       ? 'contraindication'
       : node.type;
 
-    // Symptoms get equal distribution instead of bucket grouping
+    // Symptoms and contraindications get equal distribution
     if (layoutType === 'symptom') {
       symptomIds.push(node.id);
+      continue;
+    }
+    if (layoutType === 'contraindication') {
+      contraIds.push(node.id);
       continue;
     }
 
@@ -407,19 +412,19 @@ function computeStructuredPositions(
 
   const positions = new Map<string, { x: number; y: number }>();
 
-  // Position symptom nodes: equally spaced left to right across full width
-  {
-    const yFrac = laneYByType.get('symptom') ?? 0.65;
-    const laneConfig = LANE_ROWS['symptom'];
+  // Helper: position a list of node IDs equally spaced in a lane
+  function distributeEvenly(nodeIds: string[], laneType: string) {
+    const yFrac = laneYByType.get(laneType) ?? 0.5;
+    const laneConfig = LANE_ROWS[laneType];
     const numRows = laneConfig?.rows ?? 1;
     const spanFrac = laneConfig?.span ?? 0;
-    const xPad = 0.04; // padding from edges
+    const xPad = 0.04;
 
-    symptomIds.sort();
-    for (let i = 0; i < symptomIds.length; i++) {
+    nodeIds.sort();
+    for (let i = 0; i < nodeIds.length; i++) {
       const row = i % numRows;
       const colInRow = Math.floor(i / numRows);
-      const totalInRow = Math.ceil(symptomIds.length / numRows);
+      const totalInRow = Math.ceil(nodeIds.length / numRows);
 
       const xFrac = totalInRow === 1
         ? 0.5
@@ -429,14 +434,17 @@ function computeStructuredPositions(
         ? 0
         : (row / (numRows - 1) - 0.5) * spanFrac;
 
-      const yJitter = ((simpleHash(symptomIds[i]) % 9) - 4);
+      const yJitter = ((simpleHash(nodeIds[i]) % 9) - 4);
 
-      positions.set(symptomIds[i], {
+      positions.set(nodeIds[i], {
         x: xFrac * containerWidth,
         y: (yFrac + rowOffset) * containerHeight + yJitter,
       });
     }
   }
+
+  distributeEvenly(symptomIds, 'symptom');
+  distributeEvenly(contraIds, 'contraindication');
 
   // Position all other node types using bucket-based X ranges
   for (const [key, ids] of groups) {
@@ -498,7 +506,7 @@ function buildLaneOverlay(
   for (const { type, yFrac } of STRUCTURED_LANES) {
     const label = labels[type] ?? type;
     const div   = document.createElement('div');
-    div.className = 'absolute left-2 text-[10px] font-semibold tracking-wide uppercase opacity-40 -translate-y-1/2 whitespace-nowrap';
+    div.className = 'absolute left-2 text-[10px] font-semibold tracking-wide uppercase opacity-50 -translate-y-1/2 whitespace-nowrap';
     div.style.cssText = `top:${yFrac * 100}%; color:${ENTITY_COLORS[type] ?? '#94a3b8'}`;
     div.textContent   = label;
     overlay.appendChild(div);
@@ -509,14 +517,14 @@ function buildLaneOverlay(
   for (let i = 0; i < laneMidpoints.length - 1; i++) {
     const lineY = (laneMidpoints[i] + laneMidpoints[i + 1]) / 2;
     const line  = document.createElement('div');
-    line.className = 'absolute inset-x-0 h-px opacity-10 bg-slate-400';
+    line.className = 'absolute inset-x-0 h-px opacity-15 bg-slate-300';
     line.style.top = `${lineY * 100}%`;
     overlay.appendChild(line);
   }
 
   // X-axis bucket headers at the very top
   const xHeader = document.createElement('div');
-  xHeader.className = 'absolute top-1 left-16 right-2 flex justify-between text-[9px] font-medium tracking-wide uppercase opacity-30 text-slate-300';
+  xHeader.className = 'absolute top-1 left-16 right-2 flex justify-between text-[9px] font-medium tracking-wide uppercase opacity-40 text-slate-500';
   const leftLabel  = locale === 'en' ? 'EFSA approved'     : 'EFSA zugelassen';
   const midLabel   = locale === 'en' ? 'Mixed / unknown'   : 'Gemischt';
   const rightLabel = locale === 'en' ? 'EFSA not approved' : 'EFSA abgelehnt';
@@ -717,7 +725,7 @@ async function initGraph() {
         selector: 'node.ks-highlighted',
         style: {
           'label':              'data(label)',
-          'color':              '#e2e8f0',
+          'color':              '#1e293b',
           'font-size':          '10px',
           'font-weight':        '500',
           'text-valign':        'bottom',
@@ -726,7 +734,7 @@ async function initGraph() {
           'text-max-width':     '120px',
           'text-margin-y':      '-10px',
           'text-outline-width': 2,
-          'text-outline-color': '#0f172a',
+          'text-outline-color': '#ffffff',
           'border-opacity':     1,
           'border-color':       '#ffffff',
           'border-width':       3,
@@ -747,11 +755,11 @@ async function initGraph() {
         selector: 'node:selected',
         style: {
           'label':              'data(label)',
-          'color':              '#ffffff',
+          'color':              '#0f172a',
           'text-outline-width': 2,
-          'text-outline-color': '#0f172a',
+          'text-outline-color': '#ffffff',
           'border-opacity':     1,
-          'border-color':       '#ffffff',
+          'border-color':       '#0f172a',
           'border-width':       3,
           'width':              '26px',
           'height':             '26px',
