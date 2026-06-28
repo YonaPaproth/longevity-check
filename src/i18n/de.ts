@@ -21,7 +21,7 @@ export const de = {
         { label: 'Stack Builder', href: '/stack-builder', desc: 'Supplement-Stack zusammenstellen' },
       ],
     },
-    researchReview:{ label: 'Neue Forschung',    href: '/research-review' },
+    researchReview:{ label: 'Studien',    href: '/research-review' },
     langSwitch:    { label: 'EN', href: '/en' },
   },
 

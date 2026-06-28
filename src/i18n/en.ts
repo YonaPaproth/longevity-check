@@ -23,7 +23,7 @@ export const en: Dict = {
         { label: 'Stack Builder', href: '/en/stack-builder', desc: 'Build your supplement stack' },
       ],
     },
-    researchReview:{ label: 'Research Review',  href: '/en/research-review' },
+    researchReview:{ label: 'Research',  href: '/en/research-review' },
     langSwitch:    { label: 'DE', href: '/' },
   },
 

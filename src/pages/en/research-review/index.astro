@@ -1,13 +1,14 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import ResearchWeeklyIllustration from '../../../components/illustrations/ResearchWeeklyIllustration.astro';
 
 const posts = await getCollection('enResearchReview');
 const sorted = posts.sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
 ---
 
 <BaseLayout
-  title="Research Review | MikroScore"
+  title="Research | MikroScore"
   description="New papers on supplements, nutrition, and evidence — curated for MikroScore."
   locale="en"
   hreflang={{ de: '/research-review', en: '/en/research-review' }}
@@ -16,10 +17,10 @@ const sorted = posts.sort((a, b) => b.data.publishedAt.getTime() - a.data.publis
     <div class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-8">
       <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.07),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(15,23,42,0.04),transparent_28%)]"></div>
       <div class="relative p-6">
-        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-3">Latest Research Reviews</div>
-        <h1 class="text-3xl font-bold text-slate-900 mb-2">Research Review</h1>
+        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-3">Weekly Study Reviews</div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">Research</h1>
         <p class="text-slate-600">
-          Weekly or ad-hoc overviews of new papers, meta-analyses, and clinical trial updates.
+          Weekly overviews of new papers, meta-analyses, and clinical trial updates — curated and assessed.
         </p>
       </div>
     </div>
@@ -28,15 +29,22 @@ const sorted = posts.sort((a, b) => b.data.publishedAt.getTime() - a.data.publis
       {sorted.map(post => (
         <a
           href={`/en/research-review/${post.data.slug}`}
-          class="block bg-white rounded-xl border border-slate-200 px-5 py-4 hover:border-teal-400 transition-all no-underline group"
+          class="flex gap-4 bg-white rounded-xl border border-slate-200 px-5 py-4 hover:border-teal-400 transition-all no-underline group"
         >
-          <div class="flex flex-wrap items-center justify-between gap-3 mb-1">
-            <p class="text-sm font-medium text-slate-700 group-hover:text-teal-700 mb-0.5">
-              {post.data.title}
-            </p>
-            <span class="text-xs text-slate-400">{post.data.publishedAt.toLocaleDateString('en-GB')}</span>
+          <div class="hidden sm:flex w-14 h-14 flex-shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-teal-50 to-slate-50 border border-slate-100">
+            <div class="w-10 h-10">
+              <ResearchWeeklyIllustration />
+            </div>
           </div>
-          <p class="text-xs text-slate-400">{post.data.summary}</p>
+          <div class="flex-1 min-w-0">
+            <div class="flex flex-wrap items-center justify-between gap-3 mb-1">
+              <p class="text-sm font-medium text-slate-700 group-hover:text-teal-700 mb-0.5">
+                {post.data.title}
+              </p>
+              <span class="text-xs text-slate-400">{post.data.publishedAt.toLocaleDateString('en-GB')}</span>
+            </div>
+            <p class="text-xs text-slate-400 line-clamp-2">{post.data.summary}</p>
+          </div>
         </a>
       ))}
     </div>
