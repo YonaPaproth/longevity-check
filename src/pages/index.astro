@@ -8,9 +8,13 @@ const ingredients = await getCollection('ingredients');
 const products = await getCollection('products');
 const claims = await getCollection('claims');
 
-// For the preview grid: show top 6 by evidenceLevel ascending (best evidence first)
+// For the preview grid: show top 6 by updatedAt descending (most recently updated first)
 const previewIngredients = [...ingredients]
-  .sort((a, b) => Number(a.data.evidenceLevel) - Number(b.data.evidenceLevel))
+  .sort((a, b) => {
+    const aDate = a.data.updatedAt ?? a.data.publishedAt;
+    const bDate = b.data.updatedAt ?? b.data.publishedAt;
+    return new Date(bDate).getTime() - new Date(aDate).getTime();
+  })
   .slice(0, 6);
 
 const previewClaims = [...claims]
