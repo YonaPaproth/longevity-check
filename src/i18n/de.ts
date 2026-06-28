@@ -14,8 +14,13 @@ export const de = {
     ingredients:   { label: 'Wirkstoffe',       href: '/wirkstoffe' },
     products:      { label: 'Produkte',          href: '/produkte' },
     methodology:   { label: 'Methodik',          href: '/methodik' },
-    graph:         { label: 'Wissensgraph',      href: '/graph' },
-    stackBuilder:  { label: 'Stack Builder',      href: '/stack-builder' },
+    tools: {
+      label: 'Tools',
+      items: [
+        { label: 'Wissensgraph', href: '/graph', desc: 'Interaktiver Knowledge Graph' },
+        { label: 'Stack Builder', href: '/stack-builder', desc: 'Supplement-Stack zusammenstellen' },
+      ],
+    },
     researchReview:{ label: 'Neue Forschung',    href: '/research-review' },
     langSwitch:    { label: 'EN', href: '/en' },
   },

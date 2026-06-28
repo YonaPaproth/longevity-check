@@ -16,8 +16,13 @@ export const en: Dict = {
     ingredients:   { label: 'Ingredients',     href: '/en/ingredients' },
     products:      { label: 'Products',         href: '/en/products' },
     methodology:   { label: 'Methodology',      href: '/en/methodology' },
-    graph:         { label: 'Knowledge Graph',  href: '/en/graph' },
-    stackBuilder:  { label: 'Stack Builder',     href: '/en/stack-builder' },
+    tools: {
+      label: 'Tools',
+      items: [
+        { label: 'Knowledge Graph', href: '/en/graph', desc: 'Interactive knowledge graph' },
+        { label: 'Stack Builder', href: '/en/stack-builder', desc: 'Build your supplement stack' },
+      ],
+    },
     researchReview:{ label: 'Research Review',  href: '/en/research-review' },
     langSwitch:    { label: 'DE', href: '/' },
   },
