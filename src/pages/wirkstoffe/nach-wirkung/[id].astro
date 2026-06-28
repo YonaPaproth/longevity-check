@@ -22,10 +22,20 @@ const ingredientIds = rels.relations
 const allIngredients = await getCollection('ingredients');
 const ingredientMap = new Map(allIngredients.map(i => [i.data.slug, i.data]));
 
+// Look up per-symptom confidence from each ingredient's outgoing relations
+const confidenceMap = new Map<string, number>();
+for (const slug of ingredientIds) {
+  try {
+    const ingRels = JSON.parse(readFileSync(`data/relations/by-entity/${slug}.json`, 'utf-8'));
+    const rel = ingRels.relations.find((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.target === id);
+    if (rel?.confidence) confidenceMap.set(slug, rel.confidence);
+  } catch {}
+}
+
 const matched = ingredientIds
   .map((slug: string) => ingredientMap.get(slug))
   .filter(Boolean)
-  .sort((a: any, b: any) => parseInt(a.evidenceLevel) - parseInt(b.evidenceLevel));
+  .sort((a: any, b: any) => (confidenceMap.get(b.slug) ?? 0) - (confidenceMap.get(a.slug) ?? 0));
 
 const symptomLabels: Record<string, string> = {
   'schlaf': 'Schlaf', 'energie': 'Energie', 'kognition': 'Kognition',
