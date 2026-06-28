@@ -25,33 +25,48 @@ Betreiber: Yona Paproth & Dr. Sarah Rahmati (Krefeld)
 
 ```
 data/
-  sources/ingredients/       # YAML Single Source of Truth (neue Architektur)
-  entities/ingredients/      # KG Entity JSONs (111 Stück)
-  relations/by-entity/       # KG Relations JSONs (169 Stück)
-  relations/by-type/         # KG Relations nach Typ (8 Stück)
+  sources/ingredients/       # YAML Single Source of Truth (112 Stück)
+  entities/ingredients/      # KG Entity JSONs (118 Stück)
+  entities/mechanisms/       # KG Mechanism Entities
+  entities/biomarkers/       # KG Biomarker Entities
+  entities/symptoms/         # KG Symptom + Kontraindikation Entities
+  entities/regulatory/       # KG Regulatory Entities (EFSA)
+  relations/by-entity/       # KG Relations JSONs (176 Stück)
+  relations/by-type/         # KG Relations nach Typ
   schema/                    # JSON + YAML Schemas
   scripts/                   # Generator + Migration Scripts
+  product-index.json         # Auto-generierter Produkt-Index (via scripts/product-index.cjs)
 src/
   content/
-    ingredients/             # 111 Wirkstoff-Dossiers (DE, MDX)
-    en/ingredients/          # 13 Wirkstoff-Dossiers (EN, MDX)
-    products/                # ~100 Produkt-Reviews (MDX)
-    claims/                  # 21 Claims-Checks (DE, MDX)
+    ingredients/             # 118 Wirkstoff-Dossiers (DE, MDX)
+    en/ingredients/          # 118 Wirkstoff-Dossiers (EN, MDX)
+    products/                # 265 Produkt-Reviews (DE, MDX)
+    en/products/             # 41 Produkt-Reviews (EN, MDX)
+    claims/                  # 19 Claims-Checks (DE, MDX)
     en/claims/               # 19 Claims-Checks (EN, MDX)
-    research-review/         # Wöchentliche Studienübersichten (MDX)
+    research-review/         # 4 Wöchentliche Studienübersichten (DE, MDX)
+    en/research-review/      # 3 Studienübersichten (EN, MDX)
   content.config.ts          # Zod-Schemas für alle Collections
   pages/
     wirkstoffe/              # Wirkstoff-Übersicht + Detail
     produkte/                # Produkt-Übersicht + Detail
     claims/                  # Claims-Check
-    research-review/         # Wöchentliche Research Reviews
+    research-review/         # Wöchentliche Studien-Reviews
     graph.astro              # Knowledge Graph Viewer
+    stack-builder.astro      # Supplement Stack Builder
     ernaehrungs-check.astro  # 10-Fragen-Check
-    interaktions-check.astro # Wechselwirkungen prüfen
-    en/                      # Englische Seiten
+    vegan-supplement-check   # Vegan-Check
+    en/                      # Englische Seiten (Spiegelstruktur)
   layouts/BaseLayout.astro   # Nav, Footer, Vercel Analytics, i18n
   lib/graph/                 # KG Library (TypeScript)
+  scripts/graph-viewer.ts    # KG Visualisierung (Cytoscape, structured layout)
   utils/scoring.ts           # compositeScore() + WEIGHTS
+  i18n/de.ts, en.ts          # Übersetzungen
+scripts/
+  product-index.cjs          # Generiert data/product-index.json
+  add-product.cjs            # Template-basierte Produkt-Erstellung (DE+EN)
+  pubmed-digest.js           # Wöchentlicher PubMed-Digest (Cron)
+  audit-dossiers.cjs         # Dossier-Qualitäts-Audit
 ```
 
 ---
@@ -59,7 +74,7 @@ src/
 ## Content-Schema (wichtigste Felder)
 
 ### ingredients
-- `category`: `nad-precursors | senolytics | antioxidants | adaptogens | metabolic | other`
+- `category`: `nad-precursors | senolytics | antioxidants | adaptogens | metabolic | cognitive | hormonal | general-health | other`
 - `evidenceLevel`: `'1'`–`'5'` (1 = stärkste Evidenz)
 - `safety_rating`: `safe | likely-safe | caution | insufficient-data`
 - `summary`: max. 200 Zeichen
@@ -72,14 +87,18 @@ src/
 
 ---
 
-## Aktueller Stand
+## Aktueller Stand (Juni 2026)
 
-- **111 Wirkstoff-Dossiers** (DE), **111 EN-Dossiers** (davon 90 noch NEEDS_EN-Platzhalter)
-- **~100 Produkt-Reviews** mit Affiliate-Links
-- **21 Claims-Checks** (DE), **19 EN**
-- **2 Research Reviews** (wöchentliche Studienübersichten)
-- **Knowledge Graph** mit 168 Entities, 1.429 Relationen
-- Ernährungs-Check, Interaktions-Check, Vegan-Check
+- **118 Wirkstoff-Dossiers** (DE + EN)
+- **265 Produkt-Reviews** (DE), 41 EN — 45 Vendors
+- **19 Claims-Checks** (DE + EN)
+- **4 Research Reviews** (wöchentliche Studienübersichten, DE), 3 EN
+- **Knowledge Graph** mit 215 Entities, 176 Relations-Dateien
+- **742 Seiten** total
+- **Checks:** Ernährungs-Check, Vegan-Check, Claims-Check (alle im Checks-Dropdown)
+- **Tools:** Wissensgraph, Stack Builder (im Tools-Dropdown)
+- **Nav:** Checks ▾ | Wirkstoffe | Produkte | Tools ▾ | Methodik | Studien
+- **Kategorien:** nad-precursors, senolytics, antioxidants, adaptogens, metabolic, cognitive, hormonal, general-health, other
 - Flow: Check → Dossier → Produkte vollständig verknüpft
 
 ---
@@ -155,9 +174,12 @@ pnpm build
 
 | # | Task | Priorität |
 |---|------|-----------|
-| 1 | Impressum-Adresse auf e.V. oder Briefkastendienst (Digitalcourage) verlegen | niedrig |
-| 2 | Affiliate-Links zu Produkten hinzufügen (Amazon.de, iHerb) — erst wenn Traffic da | niedrig |
-| 3 | Wirkstoff-Merkzettel: Nutzer markiert interessante Wirkstoffe → Produkte nach Match-Score filtern (localStorage, kein Login) | mittel |
+| 1 | EN-Übersetzung: ~224 Produkt-Reviews fehlen noch auf EN | hoch |
+| 2 | Kinder-Nährstoff-Check (`/kinder-check`, `/en/children-check`) | mittel |
+| 3 | Wirkstoff-Merkzettel: Nutzer markiert Wirkstoffe → Produkte filtern (localStorage) | mittel |
+| 4 | Impressum-Adresse auf e.V. oder Briefkastendienst verlegen | niedrig |
+| 5 | Affiliate-Links zu Produkten (Amazon.de, iHerb) — erst bei Traffic | niedrig |
+| 6 | Citrus Bergamot als Wirkstoff-Dossier anlegen | niedrig |
 
 ---
 
