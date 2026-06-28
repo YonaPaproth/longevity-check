@@ -32,7 +32,6 @@ const navLinks = [
   dict.nav.checks,
   dict.nav.ingredients,
   dict.nav.products,
-  dict.nav.claimsCheck,
   dict.nav.methodology,
   dict.nav.graph,
   dict.nav.stackBuilder,
@@ -164,7 +163,7 @@ const homeHref = dict.nav.home;
           <p>{dict.footer.tagline}</p>
         </div>
         <div class="flex gap-6">
-          <a href={dict.nav.claimsCheck.href} class="hover:text-teal-700">{dict.footer.claimsCheck}</a>
+          <a href={dict.nav.checks.items[2].href} class="hover:text-teal-700">{dict.footer.claimsCheck}</a>
           <a href={dict.nav.methodology.href} class="hover:text-teal-700">{dict.footer.methodology}</a>
           <a href="/impressum" class="hover:text-teal-700">{dict.footer.legalNotice}</a>
           <a href="/datenschutz" class="hover:text-teal-700">{dict.footer.privacy}</a>

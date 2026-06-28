@@ -8,11 +8,11 @@ export const de = {
       items: [
         { label: 'Ernährungs-Check', href: '/ernaehrungs-check', desc: 'Allgemeiner Nährstoff-Risikotest' },
         { label: 'Vegan-Check', href: '/vegan-supplement-check', desc: 'Speziell für pflanzliche Ernährung' },
+        { label: 'Claims-Check', href: '/claims', desc: 'Werbeversprechen auf dem Prüfstand' },
       ],
     },
     ingredients:   { label: 'Wirkstoffe',       href: '/wirkstoffe' },
     products:      { label: 'Produkte',          href: '/produkte' },
-    claimsCheck:   { label: 'Claims-Check',      href: '/claims' },
     methodology:   { label: 'Methodik',          href: '/methodik' },
     graph:         { label: 'Wissensgraph',      href: '/graph' },
     stackBuilder:  { label: 'Stack Builder',      href: '/stack-builder' },

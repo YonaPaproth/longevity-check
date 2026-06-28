@@ -10,11 +10,11 @@ export const en: Dict = {
       items: [
         { label: 'Nutrient Check', href: '/en/nutrient-check', desc: 'General nutrient risk assessment' },
         { label: 'Vegan Check', href: '/en/vegan-supplement-check', desc: 'Tailored for plant-based diets' },
+        { label: 'Claims Check', href: '/en/claims', desc: 'Marketing claims put to the test' },
       ],
     },
     ingredients:   { label: 'Ingredients',     href: '/en/ingredients' },
     products:      { label: 'Products',         href: '/en/products' },
-    claimsCheck:   { label: 'Claims Check',     href: '/en/claims' },
     methodology:   { label: 'Methodology',      href: '/en/methodology' },
     graph:         { label: 'Knowledge Graph',  href: '/en/graph' },
     stackBuilder:  { label: 'Stack Builder',     href: '/en/stack-builder' },
