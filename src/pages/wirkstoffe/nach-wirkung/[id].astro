@@ -6,7 +6,9 @@ import { readFileSync } from 'fs';
 
 export async function getStaticPaths() {
   const indexData = JSON.parse(readFileSync('data/index.json', 'utf-8'));
-  return (indexData.symptoms as string[]).map(id => ({ params: { id } }));
+  return (indexData.symptoms as string[])
+    .filter((id: string) => !id.startsWith('kontra-') && !id.startsWith('nw-'))
+    .map(id => ({ params: { id } }));
 }
 
 const { id } = Astro.params;

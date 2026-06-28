@@ -351,3 +351,9 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:23853635"
+  - relation: wird_eingesetzt_fuer
+    target: schmerz
+    direction: outgoing
+    confidence: 0.5
+    evidence_strength: niedrig
+    note: "Hinweise auf Migraene-Prophylaxe bei Mangel"

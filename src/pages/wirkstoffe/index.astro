@@ -7,7 +7,7 @@ import { readFileSync } from 'fs';
 
 // Load KG data
 const indexData = JSON.parse(readFileSync('data/index.json', 'utf-8'));
-const symptoms = indexData.symptoms as string[];
+const symptoms = (indexData.symptoms as string[]).filter(id => !id.startsWith('kontra-') && !id.startsWith('nw-'));
 
 // Load all symptom entities + their relations
 const symptomData = symptoms.map(id => {

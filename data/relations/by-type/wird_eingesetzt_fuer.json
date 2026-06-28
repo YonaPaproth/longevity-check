@@ -1,6 +1,6 @@
 {
   "type": "wird_eingesetzt_fuer",
-  "count": 546,
+  "count": 552,
   "relations": [
     {
       "subject": "5-htp",
@@ -523,6 +523,13 @@
       "subject": "curcumin",
       "target": "migraene",
       "confidence": 0.7
+    },
+    {
+      "subject": "curcumin",
+      "target": "schmerz",
+      "confidence": 0.7,
+      "evidence_strength": "moderat",
+      "note": "Meta-Analysen zeigen moderate Schmerzreduktion bei Arthrose und chronischen Schmerzen"
     },
     {
       "subject": "dl-phenylalanin",
@@ -1535,6 +1542,13 @@
       "confidence": 0.7
     },
     {
+      "subject": "magnesium",
+      "target": "schmerz",
+      "confidence": 0.5,
+      "evidence_strength": "niedrig",
+      "note": "Hinweise auf Migraene-Prophylaxe bei Mangel"
+    },
+    {
       "subject": "mangan",
       "target": "energie",
       "confidence": 0.7
@@ -1755,6 +1769,13 @@
       "confidence": 0.7
     },
     {
+      "subject": "omega-3",
+      "target": "schmerz",
+      "confidence": 0.6,
+      "evidence_strength": "moderat",
+      "note": "Entzuendungshemmende Effekte koennen chronische Schmerzen modulieren"
+    },
+    {
       "subject": "phosphatidylserin",
       "target": "kognition",
       "confidence": 0.7
@@ -1833,6 +1854,13 @@
       "subject": "probiotika",
       "target": "alterung",
       "confidence": 0.7
+    },
+    {
+      "subject": "probiotika",
+      "target": "blase",
+      "confidence": 0.5,
+      "evidence_strength": "niedrig",
+      "note": "Einzelne Studien zu Harnwegsinfekt-Praevention bei Frauen"
     },
     {
       "subject": "pterostilben",
@@ -2118,6 +2146,13 @@
       "subject": "selen",
       "target": "fertilitat",
       "confidence": 0.7
+    },
+    {
+      "subject": "selen",
+      "target": "prostata",
+      "confidence": 0.6,
+      "evidence_strength": "moderat",
+      "note": "Prospektive Studien zeigen inverse Assoziation zwischen Selenstatus und BPH-Risiko"
     },
     {
       "subject": "shilajit",
@@ -2748,6 +2783,13 @@
       "subject": "zink",
       "target": "fertilitat",
       "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "prostata",
+      "confidence": 0.6,
+      "evidence_strength": "moderat",
+      "note": "Prostatagewebe hat hohe Zinkkonzentration; Supplementierung bei Mangel relevant fuer Prostatagesundheit"
     }
   ]
 }

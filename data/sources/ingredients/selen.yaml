@@ -242,3 +242,9 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:23746916"
+  - relation: wird_eingesetzt_fuer
+    target: prostata
+    direction: outgoing
+    confidence: 0.6
+    evidence_strength: moderat
+    note: "Prospektive Studien zeigen inverse Assoziation zwischen Selenstatus und BPH-Risiko"

@@ -95,6 +95,14 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:42144109"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schmerz",
+      "direction": "outgoing",
+      "confidence": 0.6,
+      "evidence_strength": "moderat",
+      "note": "Entzuendungshemmende Effekte koennen chronische Schmerzen modulieren"
     }
   ]
 }

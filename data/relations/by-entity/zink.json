@@ -112,6 +112,14 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:18385819"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "prostata",
+      "direction": "outgoing",
+      "confidence": 0.6,
+      "evidence_strength": "moderat",
+      "note": "Prostatagewebe hat hohe Zinkkonzentration; Supplementierung bei Mangel relevant fuer Prostatagesundheit"
     }
   ]
 }

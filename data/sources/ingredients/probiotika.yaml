@@ -317,3 +317,9 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:23384445"
+  - relation: wird_eingesetzt_fuer
+    target: blase
+    direction: outgoing
+    confidence: 0.5
+    evidence_strength: niedrig
+    note: "Einzelne Studien zu Harnwegsinfekt-Praevention bei Frauen"

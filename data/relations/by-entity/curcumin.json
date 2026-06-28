@@ -233,6 +233,14 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:26007572"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "schmerz",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "evidence_strength": "moderat",
+      "note": "Meta-Analysen zeigen moderate Schmerzreduktion bei Arthrose und chronischen Schmerzen"
     }
   ]
 }
