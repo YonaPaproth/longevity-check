@@ -13,16 +13,31 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <!-- Header -->
     <div class="mb-5">
       <h1 class="text-2xl font-bold text-slate-900">Wissensgraph</h1>
-      <p class="text-sm text-slate-500 mt-1">
-        Verbindungen zwischen
-        <span class="font-medium text-teal-700">Wirkstoffen</span>,
-        <span class="font-medium text-blue-600">Mechanismen</span>,
-        <span class="font-medium text-orange-500">Symptomen</span>,
-        <span class="font-medium text-red-500">Kontraindikationen</span> und
-        <span class="font-medium text-amber-600">Regulatorik</span>.
-        Knoten anklicken für Details.
+      <p class="text-sm text-slate-500 mt-1 max-w-2xl">
+        Der MikroScore-Wissensgraph zeigt, wie Wirkstoffe, Mechanismen, Symptome und regulatorische Einordnungen zusammenhängen — basierend auf unseren Dossiers und der aktuellen Studienlage.
       </p>
     </div>
+
+    <!-- How to use -->
+    <details class="mb-5 group">
+      <summary class="text-xs font-medium text-teal-700 cursor-pointer hover:text-teal-900 select-none">
+        So funktioniert der Graph ↓
+      </summary>
+      <div class="mt-2 text-xs text-slate-500 leading-relaxed max-w-2xl space-y-1.5 pl-1">
+        <p><strong class="text-slate-600">Knoten anklicken</strong> — öffnet Details und den Link zum Dossier.</p>
+        <p><strong class="text-slate-600">Suche</strong> — filtert den Graphen nach Name oder Alias (z.B. „Omega-3" oder „Curcumin").</p>
+        <p><strong class="text-slate-600">Typ-Filter</strong> — blendet einzelne Kategorien ein oder aus.</p>
+        <p><strong class="text-slate-600">Farben:</strong>
+          <span class="font-medium text-teal-700">Wirkstoffe</span> ·
+          <span class="font-medium text-blue-600">Mechanismen</span> ·
+          <span class="font-medium text-violet-600">Biomarker</span> ·
+          <span class="font-medium text-orange-500">Symptome</span> ·
+          <span class="font-medium text-red-500">Kontraindikationen</span> ·
+          <span class="font-medium text-amber-600">Regulatorik</span>
+        </p>
+        <p>Aktuell <strong class="text-slate-600">{'>'}200 Knoten</strong> und hunderte Verbindungen aus unseren Wirkstoff-Dossiers.</p>
+      </div>
+    </details>
 
     <!-- Controls -->
     <div class="flex flex-col sm:flex-row gap-3 mb-4">

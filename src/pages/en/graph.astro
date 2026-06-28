@@ -13,16 +13,31 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <!-- Header -->
     <div class="mb-5">
       <h1 class="text-2xl font-bold text-slate-900">Knowledge Graph</h1>
-      <p class="text-sm text-slate-500 mt-1">
-        Connections between
-        <span class="font-medium text-teal-700">ingredients</span>,
-        <span class="font-medium text-blue-600">mechanisms</span>,
-        <span class="font-medium text-orange-500">symptoms</span>,
-        <span class="font-medium text-red-500">contraindications</span>, and
-        <span class="font-medium text-amber-600">regulatory</span> assessments.
-        Click a node to see details.
+      <p class="text-sm text-slate-500 mt-1 max-w-2xl">
+        The MikroScore knowledge graph maps how ingredients, mechanisms, symptoms, and regulatory assessments connect — based on our dossiers and current evidence.
       </p>
     </div>
+
+    <!-- How to use -->
+    <details class="mb-5 group">
+      <summary class="text-xs font-medium text-teal-700 cursor-pointer hover:text-teal-900 select-none">
+        How to use the graph ↓
+      </summary>
+      <div class="mt-2 text-xs text-slate-500 leading-relaxed max-w-2xl space-y-1.5 pl-1">
+        <p><strong class="text-slate-600">Click a node</strong> — opens details and a link to the full dossier.</p>
+        <p><strong class="text-slate-600">Search</strong> — filters the graph by name or alias (e.g. "Omega-3" or "Curcumin").</p>
+        <p><strong class="text-slate-600">Type filters</strong> — show or hide specific categories.</p>
+        <p><strong class="text-slate-600">Colors:</strong>
+          <span class="font-medium text-teal-700">Ingredients</span> ·
+          <span class="font-medium text-blue-600">Mechanisms</span> ·
+          <span class="font-medium text-violet-600">Biomarkers</span> ·
+          <span class="font-medium text-orange-500">Symptoms</span> ·
+          <span class="font-medium text-red-500">Contraindications</span> ·
+          <span class="font-medium text-amber-600">Regulatory</span>
+        </p>
+        <p>Currently <strong class="text-slate-600">{'>'}200 nodes</strong> and hundreds of connections from our ingredient dossiers.</p>
+      </div>
+    </details>
 
     <!-- Controls -->
     <div class="flex flex-col sm:flex-row gap-3 mb-4">
