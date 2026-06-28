@@ -25,31 +25,19 @@ efsa_notes:
     The EU has not approved any health claims for SAMe regarding mood, joints, or liver function. Due to its pharmacological nature, sober and accurate representation is particularly important.
 
 key_studies:
-  - pmid: "20595412"
-    title: "S-adenosylmethionine in depression"
-    authors: "Papakostas GI et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20595412/"
+  - ref: pmid-20595412
     finding:
       de: >-
         Kontrollierte Daten zeigen Nutzen bei depressive Symptome, auch als Add-on in bestimmten Settings.
       en: >-
         Controlled data demonstrate benefit for depressive symptoms, including as add-on therapy in certain clinical settings.
-  - pmid: "12472441"
-    title: "SAMe for osteoarthritis"
-    authors: "Soeken KL et al."
-    year: 2002
-    url: "https://pubmed.ncbi.nlm.nih.gov/12472441/"
+  - ref: pmid-12472441
     finding:
       de: >-
         Meta-Analyse mit Hinweisen auf symptomatische Vorteile im Gelenk-Kontext.
       en: >-
         Meta-analysis provides evidence for symptomatic benefits in joint-related contexts.
-  - pmid: "12062105"
-    title: "S-adenosylmethionine: from biochemistry to clinical use"
-    authors: "Mischoulon D et al."
-    year: 2002
-    url: "https://pubmed.ncbi.nlm.nih.gov/12062105/"
+  - ref: pmid-12062105
     finding:
       de: >-
         Review: klinisch interessanter Stoff mit echter Substanz, aber nicht ohne Interaktions- und Sicherheitsfragen.

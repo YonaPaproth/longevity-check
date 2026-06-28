@@ -26,31 +26,19 @@ efsa_notes:
     In the EU, there are no substantiated approved health claims for silicon regarding beauty, skin, or connective tissue promises. Most claims are marketing rather than regulatory science.
 
 key_studies:
-  - pmid: "17435952"
-    title: "The role of silicon in bone formation and maintenance"
-    authors: "Jugdaohsingh R"
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17435952/"
+  - ref: pmid-17435952
     finding:
       de: >-
         Review: Silicium ist biologisch plausibel für Knochen und Bindegewebe, aber die klinische Evidenz bleibt begrenzt.
       en: >-
         Review: Silicon is biologically plausible for bone and connective tissue, but clinical evidence in humans remains limited.
-  - pmid: "15701098"
-    title: "Oral intake of choline-stabilized orthosilicic acid affects skin, nails and hair"
-    authors: "Barel A et al."
-    year: 2005
-    url: "https://pubmed.ncbi.nlm.nih.gov/15701098/"
+  - ref: pmid-15701098
     finding:
       de: >-
         Kleine Studie mit Hinweisen auf Verbesserungen bei Haut und fragilen Haaren. Aussagekraft begrenzt.
       en: >-
         Small study with hints of improvements in skin and brittle hair quality, though the evidential weight is limited.
-  - pmid: "18197562"
-    title: "Silicon: a review of its potential role in the prevention and treatment of postmenopausal osteoporosis"
-    authors: "Spector TD et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18197562/"
+  - ref: pmid-18197562
     finding:
       de: >-
         Review: Potenzial vorhanden, aber klare klinische Belege fehlen.

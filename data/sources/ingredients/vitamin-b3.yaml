@@ -26,31 +26,19 @@ efsa_notes:
     In the EU, niacin has approved health claims for energy metabolism, mental function, skin and nervous system support. However, high-dose products may be assessed differently both regulatorily and for safety compared to standard supplements.
 
 key_studies:
-  - pmid: "23676243"
-    title: "Niacin in cardiovascular disease: recent preclinical and clinical developments"
-    authors: "Guyton JR et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23676243/"
+  - ref: pmid-23676243
     finding:
       de: >-
         Review: Niacin war mit Veränderungen verbunden Lipidmarker, klinischer Zusatznutzen in der modernen Statin-Ära ist aber begrenzt und Nebenwirkungen sind häufig.
       en: >-
         Review: Niacin was associated with lipid marker changes, but clinical added benefit in the modern statin era is limited and side effects are common.
-  - pmid: "25014686"
-    title: "HPS2-THRIVE randomized placebo-controlled trial in 25,673 high-risk patients of ER niacin/laropiprant"
-    authors: "Landray MJ et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/25014686/"
+  - ref: pmid-25014686
     finding:
       de: >-
         Große Studie: Trotz günstiger Effekte auf HDL/Triglyceride kein überzeugender klinischer Vorteil, dafür mehr Nebenwirkungen.
       en: >-
         Large trial: Despite favorable effects on HDL and triglycerides, no convincing clinical advantage was demonstrated, with more side effects observed.
-  - pmid: "18454811"
-    title: "Niacin"
-    authors: "Bogan KL et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18454811/"
+  - ref: pmid-18454811
     finding:
       de: >-
         Review zu Biochemie und Stoffwechsel: Niacin ist zentral für NAD/NADP und damit für Energie- und Redoxstoffwechsel.

@@ -27,41 +27,25 @@ efsa_notes:
     No EFSA health claims are approved for betaine. Homocysteine-related claims are not permitted for betaine; B vitamins (B6, B12, folate) hold those claims.
 
 key_studies:
-  - pmid: "23459753"
-    title: "Betaine supplementation enhances anabolic endocrine and Akt signaling"
-    authors: "Apicella JM et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23459753/"
+  - ref: pmid-23459753
     finding:
       de: >-
         RCT (n=12): 2,5 g/Tag Betain zeigte in Studien Veränderungen bei anabolen Hormonsignalen nach Krafttraining.
       en: >-
         RCT (n=12): 2.5 g/day betaine showed changes in anabolic hormone signaling and mTOR/Akt pathways post-resistance training."
-  - pmid: "23374455"
-    title: "Effects of betaine supplementation on muscle strength and power"
-    authors: "Cholewa JM et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23374455/"
+  - ref: pmid-23374455
     finding:
       de: >-
         RCT (n=23): 2,5 g/Tag über 14 Tage – moderate Verbesserungen bei Kraftleistung und Körperzusammensetzung versus Placebo.
       en: >-
         RCT (n=23): 2.5 g/day for 14 days showed moderate improvements in strength performance and body composition vs. placebo."
-  - pmid: "21969991"
-    title: "Betaine supplementation and exercise performance"
-    authors: "Trepanowski JF et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21969991/"
+  - ref: pmid-21969991
     finding:
       de: >-
         RCT (n=24): 2,5 g/Tag über 15 Tage – Verbesserungen bei Kraft und Ausdauerleistung in einigen, aber nicht allen gemessenen Parametern.
       en: >-
         RCT (n=24): 2.5 g/day for 15 days improved some strength and endurance metrics but not others; results inconsistent."
-  - pmid: "15655131"
-    title: "Effect of betaine on homocysteine concentrations"
-    authors: "Olthof MR, Verhoef P"
-    year: 2005
-    url: "https://pubmed.ncbi.nlm.nih.gov/15655131/"
+  - ref: pmid-15655131
     finding:
       de: >-
         Kontrollierte Studie: 6 g/Tag Betain senkte Homocystein-Plasmaspiegel; Effekt war bei gleichzeitig hohem Methionin-Konsum stärker ausgeprägt.

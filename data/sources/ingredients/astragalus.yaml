@@ -25,31 +25,19 @@ efsa_notes:
     The EFSA has not approved health claims for Astragalus regarding immune boosting, telomeres, or aging research.
 
 key_studies:
-  - pmid: "26901749"
-    title: "Astragalus membranaceus in immunomodulation"
-    authors: "Auyeung KK et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/26901749/"
+  - ref: pmid-26901749
     finding:
       de: >-
         Review: präklinisch interessant, klinische Evidenz bleibt begrenzt.
       en: >-
         Review: Preclinically interesting mechanisms in immunomodulation, but clinical evidence in humans remains limited.
-  - pmid: "22899991"
-    title: "Astragalus and healthy aging claims"
-    authors: "Block KI"
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22899991/"
+  - ref: pmid-22899991
     finding:
       de: >-
         Telomer- und gesundes Altern-Marketing geht den Daten deutlich voraus.
       en: >-
         Telomere and healthy aging marketing significantly outpaces available evidence."
-  - pmid: "24344415"
-    title: "Herbal medicine and telomerase activation"
-    authors: "Mokbel K et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/24344415/"
+  - ref: pmid-24344415
     finding:
       de: >-
         Telomerase-Narrative sind spannend, aber klinisch weit von gesicherter Relevanz entfernt.

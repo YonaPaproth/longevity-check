@@ -27,51 +27,31 @@ efsa_notes:
     EFSA has approved claims for EPA+DHA (250 mg/day): normal heart function, normal brain function (DHA), normal vision (DHA). Substantiated under the EU's most rigorous standards.
 
 key_studies:
-  - pmid: "30415628"
-    title: "Cardiovascular Risk Reduction with Icosapentaenoic Acid for Hypertriglyceridemia (REDUCE-IT)"
-    authors: "Bhatt DL et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/30415628/"
+  - ref: pmid-30415628
     finding:
       de: >-
         RCT (n=8.179): Hochdosiertes EPA 4 g/Tag reduzierte schwere kardiovaskuläre Ereignisse um 25% vs. Placebo bei Patienten mit erhöhten Triglyzeriden und Statin-Therapie.
       en: >-
         RCT (n=8,179): High-dose EPA 4 g/day reduced major cardiovascular events by 25% vs. placebo in patients with elevated triglycerides on statin therapy.
-  - pmid: "31537771"
-    title: "Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer (VITAL)"
-    authors: "Manson JE et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/31537771/"
+  - ref: pmid-31537771
     finding:
       de: >-
         RCT (n=25.871): Omega-3 1 g/Tag ohne signifikante Reduktion kardiovaskulärer Ereignisse in der Primärprävention, aber weniger Myokardinfarkte (–28%).
       en: >-
         RCT (n=25,871): Omega-3 1 g/day showed no significant reduction in overall cardiovascular events in primary prevention, but myocardial infarctions fell by 28%.
-  - pmid: "33387437"
-    title: "Effect of Omega-3 Dosage on Cardiovascular Outcomes: An Updated Meta-Analysis"
-    authors: "Bernasconi AA et al."
-    year: 2021
-    url: "https://pubmed.ncbi.nlm.nih.gov/33387437/"
+  - ref: pmid-33387437
     finding:
       de: >-
         Metaanalyse von 40 RCTs: Omega-3 senkt Triglyzeride zuverlässig um 25–30%; kardiovaskulärer Nutzen dosisabhängig und am stärksten bei mehr als 1 g/Tag EPA+DHA.
       en: >-
         Meta-analysis of 40 RCTs: omega-3 reliably reduces triglycerides by 25–30%; cardiovascular benefit is dose-dependent and strongest above 1 g/day EPA+DHA.
-  - pmid: "31980092"
-    title: "Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular Events in Patients at High Cardiovascular Risk (STRENGTH)"
-    authors: "Nicholls SJ et al."
-    year: 2020
-    url: "https://pubmed.ncbi.nlm.nih.gov/31980092/"
+  - ref: pmid-31980092
     finding:
       de: >-
         RCT (n=13.078): Hochdosiertes EPA+DHA (4 g/Tag) keine signifikante Reduktion schwerer CV-Ereignisse vs. Kontrollöl. Kontroverse zum Vergleich mit REDUCE-IT (unterschiedliche Placebos).
       en: >-
         RCT (n=13,078): High-dose EPA+DHA (4 g/day) showed no significant reduction in major CV events vs. control oil. Controversy persists about differing placebo oils compared with REDUCE-IT.
-  - pmid: "42277453"
-    title: "Comparative Efficacy of Nutraceuticals on Endothelial Function: A Systematic Review and Network Meta-Analysis"
-    authors: "Norouzzadeh M et al."
-    year: 2026
-    url: "https://pubmed.ncbi.nlm.nih.gov/42277453/"
+  - ref: pmid-42277453
     finding:
       de: >-
         Netzwerk-Meta-Analyse: Vergleich von Nutraceuticals auf Endothelfunktion (FMD) bei CVD/Hypertonie. Omega-3 verbesserte FMD signifikant (MD: 1,83), lag aber deutlich hinter Magnesium (MD: 8,17; hohe Evidenzqualität), Vitamin D3 (MD: 7,84; hoch) und Leinsamen (MD: 7,39; niedrig). Omega-3 erhielt nur sehr niedrige Evidenzqualität (CoE: Very low). Zeigt: Omega-3 wirkt auf Gefäßfunktion, ist aber nicht die stärkste Option.

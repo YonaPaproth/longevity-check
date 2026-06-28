@@ -25,31 +25,19 @@ efsa_notes:
     EU health claims for riboflavin are approved for contribution to normal energy metabolism, nervous system function, red blood cell formation, skin and hair maintenance, vision, and protection against oxidative stress. All relate to normal physiological function.
 
 key_studies:
-  - pmid: "9484373"
-    title: "Effectiveness of high-dose riboflavin in migraine prophylaxis"
-    authors: "Schoenen J et al."
-    year: 1998
-    url: "https://pubmed.ncbi.nlm.nih.gov/9484373/"
+  - ref: pmid-9484373
     finding:
       de: >-
         RCT: 400 mg Riboflavin pro Tag reduzierten Migräneattacken gegenüber Placebo. Einer der bekanntesten klinischen Einsatzbereiche von hochdosiertem B2.
       en: >-
         RCT (N=55): 400 mg riboflavin daily reduced migraine attack frequency by ~67% versus placebo over 3 months. One of the best-established high-dose B2 clinical applications, though responder rates vary widely (40–60% in replicated studies).
-  - pmid: "12791609"
-    title: "Riboflavin"
-    authors: "Powers HJ"
-    year: 2003
-    url: "https://pubmed.ncbi.nlm.nih.gov/12791609/"
+  - ref: pmid-12791609
     finding:
       de: >-
         Review zu Biochemie, Bedarf und Mangelsymptomen von Riboflavin. B2 ist für Redoxreaktionen und Energiegewinnung essenziell.
       en: >-
         Review of riboflavin biochemistry, physiological requirements, and deficiency symptoms. B2 is essential for redox reactions in the electron transport chain and ATP synthesis.
-  - pmid: "28273806"
-    title: "Riboflavin deficiency in the developed world"
-    authors: "Pinto JT et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28273806/"
+  - ref: pmid-28273806
     finding:
       de: >-
         Review: Auch in Industrieländern kann ein suboptimaler B2-Status vorkommen, jedoch meist ohne dramatische klinische Symptome.

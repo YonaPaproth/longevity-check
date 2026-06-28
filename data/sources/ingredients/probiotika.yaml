@@ -27,51 +27,31 @@ efsa_notes:
     EFSA has rejected all submitted health claims for probiotics because effects are strain-specific and generic 'probiotic' claims cannot be substantiated. This reflects regulatory standards for general claims, not absence of efficacy for specific strains.
 
 key_studies:
-  - pmid: "22570464"
-    title: "Probiotics for the prevention of antibiotic-associated diarrhea: meta-analysis"
-    authors: "Hempel S et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22570464/"
+  - ref: pmid-22570464
     finding:
       de: >-
         Meta-Analyse (63 RCTs, n=11.811): Probiotika reduzierten Antibiotika-assoziierte Diarrhö um 42% (RR 0,58). Stärkste Evidenz für Lactobacillus rhamnosus GG und Saccharomyces boulardii CNCM I-745.
       en: >-
         Meta-analysis (63 RCTs, n=11,811): Probiotics reduced antibiotic-associated diarrhea by 42% (RR 0.58). Strongest evidence for Lactobacillus rhamnosus GG and Saccharomyces boulardii CNCM I-745.
-  - pmid: "24574972"
-    title: "Probiotics and irritable bowel syndrome: systematic review and meta-analysis"
-    authors: "Ford AC et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/24574972/"
+  - ref: pmid-24574972
     finding:
       de: >-
         Meta-Analyse (43 RCTs): Probiotika reduzierten IBS-Symptome und Bauchschmerzen signifikant vs. Placebo. NNT ca. 7. Effekte stammabhängig; kein einzelner überlegener Stamm identifiziert.
       en: >-
         Meta-analysis (43 RCTs): Probiotics significantly reduced IBS symptoms and abdominal pain vs. placebo. NNT approximately 7. Effects strain-dependent; no single superior strain identified.
-  - pmid: "24492253"
-    title: "Expert consensus document: The ISAPP consensus statement on the scope and appropriate use of the term probiotic"
-    authors: "Hill C et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/24492253/"
+  - ref: pmid-24492253
     finding:
       de: >-
         ISAPP-Konsens: WHO-Definition von Probiotika präzisiert. Stammspezifität, ausreichende Dosierung und Lebensfähigkeit am Wirkort sind Mindestanforderungen für eine korrekte Probiotika-Bezeichnung.
       en: >-
         ISAPP consensus: Refined WHO definition of probiotics. Strain specificity, adequate dosing, and viability at the site of action are minimum requirements for correct probiotic designation.
-  - pmid: "27559846"
-    title: "Gut microbiome and aging: physiological and mechanistic insights"
-    authors: "Biagi E et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/27559846/"
+  - ref: pmid-27559846
     finding:
       de: >-
         Review: Mikrobiom verändert sich mit dem Alter — weniger Diversität, mehr inflammatorische Stämme. Centenariere haben eine charakteristische, diversere Zusammensetzung. Kausalrichtung unklar.
       en: >-
         Review: The microbiome changes with age—reduced diversity, increased inflammatory strains. Centenarians have a characteristically more diverse composition. Causal direction unclear.
-  - pmid: "23384445"
-    title: "Gut-brain axis: how the microbiome influences anxiety and depression"
-    authors: "Foster JA & McVey Neufeld KA"
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23384445/"
+  - ref: pmid-23384445
     finding:
       de: >-
         Review: Darm-Hirn-Achse bidirektional. Darmbakterien produzieren Serotonin-Vorläufer (ca. 90% des Körper-Serotonins werden im Darm produziert), modulieren Stressachse. Angstreduktion in Tier- und kleinen Humanstudien.

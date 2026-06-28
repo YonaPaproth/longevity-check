@@ -25,11 +25,7 @@ efsa_notes:
     In the EU, pantothenic acid is approved for claims regarding normal energy metabolism, mental performance, and synthesis of steroid hormones, vitamin D, and neurotransmitters. These approved claims do not imply that higher doses provide additional benefit beyond normal requirements.
 
 key_studies:
-  - pmid: "8595692"
-    title: "Pantothenic acid"
-    authors: "Plesofsky-Vig N"
-    year: 1996
-    url: "https://pubmed.ncbi.nlm.nih.gov/8595692/"
+  - ref: pmid-8595692
     finding:
       de: >-
         Review zu Biochemie und Bedarf: Pantothensäure ist als Vorstufe von Coenzym A fundamental für den Stoffwechsel, echter Mangel aber selten.
@@ -45,11 +41,7 @@ key_studies:
         Übersicht zu Bedarf, Lebensmitteln, Sicherheit und Mangel. Supplemente sind bei normaler Ernährung meist nicht nötig.
       en: >-
         Overview of requirements, food sources, safety, and deficiency. Supplements are usually unnecessary with a normal, mixed diet.
-  - pmid: "17119255"
-    title: "Vitamin deficiencies in elderly people"
-    authors: "Lesourd B"
-    year: 2006
-    url: "https://pubmed.ncbi.nlm.nih.gov/17119255/"
+  - ref: pmid-17119255
     finding:
       de: >-
         Review: Klassische Mängel einzelner Vitamine sind bei gemischter Ernährung selten; der Nutzen von B5-Supplementen bei Gesunden ist kaum untersucht.

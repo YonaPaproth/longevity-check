@@ -35,11 +35,7 @@ efsa_notes:
     and subject to corresponding authorisation requirements.
 
 key_studies:
-  - pmid: "25905295"
-    title: "Resveratrol bioavailability and kinetics in humans: a randomized controlled study"
-    authors: "Walle T et al."
-    year: 2004
-    url: "https://pubmed.ncbi.nlm.nih.gov/25905295/"
+  - ref: pmid-25905295
     finding:
       de: >-
         RCT, n=6: Oral verabreichtes Resveratrol (25 mg) wurde zu ~70 % absorbiert,
@@ -55,11 +51,7 @@ key_studies:
         2 hours. Conjugated metabolites accumulate at higher concentrations but their
         biological activity does not replicate that of the parent compound.
 
-  - pmid: "26975060"
-    title: "Effects of resveratrol on cardiovascular risk factors: a meta-analysis"
-    authors: "Sahebkar A et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/26975060/"
+  - ref: pmid-26975060
     finding:
       de: >-
         Meta-Analyse (11 RCTs): Resveratrol reduzierte Triglyceride signifikant um ~6,5 mg/dL
@@ -73,11 +65,7 @@ key_studies:
         by trials in patients with type 2 diabetes or metabolic syndrome; in healthy
         normoglycaemic adults, no cardiovascular effects were observed.
 
-  - pmid: "27789331"
-    title: "Resveratrol and cognitive function: a systematic review"
-    authors: "Evans HM et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/27789331/"
+  - ref: pmid-27789331
     finding:
       de: >-
         Systematischer Review (6 RCTs, n&lt;500): Resveratrol zeigte inkonsistente Effekte
@@ -92,11 +80,7 @@ key_studies:
         no significant effect. Small sample sizes (minimum n=12), short durations
         (8–52 weeks), and variable dosing preclude reliable conclusions.
 
-  - pmid: "42268476"
-    title: "The effects of resveratrol on glycemic indices and lipid profile in patients with type 2 diabetes: an umbrella review and meta-analysis"
-    authors: "Ghalichi F et al."
-    year: 2026
-    url: "https://pubmed.ncbi.nlm.nih.gov/42268476/"
+  - ref: pmid-42268476
     finding:
       de: >-
         Umbrella-Review über 10 Meta-Analysen: Resveratrol zeigte bei Typ-2-Diabetikern
@@ -114,11 +98,7 @@ key_studies:
         endpoints. Authors conclude resveratrol cannot be considered an effective adjunct
         to diabetes therapy.
 
-  - pmid: "28359099"
-    title: "Resveratrol as a calorie restriction mimetic: mechanistic targets and clinical relevance"
-    authors: "Baur JA & Sinclair DA"
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28359099/"
+  - ref: pmid-28359099
     finding:
       de: >-
         Mechanistischer Review: Resveratrol aktiviert SIRT1 (möglicherweise indirekt via

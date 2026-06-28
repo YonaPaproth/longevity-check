@@ -25,31 +25,19 @@ efsa_notes:
     The EFSA has not approved health claims for Baicalin regarding inflammation, brain health, or longevity.
 
 key_studies:
-  - pmid: "28111354"
-    title: "Baicalin and baicalein in inflammation and neuroprotection"
-    authors: "Dinda B et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28111354/"
+  - ref: pmid-28111354
     finding:
       de: >-
         Review: präklinisch interessante Breite, aber wenige belastbare Human-Daten.
       en: >-
         Review: Preclinically interesting breadth of mechanisms, but few robust human clinical data."
-  - pmid: "19375465"
-    title: "Scutellaria baicalensis and bioactive flavones"
-    authors: "Li-Weber M"
-    year: 2009
-    url: "https://pubmed.ncbi.nlm.nih.gov/19375465/"
+  - ref: pmid-19375465
     finding:
       de: >-
         Biologisch relevant, klinisch aber noch kein starker Supplement-Fall.
       en: >-
         Biologically plausible, but clinically not yet a compelling case for supplemental use in humans."
-  - pmid: "27094574"
-    title: "Traditional Chinese medicine compounds in modern pharmacology"
-    authors: "Liu Y et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/27094574/"
+  - ref: pmid-27094574
     finding:
       de: >-
         Traditionsreiche Nutzung, moderne Humanbelege bleiben begrenzt.

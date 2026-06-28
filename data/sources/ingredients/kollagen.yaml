@@ -28,31 +28,19 @@ efsa_notes:
     EFSA has not approved any health claims for collagen. Applications for claims relating to skin care and joint health were rejected on the grounds that the evidence was deemed insufficient. Collagen is approved as a food ingredient and dietary supplement.
 
 key_studies:
-  - pmid: "24401291"
-    title: "Oral Supplementation of Specific Collagen Peptides Has Beneficial Effects on Human Skin Physiology"
-    authors: "Proksch E et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/24401291/"
+  - ref: pmid-24401291
     finding:
       de: >-
         RCT (n=69): 2,5–5 g hydrolysiertes Kollagen/Tag über 8 Wochen verbesserte Hautelastizität und Feuchtigkeit signifikant gegenüber Placebo.
       en: >-
         RCT (n=69): 2.5–5 g hydrolyzed collagen/day for 8 weeks significantly improved skin elasticity and moisture compared to placebo.
-  - pmid: "27852613"
-    title: "Collagen Peptides Improve Knee Osteoarthritis in Athletes"
-    authors: "Shaw G et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/27852613/"
+  - ref: pmid-27852613
     finding:
       de: >-
         24-wöchige RCT bei Sportlern mit Knieschmerzen: Kollagenhydrolysat (10 g/Tag) reduzierte Schmerzen signifikant.
       en: >-
         24-week RCT in athletes with knee pain: collagen hydrolysate (10 g/day) significantly reduced pain scores compared to placebo.
-  - pmid: "32436266"
-    title: "Effect of Collagen Supplementation on Skin Aging: A Systematic Review"
-    authors: "Barati M et al."
-    year: 2020
-    url: "https://pubmed.ncbi.nlm.nih.gov/32436236/"
+  - ref: pmid-32436266
     finding:
       de: >-
         Systematischer Review von 11 RCTs: Konsistente positive Effekte auf Hautelastizität und Feuchtigkeit. Studienqualität insgesamt moderat.

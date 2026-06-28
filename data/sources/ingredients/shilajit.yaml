@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, there are no approved health claims for Shilajit regarding energy, testosterone, or aging research. Product quality and regulatory classification are particularly important.
 
 key_studies:
-  - pmid: "26395129"
-    title: "Clinical evaluation of purified shilajit"
-    authors: "Pandit S et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/26395129/"
+  - ref: pmid-26395129
     finding:
       de: >-
         Kleine Humanstudien mit Signalen, aber keine breite robuste Evidenz.
       en: >-
         Small human studies with signals, but no broad robust evidence base.
-  - pmid: "23717060"
-    title: "Shilajit: a natural phytocomplex"
-    authors: "Carrasco-Gallardo C et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/23717060/"
+  - ref: pmid-23717060
     finding:
       de: >-
         Review: biochemisch interessant, aber die Datenlage bleibt vorläufig.
       en: >-
         Review: biochemically interesting, but the evidence base remains preliminary.
-  - pmid: "12204876"
-    title: "Safety concerns with herbo-mineral products"
-    authors: "Ernst E"
-    year: 2002
-    url: "https://pubmed.ncbi.nlm.nih.gov/12204876/"
+  - ref: pmid-12204876
     finding:
       de: >-
         Qualitäts- und Reinheitsfragen sind bei mineralischen Naturprodukten besonders wichtig.

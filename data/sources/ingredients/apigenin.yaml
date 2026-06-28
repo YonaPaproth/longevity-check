@@ -26,41 +26,25 @@ efsa_notes:
     No EFSA health claims for apigenin. Available as a herbal substance in dietary supplements within the EU. Clinical trials ongoing. No novel food classification.
 
 key_studies:
-  - pmid: "24360282"
-    title: "Declining NAD+ induces a pseudohypoxic state disrupting nuclear-mitochondrial communication during aging"
-    authors: "Gomes AP et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/24360282/"
+  - ref: pmid-24360282
     finding:
       de: >-
         Grundlagenarbeit: CD38-Aktivität steigt mit dem Alter und verbraucht NAD+. CD38-Deletion bei Mäusen war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene mitochondriale Funktion deutlich.
       en: >-
         Foundational work: CD38 activity increases with age and depletes NAD+. CD38 deletion in mice was associated with elevated NAD+ levels and notable improvements in mitochondrial function.
-  - pmid: "27174929"
-    title: "Apigenin as a CD38 inhibitor in aging"
-    authors: "Camacho-Pereira J et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/27174929/"
+  - ref: pmid-27174929
     finding:
       de: >-
         Apigenin hemmt CD38 direkt und war mit höheren Werten verbundene NAD+-Spiegel bei alten Mäusen um ~50 %. Verbesserte Mitochondrienfunktion in Leber und Muskel.
       en: >-
         Apigenin directly inhibits CD38 and was associated with approximately 50% higher NAD+ levels in aged mice. Improved mitochondrial function in liver and muscle.
-  - pmid: "7898410"
-    title: "Anxiolytic-like activity and apigenin treatment in a model of generalized anxiety"
-    authors: "Viola H et al."
-    year: 1995
-    url: "https://pubmed.ncbi.nlm.nih.gov/7898410/"
+  - ref: pmid-7898410
     finding:
       de: >-
         Apigenin bindet an GABA-A-Rezeptoren (benzodiazepinartig) mit anxiolytischer Wirkung ohne Sedierung in Tierversuchen.
       en: >-
         Apigenin binds to GABA-A receptors (benzodiazepine-like) with anxiolytic effects without sedation in animal models.
-  - pmid: "20589765"
-    title: "Luteolin and apigenin as inhibitors of inflammation"
-    authors: "Shukla S & Gupta S"
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20589765/"
+  - ref: pmid-20589765
     finding:
       de: >-
         Review: Apigenin hemmt NF-κB, COX-2 und proinflammatorische Zytokine in zahlreichen präklinischen Modellen. Antientzündliche Wirkung gut dokumentiert.

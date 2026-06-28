@@ -27,41 +27,25 @@ efsa_notes:
     No EFSA health claims approved for Rhodiola rosea. However, the EMA's Committee on Herbal Medicinal Products (HMPC) has issued a monograph classifying Rhodiola as a traditional herbal medicinal product (THMP) for temporary relief of stress symptoms and fatigue — a higher regulatory status than a dietary supplement.
 
 key_studies:
-  - pmid: "19016404"
-    title: "A randomised, double-blind, placebo-controlled, parallel-group study of SHR-5 extract in the treatment of stress related fatigue"
-    authors: "Olsson EM et al."
-    year: 2009
-    url: "https://pubmed.ncbi.nlm.nih.gov/19016404/"
+  - ref: pmid-19016404
     finding:
       de: >-
         RCT (n=60): SHR-5 (576 mg/Tag) verbesserte Erschöpfung, Konzentration und Wohlbefinden signifikant nach 28 Tagen. Gut verträglich, keine ernsthaften Nebenwirkungen.
       en: >-
         RCT (n=60): SHR-5 extract (576 mg/day) significantly improved fatigue, concentration, and wellbeing after 28 days vs. placebo. Well tolerated, no serious adverse events reported.
-  - pmid: "12725561"
-    title: "Rhodiola rosea in stress induced fatigue – a double blind cross-over study of a standardized extract SHR-5"
-    authors: "Shevtsov VA et al."
-    year: 2003
-    url: "https://pubmed.ncbi.nlm.nih.gov/12725561/"
+  - ref: pmid-12725561
     finding:
       de: >-
         RCT (n=161 Ärzte im Nachtdienst): Einzeldosis Rhodiola verbesserte kognitive Leistung und Reaktionszeit unter Erschöpfungsbedingungen signifikant vs. Placebo.
       en: >-
         RCT (n=161 physicians on night duty): A single dose of Rhodiola significantly improved cognitive performance and reaction time under sleep-deprivation fatigue vs. placebo.
-  - pmid: "17990197"
-    title: "Rhodiola rosea for mental and physical fatigue in nursing students"
-    authors: "Darbinyan V et al."
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17990197/"
+  - ref: pmid-17990197
     finding:
       de: >-
         RCT (n=56): Rhodiola reduzierte physische und mentale Erschöpfung bei Studierenden in Prüfungsperioden signifikant. Stimmung und allgemeines Wohlbefinden verbesserten sich.
       en: >-
         RCT (n=56): Rhodiola significantly reduced physical and mental fatigue in nursing students during exam periods. Mood and general wellbeing also improved.
-  - pmid: "28219059"
-    title: "Multicenter, open-label study of Rhodiola rosea extract in patients with burnout syndrome"
-    authors: "Kasper S & Dienel A"
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28219059/"
+  - ref: pmid-28219059
     finding:
       de: >-
         Offene Studie (n=118, Burnout-Patienten): 400 mg/Tag über 12 Wochen reduzierte alle Burnout-Symptome signifikant. Kein Placebo-Arm, aber klinisch relevante Effektgrößen.

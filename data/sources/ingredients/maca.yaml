@@ -25,31 +25,19 @@ efsa_notes:
     The EU has not authorized any health claims for maca regarding libido, hormones, or energy.
 
 key_studies:
-  - pmid: "20370918"
-    title: "A systematic review of the evidence for maca"
-    authors: "Shin BC et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20370918/"
+  - ref: pmid-20370918
     finding:
       de: >-
         Positive Signale, aber kleine und methodisch begrenzte Studien.
       en: >-
         Positive signals reported, but limited by small sample sizes and methodological weaknesses across trials.
-  - pmid: "12472620"
-    title: "Maca for sexual desire"
-    authors: "Gonzales GF et al."
-    year: 2002
-    url: "https://pubmed.ncbi.nlm.nih.gov/12472620/"
+  - ref: pmid-12472620
     finding:
       de: >-
         Hinweise auf gesteigertes sexuelles Verlangen ohne klare Hormonveränderungen.
       en: >-
         Evidence for improved sexual desire without clear changes in circulating hormone levels.
-  - pmid: "18654924"
-    title: "Maca in menopause"
-    authors: "Brooks NA et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18654924/"
+  - ref: pmid-18654924
     finding:
       de: >-
         Mögliche Vorteile bei subjektivem Wohlbefinden, aber keine starke Datenbasis.

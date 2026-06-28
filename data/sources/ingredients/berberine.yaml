@@ -34,11 +34,7 @@ efsa_notes:
     Currently available in Germany, but the regulatory status is not stable.
 
 key_studies:
-  - pmid: "15466416"
-    title: "Berberine is a Novel Cholesterol-Lowering Drug Working Through a Unique Mechanism Distinct from Statins"
-    authors: "Kong W et al."
-    year: 2004
-    url: "https://pubmed.ncbi.nlm.nih.gov/15466416/"
+  - ref: pmid-15466416
     finding:
       de: >-
         Berberin senkte LDL-Cholesterin um ~25-31 % über post-transkriptionelle
@@ -49,11 +45,7 @@ key_studies:
         stabilisation of LDLR mRNA in hepatocytes — a statin-independent
         mechanism. First description of the LDLR stabilisation pathway.
 
-  - pmid: "19800084"
-    title: "Efficacy of Berberine in Patients with Type 2 Diabetes Mellitus"
-    authors: "Yin J et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/19800084/"
+  - ref: pmid-19800084
     finding:
       de: >-
         RCT (n=116): Berberin 500 mg 3x täglich senkte HbA1c um 2,0 Prozentpunkte
@@ -64,11 +56,7 @@ key_studies:
         points (9.5% to 7.5%), fasting blood glucose by 3.5 mmol/L, and triglycerides
         by 35.9% — comparable to metformin. The pivotal human study for type 2 diabetes.
 
-  - pmid: "23118793"
-    title: "Berberine in the Treatment of Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis"
-    authors: "Dong H et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/23118793/"
+  - ref: pmid-23118793
     finding:
       de: >-
         Meta-Analyse (14 RCTs, n=1.068): Berberin senkte Nüchternblutzucker um
@@ -81,11 +69,7 @@ key_studies:
         (CI: 0.46–0.98), and postprandial glucose by 1.51 mmol/L. Study quality
         was heterogeneous; almost all trials enrolled patients with type 2 diabetes.
 
-  - pmid: "20150526"
-    title: "Berberine Improves Insulin Sensitivity by Inhibiting Fat Store and Adjusting Energy Metabolism in High-Fat Diet-Induced Obese Mice"
-    authors: "Zhang H et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20150526/"
+  - ref: pmid-20150526
     finding:
       de: >-
         Tier- und Zellstudie: Berberin aktiviert AMPK über Hemmung von

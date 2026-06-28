@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, ginkgo lacks approved health claims for memory, concentration, or blood circulation in the over-the-counter supplement category. Traditional herbal registrations exist but do not permit cognitive or vascular claims.
 
 key_studies:
-  - pmid: "19821345"
-    title: "Ginkgo biloba for cognitive impairment and dementia"
-    authors: "Birks J et al."
-    year: 2009
-    url: "https://pubmed.ncbi.nlm.nih.gov/19821345/"
+  - ref: pmid-19821345
     finding:
       de: >-
         Gemischte Datenlage mit teils kleinen Vorteilen in bestimmten Populationen, aber keine klare Universalantwort.
       en: >-
         Mixed evidence with modest benefits in some populations, but no clear universal benefit across all cognitive domains or patient groups.
-  - pmid: "22440494"
-    title: "Systematic review of Ginkgo biloba extract for cognitive function"
-    authors: "Laws KR et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22440494/"
+  - ref: pmid-22440494
     finding:
       de: >-
         Heterogene Ergebnisse, abhängig von Population und Studiendesign.
       en: >-
         Heterogeneous results dependent on study population and design. Variability likely reflects differences in extract quality, dosing, duration, and outcome measures.
-  - pmid: "16007253"
-    title: "Drug interactions with Ginkgo biloba"
-    authors: "Izzo AA et al."
-    year: 2005
-    url: "https://pubmed.ncbi.nlm.nih.gov/16007253/"
+  - ref: pmid-16007253
     finding:
       de: >-
         Wichtige Interaktionsfrage, vor allem im Kontext Blutverdünnung.

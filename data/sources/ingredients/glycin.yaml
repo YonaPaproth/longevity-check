@@ -24,41 +24,25 @@ efsa_notes:
     No approved EFSA health claims for glycine as a supplement. As an amino acid, it is freely available as a dietary supplement in the EU. In medicine, glycine infusions are used in prostate surgery.
 
 key_studies:
-  - pmid: "23171544"
-    title: "Glycine ingestion improves subjective sleep quality in human volunteers, correlating with polysomnographic changes"
-    authors: "Bannai M et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/23171544/"
+  - ref: pmid-23171544
     finding:
       de: >-
         RCT (n=11): 3 g Glycin vor dem Schlafen war mit Veränderungen verbundene Schlafqualität, Tagesmüdigkeit und kognitive Funktion am nächsten Morgen.
       en: >-
         RCT (n=11): 3 g glycine before sleep was associated with improvements in sleep quality, daytime fatigue, and next-morning cognitive function (polysomnography-confirmed).
-  - pmid: "33587619"
-    title: "GlyNAC supplementation in older adults improves glutathione deficiency, oxidative stress, mitochondrial dysfunction and aging hallmarks"
-    authors: "Kumar P et al."
-    year: 2021
-    url: "https://pubmed.ncbi.nlm.nih.gov/33587619/"
+  - ref: pmid-33587619
     finding:
       de: >-
         RCT (n=24): GlyNAC über 24 Wochen normalisierte Glutathion-Spiegel auf das Niveau junger Erwachsener und war mit Veränderungen verbundene Mitochondrienfunktion.
       en: >-
         RCT (n=24): GlyNAC over 24 weeks normalized glutathione levels to young-adult baseline and was associated with improvements in mitochondrial function and oxidative stress markers.
-  - pmid: "35975308"
-    title: "GlyNAC Supplementation Improves Aging Hallmarks in Older Humans"
-    authors: "Sekhar RV"
-    year: 2022
-    url: "https://pubmed.ncbi.nlm.nih.gov/35975308/"
+  - ref: pmid-35975308
     finding:
       de: >-
         Follow-up RCT: GlyNAC war mit Veränderungen verbundene 8/9 gemessene Hallmarks of Alterung (Oxidation, Entzündung, Mitochondrien, Körperzusammensetzung, Kraft, Gehgeschwindigkeit).
       en: >-
         Follow-up RCT: GlyNAC was associated with improvements in 8 of 9 measured hallmarks of aging, including oxidative stress, inflammation, mitochondrial function, body composition, muscle strength, and gait speed.
-  - pmid: "28759885"
-    title: "Glycine metabolism in animals and humans: implications for nutrition and health"
-    authors: "Razak MA et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28759885/"
+  - ref: pmid-28759885
     finding:
       de: >-
         Review: Glycin wird für Glutathion, Kollagen, Hämoglobin, Kreatin und Porphyrine benötigt – täglicher Bedarf übersteigt körpereigene Synthese ab mittlerem Alter.

@@ -35,21 +35,13 @@ key_studies:
         Übersicht zu Funktionen, Bedarf und Risiken. In westlichen Ernährungsumgebungen ist eher zu viel als zu wenig ein Thema.
       en: >-
         Overview of functions, requirements and risks. In Western dietary environments, excess intake is a greater concern than deficiency.
-  - pmid: "24500942"
-    title: "Dietary phosphorus and health"
-    authors: "Calvo MS et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/24500942/"
+  - ref: pmid-24500942
     finding:
       de: >-
         Review: Phosphor ist essenziell, aber hohe Aufnahme aus stark verarbeiteten Lebensmitteln kann problematisch sein.
       en: >-
         Review: Phosphorus is essential, but high intake from highly processed foods can be problematic.
-  - pmid: "22510091"
-    title: "Phosphate homeostasis and its role in bone health"
-    authors: "Takeda E et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22510091/"
+  - ref: pmid-22510091
     finding:
       de: >-
         Phosphat ist biologisch zentral, aber als Supplement für Gesunde selten ein Engpass.

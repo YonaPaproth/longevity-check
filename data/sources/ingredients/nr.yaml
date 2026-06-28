@@ -26,41 +26,25 @@ efsa_notes:
     NR has been approved in the EU as a Novel Food since 2021 (Implementing Regulation EU 2021/468) — unlike NMN, which is still awaiting authorisation. No health claims have been approved. The regulatory situation is therefore clearer than for NMN.
 
 key_studies:
-  - pmid: "27534536"
-    title: "Nicotinamide Riboside Is Uniquely and Orally Bioavailable in Healthy Humans"
-    authors: "Trammell SA et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/27534536/"
+  - ref: pmid-27534536
     finding:
       de: >-
         Erste Humanpharmakokinetik-Studie: NR wird oral aufgenommen und war mit höheren Werten verbunden in Studien den NAD+-Metabolismus im Blut.
       en: >-
         First human pharmacokinetic study: NR is orally absorbed and raises NAD+ metabolism in blood.
-  - pmid: "29514974"
-    title: "Chronic Nicotinamide Riboside Supplementation Is Well-Tolerated in Healthy Middle-Aged and Older Adults (CONIFER)"
-    authors: "Martens CR et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/29514974/"
+  - ref: pmid-29514974
     finding:
       de: >-
         6-wöchige NR-Einnahme (500 mg/Tag) war mit höheren Werten verbundene NAD+ im Blut um ~60%, war mit Veränderungen verbundene aber Blutdruck und arterielle Steifigkeit nicht signifikant.
       en: >-
         6-week NR supplementation (500 mg/day) raised blood NAD+ by ~60% but did not significantly improve blood pressure or arterial stiffness.
-  - pmid: "30006327"
-    title: "Effect of Nicotinamide Riboside on Insulin Sensitivity, Lipid Mobilization, and Mitochondrial Biogenesis"
-    authors: "Dollerup OL et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/30006327/"
+  - ref: pmid-30006327
     finding:
       de: >-
         12-wöchige RCT bei übergewichtigen Männern: NR war mit höheren Werten verbundene NAD+, war mit Veränderungen verbundene aber Insulinsensitivität, Lipidprofil oder Mitochondrienfunktion nicht signifikant.
       en: >-
         12-week RCT in overweight men: NR raised NAD+ but did not significantly improve insulin sensitivity, lipid profile, or mitochondrial function.
-  - pmid: "42135539"
-    title: "Human whole-blood NAD+ levels do not vary with age or lifestyle interventions"
-    authors: "Schmauck-Medina T et al."
-    year: 2026
-    url: "https://pubmed.ncbi.nlm.nih.gov/42135539/"
+  - ref: pmid-42135539
     finding:
       de: >-
         NAD+-Spiegel im Vollblut variieren weder mit dem Alter noch mit Lebensstilinterventionen – stellt die Grundannahme vieler NAD+-Supplement-Versprechen infrage.

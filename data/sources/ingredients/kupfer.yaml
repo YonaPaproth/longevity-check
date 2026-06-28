@@ -35,21 +35,13 @@ key_studies:
         Übersicht zu Bedarf, Mangel, Sicherheit und Interaktionen. Kupfer ist essenziell, aber Supplemente sollten eher gezielt als pauschal eingesetzt werden.
       en: >-
         Overview of copper requirements, deficiency, safety, and interactions. While copper is essential, supplementation should be targeted rather than broad-based.
-  - pmid: "18488400"
-    title: "Copper deficiency, a new triad: anemia, leucopenia, and myeloneuropathy"
-    authors: "Halfdanarson TR et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18488400/"
+  - ref: pmid-18488400
     finding:
       de: >-
         Kupfermangel kann Anämie, Neutropenie und neurologische Störungen verursachen. Klinisch besonders relevant nach Malabsorption oder Zink-Überdosierung.
       en: >-
         Copper deficiency can cause anemia, neutropenia, and neurological disorders. Clinically particularly relevant following malabsorption or zinc overdosing.
-  - pmid: "15883553"
-    title: "Interactions between copper and zinc in human nutrition"
-    authors: "Fischer Walker C et al."
-    year: 2005
-    url: "https://pubmed.ncbi.nlm.nih.gov/15883553/"
+  - ref: pmid-15883553
     finding:
       de: >-
         Zink und Kupfer beeinflussen sich gegenseitig. Chronisch hohe Zinkzufuhr kann Kupfermangel begünstigen.

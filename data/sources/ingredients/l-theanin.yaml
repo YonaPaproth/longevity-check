@@ -25,51 +25,31 @@ efsa_notes:
     EFSA has not approved any health claims for L-theanine related to focus, relaxation, or stress reduction. Corresponding applications were not positively evaluated.
 
 key_studies:
-  - pmid: "22214254"
-    title: "Effects of L-theanine on objective sleep quality in boys with ADHD"
-    authors: "Higashiyama A et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/22214254/"
+  - ref: pmid-22214254
     finding:
       de: >-
         Randomisierter Doppelblind-Crossover (n=98 Jungen): 400 mg L-Theanin/Tag (2×200 mg) verbesserte objektive Schlafqualität (gemessen per Aktigraphie) ohne sedierende Nebenwirkungen.
       en: >-
         Randomized double-blind crossover (n=98 boys): 400 mg L-theanine/day (2×200 mg) improved objective sleep quality (measured by actigraphy) without sedative side effects.
-  - pmid: "18681988"
-    title: "Behavioral effects of compounds co-consumed in dietary amounts with caffeine"
-    authors: "Haskell CF et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18681988/"
+  - ref: pmid-18681988
     finding:
       de: >-
         Doppelblind-RCT (n=27): 250 mg Koffein + 250 mg L-Theanin verbesserten Aufmerksamkeit und Reaktionszeit gegenüber beiden Einzelsubstanzen. L-Theanin allein zeigte keine signifikanten kognitiven Verbesserungen.
       en: >-
         Double-blind RCT (n=27): 250 mg caffeine + 250 mg L-theanine improved attention and reaction time compared to either substance alone. L-theanine alone showed no significant cognitive improvements.
-  - pmid: "18296328"
-    title: "L-theanine, a natural constituent in tea, and its effect on mental state"
-    authors: "Nobre AC et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18296328/"
+  - ref: pmid-18296328
     finding:
       de: >-
         Doppelblind-Crossover: 50 mg L-Theanin erhöhte Alpha-Wellenkraft im EEG signifikant. Alpha-Wellen gelten als Marker entspannter Wachheit ohne Sedierung.
       en: >-
         Double-blind crossover: 50 mg L-theanine significantly increased alpha wave power on EEG. Alpha waves are considered a marker of relaxed alertness without sedation.
-  - pmid: "17272967"
-    title: "L-Theanine reduces psychological and physiological stress responses"
-    authors: "Kimura K et al."
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17272967/"
+  - ref: pmid-17272967
     finding:
       de: >-
         Crossover-Studie (n=12): 200 mg L-Theanin reduzierte Herzrate und salivären IgA-Anstieg als physiologische Stressmarker bei einem mentalen Stress-Task signifikant gegenüber Placebo.
       en: >-
         Crossover study (n=12): 200 mg L-theanine significantly reduced heart rate and salivary IgA increase as physiological stress markers during a mental arithmetic stress task vs. placebo.
-  - pmid: "25761837"
-    title: "A double-blind, placebo-controlled study evaluating caffeine and L-theanine on cognitive function"
-    authors: "Dodd FL et al."
-    year: 2015
-    url: "https://pubmed.ncbi.nlm.nih.gov/25761837/"
+  - ref: pmid-25761837
     finding:
       de: >-
         Doppelblind-Crossover (n=24): Koffein 75 mg + Theanin 50 mg war mit konsistent besserer Konzentrationsleistung und Stimmung verbunden als Placebo oder Einzelsubstanzen.

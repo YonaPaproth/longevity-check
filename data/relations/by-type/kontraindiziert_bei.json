@@ -1,6 +1,6 @@
 {
   "type": "kontraindiziert_bei",
-  "count": 61,
+  "count": 67,
   "relations": [
     {
       "subject": "5-htp",
@@ -34,13 +34,27 @@
     },
     {
       "subject": "berberine",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.9,
+      "note": "Embryotoxische Effekte im Tiermodell; Berberin passiert die Plazenta"
+    },
+    {
+      "subject": "berberine",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.8,
+      "note": "CYP2C9-Hemmung erhöht Blutungsrisiko bei Antikoagulantien-Einnahme"
     },
     {
       "subject": "berberine",
       "target": "kontra-diabetes-medikamente",
-      "confidence": 0.7
+      "confidence": 0.85,
+      "note": "Additiver Effekt mit Antidiabetika → Hypoglykämiegefahr"
+    },
+    {
+      "subject": "berberine",
+      "target": "kontra-organtransplantation",
+      "confidence": 0.85,
+      "note": "CYP3A4-Hemmung erhöht Ciclosporin/Tacrolimus-Spiegel klinisch signifikant"
     },
     {
       "subject": "calcium",
@@ -58,11 +72,6 @@
       "confidence": 0.7
     },
     {
-      "subject": "coq10",
-      "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
-    },
-    {
       "subject": "curcumin",
       "target": "kontra-schwangerschaft",
       "confidence": 0.7
@@ -71,6 +80,11 @@
       "subject": "curcumin",
       "target": "kontra-blutgerinnungsstoerung",
       "confidence": 0.7
+    },
+    {
+      "subject": "dl-phenylalanin",
+      "target": "kontra-mao-hemmer",
+      "confidence": 0.9
     },
     {
       "subject": "egcg",
@@ -95,6 +109,11 @@
     {
       "subject": "folsaeure",
       "target": "kontra-schwangerschaft",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fucoidan",
+      "target": "kontra-blutgerinnungsstoerung",
       "confidence": 0.7
     },
     {
@@ -161,6 +180,11 @@
       "subject": "l-citrullin",
       "target": "kontra-blutdruckmedikamente",
       "confidence": 0.7
+    },
+    {
+      "subject": "l-reuteri-6475",
+      "target": "kontra-immunsuppression",
+      "confidence": 0.8
     },
     {
       "subject": "l-theanin",
@@ -245,7 +269,8 @@
     {
       "subject": "resveratrol",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "CYP2C9-Hemmung und Thrombozytenaggregationshemmung → erhöhtes Blutungsrisiko bei Antikoagulantien"
     },
     {
       "subject": "rhodiola",
@@ -261,6 +286,16 @@
       "subject": "rhodiola",
       "target": "kontra-mao-hemmer",
       "confidence": 0.7
+    },
+    {
+      "subject": "sea-moss",
+      "target": "kontra-schilddruesenerkrankung",
+      "confidence": 0.9
+    },
+    {
+      "subject": "sea-moss",
+      "target": "kontra-schwangerschaft",
+      "confidence": 0.8
     },
     {
       "subject": "selen",

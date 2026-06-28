@@ -25,31 +25,19 @@ efsa_notes:
     Piperine has no approved health claims in the EU regarding bioavailability, metabolism, or weight management as a freely marketed supplement claim.
 
 key_studies:
-  - pmid: "9619120"
-    title: "Influence of piperine on the pharmacokinetics of curcumin"
-    authors: "Shoba G et al."
-    year: 1998
-    url: "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+  - ref: pmid-9619120
     finding:
       de: >-
         Klassische Studie: Piperin kann die Bioverfügbarkeit von Curcumin stark mit höheren Werten in Verbindung bringen.
       en: >-
         Landmark study: 20 mg piperine increased curcumin AUC by ~2000% and peak plasma concentration by ~154%, but the compound's clinical relevance remains limited by curcumin's intrinsic poor absorption and metabolism.
-  - pmid: "3984604"
-    title: "Piperine and drug metabolism"
-    authors: "Atal CK et al."
-    year: 1985
-    url: "https://pubmed.ncbi.nlm.nih.gov/3984604/"
+  - ref: pmid-3984604
     finding:
       de: >-
         Piperin beeinflusst Enzymsysteme und Transporter – nützlich, aber potenziell interaktionsrelevant.
       en: >-
         Piperine modulates P-glycoprotein and CYP enzyme activity in intestinal tissue, which enhances absorption of co-administered compounds but also increases risk of drug–supplement interactions with substrates of these systems.
-  - pmid: "17619763"
-    title: "Piperine, a major alkaloid of black pepper: a review"
-    authors: "Srinivasan K"
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17619763/"
+  - ref: pmid-17619763
     finding:
       de: >-
         Piperin ist funktional interessant, aber nicht einfach nur ein harmloser Verstärker.
@@ -79,7 +67,7 @@ locales:
 
   en:
     summary: >-
-      Piperine boosts bioavailability of nutrients and compounds, primarily known as a curcumin enhancer, but its effects on absorption and drug metabolism create potential for supplement and drug interactions.
+      Piperine boosts bioavailability of nutrients like curcumin, but its effects on absorption and drug metabolism create potential for supplement and drug interactions.
     evidenceSummary: >-
       Piperine is well-documented as a bioavailability enhancer, particularly for curcumin, achieving bioavailability increases of up to 2000%. However, this same mechanism — inhibition of P-glycoprotein and modulation of CYP enzymes — raises meaningful questions about interactions with medications and other compounds. As a standalone ingredient for healthy ageing, evidence is minimal and indirect.
     body: |

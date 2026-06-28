@@ -1,0 +1,16 @@
+{
+  "type": "bezieht_sich_auf",
+  "count": 2,
+  "relations": [
+    {
+      "subject": "nmn-verlaengert-das-leben",
+      "target": "nmn",
+      "confidence": 1
+    },
+    {
+      "subject": "safran-preis-gesundheit",
+      "target": "safran",
+      "confidence": 1
+    }
+  ]
+}

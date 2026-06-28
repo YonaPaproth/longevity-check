@@ -25,31 +25,19 @@ efsa_notes:
     No EFSA-approved health claims. Regulated in the EU as a naturally occurring food substance because it occurs naturally in food products.
 
 key_studies:
-  - pmid: "20308112"
-    title: "Ergothioneine, a diet-derived antioxidant with therapeutic potential"
-    authors: "Paul BD, Snyder SH"
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20308112/"
+  - ref: pmid-20308112
     finding:
       de: >-
         Ergothionein hat einzigartige Transportmechanismen (OCTN1) im Körper und reichert sich in mitochondrienreichen Geweben an – Hinweis auf biologische Relevanz.
       en: >-
         Ergothioneine possesses unique transport mechanisms (OCTN1) in the body and accumulates in mitochondria-rich tissues—indicating biological significance.
-  - pmid: "36856787"
-    title: "Association of plasma ergothioneine with healthy aging"
-    authors: "Cheah IK et al."
-    year: 2023
-    url: "https://pubmed.ncbi.nlm.nih.gov/36856787/"
+  - ref: pmid-36856787
     finding:
       de: >-
         Niedrige Ergothionein-Plasmaspiegel korrelieren mit schlechterem kognitivem Status und Frailty bei älteren Menschen (Beobachtungsstudie).
       en: >-
         Low plasma ergothioneine levels correlate with poorer cognitive status and frailty in older adults (observational study).
-  - pmid: "21347875"
-    title: "Ergothioneine reduces the severity of MPTP-induced Parkinson's disease"
-    authors: "Koh YH et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21347875/"
+  - ref: pmid-21347875
     finding:
       de: >-
         In einem Maus-Parkinson-Modell reduzierte Ergothionein neuronale Schäden signifikant.

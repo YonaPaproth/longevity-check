@@ -26,41 +26,25 @@ efsa_notes:
     EFSA has approved numerous health claims for vitamin C: collagen formation, immune system, nervous system, energy metabolism, reduction of tiredness, protection against oxidative stress, improved iron absorption. Daily requirement: 110 mg (men), 95 mg (women).
 
 key_studies:
-  - pmid: "29099763"
-    title: "Vitamin C and immune function"
-    authors: "Carr AC & Maggini S"
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/29099763/"
+  - ref: pmid-29099763
     finding:
       de: >-
         Review: Vitamin C akkumuliert in Immunzellen und unterstützt Funktion von Neutrophilen, Lymphozyten und NK-Zellen. Bei Mangel deutlich reduzierte Immunabwehr.
       en: >-
         Review: vitamin C accumulates in immune cells and supports the function of neutrophils, lymphocytes, and NK cells. Deficiency markedly reduces immune defence.
-  - pmid: "23440782"
-    title: "Vitamin C supplementation and common cold duration: meta-analysis"
-    authors: "Hemilä H & Chalker E"
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23440782/"
+  - ref: pmid-23440782
     finding:
       de: >-
         Cochrane-Review (29 RCTs): Regelmäßige Vitamin-C-Einnahme verkürzt Erkältungsdauer um ~8 % (Erwachsene) bis 14 % (Kinder). Verhindert Erkältungen nur bei extremer körperlicher Belastung (Marathonläufer, Soldaten).
       en: >-
         Cochrane review (29 RCTs): regular vitamin C intake shortened cold duration by ~8% (adults) to 14% (children). Prevention of colds was only shown under extreme physical stress (marathon runners, soldiers).
-  - pmid: "23675558"
-    title: "Vitamin C in disease prevention and cure: an overview"
-    authors: "Pohanka M"
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23675558/"
+  - ref: pmid-23675558
     finding:
       de: >-
         Review: Vitamin C ist essenzieller Cofaktor für Prolyl- und Lysylhydroxylasen (Kollagensynthese) und trägt zur Regeneration von Vitamin E bei. Plasma-Spiegel spiegeln Ernährungsqualität wider.
       en: >-
         Review: vitamin C is an essential cofactor for prolyl and lysyl hydroxylases (collagen synthesis) and contributes to regeneration of vitamin E. Plasma levels reflect dietary quality.
-  - pmid: "8644688"
-    title: "High-dose vitamin C supplementation increases the Km of ascorbate"
-    authors: "Levine M et al."
-    year: 1996
-    url: "https://pubmed.ncbi.nlm.nih.gov/8644688/"
+  - ref: pmid-8644688
     finding:
       de: >-
         NIH-Studie: Plasmasättigung tritt bei ~200 mg/Tag auf. Höhere Dosen werden renal ausgeschieden ohne proportionalen Nutzen. Optimale Dosis für gesunde Erwachsene: 200–400 mg/Tag.

@@ -24,41 +24,25 @@ efsa_notes:
     No EFSA health claims are approved for fisetin. Available as a dietary supplement in the EU without Novel Food restrictions. Phase 2 clinical trials are ongoing (e.g., NCT03555435, Mayo Clinic).
 
 key_studies:
-  - pmid: "30279143"
-    title: "Fisetin is a senotherapeutic that extends health and lifespan"
-    authors: "Yousefzadeh MJ et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/30279143/"
+  - ref: pmid-30279143
     finding:
       de: >-
         Tierstudie (Mäuse): Fisetin war das potenteste Senolytikum aus 10 getesteten Flavonoiden. Verlängerte Lebenserwartung um 10 % und verbesserte Gesundheitsmarker.
       en: >-
         Animal study (mice): Fisetin was the most potent senolytic among 10 flavonoids tested, extending remaining lifespan by ~10% and improving health markers across multiple organ systems.
-  - pmid: "30616726"
-    title: "Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study"
-    authors: "Justice JN et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/30616726/"
+  - ref: pmid-30616726
     finding:
       de: >-
         Pilot-Studie mit Dasatinib+Quercetin (verwandter Senolytika-Ansatz): Reduktion seneszenter Zellmarker im Fettgewebe. Basis für größere Studien mit Fisetin.
       en: >-
         Pilot study using dasatinib+quercetin (related senolytic approach): demonstrated measurable reductions in senescent cell markers in adipose tissue, providing proof-of-concept for the senolytic strategy in humans.
-  - pmid: "32131541"
-    title: "Neuroprotective effects of fisetin in aging and neurodegenerative diseases"
-    authors: "Maher P"
-    year: 2020
-    url: "https://pubmed.ncbi.nlm.nih.gov/32131541/"
+  - ref: pmid-32131541
     finding:
       de: >-
         Review: Fisetin schützt Neuronen vor oxidativem Stress und Entzündung in Tiermodellen (inkl. Alzheimer-Mausmodell). Aktiviert Sirtuin-1 und AMPK.
       en: >-
         Review: Fisetin protects neurons from oxidative stress and inflammation in animal models (including Alzheimer's models) and activates longevity-associated pathways Sirtuin-1 and AMPK.
-  - pmid: "28575845"
-    title: "Fisetin reduces oxidative stress and improves vascular function in old mice"
-    authors: "Kirkland JL & Tchkonia T"
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28575845/"
+  - ref: pmid-28575845
     finding:
       de: >-
         Review senolytischer Strategien: Fisetin als Kandidat mit günstigem Nebenwirkungsprofil im Vergleich zu pharmakologischen Senolytics.

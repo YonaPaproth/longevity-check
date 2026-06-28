@@ -27,51 +27,31 @@ efsa_notes:
     EFSA has approved extensive claims for magnesium: normal energy metabolism, nervous system, muscle contraction, protein synthesis, psychological function, fatigue reduction, bone and teeth. One of the most broadly recognised ingredients in the EFSA health claims register.
 
 key_studies:
-  - pmid: "33260549"
-    title: "Magnesium Status and Stress: The Vicious Circle Concept Revisited"
-    authors: "Pickering G et al."
-    year: 2020
-    url: "https://pubmed.ncbi.nlm.nih.gov/33260549/"
+  - ref: pmid-33260549
     finding:
       de: >-
         Magnesiumergänzung verbesserte Stressparameter und Schlafqualität; Mangel und Stress verstärken sich gegenseitig in einem negativen Kreislauf.
       en: >-
         Magnesium supplementation improved stress parameters and sleep quality; deficiency and stress reinforce each other in a negative cycle.
-  - pmid: "15189112"
-    title: "Oral Magnesium Supplementation Reduces Insulin Resistance in Non-Diabetic Subjects"
-    authors: "Guerrero-Romero F et al."
-    year: 2004
-    url: "https://pubmed.ncbi.nlm.nih.gov/15189112/"
+  - ref: pmid-15189112
     finding:
       de: >-
         RCT: Magnesiumsupplementierung (2,5 g MgCl2/Tag für 3 Monate) reduzierte Insulinresistenz bei Personen mit Magnesiummangel signifikant.
       en: >-
         RCT: magnesium supplementation (2.5 g MgCl2/day for 3 months) significantly reduced insulin resistance in individuals with magnesium deficiency.
-  - pmid: "20152124"
-    title: "Enhancement of Learning and Memory by Elevating Brain Magnesium (Mg-L-Threonate)"
-    authors: "Slutsky I et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20152124/"
+  - ref: pmid-20152124
     finding:
       de: >-
         Magnesium-L-Threonat erhöhte Gehirn-Magnesiumspiegel bei Ratten und verbesserte Kurz- und Langzeitgedächtnis. Humanstudien noch klein und begrenzt.
       en: >-
         Magnesium L-threonate raised brain magnesium levels in rats and improved short- and long-term memory. Human studies are still small and limited.
-  - pmid: "26837598"
-    title: "Effects of Magnesium Supplementation on Blood Pressure: A Meta-Analysis of Randomized Double-Blind Placebo-Controlled Trials"
-    authors: "Zhang X et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/26837598/"
+  - ref: pmid-26837598
     finding:
       de: >-
         Metaanalyse (34 RCTs, n=2.028): Magnesium senkte systolischen Blutdruck um ca. 3–4 mmHg und diastolischen um ca. 2–3 mmHg. Effekt stärker bei höheren Ausgangswerten und niedrigen Magnesiumspiegeln.
       en: >-
         Meta-analysis (34 RCTs, n=2,028): magnesium lowered systolic blood pressure by ~3–4 mmHg and diastolic by ~2–3 mmHg. Effect stronger at higher baseline values and lower magnesium levels.
-  - pmid: "23853635"
-    title: "The effect of magnesium supplementation on primary insomnia in elderly"
-    authors: "Abbasi B et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/23853635/"
+  - ref: pmid-23853635
     finding:
       de: >-
         RCT (n=46 ältere Erwachsene): 500 mg Magnesium/Tag über 8 Wochen verbesserte Schlafqualität, -dauer und Insomnie-Scores signifikant gegenüber Placebo.

@@ -26,41 +26,25 @@ efsa_notes:
     In the EU, there are no approved health claims for oral hyaluronic acid under Regulation (EC) 1924/2006. Claims regarding skin rejuvenation or joint protection are not permitted under regulation.
 
 key_studies:
-  - pmid: "40911749"
-    title: "Oral Hyaluronic Acid Supplement: Efficacy in Skin Hydration, Elasticity, and Wrinkle Depth Reduction"
-    authors: "Amin P et al."
-    year: 2025
-    url: "https://pubmed.ncbi.nlm.nih.gov/40911749/"
+  - ref: pmid-40911749
     finding:
       de: >-
         Meta-Analyse über 7 RCTs: statistisch signifikante Verbesserungen in Hautfeuchtigkeit, Elastizität und Faltentiefe. Trends für TEWL und Faltenvolumen ohne Signifikanz. Fazit: moderate, konsistente Haut-Effekte bei oraler HA.
       en: >-
         Meta-analysis of 7 RCTs: statistically significant improvements in skin hydration, elasticity, and wrinkle depth. Trends for TEWL and wrinkle volume without significance. Conclusion: moderate, consistent skin effects with oral HA.
-  - pmid: "41422283"
-    title: "Oral sodium hyaluronate improves skin hydration, barrier function and signs of aging"
-    authors: "Dolečková I et al."
-    year: 2025
-    url: "https://pubmed.ncbi.nlm.nih.gov/41422283/"
+  - ref: pmid-41422283
     finding:
       de: >-
         RCT, n=150, 120 mg/Tag Natriumhyaluronat (1,8 MDa) über 12 Wochen: signifikant verbesserte Hautfeuchtigkeit, reduzierte TEWL, verringerte periorbitale Faltentiefe, erhöhte Epidermisdicke und NMF-Spiegel.
       en: >-
         RCT, n=150, 120 mg/day sodium hyaluronate (1.8 MDa) for 12 weeks: significantly improved skin hydration, reduced TEWL, decreased periorbital wrinkle depth, increased epidermal thickness and NMF levels.
-  - pmid: "34933842"
-    title: "Oral intake of a new full-spectrum hyaluronan improves skin profilometry and ageing"
-    authors: "Michelotti A et al."
-    year: 2021
-    url: "https://pubmed.ncbi.nlm.nih.gov/34933842/"
+  - ref: pmid-34933842
     finding:
       de: >-
         RCT, n=60 Frauen, 200 mg/Tag Full-Spectrum-Hyaluronan, 28 Tage: Hautfeuchtigkeit +10,6 %, Faltentiefe −18,8 %, Faltenvolumen −17,6 %, Elastizität +5,1 %. Alle Parameter statistisch signifikant.
       en: >-
         RCT, n=60 women, 200 mg/day full-spectrum hyaluronate, 28 days: skin hydration +10.6%, wrinkle depth −18.8%, wrinkle volume −17.6%, elasticity +5.1%. All parameters statistically significant.
-  - pmid: "25013132"
-    title: "Ingestion of hyaluronan relieves wrinkles: a double-blinded, placebo-controlled study"
-    authors: "Kawada C et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/25013132/"
+  - ref: pmid-25013132
     finding:
       de: >-
         RCT, n=96, 120–240 mg/Tag orales Hyaluronan, 12 Wochen: signifikante Verbesserung der Hautfeuchtigkeit und Unterdrückung der Faltenbildung gegenüber Placebo.

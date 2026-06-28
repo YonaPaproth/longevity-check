@@ -25,31 +25,19 @@ efsa_notes:
     No EU-approved health claims exist for Cistanche related to energy, libido, or longevity.
 
 key_studies:
-  - pmid: "26830552"
-    title: "Cistanche and Alterungsforschung pharmacology"
-    authors: "Jiang Y et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/26830552/"
+  - ref: pmid-26830552
     finding:
       de: >-
         Review: präklinisch interessante Wirkungen, aber kaum belastbare Human-Endpunkte.
       en: >-
         Review: preclinically interesting effects, but few reliable human endpoints.
-  - pmid: "34145276"
-    title: "Phytochemistry and pharmacology of Cistanche"
-    authors: "Li Z et al."
-    year: 2021
-    url: "https://pubmed.ncbi.nlm.nih.gov/34145276/"
+  - ref: pmid-34145276
     finding:
       de: >-
         Zusammenfassung der Wirkstoffe und präklinischen Daten.
       en: >-
         Comprehensive summary of active compounds and preclinical mechanisms.
-  - pmid: "28167794"
-    title: "Traditional uses and modern evidence of Cistanche"
-    authors: "Wang T et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28167794/"
+  - ref: pmid-28167794
     finding:
       de: >-
         Traditionsreiche Nutzung, moderne klinische Evidenz aber noch begrenzt.

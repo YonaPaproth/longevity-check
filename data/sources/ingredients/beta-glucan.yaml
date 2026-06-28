@@ -25,31 +25,19 @@ efsa_notes:
     Oat and barley beta-glucans have specific EFSA-approved claims for cholesterol reduction under defined dosing. Broad immune claims lack comparable approval.
 
 key_studies:
-  - pmid: "24511820"
-    title: "Health benefits of oat beta-glucan"
-    authors: "Whitehead A et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/24511820/"
+  - ref: pmid-24511820
     finding:
       de: >-
         Meta-Analyse: Hafer-Beta-Glucan war mit niedrigeren Werten verbunden LDL-Cholesterin zuverlässig.
       en: >-
         Meta-analysis: Oat beta-glucan was consistently associated with lower LDL-cholesterol levels."
-  - pmid: "30727981"
-    title: "β-Glucans and immune function"
-    authors: "Vetvicka V et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/30727981/"
+  - ref: pmid-30727981
     finding:
       de: >-
         Immunologische Effekte sind plausibel, aber klinisch weniger robust als viele Claims suggerieren.
       en: >-
         Immunological mechanisms are plausible, but clinical evidence is weaker than many marketing claims suggest."
-  - pmid: "21348891"
-    title: "Oat beta-glucan and cardiometabolic health"
-    authors: "Tiwari U et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21348891/"
+  - ref: pmid-21348891
     finding:
       de: >-
         Die beste Evidenz liegt bei LDL-Cholesterin, nicht bei generellen Wellness-Versprechen.

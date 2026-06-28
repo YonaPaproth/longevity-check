@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, there are no standalone approved health claims for silymarin or milk thistle regarding detoxification or liver cleansing in supplement marketing style.
 
 key_studies:
-  - pmid: "29562618"
-    title: "Milk thistle in liver disease"
-    authors: "Abenavoli L et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/29562618/"
+  - ref: pmid-29562618
     finding:
       de: >-
         Review: potenziell nützlich in bestimmten Leberkontexten, aber heterogene klinische Evidenz.
       en: >-
         Review: potentially useful in certain liver contexts, but heterogeneous clinical evidence.
-  - pmid: "28137772"
-    title: "Silymarin and the liver"
-    authors: "Federico A et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28137772/"
+  - ref: pmid-28137772
     finding:
       de: >-
         Biologisch plausibel, aber klinischer Nutzen ist nicht in allen Settings überzeugend gezeigt.
       en: >-
         Biologically plausible, but clinical benefit is not convincingly demonstrated in all settings.
-  - pmid: "21738288"
-    title: "Herbal products for nonalcoholic fatty liver disease"
-    authors: "Loguercio C et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21738288/"
+  - ref: pmid-21738288
     finding:
       de: >-
         Leberbezogene Pflanzenstoffe wie Silymarin sind interessant, aber nicht gleichzusetzen mit gesicherten medizinischen Kontextn.

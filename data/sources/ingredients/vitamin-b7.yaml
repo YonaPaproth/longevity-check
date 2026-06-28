@@ -25,21 +25,13 @@ efsa_notes:
     In the EU, health claims for biotin are approved for skin, hair, nervous system, mental function, and macronutrient metabolism. In practice, these claims are often over-interpreted for marketing purposes.
 
 key_studies:
-  - pmid: "28879195"
-    title: "A review of the use of biotin for hair loss"
-    authors: "Patel DP et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28879195/"
+  - ref: pmid-28879195
     finding:
       de: >-
         Review: Evidenz für Biotin bei Haarproblemen ist schwach und fast immer auf dokumentierte Mangelzustände oder spezielle Erkrankungen beschränkt.
       en: >-
         Review: Evidence for biotin in hair problems is weak and almost always limited to documented deficiency states or specific conditions.
-  - pmid: "28362283"
-    title: "Biotin interference in immunoassays: a cause for concern"
-    authors: "Piketty ML et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28362283/"
+  - ref: pmid-28362283
     finding:
       de: >-
         Biotin in Supplementdosen kann Laboruntersuchungen relevant verfälschen, darunter Schilddrüsenwerte und Herzmarker.

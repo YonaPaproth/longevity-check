@@ -26,41 +26,25 @@ efsa_notes:
     EFSA has approved extensive health claims for zinc: normal immune function, DNA synthesis, fertility, bone, skin, hair, vision, cognitive function, protection from oxidative stress. Daily requirement: 11 mg (men), 8 mg (women).
 
 key_studies:
-  - pmid: "18385818"
-    title: "Zinc: role in immunity, oxidative stress and chronic inflammation"
-    authors: "Prasad AS"
-    year: 2009
-    url: "https://pubmed.ncbi.nlm.nih.gov/18385818/"
+  - ref: pmid-18385818
     finding:
       de: >-
         Umfassender Review: Zinkmangel beeinträchtigt T-Zell-Funktion, war mit höheren Werten verbunden oxidativen Stress und Entzündungsmarker. Supplementierung normalisiert Immunfunktion bei Mangel.
       en: >-
         Comprehensive review: zinc deficiency impairs T-cell function, increases oxidative stress and inflammatory markers. Supplementation normalises immune function in deficiency.
-  - pmid: "18793724"
-    title: "Zinc deficiency: what are the most appropriate interventions?"
-    authors: "Bhutta ZA et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18793724/"
+  - ref: pmid-18793724
     finding:
       de: >-
         Meta-Analyse: Zinksupplementierung reduziert Diarrhoe-Inzidenz bei Kindern um 25 %, Pneumonie um 41 %. Zeigt biologische Relevanz der Zinkversorgung.
       en: >-
         Meta-analysis: zinc supplementation reduced diarrhoea incidence in children by 25% and pneumonia by 41%. Demonstrates the biological relevance of zinc status.
-  - pmid: "8875519"
-    title: "Zinc supplementation and testosterone levels"
-    authors: "Prasad AS et al."
-    year: 1996
-    url: "https://pubmed.ncbi.nlm.nih.gov/8875519/"
+  - ref: pmid-8875519
     finding:
       de: >-
         Bei zinkmangelnden älteren Männern: Supplementierung war mit höheren Werten verbundene Testosteron von 8,3 auf 16,0 nmol/L. Kein Effekt bei gut versorgten Männern.
       en: >-
         In zinc-deficient older men: supplementation raised testosterone from 8.3 to 16.0 nmol/L. No effect in adequately nourished men.
-  - pmid: "18385819"
-    title: "The role of zinc in the biology of aging"
-    authors: "Mocchegiani E et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18385819/"
+  - ref: pmid-18385819
     finding:
       de: >-
         Review: Zinkmangel nimmt mit dem Alter zu, korreliert mit Immunseneszenz, Entzündung und war mit höheren Werten verbundenem Oxidationsstress. Supplementierung bei Älteren war mit Veränderungen verbunden Immunparameter.

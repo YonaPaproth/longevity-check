@@ -25,31 +25,19 @@ efsa_notes:
     For certain fiber-related health effects, EU-approved health claims exist in some cases, depending on product and dosage. Psyllium is regulatorily much more robust than many lifestyle supplements.
 
 key_studies:
-  - pmid: "10837282"
-    title: "The effect of psyllium on serum lipids"
-    authors: "Anderson JW et al."
-    year: 2000
-    url: "https://pubmed.ncbi.nlm.nih.gov/10837282/"
+  - ref: pmid-10837282
     finding:
       de: >-
         Meta-analytische Daten zeigen moderate LDL-Senkung durch Psyllium.
       en: >-
         Meta-analytic data demonstrate modest LDL cholesterol reduction with psyllium.
-  - pmid: "25743043"
-    title: "Psyllium fiber improves bowel function"
-    authors: "McRorie JW"
-    year: 2015
-    url: "https://pubmed.ncbi.nlm.nih.gov/25743043/"
+  - ref: pmid-25743043
     finding:
       de: >-
         Psyllium ist für Stuhlregulation gut untersucht und klinisch praktisch relevant.
       en: >-
         Psyllium is well-established for bowel regularity and clinically relevant for digestive function.
-  - pmid: "23990470"
-    title: "Soluble fiber and glycemic control"
-    authors: "Silva FM et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23990470/"
+  - ref: pmid-23990470
     finding:
       de: >-
         Lösliche Ballaststoffe wie Psyllium können Glukoseparameter moderat mit Veränderungen in Verbindung bringen.

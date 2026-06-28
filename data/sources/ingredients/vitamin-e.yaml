@@ -27,41 +27,25 @@ efsa_notes:
     EFSA has approved health claims for Vitamin E: protection of cells against oxidative stress. Daily requirement: 13 mg (men), 11 mg (women). Upper tolerable intake: 300 mg/day. EFSA does not distinguish between synthetic and natural forms in claims, but bioavailability differs significantly.
 
 key_studies:
-  - pmid: "22050429"
-    title: "Vitamin E and the risk of prostate cancer: the Selenium and Vitamin E Cancer Prevention Trial (SELECT)"
-    authors: "Klein EA et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/22050429/"
+  - ref: pmid-22050429
     finding:
       de: >-
         RCT (n=35.533): 400 IE synthetisches Vitamin E/Tag war mit höheren Werten verbundene Prostatakrebsrisiko um 17 % signifikant. Studie vorzeitig abgebrochen. Wichtigstes Sicherheitssignal der letzten Jahrzehnte für Vitamin E.
       en: >-
         RCT (n=35,533): 400 IU synthetic vitamin E/day was significantly associated with 17% increased prostate cancer risk. Trial stopped early. Most important vitamin E safety signal in recent decades.
-  - pmid: "15537682"
-    title: "Meta-analysis: high-dosage vitamin E supplementation may increase all-cause mortality"
-    authors: "Miller ER et al."
-    year: 2005
-    url: "https://pubmed.ncbi.nlm.nih.gov/15537682/"
+  - ref: pmid-15537682
     finding:
       de: >-
         Meta-Analyse: Hochdosiertes Vitamin E (>400 IE/Tag) assoziiert mit leicht war mit höheren Werten verbundener Gesamtmortalität. Methodisch umstritten, aber wichtiges Signal.
       en: >-
         Meta-analysis: High-dose vitamin E (>400 IU/day) associated with slightly elevated all-cause mortality. Methodologically contested, but an important signal warranting caution.
-  - pmid: "10485337"
-    title: "Vitamin E: function and metabolism"
-    authors: "Brigelius-Flohe R & Traber MG"
-    year: 1999
-    url: "https://pubmed.ncbi.nlm.nih.gov/10485377/"
+  - ref: pmid-10485337
     finding:
       de: >-
         Review: Vitamin E wird mit Schutzmechanismen in Verbindung gebracht mehrfach ungesättigte Fettsäuren in Zellmembranen vor Peroxidation. Alpha-Tocopherol hat höchste Bindungsaffinität zum Transportprotein, aber Gamma-Tocopherol hat andere wichtige Funktionen.
       en: >-
         Review: Vitamin E associated with protecting polyunsaturated fatty acids in cell membranes from peroxidation. Alpha-tocopherol has highest affinity for transport protein, but gamma-tocopherol has other important biological functions.
-  - pmid: "16753142"
-    title: "Tocotrienols: the emerging face of natural vitamin E"
-    authors: "Sen CK et al."
-    year: 2006
-    url: "https://pubmed.ncbi.nlm.nih.gov/16753142/"
+  - ref: pmid-16753142
     finding:
       de: >-
         Review: Tocotrienole (besonders Delta- und Gamma-) zeigen präklinisch neurobiologisch interessante, antikanzerogene und kardioprotektive Effekte, die Alpha-Tocopherol nicht hat. Möglicherweise überlegene gesundes Altern-Kandidaten.
@@ -128,7 +112,7 @@ locales:
 
   en:
     summary: >-
-      Vitamin E is a family of 8 lipid-soluble antioxidants protecting cell membranes. Natural mixed tocopherols generally considered safe; high-dose synthetic forms carry documented risks from SELECT trial.
+      Vitamin E: 8 lipid-soluble antioxidants protecting cell membranes. Natural mixed tocopherols are generally safe; high-dose synthetic forms carry risks documented in the SELECT trial.
     evidenceSummary: >-
       Essential antioxidant function and EFSA-approved claims are well-documented. High-dose supplementation (400+ IU) showed increased prostate cancer risk in SELECT trial. Mixed tocopherols and tocotrienols have better safety profiles. Longevity endpoints remain unproven.
     body: |

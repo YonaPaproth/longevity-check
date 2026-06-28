@@ -30,6 +30,33 @@ for (const d of [OUT_DE, OUT_EN, OUT_ENTITIES, OUT_RELATIONS]) {
   mkdirSync(d, { recursive: true });
 }
 
+// ── Study registry ───────────────────────────────────────────────────────────
+
+const STUDIES_DIR = join(ROOT, 'data/sources/studies');
+
+interface StudyMeta {
+  id: string;
+  type: 'study';
+  pmid: string;
+  title: string;
+  authors: string;
+  year: number;
+  url?: string;
+}
+
+const studyRegistry = new Map<string, StudyMeta>();
+
+if (existsSync(STUDIES_DIR)) {
+  for (const f of readdirSync(STUDIES_DIR).filter(f => f.endsWith('.yaml'))) {
+    const raw = readFileSync(join(STUDIES_DIR, f), 'utf-8');
+    const { data } = matter(raw);
+    studyRegistry.set(data.id as string, data as StudyMeta);
+  }
+  if (studyRegistry.size > 0) {
+    console.log(`Loaded ${studyRegistry.size} studies from registry\n`);
+  }
+}
+
 // ── Types ─────────────────────────────────────────────────────────────────────
 
 interface LocalisedString {
@@ -37,7 +64,8 @@ interface LocalisedString {
   en: string;
 }
 
-interface KeyStudy {
+/** Inline study with full metadata (legacy format) */
+interface KeyStudyInline {
   pmid?: string;
   title: string;
   authors: string;
@@ -45,6 +73,14 @@ interface KeyStudy {
   url?: string;
   finding: LocalisedString;
 }
+
+/** Ref-based study pointing to registry (new format) */
+interface KeyStudyRef {
+  ref: string;
+  finding: LocalisedString;
+}
+
+type KeyStudy = KeyStudyInline | KeyStudyRef;
 
 interface LocaleContent {
   summary: string;
@@ -167,6 +203,43 @@ function formatDate(val: unknown): string {
   return String(val);
 }
 
+// ── Study resolution ─────────────────────────────────────────────────────────
+
+interface ResolvedStudy {
+  pmid?: string;
+  title: string;
+  authors: string;
+  year: number;
+  url?: string;
+}
+
+function resolveStudy(study: KeyStudy, ingredientId: string): ResolvedStudy {
+  if ('ref' in study) {
+    const meta = studyRegistry.get(study.ref);
+    if (!meta) {
+      throw new Error(
+        `Study ref "${study.ref}" not found in registry (referenced by ${ingredientId}). ` +
+        `Run: npx tsx data/scripts/extract-studies.ts --extract-only`
+      );
+    }
+    return {
+      pmid: meta.pmid,
+      title: meta.title,
+      authors: meta.authors,
+      year: meta.year,
+      url: meta.url,
+    };
+  }
+  // Inline study — return as-is
+  return {
+    pmid: study.pmid,
+    title: study.title,
+    authors: study.authors,
+    year: study.year,
+    url: study.url,
+  };
+}
+
 // ── MDX generation ────────────────────────────────────────────────────────────
 
 function buildMdxFrontmatter(source: IngredientSource, locale: 'de' | 'en'): string {
@@ -203,12 +276,14 @@ function buildMdxFrontmatter(source: IngredientSource, locale: 'de' | 'en'): str
   if (key_studies.length > 0) {
     lines.push('key_studies:');
     for (const study of key_studies) {
+      // Resolve study metadata: ref-based or inline
+      const resolved = resolveStudy(study, source.id);
       const finding = escapeMdx(study.finding[locale]);
-      lines.push(`  - title: "${study.title.replace(/"/g, '\\"')}"`);
-      lines.push(`    authors: "${study.authors.replace(/"/g, '\\"')}"`);
-      lines.push(`    year: ${study.year}`);
-      if (study.pmid) lines.push(`    pmid: "${study.pmid}"`);
-      if (study.url) lines.push(`    url: "${study.url}"`);
+      lines.push(`  - title: "${resolved.title.replace(/"/g, '\\"')}"`);
+      lines.push(`    authors: "${resolved.authors.replace(/"/g, '\\"')}"`);
+      lines.push(`    year: ${resolved.year}`);
+      if (resolved.pmid) lines.push(`    pmid: "${resolved.pmid}"`);
+      if (resolved.url) lines.push(`    url: "${resolved.url}"`);
       // finding: wrap as multiline if needed
       const escapedFinding = finding.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
       lines.push(`    finding: "${escapedFinding}"`);
@@ -259,6 +334,34 @@ function generateRelations(source: IngredientSource): object {
     entity: source.id,
     relations: source.relations,
   };
+}
+
+// ── Study entity generation ──────────────────────────────────────────────────
+
+const OUT_STUDY_ENTITIES = join(ROOT, 'data/entities/studies');
+mkdirSync(OUT_STUDY_ENTITIES, { recursive: true });
+
+function generateStudyEntities(): number {
+  let count = 0;
+  for (const [id, meta] of studyRegistry) {
+    // Use studie-XXXXX as KG entity ID (matches relation target convention)
+    const entityId = `studie-${meta.pmid}`;
+    const entity = {
+      id: entityId,
+      type: 'study',
+      title: meta.title,
+      authors: meta.authors,
+      year: meta.year,
+      pmid: meta.pmid,
+      ...(meta.url ? { url: meta.url } : {}),
+    };
+    writeFileSync(
+      join(OUT_STUDY_ENTITIES, `${entityId}.json`),
+      JSON.stringify(entity, null, 2) + '\n'
+    );
+    count++;
+  }
+  return count;
 }
 
 // ── Process one source file ───────────────────────────────────────────────────
@@ -346,6 +449,12 @@ if (args.length > 0) {
     }
   }
 
-  console.log(`\n✓ ${ok} succeeded, ${failed} failed\n`);
+  // Generate study entities from registry
+  if (studyRegistry.size > 0) {
+    const studyCount = generateStudyEntities();
+    console.log(`✓ ${studyCount} study entities generated\n`);
+  }
+
+  console.log(`✓ ${ok} succeeded, ${failed} failed\n`);
   if (failed > 0) process.exit(1);
 }

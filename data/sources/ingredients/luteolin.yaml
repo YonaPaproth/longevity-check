@@ -24,31 +24,19 @@ efsa_notes:
     No health claims for neuroprotection, anti-inflammatory effects, or longevity are approved in the EU for luteolin.
 
 key_studies:
-  - pmid: "25670000"
-    title: "Luteolin as a neuroprotective flavonoid"
-    authors: "Theoharides TC et al."
-    year: 2015
-    url: "https://pubmed.ncbi.nlm.nih.gov/25670000/"
+  - ref: pmid-25670000
     finding:
       de: >-
         Review: Luteolin ist mechanistisch spannend, vor allem neuroinflammatorisch.
       en: >-
         Review: Luteolin is mechanistically interesting, particularly for its neuroinflammatory modulation pathways.
-  - pmid: "18499654"
-    title: "Anti-inflammatory properties of luteolin"
-    authors: "Seelinger G et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18499654/"
+  - ref: pmid-18499654
     finding:
       de: >-
         Präklinisch starke Daten, klinisch deutlich weniger.
       en: >-
         Preclinical evidence is robust; clinical evidence in humans is significantly weaker.
-  - pmid: "20005244"
-    title: "Flavonoids in brain aging"
-    authors: "Spencer JPE"
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20005244/"
+  - ref: pmid-20005244
     finding:
       de: >-
         Flavonoide wie Luteolin sind konzeptionell interessant, aber noch kein belastbares Alterungsforschung-Tool.

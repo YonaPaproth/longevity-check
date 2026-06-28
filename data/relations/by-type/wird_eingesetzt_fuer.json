@@ -1,6 +1,6 @@
 {
   "type": "wird_eingesetzt_fuer",
-  "count": 512,
+  "count": 546,
   "relations": [
     {
       "subject": "5-htp",
@@ -245,17 +245,24 @@
     {
       "subject": "berberine",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.85,
+      "evidence_strength": "hoch",
+      "source": "pmid:19800084",
+      "note": "RCT (n=116): HbA1c -2,0 PP, Nüchternblutzucker -3,5 mmol/L, vergleichbar mit Metformin"
     },
     {
       "subject": "berberine",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.6,
+      "evidence_strength": "moderat",
+      "note": "LDL-Senkung 15-25% in Humanstudien via LDLR-Mechanismus; keine kardiovaskulären Endpunktstudien"
     },
     {
       "subject": "berberine",
-      "target": "leber",
-      "confidence": 0.7
+      "target": "verdauung",
+      "confidence": 0.4,
+      "evidence_strength": "niedrig",
+      "note": "Einflüsse auf Darmmikrobiom in Tierstudien; Humanstudien explorativ"
     },
     {
       "subject": "beta-alanin",
@@ -424,13 +431,13 @@
     },
     {
       "subject": "coq10",
-      "target": "energie",
-      "confidence": 0.7
+      "target": "herz-kreislauf",
+      "confidence": 0.8
     },
     {
       "subject": "coq10",
-      "target": "kognition",
-      "confidence": 0.7
+      "target": "herzinsuffizienz",
+      "confidence": 0.8
     },
     {
       "subject": "coq10",
@@ -439,23 +446,23 @@
     },
     {
       "subject": "coq10",
-      "target": "herz-kreislauf",
-      "confidence": 0.7
-    },
-    {
-      "subject": "coq10",
-      "target": "muskel",
-      "confidence": 0.7
+      "target": "myopathie",
+      "confidence": 0.8
     },
     {
       "subject": "coq10",
       "target": "alterung",
+      "confidence": 0.6
+    },
+    {
+      "subject": "coq10",
+      "target": "muskelgesundheit",
       "confidence": 0.7
     },
     {
       "subject": "coq10",
-      "target": "oxidativer-stress",
-      "confidence": 0.7
+      "target": "fertilitat",
+      "confidence": 0.6
     },
     {
       "subject": "cordyceps",
@@ -516,6 +523,21 @@
       "subject": "curcumin",
       "target": "migraene",
       "confidence": 0.7
+    },
+    {
+      "subject": "dl-phenylalanin",
+      "target": "depression",
+      "confidence": 0.5
+    },
+    {
+      "subject": "dl-phenylalanin",
+      "target": "schmerz",
+      "confidence": 0.5
+    },
+    {
+      "subject": "dl-phenylalanin",
+      "target": "kognition",
+      "confidence": 0.6
     },
     {
       "subject": "egcg",
@@ -608,6 +630,11 @@
       "confidence": 0.7
     },
     {
+      "subject": "eisen",
+      "target": "fertilitat",
+      "confidence": 0.6
+    },
+    {
       "subject": "ergothionein",
       "target": "kognition",
       "confidence": 0.7
@@ -696,6 +723,36 @@
       "subject": "folsaeure",
       "target": "leber",
       "confidence": 0.7
+    },
+    {
+      "subject": "folsaeure",
+      "target": "fertilitat",
+      "confidence": 0.9
+    },
+    {
+      "subject": "fucoidan",
+      "target": "immunsystem",
+      "confidence": 0.8
+    },
+    {
+      "subject": "fucoidan",
+      "target": "verdauung",
+      "confidence": 0.8
+    },
+    {
+      "subject": "fucoidan",
+      "target": "herz-kreislauf",
+      "confidence": 0.6
+    },
+    {
+      "subject": "fucoidan",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fucoidan",
+      "target": "knochen",
+      "confidence": 0.6
     },
     {
       "subject": "gaba",
@@ -1123,6 +1180,16 @@
       "confidence": 0.7
     },
     {
+      "subject": "kuerbiskernoel",
+      "target": "prostata",
+      "confidence": 0.7
+    },
+    {
+      "subject": "kuerbiskernoel",
+      "target": "blase",
+      "confidence": 0.6
+    },
+    {
       "subject": "kupfer",
       "target": "energie",
       "confidence": 0.7
@@ -1181,6 +1248,31 @@
       "subject": "l-citrullin",
       "target": "leber",
       "confidence": 0.7
+    },
+    {
+      "subject": "l-reuteri-6475",
+      "target": "knochen",
+      "confidence": 0.9
+    },
+    {
+      "subject": "l-reuteri-6475",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-reuteri-6475",
+      "target": "verdauung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-reuteri-6475",
+      "target": "entzuendung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-reuteri-6475",
+      "target": "alterung",
+      "confidence": 0.6
     },
     {
       "subject": "l-theanin",
@@ -1378,6 +1470,11 @@
       "confidence": 0.7
     },
     {
+      "subject": "maca",
+      "target": "fertilitat",
+      "confidence": 0.5
+    },
+    {
       "subject": "magnesium",
       "target": "schlaf",
       "confidence": 0.7
@@ -1493,6 +1590,26 @@
       "confidence": 0.7
     },
     {
+      "subject": "multivitamin",
+      "target": "immunsystem",
+      "confidence": 0.7
+    },
+    {
+      "subject": "multivitamin",
+      "target": "energie",
+      "confidence": 0.6
+    },
+    {
+      "subject": "multivitamin",
+      "target": "kognition",
+      "confidence": 0.6
+    },
+    {
+      "subject": "multivitamin",
+      "target": "alterung",
+      "confidence": 0.5
+    },
+    {
       "subject": "myo-inositol",
       "target": "blutdruck",
       "confidence": 0.7
@@ -1516,6 +1633,11 @@
       "subject": "myo-inositol",
       "target": "migraene",
       "confidence": 0.7
+    },
+    {
+      "subject": "myo-inositol",
+      "target": "fertilitat",
+      "confidence": 0.8
     },
     {
       "subject": "nac",
@@ -1788,6 +1910,16 @@
       "confidence": 0.7
     },
     {
+      "subject": "rapamycin",
+      "target": "alterung",
+      "confidence": 0.8
+    },
+    {
+      "subject": "rapamycin",
+      "target": "immunsystem",
+      "confidence": 0.6
+    },
+    {
       "subject": "reishi",
       "target": "immunsystem",
       "confidence": 0.7
@@ -1805,52 +1937,62 @@
     {
       "subject": "resveratrol",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Inkonsistente RCT-Daten; eine Studie fand Gedächtnisverbesserung bei postmenopausalen Frauen (Evans 2017)"
     },
     {
       "subject": "resveratrol",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Immunmodulierende Effekte in Zellstudien; Humanevidenz fehlt weitgehend"
     },
     {
       "subject": "resveratrol",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Keine signifikante Blutdrucksenkung in Meta-Analyse Sahebkar 2016 (11 RCTs)"
     },
     {
       "subject": "resveratrol",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Fasting glucose -4,4 mg/dL in Meta-Analyse 2016; kein Effekt in Umbrella-Review 2026"
     },
     {
       "subject": "resveratrol",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Triglyceride -6,5 mg/dL (11 RCTs); keine konsistenten kardiovaskulären Endpunktdaten"
     },
     {
       "subject": "resveratrol",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Einfluss auf Darmmikrobiom in Tierstudien; keine belastbaren Humanstudien"
     },
     {
       "subject": "resveratrol",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "SIRT1-Aktivierung und Calorienbeschränkungs-Mimetikum in Tiermodellen; kein Humanbeleg für Longevity"
     },
     {
       "subject": "resveratrol",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Antioxidative Eigenschaften in vitro; systemische Wirkung bei oraler Einnahme durch Bioverfügbarkeit limitiert"
     },
     {
       "subject": "resveratrol",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Hepatoprotektive Effekte in Tierstudien und kleinen Humanstudien bei NAFLD"
     },
     {
       "subject": "resveratrol",
       "target": "migraene",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Sehr begrenzte Evidenz; keine belastbaren RCTs"
     },
     {
       "subject": "rhodiola",
@@ -1893,6 +2035,26 @@
       "confidence": 0.7
     },
     {
+      "subject": "safran",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "safran",
+      "target": "stress",
+      "confidence": 0.6
+    },
+    {
+      "subject": "safran",
+      "target": "schlaf",
+      "confidence": 0.4
+    },
+    {
+      "subject": "safran",
+      "target": "sexuelle-dysfunktion",
+      "confidence": 0.6
+    },
+    {
       "subject": "same",
       "target": "leber",
       "confidence": 0.7
@@ -1911,6 +2073,21 @@
       "subject": "schisandra",
       "target": "leber",
       "confidence": 0.7
+    },
+    {
+      "subject": "sea-moss",
+      "target": "immunsystem",
+      "confidence": 0.4
+    },
+    {
+      "subject": "sea-moss",
+      "target": "verdauung",
+      "confidence": 0.4
+    },
+    {
+      "subject": "sea-moss",
+      "target": "schilddruese",
+      "confidence": 0.4
     },
     {
       "subject": "selen",
@@ -2473,6 +2650,11 @@
       "confidence": 0.7
     },
     {
+      "subject": "vitamin-d3",
+      "target": "fertilitat",
+      "confidence": 0.6
+    },
+    {
       "subject": "vitamin-e",
       "target": "kognition",
       "confidence": 0.7
@@ -2560,6 +2742,11 @@
     {
       "subject": "zink",
       "target": "augen",
+      "confidence": 0.7
+    },
+    {
+      "subject": "zink",
+      "target": "fertilitat",
       "confidence": 0.7
     }
   ]

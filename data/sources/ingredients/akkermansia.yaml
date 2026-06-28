@@ -25,31 +25,19 @@ efsa_notes:
     No EFSA health claims approved. Regulatory status as a supplement in the EU is still under clarification. Pasteurized Akkermansia is available as a novel food in some EU countries.
 
 key_studies:
-  - pmid: "28092418"
-    title: "Gut microbiota features associated with Clostridioides difficile colonization in dairy cattle"
-    authors: "Plovier H et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28092418/"
+  - ref: pmid-28092418
     finding:
       de: >-
         Identifizierung von Amuc_1100 als aktivem Protein der Akkermansia-Membran, das metabolische Verbesserungen bei Mäusen auslöst.
       en: >-
         Identification of Amuc_1100, an outer-membrane protein of Akkermansia, as an active component driving metabolic improvements in mice.
-  - pmid: "31263284"
-    title: "Supplementation with Akkermansia muciniphila in overweight and obese human volunteers"
-    authors: "Depommier C et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/31263284/"
+  - ref: pmid-31263284
     finding:
       de: >-
         Erster RCT am Menschen: Pasteurisiertes Akkermansia war mit Veränderungen verbundene Insulinsensitivität, Cholesterin und Körpergewicht bei übergewichtigen Erwachsenen.
       en: >-
         First human RCT: Pasteurized Akkermansia was associated with improvements in insulin sensitivity, cholesterol, and body weight in overweight adults (n=40, 12 weeks).
-  - pmid: "26100928"
-    title: "Akkermansia muciniphila and improved metabolic health during caloric restriction"
-    authors: "Dao MC et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/26100928/"
+  - ref: pmid-26100928
     finding:
       de: >-
         Beobachtungsstudie: Hohe Akkermansia-Baseline korrelierte mit besseren metabolischen Reaktionen auf Kalorienrestriktion.

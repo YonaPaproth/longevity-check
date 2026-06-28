@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, there are no approved claims for Gotu Kola regarding brain, skin, or vascular function in freely formulated supplement marketing.
 
 key_studies:
-  - pmid: "28685790"
-    title: "Centella asiatica in cognition and mood"
-    authors: "Puttarak P et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28685790/"
+  - ref: pmid-28685790
     finding:
       de: >-
         Einige Hinweise auf kognitive und stimmungsbezogene Effekte, aber keine sehr starke Datenlage.
       en: >-
         Some evidence for cognitive and mood effects, but the overall evidence base remains limited.
-  - pmid: "24006008"
-    title: "Centella asiatica and wound healing"
-    authors: "Bylka W et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/24006008/"
+  - ref: pmid-24006008
     finding:
       de: >-
         Traditionelle und experimentelle Daten zu Haut- und Gewebethemen sind plausibel.
       en: >-
         Traditional and experimental data on skin and tissue concerns are plausible.
-  - pmid: "11297858"
-    title: "Pharmacology of Centella asiatica"
-    authors: "James JT et al."
-    year: 2001
-    url: "https://pubmed.ncbi.nlm.nih.gov/11297858/"
+  - ref: pmid-11297858
     finding:
       de: >-
         Breite präklinische Aktivität, Human-Evidenz bleibt begrenzt.

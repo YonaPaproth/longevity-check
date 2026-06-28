@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, there are no approved health claims for Cordyceps regarding endurance, energy, or performance.
 
 key_studies:
-  - pmid: "28025511"
-    title: "Cordyceps supplementation and exercise performance"
-    authors: "Hirsch KR et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28025511/"
+  - ref: pmid-28025511
     finding:
       de: >-
         Einige Hinweise auf Leistungs- oder Fatigue-Effekte, aber keine starke, konsistente Evidenz.
       en: >-
         Some evidence for performance or fatigue effects, but no strong, consistent evidence across studies.
-  - pmid: "20412130"
-    title: "Cordyceps and fatigue"
-    authors: "Chen S et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20412130/"
+  - ref: pmid-20412130
     finding:
       de: >-
         Kleine Studien deuten auf subjektive Vorteile hin.
       en: >-
         Small studies suggest subjective improvements in fatigue and vitality, though designs were often uncontrolled.
-  - pmid: "18396376"
-    title: "Pharmacology of Cordyceps"
-    authors: "Paterson RRM"
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18396376/"
+  - ref: pmid-18396376
     finding:
       de: >-
         Breite präklinische Aktivität, Human-Daten deutlich begrenzter.

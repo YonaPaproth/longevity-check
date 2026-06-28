@@ -27,51 +27,31 @@ efsa_notes:
     EFSA rejected a health claim application for CoQ10 (contribution to normal heart function) in 2010, citing insufficient evidence. CoQ10 products may not make health claims in the EU.
 
 key_studies:
-  - pmid: "23097267"
-    title: "Selenium and Coenzyme Q10 Reduces Cardiovascular Mortality (KiSel-10)"
-    authors: "Alehagen U et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23097267/"
+  - ref: pmid-23097267
     finding:
       de: >-
         RCT (n=443, ältere Schweden): Kombination Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität um 54% (HR 0,46; 95%-CI 0,28–0,77). Beachtlich, aber noch nicht unabhängig repliziert.
       en: >-
         RCT (n=443, older Swedish adults): Selenium + CoQ10 combination over 4 years reduced cardiovascular mortality by 54% (HR 0.46; 95% CI 0.28–0.77). Impressive, but not yet independently replicated.
-  - pmid: "25282031"
-    title: "Effect of Coenzyme Q10 on Morbidity and Mortality in Chronic Heart Failure (Q-SYMBIO)"
-    authors: "Mortensen SA et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/25282031/"
+  - ref: pmid-25282031
     finding:
       de: >-
         RCT (n=420): CoQ10 300 mg/Tag über 2 Jahre reduzierte schwere kardiovaskuläre Ereignisse (14% vs. 25% im Placebo, p=0,003) und Gesamtmortalität bei chronischer Herzinsuffizienz.
       en: >-
         RCT (n=420): CoQ10 300 mg/day over 2 years reduced major cardiovascular events (14% vs. 25% in placebo, p=0.003) and all-cause mortality in chronic heart failure.
-  - pmid: "25154704"
-    title: "Coenzyme Q10 Supplementation Reduces Statin-Related Myopathy"
-    authors: "Skarlovnik A et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/25154704/"
+  - ref: pmid-25154704
     finding:
       de: >-
         RCT: CoQ10 100 mg/Tag über 30 Tage reduzierte Muskelschwäche und -schmerzen bei Statin-assozierter Myopathie signifikant gegenüber Placebo.
       en: >-
         RCT: CoQ10 100 mg/day for 30 days significantly reduced muscle weakness and pain in statin-associated myopathy vs. placebo.
-  - pmid: "17386983"
-    title: "Coenzyme Q10 in the treatment of hypertension: a meta-analysis of the clinical trials"
-    authors: "Rosenfeldt FL et al."
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17386983/"
+  - ref: pmid-17386983
     finding:
       de: >-
         Metaanalyse (12 RCTs): CoQ10 reduzierte systolischen Blutdruck um durchschnittlich 16,6 mmHg und diastolischen um 8,2 mmHg. Effekte in kleineren Studien; größere Replikationen stehen aus.
       en: >-
         Meta-analysis (12 RCTs): CoQ10 reduced systolic blood pressure by an average of 16.6 mmHg and diastolic by 8.2 mmHg. Effects observed in smaller trials; larger replication studies pending.
-  - pmid: "18926930"
-    title: "Coenzyme Q10 as a predictor of mortality in chronic heart failure"
-    authors: "Molyneux SL et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18926930/"
+  - ref: pmid-18926930
     finding:
       de: >-
         Kohortenstudie (n=236 CHF-Patienten): Niedriger CoQ10-Spiegel war ein unabhängiger Prädiktor für erhöhte Mortalität bei chronischer Herzinsuffizienz. Verstärkt klinisches Interesse an CoQ10-Substitution.

@@ -35,21 +35,13 @@ key_studies:
         Übersicht zu Funktionen, Bedarf und Sicherheit. Manganmangel ist selten, Überversorgung kann problematisch sein.
       en: >-
         Overview of manganese functions, dietary requirements, and safety considerations. Manganese deficiency is rare in well-nourished populations; excess intake poses toxicity concerns, particularly for neurological health.
-  - pmid: "23036414"
-    title: "Manganese-induced neurotoxicity: a review of its behavioral consequences and neuroprotective strategies"
-    authors: "Martinez-Finley EJ et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23036414/"
+  - ref: pmid-23036414
     finding:
       de: >-
         Review: Chronisch hohe Manganexposition kann das Nervensystem schädigen. Relevanz besonders bei Überexposition, aber auch ein Grund für Zurückhaltung bei Hochdosis-Supplementen.
       en: >-
         Systematic review showing chronic high manganese exposure damages the nervous system. Demonstrates behavioral and motor deficits in excessive exposure scenarios. Argues for caution with high-dose supplementation in healthy populations.
-  - pmid: "16099008"
-    title: "The role of manganese in bone health"
-    authors: "Aschner M et al."
-    year: 2005
-    url: "https://pubmed.ncbi.nlm.nih.gov/16099008/"
+  - ref: pmid-16099008
     finding:
       de: >-
         Mangan ist an Knochen- und Knorpelstoffwechsel beteiligt, aber Supplementnutzen bei gesunden Menschen ist schwach belegt.

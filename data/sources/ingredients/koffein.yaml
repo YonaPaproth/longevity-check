@@ -37,41 +37,25 @@ key_studies:
         EFSA-Gutachten: Einzeldosen bis 200 mg Koffein gelten bei gesunden Erwachsenen als sicher. 400 mg/Tag aus allen Quellen gilt als Obergrenze für Erwachsene ohne Risiko. Schwangere: max. 200 mg/Tag.
       en: >-
         EFSA safety opinion: single doses up to 200 mg caffeine are considered safe in healthy adults. 400 mg/day from all sources is the recommended upper limit for adults without identified risk. Pregnant women: maximum 200 mg/day.
-  - pmid: "32045577"
-    title: "Caffeine supplementation and physical performance, a meta-analysis"
-    authors: "Grgic J et al."
-    year: 2020
-    url: "https://pubmed.ncbi.nlm.nih.gov/32045577/"
+  - ref: pmid-32045577
     finding:
       de: >-
         Meta-Analyse (>300 Studien): Koffein verbesserte Ausdauer-, Kraft- und Schnellkraftleistung. Effekte auf Ausdauerleistung waren am konsistentesten (SMD ~0,41).
       en: >-
         Meta-analysis (>300 studies): caffeine improved endurance, strength, and power performance. Effects on endurance performance were the most consistent (SMD ~0.41).
-  - pmid: "26830602"
-    title: "Effects of caffeine on cognitive performance, mood and alertness"
-    authors: "McLellan TM et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/26830602/"
+  - ref: pmid-26830602
     finding:
       de: >-
         Systematischer Review (>120 Studien): Koffein verbesserte in Studien Vigilanz, Reaktionszeit und Konzentrationsleistung, insbesondere bei Schlafentzug.
       en: >-
         Systematic review (>120 studies): caffeine improved vigilance, reaction time, and attentional performance across studies, particularly under conditions of sleep deprivation.
-  - pmid: "20091547"
-    title: "Caffeine for the prevention of injuries and errors in shift workers"
-    authors: "Ker K et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20091547/"
+  - ref: pmid-20091547
     finding:
       de: >-
         Cochrane Review: Koffein reduzierte Fehlerrate und war mit weniger Schläfrigkeit in Schichtarbeit-Settings verbunden.
       en: >-
         Cochrane review: caffeine reduced error rates and was associated with less drowsiness in shift-work settings.
-  - pmid: "24832163"
-    title: "Association of habitual coffee consumption with risk of type 2 diabetes and cardiovascular disease"
-    authors: "Ding M et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/24832163/"
+  - ref: pmid-24832163
     finding:
       de: >-
         Große Kohortenstudie (NHS, >100.000 Personen): Moderater Kaffeekonsum war mit geringerem T2D-Risiko assoziiert – konfundiert durch weitere Kaffeeinhaltsstoffe, nicht isoliert auf Koffein zurückführbar.

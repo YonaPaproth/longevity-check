@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, there are no approved health claims for glucosamine regarding joint health. Many claims commonly made about glucosamine lack regulatory support under EFSA guidelines.
 
 key_studies:
-  - pmid: "16034828"
-    title: "Glucosamine therapy for osteoarthritis"
-    authors: "Towheed TE et al."
-    year: 2005
-    url: "https://pubmed.ncbi.nlm.nih.gov/16034828/"
+  - ref: pmid-16034828
     finding:
       de: >-
         Cochrane-Review: Ergebnisse sind uneinheitlich und hängen u. a. von der verwendeten Glucosamin-Form ab.
       en: >-
         Cochrane systematic review: Results are inconsistent and depend heavily on the glucosamine formulation used, study duration, and patient population.
-  - pmid: "17062856"
-    title: "Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis"
-    authors: "Clegg DO et al."
-    year: 2006
-    url: "https://pubmed.ncbi.nlm.nih.gov/17062856/"
+  - ref: pmid-17062856
     finding:
       de: >-
         Große GAIT-Studie: Im Gesamtkollektiv kein überzeugender Effekt, in Teilgruppen eventuell Signale.
       en: >-
         Large GAIT trial: No convincing benefit in the overall population, though some subgroups showed potential signals that warrant further investigation.
-  - pmid: "27144639"
-    title: "Long-term use of glucosamine and chondroitin in osteoarthritis"
-    authors: "Bruyère O et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/27144639/"
+  - ref: pmid-27144639
     finding:
       de: >-
         Einige Daten deuten auf symptomatische Vorteile hin, die Gesamtbeweislage bleibt aber gemischt.

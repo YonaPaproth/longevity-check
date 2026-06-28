@@ -25,31 +25,19 @@ efsa_notes:
     For betaine in the EU, only narrow, specific claims regarding homocysteine metabolism under defined conditions are permitted. Broad healthy aging, performance, or liver claims lack regulatory approval.
 
 key_studies:
-  - pmid: "12514275"
-    title: "Betaine supplementation decreases plasma homocysteine in healthy adult humans"
-    authors: "Olthof MR et al."
-    year: 2003
-    url: "https://pubmed.ncbi.nlm.nih.gov/12514275/"
+  - ref: pmid-12514275
     finding:
       de: >-
         TMG war mit niedrigeren Werten verbundene Homocystein in Humanstudien zuverlässig. Ob das automatisch klinische Vorteile erzeugt, bleibt offen.
       en: >-
         TMG was reliably associated with lower homocysteine levels in human studies. Whether this automatically produces clinical benefits remains unclear.
-  - pmid: "15466943"
-    title: "Betaine in human nutrition"
-    authors: "Craig SA"
-    year: 2004
-    url: "https://pubmed.ncbi.nlm.nih.gov/15466943/"
+  - ref: pmid-15466943
     finding:
       de: >-
         Review: TMG ist metabolisch relevant, besonders als Methylgruppendonor und Osmolyt. Die Praxisanwendungen gehen der Evidenz teils voraus.
       en: >-
         Review: TMG is metabolically relevant, particularly as a methyl-group donor and osmolyte. Clinical applications sometimes outpace the evidence base.
-  - pmid: "21485974"
-    title: "Betaine supplementation and cardiovascular risk"
-    authors: "Lever M et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21485974/"
+  - ref: pmid-21485974
     finding:
       de: >-
         Homocystein sinkt, harte klinische Endpunkte bleiben aber unklar.

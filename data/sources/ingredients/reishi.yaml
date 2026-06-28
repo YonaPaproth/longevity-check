@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, there are no approved health claims for Reishi regarding immune support, anti-ageing research, or stress resistance.
 
 key_studies:
-  - pmid: "17336393"
-    title: "Ganoderma lucidum for pharmacologically relevant effects"
-    authors: "Boh B et al."
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17336393/"
+  - ref: pmid-17336393
     finding:
       de: >-
         Review: viele präklinische Daten, aber wenig robuste Human-Endpunkte.
       en: >-
         Review: abundant preclinical data, but few robust human endpoints.
-  - pmid: "26058794"
-    title: "Ganoderma lucidum in cardiovascular risk factors"
-    authors: "Klupp NL et al."
-    year: 2015
-    url: "https://pubmed.ncbi.nlm.nih.gov/26058794/"
+  - ref: pmid-26058794
     finding:
       de: >-
         Cochrane-nahe Bewertung: klinische Evidenz bleibt schwach.
       en: >-
         Cochrane-style evaluation: clinical evidence remains weak.
-  - pmid: "21438650"
-    title: "Reishi mushroom and immune modulation"
-    authors: "Wachtel-Galor S et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21438650/"
+  - ref: pmid-21438650
     finding:
       de: >-
         Biologisch plausibel, aber nicht gleichbedeutend mit starkem Supplement-Nutzen.

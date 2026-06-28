@@ -25,31 +25,19 @@ efsa_notes:
     There are no approved health claims for GABA in the EU regarding stress, sleep, or relaxation.
 
 key_studies:
-  - pmid: "26797602"
-    title: "Effects of oral GABA administration on stress and sleep"
-    authors: "Yamatsu A et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/26797602/"
+  - ref: pmid-26797602
     finding:
       de: >-
         Kleine Humanstudien deuten auf Stress- und Schlaf-Effekte hin, aber die Datenbasis ist dünn.
       en: >-
         Small human studies suggest potential stress and sleep effects, but the evidence base is limited.
-  - pmid: "12408439"
-    title: "GABA and the blood-brain barrier"
-    authors: "Shyamaladevi N et al."
-    year: 2002
-    url: "https://pubmed.ncbi.nlm.nih.gov/12408439/"
+  - ref: pmid-12408439
     finding:
       de: >-
         Die BBB-Frage ist zentral: orale GABA-Wirkung im Gehirn bleibt biologisch umstritten.
       en: >-
         The blood-brain barrier question is central: whether orally administered GABA reaches the brain in meaningful amounts remains biologically controversial.
-  - pmid: "16971751"
-    title: "Neurotransmitters as food supplements: the case of GABA"
-    authors: "Abdou AM et al."
-    year: 2006
-    url: "https://pubmed.ncbi.nlm.nih.gov/16971751/"
+  - ref: pmid-16971751
     finding:
       de: >-
         Erste kleine Befunde, aber keine robuste klinische Grundlage.

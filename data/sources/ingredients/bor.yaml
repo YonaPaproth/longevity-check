@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, no authorized health claims for boron have been established. Moreover, the safety margin is narrower than many supplement marketing texts suggest.
 
 key_studies:
-  - pmid: "18752471"
-    title: "Nothing boring about boron"
-    authors: "Nielsen FH"
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18752471/"
+  - ref: pmid-18752471
     finding:
       de: >-
         Review: Bor ist biologisch interessant, aber vieles bleibt vorläufig und nicht klinisch gesichert.
       en: >-
         Review: Boron is biologically interesting, but much remains preliminary and not clinically established.
-  - pmid: "26770156"
-    title: "Boron and bone health"
-    authors: "Pizzorno L"
-    year: 2015
-    url: "https://pubmed.ncbi.nlm.nih.gov/26770156/"
+  - ref: pmid-26770156
     finding:
       de: >-
         Review: Hinweise auf potenzielle Bedeutung für Knochen und Mineralstoffhaushalt, aber keine robuste Basis für breite Supplementempfehlungen.
       en: >-
         Review: Evidence suggests potential importance for bone and mineral homeostasis, but insufficient robust basis for broad supplementation recommendations.
-  - pmid: "21873346"
-    title: "Boron in human health: evidence and open questions"
-    authors: "Scorei ID et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21873346/"
+  - ref: pmid-21873346
     finding:
       de: >-
         Zusammenfassung der Datenlage: interessant, aber deutlich unter dem Evidenzniveau klassischer Mikronährstoffe.

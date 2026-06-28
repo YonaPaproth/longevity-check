@@ -28,31 +28,19 @@ efsa_notes:
     The EFSA has not approved health claims for beta-alanine regarding athletic performance, energy, or fatigue reduction.
 
 key_studies:
-  - pmid: "22270875"
-    title: "Beta-alanine supplementation and exercise performance"
-    authors: "Hobson RM et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22270875/"
+  - ref: pmid-22270875
     finding:
       de: >-
         Meta-Analyse (15 Studien) fand einen durchschnittlichen Effekt (SMD ~0,24) besonders bei hochintensiven Befreiungen von 60–240 Sekunden.
       en: >-
         Meta-analysis (15 studies): small average effect (SMD ~0.24) specifically for high-intensity exercise in the 60–240-second work window."
-  - pmid: "26553563"
-    title: "International Society of Sports Nutrition position stand: beta-alanine"
-    authors: "Trexler ET et al."
-    year: 2015
-    url: "https://pubmed.ncbi.nlm.nih.gov/26553563/"
+  - ref: pmid-26553563
     finding:
       de: >-
         Das ISSN sieht einen belegten Nutzen für Sportler, die wiederholt hochintensiv belasten; keine Empfehlung für Alltagsnutzer.
       en: >-
         ISSN endorses beta-alanine for athletes performing repeated high-intensity efforts; not recommended for general daily use or non-athletic populations."
-  - pmid: "28654511"
-    title: "Beta-alanine supplementation and carnosine"
-    authors: "Saunders B et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28654511/"
+  - ref: pmid-28654511
     finding:
       de: >-
         Review mit aktualisierten Daten zur Carnosinsynthese, Dosis-Zeit-Kinetik und Sicherheitsprofil einschließlich Parästhesien.

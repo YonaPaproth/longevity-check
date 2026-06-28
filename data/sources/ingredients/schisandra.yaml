@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, no health claims are approved for schisandra regarding stress, liver function, or performance enhancement as a supplement.
 
 key_studies:
-  - pmid: "18515024"
-    title: "Schisandra chinensis in traditional and modern use"
-    authors: "Panossian A et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18515024/"
+  - ref: pmid-18515024
     finding:
       de: >-
         Review: Schisandra passt adaptogen-theoretisch gut, klinische Daten bleiben jedoch begrenzt.
       en: >-
         Review: Schisandra fits well within adaptogen theory, but clinical data remains limited.
-  - pmid: "28724448"
-    title: "Liver-protective effects of Schisandra"
-    authors: "Szopa A et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28724448/"
+  - ref: pmid-28724448
     finding:
       de: >-
         Präklinisch und traditionell interessant, klinische Evidenz bei Supplements aber nicht stark.
       en: >-
         Preclinically and traditionally interesting, but clinical evidence in supplement studies is not strong.
-  - pmid: "20109491"
-    title: "Adaptogens and stress protection"
-    authors: "Panossian A et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20109491/"
+  - ref: pmid-20109491
     finding:
       de: >-
         Schisandra ist Teil des Adaptogen-Konzepts; robuste Outcome-Evidenz bleibt dennoch begrenzt.

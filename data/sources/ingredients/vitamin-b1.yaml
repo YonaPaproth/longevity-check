@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, approved health claims for thiamine cover energy metabolism, heart function, psychological function, and nervous system support. These claims address normal physiological function, not enhancement beyond baseline status.
 
 key_studies:
-  - pmid: "30295520"
-    title: "Thiamine deficiency disorders: diagnosis, prevalence, and a roadmap for global control programs"
-    authors: "Whitfield KC et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/30295520/"
+  - ref: pmid-30295520
     finding:
       de: >-
         Review: Thiaminmangel ist klinisch relevant und oft unterdiagnostiziert. Besonders gefährdet sind Menschen mit Alkoholmissbrauch, Mangelernährung oder war mit höheren Werten verbundenem metabolischem Bedarf.
       en: >-
         Review: Thiamine deficiency is clinically significant and frequently underdiagnosed. High-risk populations include individuals with alcohol use disorder, malnutrition, or metabolic demands exceeding dietary intake.
-  - pmid: "22489203"
-    title: "Thiamine deficiency in diabetes, obesity and bariatric surgery"
-    authors: "Via M"
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22489203/"
+  - ref: pmid-22489203
     finding:
       de: >-
         Review: Auch in westlichen Ländern kommt funktioneller B1-Mangel bei Risikogruppen vor, etwa nach bariatrischer Chirurgie oder bei chronischer Fehlernährung.
       en: >-
         Review: Functional B1 deficiency occurs in Western populations within at-risk groups, particularly following bariatric surgery or with chronic dietary insufficiency.
-  - pmid: "17405083"
-    title: "Wernicke encephalopathy in clinical practice"
-    authors: "Sechi G et al."
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17405083/"
+  - ref: pmid-17405083
     finding:
       de: >-
         Thiaminmangel kann schwere neurologische Schäden verursachen. Frühzeitige Substitution ist in Risikosituationen klinisch hochrelevant.

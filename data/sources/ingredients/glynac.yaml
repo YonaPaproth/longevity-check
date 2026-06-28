@@ -25,31 +25,19 @@ efsa_notes:
     No specific EFSA health claims for the GlyNAC combination. Individual substances (glycine, NAC) are well-characterized and safe.
 
 key_studies:
-  - pmid: "33512051"
-    title: "Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves Glutathione Deficiency"
-    authors: "Kumar P et al."
-    year: 2021
-    url: "https://pubmed.ncbi.nlm.nih.gov/33512051/"
+  - ref: pmid-33512051
     finding:
       de: >-
         RCT (n=24): GlyNAC bei älteren Erwachsenen stellte Glutathion-Spiegel auf jugendliche Werte wieder her und war mit Veränderungen verbundene Mitochondrienfunktion, Entzündungsmarker, Muskelkraft und Kognition.
       en: >-
         RCT (n=24): GlyNAC in older adults restored glutathione levels to youthful values and was associated with improvements in mitochondrial function, inflammatory markers, muscle strength, and cognition.
-  - pmid: "34741443"
-    title: "GlyNAC (Glycine and N-Acetylcysteine) Supplementation Improves Impaired Mitochondrial Fuel Oxidation"
-    authors: "Kumar P et al."
-    year: 2022
-    url: "https://pubmed.ncbi.nlm.nih.gov/34741443/"
+  - ref: pmid-34741443
     finding:
       de: >-
         Follow-up-Studie: GlyNAC war mit Veränderungen verbundene Mitochondrien-Energiestoffwechsel, Körperzusammensetzung (weniger Fettmasse) und Gehgeschwindigkeit bei älteren Menschen.
       en: >-
         Follow-up study: GlyNAC was associated with improvements in mitochondrial energy metabolism, body composition (reduced fat mass), and walking speed in older adults.
-  - pmid: "35504071"
-    title: "GlyNAC Supplementation in Mice Increases Length of Life"
-    authors: "Kumar P et al."
-    year: 2022
-    url: "https://pubmed.ncbi.nlm.nih.gov/35504071/"
+  - ref: pmid-35504071
     finding:
       de: >-
         Tierstudie: GlyNAC wird im Zusammenhang mit Alterungsforschung diskutierte die Lebensspanne bei Mäusen um 24 % und war mit Veränderungen verbundene multiple Hallmarks of Alterung.

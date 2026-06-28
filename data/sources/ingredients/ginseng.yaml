@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, there are no freely authorized health claims for ginseng related to energy, vitality, or stress resistance in the forms commonly marketed. Regulatory scrutiny reflects the mixed evidence base and safety concerns.
 
 key_studies:
-  - pmid: "19678779"
-    title: "Panax ginseng for fatigue"
-    authors: "Bahrke MS et al."
-    year: 2009
-    url: "https://pubmed.ncbi.nlm.nih.gov/19678779/"
+  - ref: pmid-19678779
     finding:
       de: >-
         Review: Hinweise auf Effekte bei Müdigkeit und Wohlbefinden, aber heterogene Studienbasis.
       en: >-
         Review: Evidence suggests effects on fatigue and well-being, but the underlying study base is heterogeneous in quality and methodology.
-  - pmid: "12113659"
-    title: "Panax ginseng: a systematic review of adverse effects"
-    authors: "Coon JT et al."
-    year: 2002
-    url: "https://pubmed.ncbi.nlm.nih.gov/12113659/"
+  - ref: pmid-12113659
     finding:
       de: >-
         Im Allgemeinen gut verträglich, aber nicht frei von Interaktions- und Sicherheitsfragen.
       en: >-
         Generally well-tolerated, but not without interaction and safety concerns—particularly relevant for individuals taking medications or with specific health conditions.
-  - pmid: "20435159"
-    title: "Ginseng and cognition"
-    authors: "Reay JL et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20435159/"
+  - ref: pmid-20435159
     finding:
       de: >-
         Einige Hinweise auf akute kognitive Effekte, aber keine starke, konsistente Evidenz.

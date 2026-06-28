@@ -25,31 +25,19 @@ efsa_notes:
     The EFSA has not approved any health claims for Alpha-GPC regarding focus, memory, or cognitive performance. Marketing claims are common but not evidence-based.
 
 key_studies:
-  - pmid: "11396858"
-    title: "Alpha-glycerylphosphorylcholine in cognitive decline"
-    authors: "Parnetti L et al."
-    year: 2001
-    url: "https://pubmed.ncbi.nlm.nih.gov/11396858/"
+  - ref: pmid-11396858
     finding:
       de: >-
         Ältere klinische Daten deuten auf kognitive Vorteile in bestimmten Populationen hin, aber die Evidenz ist nicht modern und nicht sehr breit repliziert.
       en: >-
         Older clinical data suggest cognitive benefits in specific populations, but evidence is dated and not widely replicated in modern studies.
-  - pmid: "18461736"
-    title: "Effects of alpha-GPC on isometric strength"
-    authors: "Ziegenfuss TN et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/18461736/"
+  - ref: pmid-18461736
     finding:
       de: >-
         Kleine Studie mit Hinweisen auf Leistungs-Effekte. Aussagekraft begrenzt.
       en: >-
         Small study (n=13) suggesting athletic performance benefits, but limited power and design."
-  - pmid: "23912283"
-    title: "Choline alphoscerate in cognitive impairment"
-    authors: "Traini E et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23912283/"
+  - ref: pmid-23912283
     finding:
       de: >-
         Review: Alpha-GPC ist interessant, aber keine magische Abkürzung zu mehr Kognition.

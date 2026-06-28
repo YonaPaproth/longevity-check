@@ -24,31 +24,19 @@ efsa_notes:
     In the EU, there are no approved health claims for PQQ regarding energy, brain function, or mitochondrial support.
 
 key_studies:
-  - pmid: "16614413"
-    title: "PQQ and mitochondrial function"
-    authors: "Stites T et al."
-    year: 2006
-    url: "https://pubmed.ncbi.nlm.nih.gov/16614413/"
+  - ref: pmid-16614413
     finding:
       de: >-
         Mechanistische und präklinische Daten legen Mitochondrien-Bezug nahe.
       en: >-
         Mechanistic and preclinical data suggest a mitochondrial link.
-  - pmid: "22805162"
-    title: "Pyrroloquinoline quinone disodium supplementation in humans"
-    authors: "Nakano M et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22805162/"
+  - ref: pmid-22805162
     finding:
       de: >-
         Kleine Humanstudien zeigen Signale bei Müdigkeit und Entzündungsmarkern, aber keine starke Beweislast.
       en: >-
         Small human studies show signals for fatigue and inflammatory markers, but lack robust evidence.
-  - pmid: "19321502"
-    title: "PQQ: a novel vitamin-like compound?"
-    authors: "Rucker R et al."
-    year: 2009
-    url: "https://pubmed.ncbi.nlm.nih.gov/19321502/"
+  - ref: pmid-19321502
     finding:
       de: >-
         Review: biologisch spannend, aber nicht ausreichend validiert für große Supplement-Versprechen.

@@ -26,31 +26,19 @@ efsa_notes:
     The EFSA has not approved any health claims for AKG regarding aging research or longevity. Such claims are currently marketing-driven.
 
 key_studies:
-  - pmid: "32242179"
-    title: "Rejuvenating effects of the alpha-ketoglutarate metabolite"
-    authors: "Asadi Shahmirzadi A et al."
-    year: 2020
-    url: "https://pubmed.ncbi.nlm.nih.gov/32242179/"
+  - ref: pmid-32242179
     finding:
       de: >-
         Tierstudie: AKG war mit Veränderungen verbundene einige Altersmarker bei Mäusen. Spannend, aber kein Humanbeweis.
       en: >-
         Animal study: AKG was associated with improvements in several aging markers in mice. Mechanistically interesting, but no human evidence.
-  - pmid: "24828042"
-    title: "Alpha-ketoglutarate, an endogenous metabolite, extends lifespan and compresses morbidity in aging mice"
-    authors: "Chin RM et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/24828042/"
+  - ref: pmid-24828042
     finding:
       de: >-
         Mausdaten machen AKG populär in der gesundes Altern-Szene, reichen aber nicht für belastbare Human-Claims.
       en: >-
         Mouse lifespan extension data drive AKG popularity in aging circles, but evidence is insufficient for robust human health claims.
-  - pmid: "28332804"
-    title: "The biology of alpha-ketoglutarate"
-    authors: "Zdzisinska B et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28332804/"
+  - ref: pmid-28332804
     finding:
       de: >-
         Review: AKG ist metabolisch wichtig, doch daraus folgt nicht automatisch ein Nutzen als Supplement.

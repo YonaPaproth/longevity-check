@@ -25,31 +25,19 @@ efsa_notes:
     The EU does not permit health claims for Tongkat Ali related to testosterone, virility, muscle building, or sexual function.
 
 key_studies:
-  - pmid: "23273445"
-    title: "Eurycoma longifolia and testosterone"
-    authors: "Tambi MI et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/23273445/"
+  - ref: pmid-23273445
     finding:
       de: >-
         Kleine Datenbasis mit Hinweisen auf war mit Veränderungen verbundene androgenbezogene Marker in bestimmten Gruppen.
       en: >-
         Small sample with signals for androgen-related markers in specific subgroups, but limited generalizability and modest effect sizes.
-  - pmid: "23754792"
-    title: "Tongkat Ali as a potential adaptogen"
-    authors: "Talbott SM et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23754792/"
+  - ref: pmid-23754792
     finding:
       de: >-
         Kleine Studie mit Effekten auf Stressparameter und Stimmung.
       en: >-
         Small study reporting effects on cortisol and mood parameters, but limited sample and single-centre design.
-  - pmid: "22971603"
-    title: "Safety and efficacy of Eurycoma longifolia"
-    authors: "Ismail SB et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22971603/"
+  - ref: pmid-22971603
     finding:
       de: >-
         Review: interessant, aber noch klar im Bereich moderater und vorläufiger Evidenz.

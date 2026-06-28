@@ -26,41 +26,25 @@ efsa_notes:
     EFSA has authorized health claims for selenium: protection of cells against oxidative stress, normal thyroid function, normal immune function, spermatogenesis, hair and nails. Daily requirement: 55 µg. Upper tolerable intake: 300 µg/day.
 
 key_studies:
-  - pmid: "22381456"
-    title: "Selenium and human health"
-    authors: "Rayman MP"
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22381456/"
+  - ref: pmid-22381456
     finding:
       de: >-
         Flagship-Review in The Lancet: Selen ist essenziell für 25 Selenoproteine. Optimaler Blutspiegel für Gesundheit: 125–150 µg/L Plasma-Selen. Enge therapeutische Breite.
       en: >-
         Landmark Lancet review: Selenium is essential for 25 selenoproteins. Optimal blood level for health: 125–150 µg/L plasma selenium. Narrow therapeutic window.
-  - pmid: "28326808"
-    title: "Selenium and thyroid disease: from pathophysiology to treatment"
-    authors: "Ventura M et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28326808/"
+  - ref: pmid-28326808
     finding:
       de: >-
         Review: Selen ist Cofaktor der Jodthyronin-Deiodinasen (T4→T3-Umwandlung). Supplementierung bei Hashimoto reduziert Anti-TPO-Antikörper signifikant in RCTs.
       en: >-
         Review: Selenium is a cofactor of iodothyronine deiodinases (T4→T3 conversion). Supplementation in Hashimoto's significantly reduces anti-TPO antibodies in RCTs.
-  - pmid: "25793781"
-    title: "Selenium status in Europe: a systematic review"
-    authors: "Stoffaneller R & Morse NL"
-    year: 2015
-    url: "https://pubmed.ncbi.nlm.nih.gov/25793781/"
+  - ref: pmid-25793781
     finding:
       de: >-
         Systematischer Review: Deutschland, Österreich, Osteuropa haben die niedrigsten Selenspiegel in Europa. Median: 84 µg/L (DE) vs. 125 µg/L (UK) – deutlich unter optimalem Bereich.
       en: >-
         Systematic review: Germany, Austria, and Eastern Europe have the lowest selenium levels in Europe. Median: 84 µg/L (Germany) vs. 125 µg/L (UK) – well below optimal range.
-  - pmid: "23746916"
-    title: "KiSel-10 study: cardiovascular events with selenium and CoQ10 supplementation"
-    authors: "Alehagen U et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23746916/"
+  - ref: pmid-23746916
     finding:
       de: >-
         RCT (n=443, Ältere): Selen+CoQ10 über 4 Jahre reduzierten kardiovaskuläre Mortalität um 54 % vs. Placebo. Methodisch umstritten, aber viel zitiert.

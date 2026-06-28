@@ -24,41 +24,25 @@ efsa_notes:
     No EFSA health claims for taurine as a healthy aging supplement. Taurine is approved as an additive in energy drinks (Red Bull) but without health claim basis. As a dietary supplement, freely available in the EU.
 
 key_studies:
-  - pmid: "37289866"
-    title: "Taurine deficiency as a driver of aging"
-    authors: "Singh P et al."
-    year: 2023
-    url: "https://pubmed.ncbi.nlm.nih.gov/37289866/"
+  - ref: pmid-37289866
     finding:
       de: >-
         Science 2023: Taurinspiegel sinken mit dem Alter um 80–90 % (Maus, Affe, Mensch). Supplementierung wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne bei Mäusen um ~12 % und verbesserte Gesundheitsmarker bei Affen.
       en: >-
         Science 2023: taurine levels decline with age by 80–90% (mouse, monkey, human). Supplementation extended lifespan in mice by ~12% and improved healthspan markers in monkeys.
-  - pmid: "24349057"
-    title: "Taurine: A very essential amino acid"
-    authors: "Menzie J et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/24349057/"
+  - ref: pmid-24349057
     finding:
       de: >-
         Review: Taurin ist in nahezu jedem Gewebe vorhanden, besonders in Herz, Gehirn, Retina und Skelettmuskel. Funktion als Osmolyt, Antioxidans und Membranstabilisator.
       en: >-
         Review: taurine is present in nearly every tissue, especially in heart, brain, retina, and skeletal muscle. Functions as an osmolyte, antioxidant, and membrane stabilizer.
-  - pmid: "26781281"
-    title: "Taurine supplementation lowers blood pressure and improves vascular function in prehypertension"
-    authors: "Sun Q et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/26781281/"
+  - ref: pmid-26781281
     finding:
       de: >-
         RCT (n=120): 1,6 g Taurin/Tag über 12 Wochen reduzierte systolischen Blutdruck um 7,2 mmHg, verbesserte Gefäßfunktion.
       en: >-
         RCT (n=120): 1.6 g taurine/day over 12 weeks reduced systolic blood pressure by 7.2 mmHg and improved vascular function.
-  - pmid: "11953940"
-    title: "Effects of taurine on plasma lipid levels in post-menopausal women"
-    authors: "Militante JD & Lombardini JB"
-    year: 2002
-    url: "https://pubmed.ncbi.nlm.nih.gov/11953940/"
+  - ref: pmid-11953940
     finding:
       de: >-
         Taurin senkte Triglyceride und verbesserte LDL-Oxidation. Kardioprotektive Effekte in mehreren kleinen Studien belegt.

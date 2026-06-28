@@ -26,41 +26,25 @@ efsa_notes:
     In 2010, EFSA approved a health claim for phosphatidylserine: "Phosphatidylserine contributes to the maintenance of normal cognitive function" (100 mg/day). One of very few approved cognitive claims. Product must contain soy- or sunflower-derived PS.
 
 key_studies:
-  - pmid: "20523044"
-    title: "Soy-derived phosphatidylserine improves memory function of the elderly Japanese subjects with memory complaints"
-    authors: "Kato-Kataoka A et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20523044/"
+  - ref: pmid-20523044
     finding:
       de: >-
         RCT (n=78, Ältere mit Gedächtnisbeschwerden): 300 mg Soja-PS/Tag über 6 Monate war mit Veränderungen verbundene Gedächtnisfunktion signifikant, besonders Gesichtserkennung und -namen.
       en: >-
         RCT (n=78, elderly with memory complaints): 300 mg soy-PS/day for 6 months was associated with significant improvements in memory function, particularly face recognition and name recall.
-  - pmid: "19966578"
-    title: "Memory enhancement with soybean-derived phosphatidylserine in Israeli subjects with memory complaints: a double-blind and placebo-controlled trial"
-    authors: "Vakhapova V et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/19966578/"
+  - ref: pmid-19966578
     finding:
       de: >-
         RCT (n=157, 60–90 Jahre): PS war mit Veränderungen verbundene Kurzzeitgedächtnis und Lernfähigkeit. Stärkste Effekte bei Personen mit höherem Baseline-Gedächtnisdefizit.
       en: >-
         RCT (n=157, aged 60–90): PS was associated with improvements in short-term memory and learning capacity. Strongest effects in participants with higher baseline memory deficits.
-  - pmid: "25933483"
-    title: "Phosphatidylserine and the human brain"
-    authors: "Glade MJ & Smith K"
-    year: 2015
-    url: "https://pubmed.ncbi.nlm.nih.gov/25933483/"
+  - ref: pmid-25933483
     finding:
       de: >-
         Review: PS macht 15 % der Gehirn-Phospholipide aus. Unterstützt Neurotransmitterfreisetzung, Acetylcholinproduktion, Cortisol-Clearing und neuronale Plastizität.
       en: >-
         Review: PS comprises ~15% of brain phospholipids. Supports neurotransmitter release, acetylcholine production, cortisol clearance, and neuronal plasticity.
-  - pmid: "19861941"
-    title: "Phosphatidylserine reduces stress and improves cognitive performance in elderly individuals"
-    authors: "Baumeister J et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/19861941/"
+  - ref: pmid-19861941
     finding:
       de: >-
         RCT: PS dämpfte Cortisolanstieg bei Belastungstest und war mit Veränderungen verbundene Stimmung und kognitive Leistung unter Stress.

@@ -27,41 +27,25 @@ efsa_notes:
     No EFSA health claims approved for EGCG. In 2018, EFSA published an assessment: green tea catechins in supplements at doses ≥800 mg/day are classified as potentially hepatotoxic. As a beverage (regular tea), they are rated as safe.
 
 key_studies:
-  - pmid: "23448243"
-    title: "Tea and health: studies in humans"
-    authors: "Khan N & Mukhtar H"
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23448243/"
+  - ref: pmid-23448243
     finding:
       de: >-
         Umfassender Review: Grüntee-Catechine zeigen in epidemiologischen Studien inverse Korrelation mit Herz-Kreislauf-Erkrankungen, Stoffwechselauffälligkeiten und einzelnen Krebsarten. Kausalität unklar.
       en: >-
         Comprehensive review: green tea catechins show inverse correlation with cardiovascular disease, metabolic dysfunction, and certain cancers in epidemiological studies. Causality remains unclear.
-  - pmid: "19007524"
-    title: "The metabolic effects of epigallocatechin-3-gallate: mechanisms and applications"
-    authors: "Thielecke F & Boschmann M"
-    year: 2009
-    url: "https://pubmed.ncbi.nlm.nih.gov/19007524/"
+  - ref: pmid-19007524
     finding:
       de: >-
         Review: EGCG hemmt COMT, aktiviert AMPK und stimuliert Fettoxidation. Kalorienverbrauch steigt moderat (~80 kcal/Tag bei 300 mg EGCG+Koffein).
       en: >-
         Review: EGCG inhibits COMT, activates AMPK, and stimulates fat oxidation. Energy expenditure increases modestly (~80 kcal/day at 300 mg EGCG+caffeine).
-  - pmid: "21715508"
-    title: "Green tea catechins reduce total and LDL cholesterol: a systematic review and meta-analysis"
-    authors: "Zheng XX et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21715508/"
+  - ref: pmid-21715508
     finding:
       de: >-
         Meta-Analyse (14 RCTs): Grüntee-Catechine war mit niedrigeren Werten verbundenen LDL-Cholesterin um ~0,19 mmol/L und Gesamtcholesterin signifikant.
       en: >-
         Meta-analysis (14 RCTs): green tea catechins were significantly associated with lower LDL cholesterol (~0.19 mmol/L reduction) and total cholesterol.
-  - pmid: "29684494"
-    title: "Green tea extract induces genes related to browning of white adipose tissue and limits weight-gain in high fat diet-fed rat"
-    authors: "Henning SM et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/29684494/"
+  - ref: pmid-29684494
     finding:
       de: >-
         EGCG aktiviert UCP1 (thermogenes Protein) und beeinflusst Fettgewebsbraunfärbung. Mechanismus für metabolische Effekte.

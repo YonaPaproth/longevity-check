@@ -1,0 +1,21 @@
+{
+  "type": "zielt_auf",
+  "count": 3,
+  "relations": [
+    {
+      "subject": "nmn-verlaengert-das-leben",
+      "target": "alterung",
+      "confidence": 0.9
+    },
+    {
+      "subject": "safran-preis-gesundheit",
+      "target": "depression",
+      "confidence": 0.7
+    },
+    {
+      "subject": "safran-preis-gesundheit",
+      "target": "stress",
+      "confidence": 0.6
+    }
+  ]
+}

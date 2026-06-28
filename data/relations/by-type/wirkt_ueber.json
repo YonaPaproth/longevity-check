@@ -1,6 +1,6 @@
 {
   "type": "wirkt_ueber",
-  "count": 126,
+  "count": 144,
   "relations": [
     {
       "subject": "5-htp",
@@ -105,7 +105,15 @@
     {
       "subject": "berberine",
       "target": "ampk-aktivierung",
-      "confidence": 0.7
+      "confidence": 0.9,
+      "source": "pmid:20150526",
+      "note": "Hemmung von Komplex I der Atmungskette → ATP/AMP-Abfall → AMPK-Aktivierung"
+    },
+    {
+      "subject": "berberine",
+      "target": "nf-kb-hemmung",
+      "confidence": 0.6,
+      "note": "Entzündungshemmende Effekte über NF-κB in Zellstudien belegt"
     },
     {
       "subject": "betain",
@@ -140,6 +148,11 @@
     {
       "subject": "coq10",
       "target": "atp-synthese",
+      "confidence": 0.85
+    },
+    {
+      "subject": "coq10",
+      "target": "mitochondrial-biogenese",
       "confidence": 0.7
     },
     {
@@ -181,6 +194,16 @@
       "subject": "curcumin",
       "target": "prostaglandin-hemmung",
       "confidence": 0.7
+    },
+    {
+      "subject": "dl-phenylalanin",
+      "target": "dopamin-synthese",
+      "confidence": 0.8
+    },
+    {
+      "subject": "dl-phenylalanin",
+      "target": "enkephalinase-hemmung",
+      "confidence": 0.6
     },
     {
       "subject": "egcg",
@@ -231,6 +254,16 @@
       "subject": "folsaeure",
       "target": "epigenetisch",
       "confidence": 0.7
+    },
+    {
+      "subject": "fucoidan",
+      "target": "nfkb-hemmung",
+      "confidence": 0.7
+    },
+    {
+      "subject": "fucoidan",
+      "target": "darmbarriere-staerkung",
+      "confidence": 0.8
     },
     {
       "subject": "gaba",
@@ -303,6 +336,11 @@
       "confidence": 0.7
     },
     {
+      "subject": "kuerbiskernoel",
+      "target": "5-alpha-reduktase-hemmung",
+      "confidence": 0.6
+    },
+    {
       "subject": "kupfer",
       "target": "atp-synthese",
       "confidence": 0.7
@@ -320,6 +358,21 @@
     {
       "subject": "l-citrullin",
       "target": "antioxidative-abwehr",
+      "confidence": 0.7
+    },
+    {
+      "subject": "l-reuteri-6475",
+      "target": "nfkb-hemmung",
+      "confidence": 0.8
+    },
+    {
+      "subject": "l-reuteri-6475",
+      "target": "darmbarriere-staerkung",
+      "confidence": 0.8
+    },
+    {
+      "subject": "l-reuteri-6475",
+      "target": "wnt-signalweg",
       "confidence": 0.7
     },
     {
@@ -391,6 +444,16 @@
       "subject": "nac",
       "target": "antioxidative-abwehr",
       "confidence": 0.7
+    },
+    {
+      "subject": "nmn-verlaengert-das-leben",
+      "target": "nad-biosynthese",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nmn-verlaengert-das-leben",
+      "target": "sirt1-aktivierung",
+      "confidence": 0.6
     },
     {
       "subject": "nmn",
@@ -478,24 +541,57 @@
       "confidence": 0.7
     },
     {
+      "subject": "rapamycin",
+      "target": "mtor-hemmung",
+      "confidence": 0.95
+    },
+    {
+      "subject": "rapamycin",
+      "target": "autophagie",
+      "confidence": 0.85
+    },
+    {
       "subject": "resveratrol",
       "target": "atp-synthese",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Mitochondriale Biogenese via PGC-1α in Tiermodellen; kein Humanbeleg"
     },
     {
       "subject": "resveratrol",
       "target": "ampk-aktivierung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Indirekt über PDE4-Hemmung → cAMP → AMPK → SIRT1-Aktivierung"
     },
     {
       "subject": "resveratrol",
       "target": "sirt1-aktivierung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "SIRT1-Aktivierung als primäres molekulares Target; direkte vs. indirekte Aktivierung umstritten"
     },
     {
       "subject": "rutin",
       "target": "antioxidative-abwehr",
       "confidence": 0.7
+    },
+    {
+      "subject": "safran-preis-gesundheit",
+      "target": "serotonin-synthese",
+      "confidence": 0.6
+    },
+    {
+      "subject": "safran-preis-gesundheit",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.5
+    },
+    {
+      "subject": "safran",
+      "target": "serotonin-synthese",
+      "confidence": 0.6
+    },
+    {
+      "subject": "safran",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.5
     },
     {
       "subject": "same",

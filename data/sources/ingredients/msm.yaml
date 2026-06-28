@@ -24,31 +24,19 @@ efsa_notes:
     There are no approved EU health claims for MSM regarding joints, inflammation, or regeneration.
 
 key_studies:
-  - pmid: "16309928"
-    title: "Effect of methylsulfonylmethane supplementation on osteoarthritis"
-    authors: "Kim LS et al."
-    year: 2006
-    url: "https://pubmed.ncbi.nlm.nih.gov/16309928/"
+  - ref: pmid-16309928
     finding:
       de: >-
         Kleine Studie mit Veränderungen bei Schmerz und Funktion im Gelenk-Kontext.
       en: >-
         Small RCT showing improvements in joint pain and function in osteoarthritis patients; modest effect sizes.
-  - pmid: "22348453"
-    title: "MSM in exercise recovery and inflammation"
-    authors: "Kalman DS et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22348453/"
+  - ref: pmid-22348453
     finding:
       de: >-
         Hinweise auf Effekte bei Entzündung und Erholung, aber kleine Studienbasis.
       en: >-
         Evidence for modest reduction in muscle soreness and inflammatory markers post-exercise; limited sample size.
-  - pmid: "28654723"
-    title: "Methylsulfonylmethane: applications and safety"
-    authors: "Butawan M et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28654723/"
+  - ref: pmid-28654723
     finding:
       de: >-
         Review: MSM ist gut verträglich, aber die klinische Evidenz bleibt begrenzt.

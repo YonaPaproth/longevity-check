@@ -26,31 +26,19 @@ efsa_notes:
     No EFSA Health Claims approved. Available in Europe as herbal tea and dietary supplement. Regulatory status straightforward due to traditional food classification.
 
 key_studies:
-  - pmid: "21062282"
-    title: "Gynostemma pentaphyllum extract activates AMPK and improves insulin resistance"
-    authors: "Nguyen PH et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21062282/"
+  - ref: pmid-21062282
     finding:
       de: >-
         Gynostemma-Extrakt aktivierte AMPK in Fett- und Muskelzellen, vergleichbar mit Metformin – ohne bekannte Nebenwirkungen des Arzneimittels.
       en: >-
         Gynostemma extract activated AMPK in adipose and skeletal muscle cells in a dose-dependent manner, with effects comparable to metformin but without the drug's known gastrointestinal side effects.
-  - pmid: "22784345"
-    title: "Effect of Gynostemma pentaphyllum tea on metabolism in obese subjects"
-    authors: "Müller C et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22784345/"
+  - ref: pmid-22784345
     finding:
       de: >-
         RCT: Gynostemma-Tee war mit Veränderungen verbundene Insulinsensitivität und war mit niedrigeren Werten verbundene Nüchternblutzucker bei adipösen Probanden nach 8 Wochen.
       en: >-
         RCT: Gynostemma tea was associated with improved insulin sensitivity and statistically significant reductions in fasting blood glucose in obese subjects after 8 weeks of daily consumption.
-  - pmid: "19628196"
-    title: "Gynostemma pentaphyllum and lipid-lowering effects"
-    authors: "Olsson EM et al."
-    year: 2009
-    url: "https://pubmed.ncbi.nlm.nih.gov/19628196/"
+  - ref: pmid-19628196
     finding:
       de: >-
         Humanpilot: Gynostemma war mit niedrigeren Werten verbundene LDL-Cholesterin und Triglyzeride nach 4 Wochen bei Personen mit leicht war mit höheren Werten verbundenen Blutfettwerten.

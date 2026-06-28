@@ -25,31 +25,19 @@ efsa_notes:
     Vitamin K health claims are approved in the EU for normal blood clotting and maintenance of normal bones. Intake is medically relevant for those taking vitamin K antagonists.
 
 key_studies:
-  - pmid: "22516723"
-    title: "Vitamin K"
-    authors: "Booth SL"
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22516723/"
+  - ref: pmid-22516723
     finding:
       de: >-
         Review zu Funktionen von Vitamin K in Blutgerinnung und Knochenstoffwechsel. Die essenzielle Rolle ist vergleichsweise gut untersucht.
       en: >-
         Review of vitamin K functions in blood clotting and bone metabolism. Its essential role is comparatively well-studied.
-  - pmid: "30945251"
-    title: "Dietary intake and adequacy of vitamin K"
-    authors: "Schurgers LJ et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/30945251/"
+  - ref: pmid-30945251
     finding:
       de: >-
         Review: Vitamin-K-Zufuhr ist für viele Menschen ausreichend, kann aber bei geringer Gemüsezufuhr suboptimal sein.
       en: >-
         Review: vitamin K intake is adequate for most people, but can be suboptimal with low vegetable consumption.
-  - pmid: "20236064"
-    title: "Interaction between vitamin K intake and anticoagulation by vitamin K antagonists"
-    authors: "Gebuis EP et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20236064/"
+  - ref: pmid-20236064
     finding:
       de: >-
         Schwankende Vitamin-K-Zufuhr kann die Steuerung von Vitamin-K-Antagonisten erschweren. Relevanz vor allem für Warfarin/Phenprocoumon-Nutzer.

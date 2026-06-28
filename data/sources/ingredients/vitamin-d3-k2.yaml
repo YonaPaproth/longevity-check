@@ -27,51 +27,31 @@ efsa_notes:
     EFSA has approved extensive claims for vitamin D: normal immune function, bone, muscle, teeth, and calcium absorption. For vitamin K2 (menaquinone), claims are approved for normal blood clotting and bone maintenance.
 
 key_studies:
-  - pmid: "32234639"
-    title: "Vitamin D Supplementation and Prevention of Type 2 Diabetes (D-HEALTH)"
-    authors: "Scragg R et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/32234639/"
+  - ref: pmid-32234639
     finding:
       de: >-
         RCT, n=421, ältere Erwachsene: 60.000 IE Vitamin D/Monat verbesserte Glukosestoffwechsel, Blutdruck und Lebensqualität signifikant vs. Placebo über 3 Jahre.
       en: >-
         RCT, n=421, older adults: 60,000 IU vitamin D/month significantly improved glucose metabolism, blood pressure, and quality of life vs. placebo over 3 years.
-  - pmid: "31537771"
-    title: "Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease (VITAL)"
-    authors: "Manson JE et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/31537771/"
+  - ref: pmid-31537771
     finding:
       de: >-
         RCT, n=25.871: 2.000 IE Vitamin D/Tag reduzierte Krebssterblichkeit um 25% in einer Subgruppenanalyse. Kein signifikanter Effekt auf kardiovaskuläre Ereignisse in der Gesamtpopulation.
       en: >-
         RCT, n=25,871: 2,000 IU vitamin D/day reduced cancer mortality by 25% in a subgroup analysis. No significant effect on cardiovascular events in the overall population.
-  - pmid: "17634462"
-    title: "Vitamin D Deficiency"
-    authors: "Holick MF"
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17634462/"
+  - ref: pmid-17634462
     finding:
       de: >-
         Grundlagenreview in NEJM: Vitamin D wird in der Haut durch UV-B synthetisiert; 25(OH)D &lt;50 nmol/l gilt als Mangel. Schätzungsweise 1 Milliarde Menschen weltweit sind unzureichend versorgt.
       en: >-
         Landmark review in NEJM: vitamin D is synthesised in the skin by UV-B; 25(OH)D &lt;50 nmol/L is considered deficiency. An estimated 1 billion people worldwide are inadequately nourished.
-  - pmid: "15514282"
-    title: "Dietary Intake of Menaquinone Is Associated with a Reduced Risk of Coronary Heart Disease: The Rotterdam Study"
-    authors: "Geleijnse JM et al."
-    year: 2004
-    url: "https://pubmed.ncbi.nlm.nih.gov/15514282/"
+  - ref: pmid-15514282
     finding:
       de: >-
         Prospektive Kohorte, n=4.807: Höhere K2-Aufnahme (MK-7 bis MK-9) war mit 41% niedrigerem Herzinfarkt-Risiko assoziiert. K1-Aufnahme zeigte keinen vergleichbaren Effekt.
       en: >-
         Prospective cohort, n=4,807: higher K2 intake (MK-7 to MK-9) was associated with 41% lower heart attack risk. K1 intake showed no comparable effect.
-  - pmid: "22516723"
-    title: "Vitamin K2 and Vascular Calcification: A Systematic Review"
-    authors: "Dalmeijer GW et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22516723/"
+  - ref: pmid-22516723
     finding:
       de: >-
         Systematischer Review: Beobachtungsstudien zeigen konsistent Zusammenhang zwischen hoher K2-Aufnahme und geringerer Gefäßverkalkung; RCT-Evidenz noch begrenzt.

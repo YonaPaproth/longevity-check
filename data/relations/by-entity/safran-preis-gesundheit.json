@@ -45,7 +45,7 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "pmid-24299602",
+      "target": "studie-24299602",
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:24299602",
@@ -53,7 +53,7 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "pmid-30036891",
+      "target": "studie-30036891",
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:30036891",
@@ -61,7 +61,7 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "pmid-32221179",
+      "target": "studie-32221179",
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:32221179",

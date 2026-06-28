@@ -25,51 +25,31 @@ efsa_notes:
     EFSA has not approved any health claims for NMN. In 2022 the FDA excluded NMN from the dietary supplement category (it was being investigated as a drug). In the EU, NMN is currently classified as a Novel Food — its status remains regulatorily uncertain.
 
 key_studies:
-  - pmid: "32283153"
-    title: "Nicotinamide Mononucleotide (NMN) supplementation promotes Alterungsforschung miRNA expression profile in the aorta of aged mice"
-    authors: "Bertoldo MJ et al."
-    year: 2020
-    url: "https://pubmed.ncbi.nlm.nih.gov/32283153/"
+  - ref: pmid-32283153
     finding:
       de: >-
         NMN war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene Gefäßfunktion bei alten Mäusen – kein Humanversuch.
       en: >-
         NMN raised NAD+ levels and improved vascular function in aged mice — no human trial.
-  - pmid: "31685720"
-    title: "Effect of oral administration of nicotinamide mononucleotide on clinical parameters and nicotinamide metabolite levels in healthy Japanese men"
-    authors: "Irie J et al."
-    year: 2020
-    url: "https://pubmed.ncbi.nlm.nih.gov/31685720/"
+  - ref: pmid-31685720
     finding:
       de: >-
         Erste Humanpilot-Studie (n=10): NMN wurde sicher aufgenommen und war mit höheren Werten verbundene Blut-NAD+-Metaboliten. Keine klinischen Endpunkte bewertet.
       en: >-
         First human pilot study (n=10): NMN was safely absorbed and raised blood NAD+ metabolites. No clinical endpoints assessed.
-  - pmid: "28068222"
-    title: "Long-Term Administration of Nicotinamide Mononucleotide Mitigates Age-Associated Physiological Decline in Mice"
-    authors: "Mills KF et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/28068222/"
+  - ref: pmid-28068222
     finding:
       de: >-
         Klassische Tierstudie: NMN war mit Veränderungen verbundene Muskelfunktion, Energiestoffwechsel und Insulinsensitivität bei alten Mäusen. Nicht auf Menschen übertragbar.
       en: >-
         Classic animal study: NMN improved muscle function, energy metabolism, and insulin sensitivity in aged mice. Not transferable to humans.
-  - pmid: "42135539"
-    title: "Human whole-blood NAD+ levels do not vary with age or lifestyle interventions"
-    authors: "Schmauck-Medina T et al."
-    year: 2026
-    url: "https://pubmed.ncbi.nlm.nih.gov/42135539/"
+  - ref: pmid-42135539
     finding:
       de: >-
         NAD+-Spiegel im Vollblut variieren weder mit dem Alter noch mit Lebensstilinterventionen – stellt die Grundannahme vieler NAD+-Supplement-Versprechen infrage.
       en: >-
         Whole-blood NAD+ levels vary neither with age nor with lifestyle interventions — challenges the core assumption behind many NAD+ supplement claims.
-  - pmid: "42143976"
-    title: "NMN mitigates high-altitude hypoxia-induced cognitive impairment by inhibiting microglial ferroptosis"
-    authors: "Xu Y et al."
-    year: 2026
-    url: "https://pubmed.ncbi.nlm.nih.gov/42143976/"
+  - ref: pmid-42143976
     finding:
       de: >-
         Tier-/Zellstudie (kein Humanversuch): NMN hemmte in Hypoxie-Modellen Ferroptose in Mikrogliazellen über den Sirt1/Nrf2/HO-1-Signalweg und schützte vor kognitiven Defiziten. Mechanistisch interessant, aber nicht direkt auf Supplementierung beim Menschen übertragbar.

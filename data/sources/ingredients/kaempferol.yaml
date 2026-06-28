@@ -24,31 +24,19 @@ efsa_notes:
     No approved health claims exist in the EU for kaempferol regarding antioxidant, vascular, or aging-related effects.
 
 key_studies:
-  - pmid: "21127935"
-    title: "Kaempferol: chemistry and pharmacology"
-    authors: "Calderón-Montaño JM et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21127935/"
+  - ref: pmid-21127935
     finding:
       de: >-
         Review: starke präklinische Breite, aber wenig belastbare Humanstudien.
       en: >-
         Review: broad preclinical pharmacology, but limited robust human evidence.
-  - pmid: "12716668"
-    title: "Dietary flavonols and health"
-    authors: "Beecher GR"
-    year: 2003
-    url: "https://pubmed.ncbi.nlm.nih.gov/12716668/"
+  - ref: pmid-12716668
     finding:
       de: >-
         Ernährungsbezogen interessant, als isoliertes Supplement aber wenig klar.
       en: >-
         Interesting from a dietary perspective, but unclear as an isolated supplement.
-  - pmid: "20018833"
-    title: "Flavonoids and aging-related disease"
-    authors: "Vauzour D et al."
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20018833/"
+  - ref: pmid-20018833
     finding:
       de: >-
         Kaempferol wird diskutiert konzeptionell attraktiv, klinisch aber noch weit von gesicherten Aussagen entfernt.

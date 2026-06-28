@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, inulin has no broad health claims approved for digestive health in the way they are commonly used in marketing.
 
 key_studies:
-  - pmid: "17604172"
-    title: "Prebiotic effects of inulin-type fructans"
-    authors: "Roberfroid M"
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17604172/"
+  - ref: pmid-17604172
     finding:
       de: >-
         Klassischer Review zur präbiotischen Wirkung von Inulin und verwandten Fructanen.
       en: >-
         Landmark review establishing the prebiotic mechanism of inulin and related fructans in modulating the gut microbiota.
-  - pmid: "24299756"
-    title: "Inulin-type fructans and gut health"
-    authors: "Slavin J"
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/24299756/"
+  - ref: pmid-24299756
     finding:
       de: >-
         Inulin kann Darmfunktion und mikrobielle Zusammensetzung beeinflussen.
       en: >-
         Evidence that dietary inulin can alter bowel function and modify the composition of the gut microbiota in clinically meaningful ways.
-  - pmid: "28298225"
-    title: "Effects of dietary inulin on bowel habits"
-    authors: "Micka A et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28298225/"
+  - ref: pmid-28298225
     finding:
       de: >-
         Humanstudien zeigen Nutzen für Stuhlgang und Darmkomfort bei bestimmten Gruppen.

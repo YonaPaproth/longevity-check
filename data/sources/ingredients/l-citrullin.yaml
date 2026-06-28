@@ -26,51 +26,31 @@ efsa_notes:
     In the EU, there are no approved health claims for L-citrulline regarding blood pressure, vascular function, or athletic performance.
 
 key_studies:
-  - pmid: "20386132"
-    title: "Citrulline malate enhances athletic anaerobic performance"
-    authors: "Pérez-Guisado J, Jakeman PM"
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/20386132/"
+  - ref: pmid-20386132
     finding:
       de: >-
         RCT (n=41): 8 g Citrullinmalat steigerte die Anzahl der Wiederholungen im Bankdrücken um ca. 52 % und reduzierte Muskelkater.
       en: >-
         RCT (n=41): 8 g citrulline malate increased bench press repetitions by approximately 52% and reduced muscle soreness.
-  - pmid: "26023227"
-    title: "L-Citrulline supplementation and blood pressure"
-    authors: "Figueroa A et al."
-    year: 2016
-    url: "https://pubmed.ncbi.nlm.nih.gov/26023227/"
+  - ref: pmid-26023227
     finding:
       de: >-
         Review mehrerer RCTs: L-Citrullin zeigte in Studien moderate Reduktionen des systolischen Blutdrucks bei Personen mit leicht erhöhten Ausgangswerten.
       en: >-
         Review of multiple RCTs: L-citrulline showed moderate reductions in systolic blood pressure in individuals with mildly elevated baseline values.
-  - pmid: "17953788"
-    title: "Effects of citrulline supplementation on exercise performance"
-    authors: "Schwedhelm E et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/17953788/"
+  - ref: pmid-17953788
     finding:
       de: >-
         Mechanistischer Beitrag: Citrullin → Arginin-Konversion im Nierenmetabolismus, Grundlage der NO-Synthese-Hypothese.
       en: >-
         Mechanistic contribution: Citrulline → arginine conversion in renal metabolism, the basis of the NO synthesis hypothesis.
-  - pmid: "21195829"
-    title: "Oral L-citrulline supplementation improves erection hardness in men with mild erectile dysfunction"
-    authors: "Cormio L et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21195829/"
+  - ref: pmid-21195829
     finding:
       de: >-
         Kleine RCT (n=24): 1,5 g/Tag L-Citrullin zeigte in Studien Verbesserungen bei Erektionshärte – unter Umständen durch erhöhte NO-Verfügbarkeit.
       en: >-
         Small RCT (n=24): 1.5 g/day L-citrulline showed improvements in erectile hardness—possibly mediated by increased NO availability.
-  - pmid: "42162613"
-    title: "Short-term Citrulline Malate Supplementation Enhances Lower-Limb Function in Physically Active Older Adults"
-    authors: "Ramos-Hernández RI et al."
-    year: 2026
-    url: "https://pubmed.ncbi.nlm.nih.gov/42162613/"
+  - ref: pmid-42162613
     finding:
       de: >-
         Pilot-RCT (n=20 aktive ältere Frauen, 60–75 Jahre): Citrullinmalat-Supplementierung verbesserte in Studien signifikant die Sit-to-Stand-Leistung und zeigte positive Trends bei Gehstrecke und körperlicher Leistungsfähigkeit – erster Hinweis auf funktionelle Unterstützung bei älteren Erwachsenen.

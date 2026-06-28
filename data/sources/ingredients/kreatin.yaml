@@ -26,51 +26,31 @@ efsa_notes:
     EFSA has approved one Article-13(1) health claim: creatine increases physical performance during successive bursts of short-term, high-intensity exercise (3 g/day, adults only). Other statements are editorial research summaries and are not permissible claims.
 
 key_studies:
-  - pmid: "28615996"
-    title: "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation"
-    authors: "Kreider RB et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28615996/"
+  - ref: pmid-28615996
     finding:
       de: >-
         Konsensusdokument: Kreatin ist das am besten belegte legale ergogene Supplement. Sicher bei Langzeitanwendung (bis 5 Jahre untersucht), keine Nierentoxizität bei Gesunden. Empfehlung: 3–5 g/Tag.
       en: >-
         Consensus document: creatine is the most evidence-backed legal ergogenic supplement. Safe with long-term use (studied up to 5 years), no renal toxicity in healthy individuals. Recommendation: 3–5 g/day.
-  - pmid: "17828627"
-    title: "Creatine supplementation and cognitive performance in elderly individuals"
-    authors: "McMorris T et al."
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17828627/"
+  - ref: pmid-17828627
     finding:
       de: >-
         RCT, n=45, ältere Erwachsene: Kreatin verbesserte Arbeitsgedächtnis und kognitive Leistung signifikant vs. Placebo. Gehirn-Kreatinspiegel stiegen messbar mit Supplementierung.
       en: >-
         RCT, n=45, older adults: creatine significantly improved working memory and cognitive performance vs. placebo. Brain creatine levels rose measurably with supplementation.
-  - pmid: "29704637"
-    title: "Creatine supplementation and brain health"
-    authors: "Avgerinos KI et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/29704637/"
+  - ref: pmid-29704637
     finding:
       de: >-
         Systematischer Review: Kognitive Leistung verbesserte sich konsistent bei Schlafentzug, mentaler Erschöpfung und bei Älteren. Vegetarier profitierten stärker (niedrigere Ausgangsspiegel).
       en: >-
         Systematic review: cognitive performance improved consistently during sleep deprivation, mental fatigue, and in older adults. Vegetarians benefited more (lower baseline levels).
-  - pmid: "27328852"
-    title: "Creatine supplementation for muscle growth: a scoping review"
-    authors: "Lanhers C et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/27328852/"
+  - ref: pmid-27328852
     finding:
       de: >-
         Meta-Analyse: Kreatin steigert Muskelkraft um ~8% und Muskelmasse signifikant in Kombination mit Krafttraining. Effekt bei Älteren vergleichbar mit Jüngeren.
       en: >-
         Meta-analysis: creatine increases muscle strength by ~8% and muscle mass significantly in combination with resistance training. Effect in older adults comparable to younger individuals.
-  - pmid: "28994648"
-    title: "Effect of creatine supplementation during resistance training on lean tissue mass and muscular strength in older adults: a meta-analysis"
-    authors: "Chilibeck PD et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28994648/"
+  - ref: pmid-28994648
     finding:
       de: >-
         Meta-Analyse (22 RCTs, ältere Erwachsene): Kreatin + Krafttraining führte zu signifikant mehr fettfreier Masse (+1,37 kg) und Kraft vs. Training allein. Effektgröße klinisch relevant.

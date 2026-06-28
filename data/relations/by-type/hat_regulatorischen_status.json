@@ -1,6 +1,6 @@
 {
   "type": "hat_regulatorischen_status",
-  "count": 110,
+  "count": 121,
   "relations": [
     {
       "subject": "5-htp",
@@ -115,7 +115,8 @@
     {
       "subject": "coq10",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "note": "EFSA lehnte Health-Claim für CoQ10 2010 ab"
     },
     {
       "subject": "cordyceps",
@@ -124,6 +125,11 @@
     },
     {
       "subject": "curcumin",
+      "target": "efsa-nicht-zugelassen",
+      "confidence": 1
+    },
+    {
+      "subject": "dl-phenylalanin",
       "target": "efsa-nicht-zugelassen",
       "confidence": 1
     },
@@ -155,6 +161,11 @@
     {
       "subject": "folsaeure",
       "target": "efsa-zugelassen",
+      "confidence": 1
+    },
+    {
+      "subject": "fucoidan",
+      "target": "efsa-nicht-zugelassen",
       "confidence": 1
     },
     {
@@ -253,6 +264,11 @@
       "confidence": 1
     },
     {
+      "subject": "kuerbiskernoel",
+      "target": "efsa-nicht-zugelassen",
+      "confidence": 1
+    },
+    {
       "subject": "kupfer",
       "target": "efsa-zugelassen",
       "confidence": 1
@@ -264,6 +280,11 @@
     },
     {
       "subject": "l-citrullin",
+      "target": "efsa-nicht-zugelassen",
+      "confidence": 1
+    },
+    {
+      "subject": "l-reuteri-6475",
       "target": "efsa-nicht-zugelassen",
       "confidence": 1
     },
@@ -333,12 +354,22 @@
       "confidence": 1
     },
     {
+      "subject": "multivitamin",
+      "target": "efsa-zugelassen",
+      "confidence": 1
+    },
+    {
       "subject": "myo-inositol",
       "target": "efsa-nicht-zugelassen",
       "confidence": 1
     },
     {
       "subject": "nac",
+      "target": "efsa-nicht-zugelassen",
+      "confidence": 1
+    },
+    {
+      "subject": "nmn-verlaengert-das-leben",
       "target": "efsa-nicht-zugelassen",
       "confidence": 1
     },
@@ -393,6 +424,16 @@
       "confidence": 1
     },
     {
+      "subject": "rapamycin",
+      "target": "efsa-nicht-zugelassen",
+      "confidence": 1
+    },
+    {
+      "subject": "rapamycin",
+      "target": "verschreibungspflichtig",
+      "confidence": 1
+    },
+    {
       "subject": "reishi",
       "target": "efsa-nicht-zugelassen",
       "confidence": 1
@@ -413,12 +454,27 @@
       "confidence": 1
     },
     {
+      "subject": "safran-preis-gesundheit",
+      "target": "efsa-nicht-zugelassen",
+      "confidence": 1
+    },
+    {
+      "subject": "safran",
+      "target": "efsa-nicht-zugelassen",
+      "confidence": 1
+    },
+    {
       "subject": "same",
       "target": "efsa-nicht-zugelassen",
       "confidence": 1
     },
     {
       "subject": "schisandra",
+      "target": "efsa-nicht-zugelassen",
+      "confidence": 1
+    },
+    {
+      "subject": "sea-moss",
       "target": "efsa-nicht-zugelassen",
       "confidence": 1
     },

@@ -27,41 +27,25 @@ efsa_notes:
     In the EU, there are no approved EFSA health claims for L-Tyrosin regarding cognitive function, stress resilience, or mental performance.
 
 key_studies:
-  - pmid: "7737166"
-    title: "Tyrosine improves cognitive performance and reduces blood pressure in cadets after one week of combat training"
-    authors: "Deijen JB, Orlebeke JF"
-    year: 1994
-    url: "https://pubmed.ncbi.nlm.nih.gov/7737166/"
+  - ref: pmid-7737166
     finding:
       de: >-
         RCT (militärisches Umfeld): L-Tyrosin konnte in Studien kognitive Leistungsabfälle unter extremen Stressbedingungen (Schlafentzug, körperliche Belastung) abmildern.
       en: >-
         RCT (military setting): L-Tyrosin attenuated cognitive performance decline under extreme stress conditions (sleep deprivation, physical exertion) in studies.
-  - pmid: "7794222"
-    title: "The effects of tyrosine on cognitive performance during extended wakefulness"
-    authors: "Neri DF et al."
-    year: 1995
-    url: "https://pubmed.ncbi.nlm.nih.gov/7794222/"
+  - ref: pmid-7794222
     finding:
       de: >-
         Militärstudie: 150 mg/kg L-Tyrosin milderte den Leistungsabfall bei Schlafentzug um ca. 4 Stunden.
       en: >-
         Military study: 150 mg/kg L-Tyrosin attenuated performance decline from sleep deprivation by approximately 4 hours.
-  - pmid: "7940540"
-    title: "Acute tyrosine/phenylalanine depletion reduces dopamine activity"
-    authors: "Shurtleff D et al."
-    year: 1994
-    url: "https://pubmed.ncbi.nlm.nih.gov/7940540/"
+  - ref: pmid-7940540
     finding:
       de: >-
         Mechanistische Studie: Tyrosin-Depletion reduzierte dopaminabhängige kognitive Parameter, was die Rolle als Neurotransmitter-Vorstufe unterstreicht.
       en: >-
         Mechanistic study: Tyrosine depletion reduced dopamine-dependent cognitive parameters, underscoring its role as a neurotransmitter precursor.
-  - pmid: "6528626"
-    title: "L-tyrosine to alleviate the effects of stress?"
-    authors: "Reinstein DK et al."
-    year: 1984
-    url: "https://pubmed.ncbi.nlm.nih.gov/6528626/"
+  - ref: pmid-6528626
     finding:
       de: >-
         Kontrollierter Test (Kälte- und Lärm-Stressoren): L-Tyrosin milderte in Studien Stressreaktionen und Leistungsabfälle.

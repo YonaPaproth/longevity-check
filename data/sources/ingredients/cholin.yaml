@@ -27,11 +27,7 @@ efsa_notes:
     In the EU, health claims for choline are approved for normal homocysteine metabolism, fat metabolism, and liver function (Annex of Regulation (EU) No. 432/2012). Cognitive or nootropic claims are not automatically covered by these.
 
 key_studies:
-  - pmid: "16816108"
-    title: "Choline: critical role during fetal development and dietary requirements in adults"
-    authors: "Zeisel SH et al."
-    year: 2006
-    url: "https://pubmed.ncbi.nlm.nih.gov/16816108/"
+  - ref: pmid-16816108
     finding:
       de: >-
         Cholin ist essenziell für Leber, Methylierung und neurologische Entwicklung. Mangel induziert nachweisbar Fettleber und Muskelschäden beim Menschen.
@@ -47,31 +43,19 @@ key_studies:
         EFSA legte Adequate Intake (AI) für Cholin fest: 400 mg/Tag für Erwachsene, 480 mg/Tag in der Schwangerschaft, 520 mg/Tag in der Stillzeit.
       en: >-
         The EFSA established Adequate Intake (AI) values for choline: 400 mg/day for adults, 480 mg/day during pregnancy, and 520 mg/day during lactation.
-  - pmid: "30015549"
-    title: "Choline intake and health outcomes: a review"
-    authors: "Wallace TC et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/30015549/"
+  - ref: pmid-30015549
     finding:
       de: >-
         Review: Ein erheblicher Anteil der Bevölkerung erreicht die empfohlene Cholinzufuhr nicht. Besonders gefährdet: Schwangere, Veganer und Personen mit Lebererkrankungen.
       en: >-
         Review: A significant proportion of the population does not meet recommended choline intake. Particularly at risk: pregnant women, vegans, and people with liver disease.
-  - pmid: "21094641"
-    title: "The relation of dietary choline to cognitive performance and white-matter hyperintensity in the Framingham Offspring Cohort"
-    authors: "Poly C et al."
-    year: 2011
-    url: "https://pubmed.ncbi.nlm.nih.gov/21094641/"
+  - ref: pmid-21094641
     finding:
       de: >-
         Beobachtungsstudie (n=1391): Höhere Cholinzufuhr war mit besserem verbalem Gedächtnis und geringerer Prävalenz weißer Substanzläsionen assoziiert.
       en: >-
         Observational study (n=1,391): Higher choline intake was associated with better verbal memory and lower prevalence of white matter lesions.
-  - pmid: "14695379"
-    title: "Choline and risk of neural tube defects in a folate-fortified population"
-    authors: "Shaw GM et al."
-    year: 2004
-    url: "https://pubmed.ncbi.nlm.nih.gov/14695379/"
+  - ref: pmid-14695379
     finding:
       de: >-
         Niedrige Cholinzufuhr war auch in einer folsäureverstärkten Population mit erhöhtem Risiko für Neuralrohrdefekte assoziiert (OR ~1,7 im untersten Quintil).

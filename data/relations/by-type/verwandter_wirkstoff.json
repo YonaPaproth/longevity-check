@@ -1,0 +1,16 @@
+{
+  "type": "verwandter_wirkstoff",
+  "count": 2,
+  "relations": [
+    {
+      "subject": "nmn-verlaengert-das-leben",
+      "target": "resveratrol",
+      "confidence": 0.7
+    },
+    {
+      "subject": "safran-preis-gesundheit",
+      "target": "ashwagandha",
+      "confidence": 0.5
+    }
+  ]
+}

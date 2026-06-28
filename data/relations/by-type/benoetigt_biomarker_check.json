@@ -1,6 +1,6 @@
 {
   "type": "benoetigt_biomarker_check",
-  "count": 139,
+  "count": 144,
   "relations": [
     {
       "subject": "5-htp",
@@ -80,7 +80,27 @@
     {
       "subject": "berberine",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "Leberwertekontrolle bei Langzeitanwendung >3 Monate empfohlen"
+    },
+    {
+      "subject": "berberine",
+      "target": "nüchternblutzucker",
+      "confidence": 0.85,
+      "source": "pmid:19800084",
+      "note": "Primärer Endpunkt in Berberinsstudien; monitoring bei Diabetikern"
+    },
+    {
+      "subject": "berberine",
+      "target": "hba1c",
+      "confidence": 0.85,
+      "note": "HbA1c-Senkung ist ein Haupteffekt in RCTs bei Typ-2-Diabetes"
+    },
+    {
+      "subject": "berberine",
+      "target": "cholesterin",
+      "confidence": 0.75,
+      "note": "LDL-Senkung via LDLR-Mechanismus; Lipidprofil-Kontrolle sinnvoll"
     },
     {
       "subject": "beta-alanin",
@@ -139,18 +159,23 @@
     },
     {
       "subject": "coq10",
-      "target": "leberwerte",
-      "confidence": 0.6
+      "target": "coq10-spiegel",
+      "confidence": 0.8
     },
     {
       "subject": "coq10",
-      "target": "blutdruck-werte",
-      "confidence": 0.6
+      "target": "troponin",
+      "confidence": 0.7
     },
     {
       "subject": "coq10",
-      "target": "glutathion-spiegel",
-      "confidence": 0.6
+      "target": "bnp",
+      "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "ejektionsfraktion",
+      "confidence": 0.7
     },
     {
       "subject": "curcumin",
@@ -326,6 +351,11 @@
       "subject": "l-citrullin",
       "target": "leberwerte",
       "confidence": 0.6
+    },
+    {
+      "subject": "l-reuteri-6475",
+      "target": "vitamin-d-spiegel",
+      "confidence": 0.5
     },
     {
       "subject": "l-theanin",
@@ -510,27 +540,32 @@
     {
       "subject": "resveratrol",
       "target": "crp",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "CRP kein signifikanter Effekt in Meta-Analyse 2016; Entzündungsmarker-Monitoring bei Langzeitanwendung sinnvoll"
     },
     {
       "subject": "resveratrol",
       "target": "tsh",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "Phytoöstrogene Eigenschaften; Schilddrüsenfunktion bei langfristiger Einnahme beobachten"
     },
     {
       "subject": "resveratrol",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "Leberwertekontrolle bei Langzeitanwendung empfohlen; First-Pass in der Leber"
     },
     {
       "subject": "resveratrol",
       "target": "cholesterin",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "LDL-C-Senkung einzig konsistenter Effekt in Umbrella-Review 2026 (SMD-Analyse)"
     },
     {
       "subject": "resveratrol",
       "target": "nüchternblutzucker",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "note": "Fasting glucose moderat gesenkt in Studien mit Diabetikern; kein Effekt in Umbrella-Review 2026"
     },
     {
       "subject": "rhodiola",

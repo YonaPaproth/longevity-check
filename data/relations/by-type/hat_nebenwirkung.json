@@ -1,6 +1,6 @@
 {
   "type": "hat_nebenwirkung",
-  "count": 39,
+  "count": 45,
   "relations": [
     {
       "subject": "5-htp",
@@ -29,8 +29,15 @@
     },
     {
       "subject": "berberine",
+      "target": "nw-magen-darm-beschwerden",
+      "confidence": 0.85,
+      "note": "Übelkeit, Durchfall, Bauchkrämpfe bei 10-20% der Studienteilnehmer"
+    },
+    {
+      "subject": "berberine",
       "target": "nw-blutzuckerabfall",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Hypoglykämie bei Kombination mit Antidiabetika möglich"
     },
     {
       "subject": "betain",
@@ -46,6 +53,16 @@
       "subject": "cholin",
       "target": "nw-blutdruckabfall",
       "confidence": 0.7
+    },
+    {
+      "subject": "coq10",
+      "target": "nw-magen-beschwerden",
+      "confidence": 0.5
+    },
+    {
+      "subject": "coq10",
+      "target": "nw-schlaflosigkeit",
+      "confidence": 0.4
     },
     {
       "subject": "curcumin",
@@ -158,13 +175,30 @@
       "confidence": 0.7
     },
     {
-      "subject": "resveratrol",
-      "target": "nw-magen-darm-beschwerden",
+      "subject": "rapamycin",
+      "target": "hyperlipidaemie",
+      "confidence": 0.8
+    },
+    {
+      "subject": "rapamycin",
+      "target": "immunsuppression",
       "confidence": 0.7
     },
     {
       "subject": "resveratrol",
+      "target": "nw-magen-darm-beschwerden",
+      "confidence": 0.7,
+      "note": "Übelkeit, Durchfall, Blähungen bei Dosen >2.000 mg/Tag"
+    },
+    {
+      "subject": "resveratrol",
       "target": "nw-kopfschmerzen",
+      "confidence": 0.7,
+      "note": "Kopfschmerzen gelegentlich berichtet; genaue Inzidenz unbekannt"
+    },
+    {
+      "subject": "sea-moss",
+      "target": "nw-schilddruesenueberfunktion",
       "confidence": 0.7
     },
     {

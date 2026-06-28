@@ -1,7 +1,7 @@
 # MikroScore Ingredient Source Schema
 
 Single Source of Truth design for ingredient content.  
-Schema version: 1.0 — Last updated: 2026-06-13
+Schema version: 2.0 — Last updated: 2026-06-28
 
 ---
 
@@ -77,20 +77,63 @@ Maps to MDX frontmatter field `efsa_notes` in each locale.
 
 ## Section: `key_studies` — Per-Locale Study Findings
 
-Up to 5 studies. All bibliographic metadata is language-neutral; only `finding` is per-locale.
+Up to 5 studies. Study metadata lives in the **study registry** (`data/sources/studies/pmid-XXXXX.yaml`).
+Ingredient YAMLs reference by `ref` and add an ingredient-specific `finding` per locale.
+
+### Ref-based format (standard)
 
 ```yaml
 key_studies:
-  - pmid: "19800084"
-    title: "Efficacy of Berberine in Patients with Type 2 Diabetes Mellitus"
-    authors: "Yin J et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/19800084/"
+  - ref: pmid-19800084
     finding:
       de: >-
         RCT (n=116): Berberin 500 mg 3x täglich senkte HbA1c um 2,0 PP …
       en: >-
         RCT (n=116): Berberine 500 mg three times daily reduced HbA1c by 2.0 PP …
+```
+
+The generator resolves `ref` → study metadata from the registry and outputs the same MDX
+frontmatter (title, authors, year, pmid, url, finding) as before.
+
+### Study registry file (`data/sources/studies/pmid-XXXXX.yaml`)
+
+```yaml
+---
+id: pmid-19800084
+type: study
+pmid: "19800084"
+title: "Efficacy of Berberine in Patients with Type 2 Diabetes Mellitus"
+authors: "Yin J et al."
+year: 2008
+url: "https://pubmed.ncbi.nlm.nih.gov/19800084/"
+---
+```
+
+**Adding a new study:**
+1. Check if `data/sources/studies/pmid-XXXXX.yaml` already exists
+2. If not, create it with the fields above
+3. In the ingredient YAML, add `- ref: pmid-XXXXX` with a `finding:` block
+4. Also add a `basiert_auf_studie` relation with `target: studie-XXXXX`
+
+**Note:** KG entity IDs for studies use the `studie-XXXXX` prefix (not `pmid-`).
+The registry file ID uses `pmid-XXXXX`. The generator handles the mapping.
+
+### Inline format (for studies without PMID)
+
+Studies without a PMID (e.g. EFSA documents, NIH fact sheets) stay inline:
+
+```yaml
+key_studies:
+  - pmid: ""
+    title: "Molybdenum"
+    authors: "Office of Dietary Supplements, NIH"
+    year: 2022
+    url: "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/"
+    finding:
+      de: >-
+        Übersicht zu Funktionen, Bedarf und Sicherheit …
+      en: >-
+        Overview of molybdenum functions, requirements, and safety …
 ```
 
 Maps to the `key_studies` array in both MDX files. The `finding.de` / `finding.en` is
@@ -234,11 +277,7 @@ efsa_notes:
     as a supplement is regulated inconsistently …
 
 key_studies:
-  - pmid: "19800084"
-    title: "Efficacy of Berberine in Patients with Type 2 Diabetes Mellitus"
-    authors: "Yin J et al."
-    year: 2008
-    url: "https://pubmed.ncbi.nlm.nih.gov/19800084/"
+  - ref: pmid-19800084
     finding:
       de: >-
         RCT (n=116): Berberin 500 mg 3x täglich senkte HbA1c um 2,0 PP …
@@ -294,15 +333,24 @@ relations:
 ## Adding a New Ingredient
 
 1. Create `data/sources/ingredients/<slug>.yaml` following this schema.
-2. Run: `npx tsx data/scripts/generate-from-source.ts <slug>`
-3. Run: `pnpm build` to verify the Astro build passes.
-4. Commit all five files together (YAML + 4 generated outputs).
+2. For each study: check if `data/sources/studies/pmid-XXXXX.yaml` exists, create if not.
+3. Run: `npx tsx data/scripts/generate-from-source.ts <slug>`
+4. Run: `npx tsx data/scripts/build-index.ts` (if new studies or relations added)
+5. Run: `pnpm build` to verify the Astro build passes.
+6. Commit all files together (source YAML + study YAMLs + generated outputs).
 
 Do **not** edit the generated files. Any prose or data corrections go into the YAML.
+
+## Adding a New Study
+
+1. Create `data/sources/studies/pmid-XXXXX.yaml` with: `id`, `type: study`, `pmid`, `title`, `authors`, `year`, `url`.
+2. Reference in ingredient YAML: `key_studies: - ref: pmid-XXXXX` with `finding: {de, en}`.
+3. Add relation: `basiert_auf_studie` with `target: studie-XXXXX` (note: `studie-` prefix, not `pmid-`).
+4. Run generator + index builder.
 
 ---
 
 ## Machine-Readable Schema
 
 The formal field-type schema is at `data/schema/ingredient-source.schema.yaml`.  
-TypeScript interfaces are inlined in `data/scripts/generate-from-source.ts` (lines 35–86).
+TypeScript interfaces are inlined in `data/scripts/generate-from-source.ts`.

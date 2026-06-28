@@ -26,41 +26,25 @@ efsa_notes:
     No EFSA-authorized health claims exist for myo-inositol. It is freely available as a food supplement in the EU without prescription. Clinical trials are ongoing for metabolic indications. Formerly labelled "Vitamin B8," it is not a true vitamin — the body synthesizes it endogenously from glucose.
 
 key_studies:
-  - pmid: "22327358"
-    title: "Myo-inositol effects in women with PCOS: a meta-analysis of randomized controlled trials"
-    authors: "Unfer V et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22327358/"
+  - ref: pmid-22327358
     finding:
       de: >-
         Meta-Analyse: Myo-Inositol war mit Veränderungen verbundene Ovulationsrate, Menstruationsregularität, FSH/LH-Ratio und Insulinsensitivität bei PCOS signifikant vs. Placebo.
       en: >-
         Meta-analysis of RCTs: myo-inositol significantly improved ovulation rate, menstrual regularity, FSH/LH ratio, and insulin sensitivity in women with PCOS versus placebo.
-  - pmid: "17952759"
-    title: "Myo-inositol and D-chiro inositol in improving insulin resistance in women with PCOS"
-    authors: "Gerli S et al."
-    year: 2007
-    url: "https://pubmed.ncbi.nlm.nih.gov/17952759/"
+  - ref: pmid-17952759
     finding:
       de: >-
         RCT (n=92): 4 g Myo-Inositol/Tag reduzierte Nüchternblutzucker, Insulin und Androgenspiegel signifikant. Ovulationsrate war mit Veränderungen verbundene sich von 25 % auf 65 %.
       en: >-
         RCT (n=92): 4 g/day myo-inositol significantly reduced fasting blood glucose, fasting insulin, and androgen levels. Ovulation rate improved from 25% at baseline to 65% after treatment.
-  - pmid: "8874839"
-    title: "Inositol treatment of obsessive-compulsive disorder"
-    authors: "Fux M et al."
-    year: 1996
-    url: "https://pubmed.ncbi.nlm.nih.gov/8874839/"
+  - ref: pmid-8874839
     finding:
       de: >-
         Cross-over RCT: 18 g Inositol/Tag reduzierte OCD-Symptome signifikant – vergleichbar mit SSRIs. Basis für psychische Einsatzbereiche.
       en: >-
         Crossover RCT: 18 g inositol/day significantly reduced OCD symptom scores, with effect sizes comparable to SSRIs. Foundational trial for psychiatric applications; not yet replicated at scale.
-  - pmid: "7730405"
-    title: "Inositol versus placebo in treatment of panic disorder"
-    authors: "Benjamin J et al."
-    year: 1995
-    url: "https://pubmed.ncbi.nlm.nih.gov/7730405/"
+  - ref: pmid-7730405
     finding:
       de: >-
         RCT: 12 g Inositol/Tag reduzierte Panikattacken-Frequenz signifikant. Mechanismus: Second-Messenger-System des Phosphatidylinositol-Signalwegs.

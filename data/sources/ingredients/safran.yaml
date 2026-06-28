@@ -25,51 +25,31 @@ efsa_notes:
     There are no approved EU health claims for saffron. Positive trials on mood or stress do not allow free marketing claims about antidepressant, calming, or broader health effects.
 
 key_studies:
-  - pmid: "24299602"
-    title: "Saffron (Crocus sativus L.) and major depressive disorder: a meta-analysis of randomized clinical trials"
-    authors: "Hausenblas HA et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/24299602/"
+  - ref: pmid-24299602
     finding:
       de: >-
         Frühe Meta-Analyse: Safran war Placebo überlegen und in kleinen Studien ähnlich wirksam wie Antidepressiva bei leichter bis moderater Depression.
       en: >-
         Early meta-analysis: saffron outperformed placebo and in small studies appeared comparable to antidepressants in mild to moderate depression.
-  - pmid: "30036891"
-    title: "The Efficacy of Saffron in the Treatment of Mild to Moderate Depression: A Meta-analysis"
-    authors: "Marx W et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/30036891/"
+  - ref: pmid-30036891
     finding:
       de: >-
         Meta-analytisch zeigt sich ein Signal für depressive Symptome, aber die Evidenz bleibt durch kleine und regionale Studien limitiert.
       en: >-
         Meta-analytic signal for depressive symptoms, but the evidence remains limited by small and geographically concentrated trials.
-  - pmid: "32221179"
-    title: "Safety and Efficacy of Saffron (Crocus sativus L.) for Treating Mild to Moderate Depression: A Systematic Review and Meta-analysis"
-    authors: "Tóth B et al."
-    year: 2020
-    url: "https://pubmed.ncbi.nlm.nih.gov/32221179/"
+  - ref: pmid-32221179
     finding:
       de: >-
         Safran war in den eingeschlossenen Studien meist gut verträglich und zeigte gegenüber Placebo Vorteile bei depressiven Symptomen.
       en: >-
         Saffron was generally well tolerated in included trials and showed advantages over placebo for depressive symptoms.
-  - pmid: "34419735"
-    title: "Saffron (Crocus sativus L.) and health outcomes: a meta-research review of meta-analyses and an evidence mapping study"
-    authors: "Lopresti AL et al."
-    year: 2021
-    url: "https://pubmed.ncbi.nlm.nih.gov/34419735/"
+  - ref: pmid-34419735
     finding:
       de: >-
         Breiter Überblick: Für Stimmung gibt es das stärkste Signal; für viele andere Outcomes ist die Evidenz deutlich schwächer oder zu vorläufig.
       en: >-
         Broad overview: mood-related outcomes show the strongest signal; for many other outcomes the evidence is much weaker or still too preliminary.
-  - pmid: "22552758"
-    title: "Saffron in the treatment of patients with mild to moderate Alzheimer's disease: a 16-week, randomized and placebo-controlled trial — and sexual dysfunction"
-    authors: "Modabbernia A et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/22552758/"
+  - ref: pmid-22552758
     finding:
       de: >-
         RCT (n=36): 30 mg Safran/Tag verbesserte SSRI-induzierte sexuelle Dysfunktion bei Männern signifikant gegenüber Placebo (IIEF-Scores für Erektion, Orgasmus und Zufriedenheit). Eine der wenigen pflanzlichen Interventionen mit positiven RCT-Daten zu diesem Endpunkt.
@@ -197,27 +177,27 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: pmid-24299602
+    target: studie-24299602
     direction: outgoing
     confidence: 0.9
     source: "pmid:24299602"
   - relation: basiert_auf_studie
-    target: pmid-30036891
+    target: studie-30036891
     direction: outgoing
     confidence: 0.9
     source: "pmid:30036891"
   - relation: basiert_auf_studie
-    target: pmid-32221179
+    target: studie-32221179
     direction: outgoing
     confidence: 0.9
     source: "pmid:32221179"
   - relation: basiert_auf_studie
-    target: pmid-34419735
+    target: studie-34419735
     direction: outgoing
     confidence: 0.8
     source: "pmid:34419735"
   - relation: basiert_auf_studie
-    target: pmid-22552758
+    target: studie-22552758
     direction: outgoing
     confidence: 0.9
     source: "pmid:22552758"

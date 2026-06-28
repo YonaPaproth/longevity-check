@@ -26,41 +26,25 @@ efsa_notes:
     Multiple EFSA-approved health claims under Regulation (EC) 1924/2006: Calcium contributes to the maintenance of normal bone health (including children), normal muscle function, normal neurotransmission, and normal energy metabolism. For children, an additional claim covers normal bone development. All claims relate to adequate intake, not megadose supplementation.
 
 key_studies:
-  - pmid: "28093633"
-    title: "Calcium supplementation for the prevention of osteoporotic fractures: systematic review and meta-analysis"
-    authors: "Tai V et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28093633/"
+  - ref: pmid-28093633
     finding:
       de: >-
         Meta-Analyse (RCTs, n>50.000): Calcium-Supplementation erhöhte die Knochenmineraldichte (BMD) signifikant um ~0,7–1,8 % über 2 Jahre. Frakturrisikoreduktion war statistisch nicht konsistent nachweisbar; Nutzen am größten bei Basisdefizit.
       en: >-
         Meta-analysis of RCTs (n>50,000): Calcium supplementation significantly increased bone mineral density (BMD) by ~0.7–1.8% over 2 years. Fracture risk reduction was not consistently demonstrable; benefit greatest in baseline deficiency.
-  - pmid: "27071884"
-    title: "Effect of calcium supplementation on bone mineral density"
-    authors: "Bristow SM et al."
-    year: 2015
-    url: "https://pubmed.ncbi.nlm.nih.gov/27071884/"
+  - ref: pmid-27071884
     finding:
       de: >-
         RCT-basierter Review: Calcium-Zufuhr (Ernährung + Supplement) war konsistent mit höherer BMD assoziiert; der Effekt bei bereits calciumausreichend versorgten Erwachsenen war kleiner als bei Mangel.
       en: >-
         RCT-based review: Calcium intake (diet plus supplement) was consistently associated with higher BMD; however, the effect in already calcium-sufficient adults was smaller than in those with deficiency.
-  - pmid: "29279823"
-    title: "Calcium supplements and cardiovascular events: a meta-analysis"
-    authors: "Myung SK et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/29279823/"
+  - ref: pmid-29279823
     finding:
       de: >-
         Meta-Analyse von 10 RCTs: Calcium-Supplementierung (ohne Vitamin D) war mit einem RR von 1,15 für kardiovaskuläre Ereignisse assoziiert. Das Risiko zeigte sich vor allem bei Dosen &gt;1.000 mg/Tag aus Supplements, nicht aus Nahrungsquellen.
       en: >-
         Meta-analysis of 10 RCTs: Calcium supplementation (without vitamin D) was associated with a relative risk (RR) of 1.15 for cardiovascular events. Risk was particularly pronounced at doses >1,000 mg/day from supplements, not from food sources.
-  - pmid: "30958565"
-    title: "Calcium intake and bone health in vegan and vegetarian populations"
-    authors: "Mangels AR"
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/30958565/"
+  - ref: pmid-30958565
     finding:
       de: >-
         Review: Veganer nehmen im Schnitt 600–800 mg Calcium/Tag auf — deutlich unter dem DGE-Referenzwert von 1.000 mg. Pflanzliche Quellen wie Grünkohl, Tofu und angereicherte Pflanzenmilch können die Lücke schließen; bei unzureichender Zufuhr ist Supplementierung empfehlenswert.

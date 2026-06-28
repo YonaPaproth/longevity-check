@@ -25,31 +25,19 @@ efsa_notes:
     In the EU, rutin has no approved claims for vascular protection, antioxidant effects, or vein strengthening in the dietary supplement context.
 
 key_studies:
-  - pmid: "28694736"
-    title: "Pharmacological effects of rutin"
-    authors: "Ganeshpurkar A et al."
-    year: 2017
-    url: "https://pubmed.ncbi.nlm.nih.gov/28694736/"
+  - ref: pmid-28694736
     finding:
       de: >-
         Review: Rutin ist präklinisch breit interessant, aber klinische Evidenz bleibt überschaubar.
       en: >-
         Review: Rutin shows broad preclinical interest but clinical evidence remains limited.
-  - pmid: "11448538"
-    title: "Rutin and vascular health"
-    authors: "Guardia T et al."
-    year: 2001
-    url: "https://pubmed.ncbi.nlm.nih.gov/11448538/"
+  - ref: pmid-11448538
     finding:
       de: >-
         Hinweise auf gefäßbezogene Effekte, jedoch keine starke moderne Humanbasis.
       en: >-
         Hints at vascular effects but no strong modern human evidence base.
-  - pmid: "11285671"
-    title: "Flavonoids including rutin in chronic disease prevention"
-    authors: "Nijveldt RJ et al."
-    year: 2001
-    url: "https://pubmed.ncbi.nlm.nih.gov/11285671/"
+  - ref: pmid-11285671
     finding:
       de: >-
         Flavonoide sind interessant, aber konkrete Supplementempfehlungen bleiben schwierig.

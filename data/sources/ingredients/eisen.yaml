@@ -27,41 +27,25 @@ efsa_notes:
     EFSA-approved health claims under Regulation (EC) 1924/2006: Iron contributes to normal cognitive function, normal energy metabolism, normal formation of red blood cells and haemoglobin, normal oxygen transport, normal immune system function, and the reduction of tiredness and fatigue. All claims refer to adequate intake correcting a deficiency — not to prophylactic high-dose supplementation.
 
 key_studies:
-  - pmid: "27880062"
-    title: "Iron status and iron bioavailability in vegetarians: a critical review"
-    authors: "Haider LM et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/27880062/"
+  - ref: pmid-27880062
     finding:
       de: >-
         Systematischer Review: Vegetarier haben im Vergleich zu Omnivoren signifikant niedrigere Ferritin-Spiegel (Mittelwert ~20 vs. ~35 µg/L bei Frauen). Eisenmangel-Prävalenz bei vegetarischen Frauen bis zu 40 %, bei Omnivoren ~20 %. Gleichzeitig erhöhte Eisenabsorption als Kompensation beobachtet.
       en: >-
         Systematic review: vegetarians had significantly lower ferritin levels than omnivores (mean ~20 vs. ~35 µg/L in women). Iron deficiency prevalence in vegetarian women reached up to 40%, vs. ~20% in omnivores. The body partially compensated through upregulated absorption rates.
-  - pmid: "23107545"
-    title: "Prevalence of iron deficiency in the US population"
-    authors: "Looker AC et al."
-    year: 2002
-    url: "https://pubmed.ncbi.nlm.nih.gov/23107545/"
+  - ref: pmid-23107545
     finding:
       de: >-
         Nationale US-Querschnittsstudie: Eisenmangel (Ferritin &lt;12 µg/L) betrifft ~9–11 % der Frauen im gebärfähigen Alter, ~2 % der Männer. In der Gesamtbevölkerung ist Eisenmangel die häufigste Nährstoffdefizit-Ursache für Anämie.
       en: >-
         National US cross-sectional survey: iron deficiency (ferritin &lt;12 µg/L) affected ~9–11% of women of reproductive age and ~2% of men. Iron deficiency anaemia is the most common nutrient-deficiency cause of anaemia worldwide.
-  - pmid: "29155946"
-    title: "Enhancers and inhibitors of iron absorption in plant-based diets"
-    authors: "Hurrell R & Egli I"
-    year: 2010
-    url: "https://pubmed.ncbi.nlm.nih.gov/29155946/"
+  - ref: pmid-29155946
     finding:
       de: >-
         Review: Nicht-Hämeisen (Pflanzen) hat eine Absorption von ~2–20 % vs. Hämeisen (Fleisch) ~25 %. Vitamin C (50–100 mg) erhöht die Nicht-Hämeisen-Absorption um das 3–6-fache. Phytate (Getreide, Hülsenfrüchte), Polyphenole (Kaffee, Tee) und Calcium hemmen die Absorption signifikant.
       en: >-
         Review: non-haem iron (plant sources) has an absorption rate of ~2–20% vs. haem iron (meat) ~25%. Vitamin C (50–100 mg) increases non-haem iron absorption 3–6-fold. Phytates (grains, legumes), polyphenols (coffee, tea), and calcium significantly inhibit absorption.
-  - pmid: "31174214"
-    title: "Serum ferritin as an indicator of iron stores: reliability and limitations"
-    authors: "Pasricha SR et al."
-    year: 2021
-    url: "https://pubmed.ncbi.nlm.nih.gov/31174214/"
+  - ref: pmid-31174214
     finding:
       de: >-
         Review: Ferritin &lt;30 µg/L als funktioneller Eisenmangel-Schwellenwert (auch ohne manifeste Anämie) hat höhere klinische Sensitivität als der klassische Wert &lt;12 µg/L. Bei chronischer Entzündung ist Ferritin als alleiniger Marker unzureichend — CRP sollte gleichzeitig bestimmt werden.
