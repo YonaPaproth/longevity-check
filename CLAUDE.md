@@ -72,6 +72,44 @@ File-basierter KG unter `data/`:
 - **Index:** `data/index.json` (kompakter Lookup, wird via `data/scripts/build-index.ts` generiert)
 - **Library:** `src/lib/graph/` (TypeScript: types, entities, relations, paths, labels, builders)
 
+## Aktueller Stand (Juni 2026)
+
+- **118 Wirkstoff-Dossiers** (DE + EN), 112 davon YAML-basiert
+- **265 Produkt-Reviews** (DE), 41 EN — 45 Vendors
+- **19 Claims-Checks** (DE + EN)
+- **4 Research Reviews** (DE), 3 EN — wöchentliche Studienübersichten
+- **Knowledge Graph:** 215 Entities, 176 Relations-Dateien
+- **742 Seiten** total
+- **Kategorien:** nad-precursors, senolytics, antioxidants, adaptogens, metabolic, cognitive, hormonal, general-health, other
+
+**Nav-Struktur:**
+Checks ▾ (Ernährungs-Check, Vegan-Check, Claims-Check) | Wirkstoffe | Produkte | Tools ▾ (Wissensgraph, Stack Builder) | Methodik | Studien
+
+## Projektstruktur (Ergänzung)
+
+```
+scripts/
+  product-index.cjs          # Generiert data/product-index.json (schnelle Lookups)
+  add-product.cjs            # Template-basierte Produkt-Erstellung (DE+EN)
+  pubmed-digest.js           # Wöchentlicher PubMed-Digest (Cron)
+  audit-dossiers.cjs         # Dossier-Qualitäts-Audit
+src/
+  scripts/graph-viewer.ts    # KG Visualisierung (Cytoscape, multi-row structured layout)
+  components/illustrations/  # SVG-Illustrationen im MikroScore-Stil
+  components/VerdictBadge.astro  # Locale-aware Verdict-Anzeige (DE/EN)
+```
+
+## Backlog (priorisiert)
+
+| # | Task | Priorität |
+|---|------|-----------|
+| 1 | EN-Übersetzung: ~224 Produkt-Reviews fehlen noch auf EN | hoch |
+| 2 | Kinder-Nährstoff-Check (`/kinder-check`, `/en/children-check`) | mittel |
+| 3 | Wirkstoff-Merkzettel: Nutzer markiert Wirkstoffe → Produkte filtern (localStorage) | mittel |
+| 4 | Citrus Bergamot als Wirkstoff-Dossier anlegen | niedrig |
+| 5 | Impressum-Adresse auf e.V. oder Briefkastendienst verlegen | niedrig |
+| 6 | Affiliate-Links zu Produkten (Amazon.de, iHerb) — erst bei Traffic | niedrig |
+
 ## Wichtige Konventionen
 
 - **MDX in Astro v6**: `<` in Markdown muss als `&lt;` escaped werden (JSX-Parser)
