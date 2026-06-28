@@ -54,11 +54,11 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
 
 /** Y position (as fraction of container height) for each node type lane. */
 const STRUCTURED_LANES: Array<{ type: string; yFrac: number }> = [
-  { type: 'ingredient',       yFrac: 0.14 },
-  { type: 'regulatory',       yFrac: 0.34 },
+  { type: 'regulatory',       yFrac: 0.08 },
+  { type: 'ingredient',       yFrac: 0.28 },
   { type: 'mechanism',        yFrac: 0.48 },
-  { type: 'symptom',          yFrac: 0.62 },
-  { type: 'contraindication', yFrac: 0.82 },
+  { type: 'symptom',          yFrac: 0.65 },
+  { type: 'contraindication', yFrac: 0.85 },
 ];
 
 /**
@@ -385,11 +385,21 @@ function computeStructuredPositions(
   // Group nodes by (type, bucket) for even horizontal spread
   // Treat kontra-* and nw-* symptom nodes as contraindications for layout
   const groups = new Map<string, string[]>();
+  // Separate list for symptom nodes (distributed evenly, ignoring buckets)
+  const symptomIds: string[] = [];
+
   for (const node of nodes) {
     const bucket = buckets.get(node.id) ?? 1;
     const layoutType = (node.type === 'symptom' && (node.id.startsWith('kontra-') || node.id.startsWith('nw-')))
       ? 'contraindication'
       : node.type;
+
+    // Symptoms get equal distribution instead of bucket grouping
+    if (layoutType === 'symptom') {
+      symptomIds.push(node.id);
+      continue;
+    }
+
     const key    = `${layoutType}::${bucket}`;
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key)!.push(node.id);
@@ -397,6 +407,38 @@ function computeStructuredPositions(
 
   const positions = new Map<string, { x: number; y: number }>();
 
+  // Position symptom nodes: equally spaced left to right across full width
+  {
+    const yFrac = laneYByType.get('symptom') ?? 0.65;
+    const laneConfig = LANE_ROWS['symptom'];
+    const numRows = laneConfig?.rows ?? 1;
+    const spanFrac = laneConfig?.span ?? 0;
+    const xPad = 0.04; // padding from edges
+
+    symptomIds.sort();
+    for (let i = 0; i < symptomIds.length; i++) {
+      const row = i % numRows;
+      const colInRow = Math.floor(i / numRows);
+      const totalInRow = Math.ceil(symptomIds.length / numRows);
+
+      const xFrac = totalInRow === 1
+        ? 0.5
+        : xPad + (1 - 2 * xPad) * (colInRow / (totalInRow - 1));
+
+      const rowOffset = numRows <= 1
+        ? 0
+        : (row / (numRows - 1) - 0.5) * spanFrac;
+
+      const yJitter = ((simpleHash(symptomIds[i]) % 9) - 4);
+
+      positions.set(symptomIds[i], {
+        x: xFrac * containerWidth,
+        y: (yFrac + rowOffset) * containerHeight + yJitter,
+      });
+    }
+  }
+
+  // Position all other node types using bucket-based X ranges
   for (const [key, ids] of groups) {
     const [typeStr, bucketStr] = key.split('::');
     const bucket = Math.min(2, Math.max(0, parseInt(bucketStr, 10))) as 0 | 1 | 2;
