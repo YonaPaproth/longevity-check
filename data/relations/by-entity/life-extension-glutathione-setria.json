@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-glutathione-setria",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "glutathion",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

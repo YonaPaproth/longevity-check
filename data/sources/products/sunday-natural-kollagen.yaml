@@ -1,0 +1,85 @@
+---
+id: sunday-natural-kollagen
+type: product
+
+meta:
+  title: "Sunday Natural Kollagen Hydrolysat Pulver"
+  ingredient: kollagen
+  containedIngredients:
+    - slug: kollagen
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de"
+  affiliateUrl: ""
+  priceEur: 29.9
+  doseMg: 10000
+  servingsPerPack: 30
+  pricePerDayEur: 1
+  form: powder
+  availableInDE: true
+  publishedAt: "2026-06-15"
+  lastPriceCheck: "2026-06-15"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Kollagen hat wachsende Evidenz für Hautgesundheit, Gelenke und Bindegewebe aus mehreren Meta-Analysen."
+      en: "Collagen has growing evidence for skin health, joints, and connective tissue from several meta-analyses."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "1,00 € pro 10 g Kollagen ist marktüblich für Weide-Qualität. Günstigere Alternativen ab 0,50 €."
+      en: "€1.00 per 10 g collagen is market standard for pasture-raised quality. Cheaper alternatives from €0.50."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Kollagenpeptide aus Weidehaltung, enzymatisch hydrolysiert für optimale Absorption."
+      en: "Collagen peptides from pasture-raised, enzymatically hydrolyzed for optimal absorption."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Herkunft, Hydrolysierungsgrad und Portionsgröße klar angegeben."
+      en: "Origin, hydrolysis degree, and serving size clearly specified."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Deutsche Laboranalytik auf Schwermetalle und Aminosäureprofil."
+      en: "German laboratory analysis for heavy metals and amino acid profile."
+
+locales:
+  de:
+    summary: "Hydrolysiertes Kollagenpeptid aus Weidehaltung, 10 g pro Portion, geschmacksneutral."
+    verdictNote: "Sauberes Kollagen-Pulver aus Weidehaltung mit guter Löslichkeit. Solide Wahl für Haut und Gelenke."
+    body:
+      description: "Sunday Natural bietet hydrolysierte Kollagenpeptide aus Weidehaltung. Das Pulver löst sich gut in Wasser, Kaffee oder Smoothies und ist geschmacksneutral. 10 g pro Portion liefern die in Studien häufig verwendete Dosis."
+      pros:
+        - "10 g pro Portion — entspricht der klinisch untersuchten Dosis"
+        - "Kollagen aus Weidehaltung (nicht aus Massentierhaltung)"
+        - "Geschmacksneutral und gut löslich"
+        - "Keine Zusatzstoffe, nur hydrolysierte Kollagenpeptide"
+      cons:
+        - "Nicht vegan — es gibt keine pflanzliche Kollagen-Alternative"
+        - "30 Portionen = 1 Monat, Packung relativ klein"
+        - "Kein spezifischer Kollagen-Typ angegeben (Typ I, II oder III)"
+      usage: "10 g (1 Messlöffel) täglich in Wasser, Kaffee oder Smoothie einrühren. Idealerweise morgens auf nüchternen Magen oder mindestens 30 Minuten vor einer Mahlzeit."
+  en:
+    summary: "Hydrolyzed collagen peptide from pasture-raised, 10 g per serving, flavorless."
+    verdictNote: "Clean collagen powder from pasture-raised cattle with good solubility. Solid choice for skin and joints."
+    body:
+      description: "Sunday Natural offers hydrolyzed collagen peptides from pasture-raised cattle. The powder dissolves well in water, coffee, or smoothies and is flavorless. 10 g per serving delivers the dose frequently used in studies."
+      pros:
+        - "10 g per serving — corresponds to the clinically studied dose"
+        - "Collagen from pasture-raised cattle (not from factory farming)"
+        - "Flavorless and dissolves well"
+        - "No additives, just hydrolyzed collagen peptides"
+      cons:
+        - "Not vegan — there is no plant-based collagen alternative"
+        - "30 servings = 1 month, pack relatively small"
+        - "No specific collagen type specified (Type I, II, or III)"
+      usage: ""
+---

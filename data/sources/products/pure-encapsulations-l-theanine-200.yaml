@@ -1,0 +1,81 @@
+---
+id: pure-encapsulations-l-theanine-200
+type: product
+
+meta:
+  title: "Pure Encapsulations L-Theanine 200mg"
+  ingredient: l-theanin
+  containedIngredients:
+    - slug: l-theanin
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com"
+  affiliateUrl: ""
+  priceEur: 34
+  doseMg: 200
+  servingsPerPack: 60
+  pricePerDayEur: 0.57
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "L-Theanin reduziert Stress und verbesserte Aufmerksamkeit laut mehreren Humanstudien."
+      en: "L-Theanin reduziert Stress und verbesserte Aufmerksamkeit laut mehreren Humanstudien."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,57 € pro 200 mg Premiumrohstoff ist angemessen."
+      en: "0,57 € pro 200 mg Premiumrohstoff ist angemessen."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Suntheanine ist fermentativ hergestellt und wird auf L-Isomer-Reinheit geprüft."
+      en: "Suntheanine ist fermentativ hergestellt und wird auf L-Isomer-Reinheit geprüft."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Deklariert hypoallergene Formulierung ohne Hilfsstoffe."
+      en: "Deklariert hypoallergene Formulierung ohne Hilfsstoffe."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Pure Encapsulations veröffentlicht Allergen- und Schwermetallprüfungen."
+      en: "Pure Encapsulations veröffentlicht Allergen- und Schwermetallprüfungen."
+
+locales:
+  de:
+    summary: "200 mg Suntheanine in hypoallergenen Kapseln – klinisch bewährter Rohstoff für Ruhe ohne Sedierung."
+    verdictNote: "Goldstandard für empfindliche Personen, die reines L-Theanin suchen."
+    body:
+      description: "Jede Kapsel enthält 200 mg reines Suntheanine, hergestellt via Fermentation. Keine Magnesiumstearate, Gluten, Soja oder Milchbestandteile."
+      pros:
+        - "Suntheanine Markenrohstoff"
+        - "Hypoallergenes Kapselfüllmittel"
+        - "Sehr neutrale Einnahme ohne Nachgeschmack"
+      cons:
+        - "Preis höher als Bulk-Theanin"
+        - "Dose reicht nur 2 Monate bei täglichem Einsatz"
+      usage: "1 Kapsel bei akutem Stress oder 30 Minuten vor mental fordernden Aufgaben. Kann bei Bedarf abends wiederholt werden."
+  en:
+    summary: "200 mg Suntheanine in hypoallergenen Kapseln – klinisch bewährter Rohstoff für Ruhe ohne Sedierung."
+    verdictNote: "Goldstandard für empfindliche Personen, die reines L-Theanin suchen."
+    body:
+      description: "Jede Kapsel enthält 200 mg reines Suntheanine, hergestellt via Fermentation. Keine Magnesiumstearate, Gluten, Soja oder Milchbestandteile."
+      pros:
+        - "Suntheanine Markenrohstoff"
+        - "Hypoallergenes Kapselfüllmittel"
+        - "Sehr neutrale Einnahme ohne Nachgeschmack"
+      cons:
+        - "Preis höher als Bulk-Theanin"
+        - "Dose reicht nur 2 Monate bei täglichem Einsatz"
+      usage: "1 Kapsel bei akutem Stress oder 30 Minuten vor mental fordernden Aufgaben. Kann bei Bedarf abends wiederholt werden."
+---

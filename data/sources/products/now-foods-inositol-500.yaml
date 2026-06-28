@@ -1,0 +1,81 @@
+---
+id: now-foods-inositol-500
+type: product
+
+meta:
+  title: "NOW Foods Inositol 500mg"
+  ingredient: myo-inositol
+  containedIngredients:
+    - slug: myo-inositol
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 18
+  doseMg: 500
+  servingsPerPack: 100
+  pricePerDayEur: 0.18
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Myo-Inositol hat gute Daten zu PCOS, Insulin und Stimmung."
+      en: "Myo-Inositol hat gute Daten zu PCOS, Insulin und Stimmung."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,18 € pro 500 mg ist günstig."
+      en: "0,18 € pro 500 mg ist günstig."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Fermentativer Rohstoff, Allergen-getestet."
+      en: "Fermentativer Rohstoff, Allergen-getestet."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Nur Inositol plus Kapselhülle deklariert."
+      en: "Nur Inositol plus Kapselhülle deklariert."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Interne Analytik, keine großen Siegel."
+      en: "Interne Analytik, keine großen Siegel."
+
+locales:
+  de:
+    summary: "500 mg Myo-Inositol pro Kapsel, vegan, GMP und Non-GMO – vielseitig für Nerven und Blutzucker."
+    verdictNote: "Budgetfreundlicher Einstieg in Inositol-Protokolle."
+    body:
+      description: "Jede Kapsel enthält 500 mg kristallines Myo-Inositol, gewonnen aus Mais durch Fermentation."
+      pros:
+        - "Vegan und allergenfrei"
+        - "Einfache Dosierung für Einsteiger"
+        - "GMP-Produktion"
+      cons:
+        - "Für PCOS-Protokolle oft höhere Dosen nötig"
+        - "Leicht süßlicher Geschmack"
+      usage: "1 Kapsel morgens und abends zu Mahlzeiten. Bei spezifischen Protokollen bis 2 g zweimal täglich steigern."
+  en:
+    summary: "500 mg Myo-Inositol pro Kapsel, vegan, GMP und Non-GMO – vielseitig für Nerven und Blutzucker."
+    verdictNote: "Budgetfreundlicher Einstieg in Inositol-Protokolle."
+    body:
+      description: "Jede Kapsel enthält 500 mg kristallines Myo-Inositol, gewonnen aus Mais durch Fermentation."
+      pros:
+        - "Vegan und allergenfrei"
+        - "Einfache Dosierung für Einsteiger"
+        - "GMP-Produktion"
+      cons:
+        - "Für PCOS-Protokolle oft höhere Dosen nötig"
+        - "Leicht süßlicher Geschmack"
+      usage: "1 Kapsel morgens und abends zu Mahlzeiten. Bei spezifischen Protokollen bis 2 g zweimal täglich steigern."
+---

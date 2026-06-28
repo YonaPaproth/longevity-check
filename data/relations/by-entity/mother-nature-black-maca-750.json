@@ -1,0 +1,17 @@
+{
+  "entity": "mother-nature-black-maca-750",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "maca",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "piperin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

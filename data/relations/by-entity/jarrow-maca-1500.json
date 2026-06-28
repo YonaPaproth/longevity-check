@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-maca-1500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "maca",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

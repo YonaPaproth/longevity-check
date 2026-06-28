@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-bacopa-150",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "bacopa",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

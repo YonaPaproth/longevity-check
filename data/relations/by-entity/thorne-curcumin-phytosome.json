@@ -1,0 +1,11 @@
+{
+  "entity": "thorne-curcumin-phytosome",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "curcumin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-same-400",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "same",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

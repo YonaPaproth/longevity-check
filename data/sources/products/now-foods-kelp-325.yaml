@@ -1,0 +1,83 @@
+---
+id: now-foods-kelp-325
+type: product
+
+meta:
+  title: "NOW Foods Kelp 325mcg Iodine"
+  ingredient: jod
+  containedIngredients:
+    - slug: jod
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 12
+  doseMg: 1
+  servingsPerPack: 250
+  pricePerDayEur: 0.05
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Jod ist essenziell für Schilddrüse und Stoffwechsel, solange Referenzspiegel beachtet werden."
+      en: "Jod ist essenziell für Schilddrüse und Stoffwechsel, solange Referenzspiegel beachtet werden."
+  valueForMoney:
+    score: 10
+    explanation:
+      de: "0,05 € pro Tag macht dies zu einer der günstigsten natürlichen Jodquellen."
+      en: "0,05 € pro Tag macht dies zu einer der günstigsten natürlichen Jodquellen."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Algen werden auf Schwermetalle getestet und in GMP-Anlagen verarbeitet."
+      en: "Algen werden auf Schwermetalle getestet und in GMP-Anlagen verarbeitet."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklaration zeigt exakte Jodmenge und Herkunft der Kelpquelle."
+      en: "Deklaration zeigt exakte Jodmenge und Herkunft der Kelpquelle."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Interne Analysen vorhanden, aber kein externes Zertifikat."
+      en: "Interne Analysen vorhanden, aber kein externes Zertifikat."
+
+locales:
+  de:
+    summary: "Kelp-Tabletten mit 325 mcg natürlichem Jod aus nordatlantischen Algen, Non-GMO und unter GMPbedingungen geprüft."
+    verdictNote: "Natürliche Jodquelle für Personen mit niedriger Zufuhr, solange Schwermetallberichte geprüft werden."
+    body:
+      description: "Die Tabletten enthalten getrocknetes Kelp-Pulver, das pro Portion 325 mcg Jod liefert. Ideal für Personen, die wenig Meeresfrüchte essen, aber natürliche Quellen bevorzugen."
+      pros:
+        - "**Große Packung:** 250 Portionen decken fast ein Jahr"
+        - "**Natürliche Quelle:** Aus nordatlantischen Algen gewonnen"
+        - "**Non-GMO:** Zertifiziert gentechnikfrei"
+        - "**GMP-Produktion:** Sichert Basiskontrollen auf Reinheit"
+      cons:
+        - "**Schwankende Gehalte:** Natürliche Quellen können variieren, auch wenn Analysen stabil wirken"
+        - "**Kein Sport-Siegel:** Für Profisportler wäre zusätzliche Prüfung hilfreich"
+      usage: "1 Tablette täglich zu einer Mahlzeit. Bei Schilddrüsenmedikation stets Rücksprache mit Ärztin oder Arzt halten und Spiegel überwachen."
+  en:
+    summary: "Kelp-Tabletten mit 325 mcg natürlichem Jod aus nordatlantischen Algen, Non-GMO und unter GMPbedingungen geprüft."
+    verdictNote: "Natürliche Jodquelle für Personen mit niedriger Zufuhr, solange Schwermetallberichte geprüft werden."
+    body:
+      description: "Die Tabletten enthalten getrocknetes Kelp-Pulver, das pro Portion 325 mcg Jod liefert. Ideal für Personen, die wenig Meeresfrüchte essen, aber natürliche Quellen bevorzugen."
+      pros:
+        - "**Große Packung:** 250 Portionen decken fast ein Jahr"
+        - "**Natürliche Quelle:** Aus nordatlantischen Algen gewonnen"
+        - "**Non-GMO:** Zertifiziert gentechnikfrei"
+        - "**GMP-Produktion:** Sichert Basiskontrollen auf Reinheit"
+      cons:
+        - "**Schwankende Gehalte:** Natürliche Quellen können variieren, auch wenn Analysen stabil wirken"
+        - "**Kein Sport-Siegel:** Für Profisportler wäre zusätzliche Prüfung hilfreich"
+      usage: "1 Tablette täglich zu einer Mahlzeit. Bei Schilddrüsenmedikation stets Rücksprache mit Ärztin oder Arzt halten und Spiegel überwachen."
+---

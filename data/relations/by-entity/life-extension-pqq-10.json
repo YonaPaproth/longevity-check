@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-pqq-10",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "pqq",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

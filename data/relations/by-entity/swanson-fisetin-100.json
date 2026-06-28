@@ -1,0 +1,11 @@
+{
+  "entity": "swanson-fisetin-100",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "fisetin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

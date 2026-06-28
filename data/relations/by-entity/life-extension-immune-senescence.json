@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-immune-senescence",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "zink",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

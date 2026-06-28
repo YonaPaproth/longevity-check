@@ -1,0 +1,81 @@
+---
+id: jarrow-gotu-kola-500
+type: product
+
+meta:
+  title: "Jarrow Formulas Gotu Kola 500mg"
+  ingredient: gotu-kola
+  containedIngredients:
+    - slug: gotu-kola
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 18
+  doseMg: 500
+  servingsPerPack: 100
+  pricePerDayEur: 0.18
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Gotu Kola ist vergleichsweise gut untersucht in venöse Insuffizienz und Wundheilung."
+      en: "Gotu Kola ist vergleichsweise gut untersucht in venöse Insuffizienz und Wundheilung."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,18 € pro 500 mg ist sehr günstig."
+      en: "0,18 € pro 500 mg ist sehr günstig."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Schonende Trocknung erhält asiaticosidreiche Blätter."
+      en: "Schonende Trocknung erhält asiaticosidreiche Blätter."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Jarrow nennt Herkunft und Extraktverhältnis."
+      en: "Jarrow nennt Herkunft und Extraktverhältnis."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Interne Tests, aber kein drittes Siegel."
+      en: "Interne Tests, aber kein drittes Siegel."
+
+locales:
+  de:
+    summary: "500 mg Centella asiatica pro Portion in veganen Kapseln für Gefäß- und Hautkontext."
+    verdictNote: "Budgetfreundliches Gefäß- und Hautadaptogen."
+    body:
+      description: "Fein gemahlenes Blattpulver aus sri-lankischer Centella asiatica, abgefüllt in vegane Kapseln für lange Kur-Anwendungen."
+      pros:
+        - "Große 100er Dose für längere Zyklen"
+        - "Vegan kapsuliert"
+        - "Milde Wirkung ohne Sedierung"
+      cons:
+        - "Kein standardisierter Asiaticosid-Gehalt"
+        - "Kräuteriger Nachgeschmack"
+      usage: "1 Kapsel zweimal täglich zu Mahlzeiten, in 8-Wochen-Zyklen mit 2 Wochen Pause."
+  en:
+    summary: "500 mg Centella asiatica pro Portion in veganen Kapseln für Gefäß- und Hautkontext."
+    verdictNote: "Budgetfreundliches Gefäß- und Hautadaptogen."
+    body:
+      description: "Fein gemahlenes Blattpulver aus sri-lankischer Centella asiatica, abgefüllt in vegane Kapseln für lange Kur-Anwendungen."
+      pros:
+        - "Große 100er Dose für längere Zyklen"
+        - "Vegan kapsuliert"
+        - "Milde Wirkung ohne Sedierung"
+      cons:
+        - "Kein standardisierter Asiaticosid-Gehalt"
+        - "Kräuteriger Nachgeschmack"
+      usage: "1 Kapsel zweimal täglich zu Mahlzeiten, in 8-Wochen-Zyklen mit 2 Wochen Pause."
+---

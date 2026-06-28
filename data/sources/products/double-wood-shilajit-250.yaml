@@ -1,0 +1,81 @@
+---
+id: double-wood-shilajit-250
+type: product
+
+meta:
+  title: "Double Wood Shilajit 250mg"
+  ingredient: shilajit
+  containedIngredients:
+    - slug: shilajit
+  vendor: "Double Wood"
+  vendorUrl: "https://doublewoodsupplements.com"
+  affiliateUrl: ""
+  priceEur: 38
+  doseMg: 250
+  servingsPerPack: 60
+  pricePerDayEur: 0.63
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Shilajit besitzt Daten zu Energie, Testosteron und Höhenanpassung, jedoch wenige RCTs."
+      en: "Shilajit besitzt Daten zu Energie, Testosteron und Höhenanpassung, jedoch wenige RCTs."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,63 € pro 250 mg gereinigter Harzextrakt ist ordentlich."
+      en: "0,63 € pro 250 mg gereinigter Harzextrakt ist ordentlich."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Reinigung auf Schwermetalle, 50 % Fulvinsäure garantiert."
+      en: "Reinigung auf Schwermetalle, 50 % Fulvinsäure garantiert."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Transparente Angabe der Fulvinsäure und Herkunft."
+      en: "Transparente Angabe der Fulvinsäure und Herkunft."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "COA umfasst Schwermetalle, PCB und Mikroben."
+      en: "COA umfasst Schwermetalle, PCB und Mikroben."
+
+locales:
+  de:
+    summary: "50 % Fulvinsäure-Shilajit in Kapseln mit veröffentlichtem COA und Himalaya-Herkunft."
+    verdictNote: "Seltene Kapsel-Option für Shilajit mit nachvollziehbarer Reinigung."
+    body:
+      description: "Himalaya-Shilajit wird gereinigt, sprühgetrocknet und liefert 50 % Fulvinsäuren sowie Dibenzo-alpha-Pyron-Komplexe."
+      pros:
+        - "COA öffentlich"
+        - "Keine Harzkleberei – einfache Kapseln"
+        - "Gut kombinierbar mit Cistanche"
+      cons:
+        - "Nur 250 mg pro Portion, viele nehmen mehr"
+        - "Erde-metallischer Nachgeschmack bei geöffneten Kapseln"
+      usage: "1 Kapsel morgens zu Fett, optional zweite am frühen Nachmittag für Energie."
+  en:
+    summary: "50 % Fulvinsäure-Shilajit in Kapseln mit veröffentlichtem COA und Himalaya-Herkunft."
+    verdictNote: "Seltene Kapsel-Option für Shilajit mit nachvollziehbarer Reinigung."
+    body:
+      description: "Himalaya-Shilajit wird gereinigt, sprühgetrocknet und liefert 50 % Fulvinsäuren sowie Dibenzo-alpha-Pyron-Komplexe."
+      pros:
+        - "COA öffentlich"
+        - "Keine Harzkleberei – einfache Kapseln"
+        - "Gut kombinierbar mit Cistanche"
+      cons:
+        - "Nur 250 mg pro Portion, viele nehmen mehr"
+        - "Erde-metallischer Nachgeschmack bei geöffneten Kapseln"
+      usage: "1 Kapsel morgens zu Fett, optional zweite am frühen Nachmittag für Energie."
+---

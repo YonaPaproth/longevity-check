@@ -1,0 +1,85 @@
+---
+id: naturewise-vitamin-e-400
+type: product
+
+meta:
+  title: "NatureWise Vitamin E 400 IU"
+  ingredient: vitamin-e
+  containedIngredients:
+    - slug: vitamin-e
+  vendor: "NatureWise"
+  vendorUrl: "https://www.naturewise.com"
+  affiliateUrl: ""
+  priceEur: 16.9
+  doseMg: 268
+  servingsPerPack: 120
+  pricePerDayEur: 0.14
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Vitamin E hat moderate Evidenz als Antioxidans. Hochdosierte Langzeit-Supplementierung ist umstritten (SELECT-Studie)."
+      en: "Vitamin E hat moderate Evidenz als Antioxidans. Hochdosierte Langzeit-Supplementierung ist umstritten (SELECT-Studie)."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,14 € pro Tag für natürliches d-alpha-Tocopherol ist sehr günstig."
+      en: "0,14 € pro Tag für natürliches d-alpha-Tocopherol ist sehr günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Natürliches d-alpha-Tocopherol (nicht synthetisches dl-alpha), aus Sonnenblumenöl, sojafrei."
+      en: "Natürliches d-alpha-Tocopherol (nicht synthetisches dl-alpha), aus Sonnenblumenöl, sojafrei."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Vitamin-E-Form und Quelle klar deklariert, gentechnikfrei."
+      en: "Vitamin-E-Form und Quelle klar deklariert, gentechnikfrei."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Non-GMO Project Verified, GMP-zertifizierte Produktion."
+      en: "Non-GMO Project Verified, GMP-zertifizierte Produktion."
+
+locales:
+  de:
+    summary: "Natürliches d-alpha-Tocopherol (400 IU) aus Sonnenblumenöl, gentechnikfrei, 120 Softgels."
+    verdictNote: "Günstiges natürliches Vitamin E in guter Form. Aber: Hochdosierte Langzeit-Einnahme nur nach Rücksprache (SELECT-Studie beachten)."
+    body:
+      description: "NatureWise verwendet natürliches d-alpha-Tocopherol aus Sonnenblumenöl — die bioverfügbarere Form gegenüber synthetischem dl-alpha-Tocopherol. 400 IU (268 mg) pro Softgel, sojafrei."
+      pros:
+        - "Natürliches d-alpha-Tocopherol (doppelte Bioverfügbarkeit vs. synthetisch)"
+        - "Aus Sonnenblumenöl, sojafrei"
+        - "120 Softgels = 4 Monate"
+        - "Sehr günstiger Preis"
+      cons:
+        - "Nur alpha-Tocopherol — kein gemischtes Tocopherol-Spektrum (gamma, delta)"
+        - "Die SELECT-Studie zeigte erhöhtes Prostatakrebsrisiko bei hochdosierter Langzeiteinnahme"
+        - "400 IU überschreitet die EFSA-Obergrenze von 300 mg/Tag leicht"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Nicht langfristig hochdosiert ohne ärztliche Indikation einnehmen. Bei Blutgerinnungsstörungen oder Antikoagulanzien-Einnahme vorher mit dem Arzt sprechen."
+  en:
+    summary: "Natürliches d-alpha-Tocopherol (400 IU) aus Sonnenblumenöl, gentechnikfrei, 120 Softgels."
+    verdictNote: "Günstiges natürliches Vitamin E in guter Form. Aber: Hochdosierte Langzeit-Einnahme nur nach Rücksprache (SELECT-Studie beachten)."
+    body:
+      description: "NatureWise verwendet natürliches d-alpha-Tocopherol aus Sonnenblumenöl — die bioverfügbarere Form gegenüber synthetischem dl-alpha-Tocopherol. 400 IU (268 mg) pro Softgel, sojafrei."
+      pros:
+        - "Natürliches d-alpha-Tocopherol (doppelte Bioverfügbarkeit vs. synthetisch)"
+        - "Aus Sonnenblumenöl, sojafrei"
+        - "120 Softgels = 4 Monate"
+        - "Sehr günstiger Preis"
+      cons:
+        - "Nur alpha-Tocopherol — kein gemischtes Tocopherol-Spektrum (gamma, delta)"
+        - "Die SELECT-Studie zeigte erhöhtes Prostatakrebsrisiko bei hochdosierter Langzeiteinnahme"
+        - "400 IU überschreitet die EFSA-Obergrenze von 300 mg/Tag leicht"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Nicht langfristig hochdosiert ohne ärztliche Indikation einnehmen. Bei Blutgerinnungsstörungen oder Antikoagulanzien-Einnahme vorher mit dem Arzt sprechen."
+---

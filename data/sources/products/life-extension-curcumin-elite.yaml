@@ -1,0 +1,83 @@
+---
+id: life-extension-curcumin-elite
+type: product
+
+meta:
+  title: "Life Extension Curcumin Elite Longvida"
+  ingredient: curcumin
+  containedIngredients:
+    - slug: curcumin
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextensioneurope.de"
+  affiliateUrl: ""
+  priceEur: 42
+  doseMg: 400
+  servingsPerPack: 30
+  pricePerDayEur: 1.4
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Curcumin zeigt solide Evidenz für Entzündungsmarker und Gelenkbeschwerden, Longvida-Daten ergänzen kognitive Studien."
+      en: "Curcumin zeigt solide Evidenz für Entzündungsmarker und Gelenkbeschwerden, Longvida-Daten ergänzen kognitive Studien."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "1,40 € pro Tag ist hoch, aber Longvida-Lizenz und Absorption rechtfertigen den Preis für medizinischen Kontextnahe Nutzung."
+      en: "1,40 € pro Tag ist hoch, aber Longvida-Lizenz und Absorption rechtfertigen den Preis für medizinischen Kontextnahe Nutzung."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Longvida-Micellen aus phospholipidischer Matrix, GMP-Produktion, keine Schwermetalle."
+      en: "Longvida-Micellen aus phospholipidischer Matrix, GMP-Produktion, keine Schwermetalle."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Longvida-Logo, aktive Curcuminoid-Menge und Phospholipide klar deklariert."
+      en: "Longvida-Logo, aktive Curcuminoid-Menge und Phospholipide klar deklariert."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Life Extension veröffentlicht COAs, Longvida hat zusätzliche Stabilitätsdaten."
+      en: "Life Extension veröffentlicht COAs, Longvida hat zusätzliche Stabilitätsdaten."
+
+locales:
+  de:
+    summary: "Longvida-Curcumin mit 400 mg pro Portion liefert eine stark auf Bioverfügbarkeit ausgerichtete Formulierung im Curcumin-Kontext."
+    verdictNote: "Für Anwender, die eine stark auf Bioverfügbarkeit ausgerichtete Curcumin-Formulierung suchen, eine der saubersten Optionen am Markt."
+    body:
+      description: "Curcumin Elite kombiniert 400 mg Longvida-Curcumin (23% freie Curcuminoide) mit Fenugreek-Fasern und Phospholipiden. Die Technologie ist auf Schutz ausgerichtet Curcumin vor frühzeitigem Abbau und transportiert es in den Blutkreislauf."
+      pros:
+        - "Longvida-Technologie mit klinischen Daten"
+        - "Nur zwei Kapseln decken Tagesdosis"
+        - "Frei von Piperin daher magenfreundlich"
+        - "Vegan und glutenfrei"
+      cons:
+        - "Teuer für Langzeitanwendung"
+        - "Nur 30 Portionen pro Dose"
+      usage: "2 Kapseln täglich zu einer Mahlzeit mit Fett. Bei akuten Beschwerden morgens und abends je 1 Kapsel und Wirkung nach 8 Wochen bewerten."
+  en:
+    summary: "Longvida-Curcumin mit 400 mg pro Portion liefert eine stark auf Bioverfügbarkeit ausgerichtete Formulierung im Curcumin-Kontext."
+    verdictNote: "Für Anwender, die eine stark auf Bioverfügbarkeit ausgerichtete Curcumin-Formulierung suchen, eine der saubersten Optionen am Markt."
+    body:
+      description: "Curcumin Elite kombiniert 400 mg Longvida-Curcumin (23% freie Curcuminoide) mit Fenugreek-Fasern und Phospholipiden. Die Technologie ist auf Schutz ausgerichtet Curcumin vor frühzeitigem Abbau und transportiert es in den Blutkreislauf."
+      pros:
+        - "Longvida-Technologie mit klinischen Daten"
+        - "Nur zwei Kapseln decken Tagesdosis"
+        - "Frei von Piperin daher magenfreundlich"
+        - "Vegan und glutenfrei"
+      cons:
+        - "Teuer für Langzeitanwendung"
+        - "Nur 30 Portionen pro Dose"
+      usage: "2 Kapseln täglich zu einer Mahlzeit mit Fett. Bei akuten Beschwerden morgens und abends je 1 Kapsel und Wirkung nach 8 Wochen bewerten."
+---

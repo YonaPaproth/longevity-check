@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-inositol-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "myo-inositol",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

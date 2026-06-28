@@ -1,0 +1,83 @@
+---
+id: now-foods-grape-seed-100
+type: product
+
+meta:
+  title: "NOW Foods Grape Seed 100"
+  ingredient: resveratrol
+  containedIngredients:
+    - slug: resveratrol
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 18
+  doseMg: 100
+  servingsPerPack: 100
+  pricePerDayEur: 0.18
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "OPCs besitzen gute Daten zu Gefäßschutz und antioxidativen Effekten, aber wenige harte Endpunkte."
+      en: "OPCs besitzen gute Daten zu Gefäßschutz und antioxidativen Effekten, aber wenige harte Endpunkte."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,18 € pro Tag für 100 mg standardisiertes Extrakt ist top."
+      en: "0,18 € pro Tag für 100 mg standardisiertes Extrakt ist top."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW Foods liefert Non-GMO-Zertifikat und patentfreies Verfahren, aber keine Bio-Option."
+      en: "NOW Foods liefert Non-GMO-Zertifikat und patentfreies Verfahren, aber keine Bio-Option."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Standardisierung und Lösungsmittel klar kommuniziert."
+      en: "Standardisierung und Lösungsmittel klar kommuniziert."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Regelmäßige interne Tests, Labdoor hat Stichproben bestätigt."
+      en: "Regelmäßige interne Tests, Labdoor hat Stichproben bestätigt."
+
+locales:
+  de:
+    summary: "100 mg OPC-reiches Traubenkernextrakt, standardisiert auf 90 % Polyphenole und Non-GMO zertifiziert."
+    verdictNote: "Einfache Möglichkeit, OPCs in ein gesundes Altern-Regime einzubauen, ohne viel zu zahlen."
+    body:
+      description: "NOW Foods verwendet französische Traubenkerne und extrahiert sie mit Wasser und Ethanol. Das Ergebnis enthält mindestens 90 % Polyphenole, wovon ein Großteil oligomere Proanthocyanidine (OPCs) sind."
+      pros:
+        - "Non-GMO Project Verified"
+        - "Keine synthetischen Farbstoffe"
+        - "100 Portionen pro Flasche – ideal für langfristige Einnahme"
+        - "Gute Kombi zu Vitamin C und Collagen-Support"
+      cons:
+        - "Kein Resveratrol-Zusatz für Synergien"
+        - "Kapseln enthalten Gelatine"
+      usage: "Täglich 1 Kapsel zu einer Mahlzeit mit Fett oder Vitamin C einnehmen. Bei intensiven Protokollen sind 2 Kapseln (200 mg) möglich."
+  en:
+    summary: "100 mg OPC-reiches Traubenkernextrakt, standardisiert auf 90 % Polyphenole und Non-GMO zertifiziert."
+    verdictNote: "Einfache Möglichkeit, OPCs in ein gesundes Altern-Regime einzubauen, ohne viel zu zahlen."
+    body:
+      description: "NOW Foods verwendet französische Traubenkerne und extrahiert sie mit Wasser und Ethanol. Das Ergebnis enthält mindestens 90 % Polyphenole, wovon ein Großteil oligomere Proanthocyanidine (OPCs) sind."
+      pros:
+        - "Non-GMO Project Verified"
+        - "Keine synthetischen Farbstoffe"
+        - "100 Portionen pro Flasche – ideal für langfristige Einnahme"
+        - "Gute Kombi zu Vitamin C und Collagen-Support"
+      cons:
+        - "Kein Resveratrol-Zusatz für Synergien"
+        - "Kapseln enthalten Gelatine"
+      usage: "Täglich 1 Kapsel zu einer Mahlzeit mit Fett oder Vitamin C einnehmen. Bei intensiven Protokollen sind 2 Kapseln (200 mg) möglich."
+---

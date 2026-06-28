@@ -1,0 +1,83 @@
+---
+id: renue-by-science-nmn-500
+type: product
+
+meta:
+  title: "Renue By Science NMN 500"
+  ingredient: nmn
+  containedIngredients:
+    - slug: nmn
+  vendor: "Renue By Science"
+  vendorUrl: "https://renuebyscience.com"
+  affiliateUrl: ""
+  priceEur: 52
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.87
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 3
+    explanation:
+      de: "NMN erhöhte NAD+-Spiegel in Studien. Klinische Langzeituntersuchtkeit beim Menschen bleibt offen."
+      en: "NMN erhöhte NAD+-Spiegel in Studien. Klinische Langzeituntersuchtkeit beim Menschen bleibt offen."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,87 € pro Tag ist im oberen Mittelfeld. Günstigere Alternativen mit vergleichbarer Qualität verfügbar."
+      en: "0,87 € pro Tag ist im oberen Mittelfeld. Günstigere Alternativen mit vergleichbarer Qualität verfügbar."
+  productQuality:
+    score: 6
+    explanation:
+      de: "Veröffentlicht HPLC-Zertifikate. Keine Drittanbieter-Zertifizierung. Stabile Kapseln, empfohlene Kühllagerung."
+      en: "Veröffentlicht HPLC-Zertifikate. Keine Drittanbieter-Zertifizierung. Stabile Kapseln, empfohlene Kühllagerung."
+  labelHonesty:
+    score: 6
+    explanation:
+      de: "Website hält sich weitgehend an die Studienlage, macht aber vereinzelt weitreichende Aussagen ohne direkte Belege."
+      en: "Website hält sich weitgehend an die Studienlage, macht aber vereinzelt weitreichende Aussagen ohne direkte Belege."
+  thirdPartyTesting:
+    score: 3
+    explanation:
+      de: "Eigene CoA vorhanden. Keine unabhängige Zertifizierung durch Informed-Sport, NSF oder Labdoor."
+      en: "Eigene CoA vorhanden. Keine unabhängige Zertifizierung durch Informed-Sport, NSF oder Labdoor."
+
+locales:
+  de:
+    summary: "US-Anbieter mit Fokus auf Darreichungsformen. Bietet NMN in verschiedenen Formen an. Eigene CoA vorhanden, keine unabhängige Zertifizierung."
+    verdictNote: "Solides NMN-Produkt mit fairer Transparenz. Im Direktvergleich mit Do Not Age etwas teurer bei ähnlichem Qualitätsniveau."
+    body:
+      description: "Renue By Science ist ein US-amerikanischer Hersteller, der sich auf NMN und verwandte NAD+-Vorläufer spezialisiert hat. Das Unternehmen bietet NMN in mehreren Darreichungsformen an — Kapseln, sublinguale Tabletten und Pulver. Die Kapselform NMN 500 ist die Einstiegsoption."
+      pros:
+        - "**Mehrere Darreichungsformen:** Renue By Science bietet NMN auch sublingual an, was für Nutzer interessant ist, die eine höhere Resorption anstreben"
+        - "**Transparenz:** HPLC-Zertifikate für jede Charge werden veröffentlicht"
+        - "**Aktive Community:** Das Unternehmen kommuniziert regelmäßig zu aktuellen NMN-Studien"
+      cons:
+        - "**Preis:** Im Vergleich zu europäischen Alternativen leicht überteuert"
+        - "**Keine unabhängige Zertifizierung:** Eigene CoA sind kein Ersatz für NSF oder Informed-Sport"
+        - "**Versand aus USA:** Lieferzeiten und Zollrisiko für EU-Kunden"
+      usage: ""
+  en:
+    summary: "US-Anbieter mit Fokus auf Darreichungsformen. Bietet NMN in verschiedenen Formen an. Eigene CoA vorhanden, keine unabhängige Zertifizierung."
+    verdictNote: "Solides NMN-Produkt mit fairer Transparenz. Im Direktvergleich mit Do Not Age etwas teurer bei ähnlichem Qualitätsniveau."
+    body:
+      description: "Renue By Science ist ein US-amerikanischer Hersteller, der sich auf NMN und verwandte NAD+-Vorläufer spezialisiert hat. Das Unternehmen bietet NMN in mehreren Darreichungsformen an — Kapseln, sublinguale Tabletten und Pulver. Die Kapselform NMN 500 ist die Einstiegsoption."
+      pros:
+        - "**Mehrere Darreichungsformen:** Renue By Science bietet NMN auch sublingual an, was für Nutzer interessant ist, die eine höhere Resorption anstreben"
+        - "**Transparenz:** HPLC-Zertifikate für jede Charge werden veröffentlicht"
+        - "**Aktive Community:** Das Unternehmen kommuniziert regelmäßig zu aktuellen NMN-Studien"
+      cons:
+        - "**Preis:** Im Vergleich zu europäischen Alternativen leicht überteuert"
+        - "**Keine unabhängige Zertifizierung:** Eigene CoA sind kein Ersatz für NSF oder Informed-Sport"
+        - "**Versand aus USA:** Lieferzeiten und Zollrisiko für EU-Kunden"
+      usage: ""
+---

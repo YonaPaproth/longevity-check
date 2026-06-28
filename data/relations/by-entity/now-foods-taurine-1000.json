@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-taurine-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "taurin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

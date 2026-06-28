@@ -1,0 +1,11 @@
+{
+  "entity": "thorne-quercenase",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "quercetin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

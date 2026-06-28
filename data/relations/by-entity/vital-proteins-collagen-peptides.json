@@ -1,0 +1,17 @@
+{
+  "entity": "vital-proteins-collagen-peptides",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "kollagen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "hyaluronsaeure",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

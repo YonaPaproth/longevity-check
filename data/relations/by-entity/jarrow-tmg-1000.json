@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-tmg-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "tmg",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

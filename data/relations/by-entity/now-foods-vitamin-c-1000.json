@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-vitamin-c-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-c",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

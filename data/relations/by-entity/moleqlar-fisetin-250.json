@@ -1,0 +1,11 @@
+{
+  "entity": "moleqlar-fisetin-250",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "fisetin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+---
+id: sunday-natural-ashwagandha-600
+type: product
+
+meta:
+  title: "Sunday Natural Ashwagandha KSM-66 600"
+  ingredient: ashwagandha
+  containedIngredients:
+    - slug: ashwagandha
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de"
+  affiliateUrl: ""
+  priceEur: 22.9
+  doseMg: 600
+  servingsPerPack: 90
+  pricePerDayEur: 0.25
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-15"
+  lastPriceCheck: "2026-06-15"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Ashwagandha (KSM-66) hat gute RCT-Evidenz für Stressreduktion, Cortisol und Schlafqualität."
+      en: "Ashwagandha (KSM-66) has good RCT evidence for stress reduction, cortisol, and sleep quality."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,25 € pro 600 mg KSM-66 ist exzellent — der Markenextrakt kostet sonst oft 0,40–0,60 €."
+      en: "€0.25 per 600 mg KSM-66 is excellent — the branded extract usually costs €0.40–0.60."
+  productQuality:
+    score: 9
+    explanation:
+      de: "KSM-66 ist der am besten untersuchte Ashwagandha-Extrakt, standardisiert auf 5 % Withanolide."
+      en: "KSM-66 is the most studied ashwagandha extract, standardized to 5% withanolides."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "KSM-66 Lizenz, Withanolid-Gehalt und Extraktionsmethode transparent angegeben."
+      en: "KSM-66 license, withanolide content, and extraction method transparently specified."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "KSM-66-Zertifikat plus deutsche Laboranalytik jeder Charge."
+      en: "KSM-66 certificate plus German laboratory analysis of every batch."
+
+locales:
+  de:
+    summary: "KSM-66 Ashwagandha Wurzelextrakt mit 5 % Withanoliden, 600 mg pro Kapsel, vegan."
+    verdictNote: "KSM-66-Qualität zum Bestpreis. Eine der günstigsten Optionen für den Marken-Ashwagandha-Extrakt."
+    body:
+      description: "Sunday Natural verwendet den patentierten KSM-66 Ashwagandha-Wurzelextrakt — den weltweit am besten untersuchten Ashwagandha-Extrakt mit über 20 klinischen Studien. Standardisiert auf mindestens 5 % Withanolide mittels Milchextraktion (keine chemischen Lösungsmittel)."
+      pros:
+        - "KSM-66 — der Gold-Standard unter den Ashwagandha-Extrakten"
+        - "600 mg pro Kapsel entspricht der in Studien häufigsten Dosis"
+        - "90 Kapseln = 3 Monate Reichweite"
+        - "Vegane Cellulose-Kapseln ohne Zusatzstoffe"
+      cons:
+        - "EFSA hat keine Health Claims für Ashwagandha zugelassen"
+        - "Kann Schilddrüsenhormone beeinflussen — Vorsicht bei Hashimoto"
+        - "Nicht für Schwangere geeignet"
+      usage: "1 Kapsel täglich, idealerweise abends. Bei Stress-Fokus: morgens. Mindestens 8 Wochen einnehmen für volle Wirkung."
+  en:
+    summary: "KSM-66 ashwagandha root extract with 5% withanolides, 600 mg per capsule, vegan."
+    verdictNote: "KSM-66 quality at best price. One of the cheapest options for the branded ashwagandha extract."
+    body:
+      description: "Sunday Natural uses the patented KSM-66 ashwagandha root extract — the world's most studied ashwagandha extract with over 20 clinical studies. Standardized to at least 5% withanolides via milk extraction (no chemical solvents)."
+      pros:
+        - "KSM-66 — the gold standard among ashwagandha extracts"
+        - "600 mg per capsule corresponds to the most frequently used dose in studies"
+        - "90 capsules = 3 months duration"
+        - "Vegan cellulose capsules without additives"
+      cons:
+        - "EFSA has not approved health claims for ashwagandha"
+        - "Can affect thyroid hormones — caution with Hashimoto's"
+        - "Not suitable for pregnant women"
+      usage: ""
+---

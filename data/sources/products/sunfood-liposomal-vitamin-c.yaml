@@ -1,0 +1,85 @@
+---
+id: sunfood-liposomal-vitamin-c
+type: product
+
+meta:
+  title: "Sunfood Liposomal Vitamin C 1000 mg"
+  ingredient: vitamin-c
+  containedIngredients:
+    - slug: vitamin-c
+  vendor: "Sunfood"
+  vendorUrl: "https://www.sunfood.com/products/liposomal-vitamin-c"
+  affiliateUrl: ""
+  priceEur: 34
+  doseMg: 1000
+  servingsPerPack: 30
+  pricePerDayEur: 1.13
+  form: liquid
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Vitamin C ist gut untersucht, liposomale Formen mit höheren Werten in Verbindung bringen Plasmaspiegel leicht, aber Mehrwert gegenüber Pulver ist moderat."
+      en: "Vitamin C ist gut untersucht, liposomale Formen mit höheren Werten in Verbindung bringen Plasmaspiegel leicht, aber Mehrwert gegenüber Pulver ist moderat."
+  valueForMoney:
+    score: 5
+    explanation:
+      de: "1,13 € pro Tag ist deutlich teurer als Ascorbinsäurepulver, dafür liposomal."
+      en: "1,13 € pro Tag ist deutlich teurer als Ascorbinsäurepulver, dafür liposomal."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Sunfood nutzt Sonnenblumenlecithin, keinen Sojaanteil, und füllt in BPA-freie Sachets ab."
+      en: "Sunfood nutzt Sonnenblumenlecithin, keinen Sojaanteil, und füllt in BPA-freie Sachets ab."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Transparente Angaben zu Vitamin-C-Menge, Liposomen und Hilfsstoffen."
+      en: "Transparente Angaben zu Vitamin-C-Menge, Liposomen und Hilfsstoffen."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Keine NSF, aber Hersteller verweist auf Chargentests und mikrobiologische Analysen."
+      en: "Keine NSF, aber Hersteller verweist auf Chargentests und mikrobiologische Analysen."
+
+locales:
+  de:
+    summary: "Flüssiges liposomales Vitamin C mit 1000 mg pro Portion, ohne Zuckerzusatz und mit auf Resorption ausgerichteter Darreichung."
+    verdictNote: "Für Menschen mit empfindlichem Darm oder hohem Bedarf ist liposomales Vitamin C eine praktische Premiumlösung."
+    body:
+      description: "Sunfood verpackt 1000 mg Vitamin C in liposomale Phospholipide aus Sonnenblumenlecithin. Die Flüssigkeit kommt in praktischen Sachets und schmeckt leicht nach Orange."
+      pros:
+        - "**Liposomale Technologie** für höhere Plasmaspiegel"
+        - "**Sonnenblumenlecithin statt Soja**"
+        - "**Sachet-Portionierung**: ideal für Reisen"
+        - "**Kein zugesetzter Zucker**"
+      cons:
+        - "**Preislich Premium** im Vergleich zu Pulver"
+        - "**30 Portionen reichen nur für einen Monat**"
+        - "**Geschmack leicht bitter**, muss meist in Saft gemischt werden"
+      usage: "1 Sachet täglich pur oder mit 100 ml Wasser einnehmen, idealerweise vor einer Mahlzeit. Vor Gebrauch gut durchkneten, gekühlt schmeckt es neutraler."
+  en:
+    summary: "Flüssiges liposomales Vitamin C mit 1000 mg pro Portion, ohne Zuckerzusatz und mit auf Resorption ausgerichteter Darreichung."
+    verdictNote: "Für Menschen mit empfindlichem Darm oder hohem Bedarf ist liposomales Vitamin C eine praktische Premiumlösung."
+    body:
+      description: "Sunfood verpackt 1000 mg Vitamin C in liposomale Phospholipide aus Sonnenblumenlecithin. Die Flüssigkeit kommt in praktischen Sachets und schmeckt leicht nach Orange."
+      pros:
+        - "**Liposomale Technologie** für höhere Plasmaspiegel"
+        - "**Sonnenblumenlecithin statt Soja**"
+        - "**Sachet-Portionierung**: ideal für Reisen"
+        - "**Kein zugesetzter Zucker**"
+      cons:
+        - "**Preislich Premium** im Vergleich zu Pulver"
+        - "**30 Portionen reichen nur für einen Monat**"
+        - "**Geschmack leicht bitter**, muss meist in Saft gemischt werden"
+      usage: "1 Sachet täglich pur oder mit 100 ml Wasser einnehmen, idealerweise vor einer Mahlzeit. Vor Gebrauch gut durchkneten, gekühlt schmeckt es neutraler."
+---

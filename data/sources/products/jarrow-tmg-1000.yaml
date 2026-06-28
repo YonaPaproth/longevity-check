@@ -1,0 +1,81 @@
+---
+id: jarrow-tmg-1000
+type: product
+
+meta:
+  title: "Jarrow Formulas TMG 1000"
+  ingredient: tmg
+  containedIngredients:
+    - slug: tmg
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 27
+  doseMg: 1000
+  servingsPerPack: 100
+  pricePerDayEur: 0.27
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "TMG senkte Homocystein in Studien, Nutzen hängt vom individuellen Status ab."
+      en: "TMG senkte Homocystein in Studien, Nutzen hängt vom individuellen Status ab."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,27 € pro 1 g ist sehr günstig."
+      en: "0,27 € pro 1 g ist sehr günstig."
+  productQuality:
+    score: 7
+    explanation:
+      de: "TMG stammt aus der Rübenzuckerproduktion und wird auf Lösungsmittel getestet."
+      en: "TMG stammt aus der Rübenzuckerproduktion und wird auf Lösungsmittel getestet."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare Dosierung, keine Mischungen."
+      en: "Klare Dosierung, keine Mischungen."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Jarrow veröffentlicht nur interne Analysen."
+      en: "Jarrow veröffentlicht nur interne Analysen."
+
+locales:
+  de:
+    summary: "Trimethylglycin-Tabletten mit 1 g pro Portion, unterstützen Methylierung und Homocystein-Stoffwechsel."
+    verdictNote: "Hohe Dosierung, 100 Portionen und gute Verträglichkeit – gut geeignet für Betain-Kontexte."
+    body:
+      description: "Jarrow liefert 1000 mg Trimethylglycin (Betain) pro Tablette. Die Presslinge sind teilbar und enthalten nur minimale Hilfsstoffe."
+      pros:
+        - "Teilbare Tabletten"
+        - "Sehr günstiger Tagespreis"
+        - "Hilfsstoffarm (Cellulose, Stearat)"
+      cons:
+        - "Leicht süßlicher Geschmack"
+        - "Kein synergistisches Vitamin B12/B6 enthalten"
+      usage: "1 Tablette täglich zu einer Mahlzeit; bei erhöhtem Homocystein 2 Tabletten verteilt einnehmen."
+  en:
+    summary: "Trimethylglycin-Tabletten mit 1 g pro Portion, unterstützen Methylierung und Homocystein-Stoffwechsel."
+    verdictNote: "Hohe Dosierung, 100 Portionen und gute Verträglichkeit – gut geeignet für Betain-Kontexte."
+    body:
+      description: "Jarrow liefert 1000 mg Trimethylglycin (Betain) pro Tablette. Die Presslinge sind teilbar und enthalten nur minimale Hilfsstoffe."
+      pros:
+        - "Teilbare Tabletten"
+        - "Sehr günstiger Tagespreis"
+        - "Hilfsstoffarm (Cellulose, Stearat)"
+      cons:
+        - "Leicht süßlicher Geschmack"
+        - "Kein synergistisches Vitamin B12/B6 enthalten"
+      usage: "1 Tablette täglich zu einer Mahlzeit; bei erhöhtem Homocystein 2 Tabletten verteilt einnehmen."
+---

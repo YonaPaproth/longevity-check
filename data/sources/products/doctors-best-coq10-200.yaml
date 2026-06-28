@@ -1,0 +1,82 @@
+---
+id: doctors-best-coq10-200
+type: product
+
+meta:
+  title: "Doctor's Best High Absorption CoQ10 200mg"
+  ingredient: coq10
+  containedIngredients:
+    - slug: coq10
+    - slug: piperin
+  vendor: "Doctor's Best"
+  vendorUrl: "https://www.drbvitamins.com"
+  affiliateUrl: ""
+  priceEur: 42
+  doseMg: 200
+  servingsPerPack: 60
+  pricePerDayEur: 0.7
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "CoQ10 ist vergleichsweise gut untersucht in Herz-Kreislauf- und Statin-Patient:innen."
+      en: "CoQ10 ist vergleichsweise gut untersucht in Herz-Kreislauf- und Statin-Patient:innen."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,70 € pro 200 mg mit BioPerine zählt zu den günstigeren Premium-Produkten."
+      en: "0,70 € pro 200 mg mit BioPerine zählt zu den günstigeren Premium-Produkten."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Verwendet Kaneka Q10, fermentativ hergestellt in Japan."
+      en: "Verwendet Kaneka Q10, fermentativ hergestellt in Japan."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Offene Deklaration der Trägeröle und Hilfsstoffe."
+      en: "Offene Deklaration der Trägeröle und Hilfsstoffe."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Keine externe Zertifizierung, aber jede Charge wird mittels HPLC verifiziert."
+      en: "Keine externe Zertifizierung, aber jede Charge wird mittels HPLC verifiziert."
+
+locales:
+  de:
+    summary: "Kaneka-Q10 plus BioPerine in weichen Softgels – auf Aufnahme ausgerichtete Formulierung bei 200 mg pro Portion."
+    verdictNote: "BioPerine und mittelkettige Trägeröle können die Aufnahme beeinflussen, Preis bleibt moderat."
+    body:
+      description: "Doctor's Best kombiniert ubiquinonisches CoQ10 von Kaneka mit BioPerine und mittelkettigen Triglyceriden. Die Softgels sind leicht zu schlucken und sind in Studien mit höheren Serum-CoQ10-Werten verbunden."
+      pros:
+        - "BioPerine kann die Resorption beeinflussen"
+        - "Kaneka Q10 ist der Goldstandard-Rohstoff"
+        - "Softgels sind für Statin-Nutzer:innen gut verträglich"
+      cons:
+        - "Softgels nicht vegan"
+        - "Leicht pfeffriger Nachgeschmack durch Piperin"
+      usage: "1 Softgel zum fettreichen Essen; bei Statintherapie häufig dauerhaft 200–300 mg täglich."
+  en:
+    summary: "Kaneka-Q10 plus BioPerine in weichen Softgels – auf Aufnahme ausgerichtete Formulierung bei 200 mg pro Portion."
+    verdictNote: "BioPerine und mittelkettige Trägeröle können die Aufnahme beeinflussen, Preis bleibt moderat."
+    body:
+      description: "Doctor's Best kombiniert ubiquinonisches CoQ10 von Kaneka mit BioPerine und mittelkettigen Triglyceriden. Die Softgels sind leicht zu schlucken und sind in Studien mit höheren Serum-CoQ10-Werten verbunden."
+      pros:
+        - "BioPerine kann die Resorption beeinflussen"
+        - "Kaneka Q10 ist der Goldstandard-Rohstoff"
+        - "Softgels sind für Statin-Nutzer:innen gut verträglich"
+      cons:
+        - "Softgels nicht vegan"
+        - "Leicht pfeffriger Nachgeschmack durch Piperin"
+      usage: "1 Softgel zum fettreichen Essen; bei Statintherapie häufig dauerhaft 200–300 mg täglich."
+---

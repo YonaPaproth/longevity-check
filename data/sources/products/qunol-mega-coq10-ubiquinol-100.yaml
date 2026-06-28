@@ -1,0 +1,85 @@
+---
+id: qunol-mega-coq10-ubiquinol-100
+type: product
+
+meta:
+  title: "Qunol Mega CoQ10 Ubiquinol 100 mg"
+  ingredient: coq10
+  containedIngredients:
+    - slug: coq10
+  vendor: "Qunol"
+  vendorUrl: "https://www.qunol.com"
+  affiliateUrl: ""
+  priceEur: 32.9
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.55
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "CoQ10/Ubiquinol hat solide Evidenz für Herzgesundheit und Energiestoffwechsel, besonders ab 40+."
+      en: "CoQ10/Ubiquinol hat solide Evidenz für Herzgesundheit und Energiestoffwechsel, besonders ab 40+."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,55 € für 100 mg Ubiquinol mit verbesserter Absorption ist marktüblich."
+      en: "0,55 € für 100 mg Ubiquinol mit verbesserter Absorption ist marktüblich."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Patentierte wasserlösliche Formulierung für verbesserte Absorption. Aktive Ubiquinol-Form."
+      en: "Patentierte wasserlösliche Formulierung für verbesserte Absorption. Aktive Ubiquinol-Form."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Ubiquinol klar als aktive Form deklariert, Absorptionsclaim mit 3× belegt."
+      en: "Ubiquinol klar als aktive Form deklariert, Absorptionsclaim mit 3× belegt."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "GMP-zertifiziert, USP-verifizierte Inhaltsstoffe. Qunol ist eine der meistverkauften CoQ10-Marken in den USA."
+      en: "GMP-zertifiziert, USP-verifizierte Inhaltsstoffe. Qunol ist eine der meistverkauften CoQ10-Marken in den USA."
+
+locales:
+  de:
+    summary: "Ubiquinol (aktive CoQ10-Form) mit wasserlöslicher Formulierung für 3× bessere Absorption."
+    verdictNote: "Beliebte US-Marke mit patentierter Absorptionstechnologie. Gute Wahl für CoQ10-Einsteiger."
+    body:
+      description: "Qunol verwendet eine patentierte wasserlösliche Formulierung, die laut Hersteller die Absorption von Ubiquinol um das Dreifache gegenüber Standard-CoQ10 verbessert. Als aktive, reduzierte Form muss Ubiquinol nicht erst im Körper umgewandelt werden."
+      pros:
+        - "Aktive Ubiquinol-Form — direkt bioverfügbar"
+        - "Patentierte wasserlösliche Formulierung"
+        - "100 mg pro Softgel — klinisch relevante Dosis"
+        - "Meistverkaufte CoQ10-Marke in den USA (#1 Cardiologist Recommended)"
+      cons:
+        - "Kein Kaneka-Rohstoff spezifiziert (Branchenstandard)"
+        - "\"3× bessere Absorption\" basiert auf Herstellerstudien"
+        - "60 Softgels = 2 Monate"
+      usage: "1 Softgel täglich zu einer Mahlzeit. Bei Statin-Einnahme besonders empfehlenswert."
+  en:
+    summary: "Ubiquinol (aktive CoQ10-Form) mit wasserlöslicher Formulierung für 3× bessere Absorption."
+    verdictNote: "Beliebte US-Marke mit patentierter Absorptionstechnologie. Gute Wahl für CoQ10-Einsteiger."
+    body:
+      description: "Qunol verwendet eine patentierte wasserlösliche Formulierung, die laut Hersteller die Absorption von Ubiquinol um das Dreifache gegenüber Standard-CoQ10 verbessert. Als aktive, reduzierte Form muss Ubiquinol nicht erst im Körper umgewandelt werden."
+      pros:
+        - "Aktive Ubiquinol-Form — direkt bioverfügbar"
+        - "Patentierte wasserlösliche Formulierung"
+        - "100 mg pro Softgel — klinisch relevante Dosis"
+        - "Meistverkaufte CoQ10-Marke in den USA (#1 Cardiologist Recommended)"
+      cons:
+        - "Kein Kaneka-Rohstoff spezifiziert (Branchenstandard)"
+        - "\"3× bessere Absorption\" basiert auf Herstellerstudien"
+        - "60 Softgels = 2 Monate"
+      usage: "1 Softgel täglich zu einer Mahlzeit. Bei Statin-Einnahme besonders empfehlenswert."
+---

@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-black-seed-oil",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "other",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

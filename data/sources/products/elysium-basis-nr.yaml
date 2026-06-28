@@ -1,0 +1,84 @@
+---
+id: elysium-basis-nr
+type: product
+
+meta:
+  title: "Elysium Basis NR"
+  ingredient: nr
+  containedIngredients:
+    - slug: nr
+    - slug: pterostilben
+  vendor: "Elysium Health"
+  vendorUrl: "https://elysiumhealth.com"
+  affiliateUrl: ""
+  priceEur: 60
+  doseMg: 300
+  servingsPerPack: 60
+  pricePerDayEur: 1
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "NR hat mehrere placebokontrollierte Studien zu NAD+-Anstieg und möglichen Effekten auf Leberfett."
+      en: "NR hat mehrere placebokontrollierte Studien zu NAD+-Anstieg und möglichen Effekten auf Leberfett."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "1 € pro Tag ist fair für eine patentierte NR+PT-Kombination."
+      en: "1 € pro Tag ist fair für eine patentierte NR+PT-Kombination."
+  productQuality:
+    score: 8
+    explanation:
+      de: "cGMP-Produktion in den USA mit streng qualitätsorientierter Rohstoffkontrolle."
+      en: "cGMP-Produktion in den USA mit streng qualitätsorientierter Rohstoffkontrolle."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Transparente Mengenangaben, Forschungsreferenzen direkt verlinkt."
+      en: "Transparente Mengenangaben, Forschungsreferenzen direkt verlinkt."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Elysium veröffentlicht interne Stabilitätsdaten, externe COAs nur auf Anfrage."
+      en: "Elysium veröffentlicht interne Stabilitätsdaten, externe COAs nur auf Anfrage."
+
+locales:
+  de:
+    summary: "NR plus 50 mg Pterostilben in einer MIT-kodierten Formel, beliebt als Doppelstrategie für NAD+-Kontext und Sirtuin-Aktivierung."
+    verdictNote: "Für Nutzer, die NR gegenüber NMN bevorzugen und gleich Pterostilben kombinieren möchten, bleibt Basis ein Klassiker."
+    body:
+      description: "Elysium Health entwickelte Basis gemeinsam mit MIT-Forschern. Jede Portion liefert 250 mg Nicotinamid-Ribosid und 50 mg Pterostilben, verpackt in vegetarischen Kapseln. Das Produkt wird regelmäßig in klinischen Studien der Marke eingesetzt."
+      pros:
+        - "Kombination aus NR und Pterostilben reduziert Pillenaufwand"
+        - "Wissenschaftliches Advisory Board (u. a. David Sinclair) sorgt für Forschungsschub"
+        - "Kapseln sind geschmacksneutral und magenfreundlich"
+        - "Subscription-Modell spart bis zu 15 % im Langzeitabo"
+      cons:
+        - "Keine offene Veröffentlichung aller COAs"
+        - "Versand aus den USA kann Zollgebühren verursachen"
+      usage: "2 Kapseln täglich zu einer Mahlzeit nach Wahl. Wer empfindlich reagiert, beginnt mit 1 Kapsel und steigert nach 1–2 Wochen."
+  en:
+    summary: "NR plus 50 mg Pterostilben in einer MIT-kodierten Formel, beliebt als Doppelstrategie für NAD+-Kontext und Sirtuin-Aktivierung."
+    verdictNote: "Für Nutzer, die NR gegenüber NMN bevorzugen und gleich Pterostilben kombinieren möchten, bleibt Basis ein Klassiker."
+    body:
+      description: "Elysium Health entwickelte Basis gemeinsam mit MIT-Forschern. Jede Portion liefert 250 mg Nicotinamid-Ribosid und 50 mg Pterostilben, verpackt in vegetarischen Kapseln. Das Produkt wird regelmäßig in klinischen Studien der Marke eingesetzt."
+      pros:
+        - "Kombination aus NR und Pterostilben reduziert Pillenaufwand"
+        - "Wissenschaftliches Advisory Board (u. a. David Sinclair) sorgt für Forschungsschub"
+        - "Kapseln sind geschmacksneutral und magenfreundlich"
+        - "Subscription-Modell spart bis zu 15 % im Langzeitabo"
+      cons:
+        - "Keine offene Veröffentlichung aller COAs"
+        - "Versand aus den USA kann Zollgebühren verursachen"
+      usage: "2 Kapseln täglich zu einer Mahlzeit nach Wahl. Wer empfindlich reagiert, beginnt mit 1 Kapsel und steigert nach 1–2 Wochen."
+---

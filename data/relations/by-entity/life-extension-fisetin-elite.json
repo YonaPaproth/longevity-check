@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-fisetin-elite",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "fisetin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+---
+id: nordic-naturals-vitamin-d3-2000
+type: product
+
+meta:
+  title: "Nordic Naturals Vitamin D3 2000 IU"
+  ingredient: vitamin-d3
+  containedIngredients:
+    - slug: vitamin-d3
+  vendor: "Nordic Naturals"
+  vendorUrl: "https://www.nordic.com"
+  affiliateUrl: ""
+  priceEur: 18
+  doseMg: 0.05
+  servingsPerPack: 120
+  pricePerDayEur: 0.15
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Vitamin D3 ist breit klinisch untersucht für Knochen, Immun- und Muskelgesundheit."
+      en: "Vitamin D3 ist breit klinisch untersucht für Knochen, Immun- und Muskelgesundheit."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,15 € pro 2000 IU mit Drittanbieter-Tests ist sehr gut."
+      en: "0,15 € pro 2000 IU mit Drittanbieter-Tests ist sehr gut."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Nordic Naturals nutzt trigylceridisches Olivenöl und testet jede Charge."
+      en: "Nordic Naturals nutzt trigylceridisches Olivenöl und testet jede Charge."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "IU und µg-Angaben plus Ölträger klar beschrieben."
+      en: "IU und µg-Angaben plus Ölträger klar beschrieben."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "IFOS-ähnliche Standards mit veröffentlichten COAs."
+      en: "IFOS-ähnliche Standards mit veröffentlichten COAs."
+
+locales:
+  de:
+    summary: "Triglycerid-basierte 2000-IU-D3-Softgels von Nordic Naturals, drittes-Partei getestet und praktisch für Erhaltungsdosen."
+    verdictNote: "Wer 2000 IU täglich benötigt, bekommt hier sauberen Geschmack, gutes Öl und geprüfte Reinheit."
+    body:
+      description: "Die Softgels enthalten 50 µg Vitamin D3 aus Lanolin, gelöst in Bio-Olivenöl. Jede Charge wird von einem unabhängigen Labor auf Potenz überprüft."
+      pros:
+        - "Sehr kleine Softgels"
+        - "Triglycerid-Öl kann die Aufnahme beeinflussen"
+        - "COAs öffentlich einsehbar"
+      cons:
+        - "Lanolin-Basis – nicht vegan"
+        - "Kein Vitamin K2 enthalten"
+        - "Softgels enthalten Gelatine"
+      usage: "1 Softgel täglich zu einer fettreichen Mahlzeit nehmen; im Winterhalbjahr ggf. Blutwerte nach 3 Monaten prüfen."
+  en:
+    summary: "Triglycerid-basierte 2000-IU-D3-Softgels von Nordic Naturals, drittes-Partei getestet und praktisch für Erhaltungsdosen."
+    verdictNote: "Wer 2000 IU täglich benötigt, bekommt hier sauberen Geschmack, gutes Öl und geprüfte Reinheit."
+    body:
+      description: "Die Softgels enthalten 50 µg Vitamin D3 aus Lanolin, gelöst in Bio-Olivenöl. Jede Charge wird von einem unabhängigen Labor auf Potenz überprüft."
+      pros:
+        - "Sehr kleine Softgels"
+        - "Triglycerid-Öl kann die Aufnahme beeinflussen"
+        - "COAs öffentlich einsehbar"
+      cons:
+        - "Lanolin-Basis – nicht vegan"
+        - "Kein Vitamin K2 enthalten"
+        - "Softgels enthalten Gelatine"
+      usage: "1 Softgel täglich zu einer fettreichen Mahlzeit nehmen; im Winterhalbjahr ggf. Blutwerte nach 3 Monaten prüfen."
+---

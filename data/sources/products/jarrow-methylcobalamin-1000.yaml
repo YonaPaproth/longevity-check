@@ -1,0 +1,83 @@
+---
+id: jarrow-methylcobalamin-1000
+type: product
+
+meta:
+  title: "Jarrow Formulas Methylcobalamin B12 1000mcg"
+  ingredient: vitamin-b12
+  containedIngredients:
+    - slug: vitamin-b12
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 16
+  doseMg: 1
+  servingsPerPack: 100
+  pricePerDayEur: 0.16
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Vitamin B12 ist essenziell für Methylierung, Nervengesundheit und Homocysteinmanagement; zahlreiche RCTs zeigen Nutzen bei Mangel und Neuropathien."
+      en: "Vitamin B12 ist essenziell für Methylierung, Nervengesundheit und Homocysteinmanagement; zahlreiche RCTs zeigen Nutzen bei Mangel und Neuropathien."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,16 € pro Tag für 1 mg aktives B12 ist sehr stark, besonders verglichen mit Apothekerprodukten."
+      en: "0,16 € pro Tag für 1 mg aktives B12 ist sehr stark, besonders verglichen mit Apothekerprodukten."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Jarrow nutzt streng qualitätsorientierte Qualität und löst sich schnell unter der Zunge, ohne künstliche Farbstoffe."
+      en: "Jarrow nutzt streng qualitätsorientierte Qualität und löst sich schnell unter der Zunge, ohne künstliche Farbstoffe."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Deklaration offen über Methylcobalamin, Hilfsstoffe und Allergenfreiheit; transparente Chargennummern."
+      en: "Deklaration offen über Methylcobalamin, Hilfsstoffe und Allergenfreiheit; transparente Chargennummern."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Keine explizite Zertifizierung, aber Jarrow veröffentlicht interne Analysen und erfüllt cGMP."
+      en: "Keine explizite Zertifizierung, aber Jarrow veröffentlicht interne Analysen und erfüllt cGMP."
+
+locales:
+  de:
+    summary: "Aktives Methylcobalamin als sublinguale Lutschtablette mit 1000 mcg pro Portion, gut geeignet für vegane Ernährungsweisen und kognitiv ausgerichtete Protokolle."
+    verdictNote: "Solides aktives B12 mit auf Bioverfügbarkeit ausgerichteter Formulierung und sehr gutem Preis."
+    body:
+      description: "1000 mcg Methylcobalamin in einer sublingualen Lutschtablette, die sich rasch löst und so die Absorption im Mundraum unterstützt. Ideal für alle, die wenig tierische Produkte verzehren oder Homocysteinwerte senken wollen."
+      pros:
+        - "**Aktive Form:** Methylcobalamin umgeht mögliche Konversionsprobleme von Cyanocobalamin"
+        - "**Sublingual:** Schnelle Resorption, kein Einfluss durch Magenprobleme"
+        - "**Saubere Formel:** Frei von Gluten, Soja und künstlichen Farbstoffen"
+        - "**Preis-Leistung:** Große Packung hält über drei Monate"
+      cons:
+        - "**Kein Labornachweis:** Keine externe Zertifizierung pro Charge"
+        - "**Etwas Süßstoff:** Enthält natürliche Aromen, die manche vermeiden möchten"
+      usage: "1 Tablette täglich unter die Zunge legen, komplett zergehen lassen. Am besten morgens nüchtern oder zwischen den Mahlzeiten, damit die Schleimhaut frei ist."
+  en:
+    summary: "Aktives Methylcobalamin als sublinguale Lutschtablette mit 1000 mcg pro Portion, gut geeignet für vegane Ernährungsweisen und kognitiv ausgerichtete Protokolle."
+    verdictNote: "Solides aktives B12 mit auf Bioverfügbarkeit ausgerichteter Formulierung und sehr gutem Preis."
+    body:
+      description: "1000 mcg Methylcobalamin in einer sublingualen Lutschtablette, die sich rasch löst und so die Absorption im Mundraum unterstützt. Ideal für alle, die wenig tierische Produkte verzehren oder Homocysteinwerte senken wollen."
+      pros:
+        - "**Aktive Form:** Methylcobalamin umgeht mögliche Konversionsprobleme von Cyanocobalamin"
+        - "**Sublingual:** Schnelle Resorption, kein Einfluss durch Magenprobleme"
+        - "**Saubere Formel:** Frei von Gluten, Soja und künstlichen Farbstoffen"
+        - "**Preis-Leistung:** Große Packung hält über drei Monate"
+      cons:
+        - "**Kein Labornachweis:** Keine externe Zertifizierung pro Charge"
+        - "**Etwas Süßstoff:** Enthält natürliche Aromen, die manche vermeiden möchten"
+      usage: "1 Tablette täglich unter die Zunge legen, komplett zergehen lassen. Am besten morgens nüchtern oder zwischen den Mahlzeiten, damit die Schleimhaut frei ist."
+---

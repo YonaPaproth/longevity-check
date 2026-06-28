@@ -1,0 +1,83 @@
+---
+id: pure-encapsulations-taurine-1000
+type: product
+
+meta:
+  title: "Pure Encapsulations Taurine 1000mg"
+  ingredient: taurin
+  containedIngredients:
+    - slug: taurin
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com"
+  affiliateUrl: ""
+  priceEur: 32
+  doseMg: 1000
+  servingsPerPack: 90
+  pricePerDayEur: 0.36
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Taurin zeigt vielversprechende Daten zu Herz, Metabolismus und gesundem Altern, auch wenn große Humanstudien noch laufen."
+      en: "Taurin zeigt vielversprechende Daten zu Herz, Metabolismus und gesundem Altern, auch wenn große Humanstudien noch laufen."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,36 € pro Tag ist moderat für hypoallergene 1-g-Kapseln."
+      en: "0,36 € pro Tag ist moderat für hypoallergene 1-g-Kapseln."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Reinheitsgeprüft, keine unnötigen Zusatzstoffe, vegane Kapseln."
+      en: "Reinheitsgeprüft, keine unnötigen Zusatzstoffe, vegane Kapseln."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Klares Etikett ohne übertriebene Claims, vollständige Hilfsstoffliste."
+      en: "Klares Etikett ohne übertriebene Claims, vollständige Hilfsstoffliste."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Pure Encapsulations lässt jede Charge von unabhängigen Laboren testen."
+      en: "Pure Encapsulations lässt jede Charge von unabhängigen Laboren testen."
+
+locales:
+  de:
+    summary: "Hypoallergenes Taurin mit 1 g pro Kapsel, cGMP hergestellt. Taurin wird in Herz-, Stoffwechsel- und Mitochondrien-Kontexten erforscht — keine zugelassenen EU-Health-Claims."
+    verdictNote: "Sauberes Taurinprodukt für Biohacker und sensible Personen."
+    body:
+      description: "Jede Kapsel enthält 1 g hochreines Taurin. Die Formulierung verzichtet auf Gluten, Soja, Milchprodukte und Magnesiumstearat und wird in den USA unter cGMP-Bedingungen abgefüllt."
+      pros:
+        - "**Hohe Dosierung:** 1 g je Kapsel ermöglicht 1–3 g täglich ohne viele Kapseln"
+        - "**Hypoallergen:** Geeignet für sensible Personen"
+        - "**Forschungskontext:** Taurin rückt in Studien zu mitochondrialer Funktion in den Mittelpunkt (Human-Kausalität noch nicht belegt)"
+        - "**Verlässlicher Hersteller:** Pure Encapsulations steht für konstante Qualität"
+      cons:
+        - "**Preis:** Deutlich teurer als Bulk-Pulver"
+        - "**Keine Sport-Zertifizierung:** Für getestete Athleten wäre ein Siegel angenehm"
+      usage: "1 Kapsel täglich zu einer Mahlzeit oder rund ums Training einnehmen. Bei höheren Dosen auf mehrere Einnahmen verteilen, um Magenkomfort zu sichern."
+  en:
+    summary: "Hypoallergenes Taurin mit 1 g pro Kapsel, cGMP hergestellt. Taurin wird in Herz-, Stoffwechsel- und Mitochondrien-Kontexten erforscht — keine zugelassenen EU-Health-Claims."
+    verdictNote: "Sauberes Taurinprodukt für Biohacker und sensible Personen."
+    body:
+      description: "Jede Kapsel enthält 1 g hochreines Taurin. Die Formulierung verzichtet auf Gluten, Soja, Milchprodukte und Magnesiumstearat und wird in den USA unter cGMP-Bedingungen abgefüllt."
+      pros:
+        - "**Hohe Dosierung:** 1 g je Kapsel ermöglicht 1–3 g täglich ohne viele Kapseln"
+        - "**Hypoallergen:** Geeignet für sensible Personen"
+        - "**Forschungskontext:** Taurin rückt in Studien zu mitochondrialer Funktion in den Mittelpunkt (Human-Kausalität noch nicht belegt)"
+        - "**Verlässlicher Hersteller:** Pure Encapsulations steht für konstante Qualität"
+      cons:
+        - "**Preis:** Deutlich teurer als Bulk-Pulver"
+        - "**Keine Sport-Zertifizierung:** Für getestete Athleten wäre ein Siegel angenehm"
+      usage: "1 Kapsel täglich zu einer Mahlzeit oder rund ums Training einnehmen. Bei höheren Dosen auf mehrere Einnahmen verteilen, um Magenkomfort zu sichern."
+---

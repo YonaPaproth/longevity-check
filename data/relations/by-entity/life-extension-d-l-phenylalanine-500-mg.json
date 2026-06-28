@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-d-l-phenylalanine-500-mg",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "dl-phenylalanin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

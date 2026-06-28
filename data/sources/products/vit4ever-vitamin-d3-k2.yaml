@@ -1,0 +1,83 @@
+---
+id: vit4ever-vitamin-d3-k2
+type: product
+
+meta:
+  title: "Vit4ever Vitamin D3 K2 Depot 20000 IU"
+  ingredient: vitamin-d3-k2
+  containedIngredients:
+    - slug: vitamin-d3-k2
+  vendor: "Vit4ever"
+  vendorUrl: "https://vit4ever.com/products/vitamin-d3-k2-depot-20000-iu"
+  affiliateUrl: ""
+  priceEur: 19.9
+  doseMg: 0.5
+  servingsPerPack: 120
+  pricePerDayEur: 0.17
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Vitamin D3 und K2 besitzen vergleichsweise gute Datenlage für Knochen- und Herzgesundheit, besonders kombiniert."
+      en: "Vitamin D3 und K2 besitzen vergleichsweise gute Datenlage für Knochen- und Herzgesundheit, besonders kombiniert."
+  valueForMoney:
+    score: 10
+    explanation:
+      de: "0,17 € für eine hochdosierte Depotkapsel ist unschlagbar günstig."
+      en: "0,17 € für eine hochdosierte Depotkapsel ist unschlagbar günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Vit4ever lässt in Deutschland kapseln und prüft auf Potenz sowie Schadstoffe."
+      en: "Vit4ever lässt in Deutschland kapseln und prüft auf Potenz sowie Schadstoffe."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "IU-, µg- und Depotempfehlungen sind detailliert angegeben, inklusive Trägeröle."
+      en: "IU-, µg- und Depotempfehlungen sind detailliert angegeben, inklusive Trägeröle."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Zertifikate deutscher Labore liegen vor, jedoch keine internationalen Siegel."
+      en: "Zertifikate deutscher Labore liegen vor, jedoch keine internationalen Siegel."
+
+locales:
+  de:
+    summary: "Depot-Kapseln mit 20000 IU Vitamin D3 plus 200 µg MK-7, hergestellt und laborgeprüft in Deutschland."
+    verdictNote: "Depot-Strategen erhalten hier maximale Flexibilität zum Budgetpreis."
+    body:
+      description: "Jede vegane Kapsel liefert 20000 IU (500 µg) Vitamin D3 aus Lanolin plus 200 µg Vitamin K2 als all-trans Menaquinon-7. Als Trägeröl dient kaltgepresstes Olivenöl."
+      pros:
+        - "Hergestellt und abgefüllt in Deutschland"
+        - "Hohe K2-Dosis für bessere Calciumlenkung"
+        - "Sehr günstiger Preis pro Depotportion"
+        - "Vegane Softgels trotz Ölträger"
+      cons:
+        - "Depotdosierung erfordert verantwortungsvolle Anwendung"
+        - "Enthält Sojalecithin als Emulgator"
+      usage: "1 Kapsel alle 7–14 Tage mit einer fettreichen Mahlzeit, je nach Blutwerten. Einnahmeplan mit Laborwerten (25-OH-D3) abstimmen."
+  en:
+    summary: "Depot-Kapseln mit 20000 IU Vitamin D3 plus 200 µg MK-7, hergestellt und laborgeprüft in Deutschland."
+    verdictNote: "Depot-Strategen erhalten hier maximale Flexibilität zum Budgetpreis."
+    body:
+      description: "Jede vegane Kapsel liefert 20000 IU (500 µg) Vitamin D3 aus Lanolin plus 200 µg Vitamin K2 als all-trans Menaquinon-7. Als Trägeröl dient kaltgepresstes Olivenöl."
+      pros:
+        - "Hergestellt und abgefüllt in Deutschland"
+        - "Hohe K2-Dosis für bessere Calciumlenkung"
+        - "Sehr günstiger Preis pro Depotportion"
+        - "Vegane Softgels trotz Ölträger"
+      cons:
+        - "Depotdosierung erfordert verantwortungsvolle Anwendung"
+        - "Enthält Sojalecithin als Emulgator"
+      usage: "1 Kapsel alle 7–14 Tage mit einer fettreichen Mahlzeit, je nach Blutwerten. Einnahmeplan mit Laborwerten (25-OH-D3) abstimmen."
+---

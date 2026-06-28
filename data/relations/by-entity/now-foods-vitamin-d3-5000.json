@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-vitamin-d3-5000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-d3",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

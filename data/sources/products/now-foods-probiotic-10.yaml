@@ -1,0 +1,81 @@
+---
+id: now-foods-probiotic-10
+type: product
+
+meta:
+  title: "NOW Foods Probiotic-10 25 Billion"
+  ingredient: probiotika
+  containedIngredients:
+    - slug: probiotika
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 32
+  doseMg: 25
+  servingsPerPack: 50
+  pricePerDayEur: 0.64
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Mix aus Lactobacillus- und Bifidostämmen deckt gängige Studien zu Immun- und Darmgesundheit ab."
+      en: "Mix aus Lactobacillus- und Bifidostämmen deckt gängige Studien zu Immun- und Darmgesundheit ab."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,64 € pro 25 Milliarden KBE ist stark im Retail-Segment."
+      en: "0,64 € pro 25 Milliarden KBE ist stark im Retail-Segment."
+  productQuality:
+    score: 8
+    explanation:
+      de: "NOW liefert Kühlkettenoption und setzt Silicagel zur Feuchtigkeitskontrolle ein."
+      en: "NOW liefert Kühlkettenoption und setzt Silicagel zur Feuchtigkeitskontrolle ein."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "CFU pro Stamm angegeben, aber nicht bis zur Strain-ID heruntergebrochen."
+      en: "CFU pro Stamm angegeben, aber nicht bis zur Strain-ID heruntergebrochen."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW veröffentlicht Potenz-COAs, externe Bestätigungen nur vereinzelt."
+      en: "NOW veröffentlicht Potenz-COAs, externe Bestätigungen nur vereinzelt."
+
+locales:
+  de:
+    summary: "Breit aufgestelltes 10-Stamm-Probiotikum mit 25 Milliarden KBE und Non-GMO-Verifizierung."
+    verdictNote: "Gute Alltagsformel für Leute, die Vielfalt statt Monostrain wollen."
+    body:
+      description: "Probiotic-10 kombiniert zehn Stämme, darunter L. rhamnosus, L. plantarum, B. lactis und Streptococcus thermophilus. Die vegetarischen Kapseln sind glutenfrei und enthalten Fructooligosaccharide als Träger."
+      pros:
+        - "25 Milliarden KBE pro Kapsel decken Daily Maintenance gut ab"
+        - "Non-GMO Project Verified"
+        - "Preislich attraktiv für 50 Portionen"
+      cons:
+        - "Kein Schutz vor Magensäure wie DRcaps"
+        - "Enthält FOS, was nicht jede:r verträgt"
+      usage: "1 Kapsel täglich zwischen den Mahlzeiten oder vor dem Schlafengehen. Bei Antibiotikatherapie Dosierung auf 2 Kapseln splitten."
+  en:
+    summary: "Breit aufgestelltes 10-Stamm-Probiotikum mit 25 Milliarden KBE und Non-GMO-Verifizierung."
+    verdictNote: "Gute Alltagsformel für Leute, die Vielfalt statt Monostrain wollen."
+    body:
+      description: "Probiotic-10 kombiniert zehn Stämme, darunter L. rhamnosus, L. plantarum, B. lactis und Streptococcus thermophilus. Die vegetarischen Kapseln sind glutenfrei und enthalten Fructooligosaccharide als Träger."
+      pros:
+        - "25 Milliarden KBE pro Kapsel decken Daily Maintenance gut ab"
+        - "Non-GMO Project Verified"
+        - "Preislich attraktiv für 50 Portionen"
+      cons:
+        - "Kein Schutz vor Magensäure wie DRcaps"
+        - "Enthält FOS, was nicht jede:r verträgt"
+      usage: "1 Kapsel täglich zwischen den Mahlzeiten oder vor dem Schlafengehen. Bei Antibiotikatherapie Dosierung auf 2 Kapseln splitten."
+---

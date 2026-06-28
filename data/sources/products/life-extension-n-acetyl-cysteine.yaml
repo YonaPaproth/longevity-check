@@ -1,0 +1,81 @@
+---
+id: life-extension-n-acetyl-cysteine
+type: product
+
+meta:
+  title: "Life Extension N-Acetyl-L-Cysteine 600mg"
+  ingredient: nac
+  containedIngredients:
+    - slug: nac
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextension.com"
+  affiliateUrl: ""
+  priceEur: 22
+  doseMg: 600
+  servingsPerPack: 60
+  pricePerDayEur: 0.37
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "NAC ist gut dokumentiert für mukolytische Effekte, Glutathion-Vorstufe und antioxidative Kapazität."
+      en: "NAC ist gut dokumentiert für mukolytische Effekte, Glutathion-Vorstufe und antioxidative Kapazität."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,37 € pro 600 mg streng qualitätsorientiertem NAC ist fair."
+      en: "0,37 € pro 600 mg streng qualitätsorientiertem NAC ist fair."
+  productQuality:
+    score: 8
+    explanation:
+      de: "cGMP-Herstellung mit streng qualitätsorientierter Reinheit."
+      en: "cGMP-Herstellung mit streng qualitätsorientierter Reinheit."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Life Extension listet nur NAC und Cellulose."
+      en: "Life Extension listet nur NAC und Cellulose."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Jede Charge erhält COA mit HPLC-Nachweis."
+      en: "Jede Charge erhält COA mit HPLC-Nachweis."
+
+locales:
+  de:
+    summary: "Pharmaqualität NAC mit 600 mg pro Portion – als Glutathion-Vorstufe und bei klinischer Indikation gut untersucht."
+    verdictNote: "Seit Jahren verfügbares NAC-Produkt, gut geeignet für Glutathion-Kontexte."
+    body:
+      description: "600 mg NAC pro Kapsel aus pharmazeutischer Produktion, frei von Gluten und Gentechnik. Unterstützt die endogene Glutathionbildung."
+      pros:
+        - "cGMP-Produktion"
+        - "Gute Dokumentation der Lieferkette"
+        - "Neutrales Aroma"
+      cons:
+        - "Geruch nach Schwefel"
+        - "Nur 60 Portionen"
+      usage: "1 Kapsel morgens nüchtern mit Vitamin C. Bei hoher Belastung zweite Portion am Nachmittag."
+  en:
+    summary: "Pharmaqualität NAC mit 600 mg pro Portion – als Glutathion-Vorstufe und bei klinischer Indikation gut untersucht."
+    verdictNote: "Seit Jahren verfügbares NAC-Produkt, gut geeignet für Glutathion-Kontexte."
+    body:
+      description: "600 mg NAC pro Kapsel aus pharmazeutischer Produktion, frei von Gluten und Gentechnik. Unterstützt die endogene Glutathionbildung."
+      pros:
+        - "cGMP-Produktion"
+        - "Gute Dokumentation der Lieferkette"
+        - "Neutrales Aroma"
+      cons:
+        - "Geruch nach Schwefel"
+        - "Nur 60 Portionen"
+      usage: "1 Kapsel morgens nüchtern mit Vitamin C. Bei hoher Belastung zweite Portion am Nachmittag."
+---

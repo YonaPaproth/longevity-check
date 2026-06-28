@@ -1,0 +1,81 @@
+---
+id: pure-encapsulations-probiotic-g-i
+type: product
+
+meta:
+  title: "Pure Encapsulations Probiotic G.I."
+  ingredient: probiotika
+  containedIngredients:
+    - slug: probiotika
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com"
+  affiliateUrl: ""
+  priceEur: 58
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.97
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Klinische Daten zu einzelnen Stämmen liegen vor, Mischungen sind schwer zu verallgemeinern."
+      en: "Klinische Daten zu einzelnen Stämmen liegen vor, Mischungen sind schwer zu verallgemeinern."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,97 € pro Tag ist ok für 10 Mrd. KBE mit Schutzkapsel."
+      en: "0,97 € pro Tag ist ok für 10 Mrd. KBE mit Schutzkapsel."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Hypoallergene Herstellung, streng temperaturgeführt."
+      en: "Hypoallergene Herstellung, streng temperaturgeführt."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Listet jeden Stamm samt CFU-Anteil."
+      en: "Listet jeden Stamm samt CFU-Anteil."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "cGMP, NSF und eigene Stabilitätsstudien bei 25 °C."
+      en: "cGMP, NSF und eigene Stabilitätsstudien bei 25 °C."
+
+locales:
+  de:
+    summary: "12-Stamm-Probiotikum mit 10 Mrd. KBE und magensaftresistenter Kapsel für Darmbarriere-Protokolle."
+    verdictNote: "Sehr saubere Rezeptur für sensible Personen, die keine Prebiotika vertragen."
+    body:
+      description: "Probiotic G.I. kombiniert L. plantarum, L. rhamnosus, B. lactis u. a. in einer magensaftresistenten Kapsel. Die Stämme sind klinisch validiert und auf Überleben bei Raumtemperatur getestet."
+      pros:
+        - "Allergenfrei (keine Milch, kein Gluten)"
+        - "Kleine Kapseln trotz Entero-Beschichtung"
+        - "Stabile CFU-Zahl bis Mindesthaltbarkeit"
+      cons:
+        - "Preis höher als Bulk-Probiotika"
+        - "Keine Prebiotika enthalten"
+      usage: "1 Kapsel morgens nüchtern oder 30 Minuten vor dem Essen. Bei Antibiotikagabe zeitlich versetzt einnehmen."
+  en:
+    summary: "12-Stamm-Probiotikum mit 10 Mrd. KBE und magensaftresistenter Kapsel für Darmbarriere-Protokolle."
+    verdictNote: "Sehr saubere Rezeptur für sensible Personen, die keine Prebiotika vertragen."
+    body:
+      description: "Probiotic G.I. kombiniert L. plantarum, L. rhamnosus, B. lactis u. a. in einer magensaftresistenten Kapsel. Die Stämme sind klinisch validiert und auf Überleben bei Raumtemperatur getestet."
+      pros:
+        - "Allergenfrei (keine Milch, kein Gluten)"
+        - "Kleine Kapseln trotz Entero-Beschichtung"
+        - "Stabile CFU-Zahl bis Mindesthaltbarkeit"
+      cons:
+        - "Preis höher als Bulk-Probiotika"
+        - "Keine Prebiotika enthalten"
+      usage: "1 Kapsel morgens nüchtern oder 30 Minuten vor dem Essen. Bei Antibiotikagabe zeitlich versetzt einnehmen."
+---

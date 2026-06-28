@@ -1,0 +1,83 @@
+---
+id: now-foods-astaxanthin-4
+type: product
+
+meta:
+  title: "NOW Foods Astaxanthin 4 mg Softgels"
+  ingredient: astaxanthin
+  containedIngredients:
+    - slug: astaxanthin
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 19.9
+  doseMg: 4
+  servingsPerPack: 60
+  pricePerDayEur: 0.33
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Astaxanthin hat Humanstudien zu Haut, Ausdauer und LDL-Oxidation, aber begrenzte harte Endpunkte."
+      en: "Astaxanthin hat Humanstudien zu Haut, Ausdauer und LDL-Oxidation, aber begrenzte harte Endpunkte."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,33 € pro 4 mg ist kaum zu schlagen."
+      en: "0,33 € pro 4 mg ist kaum zu schlagen."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW nutzt natürliche Algenextrakte mit cGMP-Produktion."
+      en: "NOW nutzt natürliche Algenextrakte mit cGMP-Produktion."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklariert Astaxanthin-Gehalt und Quelle (Haematococcus)."
+      en: "Deklariert Astaxanthin-Gehalt und Quelle (Haematococcus)."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW veröffentlicht interne Tests, externe Zertifikate nur stichprobenartig."
+      en: "NOW veröffentlicht interne Tests, externe Zertifikate nur stichprobenartig."
+
+locales:
+  de:
+    summary: "Preiswerter Einstieg in Astaxanthin aus Haematococcus pluvialis mit 4 mg pro Softgel."
+    verdictNote: "Bestes Preis-Leistungs-Verhältnis für alle, die Astaxanthin als täglichen Antioxidantien-Schutz nutzen möchten."
+    body:
+      description: "NOW Foods setzt auf natürliches Astaxanthin aus Haematococcus pluvialis, gelöst in kaltgepresstem Olivenöl. Die Softgels sind klein und einfach zu schlucken."
+      pros:
+        - "Sehr günstiger Preis"
+        - "Natürliche Quelle statt synthetischem Astaxanthin"
+        - "Softgels mit Olivenöl verbessern Aufnahme"
+      cons:
+        - "4 mg pro Tag sind unterhalb der Hautstudien-Dosis (6–12 mg)"
+        - "Gelatine-Softgel, nicht vegan"
+        - "Keine veröffentlichten COAs"
+      usage: "1 Softgel pro Tag zu einer Mahlzeit mit Fett einnehmen; bei hoher Sonneneinstrahlung auf 2 Softgels erhöhen."
+  en:
+    summary: "Preiswerter Einstieg in Astaxanthin aus Haematococcus pluvialis mit 4 mg pro Softgel."
+    verdictNote: "Bestes Preis-Leistungs-Verhältnis für alle, die Astaxanthin als täglichen Antioxidantien-Schutz nutzen möchten."
+    body:
+      description: "NOW Foods setzt auf natürliches Astaxanthin aus Haematococcus pluvialis, gelöst in kaltgepresstem Olivenöl. Die Softgels sind klein und einfach zu schlucken."
+      pros:
+        - "Sehr günstiger Preis"
+        - "Natürliche Quelle statt synthetischem Astaxanthin"
+        - "Softgels mit Olivenöl verbessern Aufnahme"
+      cons:
+        - "4 mg pro Tag sind unterhalb der Hautstudien-Dosis (6–12 mg)"
+        - "Gelatine-Softgel, nicht vegan"
+        - "Keine veröffentlichten COAs"
+      usage: "1 Softgel pro Tag zu einer Mahlzeit mit Fett einnehmen; bei hoher Sonneneinstrahlung auf 2 Softgels erhöhen."
+---

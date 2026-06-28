@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-ideal-bowel-support",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "probiotika",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

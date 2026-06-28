@@ -1,0 +1,11 @@
+{
+  "entity": "sunday-natural-nmn-400",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nmn",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

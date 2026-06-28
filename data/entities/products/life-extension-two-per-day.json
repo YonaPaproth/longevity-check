@@ -1,0 +1,10 @@
+{
+  "id": "life-extension-two-per-day",
+  "type": "product",
+  "name": "Life Extension Two-Per-Day",
+  "vendor": "Life Extension",
+  "ingredient": "vitamin-b6",
+  "form": "capsule",
+  "verdict": "empfehlenswert",
+  "compositeScore": 8.05
+}

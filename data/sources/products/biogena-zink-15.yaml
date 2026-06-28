@@ -1,0 +1,85 @@
+---
+id: biogena-zink-15
+type: product
+
+meta:
+  title: "BIOGENA Zink 15 Komplex"
+  ingredient: zink
+  containedIngredients:
+    - slug: zink
+  vendor: "BIOGENA"
+  vendorUrl: "https://www.biogena.com"
+  affiliateUrl: ""
+  priceEur: 18.9
+  doseMg: 15
+  servingsPerPack: 90
+  pricePerDayEur: 0.21
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-14"
+  lastPriceCheck: "2026-06-14"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Zink hat exzellente Evidenz für Immunfunktion, Wundheilung und Hautgesundheit."
+      en: "Zinc has excellent evidence for immune function, wound healing, and skin health."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,21 € pro Tag für Zink-Bisglycinat ist fair, günstigere Optionen ab 0,05 € verfügbar."
+      en: "€0.21 per day for zinc bisglycinate is fair, cheaper options available from €0.05."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Bisglycinat-Chelat für hohe Absorption und gute Magenverträglichkeit."
+      en: "Bisglycinate chelate for high absorption and good stomach tolerance."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Elementarzinkgehalt klar angegeben, Chelat-Form spezifiziert."
+      en: "Elemental zinc content clearly stated, chelate form specified."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Österreichische Pharmaanalytik, Chargenprüfung auf Schwermetalle."
+      en: "Austrian pharmaceutical analysis, batch testing for heavy metals."
+
+locales:
+  de:
+    summary: "Zink-Bisglycinat mit hoher Bioverfügbarkeit, magenfreundlich, ohne Zusatzstoffe."
+    verdictNote: "Magenfreundliches Zink in gut bioverfügbarer Chelat-Form. Solide Premium-Option."
+    body:
+      description: "BIOGENA setzt auf Zink-Bisglycinat — eine Chelat-Verbindung, die besonders magenfreundlich ist und eine höhere Absorptionsrate als Zinkoxid oder -sulfat zeigt. 15 mg elementares Zink pro Kapsel entspricht 150 % des NRV."
+      pros:
+        - "Bisglycinat-Form für hohe Bioverfügbarkeit"
+        - "Sehr gut magenverträglich"
+        - "Nur eine Kapsel täglich"
+        - "Keine unnötigen Füllstoffe"
+      cons:
+        - "15 mg ist moderat — bei diagnostiziertem Mangel ggf. zu wenig"
+        - "Deutlich teurer als Discounter-Zink"
+        - "Kein Kupfer als Gegenspieler enthalten"
+      usage: "1 Kapsel täglich, idealerweise nüchtern oder zu einer leichten Mahlzeit. Nicht zusammen mit Eisen, Calcium oder Kaffee einnehmen."
+  en:
+    summary: "Zinc bisglycinate with high bioavailability, stomach-friendly, without additives."
+    verdictNote: "Stomach-friendly zinc in well-bioavailable chelate form. Solid premium option."
+    body:
+      description: "BIOGENA uses zinc bisglycinate — a chelate compound that is particularly stomach-friendly and shows higher absorption rates than zinc oxide or sulfate. 15 mg elemental zinc per capsule equals 150% of the NRV."
+      pros:
+        - "Bisglycinate form for high bioavailability"
+        - "Very good stomach tolerance"
+        - "Only one capsule daily"
+        - "No unnecessary fillers"
+      cons:
+        - "15 mg is moderate — possibly insufficient for diagnosed deficiency"
+        - "Significantly more expensive than discount zinc"
+        - "No copper as antagonist included"
+      usage: "1 capsule daily, ideally on an empty stomach or with a light meal. Do not take simultaneously with iron, calcium, or coffee."
+---

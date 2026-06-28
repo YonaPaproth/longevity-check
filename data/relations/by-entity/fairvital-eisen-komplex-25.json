@@ -1,0 +1,11 @@
+{
+  "entity": "fairvital-eisen-komplex-25",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "eisen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

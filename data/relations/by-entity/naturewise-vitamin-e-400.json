@@ -1,0 +1,11 @@
+{
+  "entity": "naturewise-vitamin-e-400",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-e",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

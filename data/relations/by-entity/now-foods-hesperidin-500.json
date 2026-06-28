@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-hesperidin-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "hesperidin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

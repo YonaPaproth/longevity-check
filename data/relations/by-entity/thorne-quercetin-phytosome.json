@@ -1,0 +1,11 @@
+{
+  "entity": "thorne-quercetin-phytosome",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "quercetin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-zinc-50",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "zink",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

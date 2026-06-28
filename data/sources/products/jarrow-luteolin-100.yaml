@@ -1,0 +1,85 @@
+---
+id: jarrow-luteolin-100
+type: product
+
+meta:
+  title: "Jarrow Formulas Luteolin 100 mg"
+  ingredient: luteolin
+  containedIngredients:
+    - slug: luteolin
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://jarrow.com/products/luteolin"
+  affiliateUrl: ""
+  priceEur: 24
+  doseMg: 100
+  servingsPerPack: 30
+  pricePerDayEur: 0.8
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Luteolin hat viele präklinische Daten rund um Neuroinflammation, Humanstudien stehen aber erst am Anfang."
+      en: "Luteolin hat viele präklinische Daten rund um Neuroinflammation, Humanstudien stehen aber erst am Anfang."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,80 € pro 100 mg ist in Ordnung für einen seltenen Extrakt, aber nicht billig."
+      en: "0,80 € pro 100 mg ist in Ordnung für einen seltenen Extrakt, aber nicht billig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Jarrow nutzt standardisierten Artischockenextrakt und kapselt vegan ohne Titanoxid."
+      en: "Jarrow nutzt standardisierten Artischockenextrakt und kapselt vegan ohne Titanoxid."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Dosierung, Pflanzenquelle und Hilfsstoffe werden offen kommuniziert, keine Wunderclaims."
+      en: "Dosierung, Pflanzenquelle und Hilfsstoffe werden offen kommuniziert, keine Wunderclaims."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Interne Analysen vorhanden, externe Siegel fehlen."
+      en: "Interne Analysen vorhanden, externe Siegel fehlen."
+
+locales:
+  de:
+    summary: "100 mg Luteolin aus Artischockenextrakt, vegane Kapseln und klare Deklaration für spezialisierte Stapel."
+    verdictNote: "Für gezielte Luteolin-Protokolle einer der wenigen vergleichsweise transparenten Picks, besonders wegen klarer Standardisierung."
+    body:
+      description: "Luteolin ist ein Flavon aus Artischockenblättern. Jarrow standardisiert jede Kapsel auf 100 mg reines Luteolin und verzichtet auf zusätzliche Füllstoffe außer Reisfaser."
+      pros:
+        - "**Standardisierte 100 mg** pro Kapsel"
+        - "**Vegane HPMC-Kapseln**"
+        - "**Keine Farbstoffe oder Magnesiumstearat**"
+        - "**Klares Neuro- und Entzündungsprofil**"
+      cons:
+        - "**Nur 30 Portionen**, daher hoher Monatskostenblock"
+        - "**Noch keine großen Human-RCTs**"
+        - "**Kein Kombi mit anderen Flavonoiden**"
+      usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Bei empfindlichem Magen lieber nach dem Essen. Nicht mit Blutverdünnern kombinieren ohne medizinischen Rat."
+  en:
+    summary: "100 mg Luteolin aus Artischockenextrakt, vegane Kapseln und klare Deklaration für spezialisierte Stapel."
+    verdictNote: "Für gezielte Luteolin-Protokolle einer der wenigen vergleichsweise transparenten Picks, besonders wegen klarer Standardisierung."
+    body:
+      description: "Luteolin ist ein Flavon aus Artischockenblättern. Jarrow standardisiert jede Kapsel auf 100 mg reines Luteolin und verzichtet auf zusätzliche Füllstoffe außer Reisfaser."
+      pros:
+        - "**Standardisierte 100 mg** pro Kapsel"
+        - "**Vegane HPMC-Kapseln**"
+        - "**Keine Farbstoffe oder Magnesiumstearat**"
+        - "**Klares Neuro- und Entzündungsprofil**"
+      cons:
+        - "**Nur 30 Portionen**, daher hoher Monatskostenblock"
+        - "**Noch keine großen Human-RCTs**"
+        - "**Kein Kombi mit anderen Flavonoiden**"
+      usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Bei empfindlichem Magen lieber nach dem Essen. Nicht mit Blutverdünnern kombinieren ohne medizinischen Rat."
+---

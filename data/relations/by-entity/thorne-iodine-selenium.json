@@ -1,0 +1,23 @@
+{
+  "entity": "thorne-iodine-selenium",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "jod",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "selen",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "l-tyrosin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

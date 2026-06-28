@@ -1,0 +1,11 @@
+{
+  "entity": "vitaraw-irish-sea-moss-2400-mg",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "sea-moss",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

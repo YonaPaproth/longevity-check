@@ -1,0 +1,11 @@
+{
+  "entity": "doctors-best-astaxanthin-12",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "astaxanthin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

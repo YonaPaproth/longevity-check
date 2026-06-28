@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-l-glutamine-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "glycin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

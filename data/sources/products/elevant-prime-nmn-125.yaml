@@ -1,0 +1,83 @@
+---
+id: elevant-prime-nmn-125
+type: product
+
+meta:
+  title: "Elevant Prime NMN 125"
+  ingredient: nmn
+  containedIngredients:
+    - slug: nmn
+  vendor: "Elevant"
+  vendorUrl: "https://elevant.co"
+  affiliateUrl: ""
+  priceEur: 69.9
+  doseMg: 125
+  servingsPerPack: 120
+  pricePerDayEur: 0.58
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "NMN besitzt zunehmende, aber noch begrenzte Humanstudien zu NAD+-Erhöhung und Stoffwechselparametern."
+      en: "NMN besitzt zunehmende, aber noch begrenzte Humanstudien zu NAD+-Erhöhung und Stoffwechselparametern."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,58 € pro Tag für 125 mg Premium-NMN liegt im oberen Mittelfeld, dafür EFSA-konforme Qualität."
+      en: "0,58 € pro Tag für 125 mg Premium-NMN liegt im oberen Mittelfeld, dafür EFSA-konforme Qualität."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Qualitätsorientiert hergestellte Prime-Formulierung mit strengem QC und europäischer Lieferkette."
+      en: "Qualitätsorientiert hergestellte Prime-Formulierung mit strengem QC und europäischer Lieferkette."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare Deklaration inkl. Chargenangaben, keine Alterungsforschung-überzogene Versprechen."
+      en: "Klare Deklaration inkl. Chargenangaben, keine Alterungsforschung-überzogene Versprechen."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Elevant verweist auf klinische Studien und HPLC-Analysen, publiziert jedoch nicht jede Charge."
+      en: "Elevant verweist auf klinische Studien und HPLC-Analysen, publiziert jedoch nicht jede Charge."
+
+locales:
+  de:
+    summary: "EFSA-konformes NMN aus europäischer Produktion mit klinisch getesteter Prime-Formel und schneller Lieferung über Shop-Apotheke."
+    verdictNote: "Für alle, die NMN rechtssicher in der EU beziehen möchten, ist Elevant Prime aktuell eine der stabilsten Optionen."
+    body:
+      description: "Elevant entwickelt seit Jahren NAD+-Vorstufen für klinische Forschung. Prime NMN liefert 125 mg hochreines NMN pro Kapsel aus europäischer Produktion und wird in Deutschland über Shop-Apotheke vertrieben, sodass Zollrisiken entfallen."
+      pros:
+        - "EFSA-konforme Registrierung vermindert Rechtsunsicherheit beim Import"
+        - "Klinische Daten zu Blutdruck, Muskelkraft und NAD+-Spiegeln verfügbar"
+        - "Transparente Lieferkette innerhalb der EU"
+        - "Vegane Kapseln ohne unnötige Zusatzstoffe"
+      cons:
+        - "Keine größeren Packungsgrößen für Vielnutzer"
+        - "Vergleichsweise hohe Kosten pro 100 mg NMN"
+      usage: "1–2 Kapseln morgens nüchtern oder zu einer leichten Mahlzeit. Bei empfindlichem Magen zusammen mit Nahrung einnehmen und langsam aufdosieren."
+  en:
+    summary: "EFSA-konformes NMN aus europäischer Produktion mit klinisch getesteter Prime-Formel und schneller Lieferung über Shop-Apotheke."
+    verdictNote: "Für alle, die NMN rechtssicher in der EU beziehen möchten, ist Elevant Prime aktuell eine der stabilsten Optionen."
+    body:
+      description: "Elevant entwickelt seit Jahren NAD+-Vorstufen für klinische Forschung. Prime NMN liefert 125 mg hochreines NMN pro Kapsel aus europäischer Produktion und wird in Deutschland über Shop-Apotheke vertrieben, sodass Zollrisiken entfallen."
+      pros:
+        - "EFSA-konforme Registrierung vermindert Rechtsunsicherheit beim Import"
+        - "Klinische Daten zu Blutdruck, Muskelkraft und NAD+-Spiegeln verfügbar"
+        - "Transparente Lieferkette innerhalb der EU"
+        - "Vegane Kapseln ohne unnötige Zusatzstoffe"
+      cons:
+        - "Keine größeren Packungsgrößen für Vielnutzer"
+        - "Vergleichsweise hohe Kosten pro 100 mg NMN"
+      usage: "1–2 Kapseln morgens nüchtern oder zu einer leichten Mahlzeit. Bei empfindlichem Magen zusammen mit Nahrung einnehmen und langsam aufdosieren."
+---

@@ -1,0 +1,85 @@
+---
+id: bloom-naturals-selen-3-fach-komplex
+type: product
+
+meta:
+  title: "Bloom Naturals Selen 3-Fach Komplex"
+  ingredient: selen
+  containedIngredients:
+    - slug: selen
+  vendor: "Bloom Naturals"
+  vendorUrl: "https://www.shop-apotheke.com/arzneimittel/upm22TADH/bloom-naturals-selen-tabletten-200g.htm"
+  affiliateUrl: ""
+  priceEur: 15.95
+  doseMg: 0.2
+  servingsPerPack: 400
+  pricePerDayEur: 0.04
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Selen ist als Basisnährstoff relevant, besonders bei niedriger Zufuhr. Der Nutzen hängt aber stark vom Ausgangsstatus ab; einfach mehr Selen ist nicht automatisch besser."
+      en: "Selen ist als Basisnährstoff relevant, besonders bei niedriger Zufuhr. Der Nutzen hängt aber stark vom Ausgangsstatus ab; einfach mehr Selen ist nicht automatisch besser."
+  valueForMoney:
+    score: 10
+    explanation:
+      de: "400 Tabletten für rund 16 Euro sind extrem günstig. Preis pro Tag ist praktisch unschlagbar."
+      en: "400 Tabletten für rund 16 Euro sind extrem günstig. Preis pro Tag ist praktisch unschlagbar."
+  productQuality:
+    score: 6
+    explanation:
+      de: "Drei Selenquellen und deutsche Herstellung sind positiv. Gleichzeitig ist es eher ein preisorientiertes Basic-Produkt als ein besonders hochwertig abgesichertes Premiumpräparat."
+      en: "Drei Selenquellen und deutsche Herstellung sind positiv. Gleichzeitig ist es eher ein preisorientiertes Basic-Produkt als ein besonders hochwertig abgesichertes Premiumpräparat."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Das Produkt kommuniziert Quelle, Dosierung und Standardnutzen nachvollziehbar. Kein übertriebener gesundes Altern-Hype, aber klassisches Mikronährstoff-Marketing bleibt sichtbar."
+      en: "Das Produkt kommuniziert Quelle, Dosierung und Standardnutzen nachvollziehbar. Kein übertriebener gesundes Altern-Hype, aber klassisches Mikronährstoff-Marketing bleibt sichtbar."
+  thirdPartyTesting:
+    score: 3
+    explanation:
+      de: "Keine starke unabhängige Drittanbieter-Zertifizierung sichtbar. Vertrauen basiert vor allem auf Hersteller- und Händlerangaben."
+      en: "Keine starke unabhängige Drittanbieter-Zertifizierung sichtbar. Vertrauen basiert vor allem auf Hersteller- und Händlerangaben."
+
+locales:
+  de:
+    summary: "Extrem günstiger Langzeitvorrat für Selen mit drei Quellen. Praktisch für niedrige Kosten, aber die 200-µg-Dosis ist für dauerhafte Nutzung nicht für jeden gut geeignet."
+    verdictNote: "Sehr gut für den Preis und als Langzeitvorrat attraktiv — aber 200 µg täglich sind eher etwas für gezielte Ergänzung als für blindes dauerhafte Supplementierung."
+    body:
+      description: "Der Selen 3-Fach Komplex von Bloom Naturals kombiniert **Selenhefe, Selenmethionin und Natriumselenit**. Das klingt erstmal sinnvoll, weil verschiedene Selenformen zusammengeführt werden und die Dosierung klar auf 200 µg pro Tablette festgelegt ist."
+      pros:
+        - "**Extrem günstiger Langzeitvorrat** mit 400 Tabletten"
+        - "**Drei Selenquellen** statt nur einer Einzelverbindung"
+        - "**Hergestellt in Deutschland**"
+        - "**Einfaches Basic-Produkt** ohne überladene Zusätze"
+      cons:
+        - "**200 µg ist nicht niedrig dosiert** und für Daily-Use ohne Anlass nicht automatisch ideal"
+        - "**Keine starke Drittanbieter-Zertifizierung**"
+        - "**Wenig Premium-Signale** bei Reinheit, Testing oder Rohstofftransparenz"
+      usage: ""
+  en:
+    summary: "Extrem günstiger Langzeitvorrat für Selen mit drei Quellen. Praktisch für niedrige Kosten, aber die 200-µg-Dosis ist für dauerhafte Nutzung nicht für jeden gut geeignet."
+    verdictNote: "Sehr gut für den Preis und als Langzeitvorrat attraktiv — aber 200 µg täglich sind eher etwas für gezielte Ergänzung als für blindes dauerhafte Supplementierung."
+    body:
+      description: "Der Selen 3-Fach Komplex von Bloom Naturals kombiniert **Selenhefe, Selenmethionin und Natriumselenit**. Das klingt erstmal sinnvoll, weil verschiedene Selenformen zusammengeführt werden und die Dosierung klar auf 200 µg pro Tablette festgelegt ist."
+      pros:
+        - "**Extrem günstiger Langzeitvorrat** mit 400 Tabletten"
+        - "**Drei Selenquellen** statt nur einer Einzelverbindung"
+        - "**Hergestellt in Deutschland**"
+        - "**Einfaches Basic-Produkt** ohne überladene Zusätze"
+      cons:
+        - "**200 µg ist nicht niedrig dosiert** und für Daily-Use ohne Anlass nicht automatisch ideal"
+        - "**Keine starke Drittanbieter-Zertifizierung**"
+        - "**Wenig Premium-Signale** bei Reinheit, Testing oder Rohstofftransparenz"
+      usage: ""
+---

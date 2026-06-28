@@ -1,0 +1,11 @@
+{
+  "entity": "sunfood-liposomal-vitamin-c",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-c",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

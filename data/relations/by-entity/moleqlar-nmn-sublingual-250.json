@@ -1,0 +1,11 @@
+{
+  "entity": "moleqlar-nmn-sublingual-250",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nmn",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

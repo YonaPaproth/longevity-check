@@ -1,0 +1,83 @@
+---
+id: pure-encapsulations-magnesium-citrate
+type: product
+
+meta:
+  title: "Pure Encapsulations Magnesium Citrate"
+  ingredient: magnesium
+  containedIngredients:
+    - slug: magnesium
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com"
+  affiliateUrl: ""
+  priceEur: 36
+  doseMg: 150
+  servingsPerPack: 90
+  pricePerDayEur: 0.4
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Magnesium deckt über 300 Enzymreaktionen ab, Citratform zeigt gute Absorption."
+      en: "Magnesium deckt über 300 Enzymreaktionen ab, Citratform zeigt gute Absorption."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,40 € pro Tag ist teurer als Bulk-Pulver, aber gerechtfertigt durch hypoallergene Verarbeitung."
+      en: "0,40 € pro Tag ist teurer als Bulk-Pulver, aber gerechtfertigt durch hypoallergene Verarbeitung."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Reinheitszertifikate, vegane Kapseln, keine problematischen Zusatzstoffe."
+      en: "Reinheitszertifikate, vegane Kapseln, keine problematischen Zusatzstoffe."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Elementare Menge klar angegeben, inklusive Citratgewicht."
+      en: "Elementare Menge klar angegeben, inklusive Citratgewicht."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Pharmazeutische COAs verfügbar, unabhängige Tests stichprobenartig."
+      en: "Pharmazeutische COAs verfügbar, unabhängige Tests stichprobenartig."
+
+locales:
+  de:
+    summary: "150 mg elementares Magnesium als Citrat pro Kapsel, hypoallergen und gut bioverfügbar."
+    verdictNote: "Für empfindliche Verdauung oder histaminische Typen eine sichere Magnesium-Citrat-Quelle ohne Zusatzstoffe."
+    body:
+      description: "Die Dose enthält 90 pflanzliche Kapseln, jede liefert 150 mg elementares Magnesium aus Magnesiumcitrat. Frei von Gluten, Milch, Soja sowie künstlichen Farbstoffen."
+      pros:
+        - "Gute Verträglichkeit selbst bei 300 mg"
+        - "Frei von Stearaten oder Titanoxid"
+        - "90 Portionen für drei Monate"
+        - "Transparentes Etikett mit Citrat-Gesamtgewicht"
+      cons:
+        - "Keine Option mit Magnesiummix (Glycinat, Malat)"
+        - "Citrat kann bei empfindlichen Personen abführend wirken"
+      usage: "1 Kapsel zu einer Mahlzeit, bei höherem Bedarf morgens und abends je 1 Kapsel. Mit ausreichend Wasser einnehmen und Einnahme über den Tag verteilen."
+  en:
+    summary: "150 mg elementares Magnesium als Citrat pro Kapsel, hypoallergen und gut bioverfügbar."
+    verdictNote: "Für empfindliche Verdauung oder histaminische Typen eine sichere Magnesium-Citrat-Quelle ohne Zusatzstoffe."
+    body:
+      description: "Die Dose enthält 90 pflanzliche Kapseln, jede liefert 150 mg elementares Magnesium aus Magnesiumcitrat. Frei von Gluten, Milch, Soja sowie künstlichen Farbstoffen."
+      pros:
+        - "Gute Verträglichkeit selbst bei 300 mg"
+        - "Frei von Stearaten oder Titanoxid"
+        - "90 Portionen für drei Monate"
+        - "Transparentes Etikett mit Citrat-Gesamtgewicht"
+      cons:
+        - "Keine Option mit Magnesiummix (Glycinat, Malat)"
+        - "Citrat kann bei empfindlichen Personen abführend wirken"
+      usage: "1 Kapsel zu einer Mahlzeit, bei höherem Bedarf morgens und abends je 1 Kapsel. Mit ausreichend Wasser einnehmen und Einnahme über den Tag verteilen."
+---

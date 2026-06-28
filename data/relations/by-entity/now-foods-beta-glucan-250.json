@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-beta-glucan-250",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "beta-glucan",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

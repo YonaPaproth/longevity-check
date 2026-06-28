@@ -1,0 +1,81 @@
+---
+id: jarrow-creatine-monohydrate
+type: product
+
+meta:
+  title: "Jarrow Creatine Monohydrate Powder"
+  ingredient: kreatin
+  containedIngredients:
+    - slug: kreatin
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 24.9
+  doseMg: 5000
+  servingsPerPack: 100
+  pricePerDayEur: 0.25
+  form: powder
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["informed-sport"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 10
+    explanation:
+      de: "Creatin ist einer der bestuntersuchten Leistungs- und Neuro-Support-Stoffe."
+      en: "Creatin ist einer der bestuntersuchten Leistungs- und Neuro-Support-Stoffe."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,25 € pro 5 g ist top für Markenware."
+      en: "0,25 € pro 5 g ist top für Markenware."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Mikronisierte Qualität, aber kein offizielles Creapure-Logo."
+      en: "Mikronisierte Qualität, aber kein offizielles Creapure-Logo."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Deklariert exakt 5 g Monohydrat pro Scoop."
+      en: "Deklariert exakt 5 g Monohydrat pro Scoop."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Jarrow testet auf Kreatinin, Schwermetalle und mikrobiologische Belastung."
+      en: "Jarrow testet auf Kreatinin, Schwermetalle und mikrobiologische Belastung."
+
+locales:
+  de:
+    summary: "Mikronisiertes Creapure-Äquivalent ohne Zusätze, löst sich gut und ist laborgeprüft."
+    verdictNote: "Standardlösung für Kraft, Gehirn und Zellenergie ohne Zucker oder Zusatzstoffe."
+    body:
+      description: "Fein gemahlenes Kreatin-Monohydrat, das sich auch in kaltem Wasser schnell löst. Das Pulver ist geschmacksneutral und lässt sich in Smoothies rühren."
+      pros:
+        - "Messlöffel liegt bei"
+        - "Keine Süßstoffe oder Aromen"
+        - "Gute Löslichkeit ohne Schaum"
+      cons:
+        - "Eimer muss gut verschlossen werden, da hygroskopisch"
+        - "Kein offizielles Creapure-Siegel"
+      usage: "Standard: 5 g täglich zur gleichen Zeit, optional Ladephase 4×5 g über 5 Tage. Viel Wasser trinken."
+  en:
+    summary: "Mikronisiertes Creapure-Äquivalent ohne Zusätze, löst sich gut und ist laborgeprüft."
+    verdictNote: "Standardlösung für Kraft, Gehirn und Zellenergie ohne Zucker oder Zusatzstoffe."
+    body:
+      description: "Fein gemahlenes Kreatin-Monohydrat, das sich auch in kaltem Wasser schnell löst. Das Pulver ist geschmacksneutral und lässt sich in Smoothies rühren."
+      pros:
+        - "Messlöffel liegt bei"
+        - "Keine Süßstoffe oder Aromen"
+        - "Gute Löslichkeit ohne Schaum"
+      cons:
+        - "Eimer muss gut verschlossen werden, da hygroskopisch"
+        - "Kein offizielles Creapure-Siegel"
+      usage: "Standard: 5 g täglich zur gleichen Zeit, optional Ladephase 4×5 g über 5 Tage. Viel Wasser trinken."
+---

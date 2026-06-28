@@ -1,0 +1,85 @@
+---
+id: pure-encapsulations-manganese
+type: product
+
+meta:
+  title: "Pure Encapsulations Manganese 5 mg"
+  ingredient: mangan
+  containedIngredients:
+    - slug: mangan
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.purecaps.net/de/manganese-5-mg"
+  affiliateUrl: ""
+  priceEur: 18
+  doseMg: 5
+  servingsPerPack: 90
+  pricePerDayEur: 0.2
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Mangan ist Cofaktor vieler Enzyme, aber Supplementbedarf besteht nur bei dokumentierten Lücken oder speziellen Diäten."
+      en: "Mangan ist Cofaktor vieler Enzyme, aber Supplementbedarf besteht nur bei dokumentierten Lücken oder speziellen Diäten."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,20 € pro Tag ist fair für Pure-Encapsulations-Qualität und hypoallergene Rezeptur."
+      en: "0,20 € pro Tag ist fair für Pure-Encapsulations-Qualität und hypoallergene Rezeptur."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Hypoallergenes Kapselsystem, strenge Reinheitsstandards, streng qualitätsorientiert orientierte Fertigung."
+      en: "Hypoallergenes Kapselsystem, strenge Reinheitsstandards, streng qualitätsorientiert orientierte Fertigung."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare Deklaration der Chelatform und Hilfsstoffe, keine Gesundheitsversprechen."
+      en: "Klare Deklaration der Chelatform und Hilfsstoffe, keine Gesundheitsversprechen."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Pure Encapsulations veröffentlicht Prüfzertifikate und produziert nach streng qualitätsorientierten Standards."
+      en: "Pure Encapsulations veröffentlicht Prüfzertifikate und produziert nach streng qualitätsorientierten Standards."
+
+locales:
+  de:
+    summary: "Hypoallergene 5-mg-Mangan-Kapseln als Aminosäurechelat, gut geeignet für zielgerichtete Ergänzung bei niedriger Aufnahme."
+    verdictNote: "Für funktionelle Labors oder Spezialdiäten eine saubere, allergenarme Manganquelle."
+    body:
+      description: "Pure Encapsulations setzt auf **Mangan-Bisglycinat**, also ein Aminosäurechelat mit guter Bioverfügbarkeit. Die Kapseln sind frei von Gluten, Laktose und unnötigen Farbstoffen."
+      pros:
+        - "**Hypoallergene Formulierung**"
+        - "**Transparente Rohstoffketten**"
+        - "**Praktische 5-mg-Dosierung** für flexible Protokolle"
+        - "**Kapseln klein und leicht schluckbar**"
+      cons:
+        - "**Preis höher als Discounterprodukte**, auch wenn Qualität top ist"
+        - "**Kein Kombinationsstoff** wie Silicium oder Vitamin C"
+        - "**Manganbedarf selten**, daher eher Speziallösung"
+      usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit, außer bei diagnostiziertem Mangel – dann nach ärztlicher Vorgabe täglich nutzen. Nicht mit eisenreichen Mahlzeiten kombinieren, um Absorption zu optimieren."
+  en:
+    summary: "Hypoallergene 5-mg-Mangan-Kapseln als Aminosäurechelat, gut geeignet für zielgerichtete Ergänzung bei niedriger Aufnahme."
+    verdictNote: "Für funktionelle Labors oder Spezialdiäten eine saubere, allergenarme Manganquelle."
+    body:
+      description: "Pure Encapsulations setzt auf **Mangan-Bisglycinat**, also ein Aminosäurechelat mit guter Bioverfügbarkeit. Die Kapseln sind frei von Gluten, Laktose und unnötigen Farbstoffen."
+      pros:
+        - "**Hypoallergene Formulierung**"
+        - "**Transparente Rohstoffketten**"
+        - "**Praktische 5-mg-Dosierung** für flexible Protokolle"
+        - "**Kapseln klein und leicht schluckbar**"
+      cons:
+        - "**Preis höher als Discounterprodukte**, auch wenn Qualität top ist"
+        - "**Kein Kombinationsstoff** wie Silicium oder Vitamin C"
+        - "**Manganbedarf selten**, daher eher Speziallösung"
+      usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit, außer bei diagnostiziertem Mangel – dann nach ärztlicher Vorgabe täglich nutzen. Nicht mit eisenreichen Mahlzeiten kombinieren, um Absorption zu optimieren."
+---

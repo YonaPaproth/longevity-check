@@ -1,0 +1,82 @@
+---
+id: now-foods-glucosamine-chondroitin
+type: product
+
+meta:
+  title: "NOW Foods Glucosamine & Chondroitin Extra Strength"
+  ingredient: glucosamin
+  containedIngredients:
+    - slug: glucosamin
+    - slug: msm
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 32
+  doseMg: 1500
+  servingsPerPack: 120
+  pricePerDayEur: 0.27
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Glucosamin/Chondroitin ist vor allem im Kontext von Gelenkbeschwerden untersucht."
+      en: "Glucosamin/Chondroitin ist vor allem im Kontext von Gelenkbeschwerden untersucht."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,27 € pro Tablette mit klinischer Dosierung ist fair."
+      en: "0,27 € pro Tablette mit klinischer Dosierung ist fair."
+  productQuality:
+    score: 7
+    explanation:
+      de: "GMP-gefertigt mit strenger Schwermetallprüfung."
+      en: "GMP-gefertigt mit strenger Schwermetallprüfung."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklariert Sulfatformen und Mengen klar."
+      en: "Deklariert Sulfatformen und Mengen klar."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Keine externen Siegel, aber interne HPLC-Tests."
+      en: "Keine externen Siegel, aber interne HPLC-Tests."
+
+locales:
+  de:
+    summary: "Extra-Stärke Tabletten mit 1500 mg Glucosamin plus Chondroitin – klinisch erprobtes Gelenk-Duo."
+    verdictNote: "Bequeme Kompletttablette für Gelenkpatient:innen."
+    body:
+      description: "Jede Tablette liefert 1500 mg Glucosaminsulfat, 1200 mg Chondroitinsulfat und 100 mg MSM. Tabletten sind filmüberzogen für leichteres Schlucken."
+      pros:
+        - "Klinisch relevante Dosierung in einer Tablette"
+        - "Zusatz von MSM"
+        - "Laborgeprüfte tierische Rohstoffe"
+      cons:
+        - "Tabletten sind groß"
+        - "Nicht vegan"
+      usage: "1 Tablette täglich zu einer Mahlzeit mit Fett einnehmen, Geduld für 8-12 Wochen einplanen."
+  en:
+    summary: "Extra-Stärke Tabletten mit 1500 mg Glucosamin plus Chondroitin – klinisch erprobtes Gelenk-Duo."
+    verdictNote: "Bequeme Kompletttablette für Gelenkpatient:innen."
+    body:
+      description: "Jede Tablette liefert 1500 mg Glucosaminsulfat, 1200 mg Chondroitinsulfat und 100 mg MSM. Tabletten sind filmüberzogen für leichteres Schlucken."
+      pros:
+        - "Klinisch relevante Dosierung in einer Tablette"
+        - "Zusatz von MSM"
+        - "Laborgeprüfte tierische Rohstoffe"
+      cons:
+        - "Tabletten sind groß"
+        - "Nicht vegan"
+      usage: "1 Tablette täglich zu einer Mahlzeit mit Fett einnehmen, Geduld für 8-12 Wochen einplanen."
+---

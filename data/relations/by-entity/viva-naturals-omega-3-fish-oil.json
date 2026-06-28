@@ -1,0 +1,11 @@
+{
+  "entity": "viva-naturals-omega-3-fish-oil",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "omega-3",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

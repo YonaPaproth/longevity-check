@@ -1,0 +1,92 @@
+---
+id: sunday-natural-vitamin-b-komplex
+type: product
+
+meta:
+  title: "Sunday Natural Vitamin B Komplex"
+  ingredient: vitamin-b6
+  containedIngredients:
+    - slug: vitamin-b1
+    - slug: vitamin-b2
+    - slug: vitamin-b3
+    - slug: vitamin-b5
+    - slug: vitamin-b6
+    - slug: vitamin-b7
+    - slug: vitamin-b12
+    - slug: folsaeure
+    - slug: cholin
+    - slug: myo-inositol
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de"
+  affiliateUrl: ""
+  priceEur: 24
+  doseMg: 50
+  servingsPerPack: 60
+  pricePerDayEur: 0.4
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "B-Komplex deckt essentielle Cofaktoren für Energie- und Neurotransmitterstoffwechsel ab."
+      en: "B-Komplex deckt essentielle Cofaktoren für Energie- und Neurotransmitterstoffwechsel ab."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,40 € pro Tag für bioaktive Formen (P5P, Methylfolat) ist fair."
+      en: "0,40 € pro Tag für bioaktive Formen (P5P, Methylfolat) ist fair."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Hergestellt in Berlin, enthält aktive Formen wie MeCbl, P5P, Benfotiamin, keine Gentechnik."
+      en: "Hergestellt in Berlin, enthält aktive Formen wie MeCbl, P5P, Benfotiamin, keine Gentechnik."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Alle Vitamine mit mg/µg-Angaben und Form (z. B. Methylcobalamin) ausgewiesen."
+      en: "Alle Vitamine mit mg/µg-Angaben und Form (z. B. Methylcobalamin) ausgewiesen."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Mikrobiologische Tests durch deutsche Labore, COAs über QR-Code abrufbar."
+      en: "Mikrobiologische Tests durch deutsche Labore, COAs über QR-Code abrufbar."
+
+locales:
+  de:
+    summary: "Alle acht B-Vitamine in aktiven Formen, Made in Germany und ohne synthetische Farbstoffe."
+    verdictNote: "Sauberer Tageskomplex mit aktiven B-Vitaminformen für stressige Phasen oder Veganer."
+    body:
+      description: "Jede Kapsel kombiniert alle acht B-Vitamine in physiologisch aktiven Formen: Benfotiamin, Riboflavin-5-Phosphat, P5P, Methylfolat, Methylcobalamin, Biotin, Pantothensäure und Niacinamid. Produziert in Berlin mit pflanzlichen Kapseln."
+      pros:
+        - "Aktive Coenzym-Formen, keine billigen Salze"
+        - "Made in Germany mit QR-Code zu Laborwerten"
+        - "Frei von Magnesiumstearat und Silikaten"
+        - "Enthält Inositol und Cholin als Bonus"
+      cons:
+        - "50 mg Niacinamid kann Flush verursachen, wenn empfindlich"
+        - "Keine getrennten AM/PM-Kapseln"
+      usage: "1 Kapsel zu einer Mahlzeit mit etwas Fett. Bei hohem Stress morgens und nachmittags je 1 Kapsel, ausreichend Wasser trinken und abends nicht zu spät einnehmen."
+  en:
+    summary: "Alle acht B-Vitamine in aktiven Formen, Made in Germany und ohne synthetische Farbstoffe."
+    verdictNote: "Sauberer Tageskomplex mit aktiven B-Vitaminformen für stressige Phasen oder Veganer."
+    body:
+      description: "Jede Kapsel kombiniert alle acht B-Vitamine in physiologisch aktiven Formen: Benfotiamin, Riboflavin-5-Phosphat, P5P, Methylfolat, Methylcobalamin, Biotin, Pantothensäure und Niacinamid. Produziert in Berlin mit pflanzlichen Kapseln."
+      pros:
+        - "Aktive Coenzym-Formen, keine billigen Salze"
+        - "Made in Germany mit QR-Code zu Laborwerten"
+        - "Frei von Magnesiumstearat und Silikaten"
+        - "Enthält Inositol und Cholin als Bonus"
+      cons:
+        - "50 mg Niacinamid kann Flush verursachen, wenn empfindlich"
+        - "Keine getrennten AM/PM-Kapseln"
+      usage: "1 Kapsel zu einer Mahlzeit mit etwas Fett. Bei hohem Stress morgens und nachmittags je 1 Kapsel, ausreichend Wasser trinken und abends nicht zu spät einnehmen."
+---

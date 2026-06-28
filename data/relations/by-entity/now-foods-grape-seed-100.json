@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-grape-seed-100",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "resveratrol",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

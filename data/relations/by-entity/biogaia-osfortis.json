@@ -1,0 +1,11 @@
+{
+  "entity": "biogaia-osfortis",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "l-reuteri-6475",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

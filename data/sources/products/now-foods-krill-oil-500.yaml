@@ -1,0 +1,84 @@
+---
+id: now-foods-krill-oil-500
+type: product
+
+meta:
+  title: "NOW Foods Neptune Krill Oil 500 mg"
+  ingredient: omega-3
+  containedIngredients:
+    - slug: omega-3
+    - slug: astaxanthin
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com/supplements/neptune-krill-oil-500-mg"
+  affiliateUrl: ""
+  priceEur: 34
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.57
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Krillöl zeigt in Studien bessere Omega-3-Index-Steigerung als Standardfischöl bei geringerer Dosis."
+      en: "Krillöl zeigt in Studien bessere Omega-3-Index-Steigerung als Standardfischöl bei geringerer Dosis."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,57 € pro Portion ist fair für zertifiziertes NKO mit Astaxanthin."
+      en: "0,57 € pro Portion ist fair für zertifiziertes NKO mit Astaxanthin."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Neptune ist der Pionier für streng qualitätsorientiert extrahiertes Krillöl mit sehr niedrigen TOTOX-Werten."
+      en: "Neptune ist der Pionier für streng qualitätsorientiert extrahiertes Krillöl mit sehr niedrigen TOTOX-Werten."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "EPA/DHA, Phospholipidgehalt und Astaxanthin sind detailliert aufgeführt."
+      en: "EPA/DHA, Phospholipidgehalt und Astaxanthin sind detailliert aufgeführt."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "NOW stellt COAs bereit, zusätzlich überwachen norwegische Labore Schwermetalle."
+      en: "NOW stellt COAs bereit, zusätzlich überwachen norwegische Labore Schwermetalle."
+
+locales:
+  de:
+    summary: "Neptune-Krillöl mit phospholipid-gebundenem Omega-3 und natürlichem Astaxanthin für bessere Aufnahme bei moderatem Preis."
+    verdictNote: "Für Anwender, die Phospholipid-gebundene Omega-3 bevorzugen, eine ausgewogene Wahl."
+    body:
+      description: "Neptune Krill Oil liefert 500 mg Krillöl pro Softgel mit rund 120 mg EPA, 55 mg DHA und 100 mg Phospholipiden. Zusätzlich sind 0,6 mg Astaxanthin als antioxidativer Schutz enthalten."
+      pros:
+        - "Phospholipidbindung wird mit einer anderen Aufnahmecharakteristik in Verbindung gebracht"
+        - "Enthält natürliches Astaxanthin"
+        - "Kleinere Softgels als Fischöl"
+        - "Nachhaltige Krillfischerei (MSC-Style) zertifiziert"
+      cons:
+        - "Niedrigere absolute EPA/DHA-Menge als hochdosierte Fischöle"
+        - "Enthält Schalentiere, daher nicht für Allergiker"
+      usage: "2 Softgels täglich zu einer Mahlzeit mit Fett. Bei empfindlichem Magen Softgels zu Beginn der Mahlzeit nehmen."
+  en:
+    summary: "Neptune-Krillöl mit phospholipid-gebundenem Omega-3 und natürlichem Astaxanthin für bessere Aufnahme bei moderatem Preis."
+    verdictNote: "Für Anwender, die Phospholipid-gebundene Omega-3 bevorzugen, eine ausgewogene Wahl."
+    body:
+      description: "Neptune Krill Oil liefert 500 mg Krillöl pro Softgel mit rund 120 mg EPA, 55 mg DHA und 100 mg Phospholipiden. Zusätzlich sind 0,6 mg Astaxanthin als antioxidativer Schutz enthalten."
+      pros:
+        - "Phospholipidbindung wird mit einer anderen Aufnahmecharakteristik in Verbindung gebracht"
+        - "Enthält natürliches Astaxanthin"
+        - "Kleinere Softgels als Fischöl"
+        - "Nachhaltige Krillfischerei (MSC-Style) zertifiziert"
+      cons:
+        - "Niedrigere absolute EPA/DHA-Menge als hochdosierte Fischöle"
+        - "Enthält Schalentiere, daher nicht für Allergiker"
+      usage: "2 Softgels täglich zu einer Mahlzeit mit Fett. Bei empfindlichem Magen Softgels zu Beginn der Mahlzeit nehmen."
+---

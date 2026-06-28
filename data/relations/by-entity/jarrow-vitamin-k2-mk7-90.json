@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-vitamin-k2-mk7-90",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-k2",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

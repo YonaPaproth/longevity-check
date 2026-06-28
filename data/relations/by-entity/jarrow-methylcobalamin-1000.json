@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-methylcobalamin-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-b12",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

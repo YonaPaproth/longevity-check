@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-sulforaphane",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "sulforaphan",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

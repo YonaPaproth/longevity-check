@@ -1,0 +1,85 @@
+---
+id: moleqlar-tmg-plus-2000
+type: product
+
+meta:
+  title: "MoleQlar TMG Plus 2000 mg"
+  ingredient: tmg
+  containedIngredients:
+    - slug: tmg
+    - slug: folsaeure
+    - slug: vitamin-b12
+  vendor: "MoleQlar"
+  vendorUrl: "https://moleqlar.de"
+  affiliateUrl: ""
+  priceEur: 44
+  doseMg: 2000
+  servingsPerPack: 60
+  pricePerDayEur: 0.73
+  form: powder
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "TMG senkte Homocystein und unterstützt Methylierungsprozesse, Evidenz stammt aus Humanstudien."
+      en: "TMG senkte Homocystein und unterstützt Methylierungsprozesse, Evidenz stammt aus Humanstudien."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,73 € pro 2 g plus Folat ist sehr fair."
+      en: "0,73 € pro 2 g plus Folat ist sehr fair."
+  productQuality:
+    score: 9
+    explanation:
+      de: "MoleQlar mischt in ISO-9001-Anlage und liefert COAs für TMG und Vitaminbeigaben."
+      en: "MoleQlar mischt in ISO-9001-Anlage und liefert COAs für TMG und Vitaminbeigaben."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Alle Mikronährstoffe mit µg-Angaben, keine Proprietary Blends."
+      en: "Alle Mikronährstoffe mit µg-Angaben, keine Proprietary Blends."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Unabhängige Prüfungen auf Schwermetalle und Identität liegen bei."
+      en: "Unabhängige Prüfungen auf Schwermetalle und Identität liegen bei."
+
+locales:
+  de:
+    summary: "Pulver mit 2 g Trimethylglycin plus Folat und B12 – ISO-9001-geprüfte Mischung aus München."
+    verdictNote: "Praktisches Add-on für alle, die NAD+-Vorläufer oder Kreatin hochdosiert nutzen und Methylpuffer brauchen."
+    body:
+      description: "Die Mischung kombiniert 2 g Trimethylglycin mit 400 µg Folat (Quatrefolic) und 500 µg Methylcobalamin. Geschmacklich neutral, löst sich gut in Wasser oder Saft."
+      pros:
+        - "Pro Portion 2 g TMG – spart Kapseln"
+        - "Zusatz von Folat und B12 deckt Methylbedarf"
+        - "ISO-9001-produziert in Deutschland"
+      cons:
+        - "Pulver muss abgewogen werden"
+        - "Leicht süßer Eigengeschmack"
+        - "Nur 60 Portionen pro Dose"
+      usage: "1 Messlöffel (ca. 5 g) in Wasser oder Smoothie einrühren und zu einer Mahlzeit einnehmen; zweite Portion bei intensiver NR/NMN-Nutzung ergänzen."
+  en:
+    summary: "Pulver mit 2 g Trimethylglycin plus Folat und B12 – ISO-9001-geprüfte Mischung aus München."
+    verdictNote: "Praktisches Add-on für alle, die NAD+-Vorläufer oder Kreatin hochdosiert nutzen und Methylpuffer brauchen."
+    body:
+      description: "Die Mischung kombiniert 2 g Trimethylglycin mit 400 µg Folat (Quatrefolic) und 500 µg Methylcobalamin. Geschmacklich neutral, löst sich gut in Wasser oder Saft."
+      pros:
+        - "Pro Portion 2 g TMG – spart Kapseln"
+        - "Zusatz von Folat und B12 deckt Methylbedarf"
+        - "ISO-9001-produziert in Deutschland"
+      cons:
+        - "Pulver muss abgewogen werden"
+        - "Leicht süßer Eigengeschmack"
+        - "Nur 60 Portionen pro Dose"
+      usage: "1 Messlöffel (ca. 5 g) in Wasser oder Smoothie einrühren und zu einer Mahlzeit einnehmen; zweite Portion bei intensiver NR/NMN-Nutzung ergänzen."
+---

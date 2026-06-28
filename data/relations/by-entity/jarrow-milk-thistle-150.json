@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-milk-thistle-150",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "silymarin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

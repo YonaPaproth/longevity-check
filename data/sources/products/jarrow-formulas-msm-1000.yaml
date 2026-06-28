@@ -1,0 +1,81 @@
+---
+id: jarrow-formulas-msm-1000
+type: product
+
+meta:
+  title: "Jarrow Formulas MSM 1000mg"
+  ingredient: msm
+  containedIngredients:
+    - slug: msm
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 16
+  doseMg: 1000
+  servingsPerPack: 200
+  pricePerDayEur: 0.08
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "MSM zeigt moderate Evidenz für Gelenkschmerzen und Hautqualität."
+      en: "MSM zeigt moderate Evidenz für Gelenkschmerzen und Hautqualität."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,08 € pro Gramm OptiMSM ist exzellent."
+      en: "0,08 € pro Gramm OptiMSM ist exzellent."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Destilliertes OptiMSM aus den USA."
+      en: "Destilliertes OptiMSM aus den USA."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklariert Marke und Menge eindeutig."
+      en: "Deklariert Marke und Menge eindeutig."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "OptiMSM bringt eigene COA ein, Jarrow ergänzt interne Tests."
+      en: "OptiMSM bringt eigene COA ein, Jarrow ergänzt interne Tests."
+
+locales:
+  de:
+    summary: "OptiMSM in veganen Kapseln – 1 g organischer Schwefel pro Portion für Gelenke und Haut."
+    verdictNote: "Großpackung für langfristige Gelenk- und Hautprotokolle."
+    body:
+      description: "OptiMSM wird vierfach destilliert und mikrofiltriert. Jarrow kapselt das Pulver in vegane Hüllen und verzichtet auf Fließmittel."
+      pros:
+        - "OptiMSM Markenrohstoff"
+        - "200 Portionen pro Dose"
+        - "Geruchsarm trotz Schwefel"
+      cons:
+        - "Braucht mehrere Wochen bis Wirkung spürbar ist"
+        - "Zwei Kapseln für 2 g nötig"
+      usage: "1–2 Kapseln zu Mahlzeiten, kombiniert mit Vitamin C und Kollagen für bessere Matrixbildung."
+  en:
+    summary: "OptiMSM in veganen Kapseln – 1 g organischer Schwefel pro Portion für Gelenke und Haut."
+    verdictNote: "Großpackung für langfristige Gelenk- und Hautprotokolle."
+    body:
+      description: "OptiMSM wird vierfach destilliert und mikrofiltriert. Jarrow kapselt das Pulver in vegane Hüllen und verzichtet auf Fließmittel."
+      pros:
+        - "OptiMSM Markenrohstoff"
+        - "200 Portionen pro Dose"
+        - "Geruchsarm trotz Schwefel"
+      cons:
+        - "Braucht mehrere Wochen bis Wirkung spürbar ist"
+        - "Zwei Kapseln für 2 g nötig"
+      usage: "1–2 Kapseln zu Mahlzeiten, kombiniert mit Vitamin C und Kollagen für bessere Matrixbildung."
+---

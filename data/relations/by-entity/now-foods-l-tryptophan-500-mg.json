@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-l-tryptophan-500-mg",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "l-tryptophan",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

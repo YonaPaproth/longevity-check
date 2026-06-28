@@ -1,0 +1,81 @@
+---
+id: thorne-berberine-500
+type: product
+
+meta:
+  title: "Thorne Berberine 500mg"
+  ingredient: berberine
+  containedIngredients:
+    - slug: berberine
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 54
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.9
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf","informed-choice"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Mehrere Meta-Analysen zeigen Effekte auf HbA1c und Lipide."
+      en: "Mehrere Meta-Analysen zeigen Effekte auf HbA1c und Lipide."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,90 € pro 500 mg liegt im Marktschnitt für Premiumanbieter."
+      en: "0,90 € pro 500 mg liegt im Marktschnitt für Premiumanbieter."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Thorne reinigt Berberin doppelt und testet auf Berberrubin-Verunreinigungen."
+      en: "Thorne reinigt Berberin doppelt und testet auf Berberrubin-Verunreinigungen."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Volle Deklaration ohne proprietäre Blends."
+      en: "Volle Deklaration ohne proprietäre Blends."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF und Informed-Choice sichern Reinheit."
+      en: "NSF und Informed-Choice sichern Reinheit."
+
+locales:
+  de:
+    summary: "GMP-geprüftes Berberin-HCl mit 500 mg pro Kapsel für Blutzucker- und Lipidmanagement."
+    verdictNote: "Saubere Formulierung für Anwender, die metabolische Marker gezielt adressieren möchten."
+    body:
+      description: "Thorne gewinnt Berberin aus Berberis aristata und entfernt oxidierte Alkaloide. Die Kapseln sind vegan und enthalten keine problematischen Füllstoffe."
+      pros:
+        - "Sehr stabile Gelbfarbe zeigt Reinheit an"
+        - "Labortests auf mikrobiologische Belastung"
+        - "Gute Verträglichkeit trotz hoher Dosis"
+      cons:
+        - "Preis höher als asiatische Bulk-Anbieter"
+        - "Kann bei empfindlichen Personen Darmgrummeln verursachen"
+      usage: "1 Kapsel zu jeder der zwei größten Mahlzeiten. Bei Medikamenten (insb. Metformin) vorher mit Arzt klären."
+  en:
+    summary: "GMP-geprüftes Berberin-HCl mit 500 mg pro Kapsel für Blutzucker- und Lipidmanagement."
+    verdictNote: "Saubere Formulierung für Anwender, die metabolische Marker gezielt adressieren möchten."
+    body:
+      description: "Thorne gewinnt Berberin aus Berberis aristata und entfernt oxidierte Alkaloide. Die Kapseln sind vegan und enthalten keine problematischen Füllstoffe."
+      pros:
+        - "Sehr stabile Gelbfarbe zeigt Reinheit an"
+        - "Labortests auf mikrobiologische Belastung"
+        - "Gute Verträglichkeit trotz hoher Dosis"
+      cons:
+        - "Preis höher als asiatische Bulk-Anbieter"
+        - "Kann bei empfindlichen Personen Darmgrummeln verursachen"
+      usage: "1 Kapsel zu jeder der zwei größten Mahlzeiten. Bei Medikamenten (insb. Metformin) vorher mit Arzt klären."
+---

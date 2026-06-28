@@ -1,0 +1,81 @@
+---
+id: now-foods-5-htp-100
+type: product
+
+meta:
+  title: "NOW Foods 5-HTP 100mg"
+  ingredient: 5-htp
+  containedIngredients:
+    - slug: 5-htp
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 24
+  doseMg: 100
+  servingsPerPack: 120
+  pricePerDayEur: 0.2
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "5-HTP zeigt Effekte auf Stimmung und Schlaf, benötigt aber Vorsicht bei Medikation."
+      en: "5-HTP zeigt Effekte auf Stimmung und Schlaf, benötigt aber Vorsicht bei Medikation."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,20 € pro Portion ist sehr günstig."
+      en: "0,20 € pro Portion ist sehr günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Rohstoff wird auf Peak X geprüft."
+      en: "Rohstoff wird auf Peak X geprüft."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare Griffonia-Angabe."
+      en: "Klare Griffonia-Angabe."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW testet auf Peak X und Alkaloide, externe Prüfsiegel fehlen."
+      en: "NOW testet auf Peak X und Alkaloide, externe Prüfsiegel fehlen."
+
+locales:
+  de:
+    summary: "5-HTP aus Griffonia-Samen mit 100 mg pro Kapsel für Serotonin- und Schlaf-Kontexte."
+    verdictNote: "Preiswert, aber wegen Serotonin-Interaktionen nur mit Fachbegleitung einsetzen."
+    body:
+      description: "NOW bezieht Griffonia simplicifolia aus Ghana und extrahiert 5-HTP standardisiert auf 99%. Die Kapseln enthalten Reismehl zur Stabilisierung."
+      pros:
+        - "Hoher Reinheitsgrad"
+        - "Große 120-Kapsel-Dose"
+        - "Vegan"
+      cons:
+        - "Nicht für SSRIs oder MAO-Hemmer geeignet"
+        - "Kann bei empfindlichen Personen Übelkeit verursachen"
+      usage: "1 Kapsel abends oder zwischen den Mahlzeiten. Immer 2 Stunden Abstand zu Eiweiß und Medikamenten halten."
+  en:
+    summary: "5-HTP aus Griffonia-Samen mit 100 mg pro Kapsel für Serotonin- und Schlaf-Kontexte."
+    verdictNote: "Preiswert, aber wegen Serotonin-Interaktionen nur mit Fachbegleitung einsetzen."
+    body:
+      description: "NOW bezieht Griffonia simplicifolia aus Ghana und extrahiert 5-HTP standardisiert auf 99%. Die Kapseln enthalten Reismehl zur Stabilisierung."
+      pros:
+        - "Hoher Reinheitsgrad"
+        - "Große 120-Kapsel-Dose"
+        - "Vegan"
+      cons:
+        - "Nicht für SSRIs oder MAO-Hemmer geeignet"
+        - "Kann bei empfindlichen Personen Übelkeit verursachen"
+      usage: "1 Kapsel abends oder zwischen den Mahlzeiten. Immer 2 Stunden Abstand zu Eiweiß und Medikamenten halten."
+---

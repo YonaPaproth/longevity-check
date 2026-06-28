@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-alpha-lipoic-acid-300",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "alpha-liponsaeure",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

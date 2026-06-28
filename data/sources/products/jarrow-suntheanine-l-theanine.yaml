@@ -1,0 +1,81 @@
+---
+id: jarrow-suntheanine-l-theanine
+type: product
+
+meta:
+  title: "Jarrow Suntheanine L-Theanine 100mg"
+  ingredient: l-theanin
+  containedIngredients:
+    - slug: l-theanin
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 22
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.37
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "L-Theanin reduziert subjektiven Stress in mehreren RCTs."
+      en: "L-Theanin reduziert subjektiven Stress in mehreren RCTs."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,37 € pro Kapsel ist angemessen für Markenrohstoff."
+      en: "0,37 € pro Kapsel ist angemessen für Markenrohstoff."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Suntheanine garantiert 100% L-Isomer."
+      en: "Suntheanine garantiert 100% L-Isomer."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Deklariert klar, keine Mischungen."
+      en: "Deklariert klar, keine Mischungen."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "COAs zeigen Reinheit und fehlende D-Isomere."
+      en: "COAs zeigen Reinheit und fehlende D-Isomere."
+
+locales:
+  de:
+    summary: "Suntheanine-Markenrohstoff mit 100 mg pro Kapsel für ruhige Konzentration."
+    verdictNote: "Beständige Wirkung auf Fokus- und Ruhe-Kontexte – gut geeignet mit Kaffee."
+    body:
+      description: "Suntheanine wird in Japan fermentativ produziert. Die Kapseln von Jarrow sind vegan und enthalten nur Reismehl als Träger."
+      pros:
+        - "Spürbarer Effekt nach 20 Minuten"
+        - "Keine Sedierung"
+        - "Vegane Kapseln"
+      cons:
+        - "Nur 60 Portionen"
+        - "Kapseln etwas staubig"
+      usage: "1 Kapsel zusammen mit Kaffee oder in Stresssituationen. Bei Schlafsupport 2 Kapseln abends."
+  en:
+    summary: "Suntheanine-Markenrohstoff mit 100 mg pro Kapsel für ruhige Konzentration."
+    verdictNote: "Beständige Wirkung auf Fokus- und Ruhe-Kontexte – gut geeignet mit Kaffee."
+    body:
+      description: "Suntheanine wird in Japan fermentativ produziert. Die Kapseln von Jarrow sind vegan und enthalten nur Reismehl als Träger."
+      pros:
+        - "Spürbarer Effekt nach 20 Minuten"
+        - "Keine Sedierung"
+        - "Vegane Kapseln"
+      cons:
+        - "Nur 60 Portionen"
+        - "Kapseln etwas staubig"
+      usage: "1 Kapsel zusammen mit Kaffee oder in Stresssituationen. Bei Schlafsupport 2 Kapseln abends."
+---

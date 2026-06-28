@@ -1,0 +1,81 @@
+---
+id: pure-encapsulations-probiotic-5
+type: product
+
+meta:
+  title: "Pure Encapsulations Probiotic 5"
+  ingredient: probiotika
+  containedIngredients:
+    - slug: probiotika
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.purecaps.de"
+  affiliateUrl: ""
+  priceEur: 42
+  doseMg: 5
+  servingsPerPack: 60
+  pricePerDayEur: 0.7
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Die enthaltenen Lactobacillus- und Bifido-Stämme decken Digestiv- und Immunstudien ab, wenn auch mit moderater CFU."
+      en: "Die enthaltenen Lactobacillus- und Bifido-Stämme decken Digestiv- und Immunstudien ab, wenn auch mit moderater CFU."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,70 € pro Tag ist akzeptabel für hypoallergenes Produkt mit 60 Portionen."
+      en: "0,70 € pro Tag ist akzeptabel für hypoallergenes Produkt mit 60 Portionen."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Pure Encapsulations ist streng qualitätsorientiert zertifiziert, arbeitet mit nitrogen-flushed Abfüllung."
+      en: "Pure Encapsulations ist streng qualitätsorientiert zertifiziert, arbeitet mit nitrogen-flushed Abfüllung."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Jeder Stamm mit CFU-Menge und Identifikationsnummer gelistet."
+      en: "Jeder Stamm mit CFU-Menge und Identifikationsnummer gelistet."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Unternehmensinterne COAs plus externe Tests auf Schwermetalle und Potenz."
+      en: "Unternehmensinterne COAs plus externe Tests auf Schwermetalle und Potenz."
+
+locales:
+  de:
+    summary: "Hypoallergenes 5-Stamm-Probiotikum ohne Präbiotika-Zusätze, geeignet für sensible Verdauung."
+    verdictNote: "Sehr verträgliches Basisprobiotikum für Menschen, die FODMAPs meiden müssen."
+    body:
+      description: "Probiotic 5 kombiniert B. bifidum, B. longum, L. acidophilus, L. paracasei und L. rhamnosus. Keine Milch, kein Gluten, keine Füllstoffe außer hypoallergenem Kartoffelstärke-Träger."
+      pros:
+        - "Frei von Inulin, Soja und Fruktose – perfekt für Histamin-Patient:innen"
+        - "DRCaps überleben Magensäure zuverlässig"
+        - "Gute Dokumentation der Stämme (BB-06, LA-14 etc.)"
+      cons:
+        - "Nur 5 Milliarden KBE – für akute Phasen etwas wenig"
+        - "Kein zusätzlicher Präbiotikakomplex zur langfristigen Kolonisierung"
+      usage: "1 Kapsel täglich zwischen den Mahlzeiten mit Wasser einnehmen. Bei therapeutischem Einsatz auf 2 Kapseln erhöhen und 4 Wochen konsequent nutzen."
+  en:
+    summary: "Hypoallergenes 5-Stamm-Probiotikum ohne Präbiotika-Zusätze, geeignet für sensible Verdauung."
+    verdictNote: "Sehr verträgliches Basisprobiotikum für Menschen, die FODMAPs meiden müssen."
+    body:
+      description: "Probiotic 5 kombiniert B. bifidum, B. longum, L. acidophilus, L. paracasei und L. rhamnosus. Keine Milch, kein Gluten, keine Füllstoffe außer hypoallergenem Kartoffelstärke-Träger."
+      pros:
+        - "Frei von Inulin, Soja und Fruktose – perfekt für Histamin-Patient:innen"
+        - "DRCaps überleben Magensäure zuverlässig"
+        - "Gute Dokumentation der Stämme (BB-06, LA-14 etc.)"
+      cons:
+        - "Nur 5 Milliarden KBE – für akute Phasen etwas wenig"
+        - "Kein zusätzlicher Präbiotikakomplex zur langfristigen Kolonisierung"
+      usage: "1 Kapsel täglich zwischen den Mahlzeiten mit Wasser einnehmen. Bei therapeutischem Einsatz auf 2 Kapseln erhöhen und 4 Wochen konsequent nutzen."
+---

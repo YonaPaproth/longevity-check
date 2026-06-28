@@ -1,0 +1,11 @@
+{
+  "entity": "sunday-natural-ashwagandha-600",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "ashwagandha",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

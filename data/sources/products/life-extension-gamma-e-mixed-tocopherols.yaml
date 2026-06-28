@@ -1,0 +1,85 @@
+---
+id: life-extension-gamma-e-mixed-tocopherols
+type: product
+
+meta:
+  title: "Life Extension Gamma E Mixed Tocopherols"
+  ingredient: vitamin-e
+  containedIngredients:
+    - slug: vitamin-e
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextension.com"
+  affiliateUrl: ""
+  priceEur: 24.9
+  doseMg: 268
+  servingsPerPack: 60
+  pricePerDayEur: 0.42
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Gemischte Tocopherole bieten ein breiteres Antioxidans-Spektrum als reines Alpha-Tocopherol. Gamma-Tocopherol hat eigene entzündungshemmende Eigenschaften."
+      en: "Gemischte Tocopherole bieten ein breiteres Antioxidans-Spektrum als reines Alpha-Tocopherol. Gamma-Tocopherol hat eigene entzündungshemmende Eigenschaften."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,42 € pro Tag für ein vollständiges Tocopherol-Spektrum ist angemessen."
+      en: "0,42 € pro Tag für ein vollständiges Tocopherol-Spektrum ist angemessen."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Life Extension verwendet alle vier Tocopherol-Formen (alpha, beta, gamma, delta) mit Schwerpunkt auf Gamma."
+      en: "Life Extension verwendet alle vier Tocopherol-Formen (alpha, beta, gamma, delta) mit Schwerpunkt auf Gamma."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Alle Tocopherol-Formen und Mengen einzeln deklariert."
+      en: "Alle Tocopherol-Formen und Mengen einzeln deklariert."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Life Extension unterhält eigenes Analytiklabor, COAs verfügbar."
+      en: "Life Extension unterhält eigenes Analytiklabor, COAs verfügbar."
+
+locales:
+  de:
+    summary: "Gemischte Tocopherole mit Schwerpunkt auf Gamma-Tocopherol — das vollständigere Vitamin-E-Spektrum."
+    verdictNote: "Intelligentere Vitamin-E-Supplementierung als rein Alpha-Tocopherol. Gamma-E adressiert das Tocopherol-Ungleichgewicht."
+    body:
+      description: "Während die meisten Vitamin-E-Supplements nur Alpha-Tocopherol enthalten, setzt Life Extension auf das volle Spektrum mit Schwerpunkt auf Gamma-Tocopherol. Gamma-E hat eigene entzündungshemmende Eigenschaften und wird durch hochdosiertes Alpha-Tocopherol sogar verdrängt — ein Argument für gemischte Tocopherole."
+      pros:
+        - "Alle vier Tocopherol-Formen statt nur Alpha"
+        - "Gamma-Tocopherol als Hauptkomponente — oft vernachlässigt"
+        - "Adressiert das Problem der Alpha-Tocopherol-Monosupplementierung"
+        - "Life Extension Qualitätsstandard"
+      cons:
+        - "Teurer als einfaches Vitamin E"
+        - "Die klinische Relevanz von Gamma vs. Alpha ist noch nicht abschließend geklärt"
+        - "60 Softgels = 2 Monate"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Nicht gleichzeitig mit Antikoagulanzien ohne ärztliche Rücksprache."
+  en:
+    summary: "Gemischte Tocopherole mit Schwerpunkt auf Gamma-Tocopherol — das vollständigere Vitamin-E-Spektrum."
+    verdictNote: "Intelligentere Vitamin-E-Supplementierung als rein Alpha-Tocopherol. Gamma-E adressiert das Tocopherol-Ungleichgewicht."
+    body:
+      description: "Während die meisten Vitamin-E-Supplements nur Alpha-Tocopherol enthalten, setzt Life Extension auf das volle Spektrum mit Schwerpunkt auf Gamma-Tocopherol. Gamma-E hat eigene entzündungshemmende Eigenschaften und wird durch hochdosiertes Alpha-Tocopherol sogar verdrängt — ein Argument für gemischte Tocopherole."
+      pros:
+        - "Alle vier Tocopherol-Formen statt nur Alpha"
+        - "Gamma-Tocopherol als Hauptkomponente — oft vernachlässigt"
+        - "Adressiert das Problem der Alpha-Tocopherol-Monosupplementierung"
+        - "Life Extension Qualitätsstandard"
+      cons:
+        - "Teurer als einfaches Vitamin E"
+        - "Die klinische Relevanz von Gamma vs. Alpha ist noch nicht abschließend geklärt"
+        - "60 Softgels = 2 Monate"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Nicht gleichzeitig mit Antikoagulanzien ohne ärztliche Rücksprache."
+---

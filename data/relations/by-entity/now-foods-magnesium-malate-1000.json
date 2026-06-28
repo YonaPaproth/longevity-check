@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-magnesium-malate-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "magnesium",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

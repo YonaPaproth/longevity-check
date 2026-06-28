@@ -1,0 +1,35 @@
+{
+  "entity": "braineffect-nad-boost",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nr",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "tmg",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-b12",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-b6",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-b3",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

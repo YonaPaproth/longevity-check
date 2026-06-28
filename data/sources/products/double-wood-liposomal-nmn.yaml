@@ -1,0 +1,85 @@
+---
+id: double-wood-liposomal-nmn
+type: product
+
+meta:
+  title: "Double Wood Liposomal NMN 250 mg"
+  ingredient: nmn
+  containedIngredients:
+    - slug: nmn
+  vendor: "Double Wood"
+  vendorUrl: "https://doublewoodsupplements.com/products/liposomal-nmn"
+  affiliateUrl: ""
+  priceEur: 64
+  doseMg: 250
+  servingsPerPack: 60
+  pricePerDayEur: 1.07
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "NMN zeigt spannende metabolische Daten, aber Humanstudien sind klein und meist kurz."
+      en: "NMN zeigt spannende metabolische Daten, aber Humanstudien sind klein und meist kurz."
+  valueForMoney:
+    score: 5
+    explanation:
+      de: "1,07 € pro 250 mg liegt im Mittelfeld für liposomale NMN-Produkte."
+      en: "1,07 € pro 250 mg liegt im Mittelfeld für liposomale NMN-Produkte."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Double Wood bietet COAs, testet auf Reinheit und nutzt phospholipidbeschichtete Partikel."
+      en: "Double Wood bietet COAs, testet auf Reinheit und nutzt phospholipidbeschichtete Partikel."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Dosierung, Partikelgröße und Labortests werden transparent geteilt, ohne Alterungsforschung-überzogene Versprechen."
+      en: "Dosierung, Partikelgröße und Labortests werden transparent geteilt, ohne Alterungsforschung-überzogene Versprechen."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Zertifikate stammen von unabhängigen US-Laboren, die auf Mikroben und Potenz testen."
+      en: "Zertifikate stammen von unabhängigen US-Laboren, die auf Mikroben und Potenz testen."
+
+locales:
+  de:
+    summary: "Liposomales NMN mit 250 mg pro Kapsel, verifizierte COA und lösemittelfreie Phospholipide für bessere Stabilität."
+    verdictNote: "Für Biohacker:innen, die NMN in stabiler liposomaler Form suchen, ist das ein guter Export-Pick."
+    body:
+      description: "Double Wood kombiniert 250 mg NMN mit einer Phospholipidmatrix aus Sonnenblumenlecithin. Jede Charge ist per LC-MS auf Reinheit geprüft und das COA kann über QR-Code geladen werden."
+      pros:
+        - "**Liposomale Stabilisierung** ist auf Schutz ausgerichtet NMN vor schneller Hydrolyse"
+        - "**COA verfügbar** für jede Charge"
+        - "**60 Portionen** decken zwei Monate"
+        - "**Kapseln ohne Magnesiumstearat**"
+      cons:
+        - "**Preislich hoch** vs. einfache Pulver"
+        - "**Keine EU-Produktion**, Importabhängigkeit"
+        - "**Klinische Daten zu liposomalem NMN fehlen**"
+      usage: "1 Kapsel morgens nüchtern oder zu einer leichten Mahlzeit. Für Split-Dosen kann man 1 Kapsel morgens und 1 abends nutzen; nicht über 500 mg täglich ohne ärztliches Monitoring gehen."
+  en:
+    summary: "Liposomales NMN mit 250 mg pro Kapsel, verifizierte COA und lösemittelfreie Phospholipide für bessere Stabilität."
+    verdictNote: "Für Biohacker:innen, die NMN in stabiler liposomaler Form suchen, ist das ein guter Export-Pick."
+    body:
+      description: "Double Wood kombiniert 250 mg NMN mit einer Phospholipidmatrix aus Sonnenblumenlecithin. Jede Charge ist per LC-MS auf Reinheit geprüft und das COA kann über QR-Code geladen werden."
+      pros:
+        - "**Liposomale Stabilisierung** ist auf Schutz ausgerichtet NMN vor schneller Hydrolyse"
+        - "**COA verfügbar** für jede Charge"
+        - "**60 Portionen** decken zwei Monate"
+        - "**Kapseln ohne Magnesiumstearat**"
+      cons:
+        - "**Preislich hoch** vs. einfache Pulver"
+        - "**Keine EU-Produktion**, Importabhängigkeit"
+        - "**Klinische Daten zu liposomalem NMN fehlen**"
+      usage: "1 Kapsel morgens nüchtern oder zu einer leichten Mahlzeit. Für Split-Dosen kann man 1 Kapsel morgens und 1 abends nutzen; nicht über 500 mg täglich ohne ärztliches Monitoring gehen."
+---

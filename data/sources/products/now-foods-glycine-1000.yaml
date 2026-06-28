@@ -1,0 +1,81 @@
+---
+id: now-foods-glycine-1000
+type: product
+
+meta:
+  title: "NOW Foods Glycine 1000mg"
+  ingredient: glycin
+  containedIngredients:
+    - slug: glycin
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 19.9
+  doseMg: 1000
+  servingsPerPack: 100
+  pricePerDayEur: 0.2
+  form: powder
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Humanstudien zeigen besseren Schlaf und niedrigeren Blutzucker."
+      en: "Humanstudien zeigen besseren Schlaf und niedrigeren Blutzucker."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,20 € pro Gramm ist sehr günstig."
+      en: "0,20 € pro Gramm ist sehr günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Pharma-Qualität, jedes Los auf D-Aminosäuren getestet."
+      en: "Pharma-Qualität, jedes Los auf D-Aminosäuren getestet."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare Angabe ohne Versteckspiele."
+      en: "Klare Angabe ohne Versteckspiele."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW veröffentlicht Aminosäure-Spezifikationen, aber keine externen Schlafstudien."
+      en: "NOW veröffentlicht Aminosäure-Spezifikationen, aber keine externen Schlafstudien."
+
+locales:
+  de:
+    summary: "Reines Glycinpulver mit leicht süßem Geschmack für Schlaf- und Methylierungs-Kontexte."
+    verdictNote: "Einfaches, vielseitiges Pulver mit angenehmem Geschmack für Abendroutine oder Kollagen-Booster."
+    body:
+      description: "Das feine Pulver löst sich in warmem Wasser komplett auf und schmeckt leicht süßlich. Perfekt zur Kombination mit Magnesium oder Kollagen."
+      pros:
+        - "Neutraler Geschmack"
+        - "Großer Zip-Beutel mit Messlöffel"
+        - "Vegan und allergenfrei"
+      cons:
+        - "Kann klumpen, wenn der Beutel offen steht"
+        - "Etikett nennt nur US-Portionsgrößen"
+      usage: "3 g 30 Minuten vor dem Schlafengehen oder 1 g zu proteinarmen Mahlzeiten als Methylierungssupport."
+  en:
+    summary: "Reines Glycinpulver mit leicht süßem Geschmack für Schlaf- und Methylierungs-Kontexte."
+    verdictNote: "Einfaches, vielseitiges Pulver mit angenehmem Geschmack für Abendroutine oder Kollagen-Booster."
+    body:
+      description: "Das feine Pulver löst sich in warmem Wasser komplett auf und schmeckt leicht süßlich. Perfekt zur Kombination mit Magnesium oder Kollagen."
+      pros:
+        - "Neutraler Geschmack"
+        - "Großer Zip-Beutel mit Messlöffel"
+        - "Vegan und allergenfrei"
+      cons:
+        - "Kann klumpen, wenn der Beutel offen steht"
+        - "Etikett nennt nur US-Portionsgrößen"
+      usage: "3 g 30 Minuten vor dem Schlafengehen oder 1 g zu proteinarmen Mahlzeiten als Methylierungssupport."
+---

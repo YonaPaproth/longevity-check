@@ -1,0 +1,83 @@
+---
+id: thorne-alpha-lipoic-acid-300
+type: product
+
+meta:
+  title: "Thorne Alpha-Lipoic Acid 300 mg"
+  ingredient: alpha-liponsaeure
+  containedIngredients:
+    - slug: alpha-liponsaeure
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 38
+  doseMg: 300
+  servingsPerPack: 60
+  pricePerDayEur: 0.63
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "ALA unterstützt mitochondrialen Stoffwechsel und ist bei Neuropathien klinisch erprobt."
+      en: "ALA unterstützt mitochondrialen Stoffwechsel und ist bei Neuropathien klinisch erprobt."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,63 € pro 300 mg in NSF-Qualität ist stark."
+      en: "0,63 € pro 300 mg in NSF-Qualität ist stark."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Thorne verarbeitet qualitätsorientiert Rohstoffe und verzichtet auf unnötige Hilfsstoffe."
+      en: "Thorne verarbeitet qualitätsorientiert Rohstoffe und verzichtet auf unnötige Hilfsstoffe."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Klare Angabe von 300 mg ALA pro Capsule ohne Blend."
+      en: "Klare Angabe von 300 mg ALA pro Capsule ohne Blend."
+  thirdPartyTesting:
+    score: 10
+    explanation:
+      de: "NSF Certified for Sport garantiert unabhängige Chargenprüfung."
+      en: "NSF Certified for Sport garantiert unabhängige Chargenprüfung."
+
+locales:
+  de:
+    summary: "NSF-zertifizierte 300 mg Alpha-Liponsäure für Sport- und Stoffwechselprogramme von Thorne."
+    verdictNote: "Für Athlet:innen oder Nutzer:innen, die ALA hochdosiert und doping-sicher suchen, eine solide Kombination aus Preis und Qualität."
+    body:
+      description: "Jede Kapsel liefert 300 mg Alpha-Liponsäure ohne weitere Aktivstoffe. Produziert wird in Thornes NSF-zertifiziertem Werk in South Carolina."
+      pros:
+        - "NSF Certified for Sport"
+        - "300 mg decken typische Studien-Dosierungen"
+        - "Keine Füllstoffe außer Hypromellose"
+      cons:
+        - "Nicht vegan (Gelatine)"
+        - "Geruch nach Schwefel typisch für ALA"
+        - "Keine verzögerte Freisetzung, daher 2–3 Portionen pro Tag nötig"
+      usage: "1 Kapsel zwei- bis dreimal täglich zwischen den Mahlzeiten; bei Magenproblemen zu Essen kombinieren."
+  en:
+    summary: "NSF-zertifizierte 300 mg Alpha-Liponsäure für Sport- und Stoffwechselprogramme von Thorne."
+    verdictNote: "Für Athlet:innen oder Nutzer:innen, die ALA hochdosiert und doping-sicher suchen, eine solide Kombination aus Preis und Qualität."
+    body:
+      description: "Jede Kapsel liefert 300 mg Alpha-Liponsäure ohne weitere Aktivstoffe. Produziert wird in Thornes NSF-zertifiziertem Werk in South Carolina."
+      pros:
+        - "NSF Certified for Sport"
+        - "300 mg decken typische Studien-Dosierungen"
+        - "Keine Füllstoffe außer Hypromellose"
+      cons:
+        - "Nicht vegan (Gelatine)"
+        - "Geruch nach Schwefel typisch für ALA"
+        - "Keine verzögerte Freisetzung, daher 2–3 Portionen pro Tag nötig"
+      usage: "1 Kapsel zwei- bis dreimal täglich zwischen den Mahlzeiten; bei Magenproblemen zu Essen kombinieren."
+---

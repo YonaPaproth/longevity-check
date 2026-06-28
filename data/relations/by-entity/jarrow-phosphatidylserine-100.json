@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-phosphatidylserine-100",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "phosphatidylserin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

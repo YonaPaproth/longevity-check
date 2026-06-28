@@ -1,0 +1,11 @@
+{
+  "entity": "thorne-creatine-powder",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "kreatin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

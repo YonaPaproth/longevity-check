@@ -1,0 +1,81 @@
+---
+id: double-wood-apigenin-50
+type: product
+
+meta:
+  title: "Double Wood Apigenin 50mg"
+  ingredient: apigenin
+  containedIngredients:
+    - slug: apigenin
+  vendor: "Double Wood"
+  vendorUrl: "https://doublewoodsupplements.com"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 50
+  servingsPerPack: 90
+  pricePerDayEur: 0.31
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Tiermodelle und erste Humanstudien zeigen GABAerge Effekte, aber Datenlage ist noch klein."
+      en: "Tiermodelle und erste Humanstudien zeigen GABAerge Effekte, aber Datenlage ist noch klein."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,31 € pro 50 mg ist fair für gereinigtes Apigenin."
+      en: "0,31 € pro 50 mg ist fair für gereinigtes Apigenin."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Double Wood veröffentlicht COA inkl. Schwermetalle und Lösungsmittel."
+      en: "Double Wood veröffentlicht COA inkl. Schwermetalle und Lösungsmittel."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Apigenin-Gehalt klar angegeben, keine proprietären Blends."
+      en: "Apigenin-Gehalt klar angegeben, keine proprietären Blends."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "COAs stammen von Eurofins, allerdings nur chargenweise."
+      en: "COAs stammen von Eurofins, allerdings nur chargenweise."
+
+locales:
+  de:
+    summary: "Kamillenextrakt mit 50 mg Apigenin zur Anwendung im Schlaf-Kontext, inkl. veröffentlichtem Zertifikat of Analysis."
+    verdictNote: "Gute Wahl für Schlaf-Kontexte mit GABA-Fokus, solange man keine streng qualitätsorientierte Evidenz erwartet."
+    body:
+      description: "Das Produkt nutzt hochdosierten Kamillenextrakt auf 50 mg Apigenin pro Kapsel standardisiert. Die Füllstoffe beschränken sich auf Reismehl und Pullulan."
+      pros:
+        - "COA pro Charge öffentlich herunterladbar"
+        - "Frei von Soja, Gluten und tierischen Bestandteilen"
+        - "Lässt sich gut mit Glycin oder L-Theanin kombinieren"
+      cons:
+        - "Kein Hinweis auf Bioflavonoid-Begleitstoffe"
+        - "Pulver schmeckt bitter, wenn die Kapsel geöffnet wird"
+      usage: "1–2 Kapseln 45 Minuten vor dem Schlafengehen zusammen mit Magnesium oder Glycin nutzen. Nicht mit starken Sedativa kombinieren."
+  en:
+    summary: "Kamillenextrakt mit 50 mg Apigenin zur Anwendung im Schlaf-Kontext, inkl. veröffentlichtem Zertifikat of Analysis."
+    verdictNote: "Gute Wahl für Schlaf-Kontexte mit GABA-Fokus, solange man keine streng qualitätsorientierte Evidenz erwartet."
+    body:
+      description: "Das Produkt nutzt hochdosierten Kamillenextrakt auf 50 mg Apigenin pro Kapsel standardisiert. Die Füllstoffe beschränken sich auf Reismehl und Pullulan."
+      pros:
+        - "COA pro Charge öffentlich herunterladbar"
+        - "Frei von Soja, Gluten und tierischen Bestandteilen"
+        - "Lässt sich gut mit Glycin oder L-Theanin kombinieren"
+      cons:
+        - "Kein Hinweis auf Bioflavonoid-Begleitstoffe"
+        - "Pulver schmeckt bitter, wenn die Kapsel geöffnet wird"
+      usage: "1–2 Kapseln 45 Minuten vor dem Schlafengehen zusammen mit Magnesium oder Glycin nutzen. Nicht mit starken Sedativa kombinieren."
+---

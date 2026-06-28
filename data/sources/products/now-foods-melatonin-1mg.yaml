@@ -1,0 +1,81 @@
+---
+id: now-foods-melatonin-1mg
+type: product
+
+meta:
+  title: "NOW Foods Melatonin 1mg"
+  ingredient: melatonin
+  containedIngredients:
+    - slug: melatonin
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 12
+  doseMg: 1
+  servingsPerPack: 100
+  pricePerDayEur: 0.12
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Melatonin verkürzt Einschlaflatenz und hilft bei Jetlag, besonders in niedrigen Dosen."
+      en: "Melatonin verkürzt Einschlaflatenz und hilft bei Jetlag, besonders in niedrigen Dosen."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,12 € pro Portion mit 100 Portionen pro Dose ist sehr günstig."
+      en: "0,12 € pro Portion mit 100 Portionen pro Dose ist sehr günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "NOW Foods produziert cGMP und prüft auf Wirkstoffgehalt."
+      en: "NOW Foods produziert cGMP und prüft auf Wirkstoffgehalt."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Menge klar angegeben, keine Kräutermischung oder Füllstoffe."
+      en: "Menge klar angegeben, keine Kräutermischung oder Füllstoffe."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW veröffentlicht interne Analysen, aber nur sporadische externe Tests."
+      en: "NOW veröffentlicht interne Analysen, aber nur sporadische externe Tests."
+
+locales:
+  de:
+    summary: "Ultra-niedrige 1-mg-Tabletten lösen sich schnell auf und erlauben eine feinere Dosierung im Schlaf-Kontext."
+    verdictNote: "Praktische Option für Menschen, die niedrig dosierte Melatonin-Produkte suchen."
+    body:
+      description: "Die kleinen Tabletten bestehen aus Melatonin, etwas Cellulose und natürlichen Pfefferminzaromen. Sie sind glutenfrei und vegan."
+      pros:
+        - "1 mg ist ideal für Rebound-schonende Nutzung"
+        - "Tabletten lassen sich vierteln für 0,25 mg"
+        - "Gelöst in Wasser auch sublingual nutzbar"
+      cons:
+        - "Keine retardierte Variante in gleicher Linie"
+        - "Dose nicht kindersicher"
+      usage: "0,5–1 Tablette 30 Minuten vor dem Schlafengehen oder zur lokalen Schlafenszeit nach Langstreckenflügen. Nicht mit Alkohol kombinieren."
+  en:
+    summary: "Ultra-niedrige 1-mg-Tabletten lösen sich schnell auf und erlauben eine feinere Dosierung im Schlaf-Kontext."
+    verdictNote: "Praktische Option für Menschen, die niedrig dosierte Melatonin-Produkte suchen."
+    body:
+      description: "Die kleinen Tabletten bestehen aus Melatonin, etwas Cellulose und natürlichen Pfefferminzaromen. Sie sind glutenfrei und vegan."
+      pros:
+        - "1 mg ist ideal für Rebound-schonende Nutzung"
+        - "Tabletten lassen sich vierteln für 0,25 mg"
+        - "Gelöst in Wasser auch sublingual nutzbar"
+      cons:
+        - "Keine retardierte Variante in gleicher Linie"
+        - "Dose nicht kindersicher"
+      usage: "0,5–1 Tablette 30 Minuten vor dem Schlafengehen oder zur lokalen Schlafenszeit nach Langstreckenflügen. Nicht mit Alkohol kombinieren."
+---

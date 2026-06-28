@@ -1,0 +1,83 @@
+---
+id: now-foods-alpha-gpc-300
+type: product
+
+meta:
+  title: "NOW Foods Alpha-GPC 300mg"
+  ingredient: alpha-gpc
+  containedIngredients:
+    - slug: alpha-gpc
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 34
+  doseMg: 300
+  servingsPerPack: 60
+  pricePerDayEur: 0.57
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Alpha-GPC steigert Acetylcholin und zeigt Studienvorteile bei Gedächtnis und Kraftleistung."
+      en: "Alpha-GPC steigert Acetylcholin und zeigt Studienvorteile bei Gedächtnis und Kraftleistung."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,57 € pro 300 mg ist marktüblich, man spart gegenüber Ampullen oder Flüssigformen."
+      en: "0,57 € pro 300 mg ist marktüblich, man spart gegenüber Ampullen oder Flüssigformen."
+  productQuality:
+    score: 8
+    explanation:
+      de: "NOW nutzt streng qualitätsorientierte 50%-Qualität, wird mit Schutzmechanismen in Verbindung gebracht Pulver mit feuchtigkeitsabsorbierendem Siliciumdioxid."
+      en: "NOW nutzt streng qualitätsorientierte 50%-Qualität, wird mit Schutzmechanismen in Verbindung gebracht Pulver mit feuchtigkeitsabsorbierendem Siliciumdioxid."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklariert den aktiven Alpha-GPC-Anteil und enthält keine proprietären Mischungen."
+      en: "Deklariert den aktiven Alpha-GPC-Anteil und enthält keine proprietären Mischungen."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Interne Tests vorhanden, aber keine leicht zugänglichen COAs."
+      en: "Interne Tests vorhanden, aber keine leicht zugänglichen COAs."
+
+locales:
+  de:
+    summary: "300 mg Alpha-GPC (50% aktiv) pro Kapsel, Non-GMO und gut geeignet als Cholinbasis für Nootropic-Stacks."
+    verdictNote: "Einfacher Zugang zu klinisch relevanten Alpha-GPC-Dosen ohne Importaufwand."
+    body:
+      description: "Die Packung enthält 60 pflanzliche Kapseln mit je 600 mg Pulver, das 50% aktives Alpha-GPC liefert (entspricht 300 mg Cholinvorstufe). Ideal kombinierbar mit ALCAR oder Bacopa."
+      pros:
+        - "Non-GMO Rohstoffe"
+        - "Gute Portionierung für 1-2 Kapseln pro Tag"
+        - "Frei von Soja und Milch"
+        - "Praktisch für Pre-Workout oder Lernphasen"
+      cons:
+        - "Keine COAs online"
+        - "Pulver zieht Feuchtigkeit, daher nur begrenzt haltbar nach Öffnung"
+      usage: "1 Kapsel morgens mit Wasser. Für Workouts 45 Minuten vor dem Training einnehmen. Mit ausreichend Elektrolyten kombinieren, falls Schwindel auftritt."
+  en:
+    summary: "300 mg Alpha-GPC (50% aktiv) pro Kapsel, Non-GMO und gut geeignet als Cholinbasis für Nootropic-Stacks."
+    verdictNote: "Einfacher Zugang zu klinisch relevanten Alpha-GPC-Dosen ohne Importaufwand."
+    body:
+      description: "Die Packung enthält 60 pflanzliche Kapseln mit je 600 mg Pulver, das 50% aktives Alpha-GPC liefert (entspricht 300 mg Cholinvorstufe). Ideal kombinierbar mit ALCAR oder Bacopa."
+      pros:
+        - "Non-GMO Rohstoffe"
+        - "Gute Portionierung für 1-2 Kapseln pro Tag"
+        - "Frei von Soja und Milch"
+        - "Praktisch für Pre-Workout oder Lernphasen"
+      cons:
+        - "Keine COAs online"
+        - "Pulver zieht Feuchtigkeit, daher nur begrenzt haltbar nach Öffnung"
+      usage: "1 Kapsel morgens mit Wasser. Für Workouts 45 Minuten vor dem Training einnehmen. Mit ausreichend Elektrolyten kombinieren, falls Schwindel auftritt."
+---

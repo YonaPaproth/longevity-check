@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-bacopa-100",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "bacopa",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

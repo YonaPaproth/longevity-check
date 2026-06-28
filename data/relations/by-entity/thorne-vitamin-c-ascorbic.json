@@ -1,0 +1,23 @@
+{
+  "entity": "thorne-vitamin-c-ascorbic",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-c",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "quercetin",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "rutin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

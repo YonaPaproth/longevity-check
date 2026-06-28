@@ -1,0 +1,11 @@
+{
+  "entity": "moleqlar-spermidine-plus",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "spermidine",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

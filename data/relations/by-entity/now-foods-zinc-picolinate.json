@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-zinc-picolinate",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "zink",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

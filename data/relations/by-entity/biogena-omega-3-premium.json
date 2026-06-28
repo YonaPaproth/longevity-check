@@ -1,0 +1,11 @@
+{
+  "entity": "biogena-omega-3-premium",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "omega-3",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

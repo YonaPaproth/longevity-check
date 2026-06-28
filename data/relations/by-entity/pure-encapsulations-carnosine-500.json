@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-carnosine-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "glycin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

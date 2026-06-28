@@ -1,0 +1,11 @@
+{
+  "entity": "nordic-naturals-vitamin-d3-2000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-d3",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

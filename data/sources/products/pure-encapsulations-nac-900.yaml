@@ -1,0 +1,83 @@
+---
+id: pure-encapsulations-nac-900
+type: product
+
+meta:
+  title: "Pure Encapsulations NAC 900mg"
+  ingredient: nac
+  containedIngredients:
+    - slug: nac
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com"
+  affiliateUrl: ""
+  priceEur: 44
+  doseMg: 900
+  servingsPerPack: 60
+  pricePerDayEur: 0.73
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "NAC besitzt solide Datenlage zu antioxidativem Stress, Atemwegen und Glutathionauffüllung."
+      en: "NAC besitzt solide Datenlage zu antioxidativem Stress, Atemwegen und Glutathionauffüllung."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,73 € pro 900 mg ist teurer als Bulk-NAC, dafür erhält man Apothekenqualität und Allergenfreiheit."
+      en: "0,73 € pro 900 mg ist teurer als Bulk-NAC, dafür erhält man Apothekenqualität und Allergenfreiheit."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Hergestellt in zertifizierten US-Anlagen, Frei-von-Listen für Gluten, Soja, Milch, Erdnüsse."
+      en: "Hergestellt in zertifizierten US-Anlagen, Frei-von-Listen für Gluten, Soja, Milch, Erdnüsse."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Alle Hilfsstoffe aufgeführt (nur Cellulose, hypoallergene Kapsel)."
+      en: "Alle Hilfsstoffe aufgeführt (nur Cellulose, hypoallergene Kapsel)."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Jede Charge erhält ein streng qualitätsorientiertes Analysenzertifikat mit Schwermetall- und Potenztests."
+      en: "Jede Charge erhält ein streng qualitätsorientiertes Analysenzertifikat mit Schwermetall- und Potenztests."
+
+locales:
+  de:
+    summary: "Hypoallergenes NAC mit 900 mg pro Portion in zwei Kapseln, streng qualitätsorientiert rein und ohne Zusatzstoffe."
+    verdictNote: "Für empfindliche Personen oder Klinikeinsätze eine sichere NAC-Quelle ohne fragliche Zusatzstoffe."
+    body:
+      description: "Die Flasche enthält 120 Kapseln, zwei Kapseln liefern 900 mg N-Acetylcystein. Pure Encapsulations setzt auf hochreines Pulver, ohne Magnesiumstearat oder Farbstoffe."
+      pros:
+        - "Hypoallergenes Versprechen mit breiter Frei-von-Liste"
+        - "900 mg Portion erlaubt flexible Aufteilung"
+        - "GMP-zertifizierte Produktion"
+        - "Gute Dokumentation für Ärztepartner"
+      cons:
+        - "Hoher Preis im Vergleich zu Bulk-Pulvern"
+        - "Kapseln relativ groß"
+      usage: "2 Kapseln auf nüchternen Magen mit einem Glas Wasser. Bei empfindlichem Magen zu einer leichten Mahlzeit einnehmen. Für Atemwegs-Stacks mit Vitamin C und Glycin kombinieren."
+  en:
+    summary: "Hypoallergenes NAC mit 900 mg pro Portion in zwei Kapseln, streng qualitätsorientiert rein und ohne Zusatzstoffe."
+    verdictNote: "Für empfindliche Personen oder Klinikeinsätze eine sichere NAC-Quelle ohne fragliche Zusatzstoffe."
+    body:
+      description: "Die Flasche enthält 120 Kapseln, zwei Kapseln liefern 900 mg N-Acetylcystein. Pure Encapsulations setzt auf hochreines Pulver, ohne Magnesiumstearat oder Farbstoffe."
+      pros:
+        - "Hypoallergenes Versprechen mit breiter Frei-von-Liste"
+        - "900 mg Portion erlaubt flexible Aufteilung"
+        - "GMP-zertifizierte Produktion"
+        - "Gute Dokumentation für Ärztepartner"
+      cons:
+        - "Hoher Preis im Vergleich zu Bulk-Pulvern"
+        - "Kapseln relativ groß"
+      usage: "2 Kapseln auf nüchternen Magen mit einem Glas Wasser. Bei empfindlichem Magen zu einer leichten Mahlzeit einnehmen. Für Atemwegs-Stacks mit Vitamin C und Glycin kombinieren."
+---

@@ -1,0 +1,17 @@
+{
+  "entity": "doctors-best-coq10-200",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "coq10",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "piperin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

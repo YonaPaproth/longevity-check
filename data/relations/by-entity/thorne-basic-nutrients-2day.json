@@ -1,0 +1,35 @@
+{
+  "entity": "thorne-basic-nutrients-2day",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-b12",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "folsaeure",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "cholin",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "bor",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "chrom",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

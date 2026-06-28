@@ -1,0 +1,85 @@
+---
+id: horbaach-pumpkin-seed-oil-3000-mg
+type: product
+
+meta:
+  title: "Horbaach Pumpkin Seed Oil 3000 mg"
+  ingredient: kuerbiskernoel
+  containedIngredients:
+    - slug: kuerbiskernoel
+  vendor: "Horbaach"
+  vendorUrl: "https://www.amazon.de"
+  affiliateUrl: ""
+  priceEur: 12.9
+  doseMg: 3000
+  servingsPerPack: 100
+  pricePerDayEur: 0.13
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Moderate Evidenz für Prostata-/Harnwegsbeschwerden (BPH). Einige RCTs positiv, aber kleine Stichproben."
+      en: "Moderate Evidenz für Prostata-/Harnwegsbeschwerden (BPH). Einige RCTs positiv, aber kleine Stichproben."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,13 € pro Tag ist sehr günstig für 3000 mg Kürbiskernöl."
+      en: "0,13 € pro Tag ist sehr günstig für 3000 mg Kürbiskernöl."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Kaltgepresstes Kürbiskernöl in Softgels. Kein standardisierter Extrakt."
+      en: "Kaltgepresstes Kürbiskernöl in Softgels. Kein standardisierter Extrakt."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Ölmenge deklariert, aber keine Angabe zu Phytosterol- oder Delta-7-Sterin-Gehalt."
+      en: "Ölmenge deklariert, aber keine Angabe zu Phytosterol- oder Delta-7-Sterin-Gehalt."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "GMP-zertifiziert, aber kein spezifisches Drittanbieter-Zertifikat."
+      en: "GMP-zertifiziert, aber kein spezifisches Drittanbieter-Zertifikat."
+
+locales:
+  de:
+    summary: "Kürbiskernöl 3000 mg pro Tagesdosis für Prostata- und Harnwegsgesundheit."
+    verdictNote: "Günstige Option für Prostata-Support. Evidenz begrenzt, aber gutes Sicherheitsprofil."
+    body:
+      description: "Horbaach bietet kaltgepresstes Kürbiskernöl in Softgel-Form. Kürbiskernöl enthält Phytosterole und Delta-7-Sterine, die in Zusammenhang mit Prostata- und Blasengesundheit stehen."
+      pros:
+        - "3000 mg pro Tagesdosis — adäquate Menge"
+        - "100 Softgels — über 3 Monate Reichweite"
+        - "Sehr günstig"
+        - "Gutes Sicherheitsprofil"
+      cons:
+        - "Kein standardisierter Extrakt (Phytosterol-Gehalt variiert)"
+        - "Evidenzlage für BPH-Symptome noch begrenzt"
+        - "Kein unabhängiges Laborzertifikat"
+      usage: "3 Softgels täglich zu einer Mahlzeit. Mindestens 8 Wochen einnehmen für potenzielle Effekte."
+  en:
+    summary: "Kürbiskernöl 3000 mg pro Tagesdosis für Prostata- und Harnwegsgesundheit."
+    verdictNote: "Günstige Option für Prostata-Support. Evidenz begrenzt, aber gutes Sicherheitsprofil."
+    body:
+      description: "Horbaach bietet kaltgepresstes Kürbiskernöl in Softgel-Form. Kürbiskernöl enthält Phytosterole und Delta-7-Sterine, die in Zusammenhang mit Prostata- und Blasengesundheit stehen."
+      pros:
+        - "3000 mg pro Tagesdosis — adäquate Menge"
+        - "100 Softgels — über 3 Monate Reichweite"
+        - "Sehr günstig"
+        - "Gutes Sicherheitsprofil"
+      cons:
+        - "Kein standardisierter Extrakt (Phytosterol-Gehalt variiert)"
+        - "Evidenzlage für BPH-Symptome noch begrenzt"
+        - "Kein unabhängiges Laborzertifikat"
+      usage: "3 Softgels täglich zu einer Mahlzeit. Mindestens 8 Wochen einnehmen für potenzielle Effekte."
+---

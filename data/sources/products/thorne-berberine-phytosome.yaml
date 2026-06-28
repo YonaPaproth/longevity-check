@@ -1,0 +1,81 @@
+---
+id: thorne-berberine-phytosome
+type: product
+
+meta:
+  title: "Thorne Berberine Phytosome 500mg"
+  ingredient: berberine
+  containedIngredients:
+    - slug: berberine
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 64
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 1.07
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Berberin besitzt zahlreiche RCTs zu Glukose, Lipiden und Gewichtsmanagement."
+      en: "Berberin besitzt zahlreiche RCTs zu Glukose, Lipiden und Gewichtsmanagement."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,53 € pro Hoch-Bioverfügbarkeitsportion ist angemessen."
+      en: "0,53 € pro Hoch-Bioverfügbarkeitsportion ist angemessen."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Phytosome-Komplex mit italienischem Rohstoff und stabiler Verkapselung."
+      en: "Phytosome-Komplex mit italienischem Rohstoff und stabiler Verkapselung."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Thorne nennt exakt 500 mg Berberin-Phytosome und Hilfsstoffe."
+      en: "Thorne nennt exakt 500 mg Berberin-Phytosome und Hilfsstoffe."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF Certified for Sport plus Informed Choice Tests."
+      en: "NSF Certified for Sport plus Informed Choice Tests."
+
+locales:
+  de:
+    summary: "Berberin mit Phytosome-Technologie und NSF-Sport-Zertifizierung."
+    verdictNote: "Für alle, die maximale Aufnahme und Doping-Sicherheit brauchen."
+    body:
+      description: "Thorne koppelt Berberin mit Phospholipiden zu einem Phytosome-Komplex und erreicht laut Hersteller fünffache Bioverfügbarkeit."
+      pros:
+        - "NSF Sport Zertifizierung"
+        - "Phytosome liefert bessere Aufnahme mit weniger GI-Stress"
+        - "Gluten- und Sojafrei"
+      cons:
+        - "Preislich Premium"
+        - "Nur 60 Portionen"
+      usage: "1 Kapsel 2-3× täglich vor kohlenhydratreichen Mahlzeiten. Bei empfindlichem Magen zu Essen nehmen."
+  en:
+    summary: "Berberin mit Phytosome-Technologie und NSF-Sport-Zertifizierung."
+    verdictNote: "Für alle, die maximale Aufnahme und Doping-Sicherheit brauchen."
+    body:
+      description: "Thorne koppelt Berberin mit Phospholipiden zu einem Phytosome-Komplex und erreicht laut Hersteller fünffache Bioverfügbarkeit."
+      pros:
+        - "NSF Sport Zertifizierung"
+        - "Phytosome liefert bessere Aufnahme mit weniger GI-Stress"
+        - "Gluten- und Sojafrei"
+      cons:
+        - "Preislich Premium"
+        - "Nur 60 Portionen"
+      usage: "1 Kapsel 2-3× täglich vor kohlenhydratreichen Mahlzeiten. Bei empfindlichem Magen zu Essen nehmen."
+---

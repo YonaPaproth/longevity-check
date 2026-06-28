@@ -1,0 +1,81 @@
+---
+id: now-foods-magnesium-glycinate
+type: product
+
+meta:
+  title: "NOW Foods Magnesium Glycinate 400mg"
+  ingredient: magnesium
+  containedIngredients:
+    - slug: magnesium
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 34
+  doseMg: 400
+  servingsPerPack: 180
+  pricePerDayEur: 0.19
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Magnesium gleicht weit verbreitete Defizite aus und erscheint entspannend."
+      en: "Magnesium gleicht weit verbreitete Defizite aus und erscheint entspannend."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,19 € pro Portion für Chelat-Magnesium ist stark."
+      en: "0,19 € pro Portion für Chelat-Magnesium ist stark."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Chelat von Albion Minerals, hypoallergen."
+      en: "Chelat von Albion Minerals, hypoallergen."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Deklariert elementares Mg und Chelatform klar."
+      en: "Deklariert elementares Mg und Chelatform klar."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW stellt Analysenzertifikate bereit, aber kein NSF."
+      en: "NOW stellt Analysenzertifikate bereit, aber kein NSF."
+
+locales:
+  de:
+    summary: "Magnesiumbisglycinat liefert 200 mg elementares Mg pro 2 Kapseln – sehr gut verträglich."
+    verdictNote: "Sehr verträgliche Form – gut geeignet für Abendroutine und Muskelentspannung."
+    body:
+      description: "Jede Portion (2 Kapseln) liefert 200 mg Magnesium als bisglycinat-Chelat. Die Kapseln sind mittelgroß und enthalten wenige Hilfsstoffe."
+      pros:
+        - "Albion Chelat für hohe Aufnahme"
+        - "Große 180er Dose"
+        - "Keine Abführwirkung wie bei Oxid"
+      cons:
+        - "2 Kapseln pro Portion"
+        - "Dose relativ groß für Reisen"
+      usage: "2 Kapseln abends vor dem Schlafengehen oder rund um Sport. Bei empfindlichem Magen zu einer Mahlzeit einnehmen."
+  en:
+    summary: "Magnesiumbisglycinat liefert 200 mg elementares Mg pro 2 Kapseln – sehr gut verträglich."
+    verdictNote: "Sehr verträgliche Form – gut geeignet für Abendroutine und Muskelentspannung."
+    body:
+      description: "Jede Portion (2 Kapseln) liefert 200 mg Magnesium als bisglycinat-Chelat. Die Kapseln sind mittelgroß und enthalten wenige Hilfsstoffe."
+      pros:
+        - "Albion Chelat für hohe Aufnahme"
+        - "Große 180er Dose"
+        - "Keine Abführwirkung wie bei Oxid"
+      cons:
+        - "2 Kapseln pro Portion"
+        - "Dose relativ groß für Reisen"
+      usage: "2 Kapseln abends vor dem Schlafengehen oder rund um Sport. Bei empfindlichem Magen zu einer Mahlzeit einnehmen."
+---

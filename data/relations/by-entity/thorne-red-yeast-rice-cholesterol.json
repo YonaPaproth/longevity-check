@@ -1,0 +1,11 @@
+{
+  "entity": "thorne-red-yeast-rice-cholesterol",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "coq10",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

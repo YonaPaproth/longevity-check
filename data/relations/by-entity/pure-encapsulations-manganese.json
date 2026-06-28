@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-manganese",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "mangan",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

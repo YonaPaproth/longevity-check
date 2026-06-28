@@ -1,0 +1,81 @@
+---
+id: jarrow-taurine-1000
+type: product
+
+meta:
+  title: "Jarrow Formulas Taurine 1000mg"
+  ingredient: taurin
+  containedIngredients:
+    - slug: taurin
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 16
+  doseMg: 1000
+  servingsPerPack: 100
+  pricePerDayEur: 0.16
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Taurin unterstützt Blutdruck, Gallenfluss und Ausdauer laut Humanstudien."
+      en: "Taurin unterstützt Blutdruck, Gallenfluss und Ausdauer laut Humanstudien."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,16 € pro Gramm ist top."
+      en: "0,16 € pro Gramm ist top."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Pharmaqualität mit HPLC-Analyse."
+      en: "Pharmaqualität mit HPLC-Analyse."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Nur Taurin und Cellulosekapsel deklariert."
+      en: "Nur Taurin und Cellulosekapsel deklariert."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Jarrow testet intern, veröffentlicht aber keine COA."
+      en: "Jarrow testet intern, veröffentlicht aber keine COA."
+
+locales:
+  de:
+    summary: "1 g freie Aminosäure pro Kapsel, vegan und laborgeprüft für Elektrolyt- und Herz-Kontexte."
+    verdictNote: "Zuverlässiges Taurin für Herz-, Schlaf- und Elektrolyt-Kontexte."
+    body:
+      description: "Reines Taurin in 00er-Kapseln, hergestellt aus pflanzlicher Fermentation. Keine Zusatzstoffe, kein Magnesiumstearat."
+      pros:
+        - "1 g pro Kapsel ohne Pulverabwiegen"
+        - "Vegane Hülle"
+        - "Sehr gutes Preis-Leistungs-Verhältnis"
+      cons:
+        - "Große Kapseln schwer zu schlucken"
+        - "Kein offizielles COA zum Download"
+      usage: "1 Kapsel abends für Schlaf oder vor Training mit Elektrolyten."
+  en:
+    summary: "1 g freie Aminosäure pro Kapsel, vegan und laborgeprüft für Elektrolyt- und Herz-Kontexte."
+    verdictNote: "Zuverlässiges Taurin für Herz-, Schlaf- und Elektrolyt-Kontexte."
+    body:
+      description: "Reines Taurin in 00er-Kapseln, hergestellt aus pflanzlicher Fermentation. Keine Zusatzstoffe, kein Magnesiumstearat."
+      pros:
+        - "1 g pro Kapsel ohne Pulverabwiegen"
+        - "Vegane Hülle"
+        - "Sehr gutes Preis-Leistungs-Verhältnis"
+      cons:
+        - "Große Kapseln schwer zu schlucken"
+        - "Kein offizielles COA zum Download"
+      usage: "1 Kapsel abends für Schlaf oder vor Training mit Elektrolyten."
+---

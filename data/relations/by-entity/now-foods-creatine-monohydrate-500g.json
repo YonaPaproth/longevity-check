@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-creatine-monohydrate-500g",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "kreatin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity": "tru-niagen-nr-300",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nr",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

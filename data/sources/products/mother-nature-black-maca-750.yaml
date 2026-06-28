@@ -1,0 +1,90 @@
+---
+id: mother-nature-black-maca-750
+type: product
+
+meta:
+  title: "Mother Nature Black Maca 750 mg + BioPerine"
+  ingredient: maca
+  containedIngredients:
+    - slug: maca
+    - slug: piperin
+  vendor: "Mother Nature"
+  vendorUrl: "https://www.mothernature.de"
+  affiliateUrl: ""
+  priceEur: 19.9
+  doseMg: 750
+  servingsPerPack: 120
+  pricePerDayEur: 0.17
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Maca hat begrenzte Evidenz für Libido und Energie. Schwarze Maca gilt als potenteste Variante, aber RCTs sind klein."
+      en: "Maca hat begrenzte Evidenz für Libido und Energie. Schwarze Maca gilt als potenteste Variante, aber RCTs sind klein."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,17 € pro Tag für 750 mg schwarze Maca mit BioPerine ist sehr günstig."
+      en: "0,17 € pro Tag für 750 mg schwarze Maca mit BioPerine ist sehr günstig."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Schwarze Maca aus Peru, BioPerine als Absorptionsverstärker. Extraktqualität nicht näher spezifiziert."
+      en: "Schwarze Maca aus Peru, BioPerine als Absorptionsverstärker. Extraktqualität nicht näher spezifiziert."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Maca-Variante und BioPerine benannt, aber Extraktionsverhältnis und Macamid-Gehalt nicht angegeben."
+      en: "Maca-Variante und BioPerine benannt, aber Extraktionsverhältnis und Macamid-Gehalt nicht angegeben."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "GMP-Produktion, aber kein unabhängiges Drittanbieter-Zertifikat sichtbar."
+      en: "GMP-Produktion, aber kein unabhängiges Drittanbieter-Zertifikat sichtbar."
+
+locales:
+  de:
+    summary: "Schwarze Maca aus Peru mit BioPerine für bessere Absorption, 750 mg pro Kapsel, vegan."
+    verdictNote: "Günstiges schwarzes Maca mit BioPerine. Die Evidenzlage für Maca ist aber insgesamt noch dünn — Erwartungen managen."
+    body:
+      description: "Mother Nature verwendet schwarze Maca (Lepidium meyenii) aus Peru — die Variante, die in der traditionellen Anwendung als die potenteste gilt. Schwarze Maca wird vor allem mit Libido, Energie und Fruchtbarkeit in Verbindung gebracht. BioPerine (Piperin) soll die Bioverfügbarkeit verbessern."
+      pros:
+        - "Schwarze Maca — die in der Tradition als wirksamste Variante geltende Farbe"
+        - "BioPerine als bewährter Absorptionsverstärker"
+        - "120 Kapseln = 4 Monate Reichweite"
+        - "Sehr günstiger Preis"
+        - "Vegane Kapseln"
+      cons:
+        - "Kein standardisierter Extrakt — Macamid/Macaen-Gehalt nicht angegeben"
+        - "Evidenzlage für Maca insgesamt schwach (kleine Studien, heterogene Ergebnisse)"
+        - "Kein unabhängiges Laborzertifikat für Schwermetalle (Peru-Importe relevant)"
+        - "Schwer zu unterscheiden: Marketing vs. Evidenz bei \"schwarzer\" Maca"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Mindestens 6–8 Wochen einnehmen für potenzielle Effekte. Nicht bei hormonabhängigen Erkrankungen ohne ärztliche Rücksprache."
+  en:
+    summary: "Schwarze Maca aus Peru mit BioPerine für bessere Absorption, 750 mg pro Kapsel, vegan."
+    verdictNote: "Günstiges schwarzes Maca mit BioPerine. Die Evidenzlage für Maca ist aber insgesamt noch dünn — Erwartungen managen."
+    body:
+      description: "Mother Nature verwendet schwarze Maca (Lepidium meyenii) aus Peru — die Variante, die in der traditionellen Anwendung als die potenteste gilt. Schwarze Maca wird vor allem mit Libido, Energie und Fruchtbarkeit in Verbindung gebracht. BioPerine (Piperin) soll die Bioverfügbarkeit verbessern."
+      pros:
+        - "Schwarze Maca — die in der Tradition als wirksamste Variante geltende Farbe"
+        - "BioPerine als bewährter Absorptionsverstärker"
+        - "120 Kapseln = 4 Monate Reichweite"
+        - "Sehr günstiger Preis"
+        - "Vegane Kapseln"
+      cons:
+        - "Kein standardisierter Extrakt — Macamid/Macaen-Gehalt nicht angegeben"
+        - "Evidenzlage für Maca insgesamt schwach (kleine Studien, heterogene Ergebnisse)"
+        - "Kein unabhängiges Laborzertifikat für Schwermetalle (Peru-Importe relevant)"
+        - "Schwer zu unterscheiden: Marketing vs. Evidenz bei \"schwarzer\" Maca"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Mindestens 6–8 Wochen einnehmen für potenzielle Effekte. Nicht bei hormonabhängigen Erkrankungen ohne ärztliche Rücksprache."
+---

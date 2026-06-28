@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-lutein-20",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "lutein-zeaxanthin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

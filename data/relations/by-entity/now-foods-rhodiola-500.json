@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-rhodiola-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "rhodiola",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+---
+id: alpha-flow-l-tyrosine-1000-mg
+type: product
+
+meta:
+  title: "Alpha Flow L-Tyrosine 1000 mg"
+  ingredient: l-tyrosin
+  containedIngredients:
+    - slug: l-tyrosin
+  vendor: "Alpha Flow"
+  vendorUrl: "https://www.amazon.de"
+  affiliateUrl: ""
+  priceEur: 17.9
+  doseMg: 1000
+  servingsPerPack: 120
+  pricePerDayEur: 0.15
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "L-Tyrosin hat gute Evidenz für kognitive Leistung unter Stress (Militärstudien, Kälte, Schlafentzug)."
+      en: "L-Tyrosin hat gute Evidenz für kognitive Leistung unter Stress (Militärstudien, Kälte, Schlafentzug)."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,15 € pro Tag für 1000 mg L-Tyrosin ist sehr günstig."
+      en: "0,15 € pro Tag für 1000 mg L-Tyrosin ist sehr günstig."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Standard-L-Tyrosin (freie Form), adäquate Dosierung."
+      en: "Standard-L-Tyrosin (freie Form), adäquate Dosierung."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "L-Tyrosin-Menge deklariert, einfache Zutatenliste."
+      en: "L-Tyrosin-Menge deklariert, einfache Zutatenliste."
+  thirdPartyTesting:
+    score: 5
+    explanation:
+      de: "Weniger bekannte Marke, kein spezifisches Drittanbieter-Zertifikat."
+      en: "Weniger bekannte Marke, kein spezifisches Drittanbieter-Zertifikat."
+
+locales:
+  de:
+    summary: "L-Tyrosin 1000 mg als Dopamin-Vorstufe für Fokus und Stressresistenz."
+    verdictNote: "Günstiges L-Tyrosin in guter Dosierung. Für stressige Phasen und kognitive Anforderungen."
+    body:
+      description: "Alpha Flow liefert 1000 mg reines L-Tyrosin — die Aminosäure, die als Vorstufe für Dopamin, Noradrenalin und Adrenalin dient. Besonders unter Stress sinken die Tyrosin-Spiegel, was die Supplementierung effektiv macht."
+      pros:
+        - "1000 mg pro Kapsel — volle Studiendosis"
+        - "120 Kapseln = 4 Monate"
+        - "Sehr günstiger Preis"
+        - "Gute Evidenz für Stress-Situationen"
+      cons:
+        - "Weniger bekannte Marke"
+        - "Kein NALT (N-Acetyl-L-Tyrosin) als Alternative"
+        - "Kein unabhängiges Drittanbieter-Zertifikat"
+      usage: "1 Kapsel morgens auf leeren Magen, 30 Minuten vor dem Frühstück. Bei hohem Stress: 2× täglich."
+  en:
+    summary: "L-Tyrosin 1000 mg als Dopamin-Vorstufe für Fokus und Stressresistenz."
+    verdictNote: "Günstiges L-Tyrosin in guter Dosierung. Für stressige Phasen und kognitive Anforderungen."
+    body:
+      description: "Alpha Flow liefert 1000 mg reines L-Tyrosin — die Aminosäure, die als Vorstufe für Dopamin, Noradrenalin und Adrenalin dient. Besonders unter Stress sinken die Tyrosin-Spiegel, was die Supplementierung effektiv macht."
+      pros:
+        - "1000 mg pro Kapsel — volle Studiendosis"
+        - "120 Kapseln = 4 Monate"
+        - "Sehr günstiger Preis"
+        - "Gute Evidenz für Stress-Situationen"
+      cons:
+        - "Weniger bekannte Marke"
+        - "Kein NALT (N-Acetyl-L-Tyrosin) als Alternative"
+        - "Kein unabhängiges Drittanbieter-Zertifikat"
+      usage: "1 Kapsel morgens auf leeren Magen, 30 Minuten vor dem Frühstück. Bei hohem Stress: 2× täglich."
+---

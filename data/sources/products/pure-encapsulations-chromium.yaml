@@ -1,0 +1,81 @@
+---
+id: pure-encapsulations-chromium
+type: product
+
+meta:
+  title: "Pure Encapsulations Chromium 200mcg"
+  ingredient: chrom
+  containedIngredients:
+    - slug: chrom
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.purecaps.de"
+  affiliateUrl: ""
+  priceEur: 22
+  doseMg: 0.2
+  servingsPerPack: 90
+  pricePerDayEur: 0.24
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Chrom hat moderate Evidenz bei leicht erhöhtem Blutzucker, aber keine Wunderwirkung."
+      en: "Chrom hat moderate Evidenz bei leicht erhöhtem Blutzucker, aber keine Wunderwirkung."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,24 € pro Tag ist angemessen für streng qualitätsorientierte Qualität."
+      en: "0,24 € pro Tag ist angemessen für streng qualitätsorientierte Qualität."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Reinraumproduktion, frei von Gluten, Milch, Soja."
+      en: "Reinraumproduktion, frei von Gluten, Milch, Soja."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Chrompicolinat klar ausgewiesen, keine Mischungen."
+      en: "Chrompicolinat klar ausgewiesen, keine Mischungen."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Jede Charge hat COA mit Schwermetall- und Potenzdaten."
+      en: "Jede Charge hat COA mit Schwermetall- und Potenzdaten."
+
+locales:
+  de:
+    summary: "Chrompicolinat aus hypoallergener Produktion. Chrom trägt laut zugelassenem EU-Claim zur normalen Makronährstoffverwertung bei."
+    verdictNote: "Sinnvoll bei Insulinresistenz oder PCOS, wenn Ernährung schon sitzt."
+    body:
+      description: "Jede Kapsel liefert 200 mcg Chrom als Chelat mit Picolinsäure. Die Kapseln sind klein, lassen sich leicht schlucken und enthalten Kartoffelstärke als einziges Trägermittel."
+      pros:
+        - "Hypoallergenes Profil ohne unnötige Füllstoffe"
+        - "90 Portionen reichen für drei Monate"
+        - "Stabiler Blutzucker-Support für Desk-Worker"
+      cons:
+        - "Kein Begleitstoff wie Zimt oder Berberin"
+        - "Chrom allein erscheint nur in Kombination mit Lebensstiländerungen"
+      usage: "1 Kapsel täglich zu einer kohlenhydratreichen Hauptmahlzeit einnehmen. Bei Nutzung mit Berberin Abstand von 2 Stunden halten."
+  en:
+    summary: "Chrompicolinat aus hypoallergener Produktion. Chrom trägt laut zugelassenem EU-Claim zur normalen Makronährstoffverwertung bei."
+    verdictNote: "Sinnvoll bei Insulinresistenz oder PCOS, wenn Ernährung schon sitzt."
+    body:
+      description: "Jede Kapsel liefert 200 mcg Chrom als Chelat mit Picolinsäure. Die Kapseln sind klein, lassen sich leicht schlucken und enthalten Kartoffelstärke als einziges Trägermittel."
+      pros:
+        - "Hypoallergenes Profil ohne unnötige Füllstoffe"
+        - "90 Portionen reichen für drei Monate"
+        - "Stabiler Blutzucker-Support für Desk-Worker"
+      cons:
+        - "Kein Begleitstoff wie Zimt oder Berberin"
+        - "Chrom allein erscheint nur in Kombination mit Lebensstiländerungen"
+      usage: "1 Kapsel täglich zu einer kohlenhydratreichen Hauptmahlzeit einnehmen. Bei Nutzung mit Berberin Abstand von 2 Stunden halten."
+---

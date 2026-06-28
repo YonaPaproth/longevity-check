@@ -1,0 +1,11 @@
+{
+  "entity": "toniiq-fisetin-300",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "fisetin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

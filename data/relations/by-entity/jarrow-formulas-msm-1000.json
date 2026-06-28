@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-formulas-msm-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "msm",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

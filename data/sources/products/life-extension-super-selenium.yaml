@@ -1,0 +1,84 @@
+---
+id: life-extension-super-selenium
+type: product
+
+meta:
+  title: "Life Extension Super Selenium Complex 200 mcg"
+  ingredient: selen
+  containedIngredients:
+    - slug: selen
+    - slug: vitamin-e
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextensioneurope.de"
+  affiliateUrl: ""
+  priceEur: 19.5
+  doseMg: 0.2
+  servingsPerPack: 100
+  pricePerDayEur: 0.2
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Selen unterstützt Schilddrüse und antioxidative Systeme, sollte aber moderat dosiert werden."
+      en: "Selen unterstützt Schilddrüse und antioxidative Systeme, sollte aber moderat dosiert werden."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,20 € pro 200 mcg für drei Bioverfügbarkeitsformen ist top."
+      en: "0,20 € pro 200 mcg für drei Bioverfügbarkeitsformen ist top."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Life Extension produziert cGMP und testet jede Form separat."
+      en: "Life Extension produziert cGMP und testet jede Form separat."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Alle Selenquellen mit Mikrogramm-Angaben aufgeführt."
+      en: "Alle Selenquellen mit Mikrogramm-Angaben aufgeführt."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Externe Labore prüfen Selengehalt und mögliche Kontaminanten."
+      en: "Externe Labore prüfen Selengehalt und mögliche Kontaminanten."
+
+locales:
+  de:
+    summary: "Dreifach-Selen-Komplex aus Selenomethionin, Seleninat und Selenhefe mit cGMP-Qualität."
+    verdictNote: "Für Menschen mit niedrigen Selenwerten eine vielseitige Mischung verschiedener Bindungsformen."
+    body:
+      description: "Die Formel liefert 50 µg Selenomethionin, 50 µg Natriumselenit und 100 µg Selenhefe plus Vitamin E als Schutz. Dadurch werden verschiedene Aufnahmewege genutzt."
+      pros:
+        - "Drei Selenformen decken unterschiedliche Transportwege"
+        - "Vitamin E ist auf Schutz vor ausgerichtet bei Oxidation"
+        - "Große 100er Packung"
+      cons:
+        - "Nicht für Menschen mit hoher Seleneinnahme geeignet"
+        - "Kapseln enthalten Reismehl"
+        - "Geruch leicht schwefelig"
+      usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit mit Fett einnehmen und Selenspiegel halbjährlich überprüfen."
+  en:
+    summary: "Dreifach-Selen-Komplex aus Selenomethionin, Seleninat und Selenhefe mit cGMP-Qualität."
+    verdictNote: "Für Menschen mit niedrigen Selenwerten eine vielseitige Mischung verschiedener Bindungsformen."
+    body:
+      description: "Die Formel liefert 50 µg Selenomethionin, 50 µg Natriumselenit und 100 µg Selenhefe plus Vitamin E als Schutz. Dadurch werden verschiedene Aufnahmewege genutzt."
+      pros:
+        - "Drei Selenformen decken unterschiedliche Transportwege"
+        - "Vitamin E ist auf Schutz vor ausgerichtet bei Oxidation"
+        - "Große 100er Packung"
+      cons:
+        - "Nicht für Menschen mit hoher Seleneinnahme geeignet"
+        - "Kapseln enthalten Reismehl"
+        - "Geruch leicht schwefelig"
+      usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit mit Fett einnehmen und Selenspiegel halbjährlich überprüfen."
+---

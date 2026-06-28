@@ -1,0 +1,81 @@
+---
+id: jarrow-maca-1500
+type: product
+
+meta:
+  title: "Jarrow Maca 1500mg"
+  ingredient: maca
+  containedIngredients:
+    - slug: maca
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 22
+  doseMg: 1500
+  servingsPerPack: 90
+  pricePerDayEur: 0.24
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Maca besitzt Humanstudien zu Libido und Stimmung, Evidenz moderat."
+      en: "Maca besitzt Humanstudien zu Libido und Stimmung, Evidenz moderat."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,24 € pro 1,5 g Extrakt ist fair."
+      en: "0,24 € pro 1,5 g Extrakt ist fair."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Gelatinisierte Maca reduziert Stärke und verbesserte Verträglichkeit."
+      en: "Gelatinisierte Maca reduziert Stärke und verbesserte Verträglichkeit."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "6:1 Verhältnis und Herkunft angegeben."
+      en: "6:1 Verhältnis und Herkunft angegeben."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Keine externen Siegel, aber Pestizidtests laut Hersteller."
+      en: "Keine externen Siegel, aber Pestizidtests laut Hersteller."
+
+locales:
+  de:
+    summary: "6:1 Maca-Extrakt mit 1,5 g Äquivalent pro Portion – peruanische Herkunft und vegane Kapseln."
+    verdictNote: "Solide Maca-Dosis in wenigen Kapseln."
+    body:
+      description: "Gelatinisierte rote, gelbe und schwarze Maca aus Junín, Peru. 6:1 Extrakt bedeutet 250 mg Pulver entsprechen 1,5 g Wurzel."
+      pros:
+        - "Gelatinisierung kann die Verträglichkeit beeinflussen"
+        - "Vegane Kapseln"
+        - "Mix aus mehreren Maca-Farben"
+      cons:
+        - "Nussiger Geruch"
+        - "Wirkung eher subtil"
+      usage: "3 Kapseln morgens mit Frühstück oder pre-workout, optional zweite Portion mittags."
+  en:
+    summary: "6:1 Maca-Extrakt mit 1,5 g Äquivalent pro Portion – peruanische Herkunft und vegane Kapseln."
+    verdictNote: "Solide Maca-Dosis in wenigen Kapseln."
+    body:
+      description: "Gelatinisierte rote, gelbe und schwarze Maca aus Junín, Peru. 6:1 Extrakt bedeutet 250 mg Pulver entsprechen 1,5 g Wurzel."
+      pros:
+        - "Gelatinisierung kann die Verträglichkeit beeinflussen"
+        - "Vegane Kapseln"
+        - "Mix aus mehreren Maca-Farben"
+      cons:
+        - "Nussiger Geruch"
+        - "Wirkung eher subtil"
+      usage: "3 Kapseln morgens mit Frühstück oder pre-workout, optional zweite Portion mittags."
+---

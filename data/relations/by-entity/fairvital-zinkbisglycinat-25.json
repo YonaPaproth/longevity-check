@@ -1,0 +1,11 @@
+{
+  "entity": "fairvital-zinkbisglycinat-25",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "zink",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+---
+id: now-foods-copper-2mg
+type: product
+
+meta:
+  title: "NOW Foods Copper 2 mg"
+  ingredient: kupfer
+  containedIngredients:
+    - slug: kupfer
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com/supplements/copper-2-mg-tablets"
+  affiliateUrl: ""
+  priceEur: 10
+  doseMg: 2
+  servingsPerPack: 100
+  pricePerDayEur: 0.1
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Kupfer ist essenziell für Kollagen, Eisenstoffwechsel und Antioxidationssysteme, aber Supplementierung ist nur bei Unterversorgung sinnvoll."
+      en: "Kupfer ist essenziell für Kollagen, Eisenstoffwechsel und Antioxidationssysteme, aber Supplementierung ist nur bei Unterversorgung sinnvoll."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,10 € pro Tag ist extrem günstig für klar dosierte 2-mg-Tabletten."
+      en: "0,10 € pro Tag ist extrem günstig für klar dosierte 2-mg-Tabletten."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW Foods produziert GMP, die Tabletten enthalten nur wenige Hilfsstoffe und sind leicht teilbar."
+      en: "NOW Foods produziert GMP, die Tabletten enthalten nur wenige Hilfsstoffe und sind leicht teilbar."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Dosierung, Salzform und Warnhinweise sind transparent aufgeführt."
+      en: "Dosierung, Salzform und Warnhinweise sind transparent aufgeführt."
+  thirdPartyTesting:
+    score: 5
+    explanation:
+      de: "Keine NSF/USP, aber firmeninterne Analysen."
+      en: "Keine NSF/USP, aber firmeninterne Analysen."
+
+locales:
+  de:
+    summary: "Kupferglukonat in 2-mg-Tabletten, Non-GMO und GMP-gefertigt – gut geeignet zum Ausgleich bei hoher Zinkzufuhr."
+    verdictNote: "Wenn viel Zink konsumiert wird, ist diese 2-mg-Kupferergänzung eine einfache Gegenmaßnahme."
+    body:
+      description: "NOW liefert Kupfer als **Kupferglukonat**, also eine gut verträgliche Salzform. Jede Tablette bringt 2 mg, was sich unkompliziert zu hohen Zinkdosierungen kombinieren lässt."
+      pros:
+        - "**Fein dosierbare 2 mg** statt massiver 5–10 mg"
+        - "**Non-GMO und GMP**-gefertigt"
+        - "**Tabletten leicht teilbar** für 1 mg"
+        - "**Sehr günstiger Preis**"
+      cons:
+        - "**Tabletten enthalten Cellulose und Stearate**, was Puristen stören kann"
+        - "**Keine organische Chelatform**, obwohl Glukonat gut funktioniert"
+        - "**Kein Kombiprodukt mit Zink**, daher zwei Dosen nötig"
+      usage: "1 Tablette alle 1–2 Tage gemeinsam mit einer Mahlzeit. Bei dauerhaft hoher Zinkzufuhr (≥25 mg täglich) täglich 1 Tablette einplanen. Nicht ohne Blutwerte über 2 mg hinausgehen."
+  en:
+    summary: "Kupferglukonat in 2-mg-Tabletten, Non-GMO und GMP-gefertigt – gut geeignet zum Ausgleich bei hoher Zinkzufuhr."
+    verdictNote: "Wenn viel Zink konsumiert wird, ist diese 2-mg-Kupferergänzung eine einfache Gegenmaßnahme."
+    body:
+      description: "NOW liefert Kupfer als **Kupferglukonat**, also eine gut verträgliche Salzform. Jede Tablette bringt 2 mg, was sich unkompliziert zu hohen Zinkdosierungen kombinieren lässt."
+      pros:
+        - "**Fein dosierbare 2 mg** statt massiver 5–10 mg"
+        - "**Non-GMO und GMP**-gefertigt"
+        - "**Tabletten leicht teilbar** für 1 mg"
+        - "**Sehr günstiger Preis**"
+      cons:
+        - "**Tabletten enthalten Cellulose und Stearate**, was Puristen stören kann"
+        - "**Keine organische Chelatform**, obwohl Glukonat gut funktioniert"
+        - "**Kein Kombiprodukt mit Zink**, daher zwei Dosen nötig"
+      usage: "1 Tablette alle 1–2 Tage gemeinsam mit einer Mahlzeit. Bei dauerhaft hoher Zinkzufuhr (≥25 mg täglich) täglich 1 Tablette einplanen. Nicht ohne Blutwerte über 2 mg hinausgehen."
+---

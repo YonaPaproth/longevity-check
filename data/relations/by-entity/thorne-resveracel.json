@@ -1,0 +1,29 @@
+{
+  "entity": "thorne-resveracel",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nr",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "quercetin",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "betain",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "resveratrol",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

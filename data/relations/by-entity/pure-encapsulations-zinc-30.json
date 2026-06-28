@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-zinc-30",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "zink",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

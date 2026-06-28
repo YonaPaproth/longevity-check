@@ -1,0 +1,81 @@
+---
+id: thorne-coq10-100
+type: product
+
+meta:
+  title: "Thorne CoQ10 100mg"
+  ingredient: coq10
+  containedIngredients:
+    - slug: coq10
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 44
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.73
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf","informed-choice"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "CoQ10 unterstützt Herzleistung in mehreren RCTs, vor allem bei älteren Menschen."
+      en: "CoQ10 unterstützt Herzleistung in mehreren RCTs, vor allem bei älteren Menschen."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,73 € pro Tag ist fair für streng qualitätsorientierte Qualität."
+      en: "0,73 € pro Tag ist fair für streng qualitätsorientierte Qualität."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Thorne löst CoQ10 in MCT-Öl ohne Soja oder Carrageen."
+      en: "Thorne löst CoQ10 in MCT-Öl ohne Soja oder Carrageen."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Volle Transparenz bis zur Gelatinequelle, keine Marketingclaims."
+      en: "Volle Transparenz bis zur Gelatinequelle, keine Marketingclaims."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF- und Informed-Choice-Tests gewährleisten chargenübergreifende Reinheit."
+      en: "NSF- und Informed-Choice-Tests gewährleisten chargenübergreifende Reinheit."
+
+locales:
+  de:
+    summary: "Kristallfreies CoQ10 in mittel­kettigem Öl für stabile Aufnahme auch bei geringem Fettkonsum."
+    verdictNote: "Sehr saubere Formulierung ohne Zusätze, gut geeignet für Nutzer mit empfindlichem Magen."
+    body:
+      description: "Thorne nutzt eine kristallfreie Ubiquinon-Form, die in MCT-Öl gelöst wird. Dadurch kann CoQ10 auch ohne große fettreiche Mahlzeit aufgenommen werden."
+      pros:
+        - "Kein Soja, keine Farbstoffe"
+        - "Durchscheinende Kapseln zeigen Ölopazität"
+        - "cGMP-Produktion mit kurzen Lieferwegen"
+      cons:
+        - "Nur 100 mg pro Softgel, Hochdoser brauchen 2-3 Stück"
+        - "Nicht vegan (Gelatine)"
+      usage: "1 Softgel mit einer Mahlzeit. Bei Statin-Einnahme auf Arztfeedback achten und ggf. 200-300 mg splitten."
+  en:
+    summary: "Kristallfreies CoQ10 in mittel­kettigem Öl für stabile Aufnahme auch bei geringem Fettkonsum."
+    verdictNote: "Sehr saubere Formulierung ohne Zusätze, gut geeignet für Nutzer mit empfindlichem Magen."
+    body:
+      description: "Thorne nutzt eine kristallfreie Ubiquinon-Form, die in MCT-Öl gelöst wird. Dadurch kann CoQ10 auch ohne große fettreiche Mahlzeit aufgenommen werden."
+      pros:
+        - "Kein Soja, keine Farbstoffe"
+        - "Durchscheinende Kapseln zeigen Ölopazität"
+        - "cGMP-Produktion mit kurzen Lieferwegen"
+      cons:
+        - "Nur 100 mg pro Softgel, Hochdoser brauchen 2-3 Stück"
+        - "Nicht vegan (Gelatine)"
+      usage: "1 Softgel mit einer Mahlzeit. Bei Statin-Einnahme auf Arztfeedback achten und ggf. 200-300 mg splitten."
+---

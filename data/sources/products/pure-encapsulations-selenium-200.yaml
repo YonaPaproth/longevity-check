@@ -1,0 +1,83 @@
+---
+id: pure-encapsulations-selenium-200
+type: product
+
+meta:
+  title: "Pure Encapsulations Selenium 200"
+  ingredient: selen
+  containedIngredients:
+    - slug: selen
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pure-encapsulations.com"
+  affiliateUrl: ""
+  priceEur: 24
+  doseMg: 0.2
+  servingsPerPack: 90
+  pricePerDayEur: 0.27
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Selen deckt antioxidativen Bedarf, besonders relevant bei Hashimoto und geringer Nusszufuhr."
+      en: "Selen deckt antioxidativen Bedarf, besonders relevant bei Hashimoto und geringer Nusszufuhr."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,27 € pro Tag ist etwas höher als Durchschnitt, aber für hypoallergene Rezeptur ok."
+      en: "0,27 € pro Tag ist etwas höher als Durchschnitt, aber für hypoallergene Rezeptur ok."
+  productQuality:
+    score: 9
+    explanation:
+      de: "cGMP-Fertigung, mikrobiologische Tests und enge Rohstoff-Partner."
+      en: "cGMP-Fertigung, mikrobiologische Tests und enge Rohstoff-Partner."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Klare Kennzeichnung, keine Blend-Begriffe, transparente Allergendeklaration."
+      en: "Klare Kennzeichnung, keine Blend-Begriffe, transparente Allergendeklaration."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Jede Charge wird intern und extern auf Schwermetalle geprüft, COAs auf Anfrage."
+      en: "Jede Charge wird intern und extern auf Schwermetalle geprüft, COAs auf Anfrage."
+
+locales:
+  de:
+    summary: "Hypoallergenes Selenomethionin mit cGMP-Standard, frei von Laktose, Gluten und unnötigen Zusatzstoffen."
+    verdictNote: "Für empfindliche Personen eine sichere Option ohne Füllstoffe, made in USA."
+    body:
+      description: "Pure Encapsulations ist auf hypoallergene Mikronährstoffe spezialisiert. Diese Selen-Kapsel liefert 200 mcg Selenomethionin in einer pflanzlichen Kapselhülle und nutzt nur Reisextrakt als Füllstoff."
+      pros:
+        - "Klinisch getestete, hypoallergene Rezeptur"
+        - "cGMP-zertifizierte Fertigung in den USA"
+        - "Sehr geringe Zusatzstoffliste"
+        - "Gute Verfügbarkeit in deutschen Apotheken"
+      cons:
+        - "Keine kleinere 100 mcg Variante"
+        - "Preis höher als bei Standardmarken"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei gleichzeitiger Einnahme weiterer selenhaltiger Produkte Gesamtzufuhr prüfen."
+  en:
+    summary: "Hypoallergenes Selenomethionin mit cGMP-Standard, frei von Laktose, Gluten und unnötigen Zusatzstoffen."
+    verdictNote: "Für empfindliche Personen eine sichere Option ohne Füllstoffe, made in USA."
+    body:
+      description: "Pure Encapsulations ist auf hypoallergene Mikronährstoffe spezialisiert. Diese Selen-Kapsel liefert 200 mcg Selenomethionin in einer pflanzlichen Kapselhülle und nutzt nur Reisextrakt als Füllstoff."
+      pros:
+        - "Klinisch getestete, hypoallergene Rezeptur"
+        - "cGMP-zertifizierte Fertigung in den USA"
+        - "Sehr geringe Zusatzstoffliste"
+        - "Gute Verfügbarkeit in deutschen Apotheken"
+      cons:
+        - "Keine kleinere 100 mcg Variante"
+        - "Preis höher als bei Standardmarken"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei gleichzeitiger Einnahme weiterer selenhaltiger Produkte Gesamtzufuhr prüfen."
+---

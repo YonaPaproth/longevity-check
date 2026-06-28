@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-lithium-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "lithium-orotat",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

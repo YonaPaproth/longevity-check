@@ -1,0 +1,83 @@
+---
+id: jarrow-lions-mane-1000
+type: product
+
+meta:
+  title: "Jarrow Lion's Mane 1000mg"
+  ingredient: lion-s-mane
+  containedIngredients:
+    - slug: lion-s-mane
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 34
+  doseMg: 1000
+  servingsPerPack: 60
+  pricePerDayEur: 0.57
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Humanstudien zeigen bessere kognitive Performance und Nervenregeneration durch Hericium erinaceus."
+      en: "Humanstudien zeigen bessere kognitive Performance und Nervenregeneration durch Hericium erinaceus."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,57 € pro Portion für 1000 mg Vollspektrum-Extrakt liegt im Mittelfeld hochwertiger Pilzpräparate."
+      en: "0,57 € pro Portion für 1000 mg Vollspektrum-Extrakt liegt im Mittelfeld hochwertiger Pilzpräparate."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Jarrow nutzt heißwasser- und alkoholischen Dual-Extrakt, Hericium-Gehalt pro Portion ausgewiesen."
+      en: "Jarrow nutzt heißwasser- und alkoholischen Dual-Extrakt, Hericium-Gehalt pro Portion ausgewiesen."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Transparente Aufschlüsselung der Beta-Glucane und Pilzquelle ohne proprietäre Mischungen."
+      en: "Transparente Aufschlüsselung der Beta-Glucane und Pilzquelle ohne proprietäre Mischungen."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Chargen werden auf Schwermetalle geprüft, Analysenzertifikate auf Anfrage verfügbar."
+      en: "Chargen werden auf Schwermetalle geprüft, Analysenzertifikate auf Anfrage verfügbar."
+
+locales:
+  de:
+    summary: "Hoch dosierter Hericium erinaceus mit veganen Kapseln für fokussierte Deep-Work-Sessions."
+    verdictNote: "Solider Lion's-Mane-Stack mit 1 g Extrakt pro Tag für Fokus und Nervenregeneration."
+    body:
+      description: "Lion's Mane 1000mg kombiniert zwei standardisierte Hericium-extrakte (heißwasser + Ethanolextrakt), liefert messbare Beta-Glucane und kommt in pflanzlichen Kapseln ohne Stabilisatoren."
+      pros:
+        - "Volle 1000 mg Extrakt pro Tag"
+        - "Dual-Extraktion mit ausgewiesenem Beta-Glucan-Profil"
+        - "Frei von Stimulanzien, daher stackbar mit Koffein oder L-Theanin"
+        - "Vegan zertifizierte Kapselhülle"
+      cons:
+        - "Keine Angabe des Erinacin-Gehalts"
+        - "Nur 30 Tage Vorrat bei Doppelportion für Intensivphasen"
+      usage: "1 Kapsel morgens nüchtern oder zu einer Mahlzeit mit etwas Fett einnehmen. An Fokustagen optional 2 Kapseln aufteilen (morgens und frühnachmittags)."
+  en:
+    summary: "Hoch dosierter Hericium erinaceus mit veganen Kapseln für fokussierte Deep-Work-Sessions."
+    verdictNote: "Solider Lion's-Mane-Stack mit 1 g Extrakt pro Tag für Fokus und Nervenregeneration."
+    body:
+      description: "Lion's Mane 1000mg kombiniert zwei standardisierte Hericium-extrakte (heißwasser + Ethanolextrakt), liefert messbare Beta-Glucane und kommt in pflanzlichen Kapseln ohne Stabilisatoren."
+      pros:
+        - "Volle 1000 mg Extrakt pro Tag"
+        - "Dual-Extraktion mit ausgewiesenem Beta-Glucan-Profil"
+        - "Frei von Stimulanzien, daher stackbar mit Koffein oder L-Theanin"
+        - "Vegan zertifizierte Kapselhülle"
+      cons:
+        - "Keine Angabe des Erinacin-Gehalts"
+        - "Nur 30 Tage Vorrat bei Doppelportion für Intensivphasen"
+      usage: "1 Kapsel morgens nüchtern oder zu einer Mahlzeit mit etwas Fett einnehmen. An Fokustagen optional 2 Kapseln aufteilen (morgens und frühnachmittags)."
+---

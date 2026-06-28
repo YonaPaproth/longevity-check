@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-astaxanthin-10",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "astaxanthin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

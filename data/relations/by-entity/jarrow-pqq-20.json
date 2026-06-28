@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-pqq-20",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "pqq",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

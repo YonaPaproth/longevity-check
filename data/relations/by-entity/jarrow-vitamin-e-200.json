@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-vitamin-e-200",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-e",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+---
+id: life-extension-rutin-500
+type: product
+
+meta:
+  title: "Life Extension Super Absorbable Rutin 500 mg"
+  ingredient: rutin
+  containedIngredients:
+    - slug: rutin
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextensioneurope.de/super-absorbable-rutin"
+  affiliateUrl: ""
+  priceEur: 18
+  doseMg: 500
+  servingsPerPack: 100
+  pricePerDayEur: 0.18
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Rutin unterstützt Gefäße und Kollagen, aber harte klinische Endpunkte fehlen."
+      en: "Rutin unterstützt Gefäße und Kollagen, aber harte klinische Endpunkte fehlen."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,18 € pro 500 mg ist sehr stark, besonders bei 100 Portionen."
+      en: "0,18 € pro 500 mg ist sehr stark, besonders bei 100 Portionen."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Life Extension verwendet Buchweizen-Extrakt plus zusätzliche Citrus-Bioflavonoide für bessere Absorption."
+      en: "Life Extension verwendet Buchweizen-Extrakt plus zusätzliche Citrus-Bioflavonoide für bessere Absorption."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare Deklaration der Mischung, inklusive Quellenangabe."
+      en: "Klare Deklaration der Mischung, inklusive Quellenangabe."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "cGMP und interne Analysen vorhanden, externe Siegel fehlen."
+      en: "cGMP und interne Analysen vorhanden, externe Siegel fehlen."
+
+locales:
+  de:
+    summary: "500 mg Rutin aus Buchweizen mit zusätzlichem Bioflavonoidkomplex, cGMP-gefertigt und budgetfreundlich."
+    verdictNote: "Preiswerter Gefäß- und Kollagen-Kontext für Menschen, die Rutin gezielt stacken wollen."
+    body:
+      description: "Die Kapseln enthalten **500 mg Rutin** aus Buchweizen sowie einen kleinen Citrus-Bioflavonoid-Komplex, der die Aufnahme verbessern soll. Life Extension produziert nach cGMP und kapselt in pflanzlichen HPMC-Kapseln."
+      pros:
+        - "**Hohe 500-mg-Dosis** pro Kapsel"
+        - "**Zusätzliche Bioflavonoide** für Synergie"
+        - "**100 Portionen** halten lange vor"
+        - "**Günstiger Preis** trotz Markenqualität"
+      cons:
+        - "**Keine unabhängige Zertifizierung**"
+        - "**Enthält Spuren von Citrusallergenen**"
+        - "**Rutin ist ein Nischenwirkstoff**, Nutzen abhängig von Bedarf"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei empfindlichem Magen mit etwas Nahrung einnehmen. Nicht mit hochdosierten Blutverdünnern kombinieren, ohne medizinische Abklärung."
+  en:
+    summary: "500 mg Rutin aus Buchweizen mit zusätzlichem Bioflavonoidkomplex, cGMP-gefertigt und budgetfreundlich."
+    verdictNote: "Preiswerter Gefäß- und Kollagen-Kontext für Menschen, die Rutin gezielt stacken wollen."
+    body:
+      description: "Die Kapseln enthalten **500 mg Rutin** aus Buchweizen sowie einen kleinen Citrus-Bioflavonoid-Komplex, der die Aufnahme verbessern soll. Life Extension produziert nach cGMP und kapselt in pflanzlichen HPMC-Kapseln."
+      pros:
+        - "**Hohe 500-mg-Dosis** pro Kapsel"
+        - "**Zusätzliche Bioflavonoide** für Synergie"
+        - "**100 Portionen** halten lange vor"
+        - "**Günstiger Preis** trotz Markenqualität"
+      cons:
+        - "**Keine unabhängige Zertifizierung**"
+        - "**Enthält Spuren von Citrusallergenen**"
+        - "**Rutin ist ein Nischenwirkstoff**, Nutzen abhängig von Bedarf"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei empfindlichem Magen mit etwas Nahrung einnehmen. Nicht mit hochdosierten Blutverdünnern kombinieren, ohne medizinische Abklärung."
+---

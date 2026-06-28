@@ -1,0 +1,81 @@
+---
+id: now-foods-astaxanthin-10
+type: product
+
+meta:
+  title: "NOW Foods Astaxanthin 10mg"
+  ingredient: astaxanthin
+  containedIngredients:
+    - slug: astaxanthin
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 10
+  servingsPerPack: 60
+  pricePerDayEur: 0.47
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Astaxanthin zeigt antioxidative Effekte in Haut- und Sportstudien, aber wenig Langzeitdaten."
+      en: "Astaxanthin zeigt antioxidative Effekte in Haut- und Sportstudien, aber wenig Langzeitdaten."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,47 € pro Tag ist stark für 10 mg Natur-Astaxanthin."
+      en: "0,47 € pro Tag ist stark für 10 mg Natur-Astaxanthin."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Kaltgepresstes Olivenöl dient als Träger, keine synthetischen Farbstoffe."
+      en: "Kaltgepresstes Olivenöl dient als Träger, keine synthetischen Farbstoffe."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare Angabe der Algenquelle und des Standardisats."
+      en: "Klare Angabe der Algenquelle und des Standardisats."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW betreibt interne Chromatographie-Tests, externe Daten nur stichprobenartig."
+      en: "NOW betreibt interne Chromatographie-Tests, externe Daten nur stichprobenartig."
+
+locales:
+  de:
+    summary: "Natürliches Astaxanthin aus Haematococcus pluvialis in günstiger 60-Softgel-Dose."
+    verdictNote: "Günstige und dennoch hochwertige Quelle für natürliches Astaxanthin bei Alltagsoxidationsstress."
+    body:
+      description: "NOW Foods nutzt Haematococcus-Plankton aus Hawaii und extrahiert es lösungsmittelfrei. Die Softgels enthalten Olivenöl und Vitamin E als Stabilisator."
+      pros:
+        - "Trägeröl aus Oliven statt Soja"
+        - "60 Portionen reichen zwei Monate"
+        - "Laborberichte auf der Website abrufbar"
+      cons:
+        - "Gelatine-Kapsel nicht vegetarisch"
+        - "Ölige Kapseln können bei Hitze zusammenkleben"
+      usage: "1 Softgel zu einer fetthaltigen Mahlzeit oder direkt vor Sonneneinstrahlung starker Tage."
+  en:
+    summary: "Natürliches Astaxanthin aus Haematococcus pluvialis in günstiger 60-Softgel-Dose."
+    verdictNote: "Günstige und dennoch hochwertige Quelle für natürliches Astaxanthin bei Alltagsoxidationsstress."
+    body:
+      description: "NOW Foods nutzt Haematococcus-Plankton aus Hawaii und extrahiert es lösungsmittelfrei. Die Softgels enthalten Olivenöl und Vitamin E als Stabilisator."
+      pros:
+        - "Trägeröl aus Oliven statt Soja"
+        - "60 Portionen reichen zwei Monate"
+        - "Laborberichte auf der Website abrufbar"
+      cons:
+        - "Gelatine-Kapsel nicht vegetarisch"
+        - "Ölige Kapseln können bei Hitze zusammenkleben"
+      usage: "1 Softgel zu einer fetthaltigen Mahlzeit oder direkt vor Sonneneinstrahlung starker Tage."
+---

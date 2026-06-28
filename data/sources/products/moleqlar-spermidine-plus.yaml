@@ -1,0 +1,83 @@
+---
+id: moleqlar-spermidine-plus
+type: product
+
+meta:
+  title: "MoleQlar Spermidin Plus 3.5 mg"
+  ingredient: spermidine
+  containedIngredients:
+    - slug: spermidine
+  vendor: "MoleQlar"
+  vendorUrl: "https://moleqlar.de/produkte/spermidine-plus/"
+  affiliateUrl: ""
+  priceEur: 59
+  doseMg: 3.5
+  servingsPerPack: 60
+  pricePerDayEur: 0.98
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Spermidin hat frühe Humanstudien für Herzalterung, aber keine harten Outcome-Daten."
+      en: "Spermidin hat frühe Humanstudien für Herzalterung, aber keine harten Outcome-Daten."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,98 € pro 3,5 mg ist im Hochdosis-Vergleich wettbewerbsfähig."
+      en: "0,98 € pro 3,5 mg ist im Hochdosis-Vergleich wettbewerbsfähig."
+  productQuality:
+    score: 9
+    explanation:
+      de: "MoleQlar produziert in Deutschland, testet auf Schwermetalle und Glutenfreiheit."
+      en: "MoleQlar produziert in Deutschland, testet auf Schwermetalle und Glutenfreiheit."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Transparente Angabe von Spermidin- und Spermidingehalt sowie Hilfsstoffen."
+      en: "Transparente Angabe von Spermidin- und Spermidingehalt sowie Hilfsstoffen."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "TÜV SÜD prüft jede Charge auf Polyamin-Gehalt und Kontaminationen."
+      en: "TÜV SÜD prüft jede Charge auf Polyamin-Gehalt und Kontaminationen."
+
+locales:
+  de:
+    summary: "Made-in-Germany-Spermidin mit 3,5 mg pro Kapsel, TÜV-geprüft und höchste Dosierung im Markt."
+    verdictNote: "Wer maximale Spermidindosis mit deutschem Qualitätsnachweis sucht, liegt hier richtig."
+    body:
+      description: "Spermidin Plus liefert 3,5 mg standardisiertes Spermidin aus österreichischem Weizenkeimkonzentrat. Die Kapseln entstehen in Bayern, sind vegan und enthalten als Träger nur Mikrokristalline Cellulose."
+      pros:
+        - "TÜV-geprüfte Chargen"
+        - "Höchste Spermidindosis pro Kapsel im Handel"
+        - "Produktion vollständig in Deutschland"
+        - "Glutenfreiheit laborbestätigt"
+      cons:
+        - "Preis knapp unter 1 € pro Tag"
+        - "Kapselgröße etwas größer als bei 1-mg-Produkten"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Wer langsam einschleichen möchte, öffnet die Kapsel und nutzt halbe Portion in Joghurt oder Shake."
+  en:
+    summary: "Made-in-Germany-Spermidin mit 3,5 mg pro Kapsel, TÜV-geprüft und höchste Dosierung im Markt."
+    verdictNote: "Wer maximale Spermidindosis mit deutschem Qualitätsnachweis sucht, liegt hier richtig."
+    body:
+      description: "Spermidin Plus liefert 3,5 mg standardisiertes Spermidin aus österreichischem Weizenkeimkonzentrat. Die Kapseln entstehen in Bayern, sind vegan und enthalten als Träger nur Mikrokristalline Cellulose."
+      pros:
+        - "TÜV-geprüfte Chargen"
+        - "Höchste Spermidindosis pro Kapsel im Handel"
+        - "Produktion vollständig in Deutschland"
+        - "Glutenfreiheit laborbestätigt"
+      cons:
+        - "Preis knapp unter 1 € pro Tag"
+        - "Kapselgröße etwas größer als bei 1-mg-Produkten"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Wer langsam einschleichen möchte, öffnet die Kapsel und nutzt halbe Portion in Joghurt oder Shake."
+---

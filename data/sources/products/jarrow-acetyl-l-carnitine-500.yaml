@@ -1,0 +1,81 @@
+---
+id: jarrow-acetyl-l-carnitine-500
+type: product
+
+meta:
+  title: "Jarrow Acetyl-L-Carnitine 500mg"
+  ingredient: acetyl-l-carnitin
+  containedIngredients:
+    - slug: acetyl-l-carnitin
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 500
+  servingsPerPack: 100
+  pricePerDayEur: 0.28
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "ALCAR zeigt Effekte auf mentale Ermüdung und Fettmetabolismus in mehreren Studien."
+      en: "ALCAR zeigt Effekte auf mentale Ermüdung und Fettmetabolismus in mehreren Studien."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,28 € pro Kapsel ist fair."
+      en: "0,28 € pro Kapsel ist fair."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Jarrow nutzt streng qualitätsorientiertes HCl-Salz aus Italien."
+      en: "Jarrow nutzt streng qualitätsorientiertes HCl-Salz aus Italien."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare Angabe von L-Carnitin-Basis und Salzform."
+      en: "Klare Angabe von L-Carnitin-Basis und Salzform."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Standardisierte COAs, aber keine großen Prüfsiegel."
+      en: "Standardisierte COAs, aber keine großen Prüfsiegel."
+
+locales:
+  de:
+    summary: "ALCAR-Kapseln mit 500 mg für Mitochondrien- und Konzentrations-Stacks ohne Zusatzstoffe."
+    verdictNote: "Zuverlässige Basis für mentale Energie, besonders in Kombination mit Alpha-GPC oder R-ALA."
+    body:
+      description: "Jarrow kapselt ALCAR mit Cellulose und nutzt Siliciumdioxid nur minimal zur Fließfähigkeit. Die Kapseln riechen charakteristisch essigsauer – ein Qualitätsmerkmal."
+      pros:
+        - "Vegan und leicht zu schlucken"
+        - "Starker Fokus-Effekt nach 20-30 Minuten"
+        - "Keine künstlichen Farbstoffe"
+      cons:
+        - "Säuerlicher Nachgeschmack bei leerem Magen"
+        - "Kann leicht stimulierend wirken"
+      usage: "1-2 Kapseln morgens oder vor kognitiven Aufgaben. Mit Alpha-GPC kombinieren für Acetylcholin-Support."
+  en:
+    summary: "ALCAR-Kapseln mit 500 mg für Mitochondrien- und Konzentrations-Stacks ohne Zusatzstoffe."
+    verdictNote: "Zuverlässige Basis für mentale Energie, besonders in Kombination mit Alpha-GPC oder R-ALA."
+    body:
+      description: "Jarrow kapselt ALCAR mit Cellulose und nutzt Siliciumdioxid nur minimal zur Fließfähigkeit. Die Kapseln riechen charakteristisch essigsauer – ein Qualitätsmerkmal."
+      pros:
+        - "Vegan und leicht zu schlucken"
+        - "Starker Fokus-Effekt nach 20-30 Minuten"
+        - "Keine künstlichen Farbstoffe"
+      cons:
+        - "Säuerlicher Nachgeschmack bei leerem Magen"
+        - "Kann leicht stimulierend wirken"
+      usage: "1-2 Kapseln morgens oder vor kognitiven Aufgaben. Mit Alpha-GPC kombinieren für Acetylcholin-Support."
+---

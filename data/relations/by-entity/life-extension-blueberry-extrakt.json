@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-blueberry-extrakt",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "egcg",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

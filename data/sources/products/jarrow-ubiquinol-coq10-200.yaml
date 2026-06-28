@@ -1,0 +1,83 @@
+---
+id: jarrow-ubiquinol-coq10-200
+type: product
+
+meta:
+  title: "Jarrow Ubiquinol QH-Absorb 200mg"
+  ingredient: coq10
+  containedIngredients:
+    - slug: coq10
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 52
+  doseMg: 200
+  servingsPerPack: 60
+  pricePerDayEur: 0.87
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Ubichinol verbesserte Herzleistung und Mitochondrienfunktion, besonders bei Statin-Patienten und 60+."
+      en: "Ubichinol verbesserte Herzleistung und Mitochondrienfunktion, besonders bei Statin-Patienten und 60+."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,87 € pro 200 mg ist teuer, deckt aber Kaneka-Ubiquinol plus Liposomal-Matrix ab."
+      en: "0,87 € pro 200 mg ist teuer, deckt aber Kaneka-Ubiquinol plus Liposomal-Matrix ab."
+  productQuality:
+    score: 9
+    explanation:
+      de: "QH-Absorb verwendet gepufferte MCTs und Emulgatoren für bessere Aufnahme, jede Charge Kaneka zertifiziert."
+      en: "QH-Absorb verwendet gepufferte MCTs und Emulgatoren für bessere Aufnahme, jede Charge Kaneka zertifiziert."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Ubiquinol-Form, Herkunft und Hilfsstoffe werden klar angegeben."
+      en: "Ubiquinol-Form, Herkunft und Hilfsstoffe werden klar angegeben."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Jarrow veröffentlicht HPLC-Analysen, externe Tests existieren vereinzelt."
+      en: "Jarrow veröffentlicht HPLC-Analysen, externe Tests existieren vereinzelt."
+
+locales:
+  de:
+    summary: "200 mg aktive Ubiquinol-Form mit Kaneka-Rohstoff und QH-Absorb-Technologie für ältere Anwender."
+    verdictNote: "Für Anwender, die Ubiquinol statt Ubichinon brauchen, eine vergleichsweise transparente 200-mg-Option mit auf Bioverfügbarkeit ausgerichteter Formulierung."
+    body:
+      description: "QH-Absorb kombiniert 200 mg Kaneka-Ubiquinol mit MCT-Öl und natürlichen Tocopherolen. Die Softgels sind klein gehalten und enthalten keine synthetischen Farbstoffe."
+      pros:
+        - "Aktive Ubiquinol-Form, besonders für ältere Menschen sinnvoll"
+        - "Kaneka-Rohstoff mit Rückverfolgbarkeit"
+        - "Gute Absorptionshilfe durch gepufferte MCTs"
+        - "Glutenfrei und frei von Titandioxid"
+      cons:
+        - "Hoher Preis pro Tag"
+        - "Keine veganen Softgels verfügbar"
+      usage: "1 Softgel zu einer fettreichen Mahlzeit, idealerweise zusammen mit Magnesium oder PQQ. Bei Statintherapie nach ärztlicher Rücksprache 2 Softgels auf morgens und abends aufteilen."
+  en:
+    summary: "200 mg aktive Ubiquinol-Form mit Kaneka-Rohstoff und QH-Absorb-Technologie für ältere Anwender."
+    verdictNote: "Für Anwender, die Ubiquinol statt Ubichinon brauchen, eine vergleichsweise transparente 200-mg-Option mit auf Bioverfügbarkeit ausgerichteter Formulierung."
+    body:
+      description: "QH-Absorb kombiniert 200 mg Kaneka-Ubiquinol mit MCT-Öl und natürlichen Tocopherolen. Die Softgels sind klein gehalten und enthalten keine synthetischen Farbstoffe."
+      pros:
+        - "Aktive Ubiquinol-Form, besonders für ältere Menschen sinnvoll"
+        - "Kaneka-Rohstoff mit Rückverfolgbarkeit"
+        - "Gute Absorptionshilfe durch gepufferte MCTs"
+        - "Glutenfrei und frei von Titandioxid"
+      cons:
+        - "Hoher Preis pro Tag"
+        - "Keine veganen Softgels verfügbar"
+      usage: "1 Softgel zu einer fettreichen Mahlzeit, idealerweise zusammen mit Magnesium oder PQQ. Bei Statintherapie nach ärztlicher Rücksprache 2 Softgels auf morgens und abends aufteilen."
+---

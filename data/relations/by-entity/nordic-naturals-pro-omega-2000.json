@@ -1,0 +1,11 @@
+{
+  "entity": "nordic-naturals-pro-omega-2000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "omega-3",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

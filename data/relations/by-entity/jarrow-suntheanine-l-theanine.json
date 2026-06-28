@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-suntheanine-l-theanine",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "l-theanin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

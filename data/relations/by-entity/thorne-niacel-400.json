@@ -1,0 +1,11 @@
+{
+  "entity": "thorne-niacel-400",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nr",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+---
+id: sunday-natural-lions-mane-500
+type: product
+
+meta:
+  title: "Sunday Natural Lion's Mane Extrakt 500"
+  ingredient: lion-s-mane
+  containedIngredients:
+    - slug: lion-s-mane
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de"
+  affiliateUrl: ""
+  priceEur: 24.9
+  doseMg: 500
+  servingsPerPack: 90
+  pricePerDayEur: 0.28
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-15"
+  lastPriceCheck: "2026-06-15"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Lion's Mane hat vielversprechende Daten zu Kognition und NGF-Stimulation, aber noch wenige große RCTs."
+      en: "Lion's Mane has promising data on cognition and NGF stimulation, but still few large RCTs."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,28 € pro 500 mg Extrakt ist sehr gut — viele Konkurrenten verlangen das Doppelte."
+      en: "€0.28 per 500 mg extract is very good — many competitors charge double."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Extrakt (nicht nur Pulver), standardisiert auf 30 % Polysaccharide, aus Fruchtkörper."
+      en: "Extract (not just powder), standardized to 30% polysaccharides, from fruiting body."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Polysaccharid-Gehalt deklariert, Fruchtkörper-Extrakt klar ausgewiesen."
+      en: "Polysaccharide content declared, fruiting body extract clearly indicated."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Deutsche Laboranalytik auf Schwermetalle, Pestizide und Wirkstoffgehalt."
+      en: "German laboratory analysis for heavy metals, pesticides, and active ingredient content."
+
+locales:
+  de:
+    summary: "Hericium-erinaceus-Extrakt mit 30 % Polysacchariden, 500 mg pro Kapsel, 90 Stück."
+    verdictNote: "Solider Lion's-Mane-Extrakt zum fairen Preis. Fruchtkörper-basiert mit guter Standardisierung."
+    body:
+      description: "Sunday Natural verwendet einen Hericium-erinaceus-Extrakt aus dem Fruchtkörper (nicht Myzel auf Getreide), standardisiert auf mindestens 30 % Polysaccharide. Der Fruchtkörper enthält die relevanten Verbindungen Hericenone und Erinacine, die die NGF-Produktion anregen können."
+      pros:
+        - "Fruchtkörper-Extrakt statt Myzel-auf-Getreide (höherer Wirkstoffgehalt)"
+        - "Standardisiert auf 30 % Polysaccharide"
+        - "90 Kapseln = 3 Monate Reichweite"
+        - "Attraktiver Preis für Extrakt-Qualität"
+      cons:
+        - "Keine Angabe zu Hericenon- oder Erinacin-Gehalt (nur Polysaccharide)"
+        - "Evidenzlage noch dünn — große RCTs fehlen"
+        - "500 mg ist moderat, einige Studien verwenden 1000–3000 mg"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei kognitiver Zielsetzung ggf. 2 Kapseln (morgens und mittags)."
+  en:
+    summary: "Hericium erinaceus extract with 30% polysaccharides, 500 mg per capsule, 90 pieces."
+    verdictNote: "Solid Lion's Mane extract at fair price. Fruiting body-based with good standardization."
+    body:
+      description: "Sunday Natural uses a Hericium erinaceus extract from the fruiting body (not mycelium on grain), standardized to at least 30% polysaccharides. The fruiting body contains the relevant compounds hericenones and erinacines, which can stimulate NGF production."
+      pros:
+        - "Fruiting body extract instead of mycelium-on-grain (higher active ingredient content)"
+        - "Standardized to 30% polysaccharides"
+        - "90 capsules = 3 months duration"
+        - "Attractive price for extract quality"
+      cons:
+        - "No information on hericenone or erinacine content (only polysaccharides)"
+        - "Evidence base still thin — large RCTs missing"
+        - "500 mg is moderate, some studies use 1000–3000 mg"
+      usage: ""
+---

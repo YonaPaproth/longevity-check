@@ -1,0 +1,11 @@
+{
+  "entity": "double-wood-spermidine-1",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "spermidine",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

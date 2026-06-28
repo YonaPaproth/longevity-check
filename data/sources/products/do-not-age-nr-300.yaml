@@ -1,0 +1,83 @@
+---
+id: do-not-age-nr-300
+type: product
+
+meta:
+  title: "Do Not Age NR Cell Restoration 300 mg"
+  ingredient: nr
+  containedIngredients:
+    - slug: nr
+  vendor: "Do Not Age"
+  vendorUrl: "https://donotage.org"
+  affiliateUrl: ""
+  priceEur: 74.5
+  doseMg: 300
+  servingsPerPack: 60
+  pricePerDayEur: 1.24
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "NR erhöhte NAD+ zuverlässig, auch wenn klinische Endpunkte begrenzt sind."
+      en: "NR erhöhte NAD+ zuverlässig, auch wenn klinische Endpunkte begrenzt sind."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "1,24 € pro 300 mg ist marktüblich für Niagen-Lizenzware."
+      en: "1,24 € pro 300 mg ist marktüblich für Niagen-Lizenzware."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Do Not Age arbeitet eng mit ChromaDex zusammen und kapselt unter GMP."
+      en: "Do Not Age arbeitet eng mit ChromaDex zusammen und kapselt unter GMP."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Niagen-Logo auf dem Etikett, eindeutige Chargennummern und Haltbarkeitsdaten."
+      en: "Niagen-Logo auf dem Etikett, eindeutige Chargennummern und Haltbarkeitsdaten."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "Unabhängige HPLC-Analysen und Schwermetall-Reports werden Mitgliedern bereitgestellt."
+      en: "Unabhängige HPLC-Analysen und Schwermetall-Reports werden Mitgliedern bereitgestellt."
+
+locales:
+  de:
+    summary: "Niagen-lizenziertes Nicotinamid Ribosid mit third-party Tests und Mitgliederrabatten von Do Not Age."
+    verdictNote: "Wer NR bevorzugt und Zugriff auf die Mitgliedsvorteile von Do Not Age hat, fährt hier vergleichsweise transparent und transparent."
+    body:
+      description: "Do Not Age kapselt 300 mg Nicotinamid Ribosid Chlorid pro Portion. Mitglieder erhalten Zugriff auf Laborberichte und einen stetigen Preisnachlass, was das Produkt trotz hoher UVP attraktiv macht."
+      pros:
+        - "Niagen-Lizenz garantiert Rohstoffherkunft"
+        - "Third-party Tests inklusive Schwermetallen"
+        - "Mitgliedschaft reduziert Preis deutlich"
+      cons:
+        - "Mitgliedschaft nötig, um Bestpreis zu erhalten"
+        - "Hartkapseln enthalten Reisextrakt"
+        - "1,24 € pro Tag bleibt höher als bei NR-Pulvern"
+      usage: "1 Kapsel morgens zu einer Mahlzeit einnehmen; bei höherem Bedarf zweite Kapsel am Nachmittag hinzufügen."
+  en:
+    summary: "Niagen-lizenziertes Nicotinamid Ribosid mit third-party Tests und Mitgliederrabatten von Do Not Age."
+    verdictNote: "Wer NR bevorzugt und Zugriff auf die Mitgliedsvorteile von Do Not Age hat, fährt hier vergleichsweise transparent und transparent."
+    body:
+      description: "Do Not Age kapselt 300 mg Nicotinamid Ribosid Chlorid pro Portion. Mitglieder erhalten Zugriff auf Laborberichte und einen stetigen Preisnachlass, was das Produkt trotz hoher UVP attraktiv macht."
+      pros:
+        - "Niagen-Lizenz garantiert Rohstoffherkunft"
+        - "Third-party Tests inklusive Schwermetallen"
+        - "Mitgliedschaft reduziert Preis deutlich"
+      cons:
+        - "Mitgliedschaft nötig, um Bestpreis zu erhalten"
+        - "Hartkapseln enthalten Reisextrakt"
+        - "1,24 € pro Tag bleibt höher als bei NR-Pulvern"
+      usage: "1 Kapsel morgens zu einer Mahlzeit einnehmen; bei höherem Bedarf zweite Kapsel am Nachmittag hinzufügen."
+---

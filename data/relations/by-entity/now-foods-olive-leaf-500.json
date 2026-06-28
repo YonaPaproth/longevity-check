@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-olive-leaf-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "hydroxytyrosol",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

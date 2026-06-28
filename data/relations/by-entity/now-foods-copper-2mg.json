@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-copper-2mg",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "kupfer",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

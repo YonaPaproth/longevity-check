@@ -1,0 +1,81 @@
+---
+id: now-foods-cordyceps
+type: product
+
+meta:
+  title: "NOW Foods Cordyceps 750mg"
+  ingredient: cordyceps
+  containedIngredients:
+    - slug: cordyceps
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 32
+  doseMg: 750
+  servingsPerPack: 90
+  pricePerDayEur: 0.36
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Studienlage ist gemischt; wenige hochwertige RCTs."
+      en: "Studienlage ist gemischt; wenige hochwertige RCTs."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,36 € pro Portion für 750 mg ist attraktiv."
+      en: "0,36 € pro Portion für 750 mg ist attraktiv."
+  productQuality:
+    score: 7
+    explanation:
+      de: "USA-GMP-Anlage, aber Myzel statt Fruchtkörper."
+      en: "USA-GMP-Anlage, aber Myzel statt Fruchtkörper."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Deklariert Myzel auf Reissubstrat korrekt."
+      en: "Deklariert Myzel auf Reissubstrat korrekt."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "NOW testet jede Charge intern, externe Nachweise sind rar."
+      en: "NOW testet jede Charge intern, externe Nachweise sind rar."
+
+locales:
+  de:
+    summary: "Cordyceps sinensis Myzel-Pulver mit 750 mg pro Kapsel und GMP-geprüfter Herstellung."
+    verdictNote: "Für Einsteiger ok, wer maximale Ergosterolwerte sucht, sollte Fruchtkörper wählen."
+    body:
+      description: "NOW Foods kultiviert Cordyceps mycelial im Fermentor. Das Pulver wird unter Stickstoff abgefüllt und enthält keine Zusatzstoffe außer Reisextrakt."
+      pros:
+        - "Hohe Portionenzahl"
+        - "Preislich sehr moderat"
+        - "GMP-zertifizierte Fabrik"
+      cons:
+        - "Myzel hat niedrigere Cordycepinwerte"
+        - "Kapseln recht groß"
+      usage: "1-2 Kapseln vor sportlicher Belastung oder in der Früh. Mit Kaffee kombinierbar, da stimulansfrei."
+  en:
+    summary: "Cordyceps sinensis Myzel-Pulver mit 750 mg pro Kapsel und GMP-geprüfter Herstellung."
+    verdictNote: "Für Einsteiger ok, wer maximale Ergosterolwerte sucht, sollte Fruchtkörper wählen."
+    body:
+      description: "NOW Foods kultiviert Cordyceps mycelial im Fermentor. Das Pulver wird unter Stickstoff abgefüllt und enthält keine Zusatzstoffe außer Reisextrakt."
+      pros:
+        - "Hohe Portionenzahl"
+        - "Preislich sehr moderat"
+        - "GMP-zertifizierte Fabrik"
+      cons:
+        - "Myzel hat niedrigere Cordycepinwerte"
+        - "Kapseln recht groß"
+      usage: "1-2 Kapseln vor sportlicher Belastung oder in der Früh. Mit Kaffee kombinierbar, da stimulansfrei."
+---

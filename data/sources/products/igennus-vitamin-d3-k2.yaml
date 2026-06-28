@@ -1,0 +1,83 @@
+---
+id: igennus-vitamin-d3-k2
+type: product
+
+meta:
+  title: "Igennus Vitamin D3+K2"
+  ingredient: vitamin-d3-k2
+  containedIngredients:
+    - slug: vitamin-d3-k2
+  vendor: "Igennus Healthcare"
+  vendorUrl: "https://igennus.com"
+  affiliateUrl: ""
+  priceEur: 19.9
+  doseMg: 0.2
+  servingsPerPack: 90
+  pricePerDayEur: 0.22
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Vitamin D3 und K2 besitzen starke Daten zu Knochenstoffwechsel und Immunmodulation."
+      en: "Vitamin D3 und K2 besitzen starke Daten zu Knochenstoffwechsel und Immunmodulation."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,22 € pro Tag für 4000 IE D3 + MK-7 ist sehr fair."
+      en: "0,22 € pro Tag für 4000 IE D3 + MK-7 ist sehr fair."
+  productQuality:
+    score: 8
+    explanation:
+      de: "UK-Apothekenstandard, weiche Softgels mit Kokos-Triglyceriden."
+      en: "UK-Apothekenstandard, weiche Softgels mit Kokos-Triglyceriden."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Jede Menge klar angegeben, inklusive 25-OH-D Referenzwerte."
+      en: "Jede Menge klar angegeben, inklusive 25-OH-D Referenzwerte."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Igennus testet intern nach UK Pharmacopeia, COAs auf Anfrage."
+      en: "Igennus testet intern nach UK Pharmacopeia, COAs auf Anfrage."
+
+locales:
+  de:
+    summary: "4000 IE Vitamin D3 plus 100 mcg MK-7 in Triglyceridöl, entwickelt von britischen Kliniker:innen mit Fokus auf Stabilität."
+    verdictNote: "Für alle, die D3 hoch dosieren und K2 gleich mit abdecken wollen, ein Preis-Leistungs-Tipp."
+    body:
+      description: "Igennus ist ein britisches Unternehmen mit klinischem Hintergrund. Die Softgel liefert 4000 IE Vitamin D3 aus Lanolin sowie 100 mcg MK-7 (all-trans) in Kokosöl. Die Kombination adressiert Calciumsteuerung und Gefäßschutz."
+      pros:
+        - "Hohe Stabilität durch Triglyceridträger"
+        - "Transparente Lieferkette mit britischer Apothekenzulassung"
+        - "Enthält K2 in der Langzeitform MK-7"
+        - "Softgels sind klein und leicht zu schlucken"
+      cons:
+        - "Nicht vegan (Lanolinquelle)"
+        - "Keine niedrig dosierte Variante für den Sommer"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Blutwerte nach 3 Monaten kontrollieren und Dosis anpassen."
+  en:
+    summary: "4000 IE Vitamin D3 plus 100 mcg MK-7 in Triglyceridöl, entwickelt von britischen Kliniker:innen mit Fokus auf Stabilität."
+    verdictNote: "Für alle, die D3 hoch dosieren und K2 gleich mit abdecken wollen, ein Preis-Leistungs-Tipp."
+    body:
+      description: "Igennus ist ein britisches Unternehmen mit klinischem Hintergrund. Die Softgel liefert 4000 IE Vitamin D3 aus Lanolin sowie 100 mcg MK-7 (all-trans) in Kokosöl. Die Kombination adressiert Calciumsteuerung und Gefäßschutz."
+      pros:
+        - "Hohe Stabilität durch Triglyceridträger"
+        - "Transparente Lieferkette mit britischer Apothekenzulassung"
+        - "Enthält K2 in der Langzeitform MK-7"
+        - "Softgels sind klein und leicht zu schlucken"
+      cons:
+        - "Nicht vegan (Lanolinquelle)"
+        - "Keine niedrig dosierte Variante für den Sommer"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Blutwerte nach 3 Monaten kontrollieren und Dosis anpassen."
+---

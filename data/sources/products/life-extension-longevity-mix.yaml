@@ -1,0 +1,90 @@
+---
+id: life-extension-longevity-mix
+type: product
+
+meta:
+  title: "Life Extension Longevity Mix Tablets"
+  ingredient: vitamin-b6
+  containedIngredients:
+    - slug: vitamin-b6
+    - slug: folsaeure
+    - slug: vitamin-b12
+    - slug: quercetin
+    - slug: pqq
+    - slug: lutein-zeaxanthin
+    - slug: resveratrol
+    - slug: bor
+    - slug: sulforaphan
+    - slug: egcg
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextensioneurope.de"
+  affiliateUrl: ""
+  priceEur: 54
+  doseMg: 3000
+  servingsPerPack: 90
+  pricePerDayEur: 0.6
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Breites Spektrum aus B-Vitaminen, Mineralien und sekundären Pflanzenstoffen deckt die wichtigsten Basisnutrien ab."
+      en: "Breites Spektrum aus B-Vitaminen, Mineralien und sekundären Pflanzenstoffen deckt die wichtigsten Basisnutrien ab."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,60 € pro Portion für 78 Zutaten ist fair, auch wenn einige Dosierungen moderat bleiben."
+      en: "0,60 € pro Portion für 78 Zutaten ist fair, auch wenn einige Dosierungen moderat bleiben."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Life Extension produziert nach cGMP und veröffentlicht COAs."
+      en: "Life Extension produziert nach cGMP und veröffentlicht COAs."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Jede Komponente mit Menge aufgeschlüsselt, keine Proprietary Blend."
+      en: "Jede Komponente mit Menge aufgeschlüsselt, keine Proprietary Blend."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Stichprobenuntersuchungen auf Schwermetalle und Potenz werden veröffentlicht."
+      en: "Stichprobenuntersuchungen auf Schwermetalle und Potenz werden veröffentlicht."
+
+locales:
+  de:
+    summary: "Multinährstoff mit 78 Inhaltsstoffen inkl. aktiven B-Vitaminen, Carotinoiden und Pflanzenextrakten für tägliche Basisversorgung."
+    verdictNote: "Solider All-in-One-Komplex für alle, die nicht 10 Einzelpräparate dosieren wollen."
+    body:
+      description: "Life Extension Mix Tablets liefern ein breites Fundament aus aktiven B-Vitaminen, organischen Mineralien, Carotinoiden, Standardisaten aus Brokkoli, Grüntee und Resveratrol sowie Spurenelementen wie Bor."
+      pros:
+        - "Aktive Coenzymformen (P-5-P, Methylfolat, Methylcobalamin)"
+        - "Plant-based Antioxidantien wie Quercetin, PQQ, Lutein"
+        - "Tabletten lassen sich teilen, wenn halbe Dosis reicht"
+      cons:
+        - "Einige Mineralien wie Magnesium sind nur symbolisch dosiert"
+        - "Tabletten relativ groß und schwer zu schlucken"
+      usage: "3 Tabletten täglich zu Mahlzeiten mit Fett und Eiweiß aufteilen, um fettlösliche Carotinoide besser aufzunehmen."
+  en:
+    summary: "Multinährstoff mit 78 Inhaltsstoffen inkl. aktiven B-Vitaminen, Carotinoiden und Pflanzenextrakten für tägliche Basisversorgung."
+    verdictNote: "Solider All-in-One-Komplex für alle, die nicht 10 Einzelpräparate dosieren wollen."
+    body:
+      description: "Life Extension Mix Tablets liefern ein breites Fundament aus aktiven B-Vitaminen, organischen Mineralien, Carotinoiden, Standardisaten aus Brokkoli, Grüntee und Resveratrol sowie Spurenelementen wie Bor."
+      pros:
+        - "Aktive Coenzymformen (P-5-P, Methylfolat, Methylcobalamin)"
+        - "Plant-based Antioxidantien wie Quercetin, PQQ, Lutein"
+        - "Tabletten lassen sich teilen, wenn halbe Dosis reicht"
+      cons:
+        - "Einige Mineralien wie Magnesium sind nur symbolisch dosiert"
+        - "Tabletten relativ groß und schwer zu schlucken"
+      usage: "3 Tabletten täglich zu Mahlzeiten mit Fett und Eiweiß aufteilen, um fettlösliche Carotinoide besser aufzunehmen."
+---

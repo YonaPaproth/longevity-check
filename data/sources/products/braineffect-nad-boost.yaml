@@ -1,0 +1,87 @@
+---
+id: braineffect-nad-boost
+type: product
+
+meta:
+  title: "Braineffect NAD+ Boost 300 mg"
+  ingredient: nr
+  containedIngredients:
+    - slug: nr
+    - slug: tmg
+    - slug: vitamin-b12
+    - slug: vitamin-b6
+    - slug: vitamin-b3
+  vendor: "Braineffect"
+  vendorUrl: "https://www.braineffect.com"
+  affiliateUrl: ""
+  priceEur: 49.9
+  doseMg: 300
+  servingsPerPack: 60
+  pricePerDayEur: 0.83
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "NR besitzt Humanstudien zu NAD+-Anstieg; TMG liefert Methylgruppen für den NR-Stoffwechsel."
+      en: "NR besitzt Humanstudien zu NAD+-Anstieg; TMG liefert Methylgruppen für den NR-Stoffwechsel."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,83 € pro Tag inkl. TMG und B-Komplex ist günstig für ein Komplettpaket."
+      en: "0,83 € pro Tag inkl. TMG und B-Komplex ist günstig für ein Komplettpaket."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Hergestellt in Deutschland nach IFS-Standards, mit Analysezertifikat je Charge."
+      en: "Hergestellt in Deutschland nach IFS-Standards, mit Analysezertifikat je Charge."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Alle B-Vitamine werden mit exakten µg-Angaben geführt."
+      en: "Alle B-Vitamine werden mit exakten µg-Angaben geführt."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Braineffect veröffentlicht COAs auf Anfrage, jedoch keine offene Datenbank."
+      en: "Braineffect veröffentlicht COAs auf Anfrage, jedoch keine offene Datenbank."
+
+locales:
+  de:
+    summary: "NR plus TMG und B-Vitamine aus deutscher Produktion – entwickelt von kognitiveneffect für tägliche NAD+-Kontext."
+    verdictNote: "Für Budget-orientierte Anwender:innen, die NR zusammen mit Methylunterstützung nutzen möchten, ein sehr stimmiges Gesamtpaket."
+    body:
+      description: "Braineffect kombiniert 300 mg NR mit 500 mg Trimethylglycin, B12, B6 und Niacin. Produziert wird in Brandenburg nach IFS Food Version 7."
+      pros:
+        - "Integriertes Methylspender-Setup durch TMG"
+        - "B-Vitamine helfen bei Homocystein-Management"
+        - "Europäische Produktion mit kurzen Lieferwegen"
+      cons:
+        - "NR-Quelle wird nicht explizit (z. B. Niagen) genannt"
+        - "Leicht minziger Nachgeschmack aufgrund ätherischer Öle"
+        - "Kapseln enthalten Spuren von Sojalecithin"
+      usage: "2 Kapseln morgens zu einer Mahlzeit mit etwas Fett einnehmen, an trainingsfreien Tagen optional auf 1 Kapsel reduzieren."
+  en:
+    summary: "NR plus TMG und B-Vitamine aus deutscher Produktion – entwickelt von kognitiveneffect für tägliche NAD+-Kontext."
+    verdictNote: "Für Budget-orientierte Anwender:innen, die NR zusammen mit Methylunterstützung nutzen möchten, ein sehr stimmiges Gesamtpaket."
+    body:
+      description: "Braineffect kombiniert 300 mg NR mit 500 mg Trimethylglycin, B12, B6 und Niacin. Produziert wird in Brandenburg nach IFS Food Version 7."
+      pros:
+        - "Integriertes Methylspender-Setup durch TMG"
+        - "B-Vitamine helfen bei Homocystein-Management"
+        - "Europäische Produktion mit kurzen Lieferwegen"
+      cons:
+        - "NR-Quelle wird nicht explizit (z. B. Niagen) genannt"
+        - "Leicht minziger Nachgeschmack aufgrund ätherischer Öle"
+        - "Kapseln enthalten Spuren von Sojalecithin"
+      usage: "2 Kapseln morgens zu einer Mahlzeit mit etwas Fett einnehmen, an trainingsfreien Tagen optional auf 1 Kapsel reduzieren."
+---

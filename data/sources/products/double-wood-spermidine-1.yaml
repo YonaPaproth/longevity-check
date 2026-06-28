@@ -1,0 +1,81 @@
+---
+id: double-wood-spermidine-1
+type: product
+
+meta:
+  title: "Double Wood Spermidine 1 mg"
+  ingredient: spermidine
+  containedIngredients:
+    - slug: spermidine
+  vendor: "Double Wood"
+  vendorUrl: "https://doublewoodsupplements.com/products/spermidine"
+  affiliateUrl: ""
+  priceEur: 34
+  doseMg: 1
+  servingsPerPack: 60
+  pricePerDayEur: 0.57
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Humanstudien zu Spermidin existieren, aber Biomarker statt harter Endpunkte dominieren."
+      en: "Humanstudien zu Spermidin existieren, aber Biomarker statt harter Endpunkte dominieren."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,57 € pro mg ist günstiger als die meisten Apothekenpräparate, aber noch kein Schnäppchen."
+      en: "0,57 € pro mg ist günstiger als die meisten Apothekenpräparate, aber noch kein Schnäppchen."
+  productQuality:
+    score: 8
+    explanation:
+      de: "GMP-Produktion in den USA, jede Charge mit COA auf Polyamingehalt."
+      en: "GMP-Produktion in den USA, jede Charge mit COA auf Polyamingehalt."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Rohstoffquelle, Polyaminanteil und Füllstoffe offen ausgewiesen."
+      en: "Rohstoffquelle, Polyaminanteil und Füllstoffe offen ausgewiesen."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "COAs öffentlich einsehbar, jedoch keine unabhängigen EU-Labore."
+      en: "COAs öffentlich einsehbar, jedoch keine unabhängigen EU-Labore."
+
+locales:
+  de:
+    summary: "Weizenkeimextrakt mit 1 mg standardisiertem Spermidin, COA-verifiziert und frei von Gluten."
+    verdictNote: "Solider Einstieg in Spermidin mit transparentem Rohstoff und 60 Portionen."
+    body:
+      description: "Der standardisierte Weizenkeimextrakt liefert 1 mg reines Spermidin pro Kapsel. Als Hilfsstoffe dienen Reisfaser und pflanzliche Cellulose, sodass das Produkt glutenfrei bleibt."
+      pros:
+        - "COA-Download mit Polyamin-Analyse"
+        - "60 Portionen pro Flasche – doppelt so viel wie viele Mitbewerber"
+        - "Keine künstlichen Farbstoffe"
+      cons:
+        - "Keine TÜV- oder EU-Zertifizierung"
+        - "Geschmack leicht nach Getreide, wenn Kapsel geöffnet wird"
+      usage: "1 Kapsel täglich zu einer Mahlzeit mit Eiweiß. In Fastenprotokollen bevorzugt an Refeed-Tagen nutzen."
+  en:
+    summary: "Weizenkeimextrakt mit 1 mg standardisiertem Spermidin, COA-verifiziert und frei von Gluten."
+    verdictNote: "Solider Einstieg in Spermidin mit transparentem Rohstoff und 60 Portionen."
+    body:
+      description: "Der standardisierte Weizenkeimextrakt liefert 1 mg reines Spermidin pro Kapsel. Als Hilfsstoffe dienen Reisfaser und pflanzliche Cellulose, sodass das Produkt glutenfrei bleibt."
+      pros:
+        - "COA-Download mit Polyamin-Analyse"
+        - "60 Portionen pro Flasche – doppelt so viel wie viele Mitbewerber"
+        - "Keine künstlichen Farbstoffe"
+      cons:
+        - "Keine TÜV- oder EU-Zertifizierung"
+        - "Geschmack leicht nach Getreide, wenn Kapsel geöffnet wird"
+      usage: "1 Kapsel täglich zu einer Mahlzeit mit Eiweiß. In Fastenprotokollen bevorzugt an Refeed-Tagen nutzen."
+---

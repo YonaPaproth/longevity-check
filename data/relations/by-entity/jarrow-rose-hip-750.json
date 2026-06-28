@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-rose-hip-750",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-c",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

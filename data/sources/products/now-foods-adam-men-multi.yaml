@@ -1,0 +1,84 @@
+---
+id: now-foods-adam-men-multi
+type: product
+
+meta:
+  title: "NOW Foods ADAM Men's Multi"
+  ingredient: vitamin-b6
+  containedIngredients:
+    - slug: vitamin-b6
+    - slug: alpha-liponsaeure
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 32
+  doseMg: 2000
+  servingsPerPack: 90
+  pricePerDayEur: 0.36
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Multivitamine adressieren gängige Mikronährstofflücken, zusätzliche Kräuter unterstützen Prostata und Energie."
+      en: "Multivitamine adressieren gängige Mikronährstofflücken, zusätzliche Kräuter unterstützen Prostata und Energie."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,36 € pro Tag für umfangreiche Formel mit Extras ist sehr gut."
+      en: "0,36 € pro Tag für umfangreiche Formel mit Extras ist sehr gut."
+  productQuality:
+    score: 7
+    explanation:
+      de: "cGMP-Fertigung, aber längere Zutatenliste mit Tablettenhilfsstoffen."
+      en: "cGMP-Fertigung, aber längere Zutatenliste mit Tablettenhilfsstoffen."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Mengen transparent, Kräuterextrakte deklariert."
+      en: "Mengen transparent, Kräuterextrakte deklariert."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW führt interne Tests und teilt Stichproben mit Labdoor."
+      en: "NOW führt interne Tests und teilt Stichproben mit Labdoor."
+
+locales:
+  de:
+    summary: "Herrenspezifisches Multivitamin mit Pflanzenextrakten, Sägepalme und aktiven B-Vitaminen zu einem starken Preis."
+    verdictNote: "Solide Männerformel mit gutem Preis-Leistungs-Verhältnis und zugesetzten Pflanzenextrakten."
+    body:
+      description: "ADAM Men's Multi wurde entwickelt, um typische Bedürfnisse wie Prostataunterstützung, Herzgesundheit und Energie zu adressieren. Enthalten sind Vitamine, Mineralien, Borretschöl, Sägepalme, Lycopin und Coenzymierte B-Vitamine."
+      pros:
+        - "Enthält Kräuter wie Sägepalme und Brennnesselwurzel"
+        - "Liefert Lycopin und Alpha-Liponsäure"
+        - "Preislich attraktiv für 90 Portionen"
+        - "Kapseln statt Tabletten, dadurch leichter zu schlucken"
+      cons:
+        - "Kein NSF/USP-Siegel"
+        - "Enthält Soja- und Weizenreste aus einigen Extrakten"
+      usage: "2 Kapseln täglich zu einer Mahlzeit. Bei Koffeinsensitivität nicht zusammen mit Kaffee am Morgen einnehmen, da B-Vitamine stimulierend wirken können."
+  en:
+    summary: "Herrenspezifisches Multivitamin mit Pflanzenextrakten, Sägepalme und aktiven B-Vitaminen zu einem starken Preis."
+    verdictNote: "Solide Männerformel mit gutem Preis-Leistungs-Verhältnis und zugesetzten Pflanzenextrakten."
+    body:
+      description: "ADAM Men's Multi wurde entwickelt, um typische Bedürfnisse wie Prostataunterstützung, Herzgesundheit und Energie zu adressieren. Enthalten sind Vitamine, Mineralien, Borretschöl, Sägepalme, Lycopin und Coenzymierte B-Vitamine."
+      pros:
+        - "Enthält Kräuter wie Sägepalme und Brennnesselwurzel"
+        - "Liefert Lycopin und Alpha-Liponsäure"
+        - "Preislich attraktiv für 90 Portionen"
+        - "Kapseln statt Tabletten, dadurch leichter zu schlucken"
+      cons:
+        - "Kein NSF/USP-Siegel"
+        - "Enthält Soja- und Weizenreste aus einigen Extrakten"
+      usage: "2 Kapseln täglich zu einer Mahlzeit. Bei Koffeinsensitivität nicht zusammen mit Kaffee am Morgen einnehmen, da B-Vitamine stimulierend wirken können."
+---

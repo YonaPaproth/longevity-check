@@ -1,0 +1,83 @@
+---
+id: thorne-magnesium-bisglycinate
+type: product
+
+meta:
+  title: "Thorne Magnesium Bisglycinate"
+  ingredient: magnesium
+  containedIngredients:
+    - slug: magnesium
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 32
+  doseMg: 200
+  servingsPerPack: 90
+  pricePerDayEur: 0.36
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Magnesium fördert Muskelentspannung und Schlafqualität, Glycinat ist besonders bioverfügbar."
+      en: "Magnesium fördert Muskelentspannung und Schlafqualität, Glycinat ist besonders bioverfügbar."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,36 € pro Portion ist Premiumpreis, dafür hohe Verträglichkeit."
+      en: "0,36 € pro Portion ist Premiumpreis, dafür hohe Verträglichkeit."
+  productQuality:
+    score: 9
+    explanation:
+      de: "NSF-zertifiziert, keine problematischen Hilfsstoffe, vegane Kapseln."
+      en: "NSF-zertifiziert, keine problematischen Hilfsstoffe, vegane Kapseln."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Elementares Magnesium klar angegeben, keine proprietären Mischungen."
+      en: "Elementares Magnesium klar angegeben, keine proprietären Mischungen."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF Sport prüft auf Potenz und Schadstoffe jeder Charge."
+      en: "NSF Sport prüft auf Potenz und Schadstoffe jeder Charge."
+
+locales:
+  de:
+    summary: "Chelatiertes Magnesiumbisglycinat mit NSF-Sport-Siegel, magenschonend und frei von Reizstoffen."
+    verdictNote: "Für empfindliche Mägen oder Athletinnen, die auf Doping-Tests achten, eine Top-Wahl."
+    body:
+      description: "Thorne nutzt reines Magnesiumbisglycinat mit 200 mg elementarem Magnesium pro 2 Kapseln. Die Chelatform ist gut verträglich und verursacht seltener gastrointestinale Beschwerden als Oxide."
+      pros:
+        - "NSF-Sport-Freigabe für Profis"
+        - "Hohe Bioverfügbarkeit dank Chelatstruktur"
+        - "Frei von Gluten, Soja und Milcheiweiß"
+        - "Kapseln lassen sich öffnen und in Getränke mischen"
+      cons:
+        - "Nur 90 Portionen pro Dose, keine größeren Bulkgrößen"
+        - "Preislich deutlich höher als Standardmagnesium"
+      usage: "2 Kapseln abends vor dem Schlafen oder nach intensiven Trainingseinheiten. Bei Bedarf Kapseln öffnen und in warmes Wasser geben."
+  en:
+    summary: "Chelatiertes Magnesiumbisglycinat mit NSF-Sport-Siegel, magenschonend und frei von Reizstoffen."
+    verdictNote: "Für empfindliche Mägen oder Athletinnen, die auf Doping-Tests achten, eine Top-Wahl."
+    body:
+      description: "Thorne nutzt reines Magnesiumbisglycinat mit 200 mg elementarem Magnesium pro 2 Kapseln. Die Chelatform ist gut verträglich und verursacht seltener gastrointestinale Beschwerden als Oxide."
+      pros:
+        - "NSF-Sport-Freigabe für Profis"
+        - "Hohe Bioverfügbarkeit dank Chelatstruktur"
+        - "Frei von Gluten, Soja und Milcheiweiß"
+        - "Kapseln lassen sich öffnen und in Getränke mischen"
+      cons:
+        - "Nur 90 Portionen pro Dose, keine größeren Bulkgrößen"
+        - "Preislich deutlich höher als Standardmagnesium"
+      usage: "2 Kapseln abends vor dem Schlafen oder nach intensiven Trainingseinheiten. Bei Bedarf Kapseln öffnen und in warmes Wasser geben."
+---

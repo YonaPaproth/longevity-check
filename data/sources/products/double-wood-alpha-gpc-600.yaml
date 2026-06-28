@@ -1,0 +1,81 @@
+---
+id: double-wood-alpha-gpc-600
+type: product
+
+meta:
+  title: "Double Wood Alpha-GPC 600mg"
+  ingredient: alpha-gpc
+  containedIngredients:
+    - slug: alpha-gpc
+  vendor: "Double Wood"
+  vendorUrl: "https://doublewoodsupplements.com"
+  affiliateUrl: ""
+  priceEur: 42
+  doseMg: 600
+  servingsPerPack: 60
+  pricePerDayEur: 0.7
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Alpha-GPC erhöhte Cholinspiegel und zeigt kognitive Benefits in älteren Populationen."
+      en: "Alpha-GPC erhöhte Cholinspiegel und zeigt kognitive Benefits in älteren Populationen."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,70 € pro 600 mg ist marktüblich für US-Import."
+      en: "0,70 € pro 600 mg ist marktüblich für US-Import."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Stabile, aber hygroskopische Kapseln."
+      en: "Stabile, aber hygroskopische Kapseln."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Gibt reinen Alpha-GPC-Gehalt und Füllstoffe transparent an."
+      en: "Gibt reinen Alpha-GPC-Gehalt und Füllstoffe transparent an."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Nur interne Tests, keine NSF."
+      en: "Nur interne Tests, keine NSF."
+
+locales:
+  de:
+    summary: "600 mg Alpha-GPC pro Kapsel für Acetylcholin-Kontext, gut geeignet mit ALCAR kombinierbar."
+    verdictNote: "Solide Wahl für Neuro-Stacks, sofern man die Lagerung im Blick behält."
+    body:
+      description: "Jede Kapsel enthält 600 mg Alpha-GPC, entsprechend ca. 240 mg bioverfügbarem Cholin. Die Kapseln sind mit Reismehl stabilisiert, um das klebrige Pulver zu binden."
+      pros:
+        - "Hohe Einzeldosis reduziert Kapselanzahl"
+        - "Glutenfrei und non-GMO"
+        - "Chargenanalysen auf Schwermetalle"
+      cons:
+        - "Pulver zieht schnell Feuchtigkeit"
+        - "Kann bei nüchterner Einnahme zu Kopfdruck führen"
+      usage: "1 Kapsel morgens. Bei mentalen Peaks 30 Minuten vor Arbeit einnehmen, am besten mit ALCAR."
+  en:
+    summary: "600 mg Alpha-GPC pro Kapsel für Acetylcholin-Kontext, gut geeignet mit ALCAR kombinierbar."
+    verdictNote: "Solide Wahl für Neuro-Stacks, sofern man die Lagerung im Blick behält."
+    body:
+      description: "Jede Kapsel enthält 600 mg Alpha-GPC, entsprechend ca. 240 mg bioverfügbarem Cholin. Die Kapseln sind mit Reismehl stabilisiert, um das klebrige Pulver zu binden."
+      pros:
+        - "Hohe Einzeldosis reduziert Kapselanzahl"
+        - "Glutenfrei und non-GMO"
+        - "Chargenanalysen auf Schwermetalle"
+      cons:
+        - "Pulver zieht schnell Feuchtigkeit"
+        - "Kann bei nüchterner Einnahme zu Kopfdruck führen"
+      usage: "1 Kapsel morgens. Bei mentalen Peaks 30 Minuten vor Arbeit einnehmen, am besten mit ALCAR."
+---

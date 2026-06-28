@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-egcg-400",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "egcg",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

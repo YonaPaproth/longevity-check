@@ -1,0 +1,11 @@
+{
+  "entity": "vit4ever-vitamin-d3-k2",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-d3-k2",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

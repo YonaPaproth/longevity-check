@@ -1,0 +1,84 @@
+---
+id: thorne-resveracel
+type: product
+
+meta:
+  title: "Thorne ResveraCel"
+  ingredient: resveratrol
+  containedIngredients:
+    - slug: nr
+    - slug: quercetin
+    - slug: betain
+    - slug: resveratrol
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 118
+  doseMg: 415
+  servingsPerPack: 60
+  pricePerDayEur: 1.97
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "NR + Resveratrol haben gute Biomarker-Daten, harte Outcome-Studien stehen aber noch aus."
+      en: "NR + Resveratrol haben gute Biomarker-Daten, harte Outcome-Studien stehen aber noch aus."
+  valueForMoney:
+    score: 5
+    explanation:
+      de: "1,97 € pro Portion ist hoch, dafür erhält man einen kompletten kombinierten NAD+-Stack."
+      en: "1,97 € pro Portion ist hoch, dafür erhält man einen kompletten kombinierten NAD+-Stack."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Thorne kapselt in streng qualitätsorientierter Anlage und prüft jede Charge auf Reinheit."
+      en: "Thorne kapselt in streng qualitätsorientierter Anlage und prüft jede Charge auf Reinheit."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Alle Wirkstoffe mit Mengenangaben, keine proprietären Blends."
+      en: "Alle Wirkstoffe mit Mengenangaben, keine proprietären Blends."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF Certified for Sport sowie interne HPLC-Analysen liegen vor."
+      en: "NSF Certified for Sport sowie interne HPLC-Analysen liegen vor."
+
+locales:
+  de:
+    summary: "NAD+-Stack aus NR, Quercetin, Betain und Trans-Resveratrol in NSF-zertifizierter Qualität für ambitionierte Biohacker."
+    verdictNote: "Luxuriöse All-in-One-Lösung für NAD+-Fans, die maximale Qualität suchen."
+    body:
+      description: "ResveraCel kombiniert Nicotinamid-Ribosid, trans-Resveratrol, Quercetin-Phytosome und Betain als Methyl-Donor. Die Kapseln lösen sich schnell und liefern 415 mg Gesamtwirkstoffe pro Tagesportion."
+      pros:
+        - "Synergetische Mischung aus NAD+-Vorstufen und Sirtuin-Triggern"
+        - "NSF-Prüfungen minimieren Verunreinigungsrisiko"
+        - "Gut verträgliche Cellulosekapseln ohne Magnesiumstearat"
+      cons:
+        - "Preislich nur für Hardcore-Anwender sinnvoll"
+        - "Keine niedrig dosierte Version für Einsteiger"
+      usage: "1 Kapsel morgens zu einer Mahlzeit mit etwas Fett. Mit zusätzlichem Magnesium und Omega-3 kombinieren, um den Methylbedarf zu balancieren."
+  en:
+    summary: "NAD+-Stack aus NR, Quercetin, Betain und Trans-Resveratrol in NSF-zertifizierter Qualität für ambitionierte Biohacker."
+    verdictNote: "Luxuriöse All-in-One-Lösung für NAD+-Fans, die maximale Qualität suchen."
+    body:
+      description: "ResveraCel kombiniert Nicotinamid-Ribosid, trans-Resveratrol, Quercetin-Phytosome und Betain als Methyl-Donor. Die Kapseln lösen sich schnell und liefern 415 mg Gesamtwirkstoffe pro Tagesportion."
+      pros:
+        - "Synergetische Mischung aus NAD+-Vorstufen und Sirtuin-Triggern"
+        - "NSF-Prüfungen minimieren Verunreinigungsrisiko"
+        - "Gut verträgliche Cellulosekapseln ohne Magnesiumstearat"
+      cons:
+        - "Preislich nur für Hardcore-Anwender sinnvoll"
+        - "Keine niedrig dosierte Version für Einsteiger"
+      usage: "1 Kapsel morgens zu einer Mahlzeit mit etwas Fett. Mit zusätzlichem Magnesium und Omega-3 kombinieren, um den Methylbedarf zu balancieren."
+---

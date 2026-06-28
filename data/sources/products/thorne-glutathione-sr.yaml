@@ -1,0 +1,81 @@
+---
+id: thorne-glutathione-sr
+type: product
+
+meta:
+  title: "Thorne Glutathione-SR 100mg"
+  ingredient: glutathion
+  containedIngredients:
+    - slug: glutathion
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 56
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.93
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Gleiche Datenlage wie bei anderem oralem Glutathion, Vorteil ist die längere Freisetzung."
+      en: "Gleiche Datenlage wie bei anderem oralem Glutathion, Vorteil ist die längere Freisetzung."
+  valueForMoney:
+    score: 4
+    explanation:
+      de: "0,93 € pro 100 mg ist teuer, man benötigt mehrere Kapseln für therapeutische Mengen."
+      en: "0,93 € pro 100 mg ist teuer, man benötigt mehrere Kapseln für therapeutische Mengen."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Thorne nutzt streng qualitätsorientierte SR-Matrix und testet auf Oxidation."
+      en: "Thorne nutzt streng qualitätsorientierte SR-Matrix und testet auf Oxidation."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Alle Hilfsstoffe offen angegeben, inklusive pflanzlicher SR-Polymere."
+      en: "Alle Hilfsstoffe offen angegeben, inklusive pflanzlicher SR-Polymere."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "NSF und interne HPLC-Analysen pro Charge."
+      en: "NSF und interne HPLC-Analysen pro Charge."
+
+locales:
+  de:
+    summary: "Sustained-Release-Glutathion in hypoallergenen Thorne-Kapseln für gleichmäßigere Spiegel."
+    verdictNote: "SR-Technologie reduziert Spitzen und sorgt für bessere Verträglichkeit, aber Dosis ist vergleichsweise niedrig."
+    body:
+      description: "Jede Kapsel enthält 100 mg reduziertes Glutathion in einer Matrix, die über sechs Stunden freisetzt. Dadurch sollen Blutspiegel konstanter bleiben."
+      pros:
+        - "Langsame Freisetzung verhindert Schwefelgeschmack"
+        - "Sehr saubere Rezeptur ohne Allergene"
+        - "Thorne liefert COAs für Therapeut:innen auf Anfrage"
+      cons:
+        - "Niedrige Einzeldosis erfordert Mehrfachkapseln"
+        - "SR-Matrix enthält Hypromellose, die manche meiden"
+      usage: "1–3 Kapseln über den Tag verteilt, bestenfalls nüchtern oder 30 Minuten vor Mahlzeiten."
+  en:
+    summary: "Sustained-Release-Glutathion in hypoallergenen Thorne-Kapseln für gleichmäßigere Spiegel."
+    verdictNote: "SR-Technologie reduziert Spitzen und sorgt für bessere Verträglichkeit, aber Dosis ist vergleichsweise niedrig."
+    body:
+      description: "Jede Kapsel enthält 100 mg reduziertes Glutathion in einer Matrix, die über sechs Stunden freisetzt. Dadurch sollen Blutspiegel konstanter bleiben."
+      pros:
+        - "Langsame Freisetzung verhindert Schwefelgeschmack"
+        - "Sehr saubere Rezeptur ohne Allergene"
+        - "Thorne liefert COAs für Therapeut:innen auf Anfrage"
+      cons:
+        - "Niedrige Einzeldosis erfordert Mehrfachkapseln"
+        - "SR-Matrix enthält Hypromellose, die manche meiden"
+      usage: "1–3 Kapseln über den Tag verteilt, bestenfalls nüchtern oder 30 Minuten vor Mahlzeiten."
+---

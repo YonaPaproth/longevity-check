@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-magnesium-glycinate",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "magnesium",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

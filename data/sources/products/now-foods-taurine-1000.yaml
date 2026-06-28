@@ -1,0 +1,81 @@
+---
+id: now-foods-taurine-1000
+type: product
+
+meta:
+  title: "NOW Foods Taurine 1000mg"
+  ingredient: taurin
+  containedIngredients:
+    - slug: taurin
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 21
+  doseMg: 1000
+  servingsPerPack: 100
+  pricePerDayEur: 0.21
+  form: powder
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Taurin zeigt Herz-Kreislauf-Benefits in epidemiologischen Daten und kleinen RCTs."
+      en: "Taurin zeigt Herz-Kreislauf-Benefits in epidemiologischen Daten und kleinen RCTs."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,21 € pro Gramm im Großbeutel ist stark."
+      en: "0,21 € pro Gramm im Großbeutel ist stark."
+  productQuality:
+    score: 8
+    explanation:
+      de: "USP-Grade Pulver mit Schwermetall-Test."
+      en: "USP-Grade Pulver mit Schwermetall-Test."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Gibt nur Taurin an – keine Blends."
+      en: "Gibt nur Taurin an – keine Blends."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW stellt COAs zur Verfügung, aber ohne europäische Prüfsiegel."
+      en: "NOW stellt COAs zur Verfügung, aber ohne europäische Prüfsiegel."
+
+locales:
+  de:
+    summary: "Reines Taurin ohne Zusatzstoffe für Herz-, Elektrolyt- und Trainings-Kontexte."
+    verdictNote: "Preiswertes Basisprodukt für Pre-Workout oder Herz-Kreislauf-Routinen."
+    body:
+      description: "Das Pulver ist geruchsneutral und löst sich sofort. Ideal zur Kombination mit Elektrolytgetränken oder Kreatin."
+      pros:
+        - "Sehr hohe Reinheit"
+        - "Zipbeutel mit Feuchtigkeitsschutz"
+        - "Vegan und frei von Allergenen"
+      cons:
+        - "Typisch leicht bitter, wenn pur"
+        - "Kein Messlöffel beigelegt"
+      usage: "1-2 g vor Training oder abends mit Magnesium. Bei Blutdruckmedikation Rücksprache halten."
+  en:
+    summary: "Reines Taurin ohne Zusatzstoffe für Herz-, Elektrolyt- und Trainings-Kontexte."
+    verdictNote: "Preiswertes Basisprodukt für Pre-Workout oder Herz-Kreislauf-Routinen."
+    body:
+      description: "Das Pulver ist geruchsneutral und löst sich sofort. Ideal zur Kombination mit Elektrolytgetränken oder Kreatin."
+      pros:
+        - "Sehr hohe Reinheit"
+        - "Zipbeutel mit Feuchtigkeitsschutz"
+        - "Vegan und frei von Allergenen"
+      cons:
+        - "Typisch leicht bitter, wenn pur"
+        - "Kein Messlöffel beigelegt"
+      usage: "1-2 g vor Training oder abends mit Magnesium. Bei Blutdruckmedikation Rücksprache halten."
+---

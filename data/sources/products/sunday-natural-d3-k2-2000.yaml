@@ -1,0 +1,85 @@
+---
+id: sunday-natural-d3-k2-2000
+type: product
+
+meta:
+  title: "Sunday Natural Vitamin D3+K2 2000 I.E."
+  ingredient: vitamin-d3-k2
+  containedIngredients:
+    - slug: vitamin-d3-k2
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de"
+  affiliateUrl: ""
+  priceEur: 19.9
+  doseMg: 50
+  servingsPerPack: 120
+  pricePerDayEur: 0.17
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-15"
+  lastPriceCheck: "2026-06-15"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "D3+K2 Kombination hat starke Evidenz für Knochen, Immunsystem und Calcium-Verwertung."
+      en: "D3+K2 combination has strong evidence for bone, immune system, and calcium utilization."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,17 € pro Tag für veganes D3+K2 mit all-trans MK-7 ist herausragend günstig."
+      en: "€0.17 per day for vegan D3+K2 with all-trans MK-7 is outstanding value."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Veganes D3 aus Flechten, K2 als all-trans MK-7 (stabilste, bioaktivste Form)."
+      en: "Vegan D3 from lichens, K2 as all-trans MK-7 (most stable, most bioactive form)."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "D3- und K2-Mengen klar deklariert, all-trans-Anteil angegeben."
+      en: "D3 and K2 amounts clearly declared, all-trans percentage specified."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Deutsche Laboranalytik jeder Charge, Analysezertifikate auf Anfrage."
+      en: "German laboratory analysis of every batch, analysis certificates available upon request."
+
+locales:
+  de:
+    summary: "D3 aus Flechten (vegan) plus K2 als all-trans MK-7, 120 Kapseln für 4 Monate."
+    verdictNote: "Veganes D3+K2 zum Bestpreis mit all-trans MK-7. Einer der besten Deals im Markt."
+    body:
+      description: "Sunday Natural kombiniert veganes Vitamin D3 aus Flechten mit Vitamin K2 in der all-trans MK-7 Form. Die Kombination ist sinnvoll, da K2 das durch D3 mobilisierte Calcium gezielt in die Knochen lenkt statt in die Gefäße."
+      pros:
+        - "Veganes D3 aus Flechten — auch für Vegetarier und Veganer geeignet"
+        - "All-trans MK-7 — die bioaktivste und stabilste K2-Form"
+        - "120 Kapseln = 4 Monate Reichweite"
+        - "Exzellentes Preis-Leistungs-Verhältnis"
+      cons:
+        - "2000 I.E. kann im Winter für manche zu niedrig sein"
+        - "Kein Öl-basiertes Format (fettlösliche Vitamine profitieren davon)"
+        - "Kein unabhängiges Drittanbieter-Siegel (NSF, USP)"
+      usage: "1 Kapsel täglich zu einer fetthaltigen Mahlzeit. Im Winter ggf. 2 Kapseln nach ärztlicher Rücksprache."
+  en:
+    summary: "D3 from lichens (vegan) plus K2 as all-trans MK-7, 120 capsules for 4 months."
+    verdictNote: "Vegan D3+K2 at best price with all-trans MK-7. One of the best deals on the market."
+    body:
+      description: "Sunday Natural combines vegan vitamin D3 from lichens with vitamin K2 in all-trans MK-7 form. The combination makes sense because K2 directs the calcium mobilized by D3 specifically into the bones rather than into the blood vessels."
+      pros:
+        - "Vegan D3 from lichens — also suitable for vegetarians and vegans"
+        - "All-trans MK-7 — the most bioactive and stable K2 form"
+        - "120 capsules = 4 months duration"
+        - "Excellent value for money"
+      cons:
+        - "2000 I.U. may be too low in winter for some people"
+        - "No oil-based format (fat-soluble vitamins benefit from this)"
+        - "No independent third-party seal (NSF, USP)"
+      usage: ""
+---

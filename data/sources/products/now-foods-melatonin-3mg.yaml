@@ -1,0 +1,81 @@
+---
+id: now-foods-melatonin-3mg
+type: product
+
+meta:
+  title: "NOW Foods Melatonin 3mg"
+  ingredient: melatonin
+  containedIngredients:
+    - slug: melatonin
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 14
+  doseMg: 3
+  servingsPerPack: 180
+  pricePerDayEur: 0.08
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Melatonin ist vergleichsweise gut untersucht bei Jetlag und Einschlaflatenz."
+      en: "Melatonin ist vergleichsweise gut untersucht bei Jetlag und Einschlaflatenz."
+  valueForMoney:
+    score: 10
+    explanation:
+      de: "0,08 € pro Tablette ist extrem günstig."
+      en: "0,08 € pro Tablette ist extrem günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Tabletten lösen sich schnell, gleichmäßige Freisetzung."
+      en: "Tabletten lösen sich schnell, gleichmäßige Freisetzung."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Angabe in mg und µg, keine Melatoninblends."
+      en: "Angabe in mg und µg, keine Melatoninblends."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW testet intern auf Gehalt, unabhängige Analysen vereinzelt."
+      en: "NOW testet intern auf Gehalt, unabhängige Analysen vereinzelt."
+
+locales:
+  de:
+    summary: "3 mg Melatonin pro Tablette, teilbar und gut geeignet bei Jetlag oder in Schlaf-Kontexten."
+    verdictNote: "Starkes Preis-Leistungs-Verhältnis mit flexibler Dosierung (Tablette teilbar)."
+    body:
+      description: "Die 3-mg-Tabletten sind klein und lassen sich problemlos teilen. Enthalten minimale Bindemittel und sind vegetarisch."
+      pros:
+        - "180 Portionen – reicht ewig"
+        - "Einfach zu teilen"
+        - "Gute Löslichkeit unter der Zunge"
+      cons:
+        - "Kreuzkontamination in USA nicht 100% ausgeschlossen"
+        - "Bei täglicher Einnahme Toleranz möglich"
+      usage: "0,5-1 Tablette 30 Minuten vor dem Schlafengehen. Für Jetlag am Zielort zur lokalen Schlafenszeit."
+  en:
+    summary: "3 mg Melatonin pro Tablette, teilbar und gut geeignet bei Jetlag oder in Schlaf-Kontexten."
+    verdictNote: "Starkes Preis-Leistungs-Verhältnis mit flexibler Dosierung (Tablette teilbar)."
+    body:
+      description: "Die 3-mg-Tabletten sind klein und lassen sich problemlos teilen. Enthalten minimale Bindemittel und sind vegetarisch."
+      pros:
+        - "180 Portionen – reicht ewig"
+        - "Einfach zu teilen"
+        - "Gute Löslichkeit unter der Zunge"
+      cons:
+        - "Kreuzkontamination in USA nicht 100% ausgeschlossen"
+        - "Bei täglicher Einnahme Toleranz möglich"
+      usage: "0,5-1 Tablette 30 Minuten vor dem Schlafengehen. Für Jetlag am Zielort zur lokalen Schlafenszeit."
+---

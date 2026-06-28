@@ -1,0 +1,81 @@
+---
+id: life-extension-pterostilbene
+type: product
+
+meta:
+  title: "Life Extension Pterostilbene 50mg"
+  ingredient: pterostilben
+  containedIngredients:
+    - slug: pterostilben
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextensioneurope.de"
+  affiliateUrl: ""
+  priceEur: 32
+  doseMg: 50
+  servingsPerPack: 60
+  pricePerDayEur: 0.53
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Daten stammen überwiegend aus Tiermodellen, Humanstudien begrenzt."
+      en: "Daten stammen überwiegend aus Tiermodellen, Humanstudien begrenzt."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,53 € pro Portion ist ok für reines Pterostilben."
+      en: "0,53 € pro Portion ist ok für reines Pterostilben."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Synthese in streng qualitätsorientierter Qualität mit HPLC-Test."
+      en: "Synthese in streng qualitätsorientierter Qualität mit HPLC-Test."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Keine proprietären Blends, klare 50 mg Angabe."
+      en: "Keine proprietären Blends, klare 50 mg Angabe."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Standard-COAs, keine großen Prüfsiegel."
+      en: "Standard-COAs, keine großen Prüfsiegel."
+
+locales:
+  de:
+    summary: "50 mg Pterostilben pro vegetarischer Kapsel als antioxidativer Resveratrol-Verwandter."
+    verdictNote: "Interessant für Resveratrol-Fans, solange man die begrenzte Datenlage kennt."
+    body:
+      description: "Die Kapseln kombinieren Pterostilben mit Reismehl. Das Molekül ist lipophil und wird in weichen Cellulosekapseln geliefert."
+      pros:
+        - "Stabile 50 mg pro Portion"
+        - "Keine Stimulanzien"
+        - "Vegan"
+      cons:
+        - "Begrenzte Humanstudien"
+        - "Preis höher als Resveratrol"
+      usage: "1 Kapsel morgens mit Fettquelle. Häufig kombiniert mit Resveratrol oder NAD+-Precursoren."
+  en:
+    summary: "50 mg Pterostilben pro vegetarischer Kapsel als antioxidativer Resveratrol-Verwandter."
+    verdictNote: "Interessant für Resveratrol-Fans, solange man die begrenzte Datenlage kennt."
+    body:
+      description: "Die Kapseln kombinieren Pterostilben mit Reismehl. Das Molekül ist lipophil und wird in weichen Cellulosekapseln geliefert."
+      pros:
+        - "Stabile 50 mg pro Portion"
+        - "Keine Stimulanzien"
+        - "Vegan"
+      cons:
+        - "Begrenzte Humanstudien"
+        - "Preis höher als Resveratrol"
+      usage: "1 Kapsel morgens mit Fettquelle. Häufig kombiniert mit Resveratrol oder NAD+-Precursoren."
+---

@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-lions-mane-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "lion-s-mane",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

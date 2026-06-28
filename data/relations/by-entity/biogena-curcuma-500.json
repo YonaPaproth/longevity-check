@@ -1,0 +1,17 @@
+{
+  "entity": "biogena-curcuma-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "curcumin",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "piperin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

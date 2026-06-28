@@ -1,0 +1,17 @@
+{
+  "entity": "now-foods-krill-oil-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "omega-3",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "astaxanthin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

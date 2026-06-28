@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-magnesium-citrate",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "magnesium",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

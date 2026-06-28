@@ -1,0 +1,85 @@
+---
+id: bloom-naturals-magtein-magnesium-l-threonat
+type: product
+
+meta:
+  title: "Bloom Naturals Magtein Magnesium L-Threonat"
+  ingredient: magnesium
+  containedIngredients:
+    - slug: magnesium
+  vendor: "Bloom Naturals"
+  vendorUrl: "https://bloomnaturals.de/products/magtein-magnesium-l-threonate-2000-mg-120-kapseln"
+  affiliateUrl: ""
+  priceEur: 34.99
+  doseMg: 144
+  servingsPerPack: 30
+  pricePerDayEur: 1.17
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Magnesium als Nährstoff ist sehr gut begründet. Für Magnesium-L-Threonat speziell sind die Human-Daten interessanter, aber deutlich dünner als bei klassischen Magnesium-Endpunkten wie Mangelkorrektur oder Muskel-/Krampf-Themen."
+      en: "Magnesium als Nährstoff ist sehr gut begründet. Für Magnesium-L-Threonat speziell sind die Human-Daten interessanter, aber deutlich dünner als bei klassischen Magnesium-Endpunkten wie Mangelkorrektur oder Muskel-/Krampf-Themen."
+  valueForMoney:
+    score: 4
+    explanation:
+      de: "Mit über 1 Euro pro Tag ist das Produkt teuer. Dazu liefert es nur 144 mg elementares Magnesium pro Tagesportion."
+      en: "Mit über 1 Euro pro Tag ist das Produkt teuer. Dazu liefert es nur 144 mg elementares Magnesium pro Tagesportion."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Magtein als markengewird mit Schutzmechanismen in Verbindung gebrachter Rohstoff ist ein Pluspunkt. Deutsche Herstellung und klare Formulierung wirken ordentlich und überdurchschnittlich für ein Spezialprodukt."
+      en: "Magtein als markengewird mit Schutzmechanismen in Verbindung gebrachter Rohstoff ist ein Pluspunkt. Deutsche Herstellung und klare Formulierung wirken ordentlich und überdurchschnittlich für ein Spezialprodukt."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Bloom bleibt relativ sauber innerhalb zulässiger Magnesium-Kommunikation. Die implizite Brain-Story von Magtein sollte man trotzdem kritisch lesen."
+      en: "Bloom bleibt relativ sauber innerhalb zulässiger Magnesium-Kommunikation. Die implizite Brain-Story von Magtein sollte man trotzdem kritisch lesen."
+  thirdPartyTesting:
+    score: 4
+    explanation:
+      de: "Es gibt keine starke unabhängige Zertifizierung wie NSF oder USP. Die Qualitätswahrnehmung stützt sich vor allem auf Rohstoff-Branding und Herstellerangaben."
+      en: "Es gibt keine starke unabhängige Zertifizierung wie NSF oder USP. Die Qualitätswahrnehmung stützt sich vor allem auf Rohstoff-Branding und Herstellerangaben."
+
+locales:
+  de:
+    summary: "Magtein ist die kognitiv ausgerichtete Premium-Variante von Magnesium. Spannend als Spezialprodukt, aber deutlich teurer und mit weniger elementarem Magnesium als klassische Formen."
+    verdictNote: "Spannendes Spezialprodukt für Leute, die gezielt Magtein ausprobieren wollen — aber für klassischen Magnesium-Bedarf meist schlechteres Preis-Leistungs-Verhältnis als Glycinat oder Citrat."
+    body:
+      description: "Magtein Magnesium L-Threonat ist kein klassisches Magnesium-Basisprodukt, sondern eher die **spezialisierte Premium-Variante**. Die Story dahinter: Diese Form wird oft mit kognitiven oder neurologischen Themen verknüpft."
+      pros:
+        - "**Magtein-Rohstoff** statt generischer L-Threonat-Formulierung"
+        - "**Deutsche Herstellung**"
+        - "**Klar positioniertes Spezialprodukt**"
+        - "**Plausibel für Nutzer mit Brain-/Sleep-Interesse** statt klassischem Muskel-Fokus"
+      cons:
+        - "**Teuer**"
+        - "**Relativ wenig elementares Magnesium** pro Tagesportion"
+        - "**Kein idealer Basic-Pick**, wenn es einfach um Magnesiummangel oder Preis-Leistung geht"
+      usage: ""
+  en:
+    summary: "Magtein ist die kognitiv ausgerichtete Premium-Variante von Magnesium. Spannend als Spezialprodukt, aber deutlich teurer und mit weniger elementarem Magnesium als klassische Formen."
+    verdictNote: "Spannendes Spezialprodukt für Leute, die gezielt Magtein ausprobieren wollen — aber für klassischen Magnesium-Bedarf meist schlechteres Preis-Leistungs-Verhältnis als Glycinat oder Citrat."
+    body:
+      description: "Magtein Magnesium L-Threonat ist kein klassisches Magnesium-Basisprodukt, sondern eher die **spezialisierte Premium-Variante**. Die Story dahinter: Diese Form wird oft mit kognitiven oder neurologischen Themen verknüpft."
+      pros:
+        - "**Magtein-Rohstoff** statt generischer L-Threonat-Formulierung"
+        - "**Deutsche Herstellung**"
+        - "**Klar positioniertes Spezialprodukt**"
+        - "**Plausibel für Nutzer mit Brain-/Sleep-Interesse** statt klassischem Muskel-Fokus"
+      cons:
+        - "**Teuer**"
+        - "**Relativ wenig elementares Magnesium** pro Tagesportion"
+        - "**Kein idealer Basic-Pick**, wenn es einfach um Magnesiummangel oder Preis-Leistung geht"
+      usage: ""
+---

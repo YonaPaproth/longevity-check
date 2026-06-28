@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-iodine-225",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "jod",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity": "alive-by-science-nmn-sublingual",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nmn",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

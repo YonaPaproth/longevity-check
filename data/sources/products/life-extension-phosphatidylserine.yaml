@@ -1,0 +1,81 @@
+---
+id: life-extension-phosphatidylserine
+type: product
+
+meta:
+  title: "Life Extension Phosphatidylserine 100 mg"
+  ingredient: phosphatidylserin
+  containedIngredients:
+    - slug: phosphatidylserin
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextension.com/vitamins-supplements/item01822/phosphatidylserine"
+  affiliateUrl: ""
+  priceEur: 32
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.53
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "PS besitzt Studien zu Stressreaktion, Kortisol und kognitiver Performance, wenn auch mit kleinen Stichproben."
+      en: "PS besitzt Studien zu Stressreaktion, Kortisol und kognitiver Performance, wenn auch mit kleinen Stichproben."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,53 € pro 100 mg Markenrohstoff liegt im erwartbaren Bereich."
+      en: "0,53 € pro 100 mg Markenrohstoff liegt im erwartbaren Bereich."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Sharp-PS-Green ist allergenfrei, Life Extension kapselt unter cGMP."
+      en: "Sharp-PS-Green ist allergenfrei, Life Extension kapselt unter cGMP."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Deklariert Phospholipidgehalt, Quelle und Hilfsstoffe detailliert."
+      en: "Deklariert Phospholipidgehalt, Quelle und Hilfsstoffe detailliert."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "cGMP-Betriebe plus unabhängige Tests bei Eurofins sichern Reinheit."
+      en: "cGMP-Betriebe plus unabhängige Tests bei Eurofins sichern Reinheit."
+
+locales:
+  de:
+    summary: "Sharp-PS-Green aus Sonnenblume liefert 100 mg Phosphatidylserin ohne Soja oder tierische Bestandteile."
+    verdictNote: "Beste Wahl für sojafreies Phosphatidylserin mit Sharp-PS Green."
+    body:
+      description: "Die Kapseln enthalten 100 mg pflanzliches Phosphatidylserin aus Sonnenblumenlecithin. Zusätze wie Ginkgo oder Koffein fehlen bewusst, um reine Stapelbarkeit zu ermöglichen."
+      pros:
+        - "Sojafrei dank Sharp-PS Green"
+        - "Saubere Kapsel mit minimalen Hilfsstoffen"
+        - "Gute Verträglichkeit, keine Stimulanzien"
+      cons:
+        - "Nur 60 Portionen pro Flasche"
+        - "Kein Kombiprodukt mit Omega-3 oder DHA"
+      usage: "2 Kapseln täglich aufgeteilt morgens und nachmittags, jeweils zu einer kohlenhydrathaltigen Mahlzeit für bessere Aufnahme."
+  en:
+    summary: "Sharp-PS-Green aus Sonnenblume liefert 100 mg Phosphatidylserin ohne Soja oder tierische Bestandteile."
+    verdictNote: "Beste Wahl für sojafreies Phosphatidylserin mit Sharp-PS Green."
+    body:
+      description: "Die Kapseln enthalten 100 mg pflanzliches Phosphatidylserin aus Sonnenblumenlecithin. Zusätze wie Ginkgo oder Koffein fehlen bewusst, um reine Stapelbarkeit zu ermöglichen."
+      pros:
+        - "Sojafrei dank Sharp-PS Green"
+        - "Saubere Kapsel mit minimalen Hilfsstoffen"
+        - "Gute Verträglichkeit, keine Stimulanzien"
+      cons:
+        - "Nur 60 Portionen pro Flasche"
+        - "Kein Kombiprodukt mit Omega-3 oder DHA"
+      usage: "2 Kapseln täglich aufgeteilt morgens und nachmittags, jeweils zu einer kohlenhydrathaltigen Mahlzeit für bessere Aufnahme."
+---

@@ -1,0 +1,11 @@
+{
+  "entity": "biogena-zink-15",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "zink",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

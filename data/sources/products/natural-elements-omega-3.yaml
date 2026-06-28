@@ -1,0 +1,83 @@
+---
+id: natural-elements-omega-3
+type: product
+
+meta:
+  title: "Natural Elements Omega-3 2000 mg"
+  ingredient: omega-3
+  containedIngredients:
+    - slug: omega-3
+  vendor: "Natural Elements"
+  vendorUrl: "https://www.natural-elements.com/products/omega-3-2000-mg"
+  affiliateUrl: ""
+  priceEur: 24.9
+  doseMg: 2000
+  servingsPerPack: 90
+  pricePerDayEur: 0.28
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "EPA und DHA sind solide untersucht für Triglycerid- und Entzündungsmarker."
+      en: "EPA und DHA sind solide untersucht für Triglycerid- und Entzündungsmarker."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,28 € pro 2 g Fischöl aus MSC-Fisch ist außergewöhnlich günstig."
+      en: "0,28 € pro 2 g Fischöl aus MSC-Fisch ist außergewöhnlich günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Kaltgefilterte Öle, IFOS-nahe TOTOX-Werte und Abfüllung in Deutschland."
+      en: "Kaltgefilterte Öle, IFOS-nahe TOTOX-Werte und Abfüllung in Deutschland."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "EPA/DHA-Anteil, Fanggebiet und Zertifikate übersichtlich gelistet."
+      en: "EPA/DHA-Anteil, Fanggebiet und Zertifikate übersichtlich gelistet."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Interne Labore messen Oxidation, externe Tests werden auf Anfrage bereitgestellt."
+      en: "Interne Labore messen Oxidation, externe Tests werden auf Anfrage bereitgestellt."
+
+locales:
+  de:
+    summary: "Deutsche Omega-3-Softgels aus MSC-zertifiziertem Fischöl, 2000 mg pro Portion und in Berlin abgefüllt."
+    verdictNote: "Budgetfreundliches Omega-3 aus deutscher Produktion mit Rückverfolgung bis zum Fangboot."
+    body:
+      description: "Natural Elements verarbeitet MSC-zertifizierten Wildfang in Deutschland und konzentriert das Öl auf 1000 mg EPA+DHA pro Portion. Die Softgelhülle besteht aus Rindergelatine."
+      pros:
+        - "MSC-Rückverfolgbarkeit"
+        - "90 Portionen pro Flasche"
+        - "Sauerstofffreie Abfüllung für niedrige TOTOX-Werte"
+        - "Transparente Offenlegung der Fangflotten"
+      cons:
+        - "Keine offizielle IFOS-Auszeichnung"
+        - "Softgels relativ groß"
+      usage: "Täglich 2 Softgels zu einer Mahlzeit mit Fett einnehmen. Bei empfindlichem Magen die Einnahme auf morgens und abends aufteilen."
+  en:
+    summary: "Deutsche Omega-3-Softgels aus MSC-zertifiziertem Fischöl, 2000 mg pro Portion und in Berlin abgefüllt."
+    verdictNote: "Budgetfreundliches Omega-3 aus deutscher Produktion mit Rückverfolgung bis zum Fangboot."
+    body:
+      description: "Natural Elements verarbeitet MSC-zertifizierten Wildfang in Deutschland und konzentriert das Öl auf 1000 mg EPA+DHA pro Portion. Die Softgelhülle besteht aus Rindergelatine."
+      pros:
+        - "MSC-Rückverfolgbarkeit"
+        - "90 Portionen pro Flasche"
+        - "Sauerstofffreie Abfüllung für niedrige TOTOX-Werte"
+        - "Transparente Offenlegung der Fangflotten"
+      cons:
+        - "Keine offizielle IFOS-Auszeichnung"
+        - "Softgels relativ groß"
+      usage: "Täglich 2 Softgels zu einer Mahlzeit mit Fett einnehmen. Bei empfindlichem Magen die Einnahme auf morgens und abends aufteilen."
+---

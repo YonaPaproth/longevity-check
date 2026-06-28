@@ -1,0 +1,11 @@
+{
+  "entity": "sunday-natural-coq10-ubiquinol-100",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "coq10",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

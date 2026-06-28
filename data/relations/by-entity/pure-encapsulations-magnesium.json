@@ -1,0 +1,17 @@
+{
+  "entity": "pure-encapsulations-magnesium",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "magnesium",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "glycin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

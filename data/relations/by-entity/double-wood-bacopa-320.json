@@ -1,0 +1,11 @@
+{
+  "entity": "double-wood-bacopa-320",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "bacopa",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

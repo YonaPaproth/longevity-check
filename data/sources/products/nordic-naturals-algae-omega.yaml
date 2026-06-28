@@ -1,0 +1,83 @@
+---
+id: nordic-naturals-algae-omega
+type: product
+
+meta:
+  title: "Nordic Naturals Algae Omega"
+  ingredient: omega-3
+  containedIngredients:
+    - slug: omega-3
+  vendor: "Nordic Naturals"
+  vendorUrl: "https://www.nordicnaturals.com"
+  affiliateUrl: ""
+  priceEur: 42
+  doseMg: 715
+  servingsPerPack: 60
+  pricePerDayEur: 0.7
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "EPA und DHA haben vergleichsweise gute Datenlage für Herz, Entzündungen und Gehirnleistung."
+      en: "EPA und DHA haben vergleichsweise gute Datenlage für Herz, Entzündungen und Gehirnleistung."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,70 € pro Portion ist höher als Fischöl, aber typisch für veganes Algenöl."
+      en: "0,70 € pro Portion ist höher als Fischöl, aber typisch für veganes Algenöl."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Nordic Naturals testet jede Charge auf Oxidation, IFOS-Daten öffentlich."
+      en: "Nordic Naturals testet jede Charge auf Oxidation, IFOS-Daten öffentlich."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "EPA/DHA-Mengen, Algenquelle und Antioxidanz klar angegeben."
+      en: "EPA/DHA-Mengen, Algenquelle und Antioxidanz klar angegeben."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "IFOS-5-Sterne-Rating plus eigene Labortests gewährleisten Reinheit."
+      en: "IFOS-5-Sterne-Rating plus eigene Labortests gewährleisten Reinheit."
+
+locales:
+  de:
+    summary: "Veganes EPA+DHA-Algenöl mit 715 mg Omega-3 pro Portion, IFOS-getestet und ohne Fischgeschmack."
+    verdictNote: "Beste Wahl für Veganer, die hochdosiertes Omega-3 ohne Fischöl suchen."
+    body:
+      description: "Zwei Softgels liefern 715 mg Gesamt-Omega-3 aus Schizochytrium-Algenöl. Das Produkt ist komplett pflanzlich, frei von Fisch, Gluten und künstlichen Aromen."
+      pros:
+        - "IFOS-geprüfte Reinheit"
+        - "Angenehmer Zitronengeschmack, kein Aufstoßen"
+        - "Nachhaltig kultivierte Algen"
+        - "Vegan zertifiziert"
+      cons:
+        - "Preis höher als Fischölvarianten"
+        - "Softgels relativ groß"
+      usage: "2 Softgels täglich zu einer fetthaltigen Mahlzeit. Bei erhöhtem Bedarf (z. B. Schwangerschaft) nach ärztlicher Rücksprache auf 4 Softgels erhöhen."
+  en:
+    summary: "Veganes EPA+DHA-Algenöl mit 715 mg Omega-3 pro Portion, IFOS-getestet und ohne Fischgeschmack."
+    verdictNote: "Beste Wahl für Veganer, die hochdosiertes Omega-3 ohne Fischöl suchen."
+    body:
+      description: "Zwei Softgels liefern 715 mg Gesamt-Omega-3 aus Schizochytrium-Algenöl. Das Produkt ist komplett pflanzlich, frei von Fisch, Gluten und künstlichen Aromen."
+      pros:
+        - "IFOS-geprüfte Reinheit"
+        - "Angenehmer Zitronengeschmack, kein Aufstoßen"
+        - "Nachhaltig kultivierte Algen"
+        - "Vegan zertifiziert"
+      cons:
+        - "Preis höher als Fischölvarianten"
+        - "Softgels relativ groß"
+      usage: "2 Softgels täglich zu einer fetthaltigen Mahlzeit. Bei erhöhtem Bedarf (z. B. Schwangerschaft) nach ärztlicher Rücksprache auf 4 Softgels erhöhen."
+---

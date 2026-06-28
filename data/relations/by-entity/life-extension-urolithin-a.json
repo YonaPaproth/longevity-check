@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-urolithin-a",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "urolithin-a",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-probiotic-10",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "probiotika",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

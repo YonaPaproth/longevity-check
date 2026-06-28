@@ -1,0 +1,11 @@
+{
+  "entity": "jet-alert-caffeine-200-mg",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "koffein",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

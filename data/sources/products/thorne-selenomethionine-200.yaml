@@ -1,0 +1,83 @@
+---
+id: thorne-selenomethionine-200
+type: product
+
+meta:
+  title: "Thorne Selenomethionine 200"
+  ingredient: selen
+  containedIngredients:
+    - slug: selen
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 22
+  doseMg: 0.2
+  servingsPerPack: 90
+  pricePerDayEur: 0.24
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Selen deckt Schilddrüsen- und Antioxidationsbedarf, besonders relevant bei geringer Nusszufuhr."
+      en: "Selen deckt Schilddrüsen- und Antioxidationsbedarf, besonders relevant bei geringer Nusszufuhr."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,24 € pro Tag für 200 mcg organisches Selen ist fair bei Thorne-Qualität."
+      en: "0,24 € pro Tag für 200 mcg organisches Selen ist fair bei Thorne-Qualität."
+  productQuality:
+    score: 9
+    explanation:
+      de: "NSF Certified for Sport garantiert Reinheit und verbotene-Substanzen-Tests."
+      en: "NSF Certified for Sport garantiert Reinheit und verbotene-Substanzen-Tests."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Volle Transparenz, klare Warnhinweise zur maximalen Tagesdosis."
+      en: "Volle Transparenz, klare Warnhinweise zur maximalen Tagesdosis."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF Sport-Programm testet jede Charge auf Identität, Potenz und Kontamination."
+      en: "NSF Sport-Programm testet jede Charge auf Identität, Potenz und Kontamination."
+
+locales:
+  de:
+    summary: "Organisches Selenomethionin von Thorne, NSF Certified for Sport und damit eine sichere Wahl für Athletinnen mit hohem Bedarf."
+    verdictNote: "Eine der wenigen Selen-Optionen mit Sport-Zertifizierung und zuverlässiger Dosierung."
+    body:
+      description: "Thorne setzt seit Jahren auf hypoallergene Rezepturen. Diese Kapsel kombiniert 200 mcg Selenomethionin mit mikrokristalliner Cellulose als Träger und verzichtet auf Magnesiumstearat oder Farbstoffe."
+      pros:
+        - "NSF-Sport-Zertifizierung spricht Leistungssportler an"
+        - "Organische Form wird langsam freigegeben und speicherbar"
+        - "Gluten-, Soja- und Milchfrei"
+        - "USA-Hersteller mit jahrzehntelanger Reputation"
+      cons:
+        - "Kein Kombiprodukt mit Vitamin E oder C für Synergien"
+        - "Nur 200 mcg Dosierung, keine Splitting-Kapsel möglich"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei Schilddrüsenmedikation Einnahme zeitlich trennen und Arzt konsultieren."
+  en:
+    summary: "Organisches Selenomethionin von Thorne, NSF Certified for Sport und damit eine sichere Wahl für Athletinnen mit hohem Bedarf."
+    verdictNote: "Eine der wenigen Selen-Optionen mit Sport-Zertifizierung und zuverlässiger Dosierung."
+    body:
+      description: "Thorne setzt seit Jahren auf hypoallergene Rezepturen. Diese Kapsel kombiniert 200 mcg Selenomethionin mit mikrokristalliner Cellulose als Träger und verzichtet auf Magnesiumstearat oder Farbstoffe."
+      pros:
+        - "NSF-Sport-Zertifizierung spricht Leistungssportler an"
+        - "Organische Form wird langsam freigegeben und speicherbar"
+        - "Gluten-, Soja- und Milchfrei"
+        - "USA-Hersteller mit jahrzehntelanger Reputation"
+      cons:
+        - "Kein Kombiprodukt mit Vitamin E oder C für Synergien"
+        - "Nur 200 mcg Dosierung, keine Splitting-Kapsel möglich"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei Schilddrüsenmedikation Einnahme zeitlich trennen und Arzt konsultieren."
+---

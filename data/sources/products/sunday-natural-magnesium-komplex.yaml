@@ -1,0 +1,84 @@
+---
+id: sunday-natural-magnesium-komplex
+type: product
+
+meta:
+  title: "Sunday Natural Magnesium Komplex"
+  ingredient: magnesium
+  containedIngredients:
+    - slug: magnesium
+    - slug: piperin
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de"
+  affiliateUrl: ""
+  priceEur: 29.9
+  doseMg: 300
+  servingsPerPack: 90
+  pricePerDayEur: 0.33
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Magnesium ist essenziell, verschiedene Formen decken unterschiedliche Aufnahmewege ab."
+      en: "Magnesium ist essenziell, verschiedene Formen decken unterschiedliche Aufnahmewege ab."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,33 € pro Tag ist angemessen für Multiform-Komplex mit 300 mg."
+      en: "0,33 € pro Tag ist angemessen für Multiform-Komplex mit 300 mg."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Herstellung in Berlin, Laboranalysen jeder Charge, transparente Rohstoffquellen."
+      en: "Herstellung in Berlin, Laboranalysen jeder Charge, transparente Rohstoffquellen."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Alle Formen und Mengen detailliert aufgelistet, keine Proprietary Blend."
+      en: "Alle Formen und Mengen detailliert aufgelistet, keine Proprietary Blend."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Sunday veröffentlicht Analysen auf Anfrage, führt interne Schwermetalltests durch."
+      en: "Sunday veröffentlicht Analysen auf Anfrage, führt interne Schwermetalltests durch."
+
+locales:
+  de:
+    summary: "Sieben Magnesiumformen plus Co-Faktoren, made in Germany und ohne Zusatzstoffe – praktisch für Vielseitigkeit."
+    verdictNote: "Wer sich nicht auf eine Magnesiumform festlegen will, bekommt hier ein vielseitiges Komplettpaket."
+    body:
+      description: "Der Magnesium Komplex kombiniert bisglycinat, malat, citrat, taurat, orotat, gluconat und lactat. Jede Tagesportion liefert 300 mg elementares Magnesium, ergänzt um Bioperin für bessere Aufnahme."
+      pros:
+        - "Mehrere Formen decken Darm- und Gewebepräferenzen ab"
+        - "Produktion und Abfüllung in Berlin"
+        - "Verzicht auf Magnesiumstearat und Farbstoffe"
+        - "Glasverpackung statt Plastik"
+      cons:
+        - "Enthält Pfefferextrakt, was nicht jede:r verträgt"
+        - "Nur 90 Portionen, keine Nachfüllpacks"
+      usage: "2 Kapseln täglich, idealerweise auf Morgen und Abend aufteilen. Bei sensiblen Mägen zu den Mahlzeiten einnehmen."
+  en:
+    summary: "Sieben Magnesiumformen plus Co-Faktoren, made in Germany und ohne Zusatzstoffe – praktisch für Vielseitigkeit."
+    verdictNote: "Wer sich nicht auf eine Magnesiumform festlegen will, bekommt hier ein vielseitiges Komplettpaket."
+    body:
+      description: "Der Magnesium Komplex kombiniert bisglycinat, malat, citrat, taurat, orotat, gluconat und lactat. Jede Tagesportion liefert 300 mg elementares Magnesium, ergänzt um Bioperin für bessere Aufnahme."
+      pros:
+        - "Mehrere Formen decken Darm- und Gewebepräferenzen ab"
+        - "Produktion und Abfüllung in Berlin"
+        - "Verzicht auf Magnesiumstearat und Farbstoffe"
+        - "Glasverpackung statt Plastik"
+      cons:
+        - "Enthält Pfefferextrakt, was nicht jede:r verträgt"
+        - "Nur 90 Portionen, keine Nachfüllpacks"
+      usage: "2 Kapseln täglich, idealerweise auf Morgen und Abend aufteilen. Bei sensiblen Mägen zu den Mahlzeiten einnehmen."
+---

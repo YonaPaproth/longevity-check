@@ -1,0 +1,85 @@
+---
+id: sunday-natural-omega-3-1000
+type: product
+
+meta:
+  title: "Sunday Natural Omega-3 Fischöl 1000"
+  ingredient: omega-3
+  containedIngredients:
+    - slug: omega-3
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de"
+  affiliateUrl: ""
+  priceEur: 24.9
+  doseMg: 1000
+  servingsPerPack: 120
+  pricePerDayEur: 0.21
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-06-15"
+  lastPriceCheck: "2026-06-15"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Omega-3 hat exzellente Evidenz für Herz-Kreislauf, Entzündung und Kognition aus dutzenden RCTs."
+      en: "Omega-3 has excellent evidence for cardiovascular, inflammation, and cognition from dozens of RCTs."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,21 € pro Tag für TG-Omega-3 mit IFOS-Zertifikat — kaum zu schlagen im Premium-Segment."
+      en: "€0.21 per day for TG-omega-3 with IFOS certification — unbeatable in the premium segment."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Triglycerid-Form, molekular destilliert, niedrige Totox-Werte, frei von Schwermetallen."
+      en: "Triglyceride form, molecularly distilled, low totox values, free from heavy metals."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "EPA/DHA pro Kapsel exakt angegeben, IFOS-Analysezertifikat öffentlich einsehbar."
+      en: "EPA/DHA per capsule exactly specified, IFOS analysis certificate publicly viewable."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "IFOS 5-Sterne-Rating, zusätzliche deutsche Laboranalytik jeder Charge."
+      en: "IFOS 5-star rating, additional German laboratory analysis of every batch."
+
+locales:
+  de:
+    summary: "Hochkonzentriertes Omega-3 in natürlicher Triglycerid-Form, IFOS 5-Sterne, 120 Softgels."
+    verdictNote: "Hervorragendes Preis-Leistungs-Verhältnis für ein IFOS-zertifiziertes TG-Omega-3. Top-Empfehlung."
+    body:
+      description: "Sunday Natural liefert ein hochkonzentriertes Omega-3-Fischöl in der natürlichen Triglycerid-Form, die laut Studien etwa 70 % besser absorbiert wird als Ethylester. Molekulare Destillation entfernt Schwermetalle und Oxidationsprodukte."
+      pros:
+        - "Triglycerid-Form für optimale Bioverfügbarkeit"
+        - "IFOS 5-Sterne-Zertifikat für Reinheit und Frische"
+        - "120 Softgels = 4 Monate bei 1 Kapsel/Tag"
+        - "Sehr attraktiver Preis für diese Qualitätsstufe"
+      cons:
+        - "Kein MSC- oder Friend-of-the-Sea-Siegel sichtbar"
+        - "Fischöl — keine vegane Option (Algenöl separat im Sortiment)"
+        - "Softgels relativ groß"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Bei erhöhtem Bedarf (z. B. hohe Triglyceride) bis 2 Softgels nach ärztlicher Rücksprache."
+  en:
+    summary: "Highly concentrated omega-3 in natural triglyceride form, IFOS 5-star, 120 softgels."
+    verdictNote: "Excellent value for money for an IFOS-certified TG-omega-3. Top recommendation."
+    body:
+      description: "Sunday Natural delivers a highly concentrated omega-3 fish oil in natural triglyceride form, which according to studies is absorbed approximately 70% better than ethyl esters. Molecular distillation removes heavy metals and oxidation products."
+      pros:
+        - "Triglyceride form for optimal bioavailability"
+        - "IFOS 5-star certification for purity and freshness"
+        - "120 softgels = 4 months at 1 capsule/day"
+        - "Very attractive price for this quality level"
+      cons:
+        - "No visible MSC or Friend-of-the-Sea seal"
+        - "Fish oil — no vegan option (algae oil available separately in product range)"
+        - "Softgels relatively large"
+      usage: ""
+---

@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-quercetin-250",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "quercetin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

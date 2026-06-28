@@ -1,0 +1,81 @@
+---
+id: double-wood-fisetin-500
+type: product
+
+meta:
+  title: "Double Wood Fisetin 500mg"
+  ingredient: fisetin
+  containedIngredients:
+    - slug: fisetin
+  vendor: "Double Wood"
+  vendorUrl: "https://doublewoodsupplements.com"
+  affiliateUrl: ""
+  priceEur: 44.9
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.75
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Die Senolytik-Hypothese ist vielversprechend, aber Daten beim Menschen bleiben dünn."
+      en: "Die Senolytik-Hypothese ist vielversprechend, aber Daten beim Menschen bleiben dünn."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,75 € pro 500 mg ist sehr günstig."
+      en: "0,75 € pro 500 mg ist sehr günstig."
+  productQuality:
+    score: 7
+    explanation:
+      de: "GMP-Produktion, aber keine Lösungsmittel-Optimierung."
+      en: "GMP-Produktion, aber keine Lösungsmittel-Optimierung."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Offene Deklaration des 98%-Rohstoffs, Chargennummer gut sichtbar."
+      en: "Offene Deklaration des 98%-Rohstoffs, Chargennummer gut sichtbar."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Nur interne COAs, keine europäischen Prüfinstanzen."
+      en: "Nur interne COAs, keine europäischen Prüfinstanzen."
+
+locales:
+  de:
+    summary: "Hochdosiertes Fisetin aus US-Produktion ohne Zusatzfarbstoffe, gut geeignet für Senolytic-Fenster."
+    verdictNote: "Budgetfreundliche Option für Anwender, die hohe Fisetinmengen in kurzen Intervallen einsetzen möchten."
+    body:
+      description: "Die 500-mg-Kapseln sparen Zeit bei Senolytic-Protokollen. Double Wood lässt in Philadelphia abfüllen und liefert aktuelle Schwermetalltests auf Anfrage."
+      pros:
+        - "Hohe Einzeldosis minimiert Kapselanzahl"
+        - "Sojafrei und ohne Magnesiumstearat"
+        - "Verfügbar in Deutschland über EU-Import"
+      cons:
+        - "Kein Bioverfügbarkeits-Booster enthalten"
+        - "Große Kapseln, für manche schwer zu schlucken"
+      usage: "Für Senolytic-Days oft 2×2 Kapseln zusammen mit Quercetin oder Piperin. Immer mit Mahlzeit einnehmen, da fettlöslich."
+  en:
+    summary: "Hochdosiertes Fisetin aus US-Produktion ohne Zusatzfarbstoffe, gut geeignet für Senolytic-Fenster."
+    verdictNote: "Budgetfreundliche Option für Anwender, die hohe Fisetinmengen in kurzen Intervallen einsetzen möchten."
+    body:
+      description: "Die 500-mg-Kapseln sparen Zeit bei Senolytic-Protokollen. Double Wood lässt in Philadelphia abfüllen und liefert aktuelle Schwermetalltests auf Anfrage."
+      pros:
+        - "Hohe Einzeldosis minimiert Kapselanzahl"
+        - "Sojafrei und ohne Magnesiumstearat"
+        - "Verfügbar in Deutschland über EU-Import"
+      cons:
+        - "Kein Bioverfügbarkeits-Booster enthalten"
+        - "Große Kapseln, für manche schwer zu schlucken"
+      usage: "Für Senolytic-Days oft 2×2 Kapseln zusammen mit Quercetin oder Piperin. Immer mit Mahlzeit einnehmen, da fettlöslich."
+---

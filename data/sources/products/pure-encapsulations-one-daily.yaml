@@ -1,0 +1,86 @@
+---
+id: pure-encapsulations-one-daily
+type: product
+
+meta:
+  title: "Pure Encapsulations ONE Daily"
+  ingredient: vitamin-b6
+  containedIngredients:
+    - slug: vitamin-b6
+    - slug: vitamin-c
+    - slug: folsaeure
+    - slug: vitamin-b12
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pure-encapsulations.com"
+  affiliateUrl: ""
+  priceEur: 44
+  doseMg: 1000
+  servingsPerPack: 90
+  pricePerDayEur: 0.49
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Multivitamine ergänzen westliche Diäten und schließen Lücken bei B-Vitaminen und Spurenelementen."
+      en: "Multivitamine ergänzen westliche Diäten und schließen Lücken bei B-Vitaminen und Spurenelementen."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,49 € pro Tag ist ok für eine Ein-Kapsel-Formel mit Premiumrohstoffen."
+      en: "0,49 € pro Tag ist ok für eine Ein-Kapsel-Formel mit Premiumrohstoffen."
+  productQuality:
+    score: 9
+    explanation:
+      de: "cGMP-Produktion, reine Kapselschalen, keine Farbstoffe."
+      en: "cGMP-Produktion, reine Kapselschalen, keine Farbstoffe."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Alle Vitamine und Mineralien detailliert aufgeführt, inkl. Formen wie Metafolin."
+      en: "Alle Vitamine und Mineralien detailliert aufgeführt, inkl. Formen wie Metafolin."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Routinemäßige Potenz- und Schwermetalltests, COAs über Ärzte abrufbar."
+      en: "Routinemäßige Potenz- und Schwermetalltests, COAs über Ärzte abrufbar."
+
+locales:
+  de:
+    summary: "Eine Kapsel täglich mit aktiven B-Vitaminen, Carotinoiden und Spurenelementen – hypoallergener Allrounder."
+    verdictNote: "Für Minimalist:innen, die nur eine Kapsel am Tag nehmen wollen, kaum zu toppen."
+    body:
+      description: "ONE Daily bietet aktive B-Vitamine, Vitamin C aus gepufferten Quellen, Carotinoide, Mineralien und Spurenelemente in einer einzigen Kapsel. Ideal für alle, die ihr Supplement-Regime klein halten möchten."
+      pros:
+        - "Nur eine Kapsel täglich"
+        - "Enthält Metafolin und Methylcobalamin"
+        - "Hypoallergen, frei von gängigen Allergenen"
+        - "Gute Ergänzung zu Omega-3 oder D3 ohne Überschneidungen"
+      cons:
+        - "Kein Magnesium oder Calcium enthalten"
+        - "Keine Sport-Zertifizierung"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei empfindlichem Magen nach dem Essen einnehmen."
+  en:
+    summary: "Eine Kapsel täglich mit aktiven B-Vitaminen, Carotinoiden und Spurenelementen – hypoallergener Allrounder."
+    verdictNote: "Für Minimalist:innen, die nur eine Kapsel am Tag nehmen wollen, kaum zu toppen."
+    body:
+      description: "ONE Daily bietet aktive B-Vitamine, Vitamin C aus gepufferten Quellen, Carotinoide, Mineralien und Spurenelemente in einer einzigen Kapsel. Ideal für alle, die ihr Supplement-Regime klein halten möchten."
+      pros:
+        - "Nur eine Kapsel täglich"
+        - "Enthält Metafolin und Methylcobalamin"
+        - "Hypoallergen, frei von gängigen Allergenen"
+        - "Gute Ergänzung zu Omega-3 oder D3 ohne Überschneidungen"
+      cons:
+        - "Kein Magnesium oder Calcium enthalten"
+        - "Keine Sport-Zertifizierung"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei empfindlichem Magen nach dem Essen einnehmen."
+---

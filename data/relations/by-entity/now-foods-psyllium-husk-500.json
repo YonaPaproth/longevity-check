@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-psyllium-husk-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "flohsamenschalen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

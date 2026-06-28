@@ -1,0 +1,83 @@
+---
+id: life-extension-ashwagandha-ksm66
+type: product
+
+meta:
+  title: "Life Extension Ashwagandha KSM-66"
+  ingredient: ashwagandha
+  containedIngredients:
+    - slug: ashwagandha
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextensioneurope.de"
+  affiliateUrl: ""
+  priceEur: 29
+  doseMg: 300
+  servingsPerPack: 60
+  pricePerDayEur: 0.48
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Ashwagandha (KSM-66) besitzt mehrere Datenpunktelage zu Stress, Schlaf und Testosteron in mehreren RCTs."
+      en: "Ashwagandha (KSM-66) besitzt mehrere Datenpunktelage zu Stress, Schlaf und Testosteron in mehreren RCTs."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,48 € pro Kapsel liegt etwas über Massenmarkt, aber KSM-66 Lizenzmaterial rechtfertigt den Aufpreis."
+      en: "0,48 € pro Kapsel liegt etwas über Massenmarkt, aber KSM-66 Lizenzmaterial rechtfertigt den Aufpreis."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Biozertifizierter Wurzelextrakt, GMP-Produktion, Life Extension veröffentlicht vollständige Spezifikationen."
+      en: "Biozertifizierter Wurzelextrakt, GMP-Produktion, Life Extension veröffentlicht vollständige Spezifikationen."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Markenrohstoff und Prozentzahl der Withanolide offen kommuniziert."
+      en: "Markenrohstoff und Prozentzahl der Withanolide offen kommuniziert."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Jede Charge wird über unabhängige US-Labore auf Schwermetalle und Pestizide geprüft."
+      en: "Jede Charge wird über unabhängige US-Labore auf Schwermetalle und Pestizide geprüft."
+
+locales:
+  de:
+    summary: "300 mg KSM-66 Markenextrakt pro Kapsel, drittanbieter-getestet für Stressmarker und Schlaf-Kontexte."
+    verdictNote: "Wer KSM-66 in klinischer Dosierung sucht, bekommt hier konstante Qualität und gute Transparenz."
+    body:
+      description: "Life Extension nutzt den bekannten KSM-66 Vollspektrum-Extrakt (mindestens 5% Withanolide) in veganen Kapseln. Die Wurzeln stammen aus Rajasthan, verarbeitet nach ISO- und GMP-Standards."
+      pros:
+        - "KSM-66 Markenlizenz mit Rückverfolgbarkeit"
+        - "Drittanbieter-Analyseberichte auf Anfrage verfügbar"
+        - "Gute Kombination mit Magnesium oder Rhodiola"
+        - "60 Portionen decken zwei Monate Grundversorgung"
+      cons:
+        - "Keine niedrigschwellige 150-mg-Option für Einsteiger"
+        - "Verpackung nur als Plastikdose"
+      usage: "1 Kapsel morgens mit Frühstück. Bei Schlafproblemen zweite Kapsel 1 Stunde vor dem Zubettgehen hinzufügen und Wirkung nach 2 Wochen neu bewerten."
+  en:
+    summary: "300 mg KSM-66 Markenextrakt pro Kapsel, drittanbieter-getestet für Stressmarker und Schlaf-Kontexte."
+    verdictNote: "Wer KSM-66 in klinischer Dosierung sucht, bekommt hier konstante Qualität und gute Transparenz."
+    body:
+      description: "Life Extension nutzt den bekannten KSM-66 Vollspektrum-Extrakt (mindestens 5% Withanolide) in veganen Kapseln. Die Wurzeln stammen aus Rajasthan, verarbeitet nach ISO- und GMP-Standards."
+      pros:
+        - "KSM-66 Markenlizenz mit Rückverfolgbarkeit"
+        - "Drittanbieter-Analyseberichte auf Anfrage verfügbar"
+        - "Gute Kombination mit Magnesium oder Rhodiola"
+        - "60 Portionen decken zwei Monate Grundversorgung"
+      cons:
+        - "Keine niedrigschwellige 150-mg-Option für Einsteiger"
+        - "Verpackung nur als Plastikdose"
+      usage: "1 Kapsel morgens mit Frühstück. Bei Schlafproblemen zweite Kapsel 1 Stunde vor dem Zubettgehen hinzufügen und Wirkung nach 2 Wochen neu bewerten."
+---

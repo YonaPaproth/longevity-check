@@ -1,0 +1,11 @@
+{
+  "entity": "sunday-natural-rhodiola-rosea",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "rhodiola",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

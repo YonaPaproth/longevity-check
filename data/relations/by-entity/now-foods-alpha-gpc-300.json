@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-alpha-gpc-300",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "alpha-gpc",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

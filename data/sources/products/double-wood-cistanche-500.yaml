@@ -1,0 +1,81 @@
+---
+id: double-wood-cistanche-500
+type: product
+
+meta:
+  title: "Double Wood Cistanche Tubulosa 500mg"
+  ingredient: cistanche
+  containedIngredients:
+    - slug: cistanche
+  vendor: "Double Wood"
+  vendorUrl: "https://doublewoodsupplements.com"
+  affiliateUrl: ""
+  priceEur: 38
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.63
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Pilotstudien zeigen Verbesserungen bei Ausdauer und freiem Testosteron, aber Datenlage ist klein."
+      en: "Pilotstudien zeigen Verbesserungen bei Ausdauer und freiem Testosteron, aber Datenlage ist klein."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,63 € pro 500 mg Spezialextrakt ist marktüblich."
+      en: "0,63 € pro 500 mg Spezialextrakt ist marktüblich."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Echinacosid &gt;10 % und Acteosid &gt;4 % laut Laborbericht."
+      en: "Echinacosid &gt;10 % und Acteosid &gt;4 % laut Laborbericht."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklariert Extraktverhältnis 10:1 und Bioaktiven klar."
+      en: "Deklariert Extraktverhältnis 10:1 und Bioaktiven klar."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "COA deckt Identität, Schwermetalle und Mikroben ab."
+      en: "COA deckt Identität, Schwermetalle und Mikroben ab."
+
+locales:
+  de:
+    summary: "Echinacosid-standardisierte Cistanche für Hormone und Ausdauer, inklusive öffentlich einsehbarer COA."
+    verdictNote: "Transparente Cistanche-Quelle für Energie- und Hormonkontext."
+    body:
+      description: "Wild geerntete Cistanche tubulosa aus der inneren Mongolei wird mit Wasser und Alkohol extrahiert, um Echinacosid zu konzentrieren."
+      pros:
+        - "Offene Veröffentlichung der COA"
+        - "Vegetarische Kapseln ohne Silikate"
+        - "Gut kombinierbar mit Tongkat oder Shilajit"
+      cons:
+        - "Nischenrohstoff mit höherem Preis"
+        - "Nur online verfügbar"
+      usage: "1 Kapsel morgens. Für Ausdauer-Stacks vor langen Einheiten 2 Kapseln nutzen."
+  en:
+    summary: "Echinacosid-standardisierte Cistanche für Hormone und Ausdauer, inklusive öffentlich einsehbarer COA."
+    verdictNote: "Transparente Cistanche-Quelle für Energie- und Hormonkontext."
+    body:
+      description: "Wild geerntete Cistanche tubulosa aus der inneren Mongolei wird mit Wasser und Alkohol extrahiert, um Echinacosid zu konzentrieren."
+      pros:
+        - "Offene Veröffentlichung der COA"
+        - "Vegetarische Kapseln ohne Silikate"
+        - "Gut kombinierbar mit Tongkat oder Shilajit"
+      cons:
+        - "Nischenrohstoff mit höherem Preis"
+        - "Nur online verfügbar"
+      usage: "1 Kapsel morgens. Für Ausdauer-Stacks vor langen Einheiten 2 Kapseln nutzen."
+---

@@ -1,0 +1,81 @@
+---
+id: life-extension-lithium-1000
+type: product
+
+meta:
+  title: "Life Extension Lithium 1000mcg"
+  ingredient: lithium-orotat
+  containedIngredients:
+    - slug: lithium-orotat
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextension.com"
+  affiliateUrl: ""
+  priceEur: 14
+  doseMg: 1
+  servingsPerPack: 100
+  pricePerDayEur: 0.14
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Niedrig dosiertes Lithium korreliert mit besserer Stimmung und neurobiologische Forschung in Beobachtungen."
+      en: "Niedrig dosiertes Lithium korreliert mit besserer Stimmung und neurobiologische Forschung in Beobachtungen."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,14 € pro Microdose ist sehr günstig."
+      en: "0,14 € pro Microdose ist sehr günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Bioverfügbares Lithiumorotat mit cGMP-Produktion."
+      en: "Bioverfügbares Lithiumorotat mit cGMP-Produktion."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Angabe von elementarem Lithium und Orotat-Träger."
+      en: "Angabe von elementarem Lithium und Orotat-Träger."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Regelmäßige Schwermetall- und Reinheitsprüfungen."
+      en: "Regelmäßige Schwermetall- und Reinheitsprüfungen."
+
+locales:
+  de:
+    summary: "Mikrodosiertes Lithiumorotat mit 1000 mcg Lithium pro Tablette zur Neuro-Kontext."
+    verdictNote: "Sanfte niedrige Dosierung für Neuro- und Langlebigkeitsfans."
+    body:
+      description: "Jede Mini-Tablette liefert 1000 mcg elementares Lithium als Lithiumorotat. Größe eignet sich gut zum Splitten."
+      pros:
+        - "Sehr kleine Tabletten"
+        - "Gut teilbar"
+        - "cGMP-Qualität"
+      cons:
+        - "Orotat kann Magen reizen"
+        - "Keine offiziellen Lithium-Serumdaten"
+      usage: "1 Tablette täglich zu einer Mahlzeit, bei Erstanwendung 2-3 Mal pro Woche beginnen und Werte monitoren."
+  en:
+    summary: "Mikrodosiertes Lithiumorotat mit 1000 mcg Lithium pro Tablette zur Neuro-Kontext."
+    verdictNote: "Sanfte niedrige Dosierung für Neuro- und Langlebigkeitsfans."
+    body:
+      description: "Jede Mini-Tablette liefert 1000 mcg elementares Lithium als Lithiumorotat. Größe eignet sich gut zum Splitten."
+      pros:
+        - "Sehr kleine Tabletten"
+        - "Gut teilbar"
+        - "cGMP-Qualität"
+      cons:
+        - "Orotat kann Magen reizen"
+        - "Keine offiziellen Lithium-Serumdaten"
+      usage: "1 Tablette täglich zu einer Mahlzeit, bei Erstanwendung 2-3 Mal pro Woche beginnen und Werte monitoren."
+---

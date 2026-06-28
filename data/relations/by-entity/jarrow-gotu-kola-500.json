@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-gotu-kola-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "gotu-kola",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

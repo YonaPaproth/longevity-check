@@ -1,0 +1,83 @@
+---
+id: jarrow-coq10-100
+type: product
+
+meta:
+  title: "Jarrow Formulas CoQ10 100mg"
+  ingredient: coq10
+  containedIngredients:
+    - slug: coq10
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://jarrow.com"
+  affiliateUrl: ""
+  priceEur: 22.95
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.38
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "CoQ10 hat gute Evidenz für Herz-Kontext-Kontext-medizinischen Kontext und Statin-induzierte Myopathie. gesundes Altern-Wirkung beim Gesunden weniger belegt."
+      en: "CoQ10 hat gute Evidenz für Herz-Kontext-Kontext-medizinischen Kontext und Statin-induzierte Myopathie. gesundes Altern-Wirkung beim Gesunden weniger belegt."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,38 € pro Tag für 100 mg CoQ10 als Softgel ist im Marktvergleich günstig. Preis/mg besser als viele Markenprodukte."
+      en: "0,38 € pro Tag für 100 mg CoQ10 als Softgel ist im Marktvergleich günstig. Preis/mg besser als viele Markenprodukte."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Jarrow Formulas ist eine etablierte Marke mit gutem Ruf. Softgel-Form verbesserte die Resorption des fettlöslichen CoQ10."
+      en: "Jarrow Formulas ist eine etablierte Marke mit gutem Ruf. Softgel-Form verbesserte die Resorption des fettlöslichen CoQ10."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Keine übertriebenen Versprechen. Deklaration vollständig. Jahrelange konsistente Markenpräsenz ohne bekannte Skandale."
+      en: "Keine übertriebenen Versprechen. Deklaration vollständig. Jahrelange konsistente Markenpräsenz ohne bekannte Skandale."
+  thirdPartyTesting:
+    score: 5
+    explanation:
+      de: "Keine spezifische Drittanbieter-Zertifizierung. Jarrow hat jedoch einen guten Industrieruf und wird regelmäßig in unabhängigen Tests gut bewertet."
+      en: "Keine spezifische Drittanbieter-Zertifizierung. Jarrow hat jedoch einen guten Industrieruf und wird regelmäßig in unabhängigen Tests gut bewertet."
+
+locales:
+  de:
+    summary: "Klassisches Ubiquinol-Präparat von einer der renommiertesten US-Supplementmarken. Softgel-Form für bessere Fettlöslichkeit. Gutes Preis-Leistungs-Verhältnis."
+    verdictNote: "Zuverlässige Wahl für CoQ10-Supplementierung. Besonders sinnvoll für Statin-Anwender. Softgel-Form ist der richtigen Wahl für diesen fettlöslichen Wirkstoff."
+    body:
+      description: "Jarrow Formulas ist eine 1977 gegründete US-amerikanische Supplementmarke, die für konservative Produktformulierungen und verlässliche Qualität bekannt ist. CoQ10 100mg kommt als Softgel — die bevorzugte Darreichungsform für diesen fettlöslichen Wirkstoff."
+      pros:
+        - "**Softgel-Form:** Fettlösliche Wirkstoffe werden als Softgel besser resorbiert als als Hartkapseln oder Tabletten"
+        - "**Preis:** Günstiger als viele Markenprodukte bei vergleichbarer Qualität"
+        - "**Etablierte Marke:** Jarrow Formulas gilt als verlässliche Mittelklasse-Marke ohne bekannte Qualitätsprobleme"
+        - "**Sinnvolle Dosierung:** 100 mg entspricht der Standarddosis der meisten Studien"
+      cons:
+        - "**Keine Drittanbieter-Zertifizierung**"
+        - "**Ubiquinol vs. Ubiquinon:** Dieses Produkt enthält Ubiquinon (oxidierte Form). Ab 40 Jahren kann Ubiquinol (reduzierte Form) besser resorbiert werden"
+      usage: ""
+  en:
+    summary: "Klassisches Ubiquinol-Präparat von einer der renommiertesten US-Supplementmarken. Softgel-Form für bessere Fettlöslichkeit. Gutes Preis-Leistungs-Verhältnis."
+    verdictNote: "Zuverlässige Wahl für CoQ10-Supplementierung. Besonders sinnvoll für Statin-Anwender. Softgel-Form ist der richtigen Wahl für diesen fettlöslichen Wirkstoff."
+    body:
+      description: "Jarrow Formulas ist eine 1977 gegründete US-amerikanische Supplementmarke, die für konservative Produktformulierungen und verlässliche Qualität bekannt ist. CoQ10 100mg kommt als Softgel — die bevorzugte Darreichungsform für diesen fettlöslichen Wirkstoff."
+      pros:
+        - "**Softgel-Form:** Fettlösliche Wirkstoffe werden als Softgel besser resorbiert als als Hartkapseln oder Tabletten"
+        - "**Preis:** Günstiger als viele Markenprodukte bei vergleichbarer Qualität"
+        - "**Etablierte Marke:** Jarrow Formulas gilt als verlässliche Mittelklasse-Marke ohne bekannte Qualitätsprobleme"
+        - "**Sinnvolle Dosierung:** 100 mg entspricht der Standarddosis der meisten Studien"
+      cons:
+        - "**Keine Drittanbieter-Zertifizierung**"
+        - "**Ubiquinol vs. Ubiquinon:** Dieses Produkt enthält Ubiquinon (oxidierte Form). Ab 40 Jahren kann Ubiquinol (reduzierte Form) besser resorbiert werden"
+      usage: ""
+---

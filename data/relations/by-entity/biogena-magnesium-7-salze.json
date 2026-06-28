@@ -1,0 +1,11 @@
+{
+  "entity": "biogena-magnesium-7-salze",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "magnesium",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

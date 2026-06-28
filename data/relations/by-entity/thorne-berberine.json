@@ -1,0 +1,11 @@
+{
+  "entity": "thorne-berberine",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "berberine",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

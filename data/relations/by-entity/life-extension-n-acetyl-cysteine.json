@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-n-acetyl-cysteine",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nac",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

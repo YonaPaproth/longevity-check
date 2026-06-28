@@ -1,0 +1,81 @@
+---
+id: thorne-curcumin-phytosome
+type: product
+
+meta:
+  title: "Thorne Curcumin Phytosome 500mg"
+  ingredient: curcumin
+  containedIngredients:
+    - slug: curcumin
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 64
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 1.07
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf","informed-choice"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Curcumin zeigt moderate Effekte bei Entzündungsmarkern, Bioverfügbarkeit entscheidend."
+      en: "Curcumin zeigt moderate Effekte bei Entzündungsmarkern, Bioverfügbarkeit entscheidend."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "1,07 € pro Portion ist angemessen für Meriva."
+      en: "1,07 € pro Portion ist angemessen für Meriva."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Thorne verwendet ausschließlich Meriva-Spezialextrakt."
+      en: "Thorne verwendet ausschließlich Meriva-Spezialextrakt."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Klares Verhältnis von Curcuminoiden zu Phosphatidylcholin."
+      en: "Klares Verhältnis von Curcuminoiden zu Phosphatidylcholin."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF-zertifizierte Anlage, regelmäßige Informed-Choice-Tests."
+      en: "NSF-zertifizierte Anlage, regelmäßige Informed-Choice-Tests."
+
+locales:
+  de:
+    summary: "MERIVA-Phytosom-Curcumin mit 500 mg pro Kapsel und klinischer Datenbasis für Entzündungen."
+    verdictNote: "Eine der bestuntersuchten Curcumin-Formen mit guter Verträglichkeit und stabiler Aufnahme."
+    body:
+      description: "Meriva verbindet Curcuminoide mit Phosphatidylcholin, wodurch das fettlösliche Molekül wasserdispergierbar wird. Thorne kapselt das Pulver ohne zusätzliche Pfefferextrakte."
+      pros:
+        - "Studien seit 2006 auf Meriva"
+        - "Keine schwarzen Pfeffer-Interaktionen"
+        - "Vegane Kapseln"
+      cons:
+        - "Gelbe Flecken an Fingern möglich"
+        - "Teurer als einfache Curcumin-Pulver"
+      usage: "1 Kapsel zweimal täglich zu Mahlzeiten. Bei Medikamenten wegen CYP-Interaktionen Apotheker fragen."
+  en:
+    summary: "MERIVA-Phytosom-Curcumin mit 500 mg pro Kapsel und klinischer Datenbasis für Entzündungen."
+    verdictNote: "Eine der bestuntersuchten Curcumin-Formen mit guter Verträglichkeit und stabiler Aufnahme."
+    body:
+      description: "Meriva verbindet Curcuminoide mit Phosphatidylcholin, wodurch das fettlösliche Molekül wasserdispergierbar wird. Thorne kapselt das Pulver ohne zusätzliche Pfefferextrakte."
+      pros:
+        - "Studien seit 2006 auf Meriva"
+        - "Keine schwarzen Pfeffer-Interaktionen"
+        - "Vegane Kapseln"
+      cons:
+        - "Gelbe Flecken an Fingern möglich"
+        - "Teurer als einfache Curcumin-Pulver"
+      usage: "1 Kapsel zweimal täglich zu Mahlzeiten. Bei Medikamenten wegen CYP-Interaktionen Apotheker fragen."
+---

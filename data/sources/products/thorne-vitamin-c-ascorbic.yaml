@@ -1,0 +1,85 @@
+---
+id: thorne-vitamin-c-ascorbic
+type: product
+
+meta:
+  title: "Thorne Vitamin C with Flavonoids"
+  ingredient: vitamin-c
+  containedIngredients:
+    - slug: vitamin-c
+    - slug: quercetin
+    - slug: rutin
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com/products/dp/vitamin-c-with-flavonoids"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.47
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Vitamin C plus Bioflavonoide ist vergleichsweise gut untersucht in Immunkompetenz und oxidativen Stress."
+      en: "Vitamin C plus Bioflavonoide ist vergleichsweise gut untersucht in Immunkompetenz und oxidativen Stress."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,47 € pro Tag ist höher als Discounter-C, aber Zusatzflavonoide und NSF-Zertifikat rechtfertigen den Aufpreis."
+      en: "0,47 € pro Tag ist höher als Discounter-C, aber Zusatzflavonoide und NSF-Zertifikat rechtfertigen den Aufpreis."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Thorne produziert unter streng qualitätsorientierten Standards und kapselt nur hypoallergene Hilfsstoffe."
+      en: "Thorne produziert unter streng qualitätsorientierten Standards und kapselt nur hypoallergene Hilfsstoffe."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Volle Offenlegung der Flavonoid-Mengen sowie Allergenfreiheit."
+      en: "Volle Offenlegung der Flavonoid-Mengen sowie Allergenfreiheit."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF Certified for Sport deckt Reinheit, Identität und Kontamination ab."
+      en: "NSF Certified for Sport deckt Reinheit, Identität und Kontamination ab."
+
+locales:
+  de:
+    summary: "500 mg Vitamin C kombiniert mit Quercetin und Rutin, NSF Certified for Sport und sehr magenschonend."
+    verdictNote: "Gut geeignet für sensible Mägen, die zusätzlich Quercetin und Rutin nutzen wollen."
+    body:
+      description: "Thorne kombiniert 500 mg Vitamin C mit 75 mg Quercetin und 50 mg Rutin pro Kapsel. Die hypoallergene Formulierung ist frei von Magnesiumstearat und nutzt pflanzliche Cellulose."
+      pros:
+        - "NSF Certified for Sport"
+        - "Synergistische Flavonoide für bessere Retention"
+        - "Sehr saubere Zutatenliste ohne Füllstoffe"
+        - "Kapseln leicht zu schlucken"
+      cons:
+        - "Hoher Preis pro mg gegenüber einfachen Ascorbaten"
+        - "Keine verzögerte Freisetzung für dauerhaft höhere Spiegel"
+      usage: "1 Kapsel täglich mit einer Mahlzeit. Bei akuter Belastung morgens und abends je eine Kapsel, solange Magenverträglichkeit gegeben ist."
+  en:
+    summary: "500 mg Vitamin C kombiniert mit Quercetin und Rutin, NSF Certified for Sport und sehr magenschonend."
+    verdictNote: "Gut geeignet für sensible Mägen, die zusätzlich Quercetin und Rutin nutzen wollen."
+    body:
+      description: "Thorne kombiniert 500 mg Vitamin C mit 75 mg Quercetin und 50 mg Rutin pro Kapsel. Die hypoallergene Formulierung ist frei von Magnesiumstearat und nutzt pflanzliche Cellulose."
+      pros:
+        - "NSF Certified for Sport"
+        - "Synergistische Flavonoide für bessere Retention"
+        - "Sehr saubere Zutatenliste ohne Füllstoffe"
+        - "Kapseln leicht zu schlucken"
+      cons:
+        - "Hoher Preis pro mg gegenüber einfachen Ascorbaten"
+        - "Keine verzögerte Freisetzung für dauerhaft höhere Spiegel"
+      usage: "1 Kapsel täglich mit einer Mahlzeit. Bei akuter Belastung morgens und abends je eine Kapsel, solange Magenverträglichkeit gegeben ist."
+---

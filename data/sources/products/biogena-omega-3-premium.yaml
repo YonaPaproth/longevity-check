@@ -1,0 +1,85 @@
+---
+id: biogena-omega-3-premium
+type: product
+
+meta:
+  title: "BIOGENA Omega 3 Premium"
+  ingredient: omega-3
+  containedIngredients:
+    - slug: omega-3
+  vendor: "BIOGENA"
+  vendorUrl: "https://www.biogena.com"
+  affiliateUrl: ""
+  priceEur: 39.9
+  doseMg: 1000
+  servingsPerPack: 120
+  pricePerDayEur: 0.33
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-06-14"
+  lastPriceCheck: "2026-06-14"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Omega-3 hat exzellente Evidenz für Herz, Gehirn und Entzündungsmarker aus dutzenden RCTs."
+      en: "Omega-3 has excellent evidence for heart, brain, and inflammation markers from dozens of RCTs."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,33 € pro Tag für hochkonzentriertes TG-Form Omega-3 ist fair im Premiumsegment."
+      en: "€0.33 per day for highly concentrated TG-form omega-3 is fair in the premium segment."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Triglycerid-Form für bessere Absorption, molekular destilliert, niedrige Oxidationswerte."
+      en: "Triglyceride form for better absorption, molecularly distilled, low oxidation values."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "EPA/DHA-Mengen pro Kapsel klar angegeben, Totox-Werte veröffentlicht."
+      en: "EPA/DHA amounts per capsule clearly stated, TOTOX values published."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "IFOS-zertifiziert (5 Sterne), zusätzliche österreichische Laboranalytik."
+      en: "IFOS-certified (5 stars), plus additional Austrian laboratory analysis."
+
+locales:
+  de:
+    summary: "Hochkonzentriertes Fischöl mit hohem EPA/DHA-Anteil in Triglycerid-Form, IFOS-getestet."
+    verdictNote: "Solides Premium-Omega-3 in TG-Form mit nachgewiesener Reinheit. Gute Wahl für qualitätsbewusste Anwender."
+    body:
+      description: "BIOGENA Omega 3 Premium liefert hochkonzentriertes Fischöl in der besser bioverfügbaren Triglycerid-Form. Die Kapseln sind molekular destilliert, um Schwermetalle und Schadstoffe zu minimieren."
+      pros:
+        - "Triglycerid-Form statt Ethylester — ca. 70 % bessere Absorption laut Studien"
+        - "IFOS 5-Sterne-Rating für Reinheit und Frische"
+        - "Hoher EPA+DHA-Anteil pro Kapsel"
+        - "Kleine Kapseln, wenig Nachgeschmack"
+      cons:
+        - "Preislich über dem Marktdurchschnitt"
+        - "Kein Friend-of-the-Sea oder MSC-Siegel sichtbar"
+        - "Fischöl — für Veganer nicht geeignet (Algenöl-Alternative im Sortiment)"
+      usage: "1 Kapsel täglich zu einer fetthaltigen Mahlzeit für optimale Absorption."
+  en:
+    summary: "Highly concentrated fish oil with high EPA/DHA content in triglyceride form, IFOS-tested."
+    verdictNote: "Solid premium omega-3 in TG form with proven purity. Good choice for quality-conscious users."
+    body:
+      description: "BIOGENA Omega 3 Premium delivers highly concentrated fish oil in the more bioavailable triglyceride form. The capsules are molecularly distilled to minimize heavy metals and contaminants."
+      pros:
+        - "Triglyceride form instead of ethyl ester — approximately 70% better absorption according to studies"
+        - "IFOS 5-star rating for purity and freshness"
+        - "High EPA+DHA content per capsule"
+        - "Small capsules, minimal aftertaste"
+      cons:
+        - "Priced above market average"
+        - "No visible Friend-of-the-Sea or MSC seal"
+        - "Fish oil — not suitable for vegans (algae oil alternative available)"
+      usage: "1 capsule daily with a fat-containing meal for optimal absorption."
+---

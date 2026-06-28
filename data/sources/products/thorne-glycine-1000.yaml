@@ -1,0 +1,83 @@
+---
+id: thorne-glycine-1000
+type: product
+
+meta:
+  title: "Thorne Glycine 1000mg"
+  ingredient: glycin
+  containedIngredients:
+    - slug: glycin
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 24
+  doseMg: 1000
+  servingsPerPack: 90
+  pricePerDayEur: 0.27
+  form: powder
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Glycin unterstützt Schlafqualität, Glukosekontrolle und Kollagenbildung laut mehreren Humanstudien."
+      en: "Glycin unterstützt Schlafqualität, Glukosekontrolle und Kollagenbildung laut mehreren Humanstudien."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,27 € pro Gramm bei NSF-geprüfter Produktion ist überzeugend."
+      en: "0,27 € pro Gramm bei NSF-geprüfter Produktion ist überzeugend."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Thorne produziert in South Carolina unter NSF Sport Zulassung, jede Charge auf Schwermetalle getestet."
+      en: "Thorne produziert in South Carolina unter NSF Sport Zulassung, jede Charge auf Schwermetalle getestet."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Zutat: 100% Glycin, keine Träger, keine Süßstoffe."
+      en: "Zutat: 100% Glycin, keine Träger, keine Süßstoffe."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF Certified for Sport deckt Dopingtests und Reinheit ab."
+      en: "NSF Certified for Sport deckt Dopingtests und Reinheit ab."
+
+locales:
+  de:
+    summary: "NSF-zertifiziertes Glycinpulver mit 1 g pro Scoop, in Studien auf Schlafqualität und Aminosäureversorgung untersucht."
+    verdictNote: "Wer sich auf Dopingkontrollen verlassen muss, bekommt hier reines Glycin mit offizieller NSF-Freigabe."
+    body:
+      description: "Feines Glycinpulver im 216-g-Beutel, jede Portion (1 Messlöffel) liefert 1 g reine Aminosäure ohne Geschmack. Ideal für Abenddrinks oder als Süßungsmittel in Proteinshakes."
+      pros:
+        - "NSF Sport Zertifizierung"
+        - "Schließt Messlöffel ein"
+        - "Löst sich vollständig in warmem Wasser"
+        - "Frei von Gluten, Soja, Milch"
+      cons:
+        - "Beutel lässt sich schwer wieder verschließen"
+        - "Keine kleinere Reisegröße"
+      usage: "1 g 30 Minuten vor dem Schlafengehen in warmem Wasser lösen. Für andere Anwendungen bitte medizinischen Rat einholen."
+  en:
+    summary: "NSF-zertifiziertes Glycinpulver mit 1 g pro Scoop, in Studien auf Schlafqualität und Aminosäureversorgung untersucht."
+    verdictNote: "Wer sich auf Dopingkontrollen verlassen muss, bekommt hier reines Glycin mit offizieller NSF-Freigabe."
+    body:
+      description: "Feines Glycinpulver im 216-g-Beutel, jede Portion (1 Messlöffel) liefert 1 g reine Aminosäure ohne Geschmack. Ideal für Abenddrinks oder als Süßungsmittel in Proteinshakes."
+      pros:
+        - "NSF Sport Zertifizierung"
+        - "Schließt Messlöffel ein"
+        - "Löst sich vollständig in warmem Wasser"
+        - "Frei von Gluten, Soja, Milch"
+      cons:
+        - "Beutel lässt sich schwer wieder verschließen"
+        - "Keine kleinere Reisegröße"
+      usage: "1 g 30 Minuten vor dem Schlafengehen in warmem Wasser lösen. Für andere Anwendungen bitte medizinischen Rat einholen."
+---

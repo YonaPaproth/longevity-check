@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-reishi-200",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "reishi",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

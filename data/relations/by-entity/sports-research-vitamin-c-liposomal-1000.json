@@ -1,0 +1,11 @@
+{
+  "entity": "sports-research-vitamin-c-liposomal-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-c",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

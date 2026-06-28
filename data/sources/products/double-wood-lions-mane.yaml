@@ -1,0 +1,81 @@
+---
+id: double-wood-lions-mane
+type: product
+
+meta:
+  title: "Double Wood Lion's Mane 500mg"
+  ingredient: lions-mane
+  containedIngredients:
+    - slug: lion-s-mane
+  vendor: "Double Wood"
+  vendorUrl: "https://doublewoodsupplements.com"
+  affiliateUrl: ""
+  priceEur: 38
+  doseMg: 500
+  servingsPerPack: 120
+  pricePerDayEur: 0.32
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Kleine Humanstudien zeigen Verbesserungen bei Fokus und Stimmung."
+      en: "Kleine Humanstudien zeigen Verbesserungen bei Fokus und Stimmung."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,32 € pro Portion ist fair für Fruchtkörperextrakt."
+      en: "0,32 € pro Portion ist fair für Fruchtkörperextrakt."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Heißwasserextrakt mit 30% Polysacchariden, aber keine Erinacine-Angabe."
+      en: "Heißwasserextrakt mit 30% Polysacchariden, aber keine Erinacine-Angabe."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklariert klar 'fruiting body' ohne Mycelium."
+      en: "Deklariert klar 'fruiting body' ohne Mycelium."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Nur interne Beta-Glucan-Tests, keine EU-Labore."
+      en: "Nur interne Beta-Glucan-Tests, keine EU-Labore."
+
+locales:
+  de:
+    summary: "Fruchtkörperextrakt mit deklarierter Beta-Glucan-Menge für kognitive Routinen."
+    verdictNote: "Gute Basis für Nootropic-Stacks, solange man mit US-internen Tests leben kann."
+    body:
+      description: "Double Wood nutzt in den USA kultivierte Lion's Mane Fruchtkörper und extrahiert sie per Heißwasserverfahren. Jede Kapsel liefert 500 mg Pulver mit mindestens 25% Beta-Glucanen."
+      pros:
+        - "Große Dose mit 120 Portionen"
+        - "Deklariert Fruchtkörper statt Myzel"
+        - "Gluten- und sojafrei"
+      cons:
+        - "Keine Angabe zu Erinacinen"
+        - "Pulvriger Geruch beim Öffnen"
+      usage: "2 Kapseln morgens zu Kaffee oder Tee. Für fokussierte Sessions optional zweite Portion am frühen Nachmittag."
+  en:
+    summary: "Fruchtkörperextrakt mit deklarierter Beta-Glucan-Menge für kognitive Routinen."
+    verdictNote: "Gute Basis für Nootropic-Stacks, solange man mit US-internen Tests leben kann."
+    body:
+      description: "Double Wood nutzt in den USA kultivierte Lion's Mane Fruchtkörper und extrahiert sie per Heißwasserverfahren. Jede Kapsel liefert 500 mg Pulver mit mindestens 25% Beta-Glucanen."
+      pros:
+        - "Große Dose mit 120 Portionen"
+        - "Deklariert Fruchtkörper statt Myzel"
+        - "Gluten- und sojafrei"
+      cons:
+        - "Keine Angabe zu Erinacinen"
+        - "Pulvriger Geruch beim Öffnen"
+      usage: "2 Kapseln morgens zu Kaffee oder Tee. Für fokussierte Sessions optional zweite Portion am frühen Nachmittag."
+---

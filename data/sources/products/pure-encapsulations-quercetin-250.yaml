@@ -1,0 +1,81 @@
+---
+id: pure-encapsulations-quercetin-250
+type: product
+
+meta:
+  title: "Pure Encapsulations Quercetin 250"
+  ingredient: quercetin
+  containedIngredients:
+    - slug: quercetin
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com"
+  affiliateUrl: ""
+  priceEur: 39
+  doseMg: 250
+  servingsPerPack: 120
+  pricePerDayEur: 0.33
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Solide Daten für mastzellstabilisierende Effekte und antioxidative Kapazität."
+      en: "Solide Daten für mastzellstabilisierende Effekte und antioxidative Kapazität."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,33 € pro Tag für 250 mg von einer Premium-Marke ist fair."
+      en: "0,33 € pro Tag für 250 mg von einer Premium-Marke ist fair."
+  productQuality:
+    score: 8
+    explanation:
+      de: "GMP-Herstellung in USA, jede Charge wird auf Identität und Reinheit geprüft."
+      en: "GMP-Herstellung in USA, jede Charge wird auf Identität und Reinheit geprüft."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Pure Encapsulations listet sämtliche Hilfsstoffe (nur hypoallergene Cellulose)."
+      en: "Pure Encapsulations listet sämtliche Hilfsstoffe (nur hypoallergene Cellulose)."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Interne Tests plus stichprobenartige externe Verifizierung über ProVerde Labs."
+      en: "Interne Tests plus stichprobenartige externe Verifizierung über ProVerde Labs."
+
+locales:
+  de:
+    summary: "Hypoallergenes Quercetin mit 250 mg pro Kapsel, frei von Zusatzstoffen und in großen Vorratsdosen."
+    verdictNote: "Große 120er Dose, sehr sauberes Allergenprofil und zuverlässige Analysen für Therapeut:innen."
+    body:
+      description: "Die US-Marke Pure Encapsulations richtet sich an Therapeut:innen und achtet auf minimale Rezepturen. Das Quercetin enthält ausschließlich Wirkstoff und die pflanzliche Kapselhülle."
+      pros:
+        - "120 Portionen pro Dose reduzieren Nachbestellungen"
+        - "Allergenfrei (kein Gluten, keine Nüsse, keine Soja)"
+        - "Transparente Zertifikate in der Practitioner-Datenbank"
+      cons:
+        - "Keine erhöhte Bioverfügbarkeit wie bei Phytosome-Versionen"
+        - "Hartkapseln sind relativ groß"
+      usage: "1–2 Kapseln täglich, bevorzugt zu Mahlzeiten mit Fett. Bei saisonalen Beschwerden bereits 2–3 Wochen vorher starten."
+  en:
+    summary: "Hypoallergenes Quercetin mit 250 mg pro Kapsel, frei von Zusatzstoffen und in großen Vorratsdosen."
+    verdictNote: "Große 120er Dose, sehr sauberes Allergenprofil und zuverlässige Analysen für Therapeut:innen."
+    body:
+      description: "Die US-Marke Pure Encapsulations richtet sich an Therapeut:innen und achtet auf minimale Rezepturen. Das Quercetin enthält ausschließlich Wirkstoff und die pflanzliche Kapselhülle."
+      pros:
+        - "120 Portionen pro Dose reduzieren Nachbestellungen"
+        - "Allergenfrei (kein Gluten, keine Nüsse, keine Soja)"
+        - "Transparente Zertifikate in der Practitioner-Datenbank"
+      cons:
+        - "Keine erhöhte Bioverfügbarkeit wie bei Phytosome-Versionen"
+        - "Hartkapseln sind relativ groß"
+      usage: "1–2 Kapseln täglich, bevorzugt zu Mahlzeiten mit Fett. Bei saisonalen Beschwerden bereits 2–3 Wochen vorher starten."
+---

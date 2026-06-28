@@ -1,0 +1,81 @@
+---
+id: sunday-natural-rhodiola-rosea
+type: product
+
+meta:
+  title: "Sunday Natural Rhodiola Rosea 500mg"
+  ingredient: rhodiola
+  containedIngredients:
+    - slug: rhodiola
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de"
+  affiliateUrl: ""
+  priceEur: 29.9
+  doseMg: 500
+  servingsPerPack: 90
+  pricePerDayEur: 0.33
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["oekotest"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Solide Humanstudien zu Stressresilienz und Energieniveau."
+      en: "Solide Humanstudien zu Stressresilienz und Energieniveau."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,33 € pro Tag für standardisierten Extrakt ist stark."
+      en: "0,33 € pro Tag für standardisierten Extrakt ist stark."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Gefriertrocknung in Deutschland, Glasverpackung wird mit Schutzmechanismen in Verbindung gebracht Aromastoffe."
+      en: "Gefriertrocknung in Deutschland, Glasverpackung wird mit Schutzmechanismen in Verbindung gebracht Aromastoffe."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Transparente Angaben zu Herkunft, Extraktionsratio und Analysewerten."
+      en: "Transparente Angaben zu Herkunft, Extraktionsratio und Analysewerten."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Sunday veröffentlicht Pestizid-Screenings und Schwermetallanalysen."
+      en: "Sunday veröffentlicht Pestizid-Screenings und Schwermetallanalysen."
+
+locales:
+  de:
+    summary: "Skandinavischer Rhodiola-Extrakt mit 3% Rosavinen und 1% Salidrosid in Glasverpackung."
+    verdictNote: "Nachhaltige Verpackung, faire Dosierung und nachvollziehbare Laborwerte – klare Empfehlung für Stress-Stacks."
+    body:
+      description: "Der Rhodiola-Extrakt stammt aus wild geernteten Pflanzen aus Lappland. Sunday Natural verarbeitet in Berlin und setzt auf vegane Cellulosekapseln."
+      pros:
+        - "Braunglas ist auf Schutz vor ausgerichtet bei Licht"
+        - "Standardisierung 3:1 liefert konsistente Wirkung"
+        - "Bio-zertifizierte Verarbeitung"
+      cons:
+        - "Leicht bitterer Nachgeschmack"
+        - "Nur limitierte Chargen, öfter ausverkauft"
+      usage: "1 Kapsel morgens nüchtern oder vor geistig fordernden Phasen. Spätabends vermeiden, da aktivierend."
+  en:
+    summary: "Skandinavischer Rhodiola-Extrakt mit 3% Rosavinen und 1% Salidrosid in Glasverpackung."
+    verdictNote: "Nachhaltige Verpackung, faire Dosierung und nachvollziehbare Laborwerte – klare Empfehlung für Stress-Stacks."
+    body:
+      description: "Der Rhodiola-Extrakt stammt aus wild geernteten Pflanzen aus Lappland. Sunday Natural verarbeitet in Berlin und setzt auf vegane Cellulosekapseln."
+      pros:
+        - "Braunglas ist auf Schutz vor ausgerichtet bei Licht"
+        - "Standardisierung 3:1 liefert konsistente Wirkung"
+        - "Bio-zertifizierte Verarbeitung"
+      cons:
+        - "Leicht bitterer Nachgeschmack"
+        - "Nur limitierte Chargen, öfter ausverkauft"
+      usage: "1 Kapsel morgens nüchtern oder vor geistig fordernden Phasen. Spätabends vermeiden, da aktivierend."
+---

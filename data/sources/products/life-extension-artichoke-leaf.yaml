@@ -1,0 +1,83 @@
+---
+id: life-extension-artichoke-leaf
+type: product
+
+meta:
+  title: "Life Extension Artichoke Leaf Extract 500mg"
+  ingredient: luteolin
+  containedIngredients:
+    - slug: luteolin
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextension.com"
+  affiliateUrl: ""
+  priceEur: 22
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.37
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Artischockenextrakte zeigen moderate Evidenz für Lipidprofile und Verdauung, weitere Studien nötig."
+      en: "Artischockenextrakte zeigen moderate Evidenz für Lipidprofile und Verdauung, weitere Studien nötig."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,37 € pro Tag ist ok für standardisierte Kräuter aus cGMP-Produktion."
+      en: "0,37 € pro Tag ist ok für standardisierte Kräuter aus cGMP-Produktion."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Life Extension nutzt europäische Rohstoffe, testet auf Pestizide und Schwermetalle."
+      en: "Life Extension nutzt europäische Rohstoffe, testet auf Pestizide und Schwermetalle."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklariert Cynarin- und Flavonoidanteil, Hilfsstoffe transparent."
+      en: "Deklariert Cynarin- und Flavonoidanteil, Hilfsstoffe transparent."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Hersteller veröffentlicht interne und ausgewählte externe Analysen, aber kein offizielles Siegel."
+      en: "Hersteller veröffentlicht interne und ausgewählte externe Analysen, aber kein offizielles Siegel."
+
+locales:
+  de:
+    summary: "Artischockenblatt-Extrakt mit standardisierten Cynarin- und Luteolinverbindungen für Leber, Cholesterin und Gallen-Kontext."
+    verdictNote: "Seriöser Artischockenextrakt für Leber- und Lipidprotokolle."
+    body:
+      description: "Der Extrakt liefert 500 mg Artischockenblatt mit definiertem Anteil an Cynarin und Luteolin. In Studien wurden Effekte auf Gallensekretion, Leberwerte und Cholesterin untersucht — keine zugelassenen EU-Health-Claims vorhanden."
+      pros:
+        - "**Standardisierte Polyphenole:** Liefert reproduzierbare Mengen"
+        - "**cGMP-Herstellung:** Sicherer Qualitätsrahmen"
+        - "**Breiter Nutzen:** Verdauung, Lipide, antioxidativer Support"
+        - "**Vegetarische Kapseln:** Ohne Gelatine"
+      cons:
+        - "**Begrenzte RCTs:** Datenlage für harte Endpunkte klein"
+        - "**Kein Bio-Siegel:** Könnte bei Pflanzenextrakten Vertrauen erhöhen"
+      usage: "1 Kapsel zweimal täglich mit den Hauptmahlzeiten. Bei empfindlichem Magen langsam einschleichen."
+  en:
+    summary: "Artischockenblatt-Extrakt mit standardisierten Cynarin- und Luteolinverbindungen für Leber, Cholesterin und Gallen-Kontext."
+    verdictNote: "Seriöser Artischockenextrakt für Leber- und Lipidprotokolle."
+    body:
+      description: "Der Extrakt liefert 500 mg Artischockenblatt mit definiertem Anteil an Cynarin und Luteolin. In Studien wurden Effekte auf Gallensekretion, Leberwerte und Cholesterin untersucht — keine zugelassenen EU-Health-Claims vorhanden."
+      pros:
+        - "**Standardisierte Polyphenole:** Liefert reproduzierbare Mengen"
+        - "**cGMP-Herstellung:** Sicherer Qualitätsrahmen"
+        - "**Breiter Nutzen:** Verdauung, Lipide, antioxidativer Support"
+        - "**Vegetarische Kapseln:** Ohne Gelatine"
+      cons:
+        - "**Begrenzte RCTs:** Datenlage für harte Endpunkte klein"
+        - "**Kein Bio-Siegel:** Könnte bei Pflanzenextrakten Vertrauen erhöhen"
+      usage: "1 Kapsel zweimal täglich mit den Hauptmahlzeiten. Bei empfindlichem Magen langsam einschleichen."
+---

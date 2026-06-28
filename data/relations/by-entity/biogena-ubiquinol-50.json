@@ -1,0 +1,11 @@
+{
+  "entity": "biogena-ubiquinol-50",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "coq10",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

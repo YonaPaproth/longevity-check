@@ -1,0 +1,83 @@
+---
+id: now-foods-hyaluronic-acid-100
+type: product
+
+meta:
+  title: "NOW Foods Hyaluronic Acid 100mg"
+  ingredient: hyaluronsaeure
+  containedIngredients:
+    - slug: hyaluronsaeure
+    - slug: glucosamin
+    - slug: msm
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.47
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Orale Hyaluronsäure verbesserte Feuchtigkeit und Gelenkkomfort in RCTs."
+      en: "Orale Hyaluronsäure verbesserte Feuchtigkeit und Gelenkkomfort in RCTs."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,47 € für HA plus Co-Faktoren ist solide."
+      en: "0,47 € für HA plus Co-Faktoren ist solide."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Fermentativ hergestellte HA, kombiniert mit sulfatierten Zuckern."
+      en: "Fermentativ hergestellte HA, kombiniert mit sulfatierten Zuckern."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Alle Mengen der Co-Faktoren sind angegeben."
+      en: "Alle Mengen der Co-Faktoren sind angegeben."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "NOW testet intern jede Charge, kein Siegel."
+      en: "NOW testet intern jede Charge, kein Siegel."
+
+locales:
+  de:
+    summary: "Hyaluronsäure mit Glucosamin und MSM in veganen Kapseln für Gelenk- und Hauthydration."
+    verdictNote: "Kompletter Stack für Gelenke und Haut in einer Kapsel."
+    body:
+      description: "Eine Kapsel liefert 100 mg Hyaluronsäure, 300 mg N-Acetyl-D-Glucosamin und 50 mg MSM. Ideal für Gelenke und Hautbarriere."
+      pros:
+        - "Kombiniert HA mit Glucosamin und MSM"
+        - "Vegane Cellulose-Kapseln"
+        - "GMP-gefertigt"
+      cons:
+        - "Geruch durch Schwefelverbindungen"
+        - "Nur 60 Portionen pro Dose"
+      usage: "1 Kapsel zweimal täglich zu Mahlzeiten mit Vitamin C zur Kollagensynthese."
+  en:
+    summary: "Hyaluronsäure mit Glucosamin und MSM in veganen Kapseln für Gelenk- und Hauthydration."
+    verdictNote: "Kompletter Stack für Gelenke und Haut in einer Kapsel."
+    body:
+      description: "Eine Kapsel liefert 100 mg Hyaluronsäure, 300 mg N-Acetyl-D-Glucosamin und 50 mg MSM. Ideal für Gelenke und Hautbarriere."
+      pros:
+        - "Kombiniert HA mit Glucosamin und MSM"
+        - "Vegane Cellulose-Kapseln"
+        - "GMP-gefertigt"
+      cons:
+        - "Geruch durch Schwefelverbindungen"
+        - "Nur 60 Portionen pro Dose"
+      usage: "1 Kapsel zweimal täglich zu Mahlzeiten mit Vitamin C zur Kollagensynthese."
+---

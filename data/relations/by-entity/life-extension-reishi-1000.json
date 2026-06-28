@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-reishi-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "reishi",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

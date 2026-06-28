@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-acetyl-l-carnitine-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "acetyl-l-carnitin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

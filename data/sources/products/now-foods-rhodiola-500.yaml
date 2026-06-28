@@ -1,0 +1,83 @@
+---
+id: now-foods-rhodiola-500
+type: product
+
+meta:
+  title: "NOW Foods Rhodiola 500mg"
+  ingredient: rhodiola
+  containedIngredients:
+    - slug: rhodiola
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.47
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Mindestens ein Dutzend RCTs zu Müdigkeit, starke Erschöpfung und Stimmung mit standardisierten Rhodiola-Extrakten."
+      en: "Mindestens ein Dutzend RCTs zu Müdigkeit, starke Erschöpfung und Stimmung mit standardisierten Rhodiola-Extrakten."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,47 € pro 500 mg Extrakt mit Referenzstandard ist günstiger als die meisten adaptogenen Premium-Marken."
+      en: "0,47 € pro 500 mg Extrakt mit Referenzstandard ist günstiger als die meisten adaptogenen Premium-Marken."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Standardisierung auf 3% Rosavine und 1% Salidrosid, Non-GMO Zutaten, kapseln in den USA."
+      en: "Standardisierung auf 3% Rosavine und 1% Salidrosid, Non-GMO Zutaten, kapseln in den USA."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Aktive Marker klar aufgelistet, keine proprietären Mischungen oder nichtssagenden Begriffe."
+      en: "Aktive Marker klar aufgelistet, keine proprietären Mischungen oder nichtssagenden Begriffe."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "NOW veröffentlicht interne Prüfberichte, unabhängige Tests nur stichprobenartig verfügbar."
+      en: "NOW veröffentlicht interne Prüfberichte, unabhängige Tests nur stichprobenartig verfügbar."
+
+locales:
+  de:
+    summary: "500 mg Rhodiola rosea mit 3% Rosavinen und 1% Salidrosid für Stressresilienz ohne Crash."
+    verdictNote: "Preiswerter Anti-Stress-Klassiker mit sauberer Standardisierung und veganer Formulierung."
+    body:
+      description: "Jede Kapsel enthält 500 mg Rhodiola rosea Extrakt (3% Rosavine, 1% Salidroside) aus sibirischen Wurzeln. Die Kapseln sind pflanzlich und kommen ohne Stimulanzien oder Füllstoffe aus."
+      pros:
+        - "Vollständige Standardisierung der Markerstoffe"
+        - "Non-GMO Rohstoffe und vegane Kapseln"
+        - "Gute Verträglichkeit auch bei nüchterner Einnahme"
+        - "Praktische 60-Tages-Packung"
+      cons:
+        - "Kein offener Zugriff auf Chargenzertifikate"
+        - "Nur eine Dosierungsoption, keine 250-mg-Variante für Sensible"
+      usage: "1 Kapsel morgens vor dem Frühstück. Bei hoher Belastung eine zweite Kapsel vor dem frühen Nachmittag, nicht spät am Abend einnehmen."
+  en:
+    summary: "500 mg Rhodiola rosea mit 3% Rosavinen und 1% Salidrosid für Stressresilienz ohne Crash."
+    verdictNote: "Preiswerter Anti-Stress-Klassiker mit sauberer Standardisierung und veganer Formulierung."
+    body:
+      description: "Jede Kapsel enthält 500 mg Rhodiola rosea Extrakt (3% Rosavine, 1% Salidroside) aus sibirischen Wurzeln. Die Kapseln sind pflanzlich und kommen ohne Stimulanzien oder Füllstoffe aus."
+      pros:
+        - "Vollständige Standardisierung der Markerstoffe"
+        - "Non-GMO Rohstoffe und vegane Kapseln"
+        - "Gute Verträglichkeit auch bei nüchterner Einnahme"
+        - "Praktische 60-Tages-Packung"
+      cons:
+        - "Kein offener Zugriff auf Chargenzertifikate"
+        - "Nur eine Dosierungsoption, keine 250-mg-Variante für Sensible"
+      usage: "1 Kapsel morgens vor dem Frühstück. Bei hoher Belastung eine zweite Kapsel vor dem frühen Nachmittag, nicht spät am Abend einnehmen."
+---

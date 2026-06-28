@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-gamma-e-mixed-tocopherols",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-e",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

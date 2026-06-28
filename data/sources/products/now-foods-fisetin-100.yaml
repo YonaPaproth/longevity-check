@@ -1,0 +1,81 @@
+---
+id: now-foods-fisetin-100
+type: product
+
+meta:
+  title: "NOW Foods Fisetin 100mg"
+  ingredient: fisetin
+  containedIngredients:
+    - slug: fisetin
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 29.9
+  doseMg: 100
+  servingsPerPack: 90
+  pricePerDayEur: 0.33
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Fisetin hat vielversprechende Tierdaten zu Senolyse, Humanstudien laufen noch."
+      en: "Fisetin hat vielversprechende Tierdaten zu Senolyse, Humanstudien laufen noch."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,33 € pro Tag macht regelmäßige Einnahme erschwinglich."
+      en: "0,33 € pro Tag macht regelmäßige Einnahme erschwinglich."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW testet jede Charge auf Schwermetalle und Lösungsmittel, Standardextrakt aus Rhus succedanea."
+      en: "NOW testet jede Charge auf Schwermetalle und Lösungsmittel, Standardextrakt aus Rhus succedanea."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Volle Offenlegung der Hilfsstoffe, vegane Kapsel, kein proprietärer Blend."
+      en: "Volle Offenlegung der Hilfsstoffe, vegane Kapsel, kein proprietärer Blend."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "NOW betreibt eigenes Labor, aber kein externes Gütesiegel für dieses Produkt."
+      en: "NOW betreibt eigenes Labor, aber kein externes Gütesiegel für dieses Produkt."
+
+locales:
+  de:
+    summary: "Budgetfreundlicher Fisetin-Standardextrakt mit 100 mg pro Kapsel und strengen NOW-Qualitätsprüfungen."
+    verdictNote: "Solides Preis-Leistungs-Verhältnis, aber keine erhöhte Reinheit oder Bioverfügbarkeits-Tricks."
+    body:
+      description: "NOW Foods bietet einen klassischen Fisetin-Extrakt aus dem Lackbaum, standardisiert auf 100 mg pro Kapsel. Die einfache Formulierung verzichtet auf Synergisten, wodurch das Produkt günstig bleibt."
+      pros:
+        - "Sehr günstiger Preis pro Tagesportion"
+        - "Vegane Kapseln und allergenarme Rezeptur"
+        - "Gut verfügbare Lieferkette innerhalb der EU"
+      cons:
+        - "Keine Angaben zur Reinheit oder Bioverfügbarkeit"
+        - "Fisetin ist licht- und hitzeempfindlich, Dose sollte kühl gelagert werden"
+      usage: "1–2 Kapseln zu einer fetthaltigen Mahlzeit; für senolytische Protokolle häufig 3–4 Tage am Stück eingesetzt, danach Pause."
+  en:
+    summary: "Budgetfreundlicher Fisetin-Standardextrakt mit 100 mg pro Kapsel und strengen NOW-Qualitätsprüfungen."
+    verdictNote: "Solides Preis-Leistungs-Verhältnis, aber keine erhöhte Reinheit oder Bioverfügbarkeits-Tricks."
+    body:
+      description: "NOW Foods bietet einen klassischen Fisetin-Extrakt aus dem Lackbaum, standardisiert auf 100 mg pro Kapsel. Die einfache Formulierung verzichtet auf Synergisten, wodurch das Produkt günstig bleibt."
+      pros:
+        - "Sehr günstiger Preis pro Tagesportion"
+        - "Vegane Kapseln und allergenarme Rezeptur"
+        - "Gut verfügbare Lieferkette innerhalb der EU"
+      cons:
+        - "Keine Angaben zur Reinheit oder Bioverfügbarkeit"
+        - "Fisetin ist licht- und hitzeempfindlich, Dose sollte kühl gelagert werden"
+      usage: "1–2 Kapseln zu einer fetthaltigen Mahlzeit; für senolytische Protokolle häufig 3–4 Tage am Stück eingesetzt, danach Pause."
+---

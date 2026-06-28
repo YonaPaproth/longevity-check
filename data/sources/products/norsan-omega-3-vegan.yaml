@@ -1,0 +1,83 @@
+---
+id: norsan-omega-3-vegan
+type: product
+
+meta:
+  title: "NORSAN Omega-3 Vegan"
+  ingredient: omega-3
+  containedIngredients:
+    - slug: omega-3
+  vendor: "NORSAN"
+  vendorUrl: "https://norsan.de"
+  affiliateUrl: ""
+  priceEur: 34.9
+  doseMg: 2000
+  servingsPerPack: 45
+  pricePerDayEur: 0.78
+  form: liquid
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "EPA und DHA sind vergleichsweise gut untersuchte Nährstoffe für Herz, Entzündung und Schwangerschaft."
+      en: "EPA und DHA sind vergleichsweise gut untersuchte Nährstoffe für Herz, Entzündung und Schwangerschaft."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,78 € pro Tag liegt über Fischöl, aber typisch für Algenöl in Pharmaqualität."
+      en: "0,78 € pro Tag liegt über Fischöl, aber typisch für Algenöl in Pharmaqualität."
+  productQuality:
+    score: 9
+    explanation:
+      de: "NORSAN testet auf Oxidation, Schwermetalle und bietet IFOS-ähnliche Standards."
+      en: "NORSAN testet auf Oxidation, Schwermetalle und bietet IFOS-ähnliche Standards."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "EPA/DHA-Anteile klar deklariert, keine Health-Claims jenseits EFSA."
+      en: "EPA/DHA-Anteile klar deklariert, keine Health-Claims jenseits EFSA."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Regelmäßige Analysen mit veröffentlichten Totox-Werten."
+      en: "Regelmäßige Analysen mit veröffentlichten Totox-Werten."
+
+locales:
+  de:
+    summary: "Algenöl mit 2000 mg DHA+EPA aus nachhaltig kultivierten Mikroalgen, gut geeignet für Veganerinnen ohne Fischgeschmack."
+    verdictNote: "Eine der wenigen hochdosierten veganen Omega-3-Optionen mit deutschem Kontext."
+    body:
+      description: "Omega-3 Vegan kombiniert Algenöl aus Schizochytrium sp. mit kaltgepresstem Bio-Olivenöl und einem leichten Zitronenaroma. Jede Portion von 5 ml liefert rund 2000 mg DHA+EPA und verzichtet komplett auf Fischbestandteile."
+      pros:
+        - "Hohe DHA+EPA-Dosis pro Portion"
+        - "Komplett vegan mit nachhaltigen Algenfermentern"
+        - "NORSAN veröffentlicht Totox-Werte jeder Charge"
+        - "Glasflasche mit Dosierlöffel im Lieferumfang"
+      cons:
+        - "Muss gekühlt werden und ist nach Öffnung nur 2 Monate haltbar"
+        - "Geschmacklich leicht algig, nicht für alle"
+      usage: "Täglich 5 ml mit dem beigefügten Löffel einnehmen, vorzugsweise zu einer fetthaltigen Mahlzeit. Nach dem Öffnen im Kühlschrank aufbewahren und vor Gebrauch schütteln."
+  en:
+    summary: "Algenöl mit 2000 mg DHA+EPA aus nachhaltig kultivierten Mikroalgen, gut geeignet für Veganerinnen ohne Fischgeschmack."
+    verdictNote: "Eine der wenigen hochdosierten veganen Omega-3-Optionen mit deutschem Kontext."
+    body:
+      description: "Omega-3 Vegan kombiniert Algenöl aus Schizochytrium sp. mit kaltgepresstem Bio-Olivenöl und einem leichten Zitronenaroma. Jede Portion von 5 ml liefert rund 2000 mg DHA+EPA und verzichtet komplett auf Fischbestandteile."
+      pros:
+        - "Hohe DHA+EPA-Dosis pro Portion"
+        - "Komplett vegan mit nachhaltigen Algenfermentern"
+        - "NORSAN veröffentlicht Totox-Werte jeder Charge"
+        - "Glasflasche mit Dosierlöffel im Lieferumfang"
+      cons:
+        - "Muss gekühlt werden und ist nach Öffnung nur 2 Monate haltbar"
+        - "Geschmacklich leicht algig, nicht für alle"
+      usage: "Täglich 5 ml mit dem beigefügten Löffel einnehmen, vorzugsweise zu einer fetthaltigen Mahlzeit. Nach dem Öffnen im Kühlschrank aufbewahren und vor Gebrauch schütteln."
+---

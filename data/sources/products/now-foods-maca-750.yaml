@@ -1,0 +1,83 @@
+---
+id: now-foods-maca-750
+type: product
+
+meta:
+  title: "NOW Foods Maca 750 mg"
+  ingredient: maca
+  containedIngredients:
+    - slug: maca
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 24
+  doseMg: 750
+  servingsPerPack: 90
+  pricePerDayEur: 0.27
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Maca hat kleinere Studien zu Libido und Stressresilienz, aber wenig harte Endpunkte."
+      en: "Maca hat kleinere Studien zu Libido und Stressresilienz, aber wenig harte Endpunkte."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,27 € pro 750 mg Bio-Maca ist exzellent."
+      en: "0,27 € pro 750 mg Bio-Maca ist exzellent."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW nutzt Bio-zertifizierte Bauernkooperativen und testet auf Schwermetalle."
+      en: "NOW nutzt Bio-zertifizierte Bauernkooperativen und testet auf Schwermetalle."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklariert Herkunft (Peru) und Bio-Zertifikat."
+      en: "Deklariert Herkunft (Peru) und Bio-Zertifikat."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Externe Tests erfolgen stichprobenartig, Ergebnisse auf Anfrage."
+      en: "Externe Tests erfolgen stichprobenartig, Ergebnisse auf Anfrage."
+
+locales:
+  de:
+    summary: "Bio-zertifizierte Maca aus Peru, 750 mg pro Kapsel, Non-GMO und laborgeprüft."
+    verdictNote: "Wer Maca traditionell als adaptogenes Wurzelpulver einsetzen will, bekommt hier viel Menge für wenig Geld."
+    body:
+      description: "Das Pulver stammt aus biologisch angebauter Maca aus den Hochlagen Perus. NOW mahlt und kapselt in den USA und belässt das volle Spektrum an sekundären Pflanzenstoffen."
+      pros:
+        - "Bio-zertifizierte Herkunft"
+        - "Große 90-Portionen-Packung"
+        - "Non-GMO und ohne Zusatzstoffe"
+      cons:
+        - "Erdiger Geschmack beim Öffnen der Kapsel"
+        - "750 mg reichen bei Sportprotokollen oft nicht, daher mehrere Kapseln nötig"
+        - "Keine dokumentierte Gelatinierung (Rohprodukt kann Magen reizen)"
+      usage: "1 Kapsel zwei- bis dreimal täglich zu Mahlzeiten oder in Smoothies einrühren, falls Pulver bevorzugt wird."
+  en:
+    summary: "Bio-zertifizierte Maca aus Peru, 750 mg pro Kapsel, Non-GMO und laborgeprüft."
+    verdictNote: "Wer Maca traditionell als adaptogenes Wurzelpulver einsetzen will, bekommt hier viel Menge für wenig Geld."
+    body:
+      description: "Das Pulver stammt aus biologisch angebauter Maca aus den Hochlagen Perus. NOW mahlt und kapselt in den USA und belässt das volle Spektrum an sekundären Pflanzenstoffen."
+      pros:
+        - "Bio-zertifizierte Herkunft"
+        - "Große 90-Portionen-Packung"
+        - "Non-GMO und ohne Zusatzstoffe"
+      cons:
+        - "Erdiger Geschmack beim Öffnen der Kapsel"
+        - "750 mg reichen bei Sportprotokollen oft nicht, daher mehrere Kapseln nötig"
+        - "Keine dokumentierte Gelatinierung (Rohprodukt kann Magen reizen)"
+      usage: "1 Kapsel zwei- bis dreimal täglich zu Mahlzeiten oder in Smoothies einrühren, falls Pulver bevorzugt wird."
+---

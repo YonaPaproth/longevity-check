@@ -1,0 +1,83 @@
+---
+id: pure-encapsulations-p5p-50
+type: product
+
+meta:
+  title: "Pure Encapsulations P-5-P 50mg"
+  ingredient: vitamin-b6
+  containedIngredients:
+    - slug: vitamin-b6
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 50
+  servingsPerPack: 90
+  pricePerDayEur: 0.31
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "B6 unterstützt Neurotransmitter, Energiehaushalt und Homocystein, allerdings vor allem bei Mangelzuständen."
+      en: "B6 unterstützt Neurotransmitter, Energiehaushalt und Homocystein, allerdings vor allem bei Mangelzuständen."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,31 € pro Tag ist fair für streng qualitätsorientiert reines P5P."
+      en: "0,31 € pro Tag ist fair für streng qualitätsorientiert reines P5P."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Hypoallergene Kapseln ohne Magnesiumstearat, produziert unter cGMP."
+      en: "Hypoallergene Kapseln ohne Magnesiumstearat, produziert unter cGMP."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Detaillierte Offenlegung aller Hilfsstoffe, Allergenfreiheitsgarantien und Chargencodes."
+      en: "Detaillierte Offenlegung aller Hilfsstoffe, Allergenfreiheitsgarantien und Chargencodes."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Pure Encapsulations testet jede Charge über unabhängige Labors auf Schwermetalle und Potenz."
+      en: "Pure Encapsulations testet jede Charge über unabhängige Labors auf Schwermetalle und Potenz."
+
+locales:
+  de:
+    summary: "Hypoallergenes aktives B6 als Pyridoxal-5-Phosphat mit 50 mg pro Kapsel, beliebt für P5P-lastige Neuro- und Energieprotokolle."
+    verdictNote: "Sauberes P5P für alle, die aktive B6-Formen brauchen."
+    body:
+      description: "50 mg Pyridoxal-5-Phosphat pro hypoallergener Kapsel. Die Formulierung verzichtet auf Gluten, Milch, Soja und unnötige Zusatzstoffe und richtet sich an empfindliche Personen."
+      pros:
+        - "**Aktive B6-Form:** Direkte Nutzung ohne Leberumwandlung"
+        - "**Hypoallergen:** Frei von gängigen Triggern"
+        - "**Kleine Kapseln:** Auch bei höheren Dosierungen leicht einzunehmen"
+        - "**Reputabler Hersteller:** Pure Encapsulations liefert konsequent hochwertige Rohstoffe"
+      cons:
+        - "**Keine Zertifizierung für Sport:** Für Profisport wäre NSF interessant"
+        - "**Hohe Dosierung:** 50 mg ist über dem Tagesbedarf, daher nur gezielt einsetzen"
+      usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Bei hohen Dosen regelmäßig Blutwerte und Neuropathie-Symptome überwachen."
+  en:
+    summary: "Hypoallergenes aktives B6 als Pyridoxal-5-Phosphat mit 50 mg pro Kapsel, beliebt für P5P-lastige Neuro- und Energieprotokolle."
+    verdictNote: "Sauberes P5P für alle, die aktive B6-Formen brauchen."
+    body:
+      description: "50 mg Pyridoxal-5-Phosphat pro hypoallergener Kapsel. Die Formulierung verzichtet auf Gluten, Milch, Soja und unnötige Zusatzstoffe und richtet sich an empfindliche Personen."
+      pros:
+        - "**Aktive B6-Form:** Direkte Nutzung ohne Leberumwandlung"
+        - "**Hypoallergen:** Frei von gängigen Triggern"
+        - "**Kleine Kapseln:** Auch bei höheren Dosierungen leicht einzunehmen"
+        - "**Reputabler Hersteller:** Pure Encapsulations liefert konsequent hochwertige Rohstoffe"
+      cons:
+        - "**Keine Zertifizierung für Sport:** Für Profisport wäre NSF interessant"
+        - "**Hohe Dosierung:** 50 mg ist über dem Tagesbedarf, daher nur gezielt einsetzen"
+      usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Bei hohen Dosen regelmäßig Blutwerte und Neuropathie-Symptome überwachen."
+---

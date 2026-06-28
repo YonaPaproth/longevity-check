@@ -1,0 +1,84 @@
+---
+id: moleqlar-oneshot-morning
+type: product
+
+meta:
+  title: "MoleQlar OneShoT Morning"
+  ingredient: nmn
+  containedIngredients:
+    - slug: nmn
+    - slug: tmg
+    - slug: resveratrol
+    - slug: curcumin
+  vendor: "MoleQlar"
+  vendorUrl: "https://moleqlar.eu"
+  affiliateUrl: ""
+  priceEur: 79
+  doseMg: 3000
+  servingsPerPack: 30
+  pricePerDayEur: 2.63
+  form: powder
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "NMN + Resveratrol + TMG adressieren NAD+-Stoffwechsel, Curcumin liefert entzündungsmodulierende Effekte."
+      en: "NMN + Resveratrol + TMG adressieren NAD+-Stoffwechsel, Curcumin liefert entzündungsmodulierende Effekte."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "2,63 € pro Shot ist teuer, bündelt aber mehrere Einzelpräparate in einem Produkt."
+      en: "2,63 € pro Shot ist teuer, bündelt aber mehrere Einzelpräparate in einem Produkt."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Made in Germany, Rohstoffe mit eigenen COAs und Metalltests."
+      en: "Made in Germany, Rohstoffe mit eigenen COAs und Metalltests."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Klare Angabe jeder Pulvermenge, keine proprietären Mischungen."
+      en: "Klare Angabe jeder Pulvermenge, keine proprietären Mischungen."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "MoleQlar veröffentlicht unabhängige HPLC-Analysen für NMN und Resveratrol."
+      en: "MoleQlar veröffentlicht unabhängige HPLC-Analysen für NMN und Resveratrol."
+
+locales:
+  de:
+    summary: "Morgendlicher gesundes Altern-Drink mit NMN, TMG, trans-Resveratrol und Kurkuma aus deutscher Produktion."
+    verdictNote: "Komfortabler Stack für alle, die ihren Morgen-NAD-Kreislauf ritualisieren wollen."
+    body:
+      description: "Das Pulver kombiniert 500 mg NMN, 1000 mg TMG, 500 mg trans-Resveratrol und 1000 mg Curcumin-C3 in einem Direktstick. Orange-Ingwer-Aroma maskiert Bitterstoffe ohne Zuckerzusatz."
+      pros:
+        - "Deutsche Abfüllung mit kurzen Lieferketten"
+        - "Sticks passen perfekt in Reise- oder Gymbag"
+        - "Piperinfreies Curcumin vermeidet Reflux bei empfindlichen Personen"
+      cons:
+        - "Kein Elektrolytmix, obwohl der Shot morgens erscheint"
+        - "Süßungsmix basiert auf Stevia, was nicht jede:r mag"
+      usage: "1 Stick in 200 ml Wasser einrühren und auf nüchternen Magen oder vor dem ersten Kaffee trinken. Anschließend proteinreich frühstücken, um Methylspender wieder aufzufüllen."
+  en:
+    summary: "Morgendlicher gesundes Altern-Drink mit NMN, TMG, trans-Resveratrol und Kurkuma aus deutscher Produktion."
+    verdictNote: "Komfortabler Stack für alle, die ihren Morgen-NAD-Kreislauf ritualisieren wollen."
+    body:
+      description: "Das Pulver kombiniert 500 mg NMN, 1000 mg TMG, 500 mg trans-Resveratrol und 1000 mg Curcumin-C3 in einem Direktstick. Orange-Ingwer-Aroma maskiert Bitterstoffe ohne Zuckerzusatz."
+      pros:
+        - "Deutsche Abfüllung mit kurzen Lieferketten"
+        - "Sticks passen perfekt in Reise- oder Gymbag"
+        - "Piperinfreies Curcumin vermeidet Reflux bei empfindlichen Personen"
+      cons:
+        - "Kein Elektrolytmix, obwohl der Shot morgens erscheint"
+        - "Süßungsmix basiert auf Stevia, was nicht jede:r mag"
+      usage: "1 Stick in 200 ml Wasser einrühren und auf nüchternen Magen oder vor dem ersten Kaffee trinken. Anschließend proteinreich frühstücken, um Methylspender wieder aufzufüllen."
+---

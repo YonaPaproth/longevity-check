@@ -1,0 +1,81 @@
+---
+id: now-foods-selenium-200
+type: product
+
+meta:
+  title: "NOW Foods Selenium 200mcg"
+  ingredient: selen
+  containedIngredients:
+    - slug: selen
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 14
+  doseMg: 0.2
+  servingsPerPack: 180
+  pricePerDayEur: 0.08
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Selen deckt Schilddrüsen- und antioxidative Bedürfnisse ab, solange man nicht überdosiert."
+      en: "Selen deckt Schilddrüsen- und antioxidative Bedürfnisse ab, solange man nicht überdosiert."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,08 € pro Kapsel bei 180 Portionen ist kaum zu schlagen."
+      en: "0,08 € pro Kapsel bei 180 Portionen ist kaum zu schlagen."
+  productQuality:
+    score: 8
+    explanation:
+      de: "NOW kapselt unter cGMP, Rohstoff aus brasilianischer Hefe."
+      en: "NOW kapselt unter cGMP, Rohstoff aus brasilianischer Hefe."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Klare Angabe von Selenomethionin und Hilfsstoffen."
+      en: "Klare Angabe von Selenomethionin und Hilfsstoffen."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Regelmäßige interne Analysen, externe Tests nur stichprobenhaft."
+      en: "Regelmäßige interne Analysen, externe Tests nur stichprobenhaft."
+
+locales:
+  de:
+    summary: "Budgetfreundliches Selenomethionin mit 200 mcg pro Portion und Non-GMO-Zertifizierung."
+    verdictNote: "Preis-Leistungs-König für Menschen mit niedrigen Selenspiegeln."
+    body:
+      description: "Die Kapseln liefern L-Selenomethionin aus fermentierter Hefe, ergänzt um Reismehl und Siliciumdioxid für Fließfähigkeit. Frei von Milch, Ei und Soja."
+      pros:
+        - "Sehr lange Laufzeit pro Dose"
+        - "Organische Selenform mit guter Bioverfügbarkeit"
+        - "Non-GMO-Projekt geprüft"
+      cons:
+        - "Keine Kombination mit Vitamin E trotz synergistischem Effekt"
+        - "200 mcg kann für kleine Personen zu viel sein"
+      usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit, wenn die Ernährung wenig Paranüsse oder Fisch enthält. Regelmäßig Blutwerte kontrollieren."
+  en:
+    summary: "Budgetfreundliches Selenomethionin mit 200 mcg pro Portion und Non-GMO-Zertifizierung."
+    verdictNote: "Preis-Leistungs-König für Menschen mit niedrigen Selenspiegeln."
+    body:
+      description: "Die Kapseln liefern L-Selenomethionin aus fermentierter Hefe, ergänzt um Reismehl und Siliciumdioxid für Fließfähigkeit. Frei von Milch, Ei und Soja."
+      pros:
+        - "Sehr lange Laufzeit pro Dose"
+        - "Organische Selenform mit guter Bioverfügbarkeit"
+        - "Non-GMO-Projekt geprüft"
+      cons:
+        - "Keine Kombination mit Vitamin E trotz synergistischem Effekt"
+        - "200 mcg kann für kleine Personen zu viel sein"
+      usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit, wenn die Ernährung wenig Paranüsse oder Fisch enthält. Regelmäßig Blutwerte kontrollieren."
+---

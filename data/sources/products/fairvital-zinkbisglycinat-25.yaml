@@ -1,0 +1,85 @@
+---
+id: fairvital-zinkbisglycinat-25
+type: product
+
+meta:
+  title: "Fairvital Zinkbisglycinat 25 mg"
+  ingredient: zink
+  containedIngredients:
+    - slug: zink
+  vendor: "Fairvital"
+  vendorUrl: "https://fairvital.com/Zinkbisglycinat-mit-25mg-Zink-120-Kapseln-Schluckfreundlich-Fuer-Haar-Haut-Sehkraft-uvm.-abgedeckter-Bedarf-Vegan-Fairvital-54312"
+  affiliateUrl: ""
+  priceEur: 17.95
+  doseMg: 25
+  servingsPerPack: 120
+  pricePerDayEur: 0.15
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Zink ist ein sinnvoller Basisnährstoff bei niedriger Zufuhr, einseitiger Ernährung oder erhöhtem Bedarf. Für die breite Bevölkerung ist es eher situativ nützlich als ein universelles Must-have."
+      en: "Zink ist ein sinnvoller Basisnährstoff bei niedriger Zufuhr, einseitiger Ernährung oder erhöhtem Bedarf. Für die breite Bevölkerung ist es eher situativ nützlich als ein universelles Must-have."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,15 € pro Tag für 25 mg Zinkbisglycinat ist ein gutes Preis-Leistungs-Verhältnis, vor allem bei 120 Portionen pro Packung."
+      en: "0,15 € pro Tag für 25 mg Zinkbisglycinat ist ein gutes Preis-Leistungs-Verhältnis, vor allem bei 120 Portionen pro Packung."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Die Bisglycinat-Form ist ein Pluspunkt, weil sie meist magenfreundlicher und bioverfügbarer ist als einfache Oxid-Formen. Deutsche Produktion ist ebenfalls positiv."
+      en: "Die Bisglycinat-Form ist ein Pluspunkt, weil sie meist magenfreundlicher und bioverfügbarer ist als einfache Oxid-Formen. Deutsche Produktion ist ebenfalls positiv."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Die Form und Dosierung werden transparent kommuniziert. Das Produkt erscheint insgesamt eher funktional als marketingüberladen."
+      en: "Die Form und Dosierung werden transparent kommuniziert. Das Produkt erscheint insgesamt eher funktional als marketingüberladen."
+  thirdPartyTesting:
+    score: 4
+    explanation:
+      de: "Keine starke unabhängige Zertifizierung sichtbar. Qualitätsvertrauen basiert primär auf Herstellerstandards, nicht auf externem Prüf-Siegel."
+      en: "Keine starke unabhängige Zertifizierung sichtbar. Qualitätsvertrauen basiert primär auf Herstellerstandards, nicht auf externem Prüf-Siegel."
+
+locales:
+  de:
+    summary: "Preislich fairer Zink-Pick in Bisglycinat-Form. Auf Bioverfügbarkeit ausgerichtete Formulierung, einfache Formulierung, sinnvoll als pragmische Standardoption."
+    verdictNote: "Ein guter Standard-Pick für Zink aus dem Ernährungscheck — besonders wenn du gezielt eine besser bioverfügbare Form statt Zinkoxid suchst."
+    body:
+      description: "Fairvital setzt hier auf **Zinkbisglycinat**, also eine Chelat-Form, die im Supplementbereich als vernünftige Standardwahl gilt. Für ein Basisprodukt ist das deutlich attraktiver als billige Zinkoxid-Produkte."
+      pros:
+        - "**Bisglycinat statt Oxid:** meist die sinnvollere Form"
+        - "**Gute Packungsgröße:** 120 Portionen"
+        - "**Preislich fair:** solide Wahl ohne Premium-Aufpreis"
+        - "**Einfaches Profil:** keine unnötige Multi-Komplex-Spielerei"
+      cons:
+        - "**25 mg ist nicht niedrig dosiert:** für dauerhafte tägliche Einnahme ohne Anlass nicht immer ideal"
+        - "**Keine Drittanbieter-Zertifizierung**"
+        - "**Keine zusätzliche Kupfer-Strategie:** bei langfristig höherem Zinkkonsum sollte man an Kupferbalance denken"
+      usage: ""
+  en:
+    summary: "Preislich fairer Zink-Pick in Bisglycinat-Form. Auf Bioverfügbarkeit ausgerichtete Formulierung, einfache Formulierung, sinnvoll als pragmische Standardoption."
+    verdictNote: "Ein guter Standard-Pick für Zink aus dem Ernährungscheck — besonders wenn du gezielt eine besser bioverfügbare Form statt Zinkoxid suchst."
+    body:
+      description: "Fairvital setzt hier auf **Zinkbisglycinat**, also eine Chelat-Form, die im Supplementbereich als vernünftige Standardwahl gilt. Für ein Basisprodukt ist das deutlich attraktiver als billige Zinkoxid-Produkte."
+      pros:
+        - "**Bisglycinat statt Oxid:** meist die sinnvollere Form"
+        - "**Gute Packungsgröße:** 120 Portionen"
+        - "**Preislich fair:** solide Wahl ohne Premium-Aufpreis"
+        - "**Einfaches Profil:** keine unnötige Multi-Komplex-Spielerei"
+      cons:
+        - "**25 mg ist nicht niedrig dosiert:** für dauerhafte tägliche Einnahme ohne Anlass nicht immer ideal"
+        - "**Keine Drittanbieter-Zertifizierung**"
+        - "**Keine zusätzliche Kupfer-Strategie:** bei langfristig höherem Zinkkonsum sollte man an Kupferbalance denken"
+      usage: ""
+---

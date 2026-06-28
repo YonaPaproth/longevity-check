@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-collagen-peptides",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "kollagen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

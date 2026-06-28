@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-berberine-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "berberine",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

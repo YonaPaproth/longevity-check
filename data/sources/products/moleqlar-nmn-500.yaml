@@ -1,0 +1,83 @@
+---
+id: moleqlar-nmn-500
+type: product
+
+meta:
+  title: "MoleQlar NMN Uthever 500mg"
+  ingredient: nmn
+  containedIngredients:
+    - slug: nmn
+  vendor: "MoleQlar"
+  vendorUrl: "https://moleqlar.de"
+  affiliateUrl: ""
+  priceEur: 89.9
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 1.5
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["labdoor-verified"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "NMN steigert NAD+-Spiegel in kleinen Humanstudien, auch wenn harte klinische Endpunkte noch fehlen."
+      en: "NMN steigert NAD+-Spiegel in kleinen Humanstudien, auch wenn harte klinische Endpunkte noch fehlen."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "1,50 € pro Tag liegt im oberen Mittelfeld, dafür gibt es geprüfte Uthever-Rohware."
+      en: "1,50 € pro Tag liegt im oberen Mittelfeld, dafür gibt es geprüfte Uthever-Rohware."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Hergestellt in der EU, jede Charge mit HPLC-Zertifikat und Metall-Screening."
+      en: "Hergestellt in der EU, jede Charge mit HPLC-Zertifikat und Metall-Screening."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Chargennummer, Haltbarkeit und Uthever-Logo sind sauber dokumentiert ohne überzogene Versprechen."
+      en: "Chargennummer, Haltbarkeit und Uthever-Logo sind sauber dokumentiert ohne überzogene Versprechen."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "MoleQlar veröffentlicht Laboranalysen von Eurofins, was über Branchenschnitt liegt."
+      en: "MoleQlar veröffentlicht Laboranalysen von Eurofins, was über Branchenschnitt liegt."
+
+locales:
+  de:
+    summary: "Uthever-zertifiziertes NMN aus München mit stabiler Kette und klaren Analysenzertifikaten."
+    verdictNote: "Transparenter Hersteller mit stabiler Versorgungskette und nachvollziehbarer Qualitätsprüfung."
+    body:
+      description: "MoleQlar kapselt Uthever-NMN in München und liefert pro Kapsel 500 mg reines Beta-Nicotinamid Mononukleotid. Die Charge ist kühl und lichtgeist auf Schutz ausgerichtet verpackt, inklusive aktueller Analysenzertifikate."
+      pros:
+        - "Uthever-Rohstoff mit dokumentierter Reinheit"
+        - "Wiederverwendbare Braunglasflasche statt Plastik"
+        - "QR-Code zu aktuellen Laborreports"
+        - "Neutraler Geschmack, leicht zu schlucken"
+      cons:
+        - "Preis steigt spürbar bei Mehrfachdosierung"
+        - "Kein veganes Zertifikat trotz pflanzlicher Kapseln"
+      usage: "1 Kapsel morgens zu einer Mahlzeit mit Fett. Bei höherer Belastung ggf. 2× täglich. Kühl lagern, da NMN feuchtigkeitsempfindlich ist."
+  en:
+    summary: "Uthever-zertifiziertes NMN aus München mit stabiler Kette und klaren Analysenzertifikaten."
+    verdictNote: "Transparenter Hersteller mit stabiler Versorgungskette und nachvollziehbarer Qualitätsprüfung."
+    body:
+      description: "MoleQlar kapselt Uthever-NMN in München und liefert pro Kapsel 500 mg reines Beta-Nicotinamid Mononukleotid. Die Charge ist kühl und lichtgeist auf Schutz ausgerichtet verpackt, inklusive aktueller Analysenzertifikate."
+      pros:
+        - "Uthever-Rohstoff mit dokumentierter Reinheit"
+        - "Wiederverwendbare Braunglasflasche statt Plastik"
+        - "QR-Code zu aktuellen Laborreports"
+        - "Neutraler Geschmack, leicht zu schlucken"
+      cons:
+        - "Preis steigt spürbar bei Mehrfachdosierung"
+        - "Kein veganes Zertifikat trotz pflanzlicher Kapseln"
+      usage: "1 Kapsel morgens zu einer Mahlzeit mit Fett. Bei höherer Belastung ggf. 2× täglich. Kühl lagern, da NMN feuchtigkeitsempfindlich ist."
+---

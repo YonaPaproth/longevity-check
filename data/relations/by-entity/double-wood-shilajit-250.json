@@ -1,0 +1,11 @@
+{
+  "entity": "double-wood-shilajit-250",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "shilajit",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

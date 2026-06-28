@@ -1,0 +1,17 @@
+{
+  "entity": "now-foods-glucosamine-chondroitin",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "glucosamin",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "msm",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+---
+id: now-foods-magnesium-malate-1000
+type: product
+
+meta:
+  title: "NOW Foods Magnesium Malate 1000"
+  ingredient: magnesium
+  containedIngredients:
+    - slug: magnesium
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 22
+  doseMg: 125
+  servingsPerPack: 180
+  pricePerDayEur: 0.12
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Magnesium ist essenziell für Hunderte Enzyme, Malat wird besonders bei Muskelermüdung genutzt."
+      en: "Magnesium ist essenziell für Hunderte Enzyme, Malat wird besonders bei Muskelermüdung genutzt."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,12 € pro Tag für 125 mg elementares Magnesium ist sehr günstig."
+      en: "0,12 € pro Tag für 125 mg elementares Magnesium ist sehr günstig."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW Foods fertigt cGMP, nutzt aber größere Tabletten mit Füllstoffen."
+      en: "NOW Foods fertigt cGMP, nutzt aber größere Tabletten mit Füllstoffen."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Elementare Magnesiumangabe klar kommuniziert, keine Proprietary Blends."
+      en: "Elementare Magnesiumangabe klar kommuniziert, keine Proprietary Blends."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Interne cGMP-Tests plus stichprobenartige Labdoor-Analysen."
+      en: "Interne cGMP-Tests plus stichprobenartige Labdoor-Analysen."
+
+locales:
+  de:
+    summary: "Magnesium-Malat in hochdosierten Tabletten, beliebt für Energie- und Muskel-Kontexte, gut geeignet für Budgetbewusste."
+    verdictNote: "Bester Preis pro Portion für Malat-Fans, sofern man große Tabletten toleriert."
+    body:
+      description: "NOW Foods kombiniert Magnesium mit Apfelsäure, wodurch jede 3-Tabletten-Portion 1000 mg Magnesium-Malat (ca. 125 mg elementares Magnesium) liefert. Die Formulierung ist beliebt bei Personen mit Muskelspannungen oder Fibromyalgie-Hintergrund."
+      pros:
+        - "Sehr viele Portionen pro Dose"
+        - "Malat unterstützt den Energiestoffwechsel"
+        - "GMP-Produktion in den USA"
+        - "Preislich kaum zu schlagen"
+      cons:
+        - "Drei Tabletten pro Portion sind sperrig"
+        - "Enthält Stearate und über 1 g Füllstoffe"
+      usage: "Täglich 3 Tabletten über den Tag verteilt zu Mahlzeiten einnehmen. Bei empfindlichem Magen mit zusätzlichem Wasser kombinieren."
+  en:
+    summary: "Magnesium-Malat in hochdosierten Tabletten, beliebt für Energie- und Muskel-Kontexte, gut geeignet für Budgetbewusste."
+    verdictNote: "Bester Preis pro Portion für Malat-Fans, sofern man große Tabletten toleriert."
+    body:
+      description: "NOW Foods kombiniert Magnesium mit Apfelsäure, wodurch jede 3-Tabletten-Portion 1000 mg Magnesium-Malat (ca. 125 mg elementares Magnesium) liefert. Die Formulierung ist beliebt bei Personen mit Muskelspannungen oder Fibromyalgie-Hintergrund."
+      pros:
+        - "Sehr viele Portionen pro Dose"
+        - "Malat unterstützt den Energiestoffwechsel"
+        - "GMP-Produktion in den USA"
+        - "Preislich kaum zu schlagen"
+      cons:
+        - "Drei Tabletten pro Portion sind sperrig"
+        - "Enthält Stearate und über 1 g Füllstoffe"
+      usage: "Täglich 3 Tabletten über den Tag verteilt zu Mahlzeiten einnehmen. Bei empfindlichem Magen mit zusätzlichem Wasser kombinieren."
+---

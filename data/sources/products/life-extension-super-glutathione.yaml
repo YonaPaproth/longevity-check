@@ -1,0 +1,84 @@
+---
+id: life-extension-super-glutathione
+type: product
+
+meta:
+  title: "Life Extension Super Glutathione"
+  ingredient: glutathion
+  containedIngredients:
+    - slug: glutathion
+    - slug: vitamin-c
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextensioneurope.de"
+  affiliateUrl: ""
+  priceEur: 32
+  doseMg: 100
+  servingsPerPack: 100
+  pricePerDayEur: 0.32
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Orales Glutathion zeigt begrenzte, aber wachsende Evidenz für Immun- und Hautmarker; Kombination mit Cystein verbesserte Spiegel."
+      en: "Orales Glutathion zeigt begrenzte, aber wachsende Evidenz für Immun- und Hautmarker; Kombination mit Cystein verbesserte Spiegel."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,32 € pro Portion mit drei synergistischen Wirkstoffen ist attraktiv."
+      en: "0,32 € pro Portion mit drei synergistischen Wirkstoffen ist attraktiv."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Setria-Glutathion, streng qualitätsorientiertes Cystein und Ascorbinsäure unter GMP-Bedingungen."
+      en: "Setria-Glutathion, streng qualitätsorientiertes Cystein und Ascorbinsäure unter GMP-Bedingungen."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Alle Mengen klar aufgeführt, inklusive Hilfsstoffe."
+      en: "Alle Mengen klar aufgeführt, inklusive Hilfsstoffe."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Life Extension veröffentlicht COAs für Ärztepartner; unabhängige Tests verfügbar."
+      en: "Life Extension veröffentlicht COAs für Ärztepartner; unabhängige Tests verfügbar."
+
+locales:
+  de:
+    summary: "Setria-Glutathion plus Cystein und Vitamin C in einer Kapsel für täglichen Redox-Kontext."
+    verdictNote: "Praktische All-in-One-Kapsel für Anwender, die Glutathion mit Cofaktoren in standardisierter Qualität suchen."
+    body:
+      description: "Jede Kapsel enthält 100 mg reduziertes Glutathion (Setria), 500 mg L-Cystein und 500 mg Vitamin C. Die Kombination zielt auf ein stabiles Redox-Gleichgewicht und unterstützt die körpereigene Glutathionsynthese."
+      pros:
+        - "Setria Markenrohstoff mit belegter Bioverfügbarkeit"
+        - "Kombiniert Vorstufe (Cystein) und Cofaktor (Vitamin C)"
+        - "100 Portionen reichen mehr als drei Monate"
+        - "Frei von Magnesiumstearat"
+      cons:
+        - "Keine liposomale Darreichung"
+        - "Kapseln enthalten Gelatine"
+      usage: "1 Kapsel morgens zu einer Mahlzeit. Bei erhöhter Belastung zweite Kapsel am Nachmittag ergänzen und ausreichend Wasser trinken."
+  en:
+    summary: "Setria-Glutathion plus Cystein und Vitamin C in einer Kapsel für täglichen Redox-Kontext."
+    verdictNote: "Praktische All-in-One-Kapsel für Anwender, die Glutathion mit Cofaktoren in standardisierter Qualität suchen."
+    body:
+      description: "Jede Kapsel enthält 100 mg reduziertes Glutathion (Setria), 500 mg L-Cystein und 500 mg Vitamin C. Die Kombination zielt auf ein stabiles Redox-Gleichgewicht und unterstützt die körpereigene Glutathionsynthese."
+      pros:
+        - "Setria Markenrohstoff mit belegter Bioverfügbarkeit"
+        - "Kombiniert Vorstufe (Cystein) und Cofaktor (Vitamin C)"
+        - "100 Portionen reichen mehr als drei Monate"
+        - "Frei von Magnesiumstearat"
+      cons:
+        - "Keine liposomale Darreichung"
+        - "Kapseln enthalten Gelatine"
+      usage: "1 Kapsel morgens zu einer Mahlzeit. Bei erhöhter Belastung zweite Kapsel am Nachmittag ergänzen und ausreichend Wasser trinken."
+---

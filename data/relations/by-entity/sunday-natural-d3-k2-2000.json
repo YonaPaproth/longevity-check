@@ -1,0 +1,11 @@
+{
+  "entity": "sunday-natural-d3-k2-2000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-d3-k2",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

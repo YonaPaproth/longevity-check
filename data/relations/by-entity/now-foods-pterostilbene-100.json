@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-pterostilbene-100",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "pterostilben",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

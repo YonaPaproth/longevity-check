@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-same-200",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "same",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

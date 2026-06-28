@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-glutathione-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "glutathion",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

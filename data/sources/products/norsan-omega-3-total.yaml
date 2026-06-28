@@ -1,0 +1,85 @@
+---
+id: norsan-omega-3-total
+type: product
+
+meta:
+  title: "NORSAN Omega-3 Total"
+  ingredient: omega-3
+  containedIngredients:
+    - slug: omega-3
+  vendor: "NORSAN"
+  vendorUrl: "https://norsan.de"
+  affiliateUrl: ""
+  priceEur: 29.95
+  doseMg: 2000
+  servingsPerPack: 40
+  pricePerDayEur: 0.75
+  form: liquid
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Omega-3 (EPA+DHA) hat unter allen gesundes Altern-Supplements die vergleichsweise stärkste Evidenzbasis — zahlreiche RCTs zu Herzgesundheit und Entzündung."
+      en: "Omega-3 (EPA+DHA) hat unter allen gesundes Altern-Supplements die vergleichsweise stärkste Evidenzbasis — zahlreiche RCTs zu Herzgesundheit und Entzündung."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,75 € pro Tag für 2000 mg EPA+DHA ist sehr wettbewerbsfähig. Flüssige Form liefert höhere Dosis pro Euro als Kapselprodukte."
+      en: "0,75 € pro Tag für 2000 mg EPA+DHA ist sehr wettbewerbsfähig. Flüssige Form liefert höhere Dosis pro Euro als Kapselprodukte."
+  productQuality:
+    score: 9
+    explanation:
+      de: "IFOS-zertifiziert (International Fish Oil Standards). Hohe Reinheit, keine messbaren Schwermetalle, frische Qualität durch Orangengeschmack."
+      en: "IFOS-zertifiziert (International Fish Oil Standards). Hohe Reinheit, keine messbaren Schwermetalle, frische Qualität durch Orangengeschmack."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Deklaration klar und präzise. Omega-3-Gehalt (EPA/DHA aufgeschlüsselt) stimmt mit unabhängigen Tests überein. Keine überzogene Versprechen."
+      en: "Deklaration klar und präzise. Omega-3-Gehalt (EPA/DHA aufgeschlüsselt) stimmt mit unabhängigen Tests überein. Keine überzogene Versprechen."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "IFOS 5-Sterne-Zertifizierung. Jede Charge wird unabhängig auf Reinheit, Oxidation und Schwermetalle geprüft."
+      en: "IFOS 5-Sterne-Zertifizierung. Jede Charge wird unabhängig auf Reinheit, Oxidation und Schwermetalle geprüft."
+
+locales:
+  de:
+    summary: "Deutsches Familienunternehmen, Marktführer bei flüssigem Omega-3 im DACH-Raum. Hohe EPA+DHA-Dosis, IFOS-zertifiziert, guter Geschmack."
+    verdictNote: "Beste Wahl für Omega-3 im DACH-Markt. IFOS-zertifiziert, günstiger Preis pro Gramm EPA+DHA, zuverlässige deutsche Herkunft."
+    body:
+      description: "NORSAN ist ein deutsches Unternehmen aus Berlin, das sich auf hochwertige Omega-3-Öle spezialisiert hat. Das Omega-3 Total ist ein flüssiges Fischöl mit natürlichem Orangengeschmack und enthält pro Teelöffel (5 ml) ca. 1600–2000 mg EPA+DHA."
+      pros:
+        - "**IFOS-Zertifizierung:** International Fish Oil Standards — der strengste unabhängige Standard für Fischölqualität"
+        - "**Hohe Dosierung:** Mehr EPA+DHA pro Euro als die meisten Kapselprodukte"
+        - "**Geschmack:** Der Orangengeschmack macht die tägliche Einnahme deutlich angenehmer als viele Alternativen"
+        - "**Hergestellt in Deutschland:** Kürzere Lieferkette, leichtere Rückverfolgbarkeit"
+        - "**TÜV-geprüft:** Zusätzliche Prüfung auf Schadstoffe"
+      cons:
+        - "**Flüssige Form:** Kühlpflichtig nach Öffnung, weniger praktisch für Reisen"
+        - "**Keine Kapselform mit gleicher Dosis:** Wer Kapseln bevorzugt, muss auf Alternativen ausweichen"
+      usage: "1 Teelöffel täglich zu einer Mahlzeit mit Fett. Nicht erhitzen. Im Kühlschrank geöffnet max. 3 Monate haltbar."
+  en:
+    summary: "Deutsches Familienunternehmen, Marktführer bei flüssigem Omega-3 im DACH-Raum. Hohe EPA+DHA-Dosis, IFOS-zertifiziert, guter Geschmack."
+    verdictNote: "Beste Wahl für Omega-3 im DACH-Markt. IFOS-zertifiziert, günstiger Preis pro Gramm EPA+DHA, zuverlässige deutsche Herkunft."
+    body:
+      description: "NORSAN ist ein deutsches Unternehmen aus Berlin, das sich auf hochwertige Omega-3-Öle spezialisiert hat. Das Omega-3 Total ist ein flüssiges Fischöl mit natürlichem Orangengeschmack und enthält pro Teelöffel (5 ml) ca. 1600–2000 mg EPA+DHA."
+      pros:
+        - "**IFOS-Zertifizierung:** International Fish Oil Standards — der strengste unabhängige Standard für Fischölqualität"
+        - "**Hohe Dosierung:** Mehr EPA+DHA pro Euro als die meisten Kapselprodukte"
+        - "**Geschmack:** Der Orangengeschmack macht die tägliche Einnahme deutlich angenehmer als viele Alternativen"
+        - "**Hergestellt in Deutschland:** Kürzere Lieferkette, leichtere Rückverfolgbarkeit"
+        - "**TÜV-geprüft:** Zusätzliche Prüfung auf Schadstoffe"
+      cons:
+        - "**Flüssige Form:** Kühlpflichtig nach Öffnung, weniger praktisch für Reisen"
+        - "**Keine Kapselform mit gleicher Dosis:** Wer Kapseln bevorzugt, muss auf Alternativen ausweichen"
+      usage: "1 Teelöffel täglich zu einer Mahlzeit mit Fett. Nicht erhitzen. Im Kühlschrank geöffnet max. 3 Monate haltbar."
+---

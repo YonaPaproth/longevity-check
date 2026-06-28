@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-l-carnitine-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "l-carnitin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

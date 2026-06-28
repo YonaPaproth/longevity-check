@@ -1,0 +1,81 @@
+---
+id: life-extension-blueberry-extrakt
+type: product
+
+meta:
+  title: "Life Extension Standardized European Blueberry 100mg"
+  ingredient: egcg
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextension.com"
+  affiliateUrl: ""
+  priceEur: 24
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.4
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Anthocyane unterstützen Gefäß- und Augenfunktion, gestützt durch kleine klinische Studien."
+      en: "Anthocyane unterstützen Gefäß- und Augenfunktion, gestützt durch kleine klinische Studien."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,40 € pro Tag ist ok für standardisierte Extrakte, aber kein Schnäppchen."
+      en: "0,40 € pro Tag ist ok für standardisierte Extrakte, aber kein Schnäppchen."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Life Extension nutzt europäische Heidelbeeren und testet auf Pestizide."
+      en: "Life Extension nutzt europäische Heidelbeeren und testet auf Pestizide."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klares Etikett mit Angabe der Anthocyane und Hilfsstoffe."
+      en: "Klares Etikett mit Angabe der Anthocyane und Hilfsstoffe."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Interne und externe Tests laut Hersteller, jedoch ohne offizielles Siegel."
+      en: "Interne und externe Tests laut Hersteller, jedoch ohne offizielles Siegel."
+
+locales:
+  de:
+    summary: "Standardisierter Heidelbeerextrakt mit hoher Anthocyan-Konzentration, fokussiert auf Augen- und Gefäßgesundheit."
+    verdictNote: "Guter Anthocyan-Extrakt für gesundes Altern-Fans mit Fokus auf Gefäße und Augen."
+    body:
+      description: "Der Extrakt enthält europäische Heidelbeeren mit standardisiertem Anteil an Anthocyanen und weiteren Polyphenolen. Zielgruppen sind Menschen, die Retina, Kapillarstruktur und antioxidativen Status unterstützen möchten."
+      pros:
+        - "**Standardisierung:** Konstante 25% Anthocyane pro Kapsel"
+        - "**Kombination:** Liefert neben Anthocyanen weitere Polyphenole"
+        - "**Seriöser Hersteller:** Life Extension veröffentlicht Forschungsreferenzen"
+        - "**Vegane Kapseln:** Frei von Gelatine"
+      cons:
+        - "**Preis:** Höher als einfache Beerencaps"
+        - "**Keine unabhängige Zertifizierung:** Ein Siegel wie USP wäre schön"
+      usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Für intensiven Blickstress oder Flugreisen kann vorübergehend auf 2 Kapseln nach individueller Abwägung angepasst werden."
+  en:
+    summary: "Standardisierter Heidelbeerextrakt mit hoher Anthocyan-Konzentration, fokussiert auf Augen- und Gefäßgesundheit."
+    verdictNote: "Guter Anthocyan-Extrakt für gesundes Altern-Fans mit Fokus auf Gefäße und Augen."
+    body:
+      description: "Der Extrakt enthält europäische Heidelbeeren mit standardisiertem Anteil an Anthocyanen und weiteren Polyphenolen. Zielgruppen sind Menschen, die Retina, Kapillarstruktur und antioxidativen Status unterstützen möchten."
+      pros:
+        - "**Standardisierung:** Konstante 25% Anthocyane pro Kapsel"
+        - "**Kombination:** Liefert neben Anthocyanen weitere Polyphenole"
+        - "**Seriöser Hersteller:** Life Extension veröffentlicht Forschungsreferenzen"
+        - "**Vegane Kapseln:** Frei von Gelatine"
+      cons:
+        - "**Preis:** Höher als einfache Beerencaps"
+        - "**Keine unabhängige Zertifizierung:** Ein Siegel wie USP wäre schön"
+      usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Für intensiven Blickstress oder Flugreisen kann vorübergehend auf 2 Kapseln nach individueller Abwägung angepasst werden."
+---

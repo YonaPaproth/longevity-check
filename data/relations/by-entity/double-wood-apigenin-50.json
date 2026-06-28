@@ -1,0 +1,11 @@
+{
+  "entity": "double-wood-apigenin-50",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "apigenin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

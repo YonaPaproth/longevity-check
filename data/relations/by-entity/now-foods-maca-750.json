@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-maca-750",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "maca",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

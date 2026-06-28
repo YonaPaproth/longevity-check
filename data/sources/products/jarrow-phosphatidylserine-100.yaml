@@ -1,0 +1,81 @@
+---
+id: jarrow-phosphatidylserine-100
+type: product
+
+meta:
+  title: "Jarrow Formulas Phosphatidylserine 100 mg"
+  ingredient: phosphatidylserin
+  containedIngredients:
+    - slug: phosphatidylserin
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://jarrow.com/products/phosphatidylserine"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.47
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Phosphatidylserin kann Gedächtnisleistung, Stressantwort und Aufmerksamkeit unterstützen."
+      en: "Phosphatidylserin kann Gedächtnisleistung, Stressantwort und Aufmerksamkeit unterstützen."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,47 € pro 100 mg ist günstiger als die meisten Sharp-PS-Alternativen."
+      en: "0,47 € pro 100 mg ist günstiger als die meisten Sharp-PS-Alternativen."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Jarrow nutzt Sharp-PS aus Sonnenblumen und testet auf Lösungsmittelreste."
+      en: "Jarrow nutzt Sharp-PS aus Sonnenblumen und testet auf Lösungsmittelreste."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Angaben zu Phospholipiden und Kapselhülle sind vollständig."
+      en: "Angaben zu Phospholipiden und Kapselhülle sind vollständig."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Labdoor und ConsumerLab haben PS-Produkte von Jarrow positiv bewertet."
+      en: "Labdoor und ConsumerLab haben PS-Produkte von Jarrow positiv bewertet."
+
+locales:
+  de:
+    summary: "Sharp-PS-basierte 100-mg-Kapseln, vegan und gut geeignet für günstige Phosphatidylserin-Stacks."
+    verdictNote: "Günstige Sharp-PS-Kapseln für tägliche Kognitionstacks."
+    body:
+      description: "Die veganen Kapseln liefern 100 mg Phosphatidylserin aus Sonnenblumenlecithin, gelöst in mittelkettigen Triglyceriden für stabilere Aufnahme. Jede Dose enthält 60 Portionen."
+      pros:
+        - "Vegane Formel"
+        - "Sharp-PS-Lizenz garantiert gleichbleibende Qualität"
+        - "Gute Preisstruktur für Langzeitnutzer"
+      cons:
+        - "Kein zusätzliches DHA oder B-Vitamine"
+        - "Nur 60 Portionen – reicht knapp zwei Monate"
+      usage: "1–2 Kapseln täglich zu kohlenhydrathaltigen Mahlzeiten. Vor anspruchsvollen geistigen Aufgaben 60 Minuten vorher einnehmen."
+  en:
+    summary: "Sharp-PS-basierte 100-mg-Kapseln, vegan und gut geeignet für günstige Phosphatidylserin-Stacks."
+    verdictNote: "Günstige Sharp-PS-Kapseln für tägliche Kognitionstacks."
+    body:
+      description: "Die veganen Kapseln liefern 100 mg Phosphatidylserin aus Sonnenblumenlecithin, gelöst in mittelkettigen Triglyceriden für stabilere Aufnahme. Jede Dose enthält 60 Portionen."
+      pros:
+        - "Vegane Formel"
+        - "Sharp-PS-Lizenz garantiert gleichbleibende Qualität"
+        - "Gute Preisstruktur für Langzeitnutzer"
+      cons:
+        - "Kein zusätzliches DHA oder B-Vitamine"
+        - "Nur 60 Portionen – reicht knapp zwei Monate"
+      usage: "1–2 Kapseln täglich zu kohlenhydrathaltigen Mahlzeiten. Vor anspruchsvollen geistigen Aufgaben 60 Minuten vorher einnehmen."
+---

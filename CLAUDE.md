@@ -19,16 +19,20 @@ Betreiber: Yona Paproth & Dr. Sarah Rahmati (Krefeld)
 
 ## YAML Single Source of Truth
 
-**Kernarchitektur für Wirkstoff-Dossiers:**
+**Kernarchitektur — gilt für Wirkstoffe UND Produkte:**
 
 ```
 data/sources/ingredients/<slug>.yaml    ← Nur hier editieren!
+data/sources/products/<slug>.yaml       ← Nur hier editieren!
         │
-        ├── src/content/ingredients/<slug>.mdx          (DE, generiert)
-        ├── src/content/en/ingredients/<slug>.mdx       (EN, generiert)
-        ├── data/entities/ingredients/<slug>.json       (KG Entity, generiert)
-        └── data/relations/by-entity/<slug>.json        (KG Relations, generiert)
+        ├── src/content/{ingredients,products}/<slug>.mdx      (DE, generiert)
+        ├── src/content/en/{ingredients,products}/<slug>.mdx   (EN, generiert)
+        ├── data/entities/{ingredients,products}/<slug>.json   (KG Entity, generiert)
+        └── data/relations/by-entity/<slug>.json               (KG Relations, generiert)
 ```
+
+**Produkt-YAML:** Strukturierter Body (description, pros[], cons[], usage statt Markdown).
+Ratings mit bilingualen Explanations. Relationen auto-generiert aus `containedIngredients`.
 
 **Study Registry:** Studien-Metadaten zentral in `data/sources/studies/pmid-XXXXX.yaml`.
 Ingredient-YAMLs referenzieren per `ref: pmid-XXXXX` + ingredient-spezifischem `finding:`.
@@ -41,12 +45,20 @@ KG-Entity-ID für Studien: `studie-XXXXX` (nicht `pmid-`!).
 3. Im Ingredient-YAML: `- ref: pmid-XXXXX` + `finding: {de, en}`
 4. Relation: `basiert_auf_studie` mit `target: studie-XXXXX`
 
-**Workflow:**
+**Workflow Wirkstoffe:**
 1. Editiere `data/sources/ingredients/<slug>.yaml` (Studien ggf. in `data/sources/studies/`)
-2. Generiere: `npx tsx data/scripts/generate-from-source.ts <slug>` (einzeln), `--changed` (nur geänderte), oder ohne Arg (alle)
-3. Index: `npx tsx data/scripts/build-index.ts`
-4. Build: `pnpm build`
-5. Committe YAML + alle generierten Dateien zusammen
+2. Generiere: `npx tsx data/scripts/generate-from-source.ts <slug>` | `--changed` | ohne Arg (alle)
+3. Index + Build + Commit (s.u.)
+
+**Workflow Produkte:**
+1. Editiere `data/sources/products/<slug>.yaml`
+2. Generiere: `npx tsx data/scripts/generate-products.ts <slug>` | `--changed` | ohne Arg (alle)
+3. Index + Build + Commit (s.u.)
+
+**Nach jeder Generierung:**
+1. Index: `npx tsx data/scripts/build-index.ts`
+2. Build: `pnpm build`
+3. Committe YAML + alle generierten Dateien zusammen
 
 **Generierte MDX-Dateien nie manuell editieren!**
 
@@ -55,7 +67,7 @@ Schema-Doku: `data/sources/schema.md` | Formales Schema: `data/schema/ingredient
 ## Knowledge Graph
 
 File-basierter KG unter `data/`:
-- **Entities:** `data/entities/{ingredients,mechanisms,symptoms,biomarkers,regulatory,studies}/*.json`
+- **Entities:** `data/entities/{ingredients,products,mechanisms,symptoms,biomarkers,regulatory,studies}/*.json`
 - **Relations:** `data/relations/by-entity/<id>.json` (pro Entity) + `data/relations/by-type/<type>.json` (Aggregate)
 - **Index:** `data/index.json` (kompakter Lookup, wird via `data/scripts/build-index.ts` generiert)
 - **Library:** `src/lib/graph/` (TypeScript: types, entities, relations, paths, labels, builders)
@@ -76,7 +88,8 @@ File-basierter KG unter `data/`:
 |-------|-------|
 | Zod-Schemas aller Collections | `src/content.config.ts` |
 | Scoring-Logik | `src/utils/scoring.ts` |
-| YAML→MDX Generator | `data/scripts/generate-from-source.ts` |
+| Ingredient Generator | `data/scripts/generate-from-source.ts` |
+| Product Generator | `data/scripts/generate-products.ts` |
 | Study Extraction | `data/scripts/extract-studies.ts` |
 | KG Index Builder | `data/scripts/build-index.ts` |
 | Produkt-Template-Script | `scripts/add-product.cjs` |

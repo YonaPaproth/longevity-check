@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-probiotic-g-i",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "probiotika",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-lutein-zeaxanthin",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "lutein-zeaxanthin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

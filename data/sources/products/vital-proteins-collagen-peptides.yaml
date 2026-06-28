@@ -1,0 +1,82 @@
+---
+id: vital-proteins-collagen-peptides
+type: product
+
+meta:
+  title: "Vital Proteins Collagen Peptides 20g"
+  ingredient: kollagen
+  containedIngredients:
+    - slug: kollagen
+    - slug: hyaluronsaeure
+  vendor: "Vital Proteins"
+  vendorUrl: "https://www.vitalproteins.com"
+  affiliateUrl: ""
+  priceEur: 44
+  doseMg: 20000
+  servingsPerPack: 28
+  pricePerDayEur: 1.57
+  form: powder
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Hydrolysiertes Kollagen hat solide Daten für Hautelastizität und Gelenkkomfort."
+      en: "Hydrolysiertes Kollagen hat solide Daten für Hautelastizität und Gelenkkomfort."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "1,57 € für 20 g Kollagen ist marktüblich, aber nicht billig."
+      en: "1,57 € für 20 g Kollagen ist marktüblich, aber nicht billig."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Vital Proteins nutzt grass-fed Rohware und testet auf Schwermetalle."
+      en: "Vital Proteins nutzt grass-fed Rohware und testet auf Schwermetalle."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Nur Kollagen und etwas Hyaluronsäure, keine versteckten Aromen."
+      en: "Nur Kollagen und etwas Hyaluronsäure, keine versteckten Aromen."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Unternehmens-COAs plus NSF Gluten-Free Zertifikat verfügbar."
+      en: "Unternehmens-COAs plus NSF Gluten-Free Zertifikat verfügbar."
+
+locales:
+  de:
+    summary: "Grass-fed Kollagenpeptide Typ I+III mit neutralem Geschmack und hervorragender Löslichkeit."
+    verdictNote: "Go-to-Pulver für Smoothies oder Kaffee, wenn Geschmack neutral bleiben soll."
+    body:
+      description: "Die Peptide stammen aus Weiderinder-Häuten, werden enzymatisch hydrolysiert und lösen sich sowohl in kaltem als auch heißem Wasser ohne Klumpen."
+      pros:
+        - "Neutraler Geschmack – funktioniert in Kaffee, Shakes, Suppen"
+        - "Enthält 80 mg Hyaluronsäure pro Portion"
+        - "Dose passt exakt in Standard-Küchenschubladen"
+      cons:
+        - "Keine Vitamin-C-Beigabe für Kollagensynthese"
+        - "Plastikdose statt Papiernachfüllung"
+      usage: "2 Messlöffel (20 g) täglich in Kaffee, Smoothie oder Porridge einrühren. Für bessere Kollagensynthese mit Vitamin C oder Obst kombinieren."
+  en:
+    summary: "Grass-fed Kollagenpeptide Typ I+III mit neutralem Geschmack und hervorragender Löslichkeit."
+    verdictNote: "Go-to-Pulver für Smoothies oder Kaffee, wenn Geschmack neutral bleiben soll."
+    body:
+      description: "Die Peptide stammen aus Weiderinder-Häuten, werden enzymatisch hydrolysiert und lösen sich sowohl in kaltem als auch heißem Wasser ohne Klumpen."
+      pros:
+        - "Neutraler Geschmack – funktioniert in Kaffee, Shakes, Suppen"
+        - "Enthält 80 mg Hyaluronsäure pro Portion"
+        - "Dose passt exakt in Standard-Küchenschubladen"
+      cons:
+        - "Keine Vitamin-C-Beigabe für Kollagensynthese"
+        - "Plastikdose statt Papiernachfüllung"
+      usage: "2 Messlöffel (20 g) täglich in Kaffee, Smoothie oder Porridge einrühren. Für bessere Kollagensynthese mit Vitamin C oder Obst kombinieren."
+---

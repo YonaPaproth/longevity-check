@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-phosphatidylserine",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "phosphatidylserin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

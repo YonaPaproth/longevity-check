@@ -1,0 +1,85 @@
+---
+id: biogena-vitamin-d3-k2-2000
+type: product
+
+meta:
+  title: "BIOGENA Vitamin D3 K2 2000 I.E."
+  ingredient: vitamin-d3-k2
+  containedIngredients:
+    - slug: vitamin-d3-k2
+  vendor: "BIOGENA"
+  vendorUrl: "https://www.biogena.com"
+  affiliateUrl: ""
+  priceEur: 29.9
+  doseMg: 50
+  servingsPerPack: 120
+  pricePerDayEur: 0.25
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-14"
+  lastPriceCheck: "2026-06-14"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "D3+K2 Kombination hat starke Evidenz für Knochenstoffwechsel, Immunfunktion und Calcium-Verwertung."
+      en: "D3+K2 combination has strong evidence for bone metabolism, immune function, and calcium utilization."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,25 € pro Tag ist fair für Premium-Qualität, aber günstigere Alternativen existieren."
+      en: "€0.25 per day is fair for premium quality, but cheaper alternatives exist."
+  productQuality:
+    score: 9
+    explanation:
+      de: "K2 als all-trans MK-7 (stabilste Form), D3 aus Flechten (vegan), saubere Formulierung."
+      en: "K2 as all-trans MK-7 (most stable form), D3 from lichen (vegan), clean formulation."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Exakte Angabe der D3- und K2-Mengen, trans-Anteil des MK-7 deklariert."
+      en: "Exact statement of D3 and K2 amounts, trans portion of MK-7 declared."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Chargenprüfung nach österreichischem Pharmastandard, Stabilitätstests dokumentiert."
+      en: "Batch testing according to Austrian pharmaceutical standards, stability tests documented."
+
+locales:
+  de:
+    summary: "Vitamin D3 (2000 I.E.) plus K2 als MK-7 all-trans in optimaler Kombination, vegan verfügbar."
+    verdictNote: "Saubere D3+K2-Kombi mit all-trans MK-7 in Pharmaqualität. Solide Wahl für Ganzjahres-Supplementierung."
+    body:
+      description: "Die Kombination von Vitamin D3 mit K2 (MK-7) ist sinnvoll, da K2 das durch D3 mobilisierte Calcium in die Knochen lenkt statt in die Gefäße. BIOGENA verwendet die stabilste all-trans-Form des MK-7."
+      pros:
+        - "All-trans MK-7 — die bioaktivste und stabilste K2-Form"
+        - "Veganes D3 aus Flechten möglich"
+        - "120 Kapseln = 4 Monate Reichweite"
+        - "Minimale Hilfsstoffe"
+      cons:
+        - "2000 I.E. ist für manche zu niedrig (besonders im Winter)"
+        - "Kein Öl-basiertes Format (fettlösliche Vitamine profitieren davon)"
+        - "Preislich über Discounter-Alternativen"
+      usage: "1 Kapsel täglich zu einer fetthaltigen Mahlzeit. Im Winter ggf. 2 Kapseln nach Rücksprache mit dem Arzt."
+  en:
+    summary: "Vitamin D3 (2000 I.U.) plus K2 as all-trans MK-7 in optimal combination, vegan available."
+    verdictNote: "Clean D3+K2 combination with all-trans MK-7 in pharmaceutical quality. Solid choice for year-round supplementation."
+    body:
+      description: "The combination of vitamin D3 with K2 (MK-7) makes sense because K2 directs calcium mobilized by D3 into bones instead of blood vessels. BIOGENA uses the most stable all-trans form of MK-7."
+      pros:
+        - "All-trans MK-7 — the most bioactive and stable K2 form"
+        - "Vegan D3 from lichen possible"
+        - "120 capsules = 4 months supply"
+        - "Minimal excipients"
+      cons:
+        - "2000 I.U. is too low for some (especially in winter)"
+        - "No oil-based format (fat-soluble vitamins benefit from this)"
+        - "Priced above discount alternatives"
+      usage: "1 capsule daily with a fat-containing meal. In winter, possibly 2 capsules after consultation with your doctor."
+---

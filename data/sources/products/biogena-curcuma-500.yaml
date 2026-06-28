@@ -1,0 +1,86 @@
+---
+id: biogena-curcuma-500
+type: product
+
+meta:
+  title: "BIOGENA Curcuma 500 Plus"
+  ingredient: curcumin
+  containedIngredients:
+    - slug: curcumin
+    - slug: piperin
+  vendor: "BIOGENA"
+  vendorUrl: "https://www.biogena.com"
+  affiliateUrl: ""
+  priceEur: 29.9
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.5
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-14"
+  lastPriceCheck: "2026-06-14"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Curcumin hat wachsende Evidenz für Entzündungsmarker und Gelenkgesundheit aus zahlreichen Meta-Analysen."
+      en: "Curcumin has growing evidence for inflammation markers and joint health from numerous meta-analyses."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,50 € pro Tag ist Premium — vergleichbare Curcumin-Piperin-Kombis ab 0,15 € erhältlich."
+      en: "€0.50 per day is premium pricing — comparable curcumin-piperine combinations available from €0.15."
+  productQuality:
+    score: 8
+    explanation:
+      de: "95 % Curcuminoid-Standardisierung, Piperin für 2000 % bessere Absorption."
+      en: "95% curcuminoid standardization, piperine for 2000% better absorption."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Curcuminoid-Gehalt und Piperin-Menge klar deklariert."
+      en: "Curcuminoid content and piperine amount clearly declared."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Chargenprüfung nach österreichischem Pharmastandard, Schwermetall-Analytik."
+      en: "Batch testing according to Austrian pharmaceutical standards, heavy metal analysis."
+
+locales:
+  de:
+    summary: "Curcuma-Extrakt mit Piperin als Absorptionsverstärker, standardisiert auf 95 % Curcuminoide."
+    verdictNote: "Solides Curcumin mit Piperin in Pharmaqualität. Für Anwender, die Wert auf Reinheit und Standardisierung legen."
+    body:
+      description: "BIOGENA Curcuma 500 Plus kombiniert einen auf 95 % Curcuminoide standardisierten Kurkuma-Extrakt mit Piperin (aus schwarzem Pfeffer), das die Bioverfügbarkeit von Curcumin um das bis zu 20-fache steigern kann."
+      pros:
+        - "95 % Curcuminoid-Standardisierung"
+        - "Piperin als bewährter Absorptionsverstärker"
+        - "Saubere Kapseln ohne unnötige Zusätze"
+        - "Österreichische Pharmaqualität"
+      cons:
+        - "Piperin kann bei empfindlichem Magen Probleme machen"
+        - "Keine moderne Bioverfügbarkeits-Technologie (Micellen, Phytosomen)"
+        - "Preislich über dem Marktdurchschnitt"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Nicht nüchtern einnehmen, da Piperin den Magen reizen kann."
+  en:
+    summary: "Turmeric extract with piperine as absorption enhancer, standardized to 95% curcuminoids."
+    verdictNote: "Solid curcumin with piperine in pharmaceutical grade. For users who value purity and standardization."
+    body:
+      description: "BIOGENA Turmeric 500 Plus combines turmeric extract standardized to 95% curcuminoids with piperine (from black pepper), which can increase the bioavailability of curcumin by up to 20 times."
+      pros:
+        - "95% curcuminoid standardization"
+        - "Piperine as proven absorption enhancer"
+        - "Clean capsules without unnecessary additives"
+        - "Austrian pharmaceutical grade"
+      cons:
+        - "Piperine can cause issues for sensitive stomachs"
+        - "No modern bioavailability technology (micelles, phytosomes)"
+        - "Priced above market average"
+      usage: "1 capsule daily with a meal. Do not take on an empty stomach as piperine can irritate the stomach."
+---

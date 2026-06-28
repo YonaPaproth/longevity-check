@@ -1,0 +1,11 @@
+{
+  "entity": "bloom-naturals-selen-3-fach-komplex",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "selen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

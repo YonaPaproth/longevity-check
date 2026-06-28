@@ -1,0 +1,85 @@
+---
+id: biogena-coq10-100
+type: product
+
+meta:
+  title: "BIOGENA CoQ10 100 aktiv"
+  ingredient: coq10
+  containedIngredients:
+    - slug: coq10
+  vendor: "BIOGENA"
+  vendorUrl: "https://www.biogena.com"
+  affiliateUrl: ""
+  priceEur: 39.9
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.67
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-14"
+  lastPriceCheck: "2026-06-14"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "CoQ10 hat solide Evidenz für Herz-Kreislauf und Mitochondrien-Funktion, besonders bei Statin-Anwendern."
+      en: "CoQ10 has solid evidence for cardiovascular health and mitochondrial function, especially in statin users."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,67 € pro Tag für 100 mg ist Premium-Niveau — vergleichbare Produkte ab 0,20 € erhältlich."
+      en: "€0.67 per day for 100 mg is premium pricing — comparable products available from €0.20."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Liposomale Formulierung für verbesserte Absorption. Saubere Kapseln ohne unnötige Hilfsstoffe."
+      en: "Liposomal formulation for improved absorption. Clean capsules without unnecessary excipients."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "CoQ10-Form und Menge exakt deklariert, liposomaler Träger transparent beschrieben."
+      en: "CoQ10 form and amount exactly declared, liposomal carrier transparently described."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Laborprüfung jeder Charge auf CoQ10-Gehalt und Reinheit nach österreichischem Pharmastandard."
+      en: "Laboratory testing of every batch for CoQ10 content and purity according to Austrian pharmaceutical standards."
+
+locales:
+  de:
+    summary: "CoQ10 als Ubiquinon in liposomaler Formulierung für optimale Absorption, österreichische Pharmaqualität."
+    verdictNote: "Hochwertige CoQ10-Formulierung mit liposomaler Absorption. Ideal für Herz- und Energiestoffwechsel."
+    body:
+      description: "BIOGENA CoQ10 100 aktiv liefert Coenzym Q10 in einer liposomalen Formulierung, die laut Hersteller eine bis zu dreifach höhere Bioverfügbarkeit gegenüber konventionellem Ubiquinon erreicht. 100 mg pro Kapsel."
+      pros:
+        - "Liposomale Formulierung für verbesserte Absorption"
+        - "100 mg CoQ10 pro Kapsel — klinisch relevante Dosis"
+        - "Saubere Formulierung ohne Magnesiumstearat"
+        - "Pharmaqualität aus Österreich"
+      cons:
+        - "Ubiquinon statt Ubiquinol — letzteres ist die reduzierte, direkt nutzbare Form"
+        - "Deutlich teurer als konventionelle CoQ10-Produkte"
+        - "60 Kapseln = 2 Monate, relativ kleine Packung"
+      usage: "1 Kapsel täglich zu einer fetthaltigen Mahlzeit. CoQ10 ist fettlöslich und wird mit Fett besser aufgenommen."
+  en:
+    summary: "CoQ10 as ubiquinone in liposomal formulation for optimal absorption, Austrian pharmaceutical grade."
+    verdictNote: "High-quality CoQ10 formulation with liposomal absorption. Ideal for cardiovascular and energy metabolism."
+    body:
+      description: "BIOGENA CoQ10 100 Active delivers Coenzyme Q10 in a liposomal formulation that, according to the manufacturer, achieves up to three times higher bioavailability compared to conventional ubiquinone. 100 mg per capsule."
+      pros:
+        - "Liposomal formulation for improved absorption"
+        - "100 mg CoQ10 per capsule — clinically relevant dose"
+        - "Clean formulation without magnesium stearate"
+        - "Pharmaceutical grade from Austria"
+      cons:
+        - "Ubiquinone instead of ubiquinol — the latter is the reduced, directly usable form"
+        - "Significantly more expensive than conventional CoQ10 products"
+        - "60 capsules = 2 months, relatively small package"
+      usage: "1 capsule daily with a fat-containing meal. CoQ10 is fat-soluble and is absorbed better with fat."
+---

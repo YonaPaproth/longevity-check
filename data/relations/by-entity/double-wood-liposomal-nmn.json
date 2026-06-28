@@ -1,0 +1,11 @@
+{
+  "entity": "double-wood-liposomal-nmn",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nmn",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

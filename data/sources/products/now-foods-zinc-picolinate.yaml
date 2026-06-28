@@ -1,0 +1,81 @@
+---
+id: now-foods-zinc-picolinate
+type: product
+
+meta:
+  title: "NOW Foods Zinc Picolinate 50mg"
+  ingredient: zink
+  containedIngredients:
+    - slug: zink
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 16
+  doseMg: 50
+  servingsPerPack: 120
+  pricePerDayEur: 0.13
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Zink ist vergleichsweise vergleichsweise gut untersucht in Immunfunktion und Haut."
+      en: "Zink ist vergleichsweise vergleichsweise gut untersucht in Immunfunktion und Haut."
+  valueForMoney:
+    score: 10
+    explanation:
+      de: "0,13 € pro 50 mg ist exzellent."
+      en: "0,13 € pro 50 mg ist exzellent."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Einfache Formulierung, keine unnötigen Zusätze."
+      en: "Einfache Formulierung, keine unnötigen Zusätze."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Deklariert Elementarzink und Salzform korrekt."
+      en: "Deklariert Elementarzink und Salzform korrekt."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW testet auf Schwermetalle und Mikroben, externe Prüfsiegel fehlen."
+      en: "NOW testet auf Schwermetalle und Mikroben, externe Prüfsiegel fehlen."
+
+locales:
+  de:
+    summary: "50 mg Zinkpicolinat in vegetarischer Kapsel – hoch bioverfügbar und sehr günstig."
+    verdictNote: "Vergleichsweise transparente Standardlösung für typische Zink-Anwendungen."
+    body:
+      description: "Jede Kapsel liefert 50 mg elementares Zink als Picolinat. Die Kapseln sind klein und lassen sich auch teilen (Pulver öffnen)."
+      pros:
+        - "Sehr günstiger Vorrat für 4 Monate"
+        - "Vegane Cellulosekapseln"
+        - "Keine Kupferzugabe – flexibel kombinierbar"
+      cons:
+        - "50 mg können nüchtern Übelkeit auslösen"
+        - "Deckel der Dose nicht kindersicher"
+      usage: "1 Kapsel jeden zweiten Tag oder zu einer Mahlzeit mit Protein. Bei Langzeiteinnahme 2 mg Kupfer ergänzen."
+  en:
+    summary: "50 mg Zinkpicolinat in vegetarischer Kapsel – hoch bioverfügbar und sehr günstig."
+    verdictNote: "Vergleichsweise transparente Standardlösung für typische Zink-Anwendungen."
+    body:
+      description: "Jede Kapsel liefert 50 mg elementares Zink als Picolinat. Die Kapseln sind klein und lassen sich auch teilen (Pulver öffnen)."
+      pros:
+        - "Sehr günstiger Vorrat für 4 Monate"
+        - "Vegane Cellulosekapseln"
+        - "Keine Kupferzugabe – flexibel kombinierbar"
+      cons:
+        - "50 mg können nüchtern Übelkeit auslösen"
+        - "Deckel der Dose nicht kindersicher"
+      usage: "1 Kapsel jeden zweiten Tag oder zu einer Mahlzeit mit Protein. Bei Langzeiteinnahme 2 mg Kupfer ergänzen."
+---

@@ -1,0 +1,81 @@
+---
+id: now-foods-l-theanine-200
+type: product
+
+meta:
+  title: "NOW Foods L-Theanine Double Strength 200mg"
+  ingredient: l-theanin
+  containedIngredients:
+    - slug: l-theanin
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 22
+  doseMg: 200
+  servingsPerPack: 60
+  pricePerDayEur: 0.37
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Gleiche Datenlage wie bei allen reinen L-Theanin-Produkten."
+      en: "Gleiche Datenlage wie bei allen reinen L-Theanin-Produkten."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,37 € pro 200 mg ist sehr günstig."
+      en: "0,37 € pro 200 mg ist sehr günstig."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Standardisierte Reinheit, ergänzt mit Inositol für Synergie."
+      en: "Standardisierte Reinheit, ergänzt mit Inositol für Synergie."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Inhaltsstoffe klar gelistet, keine Blends."
+      en: "Inhaltsstoffe klar gelistet, keine Blends."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "NOW veröffentlicht stichprobenartige COA, aber kein großes Siegel."
+      en: "NOW veröffentlicht stichprobenartige COA, aber kein großes Siegel."
+
+locales:
+  de:
+    summary: "Preiswerte 200-mg-L-Theanin-Kapseln von NOW Foods mit GMP-Herstellung und veganer Hülle."
+    verdictNote: "Budget-L-Theanin mit 200 mg pro Kapsel und veganen Rohstoffen."
+    body:
+      description: "Double-Strength-Version mit 200 mg L-Theanin plus etwas Inositol für weichere Aufnahme. Die Kapseln sind rein pflanzlich und frei von Allergenen."
+      pros:
+        - "Sehr guter Preis pro Portion"
+        - "GMP-zertifizierte Fertigung"
+        - "Vegan und frei von Titandioxid"
+      cons:
+        - "Keine markenspezifische Rohstoffgarantie"
+        - "Leicht kreidiger Nachgeschmack"
+      usage: "1 Kapsel 30 Minuten vor Stress-Spitzen oder als Kaffee-Begleiter gegen Nervosität."
+  en:
+    summary: "Preiswerte 200-mg-L-Theanin-Kapseln von NOW Foods mit GMP-Herstellung und veganer Hülle."
+    verdictNote: "Budget-L-Theanin mit 200 mg pro Kapsel und veganen Rohstoffen."
+    body:
+      description: "Double-Strength-Version mit 200 mg L-Theanin plus etwas Inositol für weichere Aufnahme. Die Kapseln sind rein pflanzlich und frei von Allergenen."
+      pros:
+        - "Sehr guter Preis pro Portion"
+        - "GMP-zertifizierte Fertigung"
+        - "Vegan und frei von Titandioxid"
+      cons:
+        - "Keine markenspezifische Rohstoffgarantie"
+        - "Leicht kreidiger Nachgeschmack"
+      usage: "1 Kapsel 30 Minuten vor Stress-Spitzen oder als Kaffee-Begleiter gegen Nervosität."
+---

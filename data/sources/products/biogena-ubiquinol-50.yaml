@@ -1,0 +1,85 @@
+---
+id: biogena-ubiquinol-50
+type: product
+
+meta:
+  title: "BIOGENA Ubiquinol 50 CoQH"
+  ingredient: coq10
+  containedIngredients:
+    - slug: coq10
+  vendor: "BIOGENA"
+  vendorUrl: "https://www.biogena.com"
+  affiliateUrl: ""
+  priceEur: 34.9
+  doseMg: 50
+  servingsPerPack: 60
+  pricePerDayEur: 0.58
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-06-14"
+  lastPriceCheck: "2026-06-14"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "CoQ10/Ubiquinol hat solide Evidenz für Herzgesundheit, besonders ab 40+ und bei Statin-Einnahme."
+      en: "CoQ10/ubiquinol has solid evidence for heart health, especially from age 40+ and with statin use."
+  valueForMoney:
+    score: 5
+    explanation:
+      de: "0,58 € für nur 50 mg Ubiquinol ist teuer — andere Anbieter liefern 100 mg zum gleichen Preis."
+      en: "€0.58 for only 50 mg ubiquinol is expensive — other providers offer 100 mg at the same price."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Kaneka Ubiquinol — der Goldstandard unter den Ubiquinol-Rohstoffen. Softgel schützt vor Oxidation."
+      en: "Kaneka ubiquinol — the gold standard among ubiquinol raw materials. Softgel protects against oxidation."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Ubiquinol klar als aktive Form deklariert, Kaneka-Rohstoff benannt."
+      en: "Ubiquinol clearly declared as active form, Kaneka raw material named."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Kaneka-Zertifikat plus hauseigene Pharma-Analytik nach österreichischem Standard."
+      en: "Kaneka certificate plus in-house pharmaceutical analysis according to Austrian standards."
+
+locales:
+  de:
+    summary: "Aktive Ubiquinol-Form von CoQ10, direkt nutzbar ohne körpereigene Umwandlung, Kaneka-Qualität."
+    verdictNote: "Premium-Ubiquinol mit Kaneka-Qualität, aber 50 mg ist für viele Anwender zu niedrig dosiert."
+    body:
+      description: "Ubiquinol ist die reduzierte, bioaktive Form von Coenzym Q10. Der Körper muss konventionelles Ubiquinon erst umwandeln — dieser Schritt wird mit zunehmendem Alter ineffizienter. BIOGENA verwendet Kaneka Ubiquinol, den weltweit führenden Markenrohstoff."
+      pros:
+        - "Aktive Ubiquinol-Form — direkt bioverfügbar"
+        - "Kaneka-Rohstoff (japanischer Marktführer)"
+        - "Softgel schützt das oxidationsempfindliche Ubiquinol"
+        - "Pharmaqualität aus Österreich"
+      cons:
+        - "Nur 50 mg pro Softgel — klinische Studien arbeiten meist mit 100–200 mg"
+        - "Hoher Preis pro mg im Marktvergleich"
+        - "Für therapeutische Dosierung 2–4 Kapseln nötig, was die Kosten verdoppelt"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Bei Statin-Einnahme ggf. 2 Softgels nach ärztlicher Rücksprache."
+  en:
+    summary: "Active ubiquinol form of CoQ10, directly usable without bodily conversion, Kaneka quality."
+    verdictNote: "Premium ubiquinol with Kaneka quality, but 50 mg is underdosed for many users."
+    body:
+      description: "Ubiquinol is the reduced, bioactive form of Coenzyme Q10. The body must first convert conventional ubiquinone — this step becomes less efficient with age. BIOGENA uses Kaneka ubiquinol, the world's leading branded raw material."
+      pros:
+        - "Active ubiquinol form — directly bioavailable"
+        - "Kaneka raw material (Japanese market leader)"
+        - "Softgel protects oxidation-sensitive ubiquinol"
+        - "Pharmaceutical grade from Austria"
+      cons:
+        - "Only 50 mg per softgel — clinical studies typically use 100–200 mg"
+        - "High price per mg compared to market"
+        - "Requires 2–4 capsules for therapeutic dosing, which doubles costs"
+      usage: "1 softgel daily with a fat-containing meal. With statin use, possibly 2 softgels after consulting your doctor."
+---

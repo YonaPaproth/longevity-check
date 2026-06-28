@@ -1,0 +1,81 @@
+---
+id: now-foods-collagen-type-2
+type: product
+
+meta:
+  title: "NOW Foods Collagen Type II 500mg"
+  ingredient: kollagen
+  containedIngredients:
+    - slug: kollagen
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 500
+  servingsPerPack: 120
+  pricePerDayEur: 0.23
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Undenaturiertes Typ-II-Kollagen zeigt in Studien Verbesserungen bei Gelenkkomfort schon ab 40 mg."
+      en: "Undenaturiertes Typ-II-Kollagen zeigt in Studien Verbesserungen bei Gelenkkomfort schon ab 40 mg."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,23 € pro Tag für 500 mg UC-II ist günstig."
+      en: "0,23 € pro Tag für 500 mg UC-II ist günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "NOW kapselt unter cGMP und testet auf Kollagenintegrität."
+      en: "NOW kapselt unter cGMP und testet auf Kollagenintegrität."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "UC-II-Marke genannt, aber genaue Peptidverteilung fehlt."
+      en: "UC-II-Marke genannt, aber genaue Peptidverteilung fehlt."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Interne Tests vorhanden, wenige externe Publikationen."
+      en: "Interne Tests vorhanden, wenige externe Publikationen."
+
+locales:
+  de:
+    summary: "Typ-II-Kollagen aus Hühnersternum, speziell für Gelenkknorpel und Beweglichkeit formuliert."
+    verdictNote: "Budgetfreundliche Option für Knie- oder Schulterthemen ohne Pulverchaos."
+    body:
+      description: "Das Produkt nutzt nicht denaturiertes Typ-II-Kollagen aus Hühnerbrustbein inklusive natürlicher Hyaluronsäure und Chondroitinsulfat-Spuren. Die Kapseln sind frei von Gluten und Milch."
+      pros:
+        - "Niedrige Tagesdosis, dadurch travel-friendly"
+        - "Enthält natürliche Begleitstoffe aus Knorpelgewebe"
+        - "Preislich klar unter spezialisierten UC-II-Marken"
+      cons:
+        - "Tierische Quelle, daher nicht für Veganer:innen"
+        - "Kein zusätzlicher Vitamin-C-Kofaktor"
+      usage: "1 Kapsel auf nüchternen Magen einnehmen, idealerweise vor dem Schlafengehen. Für Synergie mit Vitamin C oder MSM kombinieren."
+  en:
+    summary: "Typ-II-Kollagen aus Hühnersternum, speziell für Gelenkknorpel und Beweglichkeit formuliert."
+    verdictNote: "Budgetfreundliche Option für Knie- oder Schulterthemen ohne Pulverchaos."
+    body:
+      description: "Das Produkt nutzt nicht denaturiertes Typ-II-Kollagen aus Hühnerbrustbein inklusive natürlicher Hyaluronsäure und Chondroitinsulfat-Spuren. Die Kapseln sind frei von Gluten und Milch."
+      pros:
+        - "Niedrige Tagesdosis, dadurch travel-friendly"
+        - "Enthält natürliche Begleitstoffe aus Knorpelgewebe"
+        - "Preislich klar unter spezialisierten UC-II-Marken"
+      cons:
+        - "Tierische Quelle, daher nicht für Veganer:innen"
+        - "Kein zusätzlicher Vitamin-C-Kofaktor"
+      usage: "1 Kapsel auf nüchternen Magen einnehmen, idealerweise vor dem Schlafengehen. Für Synergie mit Vitamin C oder MSM kombinieren."
+---

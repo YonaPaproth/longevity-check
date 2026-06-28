@@ -1,0 +1,85 @@
+---
+id: life-extension-same-400
+type: product
+
+meta:
+  title: "Life Extension SAMe 400 mg"
+  ingredient: same
+  containedIngredients:
+    - slug: same
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextensioneurope.de/same-400-mg"
+  affiliateUrl: ""
+  priceEur: 44
+  doseMg: 400
+  servingsPerPack: 30
+  pricePerDayEur: 1.47
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "SAMe hat gute Daten bei Stimmung und Leberwerten, insbesondere bei 400–1600 mg."
+      en: "SAMe hat gute Daten bei Stimmung und Leberwerten, insbesondere bei 400–1600 mg."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "1,47 € pro 400 mg ist üblich für streng qualitätsorientierte Qualität, aber kein Schnäppchen."
+      en: "1,47 € pro 400 mg ist üblich für streng qualitätsorientierte Qualität, aber kein Schnäppchen."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Enterisch beschichtete Tabletten, Blisterverpackung und Disulfatosylat stabilisieren den Wirkstoff bestens."
+      en: "Enterisch beschichtete Tabletten, Blisterverpackung und Disulfatosylat stabilisieren den Wirkstoff bestens."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklaration und Hinweise zu Einnahme/Wechselwirkung (z. B. SSRIs) sind vorbildlich."
+      en: "Deklaration und Hinweise zu Einnahme/Wechselwirkung (z. B. SSRIs) sind vorbildlich."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Life Extension veröffentlicht COAs und testet jede Charge auf Potenz."
+      en: "Life Extension veröffentlicht COAs und testet jede Charge auf Potenz."
+
+locales:
+  de:
+    summary: "Stabil verpacktes 400-mg-SAMe-Disulfatosylat von Life Extension, blistergewird mit Schutzmechanismen in Verbindung gebracht und cGMP-gefertigt."
+    verdictNote: "Einer der zuverlässigsten SAMe-Picks für therapeutische Dosierungen."
+    body:
+      description: "Life Extension liefert **400 mg SAMe Disulfatosylat** pro Tablette. Die Blisterverpackung ist auf Schutz vor ausgerichtet bei Feuchtigkeit, die enterische Beschichtung sorgt dafür, dass der Wirkstoff erst im Dünndarm freigesetzt wird."
+      pros:
+        - "**Disulfatosylat-Form** für hohe Stabilität"
+        - "**Blisterverpackt** – jede Tablette einzeln geist auf Schutz ausgerichtet"
+        - "**cGMP-Fertigung**"
+        - "**400 mg Dosierung** passend für klinische Protokolle"
+      cons:
+        - "**Preislich im oberen Segment**"
+        - "**Nur 30 Portionen** – reicht oft nur einen Monat"
+        - "**Keine vegane Kennzeichnung** (Tabletts enthalten evtl. tierische Bestandteile)"
+      usage: "1 Tablette morgens nüchtern mit Wasser. Bei therapeutischem Einsatz mit Ärzt:in sprechen; ggf. auf 2 Tabletten täglich (morgens/mit Tagsüber) aufteilen. Nicht mit SSRI ohne fachliche Begleitung kombinieren."
+  en:
+    summary: "Stabil verpacktes 400-mg-SAMe-Disulfatosylat von Life Extension, blistergewird mit Schutzmechanismen in Verbindung gebracht und cGMP-gefertigt."
+    verdictNote: "Einer der zuverlässigsten SAMe-Picks für therapeutische Dosierungen."
+    body:
+      description: "Life Extension liefert **400 mg SAMe Disulfatosylat** pro Tablette. Die Blisterverpackung ist auf Schutz vor ausgerichtet bei Feuchtigkeit, die enterische Beschichtung sorgt dafür, dass der Wirkstoff erst im Dünndarm freigesetzt wird."
+      pros:
+        - "**Disulfatosylat-Form** für hohe Stabilität"
+        - "**Blisterverpackt** – jede Tablette einzeln geist auf Schutz ausgerichtet"
+        - "**cGMP-Fertigung**"
+        - "**400 mg Dosierung** passend für klinische Protokolle"
+      cons:
+        - "**Preislich im oberen Segment**"
+        - "**Nur 30 Portionen** – reicht oft nur einen Monat"
+        - "**Keine vegane Kennzeichnung** (Tabletts enthalten evtl. tierische Bestandteile)"
+      usage: "1 Tablette morgens nüchtern mit Wasser. Bei therapeutischem Einsatz mit Ärzt:in sprechen; ggf. auf 2 Tabletten täglich (morgens/mit Tagsüber) aufteilen. Nicht mit SSRI ohne fachliche Begleitung kombinieren."
+---

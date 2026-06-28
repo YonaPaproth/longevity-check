@@ -1,0 +1,83 @@
+---
+id: jet-alert-caffeine-200-mg
+type: product
+
+meta:
+  title: "Jet-Alert Caffeine 200 mg"
+  ingredient: koffein
+  containedIngredients:
+    - slug: koffein
+  vendor: "Jet-Alert"
+  vendorUrl: "https://www.amazon.de"
+  affiliateUrl: ""
+  priceEur: 6.9
+  doseMg: 200
+  servingsPerPack: 120
+  pricePerDayEur: 0.06
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Koffein ist einer der bestuntersuchten Wirkstoffe überhaupt. Starke Evidenz für Wachheit, Kognition und sportliche Leistung."
+      en: "Koffein ist einer der bestuntersuchten Wirkstoffe überhaupt. Starke Evidenz für Wachheit, Kognition und sportliche Leistung."
+  valueForMoney:
+    score: 10
+    explanation:
+      de: "0,06 € pro Tag — günstiger geht Supplementierung nicht."
+      en: "0,06 € pro Tag — günstiger geht Supplementierung nicht."
+  productQuality:
+    score: 6
+    explanation:
+      de: "Einfaches Koffein-Produkt ohne Extras. Funktional, aber ohne Zusatzstoffe wie L-Theanin."
+      en: "Einfaches Koffein-Produkt ohne Extras. Funktional, aber ohne Zusatzstoffe wie L-Theanin."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "200 mg Koffein pro Tablette, klar deklariert."
+      en: "200 mg Koffein pro Tablette, klar deklariert."
+  thirdPartyTesting:
+    score: 5
+    explanation:
+      de: "Kein unabhängiges Drittanbieter-Zertifikat bekannt."
+      en: "Kein unabhängiges Drittanbieter-Zertifikat bekannt."
+
+locales:
+  de:
+    summary: "Reines Koffein 200 mg pro Tablette — der günstigste Wachmacher am Markt."
+    verdictNote: "Unschlagbar günstig für reines Koffein. Aber: L-Theanin als Kombi-Partner empfohlen, um Jitteriness zu vermeiden."
+    body:
+      description: "Jet-Alert liefert 200 mg reines Koffein pro Tablette — äquivalent zu ~2 Tassen Kaffee. Minimalistisch, funktional, extrem günstig."
+      pros:
+        - "0,06 € pro Tag — das günstigste Supplement in unserem Katalog"
+        - "200 mg pro Tablette — präzise Dosierung vs. schwankender Kaffee-Gehalt"
+        - "120 Tabletten = 4 Monate"
+      cons:
+        - "Kein L-Theanin enthalten (reduziert Koffein-Nebenwirkungen)"
+        - "Kann bei empfindlichen Personen Herzrasen, Unruhe und Schlafstörungen auslösen"
+        - "Keine Slow-Release-Formulierung"
+      usage: "1 Tablette morgens oder vor dem Training. Nicht nach 14 Uhr. Max. 400 mg/Tag (EFSA). Am besten mit 100–200 mg L-Theanin kombinieren."
+  en:
+    summary: "Reines Koffein 200 mg pro Tablette — der günstigste Wachmacher am Markt."
+    verdictNote: "Unschlagbar günstig für reines Koffein. Aber: L-Theanin als Kombi-Partner empfohlen, um Jitteriness zu vermeiden."
+    body:
+      description: "Jet-Alert liefert 200 mg reines Koffein pro Tablette — äquivalent zu ~2 Tassen Kaffee. Minimalistisch, funktional, extrem günstig."
+      pros:
+        - "0,06 € pro Tag — das günstigste Supplement in unserem Katalog"
+        - "200 mg pro Tablette — präzise Dosierung vs. schwankender Kaffee-Gehalt"
+        - "120 Tabletten = 4 Monate"
+      cons:
+        - "Kein L-Theanin enthalten (reduziert Koffein-Nebenwirkungen)"
+        - "Kann bei empfindlichen Personen Herzrasen, Unruhe und Schlafstörungen auslösen"
+        - "Keine Slow-Release-Formulierung"
+      usage: "1 Tablette morgens oder vor dem Training. Nicht nach 14 Uhr. Max. 400 mg/Tag (EFSA). Am besten mit 100–200 mg L-Theanin kombinieren."
+---

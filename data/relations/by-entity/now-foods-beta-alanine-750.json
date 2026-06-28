@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-beta-alanine-750",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "beta-alanin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

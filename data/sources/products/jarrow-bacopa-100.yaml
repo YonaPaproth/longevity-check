@@ -1,0 +1,81 @@
+---
+id: jarrow-bacopa-100
+type: product
+
+meta:
+  title: "Jarrow Formulas Bacopa 100"
+  ingredient: bacopa
+  containedIngredients:
+    - slug: bacopa
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 22
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.37
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Bacognize wurde in Uni-Studien untersucht."
+      en: "Bacognize wurde in Uni-Studien untersucht."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "0,37 € pro 100 mg – für volle klinische Dosis braucht man drei Portionen."
+      en: "0,37 € pro 100 mg – für volle klinische Dosis braucht man drei Portionen."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Bacognize ist standardisiert auf 12 % Bacoside."
+      en: "Bacognize ist standardisiert auf 12 % Bacoside."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klares Ingredient-Branding mit Chargennummer."
+      en: "Klares Ingredient-Branding mit Chargennummer."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Jarrow liefert interne Tests, externe Nachweise fehlen."
+      en: "Jarrow liefert interne Tests, externe Nachweise fehlen."
+
+locales:
+  de:
+    summary: "Je 100 mg Bacognize®-Extrakt pro Kapsel – gut geeignet zum Einschleichen oder Stapeln mit anderen Adaptogenen."
+    verdictNote: "Bacognize-Rohstoff ist hochwertig, aber Dosis muss auf 2–3 Kapseln erhöhte werden, um Studienwerte zu erreichen."
+    body:
+      description: "Das Produkt nutzt den bekannten Bacognize-Extrakt, der in mehreren Placebo-kontrollierten Studien getestet wurde. Kleine 100-mg-Kapseln eignen sich für sensible Personen."
+      pros:
+        - "Bacognize als klinisch untersuchter Rohstoff"
+        - "Kleine Kapseln lassen sich gut kombinieren"
+        - "Glutenfrei und vegan"
+      cons:
+        - "Für Studien-Dosis (300 mg) sind drei Kapseln nötig"
+        - "Nur 60 Portionen pro Dose"
+      usage: "Beginne mit 1 Kapsel morgens. Nach einer Woche auf 2–3 Kapseln steigern, jeweils zu Mahlzeiten."
+  en:
+    summary: "Je 100 mg Bacognize®-Extrakt pro Kapsel – gut geeignet zum Einschleichen oder Stapeln mit anderen Adaptogenen."
+    verdictNote: "Bacognize-Rohstoff ist hochwertig, aber Dosis muss auf 2–3 Kapseln erhöhte werden, um Studienwerte zu erreichen."
+    body:
+      description: "Das Produkt nutzt den bekannten Bacognize-Extrakt, der in mehreren Placebo-kontrollierten Studien getestet wurde. Kleine 100-mg-Kapseln eignen sich für sensible Personen."
+      pros:
+        - "Bacognize als klinisch untersuchter Rohstoff"
+        - "Kleine Kapseln lassen sich gut kombinieren"
+        - "Glutenfrei und vegan"
+      cons:
+        - "Für Studien-Dosis (300 mg) sind drei Kapseln nötig"
+        - "Nur 60 Portionen pro Dose"
+      usage: "Beginne mit 1 Kapsel morgens. Nach einer Woche auf 2–3 Kapseln steigern, jeweils zu Mahlzeiten."
+---

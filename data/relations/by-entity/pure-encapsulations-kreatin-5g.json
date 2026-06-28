@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-kreatin-5g",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "kreatin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

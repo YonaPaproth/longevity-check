@@ -1,0 +1,81 @@
+---
+id: do-not-age-nmn-500
+type: product
+
+meta:
+  title: "Do Not Age NMN 500"
+  ingredient: nmn
+  containedIngredients:
+    - slug: nmn
+  vendor: "Do Not Age"
+  vendorUrl: "https://donotage.org"
+  affiliateUrl: ""
+  priceEur: 49.95
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.83
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-14"
+  lastPriceCheck: "2026-05-14"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 3
+    explanation:
+      de: "NMN erhöhte NAD+-Spiegel in Studien (kleine Humanstudien). Klinische Anwendung beim Menschen ist nicht belegt."
+      en: "NMN erhöhte NAD+-Spiegel in Studien (kleine Humanstudien). Klinische Anwendung beim Menschen ist nicht belegt."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,83 € pro Tagesdosis bei 500 mg ist im Marktvergleich günstig bis durchschnittlich."
+      en: "0,83 € pro Tagesdosis bei 500 mg ist im Marktvergleich günstig bis durchschnittlich."
+  productQuality:
+    score: 6
+    explanation:
+      de: "Eigene Labortests veröffentlicht (HPLC). Keine unabhängige Third-Party-Zertifizierung (Informed-Sport, NSF). Stabile Kühllagerung empfohlen."
+      en: "Eigene Labortests veröffentlicht (HPLC). Keine unabhängige Third-Party-Zertifizierung (Informed-Sport, NSF). Stabile Kühllagerung empfohlen."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Keine expliziten Gesundheitsversprechen auf dem Etikett. Marketing-Website macht teils weitreichende Aussagen ohne Quellenbelege."
+      en: "Keine expliziten Gesundheitsversprechen auf dem Etikett. Marketing-Website macht teils weitreichende Aussagen ohne Quellenbelege."
+  thirdPartyTesting:
+    score: 4
+    explanation:
+      de: "Hersteller veröffentlicht eigene CoA (Certificate of Analysis). Keine unabhängige Zertifizierung durch Inform-Sport, NSF oder Labdoor."
+      en: "Hersteller veröffentlicht eigene CoA (Certificate of Analysis). Keine unabhängige Zertifizierung durch Inform-Sport, NSF oder Labdoor."
+
+locales:
+  de:
+    summary: "Britischer Hersteller mit hoher Sichtbarkeit in der gesundes Altern-Community. Labortests vorhanden, aber keine unabhängige Zertifizierung."
+    verdictNote: "Solides Basisprodukt zu fairen Kosten. Wer auf unabhängige Zertifizierung Wert legt, findet bessere Alternativen – zahlt aber mehr."
+    body:
+      description: "Do Not Age NMN 500 ist einer der bekanntesten NMN-Anbieter im deutschsprachigen Raum. Das britische Unternehmen hat sich stark in der Community für gesundes Altern positioniert und veröffentlicht regelmäßig Blogbeiträge zu aktuellen Studien."
+      pros:
+        - "**Transparenz bei eigenen Tests:** Do Not Age veröffentlicht HPLC-Zertifikate (Reinheitsnachweis) für jede Charge – das ist besser als viele Konkurrenten"
+        - "**Vernünftiger Preis:** 0,83 € pro Tag für 500 mg NMN ist fair"
+        - "**Stabile Kapselform:** Kapseln schützen NMN besser vor Feuchtigkeit als Pulver"
+      cons:
+        - "**Keine Drittanbieter-Zertifizierung:** Eigene CoA sind kein Ersatz für unabhängige Tests durch Labdoor, Informed-Sport oder NSF"
+        - "**Marketing übertrifft Evidenz:** Die Website suggeriert stärkere Alterungsforschungs-Effekte als die Studienlage hergibt"
+      usage: ""
+  en:
+    summary: "Britischer Hersteller mit hoher Sichtbarkeit in der gesundes Altern-Community. Labortests vorhanden, aber keine unabhängige Zertifizierung."
+    verdictNote: "Solides Basisprodukt zu fairen Kosten. Wer auf unabhängige Zertifizierung Wert legt, findet bessere Alternativen – zahlt aber mehr."
+    body:
+      description: "Do Not Age NMN 500 ist einer der bekanntesten NMN-Anbieter im deutschsprachigen Raum. Das britische Unternehmen hat sich stark in der Community für gesundes Altern positioniert und veröffentlicht regelmäßig Blogbeiträge zu aktuellen Studien."
+      pros:
+        - "**Transparenz bei eigenen Tests:** Do Not Age veröffentlicht HPLC-Zertifikate (Reinheitsnachweis) für jede Charge – das ist besser als viele Konkurrenten"
+        - "**Vernünftiger Preis:** 0,83 € pro Tag für 500 mg NMN ist fair"
+        - "**Stabile Kapselform:** Kapseln schützen NMN besser vor Feuchtigkeit als Pulver"
+      cons:
+        - "**Keine Drittanbieter-Zertifizierung:** Eigene CoA sind kein Ersatz für unabhängige Tests durch Labdoor, Informed-Sport oder NSF"
+        - "**Marketing übertrifft Evidenz:** Die Website suggeriert stärkere Alterungsforschungs-Effekte als die Studienlage hergibt"
+      usage: ""
+---

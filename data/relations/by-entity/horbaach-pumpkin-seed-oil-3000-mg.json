@@ -1,0 +1,11 @@
+{
+  "entity": "horbaach-pumpkin-seed-oil-3000-mg",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "kuerbiskernoel",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

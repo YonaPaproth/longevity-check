@@ -1,0 +1,87 @@
+---
+id: sports-research-omega-3-fish-oil-1250
+type: product
+
+meta:
+  title: "Sports Research Triple Strength Omega-3 Fish Oil 1250 mg"
+  ingredient: omega-3
+  containedIngredients:
+    - slug: omega-3
+  vendor: "Sports Research"
+  vendorUrl: "https://www.sportsresearch.com"
+  affiliateUrl: ""
+  priceEur: 24.9
+  doseMg: 1250
+  servingsPerPack: 90
+  pricePerDayEur: 0.28
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Omega-3 hat exzellente Evidenz für Herz-Kreislauf, Entzündung und Kognition. Hohe EPA/DHA-Konzentration."
+      en: "Omega-3 hat exzellente Evidenz für Herz-Kreislauf, Entzündung und Kognition. Hohe EPA/DHA-Konzentration."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,28 € pro Tag für 1040 mg EPA/DHA in TG-Form ist ein starkes Preis-Leistungs-Verhältnis."
+      en: "0,28 € pro Tag für 1040 mg EPA/DHA in TG-Form ist ein starkes Preis-Leistungs-Verhältnis."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Triglycerid-Form, molekular destilliert, hohe Konzentration von 1040 mg EPA/DHA pro Softgel."
+      en: "Triglycerid-Form, molekular destilliert, hohe Konzentration von 1040 mg EPA/DHA pro Softgel."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "EPA/DHA-Mengen klar angegeben, IFOS-Analysezertifikat verfügbar."
+      en: "EPA/DHA-Mengen klar angegeben, IFOS-Analysezertifikat verfügbar."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "IFOS 5-Sterne-Rating, zusätzlich Non-GMO Project Verified."
+      en: "IFOS 5-Sterne-Rating, zusätzlich Non-GMO Project Verified."
+
+locales:
+  de:
+    summary: "Triple-Strength Fischöl mit 1040 mg EPA/DHA pro Softgel, IFOS 5-Sterne, Triglycerid-Form."
+    verdictNote: "Einer der besten Omega-3-Werte am Markt: 1040 mg EPA/DHA pro Kapsel zum fairen Preis. Top-Empfehlung."
+    body:
+      description: "Sports Research Triple Strength liefert 1250 mg Fischöl pro Softgel, davon 1040 mg als EPA und DHA — eine der höchsten Konzentrationen am Markt. Das Öl ist in der natürlichen Triglycerid-Form und wird molekular destilliert."
+      pros:
+        - "1040 mg EPA/DHA pro Einzelkapsel — man braucht nur eine am Tag"
+        - "Triglycerid-Form für bessere Absorption"
+        - "IFOS 5-Sterne-Rating für Reinheit"
+        - "Non-GMO Project Verified"
+        - "90 Softgels = 3 Monate Reichweite"
+      cons:
+        - "Softgels sind recht groß (typisch für hochdosiertes Fischöl)"
+        - "Kein MSC-Siegel für Nachhaltigkeit sichtbar"
+        - "Fischöl — keine vegane Alternative in dieser Linie"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit für optimale Absorption."
+  en:
+    summary: "Triple-Strength Fischöl mit 1040 mg EPA/DHA pro Softgel, IFOS 5-Sterne, Triglycerid-Form."
+    verdictNote: "Einer der besten Omega-3-Werte am Markt: 1040 mg EPA/DHA pro Kapsel zum fairen Preis. Top-Empfehlung."
+    body:
+      description: "Sports Research Triple Strength liefert 1250 mg Fischöl pro Softgel, davon 1040 mg als EPA und DHA — eine der höchsten Konzentrationen am Markt. Das Öl ist in der natürlichen Triglycerid-Form und wird molekular destilliert."
+      pros:
+        - "1040 mg EPA/DHA pro Einzelkapsel — man braucht nur eine am Tag"
+        - "Triglycerid-Form für bessere Absorption"
+        - "IFOS 5-Sterne-Rating für Reinheit"
+        - "Non-GMO Project Verified"
+        - "90 Softgels = 3 Monate Reichweite"
+      cons:
+        - "Softgels sind recht groß (typisch für hochdosiertes Fischöl)"
+        - "Kein MSC-Siegel für Nachhaltigkeit sichtbar"
+        - "Fischöl — keine vegane Alternative in dieser Linie"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit für optimale Absorption."
+---

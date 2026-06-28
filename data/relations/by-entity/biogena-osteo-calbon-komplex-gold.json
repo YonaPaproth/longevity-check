@@ -1,0 +1,29 @@
+{
+  "entity": "biogena-osteo-calbon-komplex-gold",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "calcium",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-d3-k2",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "bor",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "silicium",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

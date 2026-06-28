@@ -1,0 +1,87 @@
+---
+id: sports-research-d3-k2-5000
+type: product
+
+meta:
+  title: "Sports Research Plant-Based D3+K2 5000 IU"
+  ingredient: vitamin-d3-k2
+  containedIngredients:
+    - slug: vitamin-d3-k2
+  vendor: "Sports Research"
+  vendorUrl: "https://www.sportsresearch.com"
+  affiliateUrl: ""
+  priceEur: 22.9
+  doseMg: 125
+  servingsPerPack: 60
+  pricePerDayEur: 0.38
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "D3+K2 hat starke Evidenz für Knochen, Immunfunktion und Calcium-Verwertung. 5000 IU ist eine gängige Erhaltungsdosis."
+      en: "D3+K2 hat starke Evidenz für Knochen, Immunfunktion und Calcium-Verwertung. 5000 IU ist eine gängige Erhaltungsdosis."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,38 € pro Tag für veganes D3+K2 in Softgel ist fair, aber günstigere Kapsel-Optionen existieren."
+      en: "0,38 € pro Tag für veganes D3+K2 in Softgel ist fair, aber günstigere Kapsel-Optionen existieren."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Plant-based D3 aus Flechten, K2 als MK-7, in Kokosöl gelöst für optimale Absorption fettlöslicher Vitamine."
+      en: "Plant-based D3 aus Flechten, K2 als MK-7, in Kokosöl gelöst für optimale Absorption fettlöslicher Vitamine."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "D3- und K2-Mengen klar deklariert, vegan-zertifiziert, Non-GMO."
+      en: "D3- und K2-Mengen klar deklariert, vegan-zertifiziert, Non-GMO."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Non-GMO Project Verified, USP-zertifizierte Inhaltsstoffe."
+      en: "Non-GMO Project Verified, USP-zertifizierte Inhaltsstoffe."
+
+locales:
+  de:
+    summary: "Veganes D3 aus Flechten (5000 IU) plus K2 als MK-7 (100 µg) in Kokosöl-Softgel, pflanzlich."
+    verdictNote: "Veganes D3+K2 in Öl-Softgel — optimale Bioverfügbarkeit für fettlösliche Vitamine. Gute Wahl für pflanzliche Ernährung."
+    body:
+      description: "Sports Research kombiniert veganes Vitamin D3 aus Flechten (5000 IU) mit Vitamin K2 als MK-7 (100 µg) in einem Kokosöl-Softgel. Die Öl-Basis ist für fettlösliche Vitamine ideal, da sie die Absorption ohne zusätzliche Fettquelle ermöglicht."
+      pros:
+        - "5000 IU D3 — höhere Dosis als viele Kombiprodukte, gut für Mangel-Ausgleich"
+        - "100 µg K2 als MK-7 — klinisch relevante Menge"
+        - "Veganes D3 aus Flechten"
+        - "Kokosöl als Trägerfett maximiert Absorption"
+        - "Plant-based Softgel-Hülle"
+      cons:
+        - "5000 IU ist für tägliche Dauereinnahme ohne Bluttest möglicherweise zu hoch"
+        - "60 Softgels = 2 Monate, relativ kleine Packung"
+        - "Kein all-trans MK-7 spezifiziert"
+      usage: "1 Softgel täglich zu einer Mahlzeit. Bei Dauersupplementierung >4000 IU regelmäßig 25-OH-Vitamin-D im Blut kontrollieren lassen."
+  en:
+    summary: "Veganes D3 aus Flechten (5000 IU) plus K2 als MK-7 (100 µg) in Kokosöl-Softgel, pflanzlich."
+    verdictNote: "Veganes D3+K2 in Öl-Softgel — optimale Bioverfügbarkeit für fettlösliche Vitamine. Gute Wahl für pflanzliche Ernährung."
+    body:
+      description: "Sports Research kombiniert veganes Vitamin D3 aus Flechten (5000 IU) mit Vitamin K2 als MK-7 (100 µg) in einem Kokosöl-Softgel. Die Öl-Basis ist für fettlösliche Vitamine ideal, da sie die Absorption ohne zusätzliche Fettquelle ermöglicht."
+      pros:
+        - "5000 IU D3 — höhere Dosis als viele Kombiprodukte, gut für Mangel-Ausgleich"
+        - "100 µg K2 als MK-7 — klinisch relevante Menge"
+        - "Veganes D3 aus Flechten"
+        - "Kokosöl als Trägerfett maximiert Absorption"
+        - "Plant-based Softgel-Hülle"
+      cons:
+        - "5000 IU ist für tägliche Dauereinnahme ohne Bluttest möglicherweise zu hoch"
+        - "60 Softgels = 2 Monate, relativ kleine Packung"
+        - "Kein all-trans MK-7 spezifiziert"
+      usage: "1 Softgel täglich zu einer Mahlzeit. Bei Dauersupplementierung >4000 IU regelmäßig 25-OH-Vitamin-D im Blut kontrollieren lassen."
+---

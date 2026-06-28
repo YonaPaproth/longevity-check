@@ -1,0 +1,11 @@
+{
+  "entity": "double-wood-tongkat-ali",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "tongkat-ali",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

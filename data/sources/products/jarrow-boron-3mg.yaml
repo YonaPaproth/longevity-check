@@ -1,0 +1,85 @@
+---
+id: jarrow-boron-3mg
+type: product
+
+meta:
+  title: "Jarrow Formulas Boron 3 mg"
+  ingredient: bor
+  containedIngredients:
+    - slug: bor
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://jarrow.com/products/boron"
+  affiliateUrl: ""
+  priceEur: 12
+  doseMg: 3
+  servingsPerPack: 100
+  pricePerDayEur: 0.12
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "Boron hat interessante Daten zu Knochenstoffwechsel und Hormonen, aber noch wenig große Humanstudien."
+      en: "Boron hat interessante Daten zu Knochenstoffwechsel und Hormonen, aber noch wenig große Humanstudien."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,12 € pro Tag für FruiteX-B ist sehr günstig, besonders bei 100 Portionen."
+      en: "0,12 € pro Tag für FruiteX-B ist sehr günstig, besonders bei 100 Portionen."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Jarrow nutzt FruiteX-B (Calcium-Fructoborat) und kapselt vegan ab, ohne unnötige Zusätze."
+      en: "Jarrow nutzt FruiteX-B (Calcium-Fructoborat) und kapselt vegan ab, ohne unnötige Zusätze."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare 3-mg-Dosierung, Rohstoff genannt, keine übertriebenen Claims."
+      en: "Klare 3-mg-Dosierung, Rohstoff genannt, keine übertriebenen Claims."
+  thirdPartyTesting:
+    score: 5
+    explanation:
+      de: "Standard-GMP-Tests, aber kein offizielles Siegel."
+      en: "Standard-GMP-Tests, aber kein offizielles Siegel."
+
+locales:
+  de:
+    summary: "3 mg Bor als FruiteX-B in veganen Kapseln, gute Option für Gelenk- und Knochenfokus ohne überdosierte Protokolle."
+    verdictNote: "Solide Mikro-Mineral-Ergänzung für Bor, wenn Ernährung oder Bodenqualität lückenhaft sind."
+    body:
+      description: "FruiteX-B ist eine natürliche Borverbindung, die in Studien mit 3 mg täglich eingesetzt wurde. Jarrow liefert diese Dosierung pro Kapsel und setzt auf eine schlanke Rezeptur ohne Magnesiumstearat."
+      pros:
+        - "**Studiennahe 3-mg-Dosierung**"
+        - "**FruiteX-B Markenrohstoff**"
+        - "**Vegane Kapseln**"
+        - "**100 Portionen pro Dose**"
+      cons:
+        - "**Keine unabhängige Zertifizierung**"
+        - "**Bor ist Nischen-Nährstoff:** Nutzen stark vom individuellen Status abhängig"
+        - "**Keine Kombi mit Vitamin D oder Magnesium**"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Nicht dauerhaft über 3 mg gehen, es sei denn ärztlich empfohlen. Bei kombinierter Einnahme mit Vitamin D oder K2 auf regelmäßige Laborkontrollen achten."
+  en:
+    summary: "3 mg Bor als FruiteX-B in veganen Kapseln, gute Option für Gelenk- und Knochenfokus ohne überdosierte Protokolle."
+    verdictNote: "Solide Mikro-Mineral-Ergänzung für Bor, wenn Ernährung oder Bodenqualität lückenhaft sind."
+    body:
+      description: "FruiteX-B ist eine natürliche Borverbindung, die in Studien mit 3 mg täglich eingesetzt wurde. Jarrow liefert diese Dosierung pro Kapsel und setzt auf eine schlanke Rezeptur ohne Magnesiumstearat."
+      pros:
+        - "**Studiennahe 3-mg-Dosierung**"
+        - "**FruiteX-B Markenrohstoff**"
+        - "**Vegane Kapseln**"
+        - "**100 Portionen pro Dose**"
+      cons:
+        - "**Keine unabhängige Zertifizierung**"
+        - "**Bor ist Nischen-Nährstoff:** Nutzen stark vom individuellen Status abhängig"
+        - "**Keine Kombi mit Vitamin D oder Magnesium**"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Nicht dauerhaft über 3 mg gehen, es sei denn ärztlich empfohlen. Bei kombinierter Einnahme mit Vitamin D oder K2 auf regelmäßige Laborkontrollen achten."
+---

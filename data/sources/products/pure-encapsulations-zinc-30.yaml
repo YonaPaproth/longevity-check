@@ -1,0 +1,85 @@
+---
+id: pure-encapsulations-zinc-30
+type: product
+
+meta:
+  title: "Pure Encapsulations Zinc 30"
+  ingredient: zink
+  containedIngredients:
+    - slug: zink
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com"
+  affiliateUrl: ""
+  priceEur: 16.9
+  doseMg: 30
+  servingsPerPack: 60
+  pricePerDayEur: 0.28
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Zink hat exzellente Evidenz für Immunfunktion, Wundheilung und Hautgesundheit."
+      en: "Zink hat exzellente Evidenz für Immunfunktion, Wundheilung und Hautgesundheit."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,28 € pro Tag für Premium-Zink-Picolinat ist fair, günstigere Optionen ab 0,05 €."
+      en: "0,28 € pro Tag für Premium-Zink-Picolinat ist fair, günstigere Optionen ab 0,05 €."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Zink-Picolinat — eine der am besten absorbierbaren Zinkformen. Hypoallergene Formel ohne Füllstoffe."
+      en: "Zink-Picolinat — eine der am besten absorbierbaren Zinkformen. Hypoallergene Formel ohne Füllstoffe."
+  labelHonesty:
+    score: 10
+    explanation:
+      de: "Pure Encapsulations ist Branchenstandard für Transparenz. Minimale Inhaltsstoffe, alles deklariert."
+      en: "Pure Encapsulations ist Branchenstandard für Transparenz. Minimale Inhaltsstoffe, alles deklariert."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF-registriert, GMP-zertifiziert, jede Charge laborgeprüft."
+      en: "NSF-registriert, GMP-zertifiziert, jede Charge laborgeprüft."
+
+locales:
+  de:
+    summary: "Zink-Picolinat mit 30 mg elementarem Zink, hypoallergen, frei von Zusatzstoffen."
+    verdictNote: "Premium-Zink in bester Picolinat-Form. Pure Encapsulations Qualität zum fairen Preis."
+    body:
+      description: "Pure Encapsulations liefert 30 mg elementares Zink als Zink-Picolinat — eine Chelat-Form mit hoher Bioverfügbarkeit. Wie bei allen Pure-Encapsulations-Produkten: hypoallergen, frei von Gluten, Soja, Magnesiumstearat und künstlichen Zusatzstoffen."
+      pros:
+        - "Zink-Picolinat — eine der am besten absorbierbaren Formen"
+        - "30 mg deckt 300 % des NRV — therapeutisch relevant"
+        - "Hypoallergene Formel, ideal für Allergiker"
+        - "Pure Encapsulations Qualitätsstandard"
+      cons:
+        - "30 mg kann bei Langzeiteinnahme Kupfermangel verursachen"
+        - "Kein Kupfer als Gegenspieler enthalten"
+        - "60 Kapseln = 2 Monate, relativ kleine Packung"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei Langzeiteinnahme >25 mg Zink: Kupferstatus überwachen. Nicht zusammen mit Eisen oder Calcium einnehmen."
+  en:
+    summary: "Zink-Picolinat mit 30 mg elementarem Zink, hypoallergen, frei von Zusatzstoffen."
+    verdictNote: "Premium-Zink in bester Picolinat-Form. Pure Encapsulations Qualität zum fairen Preis."
+    body:
+      description: "Pure Encapsulations liefert 30 mg elementares Zink als Zink-Picolinat — eine Chelat-Form mit hoher Bioverfügbarkeit. Wie bei allen Pure-Encapsulations-Produkten: hypoallergen, frei von Gluten, Soja, Magnesiumstearat und künstlichen Zusatzstoffen."
+      pros:
+        - "Zink-Picolinat — eine der am besten absorbierbaren Formen"
+        - "30 mg deckt 300 % des NRV — therapeutisch relevant"
+        - "Hypoallergene Formel, ideal für Allergiker"
+        - "Pure Encapsulations Qualitätsstandard"
+      cons:
+        - "30 mg kann bei Langzeiteinnahme Kupfermangel verursachen"
+        - "Kein Kupfer als Gegenspieler enthalten"
+        - "60 Kapseln = 2 Monate, relativ kleine Packung"
+      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei Langzeiteinnahme >25 mg Zink: Kupferstatus überwachen. Nicht zusammen mit Eisen oder Calcium einnehmen."
+---

@@ -1,0 +1,81 @@
+---
+id: now-foods-vitamin-d3-5000
+type: product
+
+meta:
+  title: "NOW Foods Vitamin D3 5000 IU"
+  ingredient: vitamin-d3
+  containedIngredients:
+    - slug: vitamin-d3
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 18
+  doseMg: 0.125
+  servingsPerPack: 120
+  pricePerDayEur: 0.15
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Vitamin D3 hat eine massive Evidenzbasis für Knochen und normale Immunfunktion."
+      en: "Vitamin D3 hat eine massive Evidenzbasis für Knochen und normale Immunfunktion."
+  valueForMoney:
+    score: 10
+    explanation:
+      de: "0,15 € pro 5000 IU ist kaum zu schlagen."
+      en: "0,15 € pro 5000 IU ist kaum zu schlagen."
+  productQuality:
+    score: 8
+    explanation:
+      de: "D3 aus Lanolin, sauber verarbeitet."
+      en: "D3 aus Lanolin, sauber verarbeitet."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Klare IU- und µg-Angabe."
+      en: "Klare IU- und µg-Angabe."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW testet im eigenen Labor, externe Prüfungen stichprobenartig."
+      en: "NOW testet im eigenen Labor, externe Prüfungen stichprobenartig."
+
+locales:
+  de:
+    summary: "5000 IU Vitamin D3 in MCT-Öl pro Softgel, praktisch für Phasen niedriger Sonnenexposition."
+    verdictNote: "Preislich unauffälliges Standardprodukt für Phasen niedriger Sonnenexposition oder individuell abgestimmte Nutzung."
+    body:
+      description: "Die Softgels enthalten 125 µg (5000 IU) Vitamin D3 gelöst in MCT-Öl. Keine Farb- oder Füllstoffe außer Gelatine und Glycerin."
+      pros:
+        - "Sehr kleine Softgels"
+        - "Lange Haltbarkeit"
+        - "Transparente Dosierung"
+      cons:
+        - "Lanolin-basiert, daher nicht vegan"
+        - "Kein Vitamin K2 enthalten"
+      usage: "1 Softgel täglich zu einer Mahlzeit mit Fett. Serumspiegel nach 3 Monaten prüfen und Dosis anpassen."
+  en:
+    summary: "5000 IU Vitamin D3 in MCT-Öl pro Softgel, praktisch für Phasen niedriger Sonnenexposition."
+    verdictNote: "Preislich unauffälliges Standardprodukt für Phasen niedriger Sonnenexposition oder individuell abgestimmte Nutzung."
+    body:
+      description: "Die Softgels enthalten 125 µg (5000 IU) Vitamin D3 gelöst in MCT-Öl. Keine Farb- oder Füllstoffe außer Gelatine und Glycerin."
+      pros:
+        - "Sehr kleine Softgels"
+        - "Lange Haltbarkeit"
+        - "Transparente Dosierung"
+      cons:
+        - "Lanolin-basiert, daher nicht vegan"
+        - "Kein Vitamin K2 enthalten"
+      usage: "1 Softgel täglich zu einer Mahlzeit mit Fett. Serumspiegel nach 3 Monaten prüfen und Dosis anpassen."
+---

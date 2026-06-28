@@ -1,0 +1,83 @@
+---
+id: now-foods-folate-800
+type: product
+
+meta:
+  title: "NOW Foods Folate 800mcg DFE"
+  ingredient: folsaeure
+  containedIngredients:
+    - slug: folsaeure
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 14
+  doseMg: 1
+  servingsPerPack: 250
+  pricePerDayEur: 0.06
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Aktives Folat unterstützt DNA-Synthese, Schwangerschaftsplanung und Homocysteinmanagement."
+      en: "Aktives Folat unterstützt DNA-Synthese, Schwangerschaftsplanung und Homocysteinmanagement."
+  valueForMoney:
+    score: 10
+    explanation:
+      de: "0,06 € pro Tag für L-5-MTHF ist nahezu unschlagbar günstig."
+      en: "0,06 € pro Tag für L-5-MTHF ist nahezu unschlagbar günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Verwendet Metafolin von Merck, stabile Tabletten ohne problematische Zusatzstoffe."
+      en: "Verwendet Metafolin von Merck, stabile Tabletten ohne problematische Zusatzstoffe."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Transparent zu DFE, aktiver Form und Hilfsstoffen, inklusive glutenfreier Kennzeichnung."
+      en: "Transparent zu DFE, aktiver Form und Hilfsstoffen, inklusive glutenfreier Kennzeichnung."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW testet intern nach GMP, aber kein dediziertes externes Siegel auf der Packung."
+      en: "NOW testet intern nach GMP, aber kein dediziertes externes Siegel auf der Packung."
+
+locales:
+  de:
+    summary: "Metafolin basiertes Folat mit 800 mcg DFE pro Tablette, Non-GMO und besonders geeignet für MTHFR-Träger oder präkonzeptionelle Strategien."
+    verdictNote: "Preisgünstiges aktives Folat für gesundes Altern- und Schwangerschaftsprotokolle."
+    body:
+      description: "Die Folat-Tabletten liefern 800 mcg Dietary Folate Equivalents als patentiertes Metafolin (L-5-Methyltetrahydrofolat). Dadurch entfällt die Umwandlung in der Leber, was besonders für Personen mit MTHFR-Polymorphismen wichtig ist."
+      pros:
+        - "**Aktive Form:** L-5-MTHF übergeht Konversionsprobleme"
+        - "**Non-GMO & allergenarm:** Frei von typischen Problemstoffen"
+        - "**Große Packung:** 250 Portionen reichen für mehr als acht Monate"
+        - "**Guter Hersteller:** NOW ist für strenge Qualitätskontrollen bekannt"
+      cons:
+        - "**Keine Drittzertifizierung:** Wäre bei so kritischem Nährstoff wünschenswert"
+        - "**Tablettenform:** Nicht ideal für Menschen mit Schluckbeschwerden"
+      usage: "Täglich 1 Tablette zu einer Mahlzeit mit Fett einnehmen. Bei Homocystein-Protokollen oft mit B6 und B12 kombinieren."
+  en:
+    summary: "Metafolin basiertes Folat mit 800 mcg DFE pro Tablette, Non-GMO und besonders geeignet für MTHFR-Träger oder präkonzeptionelle Strategien."
+    verdictNote: "Preisgünstiges aktives Folat für gesundes Altern- und Schwangerschaftsprotokolle."
+    body:
+      description: "Die Folat-Tabletten liefern 800 mcg Dietary Folate Equivalents als patentiertes Metafolin (L-5-Methyltetrahydrofolat). Dadurch entfällt die Umwandlung in der Leber, was besonders für Personen mit MTHFR-Polymorphismen wichtig ist."
+      pros:
+        - "**Aktive Form:** L-5-MTHF übergeht Konversionsprobleme"
+        - "**Non-GMO & allergenarm:** Frei von typischen Problemstoffen"
+        - "**Große Packung:** 250 Portionen reichen für mehr als acht Monate"
+        - "**Guter Hersteller:** NOW ist für strenge Qualitätskontrollen bekannt"
+      cons:
+        - "**Keine Drittzertifizierung:** Wäre bei so kritischem Nährstoff wünschenswert"
+        - "**Tablettenform:** Nicht ideal für Menschen mit Schluckbeschwerden"
+      usage: "Täglich 1 Tablette zu einer Mahlzeit mit Fett einnehmen. Bei Homocystein-Protokollen oft mit B6 und B12 kombinieren."
+---

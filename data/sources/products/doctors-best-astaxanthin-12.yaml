@@ -1,0 +1,83 @@
+---
+id: doctors-best-astaxanthin-12
+type: product
+
+meta:
+  title: "Doctor's Best Astaxanthin 12mg"
+  ingredient: astaxanthin
+  containedIngredients:
+    - slug: astaxanthin
+  vendor: "Doctor's Best"
+  vendorUrl: "https://doctorsbest.com"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 12
+  servingsPerPack: 60
+  pricePerDayEur: 0.47
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Astaxanthin zeigt moderate klinische Daten zu Hautelastizität und Muskelregeneration."
+      en: "Astaxanthin zeigt moderate klinische Daten zu Hautelastizität und Muskelregeneration."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,47 € pro 12 mg AstaReal ist stark, viele Konkurrenten liegen über 0,60 €."
+      en: "0,47 € pro 12 mg AstaReal ist stark, viele Konkurrenten liegen über 0,60 €."
+  productQuality:
+    score: 8
+    explanation:
+      de: "AstaReal kultiviert Haematococcus pluvialis in geschlossenen Systemen, Softgels werden kalt abgefüllt."
+      en: "AstaReal kultiviert Haematococcus pluvialis in geschlossenen Systemen, Softgels werden kalt abgefüllt."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Markenrohstoff und 12-mg-Dosierung klar benannt, Hilfsstoffe transparent."
+      en: "Markenrohstoff und 12-mg-Dosierung klar benannt, Hilfsstoffe transparent."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "COAs verfügbar, Doctor's Best veröffentlicht Schwermetall- und Potenzdaten stichprobenartig."
+      en: "COAs verfügbar, Doctor's Best veröffentlicht Schwermetall- und Potenzdaten stichprobenartig."
+
+locales:
+  de:
+    summary: "12 mg AstaReal Markenrohstoff pro Softgel mit natürlichem Tocopherol und Algenöl-Träger."
+    verdictNote: "gute Preis-Leistung für 12 mg Astaxanthin mit vertrauenswürdigem AstaReal-Rohstoff."
+    body:
+      description: "Die Softgels liefern 12 mg Astaxanthin aus Haematococcus pluvialis, gelöst in extra nativem Olivenöl und Sonnenblumenlecithin. Keine synthetischen Farb- oder Konservierungsstoffe."
+      pros:
+        - "AstaReal Markenrohstoff mit Rückverfolgbarkeit"
+        - "Hohe 12-mg-Dosis pro Softgel"
+        - "Glutenfrei und Non-GMO"
+        - "Enthält natürliche Tocopherole als Synergie"
+      cons:
+        - "Softgel aus Gelatine, nicht vegan"
+        - "Keine veröffentlichten Daten zur Photostabilität"
+      usage: "1 Softgel täglich mit einer fetthaltigen Mahlzeit. Bei hoher Sonnenexposition 2 Softgels auf morgens und abends aufteilen."
+  en:
+    summary: "12 mg AstaReal Markenrohstoff pro Softgel mit natürlichem Tocopherol und Algenöl-Träger."
+    verdictNote: "gute Preis-Leistung für 12 mg Astaxanthin mit vertrauenswürdigem AstaReal-Rohstoff."
+    body:
+      description: "Die Softgels liefern 12 mg Astaxanthin aus Haematococcus pluvialis, gelöst in extra nativem Olivenöl und Sonnenblumenlecithin. Keine synthetischen Farb- oder Konservierungsstoffe."
+      pros:
+        - "AstaReal Markenrohstoff mit Rückverfolgbarkeit"
+        - "Hohe 12-mg-Dosis pro Softgel"
+        - "Glutenfrei und Non-GMO"
+        - "Enthält natürliche Tocopherole als Synergie"
+      cons:
+        - "Softgel aus Gelatine, nicht vegan"
+        - "Keine veröffentlichten Daten zur Photostabilität"
+      usage: "1 Softgel täglich mit einer fetthaltigen Mahlzeit. Bei hoher Sonnenexposition 2 Softgels auf morgens und abends aufteilen."
+---

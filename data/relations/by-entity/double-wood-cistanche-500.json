@@ -1,0 +1,11 @@
+{
+  "entity": "double-wood-cistanche-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "cistanche",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

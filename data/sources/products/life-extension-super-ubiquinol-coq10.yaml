@@ -1,0 +1,84 @@
+---
+id: life-extension-super-ubiquinol-coq10
+type: product
+
+meta:
+  title: "Life Extension Super Ubiquinol CoQ10 100mg"
+  ingredient: coq10
+  containedIngredients:
+    - slug: coq10
+    - slug: piperin
+    - slug: alpha-liponsaeure
+    - slug: vitamin-e
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextensioneurope.de"
+  affiliateUrl: ""
+  priceEur: 60
+  doseMg: 100
+  servingsPerPack: 30
+  pricePerDayEur: 2
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["informed-choice"]
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Ubiquinol zeigt Vorteile bei mitochondrialer Leistung ähnlich wie Ubiquinon."
+      en: "Ubiquinol zeigt Vorteile bei mitochondrialer Leistung ähnlich wie Ubiquinon."
+  valueForMoney:
+    score: 5
+    explanation:
+      de: "2,00 € pro Portion ist teuer, selbst für Ubiquinol."
+      en: "2,00 € pro Portion ist teuer, selbst für Ubiquinol."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Kaneka-Rohstoff plus Tocotrienole als Antioxidationsschutz."
+      en: "Kaneka-Rohstoff plus Tocotrienole als Antioxidationsschutz."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Makellose Deklaration inkl. Pfefferextrakt und Tocopherolmischung."
+      en: "Makellose Deklaration inkl. Pfefferextrakt und Tocopherolmischung."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Life Extension veröffentlicht COAs und verweist auf Kaneka-Inhouse-Tests."
+      en: "Life Extension veröffentlicht COAs und verweist auf Kaneka-Inhouse-Tests."
+
+locales:
+  de:
+    summary: "Kaneka Ubiquinol mit schwarzem Pfeffer-Extrakt für bessere Absorption, allerdings hochpreisig."
+    verdictNote: "Wer unbedingt Ubiquinol statt Ubiquinon will, bekommt hier Spitzenqualität – aber zum Premiumpreis."
+    body:
+      description: "Super Ubiquinol kombiniert den reduzierten CoQ10-Status mit schwarzem Pfeffer Extrakt und Alpha-Liponsäure. Die Softgels sind klein und einfach zu schlucken."
+      pros:
+        - "Kaneka-Logo garantiert Herkunft"
+        - "Zusätzliche Tocotrienole gegen Oxidation"
+        - "Stabile Blister-Box für Reisen"
+      cons:
+        - "Sehr hoher Preis pro Tag"
+        - "Nur 30 Softgels pro Dose"
+      usage: "1 Softgel mit der fettreichsten Mahlzeit des Tages. Bei Statintherapie vorher ärztliche Abklärung einholen."
+  en:
+    summary: "Kaneka Ubiquinol mit schwarzem Pfeffer-Extrakt für bessere Absorption, allerdings hochpreisig."
+    verdictNote: "Wer unbedingt Ubiquinol statt Ubiquinon will, bekommt hier Spitzenqualität – aber zum Premiumpreis."
+    body:
+      description: "Super Ubiquinol kombiniert den reduzierten CoQ10-Status mit schwarzem Pfeffer Extrakt und Alpha-Liponsäure. Die Softgels sind klein und einfach zu schlucken."
+      pros:
+        - "Kaneka-Logo garantiert Herkunft"
+        - "Zusätzliche Tocotrienole gegen Oxidation"
+        - "Stabile Blister-Box für Reisen"
+      cons:
+        - "Sehr hoher Preis pro Tag"
+        - "Nur 30 Softgels pro Dose"
+      usage: "1 Softgel mit der fettreichsten Mahlzeit des Tages. Bei Statintherapie vorher ärztliche Abklärung einholen."
+---

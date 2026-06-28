@@ -1,0 +1,81 @@
+---
+id: jarrow-vitamin-e-200
+type: product
+
+meta:
+  title: "Jarrow Formulas Vitamin E 200 IU"
+  ingredient: vitamin-e
+  containedIngredients:
+    - slug: vitamin-e
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://jarrow.com/products/vitamin-e-200-iu"
+  affiliateUrl: ""
+  priceEur: 22
+  doseMg: 134
+  servingsPerPack: 100
+  pricePerDayEur: 0.22
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Vitamin E zeigt Nutzen bei Mangel oder hoher oxidativer Belastung, aber RCTs sind gemischt."
+      en: "Vitamin E zeigt Nutzen bei Mangel oder hoher oxidativer Belastung, aber RCTs sind gemischt."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,22 € pro 200 IU gemischter Tocopherole ist sehr vernünftig."
+      en: "0,22 € pro 200 IU gemischter Tocopherole ist sehr vernünftig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Jarrow nutzt natürliche Quellen und vegane Softgels ohne Carrageen."
+      en: "Jarrow nutzt natürliche Quellen und vegane Softgels ohne Carrageen."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Alle Tocopherol-Anteile werden prozentual angegeben."
+      en: "Alle Tocopherol-Anteile werden prozentual angegeben."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Jarrow veröffentlicht COAs und wird regelmäßig von Labdoor geprüft."
+      en: "Jarrow veröffentlicht COAs und wird regelmäßig von Labdoor geprüft."
+
+locales:
+  de:
+    summary: "Gemischte Tocopherole (d-alpha, beta, gamma, delta) in veganen Softgels mit 200 IU pro Portion für breites Antioxidantenspektrum."
+    verdictNote: "Wer eine gemischte Tocopherolquelle sucht, findet hier vegane Softgels zum fairen Preis."
+    body:
+      description: "Jarrow liefert 200 IU natürliche d-alpha-Tocopherole mit ergänzenden beta-, gamma- und delta-Isomeren in MCT-Öl. Die Softgelhülle ist komplett pflanzlich."
+      pros:
+        - "Volles Tocopherolprofil statt isoliertem d-alpha"
+        - "Vegane Softgelhülle"
+        - "Laborgeprüfte Oxidationswerte"
+      cons:
+        - "Keine Tocotrienole enthalten"
+        - "Softgels enthalten Sojaöl als Quelle"
+      usage: "1 Softgel täglich zu einer Mahlzeit mit Fett. Bei Kombi mit Fischöl Einnahme trennen, um Aufstoßen zu vermeiden."
+  en:
+    summary: "Gemischte Tocopherole (d-alpha, beta, gamma, delta) in veganen Softgels mit 200 IU pro Portion für breites Antioxidantenspektrum."
+    verdictNote: "Wer eine gemischte Tocopherolquelle sucht, findet hier vegane Softgels zum fairen Preis."
+    body:
+      description: "Jarrow liefert 200 IU natürliche d-alpha-Tocopherole mit ergänzenden beta-, gamma- und delta-Isomeren in MCT-Öl. Die Softgelhülle ist komplett pflanzlich."
+      pros:
+        - "Volles Tocopherolprofil statt isoliertem d-alpha"
+        - "Vegane Softgelhülle"
+        - "Laborgeprüfte Oxidationswerte"
+      cons:
+        - "Keine Tocotrienole enthalten"
+        - "Softgels enthalten Sojaöl als Quelle"
+      usage: "1 Softgel täglich zu einer Mahlzeit mit Fett. Bei Kombi mit Fischöl Einnahme trennen, um Aufstoßen zu vermeiden."
+---

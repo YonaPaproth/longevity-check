@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-tongkat-ali-400",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "tongkat-ali",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

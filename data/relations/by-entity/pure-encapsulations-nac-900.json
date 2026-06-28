@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-nac-900",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nac",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

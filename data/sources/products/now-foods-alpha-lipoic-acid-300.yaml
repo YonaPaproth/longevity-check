@@ -1,0 +1,81 @@
+---
+id: now-foods-alpha-lipoic-acid-300
+type: product
+
+meta:
+  title: "NOW Foods Alpha Lipoic Acid 300"
+  ingredient: alpha-liponsaeure
+  containedIngredients:
+    - slug: alpha-liponsaeure
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 31
+  doseMg: 300
+  servingsPerPack: 120
+  pricePerDayEur: 0.26
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "ALA hat Humanstudien zu Neuropathie und Glukosekontrolle."
+      en: "ALA hat Humanstudien zu Neuropathie und Glukosekontrolle."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,26 € pro 300 mg ist hervorragend."
+      en: "0,26 € pro 300 mg ist hervorragend."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Synthese nach GMP, enthält beide Isomere (R/S)."
+      en: "Synthese nach GMP, enthält beide Isomere (R/S)."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare Angabe zu R/S-Standardform."
+      en: "Klare Angabe zu R/S-Standardform."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Inhouse-Tests, kein USP/NSF-Siegel."
+      en: "Inhouse-Tests, kein USP/NSF-Siegel."
+
+locales:
+  de:
+    summary: "300 mg Alpha-Liponsäure in veganen Kapseln – unterstützt antioxidative Systeme und Nerven."
+    verdictNote: "Hohe Portionenzahl und flexible Dosierung machen das Produkt universell einsetzbar."
+    body:
+      description: "NOW liefert 300 mg racemische Alpha-Liponsäure in einfachen Cellulosekapseln. Die hohe Portionszahl erlaubt sowohl tägliche 300 mg als auch geteilte Dosen."
+      pros:
+        - "120 Portionen pro Dose"
+        - "Vegan und glutenfrei"
+        - "Günstiger Preis"
+      cons:
+        - "R/S-Racemischung, kein reines R-Isomer"
+        - "Kann nüchtern zu Magenbrennen führen"
+      usage: "1 Kapsel 30 Minuten vor dem Essen oder weit entfernt von Mineralstoff-Supplements."
+  en:
+    summary: "300 mg Alpha-Liponsäure in veganen Kapseln – unterstützt antioxidative Systeme und Nerven."
+    verdictNote: "Hohe Portionenzahl und flexible Dosierung machen das Produkt universell einsetzbar."
+    body:
+      description: "NOW liefert 300 mg racemische Alpha-Liponsäure in einfachen Cellulosekapseln. Die hohe Portionszahl erlaubt sowohl tägliche 300 mg als auch geteilte Dosen."
+      pros:
+        - "120 Portionen pro Dose"
+        - "Vegan und glutenfrei"
+        - "Günstiger Preis"
+      cons:
+        - "R/S-Racemischung, kein reines R-Isomer"
+        - "Kann nüchtern zu Magenbrennen führen"
+      usage: "1 Kapsel 30 Minuten vor dem Essen oder weit entfernt von Mineralstoff-Supplements."
+---

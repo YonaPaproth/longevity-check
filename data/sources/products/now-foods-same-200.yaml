@@ -1,0 +1,85 @@
+---
+id: now-foods-same-200
+type: product
+
+meta:
+  title: "NOW Foods SAMe 200 mg"
+  ingredient: same
+  containedIngredients:
+    - slug: same
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com/supplements/same-200-mg"
+  affiliateUrl: ""
+  priceEur: 28
+  doseMg: 200
+  servingsPerPack: 60
+  pricePerDayEur: 0.47
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "SAMe hat Evidenz bei Stimmung und Lebergesundheit, 200 mg eignet sich für Einstiegsdosierungen oder Split-Use."
+      en: "SAMe hat Evidenz bei Stimmung und Lebergesundheit, 200 mg eignet sich für Einstiegsdosierungen oder Split-Use."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,47 € pro 200 mg ist solide, besonders dank 60 Portionen pro Packung."
+      en: "0,47 € pro 200 mg ist solide, besonders dank 60 Portionen pro Packung."
+  productQuality:
+    score: 8
+    explanation:
+      de: "NOW nutzt streng qualitätsorientierte Reinheit, doppelte Folienblister und enterische Beschichtung."
+      en: "NOW nutzt streng qualitätsorientierte Reinheit, doppelte Folienblister und enterische Beschichtung."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare Hinweise zu Langlebigkeit, Wechselwirkungen und Aufbewahrung."
+      en: "Klare Hinweise zu Langlebigkeit, Wechselwirkungen und Aufbewahrung."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "GMP und interne Analysen, jedoch kein offizielles NSF-Siegel."
+      en: "GMP und interne Analysen, jedoch kein offizielles NSF-Siegel."
+
+locales:
+  de:
+    summary: "200-mg-SAMe aus streng qualitätsorientierter Produktion, doppelt enterisch beschichtet und preislich attraktiv für den Alltag."
+    verdictNote: "Praktisch für Nutzer:innen, die SAMe titrieren oder mit 400 mg splitten wollen."
+    body:
+      description: "NOW Foods liefert **200 mg SAMe** pro enterisch beschichteter Tablette. Durch die kleinere Dosierung lässt sich flexibel auf 400–600 mg hochdosieren, ohne ganze Tabletten teilen zu müssen."
+      pros:
+        - "**60 Portionen** decken zwei Monate bei 200 mg"
+        - "**Doppelt versiegelte Blister** für Frische"
+        - "**Pharmazeutische Qualität** nach GMP"
+        - "**Preislich unter den meisten Marken**"
+      cons:
+        - "**200 mg oft zu niedrig**, wenn therapeutische Effekte gesucht werden"
+        - "**Tabletten nicht vegan zertifiziert**"
+        - "**Kein offizielles Labreport-Download**"
+      usage: "1 Tablette morgens nüchtern, bei Bedarf zweite Tablette mittags. Immer mit ärztlicher Begleitung kombinieren, falls Antidepressiva oder Lebermedikation im Spiel sind."
+  en:
+    summary: "200-mg-SAMe aus streng qualitätsorientierter Produktion, doppelt enterisch beschichtet und preislich attraktiv für den Alltag."
+    verdictNote: "Praktisch für Nutzer:innen, die SAMe titrieren oder mit 400 mg splitten wollen."
+    body:
+      description: "NOW Foods liefert **200 mg SAMe** pro enterisch beschichteter Tablette. Durch die kleinere Dosierung lässt sich flexibel auf 400–600 mg hochdosieren, ohne ganze Tabletten teilen zu müssen."
+      pros:
+        - "**60 Portionen** decken zwei Monate bei 200 mg"
+        - "**Doppelt versiegelte Blister** für Frische"
+        - "**Pharmazeutische Qualität** nach GMP"
+        - "**Preislich unter den meisten Marken**"
+      cons:
+        - "**200 mg oft zu niedrig**, wenn therapeutische Effekte gesucht werden"
+        - "**Tabletten nicht vegan zertifiziert**"
+        - "**Kein offizielles Labreport-Download**"
+      usage: "1 Tablette morgens nüchtern, bei Bedarf zweite Tablette mittags. Immer mit ärztlicher Begleitung kombinieren, falls Antidepressiva oder Lebermedikation im Spiel sind."
+---

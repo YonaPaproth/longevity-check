@@ -1,0 +1,81 @@
+---
+id: swanson-vitamin-d3-5000
+type: product
+
+meta:
+  title: "Swanson Vitamin D3 5000 IU"
+  ingredient: vitamin-d3
+  containedIngredients:
+    - slug: vitamin-d3
+  vendor: "Swanson"
+  vendorUrl: "https://www.swansonvitamins.com/p/swanson-ultra-vitamin-d3-5000-iu-250-sgels"
+  affiliateUrl: ""
+  priceEur: 12
+  doseMg: 0.125
+  servingsPerPack: 250
+  pricePerDayEur: 0.05
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Vitamin D3 besitzt vergleichsweise gute Datenlage für Knochen, Immunantwort und Stimmungsstabilität."
+      en: "Vitamin D3 besitzt vergleichsweise gute Datenlage für Knochen, Immunantwort und Stimmungsstabilität."
+  valueForMoney:
+    score: 10
+    explanation:
+      de: "0,05 € pro 5000 IU ist Marktspitze."
+      en: "0,05 € pro 5000 IU ist Marktspitze."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Solide Qualität mit getesteter Potenz, aber kein Premiumöl."
+      en: "Solide Qualität mit getesteter Potenz, aber kein Premiumöl."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "IU- und µg-Werte, Ölbasis und Allergene klar angegeben."
+      en: "IU- und µg-Werte, Ölbasis und Allergene klar angegeben."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Swanson veröffentlicht COAs und lässt zufällig Chargen von unabhängigen Laboren prüfen."
+      en: "Swanson veröffentlicht COAs und lässt zufällig Chargen von unabhängigen Laboren prüfen."
+
+locales:
+  de:
+    summary: "5000-IU-D3-Softgels mit nur 0,05 € pro Tag – bestes Preis-Leistungs-Verhältnis für Langzeiteinnahme."
+    verdictNote: "Wer viel D3 zum kleinsten Preis sucht, wird hier fündig."
+    body:
+      description: "Jede Softgel liefert 125 µg (5000 IU) Vitamin D3 aus Lanolin, gelöst in Olivenöl und eingeschlossen in Gelatine. Die Packung reicht für mehr als acht Monate täglicher Einnahme."
+      pros:
+        - "Extreme Reichweite mit 250 Portionen"
+        - "Sehr niedriger Tagespreis"
+        - "Kompakte Softgels"
+      cons:
+        - "Nicht vegan"
+        - "Kein Vitamin K2 im Mix"
+      usage: "1 Softgel täglich oder gemäß Blutwerten anpassen. Mit fetthaltiger Mahlzeit einnehmen, K2 separat ergänzen."
+  en:
+    summary: "5000-IU-D3-Softgels mit nur 0,05 € pro Tag – bestes Preis-Leistungs-Verhältnis für Langzeiteinnahme."
+    verdictNote: "Wer viel D3 zum kleinsten Preis sucht, wird hier fündig."
+    body:
+      description: "Jede Softgel liefert 125 µg (5000 IU) Vitamin D3 aus Lanolin, gelöst in Olivenöl und eingeschlossen in Gelatine. Die Packung reicht für mehr als acht Monate täglicher Einnahme."
+      pros:
+        - "Extreme Reichweite mit 250 Portionen"
+        - "Sehr niedriger Tagespreis"
+        - "Kompakte Softgels"
+      cons:
+        - "Nicht vegan"
+        - "Kein Vitamin K2 im Mix"
+      usage: "1 Softgel täglich oder gemäß Blutwerten anpassen. Mit fetthaltiger Mahlzeit einnehmen, K2 separat ergänzen."
+---

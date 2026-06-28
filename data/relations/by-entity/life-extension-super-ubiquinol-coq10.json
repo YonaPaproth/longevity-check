@@ -1,0 +1,29 @@
+{
+  "entity": "life-extension-super-ubiquinol-coq10",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "coq10",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "piperin",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "alpha-liponsaeure",
+      "direction": "outgoing",
+      "confidence": 1
+    },
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-e",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

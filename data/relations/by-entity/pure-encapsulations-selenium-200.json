@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-selenium-200",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "selen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

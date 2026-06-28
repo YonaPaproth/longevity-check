@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-lion-s-mane-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "lion-s-mane",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

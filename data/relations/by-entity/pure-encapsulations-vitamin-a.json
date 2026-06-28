@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-vitamin-a",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-a",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

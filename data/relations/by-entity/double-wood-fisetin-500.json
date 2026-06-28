@@ -1,0 +1,11 @@
+{
+  "entity": "double-wood-fisetin-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "fisetin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

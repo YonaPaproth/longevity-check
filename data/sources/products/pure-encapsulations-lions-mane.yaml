@@ -1,0 +1,81 @@
+---
+id: pure-encapsulations-lions-mane
+type: product
+
+meta:
+  title: "Pure Encapsulations Lion's Mane 500"
+  ingredient: lions-mane
+  containedIngredients:
+    - slug: lion-s-mane
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com"
+  affiliateUrl: ""
+  priceEur: 54
+  doseMg: 500
+  servingsPerPack: 90
+  pricePerDayEur: 0.6
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Humanstudien zeigen Verbesserungen bei Nervengesundheit und milden kognitiven Beschwerden."
+      en: "Humanstudien zeigen Verbesserungen bei Nervengesundheit und milden kognitiven Beschwerden."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,60 € pro Tag für einen DNA-getesteten Extrakt ist angemessen."
+      en: "0,60 € pro Tag für einen DNA-getesteten Extrakt ist angemessen."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Pilz-Doppel-Extrakt mit getesteter Beta-Glucan-Quote."
+      en: "Pilz-Doppel-Extrakt mit getesteter Beta-Glucan-Quote."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Angaben zu Hericenon- und Erinacin-Gehalten selten so detailliert."
+      en: "Angaben zu Hericenon- und Erinacin-Gehalten selten so detailliert."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Jede Charge bekommt DNA-Barcoding und Schwermetallprüfung."
+      en: "Jede Charge bekommt DNA-Barcoding und Schwermetallprüfung."
+
+locales:
+  de:
+    summary: "900 mg Hericium erinaceus pro Tagesportion, standardisiert auf Hericenone und Erinacine."
+    verdictNote: "Therapeutisch sauberes Pilzprodukt mit DNA-Verifizierung und hoher Polysaccharid-Transparenz."
+    body:
+      description: "Pure Encapsulations nutzt sowohl Fruchtkörper- als auch Myzel-Extrakte, um die relevanten Hericenone und Erinacine abzudecken. Pro Tagesdosis (2 Kapseln) sind 900 mg konzentrierter Pilzextrakt enthalten."
+      pros:
+        - "DNA-verifizierte Rohstoffe"
+        - "Standardisierung auf Beta-Glucane und Terpenoide"
+        - "Hypoallergene Kapselhülle"
+      cons:
+        - "Kein Hinweis auf dritte Partei wie USP"
+        - "Pilzgeschmack kann bei empfindlichen Personen aufstoßen"
+      usage: "2 Kapseln verteilt über den Tag, vorzugsweise morgens und mittags, nicht direkt vor dem Schlafen wegen möglicher Wachheit."
+  en:
+    summary: "900 mg Hericium erinaceus pro Tagesportion, standardisiert auf Hericenone und Erinacine."
+    verdictNote: "Therapeutisch sauberes Pilzprodukt mit DNA-Verifizierung und hoher Polysaccharid-Transparenz."
+    body:
+      description: "Pure Encapsulations nutzt sowohl Fruchtkörper- als auch Myzel-Extrakte, um die relevanten Hericenone und Erinacine abzudecken. Pro Tagesdosis (2 Kapseln) sind 900 mg konzentrierter Pilzextrakt enthalten."
+      pros:
+        - "DNA-verifizierte Rohstoffe"
+        - "Standardisierung auf Beta-Glucane und Terpenoide"
+        - "Hypoallergene Kapselhülle"
+      cons:
+        - "Kein Hinweis auf dritte Partei wie USP"
+        - "Pilzgeschmack kann bei empfindlichen Personen aufstoßen"
+      usage: "2 Kapseln verteilt über den Tag, vorzugsweise morgens und mittags, nicht direkt vor dem Schlafen wegen möglicher Wachheit."
+---

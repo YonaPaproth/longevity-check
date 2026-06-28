@@ -68,6 +68,12 @@
       "description": "Ingredient is contraindicated for a condition",
       "usedIn": ["ingredient"],
       "targetTypes": ["symptom"]
+    },
+    {
+      "type": "enthaelt",
+      "description": "Product contains an ingredient",
+      "usedIn": ["product"],
+      "targetTypes": ["ingredient"]
     }
   ],
   "notes": [

@@ -1,0 +1,11 @@
+{
+  "entity": "double-wood-alpha-gpc-600",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "alpha-gpc",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

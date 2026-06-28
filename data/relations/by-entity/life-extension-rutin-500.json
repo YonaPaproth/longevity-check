@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-rutin-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "rutin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

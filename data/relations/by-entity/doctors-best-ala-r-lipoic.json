@@ -1,0 +1,11 @@
+{
+  "entity": "doctors-best-ala-r-lipoic",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "alpha-liponsaeure",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

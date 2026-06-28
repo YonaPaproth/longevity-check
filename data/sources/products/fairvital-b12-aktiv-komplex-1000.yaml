@@ -1,0 +1,85 @@
+---
+id: fairvital-b12-aktiv-komplex-1000
+type: product
+
+meta:
+  title: "Fairvital B-12 Aktiv-Komplex 1000 µg"
+  ingredient: vitamin-b12
+  containedIngredients:
+    - slug: vitamin-b12
+  vendor: "Fairvital"
+  vendorUrl: "https://fairvital.com/B-12-Aktiv-Komplex-1000-g-90-Kapseln-Schluckfreundlich-Vegan-Fairvital-92509"
+  affiliateUrl: ""
+  priceEur: 16.95
+  doseMg: 1
+  servingsPerPack: 90
+  pricePerDayEur: 0.19
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Vitamin B12 ist bei veganer oder vegetarischer Ernährung einer der am besten begründbaren Supplement-Fälle überhaupt. Die Evidenz für Mangelprävention und Korrektur ist stark."
+      en: "Vitamin B12 ist bei veganer oder vegetarischer Ernährung einer der am besten begründbaren Supplement-Fälle überhaupt. Die Evidenz für Mangelprävention und Korrektur ist stark."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,19 € pro Tag für 90 Tage ist fair, auch wenn es noch günstigere B12-Optionen gibt. Für die Kombination aus zwei aktiven Formen ist der Preis okay."
+      en: "0,19 € pro Tag für 90 Tage ist fair, auch wenn es noch günstigere B12-Optionen gibt. Für die Kombination aus zwei aktiven Formen ist der Preis okay."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Hergestellt in Deutschland, vegane Kapseln und saubere Positionierung. Kein Premium-Lab-Brand, aber insgesamt ordentlich."
+      en: "Hergestellt in Deutschland, vegane Kapseln und saubere Positionierung. Kein Premium-Lab-Brand, aber insgesamt ordentlich."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Fairvital kommuniziert die B12-Formen transparent und bleibt im Rahmen zulässiger Nährstoffkommunikation. Kein aggressiver Biohacker-Hype."
+      en: "Fairvital kommuniziert die B12-Formen transparent und bleibt im Rahmen zulässiger Nährstoffkommunikation. Kein aggressiver Biohacker-Hype."
+  thirdPartyTesting:
+    score: 4
+    explanation:
+      de: "Es gibt keine starke unabhängige Drittanbieter-Zertifizierung wie NSF oder USP. Die Qualität stützt sich vor allem auf Herstellerangaben und HACCP/GMP-nahe Standards."
+      en: "Es gibt keine starke unabhängige Drittanbieter-Zertifizierung wie NSF oder USP. Die Qualität stützt sich vor allem auf Herstellerangaben und HACCP/GMP-nahe Standards."
+
+locales:
+  de:
+    summary: "Solider veganer B12-Basis-Stack mit Methyl- und Adenosylcobalamin. Sinnvoll für Vegetarier und Veganer, ohne unnötige Fancy-Claims."
+    verdictNote: "Für den Ernährungscheck ist das eine sehr brauchbare Standard-Empfehlung für Vitamin B12 — vor allem bei veganer oder vegetarischer Ernährung."
+    body:
+      description: "Der B-12 Aktiv-Komplex von Fairvital kombiniert die beiden bioaktiven Formen **Methylcobalamin** und **Adenosylcobalamin**. Das ist sinnvoller als ein reines Billigprodukt auf Basis von Cyanocobalamin, wenn man eine eher hochwertige Standardlösung sucht."
+      pros:
+        - "**Für die Zielgruppe relevant:** Besonders sinnvoll für Veganer, Vegetarier und Personen mit niedrigem B12-Status"
+        - "**Aktive B12-Formen:** Methyl- und Adenosylcobalamin statt nur synthetischer Basisform"
+        - "**Einfacher Basic-Pick:** Keine übertriebene Spezialformulierung, sondern ein verständliches Standardprodukt"
+        - "**Gute Packungsgröße:** 90 Portionen reichen für drei Monate"
+      cons:
+        - "**Keine starke Drittanbieter-Zertifizierung**"
+        - "**Nicht die günstigste B12-Option am Markt**"
+        - "**Kein Sublingual-/Lutschformat:** Für manche Nutzer wäre das praktischer als Kapseln"
+      usage: ""
+  en:
+    summary: "Solider veganer B12-Basis-Stack mit Methyl- und Adenosylcobalamin. Sinnvoll für Vegetarier und Veganer, ohne unnötige Fancy-Claims."
+    verdictNote: "Für den Ernährungscheck ist das eine sehr brauchbare Standard-Empfehlung für Vitamin B12 — vor allem bei veganer oder vegetarischer Ernährung."
+    body:
+      description: "Der B-12 Aktiv-Komplex von Fairvital kombiniert die beiden bioaktiven Formen **Methylcobalamin** und **Adenosylcobalamin**. Das ist sinnvoller als ein reines Billigprodukt auf Basis von Cyanocobalamin, wenn man eine eher hochwertige Standardlösung sucht."
+      pros:
+        - "**Für die Zielgruppe relevant:** Besonders sinnvoll für Veganer, Vegetarier und Personen mit niedrigem B12-Status"
+        - "**Aktive B12-Formen:** Methyl- und Adenosylcobalamin statt nur synthetischer Basisform"
+        - "**Einfacher Basic-Pick:** Keine übertriebene Spezialformulierung, sondern ein verständliches Standardprodukt"
+        - "**Gute Packungsgröße:** 90 Portionen reichen für drei Monate"
+      cons:
+        - "**Keine starke Drittanbieter-Zertifizierung**"
+        - "**Nicht die günstigste B12-Option am Markt**"
+        - "**Kein Sublingual-/Lutschformat:** Für manche Nutzer wäre das praktischer als Kapseln"
+      usage: ""
+---

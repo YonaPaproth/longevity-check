@@ -1,0 +1,81 @@
+---
+id: life-extension-bacopa
+type: product
+
+meta:
+  title: "Life Extension Bacopa 300"
+  ingredient: bacopa
+  containedIngredients:
+    - slug: bacopa
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextension.com"
+  affiliateUrl: ""
+  priceEur: 24
+  doseMg: 300
+  servingsPerPack: 60
+  pricePerDayEur: 0.4
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Bacopa hat mehrere RCTs zu Gedächtnis und Stressresilienz."
+      en: "Bacopa hat mehrere RCTs zu Gedächtnis und Stressresilienz."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,40 € pro Tag für 300 mg 24 %-Extrakt ist stark."
+      en: "0,40 € pro Tag für 300 mg 24 %-Extrakt ist stark."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Extrakt stammt aus Indien, getestet auf Pestizide und Schwermetalle."
+      en: "Extrakt stammt aus Indien, getestet auf Pestizide und Schwermetalle."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Bacosidstandardisierung klar angegeben."
+      en: "Bacosidstandardisierung klar angegeben."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Keine externe Zertifizierung, aber interne HPLC-Berichte verfügbar."
+      en: "Keine externe Zertifizierung, aber interne HPLC-Berichte verfügbar."
+
+locales:
+  de:
+    summary: "Standardisierte Bacopa-Monnieri-Kapseln mit 24 % Bacosiden für saubere Neuro-Kontexts-Protokolle."
+    verdictNote: "Hoch standardisierter Extrakt, günstiger Preis und zuverlässiger Hersteller."
+    body:
+      description: "Life Extension setzt auf einen Bacopa-Extrakt mit 24 % Bacosiden, was klinisch relevante Werte widerspiegelt. Die Kapseln sind vegetarisch und enthalten keine unnötigen Füllstoffe."
+      pros:
+        - "24 % Bacoside – die Zielgröße aus Studien"
+        - "Sehr niedriger Tagespreis"
+        - "Keine künstlichen Farbstoffe"
+      cons:
+        - "Kann bei nüchterner Einnahme Magenbeschwerden verursachen"
+        - "Leichter Kräutergeruch"
+      usage: "1 Kapsel mit dem Frühstück; für akute Stressphasen optional eine zweite Kapsel am Abend."
+  en:
+    summary: "Standardisierte Bacopa-Monnieri-Kapseln mit 24 % Bacosiden für saubere Neuro-Kontexts-Protokolle."
+    verdictNote: "Hoch standardisierter Extrakt, günstiger Preis und zuverlässiger Hersteller."
+    body:
+      description: "Life Extension setzt auf einen Bacopa-Extrakt mit 24 % Bacosiden, was klinisch relevante Werte widerspiegelt. Die Kapseln sind vegetarisch und enthalten keine unnötigen Füllstoffe."
+      pros:
+        - "24 % Bacoside – die Zielgröße aus Studien"
+        - "Sehr niedriger Tagespreis"
+        - "Keine künstlichen Farbstoffe"
+      cons:
+        - "Kann bei nüchterner Einnahme Magenbeschwerden verursachen"
+        - "Leichter Kräutergeruch"
+      usage: "1 Kapsel mit dem Frühstück; für akute Stressphasen optional eine zweite Kapsel am Abend."
+---

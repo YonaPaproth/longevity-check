@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-astaxanthin-6",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "astaxanthin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

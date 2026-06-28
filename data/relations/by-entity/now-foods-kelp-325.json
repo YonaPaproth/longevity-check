@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-kelp-325",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "jod",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

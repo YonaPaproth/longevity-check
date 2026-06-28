@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-artichoke-leaf",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "luteolin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

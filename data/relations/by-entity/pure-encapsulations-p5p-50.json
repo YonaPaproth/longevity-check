@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-p5p-50",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-b6",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

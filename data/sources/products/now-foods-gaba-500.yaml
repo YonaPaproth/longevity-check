@@ -1,0 +1,82 @@
+---
+id: now-foods-gaba-500
+type: product
+
+meta:
+  title: "NOW Foods GABA 500mg"
+  ingredient: gaba
+  containedIngredients:
+    - slug: gaba
+    - slug: vitamin-b6
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 18
+  doseMg: 500
+  servingsPerPack: 100
+  pricePerDayEur: 0.18
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "GABA oral hat gemischte Daten, aber kleine Studien zeigen Stressreduktion."
+      en: "GABA oral hat gemischte Daten, aber kleine Studien zeigen Stressreduktion."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,18 € pro Portion inklusive B6-Co-Faktor ist günstig."
+      en: "0,18 € pro Portion inklusive B6-Co-Faktor ist günstig."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Fermentatives GABA mit GMP-Qualität."
+      en: "Fermentatives GABA mit GMP-Qualität."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklariert die genaue Menge B6."
+      en: "Deklariert die genaue Menge B6."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "NOW testet intern, gelegentlich externe Verifizierung."
+      en: "NOW testet intern, gelegentlich externe Verifizierung."
+
+locales:
+  de:
+    summary: "500 mg GABA mit Vitamin B6 zur besseren Umwandlung, Non-GMO und GMP-geprüft."
+    verdictNote: "Günstige Wahl für Abend-Rituale, sofern man auf die subjektive Wirkung anspricht."
+    body:
+      description: "Vegane Kapseln mit 500 mg Gamma-Aminobuttersäure sowie 2 mg Vitamin B6 für Enzymunterstützung. Frei von Soja, Milch und Gluten."
+      pros:
+        - "Mit Vitamin B6 für Decarboxylase-Support"
+        - "Große 100er Packung"
+        - "Zahme Sedierung statt Knockout"
+      cons:
+        - "Wirksamkeit stark individuell"
+        - "Pulver schmeckt bitter bei Sublingual-Anwendung"
+      usage: "1 Kapsel 30 Minuten vor dem Schlafengehen oder in Stresssituationen auf leeren Magen einnehmen."
+  en:
+    summary: "500 mg GABA mit Vitamin B6 zur besseren Umwandlung, Non-GMO und GMP-geprüft."
+    verdictNote: "Günstige Wahl für Abend-Rituale, sofern man auf die subjektive Wirkung anspricht."
+    body:
+      description: "Vegane Kapseln mit 500 mg Gamma-Aminobuttersäure sowie 2 mg Vitamin B6 für Enzymunterstützung. Frei von Soja, Milch und Gluten."
+      pros:
+        - "Mit Vitamin B6 für Decarboxylase-Support"
+        - "Große 100er Packung"
+        - "Zahme Sedierung statt Knockout"
+      cons:
+        - "Wirksamkeit stark individuell"
+        - "Pulver schmeckt bitter bei Sublingual-Anwendung"
+      usage: "1 Kapsel 30 Minuten vor dem Schlafengehen oder in Stresssituationen auf leeren Magen einnehmen."
+---

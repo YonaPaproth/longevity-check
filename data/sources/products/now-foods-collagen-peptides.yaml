@@ -1,0 +1,83 @@
+---
+id: now-foods-collagen-peptides
+type: product
+
+meta:
+  title: "NOW Foods Collagen Peptides Powder 10 g"
+  ingredient: kollagen
+  containedIngredients:
+    - slug: kollagen
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com"
+  affiliateUrl: ""
+  priceEur: 34
+  doseMg: 10000
+  servingsPerPack: 50
+  pricePerDayEur: 0.68
+  form: powder
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Kollagenpeptide besitzen RCTs zu Hautelastizität, Gelenken und Sehnenregeneration."
+      en: "Kollagenpeptide besitzen RCTs zu Hautelastizität, Gelenken und Sehnenregeneration."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,68 € pro 10 g ist fair für grasgefütterte Qualität."
+      en: "0,68 € pro 10 g ist fair für grasgefütterte Qualität."
+  productQuality:
+    score: 8
+    explanation:
+      de: "NOW nutzt hydrolysiertes Rindkollagen aus grasgefütterter Haltung und testet auf Schwermetalle."
+      en: "NOW nutzt hydrolysiertes Rindkollagen aus grasgefütterter Haltung und testet auf Schwermetalle."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Deklariert Aminosäureprofil und Kollagen-Typen."
+      en: "Deklariert Aminosäureprofil und Kollagen-Typen."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Interne Tests plus stichprobenartige Fremdprüfungen, GMP-zertifiziert."
+      en: "Interne Tests plus stichprobenartige Fremdprüfungen, GMP-zertifiziert."
+
+locales:
+  de:
+    summary: "Grass-fed Typ-I+III-Kollagenpeptide von NOW Foods, geschmacksneutral und GMP-zertifiziert."
+    verdictNote: "Solide Kollagenbasis für Beauty- und Rehab-Protokolle ohne Aroma oder Zucker."
+    body:
+      description: "Die Peptide lösen sich gut in warmen wie kalten Getränken und sind neutral im Geschmack. Rohstoff stammt aus grasgefütterten Rindern aus Südamerika."
+      pros:
+        - "Neutraler Geschmack, leicht löslich"
+        - "Aminosäureprofil auf dem Etikett"
+        - "50 Portionen in einer Tüte"
+      cons:
+        - "Nicht hydrolysiert nach spezifischem Peptidpatent wie Verisol"
+        - "Messlöffel fehlt in manchen Chargen"
+        - "Nicht vegetarisch/vegan"
+      usage: "1 Messlöffel (10 g) täglich in Kaffee, Shakes oder Wasser einrühren; für Gelenkprogramme 2 Portionen aufteilen."
+  en:
+    summary: "Grass-fed Typ-I+III-Kollagenpeptide von NOW Foods, geschmacksneutral und GMP-zertifiziert."
+    verdictNote: "Solide Kollagenbasis für Beauty- und Rehab-Protokolle ohne Aroma oder Zucker."
+    body:
+      description: "Die Peptide lösen sich gut in warmen wie kalten Getränken und sind neutral im Geschmack. Rohstoff stammt aus grasgefütterten Rindern aus Südamerika."
+      pros:
+        - "Neutraler Geschmack, leicht löslich"
+        - "Aminosäureprofil auf dem Etikett"
+        - "50 Portionen in einer Tüte"
+      cons:
+        - "Nicht hydrolysiert nach spezifischem Peptidpatent wie Verisol"
+        - "Messlöffel fehlt in manchen Chargen"
+        - "Nicht vegetarisch/vegan"
+      usage: "1 Messlöffel (10 g) täglich in Kaffee, Shakes oder Wasser einrühren; für Gelenkprogramme 2 Portionen aufteilen."
+---

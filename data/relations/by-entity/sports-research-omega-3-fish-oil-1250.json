@@ -1,0 +1,11 @@
+{
+  "entity": "sports-research-omega-3-fish-oil-1250",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "omega-3",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

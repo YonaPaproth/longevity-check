@@ -1,0 +1,11 @@
+{
+  "entity": "renue-by-science-nmn-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nmn",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

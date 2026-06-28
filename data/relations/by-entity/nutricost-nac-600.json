@@ -1,0 +1,11 @@
+{
+  "entity": "nutricost-nac-600",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "nac",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

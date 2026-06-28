@@ -1,0 +1,85 @@
+---
+id: life-extension-d-l-phenylalanine-500-mg
+type: product
+
+meta:
+  title: "Life Extension D,L-Phenylalanine 500 mg"
+  ingredient: dl-phenylalanin
+  containedIngredients:
+    - slug: dl-phenylalanin
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextension.com"
+  affiliateUrl: ""
+  priceEur: 16.9
+  doseMg: 500
+  servingsPerPack: 100
+  pricePerDayEur: 0.17
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-06-26"
+  lastPriceCheck: "2026-06-26"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 5
+    explanation:
+      de: "L-Phenylalanin als Neurotransmitter-Vorstufe hat moderate Evidenz. D-Form soll Enkephalinase hemmen (Schmerzlinderung), aber Studien sind alt."
+      en: "L-Phenylalanin als Neurotransmitter-Vorstufe hat moderate Evidenz. D-Form soll Enkephalinase hemmen (Schmerzlinderung), aber Studien sind alt."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,17 € pro Tag für Life Extension Qualität ist günstig."
+      en: "0,17 € pro Tag für Life Extension Qualität ist günstig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Life Extension Standard, 50/50 D/L-Mischung, reine Aminosäure."
+      en: "Life Extension Standard, 50/50 D/L-Mischung, reine Aminosäure."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "D,L-Form und Menge klar deklariert."
+      en: "D,L-Form und Menge klar deklariert."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Life Extension eigenes Analytiklabor, COAs verfügbar."
+      en: "Life Extension eigenes Analytiklabor, COAs verfügbar."
+
+locales:
+  de:
+    summary: "D,L-Phenylalanin 500 mg — Dopamin-/Noradrenalin-Vorstufe plus natürliche Schmerzmodulation."
+    verdictNote: "Interessante Dopamin-Vorstufe mit möglicher Schmerzmodulation. Evidenz für D-Form aber veraltet."
+    body:
+      description: "Die D,L-Form kombiniert beide Isomere: L-Phenylalanin wird zu L-Tyrosin → Dopamin → Noradrenalin umgebaut. D-Phenylalanin soll die Enkephalinase hemmen und so körpereigene Endorphine verlängern (natürliche Schmerzlinderung)."
+      pros:
+        - "Doppelter Wirkmechanismus: Neurotransmitter-Vorstufe + Schmerzmodulation"
+        - "100 Kapseln = 3+ Monate"
+        - "Life Extension Qualitätsstandard"
+        - "Sehr günstiger Preis"
+      cons:
+        - "Studien zur D-Form stammen größtenteils aus den 1980ern"
+        - "Nicht bei PKU (Phenylketonurie) einnehmen"
+        - "Nicht mit MAO-Hemmern oder Levodopa kombinieren"
+      usage: "1 Kapsel 1-2× täglich auf leeren Magen. Nicht abends (stimulierend über Dopamin-Pathway)."
+  en:
+    summary: "D,L-Phenylalanin 500 mg — Dopamin-/Noradrenalin-Vorstufe plus natürliche Schmerzmodulation."
+    verdictNote: "Interessante Dopamin-Vorstufe mit möglicher Schmerzmodulation. Evidenz für D-Form aber veraltet."
+    body:
+      description: "Die D,L-Form kombiniert beide Isomere: L-Phenylalanin wird zu L-Tyrosin → Dopamin → Noradrenalin umgebaut. D-Phenylalanin soll die Enkephalinase hemmen und so körpereigene Endorphine verlängern (natürliche Schmerzlinderung)."
+      pros:
+        - "Doppelter Wirkmechanismus: Neurotransmitter-Vorstufe + Schmerzmodulation"
+        - "100 Kapseln = 3+ Monate"
+        - "Life Extension Qualitätsstandard"
+        - "Sehr günstiger Preis"
+      cons:
+        - "Studien zur D-Form stammen größtenteils aus den 1980ern"
+        - "Nicht bei PKU (Phenylketonurie) einnehmen"
+        - "Nicht mit MAO-Hemmern oder Levodopa kombinieren"
+      usage: "1 Kapsel 1-2× täglich auf leeren Magen. Nicht abends (stimulierend über Dopamin-Pathway)."
+---

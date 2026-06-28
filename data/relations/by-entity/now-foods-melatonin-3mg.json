@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-melatonin-3mg",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "melatonin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

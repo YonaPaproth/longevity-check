@@ -1,0 +1,81 @@
+---
+id: life-extension-glutathione-setria
+type: product
+
+meta:
+  title: "Life Extension Glutathione Elevated Setria"
+  ingredient: glutathion
+  containedIngredients:
+    - slug: glutathion
+  vendor: "Life Extension"
+  vendorUrl: "https://www.lifeextension.com"
+  affiliateUrl: ""
+  priceEur: 52
+  doseMg: 500
+  servingsPerPack: 30
+  pricePerDayEur: 1.73
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Orales Glutathion zeigte in neuen Studien steigende Blutspiegel, aber Effekte variieren."
+      en: "Orales Glutathion zeigte in neuen Studien steigende Blutspiegel, aber Effekte variieren."
+  valueForMoney:
+    score: 5
+    explanation:
+      de: "1,73 € pro Tag ist kostspielig, insbesondere bei Daueranwendung."
+      en: "1,73 € pro Tag ist kostspielig, insbesondere bei Daueranwendung."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Setria ist reduziertes L-Glutathion mit dokumentierter Stabilität."
+      en: "Setria ist reduziertes L-Glutathion mit dokumentierter Stabilität."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Life Extension listet Ko-Faktoren transparent, keine proprietären Blends."
+      en: "Life Extension listet Ko-Faktoren transparent, keine proprietären Blends."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Setria wird mehrfach auf Oxidationsstatus geprüft, zusätzlich Life-Extension-eigene Labore."
+      en: "Setria wird mehrfach auf Oxidationsstatus geprüft, zusätzlich Life-Extension-eigene Labore."
+
+locales:
+  de:
+    summary: "Setria-Glutathion mit 500 mg pro Kapsel plus Vitamin C zur Stabilisierung – klinisch validierter Rohstoff."
+    verdictNote: "Setria-Dreifachpatent und Zusatzbooster wie Phospholipide machen das Produkt zu einem gut deklarierten Glutathion-Supplement."
+    body:
+      description: "Life Extension kombiniert 500 mg Setria-Glutathion mit Vitamin C und einem speziellen Lecithin-Komplex, um den empfindlichen Tripeptid-Spiegel im Blut zu erhöhen."
+      pros:
+        - "Verwendet den klinisch untersuchten Setria-Rohstoff"
+        - "Zusatz-Vitamin C ist auf Schutz vor ausgerichtet bei Oxidation"
+        - "Vegetarische Kapseln ohne Titanoxid"
+      cons:
+        - "Nur 30 Portionen pro Dose"
+        - "Geschmacksnote von Schwefel kann aufstoßen"
+      usage: "1 Kapsel nüchtern oder mit leichter Mahlzeit, optional zweite Kapsel nach Belastung oder Fastentagen."
+  en:
+    summary: "Setria-Glutathion mit 500 mg pro Kapsel plus Vitamin C zur Stabilisierung – klinisch validierter Rohstoff."
+    verdictNote: "Setria-Dreifachpatent und Zusatzbooster wie Phospholipide machen das Produkt zu einem gut deklarierten Glutathion-Supplement."
+    body:
+      description: "Life Extension kombiniert 500 mg Setria-Glutathion mit Vitamin C und einem speziellen Lecithin-Komplex, um den empfindlichen Tripeptid-Spiegel im Blut zu erhöhen."
+      pros:
+        - "Verwendet den klinisch untersuchten Setria-Rohstoff"
+        - "Zusatz-Vitamin C ist auf Schutz vor ausgerichtet bei Oxidation"
+        - "Vegetarische Kapseln ohne Titanoxid"
+      cons:
+        - "Nur 30 Portionen pro Dose"
+        - "Geschmacksnote von Schwefel kann aufstoßen"
+      usage: "1 Kapsel nüchtern oder mit leichter Mahlzeit, optional zweite Kapsel nach Belastung oder Fastentagen."
+---

@@ -1,0 +1,101 @@
+---
+id: nordic-naturals-omega-3
+type: product
+
+meta:
+  title: "Nordic Naturals Ultimate Omega 1280mg"
+  ingredient: omega-3
+  containedIngredients:
+    - slug: omega-3
+  vendor: "Nordic Naturals"
+  vendorUrl: "https://www.nordicnaturals.com"
+  affiliateUrl: ""
+  priceEur: 39.9
+  doseMg: 1280
+  servingsPerPack: 60
+  pricePerDayEur: 0.66
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-05-16"
+  lastPriceCheck: "2026-05-16"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["informed-choice"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "EPA/DHA profitieren Herz, Entzündung und Triglyzeride laut zahlreichen RCTs."
+      en: "EPA/DHA profitieren Herz, Entzündung und Triglyzeride laut zahlreichen RCTs."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,66 € pro Doppelsoftgel für 1280 mg ist stark."
+      en: "0,66 € pro Doppelsoftgel für 1280 mg ist stark."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Molekular destilliert, frei von Schwermetallen."
+      en: "Molekular destilliert, frei von Schwermetallen."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Transparente EPA/DHA-Aufschlüsselung, IFOS-Zertifikat verfügbar."
+      en: "Transparente EPA/DHA-Aufschlüsselung, IFOS-Zertifikat verfügbar."
+  thirdPartyTesting:
+    score: 10
+    explanation:
+      de: "IFOS 5-Star und Friend of the Sea."
+      en: "IFOS 5-Star und Friend of the Sea."
+
+locales:
+  de:
+    summary: "IFOS-getestetes Fischöl mit 650 mg EPA + 450 mg DHA pro Portion in Zitronengeschmack."
+    verdictNote: "Eine der zuverlässigsten Omega-3-Kapseln mit stabilem Geschmack und Top-Zertifikaten."
+    body:
+      description: "Ultimate Omega liefert 2 Softgels pro Portion mit natürlichem Zitronenaroma. Die Kapseln enthalten konzentriertes Triglycerid-Öl für hohe Bioverfügbarkeit."
+      pros:
+        - "Kein Fischaufstoßen dank Aroma"
+        - "IFOS-Zertifikat für jede Charge"
+        - "Gutes EPA:DHA-Verhältnis"
+      cons:
+        - "Softgels relativ groß"
+        - "Nicht vegan"
+      usage: "2 Softgels mit einer Hauptmahlzeit. Bei erhöhtem Bedarf (Triglyzeride) nach ärztlicher Rücksprache auf 4 Softgels erhöhen."
+  en:
+    summary: "IFOS-getestetes Fischöl mit 650 mg EPA + 450 mg DHA pro Portion in Zitronengeschmack."
+    verdictNote: "Eine der zuverlässigsten Omega-3-Kapseln mit stabilem Geschmack und Top-Zertifikaten."
+    body:
+      description: "Ultimate Omega liefert 2 Softgels pro Portion mit natürlichem Zitronenaroma. Die Kapseln enthalten konzentriertes Triglycerid-Öl für hohe Bioverfügbarkeit."
+      pros:
+        - "Kein Fischaufstoßen dank Aroma"
+        - "IFOS-Zertifikat für jede Charge"
+        - "Gutes EPA:DHA-Verhältnis"
+      cons:
+        - "Softgels relativ groß"
+        - "Nicht vegan"
+      usage: "2 Softgels mit einer Hauptmahlzeit. Bei erhöhtem Bedarf (Triglyzeride) nach ärztlicher Rücksprache auf 4 Softgels erhöhen."
+
+faq:
+  - question:
+      de: "Wie viel EPA und DHA liefert eine Tagesportion?"
+      en: "Wie viel EPA und DHA liefert eine Tagesportion?"
+    answer:
+      de: "Eine Tagesportion (2 Softgels) liefert 650 mg EPA und 450 mg DHA – insgesamt 1280 mg Omega-3-Fettsäuren in Triglyceridform."
+      en: "Eine Tagesportion (2 Softgels) liefert 650 mg EPA und 450 mg DHA – insgesamt 1280 mg Omega-3-Fettsäuren in Triglyceridform."
+  - question:
+      de: "Ist das Produkt auf Schadstoffe getestet?"
+      en: "Ist das Produkt auf Schadstoffe getestet?"
+    answer:
+      de: "Ja. Nordic Naturals lässt jede Charge nach dem IFOS-Standard (International Fish Oil Standards) auf Reinheit, Schwermetalle und Oxidation testen. Die Ergebnisse sind auf der IFOS-Website öffentlich einsehbar."
+      en: "Ja. Nordic Naturals lässt jede Charge nach dem IFOS-Standard (International Fish Oil Standards) auf Reinheit, Schwermetalle und Oxidation testen. Die Ergebnisse sind auf der IFOS-Website öffentlich einsehbar."
+  - question:
+      de: "Kann ich dieses Produkt in Deutschland kaufen?"
+      en: "Kann ich dieses Produkt in Deutschland kaufen?"
+    answer:
+      de: "Das Produkt ist in Deutschland erhältlich, u. a. über Amazon.de und iHerb. Achte beim Kauf auf einen autorisierten Händler, da die Kühlkette bei manchen Dritthändlern nicht gewährleistet ist."
+      en: "Das Produkt ist in Deutschland erhältlich, u. a. über Amazon.de und iHerb. Achte beim Kauf auf einen autorisierten Händler, da die Kühlkette bei manchen Dritthändlern nicht gewährleistet ist."
+---

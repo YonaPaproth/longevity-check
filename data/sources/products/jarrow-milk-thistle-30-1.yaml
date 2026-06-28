@@ -1,0 +1,83 @@
+---
+id: jarrow-milk-thistle-30-1
+type: product
+
+meta:
+  title: "Jarrow Milk Thistle 30:1"
+  ingredient: silymarin
+  containedIngredients:
+    - slug: silymarin
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://jarrow.com"
+  affiliateUrl: ""
+  priceEur: 24
+  doseMg: 150
+  servingsPerPack: 60
+  pricePerDayEur: 0.4
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Silymarin zeigt in Meta-Analysen positive Effekte auf Leberenzyme, Bedarf an mehr RCTs bleibt."
+      en: "Silymarin zeigt in Meta-Analysen positive Effekte auf Leberenzyme, Bedarf an mehr RCTs bleibt."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,40 € pro Tag für 30:1-Extrakt ist wettbewerbsfähig."
+      en: "0,40 € pro Tag für 30:1-Extrakt ist wettbewerbsfähig."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Jarrow nutzt europäische Rohstoffe und testet auf Aflatoxine."
+      en: "Jarrow nutzt europäische Rohstoffe und testet auf Aflatoxine."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Standardisierung auf 80 % Silymarin klar angegeben."
+      en: "Standardisierung auf 80 % Silymarin klar angegeben."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "cGMP-Labore prüfen Identität und Reinheit, COAs auf Anfrage."
+      en: "cGMP-Labore prüfen Identität und Reinheit, COAs auf Anfrage."
+
+locales:
+  de:
+    summary: "30:1 Mariendistelextrakt mit 150 mg Silymarin pro Portion – hochkonzentriert und gut geeignet zur Leber-Kontext."
+    verdictNote: "Konzentriertes Mariendistelprodukt für Personen mit Fokus auf Leberregeneration."
+    body:
+      description: "Jarrow extrahiert Mariendistelsamen mit Ethanol, konzentriert sie auf ein 30:1-Verhältnis und kapselt das Pulver in pflanzliche Kapseln ab. Jede Portion enthält 150 mg Silymarin-Komplex."
+      pros:
+        - "Hoher Extraktionsgrad reduziert Pillenzahl"
+        - "Testung auf Schwermetalle und Aflatoxine"
+        - "Vegan und allergenarm"
+        - "Gute Kombination mit NAC oder TMG"
+      cons:
+        - "Keine zusätzliche Phospholipid-Matrix wie bei Siliphos"
+        - "Nur 60 Portionen pro Dose"
+      usage: "1 Kapsel zweimal täglich zu Mahlzeiten, besonders wenn fett- oder alkoholhaltig. Bei langfristiger Nutzung Pausen von 1–2 Wochen einlegen."
+  en:
+    summary: "30:1 Mariendistelextrakt mit 150 mg Silymarin pro Portion – hochkonzentriert und gut geeignet zur Leber-Kontext."
+    verdictNote: "Konzentriertes Mariendistelprodukt für Personen mit Fokus auf Leberregeneration."
+    body:
+      description: "Jarrow extrahiert Mariendistelsamen mit Ethanol, konzentriert sie auf ein 30:1-Verhältnis und kapselt das Pulver in pflanzliche Kapseln ab. Jede Portion enthält 150 mg Silymarin-Komplex."
+      pros:
+        - "Hoher Extraktionsgrad reduziert Pillenzahl"
+        - "Testung auf Schwermetalle und Aflatoxine"
+        - "Vegan und allergenarm"
+        - "Gute Kombination mit NAC oder TMG"
+      cons:
+        - "Keine zusätzliche Phospholipid-Matrix wie bei Siliphos"
+        - "Nur 60 Portionen pro Dose"
+      usage: "1 Kapsel zweimal täglich zu Mahlzeiten, besonders wenn fett- oder alkoholhaltig. Bei langfristiger Nutzung Pausen von 1–2 Wochen einlegen."
+---

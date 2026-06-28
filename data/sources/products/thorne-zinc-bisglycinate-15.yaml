@@ -1,0 +1,83 @@
+---
+id: thorne-zinc-bisglycinate-15
+type: product
+
+meta:
+  title: "Thorne Zinc Bisglycinate 15mg"
+  ingredient: zink
+  containedIngredients:
+    - slug: zink
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 18
+  doseMg: 15
+  servingsPerPack: 60
+  pricePerDayEur: 0.3
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Zink hat etablierte Evidenz für normale Immunfunktion und Testosteronsynthese bei Mangel."
+      en: "Zink hat etablierte Evidenz für normale Immunfunktion und Testosteronsynthese bei Mangel."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,30 € pro Tag für chelatiertes Zink ist fair bei NSF-Zertifikat."
+      en: "0,30 € pro Tag für chelatiertes Zink ist fair bei NSF-Zertifikat."
+  productQuality:
+    score: 9
+    explanation:
+      de: "GMP- und NSF Sport-zertifizierte Produktion, Chelat von Albion Minerals."
+      en: "GMP- und NSF Sport-zertifizierte Produktion, Chelat von Albion Minerals."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Deklariert elementares Zink und Chelatform, keine Mischungen."
+      en: "Deklariert elementares Zink und Chelatform, keine Mischungen."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "NSF Sport deckt Dopingtests und Reinheit ab, zusätzlich eigene Laboranalysen."
+      en: "NSF Sport deckt Dopingtests und Reinheit ab, zusätzlich eigene Laboranalysen."
+
+locales:
+  de:
+    summary: "NSF Sport zertifiziertes Zink-Bisglycinat mit 15 mg elementarem Zink pro Kapsel."
+    verdictNote: "Sichere Wahl für Athleten, die bioverfügbares Zink ohne Magenprobleme brauchen."
+    body:
+      description: "Jede Kapsel liefert 15 mg elementares Zink aus Bisglycinat. Der Chelatkomplex sorgt für hohe Verträglichkeit und Aufnahme, ideal für tägliche Grundversorgung oder Wettkampfphasen."
+      pros:
+        - "Albion-Chelat für maximale Bioverfügbarkeit"
+        - "NSF Sport Zertifikat"
+        - "Nur zwei Hilfsstoffe (Cellulose, Siliciumdioxid)"
+        - "Frei von Gluten, Milch, Soja"
+      cons:
+        - "Keine 30-mg-Version für zeitlich begrenzte Hochdosisphasen"
+        - "Verpackung aus Hartplastik"
+      usage: "1 Kapsel täglich zwischen Mahlzeiten oder vor dem Schlafengehen. Bei leerem Magen immer mit etwas Wasser oder Elektrolyten kombinieren, um Übelkeit zu vermeiden."
+  en:
+    summary: "NSF Sport zertifiziertes Zink-Bisglycinat mit 15 mg elementarem Zink pro Kapsel."
+    verdictNote: "Sichere Wahl für Athleten, die bioverfügbares Zink ohne Magenprobleme brauchen."
+    body:
+      description: "Jede Kapsel liefert 15 mg elementares Zink aus Bisglycinat. Der Chelatkomplex sorgt für hohe Verträglichkeit und Aufnahme, ideal für tägliche Grundversorgung oder Wettkampfphasen."
+      pros:
+        - "Albion-Chelat für maximale Bioverfügbarkeit"
+        - "NSF Sport Zertifikat"
+        - "Nur zwei Hilfsstoffe (Cellulose, Siliciumdioxid)"
+        - "Frei von Gluten, Milch, Soja"
+      cons:
+        - "Keine 30-mg-Version für zeitlich begrenzte Hochdosisphasen"
+        - "Verpackung aus Hartplastik"
+      usage: "1 Kapsel täglich zwischen Mahlzeiten oder vor dem Schlafengehen. Bei leerem Magen immer mit etwas Wasser oder Elektrolyten kombinieren, um Übelkeit zu vermeiden."
+---

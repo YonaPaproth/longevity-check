@@ -1,0 +1,81 @@
+---
+id: jarrow-milk-thistle-150
+type: product
+
+meta:
+  title: "Jarrow Formulas Milk Thistle 150mg"
+  ingredient: silymarin
+  containedIngredients:
+    - slug: silymarin
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com"
+  affiliateUrl: ""
+  priceEur: 18
+  doseMg: 150
+  servingsPerPack: 100
+  pricePerDayEur: 0.18
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Silymarin zeigt gute Daten bei erhöhten Leberwerten und Toxinbelastung."
+      en: "Silymarin zeigt gute Daten bei erhöhten Leberwerten und Toxinbelastung."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "0,18 € pro 150 mg standardisiertem Extrakt ist stark."
+      en: "0,18 € pro 150 mg standardisiertem Extrakt ist stark."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Alkoholischer Extrakt mit HPLC-Standardisierung."
+      en: "Alkoholischer Extrakt mit HPLC-Standardisierung."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "80 % Silymarin und Herkunft klar genannt."
+      en: "80 % Silymarin und Herkunft klar genannt."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Interne Tests, keine externen Siegel."
+      en: "Interne Tests, keine externen Siegel."
+
+locales:
+  de:
+    summary: "80 % Silymarin-Extrakt in veganen Kapseln, klassischer Leber-Schutz mit fairer Dosierung."
+    verdictNote: "Preisgünstiger Klassiker für Leber-Stacks."
+    body:
+      description: "Silybum marianum Samen werden extrahiert und auf 80 % Flavonolignane eingestellt. Kapseln sind vegan und frei von Allergenen."
+      pros:
+        - "Hohe Standardisierung"
+        - "100 Portionen pro Dose"
+        - "Vegan"
+      cons:
+        - "Geschmack bitter bei geöffneten Kapseln"
+        - "Keine Phytosomen für verbesserte Aufnahme"
+      usage: "1 Kapsel zweimal täglich zu Mahlzeiten mit Fett oder Bitterstoffen kombinieren."
+  en:
+    summary: "80 % Silymarin-Extrakt in veganen Kapseln, klassischer Leber-Schutz mit fairer Dosierung."
+    verdictNote: "Preisgünstiger Klassiker für Leber-Stacks."
+    body:
+      description: "Silybum marianum Samen werden extrahiert und auf 80 % Flavonolignane eingestellt. Kapseln sind vegan und frei von Allergenen."
+      pros:
+        - "Hohe Standardisierung"
+        - "100 Portionen pro Dose"
+        - "Vegan"
+      cons:
+        - "Geschmack bitter bei geöffneten Kapseln"
+        - "Keine Phytosomen für verbesserte Aufnahme"
+      usage: "1 Kapsel zweimal täglich zu Mahlzeiten mit Fett oder Bitterstoffen kombinieren."
+---

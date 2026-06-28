@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-pterostilbene",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "pterostilben",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

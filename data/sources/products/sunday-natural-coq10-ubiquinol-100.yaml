@@ -1,0 +1,85 @@
+---
+id: sunday-natural-coq10-ubiquinol-100
+type: product
+
+meta:
+  title: "Sunday Natural CoQ10 Ubiquinol 100"
+  ingredient: coq10
+  containedIngredients:
+    - slug: coq10
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de"
+  affiliateUrl: ""
+  priceEur: 34.9
+  doseMg: 100
+  servingsPerPack: 60
+  pricePerDayEur: 0.58
+  form: softgel
+  availableInDE: true
+  publishedAt: "2026-06-15"
+  lastPriceCheck: "2026-06-15"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "CoQ10/Ubiquinol hat solide Evidenz für Herzgesundheit und Energiestoffwechsel, besonders ab 40+."
+      en: "CoQ10/ubiquinol has solid evidence for heart health and energy metabolism, especially from age 40+."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,58 € für 100 mg Kaneka-Ubiquinol ist fair — günstiger als BIOGENA bei doppelter Dosis."
+      en: "€0.58 for 100 mg Kaneka ubiquinol is fair — cheaper than BIOGENA at double the dose."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Kaneka Ubiquinol QH — Goldstandard-Rohstoff. Softgel schützt das oxidationsempfindliche Ubiquinol."
+      en: "Kaneka Ubiquinol QH — gold standard raw material. Softgel protects oxidation-sensitive ubiquinol."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Ubiquinol klar als aktive Form deklariert, Kaneka-Rohstoff benannt, Dosierung exakt."
+      en: "Ubiquinol clearly declared as active form, Kaneka raw material named, dosage exact."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Kaneka-Zertifikat plus hauseigene Analytik nach deutschen Laborstandards."
+      en: "Kaneka certificate plus in-house analytics according to German laboratory standards."
+
+locales:
+  de:
+    summary: "Aktives Ubiquinol (reduziertes CoQ10) mit Kaneka-Rohstoff, 100 mg pro Softgel."
+    verdictNote: "100 mg Kaneka-Ubiquinol zum fairen Preis. Besseres Preis-Leistungs-Verhältnis als viele Konkurrenten."
+    body:
+      description: "Ubiquinol ist die reduzierte, bioaktive Form von Coenzym Q10. Der Körper muss konventionelles Ubiquinon erst umwandeln — ein Prozess, der mit dem Alter ineffizienter wird. Sunday Natural verwendet Kaneka QH, den weltweit führenden Marken-Rohstoff aus Japan."
+      pros:
+        - "100 mg aktives Ubiquinol pro Softgel — klinisch relevante Dosis"
+        - "Kaneka QH Rohstoff (japanischer Qualitätsstandard)"
+        - "Softgel-Verkapselung schützt vor Oxidation"
+        - "Gutes Preis-Leistungs-Verhältnis im Ubiquinol-Segment"
+      cons:
+        - "Für therapeutische Dosierung (200 mg+) braucht man 2 Softgels"
+        - "Enthält Sojaöl als Trägerstoff — nicht für Soja-Allergiker"
+        - "60 Softgels = 2 Monate, relativ kleine Packung"
+      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Bei Statin-Einnahme ggf. 2 Softgels nach ärztlicher Rücksprache."
+  en:
+    summary: "Active ubiquinol (reduced CoQ10) with Kaneka raw material, 100 mg per softgel."
+    verdictNote: "100 mg Kaneka ubiquinol at fair price. Better value for money than many competitors."
+    body:
+      description: "Ubiquinol is the reduced, bioactive form of Coenzyme Q10. The body must first convert conventional ubiquinone — a process that becomes less efficient with age. Sunday Natural uses Kaneka QH, the world's leading branded raw material from Japan."
+      pros:
+        - "100 mg active ubiquinol per softgel — clinically relevant dose"
+        - "Kaneka QH raw material (Japanese quality standard)"
+        - "Softgel encapsulation protects against oxidation"
+        - "Good value for money in the ubiquinol segment"
+      cons:
+        - "For therapeutic dosage (200 mg+) you need 2 softgels"
+        - "Contains soy oil as carrier — not suitable for soy allergies"
+        - "60 softgels = 2 months, relatively small pack"
+      usage: ""
+---

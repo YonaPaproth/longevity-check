@@ -1,0 +1,11 @@
+{
+  "entity": "thorne-b12-methylcobalamin",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "vitamin-b12",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

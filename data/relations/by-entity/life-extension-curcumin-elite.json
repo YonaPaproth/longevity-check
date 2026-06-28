@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-curcumin-elite",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "curcumin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

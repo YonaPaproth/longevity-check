@@ -1,0 +1,11 @@
+{
+  "entity": "bloom-naturals-magtein-magnesium-l-threonat",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "magnesium",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

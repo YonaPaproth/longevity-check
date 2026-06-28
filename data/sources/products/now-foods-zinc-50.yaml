@@ -1,0 +1,81 @@
+---
+id: now-foods-zinc-50
+type: product
+
+meta:
+  title: "NOW Foods Zinc Gluconate 50 mg"
+  ingredient: zink
+  containedIngredients:
+    - slug: zink
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com/supplements/zinc-50-mg-tablets"
+  affiliateUrl: ""
+  priceEur: 12
+  doseMg: 50
+  servingsPerPack: 250
+  pricePerDayEur: 0.05
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-05-17"
+  lastPriceCheck: "2026-05-17"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Zink ist für Immun- und Hormonfunktion essentiell, zahlreiche RCTs stützen Supplementierung bei Mangel."
+      en: "Zink ist für Immun- und Hormonfunktion essentiell, zahlreiche RCTs stützen Supplementierung bei Mangel."
+  valueForMoney:
+    score: 10
+    explanation:
+      de: "0,05 € pro 50 mg macht dieses Produkt zum Preisbrecher."
+      en: "0,05 € pro 50 mg macht dieses Produkt zum Preisbrecher."
+  productQuality:
+    score: 8
+    explanation:
+      de: "GMP-zertifizierte Produktion mit Prüfung auf Schwermetalle und Tablettenhärte."
+      en: "GMP-zertifizierte Produktion mit Prüfung auf Schwermetalle und Tablettenhärte."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Elementares Zink, Salzform und Hilfsstoffe klar benannt."
+      en: "Elementares Zink, Salzform und Hilfsstoffe klar benannt."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW stellt COAs bereit und lässt Stichproben über USP Partnerlabor prüfen."
+      en: "NOW stellt COAs bereit und lässt Stichproben über USP Partnerlabor prüfen."
+
+locales:
+  de:
+    summary: "50 mg Zinkgluconat pro Tablette, GMP-gefertigt und unschlagbar günstig für lange Laufzeit."
+    verdictNote: "Beste Option für Budget-Supplementierer, die Zinkgluconat bevorzugen."
+    body:
+      description: "Die Tabletten liefern 50 mg elementares Zink als Gluconat. Sie sind frei von Soja, Milch und Ei, enthalten aber natürliche Zellulose und Stearate als Presshilfen."
+      pros:
+        - "250 Portionen pro Flasche"
+        - "Sehr niedriger Preis"
+        - "Gut verträgliche Gluconatform"
+      cons:
+        - "Hohe Dosis sollte nicht täglich eingenommen werden"
+        - "Tabletten nicht teilbeschichtet, leichter metallischer Geschmack"
+      usage: "Alle 1–2 Tage eine Tablette zu einer Mahlzeit mit Eiweiß. Bei täglicher Nutzung auf Kupferzufuhr achten oder Pausen einlegen."
+  en:
+    summary: "50 mg Zinkgluconat pro Tablette, GMP-gefertigt und unschlagbar günstig für lange Laufzeit."
+    verdictNote: "Beste Option für Budget-Supplementierer, die Zinkgluconat bevorzugen."
+    body:
+      description: "Die Tabletten liefern 50 mg elementares Zink als Gluconat. Sie sind frei von Soja, Milch und Ei, enthalten aber natürliche Zellulose und Stearate als Presshilfen."
+      pros:
+        - "250 Portionen pro Flasche"
+        - "Sehr niedriger Preis"
+        - "Gut verträgliche Gluconatform"
+      cons:
+        - "Hohe Dosis sollte nicht täglich eingenommen werden"
+        - "Tabletten nicht teilbeschichtet, leichter metallischer Geschmack"
+      usage: "Alle 1–2 Tage eine Tablette zu einer Mahlzeit mit Eiweiß. Bei täglicher Nutzung auf Kupferzufuhr achten oder Pausen einlegen."
+---

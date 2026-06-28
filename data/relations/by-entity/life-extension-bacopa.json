@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-bacopa",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "bacopa",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

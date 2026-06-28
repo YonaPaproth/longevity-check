@@ -1,0 +1,11 @@
+{
+  "entity": "double-wood-lions-mane",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "lion-s-mane",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

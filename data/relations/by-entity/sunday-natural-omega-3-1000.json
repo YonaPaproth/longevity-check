@@ -1,0 +1,11 @@
+{
+  "entity": "sunday-natural-omega-3-1000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "omega-3",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}
