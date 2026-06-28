@@ -10,6 +10,7 @@
  * Usage:
  *   npx tsx data/scripts/generate-from-source.ts berberine   # single slug
  *   npx tsx data/scripts/generate-from-source.ts             # all sources
+ *   npx tsx data/scripts/generate-from-source.ts --changed   # only git-changed files
  *
  * Source format: data/schema/ingredient-source.schema.yaml
  */
@@ -404,13 +405,96 @@ function processSource(slug: string): void {
   console.log(`  ✓ KG relations → ${relOut.replace(ROOT + '/', '')}`);
 }
 
+// ── Changed file detection ───────────────────────────────────────────────────
+
+import { execSync } from 'child_process';
+
+function getChangedSlugs(): string[] {
+  const slugs = new Set<string>();
+
+  // Detect changed ingredient YAMLs (staged + unstaged + untracked)
+  const diff = execSync(
+    'git diff --name-only HEAD -- data/sources/ingredients/ ; ' +
+    'git diff --name-only --cached -- data/sources/ingredients/ ; ' +
+    'git ls-files --others --exclude-standard -- data/sources/ingredients/',
+    { cwd: ROOT, encoding: 'utf-8' }
+  );
+  for (const line of diff.split('\n').filter(Boolean)) {
+    const match = line.match(/data\/sources\/ingredients\/([a-z0-9-]+)\.yaml$/);
+    if (match) slugs.add(match[1]);
+  }
+
+  // Also detect changed study registry files → regenerate ingredients that ref them
+  const studyDiff = execSync(
+    'git diff --name-only HEAD -- data/sources/studies/ ; ' +
+    'git diff --name-only --cached -- data/sources/studies/',
+    { cwd: ROOT, encoding: 'utf-8' }
+  );
+  const changedStudyIds = new Set<string>();
+  for (const line of studyDiff.split('\n').filter(Boolean)) {
+    const match = line.match(/data\/sources\/studies\/(pmid-[a-z0-9-]+)\.yaml$/);
+    if (match) changedStudyIds.add(match[1]);
+  }
+
+  // If any studies changed, find ingredients that reference them
+  if (changedStudyIds.size > 0) {
+    const ingredientFiles = readdirSync(SOURCES_DIR).filter(f => f.endsWith('.yaml'));
+    for (const file of ingredientFiles) {
+      const raw = readFileSync(join(SOURCES_DIR, file), 'utf-8');
+      for (const studyId of changedStudyIds) {
+        if (raw.includes(`ref: ${studyId}`)) {
+          slugs.add(basename(file, '.yaml'));
+          break;
+        }
+      }
+    }
+  }
+
+  return [...slugs].sort();
+}
+
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 const args = process.argv.slice(2);
+const changedMode = args.includes('--changed');
+const slugArgs = args.filter(a => !a.startsWith('--'));
 
-if (args.length > 0) {
+if (changedMode) {
+  // Process only changed files
+  const slugs = getChangedSlugs();
+
+  if (slugs.length === 0) {
+    console.log('\nNo changed ingredient or study files detected.\n');
+    process.exit(0);
+  }
+
+  console.log(`\nRegenerating ${slugs.length} changed source(s)...\n`);
+
+  let ok = 0;
+  let failed = 0;
+
+  for (const slug of slugs) {
+    console.log(`Processing: ${slug}`);
+    try {
+      processSource(slug);
+      ok++;
+    } catch (err) {
+      console.error(`  ✗ Failed: ${(err as Error).message}`);
+      failed++;
+    }
+  }
+
+  // Regenerate study entities if any study files changed
+  if (studyRegistry.size > 0) {
+    const studyCount = generateStudyEntities();
+    console.log(`✓ ${studyCount} study entities generated\n`);
+  }
+
+  console.log(`✓ ${ok} succeeded, ${failed} failed\n`);
+  if (failed > 0) process.exit(1);
+} else if (slugArgs.length > 0) {
   // Process a single slug
-  const slug = args[0];
+  const slug = slugArgs[0];
   console.log(`\nGenerating from source: ${slug}`);
   try {
     processSource(slug);

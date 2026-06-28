@@ -43,7 +43,7 @@ KG-Entity-ID für Studien: `studie-XXXXX` (nicht `pmid-`!).
 
 **Workflow:**
 1. Editiere `data/sources/ingredients/<slug>.yaml` (Studien ggf. in `data/sources/studies/`)
-2. Generiere: `npx tsx data/scripts/generate-from-source.ts <slug>` (einzeln) oder ohne Arg (alle + Study-Entities)
+2. Generiere: `npx tsx data/scripts/generate-from-source.ts <slug>` (einzeln), `--changed` (nur geänderte), oder ohne Arg (alle)
 3. Index: `npx tsx data/scripts/build-index.ts`
 4. Build: `pnpm build`
 5. Committe YAML + alle generierten Dateien zusammen
