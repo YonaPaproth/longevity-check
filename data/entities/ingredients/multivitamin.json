@@ -2,8 +2,14 @@
   "id": "multivitamin",
   "type": "ingredient",
   "name": "Multivitamin",
-  "summary": "Meistverkauftes Supplement weltweit. Moderate Evidenz für Krebsrisiko-Reduktion und Kognition bei Älteren.",
-  "aliases": ["Multi-Vitamin", "MVM", "Multivitaminpräparat"],
+  "summary": "Multivitamine sind die meistverkauften Nahrungsergänzungsmittel weltweit. Die Evidenz für gesundheitliche Vorteile bei gut ernährten Personen ist überraschend schwach.",
+  "aliases": [
+    "Multi-Vitamin",
+    "Multivitaminpräparat",
+    "Multi Vitamin",
+    "MVM",
+    "Multivitamin-Mineral"
+  ],
   "category": "general-health",
   "evidenceLevel": 2,
   "safety": "likely-safe",

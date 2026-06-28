@@ -1,0 +1,134 @@
+---
+id: sea-moss
+type: ingredient
+
+meta:
+  title:
+    de: "Irish Sea Moss"
+    en: "Irish Sea Moss"
+  aliases:
+    - "Sea Moss"
+    - "Chondrus crispus"
+    - "Irisches Moos"
+    - "Carrageen-Moos"
+    - "Irish Moss"
+  category: general-health
+  evidenceLevel: "5"
+  safety_rating: caution
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1000
+  publishedAt: "2026-06-26"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine zugelassenen Health Claims. Carrageen (E407) ist als Lebensmittelzusatzstoff zugelassen, aber nicht als Gesundheitsprodukt.
+  en: >-
+    No approved health claims. Carrageenan (E407) is approved as a food additive but not as a health product.
+
+key_studies:
+  - pmid: "30885434"
+    title: "Review of the toxicological properties of poligeenan and carrageenan"
+    authors: "McKim JM et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/30885434/"
+    finding:
+      de: >-
+        Review: Degradiertes Carrageen (Poligeenan) hat entzündungsfördernde Eigenschaften in Tiermodellen. Food-Grade Carrageen gilt als sicher, aber die Debatte ist nicht abgeschlossen.
+      en: >-
+        Review: Degraded carrageenan (poligeenan) has pro-inflammatory properties in animal models. Food-grade carrageenan is considered safe, but debate continues.
+  - pmid: "31527518"
+    title: "Mineral and trace element content in sea moss supplements"
+    authors: "Cherry P et al."
+    year: 2019
+    url: "https://pubmed.ncbi.nlm.nih.gov/31527518/"
+    finding:
+      de: >-
+        Analyse: Rotalgen enthalten Jod, Eisen, Zink und Magnesium, aber Gehalte variieren stark je nach Herkunft. Schwermetall-Kontamination ist ein dokumentiertes Risiko.
+      en: >-
+        Analysis: Red algae contain iodine, iron, zinc and magnesium, but levels vary greatly by origin. Heavy metal contamination is a documented risk.
+
+locales:
+  de:
+    summary: >-
+      Irish Sea Moss ist eine Rotalge, die als natürliche Mineralstoffquelle vermarktet wird. Viral auf Social Media, aber praktisch keine klinische Evidenz für gesundheitliche Vorteile.
+    evidenceSummary: >-
+      Keine nennenswerten RCTs am Menschen. Traditionelle Verwendung als Verdickungsmittel und Jodquelle. Die gesundheitlichen Claims basieren auf Social-Media-Hype, nicht auf Wissenschaft. Carrageen (aus Sea Moss gewonnen) ist sogar umstritten wegen entzündungsfördernder Effekte.
+    body: |
+      ## Wirkweise
+      
+      Chondrus crispus (Irish Sea Moss) ist eine Rotalge, die in der irischen und karibischen Küche traditionell als Verdickungsmittel verwendet wird. Sie enthält natürlich vorkommende Mineralien (Jod, Eisen, Zink, Magnesium) und Carrageen (ein Polysaccharid). Die viral beworbenen Effekte auf Schilddrüse, Immunsystem und Darm basieren auf dem Mineralstoffgehalt, nicht auf spezifischen Wirkmechanismen.
+      
+      ## Evidenzlage
+      
+      Es gibt **keine RCTs** zu Irish Sea Moss als Nahrungsergänzungsmittel. Die Evidenz beschränkt sich auf Nährstoffanalysen (Mineralgehalt) und In-vitro-Studien zu Carrageen. Die Social-Media-Claims ("92 von 102 essentiellen Mineralien") sind wissenschaftlich nicht belegt und irreführend.
+      
+      ## Sicherheit
+      
+      **Hauptrisiken:**
+      - **Hoher Jodgehalt** — kann Schilddrüsenüberfunktion (Hyperthyreose) auslösen, besonders bei Hashimoto oder Basedow
+      - **Schwermetalle** — Algen akkumulieren Blei, Arsen und Cadmium aus dem Meerwasser
+      - **Carrageen-Debatte** — degradiertes Carrageen ist entzündungsfördernd in Tiermodellen
+      
+      Nicht empfohlen bei Schilddrüsenerkrankungen, Schwangerschaft oder Antikoagulanzien-Einnahme.
+      
+      ## Dosierung
+      
+      Falls dennoch gewünscht: 1000–2400 mg pro Tag. Schilddrüsenwerte vorher und nach 4 Wochen kontrollieren.
+
+  en:
+    summary: >-
+      Irish Sea Moss is a red algae marketed as a natural mineral source. Viral on social media but virtually no clinical evidence for health benefits.
+    evidenceSummary: >-
+      No notable human RCTs. Traditional use as a thickening agent and iodine source. Health claims are based on social media hype, not science. Carrageenan (derived from sea moss) is even controversial due to pro-inflammatory effects.
+    body: |
+      ## Mechanism of Action
+      
+      Chondrus crispus (Irish Sea Moss) is a red algae traditionally used as a thickening agent in Irish and Caribbean cuisine. It contains naturally occurring minerals (iodine, iron, zinc, magnesium) and carrageenan (a polysaccharide). The virally promoted effects on thyroid, immune system, and gut are based on mineral content, not specific mechanisms of action.
+      
+      ## Evidence
+      
+      There are **no RCTs** on Irish Sea Moss as a dietary supplement. Evidence is limited to nutrient analyses (mineral content) and in-vitro studies on carrageenan. Social media claims ("92 of 102 essential minerals") are scientifically unsubstantiated and misleading.
+      
+      ## Safety
+      
+      **Main risks:**
+      - **High iodine content** — can trigger hyperthyroidism, especially in those with Hashimoto's or Graves' disease
+      - **Heavy metals** — algae accumulate lead, arsenic, and cadmium from seawater
+      - **Carrageenan debate** — degraded carrageenan is pro-inflammatory in animal models
+      
+      Not recommended for thyroid conditions, pregnancy, or anticoagulant use.
+      
+      ## Dosage
+      
+      If desired despite the above: 1000–2400 mg per day. Check thyroid levels before and after 4 weeks of use.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.4
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.4
+  - relation: wird_eingesetzt_fuer
+    target: schilddruese
+    direction: outgoing
+    confidence: 0.4
+  - relation: kontraindiziert_bei
+    target: kontra-schilddruesenerkrankung
+    direction: outgoing
+    confidence: 0.9
+  - relation: kontraindiziert_bei
+    target: kontra-schwangerschaft
+    direction: outgoing
+    confidence: 0.8
+  - relation: hat_nebenwirkung
+    target: nw-schilddruesenueberfunktion
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1

@@ -1,0 +1,186 @@
+---
+id: fucoidan
+type: ingredient
+
+meta:
+  title:
+    de: "Fucoidan"
+    en: "Fucoidan"
+  aliases:
+    - "Fucoidane"
+    - "Brown Seaweed Extract"
+    - "Braunalgen-Extrakt"
+    - "Undaria pinnatifida Extract"
+    - "Fucus vesiculosus Extract"
+  category: general-health
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-06-27"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine zugelassenen Health Claims für Fucoidan in der EU. Braunalgen-Extrakte sind als Novel Food eingestuft und bedürfen ggf. einer EFSA-Bewertung.
+  en: >-
+    Keine zugelassenen Health Claims für Fucoidan in der EU. Braunalgen-Extrakte sind als Novel Food eingestuft und bedürfen ggf. einer EFSA-Bewertung.
+
+key_studies:
+  - pmid: ""
+    title: "The effects of Oligo-Fucoidan on muscle function in community-dwelling older adults: A double-blind, randomized, placebo-controlled trial"
+    authors: "Various"
+    year: 2025
+    url: "https://www.sciencedirect.com/science/article/pii/S0167494325003127"
+    finding:
+      de: >-
+        Doppelblind-RCT: Oligo-Fucoidan verbesserte Griffstärke bei community-dwelling Älteren signifikant vs. Placebo. Statistisch und klinisch bedeutsam, sicher und gut verträglich.
+      en: >-
+        Tiermodell: Fucoidan aus Undaria pinnatifida zeigte anti-inflammatorische und neuroprotektive Eigenschaften. Humanstudien ausstehend.
+  - pmid: ""
+    title: "INNOSea Study: Purified fucoidan extract (Thalivra) for digestive and mental well-being"
+    authors: "Aberystwyth University"
+    year: 2026
+    url: "https://www.aber.ac.uk/en/ibers/news/archive/2026/march/title-286022-en.html"
+    finding:
+      de: >-
+        28-Tage-RCT mit gereinigtem Fucoidan-Extrakt: Vielversprechende Effekte auf Verdauungsgesundheit und mentales Wohlbefinden bei jungen Erwachsenen.
+      en: >-
+        Tiermodell: Fucoidan aus Undaria pinnatifida zeigte anti-inflammatorische und neuroprotektive Eigenschaften. Humanstudien ausstehend.
+  - pmid: ""
+    title: "Prebiotic benefits of a brown seaweed extract on gut microbiome"
+    authors: "Various"
+    year: 2025
+    url: "https://www.nutritionaloutlook.com/view/recent-study-highlights-prebiotic-benefits-of-a-proprietary-brown-seaweed-extract"
+    finding:
+      de: >-
+        12-Wochen-RCT, doppelblind: Fucoidan-angereicherter Braunalgen-Extrakt wirkte präbiotisch — mehr Bifidobakterien, weniger pathogene Keime, gestärkte Darmbarriere.
+      en: >-
+        Tiermodell: Fucoidan aus Undaria pinnatifida zeigte anti-inflammatorische und neuroprotektive Eigenschaften. Humanstudien ausstehend.
+  - pmid: ""
+    title: "Clinical evidence for fucoidan: cardiovascular and oncology support"
+    authors: "Various"
+    year: 2026
+    url: "https://naturacare.jp/blogs/news/does-fucoidan-really-work-the-clinical-evidence"
+    finding:
+      de: >-
+        Review 2026: Moderate Evidenz für diastolischen Blutdruck- und LDL-Senkung. Lebensqualität bei Chemopatienten verbessert (weniger Durchfall, Fatigue). Anti-Krebs-Claims beim Menschen noch nicht belegt.
+      en: >-
+        Tiermodell: Fucoidan aus Undaria pinnatifida zeigte anti-inflammatorische und neuroprotektive Eigenschaften. Humanstudien ausstehend.
+  - pmid: ""
+    title: "Anti-inflammatory and neuroprotective properties of Undaria pinnatifida fucoidan"
+    authors: "Various"
+    year: 2025
+    url: "https://www.nutritionaloutlook.com/view/study-finds-that-fucoidan-from-brown-seaweed-may-offer-anti-inflammatory-and-neuroprotective-properties"
+    finding:
+      de: >-
+        Tiermodell: Fucoidan aus Undaria pinnatifida zeigte anti-inflammatorische und neuroprotektive Eigenschaften. Humanstudien ausstehend.
+      en: >-
+        Tiermodell: Fucoidan aus Undaria pinnatifida zeigte anti-inflammatorische und neuroprotektive Eigenschaften. Humanstudien ausstehend.
+
+locales:
+  de:
+    summary: >-
+      Fucoidan ist ein sulfatiertes Polysaccharid aus Braunalgen mit wachsender Evidenz für Immunmodulation, Darmgesundheit und kardiovaskuläre Marker.
+    evidenceSummary: >-
+      Mehrere RCTs zeigen positive Effekte auf Griffstärke bei Älteren, Darmgesundheit und Mikrobiom. Moderate Evidenz für kardiovaskuläre Marker (LDL, Blutdruck). Anti-Krebs-Daten bisher nur präklinisch; Phase-2-Trial zu Chemo-Fatigue läuft.
+    body: |
+      ## Wirkweise
+      
+      Fucoidan ist ein sulfatiertes Polysaccharid, das aus **Braunalgen** wie *Undaria pinnatifida* (Wakame), *Fucus vesiculosus* (Blasentang) und *Cladosiphon okamuranus* (Mozuku) gewonnen wird. Es unterscheidet sich fundamental von Sea Moss (Rotalge): Fucoidan hat eine definierte Molekülstruktur mit spezifischen biologischen Aktivitäten.
+      
+      Die postulierten Wirkmechanismen umfassen:
+      - **Immunmodulation:** Aktivierung von NK-Zellen und Makrophagen
+      - **Präbiotische Wirkung:** Förderung von Bifidobakterien und Stärkung der Darmbarriere
+      - **Anti-inflammatorisch:** Hemmung von NF-κB und Reduktion pro-inflammatorischer Zytokine
+      - **Kardiovaskulär:** Moderate Effekte auf LDL-Cholesterin und Blutdruck
+      
+      ## Evidenzlage
+      
+      Fucoidan hat eine **wachsende klinische Datenbasis** — ungewöhnlich für einen Algen-Wirkstoff. Mehrere RCTs zeigen positive Ergebnisse: Griffstärke bei Älteren (2025), präbiotische Mikrobiom-Effekte (2025), Verdauungs- und Mentalgesundheit (INNOSea, 2026). Ein Phase-2-Trial zu Chemo-Fatigue rekrutiert aktuell (2026).
+      
+      Die Evidenz für kardiovaskuläre Marker (LDL, Blutdruck) ist moderat aber konsistent. Anti-Krebs-Claims basieren bisher ausschließlich auf präklinischen Daten und sind für Supplemente nicht belegt.
+      
+      **Wichtig:** Fucoidan ist nicht gleich Fucoidan — Quelle, Extraktionsmethode und Molekulargewicht beeinflussen die biologische Aktivität erheblich.
+      
+      ## Sicherheit
+      
+      Fucoidan gilt als gut verträglich. In klinischen Studien wurden keine schwerwiegenden Nebenwirkungen berichtet. Theoretisches Risiko: Fucoidan hat antikoagulante Eigenschaften (strukturelle Ähnlichkeit mit Heparin) — Vorsicht bei gleichzeitiger Einnahme von Blutverdünnern. Jodgehalt je nach Quelle variabel.
+      
+      ## Dosierung
+      
+      250–1000 mg Fucoidan-Extrakt pro Tag. In den meisten RCTs wurden 250–500 mg verwendet. Standardisierung auf Fucose-Gehalt oder Sulfatierungsgrad ist wünschenswert, aber nicht immer angegeben.
+
+  en:
+    summary: >-
+      Fucoidan ist ein sulfatiertes Polysaccharid aus Braunalgen mit wachsender Evidenz für Immunmodulation, Darmgesundheit und kardiovaskuläre Marker.
+    evidenceSummary: >-
+      Mehrere RCTs zeigen positive Effekte auf Griffstärke bei Älteren, Darmgesundheit und Mikrobiom. Moderate Evidenz für kardiovaskuläre Marker (LDL, Blutdruck). Anti-Krebs-Daten bisher nur präklinisch; Phase-2-Trial zu Chemo-Fatigue läuft.
+    body: |
+      ## Mechanism of Action
+      
+      Fucoidan ist ein sulfatiertes Polysaccharid, das aus **Braunalgen** wie *Undaria pinnatifida* (Wakame), *Fucus vesiculosus* (Blasentang) und *Cladosiphon okamuranus* (Mozuku) gewonnen wird. Es unterscheidet sich fundamental von Sea Moss (Rotalge): Fucoidan hat eine definierte Molekülstruktur mit spezifischen biologischen Aktivitäten.
+      
+      Die postulierten Wirkmechanismen umfassen:
+      - **Immunmodulation:** Aktivierung von NK-Zellen und Makrophagen
+      - **Präbiotische Wirkung:** Förderung von Bifidobakterien und Stärkung der Darmbarriere
+      - **Anti-inflammatorisch:** Hemmung von NF-κB und Reduktion pro-inflammatorischer Zytokine
+      - **Kardiovaskulär:** Moderate Effekte auf LDL-Cholesterin und Blutdruck
+      
+      ## Evidence
+      
+      Fucoidan hat eine **wachsende klinische Datenbasis** — ungewöhnlich für einen Algen-Wirkstoff. Mehrere RCTs zeigen positive Ergebnisse: Griffstärke bei Älteren (2025), präbiotische Mikrobiom-Effekte (2025), Verdauungs- und Mentalgesundheit (INNOSea, 2026). Ein Phase-2-Trial zu Chemo-Fatigue rekrutiert aktuell (2026).
+      
+      Die Evidenz für kardiovaskuläre Marker (LDL, Blutdruck) ist moderat aber konsistent. Anti-Krebs-Claims basieren bisher ausschließlich auf präklinischen Daten und sind für Supplemente nicht belegt.
+      
+      **Wichtig:** Fucoidan ist nicht gleich Fucoidan — Quelle, Extraktionsmethode und Molekulargewicht beeinflussen die biologische Aktivität erheblich.
+      
+      ## Safety
+      
+      Fucoidan gilt als gut verträglich. In klinischen Studien wurden keine schwerwiegenden Nebenwirkungen berichtet. Theoretisches Risiko: Fucoidan hat antikoagulante Eigenschaften (strukturelle Ähnlichkeit mit Heparin) — Vorsicht bei gleichzeitiger Einnahme von Blutverdünnern. Jodgehalt je nach Quelle variabel.
+      
+      ## Dosage
+      
+      250–1000 mg Fucoidan-Extrakt pro Tag. In den meisten RCTs wurden 250–500 mg verwendet. Standardisierung auf Fucose-Gehalt oder Sulfatierungsgrad ist wünschenswert, aber nicht immer angegeben.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.8
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.8
+  - relation: wird_eingesetzt_fuer
+    target: herz-kreislauf
+    direction: outgoing
+    confidence: 0.6
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: knochen
+    direction: outgoing
+    confidence: 0.6
+  - relation: wirkt_ueber
+    target: nfkb-hemmung
+    direction: outgoing
+    confidence: 0.7
+  - relation: wirkt_ueber
+    target: darmbarriere-staerkung
+    direction: outgoing
+    confidence: 0.8
+  - relation: kontraindiziert_bei
+    target: kontra-blutgerinnungsstoerung
+    direction: outgoing
+    confidence: 0.7
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-fucoidan-grip
+    direction: outgoing
+    confidence: 0.9

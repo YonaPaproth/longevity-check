@@ -2,8 +2,14 @@
   "id": "sea-moss",
   "type": "ingredient",
   "name": "Irish Sea Moss",
-  "summary": "Rotalge mit hohem Mineralstoffgehalt, aber praktisch keiner klinischen Evidenz. Social-Media-Trend.",
-  "aliases": ["Sea Moss", "Chondrus crispus", "Irisches Moos", "Irish Moss"],
+  "summary": "Irish Sea Moss ist eine Rotalge, die als natürliche Mineralstoffquelle vermarktet wird. Viral auf Social Media, aber praktisch keine klinische Evidenz für gesundheitliche Vorteile.",
+  "aliases": [
+    "Sea Moss",
+    "Chondrus crispus",
+    "Irisches Moos",
+    "Carrageen-Moos",
+    "Irish Moss"
+  ],
   "category": "general-health",
   "evidenceLevel": 5,
   "safety": "caution",

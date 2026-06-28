@@ -1,0 +1,125 @@
+---
+id: kuerbiskernoel
+type: ingredient
+
+meta:
+  title:
+    de: "Kürbiskernöl"
+    en: "Pumpkin Seed Oil"
+  aliases:
+    - "Pumpkin Seed Oil"
+    - "Cucurbita pepo"
+    - "Kürbiskern-Extrakt"
+  category: hormonal
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 1000
+  publishedAt: "2026-06-26"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Keine zugelassenen Health Claims für Kürbiskernöl in der EU.
+  en: >-
+    No approved health claims for pumpkin seed oil in the EU.
+
+key_studies:
+  - pmid: "25196580"
+    title: "Pumpkin seed oil supplementation in men with BPH"
+    authors: "Vahlensieck W et al."
+    year: 2015
+    url: "https://pubmed.ncbi.nlm.nih.gov/25196580/"
+    finding:
+      de: >-
+        RCT (n=1431): Kürbiskernöl verbesserte IPSS-Score signifikant vs. Placebo nach 12 Monaten bei milder BPH.
+      en: >-
+        RCT (n=1431): Pumpkin seed oil significantly improved IPSS score vs. placebo after 12 months in mild BPH.
+  - pmid: "24420785"
+    title: "Effects of pumpkin seed oil on urinary disorders in postmenopausal women"
+    authors: "Nishimura M et al."
+    year: 2014
+    url: "https://pubmed.ncbi.nlm.nih.gov/24420785/"
+    finding:
+      de: >-
+        RCT (n=45): Kürbiskernöl reduzierte overactive-bladder-Symptome bei postmenopausalen Frauen nach 12 Wochen.
+      en: >-
+        RCT (n=45): Pumpkin seed oil reduced overactive bladder symptoms in postmenopausal women after 12 weeks.
+  - pmid: "17004914"
+    title: "Pumpkin seed oil and phytosterol-F for benign prostatic hyperplasia"
+    authors: "Gossell-Williams M et al."
+    year: 2006
+    url: "https://pubmed.ncbi.nlm.nih.gov/17004914/"
+    finding:
+      de: >-
+        Pilotstudie: Kürbiskernöl allein und in Kombination mit Saw Palmetto verbesserte BPH-Symptome und Lebensqualität.
+      en: >-
+        Pilot study: Pumpkin seed oil alone and combined with saw palmetto improved BPH symptoms and quality of life.
+
+locales:
+  de:
+    summary: >-
+      Kürbiskernöl enthält Phytosterole und Delta-7-Sterine, die in Zusammenhang mit Prostata- und Blasengesundheit stehen. Moderate Evidenz aus kleinen RCTs.
+    evidenceSummary: >-
+      Einige kleine RCTs zeigen Verbesserungen bei BPH-Symptomen (IPSS-Score). Mechanismen über 5-Alpha-Reduktase-Hemmung und Phytosterole. Insgesamt moderate Evidenz, größere Studien fehlen.
+    body: |
+      ## Wirkweise
+      
+      Kürbiskernöl aus *Cucurbita pepo* enthält Phytosterole (insbesondere Beta-Sitosterol und Delta-7-Sterine), ungesättigte Fettsäuren und Carotinoide. Die postulierten Wirkmechanismen bei BPH umfassen eine milde Hemmung der 5-Alpha-Reduktase (ähnlich wie Finasterid, aber deutlich schwächer) und entzündungshemmende Effekte über Phytosterole.
+      
+      ## Evidenzlage
+      
+      Die größte Studie (Vahlensieck 2015, n=1431) zeigte signifikante IPSS-Verbesserungen bei milder BPH. Allerdings war die Effektgröße moderat, und die Studie wurde teilweise von der Industrie finanziert. Für Blasengesundheit bei Frauen gibt es erste positive Daten (Nishimura 2014), aber nur mit kleiner Stichprobe.
+      
+      ## Sicherheit
+      
+      Kürbiskernöl gilt als sehr sicher. Keine nennenswerten Nebenwirkungen in Studien berichtet. Kann in seltenen Fällen leichte Magen-Darm-Beschwerden verursachen.
+      
+      ## Dosierung
+      
+      1000–3000 mg Kürbiskernöl pro Tag, typischerweise aufgeteilt auf 2-3 Dosen zu den Mahlzeiten.
+
+  en:
+    summary: >-
+      Pumpkin seed oil contains phytosterols and delta-7 sterols linked to prostate and bladder health. Moderate evidence from small RCTs.
+    evidenceSummary: >-
+      Several small RCTs show improvements in BPH symptoms (IPSS score). Mechanisms via 5-alpha-reductase inhibition and phytosterols. Overall moderate evidence, larger studies needed.
+    body: |
+      ## Mechanism of Action
+      
+      Pumpkin seed oil from *Cucurbita pepo* contains phytosterols (particularly beta-sitosterol and delta-7 sterols), unsaturated fatty acids, and carotenoids. The proposed mechanisms in BPH include mild inhibition of 5-alpha-reductase (similar to finasteride but significantly weaker) and anti-inflammatory effects via phytosterols.
+      
+      ## Evidence
+      
+      The largest study (Vahlensieck 2015, n=1431) showed significant IPSS improvements in mild BPH. However, the effect size was moderate and the study was partially industry-funded. For bladder health in women, initial positive data exists (Nishimura 2014) but with a small sample size only.
+      
+      ## Safety
+      
+      Pumpkin seed oil is considered very safe. No notable side effects reported in studies. May cause mild gastrointestinal discomfort in rare cases.
+      
+      ## Dosage
+      
+      1000–3000 mg pumpkin seed oil per day, typically divided into 2-3 doses with meals.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: prostata
+    direction: outgoing
+    confidence: 0.7
+  - relation: wird_eingesetzt_fuer
+    target: blase
+    direction: outgoing
+    confidence: 0.6
+  - relation: wirkt_ueber
+    target: 5-alpha-reduktase-hemmung
+    direction: outgoing
+    confidence: 0.6
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+  - relation: basiert_auf_studie
+    target: studie-25196580
+    direction: outgoing
+    confidence: 0.8
+    source: "pmid:25196580"

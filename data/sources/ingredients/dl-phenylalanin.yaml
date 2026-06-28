@@ -1,0 +1,132 @@
+---
+id: dl-phenylalanin
+type: ingredient
+
+meta:
+  title:
+    de: "D,L-Phenylalanin"
+    en: "D,L-Phenylalanine"
+  aliases:
+    - "DLPA"
+    - "DL-Phenylalanine"
+    - "D,L-Phenylalanine"
+  category: cognitive
+  evidenceLevel: "3"
+  safety_rating: likely-safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 500
+  publishedAt: "2026-06-26"
+  updatedAt: "2026-06-13"
+
+efsa_notes:
+  de: >-
+    Phenylalanin ist als essentielle Aminosäure anerkannt. Keine spezifischen Health Claims für DLPA in der EU.
+  en: >-
+    Phenylalanine is recognized as an essential amino acid. No specific health claims for DLPA in the EU.
+
+key_studies:
+  - pmid: "335027"
+    title: "D-phenylalanine in depressed patients: an open study"
+    authors: "Beckmann H et al."
+    year: 1977
+    url: "https://pubmed.ncbi.nlm.nih.gov/335027/"
+    finding:
+      de: >-
+        Offene Studie (n=20): D-Phenylalanin zeigte antidepressive Effekte bei 12 von 20 Patienten. Methodisch schwach (kein Placebo).
+      en: >-
+        Open study (n=20): D-phenylalanine showed antidepressant effects in 12 of 20 patients. Methodologically weak (no placebo).
+  - pmid: "380817"
+    title: "DL-phenylalanine in depressed patients"
+    authors: "Beckmann H et al."
+    year: 1979
+    url: "https://pubmed.ncbi.nlm.nih.gov/380817/"
+    finding:
+      de: >-
+        Doppelblind-Studie (n=40): DLPA war Imipramin (150 mg) nicht unterlegen bei Depression. Kleine Stichprobe, Replikation fehlt.
+      en: >-
+        Double-blind study (n=40): DLPA was non-inferior to imipramine (150 mg) for depression. Small sample, replication needed.
+  - pmid: "6128034"
+    title: "D-phenylalanine and other enkephalinase inhibitors as pharmacological agents"
+    authors: "Ehrenpreis S"
+    year: 1982
+    url: "https://pubmed.ncbi.nlm.nih.gov/6128034/"
+    finding:
+      de: >-
+        Review: D-Phenylalanin hemmt Enkephalinase und verlängert damit die Wirkung körpereigener Endorphine. Tierversuche und erste klinische Daten positiv.
+      en: >-
+        Review: D-phenylalanine inhibits enkephalinase, prolonging endogenous endorphin activity. Animal studies and initial clinical data positive.
+
+locales:
+  de:
+    summary: >-
+      D,L-Phenylalanin kombiniert die Neurotransmitter-Vorstufe L-Phenylalanin mit der D-Form, die körpereigene Endorphine verlängern soll. Moderate Evidenz, ältere Studienlage.
+    evidenceSummary: >-
+      L-Phenylalanin als Tyrosin-/Dopamin-Vorstufe hat indirekte Evidenz über den Tyrosin-Pathway. D-Phenylalanin als Enkephalinase-Inhibitor wurde in den 1980ern bei Schmerz und Depression untersucht, seither kaum neue Studien.
+    body: |
+      ## Wirkweise
+      
+      DLPA ist eine 50/50-Mischung beider Isomere. **L-Phenylalanin** wird zu L-Tyrosin hydroxyliert, dann weiter zu Dopamin → Noradrenalin → Adrenalin. **D-Phenylalanin** soll die Enkephalinase hemmen — ein Enzym, das körpereigene Endorphine abbaut — und so die natürliche Schmerzlinderung verlängern.
+      
+      ## Evidenzlage
+      
+      Die Evidenz stammt überwiegend aus den 1970er-80er Jahren. Beckmann (1979) zeigte in einer kleinen Doppelblindstudie DLPA als nicht unterlegen zu Imipramin bei Depression. Für Schmerzlinderung über Enkephalinase-Hemmung gibt es mechanistische Plausibilität, aber keine modernen RCTs. Insgesamt: historisch interessant, aber Replikation fehlt.
+      
+      ## Sicherheit
+      
+      Kontraindiziert bei Phenylketonurie (PKU). Nicht mit MAO-Hemmern oder Levodopa kombinieren. Kann bei empfindlichen Personen Kopfschmerzen, Übelkeit oder Angst auslösen. In Studien insgesamt gut verträglich.
+      
+      ## Dosierung
+      
+      500–1000 mg pro Tag, nüchtern. Nicht abends (stimulierend über Dopamin-Pathway).
+
+  en:
+    summary: >-
+      DLPA combines the neurotransmitter precursor L-phenylalanine with the D-form, which may prolong endogenous endorphins. Moderate evidence, older study base.
+    evidenceSummary: >-
+      L-phenylalanine has indirect evidence via the tyrosine/dopamine pathway. D-phenylalanine as an enkephalinase inhibitor was studied for pain and depression in the 1980s, with few new studies since.
+    body: |
+      ## Mechanism of Action
+      
+      DLPA is a 50/50 mixture of both isomers. **L-Phenylalanine** is hydroxylated to L-tyrosine, then further to dopamine → norepinephrine → epinephrine. **D-Phenylalanine** is proposed to inhibit enkephalinase — an enzyme that breaks down endogenous endorphins — thereby prolonging natural pain relief.
+      
+      ## Evidence
+      
+      Evidence predominantly dates from the 1970s-80s. Beckmann (1979) showed DLPA as non-inferior to imipramine for depression in a small double-blind trial. For pain relief via enkephalinase inhibition, there is mechanistic plausibility but no modern RCTs. Overall: historically interesting but replication is lacking.
+      
+      ## Safety
+      
+      Contraindicated in phenylketonuria (PKU). Do not combine with MAO inhibitors or levodopa. May cause headaches, nausea, or anxiety in sensitive individuals. Generally well-tolerated in studies.
+      
+      ## Dosage
+      
+      500–1000 mg per day on an empty stomach. Avoid evening doses (stimulating via dopamine pathway).
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: depression
+    direction: outgoing
+    confidence: 0.5
+  - relation: wird_eingesetzt_fuer
+    target: schmerz
+    direction: outgoing
+    confidence: 0.5
+  - relation: wird_eingesetzt_fuer
+    target: kognition
+    direction: outgoing
+    confidence: 0.6
+  - relation: wirkt_ueber
+    target: dopamin-synthese
+    direction: outgoing
+    confidence: 0.8
+  - relation: wirkt_ueber
+    target: enkephalinase-hemmung
+    direction: outgoing
+    confidence: 0.6
+  - relation: kontraindiziert_bei
+    target: kontra-mao-hemmer
+    direction: outgoing
+    confidence: 0.9
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
