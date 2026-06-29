@@ -387,9 +387,10 @@ function computeStructuredPositions(
   // Group nodes by (type, bucket) for even horizontal spread
   // Treat kontra-* and nw-* symptom nodes as contraindications for layout
   const groups = new Map<string, string[]>();
-  // Separate lists for equally-distributed lanes (symptoms + contraindications)
+  // Separate lists for equally-distributed lanes (symptoms, contraindications, studies)
   const symptomIds: string[] = [];
   const contraIds: string[] = [];
+  const studyIds: string[] = [];
 
   for (const node of nodes) {
     const bucket = buckets.get(node.id) ?? 1;
@@ -397,13 +398,17 @@ function computeStructuredPositions(
       ? 'contraindication'
       : node.type;
 
-    // Symptoms and contraindications get equal distribution
+    // Symptoms, contraindications, and studies get equal distribution
     if (layoutType === 'symptom') {
       symptomIds.push(node.id);
       continue;
     }
     if (layoutType === 'contraindication') {
       contraIds.push(node.id);
+      continue;
+    }
+    if (layoutType === 'study') {
+      studyIds.push(node.id);
       continue;
     }
 
@@ -447,6 +452,7 @@ function computeStructuredPositions(
 
   distributeEvenly(symptomIds, 'symptom');
   distributeEvenly(contraIds, 'contraindication');
+  distributeEvenly(studyIds, 'study');
 
   // Position all other node types using bucket-based X ranges
   for (const [key, ids] of groups) {
