@@ -154,6 +154,13 @@ function applyFilters() {
     visibleNodes = directMatches.union(directMatches.neighborhood().nodes());
   }
 
+  // When studies filter is active alongside other types, also show study neighbors
+  if (studiesActive && hasTypeFilter) {
+    const nonStudyMatches = directMatches.filter(n => n.data('type') !== 'study');
+    const studyNeighbors = nonStudyMatches.neighborhood().nodes().filter(n => n.data('type') === 'study');
+    visibleNodes = visibleNodes.union(studyNeighbors);
+  }
+
   cy.nodes().forEach((n) => {
     if (directMatches.has(n)) {
       n.removeClass('ks-hidden ks-faded').addClass('ks-highlighted');
