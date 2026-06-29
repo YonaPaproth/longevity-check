@@ -22,7 +22,7 @@ const ENTITY_COLORS: Record<string, string> = {
   contraindication:'#1e293b',   // slate-800 (black)
   regulatory:      '#f59e0b',   // amber-500
   claim:           '#ef4444',   // red-500
-  study:           '#94a3b8',   // slate-400
+  study:           '#6366f1',   // indigo-500
 };
 
 const TYPE_LABELS: Record<string, Record<string, string>> = {
@@ -853,7 +853,7 @@ async function initGraph() {
     const allChip = makeFilterChip(labels.all ?? 'All', 'all', true);
     filterRow.appendChild(allChip);
 
-    const typeOrder = ['ingredient', 'mechanism', 'symptom', 'contraindication', 'regulatory'];
+    const typeOrder = ['ingredient', 'mechanism', 'symptom', 'contraindication', 'regulatory', 'study'];
     for (const type of typeOrder) {
       if (!typesInGraph.has(type)) continue;
       const chip = makeFilterChip(labels[type] ?? type, type, false, ENTITY_COLORS[type]);
