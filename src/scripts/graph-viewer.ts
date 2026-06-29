@@ -54,11 +54,12 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
 
 /** Y position (as fraction of container height) for each node type lane. */
 const STRUCTURED_LANES: Array<{ type: string; yFrac: number }> = [
-  { type: 'regulatory',       yFrac: 0.08 },
-  { type: 'ingredient',       yFrac: 0.28 },
-  { type: 'mechanism',        yFrac: 0.48 },
-  { type: 'symptom',          yFrac: 0.65 },
-  { type: 'contraindication', yFrac: 0.85 },
+  { type: 'regulatory',       yFrac: 0.06 },
+  { type: 'ingredient',       yFrac: 0.22 },
+  { type: 'mechanism',        yFrac: 0.40 },
+  { type: 'symptom',          yFrac: 0.54 },
+  { type: 'contraindication', yFrac: 0.68 },
+  { type: 'study',            yFrac: 0.88 },
 ];
 
 /**
@@ -66,10 +67,11 @@ const STRUCTURED_LANES: Array<{ type: string; yFrac: number }> = [
  * Nodes are distributed across sub-rows to avoid overlap in crowded lanes.
  */
 const LANE_ROWS: Record<string, { rows: number; span: number }> = {
-  ingredient:       { rows: 3, span: 0.16 },
+  ingredient:       { rows: 3, span: 0.14 },
   mechanism:        { rows: 2, span: 0.08 },
-  symptom:          { rows: 2, span: 0.10 },
-  contraindication: { rows: 2, span: 0.10 },
+  symptom:          { rows: 2, span: 0.08 },
+  contraindication: { rows: 2, span: 0.08 },
+  study:            { rows: 5, span: 0.18 },
 };
 
 /** X range [min, max] as fraction of width for each bucket.
@@ -661,7 +663,7 @@ async function initGraph() {
   }
 
   // Filter out claim and biomarker nodes and their edges
-  const hiddenIds = new Set(graphData.nodes.filter(n => n.type === 'claim' || n.type === 'biomarker').map(n => n.id));
+  const hiddenIds = new Set(graphData.nodes.filter(n => n.type === 'claim' || n.type === 'biomarker' || n.type === 'study').map(n => n.id));
   graphData.nodes = graphData.nodes.filter(n => n.type !== 'claim' && n.type !== 'biomarker');
   graphData.edges = graphData.edges.filter(e => !hiddenIds.has(e.source) && !hiddenIds.has(e.target));
 
