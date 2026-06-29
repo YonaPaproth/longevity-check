@@ -118,10 +118,27 @@ function applyFilters() {
   const hasSearch     = searchQuery.length > 0;
   const hasTypeFilter = activeTypes.size > 0;
 
+  const studiesActive = activeTypes.has('study');
+
   if (!hasSearch && !hasTypeFilter) {
-    cy.nodes().removeClass('ks-faded ks-highlighted ks-hidden');
-    cy.edges().removeClass('ks-faded ks-hidden');
-    fitElements(cy.elements());
+    // "All" mode: show everything except studies (opt-in only)
+    cy.nodes().forEach(n => {
+      if (n.data('type') === 'study') {
+        n.addClass('ks-hidden').removeClass('ks-faded ks-highlighted');
+      } else {
+        n.removeClass('ks-faded ks-highlighted ks-hidden');
+      }
+    });
+    cy.edges().forEach(e => {
+      const s = e.source().data('type');
+      const t = e.target().data('type');
+      if (s === 'study' || t === 'study') {
+        e.addClass('ks-hidden').removeClass('ks-faded');
+      } else {
+        e.removeClass('ks-faded ks-hidden');
+      }
+    });
+    fitElements(cy.elements().filter(ele => !ele.hasClass('ks-hidden')));
     return;
   }
 
@@ -668,10 +685,10 @@ async function initGraph() {
     return;
   }
 
-  // Filter out claim and biomarker nodes and their edges
-  const hiddenIds = new Set(graphData.nodes.filter(n => n.type === 'claim' || n.type === 'biomarker' || n.type === 'study').map(n => n.id));
+  // Filter out claim and biomarker nodes and their edges (permanently hidden, no filter chip)
+  const permanentlyHidden = new Set(graphData.nodes.filter(n => n.type === 'claim' || n.type === 'biomarker').map(n => n.id));
   graphData.nodes = graphData.nodes.filter(n => n.type !== 'claim' && n.type !== 'biomarker');
-  graphData.edges = graphData.edges.filter(e => !hiddenIds.has(e.source) && !hiddenIds.has(e.target));
+  graphData.edges = graphData.edges.filter(e => !permanentlyHidden.has(e.source) && !permanentlyHidden.has(e.target));
 
   // Reclassify kontra-* symptom nodes as contraindication type
   for (const n of graphData.nodes) {
@@ -904,6 +921,14 @@ async function initGraph() {
   document.getElementById('ks-mode-structured')?.addEventListener('click', () => {
     if (layoutMode !== 'structured') setLayoutMode('structured', locale);
   });
+
+  // Hide study nodes initially (shown via filter chip)
+  cy.nodes().filter(n => n.data('type') === 'study').addClass('ks-hidden');
+  cy.edges().filter(e => {
+    const s = e.source().data('type');
+    const t = e.target().data('type');
+    return s === 'study' || t === 'study';
+  }).addClass('ks-hidden');
 
   // Initialise with structured layout as default
   setLayoutMode('structured', locale);
