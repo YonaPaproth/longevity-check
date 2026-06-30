@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Astaxanthin zeigt moderate klinische Daten zu Hautelastizität und Muskelregeneration."
-      en: "Astaxanthin zeigt moderate klinische Daten zu Hautelastizität und Muskelregeneration."
+      en: "Astaxanthin shows moderate clinical data on skin elasticity and muscle recovery."
   valueForMoney:
     score: 8
     explanation:
       de: "0,47 € pro 12 mg AstaReal ist stark, viele Konkurrenten liegen über 0,60 €."
-      en: "0,47 € pro 12 mg AstaReal ist stark, viele Konkurrenten liegen über 0,60 €."
+      en: "€0.47 per 12 mg AstaReal is competitive — many competitors charge above €0.60."
   productQuality:
     score: 8
     explanation:
       de: "AstaReal kultiviert Haematococcus pluvialis in geschlossenen Systemen, Softgels werden kalt abgefüllt."
-      en: "AstaReal kultiviert Haematococcus pluvialis in geschlossenen Systemen, Softgels werden kalt abgefüllt."
+      en: "AstaReal cultivates Haematococcus pluvialis in closed systems; softgels are cold-filled to preserve potency."
   labelHonesty:
     score: 8
     explanation:
       de: "Markenrohstoff und 12-mg-Dosierung klar benannt, Hilfsstoffe transparent."
-      en: "Markenrohstoff und 12-mg-Dosierung klar benannt, Hilfsstoffe transparent."
+      en: "Branded ingredient and 12 mg dosage clearly stated, excipients transparently listed."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "COAs verfügbar, Doctor's Best veröffentlicht Schwermetall- und Potenzdaten stichprobenartig."
-      en: "COAs verfügbar, Doctor's Best veröffentlicht Schwermetall- und Potenzdaten stichprobenartig."
+      en: "COAs available; Doctor's Best publishes heavy metal and potency data on a spot-check basis."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Keine veröffentlichten Daten zur Photostabilität"
       usage: "1 Softgel täglich mit einer fetthaltigen Mahlzeit. Bei hoher Sonnenexposition 2 Softgels auf morgens und abends aufteilen."
   en:
-    summary: "12 mg AstaReal Markenrohstoff pro Softgel mit natürlichem Tocopherol und Algenöl-Träger."
-    verdictNote: "gute Preis-Leistung für 12 mg Astaxanthin mit vertrauenswürdigem AstaReal-Rohstoff."
+    summary: "12 mg AstaReal branded ingredient per softgel with natural tocopherols and algae oil carrier."
+    verdictNote: "Good value for 12 mg astaxanthin using the trusted AstaReal ingredient."
     body:
-      description: "Die Softgels liefern 12 mg Astaxanthin aus Haematococcus pluvialis, gelöst in extra nativem Olivenöl und Sonnenblumenlecithin. Keine synthetischen Farb- oder Konservierungsstoffe."
+      description: "Each softgel delivers 12 mg astaxanthin from Haematococcus pluvialis, dissolved in extra virgin olive oil and sunflower lecithin. No synthetic dyes or preservatives."
       pros:
-        - "AstaReal Markenrohstoff mit Rückverfolgbarkeit"
-        - "Hohe 12-mg-Dosis pro Softgel"
-        - "Glutenfrei und Non-GMO"
-        - "Enthält natürliche Tocopherole als Synergie"
+        - "AstaReal branded ingredient with traceability"
+        - "High 12 mg dose per softgel"
+        - "Gluten-free and non-GMO"
+        - "Contains natural tocopherols for synergistic antioxidant support"
       cons:
-        - "Softgel aus Gelatine, nicht vegan"
-        - "Keine veröffentlichten Daten zur Photostabilität"
-      usage: "1 Softgel täglich mit einer fetthaltigen Mahlzeit. Bei hoher Sonnenexposition 2 Softgels auf morgens und abends aufteilen."
+        - "Gelatin-based softgel — not vegan"
+        - "No published photostability data"
+      usage: "1 softgel daily with a fat-containing meal. For high sun exposure, split into 2 softgels — one morning, one evening."
 ---

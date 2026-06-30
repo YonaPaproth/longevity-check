@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "R-Isomer ist die aktive Form der ALA, Studien deuten höhere Bioeffekte an."
-      en: "R-Isomer ist die aktive Form der ALA, Studien deuten höhere Bioeffekte an."
+      en: "The R-isomer is the active form of ALA; studies suggest higher bioactivity compared to the racemic mixture."
   valueForMoney:
     score: 6
     explanation:
       de: "0,66 € pro 100 mg ist teuer, aber Potenz ist höher."
-      en: "0,66 € pro 100 mg ist teuer, aber Potenz ist höher."
+      en: "€0.66 per 100 mg is expensive, but the higher potency of the R-form partly justifies it."
   productQuality:
     score: 8
     explanation:
       de: "BioEnhanced Na-RALA ist stabilisiert gegen Polymerisation."
-      en: "BioEnhanced Na-RALA ist stabilisiert gegen Polymerisation."
+      en: "BioEnhanced Na-RALA is stabilized against polymerization."
   labelHonesty:
     score: 8
     explanation:
       de: "Deutliche Kennzeichnung des Rohstoffs und 125 mg Gesamtgewicht."
-      en: "Deutliche Kennzeichnung des Rohstoffs und 125 mg Gesamtgewicht."
+      en: "Clear labeling of the branded ingredient and 125 mg total weight."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Interne Tests, jedoch keine externe Plakette."
-      en: "Interne Tests, jedoch keine externe Plakette."
+      en: "Internal testing only, no external certification badge."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Nur 60 Portionen"
       usage: "1 Kapsel nüchtern oder zwischen Mahlzeiten; bei neuropathischen Protokollen 2–3 Kapseln am Tag."
   en:
-    summary: "Stabilisiertes R-Liponsäure-Natriumsalz (BioEnhanced® Na-RALA) mit einer auf Bioverfügbarkeit ausgerichteten Formulierung bei geringerer Dosis."
-    verdictNote: "Reines R-Isomer erhöhte Anwendung pro mg, daher trotz höherem Preis sinnvoll."
+    summary: "Stabilized R-lipoic acid sodium salt (BioEnhanced® Na-RALA) — bioavailability-optimized formulation at a lower dose."
+    verdictNote: "Pure R-isomer increases efficacy per mg, making it worthwhile despite the higher price."
     body:
-      description: "Doctor's Best nutzt BioEnhanced Na-RALA, ein gepuffertes Salz der R-Liponsäure. Dadurch bleibt die aktive Form stabil und wird besser aufgenommen, ohne starke Magenreizung."
+      description: "Doctor's Best uses BioEnhanced Na-RALA, a buffered sodium salt of R-lipoic acid. This keeps the active form stable and improves absorption without causing significant stomach irritation."
       pros:
-        - "Reines R-Isomer"
-        - "Gute Verträglichkeit dank Natriumsalz"
-        - "Kleine Kapseln"
+        - "Pure R-isomer for maximum potency"
+        - "Good tolerability thanks to the sodium salt form"
+        - "Small capsules"
       cons:
-        - "Deutlich höherer Preis pro mg"
-        - "Nur 60 Portionen"
-      usage: "1 Kapsel nüchtern oder zwischen Mahlzeiten; bei neuropathischen Protokollen 2–3 Kapseln am Tag."
+        - "Significantly higher cost per mg"
+        - "Only 60 servings per bottle"
+      usage: "1 capsule on an empty stomach or between meals. For neuropathic protocols, 2–3 capsules per day."
 ---

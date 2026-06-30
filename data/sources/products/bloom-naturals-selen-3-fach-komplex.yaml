@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Selen ist als Basisnährstoff relevant, besonders bei niedriger Zufuhr. Der Nutzen hängt aber stark vom Ausgangsstatus ab; einfach mehr Selen ist nicht automatisch besser."
-      en: "Selen ist als Basisnährstoff relevant, besonders bei niedriger Zufuhr. Der Nutzen hängt aber stark vom Ausgangsstatus ab; einfach mehr Selen ist nicht automatisch besser."
+      en: "Selenium is relevant as a baseline nutrient, especially at low intake levels. However, benefits depend heavily on baseline status — more selenium is not automatically better."
   valueForMoney:
     score: 10
     explanation:
       de: "400 Tabletten für rund 16 Euro sind extrem günstig. Preis pro Tag ist praktisch unschlagbar."
-      en: "400 Tabletten für rund 16 Euro sind extrem günstig. Preis pro Tag ist praktisch unschlagbar."
+      en: "400 tablets for around €16 is extremely affordable. The daily cost is practically unbeatable."
   productQuality:
     score: 6
     explanation:
       de: "Drei Selenquellen und deutsche Herstellung sind positiv. Gleichzeitig ist es eher ein preisorientiertes Basic-Produkt als ein besonders hochwertig abgesichertes Premiumpräparat."
-      en: "Drei Selenquellen und deutsche Herstellung sind positiv. Gleichzeitig ist es eher ein preisorientiertes Basic-Produkt als ein besonders hochwertig abgesichertes Premiumpräparat."
+      en: "Three selenium sources and German manufacturing are positives. At the same time, this is a budget-oriented basic product rather than a highly quality-assured premium supplement."
   labelHonesty:
     score: 7
     explanation:
       de: "Das Produkt kommuniziert Quelle, Dosierung und Standardnutzen nachvollziehbar. Kein übertriebener gesundes Altern-Hype, aber klassisches Mikronährstoff-Marketing bleibt sichtbar."
-      en: "Das Produkt kommuniziert Quelle, Dosierung und Standardnutzen nachvollziehbar. Kein übertriebener gesundes Altern-Hype, aber klassisches Mikronährstoff-Marketing bleibt sichtbar."
+      en: "The product communicates source, dosage, and standard benefits clearly. No excessive anti-aging hype, but standard micronutrient marketing is still present."
   thirdPartyTesting:
     score: 3
     explanation:
       de: "Keine starke unabhängige Drittanbieter-Zertifizierung sichtbar. Vertrauen basiert vor allem auf Hersteller- und Händlerangaben."
-      en: "Keine starke unabhängige Drittanbieter-Zertifizierung sichtbar. Vertrauen basiert vor allem auf Hersteller- und Händlerangaben."
+      en: "No strong independent third-party certification visible. Trust relies primarily on manufacturer and retailer claims."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Wenig Premium-Signale** bei Reinheit, Testing oder Rohstofftransparenz"
       usage: ""
   en:
-    summary: "Extrem günstiger Langzeitvorrat für Selen mit drei Quellen. Praktisch für niedrige Kosten, aber die 200-µg-Dosis ist für dauerhafte Nutzung nicht für jeden gut geeignet."
-    verdictNote: "Sehr gut für den Preis und als Langzeitvorrat attraktiv — aber 200 µg täglich sind eher etwas für gezielte Ergänzung als für blindes dauerhafte Supplementierung."
+    summary: "Extremely affordable long-term selenium supply with three sources. Great for low cost, but the 200 µg dose isn't right for everyone for daily long-term use."
+    verdictNote: "Excellent value and attractive as a bulk buy — but 200 µg daily is more suited for targeted supplementation than routine use without a specific reason."
     body:
-      description: "Der Selen 3-Fach Komplex von Bloom Naturals kombiniert **Selenhefe, Selenmethionin und Natriumselenit**. Das klingt erstmal sinnvoll, weil verschiedene Selenformen zusammengeführt werden und die Dosierung klar auf 200 µg pro Tablette festgelegt ist."
+      description: "Bloom Naturals' Triple Selenium Complex combines **selenium yeast, selenomethionine, and sodium selenite**. The combination of multiple selenium forms makes sense on paper, and the dosage is clearly set at 200 µg per tablet."
       pros:
-        - "**Extrem günstiger Langzeitvorrat** mit 400 Tabletten"
-        - "**Drei Selenquellen** statt nur einer Einzelverbindung"
-        - "**Hergestellt in Deutschland**"
-        - "**Einfaches Basic-Produkt** ohne überladene Zusätze"
+        - "**Extremely affordable bulk supply** with 400 tablets"
+        - "**Three selenium sources** instead of a single compound"
+        - "**Made in Germany**"
+        - "**Simple basic product** without unnecessary additives"
       cons:
-        - "**200 µg ist nicht niedrig dosiert** und für Daily-Use ohne Anlass nicht automatisch ideal"
-        - "**Keine starke Drittanbieter-Zertifizierung**"
-        - "**Wenig Premium-Signale** bei Reinheit, Testing oder Rohstofftransparenz"
+        - "**200 µg is not a low dose** — not automatically ideal for daily use without a specific indication"
+        - "**No strong third-party certification**"
+        - "**Few premium quality signals** around purity, testing, or ingredient transparency"
       usage: ""
 ---

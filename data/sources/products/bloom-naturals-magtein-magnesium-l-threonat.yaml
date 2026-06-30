@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Magnesium als Nährstoff ist sehr gut begründet. Für Magnesium-L-Threonat speziell sind die Human-Daten interessanter, aber deutlich dünner als bei klassischen Magnesium-Endpunkten wie Mangelkorrektur oder Muskel-/Krampf-Themen."
-      en: "Magnesium als Nährstoff ist sehr gut begründet. Für Magnesium-L-Threonat speziell sind die Human-Daten interessanter, aber deutlich dünner als bei klassischen Magnesium-Endpunkten wie Mangelkorrektur oder Muskel-/Krampf-Themen."
+      en: "Magnesium as a nutrient is well-supported. For magnesium L-threonate specifically, human data is intriguing but much thinner than for classic magnesium endpoints like deficiency correction or muscle/cramp issues."
   valueForMoney:
     score: 4
     explanation:
       de: "Mit über 1 Euro pro Tag ist das Produkt teuer. Dazu liefert es nur 144 mg elementares Magnesium pro Tagesportion."
-      en: "Mit über 1 Euro pro Tag ist das Produkt teuer. Dazu liefert es nur 144 mg elementares Magnesium pro Tagesportion."
+      en: "At over €1 per day, this product is expensive — and it delivers only 144 mg of elemental magnesium per daily serving."
   productQuality:
     score: 8
     explanation:
       de: "Magtein als markengewird mit Schutzmechanismen in Verbindung gebrachter Rohstoff ist ein Pluspunkt. Deutsche Herstellung und klare Formulierung wirken ordentlich und überdurchschnittlich für ein Spezialprodukt."
-      en: "Magtein als markengewird mit Schutzmechanismen in Verbindung gebrachter Rohstoff ist ein Pluspunkt. Deutsche Herstellung und klare Formulierung wirken ordentlich und überdurchschnittlich für ein Spezialprodukt."
+      en: "Magtein as a branded raw material is a plus. German manufacturing and a clean formulation stand out as above average for a specialty product."
   labelHonesty:
     score: 7
     explanation:
       de: "Bloom bleibt relativ sauber innerhalb zulässiger Magnesium-Kommunikation. Die implizite Brain-Story von Magtein sollte man trotzdem kritisch lesen."
-      en: "Bloom bleibt relativ sauber innerhalb zulässiger Magnesium-Kommunikation. Die implizite Brain-Story von Magtein sollte man trotzdem kritisch lesen."
+      en: "Bloom stays relatively clean within permissible magnesium claims. The implicit brain narrative around Magtein should still be read critically."
   thirdPartyTesting:
     score: 4
     explanation:
       de: "Es gibt keine starke unabhängige Zertifizierung wie NSF oder USP. Die Qualitätswahrnehmung stützt sich vor allem auf Rohstoff-Branding und Herstellerangaben."
-      en: "Es gibt keine starke unabhängige Zertifizierung wie NSF oder USP. Die Qualitätswahrnehmung stützt sich vor allem auf Rohstoff-Branding und Herstellerangaben."
+      en: "No strong independent certification like NSF or USP. Quality perception relies primarily on ingredient branding and manufacturer claims."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Kein idealer Basic-Pick**, wenn es einfach um Magnesiummangel oder Preis-Leistung geht"
       usage: ""
   en:
-    summary: "Magtein ist die kognitiv ausgerichtete Premium-Variante von Magnesium. Spannend als Spezialprodukt, aber deutlich teurer und mit weniger elementarem Magnesium als klassische Formen."
-    verdictNote: "Spannendes Spezialprodukt für Leute, die gezielt Magtein ausprobieren wollen — aber für klassischen Magnesium-Bedarf meist schlechteres Preis-Leistungs-Verhältnis als Glycinat oder Citrat."
+    summary: "Magtein — the cognitively-focused premium form of magnesium. Interesting as a specialty product, but pricier with less elemental magnesium than classic forms."
+    verdictNote: "An interesting specialty product for those specifically wanting to try Magtein — but for basic magnesium needs, glycinate or citrate typically offers better value."
     body:
-      description: "Magtein Magnesium L-Threonat ist kein klassisches Magnesium-Basisprodukt, sondern eher die **spezialisierte Premium-Variante**. Die Story dahinter: Diese Form wird oft mit kognitiven oder neurologischen Themen verknüpft."
+      description: "Magtein Magnesium L-Threonate is not a standard magnesium supplement, but rather a **specialized premium option**. The rationale: this form is often associated with cognitive and neurological benefits."
       pros:
-        - "**Magtein-Rohstoff** statt generischer L-Threonat-Formulierung"
-        - "**Deutsche Herstellung**"
-        - "**Klar positioniertes Spezialprodukt**"
-        - "**Plausibel für Nutzer mit Brain-/Sleep-Interesse** statt klassischem Muskel-Fokus"
+        - "**Magtein branded ingredient** instead of generic L-threonate"
+        - "**Made in Germany**"
+        - "**Clearly positioned as a specialty product**"
+        - "**Plausible for users focused on brain/sleep benefits** rather than classic muscle support"
       cons:
-        - "**Teuer**"
-        - "**Relativ wenig elementares Magnesium** pro Tagesportion"
-        - "**Kein idealer Basic-Pick**, wenn es einfach um Magnesiummangel oder Preis-Leistung geht"
+        - "**Expensive**"
+        - "**Relatively low elemental magnesium** per daily serving"
+        - "**Not ideal as a basic pick** if the goal is simply correcting deficiency or getting value for money"
       usage: ""
 ---

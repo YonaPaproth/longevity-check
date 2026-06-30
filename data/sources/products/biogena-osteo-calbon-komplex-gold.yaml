@@ -32,27 +32,27 @@ ratings:
     score: 8
     explanation:
       de: "Calcium + D3 + K2 ist der evidenzstärkste Knochen-Stack. Hydroxyapatit liefert zusätzlich Phosphor. Silicium und Bor mit ergänzender Evidenz."
-      en: "Calcium + D3 + K2 ist der evidenzstärkste Knochen-Stack. Hydroxyapatit liefert zusätzlich Phosphor. Silicium und Bor mit ergänzender Evidenz."
+      en: "Calcium + D3 + K2 is the most evidence-backed bone stack. Hydroxyapatite also provides phosphorus. Silicon and boron have supplementary evidence."
   valueForMoney:
     score: 5
     explanation:
       de: "1,33 € pro Tag ist Premium-Niveau. Vergleichbare Einzelpräparate kosten zusammen weniger, aber die Kombi-Bequemlichkeit hat ihren Wert."
-      en: "1,33 € pro Tag ist Premium-Niveau. Vergleichbare Einzelpräparate kosten zusammen weniger, aber die Kombi-Bequemlichkeit hat ihren Wert."
+      en: "€1.33 per day is premium pricing. Equivalent single supplements cost less combined, but the convenience of one product has value."
   productQuality:
     score: 9
     explanation:
       de: "Calbon-N Hydroxyapatit (mikrokristallin, natürlich), K2VITAL (all-trans MK-7), Bambus-Silicium — alles Markenrohstoffe. Biogena Pharmaqualität."
-      en: "Calbon-N Hydroxyapatit (mikrokristallin, natürlich), K2VITAL (all-trans MK-7), Bambus-Silicium — alles Markenrohstoffe. Biogena Pharmaqualität."
+      en: "Calbon-N hydroxyapatite (microcrystalline, natural), K2VITAL (all-trans MK-7), bamboo silicon — all branded ingredients. Biogena pharmaceutical quality."
   labelHonesty:
     score: 10
     explanation:
       de: "Alle Rohstoffe und Mengen exakt deklariert, Markenrohstoffe benannt. Biogena-typische Transparenz."
-      en: "Alle Rohstoffe und Mengen exakt deklariert, Markenrohstoffe benannt. Biogena-typische Transparenz."
+      en: "All raw materials and amounts exactly declared, branded ingredients named. Biogena's typical high transparency."
   thirdPartyTesting:
     score: 9
     explanation:
       de: "Biogena produziert in Österreich unter pharmazeutischen Standards, jede Charge laborgeprüft."
-      en: "Biogena produziert in Österreich unter pharmazeutischen Standards, jede Charge laborgeprüft."
+      en: "Biogena manufactures in Austria under pharmaceutical standards; every batch is laboratory tested."
 
 locales:
   de:
@@ -75,22 +75,22 @@ locales:
         - "Hydroxyapatit hat weniger Absorptionsstudien als Calciumcitrat"
       usage: "3 Kapseln täglich zu den Mahlzeiten, idealerweise aufgeteilt (z.B. 2 morgens, 1 abends). Calcium-Aufnahme ist bei Einzeldosen >500 mg limitiert."
   en:
-    summary: "Premium-Knochenkomplex: 750 mg Calcium (Hydroxyapatit + Korallencalcium), D3, K2 (K2VITAL), Silicium, Bor — 6 Wirkstoffe für Knochengesundheit."
-    verdictNote: "Der umfassendste Knochen-Komplex in unserem Katalog — 6 synergistische Wirkstoffe in Pharmaqualität. Premium-Preis, aber Premium-Formulierung."
+    summary: "Premium bone complex: 750 mg calcium (hydroxyapatite + coral calcium), D3, K2 (K2VITAL), silicon, boron — 6 actives for bone health."
+    verdictNote: "The most comprehensive bone complex in our catalog — 6 synergistic actives in pharmaceutical quality. Premium price, but premium formulation."
     body:
-      description: "BIOGENA Osteo Calbon Komplex Gold vereint sechs knochenrelevante Wirkstoffe in einem Produkt. Das Herzstück ist Calbon-N — mikrokristallines Hydroxyapatit aus natürlicher Quelle, das Calcium und Phosphor im natürlichen Verhältnis liefert (wie im Knochen selbst vorkommend). Ergänzt durch Korallencalcium, Vitamin D3, K2 als K2VITAL (all-trans MK-7), Silicium aus Bambussprossenextrakt und Bor."
+      description: "BIOGENA Osteo Calbon Komplex Gold combines six bone-relevant actives in one product. The centerpiece is Calbon-N — microcrystalline hydroxyapatite from natural sources, delivering calcium and phosphorus in the natural ratio (as found in bone itself). Complemented by coral calcium, vitamin D3, K2 as K2VITAL (all-trans MK-7), silicon from bamboo shoot extract, and boron."
       pros:
-        - "Hydroxyapatit statt isoliertes Calciumcarbonat — liefert Calcium + Phosphor im natürlichen Verhältnis"
-        - "K2VITAL (all-trans MK-7) — die wirksamste K2-Form"
-        - "750 mg Calcium pro Tagesdosis — klinisch relevante Menge"
-        - "Silicium aus Bambus (52 mg) + Bor (3 mg) — oft vernachlässigte Knochen-Cofaktoren"
-        - "Biogena Pharmaqualität aus Österreich"
-        - "Sinnvolle Kombi: D3 für Calcium-Aufnahme, K2 für Calcium-Einlagerung in Knochen statt Arterien"
+        - "Hydroxyapatite instead of isolated calcium carbonate — delivers calcium + phosphorus in the natural ratio"
+        - "K2VITAL (all-trans MK-7) — the most effective K2 form"
+        - "750 mg calcium per daily dose — clinically relevant amount"
+        - "Silicon from bamboo (52 mg) + boron (3 mg) — often overlooked bone cofactors"
+        - "Biogena pharmaceutical quality from Austria"
+        - "Smart combination: D3 for calcium absorption, K2 to direct calcium into bones instead of arteries"
       cons:
-        - "3 Kapseln pro Tag — viel zu schlucken"
-        - "1,33 €/Tag ist der höchste Preis in unserem Knochen-Segment"
-        - "90 Kapseln = nur 1 Monat"
-        - "Kein Magnesium enthalten (häufig empfohlener Knochen-Cofaktor)"
-        - "Hydroxyapatit hat weniger Absorptionsstudien als Calciumcitrat"
-      usage: "3 Kapseln täglich zu den Mahlzeiten, idealerweise aufgeteilt (z.B. 2 morgens, 1 abends). Calcium-Aufnahme ist bei Einzeldosen >500 mg limitiert."
+        - "3 capsules per day — a lot to swallow"
+        - "€1.33/day is the highest price in our bone segment"
+        - "90 capsules = only 1 month supply"
+        - "No magnesium included (a commonly recommended bone cofactor)"
+        - "Hydroxyapatite has fewer absorption studies than calcium citrate"
+      usage: "3 capsules daily with meals, ideally split (e.g., 2 in the morning, 1 in the evening). Calcium absorption is limited at single doses above 500 mg."
 ---

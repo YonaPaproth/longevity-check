@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Berberin hat gute Evidenz für Blutzucker und Lipide. Dihydroberberin ist der aktive Metabolit mit besserer Absorption, aber weniger eigene Studien."
-      en: "Berberin hat gute Evidenz für Blutzucker und Lipide. Dihydroberberin ist der aktive Metabolit mit besserer Absorption, aber weniger eigene Studien."
+      en: "Berberine has good evidence for blood sugar and lipid management. Dihydroberberine is the active metabolite with better absorption, but fewer independent studies."
   valueForMoney:
     score: 6
     explanation:
       de: "0,50 € pro Tag für 200 mg DHB ist teurer als Standard-Berberin, aber die 5× Bioverfügbarkeit relativiert das."
-      en: "0,50 € pro Tag für 200 mg DHB ist teurer als Standard-Berberin, aber die 5× Bioverfügbarkeit relativiert das."
+      en: "€0.50 per day for 200 mg DHB is pricier than standard berberine, but the 5× bioavailability puts it in context."
   productQuality:
     score: 8
     explanation:
       de: "GlucoVantage ist ein patentierter, klinisch getesteter Rohstoff. 200 mg DHB ≈ 1000 mg Standard-Berberin."
-      en: "GlucoVantage ist ein patentierter, klinisch getesteter Rohstoff. 200 mg DHB ≈ 1000 mg Standard-Berberin."
+      en: "GlucoVantage is a patented, clinically tested ingredient. 200 mg DHB ≈ 1000 mg standard berberine."
   labelHonesty:
     score: 8
     explanation:
       de: "GlucoVantage-Markenrohstoff benannt, Dihydroberberin als Metabolitform erklärt."
-      en: "GlucoVantage-Markenrohstoff benannt, Dihydroberberin als Metabolitform erklärt."
+      en: "GlucoVantage branded ingredient named, dihydroberberine explained as the metabolite form."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "GlucoVantage ist patentiert und analytisch charakterisiert. Endprodukt-Testing variiert nach Marke."
-      en: "GlucoVantage ist patentiert und analytisch charakterisiert. Endprodukt-Testing variiert nach Marke."
+      en: "GlucoVantage is patented and analytically characterized. End-product testing varies by brand."
 
 locales:
   de:
@@ -69,19 +69,19 @@ locales:
         - "Langzeit-Sicherheitsdaten für DHB spezifisch noch begrenzt"
       usage: "1 Kapsel (200 mg) 1–2× täglich zu einer Mahlzeit. Nicht zusammen mit Metformin ohne ärztliche Rücksprache (beide senken Blutzucker)."
   en:
-    summary: "Dihydroberberin (GlucoVantage) — die aktive Metabolitform von Berberin mit 5× höherer Bioverfügbarkeit."
-    verdictNote: "Nächste Generation Berberin — höhere Bioverfügbarkeit bei niedrigerer Dosis. Weniger GI-Nebenwirkungen als Standard-Berberin."
+    summary: "Dihydroberberine (GlucoVantage) — the active metabolite form of berberine with 5× higher bioavailability."
+    verdictNote: "Next-generation berberine — higher bioavailability at a lower dose, with fewer GI side effects than standard berberine."
     body:
-      description: "Dihydroberberin (DHB) ist der aktive Metabolit, in den Berberin im Darm umgewandelt wird. GlucoVantage umgeht diesen Schritt und liefert DHB direkt — mit bis zu 5× höherer Bioverfügbarkeit bei niedrigerer Dosis. 200 mg DHB sollen äquivalent zu 1000–1500 mg Standard-Berberin sein."
+      description: "Dihydroberberine (DHB) is the active metabolite that berberine is converted into in the gut. GlucoVantage bypasses this step by delivering DHB directly — with up to 5× higher bioavailability at a lower dose. 200 mg DHB is considered equivalent to 1000–1500 mg standard berberine."
       pros:
-        - "5× höhere Bioverfügbarkeit als Standard-Berberin"
-        - "Niedrigere Dosis nötig (200 mg statt 1000+ mg)"
-        - "Deutlich weniger gastrointestinale Nebenwirkungen"
-        - "GlucoVantage ist ein patentierter, klinisch validierter Rohstoff"
+        - "5× higher bioavailability than standard berberine"
+        - "Lower dose needed (200 mg instead of 1000+ mg)"
+        - "Significantly fewer gastrointestinal side effects"
+        - "GlucoVantage is a patented, clinically validated ingredient"
       cons:
-        - "Weniger direkte Studienevidenz als Standard-Berberin (die meisten RCTs verwenden Berberin HCl)"
-        - "Teurer pro Tag als Standard-Berberin"
-        - "Mehrere Marken verwenden GlucoVantage — Qualität variiert"
-        - "Langzeit-Sicherheitsdaten für DHB spezifisch noch begrenzt"
-      usage: "1 Kapsel (200 mg) 1–2× täglich zu einer Mahlzeit. Nicht zusammen mit Metformin ohne ärztliche Rücksprache (beide senken Blutzucker)."
+        - "Less direct study evidence than standard berberine (most RCTs use berberine HCl)"
+        - "Higher daily cost than standard berberine"
+        - "Multiple brands use GlucoVantage — end-product quality varies"
+        - "Long-term safety data specific to DHB is still limited"
+      usage: "1 capsule (200 mg) 1–2× daily with a meal. Do not combine with metformin without medical advice (both lower blood sugar)."
 ---

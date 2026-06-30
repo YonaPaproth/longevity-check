@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Sublinguale NMN-Aufnahme zeigt in Pilotstudien schnellere NAD+-Spiegel, Datenbasis aber klein."
-      en: "Sublinguale NMN-Aufnahme zeigt in Pilotstudien schnellere NAD+-Spiegel, Datenbasis aber klein."
+      en: "Sublingual NMN absorption shows faster NAD+ levels in pilot studies, but the data set is small."
   valueForMoney:
     score: 7
     explanation:
       de: "0,49 € pro Tablette ist günstig für zertifiziertes NMN mit Spezialdarreichung."
-      en: "0,49 € pro Tablette ist günstig für zertifiziertes NMN mit Spezialdarreichung."
+      en: "€0.49 per tablet is affordable for certified NMN in a specialized delivery format."
   productQuality:
     score: 8
     explanation:
       de: "HPLC-zertifiziert, frei von Füllstoffen, Tabletten in lichtgewird mit Schutzmechanismen in Verbindung gebrachter Blisterfolie."
-      en: "HPLC-zertifiziert, frei von Füllstoffen, Tabletten in lichtgewird mit Schutzmechanismen in Verbindung gebrachter Blisterfolie."
+      en: "HPLC-certified, filler-free, tablets protected by light-resistant blister packaging."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare Kommunikation zu Dosierung und Analysewerten."
-      en: "Klare Kommunikation zu Dosierung und Analysewerten."
+      en: "Clear communication on dosage and analytical values."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Labdoor und hauseigene HPLC-Reports stehen öffentlich zum Download bereit."
-      en: "Labdoor und hauseigene HPLC-Reports stehen öffentlich zum Download bereit."
+      en: "Labdoor and in-house HPLC reports are publicly available for download."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Tabletten sind empfindlich gegen Hitze, daher nicht im Auto lagern"
       usage: "1 Tablette unter die Zunge legen und vollständig zergehen lassen, idealerweise morgens. Für höhere Dosierungen bis zu 2 Tabletten über den Tag verteilen."
   en:
-    summary: "125 mg NMN pro Lutschtablette, sublingual resorbierbar, Labdoor-getestet und praktisch für Reisen ohne Kühlschrank."
-    verdictNote: "Wer NMN unterwegs nutzen möchte, bekommt hier eine praktische Sublingual-Lösung ohne Kühlkette."
+    summary: "125 mg NMN sublingual lozenge, Labdoor-tested and travel-friendly without refrigeration."
+    verdictNote: "A practical sublingual solution for on-the-go NMN use — no cold chain required."
     body:
-      description: "Alive By Science bietet NMN als Lutschtablette an, die unter der Zunge schmilzt. Dadurch umgeht das Pulver weitgehend den Verdauungstrakt und gelangt schneller ins Blut. Jede Tablette enthält 125 mg hochreines Beta-NMN."
+      description: "Alive By Science offers NMN as a lozenge that dissolves under the tongue, largely bypassing the digestive tract for faster absorption into the bloodstream. Each tablet contains 125 mg of high-purity Beta-NMN."
       pros:
-        - "Sublinguale Einnahme liefert schnellen Kick ohne Wasser"
-        - "Blisterfolie ist auf Schutz vor ausgerichtet bei Feuchtigkeit und Licht"
-        - "HPLC-Zertifikate mit jeder Charge verfügbar"
-        - "Sehr leichtes Reiseformat, kein Pulvermessen nötig"
+        - "Sublingual delivery for rapid absorption without water"
+        - "Blister packaging protects against moisture and light"
+        - "HPLC certificates available for every batch"
+        - "Compact travel format, no powder measuring needed"
       cons:
-        - "Enthält Stevia, was nicht allen schmeckt"
-        - "Tabletten sind empfindlich gegen Hitze, daher nicht im Auto lagern"
-      usage: "1 Tablette unter die Zunge legen und vollständig zergehen lassen, idealerweise morgens. Für höhere Dosierungen bis zu 2 Tabletten über den Tag verteilen."
+        - "Contains stevia, which not everyone likes"
+        - "Tablets are sensitive to heat — do not store in a hot car"
+      usage: "Place 1 tablet under the tongue and let it fully dissolve, ideally in the morning. For higher doses, use up to 2 tablets spread throughout the day."
 ---

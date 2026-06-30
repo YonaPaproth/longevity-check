@@ -33,27 +33,27 @@ ratings:
     score: 7
     explanation:
       de: "NR besitzt Humanstudien zu NAD+-Anstieg; TMG liefert Methylgruppen für den NR-Stoffwechsel."
-      en: "NR besitzt Humanstudien zu NAD+-Anstieg; TMG liefert Methylgruppen für den NR-Stoffwechsel."
+      en: "NR has human studies supporting NAD+ elevation; TMG provides methyl groups for NR metabolism."
   valueForMoney:
     score: 8
     explanation:
       de: "0,83 € pro Tag inkl. TMG und B-Komplex ist günstig für ein Komplettpaket."
-      en: "0,83 € pro Tag inkl. TMG und B-Komplex ist günstig für ein Komplettpaket."
+      en: "€0.83 per day including TMG and B-complex is good value for a complete stack."
   productQuality:
     score: 8
     explanation:
       de: "Hergestellt in Deutschland nach IFS-Standards, mit Analysezertifikat je Charge."
-      en: "Hergestellt in Deutschland nach IFS-Standards, mit Analysezertifikat je Charge."
+      en: "Manufactured in Germany to IFS standards, with a certificate of analysis per batch."
   labelHonesty:
     score: 8
     explanation:
       de: "Alle B-Vitamine werden mit exakten µg-Angaben geführt."
-      en: "Alle B-Vitamine werden mit exakten µg-Angaben geführt."
+      en: "All B vitamins listed with exact µg amounts."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Braineffect veröffentlicht COAs auf Anfrage, jedoch keine offene Datenbank."
-      en: "Braineffect veröffentlicht COAs auf Anfrage, jedoch keine offene Datenbank."
+      en: "Braineffect publishes COAs on request, but does not maintain a public database."
 
 locales:
   de:
@@ -71,17 +71,17 @@ locales:
         - "Kapseln enthalten Spuren von Sojalecithin"
       usage: "2 Kapseln morgens zu einer Mahlzeit mit etwas Fett einnehmen, an trainingsfreien Tagen optional auf 1 Kapsel reduzieren."
   en:
-    summary: "NR plus TMG und B-Vitamine aus deutscher Produktion – entwickelt von kognitiveneffect für tägliche NAD+-Kontext."
-    verdictNote: "Für Budget-orientierte Anwender:innen, die NR zusammen mit Methylunterstützung nutzen möchten, ein sehr stimmiges Gesamtpaket."
+    summary: "NR plus TMG and B vitamins, made in Germany — a complete daily NAD+ support stack."
+    verdictNote: "A well-rounded package for budget-conscious users who want NR combined with methylation support."
     body:
-      description: "Braineffect kombiniert 300 mg NR mit 500 mg Trimethylglycin, B12, B6 und Niacin. Produziert wird in Brandenburg nach IFS Food Version 7."
+      description: "Braineffect combines 300 mg NR with 500 mg trimethylglycine, B12, B6, and niacin. Manufactured in Brandenburg, Germany, to IFS Food Version 7 standards."
       pros:
-        - "Integriertes Methylspender-Setup durch TMG"
-        - "B-Vitamine helfen bei Homocystein-Management"
-        - "Europäische Produktion mit kurzen Lieferwegen"
+        - "Integrated methyl donor support via TMG"
+        - "B vitamins assist with homocysteine management"
+        - "European manufacturing with short supply chains"
       cons:
-        - "NR-Quelle wird nicht explizit (z. B. Niagen) genannt"
-        - "Leicht minziger Nachgeschmack aufgrund ätherischer Öle"
-        - "Kapseln enthalten Spuren von Sojalecithin"
-      usage: "2 Kapseln morgens zu einer Mahlzeit mit etwas Fett einnehmen, an trainingsfreien Tagen optional auf 1 Kapsel reduzieren."
+        - "NR source not explicitly named (e.g., no Niagen branding)"
+        - "Slight minty aftertaste from essential oils"
+        - "Capsules contain traces of soy lecithin"
+      usage: "Take 2 capsules in the morning with a meal containing some fat. On rest days, optionally reduce to 1 capsule."
 ---
