@@ -16,7 +16,7 @@ meta:
   efsa_health_claims_allowed: false
   typical_dose_mg: 30
   publishedAt: "2026-06-01"
-  updatedAt: "2026-06-13"
+  updatedAt: "2026-07-04"
 
 efsa_notes:
   de: >-
@@ -31,12 +31,12 @@ key_studies:
         Frühe Meta-Analyse: Safran war Placebo überlegen und in kleinen Studien ähnlich wirksam wie Antidepressiva bei leichter bis moderater Depression.
       en: >-
         Early meta-analysis: saffron outperformed placebo and in small studies appeared comparable to antidepressants in mild to moderate depression.
-  - ref: pmid-30036891
+  - ref: pmid-41693488
     finding:
       de: >-
-        Meta-analytisch zeigt sich ein Signal für depressive Symptome, aber die Evidenz bleibt durch kleine und regionale Studien limitiert.
+        GRADE-bewertete systematische Review und Meta-Analyse von 34 RCTs: Safran zeigte die bislang stärkste zusammengefasste Evidenz für Verbesserungen bei Depression, Angst und Stimmungslage, auch wenn die Primärstudien weiterhin heterogen und oft klein sind.
       en: >-
-        Meta-analytic signal for depressive symptoms, but the evidence remains limited by small and geographically concentrated trials.
+        GRADE-assessed systematic review and meta-analysis of 34 RCTs: saffron showed the strongest pooled evidence to date for improvements in depression, anxiety, and mood outcomes, although primary studies remain heterogeneous and often small.
   - ref: pmid-32221179
     finding:
       de: >-
@@ -61,7 +61,7 @@ locales:
     summary: >-
       Safran wird vor allem für Stimmung, Stress und PMS untersucht. Die Humanstudien sind interessant, aber klein und nicht stark genug für große Gesundheitsversprechen.
     evidenceSummary: >-
-      Für Safran gibt es mehrere kleine randomisierte Humanstudien und Meta-Analysen, vor allem zu depressiven Symptomen und teils zu Angst, PMS oder Schlaf. Die Ergebnisse sind oft positiv, aber die Datengrundlage bleibt begrenzt: kleine Stichproben, kurze Laufzeiten und starke Abhängigkeit von wenigen Forschungsgruppen.
+      Für Safran gibt es mehrere randomisierte Humanstudien sowie neu eine GRADE-bewertete systematische Review und Meta-Analyse von 34 RCTs, vor allem zu depressiven Symptomen und teils zu Angst, PMS oder Schlaf. Die Ergebnisse sind oft positiv, aber die Datengrundlage bleibt trotz stärkerer Evidenzsynthese begrenzt: viele Primärstudien sind klein, kurz und stammen aus wenigen Forschungsgruppen.
     body: |
       ## Was ist Safran?
       
@@ -72,6 +72,8 @@ locales:
       ### Stimmung und depressive Symptome
       
       Hier liegt der Schwerpunkt der Humanforschung. Mehrere kleine randomisierte Studien und Meta-Analysen zeigen, dass Safran bei **leichter bis moderater depressiver Symptomatik** besser abschneiden kann als Placebo und in einzelnen Studien ähnlich wirksam war wie Standardmedikamente.
+
+      Neu hinzugekommen ist eine **GRADE-bewertete systematische Review und Meta-Analyse von 34 RCTs (2026)**. Das stärkt die Gesamtaussage für Stimmung, Depression und teils Angst deutlich mehr als frühere Mini-Meta-Analysen. Gleichzeitig löst auch diese Arbeit das Grundproblem nicht vollständig: Ein großer Teil der Evidenz stammt weiterhin aus eher kleinen, kurzen und regional konzentrierten Studien.
       
       Das klingt stark — aber die Einschränkungen sind wichtig:
       - viele Studien sind **klein**
@@ -182,10 +184,10 @@ relations:
     confidence: 0.9
     source: "pmid:24299602"
   - relation: basiert_auf_studie
-    target: studie-30036891
+    target: studie-41693488
     direction: outgoing
     confidence: 0.9
-    source: "pmid:30036891"
+    source: "pmid:41693488"
   - relation: basiert_auf_studie
     target: studie-32221179
     direction: outgoing

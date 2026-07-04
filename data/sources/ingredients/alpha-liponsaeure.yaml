@@ -18,7 +18,7 @@ meta:
   efsa_health_claims_allowed: false
   typical_dose_mg: 300
   publishedAt: "2026-05-14"
-  updatedAt: "2026-06-13"
+  updatedAt: "2026-07-04"
 
 efsa_notes:
   de: >-
@@ -27,12 +27,12 @@ efsa_notes:
     No approved EFSA health claims for alpha-lipoic acid. Available as a dietary supplement in the EU. Pharmaceutical formulation (Thioctacid) is approved for neuropathy therapy.
 
 key_studies:
-  - ref: pmid-7649494
+  - ref: pmid-42056717
     finding:
       de: >-
-        Grundlagenarbeit: ALA recycelt Vitamin C, E, Glutathion und CoQ10 – wird diskutiert als universelles Antioxidans in Mitochondrien.
+        Phase-IV-RCT bei schmerzhafter diabetischer Polyneuropathie: Die Kombination aus Pregabalin und Alpha-Liponsäure zeigte klinisch relevante Wirksamkeits- und Sicherheitsdaten in einer realen Neuropathie-Indikation – stärker praxisnah als rein mechanistische ALA-Arbeiten.
       en: >-
-        Basic research: ALA recycles vitamin C, E, glutathione, and CoQ10—discussed as a universal antioxidant in mitochondria.
+        Phase IV RCT in painful diabetic peripheral neuropathy: the combination of pregabalin and alpha-lipoic acid produced clinically relevant efficacy and safety data in a real neuropathy indication, making it more practice-relevant than purely mechanistic ALA papers.
   - ref: pmid-29939616
     finding:
       de: >-
@@ -51,13 +51,19 @@ key_studies:
         Review präklinischer neurobiologischer Effekte: R-ALA wird mit Schutzmechanismen der Neuronen vor oxidativem Stress in Verbindung gebracht, Evidenz hauptsächlich präklinisch.
       en: >-
         Review of preclinical neurobiological effects: R-ALA is associated with neuroprotective mechanisms against oxidative stress; evidence is primarily preclinical.
+  - ref: pmid-41804854
+    finding:
+      de: >-
+        RCT in der Supportivonkologie: Alpha-Liponsäure verringerte in einer spezialisierten Kopf-Hals-Krebs-Population das Risiko bzw. die Schwere strahleninduzierter oraler Mukositis. Klinisch interessant, aber nicht direkt auf gesunde Anwender übertragbar.
+      en: >-
+        RCT in supportive oncology: alpha-lipoic acid reduced the risk or severity of radiation-induced oral mucositis in a specialized head-and-neck cancer population. Clinically interesting, but not directly generalizable to healthy supplement users.
 
 locales:
   de:
     summary: >-
       Mitochondriales Antioxidans mit wasser- und fettlöslichen Eigenschaften. R-Form vs. Racemat wird diskutiert. Evidenz vor allem aus medizinischen Kontexten (Neuropathie).
     evidenceSummary: >-
-      Vergleichsweise gut untersuchte Anwendung bei diabetischer Neuropathie (mehrere RCTs). Antioxidative und insulinsensibilisierende Effekte in RCTs nachweisbar. gesundes Altern-Effekte beim gesunden Menschen nicht direkt untersucht.
+      Vergleichsweise gut untersuchte Anwendung bei diabetischer Neuropathie (mehrere RCTs, zuletzt ergänzt durch einen praxisnahen Phase-IV-Studienkontext in Kombination mit Pregabalin). Antioxidative und insulinsensibilisierende Effekte sind in RCTs nachweisbar. gesundes Altern-Effekte beim gesunden Menschen wurden nicht direkt untersucht.
     body: |
       ## Was ist Alpha-Liponsäure?
       
@@ -74,7 +80,7 @@ locales:
       ## Was sagen die Studien wirklich?
       
       ### Klar belegt
-      - **Diabetische Neuropathie**: Mehrere RCTs zeigen Verbesserung von Schmerz und Empfindungsstörungen (i.v. und oral)
+      - **Diabetische Neuropathie**: Mehrere RCTs zeigen Verbesserung von Schmerz und Empfindungsstörungen (i.v. und oral); ein neuerer Phase-IV-Studienkontext mit **Pregabalin + Alpha-Liponsäure** stärkt die klinische Relevanz in einer realen Neuropathie-Indikation
       - **Insulinsensitivität**: Meta-Analysen zeigen Senkung von Nüchternblutzucker und Insulin
       - **Entzündungsmarker**: CRP-Senkung in RCTs bei metabolischen Erkrankungen
       
@@ -93,7 +99,7 @@ locales:
       
       ## Für wen ist ALA besonders relevant?
       
-      Vor allem bei metabolischen Konstellationen wie Insulinresistenz oder erhöhtem Diabetesrisiko ist die Datenlage am dichtesten. Für gesunde Personen im Kontext gesunden Alterns ist sie schwächer – hier werden oft eher CoQ10 oder GlyNAC (NAC+Glycin) diskutiert.
+      Vor allem bei metabolischen Konstellationen wie Insulinresistenz oder erhöhtem Diabetesrisiko ist die Datenlage am dichtesten. Besonders klinisch greifbar bleibt ALA im Bereich **diabetische Neuropathie**, wo die neueren Daten praxisnäher sind als viele ältere mechanistische Arbeiten. Für gesunde Personen im Kontext gesunden Alterns ist die Evidenz dagegen weiterhin deutlich schwächer – hier werden oft eher CoQ10 oder GlyNAC (NAC+Glycin) diskutiert.
 
   en:
     summary: >-
@@ -116,7 +122,7 @@ locales:
       ## What the Research Actually Shows
 
       ### Well-Established
-      - **Diabetic neuropathy**: Multiple RCTs demonstrate improvement in pain and sensory disturbances with both intravenous and oral administration. This is the strongest evidence base for ALA. Studies typically used 300–600 mg/day orally or 600 mg intravenously, and benefits appeared after 3–4 weeks.
+      - **Diabetic neuropathy**: Multiple RCTs demonstrate improvement in pain and sensory disturbances with both intravenous and oral administration. This is the strongest evidence base for ALA. A newer phase IV combination trial with pregabalin also adds more practice-oriented evidence in a real neuropathy setting. Studies typically used 300–600 mg/day orally or 600 mg intravenously, and benefits appeared after 3–4 weeks.
       - **Insulin sensitivity**: Meta-analyses show reductions in fasting blood glucose and insulin levels in patients with metabolic dysfunction. The effect size is modest but meaningful—typically a 5–10% improvement in glucose control in people with metabolic syndrome or prediabetes.
       - **Inflammatory markers**: CRP reduction demonstrated in RCTs in patients with metabolic disease. This aligns with ALA's presumed antioxidant mechanism, though the clinical significance of modest CRP reductions remains unclear.
 
@@ -135,7 +141,7 @@ locales:
 
       ## Who Is ALA Most Relevant For?
 
-      The evidence base is strongest for people with metabolic dysfunction—specifically insulin resistance, metabolic syndrome, or prediabetes. These are the populations studied most extensively, and the data supports a modest but measurable benefit. For healthy individuals interested in longevity and healthy aging, the evidence is much weaker. CoQ10, GlyNAC (NAC+glycine), and other compounds have stronger aging-related evidence. ALA may have a place in a metabolic-support stack, but it is not a foundational longevity intervention in the absence of metabolic disease.
+      The evidence base is strongest for people with metabolic dysfunction—specifically insulin resistance, metabolic syndrome, or prediabetes. ALA also remains most clinically tangible in diabetic neuropathy, where newer data is more practice-relevant than many older mechanistic papers. For healthy individuals interested in longevity and healthy aging, the evidence is much weaker. CoQ10, GlyNAC (NAC+glycine), and other compounds have stronger aging-related evidence. ALA may have a place in a metabolic-support stack, but it is not a foundational longevity intervention in the absence of metabolic disease.
 
 relations:
   - relation: wird_eingesetzt_fuer
@@ -195,10 +201,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-7649494
+    target: studie-42056717
     direction: outgoing
     confidence: 0.9
-    source: "pmid:7649494"
+    source: "pmid:42056717"
   - relation: basiert_auf_studie
     target: studie-29939616
     direction: outgoing
@@ -214,3 +220,8 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:31137620"
+  - relation: basiert_auf_studie
+    target: studie-41804854
+    direction: outgoing
+    confidence: 0.8
+    source: "pmid:41804854"

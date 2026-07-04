@@ -1,6 +1,6 @@
 {
   "type": "basiert_auf_studie",
-  "count": 404,
+  "count": 405,
   "relations": [
     {
       "subject": "5-htp",
@@ -100,9 +100,9 @@
     },
     {
       "subject": "alpha-liponsaeure",
-      "target": "studie-7649494",
+      "target": "studie-42056717",
       "confidence": 0.9,
-      "source": "pmid:7649494"
+      "source": "pmid:42056717"
     },
     {
       "subject": "alpha-liponsaeure",
@@ -121,6 +121,12 @@
       "target": "studie-31137620",
       "confidence": 0.9,
       "source": "pmid:31137620"
+    },
+    {
+      "subject": "alpha-liponsaeure",
+      "target": "studie-41804854",
+      "confidence": 0.8,
+      "source": "pmid:41804854"
     },
     {
       "subject": "apigenin",
@@ -1845,9 +1851,9 @@
     },
     {
       "subject": "safran",
-      "target": "studie-30036891",
+      "target": "studie-41693488",
       "confidence": 0.9,
-      "source": "pmid:30036891"
+      "source": "pmid:41693488"
     },
     {
       "subject": "safran",
