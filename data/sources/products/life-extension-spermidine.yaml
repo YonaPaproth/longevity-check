@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Humanstudien sind noch klein, aber Biomarker zeigen Trend."
-      en: "Humanstudien sind noch klein, aber Biomarker zeigen Trend."
+      en: "Human studies are still small, but biomarker trends are promising."
   valueForMoney:
     score: 6
     explanation:
       de: "1,07 € pro mg ist teuer im Vergleich zu Lebensmittelquellen."
-      en: "1,07 € pro mg ist teuer im Vergleich zu Lebensmittelquellen."
+      en: "€1.07 per mg is expensive compared to food sources."
   productQuality:
     score: 8
     explanation:
       de: "Standardisierte Weizenkeime, glutenfrei aufgereinigt."
-      en: "Standardisierte Weizenkeime, glutenfrei aufgereinigt."
+      en: "Standardized wheat germ extract, purified to be gluten-free."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert reines Spermidin und Polyamin-Gehalt."
-      en: "Deklariert reines Spermidin und Polyamin-Gehalt."
+      en: "Declares pure spermidine and total polyamine content."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "COAs belegen Polyamingehalt, aber keine unabhängigen Autophagie-Tests."
-      en: "COAs belegen Polyamingehalt, aber keine unabhängigen Autophagie-Tests."
+      en: "COAs confirm polyamine content, but no independent autophagy assays."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Nur 30 Portionen"
       usage: "1 Kapsel täglich zu einer Mahlzeit. In Fastenprotokollen meist an refeeds einsetzen."
   en:
-    summary: "Weizenkeim-basiertes Spermidin mit 1 mg pro Tagesportion für Autophagie-Fans."
-    verdictNote: "Praktisch dosiert, jedoch kostspielig und mit begrenzter Evidenz."
+    summary: "Wheat germ-derived spermidine at 1 mg per daily serving for autophagy-focused protocols."
+    verdictNote: "Convenient dosing, but costly and with limited clinical evidence."
     body:
-      description: "Das Spermidin wird aus gereinigten Weizenkeimen gewonnen und ist glutenfrei. Die Kapseln enthalten wenig Hilfsstoffe und schmecken neutral."
+      description: "Spermidine is derived from purified wheat germ and is gluten-free. Capsules contain minimal excipients and are taste-neutral."
       pros:
-        - "Standardisierte 1-mg-Portion"
-        - "Glutenfrei trotz Weizenbasis"
-        - "Kleine Packung für 30 Tage"
+        - "Standardized 1 mg serving"
+        - "Gluten-free despite wheat origin"
+        - "30-day supply in a compact pack"
       cons:
-        - "Hoher Preis"
-        - "Nur 30 Portionen"
-      usage: "1 Kapsel täglich zu einer Mahlzeit. In Fastenprotokollen meist an refeeds einsetzen."
+        - "High cost per milligram"
+        - "Only 30 servings per container"
+      usage: "1 capsule daily with a meal. In fasting protocols, best taken during refeeding windows."
 ---

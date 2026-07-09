@@ -30,27 +30,27 @@ ratings:
     score: 6
     explanation:
       de: "Fisetin besitzt frühe Humanstudien zu Senolytics; die Evidenz wächst, ist aber noch begrenzt."
-      en: "Fisetin besitzt frühe Humanstudien zu Senolytics; die Evidenz wächst, ist aber noch begrenzt."
+      en: "Fisetin has early human senolytic studies; evidence is growing but still limited."
   valueForMoney:
     score: 5
     explanation:
       de: "2,16 € pro Portion ist hoch, doch die Formel vereint mehrere teure Flavonoide."
-      en: "2,16 € pro Portion ist hoch, doch die Formel vereint mehrere teure Flavonoide."
+      en: "€2.16 per serving is high, though the formula combines several expensive flavonoids."
   productQuality:
     score: 8
     explanation:
       de: "Life Extension produziert unter cGMP und veröffentlicht vollständige Rohstoff-Prüfungen."
-      en: "Life Extension produziert unter cGMP und veröffentlicht vollständige Rohstoff-Prüfungen."
+      en: "Life Extension manufactures under cGMP and publishes full ingredient testing reports."
   labelHonesty:
     score: 9
     explanation:
       de: "Alle Flavonoide werden mit mg-Angaben und Quellen deklariert."
-      en: "Alle Flavonoide werden mit mg-Angaben und Quellen deklariert."
+      en: "All flavonoids declared with mg amounts and sources."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Jede Charge wird unabhängig auf Schwermetalle und Potenz analysiert."
-      en: "Jede Charge wird unabhängig auf Schwermetalle und Potenz analysiert."
+      en: "Every batch is independently tested for heavy metals and potency."
 
 locales:
   de:
@@ -68,17 +68,17 @@ locales:
         - "Feste Dosierung lässt wenig Flexibilität für Einsteiger"
       usage: "2 Kapseln an zwei aufeinanderfolgenden Tagen pro Woche mit einer Mahlzeit einnehmen, anschließend fünf Tage Pause lassen."
   en:
-    summary: "Fisetin, Quercetin und Theaflavine in einer senolytischen Tagesdosis mit streng geprüfter Life-Extension-Qualität."
-    verdictNote: "Für zeitlich begrenzte Senolytic-Kuren eine der transparentesten Formeln am Markt."
+    summary: "Fisetin, quercetin, and theaflavins in a senolytic daily dose — rigorously tested Life Extension quality."
+    verdictNote: "One of the most transparent senolytic formulas available for short-course cycling protocols."
     body:
-      description: "Life Extension bündelt pro Portion Fisetin, Quercetin, Theaflavine und Piperlongumin. Die 2-Tages-Protokolle zielen darauf ab, Seneszente zyklisch zu adressieren, ohne dauerhafte Einnahme zu erfordern."
+      description: "Life Extension combines fisetin, quercetin, theaflavins, and piperlongumine per serving. The 2-day cycling protocol aims to address senescent cells periodically without requiring daily supplementation."
       pros:
-        - "Synergistische Kombination aus mehreren Senolytics"
-        - "Nur 30 Portionen – ideal für monatliche Kurfenster"
-        - "COAs lassen sich per Batch-Nummer herunterladen"
+        - "Synergistic combination of multiple senolytics"
+        - "Only 30 servings — ideal for monthly pulse windows"
+        - "COAs downloadable by batch number"
       cons:
-        - "Sehr hoher Tagespreis"
-        - "Nicht vegan aufgrund der Gelatine-Kapseln"
-        - "Feste Dosierung lässt wenig Flexibilität für Einsteiger"
-      usage: "2 Kapseln an zwei aufeinanderfolgenden Tagen pro Woche mit einer Mahlzeit einnehmen, anschließend fünf Tage Pause lassen."
+        - "Very high per-serving cost"
+        - "Not vegan due to gelatin capsules"
+        - "Fixed dosing leaves little flexibility for beginners"
+      usage: "Take 2 capsules on two consecutive days per week with a meal, followed by five days off."
 ---

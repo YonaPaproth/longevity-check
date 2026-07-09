@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Fisetin zeigt vielversprechende präklinische Daten und erste Humanpilotstudien."
-      en: "Fisetin zeigt vielversprechende präklinische Daten und erste Humanpilotstudien."
+      en: "Fisetin shows promising preclinical data and early human pilot studies."
   valueForMoney:
     score: 7
     explanation:
       de: "0,87 € pro 250 mg liegt fair für TÜV-geprüfte Ware made in Germany."
-      en: "0,87 € pro 250 mg liegt fair für TÜV-geprüfte Ware made in Germany."
+      en: "€0.87 per 250 mg is fair for TÜV-certified, made-in-Germany product."
   productQuality:
     score: 9
     explanation:
       de: "MoleQlar kapselt in Deutschland und veröffentlicht HPLC-Analysen jeder Charge."
-      en: "MoleQlar kapselt in Deutschland und veröffentlicht HPLC-Analysen jeder Charge."
+      en: "MoleQlar encapsulates in Germany and publishes HPLC analyses for every batch."
   labelHonesty:
     score: 9
     explanation:
       de: "Deklaration listet ausschließlich Fisetin und Kapselhülle – keine Füllstoffe."
-      en: "Deklaration listet ausschließlich Fisetin und Kapselhülle – keine Füllstoffe."
+      en: "Label lists only fisetin and capsule shell — no fillers."
   thirdPartyTesting:
     score: 9
     explanation:
       de: "TÜV- und Eurofins-Gutachten decken Identität, Schwermetalle und Lösungsmittel ab."
-      en: "TÜV- und Eurofins-Gutachten decken Identität, Schwermetalle und Lösungsmittel ab."
+      en: "TÜV and Eurofins reports cover identity, heavy metals, and solvent residues."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Derzeit keine Großpackung verfügbar"
       usage: "1–2 Kapseln pro Tag zu einer fettigen Mahlzeit. Für Senolytic-Protokolle in kurzen Blöcken (z. B. 2 Tage on, 5 Tage off) einsetzen."
   en:
-    summary: "TÜV-geprüftes Fisetin aus München mit 250 mg pro Kapsel und transparenten Laborzertifikaten."
-    verdictNote: "Für alle, die Fisetin solo und ohne US-Import nutzen möchten, aktuell das transparenteste Angebot."
+    summary: "TÜV-tested fisetin from Munich — 250 mg per capsule with transparent lab certificates."
+    verdictNote: "Currently the most transparent fisetin option for those who want solo use without US imports."
     body:
-      description: "MoleQlar setzt auf reines Fisetin mit 98 % Reinheit. Die Braunglasflasche ist auf Schutz vor ausgerichtet bei Licht und enthält einen QR-Code zu den Prüfzertifikaten."
+      description: "MoleQlar uses pure fisetin at 98% purity. The amber glass bottle protects against light exposure and includes a QR code linking to test certificates."
       pros:
-        - "Made in Germany mit TÜV-Bestätigung"
-        - "Braunglas statt Plastik"
-        - "Hohe Dosierung ermöglicht flexible Protokolle"
+        - "Made in Germany with TÜV confirmation"
+        - "Amber glass instead of plastic"
+        - "High dose enables flexible protocols"
       cons:
-        - "Leicht bitterer Eigengeschmack beim Öffnen"
-        - "250 mg pro Kapsel erfordern viele Kapseln für Senolytic-Stacks"
-        - "Derzeit keine Großpackung verfügbar"
-      usage: "1–2 Kapseln pro Tag zu einer fettigen Mahlzeit. Für Senolytic-Protokolle in kurzen Blöcken (z. B. 2 Tage on, 5 Tage off) einsetzen."
+        - "Mildly bitter taste when capsule is opened"
+        - "250 mg per capsule means many capsules needed for higher senolytic stacks"
+        - "No bulk pack currently available"
+      usage: "1–2 capsules daily with a fatty meal. For senolytic protocols, use in short blocks (e.g. 2 days on, 5 days off)."
 ---

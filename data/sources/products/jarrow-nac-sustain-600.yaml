@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "NAC hat Datenlage für Atemwege, als Glutathion-Vorstufe und antioxidativen Schutz."
-      en: "NAC hat Datenlage für Atemwege, als Glutathion-Vorstufe und antioxidativen Schutz."
+      en: "NAC has evidence for respiratory support, as a glutathione precursor, and antioxidant protection."
   valueForMoney:
     score: 7
     explanation:
       de: "0,28 € pro Portion ist angemessen für eine verzögerte Freisetzung."
-      en: "0,28 € pro Portion ist angemessen für eine verzögerte Freisetzung."
+      en: "€0.28 per serving is reasonable for a sustained-release formulation."
   productQuality:
     score: 8
     explanation:
       de: "Tabletten mit doppelter Schichtstruktur, hergestellt unter cGMP."
-      en: "Tabletten mit doppelter Schichtstruktur, hergestellt unter cGMP."
+      en: "Dual-layer tablets manufactured under cGMP."
   labelHonesty:
     score: 8
     explanation:
       de: "Erklärt klar den Sustained-Release-Mechanismus und Hilfsstoffe, keine überzogenen überzogene Versprechen."
-      en: "Erklärt klar den Sustained-Release-Mechanismus und Hilfsstoffe, keine überzogenen überzogene Versprechen."
+      en: "Clearly explains the sustained-release mechanism and excipients; no exaggerated claims."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Jarrow testet intern, aber kein zusätzliches Siegel."
-      en: "Jarrow testet intern, aber kein zusätzliches Siegel."
+      en: "Jarrow tests internally, but no additional third-party seal."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Keine Drittzertifizierung:** Gerade bei regulatorisch sensiblen Zutaten wäre ein externes Siegel hilfreich"
       usage: "1 Tablette ein bis zwei Mal täglich zwischen den Mahlzeiten mit Wasser einnehmen. Bei empfindlichem Magen zu einer kleinen Mahlzeit kombinieren."
   en:
-    summary: "Depot-Tablette mit 600 mg N-Acetylcystein, kombiniert sofortige und verzögerte Freisetzung für gleichmäßigere Glutathion-Unterstützung."
-    verdictNote: "Gute Wahl für alle, die NAC über den Tag verteilt freisetzen möchten."
+    summary: "600 mg NAC sustained-release tablet combining immediate and delayed release for more consistent glutathione support."
+    verdictNote: "A good choice for those wanting NAC spread out over the day rather than a single peak."
     body:
-      description: "Jarrow kombiniert eine schnell freisetzende Schicht mit einer verzögert auflösenden Matrix. Dadurch steht ein Teil der 600 mg NAC sofort zur Verfügung, der Rest verteilt sich über mehrere Stunden."
+      description: "Jarrow combines a fast-releasing layer with a slow-dissolving matrix, so part of the 600 mg NAC is available immediately while the rest releases over several hours."
       pros:
-        - "**Depot-Effekt:** Stabilere Blutspiegel als bei normalen Kapseln"
-        - "**Reisefreundlich:** Tabletten benötigen kein Pulverabwiegen"
-        - "**Glutathion-Support:** NAC dient als Vorstufe für körpereigenes Glutathion"
-        - "**Jarrow-Qualität:** Verlässliche Chargenkontrollen"
+        - "**Sustained release:** More stable blood levels than standard capsules"
+        - "**Travel-friendly:** Tablets require no measuring"
+        - "**Glutathione support:** NAC serves as a precursor to endogenous glutathione"
+        - "**Jarrow quality:** Reliable batch-level quality controls"
       cons:
-        - "**Magensaftresistenz:** Könnte bei empfindlichem Magen leicht schwefeligen Nachgeschmack verursachen"
-        - "**Keine Drittzertifizierung:** Gerade bei regulatorisch sensiblen Zutaten wäre ein externes Siegel hilfreich"
-      usage: "1 Tablette ein bis zwei Mal täglich zwischen den Mahlzeiten mit Wasser einnehmen. Bei empfindlichem Magen zu einer kleinen Mahlzeit kombinieren."
+        - "**Sulfur odor:** May cause a mild sulfurous aftertaste in sensitive individuals"
+        - "**No third-party certification:** An external seal would be particularly useful for a regulatory-sensitive ingredient"
+      usage: "1 tablet one to two times daily between meals with water. If stomach-sensitive, take with a small meal."
 ---

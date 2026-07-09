@@ -30,27 +30,27 @@ ratings:
     score: 8
     explanation:
       de: "Zink deckt Immun- und Testosteronfunktionen ab; Kombination mit Kupfer verhindert Dysbalancen."
-      en: "Zink deckt Immun- und Testosteronfunktionen ab; Kombination mit Kupfer verhindert Dysbalancen."
+      en: "Zinc supports immune function and testosterone levels; pairing with copper prevents depletion imbalances."
   valueForMoney:
     score: 9
     explanation:
       de: "0,16 € pro Tag mit 100 Portionen ist top."
-      en: "0,16 € pro Tag mit 100 Portionen ist top."
+      en: "€0.16/day with 100 servings is excellent value."
   productQuality:
     score: 8
     explanation:
       de: "Jarrow nutzt Albion-Chelate und testet auf Schwermetalle."
-      en: "Jarrow nutzt Albion-Chelate und testet auf Schwermetalle."
+      en: "Jarrow uses Albion chelates and tests for heavy metals."
   labelHonesty:
     score: 9
     explanation:
       de: "Klare Angabe beider Mineralien und Chelatform."
-      en: "Klare Angabe beider Mineralien und Chelatform."
+      en: "Both minerals and chelate forms clearly declared."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Labdoor und ConsumerLab bestätigen Gehalt, aber nicht jede Charge."
-      en: "Labdoor und ConsumerLab bestätigen Gehalt, aber nicht jede Charge."
+      en: "Labdoor and ConsumerLab have confirmed content, though not on a per-batch basis."
 
 locales:
   de:
@@ -67,16 +67,16 @@ locales:
         - "1 mg Kupfer kann für Hochdosis-Zink dennoch zu niedrig sein"
       usage: "1 Kapsel täglich zu einer Mahlzeit. Bei höheren Zinkbedarfen (z.B. 30 mg) Kapseln aufteilen oder zusätzliche reine Zinkquelle verwenden."
   en:
-    summary: "15 mg Zink-L-Methionin kombiniert mit 1 mg Kupfergluconat für ausgeglichene Spurenelement-Versorgung."
-    verdictNote: "Für alle, die Zink ergänzen, ohne Kupfermangel zu riskieren."
+    summary: "15 mg zinc L-monomethionine combined with 1 mg copper gluconate for balanced trace mineral coverage."
+    verdictNote: "A smart choice for those supplementing zinc without wanting to risk copper depletion."
     body:
-      description: "Zinc Balance kombiniert TRAACS Zink-L-Monomethionin (15 mg) mit 1 mg Kupfergluconat. Die Kapseln bestehen aus pflanzlicher Cellulose und sind glutenfrei."
+      description: "Zinc Balance combines TRAACS zinc L-monomethionine (15 mg) with 1 mg copper gluconate. Capsules are made from vegetable cellulose and are gluten-free."
       pros:
-        - "Ausbalanciertes Verhältnis reduziert Kupferdepletion"
-        - "Chelatierte Form ist magenschonend"
-        - "Preis-Leistungs-Sieger im Spurenelement-Bereich"
+        - "Balanced ratio reduces copper depletion risk"
+        - "Chelated form is gentle on the stomach"
+        - "Best-value option in the trace mineral category"
       cons:
-        - "Keine Aminosäuren oder Vitamin C zur verbesserten Aufnahme"
-        - "1 mg Kupfer kann für Hochdosis-Zink dennoch zu niedrig sein"
-      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei höheren Zinkbedarfen (z.B. 30 mg) Kapseln aufteilen oder zusätzliche reine Zinkquelle verwenden."
+        - "No amino acids or vitamin C for enhanced uptake"
+        - "1 mg copper may still be insufficient at high zinc doses"
+      usage: "1 capsule daily with a meal. For higher zinc needs (e.g. 30 mg), split doses or add a separate zinc source."
 ---

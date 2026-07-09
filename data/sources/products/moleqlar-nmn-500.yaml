@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "NMN steigert NAD+-Spiegel in kleinen Humanstudien, auch wenn harte klinische Endpunkte noch fehlen."
-      en: "NMN steigert NAD+-Spiegel in kleinen Humanstudien, auch wenn harte klinische Endpunkte noch fehlen."
+      en: "NMN raises NAD+ levels in small human studies, though hard clinical endpoints are still lacking."
   valueForMoney:
     score: 7
     explanation:
       de: "1,50 € pro Tag liegt im oberen Mittelfeld, dafür gibt es geprüfte Uthever-Rohware."
-      en: "1,50 € pro Tag liegt im oberen Mittelfeld, dafür gibt es geprüfte Uthever-Rohware."
+      en: "€1.50/day is in the upper-mid range, but you get verified Uthever raw material."
   productQuality:
     score: 9
     explanation:
       de: "Hergestellt in der EU, jede Charge mit HPLC-Zertifikat und Metall-Screening."
-      en: "Hergestellt in der EU, jede Charge mit HPLC-Zertifikat und Metall-Screening."
+      en: "Manufactured in the EU; every batch comes with an HPLC certificate and metal screening."
   labelHonesty:
     score: 9
     explanation:
       de: "Chargennummer, Haltbarkeit und Uthever-Logo sind sauber dokumentiert ohne überzogene Versprechen."
-      en: "Chargennummer, Haltbarkeit und Uthever-Logo sind sauber dokumentiert ohne überzogene Versprechen."
+      en: "Batch number, expiry, and Uthever logo are clearly documented without exaggerated claims."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "MoleQlar veröffentlicht Laboranalysen von Eurofins, was über Branchenschnitt liegt."
-      en: "MoleQlar veröffentlicht Laboranalysen von Eurofins, was über Branchenschnitt liegt."
+      en: "MoleQlar publishes Eurofins lab analyses — above industry average for transparency."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Kein veganes Zertifikat trotz pflanzlicher Kapseln"
       usage: "1 Kapsel morgens zu einer Mahlzeit mit Fett. Bei höherer Belastung ggf. 2× täglich. Kühl lagern, da NMN feuchtigkeitsempfindlich ist."
   en:
-    summary: "Uthever-zertifiziertes NMN aus München mit stabiler Kette und klaren Analysenzertifikaten."
-    verdictNote: "Transparenter Hersteller mit stabiler Versorgungskette und nachvollziehbarer Qualitätsprüfung."
+    summary: "Uthever-certified NMN made in Munich — stable supply chain and clear analysis certificates."
+    verdictNote: "A transparent manufacturer with a traceable supply chain and verifiable quality testing."
     body:
-      description: "MoleQlar kapselt Uthever-NMN in München und liefert pro Kapsel 500 mg reines Beta-Nicotinamid Mononukleotid. Die Charge ist kühl und lichtgeist auf Schutz ausgerichtet verpackt, inklusive aktueller Analysenzertifikate."
+      description: "MoleQlar encapsulates Uthever NMN in Munich, delivering 500 mg pure beta-nicotinamide mononucleotide per capsule. Batches are packaged cold and light-protected, with current analysis certificates included."
       pros:
-        - "Uthever-Rohstoff mit dokumentierter Reinheit"
-        - "Wiederverwendbare Braunglasflasche statt Plastik"
-        - "QR-Code zu aktuellen Laborreports"
-        - "Neutraler Geschmack, leicht zu schlucken"
+        - "Uthever raw material with documented purity"
+        - "Reusable amber glass bottle instead of plastic"
+        - "QR code linking to current lab reports"
+        - "Neutral taste, easy to swallow"
       cons:
-        - "Preis steigt spürbar bei Mehrfachdosierung"
-        - "Kein veganes Zertifikat trotz pflanzlicher Kapseln"
-      usage: "1 Kapsel morgens zu einer Mahlzeit mit Fett. Bei höherer Belastung ggf. 2× täglich. Kühl lagern, da NMN feuchtigkeitsempfindlich ist."
+        - "Cost rises noticeably with higher doses"
+        - "No vegan certification despite plant-based capsules"
+      usage: "1 capsule in the morning with a fat-containing meal. For higher demands, up to 2× daily. Store cool — NMN is moisture-sensitive."
 ---

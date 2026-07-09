@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "DHA ist entscheidend für neuronale Membranen, mit guter Evidenz bei Schwangerschaft und Kognition."
-      en: "DHA ist entscheidend für neuronale Membranen, mit guter Evidenz bei Schwangerschaft und Kognition."
+      en: "DHA is critical for neuronal membranes, with good evidence in pregnancy and cognitive health contexts."
   valueForMoney:
     score: 8
     explanation:
       de: "0,40 € für 600 mg DHA aus gereinigtem Fischöl ist konkurrenzfähig."
-      en: "0,40 € für 600 mg DHA aus gereinigtem Fischöl ist konkurrenzfähig."
+      en: "€0.40 for 600 mg DHA from purified fish oil is competitive."
   productQuality:
     score: 9
     explanation:
       de: "Jarrow nutzt Molekulardestillation und fügt grünen Tee als Oxidationsschutz hinzu."
-      en: "Jarrow nutzt Molekulardestillation und fügt grünen Tee als Oxidationsschutz hinzu."
+      en: "Jarrow uses molecular distillation and adds green tea extract as an antioxidant."
   labelHonesty:
     score: 8
     explanation:
       de: "EPA/DHA-Anteile, Fischarten und Hilfsstoffe transparent gelistet."
-      en: "EPA/DHA-Anteile, Fischarten und Hilfsstoffe transparent gelistet."
+      en: "EPA/DHA amounts, fish species, and excipients transparently listed."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "COAs verfügbar, IFOS-ähnliche Tests jedoch nicht öffentlich."
-      en: "COAs verfügbar, IFOS-ähnliche Tests jedoch nicht öffentlich."
+      en: "COAs available, but IFOS-equivalent tests are not publicly disclosed."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Enthält Gelatine aus Fisch und Rind"
       usage: "2 Softgels täglich zu einer Mahlzeit mit Fett. Bei höherem Bedarf können 3 Softgels über den Tag verteilt eingenommen werden."
   en:
-    summary: "DHA-fokussiertes Fischöl mit 600 mg DHA plus EPA pro Portion, ausgerichtet auf Gehirn- und Augen-Kontexte."
-    verdictNote: "Praktisch für Nutzer, die DHA gezielt für kognitive Kontexte aufdosieren wollen."
+    summary: "DHA-focused fish oil delivering 600 mg DHA plus EPA per serving — targeted at brain and eye health."
+    verdictNote: "Practical for users looking to increase DHA intake specifically for cognitive support."
     body:
-      description: "Max DHA konzentriert gereinigtes Fischöl so, dass zwei Softgels 600 mg DHA und 300 mg EPA liefern. Zitronenöl und natürliche Tocopherole schützen vor Oxidation."
+      description: "Max DHA concentrates purified fish oil to deliver 600 mg DHA and 300 mg EPA across two softgels. Lemon oil and natural tocopherols protect against oxidation."
       pros:
-        - "Sehr hoher DHA-Anteil pro Softgel"
-        - "Molekulardestilliert zur Schwermetallreduktion"
-        - "Enthält natürliche Antioxidantien"
-        - "Kleine Softgels trotz hoher Konzentration"
+        - "Very high DHA concentration per softgel"
+        - "Molecularly distilled to reduce heavy metals"
+        - "Contains natural antioxidants"
+        - "Small softgels despite high concentration"
       cons:
-        - "Kein offizielles IFOS-Siegel"
-        - "Enthält Gelatine aus Fisch und Rind"
-      usage: "2 Softgels täglich zu einer Mahlzeit mit Fett. Bei höherem Bedarf können 3 Softgels über den Tag verteilt eingenommen werden."
+        - "No official IFOS certification"
+        - "Contains gelatin from fish and bovine sources"
+      usage: "2 softgels daily with a fat-containing meal. For higher needs, up to 3 softgels can be spread throughout the day."
 ---

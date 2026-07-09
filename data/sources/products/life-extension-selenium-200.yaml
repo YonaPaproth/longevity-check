@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Selen unterstützt Schilddrüse und antioxidative Systeme, aber Fenster zwischen Nutzen und Risiko ist schmal."
-      en: "Selen unterstützt Schilddrüse und antioxidative Systeme, aber Fenster zwischen Nutzen und Risiko ist schmal."
+      en: "Selenium supports thyroid function and antioxidant systems, but the margin between benefit and toxicity is narrow."
   valueForMoney:
     score: 8
     explanation:
       de: "0,22 € pro Kapsel ist fair für diese Form."
-      en: "0,22 € pro Kapsel ist fair für diese Form."
+      en: "€0.22 per capsule is fair for this form of selenium."
   productQuality:
     score: 8
     explanation:
       de: "Life Extension nutzt streng qualitätsorientierte Rohstoffe."
-      en: "Life Extension nutzt streng qualitätsorientierte Rohstoffe."
+      en: "Life Extension uses rigorously sourced raw materials."
   labelHonesty:
     score: 9
     explanation:
       de: "Spezifiziert die exakte Selenform."
-      en: "Spezifiziert die exakte Selenform."
+      en: "Specifies the exact selenium form."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Jede Charge hat COA inklusive Selengehalt."
-      en: "Jede Charge hat COA inklusive Selengehalt."
+      en: "Every batch has a COA including selenium content verification."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Geruch relativ schwefelig"
       usage: "1 Kapsel jeden zweiten Tag, idealerweise zusammen mit einer Mahlzeit und Omega-3. Regelmäßig Blutwerte prüfen."
   en:
-    summary: "Se-Methyl-L-Selenocystein liefert den am besten absorbierten Selen-Komplex mit organischer Bindung."
-    verdictNote: "Sinnvoll bei niedrigen Selenspiegeln oder Hashimoto – aber Dosierung im Blick behalten."
+    summary: "Se-methyl-L-selenocysteine delivers one of the best-absorbed organic selenium forms at 200 mcg per capsule."
+    verdictNote: "A reasonable choice for low selenium levels or Hashimoto's — but monitor dosage closely."
     body:
-      description: "Die Kapseln kombinieren Se-Methyl-L-Selenocystein mit pflanzlicher Cellulose. Keine Füllstoffe außer Reismehl für Fließfähigkeit."
+      description: "Capsules combine Se-methyl-L-selenocysteine with vegetable cellulose. No fillers beyond rice flour for flowability."
       pros:
-        - "Organische Form minimiert Magenprobleme"
-        - "Lange Vorratspackung"
-        - "Transparentes COA pro Charge"
+        - "Organic form minimizes gastrointestinal issues"
+        - "Large supply pack (90 capsules)"
+        - "Transparent COA per batch"
       cons:
-        - "Kein Kombiprodukt mit Vitamin E"
-        - "Geruch relativ schwefelig"
-      usage: "1 Kapsel jeden zweiten Tag, idealerweise zusammen mit einer Mahlzeit und Omega-3. Regelmäßig Blutwerte prüfen."
+        - "No combination with vitamin E"
+        - "Noticeable sulfurous odor"
+      usage: "1 capsule every other day, ideally with a meal and omega-3. Monitor blood selenium levels regularly."
 ---

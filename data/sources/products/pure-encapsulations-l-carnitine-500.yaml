@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Carnitin zeigt Nutzen bei Defiziten, veganer Ernährung und Erholung im Ausdauersport."
-      en: "Carnitin zeigt Nutzen bei Defiziten, veganer Ernährung und Erholung im Ausdauersport."
+      en: "Carnitine shows benefit in cases of deficiency, vegan diets, and endurance sport recovery."
   valueForMoney:
     score: 7
     explanation:
       de: "0,47 € pro 500 mg ist solide für qualitätsorientiert Carnitin."
-      en: "0,47 € pro 500 mg ist solide für qualitätsorientiert Carnitin."
+      en: "€0.47 per 500 mg is solid for quality-oriented carnitine."
   productQuality:
     score: 9
     explanation:
       de: "Hergestellt in zertifizierten Anlagen mit strengen Allergenkontrollen."
-      en: "Hergestellt in zertifizierten Anlagen mit strengen Allergenkontrollen."
+      en: "Manufactured in certified facilities with rigorous allergen controls."
   labelHonesty:
     score: 9
     explanation:
       de: "Deklariert Carnipure-Herkunft und Tartrat-Form."
-      en: "Deklariert Carnipure-Herkunft und Tartrat-Form."
+      en: "Declares Carnipure origin and tartrate form."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Jede Charge hat COA inkl. HPLC und mikrobiologischer Tests."
-      en: "Jede Charge hat COA inkl. HPLC und mikrobiologischer Tests."
+      en: "Every batch has a COA including HPLC and microbiological testing."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Preis höher als Bulk-Pulver"
       usage: "2 Kapseln täglich, idealerweise 30 Minuten vor Training oder zu kohlenhydratreichen Mahlzeiten."
   en:
-    summary: "Hypoallergenes Carnitin-Tartrat mit streng qualitätsorientierter Qualität für Ausdauer- und Mitochondrien-Programme."
-    verdictNote: "Für sensible Menschen oder Kliniken eine konstante Carnitin-Quelle in hoher Reinheit."
+    summary: "Hypoallergenic carnitine tartrate from Carnipure — high-purity formulation for endurance and mitochondrial support."
+    verdictNote: "A reliable high-purity carnitine source for sensitive individuals or clinical use."
     body:
-      description: "Pure Encapsulations setzt auf Carnipure-Tartrat von Lonza. Die Kapseln enthalten nur Wirkstoff und hypoallergene Cellulose."
+      description: "Pure Encapsulations uses Carnipure tartrate from Lonza. Capsules contain only the active ingredient and hypoallergenic cellulose."
       pros:
-        - "Carnipure-Rohstoff"
-        - "90 Portionen reichen für sechs Wochen"
-        - "Frei von Gluten, Soja und Milch"
+        - "Carnipure raw material"
+        - "90 servings — roughly six weeks' supply"
+        - "Free from gluten, soy, and dairy"
       cons:
-        - "500 mg erfordern Mehrfachdosierung für Sport"
-        - "Tartrat schmeckt leicht säuerlich"
-        - "Preis höher als Bulk-Pulver"
-      usage: "2 Kapseln täglich, idealerweise 30 Minuten vor Training oder zu kohlenhydratreichen Mahlzeiten."
+        - "500 mg per capsule may require multiple doses for athletic protocols"
+        - "Tartrate has a mildly sour taste"
+        - "More expensive than bulk powder"
+      usage: "2 capsules daily, ideally 30 minutes before training or with a carbohydrate-rich meal."
 ---

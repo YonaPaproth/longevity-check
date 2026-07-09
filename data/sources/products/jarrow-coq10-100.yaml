@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "CoQ10 hat gute Evidenz für Herz-Kontext-Kontext-medizinischen Kontext und Statin-induzierte Myopathie. gesundes Altern-Wirkung beim Gesunden weniger belegt."
-      en: "CoQ10 hat gute Evidenz für Herz-Kontext-Kontext-medizinischen Kontext und Statin-induzierte Myopathie. gesundes Altern-Wirkung beim Gesunden weniger belegt."
+      en: "CoQ10 has good evidence for cardiovascular support and statin-induced myopathy. Anti-aging effects in healthy individuals are less established."
   valueForMoney:
     score: 8
     explanation:
       de: "0,38 € pro Tag für 100 mg CoQ10 als Softgel ist im Marktvergleich günstig. Preis/mg besser als viele Markenprodukte."
-      en: "0,38 € pro Tag für 100 mg CoQ10 als Softgel ist im Marktvergleich günstig. Preis/mg besser als viele Markenprodukte."
+      en: "€0.38/day for 100 mg CoQ10 as a softgel is competitive. Better price-per-mg than many branded alternatives."
   productQuality:
     score: 7
     explanation:
       de: "Jarrow Formulas ist eine etablierte Marke mit gutem Ruf. Softgel-Form verbesserte die Resorption des fettlöslichen CoQ10."
-      en: "Jarrow Formulas ist eine etablierte Marke mit gutem Ruf. Softgel-Form verbesserte die Resorption des fettlöslichen CoQ10."
+      en: "Jarrow Formulas is a well-established brand. The softgel format improves absorption of this fat-soluble compound."
   labelHonesty:
     score: 8
     explanation:
       de: "Keine übertriebenen Versprechen. Deklaration vollständig. Jahrelange konsistente Markenpräsenz ohne bekannte Skandale."
-      en: "Keine übertriebenen Versprechen. Deklaration vollständig. Jahrelange konsistente Markenpräsenz ohne bekannte Skandale."
+      en: "No exaggerated claims. Full disclosure. Consistent brand presence over many years without known issues."
   thirdPartyTesting:
     score: 5
     explanation:
       de: "Keine spezifische Drittanbieter-Zertifizierung. Jarrow hat jedoch einen guten Industrieruf und wird regelmäßig in unabhängigen Tests gut bewertet."
-      en: "Keine spezifische Drittanbieter-Zertifizierung. Jarrow hat jedoch einen guten Industrieruf und wird regelmäßig in unabhängigen Tests gut bewertet."
+      en: "No specific third-party certification, but Jarrow has a solid industry reputation and performs well in independent tests."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Ubiquinol vs. Ubiquinon:** Dieses Produkt enthält Ubiquinon (oxidierte Form). Ab 40 Jahren kann Ubiquinol (reduzierte Form) besser resorbiert werden"
       usage: ""
   en:
-    summary: "Klassisches Ubiquinol-Präparat von einer der renommiertesten US-Supplementmarken. Softgel-Form für bessere Fettlöslichkeit. Gutes Preis-Leistungs-Verhältnis."
-    verdictNote: "Zuverlässige Wahl für CoQ10-Supplementierung. Besonders sinnvoll für Statin-Anwender. Softgel-Form ist der richtigen Wahl für diesen fettlöslichen Wirkstoff."
+    summary: "Classic CoQ10 ubiquinone from one of the most reputable US supplement brands — softgel form, good value."
+    verdictNote: "A reliable CoQ10 choice, especially for statin users. Softgel format is the right delivery form for this fat-soluble compound."
     body:
-      description: "Jarrow Formulas ist eine 1977 gegründete US-amerikanische Supplementmarke, die für konservative Produktformulierungen und verlässliche Qualität bekannt ist. CoQ10 100mg kommt als Softgel — die bevorzugte Darreichungsform für diesen fettlöslichen Wirkstoff."
+      description: "Jarrow Formulas, founded in 1977, is known for conservative formulations and consistent quality. CoQ10 100 mg comes as a softgel — the preferred form for this fat-soluble ingredient."
       pros:
-        - "**Softgel-Form:** Fettlösliche Wirkstoffe werden als Softgel besser resorbiert als als Hartkapseln oder Tabletten"
-        - "**Preis:** Günstiger als viele Markenprodukte bei vergleichbarer Qualität"
-        - "**Etablierte Marke:** Jarrow Formulas gilt als verlässliche Mittelklasse-Marke ohne bekannte Qualitätsprobleme"
-        - "**Sinnvolle Dosierung:** 100 mg entspricht der Standarddosis der meisten Studien"
+        - "**Softgel format:** Fat-soluble compounds absorb better as softgels than hard capsules or tablets"
+        - "**Price:** Cheaper than many branded products at comparable quality"
+        - "**Established brand:** Jarrow Formulas is a reliable mid-range brand with no known quality issues"
+        - "**Sensible dose:** 100 mg matches the standard dose used in most studies"
       cons:
-        - "**Keine Drittanbieter-Zertifizierung**"
-        - "**Ubiquinol vs. Ubiquinon:** Dieses Produkt enthält Ubiquinon (oxidierte Form). Ab 40 Jahren kann Ubiquinol (reduzierte Form) besser resorbiert werden"
+        - "**No third-party certification**"
+        - "**Ubiquinol vs. ubiquinone:** This product contains ubiquinone (oxidized form). Over 40, ubiquinol (reduced form) may absorb better"
       usage: ""
 ---

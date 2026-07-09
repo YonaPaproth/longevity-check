@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Bacopa zeigt in RCTs kognitive Vorteile bei Langzeiteinnahme."
-      en: "Bacopa zeigt in RCTs kognitive Vorteile bei Langzeiteinnahme."
+      en: "Bacopa shows cognitive benefits in RCTs with long-term use."
   valueForMoney:
     score: 8
     explanation:
       de: "0,42 € pro Portion für 55-%-Extrakt ist stark."
-      en: "0,42 € pro Portion für 55-%-Extrakt ist stark."
+      en: "€0.42 per serving for a 55% extract is strong value."
   productQuality:
     score: 9
     explanation:
       de: "Hypoallergene Produktion mit umfangreichen Identitätstests."
-      en: "Hypoallergene Produktion mit umfangreichen Identitätstests."
+      en: "Hypoallergenic manufacturing with extensive identity testing."
   labelHonesty:
     score: 9
     explanation:
       de: "Bacosid-Anteil und Pflanzenquelle sind vollständig deklariert."
-      en: "Bacosid-Anteil und Pflanzenquelle sind vollständig deklariert."
+      en: "Bacosides content and plant source fully declared."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Chargenanalysen sind über Fachkreise abrufbar."
-      en: "Chargenanalysen sind über Fachkreise abrufbar."
+      en: "Batch analyses available to healthcare professionals."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Kapseln relativ groß"
       usage: "1 Kapsel zweimal täglich zu einer Mahlzeit einnehmen; bei Empfindlichkeit langsam einschleichen."
   en:
-    summary: "Standardisierter Bacopa-Extrakt (55 % Bacoside) in hypoallergener Pure-Encapsulations-Qualität."
-    verdictNote: "Wer Bacopa langfristig für Fokus und Stress nutzt, bekommt hier vergleichsweise transparente Reinheit ohne Allergene."
+    summary: "Standardized bacopa extract (55% bacosides) in Pure Encapsulations' hypoallergenic quality."
+    verdictNote: "For long-term bacopa use targeting focus and stress, this offers comparatively transparent purity without allergens."
     body:
-      description: "Der Extrakt liefert 150 mg Bacopa monnieri pro Kapsel, standardisiert auf 82,5 mg Bacoside. Die Rezeptur enthält nur pflanzliche Kapselhülle und Reisextrakt als Träger."
+      description: "The extract delivers 150 mg Bacopa monnieri per capsule, standardized to 82.5 mg bacosides. The formula contains only a vegetable capsule shell and rice extract as a carrier."
       pros:
-        - "Standardisierung auf 55 % Bacoside"
-        - "Sehr lange Laufzeit mit 90 Portionen"
-        - "Hypoallergene Verarbeitung"
+        - "Standardized to 55% bacosides"
+        - "Long supply — 90 servings"
+        - "Hypoallergenic processing"
       cons:
-        - "Bacopa braucht 8–12 Wochen für volle Wirkung"
-        - "Leicht erdiger Nachgeschmack"
-        - "Kapseln relativ groß"
-      usage: "1 Kapsel zweimal täglich zu einer Mahlzeit einnehmen; bei Empfindlichkeit langsam einschleichen."
+        - "Bacopa takes 8–12 weeks for full effect"
+        - "Mildly earthy aftertaste"
+        - "Capsules are relatively large"
+      usage: "1 capsule twice daily with a meal; if sensitive, start with one capsule and increase gradually."
 ---

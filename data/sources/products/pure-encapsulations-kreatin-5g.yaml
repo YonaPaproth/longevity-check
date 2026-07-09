@@ -29,27 +29,27 @@ ratings:
     score: 10
     explanation:
       de: "Kreatin-Monohydrat ist eines der bestuntersuchten Supplements für Kraft, Gehirn und Alterung."
-      en: "Kreatin-Monohydrat ist eines der bestuntersuchten Supplements für Kraft, Gehirn und Alterung."
+      en: "Creatine monohydrate is one of the best-researched supplements for strength, cognitive function, and healthy aging."
   valueForMoney:
     score: 7
     explanation:
       de: "0,57 € pro 5 g liegt über Bulk-Produkten, bietet aber Apothekenqualität."
-      en: "0,57 € pro 5 g liegt über Bulk-Produkten, bietet aber Apothekenqualität."
+      en: "€0.57 per 5 g is above bulk pricing, but offers pharmaceutical-grade quality."
   productQuality:
     score: 9
     explanation:
       de: "Creapure aus Deutschland, mikronisiert und auf Reinheit sowie Schwermetalle geprüft."
-      en: "Creapure aus Deutschland, mikronisiert und auf Reinheit sowie Schwermetalle geprüft."
+      en: "Creapure from Germany, micronized and tested for purity and heavy metals."
   labelHonesty:
     score: 9
     explanation:
       de: "Zutatenliste enthält nur Kreatin, keine Aromen oder Süßstoffe."
-      en: "Zutatenliste enthält nur Kreatin, keine Aromen oder Süßstoffe."
+      en: "Ingredient list contains only creatine — no flavors or sweeteners."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Jede Charge erhält COA, inklusive HPLC- und Mikrobiologie-Daten."
-      en: "Jede Charge erhält COA, inklusive HPLC- und Mikrobiologie-Daten."
+      en: "Every batch receives a COA including HPLC and microbiological data."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Keine kleinere Probengröße"
       usage: "Täglich 1 Messlöffel (5 g) in Wasser oder Saft auflösen und nach einer Mahlzeit trinken. Bei Loading-Phase 4 Portionen für 5 Tage, danach auf 1 Portion reduzieren."
   en:
-    summary: "Mikronisiertes Creapure-Monohydrat mit 5 g pro Portion, hypoallergen und geschmacksneutral."
-    verdictNote: "Für alle, die Creapure mit maximaler Transparenz und Allergikerfreundlichkeit suchen."
+    summary: "Micronized Creapure monohydrate at 5 g per serving — hypoallergenic and flavorless."
+    verdictNote: "The go-to for those wanting Creapure with maximum transparency and allergen-free formulation."
     body:
-      description: "Das Pulver enthält ausschließlich Creapure-Kreatin aus Trostberg (Deutschland). Mikronisierung sorgt für gute Löslichkeit in Wasser oder Saft, ohne Zusätze oder Süßstoffe."
+      description: "The powder contains exclusively Creapure creatine from Trostberg, Germany. Micronization ensures good solubility in water or juice, with no additives or sweeteners."
       pros:
-        - "Creapure-Herkunft mit Seriennummern"
-        - "Liefert volle 5 g pro Messlöffel"
-        - "Frei von Gluten, Milch, Soja"
-        - "Luftdichter Beutel mit Messlöffel"
+        - "Creapure origin with traceable batch numbers"
+        - "Delivers full 5 g per scoop"
+        - "Free from gluten, dairy, soy"
+        - "Airtight pouch with measuring scoop"
       cons:
-        - "Preis höher als Standard-Bulkware"
-        - "Keine kleinere Probengröße"
-      usage: "Täglich 1 Messlöffel (5 g) in Wasser oder Saft auflösen und nach einer Mahlzeit trinken. Bei Loading-Phase 4 Portionen für 5 Tage, danach auf 1 Portion reduzieren."
+        - "Price higher than standard bulk creatine"
+        - "No smaller trial size available"
+      usage: "Dissolve 1 scoop (5 g) daily in water or juice and drink with or after a meal. For a loading phase: 4 servings for 5 days, then reduce to 1 serving."
 ---

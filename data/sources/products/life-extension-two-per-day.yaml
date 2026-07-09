@@ -32,27 +32,27 @@ ratings:
     score: 8
     explanation:
       de: "Multis sichern Mikronährstoff-Grundversorgung, besonders bei restriktiver Ernährung."
-      en: "Multis sichern Mikronährstoff-Grundversorgung, besonders bei restriktiver Ernährung."
+      en: "Multivitamins help cover micronutrient gaps, especially with restrictive diets."
   valueForMoney:
     score: 8
     explanation:
       de: "0,47 € pro Tag für umfangreiche Formel inkl. Methylfolat ist stark."
-      en: "0,47 € pro Tag für umfangreiche Formel inkl. Methylfolat ist stark."
+      en: "€0.47/day for a comprehensive formula including methylfolate is strong value."
   productQuality:
     score: 8
     explanation:
       de: "cGMP-Produktion, stabile Verpackung und klare Rohstoffquellen."
-      en: "cGMP-Produktion, stabile Verpackung und klare Rohstoffquellen."
+      en: "cGMP manufacturing, sturdy packaging, and clearly identified raw material sources."
   labelHonesty:
     score: 9
     explanation:
       de: "Volle Offenlegung jeder Mikronährstoffmenge, keine Proprietary Blends."
-      en: "Volle Offenlegung jeder Mikronährstoffmenge, keine Proprietary Blends."
+      en: "Full disclosure of every micronutrient amount; no proprietary blends."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "LEF testet intern, zusätzliche COAs auf Anfrage verfügbar."
-      en: "LEF testet intern, zusätzliche COAs auf Anfrage verfügbar."
+      en: "LEF tests in-house; COAs available on request."
 
 locales:
   de:
@@ -70,17 +70,17 @@ locales:
         - "Eisenfrei – für manche Frauen ist ein Zusatzprodukt nötig"
       usage: "2 Kapseln täglich zu einer Mahlzeit mit Fett. Bei empfindlichem Magen auf morgens und abends je 1 Kapsel splitten."
   en:
-    summary: "Multivitamin mit aktiven B-Vitaminen, Carotinoiden und Mineralien in klinischen Dosen – zwei Kapseln decken fast alles."
-    verdictNote: "Die Klassikerformel für Vielreisende, die Nährstofflücken schnell schließen wollen."
+    summary: "Multivitamin with active B-vitamins, carotenoids, and minerals at clinical doses — two capsules cover most bases."
+    verdictNote: "A reliable formula for anyone looking to close micronutrient gaps efficiently."
     body:
-      description: "Two-Per-Day vereint aktive B-Vitamine (u. a. Methylfolat, P5P, Methylcobalamin) mit Carotinoiden, Mineralien und Spurenelementen. Zwei vegetarische Kapseln liefern eine Art Basisversicherung für Mikronährstoffe."
+      description: "Two-Per-Day combines active B-vitamins (methylfolate, P5P, methylcobalamin) with carotenoids, minerals, and trace elements. Two vegetarian capsules serve as a solid micronutrient foundation."
       pros:
-        - "Aktive Formen von B6, B12 und Folat"
-        - "Enthält echte RRR-Alpha-Tocopherole plus Tocotrienole"
-        - "Carotinoide in einer Vollspektrum-Mischung"
-        - "Preislich attraktiv bei Abo oder Großpackung"
+        - "Active forms of B6, B12, and folate"
+        - "Contains genuine RRR-alpha-tocopherol plus tocotrienols"
+        - "Full-spectrum carotenoid blend"
+        - "Good value with subscription or bulk purchase"
       cons:
-        - "Kein Vitamin K2 enthalten"
-        - "Eisenfrei – für manche Frauen ist ein Zusatzprodukt nötig"
-      usage: "2 Kapseln täglich zu einer Mahlzeit mit Fett. Bei empfindlichem Magen auf morgens und abends je 1 Kapsel splitten."
+        - "No vitamin K2 included"
+        - "Iron-free — some women may need a separate iron supplement"
+      usage: "2 capsules daily with a fat-containing meal. If stomach-sensitive, split into 1 capsule morning and 1 evening."
 ---
