@@ -4,7 +4,8 @@ import { getCollection } from 'astro:content';
 
 const ingredients = await getCollection('enIngredients');
 const deIngredients = await getCollection('ingredients');
-const products = await getCollection('products');
+const enProducts = await getCollection('enProducts');
+const deProducts = await getCollection('products');
 
 // Build ingredient list with display names
 const ingredientList = [...deIngredients].map(i => {
@@ -12,22 +13,26 @@ const ingredientList = [...deIngredients].map(i => {
   return { slug: i.data.slug, name: en?.data.title ?? i.data.title };
 }).sort((a, b) => a.name.localeCompare(b.name));
 
-// Build products JSON for client-side
-const productsData = products.map(p => ({
-  slug: p.data.slug,
-  title: p.data.title,
-  vendor: p.data.vendor,
-  ingredient: p.data.ingredient,
-  ci: (p.data as any).containedIngredients?.map((c: any) => c.slug) ?? [p.data.ingredient],
-  ppd: p.data.pricePerDayEur,
-  form: p.data.form,
-  r: {
-    e: p.data.ratings.evidenceForIngredient.score,
-    v: p.data.ratings.valueForMoney.score,
-    q: p.data.ratings.productQuality.score,
-  },
-  summary: p.data.summary,
-}));
+// Build products JSON for client-side (use EN if available, else DE fallback)
+const productsData = deProducts.map(p => {
+  const en = enProducts.find(ep => ep.data.slug === p.data.slug);
+  const d = en?.data ?? p.data;
+  return {
+    slug: d.slug,
+    title: d.title,
+    vendor: d.vendor,
+    ingredient: d.ingredient,
+    ci: (d as any).containedIngredients?.map((c: any) => c.slug) ?? [d.ingredient],
+    ppd: d.pricePerDayEur,
+    form: d.form,
+    r: {
+      e: d.ratings.evidenceForIngredient.score,
+      v: d.ratings.valueForMoney.score,
+      q: d.ratings.productQuality.score,
+    },
+    summary: d.summary,
+  };
+});
 ---
 
 <BaseLayout
