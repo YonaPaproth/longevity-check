@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Citrullin-Malat steigert Argininspiegel und Leistungsfähigkeit bei hochintensiven Workouts."
-      en: "Citrullin-Malat steigert Argininspiegel und Leistungsfähigkeit bei hochintensiven Workouts."
+      en: "Citrulline malate raises arginine levels and improves performance during high-intensity workouts."
   valueForMoney:
     score: 7
     explanation:
       de: "0,47 € pro 1,5 g ist ok für Kapseln, Pulver bleibt günstiger."
-      en: "0,47 € pro 1,5 g ist ok für Kapseln, Pulver bleibt günstiger."
+      en: "€0.47 per 1.5 g is acceptable for capsules; powder remains cheaper."
   productQuality:
     score: 8
     explanation:
       de: "Jarrow kapselt ohne künstliche Farbstoffe, nutzt pflanzliche Cellulose."
-      en: "Jarrow kapselt ohne künstliche Farbstoffe, nutzt pflanzliche Cellulose."
+      en: "Jarrow encapsulates without artificial colorants, using plant-based cellulose."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare Angabe des Malat-Verhältnisses und Hilfsstoffe."
-      en: "Klare Angabe des Malat-Verhältnisses und Hilfsstoffe."
+      en: "Malate ratio and excipients clearly stated."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "GMP-Produktion mit internen Analysen, keine zusätzliche Zertifizierung."
-      en: "GMP-Produktion mit internen Analysen, keine zusätzliche Zertifizierung."
+      en: "GMP production with internal testing; no additional certification."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Nur 1,5 g:** Für klassische 6–8 g Protokolle braucht es viele Kapseln"
       usage: "2 Portionen (4 Kapseln) 30 Minuten vor intensiven Workouts einnehmen. An trainingsfreien Tagen 1 Portion morgens für Gefäßsupport nutzen."
   en:
-    summary: "Vegane Kapseln mit 1,5 g Citrullin-Malat pro Portion unterstützen Stickstoffmonoxid, Pump und Durchblutung."
-    verdictNote: "Bequeme Citrullin-Kapseln für Reisen oder Menschen, die Pulver hassen."
+    summary: "Vegan capsules with 1.5 g citrulline malate per serving for NO production, pump, and circulation."
+    verdictNote: "Convenient citrulline capsules for travel or those who dislike powder."
     body:
-      description: "Jede Portion liefert 1500 mg Citrullin-Malat im Verhältnis 1:1. Die Kapseln richten sich an Athletinnen und Athleten, die Pump, Stickstoffmonoxidproduktion und Durchblutung unterstützen wollen, ohne Pulver zu mischen."
+      description: "Each serving delivers 1500 mg citrulline malate in a 1:1 ratio. Aimed at athletes wanting to support nitric oxide production and circulation without mixing powder."
       pros:
-        - "**Vegane Kapseln:** Auch für pflanzlich lebende Sportler passend"
-        - "**Malat-Kombo:** Liefert zusätzlich Unterstützung für den Citratzyklus"
-        - "**Gute Verträglichkeit:** Weniger Magenstress als Arginin"
-        - "**Verlässlicher Hersteller:** Jarrow produziert unter cGMP"
+        - "**Vegan capsules:** Suitable for plant-based athletes"
+        - "**Malate combo:** Also supports the citric acid cycle"
+        - "**Good tolerability:** Less GI stress than arginine"
+        - "**Reliable manufacturer:** Jarrow produced under cGMP"
       cons:
-        - "**Preis:** Deutlich teurer als Bulk-Pulver"
-        - "**Nur 1,5 g:** Für klassische 6–8 g Protokolle braucht es viele Kapseln"
-      usage: "2 Portionen (4 Kapseln) 30 Minuten vor intensiven Workouts einnehmen. An trainingsfreien Tagen 1 Portion morgens für Gefäßsupport nutzen."
+        - "**Price:** Significantly more expensive than bulk powder"
+        - "**Only 1.5 g per serving:** Classic 6–8 g protocols require many capsules"
+      usage: "2 servings (4 capsules) 30 minutes before intense workouts. On rest days, 1 serving in the morning for vascular support."
 ---

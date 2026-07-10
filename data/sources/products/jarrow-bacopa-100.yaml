@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Bacognize wurde in Uni-Studien untersucht."
-      en: "Bacognize wurde in Uni-Studien untersucht."
+      en: "Bacognize has been studied in university clinical trials."
   valueForMoney:
     score: 6
     explanation:
       de: "0,37 € pro 100 mg – für volle klinische Dosis braucht man drei Portionen."
-      en: "0,37 € pro 100 mg – für volle klinische Dosis braucht man drei Portionen."
+      en: "€0.37 per 100 mg — three servings needed to reach a full clinical dose."
   productQuality:
     score: 8
     explanation:
       de: "Bacognize ist standardisiert auf 12 % Bacoside."
-      en: "Bacognize ist standardisiert auf 12 % Bacoside."
+      en: "Bacognize is standardized to 12% bacosides."
   labelHonesty:
     score: 8
     explanation:
       de: "Klares Ingredient-Branding mit Chargennummer."
-      en: "Klares Ingredient-Branding mit Chargennummer."
+      en: "Clear ingredient branding with batch number."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Jarrow liefert interne Tests, externe Nachweise fehlen."
-      en: "Jarrow liefert interne Tests, externe Nachweise fehlen."
+      en: "Jarrow provides internal testing; no external third-party verification."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Nur 60 Portionen pro Dose"
       usage: "Beginne mit 1 Kapsel morgens. Nach einer Woche auf 2–3 Kapseln steigern, jeweils zu Mahlzeiten."
   en:
-    summary: "Je 100 mg Bacognize®-Extrakt pro Kapsel – gut geeignet zum Einschleichen oder Stapeln mit anderen Adaptogenen."
-    verdictNote: "Bacognize-Rohstoff ist hochwertig, aber Dosis muss auf 2–3 Kapseln erhöhte werden, um Studienwerte zu erreichen."
+    summary: "100 mg Bacognize® extract per capsule — good for titrating up or stacking with other adaptogens."
+    verdictNote: "High-quality Bacognize ingredient, but you need 2–3 capsules to reach study-level doses."
     body:
-      description: "Das Produkt nutzt den bekannten Bacognize-Extrakt, der in mehreren Placebo-kontrollierten Studien getestet wurde. Kleine 100-mg-Kapseln eignen sich für sensible Personen."
+      description: "Uses the well-known Bacognize extract, which has been tested in multiple placebo-controlled studies. The 100 mg capsule format suits sensitive individuals."
       pros:
-        - "Bacognize als klinisch untersuchter Rohstoff"
-        - "Kleine Kapseln lassen sich gut kombinieren"
-        - "Glutenfrei und vegan"
+        - "Bacognize is a clinically researched ingredient"
+        - "Small capsules easy to combine with other supplements"
+        - "Gluten-free and vegan"
       cons:
-        - "Für Studien-Dosis (300 mg) sind drei Kapseln nötig"
-        - "Nur 60 Portionen pro Dose"
-      usage: "Beginne mit 1 Kapsel morgens. Nach einer Woche auf 2–3 Kapseln steigern, jeweils zu Mahlzeiten."
+        - "Three capsules needed to reach the study dose of 300 mg"
+        - "Only 60 servings per bottle"
+      usage: "Start with 1 capsule in the morning. After one week, increase to 2–3 capsules, taken with meals."
 ---

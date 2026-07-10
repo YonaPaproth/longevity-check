@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Senolytische Daten stammen überwiegend aus Tiermodellen; Humanstudien laufen noch."
-      en: "Senolytische Daten stammen überwiegend aus Tiermodellen; Humanstudien laufen noch."
+      en: "Senolytic data comes mostly from animal models; human studies are still ongoing."
   valueForMoney:
     score: 7
     explanation:
       de: "1,63 € pro Tag ist fair für mikronisiertes Fisetin."
-      en: "1,63 € pro Tag ist fair für mikronisiertes Fisetin."
+      en: "€1.63 per day is fair for micronized fisetin."
   productQuality:
     score: 8
     explanation:
       de: "Lösungsvermittler mit Veränderungen in Verbindung bringen Bioverfügbarkeit ohne unnötige Zusätze."
-      en: "Lösungsvermittler mit Veränderungen in Verbindung bringen Bioverfügbarkeit ohne unnötige Zusätze."
+      en: "Solubilizers enhance bioavailability without unnecessary additives."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert aktive und inaktive Bestandteile präzise."
-      en: "Deklariert aktive und inaktive Bestandteile präzise."
+      en: "Active and inactive ingredients precisely declared."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Life Extension veröffentlicht COAs, aber keine externen Senolytik-Tests."
-      en: "Life Extension veröffentlicht COAs, aber keine externen Senolytik-Tests."
+      en: "Life Extension publishes COAs, but no external senolytic-specific testing."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kapseln riechen leicht nach Lösungsmittel"
       usage: "Beliebt ist ein 2-Tages-Protokoll mit 2-4 Kapseln pro Tag zusammen mit Quercetin. Vorher Arzt konsultieren, besonders bei Medikamenten."
   en:
-    summary: "Mikronisiertes Fisetin mit quercetinfreier Formulierung für senolytische Protokolle."
-    verdictNote: "Solides Fisetin für intermittent fasting / Senolytic Days, solange man die begrenzte Evidenz akzeptiert."
+    summary: "Micronized fisetin in a quercetin-free formulation for senolytic protocols."
+    verdictNote: "Solid fisetin for intermittent fasting or senolytic days, provided you accept the limited evidence."
     body:
-      description: "Fisetin Elite nutzt eine Cyclodextrin-Matrix, um den schlecht löslichen Pflanzenstoff bioverfügbarer zu machen. Die Kapseln sind klein und lassen sich mit Quercetin kombinieren."
+      description: "Fisetin Elite uses a cyclodextrin matrix to improve bioavailability of this poorly soluble plant compound. Small capsules that stack well with quercetin."
       pros:
-        - "Cyclodextrin-Komplex steigert Aufnahme"
-        - "Keine Farbstoffe oder Titanoxid"
-        - "Praktische Monatsration für Senolytic-Stapel"
+        - "Cyclodextrin complex enhances absorption"
+        - "No colorants or titanium dioxide"
+        - "Convenient one-month supply for senolytic stacks"
       cons:
-        - "Nur 30 Portionen, daher kein Bulk-Modus"
-        - "Kapseln riechen leicht nach Lösungsmittel"
-      usage: "Beliebt ist ein 2-Tages-Protokoll mit 2-4 Kapseln pro Tag zusammen mit Quercetin. Vorher Arzt konsultieren, besonders bei Medikamenten."
+        - "Only 30 servings — no bulk mode"
+        - "Capsules have a faint solvent smell"
+      usage: "Popular protocol: 2-day pulse with 2–4 capsules per day alongside quercetin. Consult a doctor beforehand, especially if taking medications."
 ---

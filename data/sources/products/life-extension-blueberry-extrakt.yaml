@@ -27,27 +27,27 @@ ratings:
     score: 7
     explanation:
       de: "Anthocyane unterstützen Gefäß- und Augenfunktion, gestützt durch kleine klinische Studien."
-      en: "Anthocyane unterstützen Gefäß- und Augenfunktion, gestützt durch kleine klinische Studien."
+      en: "Anthocyanins support vascular and eye function, backed by small clinical studies."
   valueForMoney:
     score: 7
     explanation:
       de: "0,40 € pro Tag ist ok für standardisierte Extrakte, aber kein Schnäppchen."
-      en: "0,40 € pro Tag ist ok für standardisierte Extrakte, aber kein Schnäppchen."
+      en: "€0.40 per day is acceptable for a standardized extract, but not a bargain."
   productQuality:
     score: 8
     explanation:
       de: "Life Extension nutzt europäische Heidelbeeren und testet auf Pestizide."
-      en: "Life Extension nutzt europäische Heidelbeeren und testet auf Pestizide."
+      en: "Life Extension uses European blueberries and tests for pesticides."
   labelHonesty:
     score: 8
     explanation:
       de: "Klares Etikett mit Angabe der Anthocyane und Hilfsstoffe."
-      en: "Klares Etikett mit Angabe der Anthocyane und Hilfsstoffe."
+      en: "Clear labeling with anthocyanin content and excipients disclosed."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Interne und externe Tests laut Hersteller, jedoch ohne offizielles Siegel."
-      en: "Interne und externe Tests laut Hersteller, jedoch ohne offizielles Siegel."
+      en: "Internal and external testing according to the manufacturer, but no official certification seal."
 
 locales:
   de:
@@ -65,17 +65,17 @@ locales:
         - "**Keine unabhängige Zertifizierung:** Ein Siegel wie USP wäre schön"
       usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Für intensiven Blickstress oder Flugreisen kann vorübergehend auf 2 Kapseln nach individueller Abwägung angepasst werden."
   en:
-    summary: "Standardisierter Heidelbeerextrakt mit hoher Anthocyan-Konzentration, fokussiert auf Augen- und Gefäßgesundheit."
-    verdictNote: "Guter Anthocyan-Extrakt für gesundes Altern-Fans mit Fokus auf Gefäße und Augen."
+    summary: "Standardized blueberry extract with high anthocyanin concentration, focused on eye and vascular health."
+    verdictNote: "Good anthocyanin extract for healthy aging enthusiasts focused on vascular and eye support."
     body:
-      description: "Der Extrakt enthält europäische Heidelbeeren mit standardisiertem Anteil an Anthocyanen und weiteren Polyphenolen. Zielgruppen sind Menschen, die Retina, Kapillarstruktur und antioxidativen Status unterstützen möchten."
+      description: "Extract contains European blueberries standardized for anthocyanins and additional polyphenols. Aimed at those supporting retinal health, capillary structure, and antioxidant status."
       pros:
-        - "**Standardisierung:** Konstante 25% Anthocyane pro Kapsel"
-        - "**Kombination:** Liefert neben Anthocyanen weitere Polyphenole"
-        - "**Seriöser Hersteller:** Life Extension veröffentlicht Forschungsreferenzen"
-        - "**Vegane Kapseln:** Frei von Gelatine"
+        - "**Standardization:** Consistent 25% anthocyanins per capsule"
+        - "**Broad spectrum:** Delivers polyphenols beyond just anthocyanins"
+        - "**Reputable manufacturer:** Life Extension publishes research references"
+        - "**Vegan capsules:** Gelatin-free"
       cons:
-        - "**Preis:** Höher als einfache Beerencaps"
-        - "**Keine unabhängige Zertifizierung:** Ein Siegel wie USP wäre schön"
-      usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Für intensiven Blickstress oder Flugreisen kann vorübergehend auf 2 Kapseln nach individueller Abwägung angepasst werden."
+        - "**Price:** Higher than basic berry capsules"
+        - "**No independent certification:** A USP seal would be welcome"
+      usage: "1 capsule daily with a fatty meal. For high visual demand or long flights, can temporarily increase to 2 capsules based on individual assessment."
 ---

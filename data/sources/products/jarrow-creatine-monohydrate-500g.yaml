@@ -29,27 +29,27 @@ ratings:
     score: 9
     explanation:
       de: "Kreatin hat solide Datenlage für Muskelkraft, Kognition und Sarkopenie-Prävention."
-      en: "Kreatin hat solide Datenlage für Muskelkraft, Kognition und Sarkopenie-Prävention."
+      en: "Creatine has a strong evidence base for muscle strength, cognition, and sarcopenia prevention."
   valueForMoney:
     score: 10
     explanation:
       de: "0,16 € pro Tag für CreaPure ist exzellent, besonders bei 1 kg Packungsgröße."
-      en: "0,16 € pro Tag für CreaPure ist exzellent, besonders bei 1 kg Packungsgröße."
+      en: "€0.16 per day for CreaPure is excellent, especially at the 1 kg pack size."
   productQuality:
     score: 9
     explanation:
       de: "CreaPure stammt aus deutscher GMP-Produktion mit strengem Reinheitsprofil."
-      en: "CreaPure stammt aus deutscher GMP-Produktion mit strengem Reinheitsprofil."
+      en: "CreaPure is manufactured in Germany under GMP with a strict purity profile."
   labelHonesty:
     score: 8
     explanation:
       de: "Einfache Deklaration ohne Marketing-Hype, klares Dosierschema."
-      en: "Einfache Deklaration ohne Marketing-Hype, klares Dosierschema."
+      en: "Straightforward labeling without marketing hype, clear dosing instructions."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "CreaPure-Chargen werden extern auf Reinheit getestet, auch wenn kein NSF-Siegel vorhanden ist."
-      en: "CreaPure-Chargen werden extern auf Reinheit getestet, auch wenn kein NSF-Siegel vorhanden ist."
+      en: "CreaPure batches are externally tested for purity, even without an NSF certification."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Großer Behälter:** Nicht reisefreundlich"
       usage: "5 g täglich in Wasser oder Saft lösen. Bei Bedarf Ladephase mit 4×5 g an den ersten fünf Tagen, danach 5 g als Erhaltungsdosis."
   en:
-    summary: "CreaPure basiertes Kreatin aus deutscher Produktion, 1-kg-Vorrat mit 200 Portionen für langfristige längerfristige Anwendungs-Kontexte."
-    verdictNote: "Großpackung mit deutschem Markenrohstoff und günstiger Preis."
+    summary: "CreaPure-based creatine made in Germany, 1 kg supply with 200 servings for long-term use."
+    verdictNote: "Large pack with a German branded ingredient at a low price."
     body:
-      description: "Das Pulver nutzt CreaPure aus Trostberg, eine der reinsten Kreatinquellen weltweit. 1 kg entspricht 200 Portionen zu je 5 g und reicht so gut sechs Monate bei täglicher Nutzung."
+      description: "Uses CreaPure from Trostberg, one of the purest creatine sources worldwide. 1 kg equals 200 servings of 5 g — around six months of daily use."
       pros:
-        - "**CreaPure-Rohstoff:** Deutsche Herstellung mit strengem Monitoring"
-        - "**Riesige Packung:** Spart Geld und Verpackung"
-        - "**Neutraler Geschmack:** Passt in jedes Getränk"
-        - "**Verlässlicher Hersteller:** Jarrow liefert konstante Qualität"
+        - "**CreaPure ingredient:** German manufacturing with strict quality monitoring"
+        - "**Large pack:** Saves money and packaging"
+        - "**Neutral taste:** Mixes into any beverage"
+        - "**Reliable manufacturer:** Consistent Jarrow quality"
       cons:
-        - "**Keine Sport-Zertifizierung:** Für getestete Athleten wäre ein extra Siegel hilfreich"
-        - "**Großer Behälter:** Nicht reisefreundlich"
-      usage: "5 g täglich in Wasser oder Saft lösen. Bei Bedarf Ladephase mit 4×5 g an den ersten fünf Tagen, danach 5 g als Erhaltungsdosis."
+        - "**No sport certification:** Tested athletes may want an additional seal"
+        - "**Large container:** Not travel-friendly"
+      usage: "Dissolve 5 g daily in water or juice. Optional loading phase: 4×5 g for the first five days, then 5 g as maintenance dose."
 ---

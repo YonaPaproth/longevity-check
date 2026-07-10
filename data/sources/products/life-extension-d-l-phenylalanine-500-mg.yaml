@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "L-Phenylalanin als Neurotransmitter-Vorstufe hat moderate Evidenz. D-Form soll Enkephalinase hemmen (Schmerzlinderung), aber Studien sind alt."
-      en: "L-Phenylalanin als Neurotransmitter-Vorstufe hat moderate Evidenz. D-Form soll Enkephalinase hemmen (Schmerzlinderung), aber Studien sind alt."
+      en: "L-phenylalanine as a neurotransmitter precursor has moderate evidence. The D-form is thought to inhibit enkephalinase (pain modulation), but the studies are old."
   valueForMoney:
     score: 8
     explanation:
       de: "0,17 € pro Tag für Life Extension Qualität ist günstig."
-      en: "0,17 € pro Tag für Life Extension Qualität ist günstig."
+      en: "€0.17 per day for Life Extension quality is very affordable."
   productQuality:
     score: 8
     explanation:
       de: "Life Extension Standard, 50/50 D/L-Mischung, reine Aminosäure."
-      en: "Life Extension Standard, 50/50 D/L-Mischung, reine Aminosäure."
+      en: "Life Extension standard quality; 50/50 D/L mixture, pure amino acid."
   labelHonesty:
     score: 9
     explanation:
       de: "D,L-Form und Menge klar deklariert."
-      en: "D,L-Form und Menge klar deklariert."
+      en: "D,L-form and quantity clearly declared."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Life Extension eigenes Analytiklabor, COAs verfügbar."
-      en: "Life Extension eigenes Analytiklabor, COAs verfügbar."
+      en: "Life Extension has its own analytical lab; COAs available."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "Nicht mit MAO-Hemmern oder Levodopa kombinieren"
       usage: "1 Kapsel 1-2× täglich auf leeren Magen. Nicht abends (stimulierend über Dopamin-Pathway)."
   en:
-    summary: "D,L-Phenylalanin 500 mg — Dopamin-/Noradrenalin-Vorstufe plus natürliche Schmerzmodulation."
-    verdictNote: "Interessante Dopamin-Vorstufe mit möglicher Schmerzmodulation. Evidenz für D-Form aber veraltet."
+    summary: "D,L-phenylalanine 500 mg — dopamine/noradrenaline precursor plus potential pain modulation."
+    verdictNote: "Interesting dopamine precursor with possible pain modulation, though evidence for the D-form is dated."
     body:
-      description: "Die D,L-Form kombiniert beide Isomere: L-Phenylalanin wird zu L-Tyrosin → Dopamin → Noradrenalin umgebaut. D-Phenylalanin soll die Enkephalinase hemmen und so körpereigene Endorphine verlängern (natürliche Schmerzlinderung)."
+      description: "The D,L-form combines both isomers: L-phenylalanine is converted to L-tyrosine → dopamine → noradrenaline. D-phenylalanine is thought to inhibit enkephalinase, prolonging endogenous endorphins (natural pain modulation)."
       pros:
-        - "Doppelter Wirkmechanismus: Neurotransmitter-Vorstufe + Schmerzmodulation"
-        - "100 Kapseln = 3+ Monate"
-        - "Life Extension Qualitätsstandard"
-        - "Sehr günstiger Preis"
+        - "Dual mechanism: neurotransmitter precursor + pain modulation"
+        - "100 capsules = 3+ months supply"
+        - "Life Extension quality standard"
+        - "Very low price"
       cons:
-        - "Studien zur D-Form stammen größtenteils aus den 1980ern"
-        - "Nicht bei PKU (Phenylketonurie) einnehmen"
-        - "Nicht mit MAO-Hemmern oder Levodopa kombinieren"
-      usage: "1 Kapsel 1-2× täglich auf leeren Magen. Nicht abends (stimulierend über Dopamin-Pathway)."
+        - "Studies on the D-form are mostly from the 1980s"
+        - "Not suitable for people with PKU (phenylketonuria)"
+        - "Do not combine with MAO inhibitors or levodopa"
+      usage: "1 capsule 1–2× daily on an empty stomach. Avoid in the evening — stimulating via the dopamine pathway."
 ---

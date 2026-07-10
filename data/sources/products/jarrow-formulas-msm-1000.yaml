@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "MSM zeigt moderate Evidenz für Gelenkschmerzen und Hautqualität."
-      en: "MSM zeigt moderate Evidenz für Gelenkschmerzen und Hautqualität."
+      en: "MSM shows moderate evidence for joint pain reduction and skin quality."
   valueForMoney:
     score: 9
     explanation:
       de: "0,08 € pro Gramm OptiMSM ist exzellent."
-      en: "0,08 € pro Gramm OptiMSM ist exzellent."
+      en: "€0.08 per gram of OptiMSM is excellent."
   productQuality:
     score: 8
     explanation:
       de: "Destilliertes OptiMSM aus den USA."
-      en: "Destilliertes OptiMSM aus den USA."
+      en: "Distilled OptiMSM sourced from the USA."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert Marke und Menge eindeutig."
-      en: "Deklariert Marke und Menge eindeutig."
+      en: "Brand and quantity clearly declared."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "OptiMSM bringt eigene COA ein, Jarrow ergänzt interne Tests."
-      en: "OptiMSM bringt eigene COA ein, Jarrow ergänzt interne Tests."
+      en: "OptiMSM provides its own COA; Jarrow adds internal testing."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Zwei Kapseln für 2 g nötig"
       usage: "1–2 Kapseln zu Mahlzeiten, kombiniert mit Vitamin C und Kollagen für bessere Matrixbildung."
   en:
-    summary: "OptiMSM in veganen Kapseln – 1 g organischer Schwefel pro Portion für Gelenke und Haut."
-    verdictNote: "Großpackung für langfristige Gelenk- und Hautprotokolle."
+    summary: "OptiMSM in vegan capsules — 1 g organic sulfur per serving for joints and skin."
+    verdictNote: "Large-pack format for long-term joint and skin protocols."
     body:
-      description: "OptiMSM wird vierfach destilliert und mikrofiltriert. Jarrow kapselt das Pulver in vegane Hüllen und verzichtet auf Fließmittel."
+      description: "OptiMSM is quadruple-distilled and microfiltered. Jarrow encapsulates the powder in vegan shells with no flow agents."
       pros:
-        - "OptiMSM Markenrohstoff"
-        - "200 Portionen pro Dose"
-        - "Geruchsarm trotz Schwefel"
+        - "OptiMSM branded ingredient"
+        - "200 servings per bottle"
+        - "Low odor despite sulfur content"
       cons:
-        - "Braucht mehrere Wochen bis Wirkung spürbar ist"
-        - "Zwei Kapseln für 2 g nötig"
-      usage: "1–2 Kapseln zu Mahlzeiten, kombiniert mit Vitamin C und Kollagen für bessere Matrixbildung."
+        - "Takes several weeks before effects are noticeable"
+        - "Two capsules needed for a 2 g dose"
+      usage: "1–2 capsules with meals, combined with vitamin C and collagen for better matrix support."
 ---

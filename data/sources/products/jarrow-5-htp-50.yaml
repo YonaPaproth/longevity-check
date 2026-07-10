@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "5-HTP kann Serotonin und Melatonin-Spiegel moderat mit höheren Werten in Verbindung bringen, Studienlage solide aber nicht riesig."
-      en: "5-HTP kann Serotonin und Melatonin-Spiegel moderat mit höheren Werten in Verbindung bringen, Studienlage solide aber nicht riesig."
+      en: "5-HTP is moderately linked to higher serotonin and melatonin levels; evidence base is solid but not extensive."
   valueForMoney:
     score: 8
     explanation:
       de: "0,20 € für 50 mg ist günstiger als die meisten EU-Apothekenprodukte."
-      en: "0,20 € für 50 mg ist günstiger als die meisten EU-Apothekenprodukte."
+      en: "€0.20 for 50 mg is cheaper than most EU pharmacy products."
   productQuality:
     score: 8
     explanation:
       de: "Jarrow beschafft Griffonia aus Ghana und testet auf Peak-X."
-      en: "Jarrow beschafft Griffonia aus Ghana und testet auf Peak-X."
+      en: "Jarrow sources Griffonia from Ghana and tests for Peak-X contamination."
   labelHonesty:
     score: 9
     explanation:
       de: "Transparente Angabe, keine Kräuterblends oder Füllstoffe."
-      en: "Transparente Angabe, keine Kräuterblends oder Füllstoffe."
+      en: "Transparent labeling, no herbal blends or fillers."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Stichproben von Labdoor bestätigen Wirkstoffgehalt, aber nicht jede Charge."
-      en: "Stichproben von Labdoor bestätigen Wirkstoffgehalt, aber nicht jede Charge."
+      en: "Labdoor spot tests confirm active ingredient content, but not every batch."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kann bei empfindlichem Magen leichte Übelkeit auslösen"
       usage: "1 Kapsel 30 Minuten vor dem Schlafengehen oder 1–2 Kapseln über den Tag verteilt. Immer mit etwas Kohlenhydraten kombinieren, um die Blut-Hirn-Schranke-Passage zu optimieren."
   en:
-    summary: "Griffonia-basiertes 5-HTP in veganen Kapseln für flexible Schlaf- und Stimmungs-Kontexte."
-    verdictNote: "Sauberes 5-HTP für Menschen, die lieber niedrig beginnen als direkt 100 mg nehmen."
+    summary: "Griffonia-based 5-HTP in vegan capsules for flexible sleep and mood contexts."
+    verdictNote: "Clean 5-HTP for those who prefer starting low rather than jumping straight to 100 mg."
     body:
-      description: "Die Kapseln enthalten Griffonia simplicifolia Samenextrakt mit standardisierten 50 mg 5-HTP sowie Reisprotein als Träger. Sie sind glutenfrei, vegan und ohne Magnesiumstearat."
+      description: "Capsules contain Griffonia simplicifolia seed extract standardized to 50 mg 5-HTP, with rice protein as carrier. Gluten-free, vegan, and magnesium stearate-free."
       pros:
-        - "Vegane Pullulan-Kapseln, leicht zu schlucken"
-        - "Gut dokumentierte Lieferkette ohne Peak-X-Verunreinigung"
-        - "50 mg erlaubt mehrfache Aufteilung über den Tag"
+        - "Vegan pullulan capsules, easy to swallow"
+        - "Well-documented supply chain without Peak-X contamination"
+        - "50 mg allows splitting doses throughout the day"
       cons:
-        - "Kein zugesetztes Vitamin B6 zur Cofaktor-Unterstützung"
-        - "Kann bei empfindlichem Magen leichte Übelkeit auslösen"
-      usage: "1 Kapsel 30 Minuten vor dem Schlafengehen oder 1–2 Kapseln über den Tag verteilt. Immer mit etwas Kohlenhydraten kombinieren, um die Blut-Hirn-Schranke-Passage zu optimieren."
+        - "No added vitamin B6 for cofactor support"
+        - "May cause mild nausea in sensitive stomachs"
+      usage: "1 capsule 30 minutes before bed, or 1–2 capsules spread throughout the day. Always take with some carbohydrates to optimize blood-brain barrier passage."
 ---

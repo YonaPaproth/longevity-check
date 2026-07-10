@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "L-Tryptophan kann Schlafqualität und Stimmung moderat unterstützen, Datenlage ist ordentlich aber nicht überwältigend."
-      en: "L-Tryptophan kann Schlafqualität und Stimmung moderat unterstützen, Datenlage ist ordentlich aber nicht überwältigend."
+      en: "L-tryptophan can moderately support sleep quality and mood; evidence is decent but not overwhelming."
   valueForMoney:
     score: 8
     explanation:
       de: "0,37 € pro 500 mg ist günstig für eine geprüfte Aminosäure."
-      en: "0,37 € pro 500 mg ist günstig für eine geprüfte Aminosäure."
+      en: "€0.37 per 500 mg is affordable for a tested amino acid."
   productQuality:
     score: 7
     explanation:
       de: "Jarrow nutzt streng qualitätsorientiert reines Tryptophan, kapselt vegan und prüft auf Schwermetalle."
-      en: "Jarrow nutzt streng qualitätsorientiert reines Tryptophan, kapselt vegan und prüft auf Schwermetalle."
+      en: "Jarrow uses quality-controlled pure tryptophan, encapsulated vegan with heavy metal testing."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare Hinweise zu Einnahmezeitpunkt und Kombination mit Schlafmitteln."
-      en: "Klare Hinweise zu Einnahmezeitpunkt und Kombination mit Schlafmitteln."
+      en: "Clear guidance on timing and interactions with sleep medications."
   thirdPartyTesting:
     score: 5
     explanation:
       de: "Keine NSF, aber interne Analysen plus Lieferantenaudits."
-      en: "Keine NSF, aber interne Analysen plus Lieferantenaudits."
+      en: "No NSF certification, but internal analysis and supplier audits."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Nicht für SSRI-Nutzer:innen geeignet**"
       usage: "1 Kapsel 30–60 Minuten vor dem Schlafengehen mit etwas Kohlenhydrat einnehmen. Bei stärkerem Bedarf auf 2–3 Kapseln steigern, aber nicht mit Antidepressiva kombinieren."
   en:
-    summary: "500 mg freie L-Tryptophan-Kapseln von Jarrow, vegan und gut geeignet für Abendroutinen oder Serotonin-Kontext."
-    verdictNote: "Einfacher Aminosäure-Pick für Abendentspannung ohne Zusatzkram."
+    summary: "500 mg free-form L-tryptophan capsules from Jarrow, vegan and suitable for evening routines or serotonin support."
+    verdictNote: "Simple amino acid pick for evening relaxation with no unnecessary extras."
     body:
-      description: "Jarrow liefert **reines L-Tryptophan** in 500-mg-Kapseln. Die Aminosäure ist Vorstufe für Serotonin und Melatonin, weshalb sie gern im Schlafkontext eingesetzt wird."
+      description: "Jarrow delivers **pure L-tryptophan** in 500 mg capsules. As a precursor to serotonin and melatonin, it's commonly used in sleep contexts."
       pros:
-        - "**Vegane Cellulosekapseln**"
-        - "**Keine Hilfsstoffe außer Reisfaser**"
-        - "**Flexibel dosierbar** (1–3 Kapseln)"
-        - "**Bekannter Hersteller** mit Qualitätsnachweisen"
+        - "**Vegan cellulose capsules**"
+        - "**No excipients other than rice fiber**"
+        - "**Flexible dosing** (1–3 capsules)"
+        - "**Established manufacturer** with quality documentation"
       cons:
-        - "**Nur 500 mg** – wer 1 g will, braucht zwei Kapseln"
-        - "**Kein Vitamin B6 oder Magnesium** für Kofaktoren"
-        - "**Nicht für SSRI-Nutzer:innen geeignet**"
-      usage: "1 Kapsel 30–60 Minuten vor dem Schlafengehen mit etwas Kohlenhydrat einnehmen. Bei stärkerem Bedarf auf 2–3 Kapseln steigern, aber nicht mit Antidepressiva kombinieren."
+        - "**Only 500 mg** — two capsules needed for a 1 g dose"
+        - "**No vitamin B6 or magnesium** for cofactor support"
+        - "**Not suitable for SSRI users**"
+      usage: "1 capsule 30–60 minutes before bed with a small carbohydrate snack. Can increase to 2–3 capsules if needed, but do not combine with antidepressants."
 ---

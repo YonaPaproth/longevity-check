@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Humanstudien zeigen bessere kognitive Performance und Nervenregeneration durch Hericium erinaceus."
-      en: "Humanstudien zeigen bessere kognitive Performance und Nervenregeneration durch Hericium erinaceus."
+      en: "Human studies show improved cognitive performance and nerve regeneration with Hericium erinaceus."
   valueForMoney:
     score: 7
     explanation:
       de: "0,57 € pro Portion für 1000 mg Vollspektrum-Extrakt liegt im Mittelfeld hochwertiger Pilzpräparate."
-      en: "0,57 € pro Portion für 1000 mg Vollspektrum-Extrakt liegt im Mittelfeld hochwertiger Pilzpräparate."
+      en: "€0.57 per serving for 1000 mg full-spectrum extract is mid-range for premium mushroom products."
   productQuality:
     score: 8
     explanation:
       de: "Jarrow nutzt heißwasser- und alkoholischen Dual-Extrakt, Hericium-Gehalt pro Portion ausgewiesen."
-      en: "Jarrow nutzt heißwasser- und alkoholischen Dual-Extrakt, Hericium-Gehalt pro Portion ausgewiesen."
+      en: "Jarrow uses a hot-water and alcohol dual-extract; Hericium content per serving is disclosed."
   labelHonesty:
     score: 8
     explanation:
       de: "Transparente Aufschlüsselung der Beta-Glucane und Pilzquelle ohne proprietäre Mischungen."
-      en: "Transparente Aufschlüsselung der Beta-Glucane und Pilzquelle ohne proprietäre Mischungen."
+      en: "Transparent breakdown of beta-glucans and mushroom source without proprietary blends."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Chargen werden auf Schwermetalle geprüft, Analysenzertifikate auf Anfrage verfügbar."
-      en: "Chargen werden auf Schwermetalle geprüft, Analysenzertifikate auf Anfrage verfügbar."
+      en: "Batches are tested for heavy metals; certificates of analysis available on request."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Nur 30 Tage Vorrat bei Doppelportion für Intensivphasen"
       usage: "1 Kapsel morgens nüchtern oder zu einer Mahlzeit mit etwas Fett einnehmen. An Fokustagen optional 2 Kapseln aufteilen (morgens und frühnachmittags)."
   en:
-    summary: "Hoch dosierter Hericium erinaceus mit veganen Kapseln für fokussierte Deep-Work-Sessions."
-    verdictNote: "Solider Lion's-Mane-Stack mit 1 g Extrakt pro Tag für Fokus und Nervenregeneration."
+    summary: "High-dose Hericium erinaceus in vegan capsules for focused deep-work sessions."
+    verdictNote: "Solid lion's mane stack with 1 g extract daily for focus and nerve regeneration."
     body:
-      description: "Lion's Mane 1000mg kombiniert zwei standardisierte Hericium-extrakte (heißwasser + Ethanolextrakt), liefert messbare Beta-Glucane und kommt in pflanzlichen Kapseln ohne Stabilisatoren."
+      description: "Lion's Mane 1000mg combines two standardized Hericium extracts (hot-water and ethanol), delivers measurable beta-glucans, and comes in plant-based capsules without stabilizers."
       pros:
-        - "Volle 1000 mg Extrakt pro Tag"
-        - "Dual-Extraktion mit ausgewiesenem Beta-Glucan-Profil"
-        - "Frei von Stimulanzien, daher stackbar mit Koffein oder L-Theanin"
-        - "Vegan zertifizierte Kapselhülle"
+        - "Full 1000 mg extract per day"
+        - "Dual extraction with disclosed beta-glucan profile"
+        - "Stimulant-free — stacks well with caffeine or L-theanine"
+        - "Vegan-certified capsule shell"
       cons:
-        - "Keine Angabe des Erinacin-Gehalts"
-        - "Nur 30 Tage Vorrat bei Doppelportion für Intensivphasen"
-      usage: "1 Kapsel morgens nüchtern oder zu einer Mahlzeit mit etwas Fett einnehmen. An Fokustagen optional 2 Kapseln aufteilen (morgens und frühnachmittags)."
+        - "Erinacine content not disclosed"
+        - "Only 30 days supply at double dose for intensive phases"
+      usage: "1 capsule in the morning on an empty stomach or with a small fatty meal. On high-focus days, optionally split 2 capsules between morning and early afternoon."
 ---

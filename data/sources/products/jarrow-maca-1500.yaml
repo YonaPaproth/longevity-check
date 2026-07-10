@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Maca besitzt Humanstudien zu Libido und Stimmung, Evidenz moderat."
-      en: "Maca besitzt Humanstudien zu Libido und Stimmung, Evidenz moderat."
+      en: "Maca has human studies on libido and mood; evidence is moderate."
   valueForMoney:
     score: 8
     explanation:
       de: "0,24 € pro 1,5 g Extrakt ist fair."
-      en: "0,24 € pro 1,5 g Extrakt ist fair."
+      en: "€0.24 per 1.5 g extract is fair."
   productQuality:
     score: 7
     explanation:
       de: "Gelatinisierte Maca reduziert Stärke und verbesserte Verträglichkeit."
-      en: "Gelatinisierte Maca reduziert Stärke und verbesserte Verträglichkeit."
+      en: "Gelatinized maca reduces starch content and improves digestibility."
   labelHonesty:
     score: 8
     explanation:
       de: "6:1 Verhältnis und Herkunft angegeben."
-      en: "6:1 Verhältnis und Herkunft angegeben."
+      en: "6:1 concentration ratio and origin clearly stated."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Keine externen Siegel, aber Pestizidtests laut Hersteller."
-      en: "Keine externen Siegel, aber Pestizidtests laut Hersteller."
+      en: "No external certifications, but pesticide testing according to the manufacturer."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Wirkung eher subtil"
       usage: "3 Kapseln morgens mit Frühstück oder pre-workout, optional zweite Portion mittags."
   en:
-    summary: "6:1 Maca-Extrakt mit 1,5 g Äquivalent pro Portion – peruanische Herkunft und vegane Kapseln."
-    verdictNote: "Solide Maca-Dosis in wenigen Kapseln."
+    summary: "6:1 maca extract at 1.5 g equivalent per serving — Peruvian origin in vegan capsules."
+    verdictNote: "Solid maca dose in just a few capsules."
     body:
-      description: "Gelatinisierte rote, gelbe und schwarze Maca aus Junín, Peru. 6:1 Extrakt bedeutet 250 mg Pulver entsprechen 1,5 g Wurzel."
+      description: "Gelatinized red, yellow, and black maca from Junín, Peru. 6:1 extract means 250 mg powder equals 1.5 g whole root."
       pros:
-        - "Gelatinisierung kann die Verträglichkeit beeinflussen"
-        - "Vegane Kapseln"
-        - "Mix aus mehreren Maca-Farben"
+        - "Gelatinization may improve digestibility and tolerability"
+        - "Vegan capsules"
+        - "Blend of multiple maca color varieties"
       cons:
-        - "Nussiger Geruch"
-        - "Wirkung eher subtil"
-      usage: "3 Kapseln morgens mit Frühstück oder pre-workout, optional zweite Portion mittags."
+        - "Nutty smell"
+        - "Effects tend to be subtle"
+      usage: "3 capsules in the morning with breakfast or pre-workout; optionally a second serving at midday."
 ---

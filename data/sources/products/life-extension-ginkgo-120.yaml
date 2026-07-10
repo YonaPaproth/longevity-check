@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Ginkgo hat gemischte Daten, zeigt aber Nutzen bei zerebraler Durchblutung und Tinnitus in Teilpopulationen."
-      en: "Ginkgo hat gemischte Daten, zeigt aber Nutzen bei zerebraler Durchblutung und Tinnitus in Teilpopulationen."
+      en: "Ginkgo has mixed data overall, but shows benefits for cerebral circulation and tinnitus in certain populations."
   valueForMoney:
     score: 8
     explanation:
       de: "0,37 € pro 120 mg standardisiert ist attraktiv."
-      en: "0,37 € pro 120 mg standardisiert ist attraktiv."
+      en: "€0.37 per 120 mg standardized extract is attractive."
   productQuality:
     score: 8
     explanation:
       de: "Life Extension prüft auf Ginkgolsäuren und Pestizide."
-      en: "Life Extension prüft auf Ginkgolsäuren und Pestizide."
+      en: "Life Extension tests for ginkgolic acids and pesticides."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert Flavonglycosid- und Terpenlacton-Anteile."
-      en: "Deklariert Flavonglycosid- und Terpenlacton-Anteile."
+      en: "Flavone glycoside and terpene lactone percentages clearly declared."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Third-party Tests bestätigen niedrige Ginkgolsäure-Werte."
-      en: "Third-party Tests bestätigen niedrige Ginkgolsäure-Werte."
+      en: "Third-party tests confirm low ginkgolic acid levels."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Keine Bio-Zertifizierung"
       usage: "1 Kapsel zweimal täglich zu Mahlzeiten einnehmen; bei sensiblen Personen abends meiden, da leicht stimulierend."
   en:
-    summary: "Standardisierter 24 %-Flavonglycosid-Ginkgo von Life Extension mit unabhängigen Labortests."
-    verdictNote: "Solider Standardextrakt für Menschen, die auf geprüfte Schwermetall- und Pestizidwerte achten."
+    summary: "Standardized 24% flavone glycoside ginkgo from Life Extension with independent lab testing."
+    verdictNote: "Solid standard extract for those who care about verified heavy metal and pesticide levels."
     body:
-      description: "Der Extrakt wird in Europa hergestellt und auf 24 % Flavonglycoside sowie 6 % Terpenlactone titriert. Life Extension liefert pro Charge ein COA mit Ginkgolsäure-Gehalt &lt;5 ppm."
+      description: "Extract manufactured in Europe and standardized to 24% flavone glycosides and 6% terpene lactones. Life Extension provides a COA per batch with ginkgolic acid content <5 ppm."
       pros:
-        - "Standardisierung nach europäischem Arzneibuch"
-        - "Sehr geringe Ginkgolsäurewerte"
-        - "Kapseln sind klein und leicht zu schlucken"
+        - "Standardized to European pharmacopoeia levels"
+        - "Very low ginkgolic acid levels"
+        - "Small capsules, easy to swallow"
       cons:
-        - "Wirkung setzt erst nach 4–6 Wochen ein"
-        - "Kann bei empfindlichen Menschen Kopfschmerzen auslösen"
-        - "Keine Bio-Zertifizierung"
-      usage: "1 Kapsel zweimal täglich zu Mahlzeiten einnehmen; bei sensiblen Personen abends meiden, da leicht stimulierend."
+        - "Effects take 4–6 weeks to become apparent"
+        - "Can cause headaches in sensitive individuals"
+        - "No organic certification"
+      usage: "1 capsule twice daily with meals. Sensitive individuals should avoid the evening dose as it can be mildly stimulating."
 ---

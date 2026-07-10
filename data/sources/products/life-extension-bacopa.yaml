@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Bacopa hat mehrere RCTs zu Gedächtnis und Stressresilienz."
-      en: "Bacopa hat mehrere RCTs zu Gedächtnis und Stressresilienz."
+      en: "Bacopa has multiple RCTs on memory and stress resilience."
   valueForMoney:
     score: 8
     explanation:
       de: "0,40 € pro Tag für 300 mg 24 %-Extrakt ist stark."
-      en: "0,40 € pro Tag für 300 mg 24 %-Extrakt ist stark."
+      en: "€0.40 per day for 300 mg 24%-standardized extract is strong value."
   productQuality:
     score: 8
     explanation:
       de: "Extrakt stammt aus Indien, getestet auf Pestizide und Schwermetalle."
-      en: "Extrakt stammt aus Indien, getestet auf Pestizide und Schwermetalle."
+      en: "Extract sourced from India, tested for pesticides and heavy metals."
   labelHonesty:
     score: 8
     explanation:
       de: "Bacosidstandardisierung klar angegeben."
-      en: "Bacosidstandardisierung klar angegeben."
+      en: "Bacoside standardization clearly stated."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Keine externe Zertifizierung, aber interne HPLC-Berichte verfügbar."
-      en: "Keine externe Zertifizierung, aber interne HPLC-Berichte verfügbar."
+      en: "No external certification, but internal HPLC reports available."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Leichter Kräutergeruch"
       usage: "1 Kapsel mit dem Frühstück; für akute Stressphasen optional eine zweite Kapsel am Abend."
   en:
-    summary: "Standardisierte Bacopa-Monnieri-Kapseln mit 24 % Bacosiden für saubere Neuro-Kontexts-Protokolle."
-    verdictNote: "Hoch standardisierter Extrakt, günstiger Preis und zuverlässiger Hersteller."
+    summary: "Standardized Bacopa monnieri capsules with 24% bacosides for clean cognitive protocols."
+    verdictNote: "Highly standardized extract at a low daily cost from a reliable manufacturer."
     body:
-      description: "Life Extension setzt auf einen Bacopa-Extrakt mit 24 % Bacosiden, was klinisch relevante Werte widerspiegelt. Die Kapseln sind vegetarisch und enthalten keine unnötigen Füllstoffe."
+      description: "Life Extension uses a bacopa extract standardized to 24% bacosides, reflecting clinically relevant levels. Capsules are vegetarian with no unnecessary fillers."
       pros:
-        - "24 % Bacoside – die Zielgröße aus Studien"
-        - "Sehr niedriger Tagespreis"
-        - "Keine künstlichen Farbstoffe"
+        - "24% bacosides — the target level used in studies"
+        - "Very low daily cost"
+        - "No artificial colorants"
       cons:
-        - "Kann bei nüchterner Einnahme Magenbeschwerden verursachen"
-        - "Leichter Kräutergeruch"
-      usage: "1 Kapsel mit dem Frühstück; für akute Stressphasen optional eine zweite Kapsel am Abend."
+        - "May cause stomach discomfort when taken on an empty stomach"
+        - "Mild herbal smell"
+      usage: "1 capsule with breakfast; optionally add a second capsule in the evening during high-stress periods."
 ---
