@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Gleiche Evidenzbasis wie andere PQQ-Produkte, nur doppelte Dosis."
-      en: "Gleiche Evidenzbasis wie andere PQQ-Produkte, nur doppelte Dosis."
+      en: "Same evidence base as other PQQ products, just at double the dose."
   valueForMoney:
     score: 6
     explanation:
       de: "1,13 € pro Portion ist hoch, aber man spart sich Zweitkapseln."
-      en: "1,13 € pro Portion ist hoch, aber man spart sich Zweitkapseln."
+      en: "€1.13 per serving is high, but saves you from taking a second capsule."
   productQuality:
     score: 8
     explanation:
       de: "Jarrow nutzt reines PQQ Dinatriumsalz, testet auf Lösungsmittelreste."
-      en: "Jarrow nutzt reines PQQ Dinatriumsalz, testet auf Lösungsmittelreste."
+      en: "Jarrow uses pure PQQ disodium salt and tests for solvent residues."
   labelHonesty:
     score: 9
     explanation:
       de: "Klare Deklaration, keine proprietären Blends."
-      en: "Klare Deklaration, keine proprietären Blends."
+      en: "Clear labeling, no proprietary blends."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Independent Labs bestätigen Gehalt, jedoch nicht chargenweise."
-      en: "Independent Labs bestätigen Gehalt, jedoch nicht chargenweise."
+      en: "Independent labs confirm content, though not on a per-batch basis."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Preis höher als bei Life Extension pro mg"
       usage: "1 Kapsel morgens mit einer fetthaltigen Mahlzeit einnehmen. Bei empfindlichem Magen lieber nach dem Essen nutzen."
   en:
-    summary: "Höher dosiertes PQQ mit 20 mg pro Kapsel für alle, die starke Mitochondrien-Stacks fahren."
-    verdictNote: "Für Hardcore-Anwendungen ok, ansonsten reicht meist 10 mg."
+    summary: "Higher-dose PQQ at 20 mg per capsule for those running intensive mitochondrial stacks."
+    verdictNote: "Fine for high-dose protocols; for most people, 10 mg is sufficient."
     body:
-      description: "Jede Kapsel enthält 20 mg PQQ Dinatriumsalz, verpackt in einer pflanzlichen Kapsel mit Reismehl als Träger. Produkt ist glutenfrei und vegan."
+      description: "Each capsule contains 20 mg PQQ disodium salt in a plant-based capsule with rice flour as a carrier. The product is gluten-free and vegan."
       pros:
-        - "Doppelte Dosis vereinfacht Hochdosis-Protokolle"
-        - "Vegane Pullulan-Kapseln"
-        - "COA auf Schwermetalle wird bereitgestellt"
+        - "Double dose simplifies high-dose protocols"
+        - "Vegan pullulan capsules"
+        - "Heavy metal COA provided"
       cons:
-        - "Kein Kombiprodukt mit CoQ10 trotz naheliegender Synergie"
-        - "Preis höher als bei Life Extension pro mg"
-      usage: "1 Kapsel morgens mit einer fetthaltigen Mahlzeit einnehmen. Bei empfindlichem Magen lieber nach dem Essen nutzen."
+        - "No combination with CoQ10 despite obvious synergy"
+        - "Higher cost per mg than Life Extension"
+      usage: "1 capsule in the morning with a fatty meal. If stomach-sensitive, take after eating."
 ---

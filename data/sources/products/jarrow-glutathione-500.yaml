@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Entspricht der aktuellen Datenlage zu oralem Glutathion."
-      en: "Entspricht der aktuellen Datenlage zu oralem Glutathion."
+      en: "Reflects the current evidence base for oral glutathione."
   valueForMoney:
     score: 7
     explanation:
       de: "0,73 € pro 500 mg liegt unter den meisten Wettbewerbern."
-      en: "0,73 € pro 500 mg liegt unter den meisten Wettbewerbern."
+      en: "€0.73 per 500 mg is below most competitors."
   productQuality:
     score: 8
     explanation:
       de: "Setria ist stabil und wird in Japan unter GMP produziert."
-      en: "Setria ist stabil und wird in Japan unter GMP produziert."
+      en: "Setria is stable and manufactured in Japan under GMP."
   labelHonesty:
     score: 8
     explanation:
       de: "Zutatenliste ist kurz, keine proprietären Mischungen."
-      en: "Zutatenliste ist kurz, keine proprietären Mischungen."
+      en: "Short ingredient list, no proprietary blends."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Jarrow prüft intern, aber kein externes Siegel auf der Dose."
-      en: "Jarrow prüft intern, aber kein externes Siegel auf der Dose."
+      en: "Jarrow tests internally, but no external certification on the label."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Leichter Schwefelgeruch der Kapseln"
       usage: "1 Kapsel täglich zu einer Mahlzeit. Bitte Rücksprache mit Arzt oder Apotheker vor Änderung der Dosierung."
   en:
-    summary: "500 mg Setria-Glutathion pro Kapsel, Jarrow legt Fokus auf Preis-Leistung und Reinheit."
-    verdictNote: "Setria-Rohstoff, große 60er Dose und günstiger Preis pro mg machen das Produkt sehr attraktiv."
+    summary: "500 mg Setria glutathione per capsule — Jarrow focuses on value and purity."
+    verdictNote: "Setria ingredient, large 60-serving bottle, and low cost per mg make this product very attractive."
     body:
-      description: "Jarrow setzt wie Life Extension auf Setria-Glutathion, liefert jedoch 60 Portionen pro Dose. Jede vegetarische Kapsel ist frei von Weizen und Milchbestandteilen."
+      description: "Like Life Extension, Jarrow uses Setria glutathione, but delivers 60 servings per bottle. Each vegetarian capsule is free of wheat and dairy."
       pros:
-        - "Hohe Dosis pro Kapsel reduziert Pillenanzahl"
-        - "Setria-Rohstoff mit validierten Stabilitätsdaten"
-        - "Gutes Verhältnis aus Preis und Portionsgröße"
+        - "High dose per capsule reduces pill burden"
+        - "Setria ingredient with validated stability data"
+        - "Good ratio of price to serving size"
       cons:
-        - "Kein Zusatz von Vitamin C oder NAC"
-        - "Leichter Schwefelgeruch der Kapseln"
-      usage: "1 Kapsel täglich zu einer Mahlzeit. Bitte Rücksprache mit Arzt oder Apotheker vor Änderung der Dosierung."
+        - "No added vitamin C or NAC"
+        - "Slight sulfur odor from the capsules"
+      usage: "1 capsule daily with a meal. Consult a doctor or pharmacist before changing the dose."
 ---

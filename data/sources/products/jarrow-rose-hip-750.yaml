@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Vitamin C ist vergleichsweise vergleichsweise gut untersucht in Immunfunktion, Kollagensynthese und antioxidativen Schutz."
-      en: "Vitamin C ist vergleichsweise vergleichsweise gut untersucht in Immunfunktion, Kollagensynthese und antioxidativen Schutz."
+      en: "Vitamin C is well-studied for immune function, collagen synthesis, and antioxidant protection."
   valueForMoney:
     score: 9
     explanation:
       de: "0,14 € pro Tag für natürliche Quelle ist sehr günstig."
-      en: "0,14 € pro Tag für natürliche Quelle ist sehr günstig."
+      en: "€0.14 per day for a natural source is very affordable."
   productQuality:
     score: 8
     explanation:
       de: "Schonend getrocknete Hagebutten, keine künstlichen Zusätze."
-      en: "Schonend getrocknete Hagebutten, keine künstlichen Zusätze."
+      en: "Gently dried rose hips, no artificial additives."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklaration nennt Rohstoff, Herkunft und Hilfsstoffe transparent."
-      en: "Deklaration nennt Rohstoff, Herkunft und Hilfsstoffe transparent."
+      en: "Labeling transparently states ingredient, origin, and excipients."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Jarrow führt interne Tests durch, externe Zertifizierung fehlt."
-      en: "Jarrow führt interne Tests durch, externe Zertifizierung fehlt."
+      en: "Jarrow conducts internal testing; external certification is absent."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Keine Bio-Zertifizierung:** Obwohl Rohstoff pflanzlich ist"
       usage: "1–2 Kapseln täglich zu einer Mahlzeit einnehmen. Für Kollagen-Support mit Glycin oder Kollagenpulver kombinieren."
   en:
-    summary: "750 mg Hagebuttenpulver pro Kapsel liefern natürliches Vitamin C plus Bioflavonoide für Immun- und Kollagenprotokolle."
-    verdictNote: "Natürliche Vitamin-C-Quelle mit Bioflavonoiden und sehr gutem Preis."
+    summary: "750 mg rose hip powder per capsule delivers natural vitamin C plus bioflavonoids for immune and collagen protocols."
+    verdictNote: "Natural vitamin C source with bioflavonoids at a very good price."
     body:
-      description: "Jarrow nutzt getrocknete Hagebutten, die auf natürliche Weise Vitamin C, Polyphenole und Carotinoide liefern. Dadurch entsteht ein breiter Phytonährstoffmix statt isolierter Ascorbinsäure."
+      description: "Jarrow uses dried rose hips, which naturally provide vitamin C, polyphenols, and carotenoids — a broad phytonutrient mix rather than isolated ascorbic acid."
       pros:
-        - "**Natürliche Matrix:** Vitamin C plus sekundäre Pflanzenstoffe"
-        - "**Sanft zum Magen:** Keine Säure, die den Magen reizt"
-        - "**Große Packung:** 100 Portionen reichen für mehrere Monate"
-        - "**Vielseitig:** Eignet sich für Haut-, Gelenk- und Immunprotokolle"
+        - "**Natural matrix:** Vitamin C plus secondary plant compounds"
+        - "**Gentle on the stomach:** No acid-related irritation"
+        - "**Large pack:** 100 servings last several months"
+        - "**Versatile:** Suited for skin, joint, and immune protocols"
       cons:
-        - "**Unbekannter Vitamin-C-Gehalt:** Natürliche Schwankungen möglich"
-        - "**Keine Bio-Zertifizierung:** Obwohl Rohstoff pflanzlich ist"
-      usage: "1–2 Kapseln täglich zu einer Mahlzeit einnehmen. Für Kollagen-Support mit Glycin oder Kollagenpulver kombinieren."
+        - "**Variable vitamin C content:** Natural fluctuations are possible"
+        - "**No organic certification:** Despite the plant-based ingredient"
+      usage: "1–2 capsules daily with a meal. For collagen support, combine with glycine or collagen powder."
 ---

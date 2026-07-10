@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Ch-OSA (BioSil) hat Daten zu Kollagen- und Haarelastizität, aber Studienumfang ist überschaubar."
-      en: "Ch-OSA (BioSil) hat Daten zu Kollagen- und Haarelastizität, aber Studienumfang ist überschaubar."
+      en: "Ch-OSA (BioSil) has data on collagen and hair elasticity, but the body of studies is limited."
   valueForMoney:
     score: 7
     explanation:
       de: "0,18 € pro 10 mg aktiviertem Silicium ist günstig im Vergleich zu anderen BioSil-Produkten."
-      en: "0,18 € pro 10 mg aktiviertem Silicium ist günstig im Vergleich zu anderen BioSil-Produkten."
+      en: "€0.18 per 10 mg activated silicon is affordable compared to other BioSil products."
   productQuality:
     score: 8
     explanation:
       de: "Jarrow verwendet den originalen BioSil-Rohstoff und füllt in Braunglas mit Dosierhilfe ab."
-      en: "Jarrow verwendet den originalen BioSil-Rohstoff und füllt in Braunglas mit Dosierhilfe ab."
+      en: "Jarrow uses the original BioSil ingredient and bottles it in amber glass with a dosing aid."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert ch-OSA und Siliciumgehalt sauber, inklusive Hinweis auf Tropfmenge."
-      en: "Deklariert ch-OSA und Siliciumgehalt sauber, inklusive Hinweis auf Tropfmenge."
+      en: "Cleanly declares ch-OSA and silicon content, including drop count guidance."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Keine externen Siegel, aber Jarrow führt Analysen auf Schwermetalle durch."
-      en: "Keine externen Siegel, aber Jarrow führt Analysen auf Schwermetalle durch."
+      en: "No external certifications, but Jarrow conducts heavy metal analysis."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Kein Kombiprodukt mit Kollagen oder Vitamin C**"
       usage: "10 Tropfen in Wasser oder Saft einrühren, einmal täglich vor einer Mahlzeit trinken. Flasche vor Gebrauch schütteln und nach dem Öffnen kühl, aber nicht im Kühlschrank, lagern."
   en:
-    summary: "BioSil-Flüssigsilicea mit 10 mg aktiviertem Silicium pro Portion, beliebt für Kollagen- und Bindegewebs-Kontext."
-    verdictNote: "Für Fans von Silicium als Kollagenhelfer ist das eine der pragmatischsten Varianten."
+    summary: "BioSil liquid silica with 10 mg activated silicon per serving — popular for collagen and connective tissue support."
+    verdictNote: "One of the most practical options for those using silicon as a collagen support ingredient."
     body:
-      description: "JarroSil liefert **choline-stabilized orthosilicic acid (ch-OSA)**, besser bekannt als BioSil. Die Flüssigkeit wird mit einer kleinen Dosierkappe eingenommen und liefert 10 mg Silicium pro 10 Tropfen."
+      description: "JarroSil delivers **choline-stabilized orthosilicic acid (ch-OSA)**, better known as BioSil. The liquid is taken with a small dosing cap and provides 10 mg silicon per 10 drops."
       pros:
-        - "**Original BioSil-Rohstoff**"
-        - "**Hohe Portionszahl:** 100 Portionen je Flasche"
-        - "**Braunglas ist auf Schutz vor ausgerichtet bei Licht**"
-        - "**Lässt sich in Wasser oder Saft mischen**"
+        - "**Original BioSil ingredient**"
+        - "**High serving count:** 100 servings per bottle"
+        - "**Amber glass** protects against light degradation"
+        - "**Mixes into water or juice** easily"
       cons:
-        - "**Geschmack leicht mineralisch-bitter**"
-        - "**Tägliches Tropfen nervt manche Nutzer:innen**"
-        - "**Kein Kombiprodukt mit Kollagen oder Vitamin C**"
-      usage: "10 Tropfen in Wasser oder Saft einrühren, einmal täglich vor einer Mahlzeit trinken. Flasche vor Gebrauch schütteln und nach dem Öffnen kühl, aber nicht im Kühlschrank, lagern."
+        - "**Slightly mineral-bitter taste**"
+        - "**Daily drop-counting** can be inconvenient"
+        - "**No combination with collagen or vitamin C**"
+      usage: "Stir 10 drops into water or juice and drink once daily before a meal. Shake the bottle before use and store cool after opening, but not in the refrigerator."
 ---

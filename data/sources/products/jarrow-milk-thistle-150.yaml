@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Silymarin zeigt gute Daten bei erhöhten Leberwerten und Toxinbelastung."
-      en: "Silymarin zeigt gute Daten bei erhöhten Leberwerten und Toxinbelastung."
+      en: "Silymarin shows good data for elevated liver enzymes and toxic load."
   valueForMoney:
     score: 9
     explanation:
       de: "0,18 € pro 150 mg standardisiertem Extrakt ist stark."
-      en: "0,18 € pro 150 mg standardisiertem Extrakt ist stark."
+      en: "€0.18 per 150 mg standardized extract is excellent."
   productQuality:
     score: 7
     explanation:
       de: "Alkoholischer Extrakt mit HPLC-Standardisierung."
-      en: "Alkoholischer Extrakt mit HPLC-Standardisierung."
+      en: "Alcohol-based extract with HPLC standardization."
   labelHonesty:
     score: 8
     explanation:
       de: "80 % Silymarin und Herkunft klar genannt."
-      en: "80 % Silymarin und Herkunft klar genannt."
+      en: "80% silymarin content and origin clearly stated."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Interne Tests, keine externen Siegel."
-      en: "Interne Tests, keine externen Siegel."
+      en: "Internal testing only, no external certifications."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Keine Phytosomen für verbesserte Aufnahme"
       usage: "1 Kapsel zweimal täglich zu Mahlzeiten mit Fett oder Bitterstoffen kombinieren."
   en:
-    summary: "80 % Silymarin-Extrakt in veganen Kapseln, klassischer Leber-Schutz mit fairer Dosierung."
-    verdictNote: "Preisgünstiger Klassiker für Leber-Stacks."
+    summary: "80% silymarin extract in vegan capsules — a classic liver support option at a fair dose."
+    verdictNote: "Affordable classic for liver stacks."
     body:
-      description: "Silybum marianum Samen werden extrahiert und auf 80 % Flavonolignane eingestellt. Kapseln sind vegan und frei von Allergenen."
+      description: "Silybum marianum seeds are extracted and standardized to 80% flavonolignans. Capsules are vegan and free from common allergens."
       pros:
-        - "Hohe Standardisierung"
-        - "100 Portionen pro Dose"
+        - "High standardization"
+        - "100 servings per bottle"
         - "Vegan"
       cons:
-        - "Geschmack bitter bei geöffneten Kapseln"
-        - "Keine Phytosomen für verbesserte Aufnahme"
-      usage: "1 Kapsel zweimal täglich zu Mahlzeiten mit Fett oder Bitterstoffen kombinieren."
+        - "Bitter taste when capsules are opened"
+        - "No phytosome form for enhanced absorption"
+      usage: "1 capsule twice daily with meals; combine with fat or bitter foods to support absorption."
 ---

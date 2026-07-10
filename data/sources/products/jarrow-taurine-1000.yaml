@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Taurin unterstützt Blutdruck, Gallenfluss und Ausdauer laut Humanstudien."
-      en: "Taurin unterstützt Blutdruck, Gallenfluss und Ausdauer laut Humanstudien."
+      en: "Taurine supports blood pressure, bile flow, and endurance according to human studies."
   valueForMoney:
     score: 9
     explanation:
       de: "0,16 € pro Gramm ist top."
-      en: "0,16 € pro Gramm ist top."
+      en: "€0.16 per gram is excellent."
   productQuality:
     score: 7
     explanation:
       de: "Pharmaqualität mit HPLC-Analyse."
-      en: "Pharmaqualität mit HPLC-Analyse."
+      en: "Pharmaceutical-grade quality with HPLC analysis."
   labelHonesty:
     score: 8
     explanation:
       de: "Nur Taurin und Cellulosekapsel deklariert."
-      en: "Nur Taurin und Cellulosekapsel deklariert."
+      en: "Only taurine and cellulose capsule declared — minimal and clean."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Jarrow testet intern, veröffentlicht aber keine COA."
-      en: "Jarrow testet intern, veröffentlicht aber keine COA."
+      en: "Jarrow tests internally but does not publish COAs publicly."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kein offizielles COA zum Download"
       usage: "1 Kapsel abends für Schlaf oder vor Training mit Elektrolyten."
   en:
-    summary: "1 g freie Aminosäure pro Kapsel, vegan und laborgeprüft für Elektrolyt- und Herz-Kontexte."
-    verdictNote: "Zuverlässiges Taurin für Herz-, Schlaf- und Elektrolyt-Kontexte."
+    summary: "1 g free amino acid per capsule, vegan and lab-tested — suited for electrolyte and cardiovascular contexts."
+    verdictNote: "Reliable taurine for cardiovascular, sleep, and electrolyte applications."
     body:
-      description: "Reines Taurin in 00er-Kapseln, hergestellt aus pflanzlicher Fermentation. Keine Zusatzstoffe, kein Magnesiumstearat."
+      description: "Pure taurine in size-00 capsules, produced via plant-based fermentation. No additives, no magnesium stearate."
       pros:
-        - "1 g pro Kapsel ohne Pulverabwiegen"
-        - "Vegane Hülle"
-        - "Sehr gutes Preis-Leistungs-Verhältnis"
+        - "1 g per capsule without measuring powder"
+        - "Vegan shell"
+        - "Excellent value for money"
       cons:
-        - "Große Kapseln schwer zu schlucken"
-        - "Kein offizielles COA zum Download"
-      usage: "1 Kapsel abends für Schlaf oder vor Training mit Elektrolyten."
+        - "Large capsules can be hard to swallow"
+        - "No official COA available for download"
+      usage: "1 capsule in the evening for sleep support, or before training with electrolytes."
 ---

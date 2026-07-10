@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Beta-Glucane zeigen Effekte auf angeborene Immunantwort und Infektdauer, besonders bei 250–500 mg täglich."
-      en: "Beta-Glucane zeigen Effekte auf angeborene Immunantwort und Infektdauer, besonders bei 250–500 mg täglich."
+      en: "Beta-glucans show effects on innate immune response and infection duration, especially at 250–500 mg daily."
   valueForMoney:
     score: 7
     explanation:
       de: "0,40 € pro Tag ist stimmig für einen 250-mg-Pick mit Markenherkunft und veganer Kapsel."
-      en: "0,40 € pro Tag ist stimmig für einen 250-mg-Pick mit Markenherkunft und veganer Kapsel."
+      en: "€0.40 per day is reasonable for a 250 mg product with a branded ingredient and vegan capsule."
   productQuality:
     score: 7
     explanation:
       de: "Jarrow setzt auf gereinigte Hafer-Glucane und prüft Schwermetalle. Kapseln sind ohne Magnesiumstearat."
-      en: "Jarrow setzt auf gereinigte Hafer-Glucane und prüft Schwermetalle. Kapseln sind ohne Magnesiumstearat."
+      en: "Jarrow uses purified oat glucans and tests for heavy metals. Capsules are free of magnesium stearate."
   labelHonesty:
     score: 7
     explanation:
       de: "Deklariert Quelle und Beta-Glucan-Gehalt, verzichtet auf Wunderversprechen."
-      en: "Deklariert Quelle und Beta-Glucan-Gehalt, verzichtet auf Wunderversprechen."
+      en: "Declares source and beta-glucan content without miracle claims."
   thirdPartyTesting:
     score: 5
     explanation:
       de: "Keine NSF/USP, aber Jarrow stellt interne Certificates of Analysis bereit."
-      en: "Keine NSF/USP, aber Jarrow stellt interne Certificates of Analysis bereit."
+      en: "No NSF/USP certification, but Jarrow provides internal certificates of analysis."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Haferallergien** müssen berücksichtigt werden"
       usage: "1 Kapsel täglich mit Wasser. In Erkältungssaisons kann auf 2 Kapseln nach individueller Abwägung angepasst werden; Einnahme vorzugsweise morgens zu einer kleinen Mahlzeit."
   en:
-    summary: "250 mg 1,3/1,6-Beta-Glucane aus Hafer in veganen Kapseln, solide Jarrow-Qualität für tägliche Immunroutine."
-    verdictNote: "Wer lieber Hafer- als Hefe-Glucane nimmt, bekommt hier eine rein pflanzliche, vegane Option."
+    summary: "250 mg 1,3/1,6-beta-glucans from oats in vegan capsules — solid Jarrow quality for a daily immune routine."
+    verdictNote: "For those who prefer oat over yeast glucans, this is a clean, fully plant-based option."
     body:
-      description: "Jarrow isoliert die Beta-Glucane aus Haferfasern, kapselt sie vegan ab und liefert damit eine Alternative zu Hefe-basierten Wellmune-Produkten. 250 mg pro Portion sind eine Dose für ein bis zwei Monate, je nach Nutzung."
+      description: "Jarrow isolates beta-glucans from oat fiber, encapsulates them in vegan capsules, and offers a plant-based alternative to yeast-based Wellmune products. At 250 mg per serving, one bottle lasts one to two months depending on usage."
       pros:
-        - "**Pflanzliche Herkunft aus Hafer**"
-        - "**Vegane Kapseln** ohne Gelatine"
-        - "**Keine überladenen Zusätze**"
-        - "**Bekannter Hersteller mit Qualitätsnachweisen**"
+        - "**Plant-derived from oats**"
+        - "**Vegan capsules** with no gelatin"
+        - "**No unnecessary additives**"
+        - "**Established brand with quality documentation**"
       cons:
-        - "**Kein offizielles Siegel** wie NSF"
-        - "**Nur 250 mg**: wer klinisch 500 mg möchte, muss aufdosieren"
-        - "**Haferallergien** müssen berücksichtigt werden"
-      usage: "1 Kapsel täglich mit Wasser. In Erkältungssaisons kann auf 2 Kapseln nach individueller Abwägung angepasst werden; Einnahme vorzugsweise morgens zu einer kleinen Mahlzeit."
+        - "**No official certification** such as NSF"
+        - "**Only 250 mg:** those targeting 500 mg clinically will need to double up"
+        - "**Oat allergy** must be considered"
+      usage: "1 capsule daily with water. During cold season, 2 capsules may be taken based on individual needs; preferably in the morning with a small meal."
 ---

@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Silymarin zeigt in Meta-Analysen positive Effekte auf Leberenzyme, Bedarf an mehr RCTs bleibt."
-      en: "Silymarin zeigt in Meta-Analysen positive Effekte auf Leberenzyme, Bedarf an mehr RCTs bleibt."
+      en: "Meta-analyses show positive effects of silymarin on liver enzymes; more RCTs are still needed."
   valueForMoney:
     score: 7
     explanation:
       de: "0,40 € pro Tag für 30:1-Extrakt ist wettbewerbsfähig."
-      en: "0,40 € pro Tag für 30:1-Extrakt ist wettbewerbsfähig."
+      en: "€0.40 per day for a 30:1 extract is competitive."
   productQuality:
     score: 8
     explanation:
       de: "Jarrow nutzt europäische Rohstoffe und testet auf Aflatoxine."
-      en: "Jarrow nutzt europäische Rohstoffe und testet auf Aflatoxine."
+      en: "Jarrow uses European raw materials and tests for aflatoxins."
   labelHonesty:
     score: 8
     explanation:
       de: "Standardisierung auf 80 % Silymarin klar angegeben."
-      en: "Standardisierung auf 80 % Silymarin klar angegeben."
+      en: "Standardization to 80% silymarin clearly stated."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "cGMP-Labore prüfen Identität und Reinheit, COAs auf Anfrage."
-      en: "cGMP-Labore prüfen Identität und Reinheit, COAs auf Anfrage."
+      en: "cGMP labs verify identity and purity; COAs available on request."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Nur 60 Portionen pro Dose"
       usage: "1 Kapsel zweimal täglich zu Mahlzeiten, besonders wenn fett- oder alkoholhaltig. Bei langfristiger Nutzung Pausen von 1–2 Wochen einlegen."
   en:
-    summary: "30:1 Mariendistelextrakt mit 150 mg Silymarin pro Portion – hochkonzentriert und gut geeignet zur Leber-Kontext."
-    verdictNote: "Konzentriertes Mariendistelprodukt für Personen mit Fokus auf Leberregeneration."
+    summary: "30:1 milk thistle extract with 150 mg silymarin per serving — highly concentrated and well-suited for liver support."
+    verdictNote: "Concentrated milk thistle product for those focused on liver health."
     body:
-      description: "Jarrow extrahiert Mariendistelsamen mit Ethanol, konzentriert sie auf ein 30:1-Verhältnis und kapselt das Pulver in pflanzliche Kapseln ab. Jede Portion enthält 150 mg Silymarin-Komplex."
+      description: "Jarrow extracts milk thistle seeds with ethanol, concentrates them to a 30:1 ratio, and encapsulates the powder in plant-based capsules. Each serving delivers 150 mg silymarin complex."
       pros:
-        - "Hoher Extraktionsgrad reduziert Pillenzahl"
-        - "Testung auf Schwermetalle und Aflatoxine"
-        - "Vegan und allergenarm"
-        - "Gute Kombination mit NAC oder TMG"
+        - "High extraction ratio reduces pill count"
+        - "Tested for heavy metals and aflatoxins"
+        - "Vegan and low-allergen"
+        - "Pairs well with NAC or TMG"
       cons:
-        - "Keine zusätzliche Phospholipid-Matrix wie bei Siliphos"
-        - "Nur 60 Portionen pro Dose"
-      usage: "1 Kapsel zweimal täglich zu Mahlzeiten, besonders wenn fett- oder alkoholhaltig. Bei langfristiger Nutzung Pausen von 1–2 Wochen einlegen."
+        - "No phospholipid matrix like Siliphos for enhanced absorption"
+        - "Only 60 servings per bottle"
+      usage: "1 capsule twice daily with meals, especially fatty or alcohol-containing ones. For long-term use, take 1–2 week breaks periodically."
 ---

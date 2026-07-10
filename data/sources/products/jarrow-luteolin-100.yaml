@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Luteolin hat viele präklinische Daten rund um Neuroinflammation, Humanstudien stehen aber erst am Anfang."
-      en: "Luteolin hat viele präklinische Daten rund um Neuroinflammation, Humanstudien stehen aber erst am Anfang."
+      en: "Luteolin has extensive preclinical data around neuroinflammation, but human trials are still in early stages."
   valueForMoney:
     score: 6
     explanation:
       de: "0,80 € pro 100 mg ist in Ordnung für einen seltenen Extrakt, aber nicht billig."
-      en: "0,80 € pro 100 mg ist in Ordnung für einen seltenen Extrakt, aber nicht billig."
+      en: "€0.80 per 100 mg is acceptable for a rare extract, but not cheap."
   productQuality:
     score: 8
     explanation:
       de: "Jarrow nutzt standardisierten Artischockenextrakt und kapselt vegan ohne Titanoxid."
-      en: "Jarrow nutzt standardisierten Artischockenextrakt und kapselt vegan ohne Titanoxid."
+      en: "Jarrow uses standardized artichoke extract and encapsulates it without titanium dioxide."
   labelHonesty:
     score: 8
     explanation:
       de: "Dosierung, Pflanzenquelle und Hilfsstoffe werden offen kommuniziert, keine Wunderclaims."
-      en: "Dosierung, Pflanzenquelle und Hilfsstoffe werden offen kommuniziert, keine Wunderclaims."
+      en: "Dosage, plant source, and excipients are openly disclosed; no miracle claims."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Interne Analysen vorhanden, externe Siegel fehlen."
-      en: "Interne Analysen vorhanden, externe Siegel fehlen."
+      en: "Internal analyses available, no external certifications."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Kein Kombi mit anderen Flavonoiden**"
       usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Bei empfindlichem Magen lieber nach dem Essen. Nicht mit Blutverdünnern kombinieren ohne medizinischen Rat."
   en:
-    summary: "100 mg Luteolin aus Artischockenextrakt, vegane Kapseln und klare Deklaration für spezialisierte Stapel."
-    verdictNote: "Für gezielte Luteolin-Protokolle einer der wenigen vergleichsweise transparenten Picks, besonders wegen klarer Standardisierung."
+    summary: "100 mg luteolin from artichoke extract in vegan capsules with clear labeling — suited for specialized stacks."
+    verdictNote: "One of the more transparent luteolin options available, particularly due to its clear standardization."
     body:
-      description: "Luteolin ist ein Flavon aus Artischockenblättern. Jarrow standardisiert jede Kapsel auf 100 mg reines Luteolin und verzichtet auf zusätzliche Füllstoffe außer Reisfaser."
+      description: "Luteolin is a flavone from artichoke leaves. Jarrow standardizes each capsule to 100 mg pure luteolin with no fillers beyond rice fiber."
       pros:
-        - "**Standardisierte 100 mg** pro Kapsel"
-        - "**Vegane HPMC-Kapseln**"
-        - "**Keine Farbstoffe oder Magnesiumstearat**"
-        - "**Klares Neuro- und Entzündungsprofil**"
+        - "**Standardized 100 mg** per capsule"
+        - "**Vegan HPMC capsules**"
+        - "**No colorants or magnesium stearate**"
+        - "**Clear neuro and anti-inflammatory profile**"
       cons:
-        - "**Nur 30 Portionen**, daher hoher Monatskostenblock"
-        - "**Noch keine großen Human-RCTs**"
-        - "**Kein Kombi mit anderen Flavonoiden**"
-      usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Bei empfindlichem Magen lieber nach dem Essen. Nicht mit Blutverdünnern kombinieren ohne medizinischen Rat."
+        - "**Only 30 servings** — high monthly cost"
+        - "**No large human RCTs yet**"
+        - "**No combination with other flavonoids**"
+      usage: "1 capsule daily with a fatty meal. If stomach-sensitive, take after eating. Do not combine with blood thinners without medical advice."
 ---

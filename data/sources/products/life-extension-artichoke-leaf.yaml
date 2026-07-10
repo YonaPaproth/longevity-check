@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Artischockenextrakte zeigen moderate Evidenz für Lipidprofile und Verdauung, weitere Studien nötig."
-      en: "Artischockenextrakte zeigen moderate Evidenz für Lipidprofile und Verdauung, weitere Studien nötig."
+      en: "Artichoke extracts show moderate evidence for lipid profiles and digestion; more studies needed."
   valueForMoney:
     score: 7
     explanation:
       de: "0,37 € pro Tag ist ok für standardisierte Kräuter aus cGMP-Produktion."
-      en: "0,37 € pro Tag ist ok für standardisierte Kräuter aus cGMP-Produktion."
+      en: "€0.37 per day is acceptable for standardized herbs from cGMP production."
   productQuality:
     score: 8
     explanation:
       de: "Life Extension nutzt europäische Rohstoffe, testet auf Pestizide und Schwermetalle."
-      en: "Life Extension nutzt europäische Rohstoffe, testet auf Pestizide und Schwermetalle."
+      en: "Life Extension uses European raw materials and tests for pesticides and heavy metals."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert Cynarin- und Flavonoidanteil, Hilfsstoffe transparent."
-      en: "Deklariert Cynarin- und Flavonoidanteil, Hilfsstoffe transparent."
+      en: "Declares cynarin and flavonoid content; excipients listed transparently."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Hersteller veröffentlicht interne und ausgewählte externe Analysen, aber kein offizielles Siegel."
-      en: "Hersteller veröffentlicht interne und ausgewählte externe Analysen, aber kein offizielles Siegel."
+      en: "Manufacturer publishes internal and selected external analyses, but no official certification."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Kein Bio-Siegel:** Könnte bei Pflanzenextrakten Vertrauen erhöhen"
       usage: "1 Kapsel zweimal täglich mit den Hauptmahlzeiten. Bei empfindlichem Magen langsam einschleichen."
   en:
-    summary: "Artischockenblatt-Extrakt mit standardisierten Cynarin- und Luteolinverbindungen für Leber, Cholesterin und Gallen-Kontext."
-    verdictNote: "Seriöser Artischockenextrakt für Leber- und Lipidprotokolle."
+    summary: "Artichoke leaf extract with standardized cynarin and luteolin compounds for liver, cholesterol, and bile support."
+    verdictNote: "A credible artichoke extract for liver and lipid protocols."
     body:
-      description: "Der Extrakt liefert 500 mg Artischockenblatt mit definiertem Anteil an Cynarin und Luteolin. In Studien wurden Effekte auf Gallensekretion, Leberwerte und Cholesterin untersucht — keine zugelassenen EU-Health-Claims vorhanden."
+      description: "The extract delivers 500 mg artichoke leaf with defined cynarin and luteolin content. Studies have examined effects on bile secretion, liver enzymes, and cholesterol — no approved EU health claims exist."
       pros:
-        - "**Standardisierte Polyphenole:** Liefert reproduzierbare Mengen"
-        - "**cGMP-Herstellung:** Sicherer Qualitätsrahmen"
-        - "**Breiter Nutzen:** Verdauung, Lipide, antioxidativer Support"
-        - "**Vegetarische Kapseln:** Ohne Gelatine"
+        - "**Standardized polyphenols:** Reproducible amounts per serving"
+        - "**cGMP manufacturing:** Reliable quality framework"
+        - "**Broad utility:** Digestion, lipids, and antioxidant support"
+        - "**Vegetarian capsules:** No gelatin"
       cons:
-        - "**Begrenzte RCTs:** Datenlage für harte Endpunkte klein"
-        - "**Kein Bio-Siegel:** Könnte bei Pflanzenextrakten Vertrauen erhöhen"
-      usage: "1 Kapsel zweimal täglich mit den Hauptmahlzeiten. Bei empfindlichem Magen langsam einschleichen."
+        - "**Limited RCTs:** Evidence base for hard endpoints is thin"
+        - "**No organic certification:** Could increase confidence for herbal extracts"
+      usage: "1 capsule twice daily with main meals. If stomach-sensitive, start slowly."
 ---

@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "L. plantarum 299v hat mehrere RCTs zu IBS, Bauchschmerzen und Blähungen."
-      en: "L. plantarum 299v hat mehrere RCTs zu IBS, Bauchschmerzen und Blähungen."
+      en: "L. plantarum 299v has multiple RCTs on IBS, abdominal pain, and bloating."
   valueForMoney:
     score: 6
     explanation:
       de: "1,13 € pro Portion ist hoch, reflektiert aber lizensierten Markenstamm."
-      en: "1,13 € pro Portion ist hoch, reflektiert aber lizensierten Markenstamm."
+      en: "€1.13 per serving is high, but reflects the cost of a licensed, clinically-studied strain."
   productQuality:
     score: 8
     explanation:
       de: "Gefriergetrocknete Kapseln mit Feuchtigkeitsschutz und Kühlkettenoption."
-      en: "Gefriergetrocknete Kapseln mit Feuchtigkeitsschutz und Kühlkettenoption."
+      en: "Freeze-dried capsules with moisture protection and cold chain option."
   labelHonesty:
     score: 9
     explanation:
       de: "CFU-Menge klar deklariert, kein Marketing-Blabla."
-      en: "CFU-Menge klar deklariert, kein Marketing-Blabla."
+      en: "CFU count clearly declared, no marketing fluff."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Jarrow prüft intern auf Potenz, externe Daten stammen aus Unilabs-Reports."
-      en: "Jarrow prüft intern auf Potenz, externe Daten stammen aus Unilabs-Reports."
+      en: "Jarrow tests potency internally; external data comes from Unilabs reports."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kühlkette empfohlen, dadurch Versand komplizierter"
       usage: "1 Kapsel täglich auf nüchternen Magen oder 30 Minuten vor einer Mahlzeit mit Wasser einnehmen. Bei Antibiotikaeinsatz Abstand von 2 Stunden halten."
   en:
-    summary: "Monostrain-Probiotikum mit Lactobacillus plantarum 299v, klinisch untersucht für IBS-Symptome und Darmkomfort."
-    verdictNote: "Gezieltes Monopräparat, wenn man genau diesen validierten Stamm einsetzen will."
+    summary: "Single-strain probiotic with Lactobacillus plantarum 299v, clinically studied for IBS symptoms and gut comfort."
+    verdictNote: "A targeted mono-strain product for those specifically seeking this validated strain."
     body:
-      description: "Ideal Bowel Support liefert 10 Milliarden KBE Lactobacillus plantarum 299v pro Kapsel. Der Stamm stammt vom schwedischen Biotech-Hersteller Probi und ist magensaftresistent verkapselt."
+      description: "Ideal Bowel Support delivers 10 billion CFU of Lactobacillus plantarum 299v per capsule. The strain comes from Swedish biotech company Probi and is encapsulated in acid-resistant capsules."
       pros:
-        - "Klinische Daten speziell auf Post-Antibiotika-Blähungen"
-        - "Vegane DRcaps schützen vor Magensäure"
-        - "Keine FOS/Inulin-Zusätze, daher Low-FODMAP-tauglich"
+        - "Clinical data specifically on post-antibiotic bloating"
+        - "Vegan DRcaps protect against stomach acid"
+        - "No FOS/inulin additives — suitable for low-FODMAP diets"
       cons:
-        - "Nur ein Stamm – wer Vielfalt sucht, braucht Kombinationen"
-        - "Kühlkette empfohlen, dadurch Versand komplizierter"
-      usage: "1 Kapsel täglich auf nüchternen Magen oder 30 Minuten vor einer Mahlzeit mit Wasser einnehmen. Bei Antibiotikaeinsatz Abstand von 2 Stunden halten."
+        - "Single strain only — those seeking diversity need combination products"
+        - "Cold chain recommended, which complicates shipping"
+      usage: "1 capsule daily on an empty stomach or 30 minutes before a meal with water. When taking antibiotics, separate by at least 2 hours."
 ---

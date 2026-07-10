@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Astaxanthin besitzt antioxidative Daten aus Haut- und Augenschutzstudien, aber noch begrenzte harte Endpunkte."
-      en: "Astaxanthin besitzt antioxidative Daten aus Haut- und Augenschutzstudien, aber noch begrenzte harte Endpunkte."
+      en: "Astaxanthin has antioxidant data from skin and eye protection studies, but hard endpoints remain limited."
   valueForMoney:
     score: 6
     explanation:
       de: "0,73 € pro Tag ist okay für AstaPure, aber spürbar teurer als Standard-Carotinoide."
-      en: "0,73 € pro Tag ist okay für AstaPure, aber spürbar teurer als Standard-Carotinoide."
+      en: "€0.73 per day is acceptable for AstaPure, but noticeably more expensive than standard carotenoids."
   productQuality:
     score: 8
     explanation:
       de: "AstaPure aus Haematococcus pluvialis, Softgel mit Olivenöl und Rosmarinextrakt zum Schutz vor Oxidation."
-      en: "AstaPure aus Haematococcus pluvialis, Softgel mit Olivenöl und Rosmarinextrakt zum Schutz vor Oxidation."
+      en: "AstaPure from Haematococcus pluvialis, softgel in olive oil with rosemary extract to protect against oxidation."
   labelHonesty:
     score: 8
     explanation:
       de: "Jarrow kommuniziert Dosierung, Quelle und Hilfsstoffe transparent ohne übertriebene Claims."
-      en: "Jarrow kommuniziert Dosierung, Quelle und Hilfsstoffe transparent ohne übertriebene Claims."
+      en: "Jarrow discloses dosage, source, and excipients clearly without exaggerated claims."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Keine NSF/USP, aber Jarrow veröffentlicht Analysenzertifikate auf Anfrage."
-      en: "Keine NSF/USP, aber Jarrow veröffentlicht Analysenzertifikate auf Anfrage."
+      en: "No NSF/USP certification, but Jarrow provides certificates of analysis on request."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Relativ hoher Preis pro mg**"
       usage: "1 Softgel täglich zu einer Hauptmahlzeit mit Fett. Bei sehr hoher Sonneneinstrahlung oder langen Bildschirmtagen sind 2 Softgels kurzfristig vertretbar; immer mit Ärzt:in abstimmen, falls Medikamente im Spiel sind."
   en:
-    summary: "AstaPure-Astaxanthin in 6-mg-Softgels, stabile Ölbasis und Jarrow-Qualitätskontrollen für antioxidativen Zellschutz."
-    verdictNote: "Wer gezielt Astaxanthin aus hochwertigem Mikroalgen-Extrakt sucht, macht mit Jarrow wenig falsch."
+    summary: "AstaPure astaxanthin in 6 mg softgels with a stable oil base and Jarrow quality controls for antioxidant cell protection."
+    verdictNote: "For targeted astaxanthin supplementation from a quality microalgae extract, Jarrow is a solid choice."
     body:
-      description: "Jarrow nutzt **AstaPure**, einen israelischen Markenrohstoff aus Haematococcus pluvialis. Jede Softgel liefert 6 mg Astaxanthin in Olivenöl und ist damit ein konzentrierter Carotinoid-Boost."
+      description: "Jarrow uses **AstaPure**, a branded ingredient from Israel derived from Haematococcus pluvialis. Each softgel delivers 6 mg astaxanthin in olive oil — a concentrated carotenoid dose."
       pros:
-        - "**Markenrohstoff AstaPure** mit konsistenter Qualität"
-        - "**Olivenöl als Träger** kann die Aufnahme beeinflussen"
-        - "**Blisterfreie Dose** für einfaches Reisen"
-        - "**Kompakte Softgels** lassen sich gut kombinieren"
+        - "**AstaPure branded ingredient** with consistent quality"
+        - "**Olive oil carrier** supports absorption of this fat-soluble carotenoid"
+        - "**Blister-free bottle** convenient for travel"
+        - "**Compact softgels** easy to stack with other supplements"
       cons:
-        - "**Nur 30 Portionen pro Packung**"
-        - "**Keine veganen Optionen**, Softgel enthält Gelatine"
-        - "**Relativ hoher Preis pro mg**"
-      usage: "1 Softgel täglich zu einer Hauptmahlzeit mit Fett. Bei sehr hoher Sonneneinstrahlung oder langen Bildschirmtagen sind 2 Softgels kurzfristig vertretbar; immer mit Ärzt:in abstimmen, falls Medikamente im Spiel sind."
+        - "**Only 30 servings per pack**"
+        - "**Not vegan** — softgel contains gelatin"
+        - "**Relatively high cost per mg**"
+      usage: "1 softgel daily with a main meal containing fat. Up to 2 softgels short-term during high sun exposure or long screen days is reasonable; consult a doctor if taking medications."
 ---

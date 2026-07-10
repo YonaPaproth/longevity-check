@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Baicalin zeigt interessante präklinische Daten zu Neuroinflammation, Humanstudien sind noch rar."
-      en: "Baicalin zeigt interessante präklinische Daten zu Neuroinflammation, Humanstudien sind noch rar."
+      en: "Baicalin shows interesting preclinical data on neuroinflammation, but human studies remain scarce."
   valueForMoney:
     score: 6
     explanation:
       de: "0,93 € pro 100 mg ist akzeptabel für einen seltenen Extrakt, aber nicht günstig."
-      en: "0,93 € pro 100 mg ist akzeptabel für einen seltenen Extrakt, aber nicht günstig."
+      en: "€0.93 per 100 mg is acceptable for a rare extract, but not cheap."
   productQuality:
     score: 8
     explanation:
       de: "Standardisierter Scutellaria-Extrakt, cGMP, jede Charge auf Flavonoidgehalt getestet."
-      en: "Standardisierter Scutellaria-Extrakt, cGMP, jede Charge auf Flavonoidgehalt getestet."
+      en: "Standardized Scutellaria extract, cGMP, every batch tested for flavonoid content."
   labelHonesty:
     score: 7
     explanation:
       de: "Dosierung und Pflanzenquelle klar, aber noch wenig Kontext zu Synergien."
-      en: "Dosierung und Pflanzenquelle klar, aber noch wenig Kontext zu Synergien."
+      en: "Dosage and plant source are clear, but little context provided on synergies."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Life Extension liefert interne Analysen, jedoch keine NSF."
-      en: "Life Extension liefert interne Analysen, jedoch keine NSF."
+      en: "Life Extension provides internal analyses, but no NSF certification."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Keine Kombination mit anderen Flavonen** wie Luteolin"
       usage: "1 Kapsel täglich zu einer Mahlzeit. Bei empfindlichem Magen lieber nach dem Essen. Nicht mit Blutverdünnern kombinieren, ohne zuvor medizinischen Rat einzuholen."
   en:
-    summary: "100 mg Baicalin aus Scutellaria baicalensis, Life-Extension-Qualität für kognitiven und entzündungsmodulierenden Fokus."
-    verdictNote: "Für Biohacker:innen, die gezielt Baicalin ausprobieren wollen, eine der wenigen sauberen Optionen im Handel."
+    summary: "100 mg baicalin from Scutellaria baicalensis — Life Extension quality for cognitive and anti-inflammatory focus."
+    verdictNote: "One of the few clean baicalin options available for those who want to try this compound specifically."
     body:
-      description: "Baicalin ist ein Flavon aus der **Chinesischen Schädeldecke (Scutellaria baicalensis)**. Life Extension kapselt 100 mg standardisierten Extrakt pro Portion und verzichtet auf Mischformeln."
+      description: "Baicalin is a flavone from **Chinese skullcap (Scutellaria baicalensis)**. Life Extension encapsulates 100 mg standardized extract per serving with no proprietary blends."
       pros:
-        - "**Reiner Single-Ingredient-Ansatz**"
-        - "**Standardisierte 100 mg**"
-        - "**cGMP-gefertigt**"
-        - "**Kapseln klein und leicht zu kombinieren**"
+        - "**Pure single-ingredient approach**"
+        - "**Standardized 100 mg**"
+        - "**cGMP manufactured**"
+        - "**Small capsules** easy to add to a stack"
       cons:
-        - "**Nur 30 Portionen**, schnelle Leerung"
-        - "**Kaum klinische Daten** für gesunde Menschen"
-        - "**Keine Kombination mit anderen Flavonen** wie Luteolin"
-      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei empfindlichem Magen lieber nach dem Essen. Nicht mit Blutverdünnern kombinieren, ohne zuvor medizinischen Rat einzuholen."
+        - "**Only 30 servings** — runs out quickly"
+        - "**Very limited clinical data** in healthy people"
+        - "**No combination with other flavones** like luteolin"
+      usage: "1 capsule daily with a meal. If stomach-sensitive, take after eating. Do not combine with blood thinners without consulting a doctor first."
 ---

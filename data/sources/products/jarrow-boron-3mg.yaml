@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Boron hat interessante Daten zu Knochenstoffwechsel und Hormonen, aber noch wenig große Humanstudien."
-      en: "Boron hat interessante Daten zu Knochenstoffwechsel und Hormonen, aber noch wenig große Humanstudien."
+      en: "Boron has interesting data on bone metabolism and hormones, but large human trials are still limited."
   valueForMoney:
     score: 8
     explanation:
       de: "0,12 € pro Tag für FruiteX-B ist sehr günstig, besonders bei 100 Portionen."
-      en: "0,12 € pro Tag für FruiteX-B ist sehr günstig, besonders bei 100 Portionen."
+      en: "€0.12 per day for FruiteX-B is very affordable, especially at 100 servings per bottle."
   productQuality:
     score: 7
     explanation:
       de: "Jarrow nutzt FruiteX-B (Calcium-Fructoborat) und kapselt vegan ab, ohne unnötige Zusätze."
-      en: "Jarrow nutzt FruiteX-B (Calcium-Fructoborat) und kapselt vegan ab, ohne unnötige Zusätze."
+      en: "Jarrow uses FruiteX-B (calcium fructoborate) in vegan capsules with no unnecessary additives."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare 3-mg-Dosierung, Rohstoff genannt, keine übertriebenen Claims."
-      en: "Klare 3-mg-Dosierung, Rohstoff genannt, keine übertriebenen Claims."
+      en: "Clear 3 mg dosage, ingredient named, no exaggerated claims."
   thirdPartyTesting:
     score: 5
     explanation:
       de: "Standard-GMP-Tests, aber kein offizielles Siegel."
-      en: "Standard-GMP-Tests, aber kein offizielles Siegel."
+      en: "Standard GMP testing, but no official third-party certification."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Keine Kombi mit Vitamin D oder Magnesium**"
       usage: "1 Kapsel täglich zu einer Mahlzeit. Nicht dauerhaft über 3 mg gehen, es sei denn ärztlich empfohlen. Bei kombinierter Einnahme mit Vitamin D oder K2 auf regelmäßige Laborkontrollen achten."
   en:
-    summary: "3 mg Bor als FruiteX-B in veganen Kapseln, gute Option für Gelenk- und Knochenfokus ohne überdosierte Protokolle."
-    verdictNote: "Solide Mikro-Mineral-Ergänzung für Bor, wenn Ernährung oder Bodenqualität lückenhaft sind."
+    summary: "3 mg boron as FruiteX-B in vegan capsules — a good option for joint and bone support without high-dose protocols."
+    verdictNote: "Solid trace mineral supplement for boron, useful when diet or soil quality is lacking."
     body:
-      description: "FruiteX-B ist eine natürliche Borverbindung, die in Studien mit 3 mg täglich eingesetzt wurde. Jarrow liefert diese Dosierung pro Kapsel und setzt auf eine schlanke Rezeptur ohne Magnesiumstearat."
+      description: "FruiteX-B is a natural boron compound used at 3 mg daily in studies. Jarrow delivers this dose per capsule with a lean formula free of magnesium stearate."
       pros:
-        - "**Studiennahe 3-mg-Dosierung**"
-        - "**FruiteX-B Markenrohstoff**"
-        - "**Vegane Kapseln**"
-        - "**100 Portionen pro Dose**"
+        - "**Study-aligned 3 mg dose**"
+        - "**FruiteX-B branded ingredient**"
+        - "**Vegan capsules**"
+        - "**100 servings per bottle**"
       cons:
-        - "**Keine unabhängige Zertifizierung**"
-        - "**Bor ist Nischen-Nährstoff:** Nutzen stark vom individuellen Status abhängig"
-        - "**Keine Kombi mit Vitamin D oder Magnesium**"
-      usage: "1 Kapsel täglich zu einer Mahlzeit. Nicht dauerhaft über 3 mg gehen, es sei denn ärztlich empfohlen. Bei kombinierter Einnahme mit Vitamin D oder K2 auf regelmäßige Laborkontrollen achten."
+        - "**No independent certification**"
+        - "**Niche nutrient:** benefit depends heavily on individual status"
+        - "**No combination with vitamin D or magnesium**"
+      usage: "1 capsule daily with a meal. Do not exceed 3 mg long-term unless medically advised. If combining with vitamin D or K2, monitor blood levels regularly."
 ---
