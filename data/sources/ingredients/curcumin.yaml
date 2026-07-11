@@ -58,6 +58,12 @@ key_studies:
         Systematischer Review: 1.500 mg Curcumin/Tag war mit niedrigeren Triglycerid- und Blutfettwerten sowie verbesserten Nüchternblutzucker-Werten assoziiert. Studienqualität variiert.
       en: >-
         Systematic review: 1,500 mg curcumin/day was associated with lower triglycerides, reduced blood lipids, and improved fasting glucose. Study quality variable.
+  - ref: pmid-42247029
+    finding:
+      de: >-
+        Systematische Review und Meta-Analyse bei benigner Prostatahyperplasie: Curcumin zeigte klinisch interessante Signale in einer klar umrissenen urologischen Nische. Relevanter als diffuse Allzweck-Claims, aber noch kein Grund für überzogene Schlüsse über Curcumin als universelle Intervention.
+      en: >-
+        Systematic review and meta-analysis in benign prostatic hyperplasia: curcumin showed clinically interesting signals in a clearly defined urological niche. More relevant than diffuse all-purpose claims, but not a reason for inflated conclusions about curcumin as a universal intervention.
 
 locales:
   de:
@@ -97,6 +103,10 @@ locales:
       ### Gelenkschmerzen und Arthrose
 
       Die Meta-Analyse von Daily et al. (2016, 8 RCTs): Curcumin-Extrakte reduzierten Gelenkschmerzen auf der VAS-Skala im Mittel um ca. 19 mm und verbesserten WOMAC-Scores signifikant vs. Placebo. Ein direkter Vergleich mit Ibuprofen (1.200 mg/Tag) in einer Pilot-RCT ergab vergleichbare Schmerzreduktion bei weniger gastrointestinalen Nebenwirkungen — diese Studie war jedoch klein (n=45) und hat methodische Einschränkungen.
+
+      ### Benigne Prostatahyperplasie (BPH)
+
+      Eine systematische Review mit Meta-Analyse aus 2026 (PMID 42247029) zeigt, dass Curcumin auch in einer klar umrissenen urologischen Indikation untersucht wird — und damit in einem klinisch deutlich greifbareren Setting als viele diffuse "anti-inflammatory"-Claims. Das macht die Daten nicht automatisch stark genug für große Empfehlungen, aber es ist ein relevanter Hinweis darauf, dass Curcumin in bestimmten Nischen mehr Substanz haben könnte als sein oft beliebig wirkendes Marketing vermuten lässt.
 
       ### Metabolische Marker
 
@@ -164,6 +174,10 @@ locales:
       ### Joint Pain and Osteoarthritis
 
       **Meta-analysis (Daily et al., 2016; 8 RCTs):** Curcumin extracts reduced joint pain on the visual analog scale (VAS) by approximately 19 mm on average and improved WOMAC scores significantly vs. placebo. One small pilot RCT (n=45) found curcumin 500 mg/day to be comparable to ibuprofen 1,200 mg/day for pain relief, with fewer gastrointestinal side effects—but this study was underpowered and has methodological limitations.
+
+      ### Benign Prostatic Hyperplasia (BPH)
+
+      A 2026 systematic review and meta-analysis (PMID 42247029) shows that curcumin is also being studied in a clearly bounded urological indication — a much more clinically tangible setting than many diffuse anti-inflammatory claims. That does not make the evidence strong enough for sweeping recommendations, but it is a relevant sign that curcumin may have more substance in specific niches than its often overly broad marketing suggests.
 
       ### Metabolic Markers
 
@@ -354,6 +368,11 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:26007572"
+  - relation: basiert_auf_studie
+    target: studie-42247029
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:42247029"
   - relation: wird_eingesetzt_fuer
     target: schmerz
     direction: outgoing

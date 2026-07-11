@@ -1,6 +1,6 @@
 {
   "type": "basiert_auf_studie",
-  "count": 405,
+  "count": 406,
   "relations": [
     {
       "subject": "5-htp",
@@ -1534,6 +1534,12 @@
       "target": "studie-31980092",
       "confidence": 0.9,
       "source": "pmid:31980092"
+    },
+    {
+      "subject": "omega-3",
+      "target": "studie-42144851",
+      "confidence": 0.9,
+      "source": "pmid:42144851"
     },
     {
       "subject": "omega-3",

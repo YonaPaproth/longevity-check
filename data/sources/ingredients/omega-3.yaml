@@ -87,6 +87,8 @@ locales:
       
       **REDUCE-IT vs. STRENGTH:** Die Diskrepanz zwischen beiden Studien ist wissenschaftlich noch nicht abschließend erklärt. STRENGTH (Nicholls 2020, n=13.078) mit EPA+DHA-Kombination (4 g/Tag) fand keinen signifikanten Vorteil – möglicherweise wegen unterschiedlicher Placebo-Öle oder EPA-vs.-DHA-Unterschieden.
       
+      **Vorhofflimmern-Risiko als echter Trade-off:** Eine Meta-Analyse 2026 zu DHA/EPA, kardiovaskulären Outcomes und Vorhofflimmern (PMID 42144851) unterstreicht, warum Omega-3 differenziert gelesen werden muss: Der Wirkstoff bleibt bei Triglyceriden und ausgewählten Herz-Kreislauf-Endpunkten stark, aber die Literatur zwingt zunehmend dazu, möglichen Nutzen gegen ein potenziell erhöhtes Vorhofflimmern-Risiko abzuwägen. Für Hochrisikopatienten kann die Bilanz trotzdem positiv sein — für pauschale "jeder sollte möglichst viel Fischöl nehmen"-Botschaften ist die Lage zu komplex.
+      
       **Endothelfunktion — gut, aber nicht die beste Option:** Eine Netzwerk-Meta-Analyse 2026 (Norouzzadeh et al., PMID 42277453) verglich erstmals direkt mehrere Nutraceuticals hinsichtlich ihrer Wirkung auf die Endothelfunktion (FMD) bei Patienten mit CVD oder Hypertonie. Omega-3 verbesserte die FMD signifikant (MD: 1,83) — lag aber deutlich hinter **Magnesium** (MD: 8,17), **Vitamin D3** (MD: 7,84) und **Leinsamen** (MD: 7,39). Die Evidenzqualität für Omega-3 wurde als „very low" eingestuft. Das heißt nicht, dass Omega-3 unwirksam ist — aber wer primär die Gefäßfunktion verbessern will, hat laut dieser Analyse stärkere Optionen.
       
       **Gesunde Personen ohne Risikofaktoren:** Bei normalem Triglyzerid-Spiegel und niedrigem kardiovaskulären Risiko ist der messbare Zusatznutzen durch Supplementierung geringer als bei Risikopatienten.
@@ -164,6 +166,8 @@ locales:
       ### Less certain
       
       **REDUCE-IT vs. STRENGTH:** The discrepancy between these trials has not been fully explained. STRENGTH (Nicholls 2020, n=13,078) with an EPA+DHA combination (4 g/day) found no significant advantage — possibly due to different control oils or EPA-vs.-DHA differences.
+      
+      **Atrial fibrillation risk is a real trade-off:** A 2026 meta-analysis of DHA/EPA, cardiovascular outcomes, and atrial fibrillation (PMID 42144851) reinforces why omega-3 must be read carefully: the ingredient remains strong for triglycerides and selected cardiovascular endpoints, but the literature increasingly forces a balancing of benefit against possible atrial fibrillation risk. For high-risk patients the overall equation may still be favorable — but the evidence no longer supports simplistic “everyone should take as much fish oil as possible” messaging.
       
       **Healthy individuals without risk factors:** In people with normal triglycerides and low cardiovascular risk, the measurable additional benefit from supplementation is smaller.
       
@@ -274,6 +278,11 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:31980092"
+  - relation: basiert_auf_studie
+    target: studie-42144851
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:42144851"
   - relation: basiert_auf_studie
     target: studie-42144109
     direction: outgoing

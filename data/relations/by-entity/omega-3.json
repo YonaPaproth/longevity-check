@@ -91,6 +91,13 @@
     },
     {
       "relation": "basiert_auf_studie",
+      "target": "studie-42144851",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42144851"
+    },
+    {
+      "relation": "basiert_auf_studie",
       "target": "studie-42144109",
       "direction": "outgoing",
       "confidence": 0.9,

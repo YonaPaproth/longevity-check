@@ -57,6 +57,12 @@ key_studies:
         RCT (n=46 ältere Erwachsene): 500 mg Magnesium/Tag über 8 Wochen verbesserte Schlafqualität, -dauer und Insomnie-Scores signifikant gegenüber Placebo.
       en: >-
         RCT (n=46 older adults): 500 mg magnesium/day over 8 weeks significantly improved sleep quality, duration, and insomnia scores vs. placebo.
+  - ref: pmid-41641401
+    finding:
+      de: >-
+        Systematische Review und Meta-Analyse bei Prädiabetes: orale Magnesiumsupplementierung verbesserte glykämische und kardiometabolische Parameter in einer Population mit hohem Progressionsrisiko. Stärkt Magnesium eher als gezielte metabolische Ergänzung bei Mangel- oder Risikokonstellation als als universellen "Wellnessstoff".
+      en: >-
+        Systematic review and meta-analysis in prediabetes: oral magnesium supplementation improved glycemic and cardiometabolic parameters in a population at high risk of progression. Strengthens magnesium more as a targeted metabolic adjunct in deficiency- or risk-based settings than as a universal wellness ingredient.
 
 locales:
   de:
@@ -100,6 +106,8 @@ locales:
       ### Insulinsensitivität bei Mangel
       
       Guerrero-Romero et al. (2004) zeigten in einem RCT: 2,5 g MgCl₂/Tag (entspricht ca. 300 mg elementarem Magnesium) über 3 Monate reduzierte Insulinresistenz bei Personen mit Magnesiummangel signifikant. Effekt auf Insulinsensitivität bei normalen Magnesiumspiegeln schwächer belegt.
+      
+      **Prädiabetes — neues Meta-Signal 2026:** Eine systematische Review mit Meta-Analyse (PMID 41641401) verdichtet die Human-Datenlage genau an der Stelle, an der Magnesium klinisch am plausibelsten ist: bei Menschen mit gestörter Glukoseregulation, aber noch vor manifestem Typ-2-Diabetes. Das Paper spricht nicht für Magnesium als Wundermittel, wohl aber dafür, den Wirkstoff bei Prädiabetes ernster zu nehmen — insbesondere wenn niedrige Zufuhr oder funktioneller Mangel wahrscheinlich sind.
       
       ### Energie und enzymatische Funktionen
       
@@ -190,6 +198,8 @@ locales:
       ### Insulin sensitivity in deficiency
       
       Guerrero-Romero et al. (2004) demonstrated in an RCT: 2.5 g MgCl₂/day (equivalent to ~300 mg elemental magnesium) over 3 months significantly reduced insulin resistance in individuals with magnesium deficiency. Effect on insulin sensitivity in people with normal magnesium levels is less well established.
+      
+      **Prediabetes — new 2026 meta-level signal:** A systematic review and meta-analysis (PMID 41641401) consolidates the human evidence at the point where magnesium is most clinically plausible: in people with dysregulated glucose metabolism but not yet overt type 2 diabetes. The paper does not make magnesium a miracle treatment, but it does support taking the ingredient more seriously in prediabetes — especially where low intake or functional deficiency is likely.
       
       ### Energy and enzymatic functions
       
@@ -351,6 +361,11 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:23853635"
+  - relation: basiert_auf_studie
+    target: studie-41641401
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:41641401"
   - relation: wird_eingesetzt_fuer
     target: schmerz
     direction: outgoing
