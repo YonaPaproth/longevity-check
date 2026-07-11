@@ -1,0 +1,11 @@
+{
+  "entity": "floradix-iron-herbs",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "eisen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

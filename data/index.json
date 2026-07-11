@@ -207,6 +207,7 @@
     "fairvital-eisen-komplex-25",
     "fairvital-vitamin-d3-k2",
     "fairvital-zinkbisglycinat-25",
+    "floradix-iron-herbs",
     "horbaach-pumpkin-seed-oil-3000-mg",
     "igennus-vitamin-d3-k2",
     "jarrow-5-htp-50",
@@ -283,6 +284,7 @@
     "life-extension-urolithin-a",
     "life-extension-urolithin-mitopure",
     "life-extension-vitamin-d3-k2",
+    "megfood-blood-builder-iron",
     "moleqlar-fisetin-250",
     "moleqlar-liposomal-glutathion",
     "moleqlar-nmn-500",
@@ -364,6 +366,7 @@
     "pure-encapsulations-chromium",
     "pure-encapsulations-collagen-c",
     "pure-encapsulations-iodine-225",
+    "pure-encapsulations-iron-25",
     "pure-encapsulations-kreatin-5g",
     "pure-encapsulations-l-carnitine-500",
     "pure-encapsulations-l-theanine-200",
@@ -385,6 +388,7 @@
     "pure-therapeutics-methyl-multi",
     "qunol-mega-coq10-ubiquinol-100",
     "renue-by-science-nmn-500",
+    "solgar-gentle-iron-25",
     "sports-research-curcumin-c3-complex",
     "sports-research-d3-k2-5000",
     "sports-research-omega-3-fish-oil-1250",
@@ -883,8 +887,8 @@
     "verdauung"
   ],
   "stats": {
-    "entities": 867,
-    "relations": 1912,
+    "entities": 871,
+    "relations": 1916,
     "relationTypes": 12,
     "lastUpdated": "2026-07-11"
   }

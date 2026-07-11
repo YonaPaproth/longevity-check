@@ -1,6 +1,6 @@
 {
   "type": "enthaelt",
-  "count": 358,
+  "count": 362,
   "relations": [
     {
       "subject": "alive-by-science-nmn-sublingual",
@@ -255,6 +255,11 @@
     {
       "subject": "fairvital-zinkbisglycinat-25",
       "target": "zink",
+      "confidence": 1
+    },
+    {
+      "subject": "floradix-iron-herbs",
+      "target": "eisen",
       "confidence": 1
     },
     {
@@ -745,6 +750,11 @@
     {
       "subject": "life-extension-vitamin-d3-k2",
       "target": "vitamin-d3-k2",
+      "confidence": 1
+    },
+    {
+      "subject": "megfood-blood-builder-iron",
+      "target": "eisen",
       "confidence": 1
     },
     {
@@ -1278,6 +1288,11 @@
       "confidence": 1
     },
     {
+      "subject": "pure-encapsulations-iron-25",
+      "target": "eisen",
+      "confidence": 1
+    },
+    {
       "subject": "pure-encapsulations-kreatin-5g",
       "target": "kreatin",
       "confidence": 1
@@ -1435,6 +1450,11 @@
     {
       "subject": "renue-by-science-nmn-500",
       "target": "nmn",
+      "confidence": 1
+    },
+    {
+      "subject": "solgar-gentle-iron-25",
+      "target": "eisen",
       "confidence": 1
     },
     {

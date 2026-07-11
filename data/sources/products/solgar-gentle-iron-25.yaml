@@ -38,7 +38,7 @@ ratings:
   productQuality:
     score: 8
     explanation:
-      de: "Die "Gentle Iron"-Positionierung zielt klar auf bessere Verträglichkeit ab. Das ist bei Eisen ein echter Mehrwert, auch wenn die Formulierung nicht maximal luxuriös ist."
+      de: 'Die "Gentle Iron"-Positionierung zielt klar auf bessere Verträglichkeit ab. Das ist bei Eisen ein echter Mehrwert, auch wenn die Formulierung nicht maximal luxuriös ist.'
       en: "The 'Gentle Iron' positioning clearly aims at better tolerability. That is a real advantage with iron, even if the formula is not maximally luxurious."
   labelHonesty:
     score: 8
@@ -56,7 +56,7 @@ locales:
     summary: "Bekannter Gentle-Iron-Klassiker mit gutem Preis-Leistungs-Verhältnis. Besonders interessant für Menschen, die Eisen oft schlecht vertragen."
     verdictNote: "Ein starker Mid-Price-Pick, wenn Verträglichkeit wichtiger ist als High-End-Premium-Branding."
     body:
-      description: "Solgar positioniert dieses Produkt explizit als **"Gentle Iron"** — also als besser verträgliche Eisenoption. Genau das ist bei Eisen oft wichtiger als jede fancy Zusatzmischung."
+      description: 'Solgar positioniert dieses Produkt explizit als **"Gentle Iron"** — also als besser verträgliche Eisenoption. Genau das ist bei Eisen oft wichtiger als jede fancy Zusatzmischung.'
       pros:
         - "**Gute Preis-Leistung**"
         - "**25 mg pro Portion:** sinnvoll für gezielte Ergänzung"

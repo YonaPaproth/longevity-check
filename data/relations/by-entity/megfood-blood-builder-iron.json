@@ -1,0 +1,11 @@
+{
+  "entity": "megfood-blood-builder-iron",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "eisen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

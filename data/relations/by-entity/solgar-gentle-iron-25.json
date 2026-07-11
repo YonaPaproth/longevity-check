@@ -1,0 +1,11 @@
+{
+  "entity": "solgar-gentle-iron-25",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "eisen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}
