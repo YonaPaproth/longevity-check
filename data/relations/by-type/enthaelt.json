@@ -1,6 +1,6 @@
 {
   "type": "enthaelt",
-  "count": 357,
+  "count": 358,
   "relations": [
     {
       "subject": "alive-by-science-nmn-sublingual",
@@ -1680,6 +1680,11 @@
     {
       "subject": "thorne-iodine-selenium",
       "target": "l-tyrosin",
+      "confidence": 1
+    },
+    {
+      "subject": "thorne-iron-bisglycinate-25",
+      "target": "eisen",
       "confidence": 1
     },
     {

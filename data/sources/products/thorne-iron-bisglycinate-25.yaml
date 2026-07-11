@@ -1,0 +1,83 @@
+---
+id: thorne-iron-bisglycinate-25
+type: product
+
+meta:
+  title: "Thorne Iron Bisglycinate 25 mg"
+  ingredient: eisen
+  containedIngredients:
+    - slug: eisen
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com"
+  affiliateUrl: ""
+  priceEur: 19.90
+  doseMg: 25
+  servingsPerPack: 60
+  pricePerDayEur: 0.33
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-07-11"
+  lastPriceCheck: "2026-07-11"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Eisen ist bei diagnostiziertem Mangel oder erhöhtem Bedarf gut belegt. Ohne Mangel ist es aber kein Daily-Supplement, sondern eine gezielte Intervention."
+      en: "Iron is well supported when deficiency or increased need is documented. Without deficiency, it is not a daily wellness supplement but a targeted intervention."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "Nicht billig, aber für eine Premium-Marke mit chelatierter Form noch vertretbar. Preislich eher im oberen Mittelfeld."
+      en: "Not cheap, but still reasonable for a premium brand using a chelated form. Price sits in the upper mid-range."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Bisglycinat ist eine der besseren Eisenformen für Verträglichkeit und Absorption. Thorne steht meist für nüchterne, saubere Formulierungen."
+      en: "Bisglycinate is one of the better iron forms for tolerability and absorption. Thorne usually stands for clean, no-nonsense formulations."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Das Produktkonzept ist klar und nicht unnötig aufgeblasen. Solide Single-Ingredient-Logik statt Health-Claim-Theater."
+      en: "The product concept is clear and not overinflated. Solid single-ingredient logic instead of vague health-claim theater."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Thorne genießt hohes Vertrauen, aber bei diesem Produkt ist keine besonders starke externe Prüf-Zertifizierung sichtbar."
+      en: "Thorne is generally trusted, but no especially strong external testing certification is obvious for this product."
+
+locales:
+  de:
+    summary: "Premium-Eisen auf Bisglycinat-Basis mit guter Verträglichkeits-Logik. Stark für gezielte Eisensupplementierung, aber kein Produkt für blindes Dauersupplementieren."
+    verdictNote: "Einer der saubersten Eisen-Picks, wenn man bewusst ein Premium-Produkt mit gut absorbierbarer Form sucht."
+    body:
+      description: "Dieses Produkt setzt auf **Eisenbisglycinat**, also eine chelatierte Eisenform, die meist besser verträglich ist als härtere Standardformen. Für Menschen mit sensiblem Magen ist das oft der entscheidende Unterschied."
+      pros:
+        - "**25 mg pro Portion:** sinnvolle Stärke für gezielte Ergänzung"
+        - "**Bisglycinat-Form:** meist gut verträglich und ordentlich absorbierbar"
+        - "**Klares Premium-Profil** ohne unnötige Mischmasch-Formulierung"
+      cons:
+        - "**Kein blindes Daily-Supplement:** Eisen idealerweise mit Ferritin/Hämoglobin-Kontext einsetzen"
+        - "**Relativ teuer** für ein einfaches Single-Ingredient-Produkt"
+        - "**Keine klar sichtbare High-End-Drittzertifizierung** auf Produktebene"
+      usage: "Am sinnvollsten bei dokumentiertem Mangel oder erhöhtem Bedarf. Eisen am besten mit Laborwerten und nicht nach Gefühl einsetzen."
+  en:
+    summary: "Premium bisglycinate iron with strong tolerability logic. A solid pick for targeted supplementation, but not something to take blindly long term."
+    verdictNote: "One of the cleaner iron picks if you deliberately want a premium product with a well-absorbed form."
+    body:
+      description: "This product uses **iron bisglycinate**, a chelated iron form that is often better tolerated than harsher standard forms. For people with sensitive stomachs, that can make a real difference."
+      pros:
+        - "**25 mg per serving:** a sensible strength for targeted use"
+        - "**Bisglycinate form:** usually well tolerated and reasonably well absorbed"
+        - "**Clean premium profile** without unnecessary kitchen-sink formulation"
+      cons:
+        - "**Not for blind daily use:** iron should ideally be used in the context of ferritin/hemoglobin data"
+        - "**Relatively expensive** for a simple single-ingredient product"
+        - "**No clearly visible top-tier third-party certification** at product level"
+      usage: "Most useful when deficiency or increased need is documented. Iron is best guided by labs, not guesswork."
+---

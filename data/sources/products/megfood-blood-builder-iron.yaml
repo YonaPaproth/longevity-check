@@ -1,0 +1,83 @@
+---
+id: megfood-blood-builder-iron
+type: product
+
+meta:
+  title: "MegaFood Blood Builder Iron"
+  ingredient: eisen
+  containedIngredients:
+    - slug: eisen
+  vendor: "MegaFood"
+  vendorUrl: "https://www.megafood.com"
+  affiliateUrl: ""
+  priceEur: 24.90
+  doseMg: 26
+  servingsPerPack: 90
+  pricePerDayEur: 0.28
+  form: tablet
+  availableInDE: true
+  publishedAt: "2026-07-11"
+  lastPriceCheck: "2026-07-11"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: bedingt-empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Für Eisen selbst ist die Evidenz klar genug, sofern ein echter Bedarf besteht. Mischprodukte müssen sich trotzdem daran messen lassen, ob sie das Wesentliche sauber lösen."
+      en: "The evidence for iron itself is clear enough when there is genuine need. Combination-style products still need to prove that they solve the core job cleanly."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "Preislich noch okay, aber nicht herausragend. Ein Teil des Preises steckt auch im Branding und im komplexeren Produkt-Image."
+      en: "Price is still acceptable, but not outstanding. Part of the cost also sits in branding and the more complex product image."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Als bekannter Eisen-Klassiker mit ergänzenden Cofaktoren interessant, aber die Mehrkomponenten-Logik ist nicht automatisch besser als ein schlicht gutes Eisenpräparat."
+      en: "As a well-known iron classic with supportive cofactors it is interesting, but a multi-component approach is not automatically better than a clean single-ingredient iron product."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Das Produkt wirkt durch den 'Blood Builder'-Ansatz etwas marketingnäher als nüchterne Apothekenprodukte. Trotzdem bleibt der Einsatzzweck nachvollziehbar."
+      en: "The 'Blood Builder' framing feels a bit more marketing-driven than more clinical products. Still, the intended use remains understandable."
+  thirdPartyTesting:
+    score: 5
+    explanation:
+      de: "Ordentliche Markenreputation, aber keine außergewöhnlich starke Prüftransparenz sichtbar."
+      en: "Decent brand reputation, though no unusually strong testing transparency is visible."
+
+locales:
+  de:
+    summary: "Bekanntes Eisenprodukt mit stärkerem Health-Branding und Mehrkomponenten-Image. Solide, aber nicht automatisch besser als ein klares Single-Ingredient-Premiumprodukt."
+    verdictNote: "Interessant, wenn du eine etwas 'rundere' Blutaufbau-Positionierung willst — nüchtern betrachtet gibt es aber auch klarere Eisen-Picks."
+    body:
+      description: "MegaFood Blood Builder ist eines der bekannteren Eisenprodukte im US-Markt. Der Reiz liegt weniger in puristischer Formulierungslogik als in der **kompletten Blutaufbau-Erzählung**, die für viele Konsumenten attraktiv wirkt."
+      pros:
+        - "**Bekanntes Eisenprodukt** mit starker Markensichtbarkeit"
+        - "**Ordentliche Dosierung** für gezielte Ergänzung"
+        - "**Interessant für Menschen, die mehr als nur ein nüchternes Eisenpräparat suchen**"
+      cons:
+        - "**Health-Branding stärker als bei klinischeren Produkten**"
+        - "**Nicht automatisch besser** als ein gutes Single-Ingredient-Bisglycinatprodukt"
+        - "**Preis eher mittel bis hoch**"
+      usage: "Kann gut passen, wenn die Positionierung und das Gesamtproduktkonzept gefallen. Für maximal nüchterne Evidenz-Logik sind Thorne oder Pure Encapsulations stringenter."
+  en:
+    summary: "A well-known iron product with heavier health branding and a broader blood-support image. Solid, but not automatically better than a clean premium single-ingredient product."
+    verdictNote: "Interesting if you want a more rounded 'blood support' concept — but on strict logic there are cleaner iron picks."
+    body:
+      description: "MegaFood Blood Builder is one of the better-known iron products in the US market. Its appeal comes less from minimalist formulation logic and more from the **complete blood-support story**, which many consumers find attractive."
+      pros:
+        - "**Well-known iron product** with strong brand visibility"
+        - "**Reasonable dose** for targeted supplementation"
+        - "**May appeal to people who want more than a stripped-down iron capsule**"
+      cons:
+        - "**More health-branding-heavy** than more clinical products"
+        - "**Not automatically better** than a good single-ingredient bisglycinate product"
+        - "**Mid to high price point**"
+      usage: "Can be a good fit if you like the broader positioning and product concept. For strict evidence-first simplicity, Thorne or Pure Encapsulations are cleaner choices."
+---

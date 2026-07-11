@@ -416,6 +416,7 @@
     "thorne-glutathione-sr",
     "thorne-glycine-1000",
     "thorne-iodine-selenium",
+    "thorne-iron-bisglycinate-25",
     "thorne-magnesium-bisglycinate",
     "thorne-niacel-400",
     "thorne-quercenase",
@@ -882,8 +883,8 @@
     "verdauung"
   ],
   "stats": {
-    "entities": 866,
-    "relations": 1911,
+    "entities": 867,
+    "relations": 1912,
     "relationTypes": 12,
     "lastUpdated": "2026-07-11"
   }

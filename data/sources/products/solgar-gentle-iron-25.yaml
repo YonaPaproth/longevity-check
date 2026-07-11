@@ -1,0 +1,83 @@
+---
+id: solgar-gentle-iron-25
+type: product
+
+meta:
+  title: "Solgar Gentle Iron 25 mg"
+  ingredient: eisen
+  containedIngredients:
+    - slug: eisen
+  vendor: "Solgar"
+  vendorUrl: "https://www.solgar.com"
+  affiliateUrl: ""
+  priceEur: 15.90
+  doseMg: 25
+  servingsPerPack: 90
+  pricePerDayEur: 0.18
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-07-11"
+  lastPriceCheck: "2026-07-11"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Die Evidenz gilt dem Wirkstoff Eisen, nicht speziell der Marke. Bei echtem Mangel oder erhöhtem Bedarf ist Eisen gut belegt."
+      en: "The evidence applies to iron as an ingredient, not specifically to the brand. In true deficiency or increased need, iron is well supported."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "0,18 € pro Tag für ein bekanntes Gentle-Iron-Produkt ist stark. Preis-Leistung ist hier einer der Hauptvorteile."
+      en: "€0.18 per day for a well-known gentle iron product is strong. Value for money is one of the main advantages here."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Die "Gentle Iron"-Positionierung zielt klar auf bessere Verträglichkeit ab. Das ist bei Eisen ein echter Mehrwert, auch wenn die Formulierung nicht maximal luxuriös ist."
+      en: "The 'Gentle Iron' positioning clearly aims at better tolerability. That is a real advantage with iron, even if the formula is not maximally luxurious."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Das Produkt wird nachvollziehbar über Verträglichkeit positioniert und nicht über wilde Energie-Claims. Das wirkt relativ sauber."
+      en: "The product is positioned around tolerability rather than wild energy claims. That feels relatively clean."
+  thirdPartyTesting:
+    score: 5
+    explanation:
+      de: "Solide Traditionsmarke, aber keine überragende unabhängige Prüf-Story auf Produktebene sichtbar."
+      en: "A solid legacy brand, though no standout independent testing story is visible at product level."
+
+locales:
+  de:
+    summary: "Bekannter Gentle-Iron-Klassiker mit gutem Preis-Leistungs-Verhältnis. Besonders interessant für Menschen, die Eisen oft schlecht vertragen."
+    verdictNote: "Ein starker Mid-Price-Pick, wenn Verträglichkeit wichtiger ist als High-End-Premium-Branding."
+    body:
+      description: "Solgar positioniert dieses Produkt explizit als **"Gentle Iron"** — also als besser verträgliche Eisenoption. Genau das ist bei Eisen oft wichtiger als jede fancy Zusatzmischung."
+      pros:
+        - "**Gute Preis-Leistung**"
+        - "**25 mg pro Portion:** sinnvoll für gezielte Ergänzung"
+        - "**Verträglichkeitsfokus** statt aggressiver Hochdosis-Logik"
+      cons:
+        - "**Nicht für blindes Daily-Supplementing gedacht**"
+        - "**Marke wirkt eher solide als maximal transparent**"
+        - "**Kein besonders klinisches Premium-Profil** wie bei Thorne oder Pure Encapsulations"
+      usage: "Spannend vor allem für Menschen, die Eisen grundsätzlich brauchen, aber empfindlich auf klassische Formen reagieren. Idealerweise laborgeführt einsetzen."
+  en:
+    summary: "A well-known gentle-iron classic with good value for money. Especially relevant for people who tend to tolerate iron poorly."
+    verdictNote: "A strong mid-price pick if tolerability matters more to you than ultra-premium branding."
+    body:
+      description: "Solgar positions this product explicitly as **'Gentle Iron'** — a more tolerable iron option. With iron, that is often more important than any fancy add-on blend."
+      pros:
+        - "**Good value for money**"
+        - "**25 mg per serving:** sensible for targeted use"
+        - "**Tolerability focus** instead of aggressive high-dose posturing"
+      cons:
+        - "**Not intended for blind daily supplementation**"
+        - "**Brand feels solid rather than maximally transparent**"
+        - "**Not as clinical-premium in profile** as Thorne or Pure Encapsulations"
+      usage: "Most interesting for people who likely need iron but tend to react poorly to harsher forms. Ideally guided by labs."
+---

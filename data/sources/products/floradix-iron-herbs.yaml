@@ -1,0 +1,83 @@
+---
+id: floradix-iron-herbs
+type: product
+
+meta:
+  title: "Floradix Iron + Herbs"
+  ingredient: eisen
+  containedIngredients:
+    - slug: eisen
+  vendor: "Floradix"
+  vendorUrl: "https://www.floradix.de"
+  affiliateUrl: ""
+  priceEur: 17.90
+  doseMg: 10
+  servingsPerPack: 25
+  pricePerDayEur: 0.72
+  form: liquid
+  availableInDE: true
+  publishedAt: "2026-07-11"
+  lastPriceCheck: "2026-07-11"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: bedingt-empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Eisen ist bei Mangel gut untersucht. Die flüssige Darreichung kann praktisch sein, ändert aber nichts daran, dass die Indikation wichtiger ist als die Produktform."
+      en: "Iron is well studied in deficiency. A liquid format can be practical, but it does not change the fact that the indication matters more than the delivery form."
+  valueForMoney:
+    score: 5
+    explanation:
+      de: "Liquid-Iron-Produkte sind oft deutlich teurer pro Tag. Das macht Floradix eher bequem als ökonomisch attraktiv."
+      en: "Liquid iron products are often clearly more expensive per day. That makes Floradix more convenient than cost-efficient."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Der flüssige Ansatz mit Kräutern spricht Menschen an, die Kapseln meiden. Aus Qualitätslogik ist das okay, aber nicht automatisch besser als gute Kapselprodukte."
+      en: "The liquid herbal approach appeals to people who avoid capsules. From a quality standpoint it is fine, but not automatically better than good capsule products."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Die traditionelle Positionierung ist nachvollziehbar, aber solche Produkte profitieren oft stark von ihrem Gesundheitsimage. Man sollte sich davon nicht blenden lassen."
+      en: "The traditional positioning is understandable, but products like this often benefit heavily from a health halo. That should not be confused with superior evidence."
+  thirdPartyTesting:
+    score: 4
+    explanation:
+      de: "Keine besonders starke externe Prüfkommunikation sichtbar."
+      en: "No especially strong external testing communication is visible."
+
+locales:
+  de:
+    summary: "Flüssiges Eisenprodukt mit Kräuterprofil und klassischem Gesundheitsimage. Praktisch für manche, aber preislich und evidenzlogisch nicht automatisch besser als gute Kapseln."
+    verdictNote: "Okay für Menschen, die flüssige Produkte bevorzugen — aber kein heimlicher Qualitäts-Shortcut gegenüber gut formulierten Eisenkapseln."
+    body:
+      description: "Floradix ist ein Klassiker unter den Eisenprodukten, vor allem wegen der **flüssigen Form** und des traditionellen Kräuter-Images. Das kann praktisch sein, wenn Kapseln schlecht akzeptiert werden oder subjektiv schlechter vertragen werden."
+      pros:
+        - "**Flüssige Form:** für manche leichter einzunehmen als Kapseln"
+        - "**Bekannte Traditionsmarke**"
+        - "**Niedrigere Portion pro Einnahme:** für vorsichtiges Herantasten interessant"
+      cons:
+        - "**Teuer pro Tag**"
+        - "**Nicht automatisch wirksamer oder besser absorbierbar** als gute Chelat-Kapseln"
+        - "**Health-Halo-Risiko:** wirkt naturheilkundlich hochwertiger, als die Evidenzlage es zwingend hergibt"
+      usage: "Kann sinnvoll sein, wenn eine flüssige Form ausdrücklich gewünscht ist. Für nüchterne Preis-Leistung schneiden gute Eisenkapseln meist besser ab."
+  en:
+    summary: "A liquid iron product with an herbal profile and classic health-store image. Practical for some people, but not automatically better than good capsules."
+    verdictNote: "Fine for people who prefer liquids — but not a hidden quality shortcut compared with well-formulated iron capsules."
+    body:
+      description: "Floradix is a classic in the iron category, largely because of its **liquid format** and traditional herbal-health image. That can be practical if capsules are poorly tolerated or simply not preferred."
+      pros:
+        - "**Liquid format:** easier for some people to take than capsules"
+        - "**Well-known legacy brand**"
+        - "**Lower per-serving dose:** useful for a gentler start"
+      cons:
+        - "**Expensive per day**"
+        - "**Not automatically more effective or better absorbed** than good chelated capsules"
+        - "**Health-halo risk:** looks more wholesome than the actual evidence necessarily warrants"
+      usage: "Can make sense if a liquid format is explicitly preferred. On straightforward value-for-money, good iron capsules usually win."
+---

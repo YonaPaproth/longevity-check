@@ -1,0 +1,83 @@
+---
+id: pure-encapsulations-iron-25
+type: product
+
+meta:
+  title: "Pure Encapsulations Iron 25 mg"
+  ingredient: eisen
+  containedIngredients:
+    - slug: eisen
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com"
+  affiliateUrl: ""
+  priceEur: 24.90
+  doseMg: 25
+  servingsPerPack: 90
+  pricePerDayEur: 0.28
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-07-11"
+  lastPriceCheck: "2026-07-11"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Eisen ist evidenzstark bei echtem Mangel, Blutverlust, Schwangerschaft oder vegetarisch/veganer Risikolage. Ohne Mangel ist Zurückhaltung sinnvoll."
+      en: "Iron is evidence-based in true deficiency, blood loss, pregnancy, or higher-risk vegetarian/vegan contexts. Without deficiency, caution is appropriate."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "Nicht günstig, aber durch 90 Portionen noch fair kalkuliert. Für Premium-Apotheken-Positionierung akzeptabel."
+      en: "Not inexpensive, but still fair given the 90 servings. Acceptable for a premium practitioner-style positioning."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Pure Encapsulations steht typischerweise für reduzierte, verträgliche Formulierungen. Für Eisen ist das ein echter Qualitätsvorteil."
+      en: "Pure Encapsulations typically stands for reduced, tolerable formulations. That is a real quality advantage in iron products."
+  labelHonesty:
+    score: 9
+    explanation:
+      de: "Klinisch-sauberes Produktprofil ohne unnötige Versprechen. Das passt gut zu einem sensiblen Nährstoff wie Eisen."
+      en: "A clinically clean product profile without unnecessary promises. That fits a sensitive nutrient like iron well."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Vertrauenswürdige Marke, aber keine besonders starke unabhängige Prüfkommunikation auf Einzelebene sichtbar."
+      en: "A trusted brand, though no especially strong independent testing communication is visible at the individual-product level."
+
+locales:
+  de:
+    summary: "Sehr sauberer Premium-Eisen-Pick mit klinischerem Profil. Eher etwas für gezielte Mangelkorrektur als für billiges Daily-Supplementieren."
+    verdictNote: "Wenn du Eisen möglichst nüchtern, verträglich und ohne Marketing-Gebrüll willst, ist das einer der besseren Kandidaten."
+    body:
+      description: "Pure Encapsulations ist bei sensiblen Supplements oft stark, weil die Formulierungen in der Regel **reduziert und verträglich** gehalten sind. Gerade bei Eisen ist das wichtiger als bei vielen anderen Wirkstoffen."
+      pros:
+        - "**Sauberes Premium-Profil** mit eher klinischer Ausrichtung"
+        - "**25 mg Dosierung:** praktikabel für gezielte Ergänzung"
+        - "**Gute Markenreputation** bei sensiblen Formulierungen"
+      cons:
+        - "**Nicht günstig**"
+        - "**Trotzdem nur bei Bedarf sinnvoll:** Eisen ist kein Lifestyle-Supplement"
+        - "**Wenig spektakuläre Transparenz zu externer Prüfung**"
+      usage: "Besonders sinnvoll bei dokumentiertem Eisenmangel oder erhöhter Bedarfsphase. Langfristige Einnahme idealerweise anhand von Laborwerten steuern."
+  en:
+    summary: "A very clean premium iron pick with a more clinical profile. Better suited to targeted deficiency correction than casual daily use."
+    verdictNote: "If you want iron in a restrained, tolerable, low-hype format, this is one of the better options."
+    body:
+      description: "Pure Encapsulations is often strong in sensitive supplement categories because its formulas are usually **minimal and tolerable**. With iron, that matters more than it does with many other ingredients."
+      pros:
+        - "**Clean premium profile** with a more clinical feel"
+        - "**25 mg dose:** practical for targeted use"
+        - "**Strong brand reputation** in sensitive formulations"
+      cons:
+        - "**Not cheap**"
+        - "**Still only makes sense when needed:** iron is not a lifestyle supplement"
+        - "**Limited visible transparency on external testing**"
+      usage: "Most useful in documented iron deficiency or phases of increased need. Long-term use should ideally be guided by lab values."
+---
