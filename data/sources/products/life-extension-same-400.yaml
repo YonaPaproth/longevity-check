@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "SAMe hat gute Daten bei Stimmung und Leberwerten, insbesondere bei 400–1600 mg."
-      en: "SAMe hat gute Daten bei Stimmung und Leberwerten, insbesondere bei 400–1600 mg."
+      en: "SAMe has solid data for mood and liver markers, particularly at 400–1600 mg."
   valueForMoney:
     score: 6
     explanation:
       de: "1,47 € pro 400 mg ist üblich für streng qualitätsorientierte Qualität, aber kein Schnäppchen."
-      en: "1,47 € pro 400 mg ist üblich für streng qualitätsorientierte Qualität, aber kein Schnäppchen."
+      en: "€1.47 per 400 mg is typical for pharmaceutical-grade quality, but not a bargain."
   productQuality:
     score: 9
     explanation:
       de: "Enterisch beschichtete Tabletten, Blisterverpackung und Disulfatosylat stabilisieren den Wirkstoff bestens."
-      en: "Enterisch beschichtete Tabletten, Blisterverpackung und Disulfatosylat stabilisieren den Wirkstoff bestens."
+      en: "Enteric-coated tablets, blister packaging, and the disulfate tosylate salt form optimally stabilize the active compound."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklaration und Hinweise zu Einnahme/Wechselwirkung (z. B. SSRIs) sind vorbildlich."
-      en: "Deklaration und Hinweise zu Einnahme/Wechselwirkung (z. B. SSRIs) sind vorbildlich."
+      en: "Labeling and instructions regarding dosing and interactions (e.g., SSRIs) are exemplary."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Life Extension veröffentlicht COAs und testet jede Charge auf Potenz."
-      en: "Life Extension veröffentlicht COAs und testet jede Charge auf Potenz."
+      en: "Life Extension publishes COAs and tests every batch for potency."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Keine vegane Kennzeichnung** (Tabletts enthalten evtl. tierische Bestandteile)"
       usage: "1 Tablette morgens nüchtern mit Wasser. Bei therapeutischem Einsatz mit Ärzt:in sprechen; ggf. auf 2 Tabletten täglich (morgens/mit Tagsüber) aufteilen. Nicht mit SSRI ohne fachliche Begleitung kombinieren."
   en:
-    summary: "Stabil verpacktes 400-mg-SAMe-Disulfatosylat von Life Extension, blistergewird mit Schutzmechanismen in Verbindung gebracht und cGMP-gefertigt."
-    verdictNote: "Einer der zuverlässigsten SAMe-Picks für therapeutische Dosierungen."
+    summary: "Blister-packed 400 mg SAMe disulfate tosylate from Life Extension — moisture-protected and cGMP-manufactured."
+    verdictNote: "One of the most reliable SAMe picks for therapeutic dosing."
     body:
-      description: "Life Extension liefert **400 mg SAMe Disulfatosylat** pro Tablette. Die Blisterverpackung ist auf Schutz vor ausgerichtet bei Feuchtigkeit, die enterische Beschichtung sorgt dafür, dass der Wirkstoff erst im Dünndarm freigesetzt wird."
+      description: "Life Extension delivers **400 mg SAMe disulfate tosylate** per tablet. Blister packaging protects against moisture; enteric coating ensures release in the small intestine rather than the stomach."
       pros:
-        - "**Disulfatosylat-Form** für hohe Stabilität"
-        - "**Blisterverpackt** – jede Tablette einzeln geist auf Schutz ausgerichtet"
-        - "**cGMP-Fertigung**"
-        - "**400 mg Dosierung** passend für klinische Protokolle"
+        - "**Disulfate tosylate form** for maximum stability"
+        - "**Blister-packed** — each tablet individually protected"
+        - "**cGMP manufacturing**"
+        - "**400 mg dose** aligned with clinical protocols"
       cons:
-        - "**Preislich im oberen Segment**"
-        - "**Nur 30 Portionen** – reicht oft nur einen Monat"
-        - "**Keine vegane Kennzeichnung** (Tabletts enthalten evtl. tierische Bestandteile)"
-      usage: "1 Tablette morgens nüchtern mit Wasser. Bei therapeutischem Einsatz mit Ärzt:in sprechen; ggf. auf 2 Tabletten täglich (morgens/mit Tagsüber) aufteilen. Nicht mit SSRI ohne fachliche Begleitung kombinieren."
+        - "**Premium price point**"
+        - "**Only 30 servings** — typically lasts one month"
+        - "**No vegan label** (tablets may contain animal-derived excipients)"
+      usage: "1 tablet in the morning on an empty stomach with water. For therapeutic use, consult a physician; the dose may be split to 2 tablets daily (morning and midday). Do not combine with SSRIs without professional guidance."
 ---

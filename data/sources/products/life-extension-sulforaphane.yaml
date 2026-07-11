@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Sulforaphan aktiviert Nrf2 und Phase-II-Enzyme, mehrere Humanstudien zeigen antioxidative und entzündungsmodulierende Effekte."
-      en: "Sulforaphan aktiviert Nrf2 und Phase-II-Enzyme, mehrere Humanstudien zeigen antioxidative und entzündungsmodulierende Effekte."
+      en: "Sulforaphane activates Nrf2 and phase-II enzymes; multiple human studies show antioxidant and anti-inflammatory effects."
   valueForMoney:
     score: 7
     explanation:
       de: "1,20 € pro Tag ist ok für BroccoRaphanin + Myrosinase."
-      en: "1,20 € pro Tag ist ok für BroccoRaphanin + Myrosinase."
+      en: "€1.20 per day is acceptable for BroccoRaphanin plus myrosinase."
   productQuality:
     score: 9
     explanation:
       de: "Life Extension arbeitet mit Seagate-Myrosinase und testet auf Glucoraphanin-Gehalt."
-      en: "Life Extension arbeitet mit Seagate-Myrosinase und testet auf Glucoraphanin-Gehalt."
+      en: "Life Extension works with Seagate myrosinase and tests for glucoraphanin content."
   labelHonesty:
     score: 9
     explanation:
       de: "Aktive Enzyme und Mengen offen deklariert."
-      en: "Aktive Enzyme und Mengen offen deklariert."
+      en: "Active enzymes and amounts are openly declared."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "COAs zeigen Myrosinaseaktivität und Schwermetallfreiheit."
-      en: "COAs zeigen Myrosinaseaktivität und Schwermetallfreiheit."
+      en: "COAs confirm myrosinase activity and absence of heavy metals."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kann bei empfindlichem Magen Schwefelgeruch auslösen"
       usage: "1 Kapsel täglich zusammen mit einer leichten Mahlzeit einnehmen, gut kauen bzw. öffnen ist nicht nötig. Für bessere Aktivierung etwas Senf oder Rettich essen."
   en:
-    summary: "BroccoRaphanin-Rohstoff liefert 400 mg Glucoraphanin plus Myrosinase zur Nrf2-Aktivierung."
-    verdictNote: "Eines der bestdokumentierten Sulforaphan-Produkte mit BroccoRaphanin-Rohstoff und Myrosinase-Aktivator."
+    summary: "BroccoRaphanin ingredient delivers 400 mg glucoraphanin plus myrosinase for Nrf2 activation."
+    verdictNote: "One of the best-documented sulforaphane products, using the BroccoRaphanin ingredient with a myrosinase activator."
     body:
-      description: "Jede Kapsel enthält 400 mg BroccoRaphanin-Konzentrat plus ein separates Myrosinase-Enzym aus Rettichsamen, sodass der Körper Sulforaphan erst bei der Verdauung bildet."
+      description: "Each capsule contains 400 mg BroccoRaphanin concentrate plus a separate myrosinase enzyme from radish seeds, so sulforaphane is produced during digestion rather than being pre-formed."
       pros:
-        - "Kombination aus Glucoraphanin und aktivem Enzym"
-        - "Vegane Kapseln, keine Farbstoffe"
-        - "Liefert standardisierte Menge – kein Brokkolisprossen-Chaos"
+        - "Glucoraphanin and active enzyme in one capsule"
+        - "Vegan capsules, no dyes"
+        - "Delivers a standardized amount — more reliable than broccoli sprouts"
       cons:
-        - "Nur 30 Portionen – Kosten summieren sich schnell"
-        - "Kann bei empfindlichem Magen Schwefelgeruch auslösen"
-      usage: "1 Kapsel täglich zusammen mit einer leichten Mahlzeit einnehmen, gut kauen bzw. öffnen ist nicht nötig. Für bessere Aktivierung etwas Senf oder Rettich essen."
+        - "Only 30 servings — costs add up quickly"
+        - "May cause sulfur odor in those with sensitive digestion"
+      usage: "1 capsule daily with a light meal; no need to chew or open the capsule. Eating a small amount of mustard or radish alongside can improve sulforaphane conversion."
 ---

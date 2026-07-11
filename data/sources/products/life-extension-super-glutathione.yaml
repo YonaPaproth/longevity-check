@@ -30,27 +30,27 @@ ratings:
     score: 6
     explanation:
       de: "Orales Glutathion zeigt begrenzte, aber wachsende Evidenz für Immun- und Hautmarker; Kombination mit Cystein verbesserte Spiegel."
-      en: "Orales Glutathion zeigt begrenzte, aber wachsende Evidenz für Immun- und Hautmarker; Kombination mit Cystein verbesserte Spiegel."
+      en: "Oral glutathione shows limited but growing evidence for immune and skin markers; combining with cysteine improved levels in studies."
   valueForMoney:
     score: 7
     explanation:
       de: "0,32 € pro Portion mit drei synergistischen Wirkstoffen ist attraktiv."
-      en: "0,32 € pro Portion mit drei synergistischen Wirkstoffen ist attraktiv."
+      en: "€0.32 per serving with three synergistic active compounds is attractive."
   productQuality:
     score: 8
     explanation:
       de: "Setria-Glutathion, streng qualitätsorientiertes Cystein und Ascorbinsäure unter GMP-Bedingungen."
-      en: "Setria-Glutathion, streng qualitätsorientiertes Cystein und Ascorbinsäure unter GMP-Bedingungen."
+      en: "Setria glutathione, pharmaceutical-grade cysteine, and ascorbic acid produced under GMP conditions."
   labelHonesty:
     score: 8
     explanation:
       de: "Alle Mengen klar aufgeführt, inklusive Hilfsstoffe."
-      en: "Alle Mengen klar aufgeführt, inklusive Hilfsstoffe."
+      en: "All amounts clearly listed, including excipients."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Life Extension veröffentlicht COAs für Ärztepartner; unabhängige Tests verfügbar."
-      en: "Life Extension veröffentlicht COAs für Ärztepartner; unabhängige Tests verfügbar."
+      en: "Life Extension publishes COAs for physician partners; independent testing available."
 
 locales:
   de:
@@ -68,17 +68,17 @@ locales:
         - "Kapseln enthalten Gelatine"
       usage: "1 Kapsel morgens zu einer Mahlzeit. Bei erhöhter Belastung zweite Kapsel am Nachmittag ergänzen und ausreichend Wasser trinken."
   en:
-    summary: "Setria-Glutathion plus Cystein und Vitamin C in einer Kapsel für täglichen Redox-Kontext."
-    verdictNote: "Praktische All-in-One-Kapsel für Anwender, die Glutathion mit Cofaktoren in standardisierter Qualität suchen."
+    summary: "Setria glutathione plus cysteine and vitamin C in one capsule for daily redox support."
+    verdictNote: "A practical all-in-one capsule for those who want glutathione with cofactors in standardized quality."
     body:
-      description: "Jede Kapsel enthält 100 mg reduziertes Glutathion (Setria), 500 mg L-Cystein und 500 mg Vitamin C. Die Kombination zielt auf ein stabiles Redox-Gleichgewicht und unterstützt die körpereigene Glutathionsynthese."
+      description: "Each capsule contains 100 mg reduced glutathione (Setria), 500 mg L-cysteine, and 500 mg vitamin C. The combination targets a stable redox balance and supports endogenous glutathione synthesis."
       pros:
-        - "Setria Markenrohstoff mit belegter Bioverfügbarkeit"
-        - "Kombiniert Vorstufe (Cystein) und Cofaktor (Vitamin C)"
-        - "100 Portionen reichen mehr als drei Monate"
-        - "Frei von Magnesiumstearat"
+        - "Setria branded ingredient with documented bioavailability"
+        - "Combines precursor (cysteine) and cofactor (vitamin C)"
+        - "100 servings last over three months"
+        - "Free of magnesium stearate"
       cons:
-        - "Keine liposomale Darreichung"
-        - "Kapseln enthalten Gelatine"
-      usage: "1 Kapsel morgens zu einer Mahlzeit. Bei erhöhter Belastung zweite Kapsel am Nachmittag ergänzen und ausreichend Wasser trinken."
+        - "No liposomal delivery form"
+        - "Capsules contain gelatin"
+      usage: "1 capsule with a morning meal. Under increased oxidative load, add a second capsule in the afternoon and drink plenty of water."
 ---

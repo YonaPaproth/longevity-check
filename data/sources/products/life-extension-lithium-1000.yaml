@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Niedrig dosiertes Lithium korreliert mit besserer Stimmung und neurobiologische Forschung in Beobachtungen."
-      en: "Niedrig dosiertes Lithium korreliert mit besserer Stimmung und neurobiologische Forschung in Beobachtungen."
+      en: "Low-dose lithium correlates with improved mood in observational data; neurobiological research is ongoing."
   valueForMoney:
     score: 9
     explanation:
       de: "0,14 € pro Microdose ist sehr günstig."
-      en: "0,14 € pro Microdose ist sehr günstig."
+      en: "€0.14 per microdose is very affordable."
   productQuality:
     score: 8
     explanation:
       de: "Bioverfügbares Lithiumorotat mit cGMP-Produktion."
-      en: "Bioverfügbares Lithiumorotat mit cGMP-Produktion."
+      en: "Bioavailable lithium orotate manufactured under cGMP."
   labelHonesty:
     score: 9
     explanation:
       de: "Angabe von elementarem Lithium und Orotat-Träger."
-      en: "Angabe von elementarem Lithium und Orotat-Träger."
+      en: "Elemental lithium content and orotate carrier are clearly stated."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Regelmäßige Schwermetall- und Reinheitsprüfungen."
-      en: "Regelmäßige Schwermetall- und Reinheitsprüfungen."
+      en: "Regular heavy metal and purity testing."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Keine offiziellen Lithium-Serumdaten"
       usage: "1 Tablette täglich zu einer Mahlzeit, bei Erstanwendung 2-3 Mal pro Woche beginnen und Werte monitoren."
   en:
-    summary: "Mikrodosiertes Lithiumorotat mit 1000 mcg Lithium pro Tablette zur Neuro-Kontext."
-    verdictNote: "Sanfte niedrige Dosierung für Neuro- und Langlebigkeitsfans."
+    summary: "Microdose lithium orotate with 1000 mcg lithium per tablet for neurological support contexts."
+    verdictNote: "Gentle low-dose option for neuro and longevity enthusiasts."
     body:
-      description: "Jede Mini-Tablette liefert 1000 mcg elementares Lithium als Lithiumorotat. Größe eignet sich gut zum Splitten."
+      description: "Each small tablet delivers 1000 mcg elemental lithium as lithium orotate. The compact size is well-suited for splitting."
       pros:
-        - "Sehr kleine Tabletten"
-        - "Gut teilbar"
-        - "cGMP-Qualität"
+        - "Very small tablets"
+        - "Easy to split"
+        - "cGMP quality"
       cons:
-        - "Orotat kann Magen reizen"
-        - "Keine offiziellen Lithium-Serumdaten"
-      usage: "1 Tablette täglich zu einer Mahlzeit, bei Erstanwendung 2-3 Mal pro Woche beginnen und Werte monitoren."
+        - "Orotate may irritate the stomach"
+        - "No official lithium serum monitoring data provided"
+      usage: "1 tablet daily with a meal. When starting out, begin 2–3 times per week and monitor levels before increasing frequency."
 ---

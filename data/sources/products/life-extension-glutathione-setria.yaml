@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Orales Glutathion zeigte in neuen Studien steigende Blutspiegel, aber Effekte variieren."
-      en: "Orales Glutathion zeigte in neuen Studien steigende Blutspiegel, aber Effekte variieren."
+      en: "Oral glutathione showed increasing blood levels in recent studies, but effects vary."
   valueForMoney:
     score: 5
     explanation:
       de: "1,73 € pro Tag ist kostspielig, insbesondere bei Daueranwendung."
-      en: "1,73 € pro Tag ist kostspielig, insbesondere bei Daueranwendung."
+      en: "€1.73 per day is costly, especially for long-term use."
   productQuality:
     score: 8
     explanation:
       de: "Setria ist reduziertes L-Glutathion mit dokumentierter Stabilität."
-      en: "Setria ist reduziertes L-Glutathion mit dokumentierter Stabilität."
+      en: "Setria is reduced L-glutathione with documented stability."
   labelHonesty:
     score: 8
     explanation:
       de: "Life Extension listet Ko-Faktoren transparent, keine proprietären Blends."
-      en: "Life Extension listet Ko-Faktoren transparent, keine proprietären Blends."
+      en: "Life Extension lists co-factors transparently, no proprietary blends."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Setria wird mehrfach auf Oxidationsstatus geprüft, zusätzlich Life-Extension-eigene Labore."
-      en: "Setria wird mehrfach auf Oxidationsstatus geprüft, zusätzlich Life-Extension-eigene Labore."
+      en: "Setria undergoes multiple oxidation status checks; additional Life Extension in-house lab testing."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Geschmacksnote von Schwefel kann aufstoßen"
       usage: "1 Kapsel nüchtern oder mit leichter Mahlzeit, optional zweite Kapsel nach Belastung oder Fastentagen."
   en:
-    summary: "Setria-Glutathion mit 500 mg pro Kapsel plus Vitamin C zur Stabilisierung – klinisch validierter Rohstoff."
-    verdictNote: "Setria-Dreifachpatent und Zusatzbooster wie Phospholipide machen das Produkt zu einem gut deklarierten Glutathion-Supplement."
+    summary: "500 mg Setria glutathione per capsule plus vitamin C for stabilization — clinically validated ingredient."
+    verdictNote: "Setria's triple patent and supporting boosters like phospholipids make this a well-documented glutathione supplement."
     body:
-      description: "Life Extension kombiniert 500 mg Setria-Glutathion mit Vitamin C und einem speziellen Lecithin-Komplex, um den empfindlichen Tripeptid-Spiegel im Blut zu erhöhen."
+      description: "Life Extension combines 500 mg Setria glutathione with vitamin C and a specialized lecithin complex to support blood tripeptide levels."
       pros:
-        - "Verwendet den klinisch untersuchten Setria-Rohstoff"
-        - "Zusatz-Vitamin C ist auf Schutz vor ausgerichtet bei Oxidation"
-        - "Vegetarische Kapseln ohne Titanoxid"
+        - "Uses the clinically studied Setria ingredient"
+        - "Added vitamin C protects against oxidation"
+        - "Vegetarian capsules without titanium dioxide"
       cons:
-        - "Nur 30 Portionen pro Dose"
-        - "Geschmacksnote von Schwefel kann aufstoßen"
-      usage: "1 Kapsel nüchtern oder mit leichter Mahlzeit, optional zweite Kapsel nach Belastung oder Fastentagen."
+        - "Only 30 servings per bottle"
+        - "Sulfur aftertaste may cause burping"
+      usage: "1 capsule on an empty stomach or with a light meal; optionally add a second capsule after exertion or on fasting days."
 ---

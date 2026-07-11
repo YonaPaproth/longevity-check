@@ -38,27 +38,27 @@ ratings:
     score: 8
     explanation:
       de: "Breites Spektrum aus B-Vitaminen, Mineralien und sekundären Pflanzenstoffen deckt die wichtigsten Basisnutrien ab."
-      en: "Breites Spektrum aus B-Vitaminen, Mineralien und sekundären Pflanzenstoffen deckt die wichtigsten Basisnutrien ab."
+      en: "Broad spectrum of B vitamins, minerals, and phytonutrients covers the most important baseline nutrients."
   valueForMoney:
     score: 7
     explanation:
       de: "0,60 € pro Portion für 78 Zutaten ist fair, auch wenn einige Dosierungen moderat bleiben."
-      en: "0,60 € pro Portion für 78 Zutaten ist fair, auch wenn einige Dosierungen moderat bleiben."
+      en: "€0.60 per serving for 78 ingredients is fair, even if some doses remain modest."
   productQuality:
     score: 8
     explanation:
       de: "Life Extension produziert nach cGMP und veröffentlicht COAs."
-      en: "Life Extension produziert nach cGMP und veröffentlicht COAs."
+      en: "Life Extension manufactures under cGMP and publishes certificates of analysis."
   labelHonesty:
     score: 9
     explanation:
       de: "Jede Komponente mit Menge aufgeschlüsselt, keine Proprietary Blend."
-      en: "Jede Komponente mit Menge aufgeschlüsselt, keine Proprietary Blend."
+      en: "Every component listed with its amount; no proprietary blends."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Stichprobenuntersuchungen auf Schwermetalle und Potenz werden veröffentlicht."
-      en: "Stichprobenuntersuchungen auf Schwermetalle und Potenz werden veröffentlicht."
+      en: "Batch testing for heavy metals and potency is published."
 
 locales:
   de:
@@ -75,16 +75,16 @@ locales:
         - "Tabletten relativ groß und schwer zu schlucken"
       usage: "3 Tabletten täglich zu Mahlzeiten mit Fett und Eiweiß aufteilen, um fettlösliche Carotinoide besser aufzunehmen."
   en:
-    summary: "Multinährstoff mit 78 Inhaltsstoffen inkl. aktiven B-Vitaminen, Carotinoiden und Pflanzenextrakten für tägliche Basisversorgung."
-    verdictNote: "Solider All-in-One-Komplex für alle, die nicht 10 Einzelpräparate dosieren wollen."
+    summary: "Multinutrient with 78 ingredients including active B vitamins, carotenoids, and plant extracts for daily baseline nutrition."
+    verdictNote: "A solid all-in-one complex for those who don't want to manage 10 separate supplements."
     body:
-      description: "Life Extension Mix Tablets liefern ein breites Fundament aus aktiven B-Vitaminen, organischen Mineralien, Carotinoiden, Standardisaten aus Brokkoli, Grüntee und Resveratrol sowie Spurenelementen wie Bor."
+      description: "Life Extension Mix Tablets provide a broad foundation of active B vitamins, organic minerals, carotenoids, standardized extracts from broccoli, green tea, and resveratrol, plus trace minerals like boron."
       pros:
-        - "Aktive Coenzymformen (P-5-P, Methylfolat, Methylcobalamin)"
-        - "Plant-based Antioxidantien wie Quercetin, PQQ, Lutein"
-        - "Tabletten lassen sich teilen, wenn halbe Dosis reicht"
+        - "Active coenzyme forms (P-5-P, methylfolate, methylcobalamin)"
+        - "Plant-based antioxidants including quercetin, PQQ, and lutein"
+        - "Tablets can be split if a half dose is sufficient"
       cons:
-        - "Einige Mineralien wie Magnesium sind nur symbolisch dosiert"
-        - "Tabletten relativ groß und schwer zu schlucken"
-      usage: "3 Tabletten täglich zu Mahlzeiten mit Fett und Eiweiß aufteilen, um fettlösliche Carotinoide besser aufzunehmen."
+        - "Some minerals like magnesium are only token-dosed"
+        - "Tablets are relatively large and can be difficult to swallow"
+      usage: "Split 3 tablets across meals containing fat and protein to improve absorption of fat-soluble carotenoids."
 ---

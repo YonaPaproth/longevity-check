@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Zink-Lutschtabletten verkürzen laut Metaanalysen die Erkältungsdauer leicht, sofern frühzeitig eingesetzt."
-      en: "Zink-Lutschtabletten verkürzen laut Metaanalysen die Erkältungsdauer leicht, sofern frühzeitig eingesetzt."
+      en: "Zinc lozenges modestly reduce cold duration according to meta-analyses, provided they are used early."
   valueForMoney:
     score: 8
     explanation:
       de: "0,23 € pro Lutschtablette mit 18,75 mg Zinkacetat ist sehr günstig für einen Markenhersteller."
-      en: "0,23 € pro Lutschtablette mit 18,75 mg Zinkacetat ist sehr günstig für einen Markenhersteller."
+      en: "€0.23 per lozenge with 18.75 mg zinc acetate is very affordable for a branded product."
   productQuality:
     score: 7
     explanation:
       de: "Life Extension fertigt cGMP, nutzt streng qualitätsorientierte Zinkacetat-Qualität und aromatisiert moderat."
-      en: "Life Extension fertigt cGMP, nutzt streng qualitätsorientierte Zinkacetat-Qualität und aromatisiert moderat."
+      en: "Life Extension manufactures under cGMP, uses high-quality zinc acetate, and keeps flavoring moderate."
   labelHonesty:
     score: 8
     explanation:
       de: "Dosierung, Salzform und Anwendungshinweise sind sehr klar kommuniziert."
-      en: "Dosierung, Salzform und Anwendungshinweise sind sehr klar kommuniziert."
+      en: "Dosage, salt form, and usage instructions are communicated clearly."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Kein NSF, aber Life Extension veröffentlicht Analysenzertifikate."
-      en: "Kein NSF, aber Life Extension veröffentlicht Analysenzertifikate."
+      en: "No NSF certification, but Life Extension publishes certificates of analysis."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Lutschtabletten enthalten Zitronensäure**, was bei empfindlichen Zähnen relevant ist"
       usage: "Bei den ersten Halsschmerzen alle 2–3 Stunden 1 Lutschtablette im Mund zergehen lassen, maximal 6 pro Tag und nicht länger als eine Woche am Stück. Für Dauerbedarf lieber niedrigere Tagesdosen wählen."
   en:
-    summary: "18,75 mg Zinkacetat als Lutschtablette für akute Immunphasen, Life-Extension-Qualität und angenehmer Citrusgeschmack."
-    verdictNote: "Wenn es um Zink-Lutschtabletten für die Reiseapotheke geht, ist das unser bevorzugtes Produkt."
+    summary: "18.75 mg zinc acetate lozenges for acute immune support — Life Extension quality with a pleasant citrus flavor."
+    verdictNote: "Our preferred zinc lozenge for the travel medicine kit."
     body:
-      description: "Diese Lutschtabletten liefern **18,75 mg Zink als Zinkacetat**. Die Form eignet sich besonders für die ersten Erkältungssymptome, weil der Wirkstoff direkt über die Mundschleimhaut abgegeben wird."
+      description: "Each lozenge delivers **18.75 mg zinc as zinc acetate**. The format is particularly suited for the first signs of a cold, as the active compound is released directly via the oral mucosa."
       pros:
-        - "**Zinkacetat statt Glukonat:** Studienbasis zur Erkältungsverkürzung ist besser"
-        - "**Angenehmer Lutschgeschmack** ohne übertriebenes Süßungsmittel"
-        - "**cGMP-Hersteller** mit verlässlicher Supply Chain"
-        - "**Günstiger Preis pro Portioneinheit**"
+        - "**Zinc acetate over gluconate:** better evidence base for shortening cold duration"
+        - "**Pleasant lozenge taste** without excessive sweeteners"
+        - "**cGMP manufacturer** with a reliable supply chain"
+        - "**Low cost per serving**"
       cons:
-        - "**Zuckeralkohole:** können Magen-Darm empfindliche Menschen stören"
-        - "**Kein zusätzlicher Kupferausgleich** bei Dauernutzung"
-        - "**Lutschtabletten enthalten Zitronensäure**, was bei empfindlichen Zähnen relevant ist"
-      usage: "Bei den ersten Halsschmerzen alle 2–3 Stunden 1 Lutschtablette im Mund zergehen lassen, maximal 6 pro Tag und nicht länger als eine Woche am Stück. Für Dauerbedarf lieber niedrigere Tagesdosen wählen."
+        - "**Sugar alcohols:** may cause GI discomfort in sensitive individuals"
+        - "**No copper supplementation** for long-term use"
+        - "**Contains citric acid**, which may be relevant for sensitive teeth"
+      usage: "At the first sign of a sore throat, let 1 lozenge dissolve every 2–3 hours, up to 6 per day, for no longer than one week. For maintenance use, choose lower daily doses instead."
 ---

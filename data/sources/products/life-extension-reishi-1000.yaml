@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Reishi besitzt klinische Daten zu Immunmodulation, Schlaf und Entzündung, wenn auch aus kleineren RCTs."
-      en: "Reishi besitzt klinische Daten zu Immunmodulation, Schlaf und Entzündung, wenn auch aus kleineren RCTs."
+      en: "Reishi has clinical data on immune modulation, sleep, and inflammation, though from smaller RCTs."
   valueForMoney:
     score: 8
     explanation:
       de: "0,47 € pro 1 g Extrakt mit geprüfter Herkunft ist fair gegenüber Importen."
-      en: "0,47 € pro 1 g Extrakt mit geprüfter Herkunft ist fair gegenüber Importen."
+      en: "€0.47 per 1 g of tested-source extract is fair compared to bulk imports."
   productQuality:
     score: 9
     explanation:
       de: "Life Extension nutzt Dualextraktion mit 30 % Polysacchariden und prüft jede Charge auf Kontaminanten."
-      en: "Life Extension nutzt Dualextraktion mit 30 % Polysacchariden und prüft jede Charge auf Kontaminanten."
+      en: "Life Extension uses dual extraction with 30% polysaccharides and tests every batch for contaminants."
   labelHonesty:
     score: 9
     explanation:
       de: "Polysaccharid- und Triterpengehalte sind klar angegeben und decken sich mit COA."
-      en: "Polysaccharid- und Triterpengehalte sind klar angegeben und decken sich mit COA."
+      en: "Polysaccharide and triterpene contents are clearly stated and match the COA."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "COA mit Mikroben, Pestiziden und Schwermetallen wird veröffentlicht."
-      en: "COA mit Mikroben, Pestiziden und Schwermetallen wird veröffentlicht."
+      en: "COA covering microbial, pesticide, and heavy metal testing is published."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Selten in lokalen Shops verfügbar"
       usage: "2 Kapseln am Abend zu einer kleinen Mahlzeit, zyklisch 5 Tage on / 2 Tage off für langfristige Immunprotokolle."
   en:
-    summary: "Hochdosierter Reishi-Dualextrakt mit standardisierten Polysacchariden und unabhängiger Life-Extension-Qualitätskontrolle."
-    verdictNote: "Hoch dosierter Reishi für Immun- und Schlaf-Kontexte mit 1-g-Portion."
+    summary: "High-dose reishi dual extract with standardized polysaccharides and Life Extension quality control."
+    verdictNote: "High-dose reishi for immune and sleep support with a 1 g per serving dose."
     body:
-      description: "Dualextrakt aus Reishi-Fruchtkörpern. Je zwei Kapseln liefern 1000 mg mit garantierten 30 % Polysacchariden und 4 % Triterpenen für spürbare Immunmodulation."
+      description: "Dual extract from reishi fruiting bodies. Two capsules deliver 1000 mg with guaranteed 30% polysaccharides and 4% triterpenes for meaningful immune modulation."
       pros:
-        - "1 g Extrakt pro Portion deckt klinische Dosierungen ab"
-        - "Charge-by-Charge COA mit Schwermetall-Checks"
-        - "Veganes Pullulan-Kapselmaterial"
+        - "1 g extract per serving covers clinically relevant doses"
+        - "Batch-by-batch COA with heavy metal checks"
+        - "Vegan pullulan capsule material"
       cons:
-        - "Zwei Kapseln täglich sind für Minimalisten viel"
-        - "Selten in lokalen Shops verfügbar"
-      usage: "2 Kapseln am Abend zu einer kleinen Mahlzeit, zyklisch 5 Tage on / 2 Tage off für langfristige Immunprotokolle."
+        - "Two capsules daily may feel like a lot for minimalists"
+        - "Rarely available in local stores"
+      usage: "2 capsules in the evening with a small meal. For long-term immune protocols, cycle 5 days on / 2 days off."
 ---

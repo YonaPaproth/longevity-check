@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "PQQ zeigt erste Humanstudien zu kognitiver Müdigkeit und Mitochondrienbiogenese, aber Datenlage ist noch schlank."
-      en: "PQQ zeigt erste Humanstudien zu kognitiver Müdigkeit und Mitochondrienbiogenese, aber Datenlage ist noch schlank."
+      en: "PQQ has initial human studies on cognitive fatigue and mitochondrial biogenesis, but the evidence base remains thin."
   valueForMoney:
     score: 7
     explanation:
       de: "0,93 € pro Tag ist akzeptabel für Markenrohstoff."
-      en: "0,93 € pro Tag ist akzeptabel für Markenrohstoff."
+      en: "€0.93 per day is acceptable for a branded ingredient."
   productQuality:
     score: 9
     explanation:
       de: "Life Extension nutzt BioPQQ mit dokumentierter Reinheit."
-      en: "Life Extension nutzt BioPQQ mit dokumentierter Reinheit."
+      en: "Life Extension uses BioPQQ with documented purity."
   labelHonesty:
     score: 9
     explanation:
       de: "Nur PQQ und pflanzliche Kapsel, keine Mischungen."
-      en: "Nur PQQ und pflanzliche Kapsel, keine Mischungen."
+      en: "Only PQQ and a plant-based capsule — no blends."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "COAs mit HPLC-Daten verfügbar, plus Heavy-Metal-Tests."
-      en: "COAs mit HPLC-Daten verfügbar, plus Heavy-Metal-Tests."
+      en: "COAs with HPLC data available, plus heavy metal testing."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Keine Kombination mit B-Vitaminen trotz Synergie"
       usage: "1 Kapsel morgens zusammen mit CoQ10 oder einem fettreichen Frühstück einnehmen, um die Aufnahme zu verbessern."
   en:
-    summary: "BioPQQ-Kapseln für mitochondrialen Kontext mit cGMP-Herstellung und guter Verträglichkeit."
-    verdictNote: "Einsteigerfreundliche 10-mg-Dosis für neugierige Biohacker:innen."
+    summary: "BioPQQ capsules for mitochondrial support, cGMP-manufactured with good tolerability."
+    verdictNote: "Beginner-friendly 10 mg dose for curious biohackers."
     body:
-      description: "Die Kapseln enthalten 10 mg BioPQQ (Pyrrolochinolinchinon) mit Reismehl als Träger. Jede Charge wird auf Lösungsmittelrückstände geprüft."
+      description: "Each capsule contains 10 mg BioPQQ (pyrroloquinoline quinone) with rice flour as carrier. Every batch is tested for solvent residues."
       pros:
-        - "BioPQQ ist der am besten untersuchte Rohstoff"
-        - "Vegane Kapseln, leicht zu schlucken"
-        - "Gute Kombination mit CoQ10 oder Ubiquinol"
+        - "BioPQQ is the most studied ingredient in this category"
+        - "Vegan capsules, easy to swallow"
+        - "Pairs well with CoQ10 or ubiquinol"
       cons:
-        - "Nur 30 Portionen – Monatsabo nötig"
-        - "Keine Kombination mit B-Vitaminen trotz Synergie"
-      usage: "1 Kapsel morgens zusammen mit CoQ10 oder einem fettreichen Frühstück einnehmen, um die Aufnahme zu verbessern."
+        - "Only 30 servings — requires monthly repurchase"
+        - "No B-vitamin combination despite known synergy"
+      usage: "1 capsule in the morning alongside CoQ10 or a fat-containing meal to improve absorption."
 ---

@@ -31,27 +31,27 @@ ratings:
     score: 3
     explanation:
       de: "Resveratrol zeigt beeindruckende Laborergebnisse, scheiterte aber in großen RCTs am Menschen. Klinischer Nutzen beim Gesunden unklar."
-      en: "Resveratrol zeigt beeindruckende Laborergebnisse, scheiterte aber in großen RCTs am Menschen. Klinischer Nutzen beim Gesunden unklar."
+      en: "Resveratrol shows impressive lab results but has underperformed in large human RCTs. Clinical benefit in healthy individuals remains unclear."
   valueForMoney:
     score: 6
     explanation:
       de: "0,50 € pro Tag für 100 mg Trans-Resveratrol plus Begleitstoffe. Akzeptabel, aber bei unsicherer Evidenzlage schwer zu rechtfertigen."
-      en: "0,50 € pro Tag für 100 mg Trans-Resveratrol plus Begleitstoffe. Akzeptabel, aber bei unsicherer Evidenzlage schwer zu rechtfertigen."
+      en: "€0.50 per day for 100 mg trans-resveratrol plus companion compounds. Acceptable, but hard to justify given uncertain evidence."
   productQuality:
     score: 7
     explanation:
       de: "Life Extension kombiniert Resveratrol sinnvoll mit verwandten Polyphenolen. Trans-Form (bioaktive Form) korrekt deklariert."
-      en: "Life Extension kombiniert Resveratrol sinnvoll mit verwandten Polyphenolen. Trans-Form (bioaktive Form) korrekt deklariert."
+      en: "Life Extension sensibly combines resveratrol with related polyphenols. The trans-form (bioactive) is correctly declared."
   labelHonesty:
     score: 7
     explanation:
       de: "Life Extension kommuniziert vorsichtig und verweist auf Forschung. Manche Marketingtexte sind ambitionierter als die Datenlage hergibt."
-      en: "Life Extension kommuniziert vorsichtig und verweist auf Forschung. Manche Marketingtexte sind ambitionierter als die Datenlage hergibt."
+      en: "Life Extension communicates cautiously and cites research. Some marketing text is more ambitious than the evidence supports."
   thirdPartyTesting:
     score: 5
     explanation:
       de: "Keine externe Zertifizierung. Life Extension hat guten Industrieruf und testet intern, aber keine unabhängige Verifikation."
-      en: "Keine externe Zertifizierung. Life Extension hat guten Industrieruf und testet intern, aber keine unabhängige Verifikation."
+      en: "No external certification. Life Extension has a good industry reputation and tests internally, but no independent verification."
 
 locales:
   de:
@@ -68,16 +68,16 @@ locales:
         - "**Bioverfügbarkeit:** Liposomales Resveratrol oder Pterostilben (ein Resveratrol-Analogon) hätten möglicherweise bessere Resorption"
       usage: ""
   en:
-    summary: "Life Extension kombiniert Trans-Resveratrol mit Quercetin und Fisetin. Sinnvolle Kombination, aber Humanstudien zu Resveratrol bleiben enttäuschend."
-    verdictNote: "Für Resveratrol-Enthusiasten eine sinnvolle Formulierung. Die Evidenzlage beim Menschen bleibt jedoch schwach — die Erwartungen sollten gedämpft sein."
+    summary: "Trans-resveratrol combined with quercetin and fisetin. Sensible formulation, but human evidence for resveratrol remains disappointing."
+    verdictNote: "A reasonable formulation for resveratrol enthusiasts. Human evidence remains weak — expectations should be tempered."
     body:
-      description: "Life Extension ist eine der ältesten und bekanntesten US-Supplementmarken, gegründet 1980. Das Optimized Resveratrol kombiniert 100 mg Trans-Resveratrol mit Quercetin und Fisetin — zwei verwandten Polyphenolen mit ähnlichen postulierten Wirkmechanismen."
+      description: "Life Extension is one of the oldest US supplement brands, founded in 1980. Optimized Resveratrol combines 100 mg trans-resveratrol with quercetin and fisetin — two related polyphenols with similar proposed mechanisms."
       pros:
-        - "**Trans-Form:** Nur die Trans-Konfiguration ist biologisch aktiv — korrekte Deklaration"
-        - "**Polyphenol-Kombination:** Quercetin und Fisetin ergänzen Resveratrol mechanistisch sinnvoll"
-        - "**Etablierte Marke:** Life Extension gilt als seriöser Anbieter"
+        - "**Trans-form:** Only the trans-configuration is biologically active — correctly declared"
+        - "**Polyphenol combination:** Quercetin and fisetin complement resveratrol mechanistically"
+        - "**Established brand:** Life Extension is considered a reputable manufacturer"
       cons:
-        - "**Humanstudien:** Die Datenlage stützt keine klare Empfehlung für Resveratrol beim gesunden Menschen"
-        - "**Bioverfügbarkeit:** Liposomales Resveratrol oder Pterostilben (ein Resveratrol-Analogon) hätten möglicherweise bessere Resorption"
+        - "**Human studies:** Evidence does not support a clear recommendation for resveratrol in healthy individuals"
+        - "**Bioavailability:** Liposomal resveratrol or pterostilbene (a resveratrol analog) may offer better absorption"
       usage: ""
 ---

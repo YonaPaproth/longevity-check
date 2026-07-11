@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Erste Humanstudien zeigen verbesserte Mitochondrienfunktion in Muskelgewebe."
-      en: "Erste Humanstudien zeigen verbesserte Mitochondrienfunktion in Muskelgewebe."
+      en: "Initial human studies show improved mitochondrial function in muscle tissue."
   valueForMoney:
     score: 5
     explanation:
       de: "1,03 € pro Portion ist hoch, Mitopure-Royalty schlägt zu."
-      en: "1,03 € pro Portion ist hoch, Mitopure-Royalty schlägt zu."
+      en: "€1.03 per serving is high; the Mitopure licensing premium is reflected in the price."
   productQuality:
     score: 9
     explanation:
       de: "Mitopure wird streng qualitätsorientiert in der Schweiz hergestellt."
-      en: "Mitopure wird streng qualitätsorientiert in der Schweiz hergestellt."
+      en: "Mitopure is manufactured to pharmaceutical standards in Switzerland."
   labelHonesty:
     score: 8
     explanation:
       de: "Urolithin-A-Gehalt klar beziffert, keine Mischungen."
-      en: "Urolithin-A-Gehalt klar beziffert, keine Mischungen."
+      en: "Urolithin A content clearly stated; no blends."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Mitopure unterliegt klinischen Qualitätskontrollen und HPLC-Profilen."
-      en: "Mitopure unterliegt klinischen Qualitätskontrollen und HPLC-Profilen."
+      en: "Mitopure undergoes clinical quality controls and HPLC profiling."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Erste Effekte erst nach mehreren Wochen"
       usage: "1 Kapsel täglich mit einer Mahlzeit; konsequente Einnahme über mindestens 8–12 Wochen einplanen."
   en:
-    summary: "Mitopure® Urolithin A mit 500 mg pro Portion – eines der wenigen legal verfügbaren Mitophagie-Supplements in der EU."
-    verdictNote: "Mitopure ist klinisch getestet und liefert reproduzierbare Mitophagie-Marker, wenn auch teuer."
+    summary: "Mitopure® Urolithin A at 500 mg per serving — one of the few legally available mitophagy supplements in the EU."
+    verdictNote: "Mitopure is clinically tested and delivers reproducible mitophagy markers, though at a high price."
     body:
-      description: "Life Extension lizenziert Mitopure von Amazentis und kapselt 500 mg reines Urolithin A. Studien zeigten verbesserte Mitochondriendichte und Muskelausdauer nach 16 Wochen."
+      description: "Life Extension licenses Mitopure from Amazentis and encapsulates 500 mg pure urolithin A. Studies showed improved mitochondrial density and muscle endurance after 16 weeks."
       pros:
-        - "Einziger klinisch getesteter Urolithin-A-Rohstoff"
-        - "GMP-Produktion in Europa"
-        - "Stabile Kapseln mit oxidationsgeist auf Schutz ausgerichtetem Inhalt"
+        - "The only clinically tested urolithin A ingredient"
+        - "GMP production in Europe"
+        - "Stable capsules with protection against oxidation"
       cons:
-        - "Sehr hoher Tagespreis"
-        - "Erste Effekte erst nach mehreren Wochen"
-      usage: "1 Kapsel täglich mit einer Mahlzeit; konsequente Einnahme über mindestens 8–12 Wochen einplanen."
+        - "Very high daily cost"
+        - "Effects typically emerge only after several weeks"
+      usage: "1 capsule daily with a meal; plan for at least 8–12 weeks of consistent use."
 ---

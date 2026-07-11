@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "NAC ist gut dokumentiert für mukolytische Effekte, Glutathion-Vorstufe und antioxidative Kapazität."
-      en: "NAC ist gut dokumentiert für mukolytische Effekte, Glutathion-Vorstufe und antioxidative Kapazität."
+      en: "NAC is well-documented for mucolytic effects, as a glutathione precursor, and for antioxidant capacity."
   valueForMoney:
     score: 8
     explanation:
       de: "0,37 € pro 600 mg streng qualitätsorientiertem NAC ist fair."
-      en: "0,37 € pro 600 mg streng qualitätsorientiertem NAC ist fair."
+      en: "€0.37 per 600 mg of pharmaceutical-grade NAC is fair."
   productQuality:
     score: 8
     explanation:
       de: "cGMP-Herstellung mit streng qualitätsorientierter Reinheit."
-      en: "cGMP-Herstellung mit streng qualitätsorientierter Reinheit."
+      en: "cGMP manufacturing with pharmaceutical-grade purity."
   labelHonesty:
     score: 9
     explanation:
       de: "Life Extension listet nur NAC und Cellulose."
-      en: "Life Extension listet nur NAC und Cellulose."
+      en: "Life Extension lists only NAC and cellulose — nothing else."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Jede Charge erhält COA mit HPLC-Nachweis."
-      en: "Jede Charge erhält COA mit HPLC-Nachweis."
+      en: "Every batch comes with a COA including HPLC verification."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Nur 60 Portionen"
       usage: "1 Kapsel morgens nüchtern mit Vitamin C. Bei hoher Belastung zweite Portion am Nachmittag."
   en:
-    summary: "Pharmaqualität NAC mit 600 mg pro Portion – als Glutathion-Vorstufe und bei klinischer Indikation gut untersucht."
-    verdictNote: "Seit Jahren verfügbares NAC-Produkt, gut geeignet für Glutathion-Kontexte."
+    summary: "Pharmaceutical-grade NAC at 600 mg per serving — well-studied as a glutathione precursor and for clinical applications."
+    verdictNote: "A long-established NAC product well-suited for glutathione support protocols."
     body:
-      description: "600 mg NAC pro Kapsel aus pharmazeutischer Produktion, frei von Gluten und Gentechnik. Unterstützt die endogene Glutathionbildung."
+      description: "600 mg NAC per capsule from pharmaceutical production, free of gluten and GMOs. Supports endogenous glutathione synthesis."
       pros:
-        - "cGMP-Produktion"
-        - "Gute Dokumentation der Lieferkette"
-        - "Neutrales Aroma"
+        - "cGMP manufacturing"
+        - "Well-documented supply chain"
+        - "Neutral flavor"
       cons:
-        - "Geruch nach Schwefel"
-        - "Nur 60 Portionen"
-      usage: "1 Kapsel morgens nüchtern mit Vitamin C. Bei hoher Belastung zweite Portion am Nachmittag."
+        - "Sulfur odor"
+        - "Only 60 servings per bottle"
+      usage: "1 capsule in the morning on an empty stomach with vitamin C. Under high oxidative load, add a second capsule in the afternoon."
 ---

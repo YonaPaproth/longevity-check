@@ -30,27 +30,27 @@ ratings:
     score: 7
     explanation:
       de: "Selen unterstützt Schilddrüse und antioxidative Systeme, sollte aber moderat dosiert werden."
-      en: "Selen unterstützt Schilddrüse und antioxidative Systeme, sollte aber moderat dosiert werden."
+      en: "Selenium supports thyroid function and antioxidant systems, but should be dosed conservatively."
   valueForMoney:
     score: 9
     explanation:
       de: "0,20 € pro 200 mcg für drei Bioverfügbarkeitsformen ist top."
-      en: "0,20 € pro 200 mcg für drei Bioverfügbarkeitsformen ist top."
+      en: "€0.20 per 200 mcg across three bioavailability forms is excellent value."
   productQuality:
     score: 8
     explanation:
       de: "Life Extension produziert cGMP und testet jede Form separat."
-      en: "Life Extension produziert cGMP und testet jede Form separat."
+      en: "Life Extension manufactures under cGMP and tests each form separately."
   labelHonesty:
     score: 9
     explanation:
       de: "Alle Selenquellen mit Mikrogramm-Angaben aufgeführt."
-      en: "Alle Selenquellen mit Mikrogramm-Angaben aufgeführt."
+      en: "All selenium sources listed with microgram amounts."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Externe Labore prüfen Selengehalt und mögliche Kontaminanten."
-      en: "Externe Labore prüfen Selengehalt und mögliche Kontaminanten."
+      en: "External labs test for selenium content and potential contaminants."
 
 locales:
   de:
@@ -68,17 +68,17 @@ locales:
         - "Geruch leicht schwefelig"
       usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit mit Fett einnehmen und Selenspiegel halbjährlich überprüfen."
   en:
-    summary: "Dreifach-Selen-Komplex aus Selenomethionin, Seleninat und Selenhefe mit cGMP-Qualität."
-    verdictNote: "Für Menschen mit niedrigen Selenwerten eine vielseitige Mischung verschiedener Bindungsformen."
+    summary: "Triple selenium complex from selenomethionine, selenite, and selenium yeast — cGMP-manufactured."
+    verdictNote: "A versatile multi-form selenium blend for those with low selenium status."
     body:
-      description: "Die Formel liefert 50 µg Selenomethionin, 50 µg Natriumselenit und 100 µg Selenhefe plus Vitamin E als Schutz. Dadurch werden verschiedene Aufnahmewege genutzt."
+      description: "The formula delivers 50 µg selenomethionine, 50 µg sodium selenite, and 100 µg selenium yeast plus vitamin E as an antioxidant. This covers multiple absorption pathways."
       pros:
-        - "Drei Selenformen decken unterschiedliche Transportwege"
-        - "Vitamin E ist auf Schutz vor ausgerichtet bei Oxidation"
-        - "Große 100er Packung"
+        - "Three selenium forms cover different transport mechanisms"
+        - "Vitamin E provides antioxidant protection"
+        - "Large 100-serving bottle"
       cons:
-        - "Nicht für Menschen mit hoher Seleneinnahme geeignet"
-        - "Kapseln enthalten Reismehl"
-        - "Geruch leicht schwefelig"
-      usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit mit Fett einnehmen und Selenspiegel halbjährlich überprüfen."
+        - "Not suitable for those already consuming high selenium from diet or other supplements"
+        - "Capsules contain rice flour"
+        - "Mild sulfurous odor"
+      usage: "1 capsule every other day with a fat-containing meal; check selenium levels every six months."
 ---

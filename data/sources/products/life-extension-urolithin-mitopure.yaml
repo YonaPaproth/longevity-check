@@ -30,27 +30,27 @@ ratings:
     score: 7
     explanation:
       de: "Phase-II-Daten zeigen Verbesserungen bei Mitochondrien-Biomarkern und Muskelkraft."
-      en: "Phase-II-Daten zeigen Verbesserungen bei Mitochondrien-Biomarkern und Muskelkraft."
+      en: "Phase II data show improvements in mitochondrial biomarkers and muscle strength."
   valueForMoney:
     score: 5
     explanation:
       de: "2,27 € pro Tag ist teuer, entspricht aber dem Premium-Mitopure-Lizenzpreis."
-      en: "2,27 € pro Tag ist teuer, entspricht aber dem Premium-Mitopure-Lizenzpreis."
+      en: "€2.27 per day is expensive, but reflects the Mitopure premium licensing cost."
   productQuality:
     score: 9
     explanation:
       de: "Timeline liefert streng qualitätsorientierten Standard, Life Extension kapselt in sauerstoffarmen Linien."
-      en: "Timeline liefert streng qualitätsorientierten Standard, Life Extension kapselt in sauerstoffarmen Linien."
+      en: "Timeline delivers pharmaceutical-grade material; Life Extension encapsulates in low-oxygen production lines."
   labelHonesty:
     score: 9
     explanation:
       de: "Exakte Mitopure-Menge, Trägeröle und Allergene transparent aufgeführt."
-      en: "Exakte Mitopure-Menge, Trägeröle und Allergene transparent aufgeführt."
+      en: "Exact Mitopure amount, carrier oils, and allergens are transparently listed."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "cGMP plus unabhängige Stabilitätstests auf Urolithin-A-Abbau."
-      en: "cGMP plus unabhängige Stabilitätstests auf Urolithin-A-Abbau."
+      en: "cGMP plus independent stability testing for urolithin A degradation."
 
 locales:
   de:
@@ -67,16 +67,16 @@ locales:
         - "Nur 30 Portionen pro Packung"
       usage: "1 Softgel täglich zu einer Mahlzeit mit Fett, idealerweise morgens. Für Studien-ähnliche Protokolle mindestens 60 Tage am Stück verwenden."
   en:
-    summary: "Timeline-Mitopure Softgels mit 500 mg Urolithin A pro Portion für gezielte Mitophagie-Unterstützung."
-    verdictNote: "Wer Mitopure testen will, bekommt hier die höchste klinische Dosis in 30 Softgels."
+    summary: "Timeline Mitopure softgels with 500 mg urolithin A per serving for targeted mitophagy support."
+    verdictNote: "For those wanting to try Mitopure, this provides the full clinical dose in 30 softgels."
     body:
-      description: "Die Softgels enthalten 500 mg Mitopure Urolithin A in MCT-Öl, ergänzt um Vitamin E als Oxidationsschutz. Timeline Biotechnology liefert den Wirkstoff exklusiv für Life Extension."
+      description: "Softgels contain 500 mg Mitopure urolithin A in MCT oil, with vitamin E added for oxidation protection. Timeline Biotechnology supplies the ingredient exclusively for Life Extension."
       pros:
-        - "Klinisch validierter Mitopure-Rohstoff"
-        - "Softgelform ist auf Schutz ausgerichtet oxidationsanfällige Moleküle"
-        - "Enthält keine Farbstoffe oder unnötigen Zusatzstoffe"
+        - "Clinically validated Mitopure ingredient"
+        - "Softgel format protects oxidation-sensitive molecules"
+        - "No dyes or unnecessary additives"
       cons:
-        - "Sehr hoher Tagespreis"
-        - "Nur 30 Portionen pro Packung"
-      usage: "1 Softgel täglich zu einer Mahlzeit mit Fett, idealerweise morgens. Für Studien-ähnliche Protokolle mindestens 60 Tage am Stück verwenden."
+        - "Very high daily cost"
+        - "Only 30 servings per package"
+      usage: "1 softgel daily with a fat-containing meal, ideally in the morning. For study-equivalent protocols, use consistently for at least 60 days."
 ---

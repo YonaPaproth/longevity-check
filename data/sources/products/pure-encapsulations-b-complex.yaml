@@ -35,27 +35,27 @@ ratings:
     score: 7
     explanation:
       de: "B-Komplex deckt essentielle Cofaktoren für Energie und Nerven ab."
-      en: "B-Komplex deckt essentielle Cofaktoren für Energie und Nerven ab."
+      en: "B-complex covers essential cofactors for energy metabolism and nervous system function."
   valueForMoney:
     score: 7
     explanation:
       de: "0,73 € pro Portion für aktive Formen ist vertretbar."
-      en: "0,73 € pro Portion für aktive Formen ist vertretbar."
+      en: "€0.73 per serving for active forms is reasonable."
   productQuality:
     score: 9
     explanation:
       de: "Reinraumabfüllung, Allergen-getestet."
-      en: "Reinraumabfüllung, Allergen-getestet."
+      en: "Clean room filling, allergen-tested."
   labelHonesty:
     score: 9
     explanation:
       de: "Alle aktiven Formen samt Mengen gelistet."
-      en: "Alle aktiven Formen samt Mengen gelistet."
+      en: "All active forms listed with their amounts."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Jede Charge wird auf Allergene und Schwermetalle geprüft."
-      en: "Jede Charge wird auf Allergene und Schwermetalle geprüft."
+      en: "Every batch is tested for allergens and heavy metals."
 
 locales:
   de:
@@ -72,16 +72,16 @@ locales:
         - "Geruch schwefelig durch Riboflavin"
       usage: "1 Kapsel morgens zu einer Mahlzeit mit Fett. Bei Methylierungssensitivität mit halber Dosis starten."
   en:
-    summary: "Aktive B-Vitaminformen inklusive P5P, Methylfolat und Methylcobalamin in hypoallergenen Kapseln."
-    verdictNote: "Für alle, die B-Vitamine mit aktiven Cofaktoren brauchen."
+    summary: "Active B-vitamin forms including P5P, methylfolate, and methylcobalamin in hypoallergenic capsules."
+    verdictNote: "The go-to choice for those who need B vitamins in their active coenzyme forms."
     body:
-      description: "Enthält hoch bioverfügbare Formen wie P5P, Benfotiamin, Methylfolat, Methylcobalamin sowie Cholin und Inositol."
+      description: "Contains highly bioavailable forms including P5P, benfotiamine, methylfolate, methylcobalamin, plus choline and inositol."
       pros:
-        - "Komplett aktivierte B-Vitamine"
-        - "Hypoallergen"
-        - "Kein Vitamin B6 als Pyridoxin HCl"
+        - "Fully activated B-vitamin forms"
+        - "Hypoallergenic"
+        - "No vitamin B6 as pyridoxine HCl"
       cons:
-        - "Preisintensiv"
-        - "Geruch schwefelig durch Riboflavin"
-      usage: "1 Kapsel morgens zu einer Mahlzeit mit Fett. Bei Methylierungssensitivität mit halber Dosis starten."
+        - "Relatively expensive"
+        - "Sulfurous odor from riboflavin"
+      usage: "1 capsule in the morning with a meal containing fat. Start with half a capsule if you are sensitive to methylation."
 ---
