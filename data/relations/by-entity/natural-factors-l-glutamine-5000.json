@@ -1,0 +1,11 @@
+{
+  "entity": "natural-factors-l-glutamine-5000",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "l-glutamin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

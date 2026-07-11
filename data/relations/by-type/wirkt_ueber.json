@@ -1,6 +1,6 @@
 {
   "type": "wirkt_ueber",
-  "count": 144,
+  "count": 145,
   "relations": [
     {
       "subject": "5-htp",
@@ -359,6 +359,12 @@
       "subject": "l-citrullin",
       "target": "antioxidative-abwehr",
       "confidence": 0.7
+    },
+    {
+      "subject": "l-glutamin",
+      "target": "antioxidative-abwehr",
+      "confidence": 0.7,
+      "note": "Glutathion-Vorläufer zusammen mit Glycin und Cystein"
     },
     {
       "subject": "l-reuteri-6475",

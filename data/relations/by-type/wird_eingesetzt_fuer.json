@@ -1,6 +1,6 @@
 {
   "type": "wird_eingesetzt_fuer",
-  "count": 552,
+  "count": 556,
   "relations": [
     {
       "subject": "5-htp",
@@ -1255,6 +1255,34 @@
       "subject": "l-citrullin",
       "target": "leber",
       "confidence": 0.7
+    },
+    {
+      "subject": "l-glutamin",
+      "target": "immunsystem",
+      "confidence": 0.65,
+      "evidence_strength": "moderat",
+      "note": "Immunfunktion vor allem bei physiologischem Stress belegt; bei Gesunden schwächer"
+    },
+    {
+      "subject": "l-glutamin",
+      "target": "verdauung",
+      "confidence": 0.7,
+      "evidence_strength": "moderat",
+      "note": "Primäres Brennstoffsubstrat für Enterozyten; Darmbarriere-Effekte in kleineren Studien"
+    },
+    {
+      "subject": "l-glutamin",
+      "target": "muskel",
+      "confidence": 0.4,
+      "evidence_strength": "niedrig",
+      "note": "Marketing-Claim; RCT-Evidenz für orale Einnahme bei Gesunden schwach"
+    },
+    {
+      "subject": "l-glutamin",
+      "target": "entzuendung",
+      "confidence": 0.55,
+      "evidence_strength": "moderat",
+      "note": "Anti-inflammatorische Effekte bei Intensivpatienten belegt; bei Gesunden unklar"
     },
     {
       "subject": "l-reuteri-6475",

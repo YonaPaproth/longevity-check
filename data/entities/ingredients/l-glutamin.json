@@ -1,0 +1,16 @@
+{
+  "id": "l-glutamin",
+  "type": "ingredient",
+  "name": "L-Glutamin",
+  "summary": "L-Glutamin ist die häufigste freie Aminosäure im Körper. Stark klinisch belegt für Intensivpatienten; bei Gesunden ist die Evidenz für orale Supplementierung begrenzter.",
+  "aliases": [
+    "Glutamin",
+    "Glutamine",
+    "L-Glutamine"
+  ],
+  "category": "metabolic",
+  "evidenceLevel": 2,
+  "safety": "safe",
+  "efsa_approved": false,
+  "typical_dose_mg": 5000
+}

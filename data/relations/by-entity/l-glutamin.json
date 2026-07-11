@@ -1,0 +1,50 @@
+{
+  "entity": "l-glutamin",
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.65,
+      "evidence_strength": "moderat",
+      "note": "Immunfunktion vor allem bei physiologischem Stress belegt; bei Gesunden schwächer"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "evidence_strength": "moderat",
+      "note": "Primäres Brennstoffsubstrat für Enterozyten; Darmbarriere-Effekte in kleineren Studien"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.4,
+      "evidence_strength": "niedrig",
+      "note": "Marketing-Claim; RCT-Evidenz für orale Einnahme bei Gesunden schwach"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.55,
+      "evidence_strength": "moderat",
+      "note": "Anti-inflammatorische Effekte bei Intensivpatienten belegt; bei Gesunden unklar"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "antioxidative-abwehr",
+      "direction": "outgoing",
+      "confidence": 0.7,
+      "note": "Glutathion-Vorläufer zusammen mit Glycin und Cystein"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "efsa-nicht-zugelassen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

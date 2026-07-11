@@ -1,0 +1,85 @@
+---
+id: natural-factors-l-glutamine-5000
+type: product
+
+meta:
+  title: "Natural Factors L-Glutamine 5000"
+  ingredient: l-glutamin
+  containedIngredients:
+    - slug: l-glutamin
+  vendor: "Natural Factors"
+  vendorUrl: "https://www.naturalfactors.com"
+  affiliateUrl: ""
+  priceEur: 22.90
+  doseMg: 5000
+  servingsPerPack: 50
+  pricePerDayEur: 0.46
+  form: powder
+  availableInDE: true
+  publishedAt: "2026-07-11"
+  lastPriceCheck: "2026-07-11"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: akzeptabel
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "L-Glutamin ist klinisch gut belegt bei Intensivpatienten (parenteral). Orale Supplementierung bei gesunden Sportlern zeigt in RCTs wenig überzeugenden Mehrwert. Darmbarriere und Stresskontext liefern mittlere Evidenz."
+      en: "L-glutamine is well supported clinically in ICU patients (parenteral). Oral supplementation in healthy athletes shows little convincing benefit in RCTs. Gut barrier and stress context provide moderate-level evidence."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "0,46 € pro Tag für 5 g Pulver ist fair für reines Glutaminpulver. Kein Premiumaufschlag, solide Basislogik."
+      en: "€0.46 per day for 5 g powder is fair for plain glutamine powder. No premium markup, solid basic logic."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Reines Glutaminpulver ohne unnötige Zusätze. Natural Factors ist ein seriöser kanadischer Hersteller mit langjähriger Erfahrung."
+      en: "Plain glutamine powder without unnecessary additives. Natural Factors is a reputable Canadian manufacturer with a long track record."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Das Produkt ist klar als Aminosäure-Supplement positioniert, ohne übertriebene Wirkungsversprechen. Das ist bei Glutamin-Produkten keineswegs selbstverständlich."
+      en: "The product is clearly positioned as an amino acid supplement without exaggerated efficacy claims — by no means a given with glutamine products."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Natural Factors ist cGMP-zertifiziert, aber keine besonders starke unabhängige Prüftransparenz auf Einzelproduktebene sichtbar."
+      en: "Natural Factors is cGMP-certified, but no especially strong independent testing transparency is visible at the individual product level."
+
+locales:
+  de:
+    summary: "Reines L-Glutamin-Pulver von einer soliden kanadischen Brand. Gezielte Ergänzung bei erhöhtem Bedarf — nicht für blindes Dauersupplementieren gedacht."
+    verdictNote: "Vernünftiger Pick für gezielte L-Glutamin-Supplementierung. Nicht wegen des Muskelaufbau-Marketings, sondern wegen Darmbarriere oder Stresssituationen."
+    body:
+      description: "Natural Factors bietet hier ein **reines L-Glutamin-Pulver** ohne unnötige Zusatzstoffe. 5 g pro Portion entsprechen der Dosierung, die in den meisten Humanstudien eingesetzt wurde."
+      pros:
+        - "**Reines Glutaminpulver** ohne unnötige Zusätze"
+        - "**5 g pro Portion:** entspricht der Studiendosierung"
+        - "**Seriöse kanadische Brand** mit langjähriger Erfahrung"
+        - "**Faire Preis-Leistung** für Pulverprodukt"
+      cons:
+        - "**Eingeschränkte Evidenz** für orale Einnahme bei gesunden Sportlern"
+        - "**Kein Produkt für blindes Daily-Supplementieren** ohne klare Indikation"
+        - "**Keine besonders starke externe Prüfzertifizierung** auf Produktebene"
+      usage: "Am sinnvollsten bei konkretem Bedarf: erhöhter physiologischer Stress, Unterstützung der Darmbarriere, Rekonvaleszenz oder intensiver Ausdauersport. Auf leeren Magen oder nach dem Training gut resorbiert."
+  en:
+    summary: "Plain L-glutamine powder from a solid Canadian brand. Targeted supplementation when there is genuine need — not for casual daily use."
+    verdictNote: "A reasonable pick for targeted L-glutamine use. Not for the muscle-building marketing angle, but for gut barrier support or high-stress contexts."
+    body:
+      description: "Natural Factors delivers a **pure L-glutamine powder** without unnecessary additives. At 5 g per serving, this matches the dosage used in most human studies."
+      pros:
+        - "**Pure glutamine powder** without unnecessary additives"
+        - "**5 g per serving:** matches study dosing"
+        - "**Reputable Canadian brand** with a long track record"
+        - "**Fair value for money** for a powder product"
+      cons:
+        - "**Limited evidence** for oral use in healthy athletes"
+        - "**Not for blind daily supplementation** without a clear indication"
+        - "**No especially strong external testing certification** at product level"
+      usage: "Most useful in specific contexts: high physiological stress, gut barrier support, recovery, or intense endurance training. Well absorbed on an empty stomach or post-workout."
+---

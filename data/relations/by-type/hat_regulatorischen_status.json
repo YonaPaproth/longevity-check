@@ -1,6 +1,6 @@
 {
   "type": "hat_regulatorischen_status",
-  "count": 121,
+  "count": 122,
   "relations": [
     {
       "subject": "5-htp",
@@ -280,6 +280,11 @@
     },
     {
       "subject": "l-citrullin",
+      "target": "efsa-nicht-zugelassen",
+      "confidence": 1
+    },
+    {
+      "subject": "l-glutamin",
       "target": "efsa-nicht-zugelassen",
       "confidence": 1
     },

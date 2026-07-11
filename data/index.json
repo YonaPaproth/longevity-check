@@ -76,6 +76,7 @@
     "kupfer",
     "l-carnitin",
     "l-citrullin",
+    "l-glutamin",
     "l-reuteri-6475",
     "l-theanin",
     "l-tryptophan",
@@ -294,6 +295,7 @@
     "moleqlar-tmg-plus-2000",
     "mother-nature-black-maca-750",
     "natural-elements-omega-3",
+    "natural-factors-l-glutamine-5000",
     "naturelo-one-daily-multivitamin-women",
     "naturewise-vitamin-e-400",
     "nordic-naturals-algae-omega",
@@ -887,8 +889,8 @@
     "verdauung"
   ],
   "stats": {
-    "entities": 871,
-    "relations": 1916,
+    "entities": 873,
+    "relations": 1923,
     "relationTypes": 12,
     "lastUpdated": "2026-07-11"
   }

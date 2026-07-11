@@ -1,0 +1,216 @@
+---
+id: l-glutamin
+type: ingredient
+
+meta:
+  title:
+    de: "L-Glutamin"
+    en: "L-Glutamine"
+  aliases:
+    - "Glutamin"
+    - "Glutamine"
+    - "L-Glutamine"
+  category: metabolic
+  evidenceLevel: "2"
+  safety_rating: safe
+  efsa_health_claims_allowed: false
+  typical_dose_mg: 5000
+  publishedAt: "2026-07-11"
+  updatedAt: "2026-07-11"
+
+efsa_notes:
+  de: >-
+    Keine zugelassenen EFSA Health Claims für L-Glutamin als Supplement. Als nicht-essentielle Aminosäure in der EU frei erhältlich. In der klinischen Medizin (parenterale Ernährung, Intensivmedizin) gut etabliert; für den Konsumentenmarkt gelten diese klinischen Indikationen jedoch nicht.
+  en: >-
+    No approved EFSA health claims for L-glutamine as a dietary supplement. Freely available in the EU as a non-essential amino acid. Well established in clinical medicine (parenteral nutrition, critical care), but these clinical indications do not apply to the consumer supplement context.
+
+key_studies:
+  - ref: pmid-11310919
+    finding:
+      de: >-
+        Review: L-Glutamin wird unter körperlichem Stress (Sepsis, Trauma, intensives Training) zur "konditionell essentiellen" Aminosäure — körpereigene Produktion reicht dann nicht mehr aus, und Supplementierung kann Darmbarriere und Immunfunktion unterstützen.
+      en: >-
+        Review: L-glutamine becomes a conditionally essential amino acid under physiological stress (sepsis, trauma, intense training) — endogenous production becomes insufficient, and supplementation may support gut barrier integrity and immune function.
+  - ref: pmid-23253649
+    finding:
+      de: >-
+        Systematischer Review (14 RCTs): L-Glutamin-Supplementierung bei Intensivpatienten reduzierte Infektionskomplikationen und Krankenhausaufenthaltsdauer, aber nicht die Gesamtmortalität. Klinische Wirkung am stärksten bei parenteraler Gabe.
+      en: >-
+        Systematic review (14 RCTs): L-glutamine supplementation in critically ill patients reduced infectious complications and hospital length of stay, but not overall mortality. Clinical effect strongest with parenteral administration.
+  - ref: pmid-32450842
+    finding:
+      de: >-
+        RCT bei Sportlern: Orale L-Glutamin-Supplementierung (0,3 g/kg/Tag, 8 Wochen) hatte keinen signifikanten Effekt auf Muskelerholung oder Kraftleistung nach intensivem Krafttraining.
+      en: >-
+        RCT in athletes: Oral L-glutamine (0.3 g/kg/day, 8 weeks) had no significant effect on muscle recovery or strength performance after intense resistance training.
+  - ref: pmid-9200320
+    finding:
+      de: >-
+        Pilot-RCT: L-Glutamin (0,5 g/kg/Tag) verkürzte bei Patienten mit schweren Verbrennungen die Krankenhausverweildauer und reduzierte bakterielle Translokation. Einer der ersten klinischen Belege für die Darmbarriere-Wirkung.
+      en: >-
+        Pilot RCT: L-glutamine (0.5 g/kg/day) in severe burn patients shortened hospital stay and reduced bacterial translocation. One of the first clinical demonstrations of the gut barrier effect.
+  - ref: pmid-19579518
+    finding:
+      de: >-
+        Meta-Analyse (14 RCTs): L-Glutamin bei Intensivpatienten reduzierte Infektionsrate und Mortalität in einer heterogenen Patientenpopulation. Effekte bei normaler Darmfunktion und oraler Einnahme schwächer.
+      en: >-
+        Meta-analysis (14 RCTs): L-glutamine in ICU patients reduced infection rate and mortality in a heterogeneous patient population. Effects were weaker with normal gut function and oral administration.
+
+locales:
+  de:
+    summary: >-
+      L-Glutamin ist die häufigste freie Aminosäure im Körper. Stark klinisch belegt für Intensivpatienten; bei Gesunden ist die Evidenz für orale Supplementierung begrenzter.
+    evidenceSummary: >-
+      Klinisch gut belegt bei Intensivpatienten (parenterale Gabe) — Infektionsrate, Krankenhausaufenthalt, Darmbarriere. Für Sportler und Gesunde zeigen orale Supplementierungsstudien wenig bis keinen Mehrwert gegenüber einer normalen Proteinzufuhr. Die "konditionelle Essentialität" macht L-Glutamin vor allem unter extremem Stress relevant.
+    body: |
+      ## Was ist L-Glutamin?
+
+      L-Glutamin ist die **häufigste freie Aminosäure** im menschlichen Körper — sie macht etwa 60% der freien Aminosäuren im Blutplasma und Muskelgewebe aus. Obwohl der Körper sie selbst synthetisieren kann, gibt es Situationen, in denen die Eigenproduktion den Bedarf nicht mehr deckt. Man nennt das "konditionelle Essentialität".
+
+      Glutamin erfüllt viele Funktionen gleichzeitig:
+      - **Primärer Energieträger für Enterozyten** (Darmepithelzellen) und Immunzellen
+      - **Stickstoffdonor** für die Purinsynthese und den Harnstoffzyklus
+      - **Vorläufer für Glutathion** (zusammen mit Glycin und Cystein)
+      - **Regulator der Darmbarriere** (Tight Junction-Integrität)
+      - **Wichtig für Säure-Basen-Regulation** in der Niere
+
+      ## Wo ist die Evidenz wirklich stark?
+
+      ### Klinische Medizin: Intensivpatienten und Trauma
+
+      Die mit Abstand stärkste Evidenz kommt aus der Intensivmedizin. Mehrere Meta-Analysen von RCTs belegen, dass parenterale (intravenöse) L-Glutamin-Supplementierung bei schwerkranken Patienten:
+
+      - Infektionskomplikationen reduziert
+      - Krankenhausaufenthaltsdauer verkürzt
+      - Bakterielle Translokation durch den Darm verringert
+
+      Das gilt vor allem für Patienten mit schweren Verbrennungen, nach großen Operationen und bei Sepsis-Risiko. Die ESPEN-Leitlinien (Europäische Gesellschaft für klinische Ernährung) empfehlen Glutamin-Supplementierung für bestimmte kritisch kranke Patientengruppen.
+
+      **Wichtige Einschränkung:** Die Effekte beziehen sich auf **parenterale Gabe**. Orale Absorption ist gut, aber die Darmzellen selbst metabolisieren einen Großteil des aufgenommenen Glutamins, bevor es den Rest des Körpers erreicht.
+
+      ### Sport und Muskelregeneration: Enttäuschendes Bild
+
+      Trotz des massiven Marketings im Sportbereich ist die Evidenz für orale L-Glutamin-Supplementierung bei gesunden Sportlern schwach. Gut kontrollierte RCTs finden keine signifikante Wirkung auf:
+
+      - Muskelkraft oder Hypertrophie
+      - DOMS (Muskelkater nach Training)
+      - Muskelglykogen-Wiederauffüllung
+      - Immunfunktion beim Leistungssportler (Übertrainingssyndrom)
+
+      Das liegt wahrscheinlich daran, dass der Darm und die Leber oral zugeführtes Glutamin weitgehend selbst verwerten, bevor es in Muskeln oder das Immunsystem gelangt.
+
+      ## Wann könnte orale Supplementierung dennoch sinnvoll sein?
+
+      - **Erhöhte Darmpermeabilität** ("leaky gut"): Einige kleinere Studien zeigen Effekte auf Tight Junctions und Darmbarrierefunktion
+      - **Intensiver Ausdauersport / Übertraining**: Plasma-Glutaminspiegel können bei extremem Training sinken — ob orale Supplementierung das effektiv kompensiert, ist aber nicht eindeutig belegt
+      - **Post-chirurgisch / Rekonvaleszenz**: In klinisch begleitetem Setting
+      - **Intestinale Erkrankungen (z.B. Morbus Crohn)**: Frühe Daten vorhanden, aber Evidenz noch nicht robust genug für Standardempfehlung
+
+      ## Dosierung
+
+      - **Klinische Studien:** 0,2–0,5 g/kg Körpergewicht/Tag
+      - **Typische Supplement-Dosierung:** 5 g/Tag (oraler Bereich)
+      - **Einnahme:** Nach dem Training oder zwischen den Mahlzeiten; auf leeren Magen gut resorbiert
+
+      L-Glutamin gilt als sehr gut verträglich und sicher. Mengen bis 40 g/Tag wurden in klinischen Studien ohne relevante Nebenwirkungen eingesetzt.
+
+      ## Fazit
+
+      L-Glutamin ist eine wichtige Aminosäure mit gut belegter klinischer Relevanz in der Intensivmedizin. Für gesunde, gut ernährte Sportler ist der Nutzen oraler Supplementierung jedoch wissenschaftlich wenig überzeugend. Der Wirkstoff ist am ehesten relevant bei erhöhtem physiologischem Stress, Darmbarriere-Problemen oder in klinischen Kontexten.
+
+  en:
+    summary: >-
+      L-glutamine is the most abundant free amino acid in the body. Clinically well-supported in critical care; evidence for oral supplementation in healthy individuals is more limited.
+    evidenceSummary: >-
+      Strongly supported in critical illness (parenteral route): reduced infections, shorter hospital stays, improved gut barrier. For athletes and healthy people, oral supplementation studies show little to no meaningful benefit above adequate protein intake. Conditional essentiality makes it most relevant under extreme physiological stress.
+    body: |
+      ## What Is L-Glutamine?
+
+      L-glutamine is the **most abundant free amino acid** in the human body, accounting for roughly 60% of free amino acids in blood plasma and muscle tissue. Although the body can synthesize it, certain conditions make endogenous production insufficient—making it conditionally essential.
+
+      Glutamine serves several functions simultaneously:
+      - **Primary fuel for enterocytes** (intestinal epithelial cells) and immune cells
+      - **Nitrogen donor** for purine synthesis and the urea cycle
+      - **Precursor for glutathione** (together with glycine and cysteine)
+      - **Regulator of gut barrier integrity** (tight junction support)
+      - **Important for acid-base regulation** in the kidneys
+
+      ## Where Is the Evidence Actually Strong?
+
+      ### Clinical Medicine: Critical Care and Trauma
+
+      The strongest evidence by far comes from intensive care medicine. Multiple RCT meta-analyses show that parenteral (intravenous) L-glutamine supplementation in critically ill patients:
+
+      - Reduces infectious complications
+      - Shortens hospital length of stay
+      - Decreases bacterial translocation through the gut
+
+      This applies especially to patients with severe burns, major surgery, and sepsis risk. ESPEN guidelines (European Society for Clinical Nutrition) recommend glutamine supplementation for selected critically ill patient groups.
+
+      **Key caveat:** These effects concern **parenteral administration**. Oral absorption is good, but the gut itself metabolizes a large share of ingested glutamine before it reaches the rest of the body.
+
+      ### Sport and Muscle Recovery: A Disappointing Picture
+
+      Despite heavy marketing in the sports world, evidence for oral L-glutamine supplementation in healthy athletes is weak. Well-controlled RCTs find no significant effect on:
+
+      - Muscle strength or hypertrophy
+      - DOMS (delayed-onset muscle soreness)
+      - Muscle glycogen restoration
+      - Immune function in elite athletes (overtraining syndrome)
+
+      This is likely because the gut and liver largely consume orally ingested glutamine before it reaches muscles or the immune system.
+
+      ## When Might Oral Supplementation Still Make Sense?
+
+      - **Increased gut permeability:** Some smaller studies suggest effects on tight junctions and gut barrier function
+      - **Intense endurance sport / overtraining:** Plasma glutamine can decrease during extreme training, but whether oral supplementation effectively compensates this is not clearly established
+      - **Post-surgical or recovery contexts:** In clinically supervised settings
+      - **Intestinal conditions (e.g. Crohn's disease):** Early data exist, but not yet robust enough for standard recommendation
+
+      ## Dosage
+
+      - **Clinical studies:** 0.2–0.5 g/kg body weight/day
+      - **Typical supplement dosage:** 5 g/day (oral range)
+      - **Timing:** Post-training or between meals; well absorbed on an empty stomach
+
+      L-glutamine is considered very well tolerated and safe. Amounts up to 40 g/day have been used in clinical studies without relevant adverse effects.
+
+      ## Summary
+
+      L-glutamine is a physiologically important amino acid with well-documented clinical relevance in critical care. For healthy, well-nourished athletes and the general population, the evidence for oral supplementation is scientifically modest. The ingredient is most relevant under elevated physiological stress, compromised gut barrier function, or in supervised clinical contexts.
+
+relations:
+  - relation: wird_eingesetzt_fuer
+    target: immunsystem
+    direction: outgoing
+    confidence: 0.65
+    evidence_strength: moderat
+    note: "Immunfunktion vor allem bei physiologischem Stress belegt; bei Gesunden schwächer"
+  - relation: wird_eingesetzt_fuer
+    target: verdauung
+    direction: outgoing
+    confidence: 0.7
+    evidence_strength: moderat
+    note: "Primäres Brennstoffsubstrat für Enterozyten; Darmbarriere-Effekte in kleineren Studien"
+  - relation: wird_eingesetzt_fuer
+    target: muskel
+    direction: outgoing
+    confidence: 0.4
+    evidence_strength: niedrig
+    note: "Marketing-Claim; RCT-Evidenz für orale Einnahme bei Gesunden schwach"
+  - relation: wird_eingesetzt_fuer
+    target: entzuendung
+    direction: outgoing
+    confidence: 0.55
+    evidence_strength: moderat
+    note: "Anti-inflammatorische Effekte bei Intensivpatienten belegt; bei Gesunden unklar"
+  - relation: wirkt_ueber
+    target: antioxidative-abwehr
+    direction: outgoing
+    confidence: 0.7
+    note: "Glutathion-Vorläufer zusammen mit Glycin und Cystein"
+  - relation: hat_regulatorischen_status
+    target: efsa-nicht-zugelassen
+    direction: outgoing
+    confidence: 1
+---
