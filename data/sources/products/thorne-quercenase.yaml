@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Quercetin und Bromelain zeigen solide Daten zu Mastzellstabilisierung und Atemwegsbeschwerden."
-      en: "Quercetin und Bromelain zeigen solide Daten zu Mastzellstabilisierung und Atemwegsbeschwerden."
+      en: "Quercetin and bromelain have solid data on mast cell stabilization and respiratory complaints."
   valueForMoney:
     score: 6
     explanation:
       de: "0,87 € pro Portion ist Premium, doch NSF Certified for Sport reduziert Risiko für Athlet:innen."
-      en: "0,87 € pro Portion ist Premium, doch NSF Certified for Sport reduziert Risiko für Athlet:innen."
+      en: "€0.87 per serving is premium, but NSF Certified for Sport reduces risk for tested athletes."
   productQuality:
     score: 9
     explanation:
       de: "Thorne verzichtet auf Magnesiumstearat und nutzt hypoallergene Rohstoffe."
-      en: "Thorne verzichtet auf Magnesiumstearat und nutzt hypoallergene Rohstoffe."
+      en: "Thorne avoids magnesium stearate and uses hypoallergenic raw materials."
   labelHonesty:
     score: 9
     explanation:
       de: "Deklariert sowohl Quercetin-Menge als auch Bromelain-Aktivität (2000 GDU/g)."
-      en: "Deklariert sowohl Quercetin-Menge als auch Bromelain-Aktivität (2000 GDU/g)."
+      en: "Declares both quercetin amount and bromelain activity (2000 GDU/g)."
   thirdPartyTesting:
     score: 10
     explanation:
       de: "NSF Certified for Sport inklusive Kontaminanten-Panel."
-      en: "NSF Certified for Sport inklusive Kontaminanten-Panel."
+      en: "NSF Certified for Sport including a full contaminant panel."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Bromelain-Geschmack kann bei geöffneten Kapseln bitter wirken"
       usage: "2 Kapseln täglich zu Mahlzeiten oder 1 Kapsel dreimal täglich bei Bedarf; bei empfindlichem Magen stets mit Nahrung kombinieren."
   en:
-    summary: "Quercetin plus Bromelain in NSF-zertifizierter Thorne-Qualität für Entzündungs- und Mastzell-Szenarien."
-    verdictNote: "Die sichere Wahl für Athlet:innen oder Histamin-sensitive Menschen, die Quercetin präzise dosieren möchten."
+    summary: "Quercetin plus bromelain in NSF-certified Thorne quality for inflammation and mast cell support."
+    verdictNote: "Safe choice for athletes or histamine-sensitive individuals who want precise quercetin dosing."
     body:
-      description: "Quercenase kombiniert 250 mg Quercetin mit Bromelain pro Kapsel. Bromelain steigert laut Hersteller die Aufnahme und liefert zusätzliche entzündungsmodulierende Effekte."
+      description: "Quercenase combines 250 mg quercetin with bromelain per capsule. Bromelain reportedly enhances absorption and provides additional anti-inflammatory effects."
       pros:
-        - "NSF-zertifizierte Herstellung"
-        - "Bromelain unterstützt Absorption und Verdauung"
-        - "Nur zwei Hilfsstoffe (Hypromellose, Siliciumdioxid)"
+        - "NSF-certified manufacturing"
+        - "Bromelain supports absorption and digestion"
+        - "Only two excipients (hypromellose, silicon dioxide)"
       cons:
-        - "Hartkapseln relativ groß"
-        - "Preis deutlich über Monopräparaten"
-        - "Bromelain-Geschmack kann bei geöffneten Kapseln bitter wirken"
-      usage: "2 Kapseln täglich zu Mahlzeiten oder 1 Kapsel dreimal täglich bei Bedarf; bei empfindlichem Magen stets mit Nahrung kombinieren."
+        - "Hard capsules are relatively large"
+        - "Noticeably more expensive than single-ingredient products"
+        - "Bromelain can taste bitter if capsules are opened"
+      usage: "2 capsules daily with meals, or 1 capsule three times daily as needed. Always take with food if stomach-sensitive."
 ---

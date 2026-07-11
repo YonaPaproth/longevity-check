@@ -33,27 +33,27 @@ ratings:
     score: 8
     explanation:
       de: "Multivitamine zeigen Nutzen zur Lückenschließung, besonders bei Sportbelastung."
-      en: "Multivitamine zeigen Nutzen zur Lückenschließung, besonders bei Sportbelastung."
+      en: "Multivitamins demonstrate benefit for closing nutritional gaps, especially under athletic stress."
   valueForMoney:
     score: 6
     explanation:
       de: "0,80 € pro Tag ist teuer, aber gerechtfertigt durch NSF-Siegel und Rohstoffe."
-      en: "0,80 € pro Tag ist teuer, aber gerechtfertigt durch NSF-Siegel und Rohstoffe."
+      en: "€0.80 per day is expensive, but justified by the NSF certification and ingredient quality."
   productQuality:
     score: 9
     explanation:
       de: "Chelatmineralien, Methylfolat, kein Magnesiumstearat, NSF Sport."
-      en: "Chelatmineralien, Methylfolat, kein Magnesiumstearat, NSF Sport."
+      en: "Chelated minerals, methylfolate, no magnesium stearate, NSF Sport certified."
   labelHonesty:
     score: 9
     explanation:
       de: "Alle Mikronährstoffe mit Mengen und Formen offengelegt."
-      en: "Alle Mikronährstoffe mit Mengen und Formen offengelegt."
+      en: "All micronutrients disclosed with exact amounts and forms."
   thirdPartyTesting:
     score: 10
     explanation:
       de: "NSF Sport testet auf Potenz und verbotene Substanzen jede Charge."
-      en: "NSF Sport testet auf Potenz und verbotene Substanzen jede Charge."
+      en: "NSF Sport tests every batch for potency and banned substances."
 
 locales:
   de:
@@ -71,17 +71,17 @@ locales:
         - "Preislich oberhalb vieler Alternativen"
       usage: "2 Kapseln täglich zu einer Mahlzeit mit Fett. Bei empfindlichem Magen 1 Kapsel morgens, 1 Kapsel abends."
   en:
-    summary: "NSF Sport zertifiziertes Multivitamin mit chelatierten Mineralien und aktiven B-Vitaminen – Athletenfreundlich."
-    verdictNote: "Für Leistungssport oder Profiteams eines der sichersten Multis auf dem Markt."
+    summary: "NSF Sport-certified multivitamin with chelated minerals and active B vitamins. Athlete-friendly."
+    verdictNote: "One of the safest multivitamins on the market for competitive sport or professional teams."
     body:
-      description: "Basic Nutrients 2/Day liefert ein breites Spektrum an Vitaminen und Mineralien, inklusive Albion-Chelat-Mineralien, Methylcobalamin, Methylfolat und Cholin. Die Kapseln sind frei von Gluten, Soja, Milch und enthalten keine Farbstoffe."
+      description: "Basic Nutrients 2/Day delivers a broad spectrum of vitamins and minerals, including Albion chelated minerals, methylcobalamin, methylfolate, and choline. Capsules are free from gluten, soy, dairy, and artificial colors."
       pros:
-        - "NSF-Sport-Zertifizierung"
-        - "Einsatz hochwertiger Albion-Mineralien"
-        - "Enthält Bor, Vanadium und Chrom für Glukosesensitivität"
-        - "Nur zwei Kapseln täglich, trotzdem hohe Dosierungen"
+        - "NSF Sport certification"
+        - "High-quality Albion chelated minerals"
+        - "Contains boron, vanadium, and chromium for glucose sensitivity support"
+        - "Only two capsules daily, yet comprehensive dosing"
       cons:
-        - "Kein Vitamin K2 enthalten"
-        - "Preislich oberhalb vieler Alternativen"
-      usage: "2 Kapseln täglich zu einer Mahlzeit mit Fett. Bei empfindlichem Magen 1 Kapsel morgens, 1 Kapsel abends."
+        - "No vitamin K2 included"
+        - "Priced above many alternatives"
+      usage: "2 capsules daily with a fat-containing meal. If stomach-sensitive, take 1 capsule in the morning and 1 in the evening."
 ---

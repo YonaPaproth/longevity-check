@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "Mehrere Meta-Analysen zeigen Effekte auf HbA1c und Lipide."
-      en: "Mehrere Meta-Analysen zeigen Effekte auf HbA1c und Lipide."
+      en: "Multiple meta-analyses show effects on HbA1c and lipid levels."
   valueForMoney:
     score: 7
     explanation:
       de: "0,90 € pro 500 mg liegt im Marktschnitt für Premiumanbieter."
-      en: "0,90 € pro 500 mg liegt im Marktschnitt für Premiumanbieter."
+      en: "€0.90 per 500 mg is in line with the premium segment market average."
   productQuality:
     score: 9
     explanation:
       de: "Thorne reinigt Berberin doppelt und testet auf Berberrubin-Verunreinigungen."
-      en: "Thorne reinigt Berberin doppelt und testet auf Berberrubin-Verunreinigungen."
+      en: "Thorne performs dual purification and tests for berberrubine contamination."
   labelHonesty:
     score: 9
     explanation:
       de: "Volle Deklaration ohne proprietäre Blends."
-      en: "Volle Deklaration ohne proprietäre Blends."
+      en: "Full label disclosure with no proprietary blends."
   thirdPartyTesting:
     score: 9
     explanation:
       de: "NSF und Informed-Choice sichern Reinheit."
-      en: "NSF und Informed-Choice sichern Reinheit."
+      en: "NSF and Informed Choice certifications ensure purity."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kann bei empfindlichen Personen Darmgrummeln verursachen"
       usage: "1 Kapsel zu jeder der zwei größten Mahlzeiten. Bei Medikamenten (insb. Metformin) vorher mit Arzt klären."
   en:
-    summary: "GMP-geprüftes Berberin-HCl mit 500 mg pro Kapsel für Blutzucker- und Lipidmanagement."
-    verdictNote: "Saubere Formulierung für Anwender, die metabolische Marker gezielt adressieren möchten."
+    summary: "GMP-tested berberine HCl, 500 mg per capsule, for blood sugar and lipid management."
+    verdictNote: "Clean formulation for users targeting metabolic markers with precise dosing."
     body:
-      description: "Thorne gewinnt Berberin aus Berberis aristata und entfernt oxidierte Alkaloide. Die Kapseln sind vegan und enthalten keine problematischen Füllstoffe."
+      description: "Thorne sources berberine from Berberis aristata and removes oxidized alkaloids. Capsules are vegan and free from problematic fillers."
       pros:
-        - "Sehr stabile Gelbfarbe zeigt Reinheit an"
-        - "Labortests auf mikrobiologische Belastung"
-        - "Gute Verträglichkeit trotz hoher Dosis"
+        - "Deep yellow color indicates high purity"
+        - "Lab-tested for microbiological contamination"
+        - "Good tolerability despite high dose"
       cons:
-        - "Preis höher als asiatische Bulk-Anbieter"
-        - "Kann bei empfindlichen Personen Darmgrummeln verursachen"
-      usage: "1 Kapsel zu jeder der zwei größten Mahlzeiten. Bei Medikamenten (insb. Metformin) vorher mit Arzt klären."
+        - "Higher price than bulk Asian suppliers"
+        - "May cause digestive discomfort in sensitive individuals"
+      usage: "1 capsule with each of the two largest meals. If on medications (especially metformin), consult a doctor first."
 ---

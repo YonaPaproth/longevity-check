@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Rotschimmelreis enthält Monacolin K (natürliches Statin). Evidenz für LDL-Senkung vorhanden, aber regulatorisch umstritten in der EU."
-      en: "Rotschimmelreis enthält Monacolin K (natürliches Statin). Evidenz für LDL-Senkung vorhanden, aber regulatorisch umstritten in der EU."
+      en: "Red yeast rice contains monacolin K (a natural statin). Evidence for LDL reduction exists, but regulatorily contested in the EU."
   valueForMoney:
     score: 7
     explanation:
       de: "0,58 € pro Tag für eine Kombi aus Rotschimmelreis + CoQ10 von Thorne ist angemessen."
-      en: "0,58 € pro Tag für eine Kombi aus Rotschimmelreis + CoQ10 von Thorne ist angemessen."
+      en: "€0.58 per day for a red yeast rice + CoQ10 combination from Thorne is reasonable."
   productQuality:
     score: 9
     explanation:
       de: "Thorne garantiert standardisierten Monacolin-K-Gehalt und ergänzt CoQ10 zur Kompensation der Statin-typischen CoQ10-Depletion."
-      en: "Thorne garantiert standardisierten Monacolin-K-Gehalt und ergänzt CoQ10 zur Kompensation der Statin-typischen CoQ10-Depletion."
+      en: "Thorne guarantees standardized monacolin K content and adds CoQ10 to compensate for the statin-typical CoQ10 depletion."
   labelHonesty:
     score: 9
     explanation:
       de: "Monacolin-K-Gehalt und CoQ10-Menge klar deklariert. Thorne-typische Transparenz."
-      en: "Monacolin-K-Gehalt und CoQ10-Menge klar deklariert. Thorne-typische Transparenz."
+      en: "Monacolin K content and CoQ10 amount clearly declared — typical Thorne transparency."
   thirdPartyTesting:
     score: 9
     explanation:
       de: "NSF Certified for Sport, Thornes hauseigenes Analytiklabor prüft jede Charge."
-      en: "NSF Certified for Sport, Thornes hauseigenes Analytiklabor prüft jede Charge."
+      en: "NSF Certified for Sport; Thorne's in-house analytical lab tests every batch."
 
 locales:
   de:
@@ -69,19 +69,19 @@ locales:
         - "Citrinin-Kontamination ist bei minderwertigen Rotschimmelreis-Produkten ein Risiko (Thorne kontrolliert das)"
       usage: "2 Kapseln täglich zu einer Mahlzeit. Regelmäßig Leberwerte und Lipidprofil kontrollieren lassen. Nicht zusammen mit verschreibungspflichtigen Statinen einnehmen."
   en:
-    summary: "Rotschimmelreis-Extrakt mit CoQ10 zur Unterstützung des Lipidprofils, Thorne-Qualität."
-    verdictNote: "Durchdachte Kombi: Rotschimmelreis + CoQ10 als natürliche Lipid-Unterstützung. Aber: In der EU ist Monacolin K >3 mg/Tag regulatorisch eingeschränkt."
+    summary: "Red yeast rice extract with CoQ10 for lipid profile support, Thorne quality."
+    verdictNote: "Well-designed combo: red yeast rice + CoQ10 for natural lipid support. Note: in the EU, monacolin K >3 mg/day is regulatorily restricted."
     body:
-      description: "Thorne kombiniert Rotschimmelreis (Red Yeast Rice) mit Coenzym Q10. Rotschimmelreis enthält Monacolin K — chemisch identisch mit dem Statin Lovastatin. Thorne ergänzt CoQ10, da Statine (und Monacolin K) die körpereigene CoQ10-Produktion hemmen können."
+      description: "Thorne combines red yeast rice with coenzyme Q10. Red yeast rice contains monacolin K — chemically identical to the statin lovastatin. Thorne adds CoQ10 because statins (and monacolin K) can suppress the body's own CoQ10 production."
       pros:
-        - "Intelligente Kombination: Monacolin K + CoQ10 gegen Statin-typische Depletion"
-        - "Thorne-Qualität mit NSF-Zertifizierung"
-        - "Standardisierter Monacolin-K-Gehalt (nicht bei allen Anbietern der Fall)"
-        - "120 Kapseln = 2 Monate bei 2 Kapseln/Tag"
+        - "Smart combination: monacolin K + CoQ10 to counter statin-typical CoQ10 depletion"
+        - "Thorne quality with NSF certification"
+        - "Standardized monacolin K content (not guaranteed by all suppliers)"
+        - "120 capsules = 2 months at 2 capsules/day"
       cons:
-        - "EFSA hat 2022 Health Claims für Monacolin K eingeschränkt (>3 mg/Tag nicht mehr zulässig)"
-        - "Monacolin K ist ein natürliches Statin — dieselben Nebenwirkungen möglich (Myopathie, Leberwerte)"
-        - "Nicht ohne ärztliche Begleitung einnehmen, besonders bei bestehender Statin-Therapie"
-        - "Citrinin-Kontamination ist bei minderwertigen Rotschimmelreis-Produkten ein Risiko (Thorne kontrolliert das)"
-      usage: "2 Kapseln täglich zu einer Mahlzeit. Regelmäßig Leberwerte und Lipidprofil kontrollieren lassen. Nicht zusammen mit verschreibungspflichtigen Statinen einnehmen."
+        - "EFSA restricted monacolin K health claims in 2022 (>3 mg/day no longer permitted)"
+        - "Monacolin K is a natural statin — same side effects possible (myopathy, liver values)"
+        - "Do not take without medical supervision, especially if already on statin therapy"
+        - "Citrinin contamination is a risk with low-quality red yeast rice (Thorne controls for this)"
+      usage: "2 capsules daily with a meal. Monitor liver values and lipid profile regularly. Do not combine with prescription statins."
 ---

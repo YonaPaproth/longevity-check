@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Berberine hat solide Evidenz für Blutzucker- und Cholesterinregulation. Mehrere RCTs zeigen Wirkung vergleichbar mit Metformin."
-      en: "Berberine hat solide Evidenz für Blutzucker- und Cholesterinregulation. Mehrere RCTs zeigen Wirkung vergleichbar mit Metformin."
+      en: "Berberine has solid evidence for blood sugar and cholesterol regulation. Multiple RCTs show effects comparable to metformin."
   valueForMoney:
     score: 6
     explanation:
       de: "0,62 € pro Tag ist im oberen Bereich, aber der Thorne-Aufpreis ist durch NSF-Zertifizierung und höchste Reinheitsstandards gerechtfertigt."
-      en: "0,62 € pro Tag ist im oberen Bereich, aber der Thorne-Aufpreis ist durch NSF-Zertifizierung und höchste Reinheitsstandards gerechtfertigt."
+      en: "€0.62 per day is on the higher end, but the Thorne premium is justified by NSF certification and top purity standards."
   productQuality:
     score: 9
     explanation:
       de: "Thorne ist bekannt für außergewöhnliche Reinheit und Potenz. Wird von Sportmedizinern und Internisten empfohlen. Keine Füllstoffe."
-      en: "Thorne ist bekannt für außergewöhnliche Reinheit und Potenz. Wird von Sportmedizinern und Internisten empfohlen. Keine Füllstoffe."
+      en: "Thorne is known for exceptional purity and potency, recommended by sports physicians and internists. No fillers."
   labelHonesty:
     score: 9
     explanation:
       de: "Thorne hält sich strikt an wissenschaftliche Kommunikation. Keine Health-Claims jenseits der Evidenz."
-      en: "Thorne hält sich strikt an wissenschaftliche Kommunikation. Keine Health-Claims jenseits der Evidenz."
+      en: "Thorne adheres strictly to evidence-based communication. No health claims beyond what the data supports."
   thirdPartyTesting:
     score: 9
     explanation:
       de: "NSF Certified for Sport. Jede Charge wird unabhängig auf Reinheit, Potenz und Kontaminanten geprüft. Höchster Standard in der Branche."
-      en: "NSF Certified for Sport. Jede Charge wird unabhängig auf Reinheit, Potenz und Kontaminanten geprüft. Höchster Standard in der Branche."
+      en: "NSF Certified for Sport. Every batch is independently tested for purity, potency, and contaminants — the industry gold standard."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Bioverfügbarkeit:** Standard-Berberine HCl hat bekannte Absorptionsprobleme. Berberine-Phytosomen wären bioverfügbarer"
       usage: ""
   en:
-    summary: "Thorne ist die erste Wahl für klinisch-orientierte Supplementierung. NSF-zertifiziert, von Ärzten empfohlen, höchste Qualitätsstandards in der Branche."
-    verdictNote: "Der Qualitätsstandard bei Berberine. Wer keine Kompromisse bei Reinheit und unabhängiger Testung machen will, zahlt den Thorne-Aufpreis gerne."
+    summary: "Thorne's go-to for clinical-grade supplementation. NSF-certified, physician-recommended, top purity standards."
+    verdictNote: "The quality benchmark for berberine. If you won't compromise on purity and independent testing, the Thorne premium is worth it."
     body:
-      description: "Thorne Research ist ein US-amerikanischer Hersteller, der sich seit über 30 Jahren auf klinisch-grade Nahrungsergänzungsmittel spezialisiert hat. Das Unternehmen ist bekannt für die strenge Ablehnung unnötiger Füllstoffe und für seine Zusammenarbeit mit medizinischen Institutionen. Berberine-500 ist NSF Certified for Sport."
+      description: "Thorne Research is a US manufacturer specializing in clinical-grade supplements for over 30 years, known for avoiding unnecessary fillers and collaborating with medical institutions. Berberine-500 is NSF Certified for Sport."
       pros:
-        - "**NSF Certified for Sport:** Unabhängige Prüfung jeder Charge — Goldstandard für Supplementqualität"
-        - "**Keine Füllstoffe:** Thorne verzichtet konsequent auf Magnesiumstearat und andere Standard-Füllstoffe"
-        - "**Empfohlen von Ärzten:** Thorne wird häufig von Internisten und Sportmedizinern als Referenzmarke genannt"
-        - "**500 mg pro Kapsel:** Entspricht der in Studien verwendeten Standarddosis"
+        - "**NSF Certified for Sport:** Independent batch testing — the gold standard for supplement quality"
+        - "**No fillers:** Thorne consistently avoids magnesium stearate and other common excipients"
+        - "**Physician-recommended:** Frequently cited by internists and sports physicians as a reference brand"
+        - "**500 mg per capsule:** Matches the standard dose used in clinical studies"
       cons:
-        - "**Preis:** Der Qualitätsaufpreis ist real — günstigere Berberine-Alternativen verfügbar"
-        - "**Bioverfügbarkeit:** Standard-Berberine HCl hat bekannte Absorptionsprobleme. Berberine-Phytosomen wären bioverfügbarer"
+        - "**Price:** The quality premium is real — cheaper berberine alternatives exist"
+        - "**Bioavailability:** Standard berberine HCl has known absorption limitations; phytosome forms are more bioavailable"
       usage: ""
 ---

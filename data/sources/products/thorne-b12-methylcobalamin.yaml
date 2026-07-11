@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "B12 deckt Methylierungs- und Nervensystembedarf, relevant bei veganer Ernährung und erhöhtem Homocystein."
-      en: "B12 deckt Methylierungs- und Nervensystembedarf, relevant bei veganer Ernährung und erhöhtem Homocystein."
+      en: "B12 supports methylation and nervous system function, particularly relevant for vegans and those with elevated homocysteine."
   valueForMoney:
     score: 7
     explanation:
       de: "0,40 € pro Tag ist höher als Tabletten, aber Tropfen erlauben flexible Dosierung und kombinieren sich leicht mit anderen Protokollen."
-      en: "0,40 € pro Tag ist höher als Tabletten, aber Tropfen erlauben flexible Dosierung und kombinieren sich leicht mit anderen Protokollen."
+      en: "€0.40 per day is higher than tablets, but the liquid format allows flexible dosing and easy integration into other protocols."
   productQuality:
     score: 9
     explanation:
       de: "Thorne produziert in cGMP-Anlagen, Lösungsmittelarm und mit stabilen Tropferfläschchen."
-      en: "Thorne produziert in cGMP-Anlagen, Lösungsmittelarm und mit stabilen Tropferfläschchen."
+      en: "Thorne produces in cGMP facilities with low solvent residues and stable dropper bottles."
   labelHonesty:
     score: 9
     explanation:
       de: "Volle Offenlegung aller Hilfsstoffe und genaue Messpipette, keine Health-Claims."
-      en: "Volle Offenlegung aller Hilfsstoffe und genaue Messpipette, keine Health-Claims."
+      en: "Full disclosure of all excipients, precise dropper pipette, no unsubstantiated health claims."
   thirdPartyTesting:
     score: 9
     explanation:
       de: "NSF Certified for Sport prüft auf Reinheit und verbotene Substanzen."
-      en: "NSF Certified for Sport prüft auf Reinheit und verbotene Substanzen."
+      en: "NSF Certified for Sport tests for purity and banned substances."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Lichtempfindlich:** Muss im Kühlschrank oder dunkel gelagert werden, um Stabilität zu sichern"
       usage: "1 ml (ca. 20 Tropfen) täglich unter die Zunge geben und 30 Sekunden halten. Bei empfindlichem Magen zum Frühstück einnehmen."
   en:
-    summary: "NSF-zertifizierter B12-Tropfen mit 1 mg Methylcobalamin pro Portion, flexibel dosierbar und beliebt bei Sportlern mit strengem Testregime."
-    verdictNote: "Premiumlösung für alle, die flüssiges B12 in kontrollierten Sport-Settings brauchen."
+    summary: "NSF-certified B12 drops with 1 mg methylcobalamin per serving, flexible dosing, popular with tested athletes."
+    verdictNote: "Premium option for those needing liquid B12 in controlled sports settings."
     body:
-      description: "Flüssige Methylcobalamin-Tropfen mit 1 mg pro Portion. Die Pipette ermöglicht die Aufnahme direkt unter der Zunge oder das Mischen in Getränke, ohne künstliche Farb- oder Aromastoffe."
+      description: "Liquid methylcobalamin drops delivering 1 mg per serving. The pipette allows sublingual absorption or mixing into drinks, with no artificial colors or flavors."
       pros:
-        - "**NSF Certified for Sport:** Geeignet für getestete Athleten"
-        - "**Flexible Dosierung:** Pipette erlaubt feinere Anpassung als Tabletten"
-        - "**Hohe Reinheit:** Frei von Gluten, Soja und Milchbestandteilen"
-        - "**Gute Bioverfügbarkeit:** Methylcobalamin wird direkt genutzt"
+        - "**NSF Certified for Sport:** Suitable for tested athletes"
+        - "**Flexible dosing:** Pipette allows finer adjustments than tablets"
+        - "**High purity:** Free from gluten, soy, and dairy"
+        - "**Good bioavailability:** Methylcobalamin is the active form, ready to use"
       cons:
-        - "**Preis:** Deutlich teurer als Lutschtabletten"
-        - "**Lichtempfindlich:** Muss im Kühlschrank oder dunkel gelagert werden, um Stabilität zu sichern"
-      usage: "1 ml (ca. 20 Tropfen) täglich unter die Zunge geben und 30 Sekunden halten. Bei empfindlichem Magen zum Frühstück einnehmen."
+        - "**Price:** Significantly more expensive than lozenge formats"
+        - "**Light-sensitive:** Requires refrigeration or dark storage to maintain stability"
+      usage: "1 ml (approx. 20 drops) daily under the tongue, hold for 30 seconds. Take with breakfast if stomach sensitivity is a concern."
 ---

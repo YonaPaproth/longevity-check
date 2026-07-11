@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Quercetin hat wachsende Humanstudien zu Entzündung und Senolyse, aber Datenlage bleibt moderat."
-      en: "Quercetin hat wachsende Humanstudien zu Entzündung und Senolyse, aber Datenlage bleibt moderat."
+      en: "Quercetin has growing human study data on inflammation and senolysis, but the overall evidence base remains moderate."
   valueForMoney:
     score: 6
     explanation:
       de: "0,87 € pro Tag liegt über Pulverprodukten, dafür hochwertige Formulierung."
-      en: "0,87 € pro Tag liegt über Pulverprodukten, dafür hochwertige Formulierung."
+      en: "€0.87 per day is above powder products, but reflects a high-quality formulation."
   productQuality:
     score: 9
     explanation:
       de: "Phytosome-Rohstoff von Indena, Thorne produziert nach GMP mit strengen internen Tests."
-      en: "Phytosome-Rohstoff von Indena, Thorne produziert nach GMP mit strengen internen Tests."
+      en: "Phytosome raw material from Indena; Thorne manufactures under GMP with strict internal testing."
   labelHonesty:
     score: 9
     explanation:
       de: "Volle Offenlegung der Hilfsstoffe, Charge und Allergene; keine Health-Claims."
-      en: "Volle Offenlegung der Hilfsstoffe, Charge und Allergene; keine Health-Claims."
+      en: "Full disclosure of excipients, batch, and allergens; no unsubstantiated health claims."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "NSF Sport-Programm prüft Thorne-Zutaten auf Kontaminationen."
-      en: "NSF Sport-Programm prüft Thorne-Zutaten auf Kontaminationen."
+      en: "NSF Sport program tests Thorne ingredients for contamination."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Keine zusätzliche Synergie mit Vitamin C oder Bromelain"
       usage: "1 Kapsel zu einer fetthaltigen Mahlzeit, optional auf zwei Portionen pro Tag splitten, wenn Entzündungsmarker hoch sind."
   en:
-    summary: "Phytosome-gebundenes Quercetin mit verbesserter Aufnahme, solide Dosierung und transparente Rohstoffkette."
-    verdictNote: "Auf Bioverfügbarkeit ausgerichtete Formulierung dank Phytosome-Technologie, ergänzt durch Sport-Zertifizierungen des Herstellers."
+    summary: "Phytosome-bound quercetin with improved absorption, solid dosing, and transparent ingredient sourcing."
+    verdictNote: "Bioavailability-focused formulation using phytosome technology, backed by the manufacturer's sport certifications."
     body:
-      description: "Thorne koppelt Quercetin an Phospholipide (Phytosome), was die Aufnahme in Darm und Lymphe deutlich verbessert. Jede Kapsel liefert 250 mg reine aktive Verbindung ohne Farbstoffe."
+      description: "Thorne binds quercetin to phospholipids (phytosome), significantly improving gut and lymph absorption. Each capsule delivers 250 mg pure active compound with no colorants."
       pros:
-        - "Phytosome-Technologie mit Indena-Meriva-ähnlicher Absorption"
-        - "Transparente Herkunft der Rohstoffe und frei von Gluten/Soja"
-        - "Sustained-Release-Kapsel sorgt für längeren Wirkspiegel"
+        - "Phytosome technology with Indena-sourced, Meriva-like absorption profile"
+        - "Transparent ingredient sourcing, gluten- and soy-free"
+        - "Capsule formulation supports prolonged active levels"
       cons:
-        - "Relativ hoher Preis pro mg im Vergleich zu Pulver oder Bulk-Quercetin"
-        - "Keine zusätzliche Synergie mit Vitamin C oder Bromelain"
-      usage: "1 Kapsel zu einer fetthaltigen Mahlzeit, optional auf zwei Portionen pro Tag splitten, wenn Entzündungsmarker hoch sind."
+        - "Relatively high cost per mg compared to powder or bulk quercetin"
+        - "No added synergy with vitamin C or bromelain"
+      usage: "1 capsule with a fat-containing meal; optionally split into two servings per day when inflammation markers are elevated."
 ---

@@ -29,27 +29,27 @@ ratings:
     score: 9
     explanation:
       de: "Kreatin zeigt konsistent Vorteile für Muskel- und Gehirngesundheit, auch im Alter."
-      en: "Kreatin zeigt konsistent Vorteile für Muskel- und Gehirngesundheit, auch im Alter."
+      en: "Creatine consistently shows benefits for muscle and brain health, including in older adults."
   valueForMoney:
     score: 7
     explanation:
       de: "0,47 € pro Tag ist teurer, aber das NSF-Siegel rechtfertigt den Aufpreis."
-      en: "0,47 € pro Tag ist teurer, aber das NSF-Siegel rechtfertigt den Aufpreis."
+      en: "€0.47 per day is higher-priced, but the NSF certification justifies the premium."
   productQuality:
     score: 9
     explanation:
       de: "Sehr feines Pulver, frei von Zusatzstoffen, produziert in Thornes cGMP-Anlage."
-      en: "Sehr feines Pulver, frei von Zusatzstoffen, produziert in Thornes cGMP-Anlage."
+      en: "Very fine powder, additive-free, produced in Thorne's cGMP facility."
   labelHonesty:
     score: 9
     explanation:
       de: "Minimalistisches Etikett, jede Portion exakt 5 g, keine Performance-Versprechen."
-      en: "Minimalistisches Etikett, jede Portion exakt 5 g, keine Performance-Versprechen."
+      en: "Minimalist label, exactly 5 g per serving, no unsubstantiated performance claims."
   thirdPartyTesting:
     score: 10
     explanation:
       de: "NSF Certified for Sport garantiert Tests auf Reinheit und verbotene Substanzen."
-      en: "NSF Certified for Sport garantiert Tests auf Reinheit und verbotene Substanzen."
+      en: "NSF Certified for Sport guarantees testing for purity and banned substances."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Keine Kilovariante:** Für Vielverbraucher wäre eine 1-kg-Dose sinnvoll"
       usage: "Täglich 1 Messlöffel (5 g) in Wasser oder Elektrolytgetränk rühren. Beste Aufnahme zusammen mit Kohlenhydraten oder nach dem Training."
   en:
-    summary: "NSF Certified for Sport Kreatinpulver mit 450 g Inhalt, gut geeignet für getestete Athleten und Puristen, die nur reines Monohydrat wollen."
-    verdictNote: "Bestes Wahl-Kreatin für getestete Sportler, trotz höherem Preis."
+    summary: "NSF Certified for Sport creatine powder, 450 g. Ideal for tested athletes and purists wanting plain monohydrate."
+    verdictNote: "Top creatine pick for tested athletes, despite the higher price."
     body:
-      description: "Thorne liefert 450 g reines Kreatin-Monohydrat ohne Aromen oder Süßstoffe. Jede Portion enthält 5 g und lässt sich in jedes Getränk mischen, ohne Rückstände zu hinterlassen."
+      description: "Thorne delivers 450 g of pure creatine monohydrate with no flavors or sweeteners. Each serving provides 5 g and mixes cleanly into any drink without residue."
       pros:
-        - "**NSF-Siegel:** Sicherheit für Profisport und Dopingtests"
-        - "**Reinheit:** Keine Zusatzstoffe, keine Farbstoffe"
-        - "**Feines Pulver:** Klumpfrei, löst sich sofort"
-        - "**Thorne-Qualität:** Strikte Lieferantenauswahl und cGMP-Produktion"
+        - "**NSF certification:** Safety for professional sport and doping tests"
+        - "**Purity:** No additives, no colorants"
+        - "**Fine powder:** Clump-free, dissolves instantly"
+        - "**Thorne quality:** Strict supplier selection and cGMP production"
       cons:
-        - "**Preis:** Vergleichsweise hoher Tagessatz"
-        - "**Keine Kilovariante:** Für Vielverbraucher wäre eine 1-kg-Dose sinnvoll"
-      usage: "Täglich 1 Messlöffel (5 g) in Wasser oder Elektrolytgetränk rühren. Beste Aufnahme zusammen mit Kohlenhydraten oder nach dem Training."
+        - "**Price:** Relatively high cost per day"
+        - "**No bulk size:** A 1 kg option would benefit heavy users"
+      usage: "1 scoop (5 g) daily in water or an electrolyte drink. Best absorbed alongside carbohydrates or post-workout."
 ---

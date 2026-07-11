@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Curcumin zeigt moderate Effekte bei Entzündungsmarkern, Bioverfügbarkeit entscheidend."
-      en: "Curcumin zeigt moderate Effekte bei Entzündungsmarkern, Bioverfügbarkeit entscheidend."
+      en: "Curcumin shows moderate effects on inflammation markers; bioavailability is the decisive factor."
   valueForMoney:
     score: 7
     explanation:
       de: "1,07 € pro Portion ist angemessen für Meriva."
-      en: "1,07 € pro Portion ist angemessen für Meriva."
+      en: "€1.07 per serving is reasonable for a Meriva-based product."
   productQuality:
     score: 9
     explanation:
       de: "Thorne verwendet ausschließlich Meriva-Spezialextrakt."
-      en: "Thorne verwendet ausschließlich Meriva-Spezialextrakt."
+      en: "Thorne uses exclusively the Meriva specialty extract."
   labelHonesty:
     score: 9
     explanation:
       de: "Klares Verhältnis von Curcuminoiden zu Phosphatidylcholin."
-      en: "Klares Verhältnis von Curcuminoiden zu Phosphatidylcholin."
+      en: "Clear ratio of curcuminoids to phosphatidylcholine disclosed on label."
   thirdPartyTesting:
     score: 9
     explanation:
       de: "NSF-zertifizierte Anlage, regelmäßige Informed-Choice-Tests."
-      en: "NSF-zertifizierte Anlage, regelmäßige Informed-Choice-Tests."
+      en: "NSF-certified facility with regular Informed Choice testing."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Teurer als einfache Curcumin-Pulver"
       usage: "1 Kapsel zweimal täglich zu Mahlzeiten. Bei Medikamenten wegen CYP-Interaktionen Apotheker fragen."
   en:
-    summary: "MERIVA-Phytosom-Curcumin mit 500 mg pro Kapsel und klinischer Datenbasis für Entzündungen."
-    verdictNote: "Eine der bestuntersuchten Curcumin-Formen mit guter Verträglichkeit und stabiler Aufnahme."
+    summary: "Meriva phytosome curcumin, 500 mg per capsule, with a solid clinical evidence base for inflammation."
+    verdictNote: "One of the most-studied curcumin forms, with good tolerability and consistent absorption."
     body:
-      description: "Meriva verbindet Curcuminoide mit Phosphatidylcholin, wodurch das fettlösliche Molekül wasserdispergierbar wird. Thorne kapselt das Pulver ohne zusätzliche Pfefferextrakte."
+      description: "Meriva binds curcuminoids to phosphatidylcholine, making the fat-soluble molecule water-dispersible. Thorne encapsulates the powder without black pepper extracts."
       pros:
-        - "Studien seit 2006 auf Meriva"
-        - "Keine schwarzen Pfeffer-Interaktionen"
-        - "Vegane Kapseln"
+        - "Meriva has been studied since 2006"
+        - "No black pepper interactions"
+        - "Vegan capsules"
       cons:
-        - "Gelbe Flecken an Fingern möglich"
-        - "Teurer als einfache Curcumin-Pulver"
-      usage: "1 Kapsel zweimal täglich zu Mahlzeiten. Bei Medikamenten wegen CYP-Interaktionen Apotheker fragen."
+        - "Yellow staining on fingers possible"
+        - "More expensive than plain curcumin powders"
+      usage: "1 capsule twice daily with meals. If on medication, consult a pharmacist regarding CYP interactions."
 ---
