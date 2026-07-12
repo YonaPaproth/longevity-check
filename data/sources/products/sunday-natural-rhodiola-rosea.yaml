@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Solide Humanstudien zu Stressresilienz und Energieniveau."
-      en: "Solide Humanstudien zu Stressresilienz und Energieniveau."
+      en: "Solid human studies on stress resilience and energy levels."
   valueForMoney:
     score: 8
     explanation:
       de: "0,33 € pro Tag für standardisierten Extrakt ist stark."
-      en: "0,33 € pro Tag für standardisierten Extrakt ist stark."
+      en: "€0.33 per day for a standardized extract is excellent value."
   productQuality:
     score: 9
     explanation:
       de: "Gefriertrocknung in Deutschland, Glasverpackung wird mit Schutzmechanismen in Verbindung gebracht Aromastoffe."
-      en: "Gefriertrocknung in Deutschland, Glasverpackung wird mit Schutzmechanismen in Verbindung gebracht Aromastoffe."
+      en: "Freeze-dried in Germany; glass packaging protects the active compounds from light degradation."
   labelHonesty:
     score: 9
     explanation:
       de: "Transparente Angaben zu Herkunft, Extraktionsratio und Analysewerten."
-      en: "Transparente Angaben zu Herkunft, Extraktionsratio und Analysewerten."
+      en: "Transparent information on origin, extraction ratio, and analytical values."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Sunday veröffentlicht Pestizid-Screenings und Schwermetallanalysen."
-      en: "Sunday veröffentlicht Pestizid-Screenings und Schwermetallanalysen."
+      en: "Sunday Natural publishes pesticide screenings and heavy metal analyses."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Nur limitierte Chargen, öfter ausverkauft"
       usage: "1 Kapsel morgens nüchtern oder vor geistig fordernden Phasen. Spätabends vermeiden, da aktivierend."
   en:
-    summary: "Skandinavischer Rhodiola-Extrakt mit 3% Rosavinen und 1% Salidrosid in Glasverpackung."
-    verdictNote: "Nachhaltige Verpackung, faire Dosierung und nachvollziehbare Laborwerte – klare Empfehlung für Stress-Stacks."
+    summary: "Scandinavian rhodiola extract with 3% rosavins and 1% salidroside in glass packaging."
+    verdictNote: "Sustainable packaging, a fair dose, and verifiable lab values — a clear recommendation for stress stacks."
     body:
-      description: "Der Rhodiola-Extrakt stammt aus wild geernteten Pflanzen aus Lappland. Sunday Natural verarbeitet in Berlin und setzt auf vegane Cellulosekapseln."
+      description: "The rhodiola extract comes from wild-harvested plants from Lapland. Sunday Natural processes in Berlin and uses vegan cellulose capsules."
       pros:
-        - "Braunglas ist auf Schutz vor ausgerichtet bei Licht"
-        - "Standardisierung 3:1 liefert konsistente Wirkung"
-        - "Bio-zertifizierte Verarbeitung"
+        - "Amber glass protects active compounds from light"
+        - "3:1 standardization delivers consistent potency"
+        - "Organically certified processing"
       cons:
-        - "Leicht bitterer Nachgeschmack"
-        - "Nur limitierte Chargen, öfter ausverkauft"
-      usage: "1 Kapsel morgens nüchtern oder vor geistig fordernden Phasen. Spätabends vermeiden, da aktivierend."
+        - "Slightly bitter aftertaste"
+        - "Limited batch runs; frequently sold out"
+      usage: "Take 1 capsule in the morning on an empty stomach or before mentally demanding periods. Avoid late in the evening as it can be stimulating."
 ---

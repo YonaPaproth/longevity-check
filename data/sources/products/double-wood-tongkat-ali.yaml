@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Studien zeigen Effekte auf Stresshormone und Libido, Datenlage mittel."
-      en: "Studien zeigen Effekte auf Stresshormone und Libido, Datenlage mittel."
+      en: "Studies show effects on stress hormones and libido; evidence base is moderate."
   valueForMoney:
     score: 7
     explanation:
       de: "0,63 € pro Portion für echten 100:1-Extrakt ist angemessen."
-      en: "0,63 € pro Portion für echten 100:1-Extrakt ist angemessen."
+      en: "€0.63 per serving for a genuine 100:1 extract is fair."
   productQuality:
     score: 8
     explanation:
       de: "Eurycomanone-Gehalt wird pro Charge verifiziert."
-      en: "Eurycomanone-Gehalt wird pro Charge verifiziert."
+      en: "Eurycomanone content is verified per batch."
   labelHonesty:
     score: 9
     explanation:
       de: "QR-Code führt zu Laborzertifikaten."
-      en: "QR-Code führt zu Laborzertifikaten."
+      en: "QR code links directly to lab certificates."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Analysen bei S&J Labs inkl. Schwermetalle und Mikrobiologie."
-      en: "Analysen bei S&J Labs inkl. Schwermetalle und Mikrobiologie."
+      en: "Tested at S&J Labs including heavy metals and microbiology."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Nicht für Personen mit Bluthochdruck geeignet"
       usage: "1 Kapsel morgens auf leeren Magen, nach 8 Wochen eine Pause von 1–2 Wochen einlegen."
   en:
-    summary: "Authentischer Tongkat-Ali-Extrakt (100:1) mit 1,5 % Eurycomanonen, Charge-Tests online abrufbar."
-    verdictNote: "Hohe Wirkstoff-Transparenz und frei erhältliche COAs machen Double Wood zur sicheren Wahl."
+    summary: "Authentic tongkat ali extract (100:1) with 1.5% eurycomanones; batch test results available online."
+    verdictNote: "High ingredient transparency and freely available COAs make Double Wood a safe choice."
     body:
-      description: "Double Wood bezieht Tongkat Ali aus Malaysia und konzentriert ihn zu einem 100:1-Extrakt. Jede Kapsel enthält 400 mg Pulver mit garantierten 1,5 % Eurycomanon."
+      description: "Double Wood sources tongkat ali from Malaysia and concentrates it into a 100:1 extract. Each capsule contains 400 mg powder with a guaranteed 1.5% eurycomanone content."
       pros:
-        - "Charge-spezifische COAs"
-        - "Vegan und ohne Gelatine"
-        - "Angenehm kleine Kapseln trotz 400 mg"
+        - "Batch-specific COAs"
+        - "Vegan and gelatin-free"
+        - "Conveniently small capsules despite the 400 mg dose"
       cons:
-        - "Bitterkeit beim Öffnen der Kapseln"
-        - "Nicht für Personen mit Bluthochdruck geeignet"
-      usage: "1 Kapsel morgens auf leeren Magen, nach 8 Wochen eine Pause von 1–2 Wochen einlegen."
+        - "Bitter taste if the capsule is opened"
+        - "Not suitable for people with high blood pressure"
+      usage: "Take 1 capsule in the morning on an empty stomach. After 8 weeks, take a 1–2 week break."
 ---

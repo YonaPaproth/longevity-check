@@ -29,27 +29,27 @@ ratings:
     score: 3
     explanation:
       de: "NMN erhöhte NAD+-Spiegel in Studien. Klinische Langzeituntersuchtkeit beim Menschen bleibt offen."
-      en: "NMN erhöhte NAD+-Spiegel in Studien. Klinische Langzeituntersuchtkeit beim Menschen bleibt offen."
+      en: "NMN raised NAD+ levels in studies. Long-term clinical outcomes in humans remain unresolved."
   valueForMoney:
     score: 6
     explanation:
       de: "0,87 € pro Tag ist im oberen Mittelfeld. Günstigere Alternativen mit vergleichbarer Qualität verfügbar."
-      en: "0,87 € pro Tag ist im oberen Mittelfeld. Günstigere Alternativen mit vergleichbarer Qualität verfügbar."
+      en: "€0.87 per day is in the upper mid-range. Cheaper alternatives with comparable quality are available."
   productQuality:
     score: 6
     explanation:
       de: "Veröffentlicht HPLC-Zertifikate. Keine Drittanbieter-Zertifizierung. Stabile Kapseln, empfohlene Kühllagerung."
-      en: "Veröffentlicht HPLC-Zertifikate. Keine Drittanbieter-Zertifizierung. Stabile Kapseln, empfohlene Kühllagerung."
+      en: "Publishes HPLC certificates. No third-party certification. Stable capsules; refrigerated storage recommended."
   labelHonesty:
     score: 6
     explanation:
       de: "Website hält sich weitgehend an die Studienlage, macht aber vereinzelt weitreichende Aussagen ohne direkte Belege."
-      en: "Website hält sich weitgehend an die Studienlage, macht aber vereinzelt weitreichende Aussagen ohne direkte Belege."
+      en: "Website largely follows the evidence base but occasionally makes broad claims without direct citations."
   thirdPartyTesting:
     score: 3
     explanation:
       de: "Eigene CoA vorhanden. Keine unabhängige Zertifizierung durch Informed-Sport, NSF oder Labdoor."
-      en: "Eigene CoA vorhanden. Keine unabhängige Zertifizierung durch Informed-Sport, NSF oder Labdoor."
+      en: "In-house COA available. No independent certification from Informed Sport, NSF, or Labdoor."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Versand aus USA:** Lieferzeiten und Zollrisiko für EU-Kunden"
       usage: ""
   en:
-    summary: "US-Anbieter mit Fokus auf Darreichungsformen. Bietet NMN in verschiedenen Formen an. Eigene CoA vorhanden, keine unabhängige Zertifizierung."
-    verdictNote: "Solides NMN-Produkt mit fairer Transparenz. Im Direktvergleich mit Do Not Age etwas teurer bei ähnlichem Qualitätsniveau."
+    summary: "US brand focused on delivery formats, offering NMN in several forms. In-house COA available; no independent certification."
+    verdictNote: "A solid NMN product with fair transparency. Slightly more expensive than Do Not Age at a comparable quality level."
     body:
-      description: "Renue By Science ist ein US-amerikanischer Hersteller, der sich auf NMN und verwandte NAD+-Vorläufer spezialisiert hat. Das Unternehmen bietet NMN in mehreren Darreichungsformen an — Kapseln, sublinguale Tabletten und Pulver. Die Kapselform NMN 500 ist die Einstiegsoption."
+      description: "Renue By Science is a US manufacturer specializing in NMN and related NAD+ precursors. The company offers NMN in several delivery formats — capsules, sublingual tablets, and powder. The NMN 500 capsule is the entry-level option."
       pros:
-        - "**Mehrere Darreichungsformen:** Renue By Science bietet NMN auch sublingual an, was für Nutzer interessant ist, die eine höhere Resorption anstreben"
-        - "**Transparenz:** HPLC-Zertifikate für jede Charge werden veröffentlicht"
-        - "**Aktive Community:** Das Unternehmen kommuniziert regelmäßig zu aktuellen NMN-Studien"
+        - "**Multiple delivery formats:** Sublingual NMN is also available for users seeking higher absorption"
+        - "**Transparency:** HPLC certificates published for every batch"
+        - "**Active community:** The brand regularly communicates on current NMN research"
       cons:
-        - "**Preis:** Im Vergleich zu europäischen Alternativen leicht überteuert"
-        - "**Keine unabhängige Zertifizierung:** Eigene CoA sind kein Ersatz für NSF oder Informed-Sport"
-        - "**Versand aus USA:** Lieferzeiten und Zollrisiko für EU-Kunden"
+        - "**Price:** Slightly overpriced compared to European alternatives"
+        - "**No independent certification:** In-house COA is not a substitute for NSF or Informed Sport"
+        - "**Ships from the US:** Longer delivery times and customs risk for EU customers"
       usage: ""
 ---

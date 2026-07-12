@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Tiermodelle und erste Humanstudien zeigen GABAerge Effekte, aber Datenlage ist noch klein."
-      en: "Tiermodelle und erste Humanstudien zeigen GABAerge Effekte, aber Datenlage ist noch klein."
+      en: "Animal models and early human studies show GABAergic effects, but the evidence base is still limited."
   valueForMoney:
     score: 7
     explanation:
       de: "0,31 € pro 50 mg ist fair für gereinigtes Apigenin."
-      en: "0,31 € pro 50 mg ist fair für gereinigtes Apigenin."
+      en: "€0.31 per 50 mg is fair for purified apigenin."
   productQuality:
     score: 8
     explanation:
       de: "Double Wood veröffentlicht COA inkl. Schwermetalle und Lösungsmittel."
-      en: "Double Wood veröffentlicht COA inkl. Schwermetalle und Lösungsmittel."
+      en: "Double Wood publishes COAs including heavy metals and solvent residues."
   labelHonesty:
     score: 9
     explanation:
       de: "Apigenin-Gehalt klar angegeben, keine proprietären Blends."
-      en: "Apigenin-Gehalt klar angegeben, keine proprietären Blends."
+      en: "Apigenin content clearly stated; no proprietary blends."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "COAs stammen von Eurofins, allerdings nur chargenweise."
-      en: "COAs stammen von Eurofins, allerdings nur chargenweise."
+      en: "COAs come from Eurofins, though only on a per-batch basis."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Pulver schmeckt bitter, wenn die Kapsel geöffnet wird"
       usage: "1–2 Kapseln 45 Minuten vor dem Schlafengehen zusammen mit Magnesium oder Glycin nutzen. Nicht mit starken Sedativa kombinieren."
   en:
-    summary: "Kamillenextrakt mit 50 mg Apigenin zur Anwendung im Schlaf-Kontext, inkl. veröffentlichtem Zertifikat of Analysis."
-    verdictNote: "Gute Wahl für Schlaf-Kontexte mit GABA-Fokus, solange man keine streng qualitätsorientierte Evidenz erwartet."
+    summary: "Chamomile extract standardized to 50 mg apigenin per capsule for sleep support, with a publicly available COA."
+    verdictNote: "A good choice for sleep stacks with a GABA focus, as long as you don't expect strongly evidence-backed results."
     body:
-      description: "Das Produkt nutzt hochdosierten Kamillenextrakt auf 50 mg Apigenin pro Kapsel standardisiert. Die Füllstoffe beschränken sich auf Reismehl und Pullulan."
+      description: "The product uses high-dose chamomile extract standardized to 50 mg apigenin per capsule. Excipients are limited to rice flour and pullulan."
       pros:
-        - "COA pro Charge öffentlich herunterladbar"
-        - "Frei von Soja, Gluten und tierischen Bestandteilen"
-        - "Lässt sich gut mit Glycin oder L-Theanin kombinieren"
+        - "COA downloadable per batch"
+        - "Free of soy, gluten, and animal ingredients"
+        - "Stacks well with glycine or L-theanine"
       cons:
-        - "Kein Hinweis auf Bioflavonoid-Begleitstoffe"
-        - "Pulver schmeckt bitter, wenn die Kapsel geöffnet wird"
-      usage: "1–2 Kapseln 45 Minuten vor dem Schlafengehen zusammen mit Magnesium oder Glycin nutzen. Nicht mit starken Sedativa kombinieren."
+        - "No information on accompanying bioflavonoids"
+        - "Bitter taste if the capsule is opened"
+      usage: "Take 1–2 capsules 45 minutes before bed alongside magnesium or glycine. Do not combine with strong sedatives."
 ---

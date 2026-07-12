@@ -30,27 +30,27 @@ ratings:
     score: 8
     explanation:
       de: "Magnesium ist essenziell, verschiedene Formen decken unterschiedliche Aufnahmewege ab."
-      en: "Magnesium ist essenziell, verschiedene Formen decken unterschiedliche Aufnahmewege ab."
+      en: "Magnesium is essential; different forms cover different absorption pathways."
   valueForMoney:
     score: 7
     explanation:
       de: "0,33 € pro Tag ist angemessen für Multiform-Komplex mit 300 mg."
-      en: "0,33 € pro Tag ist angemessen für Multiform-Komplex mit 300 mg."
+      en: "€0.33 per day is reasonable for a multi-form complex delivering 300 mg elemental magnesium."
   productQuality:
     score: 8
     explanation:
       de: "Herstellung in Berlin, Laboranalysen jeder Charge, transparente Rohstoffquellen."
-      en: "Herstellung in Berlin, Laboranalysen jeder Charge, transparente Rohstoffquellen."
+      en: "Manufactured in Berlin with batch lab analyses and transparent ingredient sourcing."
   labelHonesty:
     score: 8
     explanation:
       de: "Alle Formen und Mengen detailliert aufgelistet, keine Proprietary Blend."
-      en: "Alle Formen und Mengen detailliert aufgelistet, keine Proprietary Blend."
+      en: "All forms and amounts listed in detail; no proprietary blend."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Sunday veröffentlicht Analysen auf Anfrage, führt interne Schwermetalltests durch."
-      en: "Sunday veröffentlicht Analysen auf Anfrage, führt interne Schwermetalltests durch."
+      en: "Sunday Natural publishes analyses on request and conducts internal heavy metal testing."
 
 locales:
   de:
@@ -68,17 +68,17 @@ locales:
         - "Nur 90 Portionen, keine Nachfüllpacks"
       usage: "2 Kapseln täglich, idealerweise auf Morgen und Abend aufteilen. Bei sensiblen Mägen zu den Mahlzeiten einnehmen."
   en:
-    summary: "Sieben Magnesiumformen plus Co-Faktoren, made in Germany und ohne Zusatzstoffe – praktisch für Vielseitigkeit."
-    verdictNote: "Wer sich nicht auf eine Magnesiumform festlegen will, bekommt hier ein vielseitiges Komplettpaket."
+    summary: "Seven magnesium forms plus co-factors, made in Germany with no unnecessary additives."
+    verdictNote: "If you don't want to commit to a single magnesium form, this is a versatile all-in-one option."
     body:
-      description: "Der Magnesium Komplex kombiniert bisglycinat, malat, citrat, taurat, orotat, gluconat und lactat. Jede Tagesportion liefert 300 mg elementares Magnesium, ergänzt um Bioperin für bessere Aufnahme."
+      description: "The Magnesium Complex combines bisglycinate, malate, citrate, taurate, orotate, gluconate, and lactate. Each daily serving delivers 300 mg elemental magnesium, complemented by BioPerine for improved absorption."
       pros:
-        - "Mehrere Formen decken Darm- und Gewebepräferenzen ab"
-        - "Produktion und Abfüllung in Berlin"
-        - "Verzicht auf Magnesiumstearat und Farbstoffe"
-        - "Glasverpackung statt Plastik"
+        - "Multiple forms cover different gut and tissue preferences"
+        - "Produced and filled in Berlin"
+        - "Free of magnesium stearate and colorants"
+        - "Glass packaging instead of plastic"
       cons:
-        - "Enthält Pfefferextrakt, was nicht jede:r verträgt"
-        - "Nur 90 Portionen, keine Nachfüllpacks"
-      usage: "2 Kapseln täglich, idealerweise auf Morgen und Abend aufteilen. Bei sensiblen Mägen zu den Mahlzeiten einnehmen."
+        - "Contains black pepper extract, which some people don't tolerate"
+        - "Only 90 servings; no refill packs available"
+      usage: "Take 2 capsules daily, ideally split between morning and evening. Take with meals if you have a sensitive stomach."
 ---

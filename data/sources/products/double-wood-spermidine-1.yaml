@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Humanstudien zu Spermidin existieren, aber Biomarker statt harter Endpunkte dominieren."
-      en: "Humanstudien zu Spermidin existieren, aber Biomarker statt harter Endpunkte dominieren."
+      en: "Human studies on spermidine exist, but biomarkers dominate over hard clinical endpoints."
   valueForMoney:
     score: 6
     explanation:
       de: "0,57 € pro mg ist günstiger als die meisten Apothekenpräparate, aber noch kein Schnäppchen."
-      en: "0,57 € pro mg ist günstiger als die meisten Apothekenpräparate, aber noch kein Schnäppchen."
+      en: "€0.57 per mg is cheaper than most pharmacy products, but still not a bargain."
   productQuality:
     score: 8
     explanation:
       de: "GMP-Produktion in den USA, jede Charge mit COA auf Polyamingehalt."
-      en: "GMP-Produktion in den USA, jede Charge mit COA auf Polyamingehalt."
+      en: "GMP-produced in the US; every batch comes with a COA verifying polyamine content."
   labelHonesty:
     score: 8
     explanation:
       de: "Rohstoffquelle, Polyaminanteil und Füllstoffe offen ausgewiesen."
-      en: "Rohstoffquelle, Polyaminanteil und Füllstoffe offen ausgewiesen."
+      en: "Raw material source, polyamine content, and excipients openly declared."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "COAs öffentlich einsehbar, jedoch keine unabhängigen EU-Labore."
-      en: "COAs öffentlich einsehbar, jedoch keine unabhängigen EU-Labore."
+      en: "COAs publicly accessible, but no independent EU labs involved."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Geschmack leicht nach Getreide, wenn Kapsel geöffnet wird"
       usage: "1 Kapsel täglich zu einer Mahlzeit mit Eiweiß. In Fastenprotokollen bevorzugt an Refeed-Tagen nutzen."
   en:
-    summary: "Weizenkeimextrakt mit 1 mg standardisiertem Spermidin, COA-verifiziert und frei von Gluten."
-    verdictNote: "Solider Einstieg in Spermidin mit transparentem Rohstoff und 60 Portionen."
+    summary: "Wheat germ extract with 1 mg standardized spermidine, COA-verified and gluten-free."
+    verdictNote: "A solid entry point into spermidine supplementation with a transparent raw material and 60 servings."
     body:
-      description: "Der standardisierte Weizenkeimextrakt liefert 1 mg reines Spermidin pro Kapsel. Als Hilfsstoffe dienen Reisfaser und pflanzliche Cellulose, sodass das Produkt glutenfrei bleibt."
+      description: "The standardized wheat germ extract delivers 1 mg pure spermidine per capsule. Rice fiber and plant cellulose are used as excipients, keeping the product gluten-free."
       pros:
-        - "COA-Download mit Polyamin-Analyse"
-        - "60 Portionen pro Flasche – doppelt so viel wie viele Mitbewerber"
-        - "Keine künstlichen Farbstoffe"
+        - "COA download with polyamine analysis"
+        - "60 servings per bottle — twice as many as many competitors"
+        - "No artificial colorants"
       cons:
-        - "Keine TÜV- oder EU-Zertifizierung"
-        - "Geschmack leicht nach Getreide, wenn Kapsel geöffnet wird"
-      usage: "1 Kapsel täglich zu einer Mahlzeit mit Eiweiß. In Fastenprotokollen bevorzugt an Refeed-Tagen nutzen."
+        - "No TÜV or EU certification"
+        - "Slight grainy taste if the capsule is opened"
+      usage: "Take 1 capsule daily with a protein-containing meal. For fasting protocols, prefer taking on refeed days."
 ---

@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "NMN hat wachsende Humanstudien zu NAD+-Spiegeln und metabolischen Markern, aber wenige harte Endpunkte."
-      en: "NMN hat wachsende Humanstudien zu NAD+-Spiegeln und metabolischen Markern, aber wenige harte Endpunkte."
+      en: "NMN has a growing body of human studies on NAD+ levels and metabolic markers, but hard clinical endpoints remain scarce."
   valueForMoney:
     score: 6
     explanation:
       de: "1,27 € pro 400 mg liegt im Premiumsegment, aber 60 Portionen mit niedrigeren Werten in Verbindung bringen den Stückpreis."
-      en: "1,27 € pro 400 mg liegt im Premiumsegment, aber 60 Portionen mit niedrigeren Werten in Verbindung bringen den Stückpreis."
+      en: "€1.27 per 400 mg sits in the premium tier; the 60-serving count keeps the per-unit cost somewhat in check."
   productQuality:
     score: 9
     explanation:
       de: "Fermentative Produktion, HPLC-Reinheit &gt;99 %, vegane Cellulosekapseln."
-      en: "Fermentative Produktion, HPLC-Reinheit &gt;99 %, vegane Cellulosekapseln."
+      en: "Fermentation-derived NMN, HPLC purity >99%, vegan cellulose capsules."
   labelHonesty:
     score: 9
     explanation:
       de: "Chargennummern verfolgbar, COA mit Schwermetallen und Lösungsmitteln öffentlich."
-      en: "Chargennummern verfolgbar, COA mit Schwermetallen und Lösungsmitteln öffentlich."
+      en: "Batch numbers traceable; COA including heavy metals and solvents is publicly available."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Deutsches Labor prüft jede Charge, zusätzlich werden Import-Analysen dokumentiert."
-      en: "Deutsches Labor prüft jede Charge, zusätzlich werden Import-Analysen dokumentiert."
+      en: "A German lab tests every batch; import analyses are additionally documented."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Kein zusätzliches Pterostilben oder TMG enthalten"
       usage: "1 Kapsel morgens nüchtern oder mit leichter Mahlzeit. Für empfindliche Mägen auf zwei Einnahmen (morgens/abends) aufteilen."
   en:
-    summary: "Fermentativ gewonnenes NMN mit 400 mg pro Kapsel, laborgeprüft und vegan nach Sunday-Natural-Standard."
-    verdictNote: "Für Anwender, die NMN lokal kaufen wollen, ist dies die transparenteste Option."
+    summary: "Fermentation-derived NMN, 400 mg per capsule, lab-tested and vegan to Sunday Natural standards."
+    verdictNote: "For buyers who want to source NMN locally, this is the most transparent option available."
     body:
-      description: "Sunday Natural nutzt fermentativ gewonnenes β-Nicotinamid-Mononukleotid mit garantierter Reinheit über 99 %. Die Kapseln sind vegan, frei von Magnesiumstearat und werden in Berlin abgefüllt."
+      description: "Sunday Natural uses fermentation-derived β-nicotinamide mononucleotide with guaranteed purity above 99%. Capsules are vegan, free of magnesium stearate, and filled in Berlin."
       pros:
-        - "Jede Charge mit HPLC-Zertifikat"
-        - "400 mg pro Portion, reduzierte Kapselanzahl"
-        - "Produktion und Abfüllung in Deutschland"
-        - "Vegane Rezeptur ohne Silikone"
+        - "HPLC certificate for every batch"
+        - "400 mg per serving reduces capsule count"
+        - "Production and filling in Germany"
+        - "Vegan formula, silicone-free"
       cons:
-        - "Teurer als Bulk-NMN aus den USA"
-        - "Kein zusätzliches Pterostilben oder TMG enthalten"
-      usage: "1 Kapsel morgens nüchtern oder mit leichter Mahlzeit. Für empfindliche Mägen auf zwei Einnahmen (morgens/abends) aufteilen."
+        - "More expensive than bulk NMN from the US"
+        - "No added pterostilbene or TMG"
+      usage: "Take 1 capsule in the morning on an empty stomach or with a light meal. Split into morning/evening doses if you have a sensitive stomach."
 ---

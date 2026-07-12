@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Shilajit besitzt Daten zu Energie, Testosteron und Höhenanpassung, jedoch wenige RCTs."
-      en: "Shilajit besitzt Daten zu Energie, Testosteron und Höhenanpassung, jedoch wenige RCTs."
+      en: "Shilajit has data on energy, testosterone, and altitude adaptation, but few RCTs."
   valueForMoney:
     score: 7
     explanation:
       de: "0,63 € pro 250 mg gereinigter Harzextrakt ist ordentlich."
-      en: "0,63 € pro 250 mg gereinigter Harzextrakt ist ordentlich."
+      en: "€0.63 per 250 mg purified resin extract is decent value."
   productQuality:
     score: 8
     explanation:
       de: "Reinigung auf Schwermetalle, 50 % Fulvinsäure garantiert."
-      en: "Reinigung auf Schwermetalle, 50 % Fulvinsäure garantiert."
+      en: "Purified for heavy metals; 50% fulvic acid guaranteed."
   labelHonesty:
     score: 8
     explanation:
       de: "Transparente Angabe der Fulvinsäure und Herkunft."
-      en: "Transparente Angabe der Fulvinsäure und Herkunft."
+      en: "Transparent declaration of fulvic acid content and origin."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "COA umfasst Schwermetalle, PCB und Mikroben."
-      en: "COA umfasst Schwermetalle, PCB und Mikroben."
+      en: "COA covers heavy metals, PCBs, and microbial contamination."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Erde-metallischer Nachgeschmack bei geöffneten Kapseln"
       usage: "1 Kapsel morgens zu Fett, optional zweite am frühen Nachmittag für Energie."
   en:
-    summary: "50 % Fulvinsäure-Shilajit in Kapseln mit veröffentlichtem COA und Himalaya-Herkunft."
-    verdictNote: "Seltene Kapsel-Option für Shilajit mit nachvollziehbarer Reinigung."
+    summary: "Himalayan shilajit capsules with 50% fulvic acid, public COA, and heavy metal purification."
+    verdictNote: "A rare capsule option for shilajit with a verifiable purification process."
     body:
-      description: "Himalaya-Shilajit wird gereinigt, sprühgetrocknet und liefert 50 % Fulvinsäuren sowie Dibenzo-alpha-Pyron-Komplexe."
+      description: "Himalayan shilajit is purified, spray-dried, and delivers 50% fulvic acids along with dibenzo-alpha-pyrone complexes."
       pros:
-        - "COA öffentlich"
-        - "Keine Harzkleberei – einfache Kapseln"
-        - "Gut kombinierbar mit Cistanche"
+        - "COA publicly available"
+        - "No resin mess — convenient capsule format"
+        - "Stacks well with cistanche"
       cons:
-        - "Nur 250 mg pro Portion, viele nehmen mehr"
-        - "Erde-metallischer Nachgeschmack bei geöffneten Kapseln"
-      usage: "1 Kapsel morgens zu Fett, optional zweite am frühen Nachmittag für Energie."
+        - "Only 250 mg per serving; many users take more"
+        - "Earthy-metallic aftertaste if the capsule is opened"
+      usage: "Take 1 capsule in the morning with a fat-containing meal; optionally add a second in the early afternoon for energy support."
 ---

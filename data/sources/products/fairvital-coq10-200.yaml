@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "CoQ10 verbesserte Mitochondrienfunktion und Herzleistung in mehreren RCTs, besonders bei Statinnutzern."
-      en: "CoQ10 verbesserte Mitochondrienfunktion und Herzleistung in mehreren RCTs, besonders bei Statinnutzern."
+      en: "CoQ10 improved mitochondrial function and cardiac performance in several RCTs, particularly in statin users."
   valueForMoney:
     score: 8
     explanation:
       de: "0,38 € pro 200 mg made in Germany ist preislich attraktiv."
-      en: "0,38 € pro 200 mg made in Germany ist preislich attraktiv."
+      en: "€0.38 per 200 mg made in Germany is attractively priced."
   productQuality:
     score: 9
     explanation:
       de: "Fairvital kapselt unter streng qualitätsorientierten Bedingungen und verwendet kristallines Kaneka-Q10."
-      en: "Fairvital kapselt unter streng qualitätsorientierten Bedingungen und verwendet kristallines Kaneka-Q10."
+      en: "Fairvital encapsulates under strict quality-controlled conditions using crystalline Kaneka Q10."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert Kaneka-Rohstoff, Füllstoffe und Allergene transparent."
-      en: "Deklariert Kaneka-Rohstoff, Füllstoffe und Allergene transparent."
+      en: "Transparently declares Kaneka raw material, excipients, and allergens."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Deutsche Labore testen jede Charge auf Schwermetalle und Lösungsmittelreste."
-      en: "Deutsche Labore testen jede Charge auf Schwermetalle und Lösungsmittelreste."
+      en: "German labs test every batch for heavy metals and solvent residues."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Keine Ubiquinol-Variante für Personen mit Resorptionsproblemen"
       usage: "1 Kapsel täglich zu einer fettreichen Mahlzeit. Bei Statintherapie Einnahmezeit auf Abend legen, um Muskelkomfort zu unterstützen."
   en:
-    summary: "Deutsche CoQ10-Kapseln mit 200 mg Ubichinon, streng qualitätsorientierte Qualität und chargenweise Laborprüfung."
-    verdictNote: "Wer hohe CoQ10-Dosen benötigt, erhält hier 90 Portionen mit Kaneka-Rohstoff made in Germany."
+    summary: "German CoQ10 capsules with 200 mg ubiquinone, strict quality control, and batch lab testing."
+    verdictNote: "For those needing higher CoQ10 doses, this offers 90 servings with Kaneka raw material made in Germany."
     body:
-      description: "Fairvital setzt auf Kaneka-Q10 aus fermentierter Hefe. Die 200-mg-Kapseln sind leicht zu schlucken, vegan und enthalten als Hilfsstoff nur Reismehl."
+      description: "Fairvital uses Kaneka Q10 from fermented yeast. The 200 mg capsules are easy to swallow, vegan, and contain only rice flour as an excipient."
       pros:
-        - "Kaneka-Rohstoff mit hoher Bioidentität"
-        - "Produktion und Qualitätskontrolle in Deutschland"
-        - "90 Portionen decken drei Monate"
-        - "Vegan und frei von Magnesiumstearat"
+        - "Kaneka raw material with high bio-identity"
+        - "Production and quality control in Germany"
+        - "90 servings cover three months"
+        - "Vegan and free of magnesium stearate"
       cons:
-        - "Kein Ölträger, daher auf Fettmahlzeit angewiesen"
-        - "Keine Ubiquinol-Variante für Personen mit Resorptionsproblemen"
-      usage: "1 Kapsel täglich zu einer fettreichen Mahlzeit. Bei Statintherapie Einnahmezeit auf Abend legen, um Muskelkomfort zu unterstützen."
+        - "No oil carrier — relies on a fat-containing meal for absorption"
+        - "No ubiquinol version available for those with absorption issues"
+      usage: "Take 1 capsule daily with a fat-rich meal. For those on statin therapy, evening dosing may support muscle comfort."
 ---

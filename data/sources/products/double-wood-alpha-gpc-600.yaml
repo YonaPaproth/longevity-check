@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Alpha-GPC erhöhte Cholinspiegel und zeigt kognitive Benefits in älteren Populationen."
-      en: "Alpha-GPC erhöhte Cholinspiegel und zeigt kognitive Benefits in älteren Populationen."
+      en: "Alpha-GPC raises choline levels and shows cognitive benefits in older populations."
   valueForMoney:
     score: 7
     explanation:
       de: "0,70 € pro 600 mg ist marktüblich für US-Import."
-      en: "0,70 € pro 600 mg ist marktüblich für US-Import."
+      en: "€0.70 per 600 mg is standard for a US import product."
   productQuality:
     score: 7
     explanation:
       de: "Stabile, aber hygroskopische Kapseln."
-      en: "Stabile, aber hygroskopische Kapseln."
+      en: "Stable capsules, though the powder is hygroscopic."
   labelHonesty:
     score: 8
     explanation:
       de: "Gibt reinen Alpha-GPC-Gehalt und Füllstoffe transparent an."
-      en: "Gibt reinen Alpha-GPC-Gehalt und Füllstoffe transparent an."
+      en: "Transparently states pure alpha-GPC content and excipients."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Nur interne Tests, keine NSF."
-      en: "Nur interne Tests, keine NSF."
+      en: "Internal testing only; no NSF or equivalent certification."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kann bei nüchterner Einnahme zu Kopfdruck führen"
       usage: "1 Kapsel morgens. Bei mentalen Peaks 30 Minuten vor Arbeit einnehmen, am besten mit ALCAR."
   en:
-    summary: "600 mg Alpha-GPC pro Kapsel für Acetylcholin-Kontext, gut geeignet mit ALCAR kombinierbar."
-    verdictNote: "Solide Wahl für Neuro-Stacks, sofern man die Lagerung im Blick behält."
+    summary: "600 mg alpha-GPC per capsule for acetylcholine support, pairs well with ALCAR."
+    verdictNote: "A solid choice for nootropic stacks as long as you keep an eye on storage conditions."
     body:
-      description: "Jede Kapsel enthält 600 mg Alpha-GPC, entsprechend ca. 240 mg bioverfügbarem Cholin. Die Kapseln sind mit Reismehl stabilisiert, um das klebrige Pulver zu binden."
+      description: "Each capsule contains 600 mg alpha-GPC, providing approximately 240 mg of bioavailable choline. Capsules are stabilized with rice flour to bind the sticky powder."
       pros:
-        - "Hohe Einzeldosis reduziert Kapselanzahl"
-        - "Glutenfrei und non-GMO"
-        - "Chargenanalysen auf Schwermetalle"
+        - "High single dose reduces the number of capsules needed"
+        - "Gluten-free and non-GMO"
+        - "Batch analyses for heavy metals available"
       cons:
-        - "Pulver zieht schnell Feuchtigkeit"
-        - "Kann bei nüchterner Einnahme zu Kopfdruck führen"
-      usage: "1 Kapsel morgens. Bei mentalen Peaks 30 Minuten vor Arbeit einnehmen, am besten mit ALCAR."
+        - "Powder absorbs moisture quickly"
+        - "May cause head pressure when taken on an empty stomach"
+      usage: "Take 1 capsule in the morning. For peak mental performance, take 30 minutes before work, ideally alongside ALCAR."
 ---

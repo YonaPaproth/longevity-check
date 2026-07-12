@@ -38,27 +38,27 @@ ratings:
     score: 8
     explanation:
       de: "B-Komplex deckt essentielle Cofaktoren für Energie- und Neurotransmitterstoffwechsel ab."
-      en: "B-Komplex deckt essentielle Cofaktoren für Energie- und Neurotransmitterstoffwechsel ab."
+      en: "A B-complex covers essential cofactors for energy metabolism and neurotransmitter synthesis."
   valueForMoney:
     score: 7
     explanation:
       de: "0,40 € pro Tag für bioaktive Formen (P5P, Methylfolat) ist fair."
-      en: "0,40 € pro Tag für bioaktive Formen (P5P, Methylfolat) ist fair."
+      en: "€0.40 per day for bioactive forms (P5P, methylfolate) is fair."
   productQuality:
     score: 9
     explanation:
       de: "Hergestellt in Berlin, enthält aktive Formen wie MeCbl, P5P, Benfotiamin, keine Gentechnik."
-      en: "Hergestellt in Berlin, enthält aktive Formen wie MeCbl, P5P, Benfotiamin, keine Gentechnik."
+      en: "Made in Berlin; contains active forms such as MeCbl, P5P, and benfotiamine; non-GMO."
   labelHonesty:
     score: 9
     explanation:
       de: "Alle Vitamine mit mg/µg-Angaben und Form (z. B. Methylcobalamin) ausgewiesen."
-      en: "Alle Vitamine mit mg/µg-Angaben und Form (z. B. Methylcobalamin) ausgewiesen."
+      en: "All vitamins listed with mg/µg amounts and form (e.g. methylcobalamin) clearly stated."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Mikrobiologische Tests durch deutsche Labore, COAs über QR-Code abrufbar."
-      en: "Mikrobiologische Tests durch deutsche Labore, COAs über QR-Code abrufbar."
+      en: "Microbiological tests by German labs; COAs accessible via QR code."
 
 locales:
   de:
@@ -76,17 +76,17 @@ locales:
         - "Keine getrennten AM/PM-Kapseln"
       usage: "1 Kapsel zu einer Mahlzeit mit etwas Fett. Bei hohem Stress morgens und nachmittags je 1 Kapsel, ausreichend Wasser trinken und abends nicht zu spät einnehmen."
   en:
-    summary: "Alle acht B-Vitamine in aktiven Formen, Made in Germany und ohne synthetische Farbstoffe."
-    verdictNote: "Sauberer Tageskomplex mit aktiven B-Vitaminformen für stressige Phasen oder Veganer."
+    summary: "All eight B vitamins in active forms, made in Germany with no synthetic colorants."
+    verdictNote: "A clean daily B complex with active vitamin forms for stressful periods or vegans."
     body:
-      description: "Jede Kapsel kombiniert alle acht B-Vitamine in physiologisch aktiven Formen: Benfotiamin, Riboflavin-5-Phosphat, P5P, Methylfolat, Methylcobalamin, Biotin, Pantothensäure und Niacinamid. Produziert in Berlin mit pflanzlichen Kapseln."
+      description: "Each capsule combines all eight B vitamins in physiologically active forms: benfotiamine, riboflavin-5-phosphate, P5P, methylfolate, methylcobalamin, biotin, pantothenic acid, and niacinamide. Produced in Berlin with plant-based capsules."
       pros:
-        - "Aktive Coenzym-Formen, keine billigen Salze"
-        - "Made in Germany mit QR-Code zu Laborwerten"
-        - "Frei von Magnesiumstearat und Silikaten"
-        - "Enthält Inositol und Cholin als Bonus"
+        - "Active coenzyme forms — no cheap salts"
+        - "Made in Germany with QR code linking to lab values"
+        - "Free of magnesium stearate and silicates"
+        - "Includes inositol and choline as extras"
       cons:
-        - "50 mg Niacinamid kann Flush verursachen, wenn empfindlich"
-        - "Keine getrennten AM/PM-Kapseln"
-      usage: "1 Kapsel zu einer Mahlzeit mit etwas Fett. Bei hohem Stress morgens und nachmittags je 1 Kapsel, ausreichend Wasser trinken und abends nicht zu spät einnehmen."
+        - "50 mg niacinamide may cause flushing in sensitive individuals"
+        - "No separate AM/PM capsules"
+      usage: "Take 1 capsule with a meal containing some fat. During high-stress periods, take 1 capsule morning and afternoon with plenty of water; avoid taking late in the evening."
 ---

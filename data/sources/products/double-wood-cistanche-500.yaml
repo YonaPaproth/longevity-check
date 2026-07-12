@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Pilotstudien zeigen Verbesserungen bei Ausdauer und freiem Testosteron, aber Datenlage ist klein."
-      en: "Pilotstudien zeigen Verbesserungen bei Ausdauer und freiem Testosteron, aber Datenlage ist klein."
+      en: "Pilot studies show improvements in endurance and free testosterone, but the evidence base is small."
   valueForMoney:
     score: 7
     explanation:
       de: "0,63 € pro 500 mg Spezialextrakt ist marktüblich."
-      en: "0,63 € pro 500 mg Spezialextrakt ist marktüblich."
+      en: "€0.63 per 500 mg specialty extract is in line with the market."
   productQuality:
     score: 8
     explanation:
       de: "Echinacosid &gt;10 % und Acteosid &gt;4 % laut Laborbericht."
-      en: "Echinacosid &gt;10 % und Acteosid &gt;4 % laut Laborbericht."
+      en: "Echinacoside >10% and acteoside >4% per lab report."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert Extraktverhältnis 10:1 und Bioaktiven klar."
-      en: "Deklariert Extraktverhältnis 10:1 und Bioaktiven klar."
+      en: "Clearly declares the 10:1 extraction ratio and active compounds."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "COA deckt Identität, Schwermetalle und Mikroben ab."
-      en: "COA deckt Identität, Schwermetalle und Mikroben ab."
+      en: "COA covers identity, heavy metals, and microbial contamination."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Nur online verfügbar"
       usage: "1 Kapsel morgens. Für Ausdauer-Stacks vor langen Einheiten 2 Kapseln nutzen."
   en:
-    summary: "Echinacosid-standardisierte Cistanche für Hormone und Ausdauer, inklusive öffentlich einsehbarer COA."
-    verdictNote: "Transparente Cistanche-Quelle für Energie- und Hormonkontext."
+    summary: "Echinacoside-standardized cistanche for hormonal and endurance support, with a publicly available COA."
+    verdictNote: "A transparent cistanche source for energy and hormone stacks."
     body:
-      description: "Wild geerntete Cistanche tubulosa aus der inneren Mongolei wird mit Wasser und Alkohol extrahiert, um Echinacosid zu konzentrieren."
+      description: "Wild-harvested Cistanche tubulosa from Inner Mongolia is extracted with water and alcohol to concentrate echinacoside."
       pros:
-        - "Offene Veröffentlichung der COA"
-        - "Vegetarische Kapseln ohne Silikate"
-        - "Gut kombinierbar mit Tongkat oder Shilajit"
+        - "COA publicly available"
+        - "Vegetarian capsules free of silicates"
+        - "Stacks well with tongkat ali or shilajit"
       cons:
-        - "Nischenrohstoff mit höherem Preis"
-        - "Nur online verfügbar"
-      usage: "1 Kapsel morgens. Für Ausdauer-Stacks vor langen Einheiten 2 Kapseln nutzen."
+        - "Niche ingredient with a higher price tag"
+        - "Only available online"
+      usage: "Take 1 capsule in the morning. For endurance stacks, use 2 capsules before long training sessions."
 ---

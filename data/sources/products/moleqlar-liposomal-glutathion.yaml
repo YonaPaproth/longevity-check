@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Glutathion ist zentraler Antioxidant, orale Bioverfügbarkeit steigt mit liposomalen Formen, aber Humanstudien sind begrenzt."
-      en: "Glutathion ist zentraler Antioxidant, orale Bioverfügbarkeit steigt mit liposomalen Formen, aber Humanstudien sind begrenzt."
+      en: "Glutathione is a key antioxidant; oral bioavailability improves with liposomal formulations, but human evidence remains limited."
   valueForMoney:
     score: 5
     explanation:
       de: "1,80 € pro Portion ist teuer, spiegelt aber die komplexe liposomale Herstellung wider."
-      en: "1,80 € pro Portion ist teuer, spiegelt aber die komplexe liposomale Herstellung wider."
+      en: "€1.80 per serving is expensive, but reflects the complexity of liposomal manufacturing."
   productQuality:
     score: 9
     explanation:
       de: "MoleQlar produziert in Deutschland, jede Charge ist TÜV-geprüft und COA-gestützt."
-      en: "MoleQlar produziert in Deutschland, jede Charge ist TÜV-geprüft und COA-gestützt."
+      en: "MoleQlar produces in Germany; every batch is TÜV-certified and backed by a published COA."
   labelHonesty:
     score: 8
     explanation:
       de: "Dosierung, Rohstoffherkunft und Prüfberichte sind öffentlich einsehbar."
-      en: "Dosierung, Rohstoffherkunft und Prüfberichte sind öffentlich einsehbar."
+      en: "Dosage, ingredient origin, and test reports are publicly available."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "TÜV Rheinland Zertifikate decken Schwermetalle, Mikrobiologie und Potenz ab."
-      en: "TÜV Rheinland Zertifikate decken Schwermetalle, Mikrobiologie und Potenz ab."
+      en: "TÜV Rheinland certificates cover heavy metals, microbiology, and potency."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Geschmack schwefelhaltig**, muss oft mit Saft gemischt werden"
       usage: "5 ml täglich pur oder in Wasser einnehmen, am besten morgens auf nüchternen Magen. Nach Anbruch im Kühlschrank lagern und binnen 60 Tagen aufbrauchen."
   en:
-    summary: "500 mg reduziertes Glutathion in liposomaler Flüssigkeit, Made in Germany und TÜV-geprüft für maximale Reinheit."
-    verdictNote: "Wer orale Glutathion-Spiegel gezielt anheben will, findet hier eine der saubersten Formulierungen am DACH-Markt."
+    summary: "500 mg reduced glutathione in liposomal liquid form, made in Germany and TÜV-certified for purity."
+    verdictNote: "For those looking to raise oral glutathione levels, this is one of the cleanest formulations on the DACH market."
     body:
-      description: "MoleQlar kombiniert reduziertes Glutathion mit liposomalen Phospholipiden. Die Produktion erfolgt in Bayern, jede Charge erhält ein TÜV-Gutachten, das transparent online steht."
+      description: "MoleQlar combines reduced glutathione with liposomal phospholipids. Produced in Bavaria, each batch receives a TÜV assessment that is publicly available online."
       pros:
-        - "**Made in Germany** mit kurzen Lieferketten"
-        - "**TÜV Rheinland Gehalts- und Reinheitszertifikate**"
-        - "**500 mg pro Portion**, höher als viele Kapseln"
-        - "**Stevia-gesüßt, ohne Zucker**"
+        - "**Made in Germany** with short supply chains"
+        - "**TÜV Rheinland content and purity certificates**"
+        - "**500 mg per serving**, higher than most capsule products"
+        - "**Sweetened with stevia, no added sugar**"
       cons:
-        - "**Preislich klar Premium**"
-        - "**Flüssige Form braucht Kühlschrank** nach Öffnung"
-        - "**Geschmack schwefelhaltig**, muss oft mit Saft gemischt werden"
-      usage: "5 ml täglich pur oder in Wasser einnehmen, am besten morgens auf nüchternen Magen. Nach Anbruch im Kühlschrank lagern und binnen 60 Tagen aufbrauchen."
+        - "**Clearly premium-priced**"
+        - "**Liquid form requires refrigeration** after opening"
+        - "**Sulfurous taste** — often needs to be mixed with juice"
+      usage: "Take 5 ml daily straight or in water, ideally on an empty stomach in the morning. Store in the fridge after opening and use within 60 days."
 ---

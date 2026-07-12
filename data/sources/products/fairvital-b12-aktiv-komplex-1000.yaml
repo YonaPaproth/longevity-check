@@ -29,27 +29,27 @@ ratings:
     score: 9
     explanation:
       de: "Vitamin B12 ist bei veganer oder vegetarischer Ernährung einer der am besten begründbaren Supplement-Fälle überhaupt. Die Evidenz für Mangelprävention und Korrektur ist stark."
-      en: "Vitamin B12 ist bei veganer oder vegetarischer Ernährung einer der am besten begründbaren Supplement-Fälle überhaupt. Die Evidenz für Mangelprävention und Korrektur ist stark."
+      en: "Vitamin B12 is one of the most well-justified supplement cases for vegan or vegetarian diets. Evidence for deficiency prevention and correction is strong."
   valueForMoney:
     score: 8
     explanation:
       de: "0,19 € pro Tag für 90 Tage ist fair, auch wenn es noch günstigere B12-Optionen gibt. Für die Kombination aus zwei aktiven Formen ist der Preis okay."
-      en: "0,19 € pro Tag für 90 Tage ist fair, auch wenn es noch günstigere B12-Optionen gibt. Für die Kombination aus zwei aktiven Formen ist der Preis okay."
+      en: "€0.19 per day for 90 days is fair, even if cheaper B12 options exist. For two active forms combined, the price is reasonable."
   productQuality:
     score: 7
     explanation:
       de: "Hergestellt in Deutschland, vegane Kapseln und saubere Positionierung. Kein Premium-Lab-Brand, aber insgesamt ordentlich."
-      en: "Hergestellt in Deutschland, vegane Kapseln und saubere Positionierung. Kein Premium-Lab-Brand, aber insgesamt ordentlich."
+      en: "Made in Germany with vegan capsules and a clean positioning. Not a premium lab brand, but solid overall."
   labelHonesty:
     score: 8
     explanation:
       de: "Fairvital kommuniziert die B12-Formen transparent und bleibt im Rahmen zulässiger Nährstoffkommunikation. Kein aggressiver Biohacker-Hype."
-      en: "Fairvital kommuniziert die B12-Formen transparent und bleibt im Rahmen zulässiger Nährstoffkommunikation. Kein aggressiver Biohacker-Hype."
+      en: "Fairvital communicates the B12 forms transparently and stays within permitted nutrient claims. No aggressive biohacker hype."
   thirdPartyTesting:
     score: 4
     explanation:
       de: "Es gibt keine starke unabhängige Drittanbieter-Zertifizierung wie NSF oder USP. Die Qualität stützt sich vor allem auf Herstellerangaben und HACCP/GMP-nahe Standards."
-      en: "Es gibt keine starke unabhängige Drittanbieter-Zertifizierung wie NSF oder USP. Die Qualität stützt sich vor allem auf Herstellerangaben und HACCP/GMP-nahe Standards."
+      en: "No strong independent third-party certification such as NSF or USP. Quality relies primarily on manufacturer statements and HACCP/GMP-adjacent standards."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Kein Sublingual-/Lutschformat:** Für manche Nutzer wäre das praktischer als Kapseln"
       usage: ""
   en:
-    summary: "Solider veganer B12-Basis-Stack mit Methyl- und Adenosylcobalamin. Sinnvoll für Vegetarier und Veganer, ohne unnötige Fancy-Claims."
-    verdictNote: "Für den Ernährungscheck ist das eine sehr brauchbare Standard-Empfehlung für Vitamin B12 — vor allem bei veganer oder vegetarischer Ernährung."
+    summary: "Solid vegan B12 with methylcobalamin and adenosylcobalamin. Practical for vegetarians and vegans, no unnecessary claims."
+    verdictNote: "A very usable standard recommendation for vitamin B12 — especially for vegan or vegetarian diets."
     body:
-      description: "Der B-12 Aktiv-Komplex von Fairvital kombiniert die beiden bioaktiven Formen **Methylcobalamin** und **Adenosylcobalamin**. Das ist sinnvoller als ein reines Billigprodukt auf Basis von Cyanocobalamin, wenn man eine eher hochwertige Standardlösung sucht."
+      description: "Fairvital's B-12 Activ Complex combines the two bioactive forms **methylcobalamin** and **adenosylcobalamin**. This is a better choice than a cheap cyanocobalamin-only product for those wanting a quality standard solution."
       pros:
-        - "**Für die Zielgruppe relevant:** Besonders sinnvoll für Veganer, Vegetarier und Personen mit niedrigem B12-Status"
-        - "**Aktive B12-Formen:** Methyl- und Adenosylcobalamin statt nur synthetischer Basisform"
-        - "**Einfacher Basic-Pick:** Keine übertriebene Spezialformulierung, sondern ein verständliches Standardprodukt"
-        - "**Gute Packungsgröße:** 90 Portionen reichen für drei Monate"
+        - "**Relevant for the target group:** Particularly useful for vegans, vegetarians, and those with low B12 status"
+        - "**Active B12 forms:** Methyl- and adenosylcobalamin instead of just the synthetic base form"
+        - "**Straightforward basic pick:** No overcomplicated formulation — a clear, easy-to-understand product"
+        - "**Good pack size:** 90 servings last three months"
       cons:
-        - "**Keine starke Drittanbieter-Zertifizierung**"
-        - "**Nicht die günstigste B12-Option am Markt**"
-        - "**Kein Sublingual-/Lutschformat:** Für manche Nutzer wäre das praktischer als Kapseln"
+        - "**No strong third-party certification**"
+        - "**Not the cheapest B12 on the market**"
+        - "**No sublingual or lozenge format:** Some users would find that more practical than capsules"
       usage: ""
 ---

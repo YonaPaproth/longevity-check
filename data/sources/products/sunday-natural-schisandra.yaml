@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Schisandra besitzt traditionelle Anwendung und erste Humanstudien zu Stress, Evidenz bleibt begrenzt."
-      en: "Schisandra besitzt traditionelle Anwendung und erste Humanstudien zu Stress, Evidenz bleibt begrenzt."
+      en: "Schisandra has a history of traditional use and early human studies on stress, but overall evidence remains limited."
   valueForMoney:
     score: 8
     explanation:
       de: "0,33 € pro 500 mg Bio-Extrakt ist stark."
-      en: "0,33 € pro 500 mg Bio-Extrakt ist stark."
+      en: "€0.33 per 500 mg organic extract is excellent value."
   productQuality:
     score: 8
     explanation:
       de: "Sunday Natural verarbeitet in Berlin und nutzt Bio-zertifizierte Rohware."
-      en: "Sunday Natural verarbeitet in Berlin und nutzt Bio-zertifizierte Rohware."
+      en: "Sunday Natural processes in Berlin using organically certified raw materials."
   labelHonesty:
     score: 8
     explanation:
       de: "Volle Zutatenliste (nur Extrakt + Cellulosekapsel)."
-      en: "Volle Zutatenliste (nur Extrakt + Cellulosekapsel)."
+      en: "Full ingredient list — extract and cellulose capsule only, nothing else."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "COAs zu Pestiziden und Schwermetallen sind auf Anfrage verfügbar."
-      en: "COAs zu Pestiziden und Schwermetallen sind auf Anfrage verfügbar."
+      en: "COAs for pesticides and heavy metals are available on request."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Pulver klumpt leicht bei hoher Luftfeuchte"
       usage: "1 Kapsel morgens und eine weitere am Nachmittag mit ausreichend Wasser einnehmen; nicht spät abends nutzen, da leicht aktivierend."
   en:
-    summary: "Bio-zertifizierter Schisandra-Extrakt aus Berlin, 500 mg pro Portion, schonend vermahlen."
-    verdictNote: "Für adaptogenen Einsatz im Alltag eine saubere Bio-Option, made in Germany."
+    summary: "Organic-certified schisandra extract from Berlin, 500 mg per serving, gently milled."
+    verdictNote: "A clean organic option for everyday adaptogen use, made in Germany."
     body:
-      description: "Sunday Natural bezieht Bio-Schisandra aus kontrollierter Wildsammlung, extrahiert mit Wasser und Ethanol und kapselt in Berlin. Der Extrakt wird auf mindestens 2 % Schisandrine titriert."
+      description: "Sunday Natural sources organic schisandra from controlled wild harvesting, extracts with water and ethanol, and encapsulates in Berlin. The extract is standardized to at least 2% schisandrins."
       pros:
-        - "Bio-Zertifizierung (DE-ÖKO-006)"
-        - "Schonende Extraktion ohne Schwermetallbelastung"
-        - "90 Portionen decken drei Monate"
+        - "Organic certification (DE-ÖKO-006)"
+        - "Gentle extraction, free of heavy metal contamination"
+        - "90 servings cover three months"
       cons:
-        - "500 mg Extrakt kann zu sauerem Aufstoßen führen"
-        - "Keine standardisierte Angabe der Schisandrine auf dem Etikett"
-        - "Pulver klumpt leicht bei hoher Luftfeuchte"
-      usage: "1 Kapsel morgens und eine weitere am Nachmittag mit ausreichend Wasser einnehmen; nicht spät abends nutzen, da leicht aktivierend."
+        - "500 mg extract may cause acid reflux in some people"
+        - "Schisandrin content not stated on the label"
+        - "Powder can clump in high humidity"
+      usage: "Take 1 capsule in the morning and another in the afternoon with plenty of water. Avoid late in the evening as it can be mildly stimulating."
 ---
