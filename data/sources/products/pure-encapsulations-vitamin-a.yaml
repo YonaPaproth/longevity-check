@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Vitamin A ist essenziell für normale Immunfunktion und Schleimhautschutz, jedoch mit schmalem therapeutischem Fenster."
-      en: "Vitamin A ist essenziell für normale Immunfunktion und Schleimhautschutz, jedoch mit schmalem therapeutischem Fenster."
+      en: "Vitamin A is essential for normal immune function and mucosal protection, but has a narrow therapeutic window."
   valueForMoney:
     score: 8
     explanation:
       de: "0,20 € pro 10000 IU in streng qualitätsorientierter Qualität ist fair."
-      en: "0,20 € pro 10000 IU in streng qualitätsorientierter Qualität ist fair."
+      en: "At €0.20 per 10,000 IU in pharmaceutical-grade quality, the price is fair."
   productQuality:
     score: 9
     explanation:
       de: "Pure Encapsulations fertigt cGMP und testet auf Oxidationsprodukte sowie Schwermetalle."
-      en: "Pure Encapsulations fertigt cGMP und testet auf Oxidationsprodukte sowie Schwermetalle."
+      en: "Pure Encapsulations manufactures under cGMP and tests for oxidation products and heavy metals."
   labelHonesty:
     score: 9
     explanation:
       de: "Angaben zu IU, µg RAE und Hilfsstoffen vollständig, Allergene ausgeschlossen."
-      en: "Angaben zu IU, µg RAE und Hilfsstoffen vollständig, Allergene ausgeschlossen."
+      en: "IU, µg RAE, and excipients fully disclosed; allergens excluded."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Jede Charge erhält COAs, zusätzlich prüft ein US-Apothekennetz regelmäßig die Potenz."
-      en: "Jede Charge erhält COAs, zusätzlich prüft ein US-Apothekennetz regelmäßig die Potenz."
+      en: "Each batch receives COAs; a US pharmacy network additionally performs regular potency checks."
 
 locales:
   de:
@@ -66,16 +66,15 @@ locales:
         - "Keine Beta-Carotin-Alternative für vorsichtige Anwender"
       usage: "1 Kapsel alle 2–3 Tage zu einer fetthaltigen Mahlzeit, sofern Laborwerte oder ärztliche Empfehlung dies nahelegen. In Schwangerschaft nur nach ärztlicher Rücksprache nutzen."
   en:
-    summary: "Hypoallergenes Retinyl-Palmitat mit 10000 IU pro Kapsel, laborgeprüft und frei von gängigen Allergenen."
-    verdictNote: "Für gezielte Vitamin-A-Intervalle eine saubere, exakt dosierte Option."
+    summary: "Hypoallergenic retinyl palmitate, 10,000 IU per capsule, lab-tested and free from common allergens."
+    verdictNote: "A clean, precisely dosed option for targeted vitamin A protocols."
     body:
-      description: "Retinyl Palmitat liefert 10000 IU (entspricht 3000 µg RAE) pro Kapsel. Die Basis sind hypoallergene Cellulosekapseln ohne Gluten, Soja oder Milchbestandteile."
+      description: "Retinyl palmitate delivers 10,000 IU (equivalent to 3,000 µg RAE) per capsule in hypoallergenic cellulose capsules free from gluten, soy, and dairy."
       pros:
-        - "cGMP-Produktion mit umfangreichen COAs"
-        - "Hohe Dosis reduziert Kapselanzahl bei zeitlich begrenzter Supplementierung"
-        - "Hypoallergene Rezeptur ohne unnötige Öle"
+        - "cGMP manufacturing with comprehensive COAs"
+        - "High dose reduces number of capsules needed for short-term protocols"
+        - "Hypoallergenic formulation without unnecessary oils"
       cons:
-        - "Hohe Dosis nicht für tägliche Langzeiteinnahme gedacht"
-        - "Keine Beta-Carotin-Alternative für vorsichtige Anwender"
-      usage: "1 Kapsel alle 2–3 Tage zu einer fetthaltigen Mahlzeit, sofern Laborwerte oder ärztliche Empfehlung dies nahelegen. In Schwangerschaft nur nach ärztlicher Rücksprache nutzen."
----
+        - "High dose not intended for daily long-term use"
+        - "No beta-carotene alternative for more cautious users"
+      usage: "1 capsule every 2–3 days with a fat-containing meal, if indicated by lab results or a physician. During pregnancy, use only under medical supervision."

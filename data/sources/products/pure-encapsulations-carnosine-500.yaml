@@ -27,27 +27,27 @@ ratings:
     score: 6
     explanation:
       de: "Carnosin zeigt vielversprechende Daten gegen fortgeschrittene Glykationsprodukte, aber wenige große Humanstudien."
-      en: "Carnosin zeigt vielversprechende Daten gegen fortgeschrittene Glykationsprodukte, aber wenige große Humanstudien."
+      en: "Carnosine shows promising data against advanced glycation end-products, but few large human trials exist."
   valueForMoney:
     score: 6
     explanation:
       de: "0,73 € pro Kapsel ist hoch, doch Carnosin ist generell teuer."
-      en: "0,73 € pro Kapsel ist hoch, doch Carnosin ist generell teuer."
+      en: "At €0.73 per capsule the price is high, though carnosine is generally expensive."
   productQuality:
     score: 9
     explanation:
       de: "Hypoallergen, frei von Gluten, Soja und Milch, strenge cGMP-Produktion."
-      en: "Hypoallergen, frei von Gluten, Soja und Milch, strenge cGMP-Produktion."
+      en: "Hypoallergenic, free from gluten, soy, and dairy, manufactured under strict cGMP."
   labelHonesty:
     score: 9
     explanation:
       de: "Klare Deklaration, keine überzogenen Alterungsforschung-Versprechen."
-      en: "Klare Deklaration, keine überzogenen Alterungsforschung-Versprechen."
+      en: "Clear labeling, no exaggerated anti-aging claims."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Pure Encapsulations legt Analysenzertifikate vor und testet unabhängig."
-      en: "Pure Encapsulations legt Analysenzertifikate vor und testet unabhängig."
+      en: "Pure Encapsulations provides certificates of analysis and conducts independent testing."
 
 locales:
   de:
@@ -65,17 +65,16 @@ locales:
         - "**Limitiertes Datenvolumen:** Größere Humanstudien fehlen"
       usage: "1 Kapsel zweimal täglich zu Mahlzeiten mit Protein oder nach Rücksprache mit einer Fachperson. Mit Zink und antioxidantienreichen Lebensmitteln kombinieren."
   en:
-    summary: "Hypoallergenes Carnosin mit 500 mg pro Kapsel für Anti-Glykierungs- und Augenprotokolle, cGMP hergestellt."
-    verdictNote: "Für gezielte Anti-Glycation-Protokolle ein zuverlässiges, wenn auch teures Produkt."
+    summary: "Hypoallergenic 500 mg carnosine capsules for anti-glycation and eye health protocols, cGMP manufactured."
+    verdictNote: "A reliable, if expensive, option for targeted anti-glycation protocols."
     body:
-      description: "Die Kapseln enthalten 500 mg beta-Alanyl-L-Histidin (Carnosin), eine Verbindung mit starkem Anti-Glykierungsprofil. Sie werden in hypoallergenen Kapseln ohne Magnesiumstearat angeboten."
+      description: "Each capsule delivers 500 mg beta-alanyl-L-histidine (carnosine), a compound with a strong anti-glycation profile, in hypoallergenic capsules free from magnesium stearate."
       pros:
-        - "**Hypoallergen:** Frei von gängigen Reizstoffen"
-        - "**Focus auf Anti-Glykierung:** Interessant im Kontext von Strategien für gesundes Altern mit Fokus auf Haut und Augen"
-        - "**cGMP-Qualität:** Reine Rohstoffe, zuverlässige Potenz"
-        - "**Kompakte Kapseln:** Trotz 500 mg relativ schlank"
+        - "**Hypoallergenic:** Free from common irritants"
+        - "**Anti-glycation focus:** Relevant for healthy aging strategies targeting skin and eye health"
+        - "**cGMP quality:** Pure raw materials and reliable potency"
+        - "**Compact capsules:** Relatively slim despite the 500 mg dose"
       cons:
-        - "**Preis:** Sehr teuer pro Tag"
-        - "**Limitiertes Datenvolumen:** Größere Humanstudien fehlen"
-      usage: "1 Kapsel zweimal täglich zu Mahlzeiten mit Protein oder nach Rücksprache mit einer Fachperson. Mit Zink und antioxidantienreichen Lebensmitteln kombinieren."
----
+        - "**Price:** High daily cost"
+        - "**Limited data:** Large human trials are lacking"
+      usage: "1 capsule twice daily with protein-rich meals or as directed by a healthcare provider. Combine with zinc and antioxidant-rich foods."

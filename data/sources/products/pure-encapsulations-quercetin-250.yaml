@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Solide Daten für mastzellstabilisierende Effekte und antioxidative Kapazität."
-      en: "Solide Daten für mastzellstabilisierende Effekte und antioxidative Kapazität."
+      en: "Solid data for mast cell stabilizing effects and antioxidant capacity."
   valueForMoney:
     score: 8
     explanation:
       de: "0,33 € pro Tag für 250 mg von einer Premium-Marke ist fair."
-      en: "0,33 € pro Tag für 250 mg von einer Premium-Marke ist fair."
+      en: "At €0.33 per day for 250 mg from a premium brand, the price is fair."
   productQuality:
     score: 8
     explanation:
       de: "GMP-Herstellung in USA, jede Charge wird auf Identität und Reinheit geprüft."
-      en: "GMP-Herstellung in USA, jede Charge wird auf Identität und Reinheit geprüft."
+      en: "GMP manufacturing in the USA; each batch tested for identity and purity."
   labelHonesty:
     score: 9
     explanation:
       de: "Pure Encapsulations listet sämtliche Hilfsstoffe (nur hypoallergene Cellulose)."
-      en: "Pure Encapsulations listet sämtliche Hilfsstoffe (nur hypoallergene Cellulose)."
+      en: "Pure Encapsulations lists all excipients (hypoallergenic cellulose only)."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Interne Tests plus stichprobenartige externe Verifizierung über ProVerde Labs."
-      en: "Interne Tests plus stichprobenartige externe Verifizierung über ProVerde Labs."
+      en: "Internal testing plus spot-check external verification through ProVerde Labs."
 
 locales:
   de:
@@ -66,16 +66,15 @@ locales:
         - "Hartkapseln sind relativ groß"
       usage: "1–2 Kapseln täglich, bevorzugt zu Mahlzeiten mit Fett. Bei saisonalen Beschwerden bereits 2–3 Wochen vorher starten."
   en:
-    summary: "Hypoallergenes Quercetin mit 250 mg pro Kapsel, frei von Zusatzstoffen und in großen Vorratsdosen."
-    verdictNote: "Große 120er Dose, sehr sauberes Allergenprofil und zuverlässige Analysen für Therapeut:innen."
+    summary: "Hypoallergenic quercetin, 250 mg per capsule, free from additives and available in a large 120-serving bottle."
+    verdictNote: "Large 120-count bottle, very clean allergen profile, and reliable COAs for practitioners."
     body:
-      description: "Die US-Marke Pure Encapsulations richtet sich an Therapeut:innen und achtet auf minimale Rezepturen. Das Quercetin enthält ausschließlich Wirkstoff und die pflanzliche Kapselhülle."
+      description: "Pure Encapsulations targets practitioners and focuses on minimal formulations. This quercetin contains only the active ingredient and a vegetable capsule shell."
       pros:
-        - "120 Portionen pro Dose reduzieren Nachbestellungen"
-        - "Allergenfrei (kein Gluten, keine Nüsse, keine Soja)"
-        - "Transparente Zertifikate in der Practitioner-Datenbank"
+        - "120 servings per bottle reduces reordering frequency"
+        - "Allergen-free (no gluten, nuts, or soy)"
+        - "Transparent certificates in the practitioner database"
       cons:
-        - "Keine erhöhte Bioverfügbarkeit wie bei Phytosome-Versionen"
-        - "Hartkapseln sind relativ groß"
-      usage: "1–2 Kapseln täglich, bevorzugt zu Mahlzeiten mit Fett. Bei saisonalen Beschwerden bereits 2–3 Wochen vorher starten."
----
+        - "No enhanced bioavailability like phytosome versions"
+        - "Hard capsules are relatively large"
+      usage: "1–2 capsules daily, preferably with a fat-containing meal. For seasonal complaints, start 2–3 weeks before symptoms typically begin."

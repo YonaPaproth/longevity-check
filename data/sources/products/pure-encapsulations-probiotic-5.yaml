@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Die enthaltenen Lactobacillus- und Bifido-Stämme decken Digestiv- und Immunstudien ab, wenn auch mit moderater CFU."
-      en: "Die enthaltenen Lactobacillus- und Bifido-Stämme decken Digestiv- und Immunstudien ab, wenn auch mit moderater CFU."
+      en: "The included Lactobacillus and Bifidobacterium strains are backed by digestive and immune research, though CFU count is moderate."
   valueForMoney:
     score: 7
     explanation:
       de: "0,70 € pro Tag ist akzeptabel für hypoallergenes Produkt mit 60 Portionen."
-      en: "0,70 € pro Tag ist akzeptabel für hypoallergenes Produkt mit 60 Portionen."
+      en: "At €0.70 per day, acceptable for a hypoallergenic product with 60 servings."
   productQuality:
     score: 9
     explanation:
       de: "Pure Encapsulations ist streng qualitätsorientiert zertifiziert, arbeitet mit nitrogen-flushed Abfüllung."
-      en: "Pure Encapsulations ist streng qualitätsorientiert zertifiziert, arbeitet mit nitrogen-flushed Abfüllung."
+      en: "Pure Encapsulations is quality-certified and uses nitrogen-flushed filling for stability."
   labelHonesty:
     score: 9
     explanation:
       de: "Jeder Stamm mit CFU-Menge und Identifikationsnummer gelistet."
-      en: "Jeder Stamm mit CFU-Menge und Identifikationsnummer gelistet."
+      en: "Each strain listed with CFU count and identification number."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Unternehmensinterne COAs plus externe Tests auf Schwermetalle und Potenz."
-      en: "Unternehmensinterne COAs plus externe Tests auf Schwermetalle und Potenz."
+      en: "In-house COAs plus external testing for heavy metals and potency."
 
 locales:
   de:
@@ -66,16 +66,15 @@ locales:
         - "Kein zusätzlicher Präbiotikakomplex zur langfristigen Kolonisierung"
       usage: "1 Kapsel täglich zwischen den Mahlzeiten mit Wasser einnehmen. Bei therapeutischem Einsatz auf 2 Kapseln erhöhen und 4 Wochen konsequent nutzen."
   en:
-    summary: "Hypoallergenes 5-Stamm-Probiotikum ohne Präbiotika-Zusätze, geeignet für sensible Verdauung."
-    verdictNote: "Sehr verträgliches Basisprobiotikum für Menschen, die FODMAPs meiden müssen."
+    summary: "Hypoallergenic 5-strain probiotic without prebiotic additions, suitable for sensitive digestion."
+    verdictNote: "A very well-tolerated base probiotic for those who need to avoid FODMAPs."
     body:
-      description: "Probiotic 5 kombiniert B. bifidum, B. longum, L. acidophilus, L. paracasei und L. rhamnosus. Keine Milch, kein Gluten, keine Füllstoffe außer hypoallergenem Kartoffelstärke-Träger."
+      description: "Probiotic 5 combines B. bifidum, B. longum, L. acidophilus, L. paracasei, and L. rhamnosus. No dairy, no gluten, no fillers except a hypoallergenic potato starch carrier."
       pros:
-        - "Frei von Inulin, Soja und Fruktose – perfekt für Histamin-Patient:innen"
-        - "DRCaps überleben Magensäure zuverlässig"
-        - "Gute Dokumentation der Stämme (BB-06, LA-14 etc.)"
+        - "Free from inulin, soy, and fructose — ideal for histamine-sensitive individuals"
+        - "DRcaps reliably survive stomach acid"
+        - "Well-documented strains (BB-06, LA-14, etc.)"
       cons:
-        - "Nur 5 Milliarden KBE – für akute Phasen etwas wenig"
-        - "Kein zusätzlicher Präbiotikakomplex zur langfristigen Kolonisierung"
-      usage: "1 Kapsel täglich zwischen den Mahlzeiten mit Wasser einnehmen. Bei therapeutischem Einsatz auf 2 Kapseln erhöhen und 4 Wochen konsequent nutzen."
----
+        - "Only 5 billion CFU — on the low side for acute use"
+        - "No prebiotic complex for long-term colonization support"
+      usage: "1 capsule daily between meals with water. For therapeutic use, increase to 2 capsules and maintain consistently for 4 weeks."

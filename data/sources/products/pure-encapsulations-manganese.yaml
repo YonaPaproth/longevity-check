@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Mangan ist Cofaktor vieler Enzyme, aber Supplementbedarf besteht nur bei dokumentierten Lücken oder speziellen Diäten."
-      en: "Mangan ist Cofaktor vieler Enzyme, aber Supplementbedarf besteht nur bei dokumentierten Lücken oder speziellen Diäten."
+      en: "Manganese is a cofactor for many enzymes, but supplementation is only warranted with documented deficiency or special diets."
   valueForMoney:
     score: 7
     explanation:
       de: "0,20 € pro Tag ist fair für Pure-Encapsulations-Qualität und hypoallergene Rezeptur."
-      en: "0,20 € pro Tag ist fair für Pure-Encapsulations-Qualität und hypoallergene Rezeptur."
+      en: "At €0.20 per day, fair for Pure Encapsulations quality and hypoallergenic formulation."
   productQuality:
     score: 9
     explanation:
       de: "Hypoallergenes Kapselsystem, strenge Reinheitsstandards, streng qualitätsorientiert orientierte Fertigung."
-      en: "Hypoallergenes Kapselsystem, strenge Reinheitsstandards, streng qualitätsorientiert orientierte Fertigung."
+      en: "Hypoallergenic capsule system, strict purity standards, quality-oriented manufacturing."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare Deklaration der Chelatform und Hilfsstoffe, keine Gesundheitsversprechen."
-      en: "Klare Deklaration der Chelatform und Hilfsstoffe, keine Gesundheitsversprechen."
+      en: "Clear declaration of chelate form and excipients, no health claims."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Pure Encapsulations veröffentlicht Prüfzertifikate und produziert nach streng qualitätsorientierten Standards."
-      en: "Pure Encapsulations veröffentlicht Prüfzertifikate und produziert nach streng qualitätsorientierten Standards."
+      en: "Pure Encapsulations publishes certificates of analysis and manufactures to strict quality standards."
 
 locales:
   de:
@@ -68,18 +68,17 @@ locales:
         - "**Manganbedarf selten**, daher eher Speziallösung"
       usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit, außer bei diagnostiziertem Mangel – dann nach ärztlicher Vorgabe täglich nutzen. Nicht mit eisenreichen Mahlzeiten kombinieren, um Absorption zu optimieren."
   en:
-    summary: "Hypoallergene 5-mg-Mangan-Kapseln als Aminosäurechelat, gut geeignet für zielgerichtete Ergänzung bei niedriger Aufnahme."
-    verdictNote: "Für funktionelle Labors oder Spezialdiäten eine saubere, allergenarme Manganquelle."
+    summary: "Hypoallergenic 5 mg manganese capsules as amino acid chelate, well-suited for targeted supplementation with low dietary intake."
+    verdictNote: "A clean, low-allergen manganese source for functional lab work or specialized diets."
     body:
-      description: "Pure Encapsulations setzt auf **Mangan-Bisglycinat**, also ein Aminosäurechelat mit guter Bioverfügbarkeit. Die Kapseln sind frei von Gluten, Laktose und unnötigen Farbstoffen."
+      description: "Pure Encapsulations uses **manganese bisglycinate** — an amino acid chelate with good bioavailability. Capsules are free from gluten, lactose, and unnecessary dyes."
       pros:
-        - "**Hypoallergene Formulierung**"
-        - "**Transparente Rohstoffketten**"
-        - "**Praktische 5-mg-Dosierung** für flexible Protokolle"
-        - "**Kapseln klein und leicht schluckbar**"
+        - "**Hypoallergenic formulation**"
+        - "**Transparent supply chain**"
+        - "**Practical 5 mg dose** for flexible protocols"
+        - "**Small capsules, easy to swallow**"
       cons:
-        - "**Preis höher als Discounterprodukte**, auch wenn Qualität top ist"
-        - "**Kein Kombinationsstoff** wie Silicium oder Vitamin C"
-        - "**Manganbedarf selten**, daher eher Speziallösung"
-      usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit, außer bei diagnostiziertem Mangel – dann nach ärztlicher Vorgabe täglich nutzen. Nicht mit eisenreichen Mahlzeiten kombinieren, um Absorption zu optimieren."
----
+        - "**Higher price than generic brands**, even if quality is superior"
+        - "**No companion nutrients** such as silicon or vitamin C"
+        - "**Manganese deficiency is rare**, making this a niche solution"
+      usage: "1 capsule every other day with a meal, unless diagnosed deficient — in that case, take daily as directed by a physician. Avoid taking with iron-rich meals to optimize absorption."

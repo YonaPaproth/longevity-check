@@ -30,27 +30,27 @@ ratings:
     score: 8
     explanation:
       de: "Magnesium hat EFSA-zugelassene Health Claims und vergleichsweise gute Datenlage für Muskel-, Nerven- und Herzfunktion. Vergleichsweise gut untersuchte Versorgungslücke in DE."
-      en: "Magnesium hat EFSA-zugelassene Health Claims und vergleichsweise gute Datenlage für Muskel-, Nerven- und Herzfunktion. Vergleichsweise gut untersuchte Versorgungslücke in DE."
+      en: "Magnesium has EFSA-approved health claims and solid evidence for muscle, nerve, and heart function. Deficiency is well-documented in Germany."
   valueForMoney:
     score: 8
     explanation:
       de: "0,18 € pro Tag für 120 mg elementares Magnesiumglycinat. 180 Tage Vorrat in einer Packung — sehr günstiger Dauereinsatz."
-      en: "0,18 € pro Tag für 120 mg elementares Magnesiumglycinat. 180 Tage Vorrat in einer Packung — sehr günstiger Dauereinsatz."
+      en: "At €0.18 per day for 120 mg elemental magnesium glycinate, with 180 servings per bottle — excellent value for long-term use."
   productQuality:
     score: 9
     explanation:
       de: "Pure Encapsulations ist bekannt für hypoallergene Formulierungen ohne Füllstoffe, Farbstoffe oder Konservierungsmittel. Höchste Reinheitsstandards."
-      en: "Pure Encapsulations ist bekannt für hypoallergene Formulierungen ohne Füllstoffe, Farbstoffe oder Konservierungsmittel. Höchste Reinheitsstandards."
+      en: "Pure Encapsulations is known for hypoallergenic formulations without fillers, dyes, or preservatives. Highest purity standards."
   labelHonesty:
     score: 9
     explanation:
       de: "Klare, wissenschaftlich korrekte Produktkommunikation. Keine übertriebenen Versprechen. Genaue Deklaration des elementaren Magnesiumgehalts."
-      en: "Klare, wissenschaftlich korrekte Produktkommunikation. Keine übertriebenen Versprechen. Genaue Deklaration des elementaren Magnesiumgehalts."
+      en: "Clear, scientifically accurate product communication. No exaggerated claims. Exact elemental magnesium content declared."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Pure Encapsulations testet alle Rohstoffe und Endprodukte. Keine NSF/Informed-Sport-Zertifizierung, aber konsistent hohe Eigenstandards."
-      en: "Pure Encapsulations testet alle Rohstoffe und Endprodukte. Keine NSF/Informed-Sport-Zertifizierung, aber konsistent hohe Eigenstandards."
+      en: "Pure Encapsulations tests all raw materials and finished products. No NSF/Informed Sport certification, but consistently high in-house standards."
 
 locales:
   de:
@@ -67,16 +67,15 @@ locales:
         - "**Elementarer Mg-Gehalt:** 120 mg elementares Magnesium pro Kapsel — für höhere Dosen (300–400 mg/Tag) sind mehrere Kapseln nötig"
       usage: ""
   en:
-    summary: "Hypoallergen, keine Füllstoffe, von Ärzten empfohlene Marke. Magnesiumglycinat gilt als die verträglichste und bioverfügbarste Magnesiumform."
-    verdictNote: "Beste Qualität für Magnesiumglycinat. Besonders geeignet für Personen mit Magnesiumcitrat-Unverträglichkeit oder empfindlichem Verdauungssystem."
+    summary: "Hypoallergenic, no fillers, physician-recommended brand. Magnesium glycinate is considered the most tolerable and bioavailable magnesium form."
+    verdictNote: "Best-in-class quality for magnesium glycinate. Especially suited for those who don't tolerate magnesium citrate or have a sensitive digestive system."
     body:
-      description: "Pure Encapsulations ist eine US-amerikanische Marke, die sich auf hypoallergene Nahrungsergänzungsmittel ohne unnötige Hilfsstoffe spezialisiert hat. Das Unternehmen verzichtet konsequent auf künstliche Farb- und Konservierungsstoffe, Weizen, Gluten, Milchprodukte und Soja. Wird häufig von Ärzten und Ernährungsberatern empfohlen."
+      description: "Pure Encapsulations is a US brand specializing in hypoallergenic supplements free from unnecessary excipients. The company consistently avoids artificial dyes and preservatives, wheat, gluten, dairy, and soy. Frequently recommended by physicians and nutritionists."
       pros:
-        - "**Hypoallergen:** Keine bekannten Allergene, keine künstlichen Zusätze"
-        - "**180 Tagesdosen:** Lange Reichweite, günstig im Abo"
-        - "**Magnesiumform:** Glycinat ist die Premium-Wahl unter den Magnesiumformen"
+        - "**Hypoallergenic:** No known allergens, no artificial additives"
+        - "**180 daily doses:** Long supply, cost-effective on subscription"
+        - "**Magnesium form:** Glycinate is the premium choice among magnesium forms"
       cons:
-        - "**Keine externe Zertifizierung:** Eigene Qualitätsstandards sind hoch, aber nicht unabhängig zertifiziert"
-        - "**Elementarer Mg-Gehalt:** 120 mg elementares Magnesium pro Kapsel — für höhere Dosen (300–400 mg/Tag) sind mehrere Kapseln nötig"
+        - "**No external certification:** In-house quality standards are high but not independently certified"
+        - "**Elemental Mg content:** 120 mg elemental magnesium per capsule — multiple capsules needed for higher doses (300–400 mg/day)"
       usage: ""
----

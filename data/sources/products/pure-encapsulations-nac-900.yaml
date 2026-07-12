@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "NAC besitzt solide Datenlage zu antioxidativem Stress, Atemwegen und Glutathionauffüllung."
-      en: "NAC besitzt solide Datenlage zu antioxidativem Stress, Atemwegen und Glutathionauffüllung."
+      en: "NAC has solid evidence for oxidative stress, respiratory health, and glutathione replenishment."
   valueForMoney:
     score: 6
     explanation:
       de: "0,73 € pro 900 mg ist teurer als Bulk-NAC, dafür erhält man Apothekenqualität und Allergenfreiheit."
-      en: "0,73 € pro 900 mg ist teurer als Bulk-NAC, dafür erhält man Apothekenqualität und Allergenfreiheit."
+      en: "At €0.73 per 900 mg, more expensive than bulk NAC, but you get pharmaceutical-grade quality and allergen-free formulation."
   productQuality:
     score: 9
     explanation:
       de: "Hergestellt in zertifizierten US-Anlagen, Frei-von-Listen für Gluten, Soja, Milch, Erdnüsse."
-      en: "Hergestellt in zertifizierten US-Anlagen, Frei-von-Listen für Gluten, Soja, Milch, Erdnüsse."
+      en: "Manufactured in certified US facilities, free from gluten, soy, dairy, and peanuts."
   labelHonesty:
     score: 9
     explanation:
       de: "Alle Hilfsstoffe aufgeführt (nur Cellulose, hypoallergene Kapsel)."
-      en: "Alle Hilfsstoffe aufgeführt (nur Cellulose, hypoallergene Kapsel)."
+      en: "All excipients listed (cellulose only, hypoallergenic capsule)."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Jede Charge erhält ein streng qualitätsorientiertes Analysenzertifikat mit Schwermetall- und Potenztests."
-      en: "Jede Charge erhält ein streng qualitätsorientiertes Analysenzertifikat mit Schwermetall- und Potenztests."
+      en: "Each batch receives a rigorous certificate of analysis covering heavy metals and potency."
 
 locales:
   de:
@@ -67,17 +67,16 @@ locales:
         - "Kapseln relativ groß"
       usage: "2 Kapseln auf nüchternen Magen mit einem Glas Wasser. Bei empfindlichem Magen zu einer leichten Mahlzeit einnehmen. Für Atemwegs-Stacks mit Vitamin C und Glycin kombinieren."
   en:
-    summary: "Hypoallergenes NAC mit 900 mg pro Portion in zwei Kapseln, streng qualitätsorientiert rein und ohne Zusatzstoffe."
-    verdictNote: "Für empfindliche Personen oder Klinikeinsätze eine sichere NAC-Quelle ohne fragliche Zusatzstoffe."
+    summary: "Hypoallergenic NAC, 900 mg per serving (2 capsules), free from additives and manufactured to strict purity standards."
+    verdictNote: "A safe NAC source for sensitive individuals or clinical use, with no questionable additives."
     body:
-      description: "Die Flasche enthält 120 Kapseln, zwei Kapseln liefern 900 mg N-Acetylcystein. Pure Encapsulations setzt auf hochreines Pulver, ohne Magnesiumstearat oder Farbstoffe."
+      description: "The bottle contains 120 capsules; two capsules deliver 900 mg N-acetylcysteine. Pure Encapsulations uses high-purity powder with no magnesium stearate or dyes."
       pros:
-        - "Hypoallergenes Versprechen mit breiter Frei-von-Liste"
-        - "900 mg Portion erlaubt flexible Aufteilung"
-        - "GMP-zertifizierte Produktion"
-        - "Gute Dokumentation für Ärztepartner"
+        - "Hypoallergenic with a broad free-from list"
+        - "900 mg serving allows flexible dosing"
+        - "GMP-certified manufacturing"
+        - "Well-documented for practitioner use"
       cons:
-        - "Hoher Preis im Vergleich zu Bulk-Pulvern"
-        - "Kapseln relativ groß"
-      usage: "2 Kapseln auf nüchternen Magen mit einem Glas Wasser. Bei empfindlichem Magen zu einer leichten Mahlzeit einnehmen. Für Atemwegs-Stacks mit Vitamin C und Glycin kombinieren."
----
+        - "Higher price compared to bulk powders"
+        - "Capsules are relatively large"
+      usage: "2 capsules on an empty stomach with a glass of water. If stomach-sensitive, take with a light meal. For respiratory stacks, combine with vitamin C and glycine."

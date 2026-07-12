@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Chrom hat moderate Evidenz bei leicht erhöhtem Blutzucker, aber keine Wunderwirkung."
-      en: "Chrom hat moderate Evidenz bei leicht erhöhtem Blutzucker, aber keine Wunderwirkung."
+      en: "Chromium has moderate evidence for mildly elevated blood sugar, but is not a miracle fix."
   valueForMoney:
     score: 8
     explanation:
       de: "0,24 € pro Tag ist angemessen für streng qualitätsorientierte Qualität."
-      en: "0,24 € pro Tag ist angemessen für streng qualitätsorientierte Qualität."
+      en: "At €0.24 per day, the price is reasonable for this level of quality."
   productQuality:
     score: 9
     explanation:
       de: "Reinraumproduktion, frei von Gluten, Milch, Soja."
-      en: "Reinraumproduktion, frei von Gluten, Milch, Soja."
+      en: "Cleanroom manufacturing, free from gluten, dairy, and soy."
   labelHonesty:
     score: 9
     explanation:
       de: "Chrompicolinat klar ausgewiesen, keine Mischungen."
-      en: "Chrompicolinat klar ausgewiesen, keine Mischungen."
+      en: "Chromium picolinate clearly declared, no blends."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Jede Charge hat COA mit Schwermetall- und Potenzdaten."
-      en: "Jede Charge hat COA mit Schwermetall- und Potenzdaten."
+      en: "Each batch has a COA covering heavy metals and potency."
 
 locales:
   de:
@@ -66,16 +66,15 @@ locales:
         - "Chrom allein erscheint nur in Kombination mit Lebensstiländerungen"
       usage: "1 Kapsel täglich zu einer kohlenhydratreichen Hauptmahlzeit einnehmen. Bei Nutzung mit Berberin Abstand von 2 Stunden halten."
   en:
-    summary: "Chrompicolinat aus hypoallergener Produktion. Chrom trägt laut zugelassenem EU-Claim zur normalen Makronährstoffverwertung bei."
-    verdictNote: "Sinnvoll bei Insulinresistenz oder PCOS, wenn Ernährung schon sitzt."
+    summary: "Chromium picolinate from hypoallergenic production. Chromium contributes to normal macronutrient metabolism per approved EU health claim."
+    verdictNote: "Useful for insulin resistance or PCOS when diet is already on track."
     body:
-      description: "Jede Kapsel liefert 200 mcg Chrom als Chelat mit Picolinsäure. Die Kapseln sind klein, lassen sich leicht schlucken und enthalten Kartoffelstärke als einziges Trägermittel."
+      description: "Each capsule delivers 200 mcg chromium chelated with picolinic acid. Capsules are small, easy to swallow, and contain potato starch as the only excipient."
       pros:
-        - "Hypoallergenes Profil ohne unnötige Füllstoffe"
-        - "90 Portionen reichen für drei Monate"
-        - "Stabiler Blutzucker-Support für Desk-Worker"
+        - "Clean hypoallergenic profile with no unnecessary fillers"
+        - "90 servings last three months"
+        - "Blood sugar support for sedentary workers"
       cons:
-        - "Kein Begleitstoff wie Zimt oder Berberin"
-        - "Chrom allein erscheint nur in Kombination mit Lebensstiländerungen"
-      usage: "1 Kapsel täglich zu einer kohlenhydratreichen Hauptmahlzeit einnehmen. Bei Nutzung mit Berberin Abstand von 2 Stunden halten."
----
+        - "No companion ingredients like cinnamon or berberine"
+        - "Chromium alone appears effective mainly alongside lifestyle changes"
+      usage: "1 capsule daily with a carbohydrate-rich main meal. If using alongside berberine, separate doses by 2 hours."

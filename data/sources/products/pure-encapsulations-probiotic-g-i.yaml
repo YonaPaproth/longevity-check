@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Klinische Daten zu einzelnen Stämmen liegen vor, Mischungen sind schwer zu verallgemeinern."
-      en: "Klinische Daten zu einzelnen Stämmen liegen vor, Mischungen sind schwer zu verallgemeinern."
+      en: "Clinical data exists for individual strains; blends are harder to generalize."
   valueForMoney:
     score: 7
     explanation:
       de: "0,97 € pro Tag ist ok für 10 Mrd. KBE mit Schutzkapsel."
-      en: "0,97 € pro Tag ist ok für 10 Mrd. KBE mit Schutzkapsel."
+      en: "At €0.97 per day, reasonable for 10 billion CFU in an enteric capsule."
   productQuality:
     score: 9
     explanation:
       de: "Hypoallergene Herstellung, streng temperaturgeführt."
-      en: "Hypoallergene Herstellung, streng temperaturgeführt."
+      en: "Hypoallergenic manufacturing, strict temperature control throughout."
   labelHonesty:
     score: 9
     explanation:
       de: "Listet jeden Stamm samt CFU-Anteil."
-      en: "Listet jeden Stamm samt CFU-Anteil."
+      en: "Lists each strain with its individual CFU contribution."
   thirdPartyTesting:
     score: 9
     explanation:
       de: "cGMP, NSF und eigene Stabilitätsstudien bei 25 °C."
-      en: "cGMP, NSF und eigene Stabilitätsstudien bei 25 °C."
+      en: "cGMP, NSF certified, and in-house stability studies at 25°C."
 
 locales:
   de:
@@ -66,16 +66,15 @@ locales:
         - "Keine Prebiotika enthalten"
       usage: "1 Kapsel morgens nüchtern oder 30 Minuten vor dem Essen. Bei Antibiotikagabe zeitlich versetzt einnehmen."
   en:
-    summary: "12-Stamm-Probiotikum mit 10 Mrd. KBE und magensaftresistenter Kapsel für Darmbarriere-Protokolle."
-    verdictNote: "Sehr saubere Rezeptur für sensible Personen, die keine Prebiotika vertragen."
+    summary: "12-strain probiotic with 10 billion CFU in an enteric capsule for gut barrier support protocols."
+    verdictNote: "A very clean formula for sensitive individuals who cannot tolerate prebiotics."
     body:
-      description: "Probiotic G.I. kombiniert L. plantarum, L. rhamnosus, B. lactis u. a. in einer magensaftresistenten Kapsel. Die Stämme sind klinisch validiert und auf Überleben bei Raumtemperatur getestet."
+      description: "Probiotic G.I. combines L. plantarum, L. rhamnosus, B. lactis, and others in an enteric-coated capsule. Strains are clinically validated and tested for room-temperature survival."
       pros:
-        - "Allergenfrei (keine Milch, kein Gluten)"
-        - "Kleine Kapseln trotz Entero-Beschichtung"
-        - "Stabile CFU-Zahl bis Mindesthaltbarkeit"
+        - "Allergen-free (no dairy, no gluten)"
+        - "Small capsules despite enteric coating"
+        - "Stable CFU count through expiry date"
       cons:
-        - "Preis höher als Bulk-Probiotika"
-        - "Keine Prebiotika enthalten"
-      usage: "1 Kapsel morgens nüchtern oder 30 Minuten vor dem Essen. Bei Antibiotikagabe zeitlich versetzt einnehmen."
----
+        - "Higher price than bulk probiotics"
+        - "No prebiotics included"
+      usage: "1 capsule in the morning on an empty stomach, or 30 minutes before eating. If taking antibiotics, separate doses by several hours."

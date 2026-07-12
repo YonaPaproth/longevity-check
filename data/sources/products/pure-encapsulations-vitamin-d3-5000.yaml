@@ -29,27 +29,27 @@ ratings:
     score: 9
     explanation:
       de: "Vitamin D3 hat robuste Evidenz für Knochengesundheit und normale Immunfunktion."
-      en: "Vitamin D3 hat robuste Evidenz für Knochengesundheit und normale Immunfunktion."
+      en: "Vitamin D3 has robust evidence for bone health and normal immune function."
   valueForMoney:
     score: 8
     explanation:
       de: "0,23 € pro Tag für 5000 IE mit 120 Portionen ist stark."
-      en: "0,23 € pro Tag für 5000 IE mit 120 Portionen ist stark."
+      en: "At €0.23 per day for 5,000 IU with 120 servings, very good value."
   productQuality:
     score: 8
     explanation:
       de: "cGMP-Herstellung und konsequent hypoallergenes Design."
-      en: "cGMP-Herstellung und konsequent hypoallergenes Design."
+      en: "cGMP manufacturing and consistently hypoallergenic design."
   labelHonesty:
     score: 9
     explanation:
       de: "Präzise Offenlegung der Inhaltsstoffe, keine Mischclaims."
-      en: "Präzise Offenlegung der Inhaltsstoffe, keine Mischclaims."
+      en: "Precise ingredient disclosure, no proprietary blend claims."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Regelmäßige Potenztests, COAs auf Anfrage über Fachhandel."
-      en: "Regelmäßige Potenztests, COAs auf Anfrage über Fachhandel."
+      en: "Regular potency testing; COAs available on request through specialist retailers."
 
 locales:
   de:
@@ -67,17 +67,16 @@ locales:
         - "Nicht für Veganer geeignet"
       usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Bei sehr hohen Blutwerten Einnahmefrequenz reduzieren. Immer mit Arzt abklären."
   en:
-    summary: "Hypoallergene 5000-IE-D3-Softgels, cGMP-gefertigt und frei von Laktose, Gluten sowie künstlichen Ölen."
-    verdictNote: "Gut geeignet für alle, die ganzjährig stabile Vitamin-D-Blutwerte halten wollen."
+    summary: "Hypoallergenic 5,000 IU D3 softgels, cGMP-manufactured and free from lactose, gluten, and artificial oils."
+    verdictNote: "Well-suited for maintaining stable vitamin D blood levels year-round."
     body:
-      description: "Pure Encapsulations liefert 5000 IE Vitamin D3 pro Softgel in einer Basis aus mittelkettigen Triglyceriden und nativem Olivenöl. Die Kapseln sind klein, leicht zu schlucken und frei von allergenen Hilfsstoffen."
+      description: "Pure Encapsulations delivers 5,000 IU vitamin D3 per softgel in a base of medium-chain triglycerides and extra-virgin olive oil. Capsules are small, easy to swallow, and free from allergenic excipients."
       pros:
-        - "120 Portionen decken vier Monate bei täglicher Einnahme"
-        - "Hypoallergene Rezeptur ohne Sojaöl"
-        - "cGMP-zertifizierte Fertigung"
-        - "Gute Verfügbarkeit über deutsche Ärzteversender"
+        - "120 servings cover four months of daily use"
+        - "Hypoallergenic formulation without soy oil"
+        - "cGMP-certified manufacturing"
+        - "Widely available through German medical suppliers"
       cons:
-        - "Enthält kein Vitamin K2, daher für Komplettschutz kombinieren"
-        - "Nicht für Veganer geeignet"
-      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Bei sehr hohen Blutwerten Einnahmefrequenz reduzieren. Immer mit Arzt abklären."
----
+        - "No vitamin K2 included — combine for comprehensive bone protection"
+        - "Not suitable for vegans"
+      usage: "1 softgel daily with a fat-containing meal. Reduce frequency if blood levels are already very high. Always confirm dosing with a physician."

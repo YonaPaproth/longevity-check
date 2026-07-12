@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Humanstudien zeigen Verbesserungen bei Nervengesundheit und milden kognitiven Beschwerden."
-      en: "Humanstudien zeigen Verbesserungen bei Nervengesundheit und milden kognitiven Beschwerden."
+      en: "Human studies show improvements in nerve health and mild cognitive complaints."
   valueForMoney:
     score: 7
     explanation:
       de: "0,60 € pro Tag für einen DNA-getesteten Extrakt ist angemessen."
-      en: "0,60 € pro Tag für einen DNA-getesteten Extrakt ist angemessen."
+      en: "At €0.60 per day for a DNA-verified extract, the price is reasonable."
   productQuality:
     score: 9
     explanation:
       de: "Pilz-Doppel-Extrakt mit getesteter Beta-Glucan-Quote."
-      en: "Pilz-Doppel-Extrakt mit getesteter Beta-Glucan-Quote."
+      en: "Dual mushroom extract with verified beta-glucan content."
   labelHonesty:
     score: 9
     explanation:
       de: "Angaben zu Hericenon- und Erinacin-Gehalten selten so detailliert."
-      en: "Angaben zu Hericenon- und Erinacin-Gehalten selten so detailliert."
+      en: "Disclosure of hericenone and erinacine content is rarely this detailed."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Jede Charge bekommt DNA-Barcoding und Schwermetallprüfung."
-      en: "Jede Charge bekommt DNA-Barcoding und Schwermetallprüfung."
+      en: "Each batch receives DNA barcoding and heavy metal testing."
 
 locales:
   de:
@@ -66,16 +66,15 @@ locales:
         - "Pilzgeschmack kann bei empfindlichen Personen aufstoßen"
       usage: "2 Kapseln verteilt über den Tag, vorzugsweise morgens und mittags, nicht direkt vor dem Schlafen wegen möglicher Wachheit."
   en:
-    summary: "900 mg Hericium erinaceus pro Tagesportion, standardisiert auf Hericenone und Erinacine."
-    verdictNote: "Therapeutisch sauberes Pilzprodukt mit DNA-Verifizierung und hoher Polysaccharid-Transparenz."
+    summary: "900 mg Hericium erinaceus per daily serving, standardized for hericenones and erinacines."
+    verdictNote: "A therapeutically clean mushroom product with DNA verification and strong polysaccharide transparency."
     body:
-      description: "Pure Encapsulations nutzt sowohl Fruchtkörper- als auch Myzel-Extrakte, um die relevanten Hericenone und Erinacine abzudecken. Pro Tagesdosis (2 Kapseln) sind 900 mg konzentrierter Pilzextrakt enthalten."
+      description: "Pure Encapsulations uses both fruiting body and mycelium extracts to cover the relevant hericenones and erinacines. Each daily dose (2 capsules) provides 900 mg of concentrated mushroom extract."
       pros:
-        - "DNA-verifizierte Rohstoffe"
-        - "Standardisierung auf Beta-Glucane und Terpenoide"
-        - "Hypoallergene Kapselhülle"
+        - "DNA-verified raw materials"
+        - "Standardized for beta-glucans and terpenoids"
+        - "Hypoallergenic capsule shell"
       cons:
-        - "Kein Hinweis auf dritte Partei wie USP"
-        - "Pilzgeschmack kann bei empfindlichen Personen aufstoßen"
-      usage: "2 Kapseln verteilt über den Tag, vorzugsweise morgens und mittags, nicht direkt vor dem Schlafen wegen möglicher Wachheit."
----
+        - "No third-party certification (e.g., USP)"
+        - "Mushroom taste may cause belching in sensitive individuals"
+      usage: "2 capsules spread across the day, preferably morning and midday — avoid taking close to bedtime due to possible alertness."

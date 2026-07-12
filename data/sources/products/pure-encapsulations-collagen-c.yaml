@@ -30,27 +30,27 @@ ratings:
     score: 7
     explanation:
       de: "Kollagenpeptide unterstützen Haut und Sehnen; Vitamin C fungiert als Cofaktor."
-      en: "Kollagenpeptide unterstützen Haut und Sehnen; Vitamin C fungiert als Cofaktor."
+      en: "Collagen peptides support skin and tendons; vitamin C acts as a cofactor."
   valueForMoney:
     score: 7
     explanation:
       de: "0,87 € pro Tag ist fair für Markenrohstoff in Kapselform."
-      en: "0,87 € pro Tag ist fair für Markenrohstoff in Kapselform."
+      en: "At €0.87 per day, fair for a branded ingredient in capsule form."
   productQuality:
     score: 9
     explanation:
       de: "Hypoallergene Produktion, frei von Gluten, Soja und Milch."
-      en: "Hypoallergene Produktion, frei von Gluten, Soja und Milch."
+      en: "Hypoallergenic manufacturing, free from gluten, soy, and dairy."
   labelHonesty:
     score: 9
     explanation:
       de: "Mengenangaben klar, keine unnötigen Zusätze."
-      en: "Mengenangaben klar, keine unnötigen Zusätze."
+      en: "Amounts clearly stated, no unnecessary additives."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "COAs decken Schwermetalle und mikrobiologische Tests ab."
-      en: "COAs decken Schwermetalle und mikrobiologische Tests ab."
+      en: "COAs cover heavy metal and microbiological testing."
 
 locales:
   de:
@@ -67,16 +67,15 @@ locales:
         - "Keine Angaben zu Aminosäureprofilen"
       usage: "2 Kapseln zu einer proteinreichen Mahlzeit einnehmen. Bei höherem Kollagenbedarf auf 4 Kapseln erhöhen oder zusätzliches Pulver nutzen."
   en:
-    summary: "Kapseln mit Typ-I-Kollagen plus 60 mg Vitamin C für alle, die kein Pulver möchten."
-    verdictNote: "Für unterwegs oder Pulver-Hasser gut geeignet – einfach 2 Kapseln schlucken statt rühren."
+    summary: "Type I collagen capsules with 60 mg vitamin C — a convenient alternative to collagen powder."
+    verdictNote: "A good fit for travel or powder avoiders — just swallow 2 capsules instead of mixing."
     body:
-      description: "Collagen-C liefert enzymatisch hydrolysiertes Typ-I-Kollagen aus Fisch sowie Vitamin C aus Ascorbinsäure. Die Kapseln sind klein und lassen sich leicht schlucken."
+      description: "Collagen-C provides enzymatically hydrolyzed type I fish collagen plus vitamin C from ascorbic acid. The capsules are small and easy to swallow."
       pros:
-        - "Fischkollagen wird besser absorbiert als viele Rinderquellen"
-        - "Vitamin C direkt integriert"
-        - "Hypoallergenes Herstellungsprotokoll"
+        - "Fish collagen is better absorbed than many bovine sources"
+        - "Vitamin C built in as a collagen synthesis cofactor"
+        - "Hypoallergenic manufacturing protocol"
       cons:
-        - "Nur 1 g Kollagen – deutlich weniger als bei Pulvern"
-        - "Keine Angaben zu Aminosäureprofilen"
-      usage: "2 Kapseln zu einer proteinreichen Mahlzeit einnehmen. Bei höherem Kollagenbedarf auf 4 Kapseln erhöhen oder zusätzliches Pulver nutzen."
----
+        - "Only 1 g collagen per serving — far less than powder formats"
+        - "No amino acid profile disclosed"
+      usage: "Take 2 capsules with a protein-rich meal. For higher collagen needs, increase to 4 capsules or add a separate collagen powder."
