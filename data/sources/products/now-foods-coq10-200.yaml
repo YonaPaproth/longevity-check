@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "Gleiche solide Studienlage für CoQ10-Supplementierung."
-      en: "Gleiche solide Studienlage für CoQ10-Supplementierung."
+      en: "Solid and consistent evidence base for CoQ10 supplementation."
   valueForMoney:
     score: 6
     explanation:
       de: "0,80 € pro Portion ist etwas höher als Doctor's Best."
-      en: "0,80 € pro Portion ist etwas höher als Doctor's Best."
+      en: "€0.80 per serving is slightly above comparable products like Doctor's Best."
   productQuality:
     score: 8
     explanation:
       de: "GMP-Produktion und umfangreiche Inhouse-Labors."
-      en: "GMP-Produktion und umfangreiche Inhouse-Labors."
+      en: "GMP manufacturing with extensive in-house laboratory testing."
   labelHonesty:
     score: 9
     explanation:
       de: "NOW veröffentlicht vollständige COAs und Allergentests online."
-      en: "NOW veröffentlicht vollständige COAs und Allergentests online."
+      en: "NOW publishes full COAs and allergen test results online."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Regelmäßige Teilnahme an UL- und USP-Verifizierung für einzelne Chargen."
-      en: "Regelmäßige Teilnahme an UL- und USP-Verifizierung für einzelne Chargen."
+      en: "Regular participation in UL and USP verification for individual batches."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Nur ubiquinonisch, kein Ubiquinol"
       usage: "1 Softgel zusammen mit der größten Mahlzeit, optional zweite Portion bei hoher körperlicher Belastung."
   en:
-    summary: "Kaneka-Q10 in MCT-Softgels ohne Piperin – gut geeignet für empfindliche Mägen und tägliche Nutzung im Herz-Kontext."
-    verdictNote: "Sauberes Label, allergenfrei und weiterhin bezahlbar trotz Kaneka-Rohstoff."
+    summary: "Kaneka CoQ10 in MCT softgels without piperine — gentle on the stomach, suitable for daily cardiovascular use."
+    verdictNote: "Clean label, allergen-free, and still affordable given the Kaneka ingredient source."
     body:
-      description: "NOWs Softgels liefern 200 mg CoQ10 gelöst in MCT-Öl mit natürlichem Vitamin E als Antioxidans. Ohne Piperin ist das Produkt magenfreundlicher."
+      description: "NOW's softgels deliver 200 mg CoQ10 dissolved in MCT oil with natural vitamin E as an antioxidant. The piperine-free formula is easier on the stomach."
       pros:
-        - "Kaneka-Rohstoff mit natürlicher Fermentation"
-        - "Weiche Gelkapseln lassen sich gut schlucken"
-        - "Allergenfrei und ohne synthetische Farbstoffe"
+        - "Kaneka ingredient, naturally fermented"
+        - "Soft softgels easy to swallow"
+        - "Allergen-free and free from synthetic colorants"
       cons:
-        - "Etwas teurer als Konkurrenzprodukte"
-        - "Nur ubiquinonisch, kein Ubiquinol"
-      usage: "1 Softgel zusammen mit der größten Mahlzeit, optional zweite Portion bei hoher körperlicher Belastung."
+        - "Slightly more expensive than comparable products"
+        - "Ubiquinone form only — no ubiquinol"
+      usage: "1 softgel with the largest meal of the day. An optional second serving can be added during periods of high physical demand."
 ---

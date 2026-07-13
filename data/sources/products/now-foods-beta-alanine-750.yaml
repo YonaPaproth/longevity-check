@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "Beta-Alanin erhöhte Carnosinspiegel und verbesserte Leistungsfähigkeit bei hochintensiver Arbeit."
-      en: "Beta-Alanin erhöhte Carnosinspiegel und verbesserte Leistungsfähigkeit bei hochintensiver Arbeit."
+      en: "Beta-alanine raises carnosine levels and improves performance in high-intensity efforts."
   valueForMoney:
     score: 8
     explanation:
       de: "0,20 € pro 750 mg ist fair für CarnoSyn in Kapseln."
-      en: "0,20 € pro 750 mg ist fair für CarnoSyn in Kapseln."
+      en: "€0.20 per 750 mg is fair for CarnoSyn in capsule form."
   productQuality:
     score: 8
     explanation:
       de: "NOW Sports bezieht CarnoSyn, testet auf Reinheit und verbotene Substanzen."
-      en: "NOW Sports bezieht CarnoSyn, testet auf Reinheit und verbotene Substanzen."
+      en: "NOW Sports uses CarnoSyn and tests for purity and banned substances."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare Angaben zu CarnoSyn-Branding und Hilfsstoffen."
-      en: "Klare Angaben zu CarnoSyn-Branding und Hilfsstoffen."
+      en: "Clear disclosure of CarnoSyn branding and excipients."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "GMP-produziert, aber kein NSF-Siegel."
-      en: "GMP-produziert, aber kein NSF-Siegel."
+      en: "GMP-manufactured, but no NSF certification."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Nur 750 mg:** Für klassische 3,2–6,4 g Protokolle benötigt man mehrere Kapseln pro Tag"
       usage: "4 Kapseln täglich auf zwei bis vier Einnahmen verteilt, vorzugsweise mit Mahlzeiten, um Kribbeln zu reduzieren. Nach 4–6 Wochen Ladephase kann auf 2 Kapseln Erhaltungsdosis reduziert werden."
   en:
-    summary: "CarnoSyn-basierte Beta-Alanin-Kapseln mit 750 mg pro Portion, ausgerichtet auf Ausdauer- und Intervallathleten."
-    verdictNote: "Praktische Kapseln für Beta-Alanin ohne Pulvergeschmack."
+    summary: "CarnoSyn beta-alanine capsules, 750 mg per serving, targeted at endurance and interval athletes."
+    verdictNote: "Convenient capsule format for beta-alanine without the taste of powder."
     body:
-      description: "Jede Kapsel enthält 750 mg CarnoSyn-Beta-Alanin. Die Kapseln ermöglichen feine Dosierungsschritte und lassen sich über den Tag verteilen, um Parästhesien zu minimieren."
+      description: "Each capsule contains 750 mg of CarnoSyn beta-alanine. The capsule format allows flexible dosing spread throughout the day to minimize paresthesia (tingling)."
       pros:
-        - "**CarnoSyn-Rohstoff:** Patentierter Standard mit stabiler Reinheit"
-        - "**Kapselform:** Ideal für Menschen, die Pulver ablehnen"
-        - "**Ausdauerfokus:** Unterstützt Pufferkapazität bei Intervallen"
-        - "**GMP-Produktion:** Sicherer Rahmen für Lebensmittelsicherheit"
+        - "**CarnoSyn ingredient:** Patented standard with consistent purity"
+        - "**Capsule form:** Ideal for those who dislike powder"
+        - "**Endurance focus:** Supports buffering capacity during intervals"
+        - "**GMP manufacturing:** Solid quality assurance framework"
       cons:
-        - "**Keine Sportzertifizierung:** Für getestete Athleten wäre NSF sinnvoll"
-        - "**Nur 750 mg:** Für klassische 3,2–6,4 g Protokolle benötigt man mehrere Kapseln pro Tag"
-      usage: "4 Kapseln täglich auf zwei bis vier Einnahmen verteilt, vorzugsweise mit Mahlzeiten, um Kribbeln zu reduzieren. Nach 4–6 Wochen Ladephase kann auf 2 Kapseln Erhaltungsdosis reduziert werden."
+        - "**No sport certification:** NSF would be preferable for tested athletes"
+        - "**Only 750 mg:** Standard 3.2–6.4 g protocols require multiple capsules per day"
+      usage: "4 capsules daily, spread across 2–4 doses, preferably with meals to reduce tingling. After a 4–6 week loading phase, a maintenance dose of 2 capsules may be sufficient."
 ---

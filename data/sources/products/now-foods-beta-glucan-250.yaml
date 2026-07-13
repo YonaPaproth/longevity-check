@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "1,3/1,6-Beta-Glucane zeigen solide Daten bei Infektresilienz und Immunmodulation, vor allem bei moderater Dosierung."
-      en: "1,3/1,6-Beta-Glucane zeigen solide Daten bei Infektresilienz und Immunmodulation, vor allem bei moderater Dosierung."
+      en: "1,3/1,6-beta-glucans show solid data for infection resilience and immune modulation, especially at moderate doses."
   valueForMoney:
     score: 7
     explanation:
       de: "0,47 € pro Tag ist fair für zertifiziertes Wellmune mit offizieller NSF-Sportfreigabe."
-      en: "0,47 € pro Tag ist fair für zertifiziertes Wellmune mit offizieller NSF-Sportfreigabe."
+      en: "€0.47/day is fair for certified Wellmune with official NSF Sport clearance."
   productQuality:
     score: 8
     explanation:
       de: "NSF Sport, Wellmune-Rohstoff, GMP-Produktion und vegane Cellulosekapseln."
-      en: "NSF Sport, Wellmune-Rohstoff, GMP-Produktion und vegane Cellulosekapseln."
+      en: "NSF Sport certified, Wellmune ingredient, GMP manufacturing, and vegan cellulose capsules."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare 250-mg-Deklaration, Herkunft wird benannt, keine überzogene Versprechen."
-      en: "Klare 250-mg-Deklaration, Herkunft wird benannt, keine überzogene Versprechen."
+      en: "Clear 250 mg declaration, ingredient source named, no overstated claims."
   thirdPartyTesting:
     score: 9
     explanation:
       de: "NSF Certified for Sport prüft jede Charge auf Potenz und Kontamination."
-      en: "NSF Certified for Sport prüft jede Charge auf Potenz und Kontamination."
+      en: "NSF Certified for Sport tests every batch for potency and contamination."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Kapseln relativ groß** wegen 250 mg Wirkstoff"
       usage: "1 Kapsel täglich zu einer Mahlzeit. In Hochbelastungsphasen (viel Reisen, intensives Training) sind laut Studien 2 Kapseln vertretbar; immer ausreichend Wasser trinken."
   en:
-    summary: "Wellmune Beta-Glucan mit NSF-Sport-Siegel, 250 mg pro Portion und zuverlässiger NOW-Foods-Qualität für Immun-Kontext."
-    verdictNote: "Sportfreundliche Beta-Glucan-Option mit echtem Wellmune-Rohstoff und seltenem NSF-Siegel."
+    summary: "Wellmune beta-glucan with NSF Sport certification, 250 mg per serving, NOW Foods quality for immune support."
+    verdictNote: "Sport-friendly beta-glucan option with genuine Wellmune ingredient and a rare NSF Sport seal."
     body:
-      description: "Die Kapseln enthalten **Wellmune**, also hochgereinigte 1,3/1,6-Beta-Glucane aus Hefe. Das Produkt ist NSF Certified for Sport und richtet sich damit auch an Athlet:innen, die dopingreine Supplements brauchen."
+      description: "Each capsule contains **Wellmune**, highly purified 1,3/1,6-beta-glucans from yeast. The product is NSF Certified for Sport, making it suitable for athletes who require banned-substance-free supplements."
       pros:
-        - "**Wellmune-Markenrohstoff** mit klinischem Backing"
-        - "**NSF Sport Zertifizierung** für maximale Sicherheit"
-        - "**Vegane Cellulosekapseln** ohne Allergene"
-        - "**Saubere Formel ohne Zusätze** außer Reisfaser"
+        - "**Wellmune branded ingredient** with clinical backing"
+        - "**NSF Sport certification** for maximum safety assurance"
+        - "**Vegan cellulose capsules** free from common allergens"
+        - "**Clean formula** with only rice fiber as excipient"
       cons:
-        - "**Nur 60 Portionen**: für dauerhafte Einnahme monatliche Nachbestellung nötig"
-        - "**Keine Kombination mit Vitamin D oder Zink**, wer Komplettpacks will, braucht Zusatzprodukte"
-        - "**Kapseln relativ groß** wegen 250 mg Wirkstoff"
-      usage: "1 Kapsel täglich zu einer Mahlzeit. In Hochbelastungsphasen (viel Reisen, intensives Training) sind laut Studien 2 Kapseln vertretbar; immer ausreichend Wasser trinken."
+        - "**Only 60 servings:** monthly reordering needed for continuous use"
+        - "**No vitamin D or zinc included:** combination seekers need separate products"
+        - "**Capsules relatively large** due to 250 mg active dose"
+      usage: "1 capsule daily with a meal. Studies support 2 capsules during high-stress periods (heavy travel, intense training); drink plenty of water."
 ---

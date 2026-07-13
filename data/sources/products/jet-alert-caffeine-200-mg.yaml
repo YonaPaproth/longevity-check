@@ -29,27 +29,27 @@ ratings:
     score: 9
     explanation:
       de: "Koffein ist einer der bestuntersuchten Wirkstoffe überhaupt. Starke Evidenz für Wachheit, Kognition und sportliche Leistung."
-      en: "Koffein ist einer der bestuntersuchten Wirkstoffe überhaupt. Starke Evidenz für Wachheit, Kognition und sportliche Leistung."
+      en: "Caffeine is one of the most studied compounds in existence. Strong evidence for alertness, cognition, and athletic performance."
   valueForMoney:
     score: 10
     explanation:
       de: "0,06 € pro Tag — günstiger geht Supplementierung nicht."
-      en: "0,06 € pro Tag — günstiger geht Supplementierung nicht."
+      en: "€0.06/day — as cheap as supplementation gets."
   productQuality:
     score: 6
     explanation:
       de: "Einfaches Koffein-Produkt ohne Extras. Funktional, aber ohne Zusatzstoffe wie L-Theanin."
-      en: "Einfaches Koffein-Produkt ohne Extras. Funktional, aber ohne Zusatzstoffe wie L-Theanin."
+      en: "Basic caffeine product with no extras. Functional, but no L-theanine or other additions."
   labelHonesty:
     score: 8
     explanation:
       de: "200 mg Koffein pro Tablette, klar deklariert."
-      en: "200 mg Koffein pro Tablette, klar deklariert."
+      en: "200 mg caffeine per tablet, clearly declared."
   thirdPartyTesting:
     score: 5
     explanation:
       de: "Kein unabhängiges Drittanbieter-Zertifikat bekannt."
-      en: "Kein unabhängiges Drittanbieter-Zertifikat bekannt."
+      en: "No known independent third-party certification."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Keine Slow-Release-Formulierung"
       usage: "1 Tablette morgens oder vor dem Training. Nicht nach 14 Uhr. Max. 400 mg/Tag (EFSA). Am besten mit 100–200 mg L-Theanin kombinieren."
   en:
-    summary: "Reines Koffein 200 mg pro Tablette — der günstigste Wachmacher am Markt."
-    verdictNote: "Unschlagbar günstig für reines Koffein. Aber: L-Theanin als Kombi-Partner empfohlen, um Jitteriness zu vermeiden."
+    summary: "Pure caffeine 200 mg per tablet — one of the cheapest alertness supplements on the market."
+    verdictNote: "Unbeatable value for pure caffeine. Pairing with L-theanine is recommended to reduce jitteriness."
     body:
-      description: "Jet-Alert liefert 200 mg reines Koffein pro Tablette — äquivalent zu ~2 Tassen Kaffee. Minimalistisch, funktional, extrem günstig."
+      description: "Jet-Alert delivers 200 mg pure caffeine per tablet — equivalent to about 2 cups of coffee. Minimalist, functional, and extremely affordable."
       pros:
-        - "0,06 € pro Tag — das günstigste Supplement in unserem Katalog"
-        - "200 mg pro Tablette — präzise Dosierung vs. schwankender Kaffee-Gehalt"
-        - "120 Tabletten = 4 Monate"
+        - "€0.06/day — the cheapest supplement in our catalog"
+        - "200 mg per tablet — precise dosing vs. variable coffee content"
+        - "120 tablets = 4 months' supply"
       cons:
-        - "Kein L-Theanin enthalten (reduziert Koffein-Nebenwirkungen)"
-        - "Kann bei empfindlichen Personen Herzrasen, Unruhe und Schlafstörungen auslösen"
-        - "Keine Slow-Release-Formulierung"
-      usage: "1 Tablette morgens oder vor dem Training. Nicht nach 14 Uhr. Max. 400 mg/Tag (EFSA). Am besten mit 100–200 mg L-Theanin kombinieren."
+        - "No L-theanine included (which reduces caffeine side effects)"
+        - "Can cause heart palpitations, anxiety, and sleep disruption in sensitive individuals"
+        - "No slow-release formulation"
+      usage: "1 tablet in the morning or before exercise. Do not take after 2 pm. Max 400 mg/day (EFSA). Best combined with 100–200 mg L-theanine."
 ---

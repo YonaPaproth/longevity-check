@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "Aktives Folat unterstützt DNA-Synthese, Schwangerschaftsplanung und Homocysteinmanagement."
-      en: "Aktives Folat unterstützt DNA-Synthese, Schwangerschaftsplanung und Homocysteinmanagement."
+      en: "Active folate supports DNA synthesis, preconception health, and homocysteine management."
   valueForMoney:
     score: 10
     explanation:
       de: "0,06 € pro Tag für L-5-MTHF ist nahezu unschlagbar günstig."
-      en: "0,06 € pro Tag für L-5-MTHF ist nahezu unschlagbar günstig."
+      en: "€0.06/day for L-5-MTHF is nearly unbeatable value."
   productQuality:
     score: 8
     explanation:
       de: "Verwendet Metafolin von Merck, stabile Tabletten ohne problematische Zusatzstoffe."
-      en: "Verwendet Metafolin von Merck, stabile Tabletten ohne problematische Zusatzstoffe."
+      en: "Uses Metafolin from Merck; stable tablets without problematic excipients."
   labelHonesty:
     score: 9
     explanation:
       de: "Transparent zu DFE, aktiver Form und Hilfsstoffen, inklusive glutenfreier Kennzeichnung."
-      en: "Transparent zu DFE, aktiver Form und Hilfsstoffen, inklusive glutenfreier Kennzeichnung."
+      en: "Transparent about DFE, active form, and excipients, including gluten-free labeling."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "NOW testet intern nach GMP, aber kein dediziertes externes Siegel auf der Packung."
-      en: "NOW testet intern nach GMP, aber kein dediziertes externes Siegel auf der Packung."
+      en: "NOW tests internally to GMP standards, but no dedicated external certification on the packaging."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Tablettenform:** Nicht ideal für Menschen mit Schluckbeschwerden"
       usage: "Täglich 1 Tablette zu einer Mahlzeit mit Fett einnehmen. Bei Homocystein-Protokollen oft mit B6 und B12 kombinieren."
   en:
-    summary: "Metafolin basiertes Folat mit 800 mcg DFE pro Tablette, Non-GMO und besonders geeignet für MTHFR-Träger oder präkonzeptionelle Strategien."
-    verdictNote: "Preisgünstiges aktives Folat für gesundes Altern- und Schwangerschaftsprotokolle."
+    summary: "Metafolin-based folate, 800 mcg DFE per tablet, Non-GMO — well-suited for MTHFR variants or preconception use."
+    verdictNote: "Affordable active folate for healthy aging and pregnancy protocols."
     body:
-      description: "Die Folat-Tabletten liefern 800 mcg Dietary Folate Equivalents als patentiertes Metafolin (L-5-Methyltetrahydrofolat). Dadurch entfällt die Umwandlung in der Leber, was besonders für Personen mit MTHFR-Polymorphismen wichtig ist."
+      description: "These folate tablets deliver 800 mcg Dietary Folate Equivalents as patented Metafolin (L-5-methyltetrahydrofolate). This bypasses liver conversion, which is especially relevant for individuals with MTHFR polymorphisms."
       pros:
-        - "**Aktive Form:** L-5-MTHF übergeht Konversionsprobleme"
-        - "**Non-GMO & allergenarm:** Frei von typischen Problemstoffen"
-        - "**Große Packung:** 250 Portionen reichen für mehr als acht Monate"
-        - "**Guter Hersteller:** NOW ist für strenge Qualitätskontrollen bekannt"
+        - "**Active form:** L-5-MTHF bypasses conversion issues"
+        - "**Non-GMO & low-allergen:** Free from common problem ingredients"
+        - "**Large pack:** 250 servings — over eight months' supply"
+        - "**Reputable manufacturer:** NOW is known for strict quality controls"
       cons:
-        - "**Keine Drittzertifizierung:** Wäre bei so kritischem Nährstoff wünschenswert"
-        - "**Tablettenform:** Nicht ideal für Menschen mit Schluckbeschwerden"
-      usage: "Täglich 1 Tablette zu einer Mahlzeit mit Fett einnehmen. Bei Homocystein-Protokollen oft mit B6 und B12 kombinieren."
+        - "**No third-party certification:** Would be preferable for such a critical nutrient"
+        - "**Tablet form:** Not ideal for those with swallowing difficulties"
+      usage: "1 tablet daily with a meal containing fat. Often combined with B6 and B12 in homocysteine-lowering protocols."
 ---

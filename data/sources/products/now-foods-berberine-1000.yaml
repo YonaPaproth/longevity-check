@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Berberine besitzt zahlreiche RCTs zu Blutzucker, Lipiden und AMPK-Aktivierung."
-      en: "Berberine besitzt zahlreiche RCTs zu Blutzucker, Lipiden und AMPK-Aktivierung."
+      en: "Berberine has numerous RCTs on blood glucose, lipids, and AMPK activation."
   valueForMoney:
     score: 8
     explanation:
       de: "0,63 € pro 1000 mg ist stark für eine Großdosis."
-      en: "0,63 € pro 1000 mg ist stark für eine Großdosis."
+      en: "€0.63 per 1000 mg is strong value for a high-dose capsule."
   productQuality:
     score: 8
     explanation:
       de: "NOW produziert cGMP, vegane Kapseln und testet auf Alkaloidgehalt."
-      en: "NOW produziert cGMP, vegane Kapseln und testet auf Alkaloidgehalt."
+      en: "NOW produces under cGMP with vegan capsules and tests for alkaloid content."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert 1000 mg Berberine HCl ohne Proprietary Blend."
-      en: "Deklariert 1000 mg Berberine HCl ohne Proprietary Blend."
+      en: "Declares 1000 mg berberine HCl with no proprietary blend."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Interne Labore plus stichprobenartige Fremdtests."
-      en: "Interne Labore plus stichprobenartige Fremdtests."
+      en: "In-house labs plus spot-check external testing."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Keine erweiterten Bioverfügbarkeits-Technologien"
       usage: "1 Kapsel zweimal täglich zu den größten Mahlzeiten einnehmen; bei empfindlichem Magen mit zusätzlichem Wasser nehmen."
   en:
-    summary: "Hohe 1000-mg-Dosis Berberine HCl in veganer Kapsel – cGMP und hervorragend dosiert für metabolische Programme."
-    verdictNote: "Hohe Dosis in nur einer Kapsel – gut geeignet für Menschen, die typische 1500 mg/Tag erreichen wollen."
+    summary: "High-dose 1000 mg berberine HCl in a vegan capsule — cGMP-manufactured, well-dosed for metabolic protocols."
+    verdictNote: "High dose in a single capsule — convenient for those targeting the typical 1500 mg/day protocol."
     body:
-      description: "NOW Foods verwendet Berberine HCl aus Berberis aristata. Die vegane Kapsel enthält 1000 mg, sodass nur 1–2 Portionen pro Tag nötig sind."
+      description: "NOW Foods uses berberine HCl from Berberis aristata. Each vegan capsule contains 1000 mg, so only 1–2 servings per day are needed."
       pros:
-        - "1000 mg pro Kapsel reduziert Einnahmeaufwand"
-        - "Vegane Cellulosekapseln"
-        - "GMP- und Qualitätskontrollen aus den USA"
+        - "1000 mg per capsule reduces pill burden"
+        - "Vegan cellulose capsules"
+        - "US-based GMP manufacturing and quality controls"
       cons:
-        - "Große Kapseln schwer zu schlucken"
-        - "Berberine kann Magen-Darm reizen"
-        - "Keine erweiterten Bioverfügbarkeits-Technologien"
-      usage: "1 Kapsel zweimal täglich zu den größten Mahlzeiten einnehmen; bei empfindlichem Magen mit zusätzlichem Wasser nehmen."
+        - "Large capsules can be hard to swallow"
+        - "Berberine may cause GI irritation"
+        - "No enhanced bioavailability technology"
+      usage: "1 capsule twice daily with the largest meals. Take with extra water if GI-sensitive."
 ---

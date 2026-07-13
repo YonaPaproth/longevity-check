@@ -35,27 +35,27 @@ ratings:
     score: 7
     explanation:
       de: "Multi-Vitamine können Lücken füllen, ersetzen aber keine vollwertige Ernährung. Methylfolat ist ein Plus."
-      en: "Multi-Vitamine können Lücken füllen, ersetzen aber keine vollwertige Ernährung. Methylfolat ist ein Plus."
+      en: "Multivitamins can fill nutritional gaps but don't replace a balanced diet. Methylfolate is a meaningful plus."
   valueForMoney:
     score: 7
     explanation:
       de: "0,50 € pro Tag für ein pflanzliches Multi mit Markenrohstoffen ist angemessen."
-      en: "0,50 € pro Tag für ein pflanzliches Multi mit Markenrohstoffen ist angemessen."
+      en: "€0.50/day for a plant-based multi with branded ingredients is reasonable."
   productQuality:
     score: 8
     explanation:
       de: "Pflanzliche Rohstoffe, Methylfolat statt Folsäure, D3 aus Flechten, bioaktive B-Formen."
-      en: "Pflanzliche Rohstoffe, Methylfolat statt Folsäure, D3 aus Flechten, bioaktive B-Formen."
+      en: "Plant-based ingredients, methylfolate instead of folic acid, lichen-derived D3, bioactive B vitamins."
   labelHonesty:
     score: 9
     explanation:
       de: "Alle Nährstoffe und Formen einzeln deklariert, organic whole food blend transparent."
-      en: "Alle Nährstoffe und Formen einzeln deklariert, organic whole food blend transparent."
+      en: "All nutrients and forms individually declared; organic whole food blend fully transparent."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "GMP-zertifiziert, Non-GMO, aber kein NSF/USP-Siegel."
-      en: "GMP-zertifiziert, Non-GMO, aber kein NSF/USP-Siegel."
+      en: "GMP-certified, Non-GMO, but no NSF/USP certification."
 
 locales:
   de:
@@ -74,18 +74,18 @@ locales:
         - "Kein USP/NSF-Zertifikat"
       usage: "1 Kapsel täglich zu einer Mahlzeit."
   en:
-    summary: "Pflanzliches Multivitamin für Frauen mit Methylfolat, Vitamin D3 aus Flechten und Eisen."
-    verdictNote: "Eines der besseren pflanzlichen Frauen-Multis. Methylfolat und pflanzliches D3 sind echte Vorteile."
+    summary: "Plant-based women's multivitamin with methylfolate, lichen-derived D3, and iron. One capsule daily."
+    verdictNote: "One of the better plant-based women's multis. Methylfolate and vegan D3 are genuine advantages."
     body:
-      description: "NATURELO setzt auf pflanzliche Nährstoffquellen: Vitamin D3 aus Flechten, Methylfolat statt synthetischer Folsäure, Eisen aus Curryblatt. Speziell auf Frauenbedürfnisse abgestimmt mit Eisen und höherem Folat."
+      description: "NATURELO uses plant-based nutrient sources: vitamin D3 from lichen, methylfolate instead of synthetic folic acid, and iron from curry leaf. Formulated specifically for women's needs with iron and higher folate levels."
       pros:
-        - "Methylfolat statt Folsäure — wichtig für MTHFR-Varianten"
-        - "Pflanzliches Vitamin D3 aus Flechten"
-        - "Mit Eisen — wichtig für menstruierende Frauen"
-        - "Organische Whole-Food-Basis"
+        - "Methylfolate instead of folic acid — important for MTHFR variants"
+        - "Plant-based vitamin D3 from lichen"
+        - "Contains iron — relevant for menstruating women"
+        - "Organic whole food base"
       cons:
-        - "1 Kapsel pro Tag enthält geringere Mengen als Multi-Kapsel-Formate"
-        - "Kein Omega-3 oder Magnesium enthalten"
-        - "Kein USP/NSF-Zertifikat"
-      usage: "1 Kapsel täglich zu einer Mahlzeit."
+        - "Single-capsule format provides lower amounts than multi-capsule products"
+        - "No omega-3 or magnesium included"
+        - "No USP/NSF certification"
+      usage: "1 capsule daily with a meal."
 ---

@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Studienlage ist gemischt; wenige hochwertige RCTs."
-      en: "Studienlage ist gemischt; wenige hochwertige RCTs."
+      en: "Mixed evidence base; few high-quality RCTs available."
   valueForMoney:
     score: 8
     explanation:
       de: "0,36 € pro Portion für 750 mg ist attraktiv."
-      en: "0,36 € pro Portion für 750 mg ist attraktiv."
+      en: "€0.36 per serving for 750 mg is attractive."
   productQuality:
     score: 7
     explanation:
       de: "USA-GMP-Anlage, aber Myzel statt Fruchtkörper."
-      en: "USA-GMP-Anlage, aber Myzel statt Fruchtkörper."
+      en: "US GMP facility, but mycelium rather than fruiting body."
   labelHonesty:
     score: 7
     explanation:
       de: "Deklariert Myzel auf Reissubstrat korrekt."
-      en: "Deklariert Myzel auf Reissubstrat korrekt."
+      en: "Correctly declares mycelium on rice substrate."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "NOW testet jede Charge intern, externe Nachweise sind rar."
-      en: "NOW testet jede Charge intern, externe Nachweise sind rar."
+      en: "NOW tests each batch internally; external certificates are rare."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kapseln recht groß"
       usage: "1-2 Kapseln vor sportlicher Belastung oder in der Früh. Mit Kaffee kombinierbar, da stimulansfrei."
   en:
-    summary: "Cordyceps sinensis Myzel-Pulver mit 750 mg pro Kapsel und GMP-geprüfter Herstellung."
-    verdictNote: "Für Einsteiger ok, wer maximale Ergosterolwerte sucht, sollte Fruchtkörper wählen."
+    summary: "Cordyceps sinensis mycelium powder, 750 mg per capsule, GMP-verified manufacturing."
+    verdictNote: "Acceptable for beginners; those seeking maximum ergosterol values should choose a fruiting body product."
     body:
-      description: "NOW Foods kultiviert Cordyceps mycelial im Fermentor. Das Pulver wird unter Stickstoff abgefüllt und enthält keine Zusatzstoffe außer Reisextrakt."
+      description: "NOW Foods cultivates Cordyceps mycelium in a fermenter. The powder is filled under nitrogen and contains no additives beyond rice extract."
       pros:
-        - "Hohe Portionenzahl"
-        - "Preislich sehr moderat"
-        - "GMP-zertifizierte Fabrik"
+        - "High serving count"
+        - "Very moderate price"
+        - "GMP-certified facility"
       cons:
-        - "Myzel hat niedrigere Cordycepinwerte"
-        - "Kapseln recht groß"
-      usage: "1-2 Kapseln vor sportlicher Belastung oder in der Früh. Mit Kaffee kombinierbar, da stimulansfrei."
+        - "Mycelium has lower cordycepin levels than fruiting body"
+        - "Capsules are fairly large"
+      usage: "1–2 capsules before exercise or in the morning. Can be combined with coffee as it contains no stimulants."
 ---

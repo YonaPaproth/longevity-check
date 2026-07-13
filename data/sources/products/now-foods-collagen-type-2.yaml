@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Undenaturiertes Typ-II-Kollagen zeigt in Studien Verbesserungen bei Gelenkkomfort schon ab 40 mg."
-      en: "Undenaturiertes Typ-II-Kollagen zeigt in Studien Verbesserungen bei Gelenkkomfort schon ab 40 mg."
+      en: "Undenatured type II collagen shows improvements in joint comfort in studies at doses as low as 40 mg."
   valueForMoney:
     score: 8
     explanation:
       de: "0,23 € pro Tag für 500 mg UC-II ist günstig."
-      en: "0,23 € pro Tag für 500 mg UC-II ist günstig."
+      en: "€0.23/day for 500 mg UC-II is affordable."
   productQuality:
     score: 8
     explanation:
       de: "NOW kapselt unter cGMP und testet auf Kollagenintegrität."
-      en: "NOW kapselt unter cGMP und testet auf Kollagenintegrität."
+      en: "NOW encapsulates under cGMP and tests for collagen integrity."
   labelHonesty:
     score: 8
     explanation:
       de: "UC-II-Marke genannt, aber genaue Peptidverteilung fehlt."
-      en: "UC-II-Marke genannt, aber genaue Peptidverteilung fehlt."
+      en: "UC-II brand named, but exact peptide distribution not disclosed."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Interne Tests vorhanden, wenige externe Publikationen."
-      en: "Interne Tests vorhanden, wenige externe Publikationen."
+      en: "In-house testing present; limited external publications."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kein zusätzlicher Vitamin-C-Kofaktor"
       usage: "1 Kapsel auf nüchternen Magen einnehmen, idealerweise vor dem Schlafengehen. Für Synergie mit Vitamin C oder MSM kombinieren."
   en:
-    summary: "Typ-II-Kollagen aus Hühnersternum, speziell für Gelenkknorpel und Beweglichkeit formuliert."
-    verdictNote: "Budgetfreundliche Option für Knie- oder Schulterthemen ohne Pulverchaos."
+    summary: "Type II collagen from chicken sternum, formulated for joint cartilage and mobility."
+    verdictNote: "Budget-friendly option for knee or shoulder issues without the mess of powder."
     body:
-      description: "Das Produkt nutzt nicht denaturiertes Typ-II-Kollagen aus Hühnerbrustbein inklusive natürlicher Hyaluronsäure und Chondroitinsulfat-Spuren. Die Kapseln sind frei von Gluten und Milch."
+      description: "This product uses undenatured type II collagen from chicken sternum, including naturally occurring hyaluronic acid and traces of chondroitin sulfate. Capsules are free from gluten and dairy."
       pros:
-        - "Niedrige Tagesdosis, dadurch travel-friendly"
-        - "Enthält natürliche Begleitstoffe aus Knorpelgewebe"
-        - "Preislich klar unter spezialisierten UC-II-Marken"
+        - "Low daily dose — travel-friendly"
+        - "Contains natural co-factors from cartilage tissue"
+        - "Noticeably cheaper than specialized UC-II brands"
       cons:
-        - "Tierische Quelle, daher nicht für Veganer:innen"
-        - "Kein zusätzlicher Vitamin-C-Kofaktor"
-      usage: "1 Kapsel auf nüchternen Magen einnehmen, idealerweise vor dem Schlafengehen. Für Synergie mit Vitamin C oder MSM kombinieren."
+        - "Animal-derived — not suitable for vegans"
+        - "No additional vitamin C cofactor included"
+      usage: "1 capsule on an empty stomach, ideally before bed. Can be combined with vitamin C or MSM for synergy."
 ---

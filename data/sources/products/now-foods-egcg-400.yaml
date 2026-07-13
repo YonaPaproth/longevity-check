@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "EGCg hat solide Daten zu antioxidativem Schutz und Stoffwechsel, aber hoher Dosierung sind Leberwerte zu beachten."
-      en: "EGCg hat solide Daten zu antioxidativem Schutz und Stoffwechsel, aber hoher Dosierung sind Leberwerte zu beachten."
+      en: "EGCg has solid data on antioxidant protection and metabolism, but liver enzyme levels should be monitored at high doses."
   valueForMoney:
     score: 8
     explanation:
       de: "0,27 € pro 400 mg Polyphenole ist stark."
-      en: "0,27 € pro 400 mg Polyphenole ist stark."
+      en: "€0.27 per 400 mg of polyphenols is strong value."
   productQuality:
     score: 8
     explanation:
       de: "NOW testet auf Pestizide und EGCG-Gehalt, Rohstoff aus China mit QS-Protokoll."
-      en: "NOW testet auf Pestizide und EGCG-Gehalt, Rohstoff aus China mit QS-Protokoll."
+      en: "NOW tests for pesticides and EGCG content; raw material from China with quality assurance protocol."
   labelHonesty:
     score: 8
     explanation:
       de: "Polyphenolgehalt angegeben, wenn auch ohne Catechin-Breakdown."
-      en: "Polyphenolgehalt angegeben, wenn auch ohne Catechin-Breakdown."
+      en: "Polyphenol content declared, though no catechin-level breakdown provided."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "ConsumerLab bestätigt Potenz, aber keine Regelmäßigkeit."
-      en: "ConsumerLab bestätigt Potenz, aber keine Regelmäßigkeit."
+      en: "ConsumerLab has confirmed potency, but not on a regular basis."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Fettlösliche Aufnahmehilfe fehlt"
       usage: "1 Kapsel zu einer Mahlzeit mit etwas Fett einnehmen. Nicht auf nüchternen Magen nutzen und maximal 2 Kapseln pro Tag, um Leberstress zu vermeiden."
   en:
-    summary: "Grüntee-Extrakt mit 400 mg EGCg und 98 % Polyphenolen, entkoffeiniert und Non-GMO."
-    verdictNote: "Konzentrierter Grüntee-Booster für Antioxidantien-Fans ohne Koffein."
+    summary: "Green tea extract with 400 mg EGCg, 98% polyphenols, decaffeinated and Non-GMO."
+    verdictNote: "Concentrated green tea extract for antioxidant enthusiasts — without the caffeine."
     body:
-      description: "Das Produkt enthält entkoffeinierten Grüntee-Extrakt, standardisiert auf 98 % Polyphenole, 80 % Catechine und 50 % EGCg. Die Kapseln sind vegetarisch und frei von Soja."
+      description: "The product contains decaffeinated green tea extract standardized to 98% polyphenols, 80% catechins, and 50% EGCg. Capsules are vegetarian and soy-free."
       pros:
-        - "Hoher EGCg-Anteil mit minimalem Koffein (&lt;4 mg)"
+        - "High EGCg content with minimal caffeine (&lt;4 mg)"
         - "Non-GMO Project Verified"
-        - "Preislich attraktiv bei 90 Portionen"
+        - "Attractive price at 90 servings"
       cons:
-        - "Kein zusätzlicher Vitamin-C-Stabilisator"
-        - "Fettlösliche Aufnahmehilfe fehlt"
-      usage: "1 Kapsel zu einer Mahlzeit mit etwas Fett einnehmen. Nicht auf nüchternen Magen nutzen und maximal 2 Kapseln pro Tag, um Leberstress zu vermeiden."
+        - "No added vitamin C stabilizer"
+        - "No fat-based absorption aid included"
+      usage: "1 capsule with a meal containing some fat. Do not take on an empty stomach; limit to 2 capsules per day to avoid liver stress."
 ---

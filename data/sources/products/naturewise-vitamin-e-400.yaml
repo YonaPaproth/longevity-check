@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Vitamin E hat moderate Evidenz als Antioxidans. Hochdosierte Langzeit-Supplementierung ist umstritten (SELECT-Studie)."
-      en: "Vitamin E hat moderate Evidenz als Antioxidans. Hochdosierte Langzeit-Supplementierung ist umstritten (SELECT-Studie)."
+      en: "Vitamin E has moderate evidence as an antioxidant. High-dose long-term supplementation is controversial (SELECT trial)."
   valueForMoney:
     score: 9
     explanation:
       de: "0,14 € pro Tag für natürliches d-alpha-Tocopherol ist sehr günstig."
-      en: "0,14 € pro Tag für natürliches d-alpha-Tocopherol ist sehr günstig."
+      en: "€0.14/day for natural d-alpha-tocopherol is very affordable."
   productQuality:
     score: 8
     explanation:
       de: "Natürliches d-alpha-Tocopherol (nicht synthetisches dl-alpha), aus Sonnenblumenöl, sojafrei."
-      en: "Natürliches d-alpha-Tocopherol (nicht synthetisches dl-alpha), aus Sonnenblumenöl, sojafrei."
+      en: "Natural d-alpha-tocopherol (not synthetic dl-alpha), from sunflower oil, soy-free."
   labelHonesty:
     score: 8
     explanation:
       de: "Vitamin-E-Form und Quelle klar deklariert, gentechnikfrei."
-      en: "Vitamin-E-Form und Quelle klar deklariert, gentechnikfrei."
+      en: "Vitamin E form and source clearly stated; Non-GMO."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Non-GMO Project Verified, GMP-zertifizierte Produktion."
-      en: "Non-GMO Project Verified, GMP-zertifizierte Produktion."
+      en: "Non-GMO Project Verified; GMP-certified manufacturing."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "400 IU überschreitet die EFSA-Obergrenze von 300 mg/Tag leicht"
       usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Nicht langfristig hochdosiert ohne ärztliche Indikation einnehmen. Bei Blutgerinnungsstörungen oder Antikoagulanzien-Einnahme vorher mit dem Arzt sprechen."
   en:
-    summary: "Natürliches d-alpha-Tocopherol (400 IU) aus Sonnenblumenöl, gentechnikfrei, 120 Softgels."
-    verdictNote: "Günstiges natürliches Vitamin E in guter Form. Aber: Hochdosierte Langzeit-Einnahme nur nach Rücksprache (SELECT-Studie beachten)."
+    summary: "Natural d-alpha-tocopherol 400 IU from sunflower oil, Non-GMO, 120 softgels."
+    verdictNote: "Affordable natural vitamin E in a good form. Note: prolonged high-dose use should be discussed with a doctor (see SELECT trial)."
     body:
-      description: "NatureWise verwendet natürliches d-alpha-Tocopherol aus Sonnenblumenöl — die bioverfügbarere Form gegenüber synthetischem dl-alpha-Tocopherol. 400 IU (268 mg) pro Softgel, sojafrei."
+      description: "NatureWise uses natural d-alpha-tocopherol from sunflower oil — more bioavailable than synthetic dl-alpha-tocopherol. 400 IU (268 mg) per softgel, soy-free."
       pros:
-        - "Natürliches d-alpha-Tocopherol (doppelte Bioverfügbarkeit vs. synthetisch)"
-        - "Aus Sonnenblumenöl, sojafrei"
-        - "120 Softgels = 4 Monate"
-        - "Sehr günstiger Preis"
+        - "Natural d-alpha-tocopherol (roughly twice the bioavailability of synthetic)"
+        - "From sunflower oil, soy-free"
+        - "120 softgels = 4 months' supply"
+        - "Very affordable price"
       cons:
-        - "Nur alpha-Tocopherol — kein gemischtes Tocopherol-Spektrum (gamma, delta)"
-        - "Die SELECT-Studie zeigte erhöhtes Prostatakrebsrisiko bei hochdosierter Langzeiteinnahme"
-        - "400 IU überschreitet die EFSA-Obergrenze von 300 mg/Tag leicht"
-      usage: "1 Softgel täglich zu einer fetthaltigen Mahlzeit. Nicht langfristig hochdosiert ohne ärztliche Indikation einnehmen. Bei Blutgerinnungsstörungen oder Antikoagulanzien-Einnahme vorher mit dem Arzt sprechen."
+        - "Alpha-tocopherol only — no mixed tocopherol spectrum (gamma, delta)"
+        - "The SELECT trial showed increased prostate cancer risk with long-term high-dose use"
+        - "400 IU slightly exceeds the EFSA upper limit of 300 mg/day"
+      usage: "1 softgel daily with a fatty meal. Do not take high doses long-term without medical guidance. Consult a doctor if you take anticoagulants or have a bleeding disorder."
 ---

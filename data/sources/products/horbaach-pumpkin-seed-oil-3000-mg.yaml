@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Moderate Evidenz für Prostata-/Harnwegsbeschwerden (BPH). Einige RCTs positiv, aber kleine Stichproben."
-      en: "Moderate Evidenz für Prostata-/Harnwegsbeschwerden (BPH). Einige RCTs positiv, aber kleine Stichproben."
+      en: "Moderate evidence for prostate/urinary complaints (BPH). Some positive RCTs, but small sample sizes."
   valueForMoney:
     score: 9
     explanation:
       de: "0,13 € pro Tag ist sehr günstig für 3000 mg Kürbiskernöl."
-      en: "0,13 € pro Tag ist sehr günstig für 3000 mg Kürbiskernöl."
+      en: "€0.13/day for 3000 mg of pumpkin seed oil is very affordable."
   productQuality:
     score: 7
     explanation:
       de: "Kaltgepresstes Kürbiskernöl in Softgels. Kein standardisierter Extrakt."
-      en: "Kaltgepresstes Kürbiskernöl in Softgels. Kein standardisierter Extrakt."
+      en: "Cold-pressed pumpkin seed oil in softgels. Not a standardized extract."
   labelHonesty:
     score: 7
     explanation:
       de: "Ölmenge deklariert, aber keine Angabe zu Phytosterol- oder Delta-7-Sterin-Gehalt."
-      en: "Ölmenge deklariert, aber keine Angabe zu Phytosterol- oder Delta-7-Sterin-Gehalt."
+      en: "Oil amount declared, but no phytosterol or delta-7-sterol content specified."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "GMP-zertifiziert, aber kein spezifisches Drittanbieter-Zertifikat."
-      en: "GMP-zertifiziert, aber kein spezifisches Drittanbieter-Zertifikat."
+      en: "GMP-certified, but no specific third-party certificate."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "Kein unabhängiges Laborzertifikat"
       usage: "3 Softgels täglich zu einer Mahlzeit. Mindestens 8 Wochen einnehmen für potenzielle Effekte."
   en:
-    summary: "Kürbiskernöl 3000 mg pro Tagesdosis für Prostata- und Harnwegsgesundheit."
-    verdictNote: "Günstige Option für Prostata-Support. Evidenz begrenzt, aber gutes Sicherheitsprofil."
+    summary: "Pumpkin seed oil 3000 mg per daily serving for prostate and urinary tract health."
+    verdictNote: "Budget-friendly option for prostate support. Evidence is limited, but the safety profile is good."
     body:
-      description: "Horbaach bietet kaltgepresstes Kürbiskernöl in Softgel-Form. Kürbiskernöl enthält Phytosterole und Delta-7-Sterine, die in Zusammenhang mit Prostata- und Blasengesundheit stehen."
+      description: "Horbaach offers cold-pressed pumpkin seed oil in softgel form. Pumpkin seed oil contains phytosterols and delta-7-sterols associated with prostate and bladder health."
       pros:
-        - "3000 mg pro Tagesdosis — adäquate Menge"
-        - "100 Softgels — über 3 Monate Reichweite"
-        - "Sehr günstig"
-        - "Gutes Sicherheitsprofil"
+        - "3000 mg per daily serving — adequate amount"
+        - "100 softgels — over 3 months' supply"
+        - "Very affordable"
+        - "Good safety profile"
       cons:
-        - "Kein standardisierter Extrakt (Phytosterol-Gehalt variiert)"
-        - "Evidenzlage für BPH-Symptome noch begrenzt"
-        - "Kein unabhängiges Laborzertifikat"
-      usage: "3 Softgels täglich zu einer Mahlzeit. Mindestens 8 Wochen einnehmen für potenzielle Effekte."
+        - "Not a standardized extract (phytosterol content may vary)"
+        - "Evidence for BPH symptoms is still limited"
+        - "No independent lab certificate"
+      usage: "3 softgels daily with a meal. Take for at least 8 weeks to assess potential effects."
 ---
