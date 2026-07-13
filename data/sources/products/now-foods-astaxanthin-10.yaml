@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Astaxanthin zeigt antioxidative Effekte in Haut- und Sportstudien, aber wenig Langzeitdaten."
-      en: "Astaxanthin zeigt antioxidative Effekte in Haut- und Sportstudien, aber wenig Langzeitdaten."
+      en: "Astaxanthin shows antioxidant effects in skin and sports studies, but long-term data is limited."
   valueForMoney:
     score: 8
     explanation:
       de: "0,47 € pro Tag ist stark für 10 mg Natur-Astaxanthin."
-      en: "0,47 € pro Tag ist stark für 10 mg Natur-Astaxanthin."
+      en: "€0.47 per day is strong for 10 mg natural astaxanthin."
   productQuality:
     score: 8
     explanation:
       de: "Kaltgepresstes Olivenöl dient als Träger, keine synthetischen Farbstoffe."
-      en: "Kaltgepresstes Olivenöl dient als Träger, keine synthetischen Farbstoffe."
+      en: "Cold-pressed olive oil is used as the carrier; no synthetic colorants."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare Angabe der Algenquelle und des Standardisats."
-      en: "Klare Angabe der Algenquelle und des Standardisats."
+      en: "Algae source and standardization clearly stated."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "NOW betreibt interne Chromatographie-Tests, externe Daten nur stichprobenartig."
-      en: "NOW betreibt interne Chromatographie-Tests, externe Daten nur stichprobenartig."
+      en: "NOW runs in-house chromatography tests; external data only spot-checked."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Ölige Kapseln können bei Hitze zusammenkleben"
       usage: "1 Softgel zu einer fetthaltigen Mahlzeit oder direkt vor Sonneneinstrahlung starker Tage."
   en:
-    summary: "Natürliches Astaxanthin aus Haematococcus pluvialis in günstiger 60-Softgel-Dose."
-    verdictNote: "Günstige und dennoch hochwertige Quelle für natürliches Astaxanthin bei Alltagsoxidationsstress."
+    summary: "Natural astaxanthin from Haematococcus pluvialis in an affordable 60-softgel bottle."
+    verdictNote: "Affordable yet quality source of natural astaxanthin for everyday oxidative stress."
     body:
-      description: "NOW Foods nutzt Haematococcus-Plankton aus Hawaii und extrahiert es lösungsmittelfrei. Die Softgels enthalten Olivenöl und Vitamin E als Stabilisator."
+      description: "NOW Foods uses Haematococcus pluvialis from Hawaii with solvent-free extraction. Softgels contain olive oil and vitamin E as stabilizers."
       pros:
-        - "Trägeröl aus Oliven statt Soja"
-        - "60 Portionen reichen zwei Monate"
-        - "Laborberichte auf der Website abrufbar"
+        - "Olive oil carrier instead of soy"
+        - "60 servings — two months supply"
+        - "Lab reports available on the website"
       cons:
-        - "Gelatine-Kapsel nicht vegetarisch"
-        - "Ölige Kapseln können bei Hitze zusammenkleben"
-      usage: "1 Softgel zu einer fetthaltigen Mahlzeit oder direkt vor Sonneneinstrahlung starker Tage."
+        - "Gelatin capsule — not vegetarian"
+        - "Oily softgels can stick together in heat"
+      usage: "1 softgel with a fat-containing meal, or before prolonged sun exposure."
 ---

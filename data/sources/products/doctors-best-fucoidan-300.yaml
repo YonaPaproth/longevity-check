@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Fucoidan hat wachsende RCT-Evidenz für Darmgesundheit, Griffstärke und Immunmodulation. Noch keine EFSA-Claims, aber solider als viele Trend-Supplements."
-      en: "Fucoidan hat wachsende RCT-Evidenz für Darmgesundheit, Griffstärke und Immunmodulation. Noch keine EFSA-Claims, aber solider als viele Trend-Supplements."
+      en: "Fucoidan has growing RCT evidence for gut health, grip strength, and immune modulation. No EFSA claims yet, but more solid than many trend supplements."
   valueForMoney:
     score: 7
     explanation:
       de: "0,41 € pro Tag für einen standardisierten 70%-Extrakt ist fair für ein Nischen-Supplement."
-      en: "0,41 € pro Tag für einen standardisierten 70%-Extrakt ist fair für ein Nischen-Supplement."
+      en: "€0.41 per day for a standardized 70% extract is fair for a niche supplement."
   productQuality:
     score: 8
     explanation:
       de: "70% Fucoidan-Standardisierung aus Undaria pinnatifida — klar definierter Rohstoff. Doctor's Best nutzt Marinova-Rohstoff."
-      en: "70% Fucoidan-Standardisierung aus Undaria pinnatifida — klar definierter Rohstoff. Doctor's Best nutzt Marinova-Rohstoff."
+      en: "70% fucoidan standardization from Undaria pinnatifida — a well-characterized raw material. Doctor's Best uses the Marinova source."
   labelHonesty:
     score: 8
     explanation:
       de: "Fucoidan-Gehalt und Standardisierung klar deklariert, Algenquelle angegeben."
-      en: "Fucoidan-Gehalt und Standardisierung klar deklariert, Algenquelle angegeben."
+      en: "Fucoidan content and standardization clearly declared; algae source is stated."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Doctor's Best ist eine etablierte US-Marke mit GMP-Produktion und Drittanbieter-Tests."
-      en: "Doctor's Best ist eine etablierte US-Marke mit GMP-Produktion und Drittanbieter-Tests."
+      en: "Doctor's Best is an established US brand with GMP production and third-party testing."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "Antikoagulante Eigenschaften möglich (Heparin-Strukturähnlichkeit)"
       usage: "1 Kapsel täglich zu einer Mahlzeit. Bei Einnahme von Blutverdünnern vorher ärztlich abklären."
   en:
-    summary: "Fucoidan-Extrakt aus Undaria pinnatifida, standardisiert auf 70%, 300 mg pro Kapsel."
-    verdictNote: "Eines der wenigen Fucoidan-Produkte mit klar standardisiertem Extrakt. Für Darmgesundheit und Immunsupport eine interessante Nische."
+    summary: "Fucoidan extract from Undaria pinnatifida, standardized to 70%, 300 mg per capsule."
+    verdictNote: "One of the few fucoidan products with a clearly standardized extract. An interesting niche for gut health and immune support."
     body:
-      description: "Doctor's Best verwendet einen auf 70% standardisierten Fucoidan-Extrakt aus Undaria pinnatifida (Wakame). Fucoidan ist ein sulfatiertes Polysaccharid mit immunmodulatorischen und präbiotischen Eigenschaften. Der Marinova-Rohstoff gehört zu den am besten charakterisierten Fucoidan-Quellen."
+      description: "Doctor's Best uses a 70%-standardized fucoidan extract from Undaria pinnatifida (wakame). Fucoidan is a sulfated polysaccharide with immunomodulatory and prebiotic properties. The Marinova raw material is among the best-characterized fucoidan sources."
       pros:
-        - "70% Fucoidan-Standardisierung — klare Qualitätsangabe"
-        - "Undaria pinnatifida als gut untersuchte Algenquelle"
-        - "Doctor's Best als etablierte Marke mit konsistenter Qualität"
-        - "60 Kapseln = 2 Monate"
+        - "70% fucoidan standardization — clear quality indicator"
+        - "Undaria pinnatifida is a well-studied algae source"
+        - "Doctor's Best is an established brand with consistent quality"
+        - "60 capsules = 2 months supply"
       cons:
-        - "300 mg pro Kapsel — manche Studien verwenden höhere Dosen"
-        - "Kein EFSA Health Claim, Novel-Food-Status unklar"
-        - "Antikoagulante Eigenschaften möglich (Heparin-Strukturähnlichkeit)"
-      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei Einnahme von Blutverdünnern vorher ärztlich abklären."
+        - "300 mg per capsule — some studies use higher doses"
+        - "No EFSA health claim; novel food status unclear"
+        - "Potential anticoagulant properties (structural similarity to heparin)"
+      usage: "1 capsule daily with a meal. Consult a doctor before use if taking blood thinners."
 ---

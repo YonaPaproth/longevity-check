@@ -29,27 +29,27 @@ ratings:
     score: 9
     explanation:
       de: "EPA/DHA sind mit hunderten RCTs zu Herz-, Lipid- und Entzündungsmarkern belegt."
-      en: "EPA/DHA sind mit hunderten RCTs zu Herz-, Lipid- und Entzündungsmarkern belegt."
+      en: "EPA/DHA are backed by hundreds of RCTs on cardiovascular, lipid, and inflammation markers."
   valueForMoney:
     score: 7
     explanation:
       de: "0,90 € für 2 g EPA+DHA ist akzeptabel für IFOS-zertifizierte High-Dose-Kapseln."
-      en: "0,90 € für 2 g EPA+DHA ist akzeptabel für IFOS-zertifizierte High-Dose-Kapseln."
+      en: "€0.90 for 2 g EPA+DHA is acceptable for IFOS-certified high-dose capsules."
   productQuality:
     score: 10
     explanation:
       de: "Nordic Naturals liefert extrem niedrige TOTOX-Werte und nutzt Sauerstoff-freies Abfüllen."
-      en: "Nordic Naturals liefert extrem niedrige TOTOX-Werte und nutzt Sauerstoff-freies Abfüllen."
+      en: "Nordic Naturals delivers extremely low TOTOX values and uses oxygen-free filling."
   labelHonesty:
     score: 9
     explanation:
       de: "Aufschlüsselung nach EPA/DHA, Fanggebiet und Trägeröl transparent."
-      en: "Aufschlüsselung nach EPA/DHA, Fanggebiet und Trägeröl transparent."
+      en: "EPA/DHA breakdown, fishing area, and carrier oil are all transparently disclosed."
   thirdPartyTesting:
     score: 10
     explanation:
       de: "IFOS 5 Sterne plus zusätzliche Schwermetall- und Oxidationstests je Charge."
-      en: "IFOS 5 Sterne plus zusätzliche Schwermetall- und Oxidationstests je Charge."
+      en: "IFOS 5-star plus additional heavy metal and oxidation testing per batch."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Große Softgels, nicht für jede Person leicht zu schlucken"
       usage: "Täglich 2 Softgels zu einer fettreichen Mahlzeit. Bei empfindlichem Magen Softgels einfrieren und unmittelbar vor dem Essen einnehmen."
   en:
-    summary: "Ultra-hochdosierte IFOS-5-Sterne-Softgels mit 2000 mg EPA+DHA im Triglyceridformat für Anwender mit hohem Bedarf."
-    verdictNote: "Beste Wahl für Personen, die 2 g Omega-3 in nur zwei Softgels erreichen wollen."
+    summary: "Ultra-high-dose IFOS 5-star softgels: 2000 mg EPA+DHA in triglyceride form for high-need users."
+    verdictNote: "Best choice for those who want 2 g omega-3 in just two softgels."
     body:
-      description: "Pro Omega 2000 liefert konzentriertes Fischöl im natürlichen Triglyceridformat. Zwei Softgels bringen etwa 1250 mg EPA und 750 mg DHA, unterstützt durch zitroniges Aroma gegen Aufstoßen."
+      description: "Pro Omega 2000 delivers concentrated fish oil in natural triglyceride form. Two softgels provide approximately 1250 mg EPA and 750 mg DHA, with a lemon flavor to reduce aftertaste."
       pros:
-        - "IFOS-5-Sterne-Zertifizierung"
-        - "Sehr hohe EPA+DHA-Dichte pro Softgel"
-        - "MSC-ähnliche Rückverfolgbarkeit der Wildfische"
-        - "Triglyceridform verbessert Bioverfügbarkeit"
+        - "IFOS 5-star certification"
+        - "Very high EPA+DHA density per softgel"
+        - "Traceable wild-caught fish source"
+        - "Triglyceride form improves bioavailability"
       cons:
-        - "Preis deutlich über Standardfischölen"
-        - "Große Softgels, nicht für jede Person leicht zu schlucken"
-      usage: "Täglich 2 Softgels zu einer fettreichen Mahlzeit. Bei empfindlichem Magen Softgels einfrieren und unmittelbar vor dem Essen einnehmen."
+        - "Noticeably more expensive than standard fish oils"
+        - "Large softgels — not easy to swallow for everyone"
+      usage: "2 softgels daily with a fat-rich meal. For a sensitive stomach, freeze the softgels and take immediately before eating."
 ---

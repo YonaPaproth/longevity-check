@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "EPA/DHA profitieren Herz, Entzündung und Triglyzeride laut zahlreichen RCTs."
-      en: "EPA/DHA profitieren Herz, Entzündung und Triglyzeride laut zahlreichen RCTs."
+      en: "EPA/DHA benefit heart health, inflammation, and triglycerides according to numerous RCTs."
   valueForMoney:
     score: 8
     explanation:
       de: "0,66 € pro Doppelsoftgel für 1280 mg ist stark."
-      en: "0,66 € pro Doppelsoftgel für 1280 mg ist stark."
+      en: "€0.66 per two-softgel serving for 1280 mg is excellent."
   productQuality:
     score: 9
     explanation:
       de: "Molekular destilliert, frei von Schwermetallen."
-      en: "Molekular destilliert, frei von Schwermetallen."
+      en: "Molecularly distilled, free from heavy metals."
   labelHonesty:
     score: 9
     explanation:
       de: "Transparente EPA/DHA-Aufschlüsselung, IFOS-Zertifikat verfügbar."
-      en: "Transparente EPA/DHA-Aufschlüsselung, IFOS-Zertifikat verfügbar."
+      en: "Transparent EPA/DHA breakdown; IFOS certificate available."
   thirdPartyTesting:
     score: 10
     explanation:
       de: "IFOS 5-Star und Friend of the Sea."
-      en: "IFOS 5-Star und Friend of the Sea."
+      en: "IFOS 5-Star and Friend of the Sea certified."
 
 locales:
   de:
@@ -66,36 +66,36 @@ locales:
         - "Nicht vegan"
       usage: "2 Softgels mit einer Hauptmahlzeit. Bei erhöhtem Bedarf (Triglyzeride) nach ärztlicher Rücksprache auf 4 Softgels erhöhen."
   en:
-    summary: "IFOS-getestetes Fischöl mit 650 mg EPA + 450 mg DHA pro Portion in Zitronengeschmack."
-    verdictNote: "Eine der zuverlässigsten Omega-3-Kapseln mit stabilem Geschmack und Top-Zertifikaten."
+    summary: "IFOS-tested fish oil: 650 mg EPA + 450 mg DHA per serving, lemon flavor."
+    verdictNote: "One of the most reliable omega-3 capsules — consistent taste and top certifications."
     body:
-      description: "Ultimate Omega liefert 2 Softgels pro Portion mit natürlichem Zitronenaroma. Die Kapseln enthalten konzentriertes Triglycerid-Öl für hohe Bioverfügbarkeit."
+      description: "Ultimate Omega delivers 2 softgels per serving with natural lemon flavor. The capsules contain concentrated triglyceride oil for high bioavailability."
       pros:
-        - "Kein Fischaufstoßen dank Aroma"
-        - "IFOS-Zertifikat für jede Charge"
-        - "Gutes EPA:DHA-Verhältnis"
+        - "No fishy burps thanks to lemon flavor"
+        - "IFOS certificate for every batch"
+        - "Good EPA:DHA ratio"
       cons:
-        - "Softgels relativ groß"
-        - "Nicht vegan"
-      usage: "2 Softgels mit einer Hauptmahlzeit. Bei erhöhtem Bedarf (Triglyzeride) nach ärztlicher Rücksprache auf 4 Softgels erhöhen."
+        - "Softgels are relatively large"
+        - "Not vegan"
+      usage: "2 softgels with a main meal. For elevated needs (e.g., high triglycerides), consult a doctor before increasing to 4 softgels."
 
 faq:
   - question:
       de: "Wie viel EPA und DHA liefert eine Tagesportion?"
-      en: "Wie viel EPA und DHA liefert eine Tagesportion?"
+      en: "How much EPA and DHA does a daily serving provide?"
     answer:
       de: "Eine Tagesportion (2 Softgels) liefert 650 mg EPA und 450 mg DHA – insgesamt 1280 mg Omega-3-Fettsäuren in Triglyceridform."
-      en: "Eine Tagesportion (2 Softgels) liefert 650 mg EPA und 450 mg DHA – insgesamt 1280 mg Omega-3-Fettsäuren in Triglyceridform."
+      en: "A daily serving (2 softgels) provides 650 mg EPA and 450 mg DHA — 1280 mg total omega-3 fatty acids in triglyceride form."
   - question:
       de: "Ist das Produkt auf Schadstoffe getestet?"
-      en: "Ist das Produkt auf Schadstoffe getestet?"
+      en: "Is the product tested for contaminants?"
     answer:
       de: "Ja. Nordic Naturals lässt jede Charge nach dem IFOS-Standard (International Fish Oil Standards) auf Reinheit, Schwermetalle und Oxidation testen. Die Ergebnisse sind auf der IFOS-Website öffentlich einsehbar."
-      en: "Ja. Nordic Naturals lässt jede Charge nach dem IFOS-Standard (International Fish Oil Standards) auf Reinheit, Schwermetalle und Oxidation testen. Die Ergebnisse sind auf der IFOS-Website öffentlich einsehbar."
+      en: "Yes. Nordic Naturals tests every batch to IFOS standards (International Fish Oil Standards) for purity, heavy metals, and oxidation. Results are publicly available on the IFOS website."
   - question:
       de: "Kann ich dieses Produkt in Deutschland kaufen?"
-      en: "Kann ich dieses Produkt in Deutschland kaufen?"
+      en: "Can I buy this product in Germany?"
     answer:
       de: "Das Produkt ist in Deutschland erhältlich, u. a. über Amazon.de und iHerb. Achte beim Kauf auf einen autorisierten Händler, da die Kühlkette bei manchen Dritthändlern nicht gewährleistet ist."
-      en: "Das Produkt ist in Deutschland erhältlich, u. a. über Amazon.de und iHerb. Achte beim Kauf auf einen autorisierten Händler, da die Kühlkette bei manchen Dritthändlern nicht gewährleistet ist."
+      en: "The product is available in Germany via Amazon.de and iHerb. Buy from an authorized retailer, as cold chain integrity may not be guaranteed by some third-party sellers."
 ---

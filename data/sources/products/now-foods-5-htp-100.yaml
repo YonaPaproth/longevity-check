@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "5-HTP zeigt Effekte auf Stimmung und Schlaf, benötigt aber Vorsicht bei Medikation."
-      en: "5-HTP zeigt Effekte auf Stimmung und Schlaf, benötigt aber Vorsicht bei Medikation."
+      en: "5-HTP shows effects on mood and sleep, but caution is needed with certain medications."
   valueForMoney:
     score: 9
     explanation:
       de: "0,20 € pro Portion ist sehr günstig."
-      en: "0,20 € pro Portion ist sehr günstig."
+      en: "€0.20 per serving is very affordable."
   productQuality:
     score: 8
     explanation:
       de: "Rohstoff wird auf Peak X geprüft."
-      en: "Rohstoff wird auf Peak X geprüft."
+      en: "Raw material is tested for Peak X impurity."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare Griffonia-Angabe."
-      en: "Klare Griffonia-Angabe."
+      en: "Griffonia source clearly stated."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "NOW testet auf Peak X und Alkaloide, externe Prüfsiegel fehlen."
-      en: "NOW testet auf Peak X und Alkaloide, externe Prüfsiegel fehlen."
+      en: "NOW tests for Peak X and alkaloids; no external certification seals."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kann bei empfindlichen Personen Übelkeit verursachen"
       usage: "1 Kapsel abends oder zwischen den Mahlzeiten. Immer 2 Stunden Abstand zu Eiweiß und Medikamenten halten."
   en:
-    summary: "5-HTP aus Griffonia-Samen mit 100 mg pro Kapsel für Serotonin- und Schlaf-Kontexte."
-    verdictNote: "Preiswert, aber wegen Serotonin-Interaktionen nur mit Fachbegleitung einsetzen."
+    summary: "5-HTP from Griffonia seeds, 100 mg per capsule for mood and sleep support."
+    verdictNote: "Affordable, but use only with professional guidance due to serotonin interactions."
     body:
-      description: "NOW bezieht Griffonia simplicifolia aus Ghana und extrahiert 5-HTP standardisiert auf 99%. Die Kapseln enthalten Reismehl zur Stabilisierung."
+      description: "NOW sources Griffonia simplicifolia from Ghana and extracts 5-HTP standardized to 99% purity. Capsules contain rice flour as a stabilizer."
       pros:
-        - "Hoher Reinheitsgrad"
-        - "Große 120-Kapsel-Dose"
+        - "High purity"
+        - "Large 120-capsule bottle"
         - "Vegan"
       cons:
-        - "Nicht für SSRIs oder MAO-Hemmer geeignet"
-        - "Kann bei empfindlichen Personen Übelkeit verursachen"
-      usage: "1 Kapsel abends oder zwischen den Mahlzeiten. Immer 2 Stunden Abstand zu Eiweiß und Medikamenten halten."
+        - "Not suitable with SSRIs or MAO inhibitors"
+        - "Can cause nausea in sensitive individuals"
+      usage: "1 capsule in the evening or between meals. Always maintain a 2-hour gap from protein foods and medications."
 ---

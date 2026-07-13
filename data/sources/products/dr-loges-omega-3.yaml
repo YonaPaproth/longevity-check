@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "EPA/DHA sind breit erforscht für kardiovaskuläre und entzündliche Marker."
-      en: "EPA/DHA sind breit erforscht für kardiovaskuläre und entzündliche Marker."
+      en: "EPA/DHA are extensively studied for cardiovascular and inflammatory markers."
   valueForMoney:
     score: 7
     explanation:
       de: "0,42 € pro Tag für 1000 mg ist ok, wer 2000 mg möchte benötigt 2 Kapseln."
-      en: "0,42 € pro Tag für 1000 mg ist ok, wer 2000 mg möchte benötigt 2 Kapseln."
+      en: "€0.42 per day for 1000 mg is acceptable; those needing 2000 mg will require 2 capsules."
   productQuality:
     score: 8
     explanation:
       de: "MSC-Rohstoff, schonende Triglyceridform und deutsche Produktion."
-      en: "MSC-Rohstoff, schonende Triglyceridform und deutsche Produktion."
+      en: "MSC-certified raw material, triglyceride form for better absorption, and German production."
   labelHonesty:
     score: 8
     explanation:
       de: "EPA- und DHA-Mengen pro Kapsel ausgewiesen, keine vagen Proprietary-Blends."
-      en: "EPA- und DHA-Mengen pro Kapsel ausgewiesen, keine vagen Proprietary-Blends."
+      en: "EPA and DHA amounts listed per capsule, no vague proprietary blends."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Unternehmensinterne Analysen plus MSC-Audits, aber keine IFOS-Veröffentlichung."
-      en: "Unternehmensinterne Analysen plus MSC-Audits, aber keine IFOS-Veröffentlichung."
+      en: "In-house analyses plus MSC audits, but no published IFOS results."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Keine veröffentlichten Totox-Werte"
       usage: "1 Softgel zu einer fetthaltigen Mahlzeit. Bei hohem Bedarf 2 Softgels auf zwei Mahlzeiten verteilen. Kühl und lichtgeist auf Schutz ausgerichtet lagern."
   en:
-    summary: "Deutsche Apothekenqualität mit 1000 mg Fischöl pro Kapsel, MSC-zertifiziert und angenehm in der Einnahme."
-    verdictNote: "Solides Apotheken-Omega für alle, die eine deutsche Marke mit sauberem Rohstoff bevorzugen."
+    summary: "German pharmacy-quality fish oil: 1000 mg per capsule, MSC-certified, easy to take."
+    verdictNote: "Solid pharmacy-grade omega-3 for those who prefer a German brand with clean sourcing."
     body:
-      description: "Dr. Loges produziert Omega-3-Kapseln mit 1000 mg Fischöl (davon rund 600 mg EPA+DHA) in Triglyceridform. Die Softgels sind leicht zu schlucken und werden in Deutschland unter pharmazeutischen Standards abgefüllt."
+      description: "Dr. Loges produces omega-3 capsules with 1000 mg fish oil (around 600 mg EPA+DHA) in triglyceride form. The softgels are easy to swallow and are filled in Germany under pharmaceutical standards."
       pros:
-        - "MSC-zertifizierte Fanggebiete"
-        - "Dezenter Zitronengeschmack reduziert Aufstoßen"
-        - "Gute Verfügbarkeit in stationären Apotheken"
-        - "Triglyceridform unterstützt Bioverfügbarkeit"
+        - "MSC-certified fishing areas"
+        - "Mild lemon flavor reduces fishy aftertaste"
+        - "Widely available in German pharmacies"
+        - "Triglyceride form supports bioavailability"
       cons:
-        - "Für 2000 mg EPA+DHA sind zwei Portionen nötig"
-        - "Keine veröffentlichten Totox-Werte"
-      usage: "1 Softgel zu einer fetthaltigen Mahlzeit. Bei hohem Bedarf 2 Softgels auf zwei Mahlzeiten verteilen. Kühl und lichtgeist auf Schutz ausgerichtet lagern."
+        - "2000 mg EPA+DHA requires two servings"
+        - "No published TOTOX values"
+      usage: "1 softgel with a fat-containing meal. For higher needs, split 2 softgels across two meals. Store cool and away from light."
 ---

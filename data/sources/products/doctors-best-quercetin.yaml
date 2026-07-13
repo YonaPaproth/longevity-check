@@ -29,27 +29,27 @@ ratings:
     score: 4
     explanation:
       de: "Quercetin zeigt in Laborstudien senolytische und antioxidative Wirkung. Humanstudien sind begrenzt und oft klein."
-      en: "Quercetin zeigt in Laborstudien senolytische und antioxidative Wirkung. Humanstudien sind begrenzt und oft klein."
+      en: "Quercetin shows senolytic and antioxidant effects in lab studies. Human trials are limited and often small."
   valueForMoney:
     score: 8
     explanation:
       de: "0,28 € pro Tag für 500 mg Quercetin mit Bromelain ist ein gutes Preis-Leistungs-Verhältnis im Marktvergleich."
-      en: "0,28 € pro Tag für 500 mg Quercetin mit Bromelain ist ein gutes Preis-Leistungs-Verhältnis im Marktvergleich."
+      en: "€0.28 per day for 500 mg quercetin with bromelain is good value compared to the market."
   productQuality:
     score: 6
     explanation:
       de: "Etablierte US-Marke. Keine bekannten Qualitätsprobleme. Bromelain-Zusatz verbesserte theoretisch Bioverfügbarkeit."
-      en: "Etablierte US-Marke. Keine bekannten Qualitätsprobleme. Bromelain-Zusatz verbesserte theoretisch Bioverfügbarkeit."
+      en: "Established US brand. No known quality issues. Bromelain addition theoretically improves bioavailability."
   labelHonesty:
     score: 7
     explanation:
       de: "Keine übertriebenen überzogene Versprechen. Deklaration klar. Quellenangaben auf der Website vorhanden."
-      en: "Keine übertriebenen überzogene Versprechen. Deklaration klar. Quellenangaben auf der Website vorhanden."
+      en: "No inflated claims. Labeling is clear. References available on the website."
   thirdPartyTesting:
     score: 4
     explanation:
       de: "Keine unabhängige Zertifizierung. Laborwerte werden auf Anfrage nicht immer transparent kommuniziert."
-      en: "Keine unabhängige Zertifizierung. Laborwerte werden auf Anfrage nicht immer transparent kommuniziert."
+      en: "No independent certification. Lab results are not always transparently shared on request."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Quercetin-Form:** Standard-Quercetin hat begrenzte Bioverfügbarkeit — Quercetin-Phytosomen wären besser, kosten aber mehr"
       usage: ""
   en:
-    summary: "Klassisches Quercetin-Präparat kombiniert mit Bromelain zur verbesserten Resorption. US-Marke mit langer Marktpräsenz, günstig auf Amazon.de."
-    verdictNote: "Solide Wahl für Quercetin-Einsteiger zu fairen Kosten. Die Evidenzlage für Quercetin beim Menschen bleibt begrenzt — Erwartungen entsprechend setzen."
+    summary: "Classic quercetin supplement combined with bromelain for improved absorption. Long-standing US brand, competitively priced on Amazon.de."
+    verdictNote: "A solid entry-level quercetin at a fair cost. Human evidence for quercetin remains limited — set expectations accordingly."
     body:
-      description: "Doctor's Best ist eine US-amerikanische Supplementmarke mit über 30 Jahren Marktpräsenz. Das Quercetin-Produkt kombiniert 500 mg Quercetin mit 250 mg Bromelain (einem Enzym aus Ananas). Bromelain soll die Bioverfügbarkeit von Quercetin verbessern."
+      description: "Doctor's Best is a US supplement brand with over 30 years on the market. This product combines 500 mg quercetin with 250 mg bromelain (a pineapple-derived enzyme) to potentially improve quercetin's poor water solubility."
       pros:
-        - "**Bromelain-Kombination:** Kann laut einigen Studien die Absorption des schlecht wasserlöslichen Quercetins beeinflussen"
-        - "**Preis:** Im Marktvergleich günstig, gut verfügbar auf Amazon.de"
-        - "**Lange Marktpräsenz:** Keine bekannten Rückrufaktionen oder Qualitätsprobleme"
+        - "**Bromelain combo:** Some studies suggest it helps absorption of poorly water-soluble quercetin"
+        - "**Price:** Competitive in the market, easily available on Amazon.de"
+        - "**Long track record:** No known recalls or quality issues"
       cons:
-        - "**Keine unabhängige Zertifizierung**"
-        - "**Geringe Evidenz für senolytische Wirkung beim Menschen:** Die meisten Daten stammen aus Tier- oder Zellkulturstudien"
-        - "**Quercetin-Form:** Standard-Quercetin hat begrenzte Bioverfügbarkeit — Quercetin-Phytosomen wären besser, kosten aber mehr"
+        - "**No independent certification**"
+        - "**Limited human evidence for senolytic effects:** Most data comes from animal or cell culture studies"
+        - "**Standard quercetin form:** Poor bioavailability — quercetin phytosomes would be better but cost more"
       usage: ""
 ---

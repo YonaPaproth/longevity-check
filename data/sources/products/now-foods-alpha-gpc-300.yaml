@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Alpha-GPC steigert Acetylcholin und zeigt Studienvorteile bei Gedächtnis und Kraftleistung."
-      en: "Alpha-GPC steigert Acetylcholin und zeigt Studienvorteile bei Gedächtnis und Kraftleistung."
+      en: "Alpha-GPC raises acetylcholine levels and shows study benefits for memory and strength performance."
   valueForMoney:
     score: 7
     explanation:
       de: "0,57 € pro 300 mg ist marktüblich, man spart gegenüber Ampullen oder Flüssigformen."
-      en: "0,57 € pro 300 mg ist marktüblich, man spart gegenüber Ampullen oder Flüssigformen."
+      en: "€0.57 per 300 mg is in line with the market; cheaper than ampoule or liquid forms."
   productQuality:
     score: 8
     explanation:
       de: "NOW nutzt streng qualitätsorientierte 50%-Qualität, wird mit Schutzmechanismen in Verbindung gebracht Pulver mit feuchtigkeitsabsorbierendem Siliciumdioxid."
-      en: "NOW nutzt streng qualitätsorientierte 50%-Qualität, wird mit Schutzmechanismen in Verbindung gebracht Pulver mit feuchtigkeitsabsorbierendem Siliciumdioxid."
+      en: "NOW uses 50% alpha-GPC powder with moisture-absorbing silica to protect stability."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert den aktiven Alpha-GPC-Anteil und enthält keine proprietären Mischungen."
-      en: "Deklariert den aktiven Alpha-GPC-Anteil und enthält keine proprietären Mischungen."
+      en: "Active alpha-GPC content is declared; no proprietary blends."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Interne Tests vorhanden, aber keine leicht zugänglichen COAs."
-      en: "Interne Tests vorhanden, aber keine leicht zugänglichen COAs."
+      en: "In-house testing in place, but COAs are not easily accessible."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Pulver zieht Feuchtigkeit, daher nur begrenzt haltbar nach Öffnung"
       usage: "1 Kapsel morgens mit Wasser. Für Workouts 45 Minuten vor dem Training einnehmen. Mit ausreichend Elektrolyten kombinieren, falls Schwindel auftritt."
   en:
-    summary: "300 mg Alpha-GPC (50% aktiv) pro Kapsel, Non-GMO und gut geeignet als Cholinbasis für Nootropic-Stacks."
-    verdictNote: "Einfacher Zugang zu klinisch relevanten Alpha-GPC-Dosen ohne Importaufwand."
+    summary: "300 mg alpha-GPC (50% active) per capsule, non-GMO and well-suited as a choline base for nootropic stacks."
+    verdictNote: "Easy access to clinically relevant alpha-GPC doses without the hassle of importing."
     body:
-      description: "Die Packung enthält 60 pflanzliche Kapseln mit je 600 mg Pulver, das 50% aktives Alpha-GPC liefert (entspricht 300 mg Cholinvorstufe). Ideal kombinierbar mit ALCAR oder Bacopa."
+      description: "60 plant-based capsules, each containing 600 mg powder that delivers 50% active alpha-GPC (equivalent to 300 mg choline precursor). Pairs well with ALCAR or Bacopa."
       pros:
-        - "Non-GMO Rohstoffe"
-        - "Gute Portionierung für 1-2 Kapseln pro Tag"
-        - "Frei von Soja und Milch"
-        - "Praktisch für Pre-Workout oder Lernphasen"
+        - "Non-GMO raw materials"
+        - "Flexible dosing: 1–2 capsules per day"
+        - "Free of soy and dairy"
+        - "Practical for pre-workout or study sessions"
       cons:
-        - "Keine COAs online"
-        - "Pulver zieht Feuchtigkeit, daher nur begrenzt haltbar nach Öffnung"
-      usage: "1 Kapsel morgens mit Wasser. Für Workouts 45 Minuten vor dem Training einnehmen. Mit ausreichend Elektrolyten kombinieren, falls Schwindel auftritt."
+        - "No COAs available online"
+        - "Powder absorbs moisture — limited shelf life after opening"
+      usage: "1 capsule in the morning with water. For workouts, take 45 minutes before training. Combine with adequate electrolytes if dizziness occurs."
 ---

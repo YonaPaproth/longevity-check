@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "ALA hat Humanstudien zu Neuropathie und Glukosekontrolle."
-      en: "ALA hat Humanstudien zu Neuropathie und Glukosekontrolle."
+      en: "ALA has human study data for neuropathy and glucose control."
   valueForMoney:
     score: 9
     explanation:
       de: "0,26 € pro 300 mg ist hervorragend."
-      en: "0,26 € pro 300 mg ist hervorragend."
+      en: "€0.26 per 300 mg is excellent."
   productQuality:
     score: 7
     explanation:
       de: "Synthese nach GMP, enthält beide Isomere (R/S)."
-      en: "Synthese nach GMP, enthält beide Isomere (R/S)."
+      en: "GMP-synthesized, contains both isomers (R/S racemic mix)."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare Angabe zu R/S-Standardform."
-      en: "Klare Angabe zu R/S-Standardform."
+      en: "Clearly states the R/S standard form."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Inhouse-Tests, kein USP/NSF-Siegel."
-      en: "Inhouse-Tests, kein USP/NSF-Siegel."
+      en: "In-house testing; no USP or NSF seal."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kann nüchtern zu Magenbrennen führen"
       usage: "1 Kapsel 30 Minuten vor dem Essen oder weit entfernt von Mineralstoff-Supplements."
   en:
-    summary: "300 mg Alpha-Liponsäure in veganen Kapseln – unterstützt antioxidative Systeme und Nerven."
-    verdictNote: "Hohe Portionenzahl und flexible Dosierung machen das Produkt universell einsetzbar."
+    summary: "300 mg alpha-lipoic acid in vegan capsules — supports antioxidant systems and nerve health."
+    verdictNote: "High serving count and flexible dosing make this product broadly applicable."
     body:
-      description: "NOW liefert 300 mg racemische Alpha-Liponsäure in einfachen Cellulosekapseln. Die hohe Portionszahl erlaubt sowohl tägliche 300 mg als auch geteilte Dosen."
+      description: "NOW delivers 300 mg racemic alpha-lipoic acid in plain cellulose capsules. The large serving count supports both a daily 300 mg dose and split dosing."
       pros:
-        - "120 Portionen pro Dose"
-        - "Vegan und glutenfrei"
-        - "Günstiger Preis"
+        - "120 servings per bottle"
+        - "Vegan and gluten-free"
+        - "Low price"
       cons:
-        - "R/S-Racemischung, kein reines R-Isomer"
-        - "Kann nüchtern zu Magenbrennen führen"
-      usage: "1 Kapsel 30 Minuten vor dem Essen oder weit entfernt von Mineralstoff-Supplements."
+        - "R/S racemic mix — not pure R-isomer"
+        - "Can cause heartburn when taken on an empty stomach"
+      usage: "1 capsule 30 minutes before eating, or well separated from mineral supplements."
 ---
