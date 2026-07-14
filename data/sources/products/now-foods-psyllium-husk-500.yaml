@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "Psyllium hat starke Evidenz für Cholesterinsenkung und Verdauungsregulation. EFSA-Health-Claim zugelassen."
-      en: "Psyllium hat starke Evidenz für Cholesterinsenkung und Verdauungsregulation. EFSA-Health-Claim zugelassen."
+      en: "Psyllium has strong evidence for cholesterol reduction and digestive regulation. EFSA health claim approved."
   valueForMoney:
     score: 9
     explanation:
       de: "0,22 € pro Tag für 3 Kapseln (1,5 g) ist sehr günstig. Loses Pulver wäre noch günstiger."
-      en: "0,22 € pro Tag für 3 Kapseln (1,5 g) ist sehr günstig. Loses Pulver wäre noch günstiger."
+      en: "€0.22 per day for 3 capsules (1.5 g) is very affordable. Loose powder would be even cheaper."
   productQuality:
     score: 7
     explanation:
       de: "Standard-Flohsamenschalen in Kapselform. Praktisch, aber niedrigere Dosis als Pulver-Optionen."
-      en: "Standard-Flohsamenschalen in Kapselform. Praktisch, aber niedrigere Dosis als Pulver-Optionen."
+      en: "Standard psyllium husk in capsule form. Convenient, but lower dose than powder options."
   labelHonesty:
     score: 9
     explanation:
       de: "Einfache Zutatenliste: Psyllium Husk, Kapsel. Keine versteckten Füllstoffe."
-      en: "Einfache Zutatenliste: Psyllium Husk, Kapsel. Keine versteckten Füllstoffe."
+      en: "Simple ingredient list: psyllium husk, capsule. No hidden fillers."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "NOW Foods hat eigenes Analytiklabor, teilt Stichproben mit externen Laboren."
-      en: "NOW Foods hat eigenes Analytiklabor, teilt Stichproben mit externen Laboren."
+      en: "NOW Foods has its own analytical lab and shares samples with external labs."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "Loses Pulver ist deutlich günstiger pro Gramm"
       usage: "3 Kapseln 1-3× täglich mit mindestens 250 ml Wasser. Immer ausreichend trinken! Bei Schluckbeschwerden: Pulver bevorzugen."
   en:
-    summary: "Flohsamenschalen-Kapseln für Verdauung und Cholesterin, 500 mg pro Kapsel, 200 Stück."
-    verdictNote: "Praktische Kapselform für Flohsamenschalen. Für therapeutische Dosen (5-10 g) ist Pulver effizienter."
+    summary: "Psyllium husk capsules for digestion and cholesterol support — 500 mg per capsule, 200 count."
+    verdictNote: "Convenient capsule form for psyllium. For therapeutic doses (5–10 g), powder is more efficient."
     body:
-      description: "NOW Foods bietet Flohsamenschalen (Psyllium) in praktischer Kapselform. Psyllium ist ein löslicher Ballaststoff, der Wasser bindet und so die Verdauung reguliert. Die EFSA hat einen Health Claim für die Senkung des Cholesterinspiegels zugelassen."
+      description: "NOW Foods offers psyllium husk in convenient capsule form. Psyllium is a soluble fiber that binds water and regulates digestion. EFSA has approved a health claim for cholesterol reduction."
       pros:
-        - "EFSA-zugelassener Health Claim für Cholesterinsenkung"
-        - "200 Kapseln — lange Reichweite"
-        - "Einfache Zutatenliste ohne Zusätze"
-        - "Praktisch für unterwegs (vs. Pulver)"
+        - "EFSA-approved health claim for cholesterol reduction"
+        - "200 capsules — long-lasting supply"
+        - "Simple ingredient list with no additives"
+        - "Convenient for on-the-go (vs. powder)"
       cons:
-        - "3 Kapseln = 1,5 g — therapeutische Dosen (5-10 g) erfordern Pulver"
-        - "Kapseln müssen mit viel Wasser eingenommen werden (Quellgefahr)"
-        - "Loses Pulver ist deutlich günstiger pro Gramm"
-      usage: "3 Kapseln 1-3× täglich mit mindestens 250 ml Wasser. Immer ausreichend trinken! Bei Schluckbeschwerden: Pulver bevorzugen."
+        - "3 capsules = 1.5 g — therapeutic doses (5–10 g) require powder"
+        - "Capsules must be taken with plenty of water (swelling risk)"
+        - "Loose powder is significantly cheaper per gram"
+      usage: "3 capsules 1–3× daily with at least 250 ml water. Always stay well hydrated! For trouble swallowing: prefer powder."
 ---

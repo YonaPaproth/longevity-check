@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "NAC ist für einige medizinische und ergänzende Kontexte interessant, aber als Daily-gesundes Altern-Supplement nicht so klar belegt wie manche Fans behaupten. Als Wirkstoff hat es jedoch deutlich mehr Substanz als reine Trend-Stacks."
-      en: "NAC ist für einige medizinische und ergänzende Kontexte interessant, aber als Daily-gesundes Altern-Supplement nicht so klar belegt wie manche Fans behaupten. Als Wirkstoff hat es jedoch deutlich mehr Substanz als reine Trend-Stacks."
+      en: "NAC is interesting in some medical and supplemental contexts, but evidence as a longevity daily is less clear than some proponents claim. As an ingredient, it has considerably more substance than pure trend stacks."
   valueForMoney:
     score: 9
     explanation:
       de: "Rund 0,12 Euro pro Tag für 600 mg und 120 Portionen ist stark. Preislich klar im attraktiven Bereich."
-      en: "Rund 0,12 Euro pro Tag für 600 mg und 120 Portionen ist stark. Preislich klar im attraktiven Bereich."
+      en: "About €0.12 per day for 600 mg and 120 servings is strong — clearly in the attractive price range."
   productQuality:
     score: 7
     explanation:
       de: "Nutricost ist eine solide, preisorientierte US-Marke. Vegane Kapseln und Hinweise auf GMP-/NSF-konforme Herstellung sind positiv, auch wenn es kein klinisch-premium Brand ist."
-      en: "Nutricost ist eine solide, preisorientierte US-Marke. Vegane Kapseln und Hinweise auf GMP-/NSF-konforme Herstellung sind positiv, auch wenn es kein klinisch-premium Brand ist."
+      en: "Nutricost is a solid, value-focused US brand. Vegan capsules and GMP/NSF-compliant production are positives, even if it is not a clinically premium brand."
   labelHonesty:
     score: 7
     explanation:
       de: "Relativ straightforwardes Produkt ohne große Wunderversprechen. Die typische US-Supplement-Kommunikation bleibt aber etwas marketinglastiger als bei nüchternen europäischen Marken."
-      en: "Relativ straightforwardes Produkt ohne große Wunderversprechen. Die typische US-Supplement-Kommunikation bleibt aber etwas marketinglastiger als bei nüchternen europäischen Marken."
+      en: "Relatively straightforward product without big miracle claims. Typical US supplement communication is still somewhat marketing-heavy compared to sober European brands."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Nutricost verweist auf Third-Party-Testing und Herstellung in NSF-zertifizierten GMP-konformen Facilities. Das ist stärker als bei vielen Budgetmarken."
-      en: "Nutricost verweist auf Third-Party-Testing und Herstellung in NSF-zertifizierten GMP-konformen Facilities. Das ist stärker als bei vielen Budgetmarken."
+      en: "Nutricost references third-party testing and production in NSF-certified GMP-compliant facilities — stronger than many budget brands."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**NAC bleibt ein kontextabhängiger Wirkstoff** und kein universeller Daily-Must"
       usage: ""
   en:
-    summary: "Preislich starker NAC-Standardpick mit 600 mg pro Kapsel. Solides Value-Produkt, auch wenn es eher US-supplement-typisch als klinisch-premium erscheint."
-    verdictNote: "Ein guter Preis-Leistungs-Pick für NAC — vor allem, wenn du einfach ein solides Standardprodukt ohne unnötige Spezialstory suchst."
+    summary: "Strong value NAC pick at 600 mg per capsule. Solid option — functional rather than premium."
+    verdictNote: "A good value pick for NAC — especially if you want a solid standard product without an overcomplicated story."
     body:
-      description: "Nutricost NAC liefert **600 mg N-Acetyl-L-Cystein pro Kapsel** und gehört zu den typischen US-Value-Produkten: funktional, relativ günstig und ohne allzu viel Schnickschnack."
+      description: "Nutricost NAC delivers **600 mg N-acetyl-L-cysteine per capsule** — a typical US value product: functional, relatively affordable, and without unnecessary extras."
       pros:
-        - "**Sehr gutes Preis-Leistungs-Verhältnis**"
-        - "**Praktische Standarddosierung** von 600 mg"
-        - "**120 Kapseln pro Packung**"
-        - "**Third-Party-Testing / starke Produktionssignale** für diese Preisklasse"
+        - "**Excellent value for money**"
+        - "**Practical standard dose** of 600 mg"
+        - "**120 capsules per pack**"
+        - "**Third-party testing / strong production signals** for this price range"
       cons:
-        - "**Wahrscheinlich nicht ideal für DE-Einkauf** bzw. nicht so unkompliziert lokal verfügbar"
-        - "**Keine besonders edle Formulierung** oder Premium-Rohstoffstory"
-        - "**NAC bleibt ein kontextabhängiger Wirkstoff** und kein universeller Daily-Must"
+        - "**Less convenient to source in Germany** or outside the US"
+        - "**No premium formulation** or high-end ingredient story"
+        - "**NAC remains context-dependent** and is not a universal daily essential"
       usage: ""
 ---

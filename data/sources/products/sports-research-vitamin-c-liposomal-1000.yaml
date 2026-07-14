@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "Vitamin C hat starke Evidenz für Immunfunktion und Antioxidation. PureWay-C zeigt in Studien höhere Bioverfügbarkeit als Standard-Ascorbinsäure."
-      en: "Vitamin C hat starke Evidenz für Immunfunktion und Antioxidation. PureWay-C zeigt in Studien höhere Bioverfügbarkeit als Standard-Ascorbinsäure."
+      en: "Vitamin C has strong evidence for immune function and antioxidation. PureWay-C shows higher bioavailability than standard ascorbic acid in studies."
   valueForMoney:
     score: 6
     explanation:
       de: "0,45 € pro Tag ist deutlich teurer als Standard-Vitamin-C, aber PureWay-C Technologie rechtfertigt einen Aufpreis."
-      en: "0,45 € pro Tag ist deutlich teurer als Standard-Vitamin-C, aber PureWay-C Technologie rechtfertigt einen Aufpreis."
+      en: "€0.45 per day is significantly more expensive than standard vitamin C, but PureWay-C technology justifies a premium."
   productQuality:
     score: 8
     explanation:
       de: "PureWay-C ist lipidmetabolit-gebundenes Vitamin C mit nachgewiesener höherer Retention als Ascorbinsäure."
-      en: "PureWay-C ist lipidmetabolit-gebundenes Vitamin C mit nachgewiesener höherer Retention als Ascorbinsäure."
+      en: "PureWay-C is lipid metabolite-bound vitamin C with demonstrated higher retention than ascorbic acid."
   labelHonesty:
     score: 9
     explanation:
       de: "PureWay-C Markenrohstoff benannt, Vitamin-C-Menge klar deklariert."
-      en: "PureWay-C Markenrohstoff benannt, Vitamin-C-Menge klar deklariert."
+      en: "PureWay-C branded ingredient named; vitamin C amount clearly declared."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Non-GMO Project Verified, PureWay-C ist ein patentierter, klinisch getesteter Rohstoff."
-      en: "Non-GMO Project Verified, PureWay-C ist ein patentierter, klinisch getesteter Rohstoff."
+      en: "Non-GMO Project Verified; PureWay-C is a patented, clinically tested ingredient."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "Ob der Absorptionsvorteil klinisch relevant ist, bleibt umstritten"
       usage: "1 Softgel täglich zu einer Mahlzeit. Bei Erkältung kurzfristig auf 2 Softgels erhöhen."
   en:
-    summary: "Liposomales Vitamin C mit PureWay-C Technologie für verbesserte Absorption, 1000 mg pro Softgel."
-    verdictNote: "Premium-Vitamin-C mit höherer Bioverfügbarkeit dank PureWay-C. Lohnt sich für Anwender, die Wert auf Absorption legen."
+    summary: "Liposomal vitamin C with PureWay-C technology for enhanced absorption — 1000 mg per softgel."
+    verdictNote: "Premium vitamin C with higher bioavailability thanks to PureWay-C. Worth it for users who prioritize absorption."
     body:
-      description: "Sports Research verwendet PureWay-C — eine patentierte Vitamin-C-Form, bei der Ascorbinsäure an Lipidmetabolite und Citrus-Bioflavonoide gebunden ist. Studien zeigen, dass PureWay-C schneller absorbiert wird und länger im Blut verbleibt als herkömmliche Ascorbinsäure."
+      description: "Sports Research uses PureWay-C — a patented vitamin C form where ascorbic acid is bound to lipid metabolites and citrus bioflavonoids. Studies show PureWay-C is absorbed faster and remains in the blood longer than conventional ascorbic acid."
       pros:
-        - "PureWay-C mit nachgewiesener höherer Bioverfügbarkeit"
-        - "1000 mg pro Einzelsoftgel"
-        - "Softgel statt Tablette — magenfreundlicher"
+        - "PureWay-C with demonstrated higher bioavailability"
+        - "1000 mg per single softgel"
+        - "Softgel instead of tablet — easier on the stomach"
         - "Non-GMO Project Verified"
       cons:
-        - "Deutlich teurer als einfache Ascorbinsäure (die für die meisten Anwender ausreicht)"
-        - "60 Softgels = 2 Monate"
-        - "Ob der Absorptionsvorteil klinisch relevant ist, bleibt umstritten"
-      usage: "1 Softgel täglich zu einer Mahlzeit. Bei Erkältung kurzfristig auf 2 Softgels erhöhen."
+        - "Significantly more expensive than simple ascorbic acid (sufficient for most users)"
+        - "60 softgels = 2-month supply"
+        - "Whether the absorption advantage is clinically meaningful remains debated"
+      usage: "1 softgel daily with a meal. For short-term illness, increase to 2 softgels."
 ---

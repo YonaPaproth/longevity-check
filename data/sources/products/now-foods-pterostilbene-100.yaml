@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Tier- und kleine Humanstudien zeigen antioxidativen und metabolischen Nutzen, aber harte Endpunkte fehlen."
-      en: "Tier- und kleine Humanstudien zeigen antioxidativen und metabolischen Nutzen, aber harte Endpunkte fehlen."
+      en: "Animal and small human studies show antioxidant and metabolic benefits, but hard endpoints are lacking."
   valueForMoney:
     score: 7
     explanation:
       de: "0,53 € pro 100 mg Markenrohstoff liegt unter Wettbewerbern wie Thorne."
-      en: "0,53 € pro 100 mg Markenrohstoff liegt unter Wettbewerbern wie Thorne."
+      en: "€0.53 per 100 mg of branded ingredient is below competitors like Thorne."
   productQuality:
     score: 8
     explanation:
       de: "pTeroPure wird in den USA synthetisiert und auf Reinheit &gt;99 % geprüft."
-      en: "pTeroPure wird in den USA synthetisiert und auf Reinheit &gt;99 % geprüft."
+      en: "pTeroPure is synthesized in the US and tested for >99% purity."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert aktive Menge ohne proprietäre Mischungen sowie vegane Kapselhülle."
-      en: "Deklariert aktive Menge ohne proprietäre Mischungen sowie vegane Kapselhülle."
+      en: "Declares active amount without proprietary blends, plus vegan capsule shell."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "NOW stellt COAs bereit, zusätzliche Laborprüfungen durch USP-Partner."
-      en: "NOW stellt COAs bereit, zusätzliche Laborprüfungen durch USP-Partner."
+      en: "NOW provides COAs; additional lab testing via USP partner labs."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Humanstudien mit 100 mg Dosen weiterhin begrenzt"
       usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Bei Kombination mit Resveratrol Einnahme trennen, um gastrointestinale Effekte zu minimieren."
   en:
-    summary: "pTeroPure-Pterostilben in veganen Kapseln, 100 mg pro Portion und frei von Gentechnik."
-    verdictNote: "Markenrohstoff mit sauberer Deklaration und gutem Preis – gut geeignet für Resveratrol-Alternativen."
+    summary: "pTeroPure pterostilbene in vegan capsules — 100 mg per serving, non-GMO."
+    verdictNote: "Branded ingredient with clean labeling and competitive pricing — a solid choice as a resveratrol alternative."
     body:
-      description: "Jede Kapsel enthält 100 mg pTeroPure, ein hochreines synthetisches Pterostilben, gelöst in Reispulver für stabile Aufnahme. Die Cellulosekapseln sind vegan und allergenarm."
+      description: "Each capsule contains 100 mg pTeroPure, a high-purity synthetic pterostilbene in a rice powder carrier for stable absorption. Cellulose capsules are vegan and low-allergen."
       pros:
-        - "Markenrohstoff pTeroPure"
-        - "Vegane, leicht zu schluckende Kapseln"
-        - "Frei von Soja, Gluten und Gentechnik"
+        - "Branded pTeroPure ingredient"
+        - "Vegan, easy-to-swallow capsules"
+        - "Free from soy, gluten, and GMOs"
       cons:
-        - "Keine Kombination mit Resveratrol oder Quercetin"
-        - "Humanstudien mit 100 mg Dosen weiterhin begrenzt"
-      usage: "1 Kapsel täglich zu einer Mahlzeit mit Fett. Bei Kombination mit Resveratrol Einnahme trennen, um gastrointestinale Effekte zu minimieren."
+        - "No combination with resveratrol or quercetin"
+        - "Human studies at 100 mg doses are still limited"
+      usage: "1 capsule daily with a fat-containing meal. When combining with resveratrol, separate intake to minimize gastrointestinal effects."
 ---

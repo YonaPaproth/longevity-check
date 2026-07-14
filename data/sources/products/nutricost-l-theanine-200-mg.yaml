@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "L-Theanin hat gute Evidenz für Alpha-Wellen-Förderung, Stressreduktion und Synergieeffekte mit Koffein."
-      en: "L-Theanin hat gute Evidenz für Alpha-Wellen-Förderung, Stressreduktion und Synergieeffekte mit Koffein."
+      en: "L-theanine has good evidence for alpha wave promotion, stress reduction, and synergy with caffeine."
   valueForMoney:
     score: 9
     explanation:
       de: "0,12 € pro Tag für 200 mg L-Theanin ist hervorragend."
-      en: "0,12 € pro Tag für 200 mg L-Theanin ist hervorragend."
+      en: "€0.12 per day for 200 mg L-theanine is excellent."
   productQuality:
     score: 7
     explanation:
       de: "Standard-L-Theanin, kein Suntheanine-Markenrohstoff, aber adäquate Dosierung."
-      en: "Standard-L-Theanin, kein Suntheanine-Markenrohstoff, aber adäquate Dosierung."
+      en: "Standard L-theanine, no Suntheanine branded ingredient, but adequate dosing."
   labelHonesty:
     score: 8
     explanation:
       de: "200 mg L-Theanin deklariert, saubere Zutatenliste."
-      en: "200 mg L-Theanin deklariert, saubere Zutatenliste."
+      en: "200 mg L-theanine declared; clean ingredient list."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "ISO-zertifizierte Produktion, 3rd-Party-getestet laut Label."
-      en: "ISO-zertifizierte Produktion, 3rd-Party-getestet laut Label."
+      en: "ISO-certified production; third-party tested per label claim."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "Keine spezifische L/D-Isomer-Angabe"
       usage: "1 Kapsel täglich, morgens oder bei Bedarf. Klassische Kombi: 200 mg L-Theanin + 100-200 mg Koffein für fokussierte Ruhe."
   en:
-    summary: "L-Theanin 200 mg pro Kapsel für entspannte Konzentration, großpackung."
-    verdictNote: "Günstige L-Theanin-Option. Für Premium-Qualität: Suntheanine-Varianten von Jarrow oder Pure Encapsulations."
+    summary: "L-theanine 200 mg per capsule for calm focus — large pack size."
+    verdictNote: "Affordable L-theanine option. For premium quality: Suntheanine variants from Jarrow or Pure Encapsulations."
     body:
-      description: "Nutricost liefert 200 mg L-Theanin pro Kapsel — die Aminosäure aus grünem Tee, die für entspannte Wachheit bekannt ist. Fördert Alpha-Gehirnwellen ohne Sedierung."
+      description: "Nutricost delivers 200 mg L-theanine per capsule — the green tea amino acid known for relaxed alertness. Promotes alpha brain waves without sedation."
       pros:
-        - "200 mg pro Kapsel — klinisch relevante Dosis"
-        - "120 Kapseln = 4 Monate"
-        - "Sehr günstiger Preis"
-        - "Ideal als Koffein-Kombipartner"
+        - "200 mg per capsule — clinically relevant dose"
+        - "120 capsules = 4-month supply"
+        - "Very affordable price"
+        - "Ideal partner for caffeine stacking"
       cons:
-        - "Kein Suntheanine-Markenrohstoff (enzymatisch hergestellt, nur L-Form)"
-        - "Weniger bekannte Marke als Jarrow oder NOW"
-        - "Keine spezifische L/D-Isomer-Angabe"
-      usage: "1 Kapsel täglich, morgens oder bei Bedarf. Klassische Kombi: 200 mg L-Theanin + 100-200 mg Koffein für fokussierte Ruhe."
+        - "Not Suntheanine branded (enzymatically produced, L-form only)"
+        - "Less established brand than Jarrow or NOW"
+        - "No specific L/D-isomer specification"
+      usage: "1 capsule daily, in the morning or as needed. Classic stack: 200 mg L-theanine + 100–200 mg caffeine for focused calm."
 ---

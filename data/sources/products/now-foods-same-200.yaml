@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "SAMe hat Evidenz bei Stimmung und Lebergesundheit, 200 mg eignet sich für Einstiegsdosierungen oder Split-Use."
-      en: "SAMe hat Evidenz bei Stimmung und Lebergesundheit, 200 mg eignet sich für Einstiegsdosierungen oder Split-Use."
+      en: "SAMe has evidence for mood and liver health; 200 mg suits starter dosing or split use."
   valueForMoney:
     score: 7
     explanation:
       de: "0,47 € pro 200 mg ist solide, besonders dank 60 Portionen pro Packung."
-      en: "0,47 € pro 200 mg ist solide, besonders dank 60 Portionen pro Packung."
+      en: "€0.47 per 200 mg is solid, especially with 60 servings per pack."
   productQuality:
     score: 8
     explanation:
       de: "NOW nutzt streng qualitätsorientierte Reinheit, doppelte Folienblister und enterische Beschichtung."
-      en: "NOW nutzt streng qualitätsorientierte Reinheit, doppelte Folienblister und enterische Beschichtung."
+      en: "NOW uses pharmaceutical-grade purity, double foil blisters, and enteric coating."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare Hinweise zu Langlebigkeit, Wechselwirkungen und Aufbewahrung."
-      en: "Klare Hinweise zu Langlebigkeit, Wechselwirkungen und Aufbewahrung."
+      en: "Clear information on stability, interactions, and storage."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "GMP und interne Analysen, jedoch kein offizielles NSF-Siegel."
-      en: "GMP und interne Analysen, jedoch kein offizielles NSF-Siegel."
+      en: "GMP and internal analyses; no official NSF certification."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Kein offizielles Labreport-Download**"
       usage: "1 Tablette morgens nüchtern, bei Bedarf zweite Tablette mittags. Immer mit ärztlicher Begleitung kombinieren, falls Antidepressiva oder Lebermedikation im Spiel sind."
   en:
-    summary: "200-mg-SAMe aus streng qualitätsorientierter Produktion, doppelt enterisch beschichtet und preislich attraktiv für den Alltag."
-    verdictNote: "Praktisch für Nutzer:innen, die SAMe titrieren oder mit 400 mg splitten wollen."
+    summary: "200 mg SAMe from quality-controlled production — double enteric-coated and affordably priced for daily use."
+    verdictNote: "Practical for users who want to titrate SAMe or split doses up to 400 mg."
     body:
-      description: "NOW Foods liefert **200 mg SAMe** pro enterisch beschichteter Tablette. Durch die kleinere Dosierung lässt sich flexibel auf 400–600 mg hochdosieren, ohne ganze Tabletten teilen zu müssen."
+      description: "NOW Foods provides **200 mg SAMe** per enteric-coated tablet. The smaller dose allows flexible upscaling to 400–600 mg without splitting whole tablets."
       pros:
-        - "**60 Portionen** decken zwei Monate bei 200 mg"
-        - "**Doppelt versiegelte Blister** für Frische"
-        - "**Pharmazeutische Qualität** nach GMP"
-        - "**Preislich unter den meisten Marken**"
+        - "**60 servings** cover two months at 200 mg"
+        - "**Double foil-sealed blisters** for freshness"
+        - "**Pharmaceutical-grade quality** under GMP"
+        - "**Lower price than most brands**"
       cons:
-        - "**200 mg oft zu niedrig**, wenn therapeutische Effekte gesucht werden"
-        - "**Tabletten nicht vegan zertifiziert**"
-        - "**Kein offizielles Labreport-Download**"
-      usage: "1 Tablette morgens nüchtern, bei Bedarf zweite Tablette mittags. Immer mit ärztlicher Begleitung kombinieren, falls Antidepressiva oder Lebermedikation im Spiel sind."
+        - "**200 mg is often too low** for therapeutic effects"
+        - "**Tablets are not vegan certified**"
+        - "**No official lab report download**"
+      usage: "1 tablet in the morning on an empty stomach; if needed, a second tablet at noon. Always pair with medical guidance if antidepressants or liver medications are involved."
 ---

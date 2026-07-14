@@ -30,27 +30,27 @@ ratings:
     score: 7
     explanation:
       de: "Hydrolysiertes Kollagen hat solide Daten für Hautelastizität und Gelenkkomfort."
-      en: "Hydrolysiertes Kollagen hat solide Daten für Hautelastizität und Gelenkkomfort."
+      en: "Hydrolyzed collagen has solid data for skin elasticity and joint comfort."
   valueForMoney:
     score: 7
     explanation:
       de: "1,57 € für 20 g Kollagen ist marktüblich, aber nicht billig."
-      en: "1,57 € für 20 g Kollagen ist marktüblich, aber nicht billig."
+      en: "€1.57 for 20 g collagen is in line with the market, but not cheap."
   productQuality:
     score: 9
     explanation:
       de: "Vital Proteins nutzt grass-fed Rohware und testet auf Schwermetalle."
-      en: "Vital Proteins nutzt grass-fed Rohware und testet auf Schwermetalle."
+      en: "Vital Proteins uses grass-fed raw material and tests for heavy metals."
   labelHonesty:
     score: 9
     explanation:
       de: "Nur Kollagen und etwas Hyaluronsäure, keine versteckten Aromen."
-      en: "Nur Kollagen und etwas Hyaluronsäure, keine versteckten Aromen."
+      en: "Just collagen and some hyaluronic acid — no hidden flavors."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Unternehmens-COAs plus NSF Gluten-Free Zertifikat verfügbar."
-      en: "Unternehmens-COAs plus NSF Gluten-Free Zertifikat verfügbar."
+      en: "Company COAs plus NSF Gluten-Free certificate available."
 
 locales:
   de:
@@ -67,16 +67,16 @@ locales:
         - "Plastikdose statt Papiernachfüllung"
       usage: "2 Messlöffel (20 g) täglich in Kaffee, Smoothie oder Porridge einrühren. Für bessere Kollagensynthese mit Vitamin C oder Obst kombinieren."
   en:
-    summary: "Grass-fed Kollagenpeptide Typ I+III mit neutralem Geschmack und hervorragender Löslichkeit."
-    verdictNote: "Go-to-Pulver für Smoothies oder Kaffee, wenn Geschmack neutral bleiben soll."
+    summary: "Grass-fed collagen peptides type I+III with neutral flavor and excellent solubility."
+    verdictNote: "Go-to powder for smoothies or coffee when neutral taste matters."
     body:
-      description: "Die Peptide stammen aus Weiderinder-Häuten, werden enzymatisch hydrolysiert und lösen sich sowohl in kaltem als auch heißem Wasser ohne Klumpen."
+      description: "Peptides are sourced from pasture-raised bovine hides, enzymatically hydrolyzed, and dissolve in both cold and hot water without clumping."
       pros:
-        - "Neutraler Geschmack – funktioniert in Kaffee, Shakes, Suppen"
-        - "Enthält 80 mg Hyaluronsäure pro Portion"
-        - "Dose passt exakt in Standard-Küchenschubladen"
+        - "Neutral flavor — works in coffee, shakes, soups"
+        - "Contains 80 mg hyaluronic acid per serving"
+        - "Container fits neatly in standard kitchen drawers"
       cons:
-        - "Keine Vitamin-C-Beigabe für Kollagensynthese"
-        - "Plastikdose statt Papiernachfüllung"
-      usage: "2 Messlöffel (20 g) täglich in Kaffee, Smoothie oder Porridge einrühren. Für bessere Kollagensynthese mit Vitamin C oder Obst kombinieren."
+        - "No vitamin C included for collagen synthesis"
+        - "Plastic container instead of paper refill"
+      usage: "2 scoops (20 g) daily in coffee, a smoothie, or oatmeal. For better collagen synthesis, combine with vitamin C or fruit."
 ---

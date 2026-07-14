@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Tongkat Ali zeigt Studiendaten zu Libido, Cortisol und freiem Testosteron."
-      en: "Tongkat Ali zeigt Studiendaten zu Libido, Cortisol und freiem Testosteron."
+      en: "Tongkat Ali shows study data on libido, cortisol, and free testosterone."
   valueForMoney:
     score: 8
     explanation:
       de: "0,57 € für lizenziertes LJ100 ist überzeugend."
-      en: "0,57 € für lizenziertes LJ100 ist überzeugend."
+      en: "€0.57 for licensed LJ100 is compelling."
   productQuality:
     score: 9
     explanation:
       de: "LJ100 nutzt Heißwasser- und Alkohol-Extraktion mit COA."
-      en: "LJ100 nutzt Heißwasser- und Alkohol-Extraktion mit COA."
+      en: "LJ100 uses hot-water and alcohol extraction with COA."
   labelHonesty:
     score: 9
     explanation:
       de: "LJ100 Lizenzlogo auf der Dose, genaue Menge angegeben."
-      en: "LJ100 Lizenzlogo auf der Dose, genaue Menge angegeben."
+      en: "LJ100 license logo on the bottle; exact amount declared."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "NOW ergänzt GMP-Tests, LJ100 liefert eigene COA."
-      en: "NOW ergänzt GMP-Tests, LJ100 liefert eigene COA."
+      en: "NOW adds GMP testing; LJ100 provides its own COA."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Kann Schlaf stören, wenn zu spät genommen"
       usage: "1 Kapsel morgens auf leeren Magen. Zyklisch 5 Tage Einnahme, 2 Tage Pause."
   en:
-    summary: "LJ100 Markenextrakt mit 400 mg pro Portion für Testosteron- und Stressprotokolle."
-    verdictNote: "Wer Tongkat mit vergleichsweise transparenter Standardisierung sucht, greift hier zu."
+    summary: "LJ100 branded extract at 400 mg per serving for testosterone and stress protocols."
+    verdictNote: "The go-to for Tongkat Ali with comparatively transparent standardization."
     body:
-      description: "400 mg Eurycoma longifolia LJ100 Extrakt pro Kapsel, standardisiert auf 40 % Glycosaponine und 22 % Eurycomanone."
+      description: "400 mg Eurycoma longifolia LJ100 extract per capsule, standardized to 40% glycosaponins and 22% eurycomanone."
       pros:
-        - "LJ100 Markenrohstoff"
-        - "Kein Mischblend"
-        - "Vegetarische Kapseln"
+        - "LJ100 branded ingredient"
+        - "No proprietary blend"
+        - "Vegetarian capsules"
       cons:
-        - "Ausgeprägter bitter-hölzerner Geschmack"
-        - "Kann Schlaf stören, wenn zu spät genommen"
-      usage: "1 Kapsel morgens auf leeren Magen. Zyklisch 5 Tage Einnahme, 2 Tage Pause."
+        - "Pronounced bitter, woody taste"
+        - "Can disrupt sleep if taken too late in the day"
+      usage: "1 capsule in the morning on an empty stomach. Cycle: 5 days on, 2 days off."
 ---

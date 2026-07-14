@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Selen deckt Schilddrüsen- und antioxidative Bedürfnisse ab, solange man nicht überdosiert."
-      en: "Selen deckt Schilddrüsen- und antioxidative Bedürfnisse ab, solange man nicht überdosiert."
+      en: "Selenium supports thyroid and antioxidant needs as long as you don't overdose."
   valueForMoney:
     score: 9
     explanation:
       de: "0,08 € pro Kapsel bei 180 Portionen ist kaum zu schlagen."
-      en: "0,08 € pro Kapsel bei 180 Portionen ist kaum zu schlagen."
+      en: "€0.08 per capsule for 180 servings is hard to beat."
   productQuality:
     score: 8
     explanation:
       de: "NOW kapselt unter cGMP, Rohstoff aus brasilianischer Hefe."
-      en: "NOW kapselt unter cGMP, Rohstoff aus brasilianischer Hefe."
+      en: "NOW encapsulates under cGMP; raw material from Brazilian yeast."
   labelHonesty:
     score: 9
     explanation:
       de: "Klare Angabe von Selenomethionin und Hilfsstoffen."
-      en: "Klare Angabe von Selenomethionin und Hilfsstoffen."
+      en: "Selenomethionine and excipients clearly stated."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Regelmäßige interne Analysen, externe Tests nur stichprobenhaft."
-      en: "Regelmäßige interne Analysen, externe Tests nur stichprobenhaft."
+      en: "Regular internal analyses; external tests only occasional."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "200 mcg kann für kleine Personen zu viel sein"
       usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit, wenn die Ernährung wenig Paranüsse oder Fisch enthält. Regelmäßig Blutwerte kontrollieren."
   en:
-    summary: "Budgetfreundliches Selenomethionin mit 200 mcg pro Portion und Non-GMO-Zertifizierung."
-    verdictNote: "Preis-Leistungs-König für Menschen mit niedrigen Selenspiegeln."
+    summary: "Budget-friendly selenomethionine at 200 mcg per serving with Non-GMO verification."
+    verdictNote: "Best value for money for those with low selenium levels."
     body:
-      description: "Die Kapseln liefern L-Selenomethionin aus fermentierter Hefe, ergänzt um Reismehl und Siliciumdioxid für Fließfähigkeit. Frei von Milch, Ei und Soja."
+      description: "Capsules deliver L-selenomethionine from fermented yeast, with rice flour and silicon dioxide for flowability. Free from dairy, eggs, and soy."
       pros:
-        - "Sehr lange Laufzeit pro Dose"
-        - "Organische Selenform mit guter Bioverfügbarkeit"
-        - "Non-GMO-Projekt geprüft"
+        - "Very long supply per bottle"
+        - "Organic selenium form with good bioavailability"
+        - "Non-GMO Project Verified"
       cons:
-        - "Keine Kombination mit Vitamin E trotz synergistischem Effekt"
-        - "200 mcg kann für kleine Personen zu viel sein"
-      usage: "1 Kapsel jeden zweiten Tag zu einer Mahlzeit, wenn die Ernährung wenig Paranüsse oder Fisch enthält. Regelmäßig Blutwerte kontrollieren."
+        - "No vitamin E combination despite synergistic effect"
+        - "200 mcg may be too much for smaller individuals"
+      usage: "1 capsule every other day with a meal when diet is low in Brazil nuts or fish. Monitor blood levels regularly."
 ---

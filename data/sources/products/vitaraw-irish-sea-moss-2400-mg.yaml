@@ -29,27 +29,27 @@ ratings:
     score: 3
     explanation:
       de: "Sea Moss ist ein Social-Media-Trend mit sehr schwacher wissenschaftlicher Evidenz. Keine nennenswerten RCTs."
-      en: "Sea Moss ist ein Social-Media-Trend mit sehr schwacher wissenschaftlicher Evidenz. Keine nennenswerten RCTs."
+      en: "Sea moss is a social media trend with very weak scientific evidence. No meaningful RCTs."
   valueForMoney:
     score: 6
     explanation:
       de: "0,33 € pro Tag für einen Wirkstoff mit minimaler Evidenz ist fraglich."
-      en: "0,33 € pro Tag für einen Wirkstoff mit minimaler Evidenz ist fraglich."
+      en: "€0.33 per day for an ingredient with minimal evidence is questionable."
   productQuality:
     score: 6
     explanation:
       de: "Kombi mit Bladderwrack und Burdock Root. Aber: Schwermetall-Risiko bei Algen-Produkten."
-      en: "Kombi mit Bladderwrack und Burdock Root. Aber: Schwermetall-Risiko bei Algen-Produkten."
+      en: "Combination with bladderwrack and burdock root. But: heavy metal risk with algae products."
   labelHonesty:
     score: 7
     explanation:
       de: "Rohstoffmengen deklariert, allerdings Evidenzclaims auf Amazon übertrieben."
-      en: "Rohstoffmengen deklariert, allerdings Evidenzclaims auf Amazon übertrieben."
+      en: "Ingredient amounts declared, but evidence claims on Amazon are exaggerated."
   thirdPartyTesting:
     score: 5
     explanation:
       de: "GMP-Produktion, aber kein unabhängiges Schwermetall-Analysezertifikat sichtbar."
-      en: "GMP-Produktion, aber kein unabhängiges Schwermetall-Analysezertifikat sichtbar."
+      en: "GMP production, but no independent heavy metal analysis certificate visible."
 
 locales:
   de:
@@ -69,19 +69,19 @@ locales:
         - "Marketing basiert auf Social-Media-Hype, nicht auf Wissenschaft"
       usage: "Falls dennoch gewünscht: 1 Kapsel täglich. Schilddrüsenwerte kontrollieren lassen. Bei Schilddrüsenerkrankungen: nicht einnehmen."
   en:
-    summary: "Irish Sea Moss (Chondrus crispus) 2400 mg mit Bladderwrack und Burdock Root."
-    verdictNote: "TikTok-Trend ohne nennenswerte Evidenz. Hoher Jodgehalt kann Schilddrüsenprobleme verursachen. Geld besser in evidenzbasierte Supplements investieren."
+    summary: "Irish sea moss (Chondrus crispus) 2400 mg with bladderwrack and burdock root."
+    verdictNote: "TikTok trend with negligible scientific evidence. High iodine content can cause thyroid problems. Money better spent on evidence-based supplements."
     body:
-      description: "VitaRaw kombiniert Irish Sea Moss (Chondrus crispus) mit Bladderwrack und Burdock Root. Sea Moss ist eine Rotalge, die als natürliche Jod- und Mineralstoffquelle vermarktet wird — hauptsächlich durch Social-Media-Hype."
+      description: "VitaRaw combines Irish sea moss (Chondrus crispus) with bladderwrack and burdock root. Sea moss is a red alga marketed as a natural iodine and mineral source — driven mainly by social media hype."
       pros:
-        - "Natürliche Jod- und Mineralstoffquelle"
-        - "Kombi mit Bladderwrack und Burdock Root"
-        - "60 Kapseln = 2 Monate"
+        - "Natural iodine and mineral source"
+        - "Combination with bladderwrack and burdock root"
+        - "60 capsules = 2-month supply"
       cons:
-        - "Praktisch keine klinische Evidenz für die beworbenen Gesundheitseffekte"
-        - "Hoher Jodgehalt — kann Schilddrüsenüberfunktion auslösen"
-        - "Schwermetall-Risiko (Algen akkumulieren Blei, Arsen, Cadmium)"
-        - "Kein unabhängiges Schwermetall-Analysezertifikat"
-        - "Marketing basiert auf Social-Media-Hype, nicht auf Wissenschaft"
-      usage: "Falls dennoch gewünscht: 1 Kapsel täglich. Schilddrüsenwerte kontrollieren lassen. Bei Schilddrüsenerkrankungen: nicht einnehmen."
+        - "Virtually no clinical evidence for the advertised health effects"
+        - "High iodine content — can trigger hyperthyroidism"
+        - "Heavy metal risk (algae accumulate lead, arsenic, cadmium)"
+        - "No independent heavy metal analysis certificate"
+        - "Marketing based on social media hype, not science"
+      usage: "If still desired: 1 capsule daily. Have thyroid levels monitored. If you have a thyroid condition: do not take."
 ---

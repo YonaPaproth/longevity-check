@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Gleiche wissenschaftliche Basis wie andere Fisetin-Produkte, Vorteil liegt in Reinheit."
-      en: "Gleiche wissenschaftliche Basis wie andere Fisetin-Produkte, Vorteil liegt in Reinheit."
+      en: "Same scientific basis as other fisetin products; the advantage lies in purity."
   valueForMoney:
     score: 7
     explanation:
       de: "0,49 € pro 300 mg macht Hochdosis-Protokolle bezahlbar."
-      en: "0,49 € pro 300 mg macht Hochdosis-Protokolle bezahlbar."
+      en: "€0.49 per 300 mg makes high-dose protocols affordable."
   productQuality:
     score: 9
     explanation:
       de: "Toniiq veröffentlicht COAs mit 98 % HPLC-Reinheit und Schwermetall-Screening."
-      en: "Toniiq veröffentlicht COAs mit 98 % HPLC-Reinheit und Schwermetall-Screening."
+      en: "Toniiq publishes COAs with 98% HPLC purity and heavy metal screening."
   labelHonesty:
     score: 9
     explanation:
       de: "QR-Code in jeder Dose führt zum Laborbericht der Charge."
-      en: "QR-Code in jeder Dose führt zum Laborbericht der Charge."
+      en: "QR code in every bottle links to the batch lab report."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "Zusätzliche Tests durch unabhängige Labore, Kooperation mit Labdoor-Protokollen."
-      en: "Zusätzliche Tests durch unabhängige Labore, Kooperation mit Labdoor-Protokollen."
+      en: "Additional testing by independent labs; cooperation with Labdoor protocols."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Hohe Einzeldosis kann bei empfindlichem Magen zu Übelkeit führen"
       usage: "1 Kapsel täglich präventiv, 3–4 Kapseln verteilt auf senolytische Wochenenden; immer mit Fett und reichlich Wasser einnehmen."
   en:
-    summary: "98 % reines Fisetin mit 300 mg pro Kapsel, Toniiq liefert Laborzertifikate zu jeder Charge."
-    verdictNote: "Hohe Reinheit, hoher Wirkstoffgehalt und öffentlich verlinkte Analysenzertifikate überzeugen."
+    summary: "98% pure fisetin at 300 mg per capsule — Toniiq provides lab certificates for every batch."
+    verdictNote: "High purity, high active content, and publicly linked batch certificates are convincing."
     body:
-      description: "Toniiq konzentriert Fisetin auf 98 % Reinheit und füllt 300 mg in jede Kapsel. Damit lässt sich eine typische 1,2 g Tagesdosis mit nur vier Kapseln erreichen."
+      description: "Toniiq concentrates fisetin to 98% purity and packs 300 mg into each capsule. A typical 1.2 g daily dose is achievable with just four capsules."
       pros:
-        - "Extrem hohe Reinheit, dokumentiert per COA"
-        - "Hervorragendes Preis-pro-mg-Verhältnis für High-Dose-Tage"
-        - "Vegetarische Kapseln ohne Magnesiumstearat"
+        - "Extremely high purity, documented by COA"
+        - "Excellent price-per-mg ratio for high-dose days"
+        - "Vegetarian capsules without magnesium stearate"
       cons:
-        - "Keine Bioenhancer wie Piperin enthalten"
-        - "Hohe Einzeldosis kann bei empfindlichem Magen zu Übelkeit führen"
-      usage: "1 Kapsel täglich präventiv, 3–4 Kapseln verteilt auf senolytische Wochenenden; immer mit Fett und reichlich Wasser einnehmen."
+        - "No bioenhancer such as piperine included"
+        - "High single dose may cause nausea in sensitive individuals"
+      usage: "1 capsule daily preventively; 3–4 capsules distributed over senolytic weekends. Always take with fat and plenty of water."
 ---

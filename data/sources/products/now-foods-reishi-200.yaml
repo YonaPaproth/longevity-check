@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Reishi besitzt lange Tradition und erste Humanstudien zu Immunmodulation."
-      en: "Reishi besitzt lange Tradition und erste Humanstudien zu Immunmodulation."
+      en: "Reishi has a long tradition and early human studies on immune modulation."
   valueForMoney:
     score: 9
     explanation:
       de: "0,26 € pro Portion für standardisierten Extrakt ist exzellent."
-      en: "0,26 € pro Portion für standardisierten Extrakt ist exzellent."
+      en: "€0.26 per serving for a standardized extract is excellent."
   productQuality:
     score: 7
     explanation:
       de: "Dualextrakt aus Fruchtkörpern mit garantierten Polysacchariden."
-      en: "Dualextrakt aus Fruchtkörpern mit garantierten Polysacchariden."
+      en: "Dual extract from fruiting bodies with guaranteed polysaccharide content."
   labelHonesty:
     score: 8
     explanation:
       de: "NOW nennt exakt Polysaccharid- und Triterpen-Anteil."
-      en: "NOW nennt exakt Polysaccharid- und Triterpen-Anteil."
+      en: "NOW lists exact polysaccharide and triterpene percentages."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Interne Tests auf Mikroben und Schwermetalle, kein Gütesiegel."
-      en: "Interne Tests auf Mikroben und Schwermetalle, kein Gütesiegel."
+      en: "Internal tests for microbes and heavy metals; no quality seal."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Erdiger Geschmack bei geöffneten Kapseln"
       usage: "1–2 Kapseln täglich zu einer Mahlzeit; für Immunkuren kann auf 3 Kapseln gesteigert werden."
   en:
-    summary: "Standardisierte Reishi-Kapseln mit 8 % Polysacchariden und 2 % Triterpenen – 100 Portionen pro Dose."
-    verdictNote: "Große Vorratsdose, solide Standardisierung und fairer Preis pro Portion."
+    summary: "Standardized reishi capsules with 8% polysaccharides and 2% triterpenes — 100 servings per bottle."
+    verdictNote: "Large bulk supply, solid standardization, and fair price per serving."
     body:
-      description: "NOW Foods verarbeitet Reishi-Fruchtkörper und konzentriert Polysaccharide sowie Triterpene. Die 100er Dose eignet sich für lange Adaptogen-Protokolle."
+      description: "NOW Foods processes reishi fruiting bodies and concentrates polysaccharides and triterpenes. The 100-serving bottle suits long adaptogen protocols."
       pros:
-        - "Niedriger Preis bei hoher Portionszahl"
-        - "Dualextrakt deckt wasser- und alkoholische Fraktionen ab"
-        - "Vegan und ohne Magnesiumstearat"
+        - "Low price per serving at high count"
+        - "Dual extract covers water- and alcohol-soluble fractions"
+        - "Vegan and free from magnesium stearate"
       cons:
-        - "200 mg pro Portion ist eher konservativ"
-        - "Erdiger Geschmack bei geöffneten Kapseln"
-      usage: "1–2 Kapseln täglich zu einer Mahlzeit; für Immunkuren kann auf 3 Kapseln gesteigert werden."
+        - "200 mg per serving is on the conservative side"
+        - "Earthy taste if capsules are opened"
+      usage: "1–2 capsules daily with a meal; for immune protocols, may increase to 3 capsules."
 ---

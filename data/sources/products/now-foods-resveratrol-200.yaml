@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Resveratrol hat begrenzte Humanstudien zu Gefäß- und Insulinparametern, aber starke präklinische Daten."
-      en: "Resveratrol hat begrenzte Humanstudien zu Gefäß- und Insulinparametern, aber starke präklinische Daten."
+      en: "Resveratrol has limited human studies on vascular and insulin parameters, but strong preclinical data."
   valueForMoney:
     score: 7
     explanation:
       de: "0,60 € pro 200 mg ist solide, besonders mit zusätzlichem Traubenpolyphenol-Mix."
-      en: "0,60 € pro 200 mg ist solide, besonders mit zusätzlichem Traubenpolyphenol-Mix."
+      en: "€0.60 per 200 mg is solid, especially with the added grape polyphenol mix."
   productQuality:
     score: 8
     explanation:
       de: "NOW testet auf Pestizide, stellt Trans-Isomer sicher und nutzt vegane Kapseln."
-      en: "NOW testet auf Pestizide, stellt Trans-Isomer sicher und nutzt vegane Kapseln."
+      en: "NOW tests for pesticides, ensures the trans-isomer, and uses vegan capsules."
   labelHonesty:
     score: 8
     explanation:
       de: "Trans-Resveratrol-Anteil klar genannt, Herkunft (Polygonum cuspidatum) angegeben."
-      en: "Trans-Resveratrol-Anteil klar genannt, Herkunft (Polygonum cuspidatum) angegeben."
+      en: "Trans-resveratrol content clearly stated; source (Polygonum cuspidatum) named."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "NOW veröffentlicht interne Analysen, unabhängige Tests nicht durchgehend verfügbar."
-      en: "NOW veröffentlicht interne Analysen, unabhängige Tests nicht durchgehend verfügbar."
+      en: "NOW publishes internal analyses; independent tests not consistently available."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Polygonum-Quelle nicht Bio-zertifiziert"
       usage: "1 Kapsel morgens zu einer Mahlzeit mit Fett. Für metabolische Ziele zweite Kapsel am Nachmittag ergänzen und zyklisch einsetzen (5 Tage on, 2 Tage off)."
   en:
-    summary: "200 mg Trans-Resveratrol aus japanischem Knöterich, kombiniert mit roten Traubenextrakten."
-    verdictNote: "Preiswerter Zugang zu hochdosiertem Resveratrol ohne fragwürdige Füllstoffe."
+    summary: "200 mg trans-resveratrol from Japanese knotweed, combined with red grape extracts."
+    verdictNote: "Affordable access to high-dose resveratrol without questionable fillers."
     body:
-      description: "Die vegetarischen Kapseln liefern 200 mg Trans-Resveratrol aus japanischem Knöterich plus 10 mg Rotweinextrakt und 10 mg Traubenschalen, um Polyphenolprofil und Synergien zu erweitern."
+      description: "Vegetarian capsules deliver 200 mg trans-resveratrol from Japanese knotweed plus 10 mg red wine extract and 10 mg grape skin extract to broaden the polyphenol profile and synergies."
       pros:
-        - "Klarer Hinweis auf Trans-Isomer"
-        - "Zusätzliche Polyphenole für Synergie"
-        - "Vegane Kapseln"
-        - "Frei von Gluten, Milch, Soja"
+        - "Clear specification of the trans-isomer"
+        - "Additional polyphenols for synergy"
+        - "Vegan capsules"
+        - "Free from gluten, dairy, and soy"
       cons:
-        - "Keine öffentlichen COAs"
-        - "Polygonum-Quelle nicht Bio-zertifiziert"
-      usage: "1 Kapsel morgens zu einer Mahlzeit mit Fett. Für metabolische Ziele zweite Kapsel am Nachmittag ergänzen und zyklisch einsetzen (5 Tage on, 2 Tage off)."
+        - "No public COAs available"
+        - "Polygonum source is not organically certified"
+      usage: "1 capsule in the morning with a fat-containing meal. For metabolic goals, add a second capsule in the afternoon and use cyclically (5 days on, 2 days off)."
 ---

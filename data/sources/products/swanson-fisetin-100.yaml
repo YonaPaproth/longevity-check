@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Gleiche Datenlage wie andere Fisetin-Produkte – Nutzen hängt von Protokoll ab."
-      en: "Gleiche Datenlage wie andere Fisetin-Produkte – Nutzen hängt von Protokoll ab."
+      en: "Same evidence base as other fisetin products — benefit depends on protocol."
   valueForMoney:
     score: 9
     explanation:
       de: "0,40 € pro 100 mg ist aktuell das preiswerteste Markenprodukt."
-      en: "0,40 € pro 100 mg ist aktuell das preiswerteste Markenprodukt."
+      en: "€0.40 per 100 mg is currently the most affordable branded product."
   productQuality:
     score: 7
     explanation:
       de: "Swanson produziert in GMP-Betrieben und testet Eingangsrohstoffe."
-      en: "Swanson produziert in GMP-Betrieben und testet Eingangsrohstoffe."
+      en: "Swanson manufactures in GMP facilities and tests incoming raw materials."
   labelHonesty:
     score: 8
     explanation:
       de: "Klare Deklaration ohne Marketing-Hokuspokus."
-      en: "Klare Deklaration ohne Marketing-Hokuspokus."
+      en: "Clear declaration without marketing fluff."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "GMP Lab Verified deckt Identität und Reinheit ab, aber keine veröffentlichte COA."
-      en: "GMP Lab Verified deckt Identität und Reinheit ab, aber keine veröffentlichte COA."
+      en: "GMP Lab Verified covers identity and purity, but no published COA."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Für Senolytic-Protokolle werden viele Kapseln benötigt"
       usage: "1–3 Kapseln täglich zu Mahlzeiten einsetzen; für Senolytic-Kuren Dosis gemeinsam mit Quercetin hochfahren."
   en:
-    summary: "Günstiger Fisetin-Einstieg mit 100 mg pro Kapsel und GMP-lab-verifizierter Chargenprüfung."
-    verdictNote: "Bestes Preis-Leistungs-Verhältnis für alle, die Fisetin erst einmal testen möchten."
+    summary: "Affordable fisetin entry point at 100 mg per capsule with GMP lab-verified batch testing."
+    verdictNote: "Best value for those who want to try fisetin first."
     body:
-      description: "Swanson liefert 100 mg Fisetin pro Kapsel. Die kleinere Dosis erlaubt feineres Titrationstraining oder Kombinationen mit anderen Polyphenolen."
+      description: "Swanson delivers 100 mg fisetin per capsule. The lower dose allows finer titration or combination with other polyphenols."
       pros:
-        - "Sehr günstiger Preis"
-        - "Kleine Kapseln lassen sich leicht schlucken"
-        - "GMP Lab Verified liefert Grundabsicherung"
+        - "Very affordable price"
+        - "Small capsules, easy to swallow"
+        - "GMP Lab Verified provides basic quality assurance"
       cons:
-        - "Keine veröffentlichten Laborzertifikate"
-        - "Hartgelatine-Kapseln"
-        - "Für Senolytic-Protokolle werden viele Kapseln benötigt"
-      usage: "1–3 Kapseln täglich zu Mahlzeiten einsetzen; für Senolytic-Kuren Dosis gemeinsam mit Quercetin hochfahren."
+        - "No published lab certificates"
+        - "Hard gelatin capsules"
+        - "Senolytic protocols require many capsules"
+      usage: "1–3 capsules daily with meals; for senolytic protocols, ramp up dose alongside quercetin."
 ---

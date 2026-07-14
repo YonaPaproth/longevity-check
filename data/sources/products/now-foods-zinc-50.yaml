@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "Zink ist für Immun- und Hormonfunktion essentiell, zahlreiche RCTs stützen Supplementierung bei Mangel."
-      en: "Zink ist für Immun- und Hormonfunktion essentiell, zahlreiche RCTs stützen Supplementierung bei Mangel."
+      en: "Zinc is essential for immune and hormonal function; numerous RCTs support supplementation in deficiency."
   valueForMoney:
     score: 10
     explanation:
       de: "0,05 € pro 50 mg macht dieses Produkt zum Preisbrecher."
-      en: "0,05 € pro 50 mg macht dieses Produkt zum Preisbrecher."
+      en: "€0.05 per 50 mg makes this a price-breaker."
   productQuality:
     score: 8
     explanation:
       de: "GMP-zertifizierte Produktion mit Prüfung auf Schwermetalle und Tablettenhärte."
-      en: "GMP-zertifizierte Produktion mit Prüfung auf Schwermetalle und Tablettenhärte."
+      en: "GMP-certified production with testing for heavy metals and tablet hardness."
   labelHonesty:
     score: 8
     explanation:
       de: "Elementares Zink, Salzform und Hilfsstoffe klar benannt."
-      en: "Elementares Zink, Salzform und Hilfsstoffe klar benannt."
+      en: "Elemental zinc, salt form, and excipients clearly named."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "NOW stellt COAs bereit und lässt Stichproben über USP Partnerlabor prüfen."
-      en: "NOW stellt COAs bereit und lässt Stichproben über USP Partnerlabor prüfen."
+      en: "NOW provides COAs and has random batches tested by USP partner labs."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Tabletten nicht teilbeschichtet, leichter metallischer Geschmack"
       usage: "Alle 1–2 Tage eine Tablette zu einer Mahlzeit mit Eiweiß. Bei täglicher Nutzung auf Kupferzufuhr achten oder Pausen einlegen."
   en:
-    summary: "50 mg Zinkgluconat pro Tablette, GMP-gefertigt und unschlagbar günstig für lange Laufzeit."
-    verdictNote: "Beste Option für Budget-Supplementierer, die Zinkgluconat bevorzugen."
+    summary: "50 mg zinc gluconate per tablet — GMP-produced and unbeatable value for long-term supply."
+    verdictNote: "Best option for budget-conscious supplementers who prefer zinc gluconate."
     body:
-      description: "Die Tabletten liefern 50 mg elementares Zink als Gluconat. Sie sind frei von Soja, Milch und Ei, enthalten aber natürliche Zellulose und Stearate als Presshilfen."
+      description: "Tablets deliver 50 mg elemental zinc as gluconate. Free from soy, dairy, and eggs, but contain natural cellulose and stearates as compression aids."
       pros:
-        - "250 Portionen pro Flasche"
-        - "Sehr niedriger Preis"
-        - "Gut verträgliche Gluconatform"
+        - "250 servings per bottle"
+        - "Very low price"
+        - "Well-tolerated gluconate form"
       cons:
-        - "Hohe Dosis sollte nicht täglich eingenommen werden"
-        - "Tabletten nicht teilbeschichtet, leichter metallischer Geschmack"
-      usage: "Alle 1–2 Tage eine Tablette zu einer Mahlzeit mit Eiweiß. Bei täglicher Nutzung auf Kupferzufuhr achten oder Pausen einlegen."
+        - "High dose should not be taken daily"
+        - "Tablets have a slight metallic taste"
+      usage: "One tablet every 1–2 days with a protein-containing meal. For daily use, monitor copper intake or take breaks."
 ---

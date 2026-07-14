@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "Zink ist vergleichsweise vergleichsweise gut untersucht in Immunfunktion und Haut."
-      en: "Zink ist vergleichsweise vergleichsweise gut untersucht in Immunfunktion und Haut."
+      en: "Zinc is comparatively well studied for immune function and skin health."
   valueForMoney:
     score: 10
     explanation:
       de: "0,13 € pro 50 mg ist exzellent."
-      en: "0,13 € pro 50 mg ist exzellent."
+      en: "€0.13 per 50 mg is excellent."
   productQuality:
     score: 8
     explanation:
       de: "Einfache Formulierung, keine unnötigen Zusätze."
-      en: "Einfache Formulierung, keine unnötigen Zusätze."
+      en: "Simple formulation with no unnecessary additives."
   labelHonesty:
     score: 9
     explanation:
       de: "Deklariert Elementarzink und Salzform korrekt."
-      en: "Deklariert Elementarzink und Salzform korrekt."
+      en: "Elemental zinc and salt form correctly declared."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "NOW testet auf Schwermetalle und Mikroben, externe Prüfsiegel fehlen."
-      en: "NOW testet auf Schwermetalle und Mikroben, externe Prüfsiegel fehlen."
+      en: "NOW tests for heavy metals and microbes; no third-party quality seal."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Deckel der Dose nicht kindersicher"
       usage: "1 Kapsel jeden zweiten Tag oder zu einer Mahlzeit mit Protein. Bei Langzeiteinnahme 2 mg Kupfer ergänzen."
   en:
-    summary: "50 mg Zinkpicolinat in vegetarischer Kapsel – hoch bioverfügbar und sehr günstig."
-    verdictNote: "Vergleichsweise transparente Standardlösung für typische Zink-Anwendungen."
+    summary: "50 mg zinc picolinate in a vegetarian capsule — highly bioavailable and very affordable."
+    verdictNote: "Comparatively transparent standard solution for typical zinc applications."
     body:
-      description: "Jede Kapsel liefert 50 mg elementares Zink als Picolinat. Die Kapseln sind klein und lassen sich auch teilen (Pulver öffnen)."
+      description: "Each capsule delivers 50 mg elemental zinc as picolinate. Capsules are small and can also be opened (powder)."
       pros:
-        - "Sehr günstiger Vorrat für 4 Monate"
-        - "Vegane Cellulosekapseln"
-        - "Keine Kupferzugabe – flexibel kombinierbar"
+        - "Very affordable 4-month supply"
+        - "Vegan cellulose capsules"
+        - "No added copper — flexible to combine"
       cons:
-        - "50 mg können nüchtern Übelkeit auslösen"
-        - "Deckel der Dose nicht kindersicher"
-      usage: "1 Kapsel jeden zweiten Tag oder zu einer Mahlzeit mit Protein. Bei Langzeiteinnahme 2 mg Kupfer ergänzen."
+        - "50 mg can cause nausea when taken on an empty stomach"
+        - "Container lid is not child-resistant"
+      usage: "1 capsule every other day or with a protein-containing meal. For long-term use, add 2 mg copper."
 ---

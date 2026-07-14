@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Mindestens ein Dutzend RCTs zu Müdigkeit, starke Erschöpfung und Stimmung mit standardisierten Rhodiola-Extrakten."
-      en: "Mindestens ein Dutzend RCTs zu Müdigkeit, starke Erschöpfung und Stimmung mit standardisierten Rhodiola-Extrakten."
+      en: "At least a dozen RCTs on fatigue, burnout, and mood using standardized Rhodiola extracts."
   valueForMoney:
     score: 8
     explanation:
       de: "0,47 € pro 500 mg Extrakt mit Referenzstandard ist günstiger als die meisten adaptogenen Premium-Marken."
-      en: "0,47 € pro 500 mg Extrakt mit Referenzstandard ist günstiger als die meisten adaptogenen Premium-Marken."
+      en: "€0.47 per 500 mg standardized extract is cheaper than most premium adaptogen brands."
   productQuality:
     score: 8
     explanation:
       de: "Standardisierung auf 3% Rosavine und 1% Salidrosid, Non-GMO Zutaten, kapseln in den USA."
-      en: "Standardisierung auf 3% Rosavine und 1% Salidrosid, Non-GMO Zutaten, kapseln in den USA."
+      en: "Standardized to 3% rosavins and 1% salidrosides, non-GMO ingredients, encapsulated in the US."
   labelHonesty:
     score: 8
     explanation:
       de: "Aktive Marker klar aufgelistet, keine proprietären Mischungen oder nichtssagenden Begriffe."
-      en: "Aktive Marker klar aufgelistet, keine proprietären Mischungen oder nichtssagenden Begriffe."
+      en: "Active markers clearly listed; no proprietary blends or vague terminology."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "NOW veröffentlicht interne Prüfberichte, unabhängige Tests nur stichprobenartig verfügbar."
-      en: "NOW veröffentlicht interne Prüfberichte, unabhängige Tests nur stichprobenartig verfügbar."
+      en: "NOW publishes internal test reports; independent tests only occasionally available."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Nur eine Dosierungsoption, keine 250-mg-Variante für Sensible"
       usage: "1 Kapsel morgens vor dem Frühstück. Bei hoher Belastung eine zweite Kapsel vor dem frühen Nachmittag, nicht spät am Abend einnehmen."
   en:
-    summary: "500 mg Rhodiola rosea mit 3% Rosavinen und 1% Salidrosid für Stressresilienz ohne Crash."
-    verdictNote: "Preiswerter Anti-Stress-Klassiker mit sauberer Standardisierung und veganer Formulierung."
+    summary: "500 mg Rhodiola rosea with 3% rosavins and 1% salidrosides for stress resilience without the crash."
+    verdictNote: "Affordable anti-stress classic with clean standardization and vegan formulation."
     body:
-      description: "Jede Kapsel enthält 500 mg Rhodiola rosea Extrakt (3% Rosavine, 1% Salidroside) aus sibirischen Wurzeln. Die Kapseln sind pflanzlich und kommen ohne Stimulanzien oder Füllstoffe aus."
+      description: "Each capsule contains 500 mg Rhodiola rosea extract (3% rosavins, 1% salidrosides) from Siberian roots. The capsules are plant-based and contain no stimulants or fillers."
       pros:
-        - "Vollständige Standardisierung der Markerstoffe"
-        - "Non-GMO Rohstoffe und vegane Kapseln"
-        - "Gute Verträglichkeit auch bei nüchterner Einnahme"
-        - "Praktische 60-Tages-Packung"
+        - "Full standardization of marker compounds"
+        - "Non-GMO ingredients and vegan capsules"
+        - "Well tolerated even when taken on an empty stomach"
+        - "Practical 60-day supply"
       cons:
-        - "Kein offener Zugriff auf Chargenzertifikate"
-        - "Nur eine Dosierungsoption, keine 250-mg-Variante für Sensible"
-      usage: "1 Kapsel morgens vor dem Frühstück. Bei hoher Belastung eine zweite Kapsel vor dem frühen Nachmittag, nicht spät am Abend einnehmen."
+        - "No open access to batch certificates"
+        - "Only one dosing option — no 250 mg variant for sensitive users"
+      usage: "1 capsule in the morning before breakfast. Under high stress, a second capsule before early afternoon; do not take late in the evening."
 ---

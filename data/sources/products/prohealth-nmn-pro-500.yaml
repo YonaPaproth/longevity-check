@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Solide präklinische Basis, frühe Humanstudien; Nutzen auf Energieniveau und Blutzucker wird noch erforscht."
-      en: "Solide präklinische Basis, frühe Humanstudien; Nutzen auf Energieniveau und Blutzucker wird noch erforscht."
+      en: "Solid preclinical base, early human studies; benefits on energy levels and blood sugar are still being researched."
   valueForMoney:
     score: 5
     explanation:
       de: "1,58 € pro Portion ist teuer, aber 500 mg NMN pro Kapsel reduziert Kapselanzahl."
-      en: "1,58 € pro Portion ist teuer, aber 500 mg NMN pro Kapsel reduziert Kapselanzahl."
+      en: "€1.58 per serving is expensive, but 500 mg NMN per capsule reduces the number of capsules needed."
   productQuality:
     score: 9
     explanation:
       de: "Verwendet Uthever-Rohstoff mit dokumentiertem Reinheitsgrad >99 %."
-      en: "Verwendet Uthever-Rohstoff mit dokumentiertem Reinheitsgrad >99 %."
+      en: "Uses Uthever ingredient with documented purity >99%."
   labelHonesty:
     score: 9
     explanation:
       de: "Chargenbezogene COAs stehen öffentlich zur Verfügung, Dosierung stimmt mit Labortests überein."
-      en: "Chargenbezogene COAs stehen öffentlich zur Verfügung, Dosierung stimmt mit Labortests überein."
+      en: "Batch-specific COAs are publicly available; declared dosing aligns with lab results."
   thirdPartyTesting:
     score: 9
     explanation:
       de: "Jede Charge wird von unabhängigen US-Laboren HPLC-geprüft und die COAs werden geteilt."
-      en: "Jede Charge wird von unabhängigen US-Laboren HPLC-geprüft und die COAs werden geteilt."
+      en: "Every batch is HPLC-verified by independent US labs; COAs are publicly shared."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Keine EFSA-Freigabe, daher rechtlich Grauzone beim Einzelimport"
       usage: "1 Kapsel morgens nüchtern oder geteilt in je 250 mg morgens und mittags. Im Kühlschrank lagern, sobald geöffnet, um Stabilität zu sichern."
   en:
-    summary: "Uthever-NMN mit 500 mg pro Kapsel, COA-geprüft und seit Jahren eine konstante Referenz für hochwertige US-gesundes Altern-Supplements."
-    verdictNote: "Wer hohe NMN-Dosen fahren möchte, bekommt hier eine sehr transparente und potente Referenz."
+    summary: "Uthever NMN at 500 mg per capsule, COA-verified — a consistent reference for high-quality longevity supplements."
+    verdictNote: "For high-dose NMN protocols, this is a highly transparent and potent reference option."
     body:
-      description: "ProHealth Longevity gehört zu den ältesten Longevity-Shops in den USA. NMN Pro 500 liefert pro Kapsel 500 mg Uthever-NMN, das auf Stabilität und Reinheit getestet wird und via iHerb oder Direktimport nach Deutschland gelangt."
+      description: "ProHealth Longevity is one of the oldest longevity shops in the US. NMN Pro 500 delivers 500 mg Uthever NMN per capsule, tested for stability and purity, available via iHerb or direct import to Germany."
       pros:
-        - "500 mg pro Kapsel reduzieren die tägliche Pillenzahl"
-        - "Uthever-Branding sorgt für nachvollziehbare Rohstoffqualität"
-        - "Jede Charge mit 3rd-party COA abrufbar"
-        - "BPA-freie Verpackung, an Kühllogistik angepasst"
+        - "500 mg per capsule reduces the daily pill count"
+        - "Uthever branding provides traceable ingredient quality"
+        - "Every batch comes with a publicly available third-party COA"
+        - "BPA-free packaging, optimized for cold-chain logistics"
       cons:
-        - "Hoher Preis pro Portion"
-        - "Keine EFSA-Freigabe, daher rechtlich Grauzone beim Einzelimport"
-      usage: "1 Kapsel morgens nüchtern oder geteilt in je 250 mg morgens und mittags. Im Kühlschrank lagern, sobald geöffnet, um Stabilität zu sichern."
+        - "High price per serving"
+        - "No EFSA approval — legally grey area for individual import"
+      usage: "1 capsule in the morning on an empty stomach, or split into 2×250 mg (morning and noon). Refrigerate after opening to preserve stability."
 ---
