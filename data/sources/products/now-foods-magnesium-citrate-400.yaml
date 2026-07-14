@@ -29,27 +29,27 @@ ratings:
     score: 8
     explanation:
       de: "Magnesium unterstützt mehr als 300 Enzyme, mit Evidenz für Muskelkrämpfe und Schlafqualität."
-      en: "Magnesium unterstützt mehr als 300 Enzyme, mit Evidenz für Muskelkrämpfe und Schlafqualität."
+      en: "Magnesium supports over 300 enzymes, with evidence for reducing muscle cramps and improving sleep quality."
   valueForMoney:
     score: 10
     explanation:
       de: "0,16 € pro 400 mg elementares Magnesium ist kaum zu unterbieten."
-      en: "0,16 € pro 400 mg elementares Magnesium ist kaum zu unterbieten."
+      en: "€0.16 per 400 mg elemental magnesium is hard to beat."
   productQuality:
     score: 8
     explanation:
       de: "NOW verwendet Chelat-Citrat, testet auf Schwermetalle und Mikroben."
-      en: "NOW verwendet Chelat-Citrat, testet auf Schwermetalle und Mikroben."
+      en: "NOW uses chelated citrate, tested for heavy metals and microbes."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklaration unterscheidet zwischen elementarem Magnesium und Gesamtgewicht."
-      en: "Deklaration unterscheidet zwischen elementarem Magnesium und Gesamtgewicht."
+      en: "Label distinguishes between elemental magnesium and total compound weight."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Regelmäßige USP-ähnliche Labortests, Veröffentlichungen auf Anfrage."
-      en: "Regelmäßige USP-ähnliche Labortests, Veröffentlichungen auf Anfrage."
+      en: "Regular USP-equivalent lab tests; results available on request."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Tabletten enthalten etwas Stearinsäure als Presshilfe"
       usage: "2 Tabletten täglich, idealerweise morgens und abends je eine mit Wasser. Bei empfindlichem Darm langsam steigern."
   en:
-    summary: "Günstigste 400-mg-Magnesiumcitrat-Tabletten mit GMP-Herkunft und guter Löslichkeit."
-    verdictNote: "Der beste Preis-pro-mg-Deal für unkompliziertes Magnesiumcitrat."
+    summary: "One of the cheapest 400 mg magnesium citrate tablets with GMP production and good solubility."
+    verdictNote: "Best price-per-mg deal for straightforward magnesium citrate."
     body:
-      description: "Die Tabletten liefern 400 mg elementares Magnesium aus Magnesiumcitrat in zwei Tabletten. Das Citrat löst sich schnell und ist dadurch gut bioverfügbar."
+      description: "Two tablets deliver 400 mg elemental magnesium from magnesium citrate. The citrate form dissolves quickly, which contributes to good bioavailability."
       pros:
-        - "Sehr niedriger Tagespreis"
-        - "Citratform für gute Aufnahme"
-        - "GMP-zertifizierte Produktion"
-        - "Tabletten lassen sich teilen oder auflösen"
+        - "Very low daily cost"
+        - "Citrate form for good absorption"
+        - "GMP-certified production"
+        - "Tablets can be split or dissolved"
       cons:
-        - "Kann bei empfindlichen Personen abführend wirken"
-        - "Tabletten enthalten etwas Stearinsäure als Presshilfe"
-      usage: "2 Tabletten täglich, idealerweise morgens und abends je eine mit Wasser. Bei empfindlichem Darm langsam steigern."
+        - "May have a laxative effect in sensitive individuals"
+        - "Tablets contain some stearic acid as a pressing aid"
+      usage: "2 tablets daily — ideally one morning and one evening with water. Build up slowly if you have a sensitive gut."
 ---

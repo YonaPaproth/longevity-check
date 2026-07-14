@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "L-Tryptophan als Serotonin-/Melatonin-Vorstufe hat solide Evidenz für Schlafverbesserung und Stimmungsunterstützung."
-      en: "L-Tryptophan als Serotonin-/Melatonin-Vorstufe hat solide Evidenz für Schlafverbesserung und Stimmungsunterstützung."
+      en: "L-tryptophan as a serotonin/melatonin precursor has solid evidence for sleep improvement and mood support."
   valueForMoney:
     score: 7
     explanation:
       de: "0,32 € pro Tag für 500 mg pharmazeutisches L-Tryptophan ist fair."
-      en: "0,32 € pro Tag für 500 mg pharmazeutisches L-Tryptophan ist fair."
+      en: "€0.32/day for 500 mg pharmaceutical-grade L-tryptophan is fair."
   productQuality:
     score: 8
     explanation:
       de: "Pharmazeutische Reinheit, NOW Foods eigenes Analytiklabor."
-      en: "Pharmazeutische Reinheit, NOW Foods eigenes Analytiklabor."
+      en: "Pharmaceutical-grade purity, tested in NOW Foods' own analytics laboratory."
   labelHonesty:
     score: 9
     explanation:
       de: "500 mg L-Tryptophan klar deklariert, saubere Zutatenliste."
-      en: "500 mg L-Tryptophan klar deklariert, saubere Zutatenliste."
+      en: "500 mg L-tryptophan clearly declared; clean ingredient list."
   thirdPartyTesting:
     score: 8
     explanation:
       de: "NOW Foods betreibt eigenes Analytiklabor mit über 16.000 Tests/Monat."
-      en: "NOW Foods betreibt eigenes Analytiklabor mit über 16.000 Tests/Monat."
+      en: "NOW Foods operates its own analytics laboratory with over 16,000 tests per month."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "Nicht mit SSRIs oder MAO-Hemmern kombinieren"
       usage: "1 Kapsel abends auf leeren Magen, 30-60 Minuten vor dem Schlafen. Nicht mit proteinreicher Mahlzeit."
   en:
-    summary: "L-Tryptophan 500 mg als Serotonin-Vorstufe für Schlaf und Stimmung."
-    verdictNote: "Solide Serotonin-Vorstufe von einer vertrauenswürdigen Marke. Gute Alternative zu 5-HTP."
+    summary: "500 mg L-tryptophan as a serotonin precursor for sleep and mood support."
+    verdictNote: "Solid serotonin precursor from a trusted brand. Good alternative to 5-HTP."
     body:
-      description: "NOW Foods L-Tryptophan liefert 500 mg der essentiellen Aminosäure, die als Vorstufe für Serotonin und Melatonin dient. Im Gegensatz zu 5-HTP wird L-Tryptophan auch für die Proteinsynthese und Niacin-Bildung benötigt."
+      description: "NOW Foods L-Tryptophan delivers 500 mg of this essential amino acid, which serves as a precursor to both serotonin and melatonin. Unlike 5-HTP, L-tryptophan is also used for protein synthesis and niacin production."
       pros:
-        - "500 mg pro Kapsel — klinisch relevante Dosis"
-        - "NOW Foods Qualitätsstandard mit eigenem Labor"
-        - "Vielseitiger als 5-HTP (wird auch für andere Stoffwechselwege genutzt)"
+        - "500 mg per capsule — clinically relevant dose"
+        - "NOW Foods quality standard with in-house laboratory"
+        - "More versatile than 5-HTP (used in multiple metabolic pathways)"
       cons:
-        - "Absorption wird durch andere Aminosäuren gehemmt (nüchtern einnehmen)"
-        - "60 Kapseln = 2 Monate"
-        - "Nicht mit SSRIs oder MAO-Hemmern kombinieren"
-      usage: "1 Kapsel abends auf leeren Magen, 30-60 Minuten vor dem Schlafen. Nicht mit proteinreicher Mahlzeit."
+        - "Absorption is inhibited by other amino acids — take on an empty stomach"
+        - "60 capsules = approximately 2 months"
+        - "Do not combine with SSRIs or MAO inhibitors"
+      usage: "1 capsule in the evening on an empty stomach, 30–60 minutes before sleep. Do not take with a protein-rich meal."
 ---

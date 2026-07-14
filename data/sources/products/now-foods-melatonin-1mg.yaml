@@ -29,27 +29,27 @@ ratings:
     score: 9
     explanation:
       de: "Melatonin verkürzt Einschlaflatenz und hilft bei Jetlag, besonders in niedrigen Dosen."
-      en: "Melatonin verkürzt Einschlaflatenz und hilft bei Jetlag, besonders in niedrigen Dosen."
+      en: "Melatonin reduces sleep onset latency and helps with jet lag, particularly at low doses."
   valueForMoney:
     score: 9
     explanation:
       de: "0,12 € pro Portion mit 100 Portionen pro Dose ist sehr günstig."
-      en: "0,12 € pro Portion mit 100 Portionen pro Dose ist sehr günstig."
+      en: "€0.12 per serving with 100 servings per bottle is very affordable."
   productQuality:
     score: 8
     explanation:
       de: "NOW Foods produziert cGMP und prüft auf Wirkstoffgehalt."
-      en: "NOW Foods produziert cGMP und prüft auf Wirkstoffgehalt."
+      en: "NOW Foods produces to cGMP standards and tests for active ingredient potency."
   labelHonesty:
     score: 9
     explanation:
       de: "Menge klar angegeben, keine Kräutermischung oder Füllstoffe."
-      en: "Menge klar angegeben, keine Kräutermischung oder Füllstoffe."
+      en: "Dose clearly stated; no herbal blends or unnecessary fillers."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "NOW veröffentlicht interne Analysen, aber nur sporadische externe Tests."
-      en: "NOW veröffentlicht interne Analysen, aber nur sporadische externe Tests."
+      en: "NOW publishes internal analyses, but external testing is only sporadic."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Dose nicht kindersicher"
       usage: "0,5–1 Tablette 30 Minuten vor dem Schlafengehen oder zur lokalen Schlafenszeit nach Langstreckenflügen. Nicht mit Alkohol kombinieren."
   en:
-    summary: "Ultra-niedrige 1-mg-Tabletten lösen sich schnell auf und erlauben eine feinere Dosierung im Schlaf-Kontext."
-    verdictNote: "Praktische Option für Menschen, die niedrig dosierte Melatonin-Produkte suchen."
+    summary: "Ultra-low 1 mg tablets that dissolve quickly, allowing flexible microdosing for sleep support."
+    verdictNote: "Practical option for those looking for low-dose melatonin products."
     body:
-      description: "Die kleinen Tabletten bestehen aus Melatonin, etwas Cellulose und natürlichen Pfefferminzaromen. Sie sind glutenfrei und vegan."
+      description: "Small tablets containing melatonin, a little cellulose, and natural peppermint flavoring. Gluten-free and vegan."
       pros:
-        - "1 mg ist ideal für Rebound-schonende Nutzung"
-        - "Tabletten lassen sich vierteln für 0,25 mg"
-        - "Gelöst in Wasser auch sublingual nutzbar"
+        - "1 mg is ideal for rebound-conscious use"
+        - "Tablets can be quartered for 0.25 mg doses"
+        - "Can be dissolved in water for sublingual use"
       cons:
-        - "Keine retardierte Variante in gleicher Linie"
-        - "Dose nicht kindersicher"
-      usage: "0,5–1 Tablette 30 Minuten vor dem Schlafengehen oder zur lokalen Schlafenszeit nach Langstreckenflügen. Nicht mit Alkohol kombinieren."
+        - "No extended-release option in the same product line"
+        - "Bottle is not child-resistant"
+      usage: "0.5–1 tablet 30 minutes before bed, or at local bedtime after long-haul flights. Do not combine with alcohol."
 ---

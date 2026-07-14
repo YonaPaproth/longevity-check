@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Lion's Mane zeigt frühe Daten zu NGF-Stimulation und kognitivem Support in Humanstudien."
-      en: "Lion's Mane zeigt frühe Daten zu NGF-Stimulation und kognitivem Support in Humanstudien."
+      en: "Lion's mane shows early data on NGF stimulation and cognitive support in human studies."
   valueForMoney:
     score: 8
     explanation:
       de: "0,40 € pro Portion ist stark für reinen Fruchtkörperextrakt."
-      en: "0,40 € pro Portion ist stark für reinen Fruchtkörperextrakt."
+      en: "€0.40 per serving is strong value for pure fruiting body extract."
   productQuality:
     score: 8
     explanation:
       de: "Heißwasserextraktion mit beta-Glucan-Standardisierung."
-      en: "Heißwasserextraktion mit beta-Glucan-Standardisierung."
+      en: "Hot water extraction with beta-glucan standardization."
   labelHonesty:
     score: 8
     explanation:
       de: "NOW benennt klar Fruchtkörper und verzichtet auf Myzel."
-      en: "NOW benennt klar Fruchtkörper und verzichtet auf Myzel."
+      en: "NOW clearly specifies fruiting body and does not use mycelium."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "Interne Labore plus randomisierte Drittanbieteranalysen, kein offizielles Siegel."
-      en: "Interne Labore plus randomisierte Drittanbieteranalysen, kein offizielles Siegel."
+      en: "Internal labs plus randomized third-party analyses; no official certification."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Leicht erdiger Nachgeschmack bei offenen Kapseln"
       usage: "1 Kapsel morgens mit Fettquelle. Bei intensiven Lernphasen 2 Portionen pro Tag nutzen."
   en:
-    summary: "500 mg Hericium-Fruchtkörper pro Kapsel, Non-GMO und GMP-produziert für tägliche Neuro-Kontext-Routinen."
-    verdictNote: "Solider Lion's-Mane-Baustein für Fokus und Neuro-Marker."
+    summary: "500 mg Hericium erinaceus fruiting body per capsule, Non-GMO and GMP-produced for daily cognitive routines."
+    verdictNote: "Solid lion's mane option for focus and neuroprotective support."
     body:
-      description: "Hericium erinaceus wächst auf Hartholz, wird heiß extrahiert und gefriergetrocknet. Jede Portion enthält Fruchtkörper-Pulver mit natürlichen Erinacinen."
+      description: "Hericium erinaceus grown on hardwood, hot-water extracted and freeze-dried. Each serving contains fruiting body powder with naturally occurring erinacines."
       pros:
-        - "Fruchtkörper statt Myzel auf Reis"
-        - "Non-GMO Project Rohstoffe"
-        - "GMP-zertifizierte Produktionslinie"
+        - "Fruiting body rather than mycelium on rice"
+        - "Non-GMO Project raw materials"
+        - "GMP-certified production line"
       cons:
-        - "Kein deklarierter Erinacin-Gehalt"
-        - "Leicht erdiger Nachgeschmack bei offenen Kapseln"
-      usage: "1 Kapsel morgens mit Fettquelle. Bei intensiven Lernphasen 2 Portionen pro Tag nutzen."
+        - "Erinacine content not declared"
+        - "Slight earthy aftertaste if capsules are opened"
+      usage: "1 capsule in the morning with a fat source. Use 2 servings per day during intensive study or learning phases."
 ---

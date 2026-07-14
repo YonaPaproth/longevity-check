@@ -27,27 +27,27 @@ ratings:
     score: 6
     explanation:
       de: "Glutamin kann bei Darmstress und Rekonvaleszenz helfen, Evidenz für gesunde Personen ist gemischt."
-      en: "Glutamin kann bei Darmstress und Rekonvaleszenz helfen, Evidenz für gesunde Personen ist gemischt."
+      en: "Glutamine can help with gut stress and recovery; evidence for healthy individuals is mixed."
   valueForMoney:
     score: 7
     explanation:
       de: "0,18 € pro Tag für 1 g ist solide, zumal Kapseln praktische Dosierung erlauben."
-      en: "0,18 € pro Tag für 1 g ist solide, zumal Kapseln praktische Dosierung erlauben."
+      en: "€0.18/day for 1 g is solid, especially given the convenience of capsules."
   productQuality:
     score: 8
     explanation:
       de: "NOW nutzt vegane Kapseln, testet auf Verunreinigungen und deklariert Non-GMO."
-      en: "NOW nutzt vegane Kapseln, testet auf Verunreinigungen und deklariert Non-GMO."
+      en: "NOW uses vegan capsules, tests for contaminants, and declares Non-GMO."
   labelHonesty:
     score: 8
     explanation:
       de: "Komplette Offenlegung der Hilfsstoffe und klare Dosierungsempfehlung."
-      en: "Komplette Offenlegung der Hilfsstoffe und klare Dosierungsempfehlung."
+      en: "Full disclosure of excipients and a clear dosage recommendation."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "GMP-Zertifizierung vorhanden, aber kein explizites Sport-Siegel."
-      en: "GMP-Zertifizierung vorhanden, aber kein explizites Sport-Siegel."
+      en: "GMP-certified, but no dedicated sport certification."
 
 locales:
   de:
@@ -65,17 +65,17 @@ locales:
         - "**Begrenzte Evidenz:** Nutzen bei gesunden Personen nicht eindeutig"
       usage: "2–4 Kapseln täglich auf leeren Magen oder direkt nach intensiven Sessions mit Wasser einnehmen. Bei Verdauungsthemen morgens und abends je 2 Kapseln nutzen."
   en:
-    summary: "1 g L-Glutamin pro Kapsel für Darmbarriere- und Regenerationsprotokolle, Non-GMO und in GMP-Anlagen gekapselt."
-    verdictNote: "Praktische Kapseln für gezielte Glutamin-Phasen, wenn Pulver nicht erwünscht ist."
+    summary: "1 g L-glutamine per capsule for gut barrier and recovery protocols, Non-GMO and GMP-encapsulated."
+    verdictNote: "Convenient capsules for targeted glutamine phases when powder isn't practical."
     body:
-      description: "Jede Portion liefert 1 g frei kristallines L-Glutamin in einer pflanzlichen Kapsel. Das Produkt zielt auf Athletinnen und Athleten ab, die Darmbarriere, Regeneration und Immunsupport kombinieren möchten, ohne Pulver abzuwiegen."
+      description: "Each serving delivers 1 g of free-form crystalline L-glutamine in a plant-based capsule. Aimed at athletes looking to support gut barrier, recovery, and immune function without measuring powder."
       pros:
-        - "**Hohe Einzelportion:** 1 g pro Kapsel erleichtert dosierte Einnahme"
-        - "**Non-GMO:** Keine gentechnisch veränderten Rohstoffe"
-        - "**GMP-Produktion:** NOW Sports hält US-GMP ein"
-        - "**Praktisch für Reisen:** Kapseln statt loses Pulver"
+        - "**1 g per capsule:** Makes precise dosing easy"
+        - "**Non-GMO:** No genetically modified raw materials"
+        - "**GMP production:** NOW Sports meets US GMP standards"
+        - "**Travel-friendly:** Capsules instead of loose powder"
       cons:
-        - "**Preis vs. Pulver:** Pro Gramm deutlich teurer als Bulk-Glutamin"
-        - "**Begrenzte Evidenz:** Nutzen bei gesunden Personen nicht eindeutig"
-      usage: "2–4 Kapseln täglich auf leeren Magen oder direkt nach intensiven Sessions mit Wasser einnehmen. Bei Verdauungsthemen morgens und abends je 2 Kapseln nutzen."
+        - "**More expensive than powder:** Significantly higher cost per gram than bulk glutamine"
+        - "**Limited evidence:** Benefits for healthy individuals are not well established"
+      usage: "2–4 capsules daily on an empty stomach or right after intense sessions with water. For digestive support, take 2 capsules morning and evening."
 ---

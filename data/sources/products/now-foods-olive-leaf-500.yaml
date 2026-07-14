@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Oleuropein und Hydroxytyrosol wirken antioxidativ und können Blutdruckmarker positiv beeinflussen."
-      en: "Oleuropein und Hydroxytyrosol wirken antioxidativ und können Blutdruckmarker positiv beeinflussen."
+      en: "Oleuropein and hydroxytyrosol have antioxidant activity and may positively influence blood pressure markers."
   valueForMoney:
     score: 8
     explanation:
       de: "0,37 € pro standardisierter Kapsel ist fair für markenqualitative Rohstoffe."
-      en: "0,37 € pro standardisierter Kapsel ist fair für markenqualitative Rohstoffe."
+      en: "€0.37 per standardized capsule is fair for brand-quality raw materials."
   productQuality:
     score: 8
     explanation:
       de: "NOW testet jede Charge auf Pestizide, Schwermetalle und Identität."
-      en: "NOW testet jede Charge auf Pestizide, Schwermetalle und Identität."
+      en: "NOW tests every batch for pesticides, heavy metals, and identity."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklaration des Oleuropein-Gehalts plus genaue Hilfsstoffe."
-      en: "Deklaration des Oleuropein-Gehalts plus genaue Hilfsstoffe."
+      en: "Declares oleuropein content and lists all excipients."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "GMP- und interne Tests vorhanden, aber kein USP-Siegel."
-      en: "GMP- und interne Tests vorhanden, aber kein USP-Siegel."
+      en: "GMP-certified and internal tests available, but no USP seal."
 
 locales:
   de:
@@ -67,17 +67,17 @@ locales:
         - "**Kein Sport-Siegel:** Für Profisport bleibt eine Restunsicherheit"
       usage: "1 Kapsel zweimal täglich zu den Mahlzeiten. Bei Immunprotokollen temporär auf 3 Kapseln verteilt erhöhen."
   en:
-    summary: "500 mg Olivenblatt-Extrakt mit 6 % Oleuropein, Non-GMO und gut geeignet für Immun- und Gefäß-Kontexte."
-    verdictNote: "Zuverlässiger Olivenblatt-Extrakt mit definierter Oleuropeinmenge."
+    summary: "500 mg olive leaf extract standardized to 6% oleuropein, Non-GMO. Suitable for immune and cardiovascular support."
+    verdictNote: "Reliable olive leaf extract with a defined oleuropein content."
     body:
-      description: "Jede Kapsel enthält 500 mg Olivenblatt-Extrakt, standardisiert auf 6 % Oleuropein. Die Rohstoffe stammen aus mediterranen Anbaugebieten und werden in den USA unter GMP-Bedingungen abgefüllt."
+      description: "Each capsule contains 500 mg olive leaf extract standardized to 6% oleuropein. Raw materials are sourced from Mediterranean growing regions and encapsulated in the USA under GMP conditions."
       pros:
-        - "**Standardisierung:** Sicherer Gehalt an Oleuropein"
-        - "**Non-GMO:** Keine gentechnisch veränderten Pflanzen"
-        - "**Breites Einsatzgebiet:** Herz-Kreislauf, Immunsystem, antioxidativer Support"
-        - "**Bekannter Hersteller:** NOW hat solide Lieferantenaudits"
+        - "**Standardized:** Consistent oleuropein content"
+        - "**Non-GMO:** No genetically modified plants"
+        - "**Broad applications:** Cardiovascular, immune, and antioxidant support"
+        - "**Reputable manufacturer:** NOW has solid supplier audits"
       cons:
-        - "**Nur 6 % Oleuropein:** Für therapeutische Ansätze wären höhere Standards interessant"
-        - "**Kein Sport-Siegel:** Für Profisport bleibt eine Restunsicherheit"
-      usage: "1 Kapsel zweimal täglich zu den Mahlzeiten. Bei Immunprotokollen temporär auf 3 Kapseln verteilt erhöhen."
+        - "**Only 6% oleuropein:** Higher standardization would be preferable for therapeutic use"
+        - "**No sport certification:** Residual uncertainty for professional athletes"
+      usage: "1 capsule twice daily with meals. For immune protocols, temporarily increase to 3 capsules spread throughout the day."
 ---

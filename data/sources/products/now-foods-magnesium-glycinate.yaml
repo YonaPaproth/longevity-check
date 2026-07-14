@@ -29,27 +29,27 @@ ratings:
     score: 9
     explanation:
       de: "Magnesium gleicht weit verbreitete Defizite aus und erscheint entspannend."
-      en: "Magnesium gleicht weit verbreitete Defizite aus und erscheint entspannend."
+      en: "Magnesium addresses widespread deficiencies and has a well-established relaxing effect."
   valueForMoney:
     score: 9
     explanation:
       de: "0,19 € pro Portion für Chelat-Magnesium ist stark."
-      en: "0,19 € pro Portion für Chelat-Magnesium ist stark."
+      en: "€0.19 per serving for chelated magnesium is excellent."
   productQuality:
     score: 8
     explanation:
       de: "Chelat von Albion Minerals, hypoallergen."
-      en: "Chelat von Albion Minerals, hypoallergen."
+      en: "Albion Minerals chelate, hypoallergenic."
   labelHonesty:
     score: 9
     explanation:
       de: "Deklariert elementares Mg und Chelatform klar."
-      en: "Deklariert elementares Mg und Chelatform klar."
+      en: "Clearly declares elemental magnesium content and chelate form."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "NOW stellt Analysenzertifikate bereit, aber kein NSF."
-      en: "NOW stellt Analysenzertifikate bereit, aber kein NSF."
+      en: "NOW provides certificates of analysis, but no NSF certification."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Dose relativ groß für Reisen"
       usage: "2 Kapseln abends vor dem Schlafengehen oder rund um Sport. Bei empfindlichem Magen zu einer Mahlzeit einnehmen."
   en:
-    summary: "Magnesiumbisglycinat liefert 200 mg elementares Mg pro 2 Kapseln – sehr gut verträglich."
-    verdictNote: "Sehr verträgliche Form – gut geeignet für Abendroutine und Muskelentspannung."
+    summary: "Magnesium bisglycinate delivering 200 mg elemental magnesium per 2 capsules — well tolerated."
+    verdictNote: "Highly tolerable form — well suited for evening routines and muscle relaxation."
     body:
-      description: "Jede Portion (2 Kapseln) liefert 200 mg Magnesium als bisglycinat-Chelat. Die Kapseln sind mittelgroß und enthalten wenige Hilfsstoffe."
+      description: "Each serving (2 capsules) delivers 200 mg magnesium as bisglycinate chelate. Medium-sized capsules with minimal excipients."
       pros:
-        - "Albion Chelat für hohe Aufnahme"
-        - "Große 180er Dose"
-        - "Keine Abführwirkung wie bei Oxid"
+        - "Albion chelate for high absorption"
+        - "Large 180-capsule bottle"
+        - "No laxative effect unlike magnesium oxide"
       cons:
-        - "2 Kapseln pro Portion"
-        - "Dose relativ groß für Reisen"
-      usage: "2 Kapseln abends vor dem Schlafengehen oder rund um Sport. Bei empfindlichem Magen zu einer Mahlzeit einnehmen."
+        - "2 capsules per serving"
+        - "Bottle is bulky for travel"
+      usage: "2 capsules in the evening before bed or around exercise. Take with a meal if you have a sensitive stomach."
 ---

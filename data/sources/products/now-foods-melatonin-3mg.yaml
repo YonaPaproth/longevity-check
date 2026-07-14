@@ -29,27 +29,27 @@ ratings:
     score: 9
     explanation:
       de: "Melatonin ist vergleichsweise gut untersucht bei Jetlag und Einschlaflatenz."
-      en: "Melatonin ist vergleichsweise gut untersucht bei Jetlag und Einschlaflatenz."
+      en: "Melatonin is comparatively well-studied for jet lag and sleep onset latency."
   valueForMoney:
     score: 10
     explanation:
       de: "0,08 € pro Tablette ist extrem günstig."
-      en: "0,08 € pro Tablette ist extrem günstig."
+      en: "€0.08 per tablet is extremely affordable."
   productQuality:
     score: 8
     explanation:
       de: "Tabletten lösen sich schnell, gleichmäßige Freisetzung."
-      en: "Tabletten lösen sich schnell, gleichmäßige Freisetzung."
+      en: "Tablets dissolve quickly with even release."
   labelHonesty:
     score: 9
     explanation:
       de: "Angabe in mg und µg, keine Melatoninblends."
-      en: "Angabe in mg und µg, keine Melatoninblends."
+      en: "Dose listed in both mg and µg; no melatonin blends."
   thirdPartyTesting:
     score: 7
     explanation:
       de: "NOW testet intern auf Gehalt, unabhängige Analysen vereinzelt."
-      en: "NOW testet intern auf Gehalt, unabhängige Analysen vereinzelt."
+      en: "NOW tests internally for potency; independent analyses are occasional."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Bei täglicher Einnahme Toleranz möglich"
       usage: "0,5-1 Tablette 30 Minuten vor dem Schlafengehen. Für Jetlag am Zielort zur lokalen Schlafenszeit."
   en:
-    summary: "3 mg Melatonin pro Tablette, teilbar und gut geeignet bei Jetlag oder in Schlaf-Kontexten."
-    verdictNote: "Starkes Preis-Leistungs-Verhältnis mit flexibler Dosierung (Tablette teilbar)."
+    summary: "3 mg melatonin per tablet, splittable and well suited for jet lag or sleep support."
+    verdictNote: "Excellent value with flexible dosing — tablets can be split easily."
     body:
-      description: "Die 3-mg-Tabletten sind klein und lassen sich problemlos teilen. Enthalten minimale Bindemittel und sind vegetarisch."
+      description: "Small 3 mg tablets that split easily. Contains minimal binders and is vegetarian."
       pros:
-        - "180 Portionen – reicht ewig"
-        - "Einfach zu teilen"
-        - "Gute Löslichkeit unter der Zunge"
+        - "180 servings — lasts a long time"
+        - "Easy to split"
+        - "Dissolves well under the tongue"
       cons:
-        - "Kreuzkontamination in USA nicht 100% ausgeschlossen"
-        - "Bei täglicher Einnahme Toleranz möglich"
-      usage: "0,5-1 Tablette 30 Minuten vor dem Schlafengehen. Für Jetlag am Zielort zur lokalen Schlafenszeit."
+        - "Cross-contamination in US facilities cannot be entirely ruled out"
+        - "Daily use may lead to tolerance"
+      usage: "0.5–1 tablet 30 minutes before bed. For jet lag, take at local bedtime at your destination."
 ---

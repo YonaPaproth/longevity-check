@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Carnitin unterstützt Fettstoffwechsel v. a. bei Defiziten und veganer Ernährung."
-      en: "Carnitin unterstützt Fettstoffwechsel v. a. bei Defiziten und veganer Ernährung."
+      en: "Carnitine supports fat metabolism, particularly in those with deficiencies or on a vegan diet."
   valueForMoney:
     score: 7
     explanation:
       de: "0,48 € pro 500 mg Carnipure ist fair."
-      en: "0,48 € pro 500 mg Carnipure ist fair."
+      en: "€0.48 per 500 mg of Carnipure is fair."
   productQuality:
     score: 8
     explanation:
       de: "Carnipure von Lonza ist streng qualitätsorientiert rein."
-      en: "Carnipure von Lonza ist streng qualitätsorientiert rein."
+      en: "Carnipure by Lonza is produced to strict quality and purity standards."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklaration benennt Carnipure explizit."
-      en: "Deklaration benennt Carnipure explizit."
+      en: "Label explicitly identifies the Carnipure branded ingredient."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "NOW betreibt interne Tests; externe Siegel fehlen."
-      en: "NOW betreibt interne Tests; externe Siegel fehlen."
+      en: "NOW conducts internal testing; no external certifications."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Carnitin hat leicht säuerlichen Nachgeschmack"
       usage: "1–2 Kapseln 30 Minuten vor Training oder zu kohlenhydratreichen Mahlzeiten einnehmen."
   en:
-    summary: "500 mg Carnipure® L-Carnitin pro Kapsel, vegan und ohne künstliche Zusätze."
-    verdictNote: "Carnipure-Rohstoff garantiert Reinheit, Preis bleibt moderat."
+    summary: "500 mg Carnipure® L-carnitine per capsule, vegan with no artificial additives."
+    verdictNote: "Carnipure ingredient ensures purity; price remains moderate."
     body:
-      description: "NOW verwendet Carnipure, den lizenzierten L-Carnitin-Tartrat-Rohstoff von Lonza. Die Kapseln sind vegan und enthalten nur Siliciumdioxid als Fließmittel."
+      description: "NOW uses Carnipure, the licensed L-carnitine tartrate ingredient from Lonza. Capsules are vegan and contain only silicon dioxide as a flow agent."
       pros:
-        - "Bekannter Markenrohstoff"
-        - "Vegane Cellulosekapseln"
-        - "Geringe Zusatzstoffliste"
+        - "Well-known branded ingredient"
+        - "Vegan cellulose capsules"
+        - "Short additive list"
       cons:
-        - "500 mg reichen bei Leistungssport selten aus"
-        - "Carnitin hat leicht säuerlichen Nachgeschmack"
-      usage: "1–2 Kapseln 30 Minuten vor Training oder zu kohlenhydratreichen Mahlzeiten einnehmen."
+        - "500 mg is often insufficient for athletic performance protocols"
+        - "Carnitine has a slightly sour aftertaste"
+      usage: "1–2 capsules 30 minutes before training or with carbohydrate-rich meals."
 ---

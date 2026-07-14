@@ -29,27 +29,27 @@ ratings:
     score: 5
     explanation:
       de: "Hesperidin hat Daten zu Gefäßgesundheit und antioxidativem Schutz, aber Humanstudien sind meist klein."
-      en: "Hesperidin hat Daten zu Gefäßgesundheit und antioxidativem Schutz, aber Humanstudien sind meist klein."
+      en: "Hesperidin has data on vascular health and antioxidant protection, but human studies are mostly small."
   valueForMoney:
     score: 8
     explanation:
       de: "0,18 € pro 500 mg ist sehr günstig für ein standardisiertes Flavonoid."
-      en: "0,18 € pro 500 mg ist sehr günstig für ein standardisiertes Flavonoid."
+      en: "€0.18 per 500 mg is very affordable for a standardized flavonoid."
   productQuality:
     score: 7
     explanation:
       de: "NOW Foods Quelle aus Zitrusfrüchten, GMP-Produktion, keine unnötigen Zusätze."
-      en: "NOW Foods Quelle aus Zitrusfrüchten, GMP-Produktion, keine unnötigen Zusätze."
+      en: "Citrus-sourced hesperidin, GMP production, no unnecessary additives."
   labelHonesty:
     score: 8
     explanation:
       de: "Zutatenliste minimal, Herkunft (Citrus sinensis) genannt, keine überzogene Versprechen."
-      en: "Zutatenliste minimal, Herkunft (Citrus sinensis) genannt, keine überzogene Versprechen."
+      en: "Minimal ingredient list, source (Citrus sinensis) declared, no exaggerated claims."
   thirdPartyTesting:
     score: 5
     explanation:
       de: "Keine NSF, aber firmeneigene Labore testen Potenz und Kontaminanten."
-      en: "Keine NSF, aber firmeneigene Labore testen Potenz und Kontaminanten."
+      en: "No NSF certification, but in-house labs test for potency and contaminants."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Wenig öffentliches Testmaterial**"
       usage: "1 Kapsel täglich zu einer Mahlzeit. Bei speziellen Gefäß-Protokollen können 2 Kapseln sinnvoll sein; immer Rücksprache mit Ärzt:in halten, wenn Medikamente wie Blutverdünner im Spiel sind."
   en:
-    summary: "500 mg Hesperidin aus Zitrusfrüchten, GMP- und Non-GMO-zertifiziert – günstiger Bioflavonoid-Fokus für Gefäß-Kontext."
-    verdictNote: "Für Nutzer:innen, die gezielt Hesperidin stacken wollen, liefert NOW eine zuverlässige Budgetlösung."
+    summary: "500 mg citrus-derived hesperidin, GMP and Non-GMO certified. Budget bioflavonoid option for vascular support."
+    verdictNote: "For those specifically stacking hesperidin, NOW offers a reliable budget option."
     body:
-      description: "Jede Kapsel enthält **500 mg Hesperidin** aus Zitrusfrüchten. NOW Foods setzt auf eine einfache Formulierung aus Flavonoid plus Cellulose, ganz ohne Bioflavonoid-Cocktail."
+      description: "Each capsule contains **500 mg hesperidin** from citrus fruit. Simple formulation — just the flavonoid and cellulose, no bioflavonoid blend."
       pros:
-        - "**Hohe Dosierung pro Kapsel**"
-        - "**Non-GMO und GMP**"
-        - "**100 Portionen** rechnen sich langfristig"
-        - "**Neutraler Geschmack**, da Kapsel"
+        - "**High dose per capsule**"
+        - "**Non-GMO and GMP certified**"
+        - "**100 servings** makes it cost-effective long-term"
+        - "**No taste** — enclosed in a capsule"
       cons:
-        - "**Keine Co-Faktoren** wie Vitamin C oder Diosmin"
-        - "**Kapseln relativ groß**"
-        - "**Wenig öffentliches Testmaterial**"
-      usage: "1 Kapsel täglich zu einer Mahlzeit. Bei speziellen Gefäß-Protokollen können 2 Kapseln sinnvoll sein; immer Rücksprache mit Ärzt:in halten, wenn Medikamente wie Blutverdünner im Spiel sind."
+        - "**No co-factors** such as vitamin C or diosmin"
+        - "**Capsules are relatively large**"
+        - "**Limited publicly available test data**"
+      usage: "1 capsule daily with a meal. Up to 2 capsules for specific vascular protocols; consult a physician if taking blood thinners or other medications."
 ---

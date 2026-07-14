@@ -31,27 +31,27 @@ ratings:
     score: 6
     explanation:
       de: "Orale Hyaluronsäure verbesserte Feuchtigkeit und Gelenkkomfort in RCTs."
-      en: "Orale Hyaluronsäure verbesserte Feuchtigkeit und Gelenkkomfort in RCTs."
+      en: "Oral hyaluronic acid improved skin hydration and joint comfort in RCTs."
   valueForMoney:
     score: 7
     explanation:
       de: "0,47 € für HA plus Co-Faktoren ist solide."
-      en: "0,47 € für HA plus Co-Faktoren ist solide."
+      en: "€0.47 for HA plus co-factors is solid value."
   productQuality:
     score: 7
     explanation:
       de: "Fermentativ hergestellte HA, kombiniert mit sulfatierten Zuckern."
-      en: "Fermentativ hergestellte HA, kombiniert mit sulfatierten Zuckern."
+      en: "Fermentation-derived HA combined with sulfated sugars."
   labelHonesty:
     score: 8
     explanation:
       de: "Alle Mengen der Co-Faktoren sind angegeben."
-      en: "Alle Mengen der Co-Faktoren sind angegeben."
+      en: "All co-factor amounts are declared on the label."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "NOW testet intern jede Charge, kein Siegel."
-      en: "NOW testet intern jede Charge, kein Siegel."
+      en: "NOW tests every batch internally; no third-party certification."
 
 locales:
   de:
@@ -68,16 +68,16 @@ locales:
         - "Nur 60 Portionen pro Dose"
       usage: "1 Kapsel zweimal täglich zu Mahlzeiten mit Vitamin C zur Kollagensynthese."
   en:
-    summary: "Hyaluronsäure mit Glucosamin und MSM in veganen Kapseln für Gelenk- und Hauthydration."
-    verdictNote: "Kompletter Stack für Gelenke und Haut in einer Kapsel."
+    summary: "Hyaluronic acid with glucosamine and MSM in vegan capsules for joint and skin hydration."
+    verdictNote: "A complete joint and skin stack in a single capsule."
     body:
-      description: "Eine Kapsel liefert 100 mg Hyaluronsäure, 300 mg N-Acetyl-D-Glucosamin und 50 mg MSM. Ideal für Gelenke und Hautbarriere."
+      description: "Each capsule delivers 100 mg hyaluronic acid, 300 mg N-acetyl-D-glucosamine, and 50 mg MSM. Targets both joint comfort and skin barrier support."
       pros:
-        - "Kombiniert HA mit Glucosamin und MSM"
-        - "Vegane Cellulose-Kapseln"
-        - "GMP-gefertigt"
+        - "Combines HA with glucosamine and MSM"
+        - "Vegan cellulose capsules"
+        - "GMP-manufactured"
       cons:
-        - "Geruch durch Schwefelverbindungen"
-        - "Nur 60 Portionen pro Dose"
-      usage: "1 Kapsel zweimal täglich zu Mahlzeiten mit Vitamin C zur Kollagensynthese."
+        - "Sulfur compounds may cause a slight odor"
+        - "Only 60 servings per bottle"
+      usage: "1 capsule twice daily with meals; pair with vitamin C to support collagen synthesis."
 ---

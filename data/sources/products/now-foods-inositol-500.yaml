@@ -29,27 +29,27 @@ ratings:
     score: 6
     explanation:
       de: "Myo-Inositol hat gute Daten zu PCOS, Insulin und Stimmung."
-      en: "Myo-Inositol hat gute Daten zu PCOS, Insulin und Stimmung."
+      en: "Myo-inositol has good data on PCOS, insulin sensitivity, and mood."
   valueForMoney:
     score: 9
     explanation:
       de: "0,18 € pro 500 mg ist günstig."
-      en: "0,18 € pro 500 mg ist günstig."
+      en: "€0.18 per 500 mg is very affordable."
   productQuality:
     score: 7
     explanation:
       de: "Fermentativer Rohstoff, Allergen-getestet."
-      en: "Fermentativer Rohstoff, Allergen-getestet."
+      en: "Fermentation-derived raw material, tested for allergens."
   labelHonesty:
     score: 8
     explanation:
       de: "Nur Inositol plus Kapselhülle deklariert."
-      en: "Nur Inositol plus Kapselhülle deklariert."
+      en: "Only inositol and capsule shell declared — clean label."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "Interne Analytik, keine großen Siegel."
-      en: "Interne Analytik, keine großen Siegel."
+      en: "Internal analytics only; no major third-party certification."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Leicht süßlicher Geschmack"
       usage: "1 Kapsel morgens und abends zu Mahlzeiten. Bei spezifischen Protokollen bis 2 g zweimal täglich steigern."
   en:
-    summary: "500 mg Myo-Inositol pro Kapsel, vegan, GMP und Non-GMO – vielseitig für Nerven und Blutzucker."
-    verdictNote: "Budgetfreundlicher Einstieg in Inositol-Protokolle."
+    summary: "500 mg myo-inositol per capsule, vegan, GMP and Non-GMO. Versatile support for nerve function and blood sugar."
+    verdictNote: "Budget-friendly entry point for inositol protocols."
     body:
-      description: "Jede Kapsel enthält 500 mg kristallines Myo-Inositol, gewonnen aus Mais durch Fermentation."
+      description: "Each capsule contains 500 mg crystalline myo-inositol derived from corn via fermentation."
       pros:
-        - "Vegan und allergenfrei"
-        - "Einfache Dosierung für Einsteiger"
-        - "GMP-Produktion"
+        - "Vegan and allergen-free"
+        - "Simple dosing for beginners"
+        - "GMP production"
       cons:
-        - "Für PCOS-Protokolle oft höhere Dosen nötig"
-        - "Leicht süßlicher Geschmack"
-      usage: "1 Kapsel morgens und abends zu Mahlzeiten. Bei spezifischen Protokollen bis 2 g zweimal täglich steigern."
+        - "PCOS protocols often require higher doses"
+        - "Slightly sweet taste"
+      usage: "1 capsule morning and evening with meals. For specific protocols, increase up to 2 g twice daily."
 ---

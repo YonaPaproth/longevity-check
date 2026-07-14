@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "Gleiche Datenlage wie bei allen reinen L-Theanin-Produkten."
-      en: "Gleiche Datenlage wie bei allen reinen L-Theanin-Produkten."
+      en: "Same evidence base as all pure L-theanine products."
   valueForMoney:
     score: 9
     explanation:
       de: "0,37 € pro 200 mg ist sehr günstig."
-      en: "0,37 € pro 200 mg ist sehr günstig."
+      en: "€0.37 per 200 mg is very affordable."
   productQuality:
     score: 7
     explanation:
       de: "Standardisierte Reinheit, ergänzt mit Inositol für Synergie."
-      en: "Standardisierte Reinheit, ergänzt mit Inositol für Synergie."
+      en: "Standardized purity, supplemented with inositol for potential synergy."
   labelHonesty:
     score: 8
     explanation:
       de: "Inhaltsstoffe klar gelistet, keine Blends."
-      en: "Inhaltsstoffe klar gelistet, keine Blends."
+      en: "Ingredients clearly listed, no proprietary blends."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "NOW veröffentlicht stichprobenartige COA, aber kein großes Siegel."
-      en: "NOW veröffentlicht stichprobenartige COA, aber kein großes Siegel."
+      en: "NOW publishes spot-check COAs but holds no major third-party certification."
 
 locales:
   de:
@@ -66,16 +66,16 @@ locales:
         - "Leicht kreidiger Nachgeschmack"
       usage: "1 Kapsel 30 Minuten vor Stress-Spitzen oder als Kaffee-Begleiter gegen Nervosität."
   en:
-    summary: "Preiswerte 200-mg-L-Theanin-Kapseln von NOW Foods mit GMP-Herstellung und veganer Hülle."
-    verdictNote: "Budget-L-Theanin mit 200 mg pro Kapsel und veganen Rohstoffen."
+    summary: "200 mg L-theanine capsules from NOW Foods, GMP-manufactured in vegan shells. Great value at €0.37/serving."
+    verdictNote: "Budget L-theanine at 200 mg per capsule with vegan ingredients."
     body:
-      description: "Double-Strength-Version mit 200 mg L-Theanin plus etwas Inositol für weichere Aufnahme. Die Kapseln sind rein pflanzlich und frei von Allergenen."
+      description: "Double-strength formulation with 200 mg L-theanine plus a small amount of inositol for smoother absorption. Capsules are fully plant-based and allergen-free."
       pros:
-        - "Sehr guter Preis pro Portion"
-        - "GMP-zertifizierte Fertigung"
-        - "Vegan und frei von Titandioxid"
+        - "Excellent price per serving"
+        - "GMP-certified manufacturing"
+        - "Vegan and free of titanium dioxide"
       cons:
-        - "Keine markenspezifische Rohstoffgarantie"
-        - "Leicht kreidiger Nachgeschmack"
-      usage: "1 Kapsel 30 Minuten vor Stress-Spitzen oder als Kaffee-Begleiter gegen Nervosität."
+        - "No branded raw material guarantee"
+        - "Slight chalky aftertaste"
+      usage: "1 capsule 30 minutes before a stressful event, or alongside coffee to reduce jitteriness."
 ---

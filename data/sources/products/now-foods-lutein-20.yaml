@@ -29,27 +29,27 @@ ratings:
     score: 7
     explanation:
       de: "20 mg Lutein unterstützt Makulapigment und visuelle Performance, vor allem bei niedriger Carotinoidzufuhr."
-      en: "20 mg Lutein unterstützt Makulapigment und visuelle Performance, vor allem bei niedriger Carotinoidzufuhr."
+      en: "20 mg lutein supports macular pigment and visual performance, especially in those with low carotenoid intake."
   valueForMoney:
     score: 8
     explanation:
       de: "0,20 € pro Tag für 20 mg FloraGLO ist sehr konkurrenzfähig, besonders bei 90 Portionen."
-      en: "0,20 € pro Tag für 20 mg FloraGLO ist sehr konkurrenzfähig, besonders bei 90 Portionen."
+      en: "€0.20/day for 20 mg FloraGLO is very competitive, especially at 90 servings."
   productQuality:
     score: 7
     explanation:
       de: "NOW Foods produziert GMP-zertifiziert, nutzt eine stabile Ölbasis und gibt Rohstoffquelle an."
-      en: "NOW Foods produziert GMP-zertifiziert, nutzt eine stabile Ölbasis und gibt Rohstoffquelle an."
+      en: "GMP-certified production, stable oil base, and ingredient source disclosed."
   labelHonesty:
     score: 7
     explanation:
       de: "Deklaration ist schlicht, nennt Lutein und Zeaxanthin separat und macht keine überzogene Versprechen."
-      en: "Deklaration ist schlicht, nennt Lutein und Zeaxanthin separat und macht keine überzogene Versprechen."
+      en: "Clean label — lutein and zeaxanthin listed separately with no exaggerated claims."
   thirdPartyTesting:
     score: 5
     explanation:
       de: "Keine NSF- oder USP-Zertifizierung, aber interne Tests laut Hersteller."
-      en: "Keine NSF- oder USP-Zertifizierung, aber interne Tests laut Hersteller."
+      en: "No NSF or USP certification; internal testing per manufacturer."
 
 locales:
   de:
@@ -68,18 +68,18 @@ locales:
         - "**Softgels sind nicht vegan**"
       usage: "1 Softgel täglich zu einer Mahlzeit mit Fett. Wer bereits viele grüne Blattgemüse isst, kann die Einnahme auf belastungsreiche Bildschirmphasen begrenzen."
   en:
-    summary: "Preiswerte FloraGLO-Lutein-Softgels mit etwas natürlichem Zeaxanthin. Non-GMO, stabile Ölbasis und gute Reichweite pro Dose."
-    verdictNote: "Wer einfach 20 mg Lutein täglich abdecken will, bekommt hier viel Reichweite ohne Premium-Aufpreis."
+    summary: "Affordable FloraGLO lutein softgels with trace zeaxanthin. Non-GMO, stable oil base, 90 servings per bottle."
+    verdictNote: "Great value for hitting 20 mg lutein daily without paying a premium."
     body:
-      description: "NOW Foods nutzt ebenfalls **FloraGLO** und packt den Wirkstoff in kompakte Softgels mit Safloröl. Jede Portion liefert 20 mg Lutein plus etwas natürliches Zeaxanthin aus Tagetesblüten."
+      description: "NOW Foods uses **FloraGLO** lutein in compact softgels with safflower oil. Each serving delivers 20 mg lutein plus trace natural zeaxanthin from marigold flowers."
       pros:
-        - "**Sehr günstiger Preis pro Tag**"
-        - "**Softgel mit Ölbasis:** Carotinoide brauchen Fett"
-        - "**Non-GMO Statement** von NOW Foods"
-        - "**Unkomplizierte Formulierung** ohne weitere Vitamine"
+        - "**Very low daily cost**"
+        - "**Oil-based softgel:** Carotenoids require fat for absorption"
+        - "**Non-GMO statement** from NOW Foods"
+        - "**Simple formulation** without additional vitamins"
       cons:
-        - "**Kein offizielles Drittanbieter-Siegel** wie NSF"
-        - "**Zeaxanthin nur in Spuren**"
-        - "**Softgels sind nicht vegan**"
-      usage: "1 Softgel täglich zu einer Mahlzeit mit Fett. Wer bereits viele grüne Blattgemüse isst, kann die Einnahme auf belastungsreiche Bildschirmphasen begrenzen."
+        - "**No official third-party certification** such as NSF"
+        - "**Zeaxanthin only in trace amounts**"
+        - "**Softgels are not vegan**"
+      usage: "1 softgel daily with a fat-containing meal. Those who already eat plenty of leafy greens can limit use to high screen-time periods."
 ---

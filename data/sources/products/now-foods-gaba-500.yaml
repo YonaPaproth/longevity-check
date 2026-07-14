@@ -30,27 +30,27 @@ ratings:
     score: 5
     explanation:
       de: "GABA oral hat gemischte Daten, aber kleine Studien zeigen Stressreduktion."
-      en: "GABA oral hat gemischte Daten, aber kleine Studien zeigen Stressreduktion."
+      en: "Oral GABA has mixed data, but small studies suggest stress reduction."
   valueForMoney:
     score: 8
     explanation:
       de: "0,18 € pro Portion inklusive B6-Co-Faktor ist günstig."
-      en: "0,18 € pro Portion inklusive B6-Co-Faktor ist günstig."
+      en: "€0.18 per serving including the B6 co-factor is excellent value."
   productQuality:
     score: 7
     explanation:
       de: "Fermentatives GABA mit GMP-Qualität."
-      en: "Fermentatives GABA mit GMP-Qualität."
+      en: "Fermented GABA with GMP quality standards."
   labelHonesty:
     score: 8
     explanation:
       de: "Deklariert die genaue Menge B6."
-      en: "Deklariert die genaue Menge B6."
+      en: "Declares the exact amount of B6."
   thirdPartyTesting:
     score: 6
     explanation:
       de: "NOW testet intern, gelegentlich externe Verifizierung."
-      en: "NOW testet intern, gelegentlich externe Verifizierung."
+      en: "NOW tests internally, with occasional external verification."
 
 locales:
   de:
@@ -67,16 +67,16 @@ locales:
         - "Pulver schmeckt bitter bei Sublingual-Anwendung"
       usage: "1 Kapsel 30 Minuten vor dem Schlafengehen oder in Stresssituationen auf leeren Magen einnehmen."
   en:
-    summary: "500 mg GABA mit Vitamin B6 zur besseren Umwandlung, Non-GMO und GMP-geprüft."
-    verdictNote: "Günstige Wahl für Abend-Rituale, sofern man auf die subjektive Wirkung anspricht."
+    summary: "500 mg GABA with vitamin B6 for enzyme support, Non-GMO and GMP-certified. Good value at €0.18/serving."
+    verdictNote: "Budget-friendly choice for evening routines if you respond to GABA's subjective effects."
     body:
-      description: "Vegane Kapseln mit 500 mg Gamma-Aminobuttersäure sowie 2 mg Vitamin B6 für Enzymunterstützung. Frei von Soja, Milch und Gluten."
+      description: "Vegan capsules with 500 mg gamma-aminobutyric acid and 2 mg vitamin B6 for enzyme support. Free from soy, dairy, and gluten."
       pros:
-        - "Mit Vitamin B6 für Decarboxylase-Support"
-        - "Große 100er Packung"
-        - "Zahme Sedierung statt Knockout"
+        - "Includes vitamin B6 for decarboxylase support"
+        - "Large 100-serving pack"
+        - "Mild calming effect rather than sedation"
       cons:
-        - "Wirksamkeit stark individuell"
-        - "Pulver schmeckt bitter bei Sublingual-Anwendung"
-      usage: "1 Kapsel 30 Minuten vor dem Schlafengehen oder in Stresssituationen auf leeren Magen einnehmen."
+        - "Effectiveness is highly individual"
+        - "Powder tastes bitter if taken sublingually"
+      usage: "1 capsule 30 minutes before bed or during stressful situations, on an empty stomach."
 ---
