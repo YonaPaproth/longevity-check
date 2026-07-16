@@ -110,6 +110,60 @@ src/
 | 5 | Impressum-Adresse auf e.V. oder Briefkastendienst verlegen | niedrig |
 | 6 | Affiliate-Links zu Produkten (Amazon.de, iHerb) — erst bei Traffic | niedrig |
 
+## Produkt-Scoring-Rubrics (ab 2026-07-16)
+
+**Verdict wird automatisch aus compositeScore berechnet** — nie manuell setzen!
+- ≥ 7.0 → `empfehlenswert`
+- 5.5–6.9 → `akzeptabel`
+- < 5.5 → `nicht-empfehlenswert`
+
+**Gewichte:** evidenceForIngredient 15% | valueForMoney 15% | productQuality 30% | labelHonesty 25% | thirdPartyTesting 15%
+
+### evidenceForIngredient
+| Score | Kriterium |
+|-------|-----------|
+| 9–10 | Mehrere unabhängige Meta-Analysen von RCTs; EFSA Health Claim zugelassen |
+| 7–8 | Mindestens 2–3 methodisch gute RCTs; klare klinische Effekte |
+| 5–6 | Einzelne RCTs oder begrenzte Humanstudien; plausible Wirkmechanismen |
+| 3–4 | Hauptsächlich Tierstudien oder In-vitro; wenige oder schwache Humanstudien |
+| 1–2 | Nur Traditionsanwendung, anekdotisch oder reine Spekulation |
+
+### productQuality
+| Score | Kriterium |
+|-------|-----------|
+| 9–10 | Pharmazeutische Qualität; premium Rohstoff (Niagen, KSM-66, Carnipure, MK-7…); optimale Darreichungsform; saubere Hilfsstoffe |
+| 7–8 | Gute Formulierung; bekannte Qualitäts-Rohstoffe; cGMP; Darreichungsform sinnvoll |
+| 5–6 | Standard-Rohstoff; solide Qualität ohne besonderen Mehrwert |
+| 3–4 | Generischer Rohstoff unklarer Herkunft; schlechte Darreichungsform (z.B. Magnesiumoxid) |
+| 1–2 | Zweifelhafte Formulierung; fehlende Grundstandards |
+
+### labelHonesty
+| Score | Kriterium |
+|-------|-----------|
+| 9–10 | Vollständige Deklaration; keine Übertreibungen; alle Warnhinweise vorhanden |
+| 7–8 | Alle Mengen korrekt; nur leicht übertriebene Claims; Anbieter seriös |
+| 5–6 | Wesentliche Angaben vorhanden; einige vage Claims |
+| 3–4 | Unvollständige Angaben; fragwürdige Wirkversprechen |
+| 1–2 | Falsche Angaben; irreführende Claims; Health Claims ohne Zulassung |
+
+### thirdPartyTesting
+| Score | Kriterium |
+|-------|-----------|
+| 9–10 | NSF Certified / USP Verified / Informed Sport / Labdoor A — mit Zertifikatnummer |
+| 7–8 | COA öffentlich verfügbar; cGMP-zertifizierter Hersteller; HPLC-geprüft |
+| 5–6 | Drittprüfung angegeben, COA auf Anfrage; ISO-Zertifizierung des Herstellers |
+| 3–4 | Kein unabhängiges Testing; nur Hersteller-Claim ohne Nachweis |
+| 1–2 | Keine Transparenz zur Prüfung |
+
+### valueForMoney
+| Score | Kriterium |
+|-------|-----------|
+| 9–10 | Deutlich günstiger als vergleichbare Produkte gleicher Qualität; < 0,20 €/Tag |
+| 7–8 | Faire Marktpreise; 0,20–0,50 €/Tag |
+| 5–6 | Etwas teurer; 0,50–1,00 €/Tag; durch Qualitätsmerkmale vertretbar |
+| 3–4 | Deutlich teurer ohne klaren Mehrwert; > 1,00 €/Tag |
+| 1–2 | Massiv überteuert für das Gebotene |
+
 ## Wichtige Konventionen
 
 - **MDX in Astro v6**: `<` in Markdown muss als `&lt;` escaped werden (JSX-Parser)
