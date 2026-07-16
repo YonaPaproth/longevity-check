@@ -95,21 +95,28 @@ interface ProductSource {
 // ── Scoring (mirrors src/utils/scoring.ts) ───────────────────────────────────
 
 const WEIGHTS = {
-  evidenceForIngredient: 0.10,
-  valueForMoney: 0.30,
-  productQuality: 0.25,
-  labelHonesty: 0.20,
-  thirdPartyTesting: 0.15,
+  evidenceForIngredient: 0.15,
+  valueForMoney:         0.15,
+  productQuality:        0.30,
+  labelHonesty:          0.25,
+  thirdPartyTesting:     0.15,
 };
 
+// Thresholds: ≥7.0 empfehlenswert, ≥5.5 akzeptabel, <5.5 nicht-empfehlenswert
 function compositeScore(ratings: ProductSource['ratings']): number {
   return (
     ratings.evidenceForIngredient.score * WEIGHTS.evidenceForIngredient +
-    ratings.valueForMoney.score * WEIGHTS.valueForMoney +
-    ratings.productQuality.score * WEIGHTS.productQuality +
-    ratings.labelHonesty.score * WEIGHTS.labelHonesty +
-    ratings.thirdPartyTesting.score * WEIGHTS.thirdPartyTesting
+    ratings.valueForMoney.score         * WEIGHTS.valueForMoney +
+    ratings.productQuality.score        * WEIGHTS.productQuality +
+    ratings.labelHonesty.score          * WEIGHTS.labelHonesty +
+    ratings.thirdPartyTesting.score     * WEIGHTS.thirdPartyTesting
   );
+}
+
+function autoVerdict(score: number): string {
+  if (score >= 7.0) return 'empfehlenswert';
+  if (score >= 5.5) return 'akzeptabel';
+  return 'nicht-empfehlenswert';
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -180,7 +187,9 @@ function buildFrontmatter(source: ProductSource, locale: 'de' | 'en'): string {
     lines.push('certifications: []');
   }
 
-  lines.push(`verdict: "${meta.verdict}"`);
+  const score = compositeScore(source.ratings);
+  const verdict = autoVerdict(score);
+  lines.push(`verdict: "${verdict}"`);
   lines.push(`verdictNote: ${yamlQuote(escapeMdx(lc.verdictNote))}`);
 
   if (meta.featuredImage) lines.push(`featuredImage: "${meta.featuredImage}"`);
@@ -249,7 +258,7 @@ function generateEntity(source: ProductSource): object {
     vendor: source.meta.vendor,
     ingredient: source.meta.ingredient,
     form: source.meta.form,
-    verdict: source.meta.verdict,
+    verdict: autoVerdict(compositeScore(source.ratings)),
     compositeScore: Math.round(compositeScore(source.ratings) * 100) / 100,
   };
 }
