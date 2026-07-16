@@ -53,11 +53,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       </div>
     </section>
 
-    <!-- Transparency Index -->
+    <!-- Product Rating -->
     <section class="mb-12">
-      <h2 class="text-xl font-semibold text-slate-800 mb-4">Transparency Index (0–10)</h2>
+      <h2 class="text-xl font-semibold text-slate-800 mb-4">Product Rating (0–10)</h2>
       <p class="text-sm text-slate-600 mb-6">
-        Products are rated across five dimensions. The weighted composite score is the Transparency Index — a measure of how honestly and responsibly a product is presented, not of whether the ingredient works.
+        Products are rated across five dimensions. The weighted composite score determines the verdict automatically: <strong>Recommended</strong> (≥ 7.0), <strong>Acceptable</strong> (5.5–6.9), or <strong>Not recommended</strong> (&lt; 5.5). The score measures product quality and honest presentation — not whether the ingredient has health effects.
       </p>
       <div class="overflow-x-auto">
         <table class="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
@@ -69,11 +69,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
           </thead>
           <tbody class="divide-y divide-slate-100">
             {[
-              { dim: 'Evidence for ingredient', weight: '10%', desc: 'How strong is the clinical evidence for the active ingredient?' },
-              { dim: 'Value for money', weight: '30%', desc: 'Is the price per dose fair given available alternatives?' },
-              { dim: 'Product quality', weight: '25%', desc: 'Form, standardisation, excipients, manufacturing standards.' },
-              { dim: 'Label honesty', weight: '20%', desc: 'Are doses and claims accurately stated? No proprietary blends?' },
-              { dim: 'Third-party testing', weight: '15%', desc: 'Is the product independently certified (Informed Sport, NSF, etc.)?' },
+              { dim: 'Product quality', weight: '30%', desc: 'Raw material quality, formulation form, excipients, manufacturing standards.' },
+              { dim: 'Label honesty', weight: '25%', desc: 'Complete and accurate labelling, EFSA-compliant claims, no exaggerated promises.' },
+              { dim: 'Evidence for ingredient', weight: '15%', desc: 'How strong is the clinical evidence for the active ingredient?' },
+              { dim: 'Third-party testing', weight: '15%', desc: 'Independently certified (NSF, USP, Informed Sport) or COA publicly available?' },
+              { dim: 'Value for money', weight: '15%', desc: 'Price per daily dose compared with similar products.' },
             ].map(({ dim, weight, desc }) => (
               <tr class="hover:bg-slate-50/50">
                 <td class="px-4 py-3">

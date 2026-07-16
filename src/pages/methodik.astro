@@ -26,24 +26,24 @@ import { WEIGHTS } from '../utils/scoring';
         </tbody>
       </table>
 
-      <h2>Transparenz-Index (5 Dimensionen)</h2>
-      <p>Jedes Produkt wird in fünf Dimensionen bewertet. Der <strong>Transparenz-Index</strong> misst ausschließlich Deklarationsqualität, Preis-Leistungs-Transparenz sowie Nachvollziehbarkeit der Inhaltsstoffe. Die <strong>Evidenz für den Wirkstoff</strong> ist bewusst <em>nicht</em> der wichtigste Faktor im Transparenz-Index; sie wird separat sichtbar gemacht, damit solide Produkte ohne spektakuläre Studienlage nicht benachteiligt werden.</p>
+      <h2>Produkt-Bewertung (5 Dimensionen)</h2>
+      <p>Jedes Produkt wird in fünf Dimensionen bewertet. Den größten Einfluss auf das Gesamturteil haben <strong>Produktqualität</strong> und <strong>Label-Ehrlichkeit</strong> — denn diese bestimmen, ob ein Produkt hält, was es verspricht. Der <strong>Forschungsstand des Wirkstoffs</strong> fließt ein, aber mit bewusst geringerem Gewicht: Ein hochwertiges Magnesiumprodukt soll nicht wegen der Selbstverständlichkeit „Magnesium wirkt" eine bessere Bewertung bekommen als ein weniger gut deklariertes Konkurrenzprodukt. Das <strong>Gesamturteil</strong> wird automatisch aus dem gewichteten Durchschnitt berechnet — keine manuellen Overrides.</p>
 
       <table>
         <thead>
           <tr><th>Dimension</th><th>Gewicht</th><th>Was gemessen wird</th></tr>
         </thead>
         <tbody>
+          <tr><td>Produktqualität</td><td>{WEIGHTS.productQuality * 100} %</td><td>Rohstoffqualität, Darreichungsform, Formulierung, Reinheit, Hilfsstoffe</td></tr>
+          <tr><td>Label-Ehrlichkeit</td><td>{WEIGHTS.labelHonesty * 100} %</td><td>Vollständigkeit, Korrektheit der Angaben, EFSA-Konformität, keine Übertreibungen</td></tr>
           <tr><td>Forschungsstand Wirkstoff</td><td>{WEIGHTS.evidenceForIngredient * 100} %</td><td>Humanstudien, Studienlage für diesen Wirkstoff</td></tr>
-          <tr><td>Preis-Leistungs-Transparenz</td><td>{WEIGHTS.valueForMoney * 100} %</td><td>€ pro Tagesdosis (Studiendosis als Referenz) inkl. Offenlegung der Mengen</td></tr>
-          <tr><td>Deklarationsqualität</td><td>{WEIGHTS.productQuality * 100} %</td><td>Reinheit, Stabilität, Verarbeitung und nachvollziehbare Angaben</td></tr>
-          <tr><td>Label-Ehrlichkeit</td><td>{WEIGHTS.labelHonesty * 100} %</td><td>Sind Claims EFSA-konform? Keine Fantasie-Versprechen?</td></tr>
-          <tr><td>Drittanbieter-Tests</td><td>{WEIGHTS.thirdPartyTesting * 100} %</td><td>NSF, Informed-Sport, Labdoor, eigene CoA</td></tr>
+          <tr><td>Drittanbieter-Tests</td><td>{WEIGHTS.thirdPartyTesting * 100} %</td><td>NSF, USP, Informed-Sport, Labdoor, CoA öffentlich verfügbar</td></tr>
+          <tr><td>Preis-Leistung</td><td>{WEIGHTS.valueForMoney * 100} %</td><td>€ pro Tagesdosis im Marktvergleich</td></tr>
         </tbody>
       </table>
 
-      <h2>Was bedeuten unsere Transparenz-Urteile?</h2>
-      <p>Das Gesamturteil weist ausschließlich auf die Transparenz und Deklarationsqualität hin — nicht auf eine gesundheitliche Wirkung. „Hohe Produkttransparenz", „Mittlere Produkttransparenz" und „Geringe Produkttransparenz" beschreiben, wie gut ein Hersteller Zusammensetzung, Qualität und Preis-Leistung offenlegt sowie belastbare Nachweise liefert. Diese Urteile sind keine Eignungsaussagen für Therapie, Prävention oder Leistungssteigerung.</p>
+      <h2>Was bedeuten unsere Urteile?</h2>
+      <p>Das Gesamturteil wird automatisch aus dem Score berechnet: <strong>Empfehlenswert</strong> (Score ≥ 7,0), <strong>Akzeptabel</strong> (5,5–6,9) und <strong>Nicht empfehlenswert</strong> (&lt; 5,5). Es beschreibt Produktqualität und Deklarationsehrlichkeit — keine gesundheitliche Wirkung. Urteile sind keine Eignungsaussagen für Therapie, Prävention oder Leistungssteigerung.</p>
 
       <h2>EU Health Claims und warum das wichtig ist</h2>
       <p>Gemäß der EU-Verordnung (EG) Nr. 1924/2006 dürfen gesundheitsbezogene Angaben (Health Claims) für Lebensmittel und Nahrungsergänzungsmittel nur verwendet werden, wenn sie von der EFSA wissenschaftlich bewertet und von der EU-Kommission zugelassen wurden. Für die meisten populären Supplement-Wirkstoffe — darunter NMN, Resveratrol, Curcumin, Ashwagandha und viele andere — <strong>existieren keine zugelassenen EU-Health-Claims</strong>. Werbung wie „Anti-Aging", „Immunbooster", „Detox" oder „kognitive Leistungssteigerung" ist für diese Stoffe in der EU regulatorisch nicht zulässig.</p>
