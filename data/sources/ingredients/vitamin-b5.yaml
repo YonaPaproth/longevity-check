@@ -31,11 +31,7 @@ key_studies:
         Review zu Biochemie und Bedarf: Pantothensäure ist als Vorstufe von Coenzym A fundamental für den Stoffwechsel, echter Mangel aber selten.
       en: >-
         Review of biochemistry and requirements: Pantothenic acid is fundamental as a CoA precursor for metabolism, but genuine deficiency is rare in the general population.
-  - pmid: ""
-    title: "Pantothenic acid"
-    authors: "National Institutes of Health Office of Dietary Supplements"
-    year: 2022
-    url: "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/"
+  - ref: study-vitamin-b5-ods-nih-2022
     finding:
       de: >-
         Übersicht zu Bedarf, Lebensmitteln, Sicherheit und Mangel. Supplemente sind bei normaler Ernährung meist nicht nötig.

@@ -32,11 +32,7 @@ key_studies:
         Cochrane-Review: In Regionen mit Mangel reduziert Vitamin-A-Supplementierung Kindersterblichkeit und bestimmte Infektionen. Aussage vor allem für Mangelpopulationen relevant.
       en: >-
         Cochrane Review: In regions with deficiency, vitamin A supplementation reduces childhood mortality and specific infections. Findings particularly relevant for populations with existing deficiency.
-  - pmid: ""
-    title: "Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc"
-    authors: "Institute of Medicine"
-    year: 2001
-    url: "https://www.ncbi.nlm.nih.gov/books/NBK222310/"
+  - ref: study-vitamin-a-iom-dri-2001
     finding:
       de: >-
         Grundlagenwerk zu Bedarf, Funktionen und Toxizität von Vitamin A. Hohe Retinolzufuhr kann Leber, Knochen und in der Schwangerschaft den Fötus schädigen.

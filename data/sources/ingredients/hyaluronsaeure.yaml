@@ -50,10 +50,7 @@ key_studies:
         RCT, n=96, 120–240 mg/Tag orales Hyaluronan, 12 Wochen: signifikante Verbesserung der Hautfeuchtigkeit und Unterdrückung der Faltenbildung gegenüber Placebo.
       en: >-
         RCT, n=96, 120–240 mg/day oral hyaluronate, 12 weeks: significant improvement in skin hydration and suppression of wrinkle formation versus placebo.
-  - pmid: ""
-    title: "Effect of oral hyaluronic acid supplementation on knee osteoarthritis pain"
-    authors: "Kalman DS et al."
-    year: 2008
+  - ref: study-hyaluronsaeure-kalman-2008
     finding:
       de: >-
         Kleine Pilot-Studie bei Knieschmerzen: Hinweise auf Schmerzreduktion nach oraler HA, aber begrenzte Stichprobengröße und keine Replikation in größeren unabhängigen Trials.

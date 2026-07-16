@@ -25,11 +25,7 @@ efsa_notes:
     The EFSA has approved health claims for olive polyphenols (primary component hydroxytyrosol) for protecting LDL cholesterol from oxidative stress—at a minimum of 5 mg/day from olive oil. One of the very few approved polyphenol claims in the EU.
 
 key_studies:
-  - pmid: ""
-    title: "Scientific Opinion on the substantiation of health claims related to polyphenols in olive"
-    authors: "EFSA Panel on Dietetic Products, Nutrition and Allergies"
-    year: 2011
-    url: "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2011.2033"
+  - ref: study-hydroxytyrosol-efsa-2011
     finding:
       de: >-
         EFSA bestätigt: Olivenpolyphenole (mind. 5 mg Hydroxytyrosol + Derivate pro Tag) werden mit Schutzmechanismen in Verbindung gebracht LDL-Cholesterin vor oxidativer Schädigung.

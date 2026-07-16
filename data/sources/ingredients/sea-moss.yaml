@@ -27,21 +27,13 @@ efsa_notes:
     No approved health claims. Carrageenan (E407) is approved as a food additive but not as a health product.
 
 key_studies:
-  - pmid: "30885434"
-    title: "Review of the toxicological properties of poligeenan and carrageenan"
-    authors: "McKim JM et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/30885434/"
+  - ref: pmid-30885434
     finding:
       de: >-
         Review: Degradiertes Carrageen (Poligeenan) hat entzündungsfördernde Eigenschaften in Tiermodellen. Food-Grade Carrageen gilt als sicher, aber die Debatte ist nicht abgeschlossen.
       en: >-
         Review: Degraded carrageenan (poligeenan) has pro-inflammatory properties in animal models. Food-grade carrageenan is considered safe, but debate continues.
-  - pmid: "31527518"
-    title: "Mineral and trace element content in sea moss supplements"
-    authors: "Cherry P et al."
-    year: 2019
-    url: "https://pubmed.ncbi.nlm.nih.gov/31527518/"
+  - ref: pmid-31527518
     finding:
       de: >-
         Analyse: Rotalgen enthalten Jod, Eisen, Zink und Magnesium, aber Gehalte variieren stark je nach Herkunft. Schwermetall-Kontamination ist ein dokumentiertes Risiko.

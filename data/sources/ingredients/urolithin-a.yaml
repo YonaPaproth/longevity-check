@@ -50,11 +50,7 @@ key_studies:
         Nur ~40 % der Menschen haben Darmbakterien, die Ellagsäure effizient zu Urolithin A umwandeln. Supplementierung umgeht dieses Konversionsproblem.
       en: >-
         Only ~40% of humans carry gut bacteria that efficiently convert ellagic acid to urolithin A. Direct supplementation bypasses this conversion bottleneck.
-  - pmid: ""
-    title: "Effects of Urolithin A Supplementation on Glucose Metabolism in Healthy Adults 55+ Years Old"
-    authors: "ClinicalTrials.gov"
-    year: 2026
-    url: "https://clinicaltrials.gov/study/NCT06274749"
+  - ref: study-urolithin-a-clinicaltrials-2026
     finding:
       de: >-
         Laufende Studie (ClinicalTrials NCT06274749): Untersucht Effekte von Urolithin-A-Supplementierung auf den Glukosestoffwechsel bei gesunden Erwachsenen ab 55 Jahren. Noch keine Ergebnisse veröffentlicht.

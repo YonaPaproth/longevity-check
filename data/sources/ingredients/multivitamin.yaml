@@ -27,41 +27,25 @@ efsa_notes:
     Health claims for individual vitamins and minerals are approved (e.g. 'Vitamin C contributes to the normal function of the immune system'). No specific claims for multivitamin combination products.
 
 key_studies:
-  - pmid: "23162860"
-    title: "Physicians' Health Study II: Multivitamins in the prevention of cancer"
-    authors: "Gaziano JM et al."
-    year: 2012
-    url: "https://pubmed.ncbi.nlm.nih.gov/23162860/"
+  - ref: pmid-23162860
     finding:
       de: >-
         RCT (n=14.641, 11 Jahre): Tägliches Multivitamin reduzierte Gesamtkrebsrisiko um 8 % (HR 0,92). Kein Effekt auf Herz-Kreislauf-Erkrankungen oder Mortalität.
       en: >-
         RCT (n=14,641, 11 years): Daily multivitamin reduced total cancer risk by 8% (HR 0.92). No effect on cardiovascular disease or mortality.
-  - pmid: "37612506"
-    title: "COSMOS: COcoa Supplement and Multivitamin Outcomes Study"
-    authors: "Yeung LK et al."
-    year: 2023
-    url: "https://pubmed.ncbi.nlm.nih.gov/37612506/"
+  - ref: pmid-37612506
     finding:
       de: >-
         RCT (n=21.442): Tägliches Multivitamin verlangsamte kognitiven Abbau um ~2 Jahre äquivalent bei Über-60-Jährigen. Erster großer RCT mit positivem Kognitions-Ergebnis.
       en: >-
         RCT (n=21,442): Daily multivitamin slowed cognitive decline by ~2 years equivalent in adults over 60. First large RCT with positive cognition outcome.
-  - pmid: "24344115"
-    title: "Enough is enough: stop wasting money on vitamin and mineral supplements"
-    authors: "Guallar E et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/24344115/"
+  - ref: pmid-24344115
     finding:
       de: >-
         Editorial in Annals of Internal Medicine: Basierend auf 3 großen Studien sei die Evidenz ausreichend, um von Multivitamin-Supplementierung bei gut ernährten Personen abzuraten.
       en: >-
         Editorial in Annals of Internal Medicine: Based on 3 large studies, evidence is sufficient to advise against multivitamin supplementation in well-nourished individuals.
-  - pmid: "35150542"
-    title: "Multivitamin-Multimineral Supplementation and Mortality: Meta-Analysis"
-    authors: "Park SY et al."
-    year: 2022
-    url: "https://pubmed.ncbi.nlm.nih.gov/35150542/"
+  - ref: pmid-35150542
     finding:
       de: >-
         Meta-Analyse (>390.000 Teilnehmer): Kein signifikanter Zusammenhang zwischen Multivitamin-Einnahme und Gesamtmortalität.
@@ -151,3 +135,18 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:23162860"
+  - relation: basiert_auf_studie
+    target: studie-37612506
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:37612506"
+  - relation: basiert_auf_studie
+    target: studie-24344115
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:24344115"
+  - relation: basiert_auf_studie
+    target: studie-35150542
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:35150542"

@@ -37,11 +37,7 @@ key_studies:
         Review: Chrom bleibt mechanistisch interessant, aber klinische Effekte hängen stark von Population, Ausgangsstatus und Präparat ab.
       en: >-
         Review: Chromium remains mechanistically interesting, but clinical effects depend heavily on population, baseline status, and formulation.
-  - pmid: ""
-    title: "Chromium"
-    authors: "Office of Dietary Supplements, NIH"
-    year: 2022
-    url: "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/"
+  - ref: study-chrom-ods-nih-2022
     finding:
       de: >-
         Übersicht zu Bedarf, Datenlage und Sicherheit. Chrom ist kein Wundermittel gegen metabolische Probleme.

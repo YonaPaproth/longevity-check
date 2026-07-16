@@ -25,11 +25,7 @@ efsa_notes:
     In the EU, health claims for manganese include contributions to normal energy metabolism, connective tissue formation, bone mineralization, and protection against oxidative stress. These approved claims do not justify arbitrary high-dose supplementation.
 
 key_studies:
-  - pmid: ""
-    title: "Manganese"
-    authors: "Office of Dietary Supplements, NIH"
-    year: 2022
-    url: "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/"
+  - ref: study-mangan-ods-nih-2022
     finding:
       de: >-
         Übersicht zu Funktionen, Bedarf und Sicherheit. Manganmangel ist selten, Überversorgung kann problematisch sein.

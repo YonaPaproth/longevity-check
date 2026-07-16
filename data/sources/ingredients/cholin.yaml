@@ -33,11 +33,7 @@ key_studies:
         Cholin ist essenziell für Leber, Methylierung und neurologische Entwicklung. Mangel induziert nachweisbar Fettleber und Muskelschäden beim Menschen.
       en: >-
         Choline is essential for liver, methylation, and neurological development. Deficiency demonstrably induces fatty liver and muscle damage in humans.
-  - pmid: ""
-    title: "Dietary Reference Values for choline – EFSA NDA Panel"
-    authors: "EFSA NDA Panel"
-    year: 2016
-    url: "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2016.4484"
+  - ref: study-cholin-efsa-ai-2016
     finding:
       de: >-
         EFSA legte Adequate Intake (AI) für Cholin fest: 400 mg/Tag für Erwachsene, 480 mg/Tag in der Schwangerschaft, 520 mg/Tag in der Stillzeit.

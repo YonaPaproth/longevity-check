@@ -25,11 +25,7 @@ efsa_notes:
     In the EU, health claims for copper are approved for connective tissue, energy metabolism, pigmentation, nervous system, immune system, and protection against oxidative stress. However, high long-term doses are not without risk.
 
 key_studies:
-  - pmid: ""
-    title: "Copper"
-    authors: "Office of Dietary Supplements, NIH"
-    year: 2022
-    url: "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/"
+  - ref: study-kupfer-ods-nih-2022
     finding:
       de: >-
         Übersicht zu Bedarf, Mangel, Sicherheit und Interaktionen. Kupfer ist essenziell, aber Supplemente sollten eher gezielt als pauschal eingesetzt werden.

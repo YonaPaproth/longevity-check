@@ -37,11 +37,7 @@ key_studies:
         Biotin in Supplementdosen kann Laboruntersuchungen relevant verfälschen, darunter Schilddrüsenwerte und Herzmarker.
       en: >-
         Biotin at supplement doses can significantly distort laboratory tests, including thyroid values and cardiac markers.
-  - pmid: ""
-    title: "Biotin"
-    authors: "Office of Dietary Supplements, NIH"
-    year: 2022
-    url: "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/"
+  - ref: study-vitamin-b7-ods-nih-2022
     finding:
       de: >-
         Übersicht zu Bedarf, Mangel, Sicherheit und Interaktionen. Hauptproblem moderner Hochdosisprodukte ist weniger Toxizität als Diagnostik-Interferenz.

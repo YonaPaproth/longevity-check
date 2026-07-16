@@ -37,11 +37,7 @@ key_studies:
         Die optimale Kaliumzufuhr hängt vom Kontext ab; Extreme sind nicht automatisch besser.
       en: >-
         Optimal potassium intake is context-dependent; extreme levels are not automatically beneficial.
-  - pmid: ""
-    title: "Potassium"
-    authors: "Office of Dietary Supplements, NIH"
-    year: 2022
-    url: "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
+  - ref: study-kalium-ods-nih-2022
     finding:
       de: >-
         Übersicht zu Nutzen und Risiken. Problematisch vor allem bei Nierenerkrankungen oder bestimmten Medikamenten.

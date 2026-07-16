@@ -32,11 +32,7 @@ key_studies:
         Review: Chronisch hohe Pyridoxin-Dosen können sensorische Neuropathien verursachen. Sicherheit ist stark dosis- und dauerabhängig.
       en: >-
         Review: Chronically high pyridoxine doses can cause sensory neuropathies. Safety is highly dependent on dose and duration.
-  - pmid: ""
-    title: "Vitamin B6"
-    authors: "Office of Dietary Supplements, NIH"
-    year: 2022
-    url: "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+  - ref: study-vitamin-b6-ods-nih-2022
     finding:
       de: >-
         Übersicht zu Bedarf, Mangel, Anwendungen und Risiken. B6 ist essenziell, aber Supplemente sind nicht automatisch besser als ausreichende Ernährung.

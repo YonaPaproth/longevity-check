@@ -25,11 +25,7 @@ efsa_notes:
     In the EU, phosphorus is approved for health claims regarding bone, teeth, energy metabolism and cell membranes. Since phosphorus is abundant in many foods, dietary deficiency is rare in practice.
 
 key_studies:
-  - pmid: ""
-    title: "Phosphorus"
-    authors: "Office of Dietary Supplements, NIH"
-    year: 2022
-    url: "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/"
+  - ref: study-phosphor-ods-nih-2022
     finding:
       de: >-
         Übersicht zu Funktionen, Bedarf und Risiken. In westlichen Ernährungsumgebungen ist eher zu viel als zu wenig ein Thema.

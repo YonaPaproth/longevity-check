@@ -25,11 +25,7 @@ efsa_notes:
     In the EU, molybdenum has an approved health claim for normal metabolism of sulfur-containing amino acids. This is biochemically correct but of limited practical relevance for most people.
 
 key_studies:
-  - pmid: ""
-    title: "Molybdenum"
-    authors: "Office of Dietary Supplements, NIH"
-    year: 2022
-    url: "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/"
+  - ref: study-molybdaen-ods-nih-2022
     finding:
       de: >-
         Übersicht zu Funktionen, Bedarf und Sicherheit. Mangel ist extrem selten.
