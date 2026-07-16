@@ -24,59 +24,39 @@ efsa_notes:
   de: >-
     Keine zugelassenen Health Claims für L. reuteri 6475 in der EU. Probiotika-Claims sind in der EU generell stark eingeschränkt.
   en: >-
-    Keine zugelassenen Health Claims für L. reuteri 6475 in der EU. Probiotika-Claims sind in der EU generell stark eingeschränkt.
+    No approved health claims for L. reuteri 6475 in the EU. Probiotic claims are broadly restricted across the EU regulatory framework.
 
 key_studies:
-  - pmid: "29926979"
-    title: "Lactobacillus reuteri reduces bone loss in older women with low bone mineral density: a randomized, placebo-controlled, double-blind clinical trial"
-    authors: "Nilsson AG et al."
-    year: 2018
-    url: "https://pubmed.ncbi.nlm.nih.gov/29926979/"
+  - ref: pmid-29926979
     finding:
       de: >-
         Doppelblind-RCT (n=90, 12 Monate): L. reuteri 6475 (10^10 KBE/Tag) reduzierte Knochenverlust um ~50% vs. Placebo bei Frauen 75-80 Jahre mit niedriger BMD. Tibia-vBMD: -0,83% vs. -1,85%.
       en: >-
-        Doppelblind-RCT (n=90, 12 Monate): L. reuteri 6475 (10^10 KBE/Tag) reduzierte Knochenverlust um ~50% vs. Placebo bei Frauen 75-80 Jahre mit niedriger BMD. Tibia-vBMD: -0,83% vs. -1,85%.
-  - pmid: "24700406"
-    title: "Lactobacillus reuteri ingestion prevents bone loss in a menopausal ovariectomized mouse model"
-    authors: "Britton RA et al."
-    year: 2014
-    url: "https://pubmed.ncbi.nlm.nih.gov/24700406/"
+        Double-blind RCT (n=90, 12 months): L. reuteri 6475 (10^10 CFU/day) reduced bone loss by ~50% vs. placebo in women aged 75–80 with low BMD. Tibial vBMD: -0.83% vs. -1.85%.
+  - ref: pmid-24700406
     finding:
       de: >-
         Tiermodell: L. reuteri 6475 verhinderte Knochenverlust im ovarektomierten Mausmodell (postmenopausales Äquivalent). Mechanismus: reduzierte TNF-α-Expression im Knochen.
       en: >-
-        Tiermodell: L. reuteri 6475 verhinderte Knochenverlust im ovarektomierten Mausmodell (postmenopausales Äquivalent). Mechanismus: reduzierte TNF-α-Expression im Knochen.
-  - pmid: "23527013"
-    title: "Lactobacillus reuteri 6475 increases bone density in intact females at multiple skeletal sites"
-    authors: "McCabe LR et al."
-    year: 2013
-    url: "https://pubmed.ncbi.nlm.nih.gov/23527013/"
+        Animal model: L. reuteri 6475 prevented bone loss in an ovariectomised mouse model (postmenopausal equivalent). Mechanism: reduced TNF-α expression in bone tissue.
+  - ref: pmid-23527013
     finding:
       de: >-
         Tiermodell: L. reuteri 6475 erhöhte Knochendichte bei intakten weiblichen Mäusen an multiplen Skelettlokalisationen.
       en: >-
-        Tiermodell: L. reuteri 6475 erhöhte Knochendichte bei intakten weiblichen Mäusen an multiplen Skelettlokalisationen.
-  - pmid: "25700159"
-    title: "Loss of bone and Wnt10b expression in male type 1 diabetic mice is blocked by the probiotic L. reuteri"
-    authors: "Zhang J et al."
-    year: 2015
-    url: "https://pubmed.ncbi.nlm.nih.gov/25700159/"
+        Animal model: L. reuteri 6475 increased bone density in intact female mice at multiple skeletal sites.
+  - ref: pmid-25700159
     finding:
       de: >-
         Tiermodell: L. reuteri 6475 verhinderte diabetischen Knochenverlust bei Typ-1-Diabetes-Mäusen über Wnt10b-Signalweg.
       en: >-
-        Tiermodell: L. reuteri 6475 verhinderte diabetischen Knochenverlust bei Typ-1-Diabetes-Mäusen über Wnt10b-Signalweg.
-  - pmid: ""
-    title: "Osteomikrobiologie - aktuelle Literaturübersicht"
-    authors: "Tornatore S"
-    year: 2023
-    url: "https://doi.org/10.1024/1661-8157/a004082"
+        Animal model: L. reuteri 6475 blocked diabetic bone loss in type 1 diabetes mice via the Wnt10b signalling pathway.
+  - ref: study-tornatore-2023-osteomikrobiologie
     finding:
       de: >-
         Literaturübersicht zur Darm-Knochen-Achse: Dysbiose führt zu Darmbarriere-Schäden → Entzündung → erhöhte Osteoklastenbildung. L. reuteri 6475 als vielversprechender präventiver Ansatz.
       en: >-
-        Literaturübersicht zur Darm-Knochen-Achse: Dysbiose führt zu Darmbarriere-Schäden → Entzündung → erhöhte Osteoklastenbildung. L. reuteri 6475 als vielversprechender präventiver Ansatz.
+        Literature review on the gut-bone axis: dysbiosis leads to intestinal barrier damage → systemic inflammation → increased osteoclast formation. L. reuteri 6475 identified as a promising preventive approach.
 
 locales:
   de:
@@ -114,9 +94,9 @@ locales:
 
   en:
     summary: >-
-      Stammspezifisches Probiotikum mit RCT-Evidenz für Knochengesundheit bei älteren Frauen. Reduzierte Knochenverlust um ~50% über 12 Monate.
+      Strain-specific probiotic with RCT evidence for bone health in older women. Reduced bone loss by ~50% over 12 months.
     evidenceSummary: >-
-      Ein gut designter RCT (Nilsson 2018, n=90, 12 Monate, Journal of Internal Medicine) zeigte signifikant reduzierten Knochenverlust bei älteren Frauen. Mechanismus über die Darm-Knochen-Achse: anti-inflammatorisch, weniger Osteoklasten-Aktivierung. Drei unterstützende Tierstudien.
+      One well-designed RCT (Nilsson 2018, n=90, 12 months, Journal of Internal Medicine) showed significantly reduced bone loss in older women. Mechanism via the gut-bone axis: anti-inflammatory, reduced osteoclast activation. Three supporting animal studies.
     body: |
       ## Mechanism of Action
       

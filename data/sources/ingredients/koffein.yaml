@@ -27,11 +27,7 @@ efsa_notes:
     EFSA conducted a comprehensive safety assessment of caffeine in 2011 and published a dedicated opinion in 2015. No authorised health claims for caffeine are currently listed in the EU register under Regulation (EC) No 1924/2006 (as of 2024), despite EFSA's scientific opinions documenting positive findings on alertness, concentration, and endurance. Beverages containing ≥150 mg/L caffeine must carry the mandatory EU label statement "High caffeine content. Not recommended for children or pregnant or breastfeeding women."
 
 key_studies:
-  - pmid: ""
-    title: "Scientific Opinion on the safety of caffeine – EFSA Panel on Dietetic Products"
-    authors: "EFSA NDA Panel"
-    year: 2015
-    url: "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4102"
+  - ref: study-efsa-caffeine-2015
     finding:
       de: >-
         EFSA-Gutachten: Einzeldosen bis 200 mg Koffein gelten bei gesunden Erwachsenen als sicher. 400 mg/Tag aus allen Quellen gilt als Obergrenze für Erwachsene ohne Risiko. Schwangere: max. 200 mg/Tag.
