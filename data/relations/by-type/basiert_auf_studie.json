@@ -1,6 +1,6 @@
 {
   "type": "basiert_auf_studie",
-  "count": 406,
+  "count": 407,
   "relations": [
     {
       "subject": "5-htp",
@@ -674,8 +674,15 @@
     },
     {
       "subject": "fucoidan",
-      "target": "studie-fucoidan-grip",
-      "confidence": 0.9
+      "target": "studie-40732054",
+      "confidence": 0.9,
+      "source": "pmid:40732054"
+    },
+    {
+      "subject": "fucoidan",
+      "target": "studie-41249370",
+      "confidence": 0.9,
+      "source": "pmid:41249370"
     },
     {
       "subject": "gaba",

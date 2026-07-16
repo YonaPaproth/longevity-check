@@ -739,27 +739,37 @@
     {
       "subject": "fucoidan",
       "target": "immunsystem",
-      "confidence": 0.8
+      "confidence": 0.65,
+      "evidence_strength": "moderat",
+      "note": "NK-Zell-Aktivierung und Makrophagen-Modulation in präklinischen Daten; klinische Humanstudien begrenzt"
     },
     {
       "subject": "fucoidan",
       "target": "verdauung",
-      "confidence": 0.8
+      "confidence": 0.75,
+      "evidence_strength": "hoch",
+      "note": "Präbiotischer Mechanismus: RCT 2025 zeigt Bifidobacterium-Zunahme und Darmbarriere-Stärkung (PMID 40732054)"
     },
     {
       "subject": "fucoidan",
       "target": "herz-kreislauf",
-      "confidence": 0.6
+      "confidence": 0.55,
+      "evidence_strength": "moderat",
+      "note": "Moderate Evidenz für LDL-Senkung und diastolischen Blutdruckeffekt aus kleineren Studien"
     },
     {
       "subject": "fucoidan",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.55,
+      "evidence_strength": "moderat",
+      "note": "NF-κB-Hemmung; anti-inflammatorische Effekte in präklinischen Modellen gut belegt, Humanstudien begrenzt"
     },
     {
       "subject": "fucoidan",
-      "target": "knochen",
-      "confidence": 0.6
+      "target": "muskel",
+      "confidence": 0.6,
+      "evidence_strength": "moderat",
+      "note": "RCT 2025: Fucoidan-Supplementierung verbesserte Peak Power und Lean Body Mass während Krafttraining (PMID 41249370)"
     },
     {
       "subject": "gaba",

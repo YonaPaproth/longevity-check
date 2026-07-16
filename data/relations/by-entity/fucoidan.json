@@ -5,49 +5,55 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "immunsystem",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.65,
+      "evidence_strength": "moderat",
+      "note": "NK-Zell-Aktivierung und Makrophagen-Modulation in präklinischen Daten; klinische Humanstudien begrenzt"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "verdauung",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.75,
+      "evidence_strength": "hoch",
+      "note": "Präbiotischer Mechanismus: RCT 2025 zeigt Bifidobacterium-Zunahme und Darmbarriere-Stärkung (PMID 40732054)"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "herz-kreislauf",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.55,
+      "evidence_strength": "moderat",
+      "note": "Moderate Evidenz für LDL-Senkung und diastolischen Blutdruckeffekt aus kleineren Studien"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "entzuendung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.55,
+      "evidence_strength": "moderat",
+      "note": "NF-κB-Hemmung; anti-inflammatorische Effekte in präklinischen Modellen gut belegt, Humanstudien begrenzt"
     },
     {
       "relation": "wird_eingesetzt_fuer",
-      "target": "knochen",
+      "target": "muskel",
       "direction": "outgoing",
-      "confidence": 0.6
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "nfkb-hemmung",
-      "direction": "outgoing",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "darmbarriere-staerkung",
-      "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.6,
+      "evidence_strength": "moderat",
+      "note": "RCT 2025: Fucoidan-Supplementierung verbesserte Peak Power und Lean Body Mass während Krafttraining (PMID 41249370)"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-blutgerinnungsstoerung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Antikoagulative Eigenschaften: strukturelle Ähnlichkeit mit Heparin — Vorsicht bei Blutverdünnern"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kontra-schilddruesenerkrankung",
+      "direction": "outgoing",
+      "confidence": 0.5,
+      "note": "Variabler Jodgehalt je nach Algenquelle"
     },
     {
       "relation": "hat_regulatorischen_status",
@@ -57,9 +63,17 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-fucoidan-grip",
+      "target": "studie-40732054",
       "direction": "outgoing",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "source": "pmid:40732054"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-41249370",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41249370"
     }
   ]
 }

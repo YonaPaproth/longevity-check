@@ -2,13 +2,15 @@
   "id": "fucoidan",
   "type": "ingredient",
   "name": "Fucoidan",
-  "summary": "Fucoidan ist ein sulfatiertes Polysaccharid aus Braunalgen mit wachsender Evidenz für Immunmodulation, Darmgesundheit und kardiovaskuläre Marker.",
+  "summary": "Fucoidan ist ein sulfatiertes Polysaccharid aus Braunalgen mit wachsender Evidenz für präbiotische Darmwirkung, Muskelgesundheit und kardiovaskuläre Marker.",
   "aliases": [
     "Fucoidane",
     "Brown Seaweed Extract",
     "Braunalgen-Extrakt",
     "Undaria pinnatifida Extract",
-    "Fucus vesiculosus Extract"
+    "Fucus vesiculosus Extract",
+    "Oligo-Fucoidan",
+    "OliFuco"
   ],
   "category": "general-health",
   "evidenceLevel": 3,

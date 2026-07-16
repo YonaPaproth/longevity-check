@@ -1,6 +1,6 @@
 {
   "type": "wirkt_ueber",
-  "count": 145,
+  "count": 143,
   "relations": [
     {
       "subject": "5-htp",
@@ -254,16 +254,6 @@
       "subject": "folsaeure",
       "target": "epigenetisch",
       "confidence": 0.7
-    },
-    {
-      "subject": "fucoidan",
-      "target": "nfkb-hemmung",
-      "confidence": 0.7
-    },
-    {
-      "subject": "fucoidan",
-      "target": "darmbarriere-staerkung",
-      "confidence": 0.8
     },
     {
       "subject": "gaba",

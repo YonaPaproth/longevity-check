@@ -1,6 +1,6 @@
 {
   "type": "kontraindiziert_bei",
-  "count": 67,
+  "count": 68,
   "relations": [
     {
       "subject": "5-htp",
@@ -114,7 +114,14 @@
     {
       "subject": "fucoidan",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "note": "Antikoagulative Eigenschaften: strukturelle Ähnlichkeit mit Heparin — Vorsicht bei Blutverdünnern"
+    },
+    {
+      "subject": "fucoidan",
+      "target": "kontra-schilddruesenerkrankung",
+      "confidence": 0.5,
+      "note": "Variabler Jodgehalt je nach Algenquelle"
     },
     {
       "subject": "gynostemma",
