@@ -1,0 +1,270 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Agent API"
+  description="Structured JSON endpoints for supplement data: ingredients, products, studies, claims, and knowledge graph — machine-readable for AI agents."
+  locale="en"
+  hreflang={{ de: '/tools/api', en: '/en/tools/api' }}
+>
+  <div class="max-w-4xl mx-auto px-4 py-10">
+
+    <nav class="text-xs text-slate-400 mb-6">
+      <a href="/en" class="hover:text-teal-600">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-600">API</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-slate-900 mb-4">MikroScore API</h1>
+    <p class="text-lg text-slate-600 leading-relaxed mb-8 max-w-3xl">
+      MikroScore is not just a website — it's a structured knowledge system.
+      All data is available via machine-readable JSON endpoints so AI agents, chatbots, and other tools can work directly with our supplement reviews.
+    </p>
+
+    <!-- Quick Start -->
+    <div class="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-10">
+      <h2 class="text-lg font-semibold text-teal-900 mb-3">Quick Start</h2>
+      <div class="bg-slate-900 text-teal-300 rounded-lg p-4 font-mono text-sm overflow-x-auto">
+        <p class="text-slate-400"># All ingredients with evidence ratings</p>
+        <p>curl https://mikroscore.com/data/wirkstoffe.json</p>
+        <p class="mt-2 text-slate-400"># All products with transparency scores</p>
+        <p>curl https://mikroscore.com/data/products.json</p>
+        <p class="mt-2 text-slate-400"># Knowledge graph (nodes + edges)</p>
+        <p>curl https://mikroscore.com/data/graph.json</p>
+      </div>
+    </div>
+
+    <!-- Endpoints -->
+    <h2 class="text-2xl font-bold text-slate-900 mb-6">Endpoints</h2>
+
+    <!-- Ingredients -->
+    <div class="bg-white border border-slate-200 rounded-xl p-6 mb-6">
+      <div class="flex items-center gap-3 mb-3">
+        <span class="bg-teal-100 text-teal-700 text-xs font-bold rounded px-2 py-1">GET</span>
+        <code class="text-sm font-mono text-slate-800">/data/wirkstoffe.json</code>
+      </div>
+      <p class="text-sm text-slate-600 mb-4">
+        All 119 ingredient dossiers with evidence level, EFSA status, safety rating, and linked studies.
+      </p>
+      <details class="group">
+        <summary class="text-xs font-medium text-teal-600 cursor-pointer hover:text-teal-800">Example response ↓</summary>
+        <pre class="mt-2 bg-slate-50 rounded-lg p-4 text-xs overflow-x-auto text-slate-700">{`{
+  "ingredient_id": "magnesium",
+  "name": "Magnesium",
+  "category": "metabolic",
+  "evidenceLevel": 4,
+  "efsaClaimsAllowed": true,
+  "safetyRating": "hoch",
+  "typicalDoseMg": 300,
+  "aliases": ["Mg", "Magnesiumcitrat"],
+  "keyStudies": [{
+    "title": "The effect of magnesium supplementation on...",
+    "pmid": "23853635",
+    "year": 2013,
+    "finding": "Significant blood pressure reduction..."
+  }],
+  "updatedAt": "2026-07-18"
+}`}</pre>
+      </details>
+      <div class="mt-3 text-xs text-slate-500">
+        <strong>Use for:</strong> Ingredient recommendations, evidence checks, dosage info, EFSA status
+      </div>
+    </div>
+
+    <!-- Products -->
+    <div class="bg-white border border-slate-200 rounded-xl p-6 mb-6">
+      <div class="flex items-center gap-3 mb-3">
+        <span class="bg-teal-100 text-teal-700 text-xs font-bold rounded px-2 py-1">GET</span>
+        <code class="text-sm font-mono text-slate-800">/data/products.json</code>
+      </div>
+      <p class="text-sm text-slate-600 mb-4">
+        All 293 product reviews with transparency score, price per day, verdict, and availability.
+      </p>
+      <details class="group">
+        <summary class="text-xs font-medium text-teal-600 cursor-pointer hover:text-teal-800">Example response ↓</summary>
+        <pre class="mt-2 bg-slate-50 rounded-lg p-4 text-xs overflow-x-auto text-slate-700">{`{
+  "product_id": "thorne-magnesium-bisglycinate",
+  "name": "Thorne Magnesium Bisglycinate",
+  "brand": "Thorne",
+  "ingredientId": "magnesium",
+  "pricePerDay": 0.44,
+  "doseMg": 200,
+  "form": "capsule",
+  "transparencyScore": 8.4,
+  "verdict": "empfehlenswert",
+  "availableInDE": false,
+  "url": "https://mikroscore.com/produkte/thorne-magnesium-bisglycinate"
+}`}</pre>
+      </details>
+      <div class="mt-3 text-xs text-slate-500">
+        <strong>Use for:</strong> Product comparisons, price analysis, availability checks, verdict-based recommendations
+      </div>
+    </div>
+
+    <!-- Knowledge Graph -->
+    <div class="bg-white border border-slate-200 rounded-xl p-6 mb-6">
+      <div class="flex items-center gap-3 mb-3">
+        <span class="bg-teal-100 text-teal-700 text-xs font-bold rounded px-2 py-1">GET</span>
+        <code class="text-sm font-mono text-slate-800">/data/graph.json</code>
+        <span class="text-xs text-slate-400">(DE)</span>
+        <code class="text-sm font-mono text-slate-800">/data/graph.en.json</code>
+        <span class="text-xs text-slate-400">(EN)</span>
+      </div>
+      <p class="text-sm text-slate-600 mb-4">
+        The full knowledge graph: 928 entities, 1953 relations. Contains nodes (ingredients, mechanisms, symptoms, studies, regulatory) and edges (relationships with type and confidence).
+      </p>
+      <details class="group">
+        <summary class="text-xs font-medium text-teal-600 cursor-pointer hover:text-teal-800">Example response ↓</summary>
+        <pre class="mt-2 bg-slate-50 rounded-lg p-4 text-xs overflow-x-auto text-slate-700">{`{
+  "nodes": [{
+    "id": "magnesium",
+    "type": "ingredient",
+    "label": "Magnesium",
+    "evidenceLevel": 4,
+    "efsaApproved": true,
+    "updatedAt": "2026-07-18"
+  }],
+  "edges": [{
+    "source": "magnesium",
+    "target": "blutdruck",
+    "relation": "wird_eingesetzt_fuer",
+    "confidence": 0.9
+  }, {
+    "source": "magnesium",
+    "target": "studie-23853635",
+    "relation": "basiert_auf_studie",
+    "confidence": 0.9
+  }]
+}`}</pre>
+      </details>
+      <div class="mt-3 text-xs text-slate-500">
+        <strong>Use for:</strong> Knowledge graph exploration, mechanism reasoning, multi-hop queries
+      </div>
+    </div>
+
+    <!-- Claims -->
+    <div class="bg-white border border-slate-200 rounded-xl p-6 mb-6">
+      <div class="flex items-center gap-3 mb-3">
+        <span class="bg-teal-100 text-teal-700 text-xs font-bold rounded px-2 py-1">GET</span>
+        <code class="text-sm font-mono text-slate-800">/data/claims.json</code>
+      </div>
+      <p class="text-sm text-slate-600 mb-4">
+        All 19 claims checks with verdicts (supported / misleading / unsupported / unclear).
+      </p>
+      <div class="mt-3 text-xs text-slate-500">
+        <strong>Use for:</strong> Fact checking, marketing claim validation, content moderation
+      </div>
+    </div>
+
+    <!-- Data Model -->
+    <h2 class="text-2xl font-bold text-slate-900 mb-6 mt-12">Data Model</h2>
+
+    <div class="bg-white border border-slate-200 rounded-xl p-6 mb-6">
+      <h3 class="font-semibold text-slate-800 mb-3">Entity Types</h3>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-slate-200">
+              <th class="text-left py-2 pr-4 text-slate-600 font-medium">Type</th>
+              <th class="text-left py-2 pr-4 text-slate-600 font-medium">Count</th>
+              <th class="text-left py-2 text-slate-600 font-medium">Description</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-700">
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-teal-700">ingredient</td><td class="pr-4">119</td><td>Ingredients with evidence ratings</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-teal-700">product</td><td class="pr-4">293</td><td>Products with transparency scores</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-teal-700">mechanism</td><td class="pr-4">24</td><td>Mechanisms of action (e.g. NMDA antagonist)</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-teal-700">symptom</td><td class="pr-4">51</td><td>Symptoms and conditions</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-teal-700">study</td><td class="pr-4">438</td><td>Studies with PMID and metadata</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-teal-700">regulatory</td><td class="pr-4">2</td><td>Regulatory classifications (EFSA)</td></tr>
+            <tr><td class="py-2 pr-4 font-mono text-teal-700">contraindication</td><td class="pr-4">~15</td><td>Contraindications</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="bg-white border border-slate-200 rounded-xl p-6 mb-6">
+      <h3 class="font-semibold text-slate-800 mb-3">Relation Types</h3>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-slate-200">
+              <th class="text-left py-2 pr-4 text-slate-600 font-medium">Relation</th>
+              <th class="text-left py-2 pr-4 text-slate-600 font-medium">Count</th>
+              <th class="text-left py-2 text-slate-600 font-medium">Meaning</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-700">
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-xs">wird_eingesetzt_fuer</td><td class="pr-4">556</td><td>Ingredient → Symptom/Indication</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-xs">basiert_auf_studie</td><td class="pr-4">413</td><td>Ingredient → Study (with PMID)</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-xs">enthaelt</td><td class="pr-4">363</td><td>Product → Ingredient</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-xs">benoetigt_biomarker_check</td><td class="pr-4">144</td><td>Ingredient → Relevant biomarker</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-xs">wirkt_ueber</td><td class="pr-4">143</td><td>Ingredient → Mechanism</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-xs">hat_regulatorischen_status</td><td class="pr-4">122</td><td>Ingredient → EFSA status</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-xs">hat_interaktion_mit</td><td class="pr-4">68</td><td>Ingredient ↔ Ingredient (interaction)</td></tr>
+            <tr class="border-b border-slate-100"><td class="py-2 pr-4 font-mono text-xs">kontraindiziert_bei</td><td class="pr-4">68</td><td>Ingredient → Contraindication</td></tr>
+            <tr><td class="py-2 pr-4 font-mono text-xs">hat_nebenwirkung</td><td class="pr-4">45</td><td>Ingredient → Side effect</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Agent Examples -->
+    <h2 class="text-2xl font-bold text-slate-900 mb-6 mt-12">Agent Examples</h2>
+
+    <div class="space-y-4 mb-10">
+      <div class="bg-white border border-slate-200 rounded-xl p-6">
+        <h3 class="font-semibold text-slate-800 mb-2">"Which magnesium product is highest rated?"</h3>
+        <pre class="bg-slate-50 rounded-lg p-4 text-xs overflow-x-auto text-slate-700 mt-3">{`# 1. Fetch all products for magnesium
+products = GET /data/products.json
+magnesium_products = filter(products, ingredientId == "magnesium")
+
+# 2. Sort by transparency score
+best = sort(magnesium_products, by=transparencyScore, desc)[0]
+# → Thorne Magnesium Bisglycinate (8.4)`}</pre>
+      </div>
+
+      <div class="bg-white border border-slate-200 rounded-xl p-6">
+        <h3 class="font-semibold text-slate-800 mb-2">"Are there studies linking ashwagandha to stress reduction?"</h3>
+        <pre class="bg-slate-50 rounded-lg p-4 text-xs overflow-x-auto text-slate-700 mt-3">{`# 1. Fetch knowledge graph
+graph = GET /data/graph.json
+
+# 2. Find ashwagandha → wird_eingesetzt_fuer → stress
+# 3. Find ashwagandha → basiert_auf_studie → studie-PMIDs
+# 4. For each study: check study_type and evidence_quality`}</pre>
+      </div>
+
+      <div class="bg-white border border-slate-200 rounded-xl p-6">
+        <h3 class="font-semibold text-slate-800 mb-2">"Which supplements have EFSA-approved health claims?"</h3>
+        <pre class="bg-slate-50 rounded-lg p-4 text-xs overflow-x-auto text-slate-700 mt-3">{`ingredients = GET /data/wirkstoffe.json
+efsa_approved = filter(ingredients, efsaClaimsAllowed == true)
+# → List of all EFSA-approved ingredients`}</pre>
+      </div>
+    </div>
+
+    <!-- Technical Notes -->
+    <h2 class="text-2xl font-bold text-slate-900 mb-6 mt-12">Technical Notes</h2>
+
+    <div class="bg-white border border-slate-200 rounded-xl p-6 mb-8">
+      <ul class="space-y-2 text-sm text-slate-700">
+        <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> All endpoints return <code class="bg-slate-100 px-1 rounded text-xs">application/json</code></li>
+        <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> Caching: <code class="bg-slate-100 px-1 rounded text-xs">Cache-Control: public, max-age=3600</code> (1 hour)</li>
+        <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> No authentication required — all data is public</li>
+        <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> No rate limiting, but please use fairly (static CDN, no database)</li>
+        <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> CORS: open (static files on Vercel CDN)</li>
+        <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> Every entity has <code class="bg-slate-100 px-1 rounded text-xs">updatedAt</code> for freshness checks</li>
+        <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> Studies include <code class="bg-slate-100 px-1 rounded text-xs">study_type</code>, <code class="bg-slate-100 px-1 rounded text-xs">evidence_quality</code>, <code class="bg-slate-100 px-1 rounded text-xs">n</code>, <code class="bg-slate-100 px-1 rounded text-xs">coi</code> (where available)</li>
+        <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> Source code: <a href="https://github.com/YonaPaproth/longevity-check" class="text-teal-600 hover:underline">github.com/YonaPaproth/longevity-check</a></li>
+      </ul>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-5 text-xs text-amber-800 leading-5">
+      <strong>Note:</strong> The API data is provided for informational and structured processing purposes.
+      It does not replace professional medical advice. All information without warranty.
+      Questions about usage: <a href="/en/impressum" class="underline">Contact</a>.
+    </div>
+
+  </div>
+</BaseLayout>

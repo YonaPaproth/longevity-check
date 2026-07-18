@@ -18,6 +18,7 @@ export const de = {
       items: [
         { label: 'Wissensgraph', href: '/graph', desc: 'Interaktiver Knowledge Graph' },
         { label: 'Stack Builder', href: '/stack-builder', desc: 'Supplement-Stack zusammenstellen' },
+        { label: 'API', href: '/tools/api', desc: 'Strukturierte Daten für Agenten' },
       ],
     },
     researchReview:{ label: 'Studien',    href: '/research-review' },

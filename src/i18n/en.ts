@@ -20,6 +20,7 @@ export const en: Dict = {
       items: [
         { label: 'Knowledge Graph', href: '/en/graph', desc: 'Interactive knowledge graph' },
         { label: 'Stack Builder', href: '/en/stack-builder', desc: 'Build your supplement stack' },
+        { label: 'API', href: '/en/tools/api', desc: 'Structured data for agents' },
       ],
     },
     researchReview:{ label: 'Research',  href: '/en/research-review' },
