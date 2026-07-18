@@ -61,7 +61,7 @@ const STRUCTURED_LANES: Array<{ type: string; yFrac: number }> = [
 ];
 
 const LANE_ROWS: Record<string, { rows: number; span: number }> = {
-  ingredient: { rows: 3, span: 0.14 },
+  ingredient: { rows: 5, span: 0.20 },
   mechanism: { rows: 2, span: 0.08 },
   symptom: { rows: 2, span: 0.08 },
   contraindication: { rows: 2, span: 0.08 },
@@ -119,9 +119,27 @@ function isMobileViewport() {
   return window.innerWidth < 1024;
 }
 
-function fitElements(target = cy?.elements()) {
+function fitElements(target = cy?.elements(), options?: { ingredientOnly?: boolean }) {
   if (!cy || !target || target.length === 0) return;
   cy.resize();
+
+  if (options?.ingredientOnly) {
+    // Ingredient-first view: fit to full container so lane position is preserved
+    // Use generous padding and don't zoom in too aggressively
+    cy.fit(target, 120);
+    const maxZoom = 0.8; // Don't zoom in too much on ~119 nodes
+    if (cy.zoom() > maxZoom) {
+      cy.zoom(maxZoom);
+      cy.center(target);
+    }
+    const minZoom = 0.3;
+    if (cy.zoom() < minZoom) {
+      cy.zoom(minZoom);
+      cy.center(target);
+    }
+    return;
+  }
+
   cy.fit(target, 64);
   const minUsefulZoom = 0.42;
   if (cy.zoom() < minUsefulZoom) {
@@ -710,7 +728,7 @@ function applyFilters() {
       e.addClass('ks-hidden').removeClass('ks-faded ks-active');
     });
 
-    fitElements(cy.elements().filter(ele => !ele.hasClass('ks-hidden')));
+    fitElements(cy.elements().filter(ele => !ele.hasClass('ks-hidden')), { ingredientOnly: true });
     return;
   }
 
