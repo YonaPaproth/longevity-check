@@ -1,8 +1,8 @@
 {
   "generated": "2026-07-18",
-  "total": 436,
-  "with_type": 2,
-  "with_reviews": 9,
+  "total": 437,
+  "with_type": 3,
+  "with_reviews": 10,
   "with_ingredients": 401,
   "studies": [
     {
@@ -107,6 +107,23 @@
       "authors": "Sagi SK et al.",
       "year": "2026",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42435069/",
+      "study_type": "RCT",
+      "evidence_quality": "moderate",
+      "n": "",
+      "coi": "unclear",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": [
+        "2026-07-18"
+      ]
+    },
+    {
+      "id": "pmid-42467594",
+      "pmid": "42467594",
+      "title": "Astaxanthin Supplementation Lowers Respiratory Exchange Ratio During Submaximal Cycling in Females: A Randomized, Double-Blind, Placebo-Controlled Crossover Trial",
+      "authors": "Various",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42467594/",
       "study_type": "RCT",
       "evidence_quality": "moderate",
       "n": "",

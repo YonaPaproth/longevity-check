@@ -49,6 +49,12 @@ key_studies:
         RCT bei Sportlern: Astaxanthin verbesserte Immunmarker nach intensivem Training, reduzierte Oxidationsmarker.
       en: >-
         RCT in athletes: Astaxanthin improved immune markers after intensive training and reduced oxidative stress biomarkers compared to placebo.
+  - ref: pmid-42467594
+    finding:
+      de: >-
+        Doppelblinder Crossover-RCT bei Frauen: Astaxanthin-Supplementierung senkte den respiratorischen Austauschquotienten (RER) signifikant beim submaximalen Radfahren — Hinweis auf stärkere Fettoxidation. Frauenspezifisches Design in einem oft männlich-dominierten Forschungsbereich.
+      en: >-
+        Double-blind crossover RCT in females: Astaxanthin supplementation significantly lowered the respiratory exchange ratio (RER) during submaximal cycling — indicating greater fat oxidation. Female-specific design in a male-dominated research area. Methodologically clean but limited to a surrogate endpoint.
 
 locales:
   de:
