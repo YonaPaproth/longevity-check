@@ -5,49 +5,57 @@
       "relation": "hat_interaktion_mit",
       "target": "apigenin",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "ashwagandha",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "schlaf",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "stress",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "gaba-rezeptor",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
@@ -61,20 +69,23 @@
       "target": "studie-12408439",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12408439"
+      "source": "pmid:12408439",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-16971751",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:16971751"
+      "source": "pmid:16971751",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "l-theanin",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

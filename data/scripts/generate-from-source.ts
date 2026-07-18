@@ -348,10 +348,68 @@ function generateEntity(source: IngredientSource): object {
 
 // ── KG relations generation ───────────────────────────────────────────────────
 
+// ── Relation enrichment: source + evidence_level ────────────────────────────
+
+const STUDY_TYPE_TO_EVIDENCE: Record<string, string> = {
+  'Meta-Analysis': 'meta_analysis',
+  'Systematic Review': 'meta_analysis',
+  'RCT': 'human_rct',
+  'Controlled Clinical Trial': 'human_rct',
+  'Clinical Trial': 'human_rct',
+  'Clinical Trial Phase I': 'human_rct',
+  'Clinical Trial Phase II': 'human_rct',
+  'Clinical Trial Phase III': 'human_rct',
+  'Multicenter Study': 'human_rct',
+  'Observational Study': 'human_observational',
+  'Comparative Study': 'human_observational',
+  'Evaluation Study': 'human_observational',
+  'Validation Study': 'human_observational',
+  'Twin Study': 'human_observational',
+  'Case Report': 'human_observational',
+  'Review': 'expert_review',
+  'Preprint': 'expert_review',
+  'Journal Article': 'expert_review',
+};
+
+function enrichRelations(relations: Array<Record<string, unknown>>): Array<Record<string, unknown>> {
+  return relations.map(rel => {
+    const enriched = { ...rel };
+
+    // Add source if missing
+    if (!enriched.source) {
+      if (rel.relation === 'hat_regulatorischen_status') {
+        enriched.source = 'efsa-register';
+      } else if (rel.relation === 'basiert_auf_studie') {
+        // Should already have source, but fallback
+        enriched.source = `pmid:${String(rel.target ?? '').replace('studie-', '')}`;
+      } else {
+        enriched.source = 'expert-review';
+      }
+    }
+
+    // Add evidence_level for basiert_auf_studie from study registry
+    if (rel.relation === 'basiert_auf_studie' && rel.target) {
+      const targetId = String(rel.target);
+      // Find study in registry by studie-XXXXX format
+      for (const [studyId, meta] of studyRegistry) {
+        const studieKey = `studie-${meta.pmid || studyId.replace('pmid-', '')}`;
+        if (studieKey === targetId || studyId === targetId) {
+          if (meta.study_type) {
+            enriched.evidence_level = STUDY_TYPE_TO_EVIDENCE[meta.study_type] ?? 'expert_review';
+          }
+          break;
+        }
+      }
+    }
+
+    return enriched;
+  });
+}
+
 function generateRelations(source: IngredientSource): object {
   return {
     entity: source.id,
-    relations: source.relations,
+    relations: enrichRelations(source.relations),
   };
 }
 

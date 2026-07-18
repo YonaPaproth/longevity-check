@@ -5,19 +5,22 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "energie",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "fertilitat",
       "direction": "outgoing",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "relation": "basiert_auf_studie",
@@ -31,14 +34,16 @@
       "target": "studie-12472620",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12472620"
+      "source": "pmid:12472620",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-18654924",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:18654924"
+      "source": "pmid:18654924",
+      "evidence_level": "expert_review"
     }
   ]
 }

@@ -5,97 +5,113 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "immunsystem",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "blutdruck",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "blutzucker",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "herz-kreislauf",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "gelenke",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "haut",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "muskel",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "verdauung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "knochen",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "leber",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "vitamin-d-spiegel",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "vitamin-d3",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-blutgerinnungsstoerung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
@@ -116,7 +132,8 @@
       "target": "studie-17634462",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17634462"
+      "source": "pmid:17634462",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
@@ -130,7 +147,8 @@
       "target": "studie-22516723",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22516723"
+      "source": "pmid:22516723",
+      "evidence_level": "expert_review"
     }
   ]
 }

@@ -5,43 +5,50 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "immunsystem",
       "direction": "outgoing",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "verdauung",
       "direction": "outgoing",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "schilddruese",
       "direction": "outgoing",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-schilddruesenerkrankung",
       "direction": "outgoing",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-schwangerschaft",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-schilddruesenueberfunktion",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     }
   ]
 }

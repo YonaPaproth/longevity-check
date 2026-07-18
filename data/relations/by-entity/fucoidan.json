@@ -7,7 +7,8 @@
       "direction": "outgoing",
       "confidence": 0.65,
       "evidence_strength": "moderat",
-      "note": "NK-Zell-Aktivierung und Makrophagen-Modulation in präklinischen Daten; klinische Humanstudien begrenzt"
+      "note": "NK-Zell-Aktivierung und Makrophagen-Modulation in präklinischen Daten; klinische Humanstudien begrenzt",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -15,7 +16,8 @@
       "direction": "outgoing",
       "confidence": 0.75,
       "evidence_strength": "hoch",
-      "note": "Präbiotischer Mechanismus: RCT 2025 zeigt Bifidobacterium-Zunahme und Darmbarriere-Stärkung (PMID 40732054)"
+      "note": "Präbiotischer Mechanismus: RCT 2025 zeigt Bifidobacterium-Zunahme und Darmbarriere-Stärkung (PMID 40732054)",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -23,7 +25,8 @@
       "direction": "outgoing",
       "confidence": 0.55,
       "evidence_strength": "moderat",
-      "note": "Moderate Evidenz für LDL-Senkung und diastolischen Blutdruckeffekt aus kleineren Studien"
+      "note": "Moderate Evidenz für LDL-Senkung und diastolischen Blutdruckeffekt aus kleineren Studien",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -31,7 +34,8 @@
       "direction": "outgoing",
       "confidence": 0.55,
       "evidence_strength": "moderat",
-      "note": "NF-κB-Hemmung; anti-inflammatorische Effekte in präklinischen Modellen gut belegt, Humanstudien begrenzt"
+      "note": "NF-κB-Hemmung; anti-inflammatorische Effekte in präklinischen Modellen gut belegt, Humanstudien begrenzt",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -39,27 +43,31 @@
       "direction": "outgoing",
       "confidence": 0.6,
       "evidence_strength": "moderat",
-      "note": "RCT 2025: Fucoidan-Supplementierung verbesserte Peak Power und Lean Body Mass während Krafttraining (PMID 41249370)"
+      "note": "RCT 2025: Fucoidan-Supplementierung verbesserte Peak Power und Lean Body Mass während Krafttraining (PMID 41249370)",
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-blutgerinnungsstoerung",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Antikoagulative Eigenschaften: strukturelle Ähnlichkeit mit Heparin — Vorsicht bei Blutverdünnern"
+      "note": "Antikoagulative Eigenschaften: strukturelle Ähnlichkeit mit Heparin — Vorsicht bei Blutverdünnern",
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-schilddruesenerkrankung",
       "direction": "outgoing",
       "confidence": 0.5,
-      "note": "Variabler Jodgehalt je nach Algenquelle"
+      "note": "Variabler Jodgehalt je nach Algenquelle",
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
@@ -73,7 +81,8 @@
       "target": "studie-41249370",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:41249370"
+      "source": "pmid:41249370",
+      "evidence_level": "human_rct"
     }
   ]
 }

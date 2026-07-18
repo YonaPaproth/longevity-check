@@ -5,95 +5,110 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "schlaf",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "energie",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "stress",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "depression",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "oxidativer-stress",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-schwangerschaft",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-blutgerinnungsstoerung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-mao-hemmer",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19016404",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19016404"
+      "source": "pmid:19016404",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-12725561",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12725561"
+      "source": "pmid:12725561",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17990197",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17990197"
+      "source": "pmid:17990197",
+      "evidence_level": "human_observational"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-28219059",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:28219059"
+      "source": "pmid:28219059",
+      "evidence_level": "human_rct"
     }
   ]
 }

@@ -5,31 +5,36 @@
       "relation": "enthaelt",
       "target": "vitamin-b12",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "folsaeure",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "cholin",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "bor",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "chrom",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     }
   ]
 }

@@ -5,115 +5,134 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "schlaf",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "entzuendung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "stress",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "muskel",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "leber",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "schilddruese",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "nad-biosynthese",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "atp-synthese",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "gaba-rezeptor",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "nf-kb-hemmung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "prostaglandin-hemmung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "nad-spiegel",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "glutathion-spiegel",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "gaba",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nmn",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nr",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
@@ -134,7 +153,8 @@
       "target": "studie-7898410",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:7898410"
+      "source": "pmid:7898410",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",

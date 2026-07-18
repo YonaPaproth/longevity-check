@@ -5,19 +5,22 @@
       "relation": "enthaelt",
       "target": "hyaluronsaeure",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "glucosamin",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "msm",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     }
   ]
 }

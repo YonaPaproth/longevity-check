@@ -5,32 +5,37 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "knochen",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-blutgerinnungsstoerung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22516723",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22516723"
+      "source": "pmid:22516723",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
@@ -44,7 +49,8 @@
       "target": "studie-20236064",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20236064"
+      "source": "pmid:20236064",
+      "evidence_level": "expert_review"
     }
   ]
 }

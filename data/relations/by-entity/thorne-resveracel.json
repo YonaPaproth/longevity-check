@@ -5,25 +5,29 @@
       "relation": "enthaelt",
       "target": "nr",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "quercetin",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "betain",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "resveratrol",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     }
   ]
 }

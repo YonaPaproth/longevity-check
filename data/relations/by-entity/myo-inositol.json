@@ -5,85 +5,99 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "blutdruck",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "blutzucker",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "stress",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "depression",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "migraene",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "serotonin-synthese",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "nüchternblutzucker",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "insulin",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-magen-darm-beschwerden",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-kopfschmerzen",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "fertilitat",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "relation": "basiert_auf_studie",
@@ -97,14 +111,16 @@
       "target": "studie-17952759",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17952759"
+      "source": "pmid:17952759",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-8874839",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:8874839"
+      "source": "pmid:8874839",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",

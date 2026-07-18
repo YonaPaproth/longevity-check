@@ -5,43 +5,50 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "depression",
       "direction": "outgoing",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "schmerz",
       "direction": "outgoing",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "dopamin-synthese",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "enkephalinase-hemmung",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-mao-hemmer",
       "direction": "outgoing",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     }
   ]
 }

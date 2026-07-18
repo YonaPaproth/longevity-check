@@ -5,20 +5,23 @@
       "relation": "hat_interaktion_mit",
       "target": "curcumin",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-9619120",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:9619120"
+      "source": "pmid:9619120",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
@@ -32,7 +35,8 @@
       "target": "studie-17619763",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17619763"
+      "source": "pmid:17619763",
+      "evidence_level": "expert_review"
     }
   ]
 }

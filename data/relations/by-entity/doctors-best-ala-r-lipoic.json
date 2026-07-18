@@ -5,7 +5,8 @@
       "relation": "enthaelt",
       "target": "alpha-liponsaeure",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     }
   ]
 }

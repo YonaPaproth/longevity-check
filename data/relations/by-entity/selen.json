@@ -5,74 +5,86 @@
       "relation": "hat_interaktion_mit",
       "target": "coq10",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "immunsystem",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "stress",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "herz-kreislauf",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "oxidativer-stress",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "schilddruese",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "fertilitat",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "antioxidative-abwehr",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-schilddruesenerkrankung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22381456",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22381456"
+      "source": "pmid:22381456",
+      "evidence_level": "human_observational"
     },
     {
       "relation": "basiert_auf_studie",
@@ -93,7 +105,8 @@
       "target": "studie-23746916",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23746916"
+      "source": "pmid:23746916",
+      "evidence_level": "human_observational"
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -101,7 +114,8 @@
       "direction": "outgoing",
       "confidence": 0.6,
       "evidence_strength": "moderat",
-      "note": "Prospektive Studien zeigen inverse Assoziation zwischen Selenstatus und BPH-Risiko"
+      "note": "Prospektive Studien zeigen inverse Assoziation zwischen Selenstatus und BPH-Risiko",
+      "source": "expert-review"
     }
   ]
 }

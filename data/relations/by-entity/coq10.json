@@ -5,118 +5,137 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "herz-kreislauf",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "herzinsuffizienz",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "blutdruck",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "myopathie",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "alterung",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "muskelgesundheit",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "atp-synthese",
       "direction": "outgoing",
-      "confidence": 0.85
+      "confidence": 0.85,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "mitochondrial-biogenese",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "antioxidative-abwehr",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "coq10-spiegel",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "troponin",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "bnp",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "ejektionsfraktion",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "statin",
       "direction": "outgoing",
       "confidence": 0.85,
-      "note": "Statine hemmen die CoQ10-Synthese über den Mevalonat-Weg; Supplementation kann Myopathie-Symptome lindern"
+      "note": "Statine hemmen die CoQ10-Synthese über den Mevalonat-Weg; Supplementation kann Myopathie-Symptome lindern",
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "selen",
       "direction": "outgoing",
       "confidence": 0.75,
-      "note": "KiSel-10 Studie: Kombination Selen + CoQ10 zeigte Mortalitätsreduktion bei älteren Menschen"
+      "note": "KiSel-10 Studie: Kombination Selen + CoQ10 zeigte Mortalitätsreduktion bei älteren Menschen",
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-magen-beschwerden",
       "direction": "outgoing",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-schlaflosigkeit",
       "direction": "outgoing",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
       "confidence": 1,
-      "note": "EFSA lehnte Health-Claim für CoQ10 2010 ab"
+      "note": "EFSA lehnte Health-Claim für CoQ10 2010 ab",
+      "source": "efsa-register"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "fertilitat",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "basiert_auf_studie",
@@ -130,21 +149,24 @@
       "target": "studie-25282031",
       "direction": "outgoing",
       "confidence": 0.95,
-      "source": "pmid:25282031"
+      "source": "pmid:25282031",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-25154704",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25154704"
+      "source": "pmid:25154704",
+      "evidence_level": "human_observational"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17386983",
       "direction": "outgoing",
       "confidence": 0.8,
-      "source": "pmid:17386983"
+      "source": "pmid:17386983",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",

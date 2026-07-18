@@ -5,25 +5,29 @@
       "relation": "enthaelt",
       "target": "calcium",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "vitamin-d3-k2",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "bor",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "silicium",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     }
   ]
 }

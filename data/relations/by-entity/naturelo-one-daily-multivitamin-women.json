@@ -5,43 +5,50 @@
       "relation": "enthaelt",
       "target": "vitamin-d3",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "vitamin-c",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "vitamin-b12",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "folsaeure",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "eisen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "zink",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "relation": "enthaelt",
       "target": "selen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     }
   ]
 }

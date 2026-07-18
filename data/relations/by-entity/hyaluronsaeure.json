@@ -5,76 +5,88 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "gelenke",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "haut",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "verdauung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "alterung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "augen",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-schwangerschaft",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-magen-darm-beschwerden",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-40911749",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:40911749"
+      "source": "pmid:40911749",
+      "evidence_level": "meta_analysis"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-41422283",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:41422283"
+      "source": "pmid:41422283",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-34933842",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:34933842"
+      "source": "pmid:34933842",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",

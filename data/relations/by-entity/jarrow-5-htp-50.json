@@ -5,7 +5,8 @@
       "relation": "enthaelt",
       "target": "5-htp",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     }
   ]
 }

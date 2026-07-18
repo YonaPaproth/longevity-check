@@ -5,38 +5,44 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "immunsystem",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "energie",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "alterung",
       "direction": "outgoing",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-23162860",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23162860"
+      "source": "pmid:23162860",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
@@ -50,7 +56,8 @@
       "target": "studie-24344115",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24344115"
+      "source": "pmid:24344115",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",

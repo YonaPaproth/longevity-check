@@ -5,68 +5,79 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "entzuendung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "herz-kreislauf",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "muskel",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "alterung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "augen",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "glutathion-spiegel",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-schwangerschaft",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-30415628",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30415628"
+      "source": "pmid:30415628",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
@@ -80,7 +91,8 @@
       "target": "studie-33387437",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:33387437"
+      "source": "pmid:33387437",
+      "evidence_level": "human_observational"
     },
     {
       "relation": "basiert_auf_studie",
@@ -94,7 +106,8 @@
       "target": "studie-42144851",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:42144851"
+      "source": "pmid:42144851",
+      "evidence_level": "meta_analysis"
     },
     {
       "relation": "basiert_auf_studie",
@@ -109,7 +122,8 @@
       "direction": "outgoing",
       "confidence": 0.6,
       "evidence_strength": "moderat",
-      "note": "Entzuendungshemmende Effekte koennen chronische Schmerzen modulieren"
+      "note": "Entzuendungshemmende Effekte koennen chronische Schmerzen modulieren",
+      "source": "expert-review"
     }
   ]
 }

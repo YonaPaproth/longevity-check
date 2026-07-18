@@ -5,39 +5,45 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "gelenke",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "haut",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "knochen",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-17435952",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17435952"
+      "source": "pmid:17435952",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-15701098",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:15701098"
+      "source": "pmid:15701098",
+      "evidence_level": "human_observational"
     },
     {
       "relation": "basiert_auf_studie",

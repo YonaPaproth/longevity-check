@@ -5,77 +5,89 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "stress",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "verdauung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "neuroprotektiv",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "cholin",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-blutgerinnungsstoerung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-20523044",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20523044"
+      "source": "pmid:20523044",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19966578",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19966578"
+      "source": "pmid:19966578",
+      "evidence_level": "human_observational"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-25933483",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25933483"
+      "source": "pmid:25933483",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19861941",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19861941"
+      "source": "pmid:19861941",
+      "evidence_level": "human_observational"
     }
   ]
 }

@@ -5,78 +5,90 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "depression",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "stress",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "schlaf",
       "direction": "outgoing",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "serotonin-synthese",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "antioxidative-abwehr",
       "direction": "outgoing",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-24299602",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24299602"
+      "source": "pmid:24299602",
+      "evidence_level": "meta_analysis"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-41693488",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:41693488"
+      "source": "pmid:41693488",
+      "evidence_level": "meta_analysis"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-32221179",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:32221179"
+      "source": "pmid:32221179",
+      "evidence_level": "meta_analysis"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-34419735",
       "direction": "outgoing",
       "confidence": 0.8,
-      "source": "pmid:34419735"
+      "source": "pmid:34419735",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-22552758",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22552758"
+      "source": "pmid:22552758",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "sexuelle-dysfunktion",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

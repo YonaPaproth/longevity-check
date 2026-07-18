@@ -5,38 +5,44 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "stress",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "leber",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-18515024",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:18515024"
+      "source": "pmid:18515024",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
@@ -50,7 +56,8 @@
       "target": "studie-20109491",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20109491"
+      "source": "pmid:20109491",
+      "evidence_level": "expert_review"
     }
   ]
 }

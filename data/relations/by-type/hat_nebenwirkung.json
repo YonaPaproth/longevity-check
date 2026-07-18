@@ -5,231 +5,276 @@
     {
       "subject": "5-htp",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "5-htp",
       "target": "nw-serotonin-syndrom",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "nw-blutzuckerabfall",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "nw-lebertoxizitaet",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "berberine",
       "target": "nw-magen-darm-beschwerden",
       "confidence": 0.85,
+      "source": "expert-review",
       "note": "Übelkeit, Durchfall, Bauchkrämpfe bei 10-20% der Studienteilnehmer"
     },
     {
       "subject": "berberine",
       "target": "nw-blutzuckerabfall",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Hypoglykämie bei Kombination mit Antidiabetika möglich"
     },
     {
       "subject": "betain",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "nw-blutdruckabfall",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "nw-magen-beschwerden",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "nw-schlaflosigkeit",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "nw-kopfschmerzen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "nw-lebertoxizitaet",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "nw-metallischer-geschmack",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hyaluronsaeure",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "nw-kopfschmerzen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "nw-schlaflosigkeit",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kupfer",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "nw-kopfschmerzen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "nw-schlaflosigkeit",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "nw-schlaflosigkeit",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "nw-kopfschmerzen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nr",
       "target": "nw-flush",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rapamycin",
       "target": "hyperlipidaemie",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "subject": "rapamycin",
       "target": "immunsuppression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "resveratrol",
       "target": "nw-magen-darm-beschwerden",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Übelkeit, Durchfall, Blähungen bei Dosen >2.000 mg/Tag"
     },
     {
       "subject": "resveratrol",
       "target": "nw-kopfschmerzen",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Kopfschmerzen gelegentlich berichtet; genaue Inzidenz unbekannt"
     },
     {
       "subject": "sea-moss",
       "target": "nw-schilddruesenueberfunktion",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "nw-kopfschmerzen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b3",
       "target": "nw-hautausschlag",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b3",
       "target": "nw-flush",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b6",
       "target": "nw-magen-darm-beschwerden",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

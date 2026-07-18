@@ -5,13 +5,15 @@
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
@@ -25,7 +27,8 @@
       "target": "studie-12716668",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12716668"
+      "source": "pmid:12716668",
+      "evidence_level": "human_observational"
     },
     {
       "relation": "basiert_auf_studie",

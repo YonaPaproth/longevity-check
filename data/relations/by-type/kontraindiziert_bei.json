@@ -5,349 +5,417 @@
     {
       "subject": "5-htp",
       "target": "kontra-ssri-einnahme",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "5-htp",
       "target": "kontra-mao-hemmer",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "kontra-lebererkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "kontra-schilddruesenerkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "kontra-organtransplantation",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "berberine",
       "target": "kontra-schwangerschaft",
       "confidence": 0.9,
+      "source": "expert-review",
       "note": "Embryotoxische Effekte im Tiermodell; Berberin passiert die Plazenta"
     },
     {
       "subject": "berberine",
       "target": "kontra-blutgerinnungsstoerung",
       "confidence": 0.8,
+      "source": "expert-review",
       "note": "CYP2C9-Hemmung erhöht Blutungsrisiko bei Antikoagulantien-Einnahme"
     },
     {
       "subject": "berberine",
       "target": "kontra-diabetes-medikamente",
       "confidence": 0.85,
+      "source": "expert-review",
       "note": "Additiver Effekt mit Antidiabetika → Hypoglykämiegefahr"
     },
     {
       "subject": "berberine",
       "target": "kontra-organtransplantation",
       "confidence": 0.85,
+      "source": "expert-review",
       "note": "CYP3A4-Hemmung erhöht Ciclosporin/Tacrolimus-Spiegel klinisch signifikant"
     },
     {
       "subject": "calcium",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "kontra-lebererkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "dl-phenylalanin",
       "target": "kontra-mao-hemmer",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "kontra-lebererkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "fisetin",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "folsaeure",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "fucoidan",
       "target": "kontra-blutgerinnungsstoerung",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Antikoagulative Eigenschaften: strukturelle Ähnlichkeit mit Heparin — Vorsicht bei Blutverdünnern"
     },
     {
       "subject": "fucoidan",
       "target": "kontra-schilddruesenerkrankung",
       "confidence": 0.5,
+      "source": "expert-review",
       "note": "Variabler Jodgehalt je nach Algenquelle"
     },
     {
       "subject": "gynostemma",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "gynostemma",
       "target": "kontra-autoimmunerkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hyaluronsaeure",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "kontra-kinder",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "kontra-schilddruesenerkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kalium",
       "target": "kontra-nierenerkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "kontra-kinder",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "kontra-nierenerkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "kontra-lebererkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "kontra-blutdruckmedikamente",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-reuteri-6475",
       "target": "kontra-immunsuppression",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "kontra-blutdruckmedikamente",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "kontra-mao-hemmer",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "kontra-schilddruesenerkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "kontra-chemotherapie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "kontra-organtransplantation",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "kontra-kinder",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "kontra-ssri-einnahme",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "omega-3",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "phosphatidylserin",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "kontra-chemotherapie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "kontra-organtransplantation",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "kontra-organtransplantation",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "resveratrol",
       "target": "kontra-blutgerinnungsstoerung",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "CYP2C9-Hemmung und Thrombozytenaggregationshemmung → erhöhtes Blutungsrisiko bei Antikoagulantien"
     },
     {
       "subject": "rhodiola",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rhodiola",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rhodiola",
       "target": "kontra-mao-hemmer",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sea-moss",
       "target": "kontra-schilddruesenerkrankung",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "source": "expert-review"
     },
     {
       "subject": "sea-moss",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "subject": "selen",
       "target": "kontra-schilddruesenerkrankung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "kontra-diabetes-medikamente",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b6",
       "target": "kontra-schwangerschaft",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-e",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-k1",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-k2",
       "target": "kontra-blutgerinnungsstoerung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

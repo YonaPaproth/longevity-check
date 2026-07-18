@@ -7,7 +7,8 @@
       "direction": "outgoing",
       "confidence": 0.65,
       "evidence_strength": "moderat",
-      "note": "Immunfunktion vor allem bei physiologischem Stress belegt; bei Gesunden schwächer"
+      "note": "Immunfunktion vor allem bei physiologischem Stress belegt; bei Gesunden schwächer",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -15,7 +16,8 @@
       "direction": "outgoing",
       "confidence": 0.7,
       "evidence_strength": "moderat",
-      "note": "Primäres Brennstoffsubstrat für Enterozyten; Darmbarriere-Effekte in kleineren Studien"
+      "note": "Primäres Brennstoffsubstrat für Enterozyten; Darmbarriere-Effekte in kleineren Studien",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -23,7 +25,8 @@
       "direction": "outgoing",
       "confidence": 0.4,
       "evidence_strength": "niedrig",
-      "note": "Marketing-Claim; RCT-Evidenz für orale Einnahme bei Gesunden schwach"
+      "note": "Marketing-Claim; RCT-Evidenz für orale Einnahme bei Gesunden schwach",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -31,20 +34,23 @@
       "direction": "outgoing",
       "confidence": 0.55,
       "evidence_strength": "moderat",
-      "note": "Anti-inflammatorische Effekte bei Intensivpatienten belegt; bei Gesunden unklar"
+      "note": "Anti-inflammatorische Effekte bei Intensivpatienten belegt; bei Gesunden unklar",
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "antioxidative-abwehr",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Glutathion-Vorläufer zusammen mit Glycin und Cystein"
+      "note": "Glutathion-Vorläufer zusammen mit Glycin und Cystein",
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     }
   ]
 }

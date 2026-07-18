@@ -5,19 +5,22 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "entzuendung",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "knochen",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
@@ -31,20 +34,23 @@
       "target": "studie-26770156",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26770156"
+      "source": "pmid:26770156",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-21873346",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21873346"
+      "source": "pmid:21873346",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "eisen",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

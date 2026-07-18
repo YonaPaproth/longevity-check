@@ -5,20 +5,23 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-19821345",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19821345"
+      "source": "pmid:19821345",
+      "evidence_level": "meta_analysis"
     },
     {
       "relation": "basiert_auf_studie",

@@ -5,82 +5,98 @@
     {
       "subject": "5-htp",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "akg",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "akkermansia",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "crp",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "nüchternblutzucker",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "insulin",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "nad-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "glutathion-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "astaxanthin",
       "target": "crp",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "astaxanthin",
       "target": "tsh",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "astaxanthin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "astragalus",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "berberine",
       "target": "leberwerte",
       "confidence": 0.6,
+      "source": "expert-review",
       "note": "Leberwertekontrolle bei Langzeitanwendung >3 Monate empfohlen"
     },
     {
@@ -94,643 +110,770 @@
       "subject": "berberine",
       "target": "hba1c",
       "confidence": 0.85,
+      "source": "expert-review",
       "note": "HbA1c-Senkung ist ein Haupteffekt in RCTs bei Typ-2-Diabetes"
     },
     {
       "subject": "berberine",
       "target": "cholesterin",
       "confidence": 0.75,
+      "source": "expert-review",
       "note": "LDL-Senkung via LDLR-Mechanismus; Lipidprofil-Kontrolle sinnvoll"
     },
     {
       "subject": "beta-alanin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "beta-glucan",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "betain",
       "target": "homocystein",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "betain",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "betain",
       "target": "cholesterin",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "vitamin-d-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "homocystein",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "chrom",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "cistanche",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "coq10-spiegel",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "troponin",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "bnp",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "ejektionsfraktion",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "crp",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "hba1c",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "glutathion-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "cholesterin",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "nüchternblutzucker",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "crp",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "crp",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "ferritin",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "ergothionein",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "ergothionein",
       "target": "glutathion-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "fisetin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "flohsamenschalen",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "folsaeure",
       "target": "homocystein",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "folsaeure",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "ginseng",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "glutathion-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "glynac",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "gotu-kola",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "gynostemma",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "hyaluronsaeure",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "hydroxytyrosol",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "inulin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "tsh",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "kaempferol",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "kollagen",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "kupfer",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "l-reuteri-6475",
       "target": "vitamin-d-spiegel",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "lithium-orotat",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "lutein-zeaxanthin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "luteolin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "serum-magnesium",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "blutdruck-werte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "insulin",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "mangan",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "molybdaen",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "msm",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "nüchternblutzucker",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "insulin",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "glutathion-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "nmn",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "nmn",
       "target": "nad-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "nr",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "nr",
       "target": "nad-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "omega-3",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "omega-3",
       "target": "glutathion-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "phosphatidylserin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "phosphor",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "pqq",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "crp",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "blutdruck-werte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "crp",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "blutdruck-werte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "glutathion-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "resveratrol",
       "target": "crp",
       "confidence": 0.6,
+      "source": "expert-review",
       "note": "CRP kein signifikanter Effekt in Meta-Analyse 2016; Entzündungsmarker-Monitoring bei Langzeitanwendung sinnvoll"
     },
     {
       "subject": "resveratrol",
       "target": "tsh",
       "confidence": 0.6,
+      "source": "expert-review",
       "note": "Phytoöstrogene Eigenschaften; Schilddrüsenfunktion bei langfristiger Einnahme beobachten"
     },
     {
       "subject": "resveratrol",
       "target": "leberwerte",
       "confidence": 0.6,
+      "source": "expert-review",
       "note": "Leberwertekontrolle bei Langzeitanwendung empfohlen; First-Pass in der Leber"
     },
     {
       "subject": "resveratrol",
       "target": "cholesterin",
       "confidence": 0.6,
+      "source": "expert-review",
       "note": "LDL-C-Senkung einzig konsistenter Effekt in Umbrella-Review 2026 (SMD-Analyse)"
     },
     {
       "subject": "resveratrol",
       "target": "nüchternblutzucker",
       "confidence": 0.6,
+      "source": "expert-review",
       "note": "Fasting glucose moderat gesenkt in Studien mit Diabetikern; kein Effekt in Umbrella-Review 2026"
     },
     {
       "subject": "rhodiola",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "rutin",
       "target": "glutathion-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "schisandra",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "selen",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "silymarin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "blutdruck-werte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "crp",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "glutathion-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "blutdruck-werte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "tmg",
       "target": "homocystein",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "tmg",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "trehalose",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "urolithin-a",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b1",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "homocystein",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b2",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b3",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b5",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b6",
       "target": "homocystein",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b6",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "vitamin-d-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "vitamin-d-spiegel",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-e",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-k1",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "zink",
       "target": "leberwerte",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

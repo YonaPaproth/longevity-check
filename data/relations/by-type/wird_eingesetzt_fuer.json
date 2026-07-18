@@ -5,242 +5,290 @@
     {
       "subject": "5-htp",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "5-htp",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "5-htp",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "5-htp",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "5-htp",
       "target": "migraene",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "acetyl-l-carnitin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "acetyl-l-carnitin",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "akg",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "akg",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "akkermansia",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "akkermansia",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "akkermansia",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "akkermansia",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "akkermansia",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "akkermansia",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-gpc",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "schilddruese",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "schilddruese",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "astaxanthin",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "astaxanthin",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "astaxanthin",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "astaxanthin",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "astaxanthin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "astaxanthin",
       "target": "augen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "astaxanthin",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "astragalus",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "astragalus",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "bacopa",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "baicalin",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "berberine",
@@ -255,6 +303,7 @@
       "target": "herz-kreislauf",
       "confidence": 0.6,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "LDL-Senkung 15-25% in Humanstudien via LDLR-Mechanismus; keine kardiovaskulären Endpunktstudien"
     },
     {
@@ -262,485 +311,581 @@
       "target": "verdauung",
       "confidence": 0.4,
       "evidence_strength": "niedrig",
+      "source": "expert-review",
       "note": "Einflüsse auf Darmmikrobiom in Tierstudien; Humanstudien explorativ"
     },
     {
       "subject": "beta-alanin",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "beta-alanin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "beta-alanin",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "beta-alanin",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "beta-alanin",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "beta-alanin",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "beta-alanin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "beta-glucan",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "beta-glucan",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "betain",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "betain",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "betain",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "betain",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "betain",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "betain",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "betain",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "bor",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "bor",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "schilddruese",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "cholin",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "chrom",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "herz-kreislauf",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "herzinsuffizienz",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "myopathie",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "alterung",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "muskelgesundheit",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "fertilitat",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "cordyceps",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "gelenke",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "migraene",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "schmerz",
       "confidence": 0.7,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "Meta-Analysen zeigen moderate Schmerzreduktion bei Arthrose und chronischen Schmerzen"
     },
     {
       "subject": "dl-phenylalanin",
       "target": "depression",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "subject": "dl-phenylalanin",
       "target": "schmerz",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "subject": "dl-phenylalanin",
       "target": "kognition",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "fertilitat",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "ergothionein",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ergothionein",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ergothionein",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ergothionein",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ergothionein",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ergothionein",
       "target": "augen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ergothionein",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "fisetin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "fisetin",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "fisetin",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "fisetin",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "fisetin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "fisetin",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "flohsamenschalen",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "folsaeure",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "folsaeure",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "folsaeure",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "folsaeure",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "folsaeure",
       "target": "fertilitat",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "source": "expert-review"
     },
     {
       "subject": "fucoidan",
       "target": "immunsystem",
       "confidence": 0.65,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "NK-Zell-Aktivierung und Makrophagen-Modulation in präklinischen Daten; klinische Humanstudien begrenzt"
     },
     {
@@ -748,6 +893,7 @@
       "target": "verdauung",
       "confidence": 0.75,
       "evidence_strength": "hoch",
+      "source": "expert-review",
       "note": "Präbiotischer Mechanismus: RCT 2025 zeigt Bifidobacterium-Zunahme und Darmbarriere-Stärkung (PMID 40732054)"
     },
     {
@@ -755,6 +901,7 @@
       "target": "herz-kreislauf",
       "confidence": 0.55,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "Moderate Evidenz für LDL-Senkung und diastolischen Blutdruckeffekt aus kleineren Studien"
     },
     {
@@ -762,6 +909,7 @@
       "target": "entzuendung",
       "confidence": 0.55,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "NF-κB-Hemmung; anti-inflammatorische Effekte in präklinischen Modellen gut belegt, Humanstudien begrenzt"
     },
     {
@@ -769,508 +917,609 @@
       "target": "muskel",
       "confidence": 0.6,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "RCT 2025: Fucoidan-Supplementierung verbesserte Peak Power und Lean Body Mass während Krafttraining (PMID 41249370)"
     },
     {
       "subject": "gaba",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "gaba",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "gaba",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ginkgo",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ginseng",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ginseng",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glucosamin",
       "target": "gelenke",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glutathion",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glynac",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glynac",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glynac",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glynac",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "gotu-kola",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "gynostemma",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "gynostemma",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "gynostemma",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "gynostemma",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "gynostemma",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hesperidin",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hyaluronsaeure",
       "target": "gelenke",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hyaluronsaeure",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hyaluronsaeure",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hyaluronsaeure",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hyaluronsaeure",
       "target": "augen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hydroxytyrosol",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hydroxytyrosol",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hydroxytyrosol",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hydroxytyrosol",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "hydroxytyrosol",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "inulin",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "jod",
       "target": "schilddruese",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kalium",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kalium",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kalium",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "koffein",
       "target": "migraene",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kollagen",
       "target": "gelenke",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kollagen",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kollagen",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kollagen",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kollagen",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kuerbiskernoel",
       "target": "prostata",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kuerbiskernoel",
       "target": "blase",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "kupfer",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kupfer",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kupfer",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-carnitin",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-glutamin",
       "target": "immunsystem",
       "confidence": 0.65,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "Immunfunktion vor allem bei physiologischem Stress belegt; bei Gesunden schwächer"
     },
     {
@@ -1278,6 +1527,7 @@
       "target": "verdauung",
       "confidence": 0.7,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "Primäres Brennstoffsubstrat für Enterozyten; Darmbarriere-Effekte in kleineren Studien"
     },
     {
@@ -1285,6 +1535,7 @@
       "target": "muskel",
       "confidence": 0.4,
       "evidence_strength": "niedrig",
+      "source": "expert-review",
       "note": "Marketing-Claim; RCT-Evidenz für orale Einnahme bei Gesunden schwach"
     },
     {
@@ -1292,1541 +1543,1845 @@
       "target": "entzuendung",
       "confidence": 0.55,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "Anti-inflammatorische Effekte bei Intensivpatienten belegt; bei Gesunden unklar"
     },
     {
       "subject": "l-reuteri-6475",
       "target": "knochen",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "source": "expert-review"
     },
     {
       "subject": "l-reuteri-6475",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-reuteri-6475",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-reuteri-6475",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-reuteri-6475",
       "target": "alterung",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "schilddruese",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "migraene",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-tyrosin",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lion-s-mane",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lutein-zeaxanthin",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lutein-zeaxanthin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lutein-zeaxanthin",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lutein-zeaxanthin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "lutein-zeaxanthin",
       "target": "augen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "luteolin",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "maca",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "maca",
       "target": "fertilitat",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "migraene",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "magnesium",
       "target": "schmerz",
       "confidence": 0.5,
       "evidence_strength": "niedrig",
+      "source": "expert-review",
       "note": "Hinweise auf Migraene-Prophylaxe bei Mangel"
     },
     {
       "subject": "mangan",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "mangan",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "mangan",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "molybdaen",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "msm",
       "target": "gelenke",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "msm",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "multivitamin",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "multivitamin",
       "target": "energie",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "multivitamin",
       "target": "kognition",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "multivitamin",
       "target": "alterung",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "migraene",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "fertilitat",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nmn",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nmn",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nmn",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nr",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nr",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nr",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nr",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "omega-3",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "omega-3",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "omega-3",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "omega-3",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "omega-3",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "omega-3",
       "target": "augen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "omega-3",
       "target": "schmerz",
       "confidence": 0.6,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "Entzuendungshemmende Effekte koennen chronische Schmerzen modulieren"
     },
     {
       "subject": "phosphatidylserin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "phosphatidylserin",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "phosphatidylserin",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "phosphatidylserin",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "phosphor",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "phosphor",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pqq",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pqq",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "blase",
       "confidence": 0.5,
       "evidence_strength": "niedrig",
+      "source": "expert-review",
       "note": "Einzelne Studien zu Harnwegsinfekt-Praevention bei Frauen"
     },
     {
       "subject": "pterostilben",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rapamycin",
       "target": "alterung",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "subject": "rapamycin",
       "target": "immunsystem",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "reishi",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "reishi",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "reishi",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "resveratrol",
       "target": "kognition",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Inkonsistente RCT-Daten; eine Studie fand Gedächtnisverbesserung bei postmenopausalen Frauen (Evans 2017)"
     },
     {
       "subject": "resveratrol",
       "target": "immunsystem",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Immunmodulierende Effekte in Zellstudien; Humanevidenz fehlt weitgehend"
     },
     {
       "subject": "resveratrol",
       "target": "blutdruck",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Keine signifikante Blutdrucksenkung in Meta-Analyse Sahebkar 2016 (11 RCTs)"
     },
     {
       "subject": "resveratrol",
       "target": "blutzucker",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Fasting glucose -4,4 mg/dL in Meta-Analyse 2016; kein Effekt in Umbrella-Review 2026"
     },
     {
       "subject": "resveratrol",
       "target": "herz-kreislauf",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Triglyceride -6,5 mg/dL (11 RCTs); keine konsistenten kardiovaskulären Endpunktdaten"
     },
     {
       "subject": "resveratrol",
       "target": "verdauung",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Einfluss auf Darmmikrobiom in Tierstudien; keine belastbaren Humanstudien"
     },
     {
       "subject": "resveratrol",
       "target": "alterung",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "SIRT1-Aktivierung und Calorienbeschränkungs-Mimetikum in Tiermodellen; kein Humanbeleg für Longevity"
     },
     {
       "subject": "resveratrol",
       "target": "oxidativer-stress",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Antioxidative Eigenschaften in vitro; systemische Wirkung bei oraler Einnahme durch Bioverfügbarkeit limitiert"
     },
     {
       "subject": "resveratrol",
       "target": "leber",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Hepatoprotektive Effekte in Tierstudien und kleinen Humanstudien bei NAFLD"
     },
     {
       "subject": "resveratrol",
       "target": "migraene",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Sehr begrenzte Evidenz; keine belastbaren RCTs"
     },
     {
       "subject": "rhodiola",
       "target": "schlaf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rhodiola",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rhodiola",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rhodiola",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rhodiola",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rhodiola",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rutin",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "rutin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "safran",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "safran",
       "target": "stress",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "safran",
       "target": "schlaf",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "source": "expert-review"
     },
     {
       "subject": "safran",
       "target": "sexuelle-dysfunktion",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "same",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "schisandra",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "schisandra",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "schisandra",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sea-moss",
       "target": "immunsystem",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "source": "expert-review"
     },
     {
       "subject": "sea-moss",
       "target": "verdauung",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "source": "expert-review"
     },
     {
       "subject": "sea-moss",
       "target": "schilddruese",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "source": "expert-review"
     },
     {
       "subject": "selen",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "selen",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "selen",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "selen",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "selen",
       "target": "schilddruese",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "selen",
       "target": "fertilitat",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "selen",
       "target": "prostata",
       "confidence": 0.6,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "Prospektive Studien zeigen inverse Assoziation zwischen Selenstatus und BPH-Risiko"
     },
     {
       "subject": "shilajit",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "silicium",
       "target": "gelenke",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "silicium",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "silicium",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "silymarin",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "schilddruese",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "entzuendung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "taurin",
       "target": "augen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "tmg",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "trehalose",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "trehalose",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "urolithin-a",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "urolithin-a",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "urolithin-a",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "urolithin-a",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "urolithin-a",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "urolithin-a",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "augen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-a",
       "target": "migraene",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b1",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b1",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b2",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b2",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b2",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b2",
       "target": "migraene",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b3",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b3",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b3",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b3",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b5",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b5",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b5",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b6",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b6",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b6",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b7",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b7",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b7",
       "target": "schilddruese",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "energie",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "gelenke",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "blutdruck",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "blutzucker",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "gelenke",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "depression",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3",
       "target": "fertilitat",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-e",
       "target": "kognition",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-e",
       "target": "stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-e",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-e",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-e",
       "target": "neuroprotektiv",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-k1",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-k2",
       "target": "herz-kreislauf",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-k2",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-k2",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-k2",
       "target": "knochen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-k2",
       "target": "leber",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "zink",
       "target": "immunsystem",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "zink",
       "target": "haut",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "zink",
       "target": "muskel",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "zink",
       "target": "verdauung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "zink",
       "target": "alterung",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "zink",
       "target": "oxidativer-stress",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "zink",
       "target": "augen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "zink",
       "target": "fertilitat",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "zink",
       "target": "prostata",
       "confidence": 0.6,
       "evidence_strength": "moderat",
+      "source": "expert-review",
       "note": "Prostatagewebe hat hohe Zinkkonzentration; Supplementierung bei Mangel relevant fuer Prostatagesundheit"
     }
   ]

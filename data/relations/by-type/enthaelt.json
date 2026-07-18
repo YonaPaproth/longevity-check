@@ -5,1927 +5,2312 @@
     {
       "subject": "alive-by-science-nmn-sublingual",
       "target": "nmn",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "alpha-flow-l-tyrosine-1000-mg",
       "target": "l-tyrosin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogaia-osfortis",
       "target": "l-reuteri-6475",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-coq10-100",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-curcuma-500",
       "target": "curcumin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-curcuma-500",
       "target": "piperin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-magnesium-7-salze",
       "target": "magnesium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-omega-3-premium",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-osteo-calbon-komplex-gold",
       "target": "calcium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-osteo-calbon-komplex-gold",
       "target": "vitamin-d3-k2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-osteo-calbon-komplex-gold",
       "target": "bor",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-osteo-calbon-komplex-gold",
       "target": "silicium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-selen-200",
       "target": "selen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-ubiquinol-50",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-vitamin-d3-k2-2000",
       "target": "vitamin-d3-k2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "biogena-zink-15",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "bloom-naturals-magtein-magnesium-l-threonat",
       "target": "magnesium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "bloom-naturals-selen-3-fach-komplex",
       "target": "selen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "braineffect-nad-boost",
       "target": "nr",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "braineffect-nad-boost",
       "target": "tmg",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "braineffect-nad-boost",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "braineffect-nad-boost",
       "target": "vitamin-b6",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "braineffect-nad-boost",
       "target": "vitamin-b3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "dihydroberberine-supplement",
       "target": "berberine",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "do-not-age-nmn-500",
       "target": "nmn",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "do-not-age-nr-300",
       "target": "nr",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "doctors-best-ala-r-lipoic",
       "target": "alpha-liponsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "doctors-best-astaxanthin-12",
       "target": "astaxanthin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "doctors-best-coq10-200",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "doctors-best-coq10-200",
       "target": "piperin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "doctors-best-fucoidan-300",
       "target": "fucoidan",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "doctors-best-quercetin",
       "target": "quercetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "double-wood-alpha-gpc-600",
       "target": "alpha-gpc",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "double-wood-apigenin-50",
       "target": "apigenin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "double-wood-bacopa-320",
       "target": "bacopa",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "double-wood-cistanche-500",
       "target": "cistanche",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "double-wood-fisetin-500",
       "target": "fisetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "double-wood-lions-mane",
       "target": "lion-s-mane",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "double-wood-liposomal-nmn",
       "target": "nmn",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "double-wood-shilajit-250",
       "target": "shilajit",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "double-wood-spermidine-1",
       "target": "spermidine",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "double-wood-tongkat-ali",
       "target": "tongkat-ali",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "dr-loges-omega-3",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "elevant-prime-nmn-125",
       "target": "nmn",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "elysium-basis-nr",
       "target": "nr",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "elysium-basis-nr",
       "target": "pterostilben",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "fairvital-b12-aktiv-komplex-1000",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "fairvital-coq10-200",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "fairvital-eisen-komplex-25",
       "target": "eisen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "fairvital-vitamin-d3-k2",
       "target": "vitamin-d3-k2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "fairvital-zinkbisglycinat-25",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "floradix-iron-herbs",
       "target": "eisen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "horbaach-pumpkin-seed-oil-3000-mg",
       "target": "kuerbiskernoel",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "igennus-vitamin-d3-k2",
       "target": "vitamin-d3-k2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-5-htp-50",
       "target": "5-htp",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-acetyl-l-carnitine-1000",
       "target": "acetyl-l-carnitin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-acetyl-l-carnitine-500",
       "target": "acetyl-l-carnitin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-ashwagandha-ksm66-300",
       "target": "ashwagandha",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-ashwagandha-ksm66",
       "target": "ashwagandha",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-astaxanthin-6",
       "target": "astaxanthin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-bacopa-100",
       "target": "bacopa",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-beta-glucan-immune",
       "target": "beta-glucan",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-boron-3mg",
       "target": "bor",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-citrulline-1500",
       "target": "l-citrullin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-coq10-100",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-cordyceps-500",
       "target": "cordyceps",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-creatine-monohydrate-500g",
       "target": "kreatin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-creatine-monohydrate",
       "target": "kreatin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-formulas-msm-1000",
       "target": "msm",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-glutathione-500",
       "target": "glutathion",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-gotu-kola-500",
       "target": "gotu-kola",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-ideal-bowel-support",
       "target": "probiotika",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-l-tryptophan-500",
       "target": "l-tryptophan",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-lions-mane-1000",
       "target": "lion-s-mane",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-luteolin-100",
       "target": "luteolin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-maca-1500",
       "target": "maca",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-max-dha",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-methylcobalamin-1000",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-milk-thistle-150",
       "target": "silymarin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-milk-thistle-30-1",
       "target": "silymarin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-nac-sustain-600",
       "target": "nac",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-panax-ginseng-500",
       "target": "ginseng",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-phosphatidylserine-100",
       "target": "phosphatidylserin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-pqq-20",
       "target": "pqq",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-rose-hip-750",
       "target": "vitamin-c",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-silica-10mg",
       "target": "silicium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-suntheanine-l-theanine",
       "target": "l-theanin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-taurine-1000",
       "target": "taurin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-tmg-1000",
       "target": "tmg",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-ubiquinol-coq10-200",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-vitamin-e-200",
       "target": "vitamin-e",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-vitamin-k2-mk7-90",
       "target": "vitamin-k2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-zinc-balance",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jarrow-zinc-balance",
       "target": "kupfer",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "jet-alert-caffeine-200-mg",
       "target": "koffein",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-artichoke-leaf",
       "target": "luteolin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-ashwagandha-ksm66",
       "target": "ashwagandha",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-bacopa",
       "target": "bacopa",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-baicalin-100",
       "target": "baicalin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-black-seed-oil",
       "target": "other",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-blueberry-extrakt",
       "target": "egcg",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-curcumin-elite",
       "target": "curcumin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-d-l-phenylalanine-500-mg",
       "target": "dl-phenylalanin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-fisetin-elite",
       "target": "fisetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-flohsamenschalen",
       "target": "flohsamenschalen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-gamma-e-mixed-tocopherols",
       "target": "vitamin-e",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-ginkgo-120",
       "target": "ginkgo",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-glutathione-setria",
       "target": "glutathion",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-glycine-1000",
       "target": "glycin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-immune-senescence",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-lithium-1000",
       "target": "lithium-orotat",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-longevity-mix",
       "target": "vitamin-b6",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-longevity-mix",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-longevity-mix",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-longevity-mix",
       "target": "quercetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-longevity-mix",
       "target": "pqq",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-longevity-mix",
       "target": "lutein-zeaxanthin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-longevity-mix",
       "target": "resveratrol",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-longevity-mix",
       "target": "bor",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-longevity-mix",
       "target": "sulforaphan",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-longevity-mix",
       "target": "egcg",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-lutein-zeaxanthin",
       "target": "lutein-zeaxanthin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-n-acetyl-cysteine",
       "target": "nac",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-optimized-saffron",
       "target": "safran",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-phosphatidylserine",
       "target": "phosphatidylserin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-pqq-10",
       "target": "pqq",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-pterostilbene",
       "target": "pterostilben",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-reishi-1000",
       "target": "reishi",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-resveratrol",
       "target": "resveratrol",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-resveratrol",
       "target": "quercetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-resveratrol",
       "target": "fisetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-rutin-500",
       "target": "rutin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-same-400",
       "target": "same",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-selenium-200",
       "target": "selen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-senolytic-activator",
       "target": "fisetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-senolytic-activator",
       "target": "quercetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-spermidine",
       "target": "spermidine",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-sulforaphane",
       "target": "sulforaphan",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-super-glutathione",
       "target": "glutathion",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-super-glutathione",
       "target": "vitamin-c",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-super-selenium",
       "target": "selen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-super-selenium",
       "target": "vitamin-e",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-super-ubiquinol-coq10",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-super-ubiquinol-coq10",
       "target": "piperin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-super-ubiquinol-coq10",
       "target": "alpha-liponsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-super-ubiquinol-coq10",
       "target": "vitamin-e",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-two-per-day",
       "target": "vitamin-b6",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-two-per-day",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-two-per-day",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-two-per-day",
       "target": "vitamin-e",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-urolithin-a",
       "target": "urolithin-a",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-urolithin-mitopure",
       "target": "urolithin-a",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-urolithin-mitopure",
       "target": "vitamin-e",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "life-extension-vitamin-d3-k2",
       "target": "vitamin-d3-k2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "megfood-blood-builder-iron",
       "target": "eisen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-fisetin-250",
       "target": "fisetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-liposomal-glutathion",
       "target": "glutathion",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-nmn-500",
       "target": "nmn",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-nmn-sublingual-250",
       "target": "nmn",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-oneshot-morning",
       "target": "nmn",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-oneshot-morning",
       "target": "tmg",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-oneshot-morning",
       "target": "resveratrol",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-oneshot-morning",
       "target": "curcumin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-spermidine-plus",
       "target": "spermidine",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-tmg-plus-2000",
       "target": "tmg",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-tmg-plus-2000",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "moleqlar-tmg-plus-2000",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "mother-nature-black-maca-750",
       "target": "maca",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "mother-nature-black-maca-750",
       "target": "piperin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "natural-elements-omega-3",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "natural-factors-l-glutamine-5000",
       "target": "l-glutamin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "naturelo-one-daily-multivitamin-women",
       "target": "vitamin-d3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "naturelo-one-daily-multivitamin-women",
       "target": "vitamin-c",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "naturelo-one-daily-multivitamin-women",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "naturelo-one-daily-multivitamin-women",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "naturelo-one-daily-multivitamin-women",
       "target": "eisen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "naturelo-one-daily-multivitamin-women",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "naturelo-one-daily-multivitamin-women",
       "target": "selen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "naturewise-vitamin-e-400",
       "target": "vitamin-e",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nordic-naturals-algae-omega",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nordic-naturals-omega-3",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nordic-naturals-pro-omega-2000",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nordic-naturals-vitamin-d3-2000",
       "target": "vitamin-d3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "norsan-omega-3-total",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "norsan-omega-3-vegan",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-5-htp-100",
       "target": "5-htp",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-adam-men-multi",
       "target": "vitamin-b6",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-adam-men-multi",
       "target": "alpha-liponsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-alpha-gpc-300",
       "target": "alpha-gpc",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-alpha-lipoic-acid-300",
       "target": "alpha-liponsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-american-ginseng-500",
       "target": "ginseng",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-astaxanthin-10",
       "target": "astaxanthin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-astaxanthin-4",
       "target": "astaxanthin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-berberine-1000",
       "target": "berberine",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-beta-alanine-750",
       "target": "beta-alanin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-beta-glucan-250",
       "target": "beta-glucan",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-boron-3mg",
       "target": "bor",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-collagen-peptides",
       "target": "kollagen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-collagen-type-2",
       "target": "kollagen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-copper-2mg",
       "target": "kupfer",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-coq10-200",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-cordyceps",
       "target": "cordyceps",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-creatine-monohydrate-500g",
       "target": "kreatin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-egcg-400",
       "target": "egcg",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-fisetin-100",
       "target": "fisetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-folate-800",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-gaba-500",
       "target": "gaba",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-gaba-500",
       "target": "vitamin-b6",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-gaba-750",
       "target": "gaba",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-ginkgo-biloba-120",
       "target": "ginkgo",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-glucosamine-chondroitin",
       "target": "glucosamin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-glucosamine-chondroitin",
       "target": "msm",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-glycine-1000",
       "target": "glycin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-grape-seed-100",
       "target": "resveratrol",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-hesperidin-500",
       "target": "hesperidin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-hyaluronic-acid-100",
       "target": "hyaluronsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-hyaluronic-acid-100",
       "target": "glucosamin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-hyaluronic-acid-100",
       "target": "msm",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-inositol-500",
       "target": "myo-inositol",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-inulin-powder",
       "target": "inulin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-kelp-325",
       "target": "jod",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-krill-oil-500",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-krill-oil-500",
       "target": "astaxanthin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-l-carnitine-500",
       "target": "l-carnitin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-l-glutamine-1000",
       "target": "glycin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-l-theanine-200",
       "target": "l-theanin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-l-tryptophan-500-mg",
       "target": "l-tryptophan",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-lion-s-mane-500",
       "target": "lion-s-mane",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-lutein-20",
       "target": "lutein-zeaxanthin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-maca-750",
       "target": "maca",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-magnesium-citrate-400",
       "target": "magnesium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-magnesium-glycinate",
       "target": "magnesium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-magnesium-malate-1000",
       "target": "magnesium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-melatonin-1mg",
       "target": "melatonin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-melatonin-3mg",
       "target": "melatonin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-olive-leaf-500",
       "target": "hydroxytyrosol",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-potassium-citrate-99",
       "target": "kalium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-probiotic-10",
       "target": "probiotika",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-psyllium-husk-500",
       "target": "flohsamenschalen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-pterostilbene-100",
       "target": "pterostilben",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-reishi-200",
       "target": "reishi",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-resveratrol-200",
       "target": "resveratrol",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-rhodiola-500",
       "target": "rhodiola",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-saffron-50",
       "target": "safran",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-same-200",
       "target": "same",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-selenium-200",
       "target": "selen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-taurine-1000",
       "target": "taurin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-tongkat-ali-400",
       "target": "tongkat-ali",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-vitamin-c-1000",
       "target": "vitamin-c",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-vitamin-d3-5000",
       "target": "vitamin-d3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-zinc-50",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "now-foods-zinc-picolinate",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nutricost-ashwagandha-ksm66",
       "target": "ashwagandha",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nutricost-creatine-monohydrate",
       "target": "kreatin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nutricost-folic-acid-800",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nutricost-l-citrulline-1500",
       "target": "l-citrullin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nutricost-l-theanine-200-mg",
       "target": "l-theanin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nutricost-nac-600",
       "target": "nac",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "nutricost-zinc-picolinate",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "prohealth-nmn-pro-500",
       "target": "nmn",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-alpha-lipoic-200",
       "target": "alpha-liponsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-b-complex",
       "target": "vitamin-b6",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-b-complex",
       "target": "vitamin-b1",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-b-complex",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-b-complex",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-b-complex",
       "target": "cholin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-b-complex",
       "target": "myo-inositol",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-b-complex",
       "target": "vitamin-b2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-bacopa-150",
       "target": "bacopa",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-carnosine-500",
       "target": "glycin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-chromium",
       "target": "chrom",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-collagen-c",
       "target": "kollagen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-collagen-c",
       "target": "vitamin-c",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-dl-phenylalanine",
       "target": "dl-phenylalanin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-iodine-225",
       "target": "jod",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-iron-25",
       "target": "eisen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-kreatin-5g",
       "target": "kreatin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-l-carnitine-500",
       "target": "l-carnitin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-l-theanine-200",
       "target": "l-theanin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-lions-mane",
       "target": "lion-s-mane",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-magnesium-citrate",
       "target": "magnesium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-magnesium",
       "target": "magnesium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-magnesium",
       "target": "glycin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-manganese",
       "target": "mangan",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-nac-900",
       "target": "nac",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-one-daily",
       "target": "vitamin-b6",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-one-daily",
       "target": "vitamin-c",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-one-daily",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-one-daily",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-p5p-50",
       "target": "vitamin-b6",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-potassium-citrate",
       "target": "kalium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-probiotic-5",
       "target": "probiotika",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-probiotic-g-i",
       "target": "probiotika",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-quercetin-250",
       "target": "quercetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-selenium-200",
       "target": "selen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-taurine-1000",
       "target": "taurin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-vitamin-a",
       "target": "vitamin-a",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-vitamin-d3-5000",
       "target": "vitamin-d3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-encapsulations-zinc-30",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-therapeutics-methyl-multi",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-therapeutics-methyl-multi",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-therapeutics-methyl-multi",
       "target": "vitamin-b6",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-therapeutics-methyl-multi",
       "target": "vitamin-d3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-therapeutics-methyl-multi",
       "target": "vitamin-c",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-therapeutics-methyl-multi",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-therapeutics-methyl-multi",
       "target": "selen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "pure-therapeutics-methyl-multi",
       "target": "chrom",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "qunol-mega-coq10-ubiquinol-100",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "renue-by-science-nmn-500",
       "target": "nmn",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "solgar-gentle-iron-25",
       "target": "eisen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sports-research-curcumin-c3-complex",
       "target": "curcumin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sports-research-curcumin-c3-complex",
       "target": "piperin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sports-research-d3-k2-5000",
       "target": "vitamin-d3-k2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sports-research-omega-3-fish-oil-1250",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sports-research-omega-3-krill-oil-1000",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sports-research-omega-3-krill-oil-1000",
       "target": "astaxanthin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sports-research-vitamin-c-liposomal-1000",
       "target": "vitamin-c",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-ashwagandha-600",
       "target": "ashwagandha",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-calcium-800",
       "target": "calcium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-coq10-ubiquinol-100",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-d3-k2-2000",
       "target": "vitamin-d3-k2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-glucosamin-1500",
       "target": "glucosamin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-kollagen",
       "target": "kollagen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-lions-mane-500",
       "target": "lion-s-mane",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-magnesium-komplex",
       "target": "magnesium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-magnesium-komplex",
       "target": "piperin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-nmn-400",
       "target": "nmn",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-omega-3-1000",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-rhodiola-rosea",
       "target": "rhodiola",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-schisandra",
       "target": "schisandra",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-vitamin-b-komplex",
       "target": "vitamin-b1",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-vitamin-b-komplex",
       "target": "vitamin-b2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-vitamin-b-komplex",
       "target": "vitamin-b3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-vitamin-b-komplex",
       "target": "vitamin-b5",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-vitamin-b-komplex",
       "target": "vitamin-b6",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-vitamin-b-komplex",
       "target": "vitamin-b7",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-vitamin-b-komplex",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-vitamin-b-komplex",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-vitamin-b-komplex",
       "target": "cholin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunday-natural-vitamin-b-komplex",
       "target": "myo-inositol",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "sunfood-liposomal-vitamin-c",
       "target": "vitamin-c",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "swanson-fisetin-100",
       "target": "fisetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "swanson-vitamin-d3-5000",
       "target": "vitamin-d3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-alpha-lipoic-acid-300",
       "target": "alpha-liponsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-b12-methylcobalamin",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-basic-nutrients-2day",
       "target": "vitamin-b12",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-basic-nutrients-2day",
       "target": "folsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-basic-nutrients-2day",
       "target": "cholin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-basic-nutrients-2day",
       "target": "bor",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-basic-nutrients-2day",
       "target": "chrom",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-berberine-500",
       "target": "berberine",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-berberine-phytosome",
       "target": "berberine",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-berberine",
       "target": "berberine",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-beta-alanine-sr",
       "target": "beta-alanin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-chromium-picolinate",
       "target": "chrom",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-coq10-100",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-creatine-powder",
       "target": "kreatin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-curcumin-phytosome",
       "target": "curcumin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-glutathione-sr",
       "target": "glutathion",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-glycine-1000",
       "target": "glycin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-iodine-selenium",
       "target": "jod",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-iodine-selenium",
       "target": "selen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-iodine-selenium",
       "target": "l-tyrosin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-iron-bisglycinate-25",
       "target": "eisen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-magnesium-bisglycinate",
       "target": "magnesium",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-niacel-400",
       "target": "nr",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-quercenase",
       "target": "quercetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-quercetin-phytosome",
       "target": "quercetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-red-yeast-rice-cholesterol",
       "target": "coq10",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-resveracel",
       "target": "nr",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-resveracel",
       "target": "quercetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-resveracel",
       "target": "betain",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-resveracel",
       "target": "resveratrol",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-selenomethionine-200",
       "target": "selen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-vitamin-c-ascorbic",
       "target": "vitamin-c",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-vitamin-c-ascorbic",
       "target": "quercetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-vitamin-c-ascorbic",
       "target": "rutin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "thorne-zinc-bisglycinate-15",
       "target": "zink",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "toniiq-fisetin-300",
       "target": "fisetin",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "tru-niagen-nr-300",
       "target": "nr",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "vit4ever-vitamin-d3-k2",
       "target": "vitamin-d3-k2",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "vital-proteins-collagen-peptides",
       "target": "kollagen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "vital-proteins-collagen-peptides",
       "target": "hyaluronsaeure",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "vitaraw-irish-sea-moss-2400-mg",
       "target": "sea-moss",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     },
     {
       "subject": "viva-naturals-omega-3-fish-oil",
       "target": "omega-3",
-      "confidence": 1
+      "confidence": 1,
+      "source": "product-yaml"
     }
   ]
 }

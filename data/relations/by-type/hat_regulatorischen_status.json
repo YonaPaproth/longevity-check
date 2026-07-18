@@ -5,373 +5,447 @@
     {
       "subject": "5-htp",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "acetyl-l-carnitin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "akg",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "akkermansia",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "alpha-gpc",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "alpha-liponsaeure",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "apigenin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "ashwagandha",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "astaxanthin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "astragalus",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "bacopa",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "baicalin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "berberine",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "beta-alanin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "beta-glucan",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "betain",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "bor",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "calcium",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "cdp-cholin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "cholin",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "chrom",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "cistanche",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "coq10",
       "target": "efsa-nicht-zugelassen",
       "confidence": 1,
+      "source": "efsa-register",
       "note": "EFSA lehnte Health-Claim für CoQ10 2010 ab"
     },
     {
       "subject": "cordyceps",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "curcumin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "dl-phenylalanin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "egcg",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "eisen",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "ergothionein",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "fisetin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "flohsamenschalen",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "folsaeure",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "fucoidan",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "gaba",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "ginkgo",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "ginseng",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "glucosamin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "glutathion",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "glycin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "glynac",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "gotu-kola",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "gynostemma",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "hesperidin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "hyaluronsaeure",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "hydroxytyrosol",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "inulin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "jod",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "kaempferol",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "kalium",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "koffein",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "kollagen",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "kreatin",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "kuerbiskernoel",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "kupfer",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "l-carnitin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "l-citrullin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "l-glutamin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "l-reuteri-6475",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "l-theanin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "l-tryptophan",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "l-tyrosin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "lion-s-mane",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "lithium-orotat",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "lutein-zeaxanthin",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "luteolin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "maca",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "magnesium",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "mangan",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "melatonin",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "molybdaen",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "msm",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "multivitamin",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "myo-inositol",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "nac",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "nmn-verlaengert-das-leben",
@@ -381,82 +455,98 @@
     {
       "subject": "nmn",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "nr",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "omega-3",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "phosphatidylserin",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "phosphor",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "piperin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "pqq",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "probiotika",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "pterostilben",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "quercetin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "rapamycin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "rapamycin",
       "target": "verschreibungspflichtig",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "reishi",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "resveratrol",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "rhodiola",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "rutin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "safran-preis-gesundheit",
@@ -466,152 +556,182 @@
     {
       "subject": "safran",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "same",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "schisandra",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "sea-moss",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "selen",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "shilajit",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "silicium",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "silymarin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "spermidine",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "sulforaphan",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "taurin",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "tmg",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "tongkat-ali",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "trehalose",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "urolithin-a",
       "target": "efsa-nicht-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-a",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-b1",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-b12",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-b2",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-b3",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-b5",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-b6",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-b7",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-c",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-d3",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-e",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-k1",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "vitamin-k2",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "subject": "zink",
       "target": "efsa-zugelassen",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     }
   ]
 }

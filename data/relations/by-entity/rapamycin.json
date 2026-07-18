@@ -5,49 +5,57 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "alterung",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "immunsystem",
       "direction": "outgoing",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "mtor-hemmung",
       "direction": "outgoing",
-      "confidence": 0.95
+      "confidence": 0.95,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "autophagie",
       "direction": "outgoing",
-      "confidence": 0.85
+      "confidence": 0.85,
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "hyperlipidaemie",
       "direction": "outgoing",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "immunsuppression",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "verschreibungspflichtig",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
@@ -61,21 +69,24 @@
       "target": "studie-25540326",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25540326"
+      "source": "pmid:25540326",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-36789432",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:36789432"
+      "source": "pmid:36789432",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
       "target": "studie-31346894",
       "direction": "outgoing",
       "confidence": 0.8,
-      "source": "pmid:31346894"
+      "source": "pmid:31346894",
+      "evidence_level": "human_observational"
     },
     {
       "relation": "basiert_auf_studie",

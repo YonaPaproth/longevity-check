@@ -5,19 +5,22 @@
       "relation": "hat_interaktion_mit",
       "target": "5-htp",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "serotonin-synthese",
       "direction": "outgoing",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
@@ -31,7 +34,8 @@
       "target": "studie-19734380",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:19734380"
+      "source": "pmid:19734380",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",

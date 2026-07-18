@@ -5,348 +5,416 @@
     {
       "subject": "5-htp",
       "target": "l-tryptophan",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "5-htp",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "akkermansia",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "gaba",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "nmn",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "apigenin",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "gaba",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "ashwagandha",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "berberine",
       "target": "warfarin",
       "confidence": 0.8,
+      "source": "expert-review",
       "note": "CYP2C9-Hemmung → erhöhte Antikoagulantien-Spiegel → Blutungsrisiko"
     },
     {
       "subject": "berberine",
       "target": "metformin",
       "confidence": 0.85,
+      "source": "expert-review",
       "note": "Additiver blutzuckersenkender Effekt über AMPK → Hypoglykämiegefahr bei Kombination"
     },
     {
       "subject": "berberine",
       "target": "ciclosporin",
       "confidence": 0.8,
+      "source": "expert-review",
       "note": "CYP3A4-Hemmung → klinisch signifikant erhöhte Ciclosporin-Spiegel dokumentiert"
     },
     {
       "subject": "betain",
       "target": "vitamin-e",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "eisen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "nac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "calcium",
       "target": "zink",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "coq10",
       "target": "statin",
       "confidence": 0.85,
+      "source": "expert-review",
       "note": "Statine hemmen die CoQ10-Synthese über den Mevalonat-Weg; Supplementation kann Myopathie-Symptome lindern"
     },
     {
       "subject": "coq10",
       "target": "selen",
       "confidence": 0.75,
+      "source": "expert-review",
       "note": "KiSel-10 Studie: Kombination Selen + CoQ10 zeigte Mortalitätsreduktion bei älteren Menschen"
     },
     {
       "subject": "curcumin",
       "target": "cholin",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "nac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "curcumin",
       "target": "piperin",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "eisen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "koffein",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "egcg",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "bor",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "eisen",
       "target": "chrom",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "gaba",
       "target": "nac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "glutathion",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "glynac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "kollagen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "kreatin",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "glycin",
       "target": "nac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "kreatin",
       "target": "nac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-citrullin",
       "target": "nac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "gaba",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "l-theanin",
       "target": "koffein",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "melatonin",
       "target": "same",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "myo-inositol",
       "target": "nac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "glutathion",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "glynac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "glycin",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "calcium",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "curcumin",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "kreatin",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "probiotika",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "resveratrol",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "vitamin-b12",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "nac",
       "target": "vitamin-d3-k2",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "phosphatidylserin",
       "target": "cholin",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "probiotika",
       "target": "nac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "resveratrol",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "pterostilben",
       "target": "sulforaphan",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "quercetin",
       "target": "chrom",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "resveratrol",
       "target": "nac",
       "confidence": 0.7,
+      "source": "expert-review",
       "note": "Kombinationsprotokoll theoretisch synergistisch (antioxidativer Schutz); keine klinischen Daten"
     },
     {
       "subject": "spermidine",
       "target": "eisen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "spermidine",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "glutathion",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "jod",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "sulforaphan",
       "target": "vitamin-c",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "nac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-b12",
       "target": "vitamin-b1",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "eisen",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-c",
       "target": "nr",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "nac",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "subject": "vitamin-d3-k2",
       "target": "vitamin-d3",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

@@ -273,6 +273,7 @@ function generateRelations(source: ProductSource): object {
       target: ci.slug,
       direction: 'outgoing',
       confidence: 1,
+      source: 'product-yaml',
     })),
   };
 }

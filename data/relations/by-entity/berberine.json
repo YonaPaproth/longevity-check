@@ -16,7 +16,8 @@
       "direction": "outgoing",
       "confidence": 0.6,
       "evidence_strength": "moderat",
-      "note": "LDL-Senkung 15-25% in Humanstudien via LDLR-Mechanismus; keine kardiovaskulären Endpunktstudien"
+      "note": "LDL-Senkung 15-25% in Humanstudien via LDLR-Mechanismus; keine kardiovaskulären Endpunktstudien",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
@@ -24,7 +25,8 @@
       "direction": "outgoing",
       "confidence": 0.4,
       "evidence_strength": "niedrig",
-      "note": "Einflüsse auf Darmmikrobiom in Tierstudien; Humanstudien explorativ"
+      "note": "Einflüsse auf Darmmikrobiom in Tierstudien; Humanstudien explorativ",
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
@@ -39,77 +41,88 @@
       "target": "nf-kb-hemmung",
       "direction": "outgoing",
       "confidence": 0.6,
-      "note": "Entzündungshemmende Effekte über NF-κB in Zellstudien belegt"
+      "note": "Entzündungshemmende Effekte über NF-κB in Zellstudien belegt",
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "warfarin",
       "direction": "outgoing",
       "confidence": 0.8,
-      "note": "CYP2C9-Hemmung → erhöhte Antikoagulantien-Spiegel → Blutungsrisiko"
+      "note": "CYP2C9-Hemmung → erhöhte Antikoagulantien-Spiegel → Blutungsrisiko",
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "metformin",
       "direction": "outgoing",
       "confidence": 0.85,
-      "note": "Additiver blutzuckersenkender Effekt über AMPK → Hypoglykämiegefahr bei Kombination"
+      "note": "Additiver blutzuckersenkender Effekt über AMPK → Hypoglykämiegefahr bei Kombination",
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "ciclosporin",
       "direction": "outgoing",
       "confidence": 0.8,
-      "note": "CYP3A4-Hemmung → klinisch signifikant erhöhte Ciclosporin-Spiegel dokumentiert"
+      "note": "CYP3A4-Hemmung → klinisch signifikant erhöhte Ciclosporin-Spiegel dokumentiert",
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-schwangerschaft",
       "direction": "outgoing",
       "confidence": 0.9,
-      "note": "Embryotoxische Effekte im Tiermodell; Berberin passiert die Plazenta"
+      "note": "Embryotoxische Effekte im Tiermodell; Berberin passiert die Plazenta",
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-blutgerinnungsstoerung",
       "direction": "outgoing",
       "confidence": 0.8,
-      "note": "CYP2C9-Hemmung erhöht Blutungsrisiko bei Antikoagulantien-Einnahme"
+      "note": "CYP2C9-Hemmung erhöht Blutungsrisiko bei Antikoagulantien-Einnahme",
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-diabetes-medikamente",
       "direction": "outgoing",
       "confidence": 0.85,
-      "note": "Additiver Effekt mit Antidiabetika → Hypoglykämiegefahr"
+      "note": "Additiver Effekt mit Antidiabetika → Hypoglykämiegefahr",
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-organtransplantation",
       "direction": "outgoing",
       "confidence": 0.85,
-      "note": "CYP3A4-Hemmung erhöht Ciclosporin/Tacrolimus-Spiegel klinisch signifikant"
+      "note": "CYP3A4-Hemmung erhöht Ciclosporin/Tacrolimus-Spiegel klinisch signifikant",
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-magen-darm-beschwerden",
       "direction": "outgoing",
       "confidence": 0.85,
-      "note": "Übelkeit, Durchfall, Bauchkrämpfe bei 10-20% der Studienteilnehmer"
+      "note": "Übelkeit, Durchfall, Bauchkrämpfe bei 10-20% der Studienteilnehmer",
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-blutzuckerabfall",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Hypoglykämie bei Kombination mit Antidiabetika möglich"
+      "note": "Hypoglykämie bei Kombination mit Antidiabetika möglich",
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
       "confidence": 0.6,
-      "note": "Leberwertekontrolle bei Langzeitanwendung >3 Monate empfohlen"
+      "note": "Leberwertekontrolle bei Langzeitanwendung >3 Monate empfohlen",
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
@@ -124,20 +137,23 @@
       "target": "hba1c",
       "direction": "outgoing",
       "confidence": 0.85,
-      "note": "HbA1c-Senkung ist ein Haupteffekt in RCTs bei Typ-2-Diabetes"
+      "note": "HbA1c-Senkung ist ein Haupteffekt in RCTs bei Typ-2-Diabetes",
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "cholesterin",
       "direction": "outgoing",
       "confidence": 0.75,
-      "note": "LDL-Senkung via LDLR-Mechanismus; Lipidprofil-Kontrolle sinnvoll"
+      "note": "LDL-Senkung via LDLR-Mechanismus; Lipidprofil-Kontrolle sinnvoll",
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
@@ -153,7 +169,8 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:19800084",
-      "note": "RCT n=116: HbA1c -2,0PP, Nüchternblutzucker -3,5 mmol/L vs. Metformin"
+      "note": "RCT n=116: HbA1c -2,0PP, Nüchternblutzucker -3,5 mmol/L vs. Metformin",
+      "evidence_level": "human_rct"
     },
     {
       "relation": "basiert_auf_studie",
@@ -169,7 +186,8 @@
       "direction": "outgoing",
       "confidence": 0.85,
       "source": "pmid:20150526",
-      "note": "AMPK-Aktivierung Mechanismus, Insulinsensitivität in Tiermodell"
+      "note": "AMPK-Aktivierung Mechanismus, Insulinsensitivität in Tiermodell",
+      "evidence_level": "human_rct"
     }
   ]
 }

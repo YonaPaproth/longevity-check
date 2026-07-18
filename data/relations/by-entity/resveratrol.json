@@ -6,167 +6,191 @@
       "target": "pterostilben",
       "direction": "incoming",
       "confidence": 0.7,
-      "note": "Pterostilben ist chemisch eng verwandt mit Resveratrol (zwei Methylgruppen statt Hydroxylgruppen), höhere Bioverfügbarkeit ~80%"
+      "note": "Pterostilben ist chemisch eng verwandt mit Resveratrol (zwei Methylgruppen statt Hydroxylgruppen), höhere Bioverfügbarkeit ~80%",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "kognition",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Inkonsistente RCT-Daten; eine Studie fand Gedächtnisverbesserung bei postmenopausalen Frauen (Evans 2017)"
+      "note": "Inkonsistente RCT-Daten; eine Studie fand Gedächtnisverbesserung bei postmenopausalen Frauen (Evans 2017)",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "immunsystem",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Immunmodulierende Effekte in Zellstudien; Humanevidenz fehlt weitgehend"
+      "note": "Immunmodulierende Effekte in Zellstudien; Humanevidenz fehlt weitgehend",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "blutdruck",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Keine signifikante Blutdrucksenkung in Meta-Analyse Sahebkar 2016 (11 RCTs)"
+      "note": "Keine signifikante Blutdrucksenkung in Meta-Analyse Sahebkar 2016 (11 RCTs)",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "blutzucker",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Fasting glucose -4,4 mg/dL in Meta-Analyse 2016; kein Effekt in Umbrella-Review 2026"
+      "note": "Fasting glucose -4,4 mg/dL in Meta-Analyse 2016; kein Effekt in Umbrella-Review 2026",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "herz-kreislauf",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Triglyceride -6,5 mg/dL (11 RCTs); keine konsistenten kardiovaskulären Endpunktdaten"
+      "note": "Triglyceride -6,5 mg/dL (11 RCTs); keine konsistenten kardiovaskulären Endpunktdaten",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "verdauung",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Einfluss auf Darmmikrobiom in Tierstudien; keine belastbaren Humanstudien"
+      "note": "Einfluss auf Darmmikrobiom in Tierstudien; keine belastbaren Humanstudien",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "alterung",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "SIRT1-Aktivierung und Calorienbeschränkungs-Mimetikum in Tiermodellen; kein Humanbeleg für Longevity"
+      "note": "SIRT1-Aktivierung und Calorienbeschränkungs-Mimetikum in Tiermodellen; kein Humanbeleg für Longevity",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "oxidativer-stress",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Antioxidative Eigenschaften in vitro; systemische Wirkung bei oraler Einnahme durch Bioverfügbarkeit limitiert"
+      "note": "Antioxidative Eigenschaften in vitro; systemische Wirkung bei oraler Einnahme durch Bioverfügbarkeit limitiert",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "leber",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Hepatoprotektive Effekte in Tierstudien und kleinen Humanstudien bei NAFLD"
+      "note": "Hepatoprotektive Effekte in Tierstudien und kleinen Humanstudien bei NAFLD",
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "migraene",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Sehr begrenzte Evidenz; keine belastbaren RCTs"
+      "note": "Sehr begrenzte Evidenz; keine belastbaren RCTs",
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "atp-synthese",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Mitochondriale Biogenese via PGC-1α in Tiermodellen; kein Humanbeleg"
+      "note": "Mitochondriale Biogenese via PGC-1α in Tiermodellen; kein Humanbeleg",
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "ampk-aktivierung",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Indirekt über PDE4-Hemmung → cAMP → AMPK → SIRT1-Aktivierung"
+      "note": "Indirekt über PDE4-Hemmung → cAMP → AMPK → SIRT1-Aktivierung",
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "sirt1-aktivierung",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "SIRT1-Aktivierung als primäres molekulares Target; direkte vs. indirekte Aktivierung umstritten"
+      "note": "SIRT1-Aktivierung als primäres molekulares Target; direkte vs. indirekte Aktivierung umstritten",
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "crp",
       "direction": "outgoing",
       "confidence": 0.6,
-      "note": "CRP kein signifikanter Effekt in Meta-Analyse 2016; Entzündungsmarker-Monitoring bei Langzeitanwendung sinnvoll"
+      "note": "CRP kein signifikanter Effekt in Meta-Analyse 2016; Entzündungsmarker-Monitoring bei Langzeitanwendung sinnvoll",
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "tsh",
       "direction": "outgoing",
       "confidence": 0.6,
-      "note": "Phytoöstrogene Eigenschaften; Schilddrüsenfunktion bei langfristiger Einnahme beobachten"
+      "note": "Phytoöstrogene Eigenschaften; Schilddrüsenfunktion bei langfristiger Einnahme beobachten",
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "leberwerte",
       "direction": "outgoing",
       "confidence": 0.6,
-      "note": "Leberwertekontrolle bei Langzeitanwendung empfohlen; First-Pass in der Leber"
+      "note": "Leberwertekontrolle bei Langzeitanwendung empfohlen; First-Pass in der Leber",
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "cholesterin",
       "direction": "outgoing",
       "confidence": 0.6,
-      "note": "LDL-C-Senkung einzig konsistenter Effekt in Umbrella-Review 2026 (SMD-Analyse)"
+      "note": "LDL-C-Senkung einzig konsistenter Effekt in Umbrella-Review 2026 (SMD-Analyse)",
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "nüchternblutzucker",
       "direction": "outgoing",
       "confidence": 0.6,
-      "note": "Fasting glucose moderat gesenkt in Studien mit Diabetikern; kein Effekt in Umbrella-Review 2026"
+      "note": "Fasting glucose moderat gesenkt in Studien mit Diabetikern; kein Effekt in Umbrella-Review 2026",
+      "source": "expert-review"
     },
     {
       "relation": "hat_interaktion_mit",
       "target": "nac",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Kombinationsprotokoll theoretisch synergistisch (antioxidativer Schutz); keine klinischen Daten"
+      "note": "Kombinationsprotokoll theoretisch synergistisch (antioxidativer Schutz); keine klinischen Daten",
+      "source": "expert-review"
     },
     {
       "relation": "kontraindiziert_bei",
       "target": "kontra-blutgerinnungsstoerung",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "CYP2C9-Hemmung und Thrombozytenaggregationshemmung → erhöhtes Blutungsrisiko bei Antikoagulantien"
+      "note": "CYP2C9-Hemmung und Thrombozytenaggregationshemmung → erhöhtes Blutungsrisiko bei Antikoagulantien",
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-magen-darm-beschwerden",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Übelkeit, Durchfall, Blähungen bei Dosen >2.000 mg/Tag"
+      "note": "Übelkeit, Durchfall, Blähungen bei Dosen >2.000 mg/Tag",
+      "source": "expert-review"
     },
     {
       "relation": "hat_nebenwirkung",
       "target": "nw-kopfschmerzen",
       "direction": "outgoing",
       "confidence": 0.7,
-      "note": "Kopfschmerzen gelegentlich berichtet; genaue Inzidenz unbekannt"
+      "note": "Kopfschmerzen gelegentlich berichtet; genaue Inzidenz unbekannt",
+      "source": "expert-review"
     },
     {
       "relation": "hat_regulatorischen_status",
       "target": "efsa-nicht-zugelassen",
       "direction": "outgoing",
-      "confidence": 1
+      "confidence": 1,
+      "source": "efsa-register"
     },
     {
       "relation": "basiert_auf_studie",
@@ -174,7 +198,8 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:25905295",
-      "note": "RCT n=6: Bioverfügbarkeit freies Trans-Resveratrol &lt;1%, Halbwertszeit ~2h, First-Pass-Metabolismus"
+      "note": "RCT n=6: Bioverfügbarkeit freies Trans-Resveratrol &lt;1%, Halbwertszeit ~2h, First-Pass-Metabolismus",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
@@ -198,7 +223,8 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:42268476",
-      "note": "Umbrella-Review 10 Meta-Analysen: kein Gesamteffekt auf Blutzucker/Lipide bei T2DM (2026)"
+      "note": "Umbrella-Review 10 Meta-Analysen: kein Gesamteffekt auf Blutzucker/Lipide bei T2DM (2026)",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "basiert_auf_studie",
