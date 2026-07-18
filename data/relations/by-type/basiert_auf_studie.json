@@ -1,6 +1,6 @@
 {
   "type": "basiert_auf_studie",
-  "count": 410,
+  "count": 413,
   "relations": [
     {
       "subject": "5-htp",
@@ -205,6 +205,12 @@
       "target": "studie-20637008",
       "confidence": 0.9,
       "source": "pmid:20637008"
+    },
+    {
+      "subject": "astaxanthin",
+      "target": "studie-42467594",
+      "confidence": 0.9,
+      "source": "pmid:42467594"
     },
     {
       "subject": "astragalus",
@@ -587,6 +593,12 @@
       "target": "studie-31174214",
       "confidence": 0.9,
       "source": "pmid:31174214"
+    },
+    {
+      "subject": "eisen",
+      "target": "studie-42024457",
+      "confidence": 0.9,
+      "source": "pmid:42024457"
     },
     {
       "subject": "ergothionein",
@@ -1727,6 +1739,12 @@
       "target": "studie-27405231",
       "confidence": 0.9,
       "source": "pmid:27405231"
+    },
+    {
+      "subject": "quercetin",
+      "target": "studie-42435069",
+      "confidence": 0.9,
+      "source": "pmid:42435069"
     },
     {
       "subject": "rapamycin",

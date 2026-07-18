@@ -112,6 +112,13 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:20637008"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-42467594",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42467594"
     }
   ]
 }
