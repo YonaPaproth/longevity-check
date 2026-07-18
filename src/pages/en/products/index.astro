@@ -1,120 +1,286 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import VerdictBadge from '../../../components/VerdictBadge.astro';
+import EvidenceBadge from '../../../components/EvidenceBadge.astro';
 import ProductTransparencyIllustration from '../../../components/illustrations/ProductTransparencyIllustration.astro';
 import { getCollection } from 'astro:content';
 import { compositeScore } from '../../../utils/scoring';
 
-const products = await getCollection('enProducts');
-const ingredients = await getCollection('enIngredients');
+const allProducts = await getCollection('enProducts');
+const allIngredients = await getCollection('enIngredients');
 
-// Group products by ingredient, sort each group by score
-const byIngredient = new Map<string, typeof products>();
-for (const p of products) {
+const ingredientMap = new Map(allIngredients.map(i => [i.data.slug, i.data]));
+
+const formLabel: Record<string, string> = {
+  capsule: 'Capsule', powder: 'Powder', liquid: 'Liquid',
+  gummy: 'Gummy', softgel: 'Softgel', tablet: 'Tablet',
+};
+
+const categoryLabels: Record<string, string> = {
+  'nad-precursors': 'NAD Precursors',
+  'senolytics':     'Senolytics',
+  'antioxidants':   'Antioxidants',
+  'adaptogens':     'Adaptogens',
+  'metabolic':      'Metabolic',
+  'cognitive':      'Cognitive',
+  'hormonal':       'Hormonal',
+  'general-health': 'General Health',
+  'other':          'Other',
+};
+
+// Group products by ingredient slug, sorted best-first within each group
+const grouped = new Map<string, typeof allProducts>();
+for (const p of allProducts) {
   const key = p.data.ingredient;
-  if (!byIngredient.has(key)) byIngredient.set(key, []);
-  byIngredient.get(key)!.push(p);
-}
-for (const [key, group] of byIngredient) {
-  byIngredient.set(key, group.sort((a, b) => compositeScore(b.data.ratings) - compositeScore(a.data.ratings)));
+  if (!grouped.has(key)) grouped.set(key, []);
+  grouped.get(key)!.push(p);
 }
 
-const ingredientMap = new Map(ingredients.map(i => [i.data.slug, i.data]));
+// Build one card per ingredient group
+const groups = [...grouped.entries()]
+  .map(([ingredientSlug, products]) => {
+    const sorted = [...products].sort(
+      (a, b) => compositeScore(b.data.ratings) - compositeScore(a.data.ratings)
+    );
+    const top = sorted[0];
+    const ingredient = ingredientMap.get(ingredientSlug);
+    return {
+      ingredientSlug,
+      ingredientTitle: ingredient?.title ?? ingredientSlug,
+      category: ingredient?.category ?? 'other',
+      evidenceLevel: ingredient?.evidenceLevel,
+      top,
+      topScore: compositeScore(top.data.ratings),
+      count: products.length,
+    };
+  })
+  .sort((a, b) => b.topScore - a.topScore);
+
+// Only show category buttons that have products
+const usedCategories = [...new Set(groups.map(g => g.category))];
 ---
 
 <BaseLayout
-  title="Product Reviews | MikroScore"
-  description="Transparent supplement product reviews — rated by evidence quality, price per dose, label honesty, and third-party testing."
+  title="Product Comparison"
+  description="Longevity supplements compared: NMN, ashwagandha, omega-3, magnesium & more — editorially rated for price, quality, and transparency."
   locale="en"
   hreflang={{ de: '/produkte', en: '/en/products' }}
 >
-  <div class="max-w-5xl mx-auto px-4 py-10">
+  <div class="max-w-5xl mx-auto px-4 py-12">
 
-    <nav class="text-xs text-slate-400 mb-6">
-      <a href="/en" class="hover:text-teal-600">Home</a>
-      <span class="mx-2">/</span>
-      <span class="text-slate-600">Products</span>
-    </nav>
-
-    <!-- Illustration banner -->
-    <div class="rounded-2xl overflow-hidden border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-teal-50/40 mb-8 px-4 py-3">
-      <div class="text-[10px] font-semibold uppercase tracking-[0.18em] text-teal-700 mb-1.5">Transparent product comparison</div>
-      <ProductTransparencyIllustration />
-    </div>
-
-    <div class="mb-6">
-      <h1 class="text-3xl font-bold text-slate-900 mb-3">Product Reviews</h1>
-      <p class="text-slate-600 max-w-2xl">
-        {products.length} product{products.length !== 1 ? 's' : ''} reviewed across {byIngredient.size} ingredient{byIngredient.size !== 1 ? 's' : ''}. Each product receives a Transparency Index score (0–10) based on evidence quality, price per dose, label accuracy, and independent certification — not on whether we like the brand.
-      </p>
-    </div>
-
-    <!-- Rating dimensions explainer -->
-    <div class="flex flex-wrap gap-2 mb-8 text-xs text-slate-500">
-      {['Evidence for ingredient', 'Value for money', 'Product quality', 'Label honesty', 'Third-party testing'].map(dim => (
-        <span class="bg-slate-100 rounded-full px-3 py-1">{dim}</span>
-      ))}
-      <a href="/en/methodology" class="text-xs text-slate-400 hover:text-teal-600 self-center ml-1 no-underline">How scores work →</a>
-    </div>
-
-    {products.length === 0 ? (
-      <div class="bg-slate-50 border border-slate-200 rounded-xl p-8 text-center">
-        <p class="text-slate-500 mb-2">English product reviews are being added.</p>
-        <p class="text-xs text-slate-400 mb-4">German reviews are available in the meantime.</p>
-        <a href="/produkte" class="inline-block text-sm text-teal-600 hover:underline">Browse German reviews →</a>
+    <section class="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-gradient-to-br from-white via-slate-50 to-teal-50/40 shadow-sm mb-8">
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.08),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(15,23,42,0.05),transparent_28%)]"></div>
+      <div class="relative p-6 md:p-8">
+        <div class="flex flex-wrap items-center gap-3 mb-3">
+          <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900">Product Comparison</h1>
+        </div>
+        <p class="text-slate-600 text-[15px] leading-7 max-w-3xl mb-6">
+          Editorially assessed based on ingredient evidence, price per daily dose, product quality, label transparency, and third-party testing.
+          For each ingredient we currently show the top-rated product — from there you can dive into the detailed comparison.
+        </p>
+        <div class="w-full md:max-w-xl">
+          <ProductTransparencyIllustration />
+        </div>
       </div>
-    ) : (
-      <div class="space-y-10">
-        {[...byIngredient.entries()].map(([ingredientSlug, group]) => {
-          const ing = ingredientMap.get(ingredientSlug);
-          return (
-            <div>
-              {ing && (
-                <div class="flex items-baseline justify-between mb-4">
-                  <h2 class="text-lg font-semibold text-slate-800">{ing.title}</h2>
-                  <a href={`/en/ingredients/${ingredientSlug}`} class="text-xs text-teal-600 hover:underline">
-                    View dossier →
-                  </a>
+    </section>
+
+    <!-- Filter bar -->
+    <div class="bg-white border border-slate-200 rounded-xl p-4 mb-6 space-y-3">
+      <!-- Search -->
+      <input
+        id="prod-search"
+        type="search"
+        placeholder="Search product or ingredient…"
+        class="w-full text-sm border border-slate-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-teal-400"
+      />
+      <!-- Category chips -->
+      <div class="flex flex-wrap gap-2">
+        <button data-filter="category" data-value="all"
+          class="filter-chip active text-xs rounded-full px-3 py-1 border font-medium transition-colors border-teal-500 bg-teal-500 text-white">
+          All categories
+        </button>
+        {usedCategories.map(cat => (
+          <button data-filter="category" data-value={cat}
+            class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700">
+            {categoryLabels[cat] ?? cat}
+          </button>
+        ))}
+      </div>
+      <!-- Verdict chips -->
+      <div class="flex flex-wrap gap-2">
+        <button data-filter="verdict" data-value="all"
+          class="filter-chip active text-xs rounded-full px-3 py-1 border font-medium transition-colors border-teal-500 bg-teal-500 text-white">
+          All verdicts
+        </button>
+        <button data-filter="verdict" data-value="empfehlenswert"
+          class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700">
+          High transparency
+        </button>
+        <button data-filter="verdict" data-value="akzeptabel"
+          class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700">
+          Medium transparency
+        </button>
+        <button data-filter="verdict" data-value="nicht-empfehlenswert"
+          class="filter-chip text-xs rounded-full px-3 py-1 border font-medium transition-colors border-slate-300 bg-white text-slate-600 hover:border-teal-400 hover:text-teal-700">
+          Low transparency
+        </button>
+      </div>
+    </div>
+
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-4 text-xs text-amber-800 leading-5">
+      <strong>Editorial note:</strong> This product overview primarily assesses price, labeling, transparency, and formal product quality. The short texts are not health claims and are not a recommendation for the treatment, relief, or prevention of disease.
+    </div>
+
+    <!-- Results count -->
+    <p id="results-count" class="text-xs text-slate-400 mb-4">{groups.length} ingredients</p>
+
+    <!-- Ingredient groups -->
+    <div id="product-grid" class="grid grid-cols-1 gap-5">
+      {groups.map(group => {
+        const d = group.top.data;
+        const packDays = d.servingsPerPack;
+        return (
+          <article
+               data-category={group.category}
+               data-verdict={group.top.data.verdict}
+               data-title={group.ingredientTitle.toLowerCase()}
+               data-vendor={group.top.data.vendor.toLowerCase()}
+               class="prod-card group rounded-[24px] border border-slate-200/80 bg-white/95 p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
+
+            <!-- Ingredient header -->
+            <div class="flex flex-wrap items-start justify-between gap-3 mb-5">
+              <div>
+                <div class="flex flex-wrap items-center gap-2 mb-2">
+                  <span class="text-[11px] font-semibold text-slate-500 uppercase tracking-[0.12em]">
+                    {categoryLabels[group.category] ?? group.category}
+                  </span>
+                  {group.count > 1 && (
+                    <span class="text-xs bg-slate-100 text-slate-500 rounded-full px-2.5 py-1 border border-slate-200">
+                      {group.count} products
+                    </span>
+                  )}
                 </div>
-              )}
-              <div class="space-y-3">
-                {group.map((p, i) => {
-                  const score = compositeScore(p.data.ratings);
-                  return (
-                    <a
-                      href={`/en/products/${p.data.slug}`}
-                      class="flex items-center justify-between bg-white border border-slate-200 rounded-xl px-5 py-4 hover:border-teal-400 transition-all no-underline group gap-4"
-                    >
-                      <div class="flex items-center gap-3 min-w-0">
-                        {group.length > 1 && (
-                          <span class="text-xs font-bold text-slate-300 w-4 shrink-0">#{i + 1}</span>
-                        )}
-                        <div class="min-w-0">
-                          <p class="font-medium text-slate-800 group-hover:text-teal-700 text-sm truncate">{p.data.title}</p>
-                          <p class="text-xs text-slate-500">
-                            {p.data.vendor}
-                            <span class="mx-1 text-slate-300">·</span>
-                            {p.data.doseMg} mg
-                            <span class="mx-1 text-slate-300">·</span>
-                            €{p.data.pricePerDayEur.toFixed(2)}/day
-                          </p>
-                        </div>
-                      </div>
-                      <div class="flex items-center gap-3 shrink-0">
-                        <span class="text-sm font-semibold text-slate-700">
-                          {score.toFixed(1)}<span class="text-xs font-normal text-slate-400">/10</span>
-                        </span>
-                        <VerdictBadge verdict={p.data.verdict} />
-                      </div>
-                    </a>
-                  );
-                })}
+                <a href={`/en/ingredients/${group.ingredientSlug}`}
+                   class="text-lg font-semibold text-slate-900 hover:text-teal-600 no-underline tracking-tight">
+                  {group.ingredientTitle}
+                </a>
+              </div>
+              <div class="shrink-0">
+                {group.evidenceLevel && <EvidenceBadge level={group.evidenceLevel} locale="en" />}
               </div>
             </div>
-          );
-        })}
-      </div>
-    )}
+
+            <!-- Top product -->
+            <div class="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-5 items-start">
+              <div>
+                <div class="flex flex-wrap items-center gap-2 mb-2">
+                  <span class="text-xs font-medium bg-slate-100 text-slate-600 rounded-full px-3 py-1.5 border border-slate-200">
+                    {d.vendor}
+                  </span>
+                  <span class="text-xs font-medium bg-slate-50 text-slate-500 rounded-full px-3 py-1.5 border border-slate-200">
+                    {formLabel[d.form] ?? d.form}
+                  </span>
+                  <span class="text-xs font-medium bg-slate-50 text-slate-500 rounded-full px-3 py-1.5 border border-slate-200">
+                    {d.doseMg} mg
+                  </span>
+                </div>
+                <p class="font-semibold text-slate-800 text-lg mb-1">{d.title}</p>
+                <p class="text-sm text-slate-500 leading-6 max-w-2xl">{d.summary}</p>
+              </div>
+
+              <div class="w-full lg:w-[230px] rounded-2xl border border-slate-200 bg-slate-50/80 p-4">
+                <div class="flex items-start justify-between gap-3 mb-3">
+                  <div>
+                    <p class="text-2xl font-bold text-slate-900 leading-none">{d.pricePerDayEur.toFixed(2)} €</p>
+                    <p class="text-xs text-slate-500 mt-1">per day</p>
+                  </div>
+                  <div class="text-right">
+                    <p class="text-2xl font-black text-slate-900 leading-none">{group.topScore.toFixed(1)}</p>
+                    <p class="text-xs text-slate-400 mt-1">Transparency Index</p>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <VerdictBadge verdict={d.verdict} note={d.verdictNote} hideNote={true} />
+                </div>
+                <div class="text-xs text-slate-500 leading-5">
+                  {packDays} days / pack
+                </div>
+              </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="flex flex-wrap items-center gap-3 mt-5 pt-5 border-t border-slate-100">
+              {d.affiliateUrl && (
+                <a href={d.affiliateUrl}
+                   target="_blank"
+                   rel="sponsored noopener noreferrer"
+                   class="inline-flex items-center gap-1.5 bg-teal-600 hover:bg-teal-700 text-white text-sm font-semibold rounded-xl px-4 py-2 no-underline transition-colors shadow-sm">
+                  Shop now →
+                </a>
+              )}
+              <a href={`/en/products/${d.slug}`}
+                 class="inline-flex items-center gap-1.5 text-sm text-teal-600 hover:text-teal-800 font-medium no-underline">
+                Read review →
+              </a>
+              {group.count > 1 && (
+                <a href={`/en/ingredients/${group.ingredientSlug}#products`}
+                   class="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-700 font-medium no-underline">
+                  Compare all {group.count} →
+                </a>
+              )}
+            </div>
+          </article>
+        );
+      })}
+    </div>
+
+    <!-- Affiliate disclosure -->
+    <div class="mt-10 rounded-2xl border border-slate-200 bg-slate-50/80 p-5 text-xs text-slate-500 leading-6">
+      Some links on this page may be affiliate links. This does not cost you anything extra.
+      Our reviews are based solely on editorial criteria — independent of commercial relationships.
+    </div>
 
   </div>
 </BaseLayout>
+
+<script>
+  const searchInput = document.getElementById('prod-search') as HTMLInputElement;
+  const grid = document.getElementById('product-grid')!;
+  const cards = Array.from(grid.querySelectorAll<HTMLElement>('.prod-card'));
+  const countEl = document.getElementById('results-count')!;
+
+  let activeCategory = 'all';
+  let activeVerdict = 'all';
+
+  function applyFilters() {
+    const q = searchInput.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach(card => {
+      const matchCat = activeCategory === 'all' || card.dataset.category === activeCategory;
+      const matchVerdict = activeVerdict === 'all' || card.dataset.verdict === activeVerdict;
+      const matchQ = !q || (card.dataset.title ?? '').includes(q) || (card.dataset.vendor ?? '').includes(q);
+      const show = matchCat && matchVerdict && matchQ;
+      card.classList.toggle('hidden', !show);
+      if (show) visible++;
+    });
+    countEl.textContent = `${visible} ${visible === 1 ? 'ingredient' : 'ingredients'}`;
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('.filter-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filterGroup = btn.dataset.filter!;
+      const value = btn.dataset.value!;
+      document.querySelectorAll<HTMLButtonElement>(`.filter-chip[data-filter="${filterGroup}"]`).forEach(b => {
+        b.classList.remove('active', 'border-teal-500', 'bg-teal-500', 'text-white');
+        b.classList.add('border-slate-300', 'bg-white', 'text-slate-600');
+      });
+      btn.classList.add('active', 'border-teal-500', 'bg-teal-500', 'text-white');
+      btn.classList.remove('border-slate-300', 'bg-white', 'text-slate-600');
+      if (filterGroup === 'category') activeCategory = value;
+      if (filterGroup === 'verdict') activeVerdict = value;
+      applyFilters();
+    });
+  });
+
+  searchInput.addEventListener('input', applyFilters);
+</script>
