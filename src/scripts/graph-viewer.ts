@@ -99,6 +99,7 @@ type GraphEdge = {
 
 let searchQuery = '';
 let activeTypes = new Set<string>();
+let activeEvidenceLevel = '';  // '' = all, 'meta_analysis', 'human_rct', 'human_observational', 'expert_review'
 let layoutMode: 'map' | 'structured' = 'structured';
 let cy: Core | null = null;
 let selectedNodeId: string | null = null;
@@ -694,23 +695,19 @@ function applyFilters() {
   updateStudyVisibility();
 
   if (!hasSearch && !hasTypeFilter) {
+    // Ingredient-first view: only show ingredient nodes by default
     cy.nodes().forEach(n => {
       const type = String(n.data('type'));
-      if (type === 'study' || type === 'study-cluster') {
-        n.addClass('ks-hidden').removeClass('ks-faded ks-highlighted');
-      } else {
+      if (type === 'ingredient') {
         n.removeClass('ks-hidden ks-faded ks-highlighted');
+      } else {
+        n.addClass('ks-hidden').removeClass('ks-faded ks-highlighted');
       }
     });
 
+    // Hide ALL edges in ingredient-only view
     cy.edges().forEach(e => {
-      const s = String(e.source().data('type'));
-      const t = String(e.target().data('type'));
-      if (s === 'study' || t === 'study' || s === 'study-cluster' || t === 'study-cluster') {
-        e.addClass('ks-hidden').removeClass('ks-faded ks-active');
-      } else {
-        e.removeClass('ks-hidden ks-faded ks-active');
-      }
+      e.addClass('ks-hidden').removeClass('ks-faded ks-active');
     });
 
     fitElements(cy.elements().filter(ele => !ele.hasClass('ks-hidden')));
@@ -782,6 +779,17 @@ function applyFilters() {
     }
   });
 
+  // Evidence level filter: hide edges that don't match
+  if (activeEvidenceLevel) {
+    cy.edges().forEach(e => {
+      if (e.hasClass('ks-hidden')) return;
+      const evLevel = String(e.data('evidenceLevel') ?? '');
+      if (evLevel !== activeEvidenceLevel) {
+        e.addClass('ks-faded').removeClass('ks-active');
+      }
+    });
+  }
+
   const visibleElements = cy.elements().filter(ele => !ele.hasClass('ks-hidden'));
   fitElements(visibleElements);
 }
@@ -789,17 +797,38 @@ function applyFilters() {
 function selectNode(node: NodeSingular, locale: string) {
   if (!cy) return;
   selectedNodeId = node.id();
-  const visibleNodes = cy.nodes().filter(n => !n.hasClass('ks-hidden'));
-  const visibleEdges = cy.edges().filter(e => !e.hasClass('ks-hidden'));
-  const neighbors = node.openNeighborhood().nodes().filter(n => !n.hasClass('ks-hidden'));
-  const connectedEdges = node.connectedEdges().filter(e => !e.hasClass('ks-hidden'));
 
-  visibleNodes.removeClass('ks-selected ks-neighbor ks-highlighted').addClass('ks-faded');
-  visibleEdges.removeClass('ks-active').addClass('ks-faded');
+  // Un-hide the selected node and its direct neighborhood
+  const hood = node.closedNeighborhood();
+  hood.nodes().removeClass('ks-hidden');
+  hood.edges().removeClass('ks-hidden');
 
-  node.removeClass('ks-faded').addClass('ks-selected');
-  neighbors.removeClass('ks-faded').addClass('ks-neighbor');
-  connectedEdges.removeClass('ks-faded').addClass('ks-active');
+  // Also un-hide study neighbors (studies linked to this ingredient)
+  const studies = hood.nodes().filter(n => String(n.data('type')) === 'study');
+  studies.removeClass('ks-hidden');
+  studies.connectedEdges().removeClass('ks-hidden');
+
+  // Fade all other visible nodes
+  cy.nodes().forEach(n => {
+    if (n.hasClass('ks-hidden')) return;
+    if (n.id() === node.id()) {
+      n.removeClass('ks-faded ks-neighbor ks-highlighted').addClass('ks-selected');
+    } else if (hood.nodes().has(n)) {
+      n.removeClass('ks-faded ks-selected ks-highlighted').addClass('ks-neighbor');
+    } else {
+      n.removeClass('ks-selected ks-neighbor ks-highlighted').addClass('ks-faded');
+    }
+  });
+
+  // Highlight connected edges, fade others
+  cy.edges().forEach(e => {
+    if (e.hasClass('ks-hidden')) return;
+    if (hood.edges().has(e)) {
+      e.removeClass('ks-faded').addClass('ks-active');
+    } else {
+      e.removeClass('ks-active').addClass('ks-faded');
+    }
+  });
 
   updateResetButton(locale);
 }
@@ -1047,6 +1076,8 @@ async function initGraph() {
           target: e.target,
           relation: e.relation,
           confidence: e.confidence ?? 1,
+          evidenceLevel: (e as Record<string, unknown>).evidenceLevel ?? '',
+          relationSource: (e as Record<string, unknown>).relationSource ?? '',
         },
       })),
     ],
@@ -1266,6 +1297,74 @@ async function initGraph() {
     });
   }
 
+  // ── Evidence level filter chips ──────────────────────────────────────────
+  const evFilterRow = document.getElementById('ks-evidence-filters');
+  if (evFilterRow) {
+    const evLevels = locale === 'en'
+      ? [
+          { key: '', label: 'All evidence' },
+          { key: 'meta_analysis', label: 'Meta-Analysis' },
+          { key: 'human_rct', label: 'RCT' },
+          { key: 'human_observational', label: 'Observational' },
+          { key: 'expert_review', label: 'Review' },
+        ]
+      : [
+          { key: '', label: 'Alle Evidenz' },
+          { key: 'meta_analysis', label: 'Meta-Analyse' },
+          { key: 'human_rct', label: 'RCT' },
+          { key: 'human_observational', label: 'Beobachtung' },
+          { key: 'expert_review', label: 'Review' },
+        ];
+
+    const evColors: Record<string, string> = {
+      meta_analysis: '#0d9488',
+      human_rct: '#3b82f6',
+      human_observational: '#f59e0b',
+      expert_review: '#94a3b8',
+    };
+
+    for (const ev of evLevels) {
+      const btn = document.createElement('button');
+      btn.dataset.evidence = ev.key;
+      btn.dataset.active = ev.key === '' ? 'true' : 'false';
+      btn.textContent = ev.label;
+      btn.className = 'ev-chip flex-shrink-0 text-[10px] rounded-full px-2.5 py-1 border font-medium transition-colors cursor-pointer ' +
+        (ev.key === ''
+          ? 'border-teal-500 bg-teal-500 text-white'
+          : 'border-slate-200 bg-white text-slate-500 hover:border-slate-400');
+      if (ev.key && evColors[ev.key]) {
+        btn.style.setProperty('--ev-color', evColors[ev.key]);
+      }
+      evFilterRow.appendChild(btn);
+    }
+
+    evFilterRow.addEventListener('click', e => {
+      const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-evidence]');
+      if (!btn) return;
+      const value = btn.dataset.evidence ?? '';
+      activeEvidenceLevel = value;
+
+      evFilterRow.querySelectorAll<HTMLButtonElement>('[data-evidence]').forEach(b => {
+        const isActive = b.dataset.evidence === value;
+        b.dataset.active = isActive ? 'true' : 'false';
+        const evColor = b.style.getPropertyValue('--ev-color');
+        b.className = 'ev-chip flex-shrink-0 text-[10px] rounded-full px-2.5 py-1 border font-medium transition-colors cursor-pointer ' +
+          (isActive
+            ? evColor
+              ? 'border-transparent text-white'
+              : 'border-teal-500 bg-teal-500 text-white'
+            : 'border-slate-200 bg-white text-slate-500 hover:border-slate-400');
+        if (isActive && evColor) {
+          b.style.backgroundColor = evColor;
+        } else {
+          b.style.backgroundColor = '';
+        }
+      });
+
+      applyFilters();
+    });
+  }
+
   const searchEl = document.getElementById('ks-search') as HTMLInputElement | null;
   searchEl?.addEventListener('input', () => {
     searchQuery = searchEl.value.trim().toLowerCase();
@@ -1318,20 +1417,7 @@ async function initGraph() {
     clearSelection();
   });
 
-  cy.nodes().forEach(node => {
-    const type = String(node.data('type'));
-    if (type === 'study') node.addClass('ks-hidden');
-    if (type === 'study-cluster') node.addClass('ks-hidden');
-  });
-
-  cy.edges().forEach(edge => {
-    const sType = String(edge.source().data('type'));
-    const tType = String(edge.target().data('type'));
-    if (sType === 'study' || tType === 'study' || sType === 'study-cluster' || tType === 'study-cluster') {
-      edge.addClass('ks-hidden');
-    }
-  });
-
+  // applyFilters handles initial visibility (ingredient-first view)
   setLayoutMode('structured', locale);
   applyFilters();
   updateResetButton(locale);
