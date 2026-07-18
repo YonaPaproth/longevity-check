@@ -1,12 +1,14 @@
 ---
 id: pmid-42435069
 type: study
-pmid: "42435069"
-title: "Quercetin prophylaxis in prevention of acute mountain sickness (AMS): a randomized, double blind, placebo controlled phase-II clinical trial"
-authors: "Sagi SK et al."
+pmid: '42435069'
+title: 'Quercetin prophylaxis in prevention of acute mountain sickness (AMS): a randomized,
+  double blind, placebo controlled phase-II clinical trial'
+authors: Sagi SK et al.
 year: 2026
-url: "https://pubmed.ncbi.nlm.nih.gov/42435069/"
+url: https://pubmed.ncbi.nlm.nih.gov/42435069/
 study_type: RCT
 evidence_quality: moderate
 coi: unclear
+n: 55
 ---
