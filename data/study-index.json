@@ -1,8 +1,8 @@
 {
   "generated": "2026-07-18",
-  "total": 435,
-  "with_type": 1,
-  "with_reviews": 8,
+  "total": 436,
+  "with_type": 2,
+  "with_reviews": 9,
   "with_ingredients": 401,
   "studies": [
     {
@@ -72,8 +72,8 @@
       "study_type": "Umbrella Review",
       "evidence_quality": "high",
       "n": "",
-      "coi": "",
-      "effect_size": "",
+      "coi": "unclear",
+      "effect_size": "No significant effect on HbA1c, FBG, HOMA-IR, lipids — except modest LDL-C reduction",
       "ingredients": [
         "resveratrol"
       ],
@@ -98,6 +98,23 @@
       "research_reviews": [
         "2026-06-13",
         "2026-07-11"
+      ]
+    },
+    {
+      "id": "pmid-42435069",
+      "pmid": "42435069",
+      "title": "Quercetin prophylaxis in prevention of acute mountain sickness (AMS): a randomized, double blind, placebo controlled phase-II clinical trial",
+      "authors": "Sagi SK et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42435069/",
+      "study_type": "RCT",
+      "evidence_quality": "moderate",
+      "n": "",
+      "coi": "unclear",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": [
+        "2026-07-18"
       ]
     },
     {
