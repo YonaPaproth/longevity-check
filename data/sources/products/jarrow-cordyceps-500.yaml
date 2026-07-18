@@ -1,0 +1,85 @@
+---
+id: jarrow-cordyceps-500
+type: product
+
+meta:
+  title: "Jarrow Formulas Cordyceps 500mg"
+  ingredient: cordyceps
+  containedIngredients:
+    - slug: cordyceps
+  vendor: "Jarrow Formulas"
+  vendorUrl: "https://www.jarrow.com/products/cordyceps"
+  affiliateUrl: ""
+  priceEur: 19.90
+  doseMg: 500
+  servingsPerPack: 60
+  pricePerDayEur: 0.33
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Cordyceps wird in der traditionellen chinesischen Medizin seit Jahrhunderten verwendet und zeigt in Studien interessante Effekte auf Energie, Ausdauer und Immunfunktion. Die moderne klinische Evidenz ist jedoch noch begrenzt."
+      en: "Cordyceps has been used in traditional Chinese medicine for centuries and shows interesting effects on energy, endurance, and immune function in studies. However, modern clinical evidence is still limited."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "Rund 0,33 Euro pro Tag ist ein mittlerer Preis für Cordyceps. Jarrow liefert ein gutes Preis-Qualitäts-Verhältnis im Mittelfeld."
+      en: "Around €0.33 per day is a mid-range price for cordyceps. Jarrow delivers good value for money in the middle segment."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Jarrow Formulas ist eine etablierte US-Marke mit solider Qualitätskontrolle. Die CS-4-Kultivierungsform ist industrieüblich und gut reproduzierbar."
+      en: "Jarrow Formulas is an established US brand with solid quality control. The CS-4 cultivation form is industry-standard and well-reproducible."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Jarrow kommuniziert solide ohne übertriebene Versprechen. Die Herkunft und Form des Cordyceps wird angegeben."
+      en: "Jarrow communicates solidly without exaggerated claims. The origin and form of the cordyceps is specified."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Jarrow Formulas produziert nach GMP-Standards und führt Third-Party-Testing durch. Kein NSF-Zertifikat, aber solide Qualitätssignale für die Preisklasse."
+      en: "Jarrow Formulas produces to GMP standards and conducts third-party testing. No NSF certificate, but solid quality signals for the price range."
+
+locales:
+  de:
+    summary: "Solides Cordyceps-Supplement von Jarrow Formulas — guter Mittelklasse-Pick für einen noch wenig erforschten, aber vielversprechenden Wirkstoff."
+    verdictNote: "Ein vernünftiger Einstieg in Cordyceps — zuverlässige Marke, faire Dosierung, kein Überflieger aber ein guter Standard."
+    body:
+      description: "Jarrow Formulas Cordyceps liefert **500 mg Cordyceps sinensis (CS-4) pro Kapsel**. CS-4 ist die kultivierte, klinisch untersuchte Form — im Gegensatz zu wild geerntetem Cordyceps, das kaum standardisierbar ist."
+      pros:
+        - "**CS-4-Kultivierungsform** — standardisierbar und klinisch untersucht"
+        - "**Etablierte Marke** mit solider GMP-Produktion"
+        - "**Saubere Formulierung** ohne unnötige Zusätze"
+        - "**Faire Mittelklasse-Preisgestaltung**"
+      cons:
+        - "**In Deutschland kaum lokal verfügbar**"
+        - "**Cordyceps-Evidenz** noch begrenzt im westlichen Forschungskontext"
+        - "**Nur 60 Kapseln** pro Packung"
+      usage: ""
+  en:
+    summary: "Solid cordyceps supplement from Jarrow Formulas — good mid-range pick for a promising but under-researched ingredient."
+    verdictNote: "A reasonable entry into cordyceps — reliable brand, fair dosing, not spectacular but a good standard."
+    body:
+      description: "Jarrow Formulas Cordyceps delivers **500 mg Cordyceps sinensis (CS-4) per capsule**. CS-4 is the cultivated, clinically studied form — unlike wild-harvested cordyceps, which is barely standardizable."
+      pros:
+        - "**CS-4 cultivation form** — standardizable and clinically studied"
+        - "**Established brand** with solid GMP production"
+        - "**Clean formulation** without unnecessary additives"
+        - "**Fair mid-range pricing**"
+      cons:
+        - "**Difficult to source locally in Germany**"
+        - "**Cordyceps evidence** still limited in western research context"
+        - "**Only 60 capsules** per pack"
+      usage: ""
+---

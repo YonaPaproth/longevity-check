@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-flohsamenschalen",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "flohsamenschalen",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

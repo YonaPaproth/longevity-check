@@ -1,0 +1,11 @@
+{
+  "entity": "sunday-natural-glucosamin-1500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "glucosamin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

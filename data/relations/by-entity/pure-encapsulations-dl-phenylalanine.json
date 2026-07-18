@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-dl-phenylalanine",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "dl-phenylalanin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

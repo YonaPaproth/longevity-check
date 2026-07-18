@@ -1,0 +1,85 @@
+---
+id: pure-encapsulations-dl-phenylalanine
+type: product
+
+meta:
+  title: "Pure Encapsulations DL-Phenylalanine 500mg"
+  ingredient: dl-phenylalanin
+  containedIngredients:
+    - slug: dl-phenylalanin
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pureencapsulations.com/dl-phenylalanine.html"
+  affiliateUrl: ""
+  priceEur: 24.90
+  doseMg: 500
+  servingsPerPack: 90
+  pricePerDayEur: 0.28
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "DL-Phenylalanin zeigt interessante Effekte auf Stimmung und Schmerzempfindung durch Einfluss auf Dopamin- und Endorphin-Stoffwechsel. Die klinische Evidenz ist jedoch noch begrenzt und die Ergebnisse gemischt."
+      en: "DL-phenylalanine shows interesting effects on mood and pain perception through influence on dopamine and endorphin metabolism. However, clinical evidence is still limited and results are mixed."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "Rund 0,28 Euro pro Tag ist eher teuer für eine Aminosäure. Pure Encapsulations ist ein Premium-Brand, der seinen Preis hat."
+      en: "Around €0.28 per day is rather expensive for an amino acid. Pure Encapsulations is a premium brand that commands its price."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Pure Encapsulations gilt als einer der reinsten Supplement-Hersteller weltweit — hypoallergen, keine unnötigen Zusatzstoffe, höchste Reinheitsstandards. Besonders geeignet für sensible Personen."
+      en: "Pure Encapsulations is considered one of the purest supplement manufacturers worldwide — hypoallergenic, no unnecessary additives, highest purity standards. Especially suitable for sensitive individuals."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Pure Encapsulations kommuniziert sachlich und wissenschaftlich. Keine Wunderheilversprechen, klare Zutatenliste."
+      en: "Pure Encapsulations communicates factually and scientifically. No miracle cure promises, clear ingredient list."
+  thirdPartyTesting:
+    score: 8
+    explanation:
+      de: "Pure Encapsulations hat strenge interne Qualitätskontrolle und führt Third-Party-Testing durch. Einer der vertrauenswürdigsten Brands bei sensiblen Anwendern und Ärzten."
+      en: "Pure Encapsulations has rigorous internal quality control and conducts third-party testing. One of the most trusted brands among sensitive users and physicians."
+
+locales:
+  de:
+    summary: "Premium DL-Phenylalanin von Pure Encapsulations — hypoallergene Formulierung auf höchstem Reinheitsniveau, auch in DE verfügbar."
+    verdictNote: "Die beste Wahl für DL-Phenylalanin, wenn Reinheit und Hypoallergenität wichtig sind — etwa bei Nahrungsmittelintoleranzen oder auf Empfehlung eines Therapeuten."
+    body:
+      description: "Pure Encapsulations DL-Phenylalanine liefert **500 mg DL-Phenylalanin pro Kapsel** in der hypoallergenen Formulierung, die Pure Encapsulations bekannt gemacht hat. Keine Füllstoffe, keine künstlichen Zusätze — maximale Reinheit."
+      pros:
+        - "**Hypoallergene Formulierung** — ideal für empfindliche Personen"
+        - "**Höchste Reinheitsstandards** von einem der besten Hersteller weltweit"
+        - "**In Deutschland verfügbar**"
+        - "**90 Kapseln** für 3 Monate"
+      cons:
+        - "**Teuer** für eine Aminosäure"
+        - "**DL-Phenylalanin-Evidenz** noch begrenzt und gemischt"
+        - "**Nicht für alle geeignet** — Kontraindikation bei PKU (Phenylketonurie)"
+      usage: ""
+  en:
+    summary: "Premium DL-phenylalanine from Pure Encapsulations — hypoallergenic formulation at highest purity level, also available in Germany."
+    verdictNote: "The best choice for DL-phenylalanine when purity and hypoallergenicity are important — such as with food intolerances or on a therapist's recommendation."
+    body:
+      description: "Pure Encapsulations DL-Phenylalanine delivers **500 mg DL-phenylalanine per capsule** in the hypoallergenic formulation that made Pure Encapsulations famous. No fillers, no artificial additives — maximum purity."
+      pros:
+        - "**Hypoallergenic formulation** — ideal for sensitive individuals"
+        - "**Highest purity standards** from one of the best manufacturers worldwide"
+        - "**Available in Germany**"
+        - "**90 capsules** for 3 months"
+      cons:
+        - "**Expensive** for an amino acid"
+        - "**DL-phenylalanine evidence** still limited and mixed"
+        - "**Not suitable for everyone** — contraindicated in PKU (phenylketonuria)"
+      usage: ""
+---

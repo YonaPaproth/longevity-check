@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-boron-3mg",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "bor",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

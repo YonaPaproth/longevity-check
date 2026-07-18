@@ -1,0 +1,11 @@
+{
+  "entity": "jarrow-cordyceps-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "cordyceps",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

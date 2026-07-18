@@ -1,6 +1,6 @@
 {
   "type": "enthaelt",
-  "count": 375,
+  "count": 385,
   "relations": [
     {
       "subject": "alive-by-science-nmn-sublingual",
@@ -328,6 +328,11 @@
       "confidence": 1
     },
     {
+      "subject": "jarrow-cordyceps-500",
+      "target": "cordyceps",
+      "confidence": 1
+    },
+    {
       "subject": "jarrow-creatine-monohydrate-500g",
       "target": "kreatin",
       "confidence": 1
@@ -515,6 +520,11 @@
     {
       "subject": "life-extension-fisetin-elite",
       "target": "fisetin",
+      "confidence": 1
+    },
+    {
+      "subject": "life-extension-flohsamenschalen",
+      "target": "flohsamenschalen",
       "confidence": 1
     },
     {
@@ -973,6 +983,11 @@
       "confidence": 1
     },
     {
+      "subject": "now-foods-boron-3mg",
+      "target": "bor",
+      "confidence": 1
+    },
+    {
       "subject": "now-foods-collagen-peptides",
       "target": "kollagen",
       "confidence": 1
@@ -1025,6 +1040,11 @@
     {
       "subject": "now-foods-gaba-500",
       "target": "vitamin-b6",
+      "confidence": 1
+    },
+    {
+      "subject": "now-foods-gaba-750",
+      "target": "gaba",
       "confidence": 1
     },
     {
@@ -1253,6 +1273,11 @@
       "confidence": 1
     },
     {
+      "subject": "nutricost-folic-acid-800",
+      "target": "folsaeure",
+      "confidence": 1
+    },
+    {
       "subject": "nutricost-l-citrulline-1500",
       "target": "l-citrullin",
       "confidence": 1
@@ -1340,6 +1365,11 @@
     {
       "subject": "pure-encapsulations-collagen-c",
       "target": "vitamin-c",
+      "confidence": 1
+    },
+    {
+      "subject": "pure-encapsulations-dl-phenylalanine",
+      "target": "dl-phenylalanin",
       "confidence": 1
     },
     {
@@ -1563,6 +1593,11 @@
       "confidence": 1
     },
     {
+      "subject": "sunday-natural-calcium-800",
+      "target": "calcium",
+      "confidence": 1
+    },
+    {
       "subject": "sunday-natural-coq10-ubiquinol-100",
       "target": "coq10",
       "confidence": 1
@@ -1570,6 +1605,11 @@
     {
       "subject": "sunday-natural-d3-k2-2000",
       "target": "vitamin-d3-k2",
+      "confidence": 1
+    },
+    {
+      "subject": "sunday-natural-glucosamin-1500",
+      "target": "glucosamin",
       "confidence": 1
     },
     {
@@ -1725,6 +1765,16 @@
     {
       "subject": "thorne-berberine",
       "target": "berberine",
+      "confidence": 1
+    },
+    {
+      "subject": "thorne-beta-alanine-sr",
+      "target": "beta-alanin",
+      "confidence": 1
+    },
+    {
+      "subject": "thorne-chromium-picolinate",
+      "target": "chrom",
       "confidence": 1
     },
     {

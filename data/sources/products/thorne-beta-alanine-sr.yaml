@@ -1,0 +1,85 @@
+---
+id: thorne-beta-alanine-sr
+type: product
+
+meta:
+  title: "Thorne Beta Alanine-SR"
+  ingredient: beta-alanin
+  containedIngredients:
+    - slug: beta-alanin
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com/products/dp/beta-alanine-sr"
+  affiliateUrl: ""
+  priceEur: 32.90
+  doseMg: 800
+  servingsPerPack: 120
+  pricePerDayEur: 0.27
+  form: tablet
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Beta-Alanin ist einer der am besten belegten Ausdauer- und Kraftsport-Wirkstoffe. Die Pufferung von Muskelermüdung über erhöhte Carnosin-Spiegel ist gut repliziert."
+      en: "Beta-alanine is one of the best-supported endurance and strength sports ingredients. The buffering of muscle fatigue via elevated carnosine levels is well-replicated."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "Rund 0,27 Euro pro Tag liegt im oberen Bereich für Beta-Alanin. Thorne-Qualität hat ihren Preis."
+      en: "Around €0.27 per day is on the higher end for beta-alanine. Thorne quality comes at a cost."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Thorne setzt mit der SR-Formulierung (Sustained Release) auf langsames Freisetzen, was das typische Kribbeln (Parästhesie) deutlich reduziert. Hochwertige Herstellung in NSF-zertifizierten Anlagen."
+      en: "Thorne's SR (Sustained Release) formulation provides slow release, which significantly reduces the typical tingling (paresthesia). High-quality production in NSF-certified facilities."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Thorne kommuniziert sachlich und ohne übertriebene Marketingversprechen. Die SR-Formulierung wird klar erklärt."
+      en: "Thorne communicates factually without exaggerated marketing claims. The SR formulation is clearly explained."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "Thorne gehört zu den am besten getesteten Supplement-Marken weltweit mit NSF Certified for Sport. Ein verlässlicher Standard auch für Leistungssportler."
+      en: "Thorne is one of the best-tested supplement brands globally with NSF Certified for Sport — a reliable standard even for competitive athletes."
+
+locales:
+  de:
+    summary: "Premium Beta-Alanin mit nachhaltiger Freisetzungsformel — reduziert das typische Kribbeln und bietet Thorne-Qualitätsstandards."
+    verdictNote: "Top-Wahl für Beta-Alanin, wenn du wenig Kribbeln und maximale Qualitätssicherheit willst. Preislich im oberen Segment."
+    body:
+      description: "Thorne Beta Alanine-SR liefert **800 mg Beta-Alanin pro Tablette** in einer Sustained-Release-Formulierung, die das unangenehme Hautkribbeln (Parästhesie) deutlich reduziert. Ideal für Kraft- und Ausdauersportler."
+      pros:
+        - "**Sustained-Release-Formulierung** reduziert Kribbeln stark"
+        - "**NSF Certified for Sport** — auch für Leistungssportler geeignet"
+        - "**Sehr hohe Qualitätsstandards** von Thorne"
+        - "**120 Tabletten pro Packung** für gut 4 Monate bei 2 Tabletten täglich"
+      cons:
+        - "**Vergleichsweise teuer** für Beta-Alanin als Wirkstoff"
+        - "**In Deutschland kaum lokal verfügbar**"
+        - "**Tabletten sind etwas größer** als typische Kapseln"
+      usage: ""
+  en:
+    summary: "Premium beta-alanine with sustained release formula — reduces typical tingling and delivers Thorne quality standards."
+    verdictNote: "Top choice for beta-alanine if you want minimal tingling and maximum quality assurance. Premium price segment."
+    body:
+      description: "Thorne Beta Alanine-SR delivers **800 mg beta-alanine per tablet** in a sustained-release formulation that significantly reduces the uncomfortable skin tingling (paresthesia). Ideal for strength and endurance athletes."
+      pros:
+        - "**Sustained-release formulation** strongly reduces tingling"
+        - "**NSF Certified for Sport** — suitable for competitive athletes"
+        - "**Very high quality standards** from Thorne"
+        - "**120 tablets per pack** for around 4 months at 2 tablets daily"
+      cons:
+        - "**Relatively expensive** for beta-alanine as an ingredient"
+        - "**Difficult to source locally in Germany**"
+        - "**Tablets are somewhat larger** than typical capsules"
+      usage: ""
+---

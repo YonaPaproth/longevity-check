@@ -1,0 +1,85 @@
+---
+id: nutricost-folic-acid-800
+type: product
+
+meta:
+  title: "Nutricost Folic Acid 800mcg"
+  ingredient: folsaeure
+  containedIngredients:
+    - slug: folsaeure
+  vendor: "Nutricost"
+  vendorUrl: "https://nutricost.com/products/folic-acid"
+  affiliateUrl: ""
+  priceEur: 9.90
+  doseMg: 0.8
+  servingsPerPack: 120
+  pricePerDayEur: 0.08
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 9
+    explanation:
+      de: "Folsäure ist ein der am besten belegten Mikronährstoffe überhaupt — essenziell für Zellwachstum, DNA-Synthese und besonders kritisch in der Schwangerschaft zur Prävention von Neuralrohrdefekten."
+      en: "Folic acid is one of the best-supported micronutrients overall — essential for cell growth, DNA synthesis, and especially critical in pregnancy for neural tube defect prevention."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "Rund 0,08 Euro pro Tag für 800 mcg Folsäure ist ausgezeichnet. Günstiger kann man Folsäure kaum bekommen."
+      en: "Around €0.08 per day for 800 mcg folic acid is excellent. Folic acid barely gets cheaper than this."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Nutricost liefert ein einfaches, funktionales Folsäure-Produkt. Keine aktive 5-MTHF-Form, aber standard Folsäure zu gutem Preis mit solider GMP-Herstellung."
+      en: "Nutricost delivers a simple, functional folic acid product. No active 5-MTHF form, but standard folic acid at good value with solid GMP production."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Nutricost kommuniziert direkt ohne übertriebene Versprechen. Klare Dosierungsangaben, kein Marketing-Overload."
+      en: "Nutricost communicates directly without exaggerated claims. Clear dosage information, no marketing overload."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Nutricost verweist auf GMP-konforme Produktion und Third-Party-Testing. Für eine Budgetmarke solide, aber ohne Premium-Zertifizierungen."
+      en: "Nutricost references GMP-compliant production and third-party testing. Solid for a budget brand, but without premium certifications."
+
+locales:
+  de:
+    summary: "Sehr günstiger Folsäure-Standard von Nutricost — pragmatisch, günstig und für die meisten Anwendungsfälle ausreichend."
+    verdictNote: "Wenn du einfach günstig und zuverlässig Folsäure supplementieren willst, trifft Nutricost den Sweet Spot. Für MTHFR-Träger lieber zur aktiven Methylfolat-Form greifen."
+    body:
+      description: "Nutricost Folic Acid liefert **800 mcg Folsäure pro Kapsel** — eine der günstigsten Möglichkeiten, den täglichen Folsäurebedarf zu decken. Standard-Folsäure-Form, klare Formulierung."
+      pros:
+        - "**Sehr günstiger Preis** — unter 10 Euro für 120 Kapseln"
+        - "**800 mcg** — relevante Dosierung für Supplementierung"
+        - "**Einfache, klare Formulierung**"
+        - "**120 Kapseln** für 4 Monate"
+      cons:
+        - "**Synthetische Folsäure** — keine aktive 5-MTHF-Form (relevant bei MTHFR-Genvarianten)"
+        - "**In Deutschland kaum lokal verfügbar**"
+        - "**US-Budgetmarke** ohne Premium-Qualitätssignale"
+      usage: ""
+  en:
+    summary: "Very affordable folic acid standard from Nutricost — pragmatic, cheap, and sufficient for most use cases."
+    verdictNote: "If you simply want to supplement folic acid cheaply and reliably, Nutricost hits the sweet spot. For MTHFR carriers, consider the active methylfolate form instead."
+    body:
+      description: "Nutricost Folic Acid delivers **800 mcg folic acid per capsule** — one of the cheapest ways to cover daily folate needs. Standard folic acid form, clear formulation."
+      pros:
+        - "**Very affordable price** — under €10 for 120 capsules"
+        - "**800 mcg** — relevant dosage for supplementation"
+        - "**Simple, clean formulation**"
+        - "**120 capsules** for 4 months"
+      cons:
+        - "**Synthetic folic acid** — no active 5-MTHF form (relevant for MTHFR gene variants)"
+        - "**Difficult to source locally in Germany**"
+        - "**US budget brand** without premium quality signals"
+      usage: ""
+---

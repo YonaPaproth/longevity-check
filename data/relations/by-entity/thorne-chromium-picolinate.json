@@ -1,0 +1,11 @@
+{
+  "entity": "thorne-chromium-picolinate",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "chrom",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

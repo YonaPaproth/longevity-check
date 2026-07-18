@@ -1,0 +1,11 @@
+{
+  "entity": "nutricost-folic-acid-800",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "folsaeure",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+---
+id: now-foods-boron-3mg
+type: product
+
+meta:
+  title: "NOW Foods Boron 3mg"
+  ingredient: bor
+  containedIngredients:
+    - slug: bor
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com/products/supplements/boron-3-mg-capsules"
+  affiliateUrl: ""
+  priceEur: 8.90
+  doseMg: 3
+  servingsPerPack: 100
+  pricePerDayEur: 0.09
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Bor zeigt interessante Effekte auf Hormonstatus, Knochengesundheit und kognitive Funktion, ist aber noch kein gut belegter Mainstream-Wirkstoff. Die Forschungslage ist vielversprechend, aber noch begrenzt."
+      en: "Boron shows interesting effects on hormone status, bone health, and cognitive function, but it is not yet a well-established mainstream ingredient. Research is promising but still limited."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "Unter 0,10 Euro pro Tag für einen Spurenwirkstoff wie Bor ist ausgezeichnet. Sehr günstiger Einstieg."
+      en: "Under €0.10 per day for a trace mineral like boron is excellent. Very affordable entry point."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW Foods ist eine etablierte, zuverlässige US-Marke mit solider GMP-Produktion. Kein Premium-Brand, aber konsistent gute Qualität für den Preis."
+      en: "NOW Foods is an established, reliable US brand with solid GMP production. Not a premium brand, but consistently good quality for the price."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "NOW Foods kommuniziert zurückhaltend und sachlich. Keine übertriebenen Versprechen, klare Inhaltsstoffe."
+      en: "NOW Foods communicates conservatively and factually. No exaggerated claims, clear ingredient listing."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW Foods hat eigene Laboreinrichtungen und GMP-Zertifizierungen. Third-Party-Testing ist Standard im Sortiment, auch wenn nicht für jedes Produkt NSF-zertifiziert."
+      en: "NOW Foods has in-house lab facilities and GMP certifications. Third-party testing is standard across the range, though not every product is NSF-certified."
+
+locales:
+  de:
+    summary: "Günstiger, zuverlässiger Bor-Pick von NOW Foods — solide Grundversorgung zu sehr attraktivem Preis."
+    verdictNote: "Wenn du Bor testen willst, ist dies eine der günstigsten und verlässlichsten Optionen auf dem Markt."
+    body:
+      description: "NOW Foods Boron liefert **3 mg Bor pro Kapsel** in einer einfachen, klaren Formulierung. Einer der unkompliziertesten Bor-Supplemente am Markt — praktisch, günstig, direkt."
+      pros:
+        - "**Sehr günstiger Preis** für 100 Kapseln"
+        - "**Klare, einfache Formulierung** ohne unnötige Zusätze"
+        - "**Etablierte Marke** mit solider GMP-Produktion"
+        - "**3 mg Dosierung** entspricht der gängigen Empfehlung in der Forschung"
+      cons:
+        - "**In Deutschland kaum lokal erhältlich**"
+        - "**Bor hat noch begrenzte klinische Evidenz** als Daily-Supplement"
+        - "**Kein NSF- oder vergleichbares Sport-Zertifikat**"
+      usage: ""
+  en:
+    summary: "Affordable, reliable boron pick from NOW Foods — solid basic supply at a very attractive price."
+    verdictNote: "If you want to try boron, this is one of the cheapest and most reliable options on the market."
+    body:
+      description: "NOW Foods Boron delivers **3 mg boron per capsule** in a simple, clean formulation. One of the most straightforward boron supplements available — practical, affordable, direct."
+      pros:
+        - "**Very affordable price** for 100 capsules"
+        - "**Clean, simple formulation** without unnecessary additives"
+        - "**Established brand** with solid GMP production"
+        - "**3 mg dosage** aligns with commonly studied research doses"
+      cons:
+        - "**Difficult to source locally in Germany**"
+        - "**Boron still has limited clinical evidence** as a daily supplement"
+        - "**No NSF or comparable sports certification**"
+      usage: ""
+---

@@ -1,0 +1,11 @@
+{
+  "entity": "sunday-natural-calcium-800",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "calcium",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+---
+id: sunday-natural-glucosamin-1500
+type: product
+
+meta:
+  title: "Sunday Natural Glucosamin 1500mg"
+  ingredient: glucosamin
+  containedIngredients:
+    - slug: glucosamin
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de/products/glucosamin-1500-mg"
+  affiliateUrl: ""
+  priceEur: 19.90
+  doseMg: 1500
+  servingsPerPack: 180
+  pricePerDayEur: 0.33
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Glucosamin hat eine solide Forschungsbasis für Gelenkgesundheit und Knieschmerzen, besonders bei Osteoarthritis. Die Ergebnisse sind gemischt, aber die positive Richtung für bestimmte Populationen ist gut dokumentiert."
+      en: "Glucosamine has a solid research base for joint health and knee pain, especially in osteoarthritis. Results are mixed, but the positive direction for certain populations is well-documented."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "Rund 0,33 Euro pro Tag für 1500 mg Glucosamin von einer deutschen Premium-Marke ist ein fairer Preis. 180 Kapseln bieten einen guten Vorrat."
+      en: "Around €0.33 per day for 1500 mg glucosamine from a German premium brand is a fair price. 180 capsules offer a good supply."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Sunday Natural liefert Glucosaminhydrochlorid in hoher Reinheit mit transparenten Inhaltsstoffen. Saubere deutsche Herstellungsstandards."
+      en: "Sunday Natural delivers glucosamine hydrochloride in high purity with transparent ingredients. Clean German manufacturing standards."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Sunday Natural kommuniziert die Evidenzlage solide und ohne übertriebene Versprechungen. Klare Formulierungs- und Dosierungsangaben."
+      en: "Sunday Natural communicates the evidence base solidly and without exaggerated promises. Clear formulation and dosage information."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Sunday Natural testet nach deutschen GMP-Standards und kommuniziert transparent über Inhaltsstoffe. Kein internationales Premium-Zertifikat, aber starke europäische Qualitätssignale."
+      en: "Sunday Natural tests to German GMP standards and communicates transparently about ingredients. No international premium certificate, but strong European quality signals."
+
+locales:
+  de:
+    summary: "Hochdosiertes Glucosamin von Sunday Natural — direkt in Deutschland erhältlich, faire Dosierung und solide Qualitätsstandards."
+    verdictNote: "Gute lokale Option für Glucosamin — Sunday Natural bietet 1500 mg in sauberer Formulierung und ist komfortabel in DE bestellbar."
+    body:
+      description: "Sunday Natural Glucosamin 1500 liefert **1500 mg Glucosaminhydrochlorid pro Tagesdosis** — die klinisch am meisten untersuchte Dosierung für Gelenkgesundheit. Als deutsche Marke direkt lokal verfügbar, ohne Import-Umwege."
+      pros:
+        - "**1500 mg klinisch relevante Tagesdosis**"
+        - "**In Deutschland direkt verfügbar**"
+        - "**180 Kapseln** — großer Vorrat für 3+ Monate"
+        - "**Saubere Formulierung** nach deutschen Standards"
+      cons:
+        - "**Glucosamin-Evidenz ist gemischt** — nicht für jeden wirksam"
+        - "**Nicht geeignet für Veganer/Vegetarier** (Schalentier-Herkunft)"
+        - "**Etwas teurer** als US-Budget-Optionen"
+      usage: ""
+  en:
+    summary: "High-dose glucosamine from Sunday Natural — directly available in Germany, fair dosing and solid quality standards."
+    verdictNote: "Good local option for glucosamine — Sunday Natural offers 1500 mg in clean formulation and is conveniently orderable in Germany."
+    body:
+      description: "Sunday Natural Glucosamin 1500 delivers **1500 mg glucosamine hydrochloride per daily dose** — the most clinically studied dosage for joint health. As a German brand, directly available locally without import detours."
+      pros:
+        - "**1500 mg clinically relevant daily dose**"
+        - "**Directly available in Germany**"
+        - "**180 capsules** — large supply for 3+ months"
+        - "**Clean formulation** to German standards"
+      cons:
+        - "**Glucosamine evidence is mixed** — not effective for everyone"
+        - "**Not suitable for vegans/vegetarians** (shellfish-derived)"
+        - "**Slightly more expensive** than US budget options"
+      usage: ""
+---

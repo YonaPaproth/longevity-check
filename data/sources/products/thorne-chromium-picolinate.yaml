@@ -1,0 +1,87 @@
+---
+id: thorne-chromium-picolinate
+type: product
+
+meta:
+  title: "Thorne Chromium Picolinate 200mcg"
+  ingredient: chrom
+  containedIngredients:
+    - slug: chrom
+  vendor: "Thorne"
+  vendorUrl: "https://www.thorne.com/products/dp/chromium-picolinate"
+  affiliateUrl: ""
+  priceEur: 14.90
+  doseMg: 0.2
+  servingsPerPack: 60
+  pricePerDayEur: 0.25
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Chrom als Picolinat zeigt moderate Effekte auf den Blutzuckerspiegel und Insulinsensitivität in einigen Studien, aber die Gesamtevidenz ist gemischt. Kein Ersatz für Lebensstiländerungen, aber als Ergänzung bei bestimmten Populationen interessant."
+      en: "Chromium picolinate shows moderate effects on blood sugar and insulin sensitivity in some studies, but overall evidence is mixed. Not a substitute for lifestyle changes, but interesting as a complement for certain populations."
+  valueForMoney:
+    score: 6
+    explanation:
+      de: "Rund 0,25 Euro pro Tag ist vergleichsweise teuer für Chrom. Andere Anbieter bieten ähnliche Dosierungen günstiger, aber ohne Thornes Qualitätsstandards."
+      en: "Around €0.25 per day is relatively expensive for chromium. Other providers offer similar doses cheaper, but without Thorne's quality standards."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Thorne verwendet die gut absorbierbare Picolinat-Form und produziert in NSF-zertifizierten Anlagen. Hohe Reinheit und ausgezeichnete Qualitätskontrolle."
+      en: "Thorne uses the well-absorbed picolinate form and produces in NSF-certified facilities. High purity and excellent quality control."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Thorne bleibt sachlich und verzichtet auf übertriebene Wirkversprechen. Klare Formulierungs- und Dosierungsangaben."
+      en: "Thorne stays factual and avoids exaggerated efficacy claims. Clear formulation and dosage information."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "Thorne ist eine der am strengsten getesteten Supplement-Marken mit NSF Certified for Sport — ein verlässlicher Standard."
+      en: "Thorne is one of the most rigorously tested supplement brands with NSF Certified for Sport — a reliable standard."
+
+locales:
+  de:
+    summary: "Premium Chrom-Picolinat von Thorne — hohe Qualitätssicherheit mit NSF-Zertifizierung, aber preislich im oberen Segment."
+    verdictNote: "Die beste Qualitätsoption für Chrom-Picolinat, wenn dir Reinheit und Zertifizierung wichtig sind. Preislich eher für Qualitätsbewusste."
+    body:
+      description: "Thorne Chromium Picolinate liefert **200 mcg Chrom als Picolinat pro Kapsel** — eine der bioaktivsten Chrom-Formen. In Thornes typisch hoher Qualität mit NSF Certified for Sport."
+      pros:
+        - "**Picolinat-Form** für bessere Bioverfügbarkeit"
+        - "**NSF Certified for Sport** — Reinheit und Sicherheit geprüft"
+        - "**Thorne-Qualitätsstandards** auf höchstem Niveau"
+        - "**Klare, saubere Formulierung**"
+      cons:
+        - "**Vergleichsweise hoher Preis** für Chrom"
+        - "**In Deutschland kaum lokal verfügbar**"
+        - "**Nur 60 Kapseln** — reicht 2 Monate"
+        - "**Evidenz für Chrom-Supplementierung** bleibt gemischt"
+      usage: ""
+  en:
+    summary: "Premium chromium picolinate from Thorne — high quality assurance with NSF certification, but in the upper price range."
+    verdictNote: "The best quality option for chromium picolinate if purity and certification matter to you. Priced for the quality-conscious."
+    body:
+      description: "Thorne Chromium Picolinate delivers **200 mcg chromium as picolinate per capsule** — one of the most bioactive chromium forms. In Thorne's typically high quality with NSF Certified for Sport."
+      pros:
+        - "**Picolinate form** for better bioavailability"
+        - "**NSF Certified for Sport** — purity and safety verified"
+        - "**Thorne quality standards** at the highest level"
+        - "**Clean, clear formulation**"
+      cons:
+        - "**Comparatively high price** for chromium"
+        - "**Difficult to source locally in Germany**"
+        - "**Only 60 capsules** — lasts 2 months"
+        - "**Evidence for chromium supplementation** remains mixed"
+      usage: ""
+---

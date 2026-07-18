@@ -6,6 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
     "validate:ingredients": "node scripts/validate-ingredients.mjs",
     "validate:kg": "tsx scripts/validate-kg.ts",
     "validate:all": "pnpm validate:ingredients && pnpm validate:kg",
@@ -22,6 +24,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "gray-matter": "^4.0.3",
     "tsx": "^4.22.4"
   }

@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-gaba-750",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "gaba",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+---
+id: sunday-natural-calcium-800
+type: product
+
+meta:
+  title: "Sunday Natural Calcium 800mg"
+  ingredient: calcium
+  containedIngredients:
+    - slug: calcium
+  vendor: "Sunday Natural"
+  vendorUrl: "https://www.sunday.de/products/calcium-800-mg"
+  affiliateUrl: ""
+  priceEur: 16.90
+  doseMg: 800
+  servingsPerPack: 120
+  pricePerDayEur: 0.14
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+  verdict: empfehlenswert
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Calcium ist ein gut belegter Mikronährstoff für Knochengesundheit und neuromuskuläre Funktion. Die Evidenz für gezielte Supplementierung ist solide, besonders bei unzureichender Nahrungsversorgung."
+      en: "Calcium is a well-supported micronutrient for bone health and neuromuscular function. Evidence for targeted supplementation is solid, especially with insufficient dietary intake."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "Rund 0,14 Euro pro Tag für 800 mg Calcium von einer deutschen Premium-Marke ist ein fairer Preis. Gut ausbalanciert zwischen Qualität und Kosten."
+      en: "Around €0.14 per day for 800 mg calcium from a German premium brand is a fair price. Well-balanced between quality and cost."
+  productQuality:
+    score: 8
+    explanation:
+      de: "Sunday Natural ist eine renommierte deutsche Marke mit hohen Qualitätsstandards, sauberen Formulierungen und transparenten Inhaltsstoffen. Herstellung nach deutschen Qualitätsmaßstäben."
+      en: "Sunday Natural is a reputable German brand with high quality standards, clean formulations, and transparent ingredients. Produced according to German quality standards."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Sunday Natural kommuniziert sachlich und ohne übertriebene Gesundheitsversprechen. Klare Dosierungsangaben und transparent bei Inhaltsstoffen."
+      en: "Sunday Natural communicates factually without exaggerated health claims. Clear dosage information and transparent about ingredients."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Sunday Natural testet Produkte und produziert nach deutschen GMP-Standards. Kein NSF-Zertifikat, aber die Qualitätssignale für eine europäische Marke sind stark."
+      en: "Sunday Natural tests products and produces to German GMP standards. No NSF certificate, but quality signals for a European brand are strong."
+
+locales:
+  de:
+    summary: "Solider Calcium-Pick von der deutschen Premium-Marke Sunday Natural — gut verfügbar in DE, faire Dosierung und saubere Formulierung."
+    verdictNote: "Eine der besten lokalen Optionen für Calcium in Deutschland — Sunday Natural trifft hier einen guten Mittelweg aus Qualität und Preis."
+    body:
+      description: "Sunday Natural Calcium 800 liefert **800 mg Calcium pro Kapsel** in einer gut bioverfügbaren Form. Als deutsche Marke mit hohen Qualitätsstandards direkt lokal bestellbar — ohne den Umweg über US-Importe."
+      pros:
+        - "**In Deutschland direkt verfügbar**"
+        - "**800 mg sinnvolle Tagesdosis** ohne Überdosierungsrisiko"
+        - "**Saubere Formulierung** ohne unnötige Füllstoffe"
+        - "**Hohe Qualitätsstandards** nach deutschen Maßstäben"
+      cons:
+        - "**Etwas teurer** als US-Budgetoptionen"
+        - "**Calcium-Supplementierung kann nicht jeden Mangel ausgleichen** — Ernährung bleibt wichtiger"
+        - "**Interaktion mit anderen Mineralien** beachten (Zink, Magnesium)"
+      usage: ""
+  en:
+    summary: "Solid calcium pick from German premium brand Sunday Natural — easily available in Germany, fair dosing, clean formulation."
+    verdictNote: "One of the best local options for calcium in Germany — Sunday Natural hits a good balance between quality and price."
+    body:
+      description: "Sunday Natural Calcium 800 delivers **800 mg calcium per capsule** in a well-bioavailable form. As a German brand with high quality standards, it can be ordered locally — no detour through US imports."
+      pros:
+        - "**Directly available in Germany**"
+        - "**800 mg sensible daily dose** without overdose risk"
+        - "**Clean formulation** without unnecessary fillers"
+        - "**High quality standards** by German benchmarks"
+      cons:
+        - "**Slightly more expensive** than US budget options"
+        - "**Calcium supplementation can't compensate for all deficiencies** — diet remains more important"
+        - "**Consider interactions with other minerals** (zinc, magnesium)"
+      usage: ""
+---

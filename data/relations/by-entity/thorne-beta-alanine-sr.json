@@ -1,0 +1,11 @@
+{
+  "entity": "thorne-beta-alanine-sr",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "beta-alanin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}
