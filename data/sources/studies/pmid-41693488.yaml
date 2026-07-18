@@ -8,6 +8,7 @@ authors: Mahmoudi R et al.
 year: 2026
 url: https://pubmed.ncbi.nlm.nih.gov/41693488/
 study_type: Meta-Analysis
-evidence_quality: high
+evidence_quality: moderate
 n: 1769
+effect_size: "BDI -4.39 (95% CI: -6.64 to -2.15), BAI -5.06 (95% CI: -8.44 to -1.68) — but no effect on clinician-rated HDRS/HARS. I² > 90%"
 ---

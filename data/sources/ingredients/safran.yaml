@@ -34,9 +34,9 @@ key_studies:
   - ref: pmid-41693488
     finding:
       de: >-
-        GRADE-bewertete systematische Review und Meta-Analyse von 34 RCTs: Safran zeigte die bislang stärkste zusammengefasste Evidenz für Verbesserungen bei Depression, Angst und Stimmungslage, auch wenn die Primärstudien weiterhin heterogen und oft klein sind.
+        Größte Meta-Analyse (34 RCTs, 1769 Teilnehmer): Safran zeigte signifikante Effekte auf Selbstbewertungs-Fragebögen (BDI: -4.39 Punkte, BAI: -5.06 Punkte), aber KEINE signifikanten Effekte auf kliniker-bewerteten Skalen (HDRS, HARS). Heterogenität extrem hoch (I² > 90%). Das Muster "Selbstbewertung positiv, Kliniker-Rating negativ" deutet auf Placebo-Effekt oder Reporting-Bias hin. GRADE-Evidenz: moderat.
       en: >-
-        GRADE-assessed systematic review and meta-analysis of 34 RCTs: saffron showed the strongest pooled evidence to date for improvements in depression, anxiety, and mood outcomes, although primary studies remain heterogeneous and often small.
+        Largest meta-analysis (34 RCTs, 1,769 participants): saffron showed significant effects on self-rated questionnaires (BDI: -4.39 points, BAI: -5.06 points) but NO significant effects on clinician-rated scales (HDRS, HARS). Heterogeneity extremely high (I² > 90%). The "self-report positive, clinician-rated negative" pattern suggests placebo effect or reporting bias. GRADE certainty: moderate.
   - ref: pmid-32221179
     finding:
       de: >-
@@ -61,7 +61,7 @@ locales:
     summary: >-
       Safran wird vor allem für Stimmung, Stress und PMS untersucht. Die Humanstudien sind interessant, aber klein und nicht stark genug für große Gesundheitsversprechen.
     evidenceSummary: >-
-      Für Safran gibt es mehrere randomisierte Humanstudien sowie neu eine GRADE-bewertete systematische Review und Meta-Analyse von 34 RCTs, vor allem zu depressiven Symptomen und teils zu Angst, PMS oder Schlaf. Die Ergebnisse sind oft positiv, aber die Datengrundlage bleibt trotz stärkerer Evidenzsynthese begrenzt: viele Primärstudien sind klein, kurz und stammen aus wenigen Forschungsgruppen.
+      Die größte Meta-Analyse (34 RCTs, 1769 Teilnehmer) zeigt ein geteiltes Bild: Safran verbesserte Selbstbewertungs-Scores für Depression und Angst signifikant, zeigte aber KEINE Wirkung auf kliniker-bewerteten Skalen. Die extrem hohe Heterogenität (I² > 90%) deutet darauf hin, dass wenige positive Studien den gepoolten Effekt treiben. Das Muster legt Placebo-Effekt oder Reporting-Bias nahe. Für andere Anwendungen (PMS, Schlaf, sexuelle Dysfunktion) gibt es vereinzelte positive RCTs, aber die Gesamtevidenz bleibt begrenzt.
     body: |
       ## Was ist Safran?
       
@@ -110,7 +110,7 @@ locales:
     summary: >-
       Saffron is mainly studied for mood, stress, and PMS. Human trials are interesting, but still too small and narrow to justify broad health claims or premium pricing narratives.
     evidenceSummary: >-
-      There are multiple small randomized human trials and meta-analyses on saffron, especially for depressive symptoms and in some cases anxiety, PMS, or sleep. Results are often positive, but the evidence base remains limited: small samples, short durations, and heavy dependence on a few research groups.
+      The largest meta-analysis (34 RCTs, 1,769 participants) paints a mixed picture: saffron significantly improved self-rated depression and anxiety scores but showed NO effect on clinician-rated scales. Extremely high heterogeneity (I² > 90%) suggests a few positive studies drive the pooled effect. The "self-report positive, clinician-rated negative" pattern points to placebo effect or reporting bias. For other uses (PMS, sleep, sexual dysfunction) there are occasional positive RCTs, but overall evidence remains limited.
     body: |
       ## What is saffron?
       
