@@ -24,8 +24,8 @@ const ROOT = join(import.meta.dirname, '../..');
 function parseSimpleYaml(content: string): Record<string, string> {
   const result: Record<string, string> = {};
   for (const line of content.split('\n')) {
-    const m = line.match(/^([a-z_]+):\s*"?(.+?)"?\s*$/);
-    if (m) result[m[1]] = m[2].replace(/^"|"$/g, '').trim();
+    const m = line.match(/^([a-z_]+):\s*["']?(.+?)["']?\s*$/);
+    if (m) result[m[1]] = m[2].replace(/^["']|["']$/g, '').trim();
   }
   return result;
 }
