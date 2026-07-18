@@ -9,7 +9,6 @@ export const en: Dict = {
       label: 'Checks',
       items: [
         { label: 'Nutrient Check', href: '/en/nutrient-check', desc: 'General nutrient risk assessment' },
-        { label: 'Vegan Check', href: '/en/vegan-supplement-check', desc: 'Tailored for plant-based diets' },
         { label: 'Claims Check', href: '/en/claims', desc: 'Marketing claims put to the test' },
       ],
     },
