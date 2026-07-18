@@ -43,6 +43,11 @@ interface StudyMeta {
   authors: string;
   year: number;
   url?: string;
+  n?: number;
+  coi?: string;
+  effect_size?: string;
+  study_type?: string;
+  evidence_quality?: string;
 }
 
 const studyRegistry = new Map<string, StudyMeta>();
@@ -212,6 +217,9 @@ interface ResolvedStudy {
   authors: string;
   year: number;
   url?: string;
+  n?: number;
+  coi?: string;
+  effect_size?: string;
 }
 
 function resolveStudy(study: KeyStudy, ingredientId: string): ResolvedStudy {
@@ -229,6 +237,9 @@ function resolveStudy(study: KeyStudy, ingredientId: string): ResolvedStudy {
       authors: meta.authors,
       year: meta.year,
       url: meta.url,
+      n: meta.n,
+      coi: meta.coi,
+      effect_size: meta.effect_size,
     };
   }
   // Inline study — return as-is
@@ -238,6 +249,9 @@ function resolveStudy(study: KeyStudy, ingredientId: string): ResolvedStudy {
     authors: study.authors,
     year: study.year,
     url: study.url,
+    n: (study as KeyStudyInline & { n?: number }).n,
+    coi: (study as KeyStudyInline & { coi?: string }).coi,
+    effect_size: (study as KeyStudyInline & { effect_size?: string }).effect_size,
   };
 }
 
@@ -285,6 +299,9 @@ function buildMdxFrontmatter(source: IngredientSource, locale: 'de' | 'en'): str
       lines.push(`    year: ${resolved.year}`);
       if (resolved.pmid) lines.push(`    pmid: "${resolved.pmid}"`);
       if (resolved.url) lines.push(`    url: "${resolved.url}"`);
+      if (resolved.n !== undefined) lines.push(`    n: ${resolved.n}`);
+      if (resolved.coi) lines.push(`    coi: "${resolved.coi}"`);
+      if (resolved.effect_size) lines.push(`    effect_size: "${resolved.effect_size.replace(/"/g, '\\"')}"`);
       // finding: wrap as multiline if needed
       const escapedFinding = finding.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
       lines.push(`    finding: "${escapedFinding}"`);

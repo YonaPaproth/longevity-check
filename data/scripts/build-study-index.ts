@@ -42,6 +42,9 @@ interface StudyEntry {
   url: string;
   study_type: string;
   evidence_quality: string;
+  n: string;
+  coi: string;
+  effect_size: string;
   ingredients: string[];
   research_reviews: string[];
 }
@@ -62,6 +65,9 @@ for (const file of studyFiles) {
     url: yaml.url || '',
     study_type: yaml.study_type || '',
     evidence_quality: yaml.evidence_quality || '',
+    n: yaml.n || '',
+    coi: yaml.coi || '',
+    effect_size: yaml.effect_size || '',
     ingredients: [],
     research_reviews: [],
   });
@@ -157,13 +163,16 @@ const jsonOut = {
 writeFileSync(join(ROOT, 'data/study-index.json'), JSON.stringify(jsonOut, null, 2));
 
 // CSV output
-const csvHeaders = ['id', 'pmid', 'year', 'study_type', 'evidence_quality', 'title', 'authors', 'url', 'ingredients', 'research_reviews'];
+const csvHeaders = ['id', 'pmid', 'year', 'study_type', 'evidence_quality', 'n', 'coi', 'effect_size', 'title', 'authors', 'url', 'ingredients', 'research_reviews'];
 const csvRows = sortedStudies.map(s => [
   s.id,
   s.pmid,
   s.year,
   s.study_type,
   s.evidence_quality,
+  s.n,
+  s.coi,
+  `"${(s.effect_size || '').replace(/"/g, '""')}"`,
   `"${s.title.replace(/"/g, '""')}"`,
   `"${s.authors.replace(/"/g, '""')}"`,
   s.url,

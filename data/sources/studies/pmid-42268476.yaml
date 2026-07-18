@@ -8,4 +8,6 @@ year: 2026
 url: "https://pubmed.ncbi.nlm.nih.gov/42268476/"
 study_type: "Umbrella Review"
 evidence_quality: high
+coi: unclear
+effect_size: "No significant effect on HbA1c, FBG, HOMA-IR, lipids — except modest LDL-C reduction"
 ---
