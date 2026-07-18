@@ -1,9 +1,11 @@
 ---
 id: pmid-28202713
 type: study
-pmid: "28202713"
-title: "Vitamin D supplementation to prevent acute respiratory tract infections"
-authors: "Martineau AR et al."
+pmid: '28202713'
+title: Vitamin D supplementation to prevent acute respiratory tract infections
+authors: Martineau AR et al.
 year: 2017
-url: "https://pubmed.ncbi.nlm.nih.gov/28202713/"
+url: https://pubmed.ncbi.nlm.nih.gov/28202713/
+study_type: Meta-Analysis
+evidence_quality: high
 ---

@@ -1,9 +1,11 @@
 ---
 id: pmid-8874839
 type: study
-pmid: "8874839"
-title: "Inositol treatment of obsessive-compulsive disorder"
-authors: "Fux M et al."
+pmid: '8874839'
+title: Inositol treatment of obsessive-compulsive disorder
+authors: Fux M et al.
 year: 1996
-url: "https://pubmed.ncbi.nlm.nih.gov/8874839/"
+url: https://pubmed.ncbi.nlm.nih.gov/8874839/
+study_type: Clinical Trial
+evidence_quality: moderate
 ---

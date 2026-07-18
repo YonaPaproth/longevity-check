@@ -1,9 +1,11 @@
 ---
 id: pmid-22381456
 type: study
-pmid: "22381456"
-title: "Selenium and human health"
-authors: "Rayman MP"
+pmid: '22381456'
+title: Selenium and human health
+authors: Rayman MP
 year: 2012
-url: "https://pubmed.ncbi.nlm.nih.gov/22381456/"
+url: https://pubmed.ncbi.nlm.nih.gov/22381456/
+study_type: Comparative Study
+evidence_quality: moderate
 ---

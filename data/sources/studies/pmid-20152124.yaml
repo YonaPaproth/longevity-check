@@ -1,9 +1,11 @@
 ---
 id: pmid-20152124
 type: study
-pmid: "20152124"
-title: "Enhancement of Learning and Memory by Elevating Brain Magnesium (Mg-L-Threonate)"
-authors: "Slutsky I et al."
+pmid: '20152124'
+title: Enhancement of Learning and Memory by Elevating Brain Magnesium (Mg-L-Threonate)
+authors: Slutsky I et al.
 year: 2010
-url: "https://pubmed.ncbi.nlm.nih.gov/20152124/"
+url: https://pubmed.ncbi.nlm.nih.gov/20152124/
+study_type: Comparative Study
+evidence_quality: moderate
 ---

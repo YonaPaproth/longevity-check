@@ -1,9 +1,11 @@
 ---
 id: pmid-30415629
 type: study
-pmid: "30415629"
-title: "Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease (VITAL)"
-authors: "Manson JE et al."
+pmid: '30415629'
+title: Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease (VITAL)
+authors: Manson JE et al.
 year: 2019
-url: "https://pubmed.ncbi.nlm.nih.gov/30415629/"
+url: https://pubmed.ncbi.nlm.nih.gov/30415629/
+study_type: RCT
+evidence_quality: high
 ---

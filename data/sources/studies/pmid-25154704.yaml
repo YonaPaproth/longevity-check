@@ -1,9 +1,11 @@
 ---
 id: pmid-25154704
 type: study
-pmid: "25154704"
-title: "Coenzyme Q10 Supplementation Reduces Statin-Related Myopathy"
-authors: "Skarlovnik A et al."
+pmid: '25154704'
+title: Coenzyme Q10 Supplementation Reduces Statin-Related Myopathy
+authors: Skarlovnik A et al.
 year: 2014
-url: "https://pubmed.ncbi.nlm.nih.gov/25154704/"
+url: https://pubmed.ncbi.nlm.nih.gov/25154704/
+study_type: Observational Study
+evidence_quality: moderate
 ---

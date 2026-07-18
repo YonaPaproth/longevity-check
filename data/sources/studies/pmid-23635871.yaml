@@ -1,9 +1,11 @@
 ---
 id: pmid-23635871
 type: study
-pmid: "23635871"
-title: "Increased potassium intake to reduce blood pressure and cardiovascular risk"
-authors: "Aburto NJ et al."
+pmid: '23635871'
+title: Increased potassium intake to reduce blood pressure and cardiovascular risk
+authors: Aburto NJ et al.
 year: 2013
-url: "https://pubmed.ncbi.nlm.nih.gov/23635871/"
+url: https://pubmed.ncbi.nlm.nih.gov/23635871/
+study_type: Review
+evidence_quality: low
 ---

@@ -1,9 +1,11 @@
 ---
 id: pmid-30015549
 type: study
-pmid: "30015549"
-title: "Choline intake and health outcomes: a review"
-authors: "Wallace TC et al."
+pmid: '30015549'
+title: 'Choline intake and health outcomes: a review'
+authors: Wallace TC et al.
 year: 2018
-url: "https://pubmed.ncbi.nlm.nih.gov/30015549/"
+url: https://pubmed.ncbi.nlm.nih.gov/30015549/
+study_type: Comparative Study
+evidence_quality: moderate
 ---

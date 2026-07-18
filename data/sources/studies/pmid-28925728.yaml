@@ -1,9 +1,11 @@
 ---
 id: pmid-28925728
 type: study
-pmid: "28925728"
-title: "Curcumin: A Review of Its Effects on Human Health"
-authors: "Hewlings SJ & Kalman DS"
+pmid: '28925728'
+title: 'Curcumin: A Review of Its Effects on Human Health'
+authors: Hewlings SJ & Kalman DS
 year: 2017
-url: "https://pubmed.ncbi.nlm.nih.gov/28925728/"
+url: https://pubmed.ncbi.nlm.nih.gov/28925728/
+study_type: Review
+evidence_quality: low
 ---

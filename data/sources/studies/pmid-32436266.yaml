@@ -1,9 +1,11 @@
 ---
 id: pmid-32436266
 type: study
-pmid: "32436266"
-title: "Effect of Collagen Supplementation on Skin Aging: A Systematic Review"
-authors: "Barati M et al."
+pmid: '32436266'
+title: 'Effect of Collagen Supplementation on Skin Aging: A Systematic Review'
+authors: Barati M et al.
 year: 2020
-url: "https://pubmed.ncbi.nlm.nih.gov/32436236/"
+url: https://pubmed.ncbi.nlm.nih.gov/32436236/
+study_type: Systematic Review
+evidence_quality: high
 ---

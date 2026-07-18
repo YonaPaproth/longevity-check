@@ -1,9 +1,10 @@
 ---
 id: pmid-37612506
 type: study
-pmid: "37612506"
-title: "COSMOS: COcoa Supplement and Multivitamin Outcomes Study"
-authors: "Yeung LK et al."
+pmid: '37612506'
+title: 'COSMOS: COcoa Supplement and Multivitamin Outcomes Study'
+authors: Yeung LK et al.
 year: 2023
-url: "https://pubmed.ncbi.nlm.nih.gov/37612506/"
+url: https://pubmed.ncbi.nlm.nih.gov/37612506/
+evidence_quality: low
 ---

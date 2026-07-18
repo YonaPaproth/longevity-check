@@ -1,9 +1,12 @@
 ---
 id: pmid-25761837
 type: study
-pmid: "25761837"
-title: "A double-blind, placebo-controlled study evaluating caffeine and L-theanine on cognitive function"
-authors: "Dodd FL et al."
+pmid: '25761837'
+title: A double-blind, placebo-controlled study evaluating caffeine and L-theanine
+  on cognitive function
+authors: Dodd FL et al.
 year: 2015
-url: "https://pubmed.ncbi.nlm.nih.gov/25761837/"
+url: https://pubmed.ncbi.nlm.nih.gov/25761837/
+study_type: RCT
+evidence_quality: high
 ---

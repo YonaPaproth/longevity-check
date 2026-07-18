@@ -1,9 +1,11 @@
 ---
 id: pmid-9484373
 type: study
-pmid: "9484373"
-title: "Effectiveness of high-dose riboflavin in migraine prophylaxis"
-authors: "Schoenen J et al."
+pmid: '9484373'
+title: Effectiveness of high-dose riboflavin in migraine prophylaxis
+authors: Schoenen J et al.
 year: 1998
-url: "https://pubmed.ncbi.nlm.nih.gov/9484373/"
+url: https://pubmed.ncbi.nlm.nih.gov/9484373/
+study_type: RCT
+evidence_quality: high
 ---

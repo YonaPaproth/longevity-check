@@ -1,9 +1,11 @@
 ---
 id: pmid-23162860
 type: study
-pmid: "23162860"
-title: "Physicians' Health Study II: Multivitamins in the prevention of cancer"
-authors: "Gaziano JM et al."
+pmid: '23162860'
+title: 'Physicians'' Health Study II: Multivitamins in the prevention of cancer'
+authors: Gaziano JM et al.
 year: 2012
-url: "https://pubmed.ncbi.nlm.nih.gov/23162860/"
+url: https://pubmed.ncbi.nlm.nih.gov/23162860/
+study_type: RCT
+evidence_quality: high
 ---

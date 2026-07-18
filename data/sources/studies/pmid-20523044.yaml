@@ -1,9 +1,12 @@
 ---
 id: pmid-20523044
 type: study
-pmid: "20523044"
-title: "Soy-derived phosphatidylserine improves memory function of the elderly Japanese subjects with memory complaints"
-authors: "Kato-Kataoka A et al."
+pmid: '20523044'
+title: Soy-derived phosphatidylserine improves memory function of the elderly Japanese
+  subjects with memory complaints
+authors: Kato-Kataoka A et al.
 year: 2010
-url: "https://pubmed.ncbi.nlm.nih.gov/20523044/"
+url: https://pubmed.ncbi.nlm.nih.gov/20523044/
+study_type: RCT
+evidence_quality: high
 ---

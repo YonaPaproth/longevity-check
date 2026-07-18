@@ -1,9 +1,11 @@
 ---
 id: pmid-28879195
 type: study
-pmid: "28879195"
-title: "A review of the use of biotin for hair loss"
-authors: "Patel DP et al."
+pmid: '28879195'
+title: A review of the use of biotin for hair loss
+authors: Patel DP et al.
 year: 2017
-url: "https://pubmed.ncbi.nlm.nih.gov/28879195/"
+url: https://pubmed.ncbi.nlm.nih.gov/28879195/
+study_type: Review
+evidence_quality: low
 ---

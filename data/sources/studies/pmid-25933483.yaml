@@ -1,9 +1,11 @@
 ---
 id: pmid-25933483
 type: study
-pmid: "25933483"
-title: "Phosphatidylserine and the human brain"
-authors: "Glade MJ & Smith K"
+pmid: '25933483'
+title: Phosphatidylserine and the human brain
+authors: Glade MJ & Smith K
 year: 2015
-url: "https://pubmed.ncbi.nlm.nih.gov/25933483/"
+url: https://pubmed.ncbi.nlm.nih.gov/25933483/
+study_type: Review
+evidence_quality: low
 ---

@@ -1,9 +1,12 @@
 ---
 id: pmid-26781281
 type: study
-pmid: "26781281"
-title: "Taurine supplementation lowers blood pressure and improves vascular function in prehypertension"
-authors: "Sun Q et al."
+pmid: '26781281'
+title: Taurine supplementation lowers blood pressure and improves vascular function
+  in prehypertension
+authors: Sun Q et al.
 year: 2016
-url: "https://pubmed.ncbi.nlm.nih.gov/26781281/"
+url: https://pubmed.ncbi.nlm.nih.gov/26781281/
+study_type: RCT
+evidence_quality: high
 ---

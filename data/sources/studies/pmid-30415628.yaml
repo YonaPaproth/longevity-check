@@ -1,9 +1,12 @@
 ---
 id: pmid-30415628
 type: study
-pmid: "30415628"
-title: "Cardiovascular Risk Reduction with Icosapentaenoic Acid for Hypertriglyceridemia (REDUCE-IT)"
-authors: "Bhatt DL et al."
+pmid: '30415628'
+title: Cardiovascular Risk Reduction with Icosapentaenoic Acid for Hypertriglyceridemia
+  (REDUCE-IT)
+authors: Bhatt DL et al.
 year: 2019
-url: "https://pubmed.ncbi.nlm.nih.gov/30415628/"
+url: https://pubmed.ncbi.nlm.nih.gov/30415628/
+study_type: RCT
+evidence_quality: high
 ---

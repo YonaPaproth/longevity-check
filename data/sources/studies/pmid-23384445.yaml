@@ -1,9 +1,11 @@
 ---
 id: pmid-23384445
 type: study
-pmid: "23384445"
-title: "Gut-brain axis: how the microbiome influences anxiety and depression"
-authors: "Foster JA & McVey Neufeld KA"
+pmid: '23384445'
+title: 'Gut-brain axis: how the microbiome influences anxiety and depression'
+authors: Foster JA & McVey Neufeld KA
 year: 2013
-url: "https://pubmed.ncbi.nlm.nih.gov/23384445/"
+url: https://pubmed.ncbi.nlm.nih.gov/23384445/
+study_type: Review
+evidence_quality: low
 ---

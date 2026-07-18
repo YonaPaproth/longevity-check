@@ -1,9 +1,11 @@
 ---
 id: pmid-7649494
 type: study
-pmid: "7649494"
-title: "Alpha lipoic acid as a biological antioxidant"
-authors: "Packer L et al."
+pmid: '7649494'
+title: Alpha lipoic acid as a biological antioxidant
+authors: Packer L et al.
 year: 1995
-url: "https://pubmed.ncbi.nlm.nih.gov/7649494/"
+url: https://pubmed.ncbi.nlm.nih.gov/7649494/
+study_type: Review
+evidence_quality: low
 ---

@@ -1,9 +1,12 @@
 ---
 id: pmid-15537682
 type: study
-pmid: "15537682"
-title: "Meta-analysis: high-dosage vitamin E supplementation may increase all-cause mortality"
-authors: "Miller ER et al."
+pmid: '15537682'
+title: 'Meta-analysis: high-dosage vitamin E supplementation may increase all-cause
+  mortality'
+authors: Miller ER et al.
 year: 2005
-url: "https://pubmed.ncbi.nlm.nih.gov/15537682/"
+url: https://pubmed.ncbi.nlm.nih.gov/15537682/
+study_type: Meta-Analysis
+evidence_quality: high
 ---

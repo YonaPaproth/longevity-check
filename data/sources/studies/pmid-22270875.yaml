@@ -1,9 +1,11 @@
 ---
 id: pmid-22270875
 type: study
-pmid: "22270875"
-title: "Beta-alanine supplementation and exercise performance"
-authors: "Hobson RM et al."
+pmid: '22270875'
+title: Beta-alanine supplementation and exercise performance
+authors: Hobson RM et al.
 year: 2012
-url: "https://pubmed.ncbi.nlm.nih.gov/22270875/"
+url: https://pubmed.ncbi.nlm.nih.gov/22270875/
+study_type: Meta-Analysis
+evidence_quality: high
 ---

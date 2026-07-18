@@ -1,9 +1,11 @@
 ---
 id: pmid-24891972
 type: study
-pmid: "24891972"
-title: "Iodine and thyroid autoimmunity: excess iodine can trigger Hashimoto"
-authors: "Leung AM & Braverman LE"
+pmid: '24891972'
+title: 'Iodine and thyroid autoimmunity: excess iodine can trigger Hashimoto'
+authors: Leung AM & Braverman LE
 year: 2014
-url: "https://pubmed.ncbi.nlm.nih.gov/24891972/"
+url: https://pubmed.ncbi.nlm.nih.gov/24891972/
+study_type: Review
+evidence_quality: low
 ---

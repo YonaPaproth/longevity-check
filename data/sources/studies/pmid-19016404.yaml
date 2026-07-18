@@ -1,9 +1,12 @@
 ---
 id: pmid-19016404
 type: study
-pmid: "19016404"
-title: "A randomised, double-blind, placebo-controlled, parallel-group study of SHR-5 extract in the treatment of stress related fatigue"
-authors: "Olsson EM et al."
+pmid: '19016404'
+title: A randomised, double-blind, placebo-controlled, parallel-group study of SHR-5
+  extract in the treatment of stress related fatigue
+authors: Olsson EM et al.
 year: 2009
-url: "https://pubmed.ncbi.nlm.nih.gov/19016404/"
+url: https://pubmed.ncbi.nlm.nih.gov/19016404/
+study_type: RCT
+evidence_quality: high
 ---

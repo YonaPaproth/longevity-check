@@ -1,9 +1,12 @@
 ---
 id: pmid-32221179
 type: study
-pmid: "32221179"
-title: "Safety and Efficacy of Saffron (Crocus sativus L.) for Treating Mild to Moderate Depression: A Systematic Review and Meta-analysis"
-authors: "Tóth B et al."
+pmid: '32221179'
+title: 'Safety and Efficacy of Saffron (Crocus sativus L.) for Treating Mild to Moderate
+  Depression: A Systematic Review and Meta-analysis'
+authors: Tóth B et al.
 year: 2020
-url: "https://pubmed.ncbi.nlm.nih.gov/32221179/"
+url: https://pubmed.ncbi.nlm.nih.gov/32221179/
+study_type: Meta-Analysis
+evidence_quality: high
 ---

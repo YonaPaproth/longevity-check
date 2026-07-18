@@ -1,9 +1,11 @@
 ---
 id: pmid-22762317
 type: study
-pmid: "22762317"
-title: "A pooled analysis of vitamin D dose requirements for fracture prevention"
-authors: "Bischoff-Ferrari HA et al."
+pmid: '22762317'
+title: A pooled analysis of vitamin D dose requirements for fracture prevention
+authors: Bischoff-Ferrari HA et al.
 year: 2012
-url: "https://pubmed.ncbi.nlm.nih.gov/22762317/"
+url: https://pubmed.ncbi.nlm.nih.gov/22762317/
+study_type: Meta-Analysis
+evidence_quality: high
 ---

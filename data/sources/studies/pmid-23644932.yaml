@@ -1,9 +1,11 @@
 ---
 id: pmid-23644932
 type: study
-pmid: "23644932"
-title: "AREDS2: Lutein + zeaxanthin for age-related macular degeneration"
-authors: "AREDS2 Research Group"
+pmid: '23644932'
+title: 'AREDS2: Lutein + zeaxanthin for age-related macular degeneration'
+authors: AREDS2 Research Group
 year: 2013
-url: "https://pubmed.ncbi.nlm.nih.gov/23644932/"
+url: https://pubmed.ncbi.nlm.nih.gov/23644932/
+study_type: RCT
+evidence_quality: high
 ---

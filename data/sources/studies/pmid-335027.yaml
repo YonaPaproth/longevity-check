@@ -1,9 +1,11 @@
 ---
 id: pmid-335027
 type: study
-pmid: "335027"
-title: "D-phenylalanine in depressed patients: an open study"
-authors: "Beckmann H et al."
+pmid: '335027'
+title: 'D-phenylalanine in depressed patients: an open study'
+authors: Beckmann H et al.
 year: 1977
-url: "https://pubmed.ncbi.nlm.nih.gov/335027/"
+url: https://pubmed.ncbi.nlm.nih.gov/335027/
+study_type: Clinical Trial
+evidence_quality: moderate
 ---

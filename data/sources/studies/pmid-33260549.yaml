@@ -1,9 +1,11 @@
 ---
 id: pmid-33260549
 type: study
-pmid: "33260549"
-title: "Magnesium Status and Stress: The Vicious Circle Concept Revisited"
-authors: "Pickering G et al."
+pmid: '33260549'
+title: 'Magnesium Status and Stress: The Vicious Circle Concept Revisited'
+authors: Pickering G et al.
 year: 2020
-url: "https://pubmed.ncbi.nlm.nih.gov/33260549/"
+url: https://pubmed.ncbi.nlm.nih.gov/33260549/
+study_type: Review
+evidence_quality: low
 ---

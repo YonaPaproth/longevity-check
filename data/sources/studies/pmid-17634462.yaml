@@ -1,9 +1,11 @@
 ---
 id: pmid-17634462
 type: study
-pmid: "17634462"
-title: "Vitamin D Deficiency"
-authors: "Holick MF"
+pmid: '17634462'
+title: Vitamin D Deficiency
+authors: Holick MF
 year: 2007
-url: "https://pubmed.ncbi.nlm.nih.gov/17634462/"
+url: https://pubmed.ncbi.nlm.nih.gov/17634462/
+study_type: Review
+evidence_quality: low
 ---

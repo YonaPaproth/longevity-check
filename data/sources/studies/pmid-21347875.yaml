@@ -1,9 +1,11 @@
 ---
 id: pmid-21347875
 type: study
-pmid: "21347875"
-title: "Ergothioneine reduces the severity of MPTP-induced Parkinson's disease"
-authors: "Koh YH et al."
+pmid: '21347875'
+title: Ergothioneine reduces the severity of MPTP-induced Parkinson's disease
+authors: Koh YH et al.
 year: 2011
-url: "https://pubmed.ncbi.nlm.nih.gov/21347875/"
+url: https://pubmed.ncbi.nlm.nih.gov/21347875/
+study_type: Comparative Study
+evidence_quality: moderate
 ---

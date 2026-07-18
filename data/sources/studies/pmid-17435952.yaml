@@ -1,9 +1,11 @@
 ---
 id: pmid-17435952
 type: study
-pmid: "17435952"
-title: "The role of silicon in bone formation and maintenance"
-authors: "Jugdaohsingh R"
+pmid: '17435952'
+title: The role of silicon in bone formation and maintenance
+authors: Jugdaohsingh R
 year: 2007
-url: "https://pubmed.ncbi.nlm.nih.gov/17435952/"
+url: https://pubmed.ncbi.nlm.nih.gov/17435952/
+study_type: Review
+evidence_quality: low
 ---

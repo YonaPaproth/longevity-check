@@ -1,9 +1,11 @@
 ---
 id: pmid-32242179
 type: study
-pmid: "32242179"
-title: "Rejuvenating effects of the alpha-ketoglutarate metabolite"
-authors: "Asadi Shahmirzadi A et al."
+pmid: '32242179'
+title: Rejuvenating effects of the alpha-ketoglutarate metabolite
+authors: Asadi Shahmirzadi A et al.
 year: 2020
-url: "https://pubmed.ncbi.nlm.nih.gov/32242179/"
+url: https://pubmed.ncbi.nlm.nih.gov/32242179/
+study_type: Observational Study
+evidence_quality: moderate
 ---

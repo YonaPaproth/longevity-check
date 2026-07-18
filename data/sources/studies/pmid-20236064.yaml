@@ -1,9 +1,11 @@
 ---
 id: pmid-20236064
 type: study
-pmid: "20236064"
-title: "Interaction between vitamin K intake and anticoagulation by vitamin K antagonists"
-authors: "Gebuis EP et al."
+pmid: '20236064'
+title: Interaction between vitamin K intake and anticoagulation by vitamin K antagonists
+authors: Gebuis EP et al.
 year: 2010
-url: "https://pubmed.ncbi.nlm.nih.gov/20236064/"
+url: https://pubmed.ncbi.nlm.nih.gov/20236064/
+study_type: Review
+evidence_quality: low
 ---

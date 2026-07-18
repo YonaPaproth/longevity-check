@@ -1,9 +1,12 @@
 ---
 id: pmid-20838622
 type: study
-pmid: "20838622"
-title: "Homocysteine-Lowering by B Vitamins Slows the Rate of Accelerated Brain Atrophy in MCI (VITACOG)"
-authors: "Smith AD et al."
+pmid: '20838622'
+title: Homocysteine-Lowering by B Vitamins Slows the Rate of Accelerated Brain Atrophy
+  in MCI (VITACOG)
+authors: Smith AD et al.
 year: 2010
-url: "https://pubmed.ncbi.nlm.nih.gov/20838622/"
+url: https://pubmed.ncbi.nlm.nih.gov/20838622/
+study_type: RCT
+evidence_quality: high
 ---

@@ -1,9 +1,11 @@
 ---
 id: pmid-26395129
 type: study
-pmid: "26395129"
-title: "Clinical evaluation of purified shilajit"
-authors: "Pandit S et al."
+pmid: '26395129'
+title: Clinical evaluation of purified shilajit
+authors: Pandit S et al.
 year: 2016
-url: "https://pubmed.ncbi.nlm.nih.gov/26395129/"
+url: https://pubmed.ncbi.nlm.nih.gov/26395129/
+study_type: RCT
+evidence_quality: high
 ---

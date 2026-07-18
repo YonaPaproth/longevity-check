@@ -1,9 +1,11 @@
 ---
 id: pmid-15655131
 type: study
-pmid: "15655131"
-title: "Effect of betaine on homocysteine concentrations"
-authors: "Olthof MR, Verhoef P"
+pmid: '15655131'
+title: Effect of betaine on homocysteine concentrations
+authors: Olthof MR, Verhoef P
 year: 2005
-url: "https://pubmed.ncbi.nlm.nih.gov/15655131/"
+url: https://pubmed.ncbi.nlm.nih.gov/15655131/
+study_type: Review
+evidence_quality: low
 ---

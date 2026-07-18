@@ -1,9 +1,11 @@
 ---
 id: pmid-23746916
 type: study
-pmid: "23746916"
-title: "KiSel-10 study: cardiovascular events with selenium and CoQ10 supplementation"
-authors: "Alehagen U et al."
+pmid: '23746916'
+title: 'KiSel-10 study: cardiovascular events with selenium and CoQ10 supplementation'
+authors: Alehagen U et al.
 year: 2013
-url: "https://pubmed.ncbi.nlm.nih.gov/23746916/"
+url: https://pubmed.ncbi.nlm.nih.gov/23746916/
+study_type: Observational Study
+evidence_quality: moderate
 ---

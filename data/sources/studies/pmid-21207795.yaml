@@ -1,9 +1,11 @@
 ---
 id: pmid-21207795
 type: study
-pmid: "21207795"
-title: "Astaxanthin in cardiovascular health and disease"
-authors: "Fassett RG & Coombes JS"
+pmid: '21207795'
+title: Astaxanthin in cardiovascular health and disease
+authors: Fassett RG & Coombes JS
 year: 2011
-url: "https://pubmed.ncbi.nlm.nih.gov/21207795/"
+url: https://pubmed.ncbi.nlm.nih.gov/21207795/
+study_type: Comparative Study
+evidence_quality: moderate
 ---

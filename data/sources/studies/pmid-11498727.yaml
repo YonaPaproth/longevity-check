@@ -1,9 +1,12 @@
 ---
 id: pmid-11498727
 type: study
-pmid: "11498727"
-title: "The chronic effects of Bacopa monnieri on cognitive function in healthy human subjects"
-authors: "Stough C et al."
+pmid: '11498727'
+title: The chronic effects of Bacopa monnieri on cognitive function in healthy human
+  subjects
+authors: Stough C et al.
 year: 2001
-url: "https://pubmed.ncbi.nlm.nih.gov/11498727/"
+url: https://pubmed.ncbi.nlm.nih.gov/11498727/
+study_type: RCT
+evidence_quality: high
 ---

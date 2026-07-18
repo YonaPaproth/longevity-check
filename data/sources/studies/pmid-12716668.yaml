@@ -1,9 +1,11 @@
 ---
 id: pmid-12716668
 type: study
-pmid: "12716668"
-title: "Dietary flavonols and health"
-authors: "Beecher GR"
+pmid: '12716668'
+title: Dietary flavonols and health
+authors: Beecher GR
 year: 2003
-url: "https://pubmed.ncbi.nlm.nih.gov/12716668/"
+url: https://pubmed.ncbi.nlm.nih.gov/12716668/
+study_type: Validation Study
+evidence_quality: moderate
 ---

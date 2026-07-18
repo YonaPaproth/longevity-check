@@ -1,9 +1,11 @@
 ---
 id: pmid-16971751
 type: study
-pmid: "16971751"
-title: "Neurotransmitters as food supplements: the case of GABA"
-authors: "Abdou AM et al."
+pmid: '16971751'
+title: 'Neurotransmitters as food supplements: the case of GABA'
+authors: Abdou AM et al.
 year: 2006
-url: "https://pubmed.ncbi.nlm.nih.gov/16971751/"
+url: https://pubmed.ncbi.nlm.nih.gov/16971751/
+study_type: Clinical Trial
+evidence_quality: moderate
 ---

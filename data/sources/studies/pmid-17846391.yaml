@@ -1,9 +1,12 @@
 ---
 id: pmid-17846391
 type: study
-pmid: "17846391"
-title: "Vitamin D supplementation and total mortality: a meta-analysis of randomized controlled trials"
-authors: "Autier P & Gandini S"
+pmid: '17846391'
+title: 'Vitamin D supplementation and total mortality: a meta-analysis of randomized
+  controlled trials'
+authors: Autier P & Gandini S
 year: 2007
-url: "https://pubmed.ncbi.nlm.nih.gov/17846391/"
+url: https://pubmed.ncbi.nlm.nih.gov/17846391/
+study_type: Meta-Analysis
+evidence_quality: high
 ---

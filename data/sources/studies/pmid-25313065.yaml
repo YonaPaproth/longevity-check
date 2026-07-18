@@ -1,9 +1,12 @@
 ---
 id: pmid-25313065
 type: study
-pmid: "25313065"
-title: "Sulforaphane treatment of autism spectrum disorder (ASD): a randomized double-blind placebo-controlled trial"
-authors: "Singh K et al."
+pmid: '25313065'
+title: 'Sulforaphane treatment of autism spectrum disorder (ASD): a randomized double-blind
+  placebo-controlled trial'
+authors: Singh K et al.
 year: 2014
-url: "https://pubmed.ncbi.nlm.nih.gov/25313065/"
+url: https://pubmed.ncbi.nlm.nih.gov/25313065/
+study_type: RCT
+evidence_quality: high
 ---

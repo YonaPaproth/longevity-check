@@ -1,9 +1,11 @@
 ---
 id: pmid-12849737
 type: study
-pmid: "12849737"
-title: "Acetyl-L-carnitine in the treatment of cognitive decline"
-authors: "Montgomery SA et al."
+pmid: '12849737'
+title: Acetyl-L-carnitine in the treatment of cognitive decline
+authors: Montgomery SA et al.
 year: 2003
-url: "https://pubmed.ncbi.nlm.nih.gov/12849737/"
+url: https://pubmed.ncbi.nlm.nih.gov/12849737/
+study_type: Comparative Study
+evidence_quality: moderate
 ---

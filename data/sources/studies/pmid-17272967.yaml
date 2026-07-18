@@ -1,9 +1,11 @@
 ---
 id: pmid-17272967
 type: study
-pmid: "17272967"
-title: "L-Theanine reduces psychological and physiological stress responses"
-authors: "Kimura K et al."
+pmid: '17272967'
+title: L-Theanine reduces psychological and physiological stress responses
+authors: Kimura K et al.
 year: 2007
-url: "https://pubmed.ncbi.nlm.nih.gov/17272967/"
+url: https://pubmed.ncbi.nlm.nih.gov/17272967/
+study_type: Clinical Trial
+evidence_quality: moderate
 ---

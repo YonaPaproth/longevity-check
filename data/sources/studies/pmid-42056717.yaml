@@ -1,9 +1,13 @@
 ---
 id: pmid-42056717
 type: study
-pmid: "42056717"
-title: "Efficacy and Safety of Pregabalin and Alpha-Lipoic Acid Combination in Patients With Painful Diabetic Peripheral Neuropathy: A Randomized, Open-Label, Non-Inferiority, Phase IV Clinical Trial and Subgroup Analysis (OPTIMUM Study)."
-authors: "Oh TJ et al."
+pmid: '42056717'
+title: 'Efficacy and Safety of Pregabalin and Alpha-Lipoic Acid Combination in Patients
+  With Painful Diabetic Peripheral Neuropathy: A Randomized, Open-Label, Non-Inferiority,
+  Phase IV Clinical Trial and Subgroup Analysis (OPTIMUM Study).'
+authors: Oh TJ et al.
 year: 2026
-url: "https://pubmed.ncbi.nlm.nih.gov/42056717/"
+url: https://pubmed.ncbi.nlm.nih.gov/42056717/
+study_type: RCT
+evidence_quality: high
 ---

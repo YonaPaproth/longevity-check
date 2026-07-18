@@ -1,9 +1,11 @@
 ---
 id: pmid-10837282
 type: study
-pmid: "10837282"
-title: "The effect of psyllium on serum lipids"
-authors: "Anderson JW et al."
+pmid: '10837282'
+title: The effect of psyllium on serum lipids
+authors: Anderson JW et al.
 year: 2000
-url: "https://pubmed.ncbi.nlm.nih.gov/10837282/"
+url: https://pubmed.ncbi.nlm.nih.gov/10837282/
+study_type: RCT
+evidence_quality: high
 ---

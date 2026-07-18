@@ -1,9 +1,11 @@
 ---
 id: pmid-19402938
 type: study
-pmid: "19402938"
-title: "Quercetin reduces systolic blood pressure in overweight subjects"
-authors: "Egert S et al."
+pmid: '19402938'
+title: Quercetin reduces systolic blood pressure in overweight subjects
+authors: Egert S et al.
 year: 2009
-url: "https://pubmed.ncbi.nlm.nih.gov/19402938/"
+url: https://pubmed.ncbi.nlm.nih.gov/19402938/
+study_type: RCT
+evidence_quality: high
 ---

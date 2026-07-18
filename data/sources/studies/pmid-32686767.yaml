@@ -1,9 +1,10 @@
 ---
 id: pmid-32686767
 type: study
-pmid: "32686767"
-title: "mTOR as a central regulator of lifespan and aging"
-authors: "Papadopoli D et al."
+pmid: '32686767'
+title: mTOR as a central regulator of lifespan and aging
+authors: Papadopoli D et al.
 year: 2019
-url: "https://pubmed.ncbi.nlm.nih.gov/32686767/"
+url: https://pubmed.ncbi.nlm.nih.gov/32686767/
+evidence_quality: low
 ---

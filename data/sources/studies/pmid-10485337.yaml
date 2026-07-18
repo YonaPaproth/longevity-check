@@ -1,9 +1,10 @@
 ---
 id: pmid-10485337
 type: study
-pmid: "10485337"
-title: "Vitamin E: function and metabolism"
-authors: "Brigelius-Flohe R & Traber MG"
+pmid: '10485337'
+title: 'Vitamin E: function and metabolism'
+authors: Brigelius-Flohe R & Traber MG
 year: 1999
-url: "https://pubmed.ncbi.nlm.nih.gov/10485377/"
+url: https://pubmed.ncbi.nlm.nih.gov/10485377/
+evidence_quality: low
 ---
