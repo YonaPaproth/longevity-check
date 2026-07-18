@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-potassium-citrate-99",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "kalium",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

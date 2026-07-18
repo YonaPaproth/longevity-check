@@ -1,0 +1,86 @@
+---
+id: now-foods-ginkgo-biloba-120
+type: product
+
+meta:
+  title: "NOW Foods Ginkgo Biloba 120 mg"
+  ingredient: ginkgo
+  containedIngredients:
+    - slug: ginkgo
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com/products/supplements/ginkgo-biloba-120-mg-veg-capsules"
+  affiliateUrl: ""
+  priceEur: 12.90
+  doseMg: 120
+  servingsPerPack: 100
+  pricePerDayEur: 0.13
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Ginkgo biloba hat eine substanzielle Forschungsbasis für kognitive Funktion, Durchblutungsförderung und altersbedingte kognitive Einschränkungen. Die Evidenz ist gemischt — einige größere Studien zeigen bescheidene Effekte, andere keinen signifikanten Unterschied zur Placebo. Dennoch zählt es zu den besser erforschten pflanzlichen Extrakten."
+      en: "Ginkgo biloba has a substantial research base for cognitive function, circulation support, and age-related cognitive decline. Evidence is mixed — some larger trials show modest effects, others no significant difference from placebo. Still, it ranks among the better-researched botanical extracts."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "Rund 0,13 Euro pro Tag für 100 Kapseln à 120 mg ist ausgezeichnet. Günstigster Einstieg in einen klassischen pflanzlichen Extrakt mit breiter Anwendungstradition."
+      en: "About €0.13 per day for 100 capsules at 120 mg is excellent — the most affordable entry into a classic botanical extract with a broad tradition of use."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW Foods liefert Standardqualität mit GMP-konformer Produktion. 24% Ginkgoflavonglykoside und 6% Terpenlaktone sind die übliche Standardisierung — diese Angabe fehlt bei NOW oft, was die Bewertung erschwert."
+      en: "NOW Foods delivers standard quality with GMP-compliant production. 24% ginkgo flavone glycosides and 6% terpene lactones is the standard extract spec — this detail is often missing from NOW labels, which complicates evaluation."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Das Produkt ist ehrlich, aber die Angabe zur Extraktstandardisierung fehlt typischerweise auf dem NOW-Label. Wünschenswert wäre eine klarere Spezifikation der Wirkstoffe."
+      en: "The product is honest, but the extract standardization detail is typically missing from the NOW label. Clearer active compound specification would be desirable."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW Foods verweist auf hauseigenes Labor und GMP-konforme Produktion. Solide Basis, aber kein unabhängiges Zertifikat für dieses spezifische Produkt."
+      en: "NOW Foods references its in-house lab and GMP-compliant production — solid baseline, but no independent certificate for this specific product."
+
+locales:
+  de:
+    summary: "NOW Foods Ginkgo Biloba mit 120 mg pro Kapsel — klassischer pflanzlicher Extrakt zu sehr günstigem Preis. 100 Kapseln für gut 3 Monate."
+    verdictNote: "Wer Ginkgo günstig und unkompliziert ausprobieren möchte, findet hier einen der preisgünstigsten soliden Picks — auch wenn Premium-Extrakte klarer standardisiert sind."
+    body:
+      description: "NOW Foods Ginkgo Biloba liefert **120 mg Ginkgo-biloba-Extrakt pro Kapsel** — einer der meistverkauften pflanzlichen Extrakte weltweit. Ginkgo wird traditionell und in Studien für kognitive Unterstützung, Gedächtnis und Durchblutungsförderung eingesetzt. Die Evidenzlage ist gemischt, aber die lange Anwendungstradition und die Vielzahl an Studien machen Ginkgo zu einem der interessantesten pflanzlichen Supplemente."
+      pros:
+        - "**Sehr günstiger Preis** — unter 0,15 €/Tag"
+        - "**100 Kapseln** für rund 3 Monate"
+        - "**NOW Foods** — zuverlässiger US-Hersteller"
+        - "**Klassisch belegter Wirkstoff** mit breiter Forschungsbasis"
+      cons:
+        - "**Extraktstandardisierung** nicht klar angegeben"
+        - "**Nicht in Deutschland** regulär erhältlich"
+        - "**Gemischte klinische Evidenz** — keine eindeutige Wirkung für alle"
+        - "**Kein unabhängiges Third-Party-Zertifikat**"
+      usage: "Übliche Dosierung: 1 Kapsel täglich oder 2× täglich bei 60 mg pro Kapsel. Zu einer Mahlzeit einnehmen."
+  en:
+    summary: "NOW Foods Ginkgo Biloba at 120 mg per capsule — classic botanical extract at a very affordable price. 100 capsules for over 3 months supply."
+    verdictNote: "If you want to try ginkgo cheaply and without fuss, this is one of the most affordable solid picks — though premium extracts are more clearly standardized."
+    body:
+      description: "NOW Foods Ginkgo Biloba delivers **120 mg ginkgo biloba extract per capsule** — one of the world's best-selling botanical extracts. Ginkgo is used both traditionally and in studies for cognitive support, memory, and circulation. Evidence is mixed, but the long tradition of use and wealth of studies make ginkgo one of the most interesting botanical supplements."
+      pros:
+        - "**Very affordable** — under €0.15/day"
+        - "**100 capsules** for approximately 3 months"
+        - "**NOW Foods** — reliable US manufacturer"
+        - "**Classically studied ingredient** with broad research base"
+      cons:
+        - "**Extract standardization** not clearly stated"
+        - "**Not regularly available in Germany**"
+        - "**Mixed clinical evidence** — no clear effect for everyone"
+        - "**No independent third-party certificate**"
+      usage: "Typical dose: 1 capsule daily or twice daily at 60 mg per capsule. Take with a meal."
+---

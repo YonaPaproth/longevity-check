@@ -1,6 +1,6 @@
 {
   "type": "enthaelt",
-  "count": 367,
+  "count": 375,
   "relations": [
     {
       "subject": "alive-by-science-nmn-sublingual",
@@ -403,6 +403,11 @@
       "confidence": 1
     },
     {
+      "subject": "jarrow-panax-ginseng-500",
+      "target": "ginseng",
+      "confidence": 1
+    },
+    {
       "subject": "jarrow-phosphatidylserine-100",
       "target": "phosphatidylserin",
       "confidence": 1
@@ -600,6 +605,11 @@
     {
       "subject": "life-extension-n-acetyl-cysteine",
       "target": "nac",
+      "confidence": 1
+    },
+    {
+      "subject": "life-extension-optimized-saffron",
+      "target": "safran",
       "confidence": 1
     },
     {
@@ -933,6 +943,11 @@
       "confidence": 1
     },
     {
+      "subject": "now-foods-american-ginseng-500",
+      "target": "ginseng",
+      "confidence": 1
+    },
+    {
       "subject": "now-foods-astaxanthin-10",
       "target": "astaxanthin",
       "confidence": 1
@@ -1013,6 +1028,11 @@
       "confidence": 1
     },
     {
+      "subject": "now-foods-ginkgo-biloba-120",
+      "target": "ginkgo",
+      "confidence": 1
+    },
+    {
       "subject": "now-foods-glucosamine-chondroitin",
       "target": "glucosamin",
       "confidence": 1
@@ -1055,6 +1075,11 @@
     {
       "subject": "now-foods-inositol-500",
       "target": "myo-inositol",
+      "confidence": 1
+    },
+    {
+      "subject": "now-foods-inulin-powder",
+      "target": "inulin",
       "confidence": 1
     },
     {
@@ -1138,6 +1163,11 @@
       "confidence": 1
     },
     {
+      "subject": "now-foods-potassium-citrate-99",
+      "target": "kalium",
+      "confidence": 1
+    },
+    {
       "subject": "now-foods-probiotic-10",
       "target": "probiotika",
       "confidence": 1
@@ -1165,6 +1195,11 @@
     {
       "subject": "now-foods-rhodiola-500",
       "target": "rhodiola",
+      "confidence": 1
+    },
+    {
+      "subject": "now-foods-saffron-50",
+      "target": "safran",
       "confidence": 1
     },
     {
@@ -1385,6 +1420,11 @@
     {
       "subject": "pure-encapsulations-p5p-50",
       "target": "vitamin-b6",
+      "confidence": 1
+    },
+    {
+      "subject": "pure-encapsulations-potassium-citrate",
+      "target": "kalium",
       "confidence": 1
     },
     {

@@ -1,0 +1,86 @@
+---
+id: now-foods-american-ginseng-500
+type: product
+
+meta:
+  title: "NOW Foods American Ginseng 500 mg"
+  ingredient: ginseng
+  containedIngredients:
+    - slug: ginseng
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com/products/supplements/american-ginseng-500-mg-veg-capsules"
+  affiliateUrl: ""
+  priceEur: 12.90
+  doseMg: 500
+  servingsPerPack: 100
+  pricePerDayEur: 0.13
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+
+ratings:
+  evidenceForIngredient:
+    score: 6
+    explanation:
+      de: "Amerikanischer Ginseng (Panax quinquefolius) hat mäßige Evidenz für Blutzuckerregulierung und kognitive Funktion. Die Forschungslage ist weniger robust als bei koreanischem Panax Ginseng und deutlich schwächer als bei gut belegten Nahrungsergänzungsmitteln."
+      en: "American ginseng (Panax quinquefolius) has moderate evidence for blood sugar regulation and cognitive function. The research base is less robust than Korean Panax ginseng and considerably weaker than well-established supplements."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "Rund 0,13 Euro pro Tag für 100 Kapseln à 500 mg ist preislich attraktiv für eine Pflanzenstandardisierung dieser Art."
+      en: "About €0.13 per day for 100 capsules at 500 mg is price-attractive for an herbal standardization of this type."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW Foods ist ein bekannter, zuverlässiger US-Hersteller mit GMP-zertifizierter Produktion. Solide Basisqualität ohne Premium-Positionierung."
+      en: "NOW Foods is a well-known, reliable US manufacturer with GMP-certified production. Solid base quality without premium positioning."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Das Produkt macht keine übertriebenen Versprechungen. Typische US-Supplement-Kommunikation, die etwas marketinglastiger ist als bei europäischen Marken."
+      en: "The product makes no exaggerated claims. Typical US supplement communication, somewhat more marketing-heavy than European brands."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW Foods verfügt über eigenes Qualitätslabor und verweist auf GMP-konforme Herstellung. Stärker als viele Budgetmarken, aber kein unabhängiges Third-Party-Zertifikat."
+      en: "NOW Foods has its own quality lab and references GMP-compliant production — stronger than many budget brands, but no independent third-party certificate."
+
+locales:
+  de:
+    summary: "Günstige 500-mg-Kapsel mit amerikanischem Ginseng von NOW Foods. Guter Preiseinstieg, aber die Evidenzlage für amerikanischen Ginseng ist überschaubar."
+    verdictNote: "Solider Budget-Pick für American Ginseng — funktional und preisgünstig, ohne großartige Extras."
+    body:
+      description: "NOW Foods American Ginseng liefert **500 mg Panax quinquefolius pro Kapsel** — amerikanischer Ginseng gilt als mildere Variante zum bekannteren koreanischen Ginseng. Mögliche Anwendungsbereiche umfassen Blutzuckerunterstützung und kognitive Funktion, die Studienlage ist jedoch begrenzt."
+      pros:
+        - "**Sehr gutes Preis-Leistungs-Verhältnis** für 100 Kapseln"
+        - "**Vertrauenswürdiger Hersteller** mit GMP-Produktion"
+        - "**Einfache Dosierung** mit 500 mg pro Kapsel"
+        - "**Keine unnötigen Zusatzstoffe**"
+      cons:
+        - "**Begrenzte Evidenz** speziell für amerikanischen Ginseng"
+        - "**Nicht einfach in Deutschland** erhältlich"
+        - "**Keine Standardisierung auf Ginsenoside** auf der Verpackung angegeben"
+        - "**Kein unabhängiges Third-Party-Zertifikat**"
+      usage: "Übliche Dosierung: 1 Kapsel täglich, vorzugsweise zu einer Mahlzeit."
+  en:
+    summary: "Affordable 500 mg American ginseng capsule by NOW Foods. Good entry price, but evidence for American ginseng specifically is limited."
+    verdictNote: "Solid budget pick for American ginseng — functional and affordable without any frills."
+    body:
+      description: "NOW Foods American Ginseng delivers **500 mg Panax quinquefolius per capsule** — American ginseng is considered a milder variant of the better-known Korean ginseng. Potential applications include blood sugar support and cognitive function, though the evidence base is limited."
+      pros:
+        - "**Excellent value for money** for 100 capsules"
+        - "**Reputable manufacturer** with GMP production"
+        - "**Simple dosing** at 500 mg per capsule"
+        - "**No unnecessary additives**"
+      cons:
+        - "**Limited evidence** specifically for American ginseng"
+        - "**Not easily sourced in Germany**"
+        - "**No ginsenoside standardization** stated on packaging"
+        - "**No independent third-party certificate**"
+      usage: "Typical dose: 1 capsule daily, preferably with a meal."
+---

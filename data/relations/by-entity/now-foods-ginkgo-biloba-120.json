@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-ginkgo-biloba-120",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "ginkgo",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

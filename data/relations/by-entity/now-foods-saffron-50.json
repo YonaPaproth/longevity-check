@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-saffron-50",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "safran",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

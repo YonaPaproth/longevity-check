@@ -1,0 +1,86 @@
+---
+id: now-foods-potassium-citrate-99
+type: product
+
+meta:
+  title: "NOW Foods Potassium Citrate 99 mg"
+  ingredient: kalium
+  containedIngredients:
+    - slug: kalium
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com/products/supplements/potassium-citrate-99-mg-veg-capsules"
+  affiliateUrl: ""
+  priceEur: 9.90
+  doseMg: 99
+  servingsPerPack: 180
+  pricePerDayEur: 0.06
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Kalium ist ein essenzielles Mineral mit gut belegten Funktionen für Herzgesundheit, Blutdruckregulierung und Muskelfunktion. Die wissenschaftliche Evidenz ist klar — der Fokus bei Supplementen liegt oft auf der Vermeidung von Mangel."
+      en: "Potassium is an essential mineral with well-established roles in cardiovascular health, blood pressure regulation, and muscle function. Scientific evidence is clear — supplementation focus is often on avoiding deficiency."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "Rund 0,06 Euro pro Tag für 180 Kapseln à 99 mg ist außerordentlich günstig. Einer der preiswertesten Wege zur Kaliumsupplementierung."
+      en: "About €0.06 per day for 180 capsules at 99 mg is exceptionally affordable — one of the most cost-effective ways to supplement potassium."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW Foods liefert solide Basisqualität in GMP-konformer Produktion. Kaliumcitrat ist eine gut absorbierbare Form — ein positiver Formulierungsaspekt."
+      en: "NOW Foods delivers solid base quality with GMP-compliant production. Potassium citrate is a well-absorbed form — a positive formulation aspect."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klare, ehrliche Kennzeichnung: 99 mg Kalium pro Kapsel (gesetzliches US-Maximum für eine Einzeldosis). Keine Übertreibungen — ein praxisnahes Produkt ohne Hype."
+      en: "Clear, honest labeling: 99 mg potassium per capsule (US legal maximum for a single dose). No exaggerations — a practical product without hype."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW Foods verweist auf hauseigenes Labor und GMP-Konformität. Zuverlässig für diese Preisklasse."
+      en: "NOW Foods references its in-house lab and GMP compliance — reliable for this price range."
+
+locales:
+  de:
+    summary: "Sehr günstige Kaliumcitrat-Kapsel von NOW Foods. Ideal als unkompliziertes Kalium-Supplement zur Basisversorgung — mit 99 mg die gesetzliche US-Einzeldosis-Obergrenze."
+    verdictNote: "Wer einfach günstig Kalium supplementieren möchte, findet hier kaum bessere Optionen — preisgünstig, sauber, funktional."
+    body:
+      description: "NOW Foods Potassium Citrate liefert **99 mg elementares Kalium pro Kapsel** in der gut bioverfügbaren Citratform. 99 mg ist die gesetzliche Obergrenze für eine Einzeldosis in den USA — wer höhere Tagesdosen anstrebt, nimmt mehrere Kapseln. Kalium ist essenziell für Herzrhythmus, Muskelfunktion und Blutdruckbalance."
+      pros:
+        - "**Außerordentlich günstig** — unter 0,10 € pro Tag"
+        - "**180 Kapseln** für fast ein halbes Jahr"
+        - "**Kaliumcitrat** — gut bioverfügbare Form"
+        - "**Keine überflüssigen Zusatzstoffe**"
+      cons:
+        - "**Nur 99 mg pro Kapsel** — mehrere Kapseln für höhere Tagesdosen nötig"
+        - "**Nicht in Deutschland** regulär erhältlich"
+        - "**Kein unabhängiges Third-Party-Zertifikat**"
+        - "**Kaliumsupplementierung** sollte bei bestimmten Erkrankungen ärztlich abgesprochen werden"
+      usage: "Dosierung nach Bedarf: 1–3 Kapseln täglich zu einer Mahlzeit. Kalium nicht auf nüchternen Magen einnehmen."
+  en:
+    summary: "Very affordable potassium citrate capsule by NOW Foods. Ideal as a no-fuss potassium supplement for basic coverage — at 99 mg the US legal single-dose maximum."
+    verdictNote: "If you just want to supplement potassium affordably, it's hard to beat this — cheap, clean, and functional."
+    body:
+      description: "NOW Foods Potassium Citrate delivers **99 mg elemental potassium per capsule** in the well-bioavailable citrate form. 99 mg is the US legal limit for a single dose — those targeting higher daily amounts take multiple capsules. Potassium is essential for heart rhythm, muscle function, and blood pressure balance."
+      pros:
+        - "**Exceptionally affordable** — under €0.10 per day"
+        - "**180 capsules** for nearly half a year's supply"
+        - "**Potassium citrate** — well-bioavailable form"
+        - "**No unnecessary additives**"
+      cons:
+        - "**Only 99 mg per capsule** — multiple capsules needed for higher daily doses"
+        - "**Not regularly available in Germany**"
+        - "**No independent third-party certificate**"
+        - "**Potassium supplementation** should be discussed with a doctor for certain conditions"
+      usage: "Dose as needed: 1–3 capsules daily with a meal. Do not take potassium on an empty stomach."
+---

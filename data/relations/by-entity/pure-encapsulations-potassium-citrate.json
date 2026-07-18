@@ -1,0 +1,11 @@
+{
+  "entity": "pure-encapsulations-potassium-citrate",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "kalium",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+---
+id: now-foods-saffron-50
+type: product
+
+meta:
+  title: "NOW Foods Saffron 50 mg"
+  ingredient: safran
+  containedIngredients:
+    - slug: safran
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com/products/supplements/saffron-50-mg-veg-capsules"
+  affiliateUrl: ""
+  priceEur: 16.90
+  doseMg: 50
+  servingsPerPack: 60
+  pricePerDayEur: 0.28
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Safran hat eine wachsende Evidenzbasis für Stimmungsunterstützung und leichte depressive Verstimmungen. Mehrere kontrollierte Studien mit 30–50 mg/Tag zeigen positive Effekte, vergleichbar mit niedrig dosierten Antidepressiva in bestimmten Populationen."
+      en: "Saffron has a growing evidence base for mood support and mild depressive symptoms. Multiple controlled studies with 30–50 mg/day show positive effects, comparable to low-dose antidepressants in certain populations."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "Rund 0,28 Euro pro Tag für Safranextrakt ist angesichts der teuren Rohware noch vertretbar. Für längerfristige Anwendung ist der Preis aber relevant."
+      en: "About €0.28 per day for saffron extract is still reasonable given the expensive raw material. For long-term use, cost becomes relevant."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW Foods liefert Basisqualität mit GMP-Produktion. Ohne spezifischen Markennamen wie Satiereal ist die Rohstoffherkunft weniger transparent als bei Premium-Produkten."
+      en: "NOW Foods delivers base quality with GMP production. Without a specific brand name like Satiereal, raw material sourcing is less transparent than in premium products."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Keine übertriebenen Versprechen, aber ohne Angabe des Extraktverhältnisses oder einer Standardisierung schwer zu bewerten, ob 50 mg tatsächlich klinisch relevantem Safranextrakt entspricht."
+      en: "No exaggerated claims, but without stating the extract ratio or standardization it is hard to assess whether 50 mg corresponds to clinically relevant saffron extract."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW Foods verweist auf hauseigenes Qualitätslabor und GMP-Produktion. Stärker als Budgetmarken, aber kein unabhängiges Zertifikat für dieses spezifische Produkt."
+      en: "NOW Foods references its in-house quality lab and GMP production. Stronger than budget brands, but no independent certificate for this specific product."
+
+locales:
+  de:
+    summary: "NOW Foods Safran-Kapsel mit 50 mg — passende Dosierung für stimmungsunterstützende Anwendung. Günstigerer Einstieg als Premium-Safran-Extrakte."
+    verdictNote: "Solider Safran-Einstieg — wenn du einfach eine günstige Option zum Testen möchtest, ist das ein vernünftiger Pick."
+    body:
+      description: "NOW Foods Saffron liefert **50 mg Safranextrakt pro Kapsel** — eine Dosierung, die in klinischen Studien zur Stimmungsunterstützung eingesetzt wird. Safran (Crocus sativus) ist für seine potenzielle Wirkung auf Serotonin- und Dopamin-Signalwege bekannt. Ohne spezifischen Extraktname (wie Satiereal) bleibt die Rohstoffqualität etwas weniger transparent."
+      pros:
+        - "**50 mg Dosierung** — passend zu klinischen Studien"
+        - "**NOW Foods** — bewährter US-Hersteller"
+        - "**60 Kapseln** für 2 Monate"
+        - "**Keine überflüssigen Füllstoffe**"
+      cons:
+        - "**Kein spezifizierter Extrakt** (z. B. Satiereal)"
+        - "**Nicht in Deutschland** regulär erhältlich"
+        - "**Moderate Kosten** von ~0,28 €/Tag"
+        - "**Safran-Qualität variiert** stark nach Rohstoffherkunft"
+      usage: "Typische Dosierung: 1 Kapsel täglich, vorzugsweise zu einer Mahlzeit."
+  en:
+    summary: "NOW Foods saffron capsule at 50 mg — appropriate dosing for mood-supportive use. More affordable entry than premium saffron extracts."
+    verdictNote: "Solid saffron starter — if you just want an affordable option to try, this is a reasonable pick."
+    body:
+      description: "NOW Foods Saffron delivers **50 mg saffron extract per capsule** — a dose used in clinical studies for mood support. Saffron (Crocus sativus) is known for its potential effects on serotonin and dopamine pathways. Without a specific extract brand name (like Satiereal), raw material quality is somewhat less transparent."
+      pros:
+        - "**50 mg dose** — consistent with clinical studies"
+        - "**NOW Foods** — established US manufacturer"
+        - "**60 capsules** for 2 months supply"
+        - "**No unnecessary fillers**"
+      cons:
+        - "**No specified extract** (e.g., Satiereal)"
+        - "**Not regularly available in Germany**"
+        - "**Moderate cost** of ~€0.28/day"
+        - "**Saffron quality varies** considerably by raw material source"
+      usage: "Typical dose: 1 capsule daily, preferably with a meal."
+---

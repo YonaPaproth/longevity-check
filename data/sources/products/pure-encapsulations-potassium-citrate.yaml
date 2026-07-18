@@ -1,0 +1,86 @@
+---
+id: pure-encapsulations-potassium-citrate
+type: product
+
+meta:
+  title: "Pure Encapsulations Potassium Citrate 200 mg"
+  ingredient: kalium
+  containedIngredients:
+    - slug: kalium
+  vendor: "Pure Encapsulations"
+  vendorUrl: "https://www.pure-encapsulations.com/en/potassium-citrate.html"
+  affiliateUrl: ""
+  priceEur: 18.90
+  doseMg: 200
+  servingsPerPack: 90
+  pricePerDayEur: 0.21
+  form: capsule
+  availableInDE: true
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Kalium ist ein essenzielles Mineral mit umfangreich belegten Funktionen für Herzgesundheit, Blutdruck und Muskelfunktion. Supplementierung ist besonders relevant bei kaliumarmer Ernährung oder erhöhtem Verlust durch Sport."
+      en: "Potassium is an essential mineral with extensively documented roles in cardiovascular health, blood pressure, and muscle function. Supplementation is particularly relevant with low-potassium diets or increased losses through exercise."
+  valueForMoney:
+    score: 7
+    explanation:
+      de: "Rund 0,21 Euro pro Tag für 90 Kapseln à 200 mg ist höher als Budgetoptionen, aber für Pure-Encapsulations-Qualität und DE-Verfügbarkeit angemessen."
+      en: "About €0.21 per day for 90 capsules at 200 mg is higher than budget options, but appropriate for Pure Encapsulations quality and DE availability."
+  productQuality:
+    score: 9
+    explanation:
+      de: "Pure Encapsulations gilt als eine der reinsten Premium-Marken auf dem Markt: hypoallergen, keine unnötigen Füllstoffe, transparente Formulierung. Besonders geeignet für Personen mit Unverträglichkeiten."
+      en: "Pure Encapsulations is considered one of the cleanest premium brands on the market: hypoallergenic, no unnecessary fillers, transparent formulation — especially suitable for those with sensitivities."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Pure Encapsulations kommuniziert ausgesprochen sachlich und transparent. Keine überflüssigen Health-Claims, klare Inhaltsstoffangaben."
+      en: "Pure Encapsulations communicates exceptionally factually and transparently. No superfluous health claims, clear ingredient declarations."
+  thirdPartyTesting:
+    score: 9
+    explanation:
+      de: "Pure Encapsulations ist bekannt für strenge Third-Party-Teststandards und zählt zu den vertrauenswürdigsten Marken für saubere Supplementformulierungen."
+      en: "Pure Encapsulations is known for rigorous third-party testing standards and ranks among the most trusted brands for clean supplement formulations."
+
+locales:
+  de:
+    summary: "Pure Encapsulations Kaliumcitrat — Premium-Pick für Kalium in DE. Hypoallergen, ohne Füllstoffe, transparent formuliert. Höherer Preis, aber lokal verfügbar."
+    verdictNote: "Wer höchste Reinheit und lokale Verfügbarkeit will, ist bei Pure Encapsulations genau richtig — der beste Kalium-Pick für den deutschen Markt."
+    body:
+      description: "Pure Encapsulations Potassium Citrate liefert **200 mg elementares Kalium pro Kapsel** in der gut bioverfügbaren Citratform. Als hypoallergene Marke verzichtet Pure Encapsulations vollständig auf überflüssige Füllstoffe, Farbstoffe und Allergene — ideal für empfindliche Personen. Direkt in Deutschland erhältlich."
+      pros:
+        - "**In Deutschland erhältlich** — kein Import nötig"
+        - "**Höchste Reinheit** — hypoallergen, frei von Füllstoffen"
+        - "**200 mg pro Kapsel** — höhere Dosis als Budgetalternativen"
+        - "**Strenge Third-Party-Teststandards**"
+      cons:
+        - "**Höherer Preis** als US-Budgetoptionen"
+        - "**Nur 90 Kapseln** pro Packung"
+        - "**Kaliumsupplementierung** bei bestimmten Erkrankungen ärztlich absprechen"
+        - "**Kein spezifisches Zertifikat** aufgeführt"
+      usage: "Typische Dosierung: 1–2 Kapseln täglich zu einer Mahlzeit. Bei höheren Tagesdosen auf Verträglichkeit achten."
+  en:
+    summary: "Pure Encapsulations Potassium Citrate — premium potassium pick available in Germany. Hypoallergenic, filler-free, transparent. Higher price, but no import needed."
+    verdictNote: "If you want maximum purity and local availability, Pure Encapsulations is the right choice — the best potassium pick for the German market."
+    body:
+      description: "Pure Encapsulations Potassium Citrate delivers **200 mg elemental potassium per capsule** in the well-bioavailable citrate form. As a hypoallergenic brand, Pure Encapsulations completely avoids unnecessary fillers, colorants, and allergens — ideal for sensitive individuals. Available directly in Germany."
+      pros:
+        - "**Available in Germany** — no import needed"
+        - "**Highest purity** — hypoallergenic, filler-free"
+        - "**200 mg per capsule** — higher dose than budget alternatives"
+        - "**Rigorous third-party testing standards**"
+      cons:
+        - "**Higher price** than US budget options"
+        - "**Only 90 capsules** per pack"
+        - "**Potassium supplementation** should be discussed with a doctor for certain conditions"
+        - "**No specific certificate** listed"
+      usage: "Typical dose: 1–2 capsules daily with a meal. Pay attention to tolerance at higher daily doses."
+---

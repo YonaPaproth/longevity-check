@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-inulin-powder",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "inulin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+---
+id: now-foods-inulin-powder
+type: product
+
+meta:
+  title: "NOW Foods Inulin Prebiotic Pure Powder"
+  ingredient: inulin
+  containedIngredients:
+    - slug: inulin
+  vendor: "NOW Foods"
+  vendorUrl: "https://www.nowfoods.com/products/supplements/inulin-prebiotic-pure-powder"
+  affiliateUrl: ""
+  priceEur: 11.90
+  doseMg: 5000
+  servingsPerPack: 45
+  pricePerDayEur: 0.26
+  form: powder
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "Inulin als präbiotischer Ballaststoff hat gut belegte Effekte auf das Darmmikrobiom, Darmgesundheit und Blutzuckerregulierung. Es zählt zu den gut erforschten Präbiotika, auch wenn die klinische Relevanz je nach Dosierung und Ausgangssituation variiert."
+      en: "Inulin as a prebiotic fiber has well-documented effects on the gut microbiome, gut health, and blood sugar regulation. It is among the well-researched prebiotics, though clinical relevance varies depending on dosage and baseline condition."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "Rund 0,26 Euro pro Tag für 5 g reines Inulinpulver ist preislich sehr attraktiv. Pulverform erlaubt flexible Dosierung und einfache Integration in Getränke oder Speisen."
+      en: "About €0.26 per day for 5 g of pure inulin powder is very price-attractive. Powder form allows flexible dosing and easy integration into drinks or food."
+  productQuality:
+    score: 7
+    explanation:
+      de: "NOW Foods Inulinpulver ist ein einfaches, reines Produkt ohne Zusatzstoffe. GMP-konforme Herstellung und hauseigene Qualitätsprüfung sind positive Merkmale."
+      en: "NOW Foods inulin powder is a simple, pure product without additives. GMP-compliant production and in-house quality testing are positive attributes."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Klares, ehrliches Produktlabel: reines Inulinpulver ohne versteckte Inhaltsstoffe. Keine übertriebenen Health-Claims — ein erfrischend schlichtes Supplement."
+      en: "Clear, honest product label: pure inulin powder without hidden ingredients. No exaggerated health claims — a refreshingly simple supplement."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "NOW Foods verweist auf hauseigenes Qualitätslabor und GMP-Konformität. Solide für eine Bulkzutat dieser Art."
+      en: "NOW Foods references its in-house quality lab and GMP compliance — solid for a bulk ingredient of this type."
+
+locales:
+  de:
+    summary: "NOW Foods reines Inulinpulver mit 5 g pro Portion — flexibles und günstiges Präbiotikum für den Alltag. Leicht in Getränke oder Speisen integrierbar."
+    verdictNote: "Wer einfach und günstig Inulin supplementieren möchte, ist mit diesem Pulver bestens bedient — kein Schnickschnack, einfach reines Präbiotikum."
+    body:
+      description: "NOW Foods Inulin Prebiotic Pure Powder enthält **5 g reines Inulin pro Portion** (227 g, ca. 45 Portionen). Inulin ist ein natürlicher präbiotischer Ballaststoff aus Chicorée-Wurzel, der als Nahrungsquelle für nützliche Darmbakterien (insb. Bifidobakterien) dient. Pulverform ermöglicht flexible Dosierung — von 2,5 g bis 10 g täglich."
+      pros:
+        - "**Reines Inulinpulver** ohne Zusatzstoffe"
+        - "**Flexibel dosierbar** und einfach einzumischen"
+        - "**Günstig** — unter 0,30 €/Tag"
+        - "**Gut erforschtes Präbiotikum** für Darmgesundheit"
+      cons:
+        - "**Nicht in Deutschland** regulär erhältlich"
+        - "**Gastrointestinale Gewöhnung** notwendig — zu hohe Anfangsdosen können Blähungen verursachen"
+        - "**Kein unabhängiges Third-Party-Zertifikat**"
+        - "**Nur 45 Portionen** pro Packung bei 5 g Standarddosis"
+      usage: "Mit kleiner Dosis (2–3 g) beginnen und langsam auf 5–10 g täglich steigern. In Wasser, Saft oder Speisen einrühren."
+  en:
+    summary: "NOW Foods pure inulin powder at 5 g per serving — flexible and affordable prebiotic for daily use. Easy to mix into drinks or food."
+    verdictNote: "If you want to supplement inulin simply and affordably, this powder is excellent — no frills, just pure prebiotic."
+    body:
+      description: "NOW Foods Inulin Prebiotic Pure Powder contains **5 g of pure inulin per serving** (227 g, approximately 45 servings). Inulin is a natural prebiotic fiber from chicory root that serves as a food source for beneficial gut bacteria (especially Bifidobacteria). Powder form enables flexible dosing — from 2.5 g to 10 g daily."
+      pros:
+        - "**Pure inulin powder** without additives"
+        - "**Flexibly dosed** and easy to mix in"
+        - "**Affordable** — under €0.30/day"
+        - "**Well-researched prebiotic** for gut health"
+      cons:
+        - "**Not regularly available in Germany**"
+        - "**Gastrointestinal adjustment** needed — too-high initial doses can cause bloating"
+        - "**No independent third-party certificate**"
+        - "**Only 45 servings** per pack at 5 g standard dose"
+      usage: "Start with a small dose (2–3 g) and gradually increase to 5–10 g daily. Stir into water, juice, or food."
+---

@@ -1,0 +1,11 @@
+{
+  "entity": "now-foods-american-ginseng-500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "ginseng",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

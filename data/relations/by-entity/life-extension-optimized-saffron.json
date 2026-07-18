@@ -1,0 +1,11 @@
+{
+  "entity": "life-extension-optimized-saffron",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "safran",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}
