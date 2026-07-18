@@ -146,6 +146,10 @@ export interface GraphEdge {
   target: string;
   relation: string;
   confidence: number;
+  /** Provenance of this relation (e.g. "pmid:23853635", "expert-review", "efsa-register") */
+  relationSource?: string;
+  /** Evidence level derived from study type (e.g. "meta_analysis", "human_rct") */
+  evidenceLevel?: string;
 }
 
 /** Full graph data shape (matches /data/graph*.json endpoint contract) */

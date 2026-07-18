@@ -129,12 +129,15 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
     "source": "magnesium",
     "target": "blutdruck",
     "relation": "wird_eingesetzt_fuer",
-    "confidence": 0.9
+    "confidence": 0.9,
+    "relationSource": "expert-review"
   }, {
     "source": "magnesium",
     "target": "studie-23853635",
     "relation": "basiert_auf_studie",
-    "confidence": 0.9
+    "confidence": 0.9,
+    "relationSource": "pmid:23853635",
+    "evidenceLevel": "human_rct"
   }]
 }`}</pre>
       </details>
@@ -254,6 +257,8 @@ efsa_approved = filter(ingredients, efsaClaimsAllowed == true)
         <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> No rate limiting, but please use fairly (static CDN, no database)</li>
         <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> CORS: open (static files on Vercel CDN)</li>
         <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> Every entity has <code class="bg-slate-100 px-1 rounded text-xs">updatedAt</code> for freshness checks</li>
+        <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> Every edge has <code class="bg-slate-100 px-1 rounded text-xs">relationSource</code> (provenance: pmid / efsa-register / expert-review / product-yaml)</li>
+        <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> Study edges additionally have <code class="bg-slate-100 px-1 rounded text-xs">evidenceLevel</code>: meta_analysis / human_rct / human_observational / expert_review</li>
         <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> Studies include <code class="bg-slate-100 px-1 rounded text-xs">study_type</code>, <code class="bg-slate-100 px-1 rounded text-xs">evidence_quality</code>, <code class="bg-slate-100 px-1 rounded text-xs">n</code>, <code class="bg-slate-100 px-1 rounded text-xs">coi</code> (where available)</li>
         <li class="flex gap-2"><span class="text-teal-600 shrink-0">•</span> Source code: <a href="https://github.com/YonaPaproth/longevity-check" class="text-teal-600 hover:underline">github.com/YonaPaproth/longevity-check</a></li>
       </ul>

@@ -159,6 +159,8 @@ export function buildFullGraph(
           target: tgt,
           relation: rel.relation,
           confidence: rel.confidence ?? 1,
+          ...(rel.source && { relationSource: rel.source }),
+          ...(rel.evidence_level && { evidenceLevel: rel.evidence_level }),
         });
       }
     }
