@@ -1,0 +1,84 @@
+---
+id: nutricost-ashwagandha-ksm66
+type: product
+
+meta:
+  title: "Nutricost KSM-66 Ashwagandha 600 mg"
+  ingredient: ashwagandha
+  containedIngredients:
+    - slug: ashwagandha
+  vendor: "Nutricost"
+  vendorUrl: "https://nutricost.com"
+  affiliateUrl: ""
+  priceEur: 15.90
+  doseMg: 600
+  servingsPerPack: 90
+  pricePerDayEur: 0.18
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: ["nsf"]
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Ashwagandha (KSM-66) ist einer der am besten belegten adaptogenen Wirkstoffe. Mehrere RCTs zeigen signifikante Reduktion von Cortisol, Stress und Angst sowie Verbesserungen bei Schlaf und körperlicher Leistungsfähigkeit. Solider klinischer Hintergrund."
+      en: "Ashwagandha (KSM-66) is one of the best-supported adaptogenic ingredients. Multiple RCTs demonstrate significant reductions in cortisol, stress, and anxiety, as well as improvements in sleep and physical performance. Solid clinical background."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "Rund 0,18 Euro pro Tag für KSM-66-standardisiertes Ashwagandha mit 90 Portionen ist ein außerordentlich guter Preis. Preislich klar im attraktiven Bereich."
+      en: "About €0.18 per day for KSM-66 standardized ashwagandha with 90 servings is exceptionally competitive. Clearly in the attractive price range."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Nutricost setzt auf KSM-66, den am besten erforschten Ashwagandha-Extrakt. Das ist ein positives Signal. Als Value-Marke bleibt die Gesamtaufmachung eher funktional als premium."
+      en: "Nutricost uses KSM-66, the most-researched ashwagandha extract. That's a positive signal. As a value brand, the overall presentation stays functional rather than premium."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Klare Angabe des KSM-66-Extrakts und der Dosierung. Kein übertriebenes Versprechen. US-typische Kommunikation, aber ohne krasse Health Claims."
+      en: "Clear disclosure of KSM-66 extract and dosage. No exaggerated promises. Typical US supplement communication, but without egregious health claims."
+  thirdPartyTesting:
+    score: 7
+    explanation:
+      de: "Nutricost verweist auf Third-Party-Testing und NSF-zertifizierte GMP-Herstellung. Das ist stärker als bei vielen Budgetmarken, auch wenn es kein NSF Sport-Zertifikat ist."
+      en: "Nutricost references third-party testing and NSF-certified GMP production — stronger than many budget brands, even if it is not NSF Sport certified."
+
+locales:
+  de:
+    summary: "KSM-66-Ashwagandha mit 600 mg zu einem sehr guten Preis. Solider Adaptogen-Pick für Stressmanagement und Schlaf."
+    verdictNote: "Einer der besten Preis-Leistungs-Picks für Ashwagandha — besonders wenn du KSM-66 willst, ohne viel Geld auszugeben."
+    body:
+      description: "Nutricost KSM-66 Ashwagandha liefert **600 mg des klinisch geprüften KSM-66-Extrakts pro Kapsel** — standardisiert auf Withanolide, den wichtigsten Wirkstoffkomplex. KSM-66 ist der meistuntersuchte Ashwagandha-Extrakt und zeigt in zahlreichen Studien Effekte auf Stressreduktion, Schlafqualität und körperliche Leistungsfähigkeit."
+      pros:
+        - "**KSM-66-zertifizierter Extrakt** — der beststudierte Ashwagandha-Standard"
+        - "**Sehr gutes Preis-Leistungs-Verhältnis** für einen patentierten Extrakt"
+        - "**600 mg pro Kapsel** — praxisnahe Dosierung"
+        - "**Third-Party-Testing** und GMP-konforme Herstellung"
+      cons:
+        - "**Nicht direkt in Deutschland verfügbar** — Import aus den USA nötig"
+        - "**Kein NSF Sport Zertifikat** trotz NSF-Referenz"
+        - "**Eher funktionale Aufmachung** ohne Premium-Anspruch"
+      usage: "1 Kapsel täglich mit einer Mahlzeit einnehmen. Viele Studien nutzen 300–600 mg täglich."
+  en:
+    summary: "KSM-66 ashwagandha at 600 mg for a very competitive price. Solid adaptogen pick for stress and sleep."
+    verdictNote: "One of the best value picks for ashwagandha — especially if you want KSM-66 without spending much."
+    body:
+      description: "Nutricost KSM-66 Ashwagandha delivers **600 mg of the clinically studied KSM-66 extract per capsule** — standardized for withanolides, the key active compound complex. KSM-66 is the most extensively researched ashwagandha extract, with numerous studies showing effects on stress reduction, sleep quality, and physical performance."
+      pros:
+        - "**KSM-66 certified extract** — the gold standard in ashwagandha research"
+        - "**Excellent value for money** for a patented extract"
+        - "**600 mg per capsule** — practical dosage"
+        - "**Third-party tested** and GMP-compliant production"
+      cons:
+        - "**Not available in Germany directly** — US import required"
+        - "**No NSF Sport certification** despite NSF reference"
+        - "**Functional rather than premium** presentation"
+      usage: "Take 1 capsule daily with a meal. Most studies use 300–600 mg daily."
+---

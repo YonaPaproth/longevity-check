@@ -1,0 +1,84 @@
+---
+id: nutricost-zinc-picolinate
+type: product
+
+meta:
+  title: "Nutricost Zinc Picolinate 25 mg"
+  ingredient: zink
+  containedIngredients:
+    - slug: zink
+  vendor: "Nutricost"
+  vendorUrl: "https://nutricost.com"
+  affiliateUrl: ""
+  priceEur: 9.90
+  doseMg: 25
+  servingsPerPack: 120
+  pricePerDayEur: 0.08
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+
+ratings:
+  evidenceForIngredient:
+    score: 8
+    explanation:
+      de: "Zink ist ein essenzielles Spurenelement mit gut belegter Bedeutung für Immunfunktion, Wundheilung, Testosteronhaushalt und kognitive Funktion. Zinkmangel ist verbreitet, eine Supplementierung bei Mangel klar sinnvoll. Zinkpicolinat gilt als gut bioverfügbare Form."
+      en: "Zinc is an essential trace element with well-documented importance for immune function, wound healing, testosterone metabolism, and cognitive function. Zinc deficiency is common; supplementation in deficiency is clearly beneficial. Zinc picolinate is considered a well-absorbed form."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "Rund 0,08 Euro pro Tag für 25 mg Zinkpicolinat mit 120 Portionen ist sehr günstig. Preislich kaum zu unterbieten."
+      en: "About €0.08 per day for 25 mg zinc picolinate with 120 servings is very affordable. Hard to beat on price."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Zinkpicolinat ist eine gut bioverfügbare Zinkform. Nutricost hält die Formulierung clean und funktional ohne unnötige Zusätze."
+      en: "Zinc picolinate is a well-bioavailable zinc form. Nutricost keeps the formulation clean and functional without unnecessary additives."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Klare Angabe der Zinkform und -dosierung. Keine übertriebenen Versprechen. Straightforward US-Supplement-Standard."
+      en: "Clear disclosure of zinc form and dosage. No exaggerated claims. Straightforward US supplement standard."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Nutricost verweist auf Third-Party-Testing und GMP-Herstellung. Kein spezifisches Zertifikat wie NSF Sport vorhanden."
+      en: "Nutricost references third-party testing and GMP production. No specific certification such as NSF Sport present."
+
+locales:
+  de:
+    summary: "Zinkpicolinat mit 25 mg pro Kapsel zu einem sehr günstigen Preis. Solides Basics-Supplement für Immunsystem und allgemeine Gesundheit."
+    verdictNote: "Wenn du einfach ein günstiges, solides Zinkprodukt willst, ist Nutricost eine gute Wahl. Für DE-Käufer gibt es aber praktischere lokale Alternativen."
+    body:
+      description: "Nutricost Zinc Picolinate liefert **25 mg Zinkpicolinat pro Kapsel** — eine gut bioverfügbare Zinkverbindung, die häufig als verträglicher als Zinkgluconat oder Zinksulfat gilt. Zink ist für zahlreiche Körperfunktionen essenziell: Immunabwehr, Wundheilung, Hormonstoffwechsel und kognitive Leistung."
+      pros:
+        - "**Zinkpicolinat** — gut bioverfügbare Zinkform"
+        - "**25 mg pro Kapsel** — praxisnahe Dosierung"
+        - "**120 Kapseln pro Packung** zu einem sehr günstigen Preis"
+        - "**Saubere Formulierung** ohne unnötige Zusätze"
+      cons:
+        - "**Nicht in Deutschland erhältlich** — US-Import erforderlich"
+        - "**25 mg ist relativ hoch** — bei Dauersupplementierung auf Kupferhaushalt achten"
+        - "**Kein spezifisches Prüfzertifikat** (kein NSF Sport o.ä.)"
+      usage: "1 Kapsel täglich, idealerweise mit einer Mahlzeit. Bei höheren Dosierungen Kupferzufuhr im Auge behalten."
+  en:
+    summary: "Zinc picolinate at 25 mg per capsule at a very affordable price. Solid basics supplement for immune function and general health."
+    verdictNote: "If you want a simple, affordable, solid zinc product, Nutricost is a good choice. For German buyers, more convenient local alternatives exist."
+    body:
+      description: "Nutricost Zinc Picolinate delivers **25 mg zinc picolinate per capsule** — a well-bioavailable zinc compound often considered more tolerable than zinc gluconate or sulfate. Zinc is essential for numerous body functions: immune defense, wound healing, hormone metabolism, and cognitive performance."
+      pros:
+        - "**Zinc picolinate** — well-bioavailable zinc form"
+        - "**25 mg per capsule** — practical dosage"
+        - "**120 capsules per pack** at a very affordable price"
+        - "**Clean formulation** without unnecessary additives"
+      cons:
+        - "**Not available in Germany** — US import required"
+        - "**25 mg is relatively high** — monitor copper status with long-term supplementation"
+        - "**No specific certification** (no NSF Sport etc.)"
+      usage: "Take 1 capsule daily, ideally with a meal. Monitor copper intake at higher doses."
+---

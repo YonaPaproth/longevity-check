@@ -1,0 +1,84 @@
+---
+id: nutricost-creatine-monohydrate
+type: product
+
+meta:
+  title: "Nutricost Creatine Monohydrate 5000 mg"
+  ingredient: kreatin
+  containedIngredients:
+    - slug: kreatin
+  vendor: "Nutricost"
+  vendorUrl: "https://nutricost.com"
+  affiliateUrl: ""
+  priceEur: 19.90
+  doseMg: 5000
+  servingsPerPack: 100
+  pricePerDayEur: 0.20
+  form: powder
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+
+ratings:
+  evidenceForIngredient:
+    score: 10
+    explanation:
+      de: "Kreatin-Monohydrat ist der am besten belegte leistungssteigernde Wirkstoff in der Sporternährung. Hunderte kontrollierter Studien belegen Verbesserungen bei Kraft, Muskelmasse und anaerober Leistung. Die Evidenzlage ist schlichtweg außergewöhnlich."
+      en: "Creatine monohydrate is the best-evidenced performance-enhancing ingredient in sports nutrition. Hundreds of controlled studies demonstrate improvements in strength, muscle mass, and anaerobic performance. The evidence base is simply exceptional."
+  valueForMoney:
+    score: 9
+    explanation:
+      de: "Rund 0,20 Euro pro Tag für 5 g Kreatin-Monohydrat mit 100 Portionen ist ein hervorragender Preis. Kreatin ist ohnehin eines der günstigsten hochwirksamen Supplements."
+      en: "About €0.20 per day for 5 g creatine monohydrate with 100 servings is excellent value. Creatine is already one of the most affordable highly effective supplements."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Reines Kreatin-Monohydrat ohne Zusätze — genau das, was man braucht. Typisch funktionale Nutricost-Qualität ohne Premium-Anspruch."
+      en: "Pure creatine monohydrate without additives — exactly what's needed. Typical functional Nutricost quality without premium positioning."
+  labelHonesty:
+    score: 8
+    explanation:
+      de: "Einfacheres Produkt, klare Angaben: 5 g Kreatin-Monohydrat pro Portion, keine versteckten Zutaten. Transparente und ehrliche Kennzeichnung."
+      en: "Simple product, clear disclosure: 5 g creatine monohydrate per serving, no hidden ingredients. Transparent and honest labeling."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Nutricost verweist auf Third-Party-Testing und GMP-Herstellung. Kein spezifisches Sport-Zertifikat vorhanden."
+      en: "Nutricost references third-party testing and GMP production. No specific sport certification present."
+
+locales:
+  de:
+    summary: "Reines Kreatin-Monohydrat mit 5 g pro Portion — der unbestrittene Klassiker zu einem sehr guten Preis."
+    verdictNote: "Für Kreatin braucht man kein Premium-Produkt — und Nutricost beweist das. Ein solider No-Frills-Pick für den Klassiker aller Supplements."
+    body:
+      description: "Nutricost Creatine Monohydrate liefert **5 g reines Kreatin-Monohydrat pro Portion** in Pulverform. Kreatin-Monohydrat ist der meistuntersuchte und am besten belegte Wirkstoff im Bereich der Sporternährung — weit vor allem anderen. Es unterstützt nachweislich Kraft, Muskelmasse und anaerobe Leistung. Kein Hype, reine Substanz."
+      pros:
+        - "**Kreatin ist das best-belegte Performance-Supplement überhaupt**"
+        - "**5 g pro Portion** — die klinisch effektive Standarddosis"
+        - "**100 Portionen pro Packung** zu einem unschlagbaren Preis"
+        - "**Reines Monohydrat** ohne unnötige Zusätze"
+      cons:
+        - "**Pulverform** — weniger praktisch als Kapseln unterwegs"
+        - "**Nicht in Deutschland erhältlich** — US-Import erforderlich"
+        - "**Kein spezifisches Prüfzertifikat** (kein NSF Sport o.ä.)"
+      usage: "5 g täglich, aufgelöst in Wasser oder einem Getränk. Eine Ladephase ist optional. Langzeiteinnahme ist sicher und effektiv."
+  en:
+    summary: "Pure creatine monohydrate at 5 g per serving — the undisputed classic at a great price."
+    verdictNote: "You don't need a premium product for creatine — and Nutricost proves it. A solid no-frills pick for the king of supplements."
+    body:
+      description: "Nutricost Creatine Monohydrate delivers **5 g of pure creatine monohydrate per serving** in powder form. Creatine monohydrate is the most studied and best-supported ingredient in sports nutrition — by a wide margin. It reliably supports strength, muscle mass, and anaerobic performance. No hype, pure substance."
+      pros:
+        - "**Creatine is the best-evidenced performance supplement period**"
+        - "**5 g per serving** — the clinically effective standard dose"
+        - "**100 servings per pack** at an unbeatable price"
+        - "**Pure monohydrate** without unnecessary additives"
+      cons:
+        - "**Powder form** — less convenient than capsules on the go"
+        - "**Not available in Germany** — US import required"
+        - "**No specific certification** (no NSF Sport etc.)"
+      usage: "Take 5 g daily, dissolved in water or a beverage. A loading phase is optional. Long-term use is safe and effective."
+---

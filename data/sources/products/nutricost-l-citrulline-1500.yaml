@@ -1,0 +1,84 @@
+---
+id: nutricost-l-citrulline-1500
+type: product
+
+meta:
+  title: "Nutricost L-Citrulline 1500 mg"
+  ingredient: l-citrullin
+  containedIngredients:
+    - slug: l-citrullin
+  vendor: "Nutricost"
+  vendorUrl: "https://nutricost.com"
+  affiliateUrl: ""
+  priceEur: 14.90
+  doseMg: 1500
+  servingsPerPack: 90
+  pricePerDayEur: 0.17
+  form: capsule
+  availableInDE: false
+  publishedAt: "2026-07-18"
+  lastPriceCheck: "2026-07-18"
+  featuredImage: ""
+  amazonAsin: ""
+  iherbId: ""
+  certifications: []
+
+ratings:
+  evidenceForIngredient:
+    score: 7
+    explanation:
+      de: "L-Citrullin hat eine gute Evidenzbasis für Verbesserungen der Ausdauerleistung und des Blutdrucks über die Steigerung der Stickstoffmonoxid-Synthese. Effektive Dosierungen in Studien liegen oft bei 3–6 g, weshalb 1500 mg am unteren Rand liegt. Effekte bei niedrigerer Dosis sind weniger gut belegt."
+      en: "L-citrulline has solid evidence for improvements in endurance performance and blood pressure via increased nitric oxide synthesis. Effective study doses are often 3–6 g, so 1500 mg is on the lower end — effects at lower doses are less well documented."
+  valueForMoney:
+    score: 8
+    explanation:
+      de: "Rund 0,17 Euro pro Tag für 90 Portionen à 1500 mg ist günstig. Für höhere Dosierungen müsste man mehrere Kapseln nehmen, was die Kosten erhöht."
+      en: "About €0.17 per day for 90 servings of 1500 mg is affordable. To reach higher doses, multiple capsules would be needed, increasing cost."
+  productQuality:
+    score: 7
+    explanation:
+      de: "Einfache, saubere Formulierung ohne überflüssige Zusätze. Typisch für Nutricost: funktional und ohne Schnickschnack."
+      en: "Simple, clean formulation without unnecessary additives. Typical Nutricost: functional and no-frills."
+  labelHonesty:
+    score: 7
+    explanation:
+      de: "Klare Angabe der Dosis und des Wirkstoffs ohne übertriebene Performance-Claims. US-typisch, aber nicht irreführend."
+      en: "Clear disclosure of dose and ingredient without exaggerated performance claims. Typical US style, but not misleading."
+  thirdPartyTesting:
+    score: 6
+    explanation:
+      de: "Nutricost verweist auf Third-Party-Testing und GMP-Herstellung. Ohne spezifisches Zertifikat (z.B. NSF Sport) bleibt die Verifikation weniger stark als bei Premium-Anbietern."
+      en: "Nutricost references third-party testing and GMP production. Without a specific certification (e.g. NSF Sport), verification is less rigorous than premium brands."
+
+locales:
+  de:
+    summary: "L-Citrullin-Kapseln mit 1500 mg pro Portion zu einem sehr guten Preis. Für maximale Pump-Effekte sollte man die Dosierung ggf. erhöhen."
+    verdictNote: "Solider Einstieg in L-Citrullin zu einem unschlagbaren Preis. Für Leistungssport empfiehlt sich eine höhere Dosierung."
+    body:
+      description: "Nutricost L-Citrulline liefert **1500 mg L-Citrullin pro Kapsel** — eine praktische Kapselform für den Nicht-Pulver-Konsumenten. L-Citrullin ist eine Aminosäure, die im Körper zu L-Arginin umgewandelt wird und so die Stickstoffmonoxid-Produktion erhöht. Das kann Trainingsperformance, Ausdauer und Blutdruck positiv beeinflussen."
+      pros:
+        - "**Sehr günstiger Einstiegspreis** für L-Citrullin"
+        - "**Kapselform** — praktischer als Pulver für unterwegs"
+        - "**Saubere Formulierung** ohne unnötige Zusätze"
+        - "**Third-Party-Testing** und GMP-Herstellung"
+      cons:
+        - "**1500 mg ist die Untergrenze** für klinisch relevante Effekte (Studien oft 3–6 g)"
+        - "**Nicht in Deutschland erhältlich** — US-Import erforderlich"
+        - "**Kein spezifisches Prüfzertifikat** (kein NSF Sport o.ä.)"
+      usage: "1–2 Kapseln täglich, idealerweise 30–60 Minuten vor dem Training."
+  en:
+    summary: "L-citrulline capsules at 1500 mg per serving at a very good price. For maximum pump effects, higher dosing may be needed."
+    verdictNote: "Solid entry point for L-citrulline at an unbeatable price. For performance sports, consider a higher dose."
+    body:
+      description: "Nutricost L-Citrulline delivers **1500 mg L-citrulline per capsule** — a convenient capsule format for those who prefer not to use powder. L-citrulline is an amino acid converted in the body to L-arginine, thereby increasing nitric oxide production. This can positively affect training performance, endurance, and blood pressure."
+      pros:
+        - "**Very affordable entry price** for L-citrulline"
+        - "**Capsule form** — more convenient than powder on the go"
+        - "**Clean formulation** without unnecessary additives"
+        - "**Third-party testing** and GMP production"
+      cons:
+        - "**1500 mg is at the lower end** for clinically relevant effects (studies often use 3–6 g)"
+        - "**Not available in Germany** — US import required"
+        - "**No specific certification** (no NSF Sport etc.)"
+      usage: "Take 1–2 capsules daily, ideally 30–60 minutes before training."
+---

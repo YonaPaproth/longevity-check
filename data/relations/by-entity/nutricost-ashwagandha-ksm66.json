@@ -1,0 +1,11 @@
+{
+  "entity": "nutricost-ashwagandha-ksm66",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "ashwagandha",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity": "nutricost-creatine-monohydrate",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "kreatin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

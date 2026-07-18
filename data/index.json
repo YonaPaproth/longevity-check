@@ -358,8 +358,12 @@
     "now-foods-vitamin-d3-5000",
     "now-foods-zinc-50",
     "now-foods-zinc-picolinate",
+    "nutricost-ashwagandha-ksm66",
+    "nutricost-creatine-monohydrate",
+    "nutricost-l-citrulline-1500",
     "nutricost-l-theanine-200-mg",
     "nutricost-nac-600",
+    "nutricost-zinc-picolinate",
     "prohealth-nmn-pro-500",
     "pure-encapsulations-alpha-lipoic-200",
     "pure-encapsulations-b-complex",
@@ -919,8 +923,8 @@
     "verdauung"
   ],
   "stats": {
-    "entities": 903,
-    "relations": 1929,
+    "entities": 907,
+    "relations": 1933,
     "relationTypes": 12,
     "lastUpdated": "2026-07-18"
   }

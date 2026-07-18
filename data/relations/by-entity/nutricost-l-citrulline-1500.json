@@ -1,0 +1,11 @@
+{
+  "entity": "nutricost-l-citrulline-1500",
+  "relations": [
+    {
+      "relation": "enthaelt",
+      "target": "l-citrullin",
+      "direction": "outgoing",
+      "confidence": 1
+    }
+  ]
+}

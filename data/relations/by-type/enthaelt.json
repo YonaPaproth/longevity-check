@@ -1,6 +1,6 @@
 {
   "type": "enthaelt",
-  "count": 363,
+  "count": 367,
   "relations": [
     {
       "subject": "alive-by-science-nmn-sublingual",
@@ -1208,6 +1208,21 @@
       "confidence": 1
     },
     {
+      "subject": "nutricost-ashwagandha-ksm66",
+      "target": "ashwagandha",
+      "confidence": 1
+    },
+    {
+      "subject": "nutricost-creatine-monohydrate",
+      "target": "kreatin",
+      "confidence": 1
+    },
+    {
+      "subject": "nutricost-l-citrulline-1500",
+      "target": "l-citrullin",
+      "confidence": 1
+    },
+    {
       "subject": "nutricost-l-theanine-200-mg",
       "target": "l-theanin",
       "confidence": 1
@@ -1215,6 +1230,11 @@
     {
       "subject": "nutricost-nac-600",
       "target": "nac",
+      "confidence": 1
+    },
+    {
+      "subject": "nutricost-zinc-picolinate",
+      "target": "zink",
       "confidence": 1
     },
     {
