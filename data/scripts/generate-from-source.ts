@@ -161,7 +161,7 @@ function validate(source: unknown, slug: string): source is IngredientSource {
 
   const studies = s.key_studies as unknown[];
   if (!Array.isArray(studies)) throw new Error('key_studies must be an array');
-  if (studies.length > 5) throw new Error(`key_studies has ${studies.length} entries (max 5)`);
+  if (studies.length > 10) throw new Error(`key_studies has ${studies.length} entries (max 10)`);
 
   return true;
 }

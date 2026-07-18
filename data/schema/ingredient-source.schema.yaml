@@ -91,7 +91,7 @@ efsa_notes:
 
 key_studies:
   type: array
-  maxItems: 5
+  maxItems: 10
   items:
     pmid:
       type: string

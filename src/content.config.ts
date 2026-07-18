@@ -47,7 +47,7 @@ const ingredients = defineCollection({
       pmid: z.string().optional(),
       url: z.string().url().optional(),
       finding: z.string(),
-    })).max(5).optional(),
+    })).max(10).optional(),
   }),
 });
 
@@ -160,7 +160,7 @@ const enIngredients = defineCollection({
       pmid: z.string().optional(),
       url: z.string().url().optional(),
       finding: z.string(),
-    })).max(5).optional(),
+    })).max(10).optional(),
   }),
 });
 
