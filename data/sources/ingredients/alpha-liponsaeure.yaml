@@ -57,6 +57,12 @@ key_studies:
         RCT in der Supportivonkologie: Alpha-Liponsäure verringerte in einer spezialisierten Kopf-Hals-Krebs-Population das Risiko bzw. die Schwere strahleninduzierter oraler Mukositis. Klinisch interessant, aber nicht direkt auf gesunde Anwender übertragbar.
       en: >-
         RCT in supportive oncology: alpha-lipoic acid reduced the risk or severity of radiation-induced oral mucositis in a specialized head-and-neck cancer population. Clinically interesting, but not directly generalizable to healthy supplement users.
+  - ref: pmid-7649494
+    finding:
+      de: >-
+        Klassisches Review (1995): Alpha-Liponsäure als biologisches Antioxidans — beschreibt die Rolle als Cofaktor mitochondrialer Enzymkomplexe und die regenerative Wirkung auf andere Antioxidantien (Vitamin C, E, Glutathion). Grundlagenpaper, das den mechanistischen Rahmen für alle späteren klinischen Studien setzt.
+      en: >-
+        Classic review (1995): alpha-lipoic acid as a biological antioxidant — describes its role as a cofactor for mitochondrial enzyme complexes and its regenerative effect on other antioxidants (vitamin C, E, glutathione). A foundational paper that established the mechanistic framework for all subsequent clinical studies.
 
 locales:
   de:
