@@ -341,6 +341,7 @@ function generateEntity(source: IngredientSource): object {
     evidenceLevel: parseInt(meta.evidenceLevel, 10),
     safety: meta.safety_rating,
     efsa_approved: meta.efsa_health_claims_allowed,
+    updatedAt: new Date().toISOString().split('T')[0],
     ...(meta.typical_dose_mg !== undefined ? { typical_dose_mg: meta.typical_dose_mg } : {}),
   };
 }

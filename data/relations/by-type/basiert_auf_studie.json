@@ -1,6 +1,6 @@
 {
   "type": "basiert_auf_studie",
-  "count": 413,
+  "count": 415,
   "relations": [
     {
       "subject": "5-htp",
@@ -545,6 +545,12 @@
       "target": "studie-26007572",
       "confidence": 0.9,
       "source": "pmid:26007572"
+    },
+    {
+      "subject": "curcumin",
+      "target": "studie-42247029",
+      "confidence": 0.9,
+      "source": "pmid:42247029"
     },
     {
       "subject": "egcg",
@@ -1355,6 +1361,12 @@
       "target": "studie-23853635",
       "confidence": 0.9,
       "source": "pmid:23853635"
+    },
+    {
+      "subject": "magnesium",
+      "target": "studie-41641401",
+      "confidence": 0.9,
+      "source": "pmid:41641401"
     },
     {
       "subject": "mangan",

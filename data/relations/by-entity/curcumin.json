@@ -235,6 +235,13 @@
       "source": "pmid:26007572"
     },
     {
+      "relation": "basiert_auf_studie",
+      "target": "studie-42247029",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42247029"
+    },
+    {
       "relation": "wird_eingesetzt_fuer",
       "target": "schmerz",
       "direction": "outgoing",

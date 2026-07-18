@@ -260,6 +260,7 @@ function generateEntity(source: ProductSource): object {
     form: source.meta.form,
     verdict: autoVerdict(compositeScore(source.ratings)),
     compositeScore: Math.round(compositeScore(source.ratings) * 100) / 100,
+    updatedAt: new Date().toISOString().split('T')[0],
   };
 }
 
