@@ -39,11 +39,32 @@ Ingredient-YAMLs referenzieren per `ref: pmid-XXXXX` + ingredient-spezifischem `
 Studien ohne PMID (z.B. EFSA-Dokumente) bleiben inline im Ingredient-YAML.
 KG-Entity-ID für Studien: `studie-XXXXX` (nicht `pmid-`!).
 
+**Study-YAML Felder (ab 2026-07-18):**
+| Feld | Typ | Beschreibung |
+|------|-----|-------------|
+| `study_type` | string | RCT, Meta-Analysis, Systematic Review, Review, Clinical Trial, etc. (aus PubMed pubtype) |
+| `evidence_quality` | string | high / moderate / low (auto-gemappt aus study_type) |
+| `n` | int | Teilnehmerzahl (aus Abstract extrahiert, falls vorhanden) |
+| `coi` | string | none / industry / unclear (Conflict of Interest) |
+| `effect_size` | string | Freitext Effektgröße, z.B. "HbA1c -2.0pp (95% CI: -2.8 to -1.2)" |
+
+Felder `n`, `coi`, `effect_size` werden auf Dossier-Seiten als Badges/Text angezeigt (DE+EN).
+Study-Index: `npx tsx data/scripts/build-study-index.ts` → `data/study-index.json` + `.csv`
+
 **Neue Studie hinzufügen:**
 1. Prüfe ob `data/sources/studies/pmid-XXXXX.yaml` schon existiert
 2. Falls nein: erstelle mit `id`, `type: study`, `pmid`, `title`, `authors`, `year`, `url`
 3. Im Ingredient-YAML: `- ref: pmid-XXXXX` + `finding: {de, en}`
 4. Relation: `basiert_auf_studie` mit `target: studie-XXXXX`
+
+**Batch-Update Study-Metadaten (für bestehende Studien):**
+```bash
+# study_type + evidence_quality aus PubMed pubtypes (3 API-Calls für ~400 Studien)
+python3 scripts/batch-study-metadata.py
+
+# n (Teilnehmerzahl) aus PubMed Abstracts extrahieren (nur high-quality study_types)
+python3 scripts/batch-study-n.py
+```
 
 **Workflow Wirkstoffe:**
 1. Editiere `data/sources/ingredients/<slug>.yaml` (Studien ggf. in `data/sources/studies/`)
@@ -72,14 +93,16 @@ File-basierter KG unter `data/`:
 - **Index:** `data/index.json` (kompakter Lookup, wird via `data/scripts/build-index.ts` generiert)
 - **Library:** `src/lib/graph/` (TypeScript: types, entities, relations, paths, labels, builders)
 
-## Aktueller Stand (Juni 2026)
+## Aktueller Stand (Juli 2026)
 
-- **118 Wirkstoff-Dossiers** (DE + EN), 112 davon YAML-basiert
-- **265 Produkt-Reviews** (DE), 41 EN — 45 Vendors
+- **119 Wirkstoff-Dossiers** (DE + EN), alle YAML-basiert
+- **293 Produkt-Reviews** (DE + EN) — 50+ Vendors
 - **19 Claims-Checks** (DE + EN)
-- **4 Research Reviews** (DE), 3 EN — wöchentliche Studienübersichten
-- **Knowledge Graph:** 215 Entities, 176 Relations-Dateien
-- **742 Seiten** total
+- **6 Research Reviews** (DE + EN) — wöchentliche Studienübersichten
+- **438 Studien** im Registry, 196 mit study_type, 41 mit n
+- **Knowledge Graph:** 903 Entities, 1929 Relations
+- **1039 Seiten** total
+- **Playwright Tests:** 12 Smoke Tests (6 Seiten × Desktop + Mobile) via `pnpm test`
 - **Kategorien:** nad-precursors, senolytics, antioxidants, adaptogens, metabolic, cognitive, hormonal, general-health, other
 
 **Nav-Struktur:**
@@ -170,9 +193,11 @@ src/
 - **Tailwind v4**: Kein `tailwind.config.js`, keine `@apply` mit config-Werten — nur Utility-Klassen direkt
 - **Commits**: immer `Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>`
 - **Build vor Push**: immer `pnpm build` laufen lassen
+- **Tests vor Push**: `pnpm test` (Playwright Smoke Tests, 12 Tests)
 - **Slugs**: nur `[a-z0-9-]`, keine Umlaute
 - **summary-Feld**: max. 200 Zeichen (Zod validiert hart)
 - **Kein `@astrojs/tailwind`** installieren — inkompatibel mit Tailwind v4
+- **YAML Quotes**: Python `yaml.dump` schreibt Single-Quotes (`'value'`). Der `parseSimpleYaml` in `build-study-index.ts` handhabt beide Quote-Typen. Bei eigenen YAML-Parse-Scripts immer `["']` im Regex verwenden.
 
 ## Schlüssel-Dateien
 
@@ -184,7 +209,12 @@ src/
 | Product Generator | `data/scripts/generate-products.ts` |
 | Study Extraction | `data/scripts/extract-studies.ts` |
 | KG Index Builder | `data/scripts/build-index.ts` |
+| Study Index Builder | `data/scripts/build-study-index.ts` |
+| Batch Study Metadata | `scripts/batch-study-metadata.py` |
+| Batch Study N | `scripts/batch-study-n.py` |
+| Playwright Tests | `tests/smoke.spec.ts` + `playwright.config.ts` |
 | Produkt-Template-Script | `scripts/add-product.cjs` |
 | Produkt-Index | `data/product-index.json` (via `scripts/product-index.cjs`) |
+| Graph Viewer (Mobile-opt.) | `src/scripts/graph-viewer.ts` |
 | i18n | `src/i18n/de.ts`, `src/i18n/en.ts` |
 | Layout + Nav | `src/layouts/BaseLayout.astro` |

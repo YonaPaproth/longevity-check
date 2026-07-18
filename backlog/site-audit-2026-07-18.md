@@ -114,16 +114,18 @@ apigenin, baicalin, beta-alanin, bor, calcium, chrom, cistanche, cordyceps, dl-p
 ## 8. Prioritäten
 
 ### P0 — Sofort (SEO/Trust-Impact)
-1. **28 Symptom-Seiten mit ≤1 Ingredient** — diese Seiten sind zu dünn für Google
-2. **25 Ingredients ohne Produkte** — verpasste Affiliate-Revenue
-3. **Study type fehlt bei 434 Studien** (99%) — neues Feld wird nicht angezeigt
+1. ~~**28 Symptom-Seiten mit ≤1 Ingredient**~~ — größtenteils kontra-*/nw-* Entities, keine echten Lücken. Echte Lücke: `blase`, `prostata`, `schmerz` (P2)
+2. ~~**25 Ingredients ohne Produkte**~~ → **20 nach P0.3** (8 neue Produkte: Ginseng, Safran, Kalium, Inulin, Ginkgo) ✅
+3. ~~**Study type fehlt bei 434 Studien** (99%)~~ → **196/438 haben study_type** (62 RCTs, 54 Reviews, 22 Meta-Analysen, etc.) ✅ Rest sind generische "Journal Article"
 
 ### P1 — Diese Woche
-4. **0 Evidence-Verdict Mismatches** prüfen und ggf. Scores anpassen
-5. **39 Single-Product-Ingredients** — mindestens 2-3 Produkte pro Ingredient für Vergleichbarkeit
-6. **COI-Feld befüllen** — aktuell 434 Studien ohne COI-Angabe (99%)
+4. **0 Evidence-Verdict Mismatches** ✅ — keine Aktion nötig, Scores sind konsistent
+5. ~~**39 Single-Product-Ingredients**~~ → **29 nach P1.4** (10 neue Produkte: Thorne, Sunday Natural, Pure Encapsulations, etc.) ✅
+6. **COI-Feld befüllen** — 434 Studien ohne COI-Angabe (99%) — **nächster Schritt: LLM-Batch mit Kimi K3**
+7. ~~**Playwright Tests**~~ → **12 Smoke Tests live** (Homepage, Dossier, Produkt, Graph, EN, Sitemap) ✅
 
 ### P2 — Nächste Wochen
-7. **0 Ingredients ohne Studien** — mindestens 1-2 Referenzstudien pro Ingredient
-8. **19 Orphan Studies** — prüfen ob sie einem Ingredient zugeordnet werden können
-9. **n (Teilnehmerzahl) befüllen** — 438 Studien ohne Teilnehmerzahl
+8. ~~**19 Orphan Studies**~~ → **0 Orphans** (PMID 7649494 → alpha-liponsaeure verknüpft) ✅
+9. **n (Teilnehmerzahl) befüllen** — 41/438 befüllt ✅, Rest hat kein n im Abstract (PubMed-Limitation)
+10. **Echte Symptom-Lücken** — `blase`, `prostata`, `schmerz` haben 0 Ingredients
+11. **Branch Protection** — main schützen, PR-Workflow einführen
