@@ -175,6 +175,6 @@ const homeHref = dict.nav.home;
     </div>
   </footer>
 
-  <Analytics />
+  {import.meta.env.VERCEL && <Analytics />}
 </body>
 </html>
