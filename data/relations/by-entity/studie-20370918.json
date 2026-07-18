@@ -1,4 +1,12 @@
 {
   "entity": "studie-20370918",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "maca",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:20370918"
+    }
+  ]
 }

@@ -1,4 +1,13 @@
 {
   "entity": "studie-23384445",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "probiotika",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23384445",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

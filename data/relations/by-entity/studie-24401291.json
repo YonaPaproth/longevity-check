@@ -1,4 +1,13 @@
 {
   "entity": "studie-24401291",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "kollagen",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:24401291",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

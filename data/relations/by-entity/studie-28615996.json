@@ -1,4 +1,13 @@
 {
   "entity": "studie-28615996",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "kreatin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28615996",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

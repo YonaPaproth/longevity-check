@@ -1,4 +1,12 @@
 {
   "entity": "studie-28147231",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "lithium-orotat",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28147231"
+    }
+  ]
 }

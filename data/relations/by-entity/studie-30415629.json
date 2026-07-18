@@ -1,4 +1,13 @@
 {
   "entity": "studie-30415629",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-d3",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:30415629",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

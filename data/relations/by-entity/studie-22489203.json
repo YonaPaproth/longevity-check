@@ -1,4 +1,12 @@
 {
   "entity": "studie-22489203",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-b1",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:22489203"
+    }
+  ]
 }

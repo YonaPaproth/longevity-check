@@ -1,4 +1,12 @@
 {
   "entity": "studie-33512051",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "glynac",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:33512051"
+    }
+  ]
 }

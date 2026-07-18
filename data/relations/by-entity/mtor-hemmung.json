@@ -3,45 +3,59 @@
   "relations": [
     {
       "relation": "wirkt_ueber",
+      "target": "spermidine",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
       "target": "ashwagandha",
       "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "betain",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "curcumin",
-      "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "egcg",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "pterostilben",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
-      "target": "spermidine",
+      "target": "rapamycin",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.95,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "trehalose",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "betain",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

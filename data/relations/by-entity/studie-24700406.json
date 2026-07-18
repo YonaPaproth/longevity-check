@@ -1,0 +1,13 @@
+{
+  "entity": "studie-24700406",
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "l-reuteri-6475",
+      "direction": "incoming",
+      "confidence": 0.8,
+      "source": "pmid:24700406",
+      "evidence_level": "human_rct"
+    }
+  ]
+}

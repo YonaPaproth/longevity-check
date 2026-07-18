@@ -1,4 +1,12 @@
 {
   "entity": "studie-32428599",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "spermidine",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:32428599"
+    }
+  ]
 }

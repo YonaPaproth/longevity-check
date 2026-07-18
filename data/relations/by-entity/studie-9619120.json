@@ -1,4 +1,13 @@
 {
   "entity": "studie-9619120",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "piperin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:9619120",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

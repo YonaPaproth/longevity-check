@@ -1,4 +1,13 @@
 {
   "entity": "studie-20838622",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-b12",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:20838622",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

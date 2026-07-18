@@ -1,4 +1,13 @@
 {
   "entity": "studie-25282031",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 0.95,
+      "source": "pmid:25282031",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

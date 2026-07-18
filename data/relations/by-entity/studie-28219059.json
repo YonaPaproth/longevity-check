@@ -1,4 +1,13 @@
 {
   "entity": "studie-28219059",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "rhodiola",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28219059",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

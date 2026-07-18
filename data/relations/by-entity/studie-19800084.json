@@ -1,4 +1,13 @@
 {
   "entity": "studie-19800084",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "berberine",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:19800084",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

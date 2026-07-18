@@ -1,4 +1,13 @@
 {
   "entity": "studie-23635871",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "kalium",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23635871",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

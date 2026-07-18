@@ -1,0 +1,13 @@
+{
+  "entity": "studie-42435069",
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "quercetin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:42435069",
+      "evidence_level": "human_rct"
+    }
+  ]
+}

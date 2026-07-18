@@ -1,4 +1,12 @@
 {
   "entity": "studie-21219274",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:21219274"
+    }
+  ]
 }

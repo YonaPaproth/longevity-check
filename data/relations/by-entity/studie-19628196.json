@@ -1,4 +1,13 @@
 {
   "entity": "studie-19628196",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "gynostemma",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:19628196",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

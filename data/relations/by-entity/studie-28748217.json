@@ -1,4 +1,12 @@
 {
   "entity": "studie-28748217",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "nac",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28748217"
+    }
+  ]
 }

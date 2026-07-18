@@ -1,4 +1,12 @@
 {
   "entity": "studie-17119255",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-b5",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:17119255"
+    }
+  ]
 }

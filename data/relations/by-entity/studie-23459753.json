@@ -1,4 +1,13 @@
 {
   "entity": "studie-23459753",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "betain",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23459753",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

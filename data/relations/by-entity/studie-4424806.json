@@ -1,4 +1,12 @@
 {
   "entity": "studie-4424806",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "5-htp",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:4424806"
+    }
+  ]
 }

@@ -1,4 +1,13 @@
 {
   "entity": "studie-23746916",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "selen",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23746916",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

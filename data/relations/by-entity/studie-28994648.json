@@ -1,4 +1,12 @@
 {
   "entity": "studie-28994648",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "kreatin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28994648"
+    }
+  ]
 }

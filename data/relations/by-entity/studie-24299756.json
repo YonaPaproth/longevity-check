@@ -1,4 +1,12 @@
 {
   "entity": "studie-24299756",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "inulin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:24299756"
+    }
+  ]
 }

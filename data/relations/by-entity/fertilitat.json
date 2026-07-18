@@ -5,49 +5,57 @@
       "relation": "wird_eingesetzt_fuer",
       "target": "folsaeure",
       "direction": "incoming",
-      "confidence": 0.9
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "myo-inositol",
-      "direction": "incoming",
-      "confidence": 0.8
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "selen",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "zink",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "coq10",
-      "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "vitamin-d3",
-      "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "eisen",
-      "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.9,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "maca",
       "direction": "incoming",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "eisen",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "zink",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-d3",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "selen",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "myo-inositol",
+      "direction": "incoming",
+      "confidence": 0.8,
+      "source": "expert-review"
     }
   ]
 }

@@ -1,4 +1,13 @@
 {
   "entity": "studie-32221179",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "safran",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:32221179",
+      "evidence_level": "meta_analysis"
+    }
+  ]
 }

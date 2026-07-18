@@ -1,4 +1,13 @@
 {
   "entity": "studie-34741443",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "glynac",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:34741443",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

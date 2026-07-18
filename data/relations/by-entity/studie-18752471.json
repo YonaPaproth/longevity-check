@@ -1,4 +1,12 @@
 {
   "entity": "studie-18752471",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "bor",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:18752471"
+    }
+  ]
 }

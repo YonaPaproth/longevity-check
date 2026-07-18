@@ -1,4 +1,12 @@
 {
   "entity": "studie-11297858",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "gotu-kola",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:11297858"
+    }
+  ]
 }

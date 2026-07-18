@@ -1,4 +1,13 @@
 {
   "entity": "studie-17619763",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "piperin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:17619763",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

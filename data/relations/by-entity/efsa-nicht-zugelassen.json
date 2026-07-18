@@ -1,0 +1,579 @@
+{
+  "entity": "efsa-nicht-zugelassen",
+  "relations": [
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "spermidine",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "hesperidin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "glynac",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "l-carnitin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "ergothionein",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "quercetin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "alpha-gpc",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "astaxanthin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "nac",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "kaempferol",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "cdp-cholin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "cordyceps",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "fucoidan",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "tongkat-ali",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "taurin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "safran",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "fisetin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "cistanche",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "tmg",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "ashwagandha",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "egcg",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "baicalin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "schisandra",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "gynostemma",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "l-reuteri-6475",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "l-tryptophan",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "lion-s-mane",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "inulin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "beta-alanin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "nr",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "shilajit",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "l-citrullin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "same",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "astragalus",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "maca",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "silymarin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "bor",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "silicium",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "reishi",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "ginkgo",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "glycin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "gaba",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "ginseng",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "probiotika",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "5-htp",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "koffein",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "alpha-liponsaeure",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "rapamycin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "berberine",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "sulforaphan",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "l-glutamin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "pqq",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "bacopa",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "resveratrol",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "lithium-orotat",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "kuerbiskernoel",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "kollagen",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "trehalose",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "l-theanin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "sea-moss",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "glutathion",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "nmn",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "akkermansia",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "betain",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "luteolin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "glucosamin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "dl-phenylalanin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "rhodiola",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "rutin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "myo-inositol",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "hyaluronsaeure",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "urolithin-a",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "acetyl-l-carnitin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "gotu-kola",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "akg",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "msm",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "piperin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "l-tyrosin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    }
+  ]
+}

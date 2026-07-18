@@ -1,4 +1,12 @@
 {
   "entity": "studie-21094641",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "cholin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:21094641"
+    }
+  ]
 }

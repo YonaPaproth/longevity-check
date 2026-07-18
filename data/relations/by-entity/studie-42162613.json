@@ -1,4 +1,13 @@
 {
   "entity": "studie-42162613",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "l-citrullin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:42162613",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

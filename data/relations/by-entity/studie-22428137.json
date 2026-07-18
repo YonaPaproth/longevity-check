@@ -1,4 +1,13 @@
 {
   "entity": "studie-22428137",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "astaxanthin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:22428137",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

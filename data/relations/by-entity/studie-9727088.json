@@ -1,4 +1,13 @@
 {
   "entity": "studie-9727088",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "5-htp",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:9727088",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

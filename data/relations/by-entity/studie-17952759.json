@@ -1,4 +1,13 @@
 {
   "entity": "studie-17952759",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "myo-inositol",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:17952759",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

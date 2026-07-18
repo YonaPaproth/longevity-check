@@ -1,4 +1,12 @@
 {
   "entity": "studie-28332804",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "akg",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28332804"
+    }
+  ]
 }

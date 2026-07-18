@@ -1,4 +1,13 @@
 {
   "entity": "studie-9484373",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-b2",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:9484373",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

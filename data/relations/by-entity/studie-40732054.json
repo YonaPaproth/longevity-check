@@ -1,0 +1,12 @@
+{
+  "entity": "studie-40732054",
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "fucoidan",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:40732054"
+    }
+  ]
+}

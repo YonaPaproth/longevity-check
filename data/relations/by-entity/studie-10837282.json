@@ -1,4 +1,13 @@
 {
   "entity": "studie-10837282",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "flohsamenschalen",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:10837282",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

@@ -1,4 +1,13 @@
 {
   "entity": "studie-21347875",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "ergothionein",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:21347875",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

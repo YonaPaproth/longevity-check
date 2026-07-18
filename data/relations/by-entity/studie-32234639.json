@@ -1,4 +1,12 @@
 {
   "entity": "studie-32234639",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-d3-k2",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:32234639"
+    }
+  ]
 }

@@ -1,4 +1,33 @@
 {
   "entity": "schmerz",
-  "relations": []
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "omega-3",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.5,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "dl-phenylalanin",
+      "direction": "incoming",
+      "confidence": 0.5,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    }
+  ]
 }

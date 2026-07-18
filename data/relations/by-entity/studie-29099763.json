@@ -1,4 +1,13 @@
 {
   "entity": "studie-29099763",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-c",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:29099763",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

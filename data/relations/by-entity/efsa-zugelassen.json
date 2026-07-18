@@ -1,0 +1,264 @@
+{
+  "entity": "efsa-zugelassen",
+  "relations": [
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-b7",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "beta-glucan",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "calcium",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "molybdaen",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "omega-3",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "flohsamenschalen",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-c",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "folsaeure",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-k2",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-b6",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-d3-k2",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-b12",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "phosphatidylserin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-b1",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "hydroxytyrosol",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "eisen",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-e",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "kalium",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "zink",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "chrom",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "multivitamin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-b3",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-b2",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "kreatin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-d3",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "phosphor",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "mangan",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-k1",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-b5",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "kupfer",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "selen",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "melatonin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "lutein-zeaxanthin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "vitamin-a",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "cholin",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    },
+    {
+      "relation": "hat_regulatorischen_status",
+      "target": "jod",
+      "direction": "incoming",
+      "confidence": 1,
+      "source": "efsa-register"
+    }
+  ]
+}

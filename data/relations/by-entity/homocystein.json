@@ -3,39 +3,45 @@
   "relations": [
     {
       "relation": "benoetigt_biomarker_check",
-      "target": "betain",
-      "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
-      "target": "cholin",
-      "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
       "target": "folsaeure",
       "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
-      "target": "tmg",
-      "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
-      "target": "vitamin-b12",
-      "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "vitamin-b6",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "tmg",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "vitamin-b12",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "betain",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "cholin",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

@@ -1,4 +1,12 @@
 {
   "entity": "studie-25013132",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "hyaluronsaeure",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:25013132"
+    }
+  ]
 }

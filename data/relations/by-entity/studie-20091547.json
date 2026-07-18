@@ -1,4 +1,13 @@
 {
   "entity": "studie-20091547",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "koffein",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:20091547",
+      "evidence_level": "meta_analysis"
+    }
+  ]
 }

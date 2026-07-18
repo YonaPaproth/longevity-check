@@ -1,4 +1,12 @@
 {
   "entity": "studie-30093983",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "lion-s-mane",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:30093983"
+    }
+  ]
 }

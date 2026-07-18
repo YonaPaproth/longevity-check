@@ -1,4 +1,12 @@
 {
   "entity": "studie-21062282",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "gynostemma",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:21062282"
+    }
+  ]
 }

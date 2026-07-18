@@ -1,4 +1,12 @@
 {
   "entity": "studie-17138823",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-k2",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:17138823"
+    }
+  ]
 }

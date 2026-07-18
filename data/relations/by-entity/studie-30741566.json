@@ -1,4 +1,12 @@
 {
   "entity": "studie-30741566",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "chrom",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:30741566"
+    }
+  ]
 }

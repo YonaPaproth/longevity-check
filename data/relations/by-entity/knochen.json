@@ -3,93 +3,115 @@
   "relations": [
     {
       "relation": "wird_eingesetzt_fuer",
-      "target": "bor",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
       "target": "calcium",
       "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "eisen",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "kollagen",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "magnesium",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "mangan",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "phosphor",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "silicium",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "taurin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "vitamin-a",
-      "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "vitamin-c",
       "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "vitamin-d3-k2",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "vitamin-d3",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "vitamin-k1",
-      "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "vitamin-k2",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "taurin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-d3-k2",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-reuteri-6475",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "eisen",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "bor",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "silicium",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kollagen",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-d3",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "phosphor",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "mangan",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-k1",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-a",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

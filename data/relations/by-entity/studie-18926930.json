@@ -1,4 +1,12 @@
 {
   "entity": "studie-18926930",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 0.85,
+      "source": "pmid:18926930"
+    }
+  ]
 }

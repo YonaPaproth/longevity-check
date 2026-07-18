@@ -1,4 +1,12 @@
 {
   "entity": "studie-24452721",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "lutein-zeaxanthin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:24452721"
+    }
+  ]
 }

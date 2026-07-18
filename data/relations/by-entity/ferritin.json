@@ -5,7 +5,8 @@
       "relation": "benoetigt_biomarker_check",
       "target": "eisen",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

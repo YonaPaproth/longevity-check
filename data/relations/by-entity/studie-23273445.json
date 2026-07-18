@@ -1,4 +1,13 @@
 {
   "entity": "studie-23273445",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "tongkat-ali",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23273445",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

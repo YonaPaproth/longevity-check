@@ -1,4 +1,12 @@
 {
   "entity": "studie-11911815",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "molybdaen",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:11911815"
+    }
+  ]
 }

@@ -1,4 +1,19 @@
 {
   "entity": "blase",
-  "relations": []
+  "relations": [
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "probiotika",
+      "direction": "incoming",
+      "confidence": 0.5,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "kuerbiskernoel",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    }
+  ]
 }

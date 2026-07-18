@@ -1,4 +1,12 @@
 {
   "entity": "studie-3984604",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "piperin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:3984604"
+    }
+  ]
 }

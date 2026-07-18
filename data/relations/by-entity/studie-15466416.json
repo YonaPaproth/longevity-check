@@ -1,4 +1,12 @@
 {
   "entity": "studie-15466416",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "berberine",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:15466416"
+    }
+  ]
 }

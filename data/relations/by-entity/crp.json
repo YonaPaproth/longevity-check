@@ -3,57 +3,66 @@
   "relations": [
     {
       "relation": "benoetigt_biomarker_check",
-      "target": "alpha-liponsaeure",
+      "target": "quercetin",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "astaxanthin",
       "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
-      "target": "curcumin",
-      "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "egcg",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "eisen",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "pterostilben",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
-      "target": "quercetin",
+      "target": "alpha-liponsaeure",
       "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
-      "target": "resveratrol",
-      "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "sulforaphan",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "resveratrol",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

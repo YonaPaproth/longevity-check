@@ -1,0 +1,13 @@
+{
+  "entity": "studie-25196580",
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "kuerbiskernoel",
+      "direction": "incoming",
+      "confidence": 0.8,
+      "source": "pmid:25196580",
+      "evidence_level": "human_rct"
+    }
+  ]
+}

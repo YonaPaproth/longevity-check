@@ -1,4 +1,12 @@
 {
   "entity": "studie-6818213",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "l-tryptophan",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:6818213"
+    }
+  ]
 }

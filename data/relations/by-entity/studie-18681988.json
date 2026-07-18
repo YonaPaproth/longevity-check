@@ -1,4 +1,13 @@
 {
   "entity": "studie-18681988",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "l-theanin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:18681988",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

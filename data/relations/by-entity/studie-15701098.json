@@ -1,4 +1,13 @@
 {
   "entity": "studie-15701098",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "silicium",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:15701098",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

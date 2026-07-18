@@ -1,4 +1,12 @@
 {
   "entity": "studie-28167794",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "cistanche",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28167794"
+    }
+  ]
 }

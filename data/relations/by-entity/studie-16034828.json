@@ -1,4 +1,13 @@
 {
   "entity": "studie-16034828",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "glucosamin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:16034828",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

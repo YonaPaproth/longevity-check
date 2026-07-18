@@ -1,4 +1,13 @@
 {
   "entity": "studie-27866067",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "l-carnitin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:27866067",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

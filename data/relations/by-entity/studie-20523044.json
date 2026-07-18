@@ -1,4 +1,13 @@
 {
   "entity": "studie-20523044",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "phosphatidylserin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:20523044",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

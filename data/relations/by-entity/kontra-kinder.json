@@ -1,4 +1,26 @@
 {
   "entity": "kontra-kinder",
-  "relations": []
+  "relations": [
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "koffein",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "melatonin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "jod",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    }
+  ]
 }

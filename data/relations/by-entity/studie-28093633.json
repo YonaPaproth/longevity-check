@@ -1,4 +1,12 @@
 {
   "entity": "studie-28093633",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "calcium",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28093633"
+    }
+  ]
 }

@@ -1,4 +1,13 @@
 {
   "entity": "studie-15466943",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "tmg",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:15466943",
+      "evidence_level": "meta_analysis"
+    }
+  ]
 }

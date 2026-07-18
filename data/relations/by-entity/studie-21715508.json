@@ -1,4 +1,13 @@
 {
   "entity": "studie-21715508",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "egcg",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:21715508",
+      "evidence_level": "meta_analysis"
+    }
+  ]
 }

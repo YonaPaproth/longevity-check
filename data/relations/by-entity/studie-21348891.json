@@ -1,4 +1,12 @@
 {
   "entity": "studie-21348891",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "beta-glucan",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:21348891"
+    }
+  ]
 }

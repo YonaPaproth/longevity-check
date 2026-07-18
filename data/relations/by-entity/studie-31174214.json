@@ -1,4 +1,12 @@
 {
   "entity": "studie-31174214",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "eisen",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:31174214"
+    }
+  ]
 }

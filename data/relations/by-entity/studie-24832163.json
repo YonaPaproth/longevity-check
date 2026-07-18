@@ -1,4 +1,12 @@
 {
   "entity": "studie-24832163",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "koffein",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:24832163"
+    }
+  ]
 }

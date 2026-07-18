@@ -1,4 +1,13 @@
 {
   "entity": "studie-15537682",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-e",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:15537682",
+      "evidence_level": "meta_analysis"
+    }
+  ]
 }

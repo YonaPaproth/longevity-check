@@ -1,4 +1,13 @@
 {
   "entity": "studie-42268476",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "resveratrol",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:42268476",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

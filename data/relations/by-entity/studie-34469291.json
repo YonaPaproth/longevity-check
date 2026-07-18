@@ -1,4 +1,12 @@
 {
   "entity": "studie-34469291",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-b6",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:34469291"
+    }
+  ]
 }

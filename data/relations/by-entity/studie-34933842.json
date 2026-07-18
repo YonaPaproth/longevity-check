@@ -1,4 +1,13 @@
 {
   "entity": "studie-34933842",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "hyaluronsaeure",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:34933842",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

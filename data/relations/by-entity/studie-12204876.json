@@ -1,4 +1,12 @@
 {
   "entity": "studie-12204876",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "shilajit",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:12204876"
+    }
+  ]
 }

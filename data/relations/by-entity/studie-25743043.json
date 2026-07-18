@@ -1,4 +1,13 @@
 {
   "entity": "studie-25743043",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "flohsamenschalen",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:25743043",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

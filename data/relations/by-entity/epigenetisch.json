@@ -3,15 +3,17 @@
   "relations": [
     {
       "relation": "wirkt_ueber",
-      "target": "akg",
+      "target": "folsaeure",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
-      "target": "folsaeure",
+      "target": "akg",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

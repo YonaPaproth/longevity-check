@@ -1,4 +1,12 @@
 {
   "entity": "nw-schilddruesenueberfunktion",
-  "relations": []
+  "relations": [
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "sea-moss",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    }
+  ]
 }

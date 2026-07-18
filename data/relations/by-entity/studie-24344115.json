@@ -1,0 +1,13 @@
+{
+  "entity": "studie-24344115",
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "multivitamin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:24344115",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

@@ -1,4 +1,13 @@
 {
   "entity": "studie-18454811",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-b3",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:18454811",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

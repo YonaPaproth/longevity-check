@@ -3,51 +3,59 @@
   "relations": [
     {
       "relation": "wirkt_ueber",
-      "target": "betain",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "cholin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
       "target": "folsaeure",
       "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "pterostilben",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "same",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "tmg",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "vitamin-b12",
-      "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "vitamin-b6",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "tmg",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "vitamin-b12",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "same",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "betain",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "cholin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

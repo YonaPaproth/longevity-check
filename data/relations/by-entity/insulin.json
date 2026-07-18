@@ -5,19 +5,22 @@
       "relation": "benoetigt_biomarker_check",
       "target": "alpha-liponsaeure",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "magnesium",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "myo-inositol",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

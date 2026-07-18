@@ -1,4 +1,12 @@
 {
   "entity": "studie-7730405",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "myo-inositol",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:7730405"
+    }
+  ]
 }

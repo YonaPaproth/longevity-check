@@ -1,4 +1,12 @@
 {
   "entity": "studie-27094574",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "baicalin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:27094574"
+    }
+  ]
 }

@@ -1,4 +1,152 @@
 {
   "entity": "nw-magen-darm-beschwerden",
-  "relations": []
+  "relations": [
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "spermidine",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "calcium",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nac",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "vitamin-b6",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "egcg",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "l-citrullin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "eisen",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "probiotika",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "5-htp",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "alpha-liponsaeure",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "berberine",
+      "direction": "incoming",
+      "confidence": 0.85,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "resveratrol",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "glutathion",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "kupfer",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "betain",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "vitamin-a",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "myo-inositol",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "hyaluronsaeure",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "l-tyrosin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    }
+  ]
 }

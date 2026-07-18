@@ -1,4 +1,13 @@
 {
   "entity": "studie-22270875",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "beta-alanin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:22270875",
+      "evidence_level": "meta_analysis"
+    }
+  ]
 }

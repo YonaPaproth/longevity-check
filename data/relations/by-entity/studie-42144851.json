@@ -1,0 +1,13 @@
+{
+  "entity": "studie-42144851",
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "omega-3",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:42144851",
+      "evidence_level": "meta_analysis"
+    }
+  ]
+}

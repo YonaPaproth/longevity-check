@@ -1,4 +1,12 @@
 {
   "entity": "studie-23990470",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "flohsamenschalen",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23990470"
+    }
+  ]
 }

@@ -1,4 +1,12 @@
 {
   "entity": "studie-24500942",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "phosphor",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:24500942"
+    }
+  ]
 }

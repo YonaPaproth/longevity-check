@@ -1,4 +1,13 @@
 {
   "entity": "studie-40911749",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "hyaluronsaeure",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:40911749",
+      "evidence_level": "meta_analysis"
+    }
+  ]
 }

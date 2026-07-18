@@ -1,4 +1,12 @@
 {
   "entity": "studie-31980092",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "omega-3",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:31980092"
+    }
+  ]
 }

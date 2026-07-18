@@ -1,4 +1,12 @@
 {
   "entity": "studie-28137772",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "silymarin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28137772"
+    }
+  ]
 }

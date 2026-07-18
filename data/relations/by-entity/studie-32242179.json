@@ -1,4 +1,13 @@
 {
   "entity": "studie-32242179",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "akg",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:32242179",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

@@ -1,4 +1,13 @@
 {
   "entity": "studie-19640941",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "urolithin-a",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:19640941",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

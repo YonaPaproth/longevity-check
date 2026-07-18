@@ -1,4 +1,12 @@
 {
   "entity": "studie-23439798",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "ashwagandha",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23439798"
+    }
+  ]
 }

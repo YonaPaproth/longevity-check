@@ -1,4 +1,12 @@
 {
   "entity": "studie-35468083",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "urolithin-a",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:35468083"
+    }
+  ]
 }

@@ -1,4 +1,12 @@
 {
   "entity": "studie-26007572",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:26007572"
+    }
+  ]
 }

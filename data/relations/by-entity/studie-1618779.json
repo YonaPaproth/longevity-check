@@ -1,4 +1,12 @@
 {
   "entity": "studie-1618779",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "glutathion",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:1618779"
+    }
+  ]
 }

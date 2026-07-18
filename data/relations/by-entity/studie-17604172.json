@@ -1,4 +1,13 @@
 {
   "entity": "studie-17604172",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "inulin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:17604172",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

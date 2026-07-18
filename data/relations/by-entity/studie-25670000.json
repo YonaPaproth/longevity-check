@@ -1,4 +1,12 @@
 {
   "entity": "studie-25670000",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "luteolin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:25670000"
+    }
+  ]
 }

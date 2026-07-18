@@ -1,4 +1,13 @@
 {
   "entity": "studie-21873346",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "bor",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:21873346",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

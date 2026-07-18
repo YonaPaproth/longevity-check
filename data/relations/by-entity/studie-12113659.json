@@ -1,4 +1,12 @@
 {
   "entity": "studie-12113659",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "ginseng",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:12113659"
+    }
+  ]
 }

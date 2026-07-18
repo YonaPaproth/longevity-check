@@ -3,165 +3,234 @@
   "relations": [
     {
       "relation": "wird_eingesetzt_fuer",
-      "target": "5-htp",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "akkermansia",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "ashwagandha",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "astragalus",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "beta-glucan",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "eisen",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "fisetin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "glutathion",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "gynostemma",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "koffein",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "l-tyrosin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "lion-s-mane",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "magnesium",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "nac",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "probiotika",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "quercetin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "reishi",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "resveratrol",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "selen",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
       "target": "spermidine",
       "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "vitamin-a",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
-      "target": "vitamin-b6",
-      "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "vitamin-b7",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "beta-glucan",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "quercetin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "nac",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "vitamin-c",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "fucoidan",
+      "direction": "incoming",
+      "confidence": 0.65,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-b6",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "fisetin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "vitamin-d3-k2",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
-      "target": "vitamin-d3",
+      "target": "ashwagandha",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "gynostemma",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-reuteri-6475",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "lion-s-mane",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "astragalus",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "eisen",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "reishi",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "probiotika",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "5-htp",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "koffein",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wird_eingesetzt_fuer",
       "target": "zink",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "multivitamin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "rapamycin",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-glutamin",
+      "direction": "incoming",
+      "confidence": 0.65,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "resveratrol",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-d3",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "sea-moss",
+      "direction": "incoming",
+      "confidence": 0.4,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "glutathion",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "akkermansia",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "selen",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "vitamin-a",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wird_eingesetzt_fuer",
+      "target": "l-tyrosin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

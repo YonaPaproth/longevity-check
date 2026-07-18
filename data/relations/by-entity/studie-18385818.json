@@ -1,4 +1,13 @@
 {
   "entity": "studie-18385818",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "zink",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:18385818",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

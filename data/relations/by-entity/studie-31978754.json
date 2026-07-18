@@ -1,4 +1,12 @@
 {
   "entity": "studie-31978754",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "trehalose",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:31978754"
+    }
+  ]
 }

@@ -1,4 +1,12 @@
 {
   "entity": "studie-37289866",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "taurin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:37289866"
+    }
+  ]
 }

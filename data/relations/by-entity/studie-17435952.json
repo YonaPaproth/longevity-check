@@ -1,4 +1,13 @@
 {
   "entity": "studie-17435952",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "silicium",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:17435952",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

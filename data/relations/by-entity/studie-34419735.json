@@ -1,4 +1,13 @@
 {
   "entity": "studie-34419735",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "safran",
+      "direction": "incoming",
+      "confidence": 0.8,
+      "source": "pmid:34419735",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

@@ -1,4 +1,12 @@
 {
   "entity": "5-alpha-reduktase-hemmung",
-  "relations": []
+  "relations": [
+    {
+      "relation": "wirkt_ueber",
+      "target": "kuerbiskernoel",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    }
+  ]
 }

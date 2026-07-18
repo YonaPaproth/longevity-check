@@ -1,4 +1,12 @@
 {
   "entity": "studie-26901749",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "astragalus",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:26901749"
+    }
+  ]
 }

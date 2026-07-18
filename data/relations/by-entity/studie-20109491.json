@@ -1,4 +1,13 @@
 {
   "entity": "studie-20109491",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "schisandra",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:20109491",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

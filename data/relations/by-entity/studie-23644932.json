@@ -1,4 +1,13 @@
 {
   "entity": "studie-23644932",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "lutein-zeaxanthin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23644932",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

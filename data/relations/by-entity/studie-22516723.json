@@ -1,4 +1,21 @@
 {
   "entity": "studie-22516723",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-d3-k2",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:22516723",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-k1",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:22516723",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

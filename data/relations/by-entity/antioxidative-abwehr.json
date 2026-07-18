@@ -3,171 +3,213 @@
   "relations": [
     {
       "relation": "wirkt_ueber",
-      "target": "alpha-liponsaeure",
+      "target": "glynac",
       "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "ashwagandha",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "astaxanthin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "calcium",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "coq10",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "curcumin",
-      "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "ergothionein",
       "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "glutathion",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "glycin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "glynac",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "hydroxytyrosol",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "koffein",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "kupfer",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "l-citrullin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "lutein-zeaxanthin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "mangan",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "melatonin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "nac",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "pterostilben",
-      "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "quercetin",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
-      "target": "rutin",
+      "target": "calcium",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
-      "target": "selen",
+      "target": "astaxanthin",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
-      "target": "sulforaphan",
+      "target": "nac",
       "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "taurin",
-      "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "vitamin-b2",
-      "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "vitamin-c",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "taurin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "safran",
+      "direction": "incoming",
+      "confidence": 0.5,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "ashwagandha",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "hydroxytyrosol",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "l-citrullin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "vitamin-e",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "glycin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "koffein",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "zink",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "alpha-liponsaeure",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "sulforaphan",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "l-glutamin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "vitamin-b2",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "mangan",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "glutathion",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "kupfer",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "selen",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "melatonin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "rutin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "lutein-zeaxanthin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

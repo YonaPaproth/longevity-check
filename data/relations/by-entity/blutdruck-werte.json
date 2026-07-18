@@ -3,39 +3,38 @@
   "relations": [
     {
       "relation": "benoetigt_biomarker_check",
-      "target": "coq10",
+      "target": "spermidine",
       "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
-      "target": "magnesium",
-      "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
-      "target": "pterostilben",
-      "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "quercetin",
       "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
-      "target": "spermidine",
-      "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "taurin",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

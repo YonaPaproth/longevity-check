@@ -1,4 +1,33 @@
 {
   "entity": "kontra-lebererkrankung",
-  "relations": []
+  "relations": [
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "ashwagandha",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "egcg",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "l-citrullin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "cholin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    }
+  ]
 }

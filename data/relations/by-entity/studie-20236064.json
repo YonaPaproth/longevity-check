@@ -1,4 +1,13 @@
 {
   "entity": "studie-20236064",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-k1",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:20236064",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

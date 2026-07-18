@@ -1,4 +1,13 @@
 {
   "entity": "studie-12849737",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "acetyl-l-carnitin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:12849737",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

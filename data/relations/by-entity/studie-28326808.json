@@ -1,4 +1,12 @@
 {
   "entity": "studie-28326808",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "selen",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28326808"
+    }
+  ]
 }

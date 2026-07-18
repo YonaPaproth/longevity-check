@@ -1,4 +1,12 @@
 {
   "entity": "studie-19007524",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "egcg",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:19007524"
+    }
+  ]
 }

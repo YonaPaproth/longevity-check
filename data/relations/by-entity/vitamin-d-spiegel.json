@@ -5,19 +5,29 @@
       "relation": "benoetigt_biomarker_check",
       "target": "calcium",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "vitamin-d3-k2",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "l-reuteri-6475",
+      "direction": "incoming",
+      "confidence": 0.5,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "vitamin-d3",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

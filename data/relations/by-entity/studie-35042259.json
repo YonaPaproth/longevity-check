@@ -1,4 +1,12 @@
 {
   "entity": "studie-35042259",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "folsaeure",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:35042259"
+    }
+  ]
 }

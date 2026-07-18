@@ -1,4 +1,13 @@
 {
   "entity": "studie-26781281",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "taurin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:26781281",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

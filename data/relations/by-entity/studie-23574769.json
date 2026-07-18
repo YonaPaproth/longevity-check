@@ -1,4 +1,13 @@
 {
   "entity": "studie-23574769",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "melatonin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23574769",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

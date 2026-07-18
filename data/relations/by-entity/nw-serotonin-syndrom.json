@@ -1,4 +1,12 @@
 {
   "entity": "nw-serotonin-syndrom",
-  "relations": []
+  "relations": [
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "5-htp",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    }
+  ]
 }

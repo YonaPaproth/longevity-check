@@ -1,4 +1,21 @@
 {
   "entity": "studie-35975308",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "nac",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:35975308",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "glycin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:35975308",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

@@ -1,4 +1,12 @@
 {
   "entity": "studie-16099008",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "mangan",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:16099008"
+    }
+  ]
 }

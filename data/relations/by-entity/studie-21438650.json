@@ -1,4 +1,12 @@
 {
   "entity": "studie-21438650",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "reishi",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:21438650"
+    }
+  ]
 }

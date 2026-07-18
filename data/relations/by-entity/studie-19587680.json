@@ -1,4 +1,12 @@
 {
   "entity": "studie-19587680",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "rapamycin",
+      "direction": "incoming",
+      "confidence": 0.95,
+      "source": "pmid:19587680"
+    }
+  ]
 }

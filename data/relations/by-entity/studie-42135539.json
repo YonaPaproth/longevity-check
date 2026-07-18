@@ -1,4 +1,19 @@
 {
   "entity": "studie-42135539",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "nr",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:42135539"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "nmn",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:42135539"
+    }
+  ]
 }

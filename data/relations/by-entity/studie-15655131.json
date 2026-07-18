@@ -1,4 +1,13 @@
 {
   "entity": "studie-15655131",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "betain",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:15655131",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

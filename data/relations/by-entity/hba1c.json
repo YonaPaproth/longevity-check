@@ -3,9 +3,17 @@
   "relations": [
     {
       "relation": "benoetigt_biomarker_check",
+      "target": "berberine",
+      "direction": "incoming",
+      "confidence": 0.85,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
       "target": "curcumin",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

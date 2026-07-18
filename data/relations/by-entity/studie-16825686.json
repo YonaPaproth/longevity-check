@@ -1,4 +1,12 @@
 {
   "entity": "studie-16825686",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "jod",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:16825686"
+    }
+  ]
 }

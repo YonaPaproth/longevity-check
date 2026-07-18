@@ -1,4 +1,13 @@
 {
   "entity": "studie-30006327",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "nr",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:30006327",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

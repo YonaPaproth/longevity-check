@@ -1,4 +1,12 @@
 {
   "entity": "studie-22971603",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "tongkat-ali",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:22971603"
+    }
+  ]
 }

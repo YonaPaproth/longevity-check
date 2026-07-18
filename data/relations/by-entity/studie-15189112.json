@@ -1,4 +1,13 @@
 {
   "entity": "studie-15189112",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:15189112",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

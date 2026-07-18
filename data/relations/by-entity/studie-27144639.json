@@ -1,4 +1,12 @@
 {
   "entity": "studie-27144639",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "glucosamin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:27144639"
+    }
+  ]
 }

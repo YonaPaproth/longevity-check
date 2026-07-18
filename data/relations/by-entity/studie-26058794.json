@@ -1,4 +1,13 @@
 {
   "entity": "studie-26058794",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "reishi",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:26058794",
+      "evidence_level": "meta_analysis"
+    }
+  ]
 }

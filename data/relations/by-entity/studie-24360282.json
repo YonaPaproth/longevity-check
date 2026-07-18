@@ -1,4 +1,12 @@
 {
   "entity": "studie-24360282",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "apigenin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:24360282"
+    }
+  ]
 }

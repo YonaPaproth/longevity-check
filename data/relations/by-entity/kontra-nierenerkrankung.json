@@ -1,4 +1,19 @@
 {
   "entity": "kontra-nierenerkrankung",
-  "relations": []
+  "relations": [
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kalium",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "kreatin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    }
+  ]
 }

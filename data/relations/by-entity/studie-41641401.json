@@ -1,0 +1,13 @@
+{
+  "entity": "studie-41641401",
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "magnesium",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:41641401",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

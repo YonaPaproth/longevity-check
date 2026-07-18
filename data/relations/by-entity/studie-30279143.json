@@ -1,4 +1,12 @@
 {
   "entity": "studie-30279143",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "fisetin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:30279143"
+    }
+  ]
 }

@@ -1,4 +1,40 @@
 {
   "entity": "kontra-organtransplantation",
-  "relations": []
+  "relations": [
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "quercetin",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "ashwagandha",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "lion-s-mane",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "probiotika",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "berberine",
+      "direction": "incoming",
+      "confidence": 0.85,
+      "source": "expert-review"
+    }
+  ]
 }

@@ -1,4 +1,13 @@
 {
   "entity": "studie-31685720",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "nmn",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:31685720",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

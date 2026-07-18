@@ -1,4 +1,19 @@
 {
   "entity": "studie-31537771",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "omega-3",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:31537771"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "vitamin-d3-k2",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:31537771"
+    }
+  ]
 }

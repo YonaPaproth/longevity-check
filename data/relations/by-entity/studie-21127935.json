@@ -1,4 +1,12 @@
 {
   "entity": "studie-21127935",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "kaempferol",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:21127935"
+    }
+  ]
 }

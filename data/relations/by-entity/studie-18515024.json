@@ -1,4 +1,13 @@
 {
   "entity": "studie-18515024",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "schisandra",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:18515024",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

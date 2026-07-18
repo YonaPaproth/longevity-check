@@ -1,4 +1,13 @@
 {
   "entity": "studie-7794222",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "l-tyrosin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:7794222",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

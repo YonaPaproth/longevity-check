@@ -5,19 +5,22 @@
       "relation": "benoetigt_biomarker_check",
       "target": "astaxanthin",
       "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
-      "target": "jod",
-      "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "resveratrol",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "jod",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

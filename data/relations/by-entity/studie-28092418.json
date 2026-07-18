@@ -1,4 +1,13 @@
 {
   "entity": "studie-28092418",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "akkermansia",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28092418",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

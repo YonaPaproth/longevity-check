@@ -3,27 +3,38 @@
   "relations": [
     {
       "relation": "wirkt_ueber",
-      "target": "5-htp",
+      "target": "safran",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "l-tryptophan",
       "direction": "incoming",
-      "confidence": 0.7
-    },
-    {
-      "relation": "wirkt_ueber",
-      "target": "myo-inositol",
-      "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "probiotika",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "5-htp",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "wirkt_ueber",
+      "target": "myo-inositol",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

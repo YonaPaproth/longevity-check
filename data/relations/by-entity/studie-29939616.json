@@ -1,4 +1,12 @@
 {
   "entity": "studie-29939616",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "alpha-liponsaeure",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:29939616"
+    }
+  ]
 }

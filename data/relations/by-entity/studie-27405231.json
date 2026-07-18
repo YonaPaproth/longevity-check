@@ -1,4 +1,12 @@
 {
   "entity": "studie-27405231",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "quercetin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:27405231"
+    }
+  ]
 }

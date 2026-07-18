@@ -1,4 +1,19 @@
 {
   "entity": "nw-flush",
-  "relations": []
+  "relations": [
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "nr",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    },
+    {
+      "relation": "hat_nebenwirkung",
+      "target": "vitamin-b3",
+      "direction": "incoming",
+      "confidence": 0.7,
+      "source": "expert-review"
+    }
+  ]
 }

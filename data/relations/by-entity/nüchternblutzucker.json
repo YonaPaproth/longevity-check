@@ -5,25 +5,36 @@
       "relation": "benoetigt_biomarker_check",
       "target": "alpha-liponsaeure",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
     },
     {
       "relation": "benoetigt_biomarker_check",
-      "target": "curcumin",
+      "target": "berberine",
       "direction": "incoming",
-      "confidence": 0.6
-    },
-    {
-      "relation": "benoetigt_biomarker_check",
-      "target": "myo-inositol",
-      "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.85,
+      "source": "pmid:19800084"
     },
     {
       "relation": "benoetigt_biomarker_check",
       "target": "resveratrol",
       "direction": "incoming",
-      "confidence": 0.6
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "curcumin",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    },
+    {
+      "relation": "benoetigt_biomarker_check",
+      "target": "myo-inositol",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
     }
   ]
 }

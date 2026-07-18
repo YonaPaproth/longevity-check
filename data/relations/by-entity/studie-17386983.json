@@ -1,4 +1,13 @@
 {
   "entity": "studie-17386983",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "coq10",
+      "direction": "incoming",
+      "confidence": 0.8,
+      "source": "pmid:17386983",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

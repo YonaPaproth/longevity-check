@@ -1,4 +1,12 @@
 {
   "entity": "studie-28025511",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "cordyceps",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:28025511"
+    }
+  ]
 }

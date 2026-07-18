@@ -1,4 +1,13 @@
 {
   "entity": "studie-20150526",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "berberine",
+      "direction": "incoming",
+      "confidence": 0.85,
+      "source": "pmid:20150526",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

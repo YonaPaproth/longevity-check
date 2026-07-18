@@ -1,4 +1,13 @@
 {
   "entity": "studie-26395129",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "shilajit",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:26395129",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

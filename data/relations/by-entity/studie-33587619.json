@@ -1,4 +1,19 @@
 {
   "entity": "studie-33587619",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "nac",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:33587619"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "glycin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:33587619"
+    }
+  ]
 }

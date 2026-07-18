@@ -3,21 +3,24 @@
   "relations": [
     {
       "relation": "wirkt_ueber",
-      "target": "ashwagandha",
+      "target": "quercetin",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
       "target": "fisetin",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     },
     {
       "relation": "wirkt_ueber",
-      "target": "quercetin",
+      "target": "ashwagandha",
       "direction": "incoming",
-      "confidence": 0.7
+      "confidence": 0.7,
+      "source": "expert-review"
     }
   ]
 }

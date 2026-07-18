@@ -1,4 +1,13 @@
 {
   "entity": "studie-23682780",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "pterostilben",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23682780",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

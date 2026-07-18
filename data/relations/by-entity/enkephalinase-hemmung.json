@@ -1,4 +1,12 @@
 {
   "entity": "enkephalinase-hemmung",
-  "relations": []
+  "relations": [
+    {
+      "relation": "wirkt_ueber",
+      "target": "dl-phenylalanin",
+      "direction": "incoming",
+      "confidence": 0.6,
+      "source": "expert-review"
+    }
+  ]
 }

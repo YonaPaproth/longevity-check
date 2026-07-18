@@ -1,4 +1,13 @@
 {
   "entity": "studie-12472620",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "maca",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:12472620",
+      "evidence_level": "human_rct"
+    }
+  ]
 }

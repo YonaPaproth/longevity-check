@@ -1,4 +1,13 @@
 {
   "entity": "studie-24512655",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "bacopa",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:24512655",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

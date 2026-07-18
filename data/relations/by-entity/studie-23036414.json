@@ -1,4 +1,13 @@
 {
   "entity": "studie-23036414",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "mangan",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:23036414",
+      "evidence_level": "human_observational"
+    }
+  ]
 }

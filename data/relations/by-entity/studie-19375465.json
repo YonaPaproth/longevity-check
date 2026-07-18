@@ -1,4 +1,12 @@
 {
   "entity": "studie-19375465",
-  "relations": []
+  "relations": [
+    {
+      "relation": "basiert_auf_studie",
+      "target": "baicalin",
+      "direction": "incoming",
+      "confidence": 0.9,
+      "source": "pmid:19375465"
+    }
+  ]
 }

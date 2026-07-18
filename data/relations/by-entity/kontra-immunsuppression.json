@@ -1,4 +1,12 @@
 {
   "entity": "kontra-immunsuppression",
-  "relations": []
+  "relations": [
+    {
+      "relation": "kontraindiziert_bei",
+      "target": "l-reuteri-6475",
+      "direction": "incoming",
+      "confidence": 0.8,
+      "source": "expert-review"
+    }
+  ]
 }
