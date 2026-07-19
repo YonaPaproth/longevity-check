@@ -80,7 +80,14 @@ const safetyStyle: Record<string, string> = {
       {matched.map((ing: any) => (
         <a href={`/wirkstoffe/${ing.slug}`} class="group flex items-center justify-between bg-white border border-slate-200 rounded-xl px-5 py-4 hover:border-teal-300 hover:shadow-sm transition-all">
           <div class="flex items-center gap-4">
-            <EvidenceBadge level={ing.evidenceLevel} />
+            <div class="flex flex-col items-center gap-1">
+              <EvidenceBadge level={ing.evidenceLevel} />
+              {confidenceMap.get(ing.slug) !== undefined && (
+                <span class="text-[10px] text-slate-400 font-medium whitespace-nowrap">
+                  {label}: {((confidenceMap.get(ing.slug) ?? 0) * 100).toFixed(0)}%
+                </span>
+              )}
+            </div>
             <div>
               <h2 class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">{ing.title}</h2>
               <p class="text-sm text-slate-500 line-clamp-1">{ing.summary}</p>
