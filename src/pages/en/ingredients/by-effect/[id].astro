@@ -23,13 +23,27 @@ const ingredientIds = rels.relations
 const allIngredients = await getCollection('enIngredients');
 const ingredientMap = new Map(allIngredients.map(i => [i.data.slug, i.data]));
 
-// Look up per-symptom confidence from each ingredient's outgoing relations
+// Look up per-symptom confidence AND best evidence tier from each ingredient's relations
 const confidenceMap = new Map<string, number>();
+const evidenceTierMap = new Map<string, string>();
+const EV_TIER_RANK: Record<string, number> = { meta_analysis: 4, human_rct: 3, human_observational: 2, expert_review: 1 };
+
 for (const slug of ingredientIds) {
   try {
     const ingRels = JSON.parse(readFileSync(`data/relations/by-entity/${slug}.json`, 'utf-8'));
     const rel = ingRels.relations.find((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.target === id);
     if (rel?.confidence) confidenceMap.set(slug, rel.confidence);
+
+    // Find best evidence_level from basiert_auf_studie relations
+    let bestTier = '';
+    let bestRank = 0;
+    for (const r of ingRels.relations) {
+      if (r.relation === 'basiert_auf_studie' && r.evidence_level) {
+        const rank = EV_TIER_RANK[r.evidence_level] ?? 0;
+        if (rank > bestRank) { bestRank = rank; bestTier = r.evidence_level; }
+      }
+    }
+    if (bestTier) evidenceTierMap.set(slug, bestTier);
   } catch {}
 }
 
@@ -47,6 +61,17 @@ const safetyLabel: Record<string, string> = {
 const safetyStyle: Record<string, string> = {
   'safe': 'bg-emerald-100 text-emerald-800', 'likely-safe': 'bg-yellow-100 text-yellow-800',
   'caution': 'bg-orange-100 text-orange-800', 'insufficient-data': 'bg-slate-100 text-slate-700',
+};
+
+const tierLabel: Record<string, string> = {
+  meta_analysis: 'Meta-Analysis', human_rct: 'RCT',
+  human_observational: 'Observational', expert_review: 'Review',
+};
+const tierStyle: Record<string, string> = {
+  meta_analysis: 'bg-teal-100 text-teal-800',
+  human_rct: 'bg-blue-100 text-blue-800',
+  human_observational: 'bg-amber-100 text-amber-800',
+  expert_review: 'bg-slate-100 text-slate-600',
 };
 ---
 
@@ -77,9 +102,9 @@ const safetyStyle: Record<string, string> = {
           <div class="flex items-center gap-4">
             <div class="flex flex-col items-center gap-1">
               <EvidenceBadge locale="en" level={ing.evidenceLevel} />
-              {confidenceMap.get(ing.slug) !== undefined && (
-                <span class="text-[10px] text-slate-400 font-medium whitespace-nowrap">
-                  {label}: {((confidenceMap.get(ing.slug) ?? 0) * 100).toFixed(0)}%
+              {evidenceTierMap.get(ing.slug) && (
+                <span class={`text-[10px] font-medium px-1.5 py-0.5 rounded-full whitespace-nowrap ${tierStyle[evidenceTierMap.get(ing.slug)!]}`}>
+                  {tierLabel[evidenceTierMap.get(ing.slug)!]}
                 </span>
               )}
             </div>
