@@ -102,11 +102,6 @@ const tierStyle: Record<string, string> = {
           <div class="flex items-center gap-4">
             <div class="flex flex-col items-center gap-1">
               <EvidenceBadge locale="en" level={ing.evidenceLevel} />
-              {evidenceTierMap.get(ing.slug) && (
-                <span class={`text-[10px] font-medium px-1.5 py-0.5 rounded-full whitespace-nowrap ${tierStyle[evidenceTierMap.get(ing.slug)!]}`}>
-                  {tierLabel[evidenceTierMap.get(ing.slug)!]}
-                </span>
-              )}
             </div>
             <div>
               <h2 class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">{ing.title}</h2>
