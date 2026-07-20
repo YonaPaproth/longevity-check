@@ -7,6 +7,14 @@
       "direction": "incoming",
       "confidence": 0.9,
       "source": "pmid:31980092"
+    },
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31980092",
+      "evidence_level": "expert_review"
     }
   ]
 }

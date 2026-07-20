@@ -28,18 +28,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-23439798
+    targets: [stress]
     finding:
       de: >-
         RCT, n=64, 300 mg KSM-66 2× täglich, 60 Tage: Serum-Cortisol –27,9%, Perceived Stress Scale (PSS) signifikant verbessert, Angst-Scores reduziert vs. Placebo. Gut methodisch.
       en: >-
         RCT, n=64, 300 mg KSM-66 twice daily, 60 days: serum cortisol –27.9%, Perceived Stress Scale significantly improved, anxiety scores reduced vs. placebo. Methodologically sound.
   - ref: pmid-31728244
+    targets: [schlaf]
     finding:
       de: >-
         RCT, n=60, 300 mg 2× täglich, 10 Wochen: Schlafqualität (PSQI-Score) signifikant verbessert, Schlaflatenz –22 min vs. Placebo, Angst-Score reduziert.
       en: >-
         RCT, n=60, 300 mg twice daily, 10 weeks: sleep quality (PSQI) significantly improved, sleep latency –22 min vs. placebo, anxiety scores reduced.
   - ref: pmid-26609282
+    targets: [muskel]
     finding:
       de: >-
         RCT, n=57 junge Männer, Krafttraining: Bankdrücken +18 kg (Ashwagandha) vs. +6 kg (Placebo). Testosteron signifikant erhöht. Studie klein; Ergebnisse müssen repliziert werden.
@@ -52,6 +55,7 @@ key_studies:
       en: >-
         Systematic review: ashwagandha is safe at recommended doses (300–600 mg/day). Liver values unremarkable in controlled studies. Low adverse-event rate.
   - ref: pmid-28471731
+    targets: [kognition]
     finding:
       de: >-
         RCT, n=50, 300 mg KSM-66 2× täglich, 8 Wochen: Verbesserung von Gedächtnisleistung (Wechsler Memory Scale), Aufmerksamkeit und Informationsverarbeitung vs. Placebo.

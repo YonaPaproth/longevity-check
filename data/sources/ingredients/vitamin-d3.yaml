@@ -25,30 +25,35 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-28202713
+    targets: [immunsystem]
     finding:
       de: >-
         Cochrane-Metaanalyse (n=11.321): Vitamin D reduzierte akute Atemwegsinfektionen moderat (aOR 0,88; 95%-CI 0,81–0,96). Nutzen größer bei Ausgangsmangel unter 25 nmol/L.
       en: >-
         Cochrane meta-analysis (n=11,321): vitamin D moderately reduced acute respiratory infections (aOR 0.88; 95% CI 0.81–0.96). Benefit greater with baseline deficiency below 25 nmol/L.
   - ref: pmid-30611908
+    targets: [knochen]
     finding:
       de: >-
         Umfassender Review: Klare Evidenz für Knochen und Mangelkontext; deutlich schwächer für diffuse Claims ohne nachgewiesenen Mangel.
       en: >-
         Comprehensive review: clear evidence for bone in deficiency contexts; substantially weaker for broad claims in the absence of confirmed deficiency.
   - ref: pmid-30415629
+    targets: [herz-kreislauf]
     finding:
       de: >-
         Großes RCT (n=25.871): 2.000 IU/Tag kein signifikanter Nutzen für kardiovaskuläre Ereignisse oder Krebsinzidenz in der Primärprävention bei normal versorgten Personen.
       en: >-
         Large RCT (n=25,871): 2,000 IU/day showed no significant benefit for cardiovascular events or cancer incidence in primary prevention in adequately nourished individuals.
   - ref: pmid-22762317
+    targets: [knochen]
     finding:
       de: >-
         Gepoolte Analyse (11 RCTs, n=31.022): Vitamin D mind. 800 IU/Tag reduzierte Hüftfrakturen bei Personen ab 65 J. um ca. 30% gegenüber Placebo.
       en: >-
         Pooled analysis (11 RCTs, n=31,022): vitamin D at least 800 IU/day reduced hip fractures in people aged 65+ by ~30% vs. placebo.
   - ref: pmid-17846391
+    targets: [alterung]
     finding:
       de: >-
         Metaanalyse von 18 RCTs (n=57.311): Vitamin-D-Supplementierung assoziiert mit 7% Reduktion der Gesamtmortalität (RR 0,93; 95%-CI 0,87–0,99). Effekt primär in Mangelpopulationen.

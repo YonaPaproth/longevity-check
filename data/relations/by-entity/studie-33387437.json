@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:33387437",
       "evidence_level": "human_observational"
+    },
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33387437",
+      "evidence_level": "human_observational"
+    },
+    {
+      "relation": "untersucht",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33387437",
+      "evidence_level": "human_observational"
     }
   ]
 }

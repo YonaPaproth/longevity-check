@@ -29,36 +29,42 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-28925728
+    targets: [entzuendung]
     finding:
       de: >-
         Umfassender Review: Curcumin zeigt antientzündliche und antioxidative Effekte in RCTs, aber schlechte orale Bioverfügbarkeit ist kritischer limitierender Faktor bei Standardformulierungen.
       en: >-
         Comprehensive review: Curcumin exhibits anti-inflammatory and antioxidant effects in RCTs, but poor oral bioavailability is the critical limiting factor for standard formulations.
   - ref: pmid-26975974
+    targets: [entzuendung]
     finding:
       de: >-
         Meta-Analyse (15 RCTs): Signifikante Reduktion von CRP (SMD -0,64), IL-6 und TNF-α. Effektgröße moderat; Studienqualität variierend.
       en: >-
         Meta-analysis (15 RCTs): Significant reduction in CRP (SMD −0.64), IL-6, and TNF-α. Moderate effect size; study quality variable.
   - ref: pmid-26528921
+    targets: [gelenke, schmerz]
     finding:
       de: >-
         Systematischer Review und Meta-Analyse (8 RCTs): Curcumin-Extrakte reduzierten Gelenkschmerzen (VAS -19 mm, WOMAC-Score signifikant verbessert) vs. Placebo. Methodische Qualität mehrerer Studien eingeschränkt.
       en: >-
         Systematic review and meta-analysis (8 RCTs): Curcumin extracts reduced joint pain (VAS −19 mm, WOMAC score significantly improved) vs. placebo. Methodological quality of several studies limited.
   - ref: pmid-22407780
+    targets: [schmerz, gelenke]
     finding:
       de: >-
         Pilot-RCT, n=45: Curcumin-Gruppe (500 mg/Tag) zeigte bessere Schmerzreduktion als Diclofenac-Natriumgruppe. Begrenzt durch kleine Fallzahl und kurze Laufzeit (8 Wochen).
       en: >-
         Pilot RCT, n=45: Curcumin group (500 mg/day) showed superior pain reduction vs. diclofenac sodium. Limited by small sample size and short duration (8 weeks).
   - ref: pmid-26007572
+    targets: [blutzucker, herz-kreislauf]
     finding:
       de: >-
         Systematischer Review: 1.500 mg Curcumin/Tag war mit niedrigeren Triglycerid- und Blutfettwerten sowie verbesserten Nüchternblutzucker-Werten assoziiert. Studienqualität variiert.
       en: >-
         Systematic review: 1,500 mg curcumin/day was associated with lower triglycerides, reduced blood lipids, and improved fasting glucose. Study quality variable.
   - ref: pmid-42247029
+    targets: [prostata]
     finding:
       de: >-
         Systematische Review und Meta-Analyse bei benigner Prostatahyperplasie: Curcumin zeigte klinisch interessante Signale in einer klar umrissenen urologischen Nische. Relevanter als diffuse Allzweck-Claims, aber noch kein Grund für überzogene Schlüsse über Curcumin als universelle Intervention.

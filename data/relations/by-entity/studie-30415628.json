@@ -8,6 +8,14 @@
       "confidence": 0.9,
       "source": "pmid:30415628",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30415628",
+      "evidence_level": "human_rct"
     }
   ]
 }

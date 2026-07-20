@@ -1,6 +1,6 @@
 {
   "type": "untersucht",
-  "count": 8,
+  "count": 15,
   "relations": [
     {
       "subject": "studie-15189112",
@@ -33,6 +33,24 @@
       "source": "pmid:26837598"
     },
     {
+      "subject": "studie-30415628",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:30415628"
+    },
+    {
+      "subject": "studie-31537771",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:31537771"
+    },
+    {
+      "subject": "studie-31980092",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:31980092"
+    },
+    {
       "subject": "studie-33260549",
       "target": "stress",
       "confidence": 0.9,
@@ -45,10 +63,34 @@
       "source": "pmid:33260549"
     },
     {
+      "subject": "studie-33387437",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:33387437"
+    },
+    {
+      "subject": "studie-33387437",
+      "target": "blutdruck",
+      "confidence": 0.9,
+      "source": "pmid:33387437"
+    },
+    {
       "subject": "studie-41641401",
       "target": "blutzucker",
       "confidence": 0.9,
       "source": "pmid:41641401"
+    },
+    {
+      "subject": "studie-42277453",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:42277453"
+    },
+    {
+      "subject": "studie-42277453",
+      "target": "blutdruck",
+      "confidence": 0.9,
+      "source": "pmid:42277453"
     }
   ]
 }
