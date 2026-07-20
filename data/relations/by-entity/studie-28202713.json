@@ -8,6 +8,14 @@
       "confidence": 0.9,
       "source": "pmid:28202713",
       "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28202713",
+      "evidence_level": "meta_analysis"
     }
   ]
 }

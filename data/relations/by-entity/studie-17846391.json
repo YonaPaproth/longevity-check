@@ -8,6 +8,14 @@
       "confidence": 0.9,
       "source": "pmid:17846391",
       "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17846391",
+      "evidence_level": "meta_analysis"
     }
   ]
 }

@@ -7,6 +7,14 @@
       "direction": "incoming",
       "confidence": 0.9,
       "source": "pmid:30611908"
+    },
+    {
+      "relation": "untersucht",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30611908",
+      "evidence_level": "expert_review"
     }
   ]
 }

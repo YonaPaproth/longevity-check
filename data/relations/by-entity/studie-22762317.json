@@ -8,6 +8,14 @@
       "confidence": 0.9,
       "source": "pmid:22762317",
       "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22762317",
+      "evidence_level": "meta_analysis"
     }
   ]
 }

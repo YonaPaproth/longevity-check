@@ -8,6 +8,14 @@
       "confidence": 0.9,
       "source": "pmid:26609282",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26609282",
+      "evidence_level": "human_rct"
     }
   ]
 }

@@ -7,6 +7,14 @@
       "direction": "incoming",
       "confidence": 0.9,
       "source": "pmid:23439798"
+    },
+    {
+      "relation": "untersucht",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23439798",
+      "evidence_level": "expert_review"
     }
   ]
 }

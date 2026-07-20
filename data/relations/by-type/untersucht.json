@@ -1,6 +1,6 @@
 {
   "type": "untersucht",
-  "count": 15,
+  "count": 24,
   "relations": [
     {
       "subject": "studie-15189112",
@@ -9,16 +9,40 @@
       "source": "pmid:15189112"
     },
     {
+      "subject": "studie-17846391",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:17846391"
+    },
+    {
       "subject": "studie-20152124",
       "target": "kognition",
       "confidence": 0.9,
       "source": "pmid:20152124"
     },
     {
+      "subject": "studie-22762317",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:22762317"
+    },
+    {
+      "subject": "studie-23439798",
+      "target": "stress",
+      "confidence": 0.9,
+      "source": "pmid:23439798"
+    },
+    {
       "subject": "studie-23853635",
       "target": "schlaf",
       "confidence": 0.9,
       "source": "pmid:23853635"
+    },
+    {
+      "subject": "studie-26609282",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:26609282"
     },
     {
       "subject": "studie-26837598",
@@ -33,16 +57,46 @@
       "source": "pmid:26837598"
     },
     {
+      "subject": "studie-28202713",
+      "target": "immunsystem",
+      "confidence": 0.9,
+      "source": "pmid:28202713"
+    },
+    {
+      "subject": "studie-28471731",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:28471731"
+    },
+    {
       "subject": "studie-30415628",
       "target": "herz-kreislauf",
       "confidence": 0.9,
       "source": "pmid:30415628"
     },
     {
+      "subject": "studie-30415629",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:30415629"
+    },
+    {
+      "subject": "studie-30611908",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:30611908"
+    },
+    {
       "subject": "studie-31537771",
       "target": "herz-kreislauf",
       "confidence": 0.9,
       "source": "pmid:31537771"
+    },
+    {
+      "subject": "studie-31728244",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:31728244"
     },
     {
       "subject": "studie-31980092",
