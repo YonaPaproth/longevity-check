@@ -28,13 +28,13 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-33260549
-    targets: [stress, schlaf]
+    targets: [stress]
     finding:
       de: >-
         Magnesiumergänzung verbesserte Stressparameter und Schlafqualität; Mangel und Stress verstärken sich gegenseitig in einem negativen Kreislauf.
       en: >-
         Magnesium supplementation improved stress parameters and sleep quality; deficiency and stress reinforce each other in a negative cycle.
-  - ref: pmid-15189112
+  - ref: pmid-15223977
     targets: [blutzucker]
     finding:
       de: >-
@@ -48,7 +48,7 @@ key_studies:
         Magnesium-L-Threonat erhöhte Gehirn-Magnesiumspiegel bei Ratten und verbesserte Kurz- und Langzeitgedächtnis. Humanstudien noch klein und begrenzt.
       en: >-
         Magnesium L-threonate raised brain magnesium levels in rats and improved short- and long-term memory. Human studies are still small and limited.
-  - ref: pmid-26837598
+  - ref: pmid-27402922
     targets: [blutdruck, herz-kreislauf]
     finding:
       de: >-
@@ -56,14 +56,14 @@ key_studies:
       en: >-
         Meta-analysis (34 RCTs, n=2,028): magnesium lowered systolic blood pressure by ~3–4 mmHg and diastolic by ~2–3 mmHg. Effect stronger at higher baseline values and lower magnesium levels.
   - ref: pmid-23853635
-    targets: [schlaf]
+    targets: [schlaf, stress]
     finding:
       de: >-
         RCT (n=46 ältere Erwachsene): 500 mg Magnesium/Tag über 8 Wochen verbesserte Schlafqualität, -dauer und Insomnie-Scores signifikant gegenüber Placebo.
       en: >-
         RCT (n=46 older adults): 500 mg magnesium/day over 8 weeks significantly improved sleep quality, duration, and insomnia scores vs. placebo.
   - ref: pmid-41641401
-    targets: [blutzucker]
+    targets: [blutzucker, herz-kreislauf]
     finding:
       de: >-
         Systematische Review und Meta-Analyse bei Prädiabetes: orale Magnesiumsupplementierung verbesserte glykämische und kardiometabolische Parameter in einer Population mit hohem Progressionsrisiko. Stärkt Magnesium eher als gezielte metabolische Ergänzung bei Mangel- oder Risikokonstellation als als universellen "Wellnessstoff".
@@ -348,7 +348,7 @@ relations:
     confidence: 0.9
     source: "pmid:33260549"
   - relation: basiert_auf_studie
-    target: studie-15189112
+    target: studie-15223977
     direction: outgoing
     confidence: 0.9
     source: "pmid:15189112"
@@ -358,7 +358,7 @@ relations:
     confidence: 0.9
     source: "pmid:20152124"
   - relation: basiert_auf_studie
-    target: studie-26837598
+    target: studie-27402922
     direction: outgoing
     confidence: 0.9
     source: "pmid:26837598"

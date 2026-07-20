@@ -1,0 +1,13 @@
+{
+  "entity": "studie-15223977",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15223977",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

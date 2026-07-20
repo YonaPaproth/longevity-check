@@ -1,0 +1,13 @@
+{
+  "entity": "studie-29065496",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29065496",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

@@ -31,7 +31,7 @@ key_studies:
         Cochrane-Metaanalyse (n=11.321): Vitamin D reduzierte akute Atemwegsinfektionen moderat (aOR 0,88; 95%-CI 0,81–0,96). Nutzen größer bei Ausgangsmangel unter 25 nmol/L.
       en: >-
         Cochrane meta-analysis (n=11,321): vitamin D moderately reduced acute respiratory infections (aOR 0.88; 95% CI 0.81–0.96). Benefit greater with baseline deficiency below 25 nmol/L.
-  - ref: pmid-30611908
+  - ref: pmid-30293909
     targets: [knochen]
     finding:
       de: >-
@@ -288,7 +288,7 @@ relations:
     confidence: 0.9
     source: "pmid:28202713"
   - relation: basiert_auf_studie
-    target: studie-30611908
+    target: studie-30293909
     direction: outgoing
     confidence: 0.9
     source: "pmid:30611908"

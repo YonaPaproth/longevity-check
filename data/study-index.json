@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18",
+  "generated": "2026-07-20",
   "total": 438,
   "with_type": 196,
   "with_reviews": 11,
@@ -726,6 +726,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-32114706",
+      "pmid": "32114706",
+      "title": "Effect of Omega-3 Dosage on Cardiovascular Outcomes: An Updated Meta-Analysis",
+      "authors": "Bernasconi AA et al.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32114706/",
+      "study_type": "Case Report",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "omega-3"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-32428599",
       "pmid": "32428599",
       "title": "Dietary spermidine improves cognitive function in older adults (SmartAge RCT)",
@@ -739,23 +756,6 @@
       "effect_size": "",
       "ingredients": [
         "spermidine"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-33387437",
-      "pmid": "33387437",
-      "title": "Effect of Omega-3 Dosage on Cardiovascular Outcomes: An Updated Meta-Analysis",
-      "authors": "Bernasconi AA et al.",
-      "year": "2021",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33387437/",
-      "study_type": "Case Report",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "omega-3"
       ],
       "research_reviews": []
     },
@@ -931,23 +931,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-31980092",
-      "pmid": "31980092",
-      "title": "Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular",
-      "authors": "Nicholls SJ et al.",
-      "year": "2020",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/31980092/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "omega-3"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-32045577",
       "pmid": "32045577",
       "title": "Caffeine supplementation and physical performance, a meta-analysis",
@@ -1117,6 +1100,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-33190147",
+      "pmid": "33190147",
+      "title": "Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular",
+      "authors": "Nicholls SJ et al.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33190147/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "omega-3"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-33260549",
       "pmid": "33260549",
       "title": "Magnesium Status and Stress: The Vicious Circle Concept Revisited",
@@ -1168,6 +1168,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-30293909",
+      "pmid": "30293909",
+      "title": "Vitamin D and skeletal health",
+      "authors": "Bouillon R et al.",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30293909/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "vitamin-d3"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-30415628",
       "pmid": "30415628",
       "title": "Cardiovascular Risk Reduction with Icosapentaenoic Acid for Hypertriglyceridemia",
@@ -1202,19 +1219,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-30611908",
-      "pmid": "30611908",
-      "title": "Vitamin D and skeletal health",
-      "authors": "Bouillon R et al.",
+      "id": "pmid-30415637",
+      "pmid": "30415637",
+      "title": "Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer",
+      "authors": "Manson JE et al.",
       "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30611908/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30415637/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "vitamin-d3"
+        "omega-3"
       ],
       "research_reviews": []
     },
@@ -1365,24 +1382,6 @@
       "coi": "",
       "effect_size": "",
       "ingredients": [],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-31537771",
-      "pmid": "31537771",
-      "title": "Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer",
-      "authors": "Manson JE et al.",
-      "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/31537771/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "omega-3",
-        "vitamin-d3-k2"
-      ],
       "research_reviews": []
     },
     {
@@ -2287,23 +2286,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-28925728",
-      "pmid": "28925728",
-      "title": "Curcumin: A Review of Its Effects on Human Health",
-      "authors": "Hewlings SJ & Kalman DS",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28925728/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "curcumin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-28994648",
       "pmid": "28994648",
       "title": "Effect of creatine supplementation during resistance training on lean tissue",
@@ -2317,6 +2299,23 @@
       "effect_size": "",
       "ingredients": [
         "kreatin"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-29065496",
+      "pmid": "29065496",
+      "title": "Curcumin: A Review of Its Effects on Human Health",
+      "authors": "Hewlings SJ & Kalman DS",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29065496/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "curcumin"
       ],
       "research_reviews": []
     },
@@ -2491,23 +2490,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-26837598",
-      "pmid": "26837598",
-      "title": "Effects of Magnesium Supplementation on Blood Pressure: A Meta-Analysis of",
-      "authors": "Zhang X et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26837598/",
-      "study_type": "Meta-Analysis",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "magnesium"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-26901749",
       "pmid": "26901749",
       "title": "Astragalus membranaceus in immunomodulation",
@@ -2538,23 +2520,6 @@
       "effect_size": "",
       "ingredients": [
         "resveratrol"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-26975974",
-      "pmid": "26975974",
-      "title": "Effect of curcuminoids on inflammatory biomarkers: meta-analysis of RCTs",
-      "authors": "Sahebkar A et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26975974/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "curcumin"
       ],
       "research_reviews": []
     },
@@ -2640,6 +2605,23 @@
       "effect_size": "",
       "ingredients": [
         "urolithin-a"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-27402922",
+      "pmid": "27402922",
+      "title": "Effects of Magnesium Supplementation on Blood Pressure: A Meta-Analysis of",
+      "authors": "Zhang X et al.",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27402922/",
+      "study_type": "Meta-Analysis",
+      "evidence_quality": "high",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "magnesium"
       ],
       "research_reviews": []
     },
@@ -2776,6 +2758,23 @@
       "effect_size": "",
       "ingredients": [
         "spermidine"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-34586711",
+      "pmid": "34586711",
+      "title": "Effect of curcuminoids on inflammatory biomarkers: meta-analysis of RCTs",
+      "authors": "Sahebkar A et al.",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34586711/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "curcumin"
       ],
       "research_reviews": []
     },
@@ -6436,23 +6435,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-15189112",
-      "pmid": "15189112",
-      "title": "Oral Magnesium Supplementation Reduces Insulin Resistance in Non-Diabetic Subjects",
-      "authors": "Guerrero-Romero F et al.",
-      "year": "2004",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/15189112/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "magnesium"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-15212784",
       "pmid": "15212784",
       "title": "Glutathione metabolism and its selective modification",
@@ -6466,6 +6448,23 @@
       "effect_size": "",
       "ingredients": [
         "glutathion"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-15223977",
+      "pmid": "15223977",
+      "title": "Oral Magnesium Supplementation Reduces Insulin Resistance in Non-Diabetic Subjects",
+      "authors": "Guerrero-Romero F et al.",
+      "year": "2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15223977/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "magnesium"
       ],
       "research_reviews": []
     },

@@ -16,6 +16,14 @@
       "confidence": 0.9,
       "source": "pmid:41641401",
       "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41641401",
+      "evidence_level": "expert_review"
     }
   ]
 }

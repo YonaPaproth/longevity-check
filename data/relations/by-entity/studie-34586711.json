@@ -1,0 +1,13 @@
+{
+  "entity": "studie-34586711",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:34586711",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

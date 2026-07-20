@@ -1,0 +1,21 @@
+{
+  "entity": "studie-27402922",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:27402922",
+      "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:27402922",
+      "evidence_level": "meta_analysis"
+    }
+  ]
+}

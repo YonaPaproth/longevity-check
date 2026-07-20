@@ -1,12 +1,18 @@
 {
   "type": "untersucht",
-  "count": 33,
+  "count": 46,
   "relations": [
     {
       "subject": "studie-15189112",
       "target": "blutzucker",
       "confidence": 0.9,
       "source": "pmid:15189112"
+    },
+    {
+      "subject": "studie-15223977",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:15223977"
     },
     {
       "subject": "studie-17846391",
@@ -47,6 +53,12 @@
     {
       "subject": "studie-23853635",
       "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:23853635"
+    },
+    {
+      "subject": "studie-23853635",
+      "target": "stress",
       "confidence": 0.9,
       "source": "pmid:23853635"
     },
@@ -99,6 +111,18 @@
       "source": "pmid:26975974"
     },
     {
+      "subject": "studie-27402922",
+      "target": "blutdruck",
+      "confidence": 0.9,
+      "source": "pmid:27402922"
+    },
+    {
+      "subject": "studie-27402922",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:27402922"
+    },
+    {
       "subject": "studie-28202713",
       "target": "immunsystem",
       "confidence": 0.9,
@@ -117,6 +141,18 @@
       "source": "pmid:28925728"
     },
     {
+      "subject": "studie-29065496",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:29065496"
+    },
+    {
+      "subject": "studie-30293909",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:30293909"
+    },
+    {
       "subject": "studie-30415628",
       "target": "herz-kreislauf",
       "confidence": 0.9,
@@ -127,6 +163,12 @@
       "target": "herz-kreislauf",
       "confidence": 0.9,
       "source": "pmid:30415629"
+    },
+    {
+      "subject": "studie-30415637",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:30415637"
     },
     {
       "subject": "studie-30611908",
@@ -147,10 +189,34 @@
       "source": "pmid:31728244"
     },
     {
+      "subject": "studie-31728244",
+      "target": "stress",
+      "confidence": 0.9,
+      "source": "pmid:31728244"
+    },
+    {
       "subject": "studie-31980092",
       "target": "herz-kreislauf",
       "confidence": 0.9,
       "source": "pmid:31980092"
+    },
+    {
+      "subject": "studie-32114706",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:32114706"
+    },
+    {
+      "subject": "studie-32114706",
+      "target": "blutdruck",
+      "confidence": 0.9,
+      "source": "pmid:32114706"
+    },
+    {
+      "subject": "studie-33190147",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:33190147"
     },
     {
       "subject": "studie-33260549",
@@ -177,8 +243,20 @@
       "source": "pmid:33387437"
     },
     {
+      "subject": "studie-34586711",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:34586711"
+    },
+    {
       "subject": "studie-41641401",
       "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:41641401"
+    },
+    {
+      "subject": "studie-41641401",
+      "target": "herz-kreislauf",
       "confidence": 0.9,
       "source": "pmid:41641401"
     },

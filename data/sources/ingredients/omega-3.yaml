@@ -34,21 +34,21 @@ key_studies:
         RCT (n=8.179): Hochdosiertes EPA 4 g/Tag reduzierte schwere kardiovaskuläre Ereignisse um 25% vs. Placebo bei Patienten mit erhöhten Triglyzeriden und Statin-Therapie.
       en: >-
         RCT (n=8,179): High-dose EPA 4 g/day reduced major cardiovascular events by 25% vs. placebo in patients with elevated triglycerides on statin therapy.
-  - ref: pmid-31537771
+  - ref: pmid-30415637
     targets: [herz-kreislauf]
     finding:
       de: >-
         RCT (n=25.871): Omega-3 1 g/Tag ohne signifikante Reduktion kardiovaskulärer Ereignisse in der Primärprävention, aber weniger Myokardinfarkte (–28%).
       en: >-
         RCT (n=25,871): Omega-3 1 g/day showed no significant reduction in overall cardiovascular events in primary prevention, but myocardial infarctions fell by 28%.
-  - ref: pmid-33387437
+  - ref: pmid-32114706
     targets: [herz-kreislauf, blutdruck]
     finding:
       de: >-
         Metaanalyse von 40 RCTs: Omega-3 senkt Triglyzeride zuverlässig um 25–30%; kardiovaskulärer Nutzen dosisabhängig und am stärksten bei mehr als 1 g/Tag EPA+DHA.
       en: >-
         Meta-analysis of 40 RCTs: omega-3 reliably reduces triglycerides by 25–30%; cardiovascular benefit is dose-dependent and strongest above 1 g/day EPA+DHA.
-  - ref: pmid-31980092
+  - ref: pmid-33190147
     targets: [herz-kreislauf]
     finding:
       de: >-
@@ -56,7 +56,7 @@ key_studies:
       en: >-
         RCT (n=13,078): High-dose EPA+DHA (4 g/day) showed no significant reduction in major CV events vs. control oil. Controversy persists about differing placebo oils compared with REDUCE-IT.
   - ref: pmid-42277453
-    targets: [herz-kreislauf, blutdruck]
+    targets: [herz-kreislauf]
     finding:
       de: >-
         Netzwerk-Meta-Analyse: Vergleich von Nutraceuticals auf Endothelfunktion (FMD) bei CVD/Hypertonie. Omega-3 verbesserte FMD signifikant (MD: 1,83), lag aber deutlich hinter Magnesium (MD: 8,17; hohe Evidenzqualität), Vitamin D3 (MD: 7,84; hoch) und Leinsamen (MD: 7,39; niedrig). Omega-3 erhielt nur sehr niedrige Evidenzqualität (CoE: Very low). Zeigt: Omega-3 wirkt auf Gefäßfunktion, ist aber nicht die stärkste Option.
@@ -269,17 +269,17 @@ relations:
     confidence: 0.9
     source: "pmid:30415628"
   - relation: basiert_auf_studie
-    target: studie-31537771
+    target: studie-30415637
     direction: outgoing
     confidence: 0.9
     source: "pmid:31537771"
   - relation: basiert_auf_studie
-    target: studie-33387437
+    target: studie-32114706
     direction: outgoing
     confidence: 0.9
     source: "pmid:33387437"
   - relation: basiert_auf_studie
-    target: studie-31980092
+    target: studie-33190147
     direction: outgoing
     confidence: 0.9
     source: "pmid:31980092"

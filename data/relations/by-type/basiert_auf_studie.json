@@ -518,13 +518,13 @@
     },
     {
       "subject": "curcumin",
-      "target": "studie-28925728",
+      "target": "studie-29065496",
       "confidence": 0.9,
       "source": "pmid:28925728"
     },
     {
       "subject": "curcumin",
-      "target": "studie-26975974",
+      "target": "studie-34586711",
       "confidence": 0.9,
       "source": "pmid:26975974"
     },
@@ -1340,7 +1340,7 @@
     },
     {
       "subject": "magnesium",
-      "target": "studie-15189112",
+      "target": "studie-15223977",
       "confidence": 0.9,
       "source": "pmid:15189112"
     },
@@ -1352,7 +1352,7 @@
     },
     {
       "subject": "magnesium",
-      "target": "studie-26837598",
+      "target": "studie-27402922",
       "confidence": 0.9,
       "source": "pmid:26837598"
     },
@@ -1568,19 +1568,19 @@
     },
     {
       "subject": "omega-3",
-      "target": "studie-31537771",
+      "target": "studie-30415637",
       "confidence": 0.9,
       "source": "pmid:31537771"
     },
     {
       "subject": "omega-3",
-      "target": "studie-33387437",
+      "target": "studie-32114706",
       "confidence": 0.9,
       "source": "pmid:33387437"
     },
     {
       "subject": "omega-3",
-      "target": "studie-31980092",
+      "target": "studie-33190147",
       "confidence": 0.9,
       "source": "pmid:31980092"
     },
@@ -2392,7 +2392,7 @@
     },
     {
       "subject": "vitamin-d3",
-      "target": "studie-30611908",
+      "target": "studie-30293909",
       "confidence": 0.9,
       "source": "pmid:30611908"
     },

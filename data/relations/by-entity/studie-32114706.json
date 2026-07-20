@@ -1,0 +1,21 @@
+{
+  "entity": "studie-32114706",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32114706",
+      "evidence_level": "human_observational"
+    },
+    {
+      "relation": "untersucht",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:32114706",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

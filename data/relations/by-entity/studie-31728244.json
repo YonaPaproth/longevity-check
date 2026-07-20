@@ -15,6 +15,14 @@
       "confidence": 0.9,
       "source": "pmid:31728244",
       "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31728244",
+      "evidence_level": "expert_review"
     }
   ]
 }

@@ -28,14 +28,14 @@ efsa_notes:
     EFSA has approved no health claims for curcumin. Turmeric extracts may be sold as dietary supplements in the EU, but specific efficacy claims (e.g., "anti-inflammatory") are prohibited without regulatory approval.
 
 key_studies:
-  - ref: pmid-28925728
+  - ref: pmid-29065496
     targets: [entzuendung]
     finding:
       de: >-
         Umfassender Review: Curcumin zeigt antientzündliche und antioxidative Effekte in RCTs, aber schlechte orale Bioverfügbarkeit ist kritischer limitierender Faktor bei Standardformulierungen.
       en: >-
         Comprehensive review: Curcumin exhibits anti-inflammatory and antioxidant effects in RCTs, but poor oral bioavailability is the critical limiting factor for standard formulations.
-  - ref: pmid-26975974
+  - ref: pmid-34586711
     targets: [entzuendung]
     finding:
       de: >-
@@ -350,12 +350,12 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-28925728
+    target: studie-29065496
     direction: outgoing
     confidence: 0.9
     source: "pmid:28925728"
   - relation: basiert_auf_studie
-    target: studie-26975974
+    target: studie-34586711
     direction: outgoing
     confidence: 0.9
     source: "pmid:26975974"

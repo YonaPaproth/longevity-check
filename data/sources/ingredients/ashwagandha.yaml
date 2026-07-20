@@ -35,7 +35,7 @@ key_studies:
       en: >-
         RCT, n=64, 300 mg KSM-66 twice daily, 60 days: serum cortisol –27.9%, Perceived Stress Scale significantly improved, anxiety scores reduced vs. placebo. Methodologically sound.
   - ref: pmid-31728244
-    targets: [schlaf]
+    targets: [schlaf, stress]
     finding:
       de: >-
         RCT, n=60, 300 mg 2× täglich, 10 Wochen: Schlafqualität (PSQI-Score) signifikant verbessert, Schlaflatenz –22 min vs. Placebo, Angst-Score reduziert.
