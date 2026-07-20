@@ -83,6 +83,7 @@ interface KeyStudyInline {
 /** Ref-based study pointing to registry (new format) */
 interface KeyStudyRef {
   ref: string;
+  targets?: string[];  // Symptom/mechanism slugs this study addresses
   finding: LocalisedString;
 }
 
@@ -441,6 +442,48 @@ function generateStudyEntities(): number {
   return count;
 }
 
+// ── Study target relations (untersucht) ──────────────────────────────────────
+
+/** Generate study → symptom/mechanism relations from key_studies[].targets */
+function generateStudyTargetRelations(source: IngredientSource): void {
+  for (const study of source.key_studies) {
+    if (!('ref' in study) || !study.targets || study.targets.length === 0) continue;
+
+    const meta = studyRegistry.get(study.ref);
+    if (!meta) continue;
+
+    const studieId = `studie-${meta.pmid}`;
+    const relPath = join(OUT_RELATIONS, `${studieId}.json`);
+
+    // Read existing relations or create new
+    let existing: { entity: string; relations: Array<Record<string, unknown>> };
+    if (existsSync(relPath)) {
+      existing = JSON.parse(readFileSync(relPath, 'utf-8'));
+    } else {
+      existing = { entity: studieId, relations: [] };
+    }
+
+    // Add untersucht relations for each target
+    for (const target of study.targets) {
+      const alreadyExists = existing.relations.some(
+        r => r.relation === 'untersucht' && r.target === target
+      );
+      if (!alreadyExists) {
+        existing.relations.push({
+          relation: 'untersucht',
+          target,
+          direction: 'outgoing',
+          confidence: 0.9,
+          source: `pmid:${meta.pmid}`,
+          evidence_level: STUDY_TYPE_TO_EVIDENCE[meta.study_type ?? ''] ?? 'expert_review',
+        });
+      }
+    }
+
+    writeFileSync(relPath, JSON.stringify(existing, null, 2) + '\n');
+  }
+}
+
 // ── Process one source file ───────────────────────────────────────────────────
 
 function processSource(slug: string): void {
@@ -479,6 +522,9 @@ function processSource(slug: string): void {
   const relOut = join(OUT_RELATIONS, `${slug}.json`);
   writeFileSync(relOut, JSON.stringify(relations, null, 2) + '\n');
   console.log(`  ✓ KG relations → ${relOut.replace(ROOT + '/', '')}`);
+
+  // Study → symptom target relations
+  generateStudyTargetRelations(s);
 }
 
 // ── Changed file detection ───────────────────────────────────────────────────

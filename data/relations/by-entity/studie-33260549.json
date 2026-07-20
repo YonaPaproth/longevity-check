@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:33260549",
       "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33260549",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33260549",
+      "evidence_level": "expert_review"
     }
   ]
 }

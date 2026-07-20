@@ -1,0 +1,54 @@
+{
+  "type": "untersucht",
+  "count": 8,
+  "relations": [
+    {
+      "subject": "studie-15189112",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:15189112"
+    },
+    {
+      "subject": "studie-20152124",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:20152124"
+    },
+    {
+      "subject": "studie-23853635",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:23853635"
+    },
+    {
+      "subject": "studie-26837598",
+      "target": "blutdruck",
+      "confidence": 0.9,
+      "source": "pmid:26837598"
+    },
+    {
+      "subject": "studie-26837598",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:26837598"
+    },
+    {
+      "subject": "studie-33260549",
+      "target": "stress",
+      "confidence": 0.9,
+      "source": "pmid:33260549"
+    },
+    {
+      "subject": "studie-33260549",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:33260549"
+    },
+    {
+      "subject": "studie-41641401",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:41641401"
+    }
+  ]
+}
