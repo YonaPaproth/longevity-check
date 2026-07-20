@@ -8,6 +8,14 @@
       "confidence": 0.9,
       "source": "pmid:28925728",
       "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28925728",
+      "evidence_level": "expert_review"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "type": "untersucht",
-  "count": 24,
+  "count": 33,
   "relations": [
     {
       "subject": "studie-15189112",
@@ -21,6 +21,18 @@
       "source": "pmid:20152124"
     },
     {
+      "subject": "studie-22407780",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:22407780"
+    },
+    {
+      "subject": "studie-22407780",
+      "target": "gelenke",
+      "confidence": 0.9,
+      "source": "pmid:22407780"
+    },
+    {
       "subject": "studie-22762317",
       "target": "knochen",
       "confidence": 0.9,
@@ -37,6 +49,30 @@
       "target": "schlaf",
       "confidence": 0.9,
       "source": "pmid:23853635"
+    },
+    {
+      "subject": "studie-26007572",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:26007572"
+    },
+    {
+      "subject": "studie-26007572",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:26007572"
+    },
+    {
+      "subject": "studie-26528921",
+      "target": "gelenke",
+      "confidence": 0.9,
+      "source": "pmid:26528921"
+    },
+    {
+      "subject": "studie-26528921",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:26528921"
     },
     {
       "subject": "studie-26609282",
@@ -57,6 +93,12 @@
       "source": "pmid:26837598"
     },
     {
+      "subject": "studie-26975974",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:26975974"
+    },
+    {
       "subject": "studie-28202713",
       "target": "immunsystem",
       "confidence": 0.9,
@@ -67,6 +109,12 @@
       "target": "kognition",
       "confidence": 0.9,
       "source": "pmid:28471731"
+    },
+    {
+      "subject": "studie-28925728",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:28925728"
     },
     {
       "subject": "studie-30415628",
@@ -133,6 +181,12 @@
       "target": "blutzucker",
       "confidence": 0.9,
       "source": "pmid:41641401"
+    },
+    {
+      "subject": "studie-42247029",
+      "target": "prostata",
+      "confidence": 0.9,
+      "source": "pmid:42247029"
     },
     {
       "subject": "studie-42277453",

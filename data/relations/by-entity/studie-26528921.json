@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:26528921",
       "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "gelenke",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26528921",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "schmerz",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26528921",
+      "evidence_level": "expert_review"
     }
   ]
 }

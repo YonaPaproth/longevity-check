@@ -8,6 +8,14 @@
       "confidence": 0.9,
       "source": "pmid:42247029",
       "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "prostata",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42247029",
+      "evidence_level": "meta_analysis"
     }
   ]
 }
