@@ -26,7 +26,7 @@ efsa_notes:
     In the EU, health claims for vitamin B6 are approved for immune system, nervous function, homocysteine metabolism, energy metabolism, and fatigue. At the same time, B6 is considered a vitamin where high long-term doses can be problematic.
 
 key_studies:
-  - ref: pmid-34469291
+  - ref: pmid-33912895
     finding:
       de: >-
         Review: Chronisch hohe Pyridoxin-Dosen können sensorische Neuropathien verursachen. Sicherheit ist stark dosis- und dauerabhängig.
@@ -38,7 +38,7 @@ key_studies:
         Übersicht zu Bedarf, Mangel, Anwendungen und Risiken. B6 ist essenziell, aber Supplemente sind nicht automatisch besser als ausreichende Ernährung.
       en: >-
         Overview of requirements, deficiency, applications, and risks. B6 is essential, but supplements are not automatically better than adequate nutrition.
-  - ref: pmid-30286045
+  - ref: pmid-24365359
     finding:
       de: >-
         Review: B6 ist an über 100 enzymatischen Reaktionen beteiligt. Klinische Relevanz besonders bei Mangel, Schwangerschaftsübelkeit und bestimmten Stoffwechselsituationen.
@@ -213,12 +213,12 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-34469291
+    target: studie-33912895
     direction: outgoing
     confidence: 0.9
-    source: "pmid:34469291"
+    source: "pmid:33912895"
   - relation: basiert_auf_studie
-    target: studie-30286045
+    target: studie-24365359
     direction: outgoing
     confidence: 0.9
-    source: "pmid:30286045"
+    source: "pmid:24365359"

@@ -37,7 +37,7 @@ key_studies:
         Review zu Biochemie, Bedarf und Mangelsymptomen von Riboflavin. B2 ist für Redoxreaktionen und Energiegewinnung essenziell.
       en: >-
         Review of riboflavin biochemistry, physiological requirements, and deficiency symptoms. B2 is essential for redox reactions in the electron transport chain and ATP synthesis.
-  - ref: pmid-28273806
+  - ref: pmid-41735095
     finding:
       de: >-
         Review: Auch in Industrieländern kann ein suboptimaler B2-Status vorkommen, jedoch meist ohne dramatische klinische Symptome.
@@ -222,7 +222,7 @@ relations:
     confidence: 0.9
     source: "pmid:12791609"
   - relation: basiert_auf_studie
-    target: studie-28273806
+    target: studie-41735095
     direction: outgoing
     confidence: 0.9
-    source: "pmid:28273806"
+    source: "pmid:41735095"

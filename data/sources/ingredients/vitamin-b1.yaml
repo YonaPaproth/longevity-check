@@ -25,7 +25,7 @@ efsa_notes:
     In the EU, approved health claims for thiamine cover energy metabolism, heart function, psychological function, and nervous system support. These claims address normal physiological function, not enhancement beyond baseline status.
 
 key_studies:
-  - ref: pmid-30295520
+  - ref: pmid-33939178
     finding:
       de: >-
         Review: Thiaminmangel ist klinisch relevant und oft unterdiagnostiziert. Besonders gefährdet sind Menschen mit Alkoholmissbrauch, Mangelernährung oder war mit höheren Werten verbundenem metabolischem Bedarf.
@@ -155,10 +155,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-30295520
+    target: studie-33939178
     direction: outgoing
     confidence: 0.9
-    source: "pmid:30295520"
+    source: "pmid:33939178"
   - relation: basiert_auf_studie
     target: studie-22489203
     direction: outgoing
