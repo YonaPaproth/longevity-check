@@ -27,12 +27,6 @@ efsa_notes:
     No approved health claims. Carrageenan (E407) is approved as a food additive but not as a health product.
 
 key_studies:
-  - ref: pmid-30885434
-    finding:
-      de: >-
-        Review: Degradiertes Carrageen (Poligeenan) hat entzündungsfördernde Eigenschaften in Tiermodellen. Food-Grade Carrageen gilt als sicher, aber die Debatte ist nicht abgeschlossen.
-      en: >-
-        Review: Degraded carrageenan (poligeenan) has pro-inflammatory properties in animal models. Food-grade carrageenan is considered safe, but debate continues.
   - ref: pmid-31527518
     finding:
       de: >-

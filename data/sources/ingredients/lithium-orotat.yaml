@@ -25,12 +25,6 @@ efsa_notes:
     Lithium oroate has no approved health claims in the EU. Its classification as a supplement is regulatory sensitive because lithium is pharmacologically active and remains closely linked to pharmaceutical applications.
 
 key_studies:
-  - ref: pmid-28147231
-    finding:
-      de: >-
-        Lithium als Arzneistoff ist gut untersucht, aber diese Evidenz lässt sich nicht sauber auf frei verkäufliches Lithium-Orotat übertragen.
-      en: >-
-        Lithium as a pharmaceutical is well studied, but this evidence does not cleanly translate to over-the-counter lithium oroate.
   - ref: pmid-30748078
     finding:
       de: >-
@@ -170,17 +164,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-28147231
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:28147231"
-  - relation: basiert_auf_studie
     target: studie-30748078
     direction: outgoing
     confidence: 0.9
     source: "pmid:24813272"
-  - relation: basiert_auf_studie
-    target: studie-18072817
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:18072817"

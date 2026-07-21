@@ -129,13 +129,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-29988130",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:29988130"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-30616998",
       "direction": "outgoing",
       "confidence": 0.9,
@@ -147,21 +140,6 @@
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:32233013"
-    },
-    {
-      "relation": "basiert_auf_studie",
-      "target": "studie-19402938",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:19402938",
-      "evidence_level": "human_rct"
-    },
-    {
-      "relation": "basiert_auf_studie",
-      "target": "studie-27405231",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:27405231"
     },
     {
       "relation": "basiert_auf_studie",

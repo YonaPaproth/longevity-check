@@ -25,18 +25,6 @@ efsa_notes:
     The EFSA has not approved health claims for Baicalin regarding inflammation, brain health, or longevity.
 
 key_studies:
-  - ref: pmid-28111354
-    finding:
-      de: >-
-        Review: präklinisch interessante Breite, aber wenige belastbare Human-Daten.
-      en: >-
-        Review: Preclinically interesting breadth of mechanisms, but few robust human clinical data."
-  - ref: pmid-19375465
-    finding:
-      de: >-
-        Biologisch relevant, klinisch aber noch kein starker Supplement-Fall.
-      en: >-
-        Biologically plausible, but clinically not yet a compelling case for supplemental use in humans."
   - ref: pmid-27094574
     finding:
       de: >-
@@ -119,18 +107,3 @@ relations:
     target: efsa-nicht-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-28111354
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:28111354"
-  - relation: basiert_auf_studie
-    target: studie-19375465
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:19375465"
-  - relation: basiert_auf_studie
-    target: studie-27094574
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:27094574"

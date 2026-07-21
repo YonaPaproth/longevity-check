@@ -38,18 +38,6 @@ key_studies:
         RCT (n=218, 65+): Niedrigdosis-Everolimus (mTOR-Inhibitor wie Rapamycin) über 6 Wochen verbesserte die Immunantwort auf Grippeimpfung um ~20 %. Erste Humanstudie, die zeigt, dass mTOR-Hemmung altersbedingte Immunschwäche teilweise umkehren kann.
       en: >-
         RCT (n=218, age 65+): low-dose everolimus (mTOR inhibitor like rapamycin) for 6 weeks improved influenza vaccine response by ~20%. First human trial showing mTOR inhibition can partially reverse age-related immune decline.
-  - ref: pmid-36789432
-    finding:
-      de: >-
-        RCT (n=40, 55–85 Jahre): 5 mg Rapamycin wöchentlich über 8 Wochen war sicher und gut verträglich. Keine schweren Nebenwirkungen, keine Immunsuppression bei wöchentlicher Dosierung. Wichtiger Safety-Datenpunkt für den Off-Label-Einsatz.
-      en: >-
-        RCT (n=40, age 55–85): 5 mg rapamycin weekly for 8 weeks was safe and well tolerated. No serious adverse events, no immunosuppression at weekly dosing. Important safety data point for off-label longevity use.
-  - ref: pmid-31346894
-    finding:
-      de: >-
-        Meta-Analyse: Rapamycin/Sirolimus-Stents zeigten in kardiologischen RCTs Lipidstörungen (Hyperlipidämie, erhöhte Triglyceride) als konsistenteste Nebenwirkung. Klinisch relevant bei Langzeitanwendung.
-      en: >-
-        Meta-analysis: rapamycin/sirolimus-eluting stents in cardiology RCTs showed lipid disturbances (hyperlipidemia, elevated triglycerides) as the most consistent side effect. Clinically relevant for long-term use.
   - ref: pmid-31316753
     finding:
       de: >-
@@ -243,16 +231,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:25540326"
-  - relation: basiert_auf_studie
-    target: studie-36789432
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:36789432"
-  - relation: basiert_auf_studie
-    target: studie-31346894
-    direction: outgoing
-    confidence: 0.8
-    source: "pmid:31346894"
   - relation: basiert_auf_studie
     target: studie-31316753
     direction: outgoing

@@ -30,12 +30,6 @@ key_studies:
         RCT (n=11): 3 g Glycin vor dem Schlafen war mit Veränderungen verbundene Schlafqualität, Tagesmüdigkeit und kognitive Funktion am nächsten Morgen.
       en: >-
         RCT (n=11): 3 g glycine before sleep was associated with improvements in sleep quality, daytime fatigue, and next-morning cognitive function (polysomnography-confirmed).
-  - ref: pmid-35975308
-    finding:
-      de: >-
-        Follow-up RCT: GlyNAC war mit Veränderungen verbundene 8/9 gemessene Hallmarks of Alterung (Oxidation, Entzündung, Mitochondrien, Körperzusammensetzung, Kraft, Gehgeschwindigkeit).
-      en: >-
-        Follow-up RCT: GlyNAC was associated with improvements in 8 of 9 measured hallmarks of aging, including oxidative stress, inflammation, mitochondrial function, body composition, muscle strength, and gait speed.
   - ref: pmid-28759885
     finding:
       de: >-
@@ -255,13 +249,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:33587619"
-  - relation: basiert_auf_studie
-    target: studie-35975308
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:35975308"
-  - relation: basiert_auf_studie
-    target: studie-28759885
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:28759885"

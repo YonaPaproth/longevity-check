@@ -179,20 +179,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-23992536",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:23992536"
-    },
-    {
-      "relation": "basiert_auf_studie",
-      "target": "studie-20562218",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:20562218"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-40411697",
       "direction": "outgoing",
       "confidence": 0.9,

@@ -45,12 +45,6 @@ key_studies:
         Review: Glutathion ist zentral für Redox-Homöostase, Entgiftung und Immunfunktion. Aus der biologischen Zentralität folgt jedoch nicht automatisch ein Nutzen von oralem GSH.
       en: >-
         Review: glutathione is central to redox homeostasis, detoxification, and immune function. However, its biological centrality does not automatically imply a benefit from oral GSH supplementation.
-  - ref: pmid-24494129
-    finding:
-      de: >-
-        Breite Übersicht mit potenziellen Anwendungen (Parkinson, Atherosklerose, Lunge). Beleglage sehr heterogen — manche Anwendungen sind gut untersucht (IV-GSH), orale Supplementierung schwächer.
-      en: >-
-        Broad review of potential applications (Parkinson's, atherosclerosis, lung). Evidence base is highly heterogeneous — some applications are well studied (IV-GSH), while the case for oral supplementation is weaker.
   - ref: pmid-28853742
     finding:
       de: >-
@@ -311,11 +305,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:14988435"
-  - relation: basiert_auf_studie
-    target: studie-24494129
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:24494129"
   - relation: basiert_auf_studie
     target: studie-28853742
     direction: outgoing

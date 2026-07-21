@@ -73,14 +73,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-34741443",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:34741443",
-      "evidence_level": "expert_review"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-35268089",
       "direction": "outgoing",
       "confidence": 0.9,

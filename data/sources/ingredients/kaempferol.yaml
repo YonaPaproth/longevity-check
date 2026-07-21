@@ -24,18 +24,6 @@ efsa_notes:
     No approved health claims exist in the EU for kaempferol regarding antioxidant, vascular, or aging-related effects.
 
 key_studies:
-  - ref: pmid-21127935
-    finding:
-      de: >-
-        Review: starke präklinische Breite, aber wenig belastbare Humanstudien.
-      en: >-
-        Review: broad preclinical pharmacology, but limited robust human evidence.
-  - ref: pmid-12716668
-    finding:
-      de: >-
-        Ernährungsbezogen interessant, als isoliertes Supplement aber wenig klar.
-      en: >-
-        Interesting from a dietary perspective, but unclear as an isolated supplement.
   - ref: pmid-20018833
     finding:
       de: >-
@@ -142,18 +130,3 @@ relations:
     target: efsa-nicht-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-21127935
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:21127935"
-  - relation: basiert_auf_studie
-    target: studie-12716668
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:12716668"
-  - relation: basiert_auf_studie
-    target: studie-20018833
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:20018833"

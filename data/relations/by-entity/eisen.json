@@ -171,14 +171,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-27880062",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:27880062",
-      "evidence_level": "meta_analysis"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-42163863",
       "direction": "outgoing",
       "confidence": 0.9,

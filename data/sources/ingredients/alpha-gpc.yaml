@@ -31,12 +31,6 @@ key_studies:
         Ältere klinische Daten deuten auf kognitive Vorteile in bestimmten Populationen hin, aber die Evidenz ist nicht modern und nicht sehr breit repliziert.
       en: >-
         Older clinical data suggest cognitive benefits in specific populations, but evidence is dated and not widely replicated in modern studies.
-  - ref: pmid-18461736
-    finding:
-      de: >-
-        Kleine Studie mit Hinweisen auf Leistungs-Effekte. Aussagekraft begrenzt.
-      en: >-
-        Small study (n=13) suggesting athletic performance benefits, but limited power and design."
   - ref: pmid-36683513
     finding:
       de: >-
@@ -150,11 +144,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:40126282"
-  - relation: basiert_auf_studie
-    target: studie-18461736
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:18461736"
   - relation: basiert_auf_studie
     target: studie-36683513
     direction: outgoing

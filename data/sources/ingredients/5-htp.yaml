@@ -32,12 +32,6 @@ key_studies:
         Review: 5-HTP überquert Blut-Hirn-Schranke effizient und erhöht die zentrale Serotoninsynthese. Klinische Studien zeigen antidepressive Wirkung vergleichbar mit Fluvoxamin in einem RCT.
       en: >-
         Review: 5-HTP crosses the blood-brain barrier efficiently and increases central nervous system serotonin synthesis. Clinical studies show antidepressive efficacy comparable to fluoxamine in one RCT.
-  - ref: pmid-9727088
-    finding:
-      de: >-
-        Review klinischer Daten: 5-HTP untersucht bei depressive Symptome, Schlaf-Problemen, Fibromyalgie und Adipositas in RCTs. Klare Warnung: nicht mit MAO-Hemmern oder SSRIs kombinieren (Serotonin-Syndrom-Risiko).
-      en: >-
-        Review of clinical data: 5-HTP studied for depression symptoms, sleep problems, fibromyalgia, and obesity in RCTs. Clear warning: do not combine with MAO inhibitors or SSRIs due to serotonin syndrome risk.
   - ref: pmid-4105646
     finding:
       de: >-
@@ -308,17 +302,7 @@ relations:
     confidence: 0.9
     source: "pmid:16023217"
   - relation: basiert_auf_studie
-    target: studie-9727088
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:9727088"
-  - relation: basiert_auf_studie
     target: studie-4105646
     direction: outgoing
     confidence: 0.9
     source: "pmid:4105646"
-  - relation: basiert_auf_studie
-    target: studie-28077136
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:28077136"

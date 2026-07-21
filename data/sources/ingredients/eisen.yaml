@@ -27,12 +27,6 @@ efsa_notes:
     EFSA-approved health claims under Regulation (EC) 1924/2006: Iron contributes to normal cognitive function, normal energy metabolism, normal formation of red blood cells and haemoglobin, normal oxygen transport, normal immune system function, and the reduction of tiredness and fatigue. All claims refer to adequate intake correcting a deficiency — not to prophylactic high-dose supplementation.
 
 key_studies:
-  - ref: pmid-27880062
-    finding:
-      de: >-
-        Systematischer Review: Vegetarier haben im Vergleich zu Omnivoren signifikant niedrigere Ferritin-Spiegel (Mittelwert ~20 vs. ~35 µg/L bei Frauen). Eisenmangel-Prävalenz bei vegetarischen Frauen bis zu 40 %, bei Omnivoren ~20 %. Gleichzeitig erhöhte Eisenabsorption als Kompensation beobachtet.
-      en: >-
-        Systematic review: vegetarians had significantly lower ferritin levels than omnivores (mean ~20 vs. ~35 µg/L in women). Iron deficiency prevalence in vegetarian women reached up to 40%, vs. ~20% in omnivores. The body partially compensated through upregulated absorption rates.
   - ref: pmid-42163863
     finding:
       de: >-
@@ -497,11 +491,6 @@ relations:
     target: fertilitat
     direction: outgoing
     confidence: 0.6
-  - relation: basiert_auf_studie
-    target: studie-27880062
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:27880062"
   - relation: basiert_auf_studie
     target: studie-42163863
     direction: outgoing

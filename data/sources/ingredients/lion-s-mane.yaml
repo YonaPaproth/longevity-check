@@ -27,24 +27,6 @@ efsa_notes:
     No EFSA-approved health claims exist for Hericium erinaceus. In the EU, it is marketed as a food supplement (mushroom extract) without novel food requirements, as it is a traditionally consumed edible mushroom. Claims relating to neuroprotection, NGF stimulation, or cognitive enhancement are not permitted under EU regulations.
 
 key_studies:
-  - ref: pmid-30093983
-    finding:
-      de: >-
-        RCT, n=49 Patienten mit MCI (Mild Cognitive Impairment), 50–80 Jahre: 3 g/Tag Hericium-Fruchtkörperpulver vs. Placebo, 16 Wochen. MMSE- und Cognitive Function Scale-Scores: signifikante Verbesserung in der Verum-Gruppe vs. Placebo (p&lt;0,05). 4 Wochen nach Studienende: Rückgang der kognitiven Werte in der Verum-Gruppe — Effekt nicht dauerhaft ohne Supplementierung.
-      en: >-
-        RCT, n=49 patients with MCI (Mild Cognitive Impairment), aged 50–80: 3 g/day Hericium fruiting body powder vs. placebo, 16 weeks. MMSE and Cognitive Function Scale scores improved significantly in the treatment group vs. placebo (p&lt;0.05). Four weeks after study end, cognitive scores in the treatment group returned toward baseline — the effect does not persist without continued supplementation.
-  - ref: pmid-31413233
-    finding:
-      de: >-
-        Präklinische Studie: Hericenon E und Erinacine A stimulierten in primären Neuronen-Kulturen die NGF-mRNA-Expression signifikant (+250–400 % vs. Kontrolle). Erinacine C zeigte stärksten Effekt. Wichtig: Erinacine sind hauptsächlich im Myzel enthalten, Hericenone im Fruchtkörper — beide Fraktionen für optimale Wirkung relevant.
-      en: >-
-        Preclinical study: Hericenone E and Erinacine A significantly stimulated NGF mRNA expression in primary neuron cultures (+250–400% vs. control). Erinacine C showed the strongest effect among compounds tested. Notably, erinacines are concentrated in the mycelium while hericenones are found in the fruiting body — both fractions are relevant for optimal bioactivity.
-  - ref: pmid-32731006
-    finding:
-      de: >-
-        Systematischer Review (23 Studien, davon 5 Humanstudien): Konsistente präklinische Evidenz für NGF-Stimulation, Neuroprotektoin und kognitive Effekte. Humanstudien zeigen positive Signale bei MCI, Depressivität und Magen-Darm-Mukosa. Kritik: Kleine Stichprobengrößen (n=30–77), fehlende Dosisoptimierung und Standardisierung der Extrakte limitieren Schlussfolgerungen.
-      en: >-
-        Systematic review (23 studies, 5 human trials): consistent preclinical evidence for NGF stimulation, neuroprotection, and cognitive effects. Human trials show positive signals in MCI, depressive symptoms, and gastrointestinal mucosa. Limitations: small sample sizes (n=30–77), lack of dose optimization, and poor extract standardization constrain conclusions.
   - ref: pmid-40959699
     finding:
       de: >-
@@ -424,21 +406,6 @@ relations:
     target: efsa-nicht-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-30093983
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:30093983"
-  - relation: basiert_auf_studie
-    target: studie-31413233
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:31413233"
-  - relation: basiert_auf_studie
-    target: studie-32731006
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:32731006"
   - relation: basiert_auf_studie
     target: studie-40959699
     direction: outgoing

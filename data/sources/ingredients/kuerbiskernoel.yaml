@@ -25,18 +25,6 @@ efsa_notes:
     No approved health claims for pumpkin seed oil in the EU.
 
 key_studies:
-  - ref: pmid-25196580
-    finding:
-      de: >-
-        RCT (n=1431): Kürbiskernöl verbesserte IPSS-Score signifikant vs. Placebo nach 12 Monaten bei milder BPH.
-      en: >-
-        RCT (n=1431): Pumpkin seed oil significantly improved IPSS score vs. placebo after 12 months in mild BPH.
-  - ref: pmid-24420785
-    finding:
-      de: >-
-        RCT (n=45): Kürbiskernöl reduzierte overactive-bladder-Symptome bei postmenopausalen Frauen nach 12 Wochen.
-      en: >-
-        RCT (n=45): Pumpkin seed oil reduced overactive bladder symptoms in postmenopausal women after 12 weeks.
   - ref: pmid-17004914
     finding:
       de: >-
@@ -106,8 +94,3 @@ relations:
     target: efsa-nicht-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-25196580
-    direction: outgoing
-    confidence: 0.8
-    source: "pmid:25196580"

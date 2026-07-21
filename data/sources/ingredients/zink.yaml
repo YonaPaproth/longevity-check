@@ -32,12 +32,6 @@ key_studies:
         Umfassender Review: Zinkmangel beeinträchtigt T-Zell-Funktion, war mit höheren Werten verbunden oxidativen Stress und Entzündungsmarker. Supplementierung normalisiert Immunfunktion bei Mangel.
       en: >-
         Comprehensive review: zinc deficiency impairs T-cell function, increases oxidative stress and inflammatory markers. Supplementation normalises immune function in deficiency.
-  - ref: pmid-18793724
-    finding:
-      de: >-
-        Meta-Analyse: Zinksupplementierung reduziert Diarrhoe-Inzidenz bei Kindern um 25 %, Pneumonie um 41 %. Zeigt biologische Relevanz der Zinkversorgung.
-      en: >-
-        Meta-analysis: zinc supplementation reduced diarrhoea incidence in children by 25% and pneumonia by 41%. Demonstrates the biological relevance of zinc status.
   - ref: pmid-8875519
     finding:
       de: >-
@@ -230,11 +224,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:31174269"
-  - relation: basiert_auf_studie
-    target: studie-18793724
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:18793724"
   - relation: basiert_auf_studie
     target: studie-8875519
     direction: outgoing

@@ -31,12 +31,6 @@ key_studies:
         Übersicht zu Funktionen, Bedarf und Sicherheit. Mangel ist extrem selten.
       en: >-
         Overview of molybdenum functions, requirements, and safety. Deficiency is extremely rare in free-living populations.
-  - ref: pmid-11911815
-    finding:
-      de: >-
-        Review: Molybdän ist für bestimmte Enzymsysteme essenziell, aber der praktische Supplement-Nutzen bei normaler Ernährung ist gering.
-      en: >-
-        Review: Molybdenum is essential for specific enzyme systems, but practical supplement benefits with a normal diet are minimal.
   - ref: pmid-8906638
     finding:
       de: >-
@@ -132,13 +126,3 @@ relations:
     target: efsa-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-11911815
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:11911815"
-  - relation: basiert_auf_studie
-    target: studie-8906638
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:8906638"

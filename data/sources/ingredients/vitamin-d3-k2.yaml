@@ -27,12 +27,6 @@ efsa_notes:
     EFSA has approved extensive claims for vitamin D: normal immune function, bone, muscle, teeth, and calcium absorption. For vitamin K2 (menaquinone), claims are approved for normal blood clotting and bone maintenance.
 
 key_studies:
-  - ref: pmid-32234639
-    finding:
-      de: >-
-        RCT, n=421, ältere Erwachsene: 60.000 IE Vitamin D/Monat verbesserte Glukosestoffwechsel, Blutdruck und Lebensqualität signifikant vs. Placebo über 3 Jahre.
-      en: >-
-        RCT, n=421, older adults: 60,000 IU vitamin D/month significantly improved glucose metabolism, blood pressure, and quality of life vs. placebo over 3 years.
   - ref: pmid-30415637
     finding:
       de: >-
@@ -276,11 +270,6 @@ relations:
     target: efsa-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-32234639
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:32234639"
   - relation: basiert_auf_studie
     target: studie-31537771
     direction: outgoing

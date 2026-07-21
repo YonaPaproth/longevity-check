@@ -31,18 +31,6 @@ key_studies:
         Meta-Analyse (17 RCTs): Melatonin verkürzte Einschlafzeit signifikant (-7,2 min) und verbesserte die Schlafqualität. Effekte bescheiden, aber konsistent.
       en: >-
         Meta-analysis (17 RCTs): Melatonin significantly reduced sleep onset latency (−7.2 min) and improved sleep quality. Effect sizes were modest but consistent across trials.
-  - ref: pmid-22471152
-    finding:
-      de: >-
-        Review: Melatonin neutralisiert reaktive Sauerstoffspezies direkt und induziert antioxidative Enzyme. Schutz der mitochondrialen DNA vergleichsweise gut untersucht (präklinisch).
-      en: >-
-        Review: Melatonin directly scavenges reactive oxygen species and induces antioxidant enzymes. Protection of mitochondrial DNA is comparatively well-studied in preclinical models.
-  - ref: pmid-29676709
-    finding:
-      de: >-
-        Review: Geringes Melatonin (0,5–1 mg) ist bei Schlafstörungen (besonders ab 55 Jahren) untersuchter als höhere Dosen. Chronobiologischer Effekt, kein sedativer.
-      en: >-
-        Review: Low-dose melatonin (0.5–1 mg) is better studied for sleep disorders — especially in adults over 55 — than higher doses. The effect is chronobiological, not sedative.
   - ref: pmid-23574769
     finding:
       de: >-
@@ -236,18 +224,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:16473858"
-  - relation: basiert_auf_studie
-    target: studie-22471152
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:22471152"
-  - relation: basiert_auf_studie
-    target: studie-29676709
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:29676709"
-  - relation: basiert_auf_studie
-    target: studie-23574769
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:23574769"

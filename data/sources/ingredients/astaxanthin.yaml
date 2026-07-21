@@ -37,18 +37,6 @@ key_studies:
         Review: Astaxanthin hemmt LDL-Oxidation, reduziert Entzündungsmarker. Kleine RCTs zeigen Verbesserung des Lipidprofils und Blutdrucks.
       en: >-
         Review: Astaxanthin inhibits LDL oxidation and reduces inflammatory markers. Small RCTs show improvements in lipid profile and blood pressure.
-  - ref: pmid-22428137
-    finding:
-      de: >-
-        RCT (n=49 Frauen): 6 mg Astaxanthin/Tag über 6 Wochen verbesserte Hautelastizität und -feuchtigkeit signifikant.
-      en: >-
-        RCT (n=49 women): 6 mg astaxanthin/day for 6 weeks significantly improved skin elasticity and moisture compared to placebo.
-  - ref: pmid-20637008
-    finding:
-      de: >-
-        RCT bei Sportlern: Astaxanthin verbesserte Immunmarker nach intensivem Training, reduzierte Oxidationsmarker.
-      en: >-
-        RCT in athletes: Astaxanthin improved immune markers after intensive training and reduced oxidative stress biomarkers compared to placebo.
   - ref: pmid-42467594
     finding:
       de: >-
@@ -239,16 +227,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:21207795"
-  - relation: basiert_auf_studie
-    target: studie-22428137
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:22428137"
-  - relation: basiert_auf_studie
-    target: studie-20637008
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:20637008"
   - relation: basiert_auf_studie
     target: studie-42467594
     direction: outgoing

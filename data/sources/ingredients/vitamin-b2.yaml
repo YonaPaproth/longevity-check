@@ -31,12 +31,6 @@ key_studies:
         RCT: 400 mg Riboflavin pro Tag reduzierten Migräneattacken gegenüber Placebo. Einer der bekanntesten klinischen Einsatzbereiche von hochdosiertem B2.
       en: >-
         RCT (N=55): 400 mg riboflavin daily reduced migraine attack frequency by ~67% versus placebo over 3 months. One of the best-established high-dose B2 clinical applications, though responder rates vary widely (40–60% in replicated studies).
-  - ref: pmid-12791609
-    finding:
-      de: >-
-        Review zu Biochemie, Bedarf und Mangelsymptomen von Riboflavin. B2 ist für Redoxreaktionen und Energiegewinnung essenziell.
-      en: >-
-        Review of riboflavin biochemistry, physiological requirements, and deficiency symptoms. B2 is essential for redox reactions in the electron transport chain and ATP synthesis.
   - ref: pmid-41735095
     finding:
       de: >-
@@ -216,11 +210,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:9484373"
-  - relation: basiert_auf_studie
-    target: studie-12791609
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:12791609"
   - relation: basiert_auf_studie
     target: studie-41735095
     direction: outgoing

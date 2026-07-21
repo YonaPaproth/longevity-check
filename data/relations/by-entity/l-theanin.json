@@ -116,14 +116,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-18681988",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:18681988",
-      "evidence_level": "human_rct"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-18296328",
       "direction": "outgoing",
       "confidence": 0.9,

@@ -33,12 +33,6 @@ key_studies:
         EFSA-Gutachten: Einzeldosen bis 200 mg Koffein gelten bei gesunden Erwachsenen als sicher. 400 mg/Tag aus allen Quellen gilt als Obergrenze für Erwachsene ohne Risiko. Schwangere: max. 200 mg/Tag.
       en: >-
         EFSA safety opinion: single doses up to 200 mg caffeine are considered safe in healthy adults. 400 mg/day from all sources is the recommended upper limit for adults without identified risk. Pregnant women: maximum 200 mg/day.
-  - ref: pmid-32045577
-    finding:
-      de: >-
-        Meta-Analyse (>300 Studien): Koffein verbesserte Ausdauer-, Kraft- und Schnellkraftleistung. Effekte auf Ausdauerleistung waren am konsistentesten (SMD ~0,41).
-      en: >-
-        Meta-analysis (>300 studies): caffeine improved endurance, strength, and power performance. Effects on endurance performance were the most consistent (SMD ~0.41).
   - ref: pmid-42421135
     finding:
       de: >-
@@ -392,11 +386,6 @@ relations:
     target: efsa-nicht-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-32045577
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:32045577"
   - relation: basiert_auf_studie
     target: studie-42421135
     direction: outgoing

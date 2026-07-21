@@ -31,18 +31,6 @@ key_studies:
         Review: Pterostilben hat eine orale Bioverfügbarkeit von ~80 % vs. ~20 % für Resveratrol. Aktiviert SIRT1, AMPK und Nrf2. Längere Halbwertszeit durch Methylgruppen statt Hydroxylgruppen.
       en: >-
         Review: Pterostilbene exhibits ~80% oral bioavailability versus ~20% for resveratrol. Activates SIRT1, AMPK, and Nrf2. Longer half-life due to methyl groups rather than hydroxyl groups.
-  - ref: pmid-23992536
-    finding:
-      de: >-
-        RCT (n=80): 250 mg Pterostilben/Tag war mit niedrigeren Werten verbundene systolischen Blutdruck signifikant. Negative Nebenwirkung: LDL-Erhöhung bei 250 mg (nicht bei 125 mg) – wichtiger Befund.
-      en: >-
-        RCT (n=80): 250 mg pterostilbene daily was associated with significantly lower systolic blood pressure. Important adverse signal: LDL elevation at 250 mg (not at 125 mg).
-  - ref: pmid-20562218
-    finding:
-      de: >-
-        Präklinisch: Pterostilben hemmt Tumorzellwachstum durch Notch-1-Inhibition. Krebspräventive Effekte in Zellkulturen und Tiermodellen vergleichsweise gut untersucht.
-      en: >-
-        Preclinical: Pterostilbene inhibits tumor cell growth via Notch-1 inhibition. Antiproliferative effects in cell cultures and animal models are well characterized.
   - ref: pmid-40411697
     finding:
       de: >-
@@ -269,16 +257,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:28662290"
-  - relation: basiert_auf_studie
-    target: studie-23992536
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:23992536"
-  - relation: basiert_auf_studie
-    target: studie-20562218
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:20562218"
   - relation: basiert_auf_studie
     target: studie-40411697
     direction: outgoing

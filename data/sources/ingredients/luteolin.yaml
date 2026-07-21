@@ -30,12 +30,6 @@ key_studies:
         Review: Luteolin ist mechanistisch spannend, vor allem neuroinflammatorisch.
       en: >-
         Review: Luteolin is mechanistically interesting, particularly for its neuroinflammatory modulation pathways.
-  - ref: pmid-18499654
-    finding:
-      de: >-
-        Präklinisch starke Daten, klinisch deutlich weniger.
-      en: >-
-        Preclinical evidence is robust; clinical evidence in humans is significantly weaker.
   - ref: pmid-20005244
     finding:
       de: >-
@@ -128,13 +122,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:25670000"
-  - relation: basiert_auf_studie
-    target: studie-18499654
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:18499654"
-  - relation: basiert_auf_studie
-    target: studie-20005244
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:20005244"

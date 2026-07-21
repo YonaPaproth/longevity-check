@@ -32,24 +32,6 @@ key_studies:
         Nature Medicine: Urolithin A wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne in C. elegans um ~45 % und war mit Veränderungen verbundene Muskelkraft in alten Ratten. Erstnachweis der Mitophagie-Induktion.
       en: >-
         Nature Medicine: Urolithin A extended lifespan in C. elegans by ~45% and improved muscle strength in aged rodents. First demonstration of mitophagy induction by this metabolite.
-  - ref: pmid-32694659
-    finding:
-      de: >-
-        Erster Humanversuch: 500 mg Urolithin A/Tag war mit Veränderungen verbundene Mitochondrienmarker im Muskelgewebe älterer Erwachsener signifikant. Gut verträglich.
-      en: >-
-        First human trial: 500 mg urolithin A daily was associated with significant improvements in mitochondrial markers in muscle tissue of older adults. Well tolerated.
-  - ref: pmid-35468083
-    finding:
-      de: >-
-        RCT (n=66, Ältere): 1 g Urolithin A/Tag über 4 Monate war mit Veränderungen verbundene Muskelausdauer und Mitochondrien-Biomarker signifikant vs. Placebo.
-      en: >-
-        RCT (n=66, older adults): 1 g urolithin A daily for 4 months was associated with significant improvements in muscle endurance and mitochondrial biomarkers vs. placebo.
-  - ref: pmid-19640941
-    finding:
-      de: >-
-        Nur ~40 % der Menschen haben Darmbakterien, die Ellagsäure effizient zu Urolithin A umwandeln. Supplementierung umgeht dieses Konversionsproblem.
-      en: >-
-        Only ~40% of humans carry gut bacteria that efficiently convert ellagic acid to urolithin A. Direct supplementation bypasses this conversion bottleneck.
   - ref: study-urolithin-a-clinicaltrials-2026
     finding:
       de: >-
@@ -245,18 +227,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:27400265"
-  - relation: basiert_auf_studie
-    target: studie-32694659
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:32694659"
-  - relation: basiert_auf_studie
-    target: studie-35468083
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:35468083"
-  - relation: basiert_auf_studie
-    target: studie-19640941
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:19640941"

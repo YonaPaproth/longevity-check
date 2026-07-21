@@ -38,12 +38,6 @@ key_studies:
         Cochrane-Review (29 RCTs): Regelmäßige Vitamin-C-Einnahme verkürzt Erkältungsdauer um ~8 % (Erwachsene) bis 14 % (Kinder). Verhindert Erkältungen nur bei extremer körperlicher Belastung (Marathonläufer, Soldaten).
       en: >-
         Cochrane review (29 RCTs): regular vitamin C intake shortened cold duration by ~8% (adults) to 14% (children). Prevention of colds was only shown under extreme physical stress (marathon runners, soldiers).
-  - ref: pmid-23675558
-    finding:
-      de: >-
-        Review: Vitamin C ist essenzieller Cofaktor für Prolyl- und Lysylhydroxylasen (Kollagensynthese) und trägt zur Regeneration von Vitamin E bei. Plasma-Spiegel spiegeln Ernährungsqualität wider.
-      en: >-
-        Review: vitamin C is an essential cofactor for prolyl and lysyl hydroxylases (collagen synthesis) and contributes to regeneration of vitamin E. Plasma levels reflect dietary quality.
   - ref: pmid-8644688
     finding:
       de: >-
@@ -251,13 +245,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:23440782"
-  - relation: basiert_auf_studie
-    target: studie-23675558
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:23675558"
-  - relation: basiert_auf_studie
-    target: studie-8644688
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:8644688"

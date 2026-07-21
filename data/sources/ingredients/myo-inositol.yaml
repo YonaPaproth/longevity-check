@@ -26,24 +26,6 @@ efsa_notes:
     No EFSA-authorized health claims exist for myo-inositol. It is freely available as a food supplement in the EU without prescription. Clinical trials are ongoing for metabolic indications. Formerly labelled "Vitamin B8," it is not a true vitamin — the body synthesizes it endogenously from glucose.
 
 key_studies:
-  - ref: pmid-22327358
-    finding:
-      de: >-
-        Meta-Analyse: Myo-Inositol war mit Veränderungen verbundene Ovulationsrate, Menstruationsregularität, FSH/LH-Ratio und Insulinsensitivität bei PCOS signifikant vs. Placebo.
-      en: >-
-        Meta-analysis of RCTs: myo-inositol significantly improved ovulation rate, menstrual regularity, FSH/LH ratio, and insulin sensitivity in women with PCOS versus placebo.
-  - ref: pmid-17952759
-    finding:
-      de: >-
-        RCT (n=92): 4 g Myo-Inositol/Tag reduzierte Nüchternblutzucker, Insulin und Androgenspiegel signifikant. Ovulationsrate war mit Veränderungen verbundene sich von 25 % auf 65 %.
-      en: >-
-        RCT (n=92): 4 g/day myo-inositol significantly reduced fasting blood glucose, fasting insulin, and androgen levels. Ovulation rate improved from 25% at baseline to 65% after treatment.
-  - ref: pmid-8874839
-    finding:
-      de: >-
-        Cross-over RCT: 18 g Inositol/Tag reduzierte OCD-Symptome signifikant – vergleichbar mit SSRIs. Basis für psychische Einsatzbereiche.
-      en: >-
-        Crossover RCT: 18 g inositol/day significantly reduced OCD symptom scores, with effect sizes comparable to SSRIs. Foundational trial for psychiatric applications; not yet replicated at scale.
   - ref: pmid-11386498
     finding:
       de: >-
@@ -227,21 +209,6 @@ relations:
     target: fertilitat
     direction: outgoing
     confidence: 0.8
-  - relation: basiert_auf_studie
-    target: studie-22327358
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:22327358"
-  - relation: basiert_auf_studie
-    target: studie-17952759
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:17952759"
-  - relation: basiert_auf_studie
-    target: studie-8874839
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:8874839"
   - relation: basiert_auf_studie
     target: studie-11386498
     direction: outgoing

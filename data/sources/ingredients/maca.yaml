@@ -25,18 +25,6 @@ efsa_notes:
     The EU has not authorized any health claims for maca regarding libido, hormones, or energy.
 
 key_studies:
-  - ref: pmid-20370918
-    finding:
-      de: >-
-        Positive Signale, aber kleine und methodisch begrenzte Studien.
-      en: >-
-        Positive signals reported, but limited by small sample sizes and methodological weaknesses across trials.
-  - ref: pmid-12472620
-    finding:
-      de: >-
-        Hinweise auf gesteigertes sexuelles Verlangen ohne klare Hormonveränderungen.
-      en: >-
-        Evidence for improved sexual desire without clear changes in circulating hormone levels.
   - ref: pmid-18654924
     finding:
       de: >-
@@ -120,18 +108,3 @@ relations:
     target: fertilitat
     direction: outgoing
     confidence: 0.5
-  - relation: basiert_auf_studie
-    target: studie-20370918
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:20370918"
-  - relation: basiert_auf_studie
-    target: studie-12472620
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:12472620"
-  - relation: basiert_auf_studie
-    target: studie-18654924
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:18654924"

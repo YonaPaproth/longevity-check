@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-21",
-  "total": 438,
-  "with_type": 196,
+  "total": 305,
+  "with_type": 139,
   "with_reviews": 11,
-  "with_ingredients": 386,
+  "with_ingredients": 277,
   "studies": [
     {
       "id": "pmid-41693488",
@@ -230,7 +230,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "alpha-liponsaeure"
+      ],
       "research_reviews": []
     },
     {
@@ -245,7 +247,26 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "beta-glucan"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-41735095",
+      "pmid": "41735095",
+      "title": "Riboflavin Deficiency Is Highly Prevalent in Females and Children across High",
+      "authors": "McAnena et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735095/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "vitamin-b2"
+      ],
       "research_reviews": []
     },
     {
@@ -262,6 +283,40 @@
       "effect_size": "",
       "ingredients": [
         "acetyl-l-carnitin"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-41829896",
+      "pmid": "41829896",
+      "title": "Phenylethanoid Glycosides from Cistanche deserticola Y. C. Ma: Synergistic",
+      "authors": "Liu et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41829896/",
+      "study_type": "Observational Study",
+      "evidence_quality": "moderate",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "cistanche"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-42057671",
+      "pmid": "42057671",
+      "title": "Biologically Active Ingredients and Underlying Mechanisms of Cordyceps in",
+      "authors": "Zhang et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42057671/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "cordyceps"
       ],
       "research_reviews": []
     },
@@ -329,7 +384,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "eisen"
+      ],
       "research_reviews": []
     },
     {
@@ -344,7 +401,26 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "bor"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-42352330",
+      "pmid": "42352330",
+      "title": "Astragalus membranaceus Has Potential Anti-Aging and Anticancer Effects on",
+      "authors": "Abdelrahman et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42352330/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "astragalus"
+      ],
       "research_reviews": []
     },
     {
@@ -374,7 +450,26 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "alpha-gpc"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-40306555",
+      "pmid": "40306555",
+      "title": "Relationship of Choline Intake with Biomarkers of Liver Health by Genotype-A",
+      "authors": "Wallace et al.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40306555/",
+      "study_type": "Comparative Study",
+      "evidence_quality": "moderate",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "cholin"
+      ],
       "research_reviews": []
     },
     {
@@ -389,7 +484,60 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "astaxanthin"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-40411697",
+      "pmid": "40411697",
+      "title": "Pterostilbene as a Multifaceted Anticancer Agent: Molecular Mechanisms, Therapeutic",
+      "authors": "Ali et al.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40411697/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "pterostilben"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-40495903",
+      "pmid": "40495903",
+      "title": "Effects of coenzyme Q10 administration on blood pressure and heart rate in",
+      "authors": "Karimi et al.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40495903/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "coq10"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-40696819",
+      "pmid": "40696819",
+      "title": "Ergothioneine Treatment Ameliorates the Pathological Phenotypes of Parkinson's",
+      "authors": "Tng et al.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40696819/",
+      "study_type": "Comparative Study",
+      "evidence_quality": "moderate",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "ergothionein"
+      ],
       "research_reviews": []
     },
     {
@@ -427,6 +575,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-40959699",
+      "pmid": "40959699",
+      "title": "Benefits, side effects, and uses of Hericium erinaceus as a supplement: a",
+      "authors": "Menon et al.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40959699/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "lion-s-mane"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-41249370",
       "pmid": "41249370",
       "title": "Investigating fucoidan blend supplementation and resistance training in humans:",
@@ -455,23 +620,76 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "cholin"
+      ],
       "research_reviews": []
     },
     {
       "id": "pmid-41422283",
       "pmid": "41422283",
       "title": "Oral sodium hyaluronate improves skin hydration, barrier function and signs",
-      "authors": "Dolečková I et al.",
+      "authors": "Dolečková et al.",
       "year": "2025",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41422283/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "150",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
         "hyaluronsaeure"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-38070683",
+      "pmid": "38070683",
+      "title": "Effect of cocoa extract supplementation on cognitive function: results from",
+      "authors": "Vyas et al.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38070683/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "multivitamin"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-38088214",
+      "pmid": "38088214",
+      "title": "A hub for regulation of mitochondrial metabolism: Fatty acid and lipoic acid",
+      "authors": "Dieckmann et al.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38088214/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "akg"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-38433010",
+      "pmid": "38433010",
+      "title": "Effects and safety of resveratrol supplementation in older adults: A comprehensive",
+      "authors": "Yadegar et al.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38433010/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "resveratrol"
       ],
       "research_reviews": []
     },
@@ -487,7 +705,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "apigenin"
+      ],
       "research_reviews": []
     },
     {
@@ -502,7 +722,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "cdp-cholin"
+      ],
       "research_reviews": []
     },
     {
@@ -523,23 +745,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-36345309",
-      "pmid": "36345309",
-      "title": "Reduction of anxiety and depressive symptoms with Hericium erinaceus intake:",
-      "authors": "Nagano M et al.",
-      "year": "2023",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36345309/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "lion-s-mane"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-36778891",
       "pmid": "36778891",
       "title": "Molecular and Therapeutic Insights of Alpha-Lipoic Acid as a Potential Molecule",
@@ -551,23 +756,25 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "alpha-liponsaeure"
+      ],
       "research_reviews": []
     },
     {
-      "id": "pmid-36789432",
-      "pmid": "36789432",
-      "title": "PEARL Trial: Rapamycin for aging — a randomized controlled trial in humans",
-      "authors": "Kraig E et al.",
+      "id": "pmid-37163454",
+      "pmid": "37163454",
+      "title": "Psyllium is a natural nonfermented gel-forming fiber that is effective for",
+      "authors": "Gibb et al.",
       "year": "2023",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/36789432/",
-      "study_type": "Preprint",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37163454/",
+      "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "rapamycin"
+        "flohsamenschalen"
       ],
       "research_reviews": []
     },
@@ -589,6 +796,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-37299549",
+      "pmid": "37299549",
+      "title": "Effects of L-Carnitine Intake on Exercise-Induced Muscle Damage and Oxidative",
+      "authors": "Caballero-García et al.",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37299549/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "l-carnitin"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-37301079",
       "pmid": "37301079",
       "title": "Sustainable production and pharmaceutical applications of β-glucan from microbial",
@@ -600,7 +824,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "beta-glucan"
+      ],
       "research_reviews": []
     },
     {
@@ -615,23 +841,8 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-37612506",
-      "pmid": "37612506",
-      "title": "COSMOS: COcoa Supplement and Multivitamin Outcomes Study",
-      "authors": "Yeung LK et al.",
-      "year": "2023",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37612506/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
       "ingredients": [
-        "multivitamin"
+        "beta-glucan"
       ],
       "research_reviews": []
     },
@@ -647,7 +858,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "calcium"
+      ],
       "research_reviews": []
     },
     {
@@ -666,36 +879,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-34741443",
-      "pmid": "34741443",
-      "title": "GlyNAC (Glycine and N-Acetylcysteine) Supplementation Improves Impaired Mitochondrial",
-      "authors": "Kumar P et al.",
+      "id": "pmid-34958679",
+      "pmid": "34958679",
+      "title": "The ergothioneine transporter (ETT): substrates and locations, an inventory",
+      "authors": "Gründemann et al.",
       "year": "2022",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34741443/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "glynac"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-35150542",
-      "pmid": "35150542",
-      "title": "Multivitamin-Multimineral Supplementation and Mortality: Meta-Analysis",
-      "authors": "Park SY et al.",
-      "year": "2022",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35150542/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34958679/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "multivitamin"
+        "ergothionein"
       ],
       "research_reviews": []
     },
@@ -711,7 +907,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "alpha-liponsaeure"
+      ],
       "research_reviews": []
     },
     {
@@ -745,41 +943,6 @@
       "effect_size": "",
       "ingredients": [
         "vitamin-a"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-35468083",
-      "pmid": "35468083",
-      "title": "Urolithin A improves muscle strength, exercise performance, and biomarkers",
-      "authors": "Liu S et al.",
-      "year": "2022",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35468083/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "urolithin-a"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-35975308",
-      "pmid": "35975308",
-      "title": "Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves",
-      "authors": "Sekhar RV",
-      "year": "2022",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35975308/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "12",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "glycin",
-        "nac"
       ],
       "research_reviews": []
     },
@@ -936,46 +1099,12 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-31174214",
-      "pmid": "31174214",
-      "title": "Serum ferritin as an indicator of iron stores: reliability and limitations",
-      "authors": "Pasricha SR et al.",
+      "id": "pmid-33783984",
+      "pmid": "33783984",
+      "title": "Glycine and N-acetylcysteine (GlyNAC) supplementation in older adults improves",
+      "authors": "Kumar et al.",
       "year": "2021",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/31174214/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "eisen"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-32114706",
-      "pmid": "32114706",
-      "title": "Effect of Omega-3 Dosage on Cardiovascular Outcomes: An Updated Meta-Analysis",
-      "authors": "Bernasconi AA et al.",
-      "year": "2021",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32114706/",
-      "study_type": "Case Report",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "omega-3"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-33512051",
-      "pmid": "33512051",
-      "title": "Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves",
-      "authors": "Kumar P et al.",
-      "year": "2021",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33512051/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33783984/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
@@ -987,20 +1116,53 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-33587619",
-      "pmid": "33587619",
-      "title": "GlyNAC supplementation in older adults improves glutathione deficiency, oxidative",
-      "authors": "Kumar P et al.",
+      "id": "pmid-33912895",
+      "pmid": "33912895",
+      "title": "Vitamin B-6-Induced Neuropathy: Exploring the Mechanisms of Pyridoxine Toxicity",
+      "authors": "Hadtstein et al.",
       "year": "2021",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/33587619/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33912895/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "glycin",
-        "nac"
+        "vitamin-b6"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-33939178",
+      "pmid": "33939178",
+      "title": "A fresh look at thiamine deficiency-new analyses by the global thiamine alliance",
+      "authors": "Bourassa et al.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33939178/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "vitamin-b1"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-34028001",
+      "pmid": "34028001",
+      "title": "Serum or plasma ferritin concentration as an index of iron deficiency and overload",
+      "authors": "Garcia-Casal et al.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34028001/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "eisen"
       ],
       "research_reviews": []
     },
@@ -1039,36 +1201,36 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-34469291",
-      "pmid": "34469291",
-      "title": "Vitamin B-6-induced neuropathy: exploring the mechanisms of pyridoxine toxicity",
-      "authors": "Vrolijk MF et al.",
+      "id": "pmid-34842765",
+      "pmid": "34842765",
+      "title": "Clinical Effects of L-Carnitine Supplementation on Physical Performance in",
+      "authors": "Vecchio et al.",
       "year": "2021",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34469291/",
-      "study_type": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34842765/",
+      "study_type": "Review",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "vitamin-b6"
+        "l-carnitin"
       ],
       "research_reviews": []
     },
     {
-      "id": "pmid-34929611",
-      "pmid": "34929611",
-      "title": "Dietary spermidine intake and all-cause mortality: the Bruneck study",
-      "authors": "Kiechl S et al.",
+      "id": "pmid-34848522",
+      "pmid": "34848522",
+      "title": "Evaluating the role of orange juice, HESPERidin in vascular HEALTH benefits",
+      "authors": "Verny et al.",
       "year": "2021",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34929611/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34848522/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "spermidine"
+        "hesperidin"
       ],
       "research_reviews": []
     },
@@ -1141,40 +1303,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-31978754",
-      "pmid": "31978754",
-      "title": "Trehalose improves cardiometabolic function in humans",
-      "authors": "Bhatt MV et al.",
-      "year": "2020",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/31978754/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "trehalose"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-32045577",
-      "pmid": "32045577",
-      "title": "Caffeine supplementation and physical performance, a meta-analysis",
-      "authors": "Grgic J et al.",
-      "year": "2020",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32045577/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "koffein"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-32221179",
       "pmid": "32221179",
       "title": "Safety and Efficacy of Saffron (Crocus sativus L.) for Treating Mild to Moderate",
@@ -1189,57 +1317,6 @@
       "ingredients": [
         "safran-preis-gesundheit",
         "safran"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-32242179",
-      "pmid": "32242179",
-      "title": "Rejuvenating effects of the alpha-ketoglutarate metabolite",
-      "authors": "Asadi Shahmirzadi A et al.",
-      "year": "2020",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32242179/",
-      "study_type": "Observational Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "akg"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-32245095",
-      "pmid": "32245095",
-      "title": "Determining Malnutrition Assessment Criteria to Predict One-Year Mortality",
-      "authors": "Li Y et al.",
-      "year": "2020",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32245095/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "hesperidin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-32283153",
-      "pmid": "32283153",
-      "title": "Nicotinamide Mononucleotide (NMN) supplementation promotes Alterungsforschung",
-      "authors": "Bertoldo MJ et al.",
-      "year": "2020",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32283153/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "nmn"
       ],
       "research_reviews": []
     },
@@ -1261,19 +1338,36 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-32759743",
-      "pmid": "32759743",
-      "title": "L-carnitine supplementation in recovery and aging",
-      "authors": "Sawicka AK et al.",
+      "id": "pmid-32635492",
+      "pmid": "32635492",
+      "title": "The Intrinsic Virtues of EGCG, an Extremely Good Cell Guardian, on Prevention",
+      "authors": "Potenza et al.",
       "year": "2020",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32759743/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32635492/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "l-carnitin"
+        "egcg"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-32877690",
+      "pmid": "32877690",
+      "title": "Alpha-Ketoglutarate, an Endogenous Metabolite, Extends Lifespan and Compresses",
+      "authors": "Asadi et al.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32877690/",
+      "study_type": "Observational Study",
+      "evidence_quality": "moderate",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "akg"
       ],
       "research_reviews": []
     },
@@ -1289,7 +1383,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "beta-alanin"
+      ],
       "research_reviews": []
     },
     {
@@ -1410,23 +1506,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-30093983",
-      "pmid": "30093983",
-      "title": "Hericium erinaceus and cognitive function in mild cognitive impairment: a",
-      "authors": "Mori K et al.",
-      "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30093983/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "lion-s-mane"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-30415628",
       "pmid": "30415628",
       "title": "Cardiovascular Risk Reduction with Icosapentaenoic Acid for Hypertriglyceridemia",
@@ -1478,23 +1557,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-30616726",
-      "pmid": "30616726",
-      "title": "Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human,",
-      "authors": "Justice JN et al.",
-      "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30616726/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "fisetin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-30616998",
       "pmid": "30616998",
       "title": "Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human,",
@@ -1507,39 +1569,42 @@
       "coi": "",
       "effect_size": "",
       "ingredients": [
+        "fisetin",
         "quercetin"
       ],
       "research_reviews": []
     },
     {
-      "id": "pmid-30885434",
-      "pmid": "30885434",
-      "title": "Review of the toxicological properties of poligeenan and carrageenan",
-      "authors": "McKim JM et al.",
+      "id": "pmid-30788274",
+      "pmid": "30788274",
+      "title": "Effects of L-citrulline supplementation on blood pressure: A systematic review",
+      "authors": "Barkhidarian et al.",
       "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30885434/",
-      "study_type": "",
-      "evidence_quality": "low",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30788274/",
+      "study_type": "RCT",
+      "evidence_quality": "high",
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "l-citrullin"
+      ],
       "research_reviews": []
     },
     {
-      "id": "pmid-30945251",
-      "pmid": "30945251",
-      "title": "Dietary intake and adequacy of vitamin K",
-      "authors": "Schurgers LJ et al.",
+      "id": "pmid-31174269",
+      "pmid": "31174269",
+      "title": "Molecular Mechanisms of Zinc as a Pro-Antioxidant Mediator: Clinical Therapeutic",
+      "authors": "Prasad et al.",
       "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30945251/",
-      "study_type": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31174269/",
+      "study_type": "Review",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "vitamin-k1"
+        "zink"
       ],
       "research_reviews": []
     },
@@ -1578,38 +1643,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-31346894",
-      "pmid": "31346894",
-      "title": "Rapamycin and risk of cardiovascular disease: a systematic review and meta-analysis",
-      "authors": "Sehgal SN et al.",
-      "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/31346894/",
-      "study_type": "Case Report",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "rapamycin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-31527518",
-      "pmid": "31527518",
-      "title": "Mineral and trace element content in sea moss supplements",
-      "authors": "Cherry P et al.",
-      "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/31527518/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-31728244",
       "pmid": "31728244",
       "title": "Efficacy and Safety of Ashwagandha Root Extract in Insomnia and Anxiety",
@@ -1623,40 +1656,6 @@
       "effect_size": "",
       "ingredients": [
         "ashwagandha"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-32234639",
-      "pmid": "32234639",
-      "title": "Vitamin D Supplementation and Prevention of Type 2 Diabetes (D-HEALTH)",
-      "authors": "Scragg R et al.",
-      "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32234639/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-d3-k2"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-32694659",
-      "pmid": "32694659",
-      "title": "Mitophagy is required for mitochondrial biogenesis and myofiber growth in response",
-      "authors": "Andreux PA et al.",
-      "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32694659/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "urolithin-a"
       ],
       "research_reviews": []
     },
@@ -1712,23 +1711,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-27880062",
-      "pmid": "27880062",
-      "title": "The effect of vegetarian diets on iron status in adults: A systematic review",
-      "authors": "Haider LM et al.",
-      "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27880062/",
-      "study_type": "Meta-Analysis",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "eisen"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-28853742",
       "pmid": "28853742",
       "title": "Oral supplementation with liposomal glutathione elevates body stores of glutathione",
@@ -1746,12 +1728,12 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-29514974",
-      "pmid": "29514974",
-      "title": "Chronic Nicotinamide Riboside Supplementation Is Well-Tolerated in Healthy",
-      "authors": "Martens CR et al.",
+      "id": "pmid-29599478",
+      "pmid": "29599478",
+      "title": "Chronic nicotinamide riboside supplementation is well-tolerated and elevates",
+      "authors": "Martens et al.",
       "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/29514974/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29599478/",
       "study_type": "Multicenter Study",
       "evidence_quality": "high",
       "n": "",
@@ -1759,57 +1741,6 @@
       "effect_size": "",
       "ingredients": [
         "nr"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-29676709",
-      "pmid": "29676709",
-      "title": "New perspectives on the role of melatonin in human sleep, circadian rhythms",
-      "authors": "Zisapel N",
-      "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/29676709/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "melatonin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-29684494",
-      "pmid": "29684494",
-      "title": "Green tea extract induces genes related to browning of white adipose tissue",
-      "authors": "Henning SM et al.",
-      "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/29684494/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "egcg"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-29704637",
-      "pmid": "29704637",
-      "title": "Effects of creatine supplementation on cognitive function of healthy individuals:",
-      "authors": "Avgerinos KI et al.",
-      "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/29704637/",
-      "study_type": "Systematic Review",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "kreatin"
       ],
       "research_reviews": []
     },
@@ -1825,7 +1756,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "apigenin"
+      ],
       "research_reviews": []
     },
     {
@@ -1846,36 +1779,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-29988130",
-      "pmid": "29988130",
-      "title": "Senolytics improve physical function and increase lifespan in old age",
-      "authors": "Xu M et al.",
+      "id": "pmid-29955838",
+      "pmid": "29955838",
+      "title": "Higher spermidine intake is linked to lower mortality: a prospective population-based",
+      "authors": "Kiechl et al.",
       "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/29988130/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29955838/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "quercetin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-30015549",
-      "pmid": "30015549",
-      "title": "Choline intake and health outcomes: a review",
-      "authors": "Wallace TC et al.",
-      "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30015549/",
-      "study_type": "Comparative Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "cholin"
+        "spermidine"
       ],
       "research_reviews": []
     },
@@ -1897,40 +1813,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-30286045",
-      "pmid": "30286045",
-      "title": "Vitamin B-6 and health: from biochemistry to clinical implications",
-      "authors": "Parra M et al.",
-      "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30286045/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b6"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-30295520",
-      "pmid": "30295520",
-      "title": "Thiamine deficiency disorders: diagnosis, prevalence, and a roadmap for global",
-      "authors": "Whitfield KC et al.",
-      "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30295520/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b1"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-30371340",
       "pmid": "30371340",
       "title": "Effects of Coenzyme Q10 on Statin-Induced Myopathy: An Updated Meta-Analysis",
@@ -1942,7 +1824,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "coq10"
+      ],
       "research_reviews": []
     },
     {
@@ -2048,108 +1932,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-27789331",
-      "pmid": "27789331",
-      "title": "Resveratrol and cognitive function: a systematic review",
-      "authors": "Evans HM et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27789331/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "resveratrol"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-27852613",
-      "pmid": "27852613",
-      "title": "Vitamin C-enriched gelatin supplementation before intermittent activity augments",
-      "authors": "Shaw G et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27852613/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "kollagen"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28077136",
-      "pmid": "28077136",
-      "title": "Dietary supplements and depression",
-      "authors": "Perez-Cornago A et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28077136/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "5-htp"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28111354",
-      "pmid": "28111354",
-      "title": "Baicalin and baicalein in inflammation and neuroprotection",
-      "authors": "Dinda B et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28111354/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "baicalin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28137772",
-      "pmid": "28137772",
-      "title": "Silymarin and the liver",
-      "authors": "Federico A et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28137772/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "silymarin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28147231",
-      "pmid": "28147231",
-      "title": "Lithium in neuropsychiatry: a historical overview and current perspectives",
-      "authors": "Malhi GS et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28147231/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "lithium-orotat"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-28202713",
       "pmid": "28202713",
       "title": "Vitamin D supplementation to prevent acute respiratory tract infections",
@@ -2167,70 +1949,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-28219059",
-      "pmid": "28219059",
-      "title": "Multicenter, open-label study of Rhodiola rosea extract in patients with burnout",
-      "authors": "Kasper S & Dienel A",
+      "id": "pmid-28300758",
+      "pmid": "28300758",
+      "title": "Methylsulfonylmethane: Applications and Safety of a Novel Dietary Supplement",
+      "authors": "Butawan et al.",
       "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28219059/",
-      "study_type": "Clinical Trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28300758/",
+      "study_type": "Comparative Study",
       "evidence_quality": "moderate",
-      "n": "100",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "rhodiola"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28273806",
-      "pmid": "28273806",
-      "title": "Riboflavin deficiency in the developed world",
-      "authors": "Pinto JT et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28273806/",
-      "study_type": "Review",
-      "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "vitamin-b2"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28326808",
-      "pmid": "28326808",
-      "title": "Selenium and thyroid disease: from pathophysiology to treatment",
-      "authors": "Ventura M et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28326808/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "selen"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28332804",
-      "pmid": "28332804",
-      "title": "The biology of alpha-ketoglutarate",
-      "authors": "Zdzisinska B et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28332804/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "akg"
+        "msm"
       ],
       "research_reviews": []
     },
@@ -2248,23 +1979,6 @@
       "effect_size": "",
       "ingredients": [
         "rutin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28362283",
-      "pmid": "28362283",
-      "title": "Biotin interference in immunoassays: a cause for concern",
-      "authors": "Piketty ML et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28362283/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b7"
       ],
       "research_reviews": []
     },
@@ -2303,6 +2017,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-28611480",
+      "pmid": "28611480",
+      "title": "Expert consensus document: The International Scientific Association for Probiotics",
+      "authors": "Gibson et al.",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28611480/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "probiotika"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-28615996",
       "pmid": "28615996",
       "title": "International Society of Sports Nutrition position stand: safety and efficacy",
@@ -2316,23 +2047,6 @@
       "effect_size": "",
       "ingredients": [
         "kreatin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28654723",
-      "pmid": "28654723",
-      "title": "Methylsulfonylmethane: applications and safety",
-      "authors": "Butawan M et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28654723/",
-      "study_type": "Comparative Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "msm"
       ],
       "research_reviews": []
     },
@@ -2354,36 +2068,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-28724448",
-      "pmid": "28724448",
-      "title": "Liver-protective effects of Schisandra",
-      "authors": "Szopa A et al.",
+      "id": "pmid-28662290",
+      "pmid": "28662290",
+      "title": "Resveratrol and pterostilbene as a microRNA-mediated chemopreventive and therapeutic",
+      "authors": "Kumar et al.",
       "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28724448/",
-      "study_type": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28662290/",
+      "study_type": "Review",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "schisandra"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28759885",
-      "pmid": "28759885",
-      "title": "Glycine metabolism in animals and humans: implications for nutrition and health",
-      "authors": "Razak MA et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28759885/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "glycin"
+        "pterostilben"
       ],
       "research_reviews": []
     },
@@ -2456,19 +2153,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-32731006",
-      "pmid": "32731006",
-      "title": "Efficacy of Hericium erinaceus: a systematic review",
-      "authors": "Spelman K et al.",
+      "id": "pmid-29344421",
+      "pmid": "29344421",
+      "title": "Anti-Aging Implications of Astragalus Membranaceus (Huangqi): A Well-Known",
+      "authors": "Liu et al.",
       "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32731006/",
-      "study_type": "Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29344421/",
+      "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "lion-s-mane"
+        "astragalus"
       ],
       "research_reviews": []
     },
@@ -2575,23 +2272,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-26023227",
-      "pmid": "26023227",
-      "title": "L-Citrulline supplementation and blood pressure",
-      "authors": "Figueroa A et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26023227/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "l-citrullin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-26100928",
       "pmid": "26100928",
       "title": "Akkermansia muciniphila and improved metabolic health during caloric restriction",
@@ -2626,23 +2306,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-26528921",
-      "pmid": "26528921",
-      "title": "Efficacy of Turmeric Extracts and Curcumin for Alleviating the Symptoms of",
-      "authors": "Daily JW et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26528921/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "curcumin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-26781281",
       "pmid": "26781281",
       "title": "Taurine supplementation lowers blood pressure and improves vascular function",
@@ -2656,40 +2319,6 @@
       "effect_size": "",
       "ingredients": [
         "taurin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-26797602",
-      "pmid": "26797602",
-      "title": "Effects of oral GABA administration on stress and sleep",
-      "authors": "Yamatsu A et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26797602/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "gaba"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-26830552",
-      "pmid": "26830552",
-      "title": "Cistanche and Alterungsforschung pharmacology",
-      "authors": "Jiang Y et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26830552/",
-      "study_type": "Observational Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "cistanche"
       ],
       "research_reviews": []
     },
@@ -2711,19 +2340,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-27094574",
-      "pmid": "27094574",
-      "title": "Traditional Chinese medicine compounds in modern pharmacology",
-      "authors": "Liu Y et al.",
+      "id": "pmid-26970090",
+      "pmid": "26970090",
+      "title": "Nicotinamide mononucleotide supplementation reverses vascular dysfunction and",
+      "authors": "de et al.",
       "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27094574/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26970090/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "baicalin"
+        "nmn"
       ],
       "research_reviews": []
     },
@@ -2741,23 +2370,6 @@
       "effect_size": "",
       "ingredients": [
         "acetyl-l-carnitin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-27144639",
-      "pmid": "27144639",
-      "title": "Long-term use of glucosamine and chondroitin in osteoarthritis",
-      "authors": "Bruyère O et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27144639/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "glucosamin"
       ],
       "research_reviews": []
     },
@@ -2796,36 +2408,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-27405231",
-      "pmid": "27405231",
-      "title": "A systematic review and meta-analysis of Quercetin supplementation and blood",
-      "authors": "Serban MC et al.",
+      "id": "pmid-27533649",
+      "pmid": "27533649",
+      "title": "Efficacy of Turmeric Extracts and Curcumin for Alleviating the Symptoms of",
+      "authors": "Daily et al.",
       "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27405231/",
-      "study_type": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27533649/",
+      "study_type": "Review",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "quercetin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-27559846",
-      "pmid": "27559846",
-      "title": "Gut microbiome and aging: physiological and mechanistic insights",
-      "authors": "Biagi E et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27559846/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "probiotika"
+        "curcumin"
       ],
       "research_reviews": []
     },
@@ -2847,23 +2442,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-27866067",
-      "pmid": "27866067",
-      "title": "Carnitine supplementation and physical performance",
-      "authors": "Pooyandjoo M et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27866067/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "l-carnitin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-28068222",
       "pmid": "28068222",
       "title": "Long-Term Administration of Nicotinamide Mononucleotide Mitigates Age-Associated",
@@ -2877,23 +2455,6 @@
       "effect_size": "",
       "ingredients": [
         "nmn"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-31413233",
-      "pmid": "31413233",
-      "title": "Nerve growth factor-inducing activity of Hericium erinaceus bioactive compounds",
-      "authors": "Zhang J et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/31413233/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "lion-s-mane"
       ],
       "research_reviews": []
     },
@@ -2981,29 +2542,12 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-25196580",
-      "pmid": "25196580",
-      "title": "Effects of pumpkin seed in men with lower urinary tract symptoms due to benign",
-      "authors": "Vahlensieck W et al.",
+      "id": "pmid-24791752",
+      "pmid": "24791752",
+      "title": "Randomized controlled trial of oral glutathione supplementation on body stores",
+      "authors": "Richie et al.",
       "year": "2015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25196580/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "431",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "kuerbiskernoel"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-25602346",
-      "pmid": "25602346",
-      "title": "Oral glutathione supplementation raises body stores of glutathione",
-      "authors": "Richie JP et al.",
-      "year": "2015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25602346/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
@@ -3032,23 +2576,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-25743043",
-      "pmid": "25743043",
-      "title": "Psyllium fiber improves bowel function",
-      "authors": "McRorie JW",
-      "year": "2015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25743043/",
-      "study_type": "Multicenter Study",
-      "evidence_quality": "high",
-      "n": "248",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "flohsamenschalen"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-25761837",
       "pmid": "25761837",
       "title": "A double-blind, placebo-controlled study evaluating caffeine and L-theanine",
@@ -3066,19 +2593,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-25793781",
-      "pmid": "25793781",
-      "title": "Selenium status in Europe: a systematic review",
-      "authors": "Stoffaneller R & Morse NL",
+      "id": "pmid-25780308",
+      "pmid": "25780308",
+      "title": "Effectiveness of probiotics in irritable bowel syndrome: Updated systematic",
+      "authors": "Didari et al.",
       "year": "2015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25793781/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25780308/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "selen"
+        "probiotika"
       ],
       "research_reviews": []
     },
@@ -3145,6 +2672,23 @@
       "effect_size": "",
       "ingredients": [
         "calcium"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-26500584",
+      "pmid": "26500584",
+      "title": "Neurotransmitters as food supplements: the effects of GABA on brain and behavior",
+      "authors": "Boonstra et al.",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26500584/",
+      "study_type": "Clinical Trial",
+      "evidence_quality": "moderate",
+      "n": "13",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "gaba"
       ],
       "research_reviews": []
     },
@@ -3249,6 +2793,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-23949208",
+      "pmid": "23949208",
+      "title": "Oral supplementation of specific collagen peptides has beneficial effects",
+      "authors": "Proksch et al.",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23949208/",
+      "study_type": "RCT",
+      "evidence_quality": "high",
+      "n": "57",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "kollagen"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-24144610",
       "pmid": "24144610",
       "title": "MTHFR C677T polymorphism and folate metabolism",
@@ -3283,35 +2844,37 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-24401291",
-      "pmid": "24401291",
-      "title": "Oral intake of specific bioactive collagen peptides reduces skin wrinkles and",
-      "authors": "Proksch E et al.",
+      "id": "pmid-24365359",
+      "pmid": "24365359",
+      "title": "Hydrosoluble vitamins",
+      "authors": "Chawla et al.",
       "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24401291/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "57",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "kollagen"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24420785",
-      "pmid": "24420785",
-      "title": "Effects of pumpkin seed oil on urinary disorders in postmenopausal women",
-      "authors": "Nishimura M et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24420785/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24365359/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "vitamin-b6"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-24388876",
+      "pmid": "24388876",
+      "title": "Micronutrient-gene interactions related to inflammatory/immune response and",
+      "authors": "Mocchegiani et al.",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24388876/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "zink"
+      ],
       "research_reviews": []
     },
     {
@@ -3328,159 +2891,6 @@
       "effect_size": "",
       "ingredients": [
         "trehalose"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24492253",
-      "pmid": "24492253",
-      "title": "Expert consensus document: The ISAPP consensus statement on the scope and",
-      "authors": "Hill C et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24492253/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "probiotika"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24494129",
-      "pmid": "24494129",
-      "title": "Therapeutic role of glutathione in medicine",
-      "authors": "Pizzorno J",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24494129/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "glutathion"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24500942",
-      "pmid": "24500942",
-      "title": "Dietary phosphorus and health",
-      "authors": "Calvo MS et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24500942/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "phosphor"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24574972",
-      "pmid": "24574972",
-      "title": "Probiotics and irritable bowel syndrome: systematic review and meta-analysis",
-      "authors": "Ford AC et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24574972/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "probiotika"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24828042",
-      "pmid": "24828042",
-      "title": "The metabolite α-ketoglutarate extends lifespan by inhibiting ATP synthase",
-      "authors": "Chin RM et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24828042/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "akg"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24891972",
-      "pmid": "24891972",
-      "title": "Iodine and thyroid autoimmunity: excess iodine can trigger Hashimoto",
-      "authors": "Leung AM & Braverman LE",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24891972/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "jod"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-25013132",
-      "pmid": "25013132",
-      "title": "Ingestion of hyaluronan relieves wrinkles: a double-blinded, placebo-controlled",
-      "authors": "Kawada C et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25013132/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "hyaluronsaeure"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-25014686",
-      "pmid": "25014686",
-      "title": "Effects of extended-release niacin with laropiprant in high-risk patients",
-      "authors": "Landray MJ et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25014686/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b3"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-25159881",
-      "pmid": "25159881",
-      "title": "Potassium intake and all-cause mortality",
-      "authors": "O'Donnell M et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25159881/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "kalium"
       ],
       "research_reviews": []
     },
@@ -3615,40 +3025,8 @@
       "n": "8",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23036414",
-      "pmid": "23036414",
-      "title": "Manganese-induced neurotoxicity: a review of its behavioral consequences and",
-      "authors": "Martinez-Finley EJ et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23036414/",
-      "study_type": "Comparative Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
       "ingredients": [
-        "mangan"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23044574",
-      "pmid": "23044574",
-      "title": "N-acetyl cysteine: the ongoing search for clinical proof",
-      "authors": "Berk M et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23044574/",
-      "study_type": "Case Report",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "nac"
+        "betain"
       ],
       "research_reviews": []
     },
@@ -3664,7 +3042,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "apigenin"
+      ],
       "research_reviews": []
     },
     {
@@ -3702,23 +3082,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-23448243",
-      "pmid": "23448243",
-      "title": "Tea and health: studies in humans",
-      "authors": "Khan N & Mukhtar H",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23448243/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "egcg"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-23525894",
       "pmid": "23525894",
       "title": "Three-year low-dose menaquinone-7 supplementation helps decrease bone loss",
@@ -3732,40 +3095,6 @@
       "effect_size": "",
       "ingredients": [
         "vitamin-k2"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23574769",
-      "pmid": "23574769",
-      "title": "Melatonin and aging: prospects for human intervention",
-      "authors": "Cardinali DP et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23574769/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "melatonin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23635871",
-      "pmid": "23635871",
-      "title": "Increased potassium intake to reduce blood pressure and cardiovascular risk",
-      "authors": "Aburto NJ et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23635871/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "kalium"
       ],
       "research_reviews": []
     },
@@ -3787,138 +3116,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-23675558",
-      "pmid": "23675558",
-      "title": "Vitamin C in disease prevention and cure: an overview",
-      "authors": "Pohanka M",
+      "id": "pmid-23762049",
+      "pmid": "23762049",
+      "title": "Silicon: a review of its potential role in the prevention and treatment of",
+      "authors": "Price et al.",
       "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23675558/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-c"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23676243",
-      "pmid": "23676243",
-      "title": "Niacin in cardiovascular disease: recent preclinical and clinical developments",
-      "authors": "Guyton JR et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23676243/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b3"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23682780",
-      "pmid": "23682780",
-      "title": "Pterostilbene as an antioxidant: rationale and clinical applicability",
-      "authors": "McCormack D & McFadden D",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23682780/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23762049/",
       "study_type": "Review",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "pterostilben"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23746916",
-      "pmid": "23746916",
-      "title": "KiSel-10 study: cardiovascular events with selenium and CoQ10 supplementation",
-      "authors": "Alehagen U et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23746916/",
-      "study_type": "Observational Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "selen"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23754792",
-      "pmid": "23754792",
-      "title": "Tongkat Ali as a potential adaptogen",
-      "authors": "Talbott SM et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23754792/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "tongkat-ali"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23810870",
-      "pmid": "23810870",
-      "title": "Citrus flavonoids and vascular protection",
-      "authors": "Testai L et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23810870/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "hesperidin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23990470",
-      "pmid": "23990470",
-      "title": "Soluble fiber and glycemic control",
-      "authors": "Silva FM et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23990470/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "flohsamenschalen"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23992536",
-      "pmid": "23992536",
-      "title": "Effects of pterostilbene on lipid profile, glucose and cardiovascular risk",
-      "authors": "Riche DM et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23992536/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "pterostilben"
+        "silicium"
       ],
       "research_reviews": []
     },
@@ -3958,74 +3168,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-24299756",
-      "pmid": "24299756",
-      "title": "Inulin-type fructans and gut health",
-      "authors": "Slavin J",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24299756/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "inulin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24344115",
-      "pmid": "24344115",
-      "title": "Enough is enough: stop wasting money on vitamin and mineral supplements",
-      "authors": "Guallar E et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24344115/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "multivitamin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24344415",
-      "pmid": "24344415",
-      "title": "Herbal medicine and telomerase activation",
-      "authors": "Mokbel K et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24344415/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "astragalus"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24349057",
-      "pmid": "24349057",
-      "title": "Taurine: A very essential amino acid",
-      "authors": "Menzie J et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24349057/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "taurin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-24360282",
       "pmid": "24360282",
       "title": "Declining NAD+ induces a pseudohypoxic state disrupting nuclear-mitochondrial",
@@ -4039,6 +3181,23 @@
       "effect_size": "",
       "ingredients": [
         "apigenin"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-24490268",
+      "pmid": "24490268",
+      "title": "Enough is enough: Stop wasting money on vitamin and mineral supplements",
+      "authors": "Guallar et al.",
+      "year": "2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24490268/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "multivitamin"
       ],
       "research_reviews": []
     },
@@ -4158,40 +3317,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-22187108",
-      "pmid": "22187108",
-      "title": "Iodine deficiency in Europe: a continuing public health problem",
-      "authors": "Andersson M et al.",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22187108/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "jod"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-22238392",
-      "pmid": "22238392",
-      "title": "Association between vitamin B12 deficiency and long-term use of metformin",
-      "authors": "Reinstatler L et al.",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22238392/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "182",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b12"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-22270875",
       "pmid": "22270875",
       "title": "Beta-alanine supplementation and exercise performance",
@@ -4209,12 +3334,12 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-22297886",
-      "pmid": "22297886",
+      "id": "pmid-22332098",
+      "pmid": "22332098",
       "title": "Folate and DNA methylation: a review of molecular mechanisms and the evidence",
-      "authors": "Crider KS et al.",
+      "authors": "Crider et al.",
       "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22297886/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22332098/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
@@ -4222,23 +3347,6 @@
       "effect_size": "",
       "ingredients": [
         "folsaeure"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-22327358",
-      "pmid": "22327358",
-      "title": "Myo-inositol effects in women with PCOS: a meta-analysis of randomized controlled",
-      "authors": "Unfer V et al.",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22327358/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "myo-inositol"
       ],
       "research_reviews": []
     },
@@ -4273,74 +3381,6 @@
       "effect_size": "",
       "ingredients": [
         "curcumin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-22428137",
-      "pmid": "22428137",
-      "title": "Cosmetic benefits of astaxanthin on humans subjects",
-      "authors": "Tominaga K et al.",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22428137/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "astaxanthin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-22471152",
-      "pmid": "22471152",
-      "title": "Melatonin as an antioxidant: under promises but over delivers",
-      "authors": "Hardeland R",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22471152/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "melatonin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-22489203",
-      "pmid": "22489203",
-      "title": "Thiamine deficiency in diabetes, obesity and bariatric surgery",
-      "authors": "Via M",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22489203/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b1"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-22510091",
-      "pmid": "22510091",
-      "title": "Phosphate homeostasis and its role in bone health",
-      "authors": "Takeda E et al.",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22510091/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "phosphor"
       ],
       "research_reviews": []
     },
@@ -4380,23 +3420,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-22552758",
-      "pmid": "22552758",
-      "title": "Effect of saffron on fluoxetine-induced sexual impairment in men: randomized",
-      "authors": "Modabbernia A et al.",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22552758/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "safran"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-22570464",
       "pmid": "22570464",
       "title": "Probiotics for the prevention of antibiotic-associated diarrhea: meta-analysis",
@@ -4427,40 +3450,6 @@
       "effect_size": "",
       "ingredients": [
         "vitamin-d3"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-22899991",
-      "pmid": "22899991",
-      "title": "Astragalus and healthy aging claims",
-      "authors": "Block KI",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22899991/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "astragalus"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-22971603",
-      "pmid": "22971603",
-      "title": "Safety and efficacy of Eurycoma longifolia",
-      "authors": "Ismail SB et al.",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22971603/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "tongkat-ali"
       ],
       "research_reviews": []
     },
@@ -4499,19 +3488,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-23162860",
-      "pmid": "23162860",
-      "title": "Multivitamins in the prevention of cancer in men: the Physicians'' Health",
-      "authors": "Gaziano JM et al.",
+      "id": "pmid-23170060",
+      "pmid": "23170060",
+      "title": "Review: taurine: a \"very essential\" amino acid",
+      "authors": "Ripps et al.",
       "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23162860/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "2669",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23170060/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "multivitamin"
+        "taurin"
       ],
       "research_reviews": []
     },
@@ -4546,23 +3535,6 @@
       "effect_size": "",
       "ingredients": [
         "ashwagandha"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23717060",
-      "pmid": "23717060",
-      "title": "Shilajit: a natural phytocomplex",
-      "authors": "Carrasco-Gallardo C et al.",
-      "year": "2012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23717060/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "shilajit"
       ],
       "research_reviews": []
     },
@@ -4652,57 +3624,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-21062282",
-      "pmid": "21062282",
-      "title": "Gynostemma pentaphyllum extract activates AMPK and improves insulin resistance",
-      "authors": "Nguyen PH et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21062282/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "gynostemma"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-21094641",
-      "pmid": "21094641",
-      "title": "The relation of dietary choline to cognitive performance and white-matter hyperintensity",
-      "authors": "Poly C et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21094641/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "cholin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-21127935",
-      "pmid": "21127935",
-      "title": "Kaempferol: chemistry and pharmacology",
-      "authors": "Calderón-Montaño JM et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21127935/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "kaempferol"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-21195829",
       "pmid": "21195829",
       "title": "Oral L-citrulline supplementation improves erection hardness in men with mild",
@@ -4720,53 +3641,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-21219274",
-      "pmid": "21219274",
-      "title": "Bioavailability of pterostilbene in humans: a meta-analysis",
-      "authors": "Kapetanovic IM et al.",
+      "id": "pmid-21261636",
+      "pmid": "21261636",
+      "title": "Bioavailability of resveratrol",
+      "authors": "Walle et al.",
       "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21219274/",
-      "study_type": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21261636/",
+      "study_type": "Review",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "pterostilben"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-21291821",
-      "pmid": "21291821",
-      "title": "Hydroxytyrosol supplementation improves endothelial function",
-      "authors": "Susalit E et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21291821/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "hydroxytyrosol"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-21347875",
-      "pmid": "21347875",
-      "title": "Ergothioneine reduces the severity of MPTP-induced Parkinson's disease",
-      "authors": "Koh YH et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21347875/",
-      "study_type": "Comparative Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "ergothionein"
+        "resveratrol"
       ],
       "research_reviews": []
     },
@@ -4788,40 +3675,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-21438650",
-      "pmid": "21438650",
-      "title": "Reishi mushroom and immune modulation",
-      "authors": "Wachtel-Galor S et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21438650/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "reishi"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-21462495",
-      "pmid": "21462495",
-      "title": "Hesperidin and cardiovascular health",
-      "authors": "Rizza S et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21462495/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "hesperidin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-21505219",
       "pmid": "21505219",
       "title": "Calcium supplements with or without vitamin D and risk of cardiovascular events:",
@@ -4833,23 +3686,8 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-21593586",
-      "pmid": "21593586",
-      "title": "Bioavailability of sulforaphane from two broccoli sprout beverages: results",
-      "authors": "Egner PA et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21593586/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
       "ingredients": [
-        "sulforaphan"
+        "calcium"
       ],
       "research_reviews": []
     },
@@ -4871,23 +3709,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-21738288",
-      "pmid": "21738288",
-      "title": "Herbal products for nonalcoholic fatty liver disease",
-      "authors": "Loguercio C et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21738288/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "silymarin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-21747945",
       "pmid": "21747945",
       "title": "Plasma lipids and betaine are related in an acute coronary syndrome cohort",
@@ -4905,23 +3726,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-21873346",
-      "pmid": "21873346",
-      "title": "Boron in human health: evidence and open questions",
-      "authors": "Scorei ID et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21873346/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "bor"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-22050429",
       "pmid": "22050429",
       "title": "Vitamin E and the risk of prostate cancer: the Selenium and Vitamin E Cancer",
@@ -4935,6 +3739,23 @@
       "effect_size": "",
       "ingredients": [
         "vitamin-e"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-22071706",
+      "pmid": "22071706",
+      "title": "The relation of dietary choline to cognitive performance and white-matter hyperintensity",
+      "authors": "Poly et al.",
+      "year": "2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22071706/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "cholin"
       ],
       "research_reviews": []
     },
@@ -4988,74 +3809,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-19966578",
-      "pmid": "19966578",
-      "title": "Memory enhancement with soybean-derived phosphatidylserine in Israeli subjects",
-      "authors": "Vakhapova V et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19966578/",
-      "study_type": "Comparative Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "phosphatidylserin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-20005244",
-      "pmid": "20005244",
-      "title": "Flavonoids in brain aging",
-      "authors": "Spencer JPE",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20005244/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "luteolin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-20018833",
-      "pmid": "20018833",
-      "title": "Flavonoids and aging-related disease",
-      "authors": "Vauzour D et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20018833/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "kaempferol"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-20109491",
-      "pmid": "20109491",
-      "title": "Adaptogens and stress protection",
-      "authors": "Panossian A et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20109491/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "schisandra"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-20152124",
       "pmid": "20152124",
       "title": "Enhancement of Learning and Memory by Elevating Brain Magnesium (Mg-L-Threonate)",
@@ -5069,57 +3822,6 @@
       "effect_size": "",
       "ingredients": [
         "magnesium"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-20236064",
-      "pmid": "20236064",
-      "title": "Interaction between vitamin K intake and anticoagulation by vitamin K antagonists",
-      "authors": "Gebuis EP et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20236064/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-k1"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-20308112",
-      "pmid": "20308112",
-      "title": "Ergothioneine, a diet-derived antioxidant with therapeutic potential",
-      "authors": "Paul BD, Snyder SH",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20308112/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "ergothionein"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-20370918",
-      "pmid": "20370918",
-      "title": "A systematic review of the evidence for maca",
-      "authors": "Shin BC et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20370918/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "maca"
       ],
       "research_reviews": []
     },
@@ -5158,23 +3860,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-20435159",
-      "pmid": "20435159",
-      "title": "Ginseng and cognition",
-      "authors": "Reay JL et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20435159/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "ginseng"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-20464765",
       "pmid": "20464765",
       "title": "Caffeine for the prevention of injuries and errors in shift workers",
@@ -5209,74 +3894,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-20562218",
-      "pmid": "20562218",
-      "title": "Pterostilbene exerts antitumor activity via the Notch1 signaling pathway in",
-      "authors": "Schneider JG et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20562218/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "pterostilben"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-20595412",
-      "pmid": "20595412",
-      "title": "S-adenosyl methionine (SAMe) augmentation of serotonin reuptake inhibitors",
-      "authors": "Papakostas GI et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20595412/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "same"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-20637008",
-      "pmid": "20637008",
-      "title": "Astaxanthin supplementation attenuates immunosuppression induced by intensive",
-      "authors": "Park JS et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20637008/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "astaxanthin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-20660279",
-      "pmid": "20660279",
-      "title": "Effects of lutein and zeaxanthin on aspects of eye health",
-      "authors": "Stringham JM et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20660279/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "lutein-zeaxanthin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-20838622",
       "pmid": "20838622",
       "title": "Homocysteine-Lowering by B Vitamins Slows the Rate of Accelerated Brain Atrophy",
@@ -5290,40 +3907,6 @@
       "effect_size": "",
       "ingredients": [
         "vitamin-b12"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-21205692",
-      "pmid": "21205692",
-      "title": "B vitamins and omega-3 fatty acids on cardiovascular diseases: systematic",
-      "authors": "Clarke R et al.",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21205692/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b12"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-29155946",
-      "pmid": "29155946",
-      "title": "Enhancers and inhibitors of iron absorption in plant-based diets",
-      "authors": "Hurrell R & Egli I",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/29155946/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "eisen"
       ],
       "research_reviews": []
     },
@@ -5362,40 +3945,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-18385818",
-      "pmid": "18385818",
-      "title": "Zinc in human health: effect of zinc on immune cells",
-      "authors": "Prasad AS",
-      "year": "2009",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18385818/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "zink"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-19007524",
-      "pmid": "19007524",
-      "title": "The metabolic effects of epigallocatechin-3-gallate: mechanisms and applications",
-      "authors": "Thielecke F & Boschmann M",
-      "year": "2009",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19007524/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "egcg"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-19016404",
       "pmid": "19016404",
       "title": "A randomised, double-blind, placebo-controlled, parallel-group study of SHR-5",
@@ -5426,57 +3975,6 @@
       "effect_size": "",
       "ingredients": [
         "ginkgo"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-19321502",
-      "pmid": "19321502",
-      "title": "PQQ: a novel vitamin-like compound?",
-      "authors": "Rucker R et al.",
-      "year": "2009",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19321502/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "pqq"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-19375465",
-      "pmid": "19375465",
-      "title": "Scutellaria baicalensis and bioactive flavones",
-      "authors": "Li-Weber M",
-      "year": "2009",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19375465/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "baicalin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-19402938",
-      "pmid": "19402938",
-      "title": "Quercetin reduces systolic blood pressure and plasma oxidised low-density",
-      "authors": "Egert S et al.",
-      "year": "2009",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19402938/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "quercetin"
       ],
       "research_reviews": []
     },
@@ -5515,37 +4013,18 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-19628196",
-      "pmid": "19628196",
-      "title": "Gynostemma pentaphyllum and lipid-lowering effects",
-      "authors": "Olsson EM et al.",
+      "id": "pmid-19621836",
+      "pmid": "19621836",
+      "title": "N-acetylcysteine: multiple clinical applications",
+      "authors": "Millea et al.",
       "year": "2009",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19628196/",
-      "study_type": "Case Report",
-      "evidence_quality": "low",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19621836/",
+      "study_type": "",
+      "evidence_quality": "",
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [
-        "gynostemma"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-19640941",
-      "pmid": "19640941",
-      "title": "The gut microbiome determines the bioavailability of pomegranate polyphenols",
-      "authors": "Selma MV et al.",
-      "year": "2009",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19640941/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "558",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "urolithin-a"
-      ],
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -5600,40 +4079,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-18385819",
-      "pmid": "18385819",
-      "title": "The role of zinc in the biology of aging",
-      "authors": "Mocchegiani E et al.",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18385819/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "zink"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-18396376",
-      "pmid": "18396376",
-      "title": "Pharmacology of Cordyceps",
-      "authors": "Paterson RRM",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18396376/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "cordyceps"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-18442638",
       "pmid": "18442638",
       "title": "Efficacy of berberine in patients with type 2 diabetes mellitus",
@@ -5647,74 +4092,6 @@
       "effect_size": "",
       "ingredients": [
         "berberine"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-18454811",
-      "pmid": "18454811",
-      "title": "Niacin",
-      "authors": "Bogan KL et al.",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18454811/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b3"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-18461736",
-      "pmid": "18461736",
-      "title": "Effects of alpha-GPC on isometric strength",
-      "authors": "Ziegenfuss TN et al.",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18461736/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "alpha-gpc"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-18488400",
-      "pmid": "18488400",
-      "title": "Copper deficiency, a new triad: anemia, leucopenia, and myeloneuropathy",
-      "authors": "Halfdanarson TR et al.",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18488400/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "kupfer"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-18499654",
-      "pmid": "18499654",
-      "title": "Anti-inflammatory properties of luteolin",
-      "authors": "Seelinger G et al.",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18499654/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "luteolin"
       ],
       "research_reviews": []
     },
@@ -5736,40 +4113,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-18654924",
-      "pmid": "18654924",
-      "title": "Maca in menopause",
-      "authors": "Brooks NA et al.",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18654924/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "maca"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-18681988",
-      "pmid": "18681988",
-      "title": "Behavioral effects of compounds co-consumed in dietary amounts with caffeine",
-      "authors": "Haskell CF et al.",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18681988/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "27",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "l-theanin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-18752471",
       "pmid": "18752471",
       "title": "Nothing boring about boron",
@@ -5783,23 +4126,6 @@
       "effect_size": "",
       "ingredients": [
         "bor"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-18793724",
-      "pmid": "18793724",
-      "title": "Zinc deficiency: what are the most appropriate interventions?",
-      "authors": "Bhutta ZA et al.",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18793724/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "zink"
       ],
       "research_reviews": []
     },
@@ -5838,23 +4164,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-19861941",
-      "pmid": "19861941",
-      "title": "Phosphatidylserine reduces stress and improves cognitive performance in elderly",
-      "authors": "Baumeister J et al.",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19861941/",
-      "study_type": "Validation Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "phosphatidylserin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-42356270",
       "pmid": "42356270",
       "title": "Effects of Citrulline Malate Supplementation on Exercise Performance: A Systematic",
@@ -5887,29 +4196,12 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-17138823",
-      "pmid": "17138823",
-      "title": "Regression of warfarin-induced medial elastocalcinosis by high intake of vitamin",
-      "authors": "Schurgers LJ et al.",
-      "year": "2007",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17138823/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-k2"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-17272967",
-      "pmid": "17272967",
+      "id": "pmid-16930802",
+      "pmid": "16930802",
       "title": "L-Theanine reduces psychological and physiological stress responses",
-      "authors": "Kimura K et al.",
+      "authors": "Kimura et al.",
       "year": "2007",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17272967/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16930802/",
       "study_type": "Clinical Trial",
       "evidence_quality": "moderate",
       "n": "",
@@ -5921,87 +4213,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-17336393",
-      "pmid": "17336393",
-      "title": "Ganoderma lucidum for pharmacologically relevant effects",
-      "authors": "Boh B et al.",
+      "id": "pmid-17290373",
+      "pmid": "17290373",
+      "title": "Tyrosine depletion alters cortical and limbic blood flow but does not modulate",
+      "authors": "Ellis et al.",
       "year": "2007",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17336393/",
-      "study_type": "",
-      "evidence_quality": "low",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17290373/",
+      "study_type": "Clinical Trial",
+      "evidence_quality": "moderate",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "reishi"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-17386983",
-      "pmid": "17386983",
-      "title": "Coenzyme Q10 in the treatment of hypertension: a meta-analysis of the clinical",
-      "authors": "Rosenfeldt FL et al.",
-      "year": "2007",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17386983/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "coq10"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-17435952",
-      "pmid": "17435952",
-      "title": "Silicon and bone health",
-      "authors": "Jugdaohsingh R",
-      "year": "2007",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17435952/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "silicium"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-17604172",
-      "pmid": "17604172",
-      "title": "Prebiotic effects of inulin-type fructans",
-      "authors": "Roberfroid M",
-      "year": "2007",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17604172/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "inulin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-17619763",
-      "pmid": "17619763",
-      "title": "Piperine, a major alkaloid of black pepper: a review",
-      "authors": "Srinivasan K",
-      "year": "2007",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17619763/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "piperin"
+        "l-tyrosin"
       ],
       "research_reviews": []
     },
@@ -6057,36 +4281,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-17952759",
-      "pmid": "17952759",
-      "title": "Myo-inositol and D-chiro inositol in improving insulin resistance in women",
-      "authors": "Gerli S et al.",
+      "id": "pmid-17951492",
+      "pmid": "17951492",
+      "title": "Inulin-type fructans: functional food ingredients",
+      "authors": "Roberfroid et al.",
       "year": "2007",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17952759/",
-      "study_type": "Clinical Trial",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "myo-inositol"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-18072817",
-      "pmid": "18072817",
-      "title": "Possible dangers of dietary lithium supplementation",
-      "authors": "Pauzé DK et al.",
-      "year": "2007",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18072817/",
-      "study_type": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17951492/",
+      "study_type": "Review",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "lithium-orotat"
+        "inulin"
       ],
       "research_reviews": []
     },
@@ -6176,6 +4383,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-16400058",
+      "pmid": "16400058",
+      "title": "Iodine supplementation improves cognition in iodine-deficient schoolchildren",
+      "authors": "Zimmermann et al.",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16400058/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "jod"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-16424117",
       "pmid": "16424117",
       "title": "Pyrroloquinoline quinone modulates mitochondrial quantity and function in mice",
@@ -6193,6 +4417,40 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-16473858",
+      "pmid": "16473858",
+      "title": "Efficacy and safety of exogenous melatonin for secondary sleep disorders and",
+      "authors": "Buscemi et al.",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16473858/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "melatonin"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-16495392",
+      "pmid": "16495392",
+      "title": "Glucosamine, chondroitin sulfate, and the two in combination for painful knee",
+      "authors": "Clegg et al.",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16495392/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "glucosamin"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-16753142",
       "pmid": "16753142",
       "title": "Tocotrienols: the emerging face of natural vitamin E",
@@ -6206,72 +4464,6 @@
       "effect_size": "",
       "ingredients": [
         "vitamin-e"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-16825686",
-      "pmid": "16825686",
-      "title": "Iodine supplementation improves cognition in iodine-deficient schoolchildren",
-      "authors": "Zimmermann MB et al.",
-      "year": "2006",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/16825686/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "jod"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-16971751",
-      "pmid": "16971751",
-      "title": "Relaxation and immunity enhancement effects of gamma-aminobutyric acid (GABA)",
-      "authors": "Abdou AM et al.",
-      "year": "2006",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/16971751/",
-      "study_type": "Clinical Trial",
-      "evidence_quality": "moderate",
-      "n": "13",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "gaba"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-17004914",
-      "pmid": "17004914",
-      "title": "Pumpkin seed oil and phytosterol-F for benign prostatic hyperplasia",
-      "authors": "Gossell-Williams M et al.",
-      "year": "2006",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17004914/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-17062856",
-      "pmid": "17062856",
-      "title": "Glucosamine, chondroitin sulfate, and the two in combination for painful knee",
-      "authors": "Clegg DO et al.",
-      "year": "2006",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/17062856/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "glucosamin"
       ],
       "research_reviews": []
     },
@@ -6327,40 +4519,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-15691787",
-      "pmid": "15691787",
-      "title": "Melatonin for treatment of sleep disorders – meta-analysis",
-      "authors": "Brzezinski A et al.",
-      "year": "2005",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/15691787/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "melatonin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-15701098",
-      "pmid": "15701098",
-      "title": "Oral intake of choline-stabilized orthosilicic acid affects skin, nails and",
-      "authors": "Barel A et al.",
-      "year": "2005",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/15701098/",
-      "study_type": "Case Report",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "silicium"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-15846645",
       "pmid": "15846645",
       "title": "Glucosamine therapy for treating osteoarthritis",
@@ -6391,6 +4549,23 @@
       "effect_size": "",
       "ingredients": [
         "betain"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-16205932",
+      "pmid": "16205932",
+      "title": "Effect of oral intake of choline-stabilized orthosilicic acid on skin, nails",
+      "authors": "Barel et al.",
+      "year": "2005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16205932/",
+      "study_type": "Case Report",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "silicium"
       ],
       "research_reviews": []
     },
@@ -6446,12 +4621,12 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-15212784",
-      "pmid": "15212784",
-      "title": "Glutathione metabolism and its selective modification",
-      "authors": "Wu G et al.",
+      "id": "pmid-14988435",
+      "pmid": "14988435",
+      "title": "Glutathione metabolism and its implications for health",
+      "authors": "Wu et al.",
       "year": "2004",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/15212784/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14988435/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
@@ -6549,40 +4724,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-25905295",
-      "pmid": "25905295",
-      "title": "Resveratrol bioavailability and kinetics in humans: a randomized controlled",
-      "authors": "Walle T et al.",
-      "year": "2004",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25905295/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "resveratrol"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-12514275",
-      "pmid": "12514275",
-      "title": "Betaine supplementation decreases plasma homocysteine in healthy adult humans",
-      "authors": "Olthof MR et al.",
-      "year": "2003",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/12514275/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "12",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "tmg"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-12598816",
       "pmid": "12598816",
       "title": "Meta-analysis of double blind randomized controlled clinical trials of acetyl-L-carnitine",
@@ -6600,70 +4741,19 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-12716668",
-      "pmid": "12716668",
-      "title": "Dietary flavonols and health",
-      "authors": "Beecher GR",
+      "id": "pmid-14527825",
+      "pmid": "14527825",
+      "title": "Comparative study of flavonoids in experimental models of inflammation",
+      "authors": "Rotelli et al.",
       "year": "2003",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/12716668/",
-      "study_type": "Validation Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "kaempferol"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-12791609",
-      "pmid": "12791609",
-      "title": "Riboflavin (vitamin B-2) and health",
-      "authors": "Powers HJ",
-      "year": "2003",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/12791609/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b2"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-11911815",
-      "pmid": "11911815",
-      "title": "The biological chemistry of molybdenum",
-      "authors": "Hille R",
-      "year": "2002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/11911815/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14527825/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
       "ingredients": [
-        "molybdaen"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-11953940",
-      "pmid": "11953940",
-      "title": "Effects of taurine on plasma lipid levels in post-menopausal women",
-      "authors": "Militante JD & Lombardini JB",
-      "year": "2002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/11953940/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "taurin"
+        "rutin"
       ],
       "research_reviews": []
     },
@@ -6685,29 +4775,12 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-12062105",
-      "pmid": "12062105",
-      "title": "S-adenosylmethionine: from biochemistry to clinical use",
-      "authors": "Mischoulon D et al.",
+      "id": "pmid-12020172",
+      "pmid": "12020172",
+      "title": "Panax ginseng: a systematic review of adverse effects and drug interactions",
+      "authors": "Coon et al.",
       "year": "2002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/12062105/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "same"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-12113659",
-      "pmid": "12113659",
-      "title": "Panax ginseng: a systematic review of adverse effects",
-      "authors": "Coon JT et al.",
-      "year": "2002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/12113659/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12020172/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",
@@ -6715,57 +4788,6 @@
       "effect_size": "",
       "ingredients": [
         "ginseng"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-12204876",
-      "pmid": "12204876",
-      "title": "Safety concerns with herbo-mineral products",
-      "authors": "Ernst E",
-      "year": "2002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/12204876/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "shilajit"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-12408439",
-      "pmid": "12408439",
-      "title": "GABA and the blood-brain barrier",
-      "authors": "Shyamaladevi N et al.",
-      "year": "2002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/12408439/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "gaba"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-12472620",
-      "pmid": "12472620",
-      "title": "Effect of Lepidium meyenii (MACA) on sexual desire and its absent relationship",
-      "authors": "Gonzales GF et al.",
-      "year": "2002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/12472620/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "maca"
       ],
       "research_reviews": []
     },
@@ -6782,40 +4804,6 @@
       "coi": "",
       "effect_size": "",
       "ingredients": [],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-11285671",
-      "pmid": "11285671",
-      "title": "Flavonoids including rutin in chronic disease prevention",
-      "authors": "Nijveldt RJ et al.",
-      "year": "2001",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/11285671/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "rutin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-11448538",
-      "pmid": "11448538",
-      "title": "Rutin and vascular health",
-      "authors": "Guardia T et al.",
-      "year": "2001",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/11448538/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "rutin"
-      ],
       "research_reviews": []
     },
     {
@@ -6868,23 +4856,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-10837282",
-      "pmid": "10837282",
-      "title": "Long-term cholesterol-lowering effects of psyllium as an adjunct to diet therapy",
-      "authors": "Anderson JW et al.",
-      "year": "2000",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/10837282/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "flohsamenschalen"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-11081987",
       "pmid": "11081987",
       "title": "Rhodiola rosea in stress induced fatigue--a double blind cross-over study of",
@@ -6898,23 +4869,6 @@
       "effect_size": "",
       "ingredients": [
         "rhodiola"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-10485337",
-      "pmid": "10485337",
-      "title": "Vitamin E: function and metabolism",
-      "authors": "Brigelius-Flohe R & Traber MG",
-      "year": "1999",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/10485377/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-e"
       ],
       "research_reviews": []
     },
@@ -6953,38 +4907,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-9727088",
-      "pmid": "9727088",
-      "title": "5-Hydroxytryptophan: a clinically-effective serotonin precursor",
-      "authors": "Birdsall TC",
-      "year": "1998",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/9727088/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "5-htp"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-9200320",
-      "pmid": "9200320",
-      "title": "Glutamine-supplemented parenteral nutrition improves survival and reduces septic",
-      "authors": "Garrel D et al.",
-      "year": "1997",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/9200320/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-9294217",
       "pmid": "9294217",
       "title": "Broccoli sprouts: an exceptionally rich source of inducers of enzymes that",
@@ -6998,23 +4920,6 @@
       "effect_size": "",
       "ingredients": [
         "sulforaphan"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-8595692",
-      "pmid": "8595692",
-      "title": "Pantothenic acid",
-      "authors": "Plesofsky-Vig N",
-      "year": "1996",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/8595692/",
-      "study_type": "Case Report",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-b5"
       ],
       "research_reviews": []
     },
@@ -7036,40 +4941,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-8644688",
-      "pmid": "8644688",
-      "title": "High-dose vitamin C supplementation increases the Km of ascorbate",
-      "authors": "Levine M et al.",
-      "year": "1996",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/8644688/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-c"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-8874839",
-      "pmid": "8874839",
-      "title": "Inositol treatment of obsessive-compulsive disorder",
-      "authors": "Fux M et al.",
-      "year": "1996",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/8874839/",
-      "study_type": "Clinical Trial",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "myo-inositol"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-8875519",
       "pmid": "8875519",
       "title": "Zinc supplementation and testosterone levels",
@@ -7083,23 +4954,6 @@
       "effect_size": "",
       "ingredients": [
         "zink"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-8906638",
-      "pmid": "8906638",
-      "title": "Trace elements in human nutrition",
-      "authors": "Nielsen FH",
-      "year": "1996",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/8906638/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "molybdaen"
       ],
       "research_reviews": []
     },
@@ -7153,74 +5007,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-7737166",
-      "pmid": "7737166",
-      "title": "Tyrosine improves cognitive performance and reduces blood pressure in cadets",
-      "authors": "Deijen JB, Orlebeke JF",
-      "year": "1994",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/7737166/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "l-tyrosin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-7933422",
-      "pmid": "7933422",
-      "title": "Dietary carotenoids, vitamins A, C, and E, and advanced age-related macular",
-      "authors": "Seddon JM et al.",
-      "year": "1994",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/7933422/",
-      "study_type": "Multicenter Study",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "lutein-zeaxanthin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-7940540",
-      "pmid": "7940540",
-      "title": "Acute tyrosine/phenylalanine depletion reduces dopamine activity",
-      "authors": "Shurtleff D et al.",
-      "year": "1994",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/7940540/",
-      "study_type": "Clinical Trial",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "l-tyrosin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-8091226",
-      "pmid": "8091226",
-      "title": "Cancer chemopreventive activity of sulforaphane, a natural product derived",
-      "authors": "Zhang Y et al.",
-      "year": "1994",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/8091226/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "sulforaphan"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-1362956",
       "pmid": "1362956",
       "title": "The systemic availability of oral glutathione",
@@ -7255,13 +5041,45 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-11310919",
-      "pmid": "11310919",
-      "title": "Conditionally essential nutrients: cysteine, taurine, tyrosine, arginine,",
-      "authors": "Lacey JM, Wilmore DW",
+      "id": "pmid-2080048",
+      "pmid": "2080048",
+      "title": "Is glutamine a conditionally essential amino acid?",
+      "authors": "Lacey et al.",
       "year": "1990",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/11310919/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2080048/",
       "study_type": "Case Report",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-2681512",
+      "pmid": "2681512",
+      "title": "Nutritional iron requirements and food iron absorption",
+      "authors": "Bothwell et al.",
+      "year": "1989",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2681512/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "eisen"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-2934746",
+      "pmid": "2934746",
+      "title": "Analgesic properties of enkephalinase inhibitors: animal and human studies",
+      "authors": "Ehrenpreis et al.",
+      "year": "1985",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2934746/",
+      "study_type": "",
       "evidence_quality": "low",
       "n": "",
       "coi": "",
@@ -7284,38 +5102,6 @@
       "ingredients": [
         "piperin"
       ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-6528626",
-      "pmid": "6528626",
-      "title": "L-tyrosine to alleviate the effects of stress?",
-      "authors": "Reinstein DK et al.",
-      "year": "1984",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/6528626/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "l-tyrosin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-6128034",
-      "pmid": "6128034",
-      "title": "D-phenylalanine and other enkephalinase inhibitors as pharmacological agents",
-      "authors": "Ehrenpreis S",
-      "year": "1982",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/6128034/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -7366,12 +5152,12 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-4424806",
-      "pmid": "4424806",
-      "title": "Effects of tryptophan and 5-hydroxytryptophan on sleep stages in healthy subjects",
-      "authors": "Hartmann E et al.",
-      "year": "1974",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/4424806/",
+      "id": "pmid-4105646",
+      "pmid": "4105646",
+      "title": "Effects of 5-hydroxytryptophan on the sleep of normal human subjects",
+      "authors": "Wyatt et al.",
+      "year": "1971",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4105646/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",

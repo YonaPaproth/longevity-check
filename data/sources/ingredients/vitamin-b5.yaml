@@ -25,12 +25,6 @@ efsa_notes:
     In the EU, pantothenic acid is approved for claims regarding normal energy metabolism, mental performance, and synthesis of steroid hormones, vitamin D, and neurotransmitters. These approved claims do not imply that higher doses provide additional benefit beyond normal requirements.
 
 key_studies:
-  - ref: pmid-8595692
-    finding:
-      de: >-
-        Review zu Biochemie und Bedarf: Pantothensäure ist als Vorstufe von Coenzym A fundamental für den Stoffwechsel, echter Mangel aber selten.
-      en: >-
-        Review of biochemistry and requirements: Pantothenic acid is fundamental as a CoA precursor for metabolism, but genuine deficiency is rare in the general population.
   - ref: study-vitamin-b5-ods-nih-2022
     finding:
       de: >-
@@ -164,11 +158,6 @@ relations:
     target: efsa-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-8595692
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:8595692"
   - relation: basiert_auf_studie
     target: studie-22004061
     direction: outgoing

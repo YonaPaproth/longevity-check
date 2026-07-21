@@ -33,18 +33,6 @@ key_studies:
         RCT (n=4.203): Lutein+Zeaxanthin reduzierten das Risiko einer AMD-Progression um 25 % und ersetzten beta-Carotin im AREDS-Supplement (Lungenkrebs-Risiko bei Rauchern). Goldstandard-Studie.
       en: >-
         RCT (n=4,203): Lutein + zeaxanthin reduced progression to advanced AMD by 25%. They replaced beta-carotene in the original AREDS formulation (which increased lung cancer risk in smokers). Gold-standard supplement trial.
-  - ref: pmid-7933422
-    finding:
-      de: >-
-        Große Kohortenstudie: Höchste Lutein/Zeaxanthin-Aufnahme assoziiert mit 43 % niedrigerem AMD-Risiko. Grundlage für AREDS2-Studie.
-      en: >-
-        Large prospective cohort study: participants with the highest dietary lutein and zeaxanthin intake had 43% lower risk of developing AMD compared to the lowest intake quartile. Provided foundational evidence for AREDS2.
-  - ref: pmid-20660279
-    finding:
-      de: >-
-        RCT: Lutein+Zeaxanthin war mit höheren Werten verbundenen Makulapigment-Optische Dichte (MPOD) signifikant und war mit Veränderungen verbundenen Kontrastsehen, Blendempfindlichkeit und Erholung nach Lichtexposition.
-      en: >-
-        RCT: Lutein and zeaxanthin supplementation significantly increased macular pigment optical density (MPOD). Higher MPOD correlated with measurably improved contrast sensitivity, reduced glare sensitivity, and faster visual recovery after light exposure.
   - ref: pmid-31321376
     finding:
       de: >-
@@ -270,16 +258,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:23644932"
-  - relation: basiert_auf_studie
-    target: studie-7933422
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:7933422"
-  - relation: basiert_auf_studie
-    target: studie-20660279
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:20660279"
   - relation: basiert_auf_studie
     target: studie-31321376
     direction: outgoing

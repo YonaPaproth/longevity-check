@@ -31,12 +31,6 @@ key_studies:
         Review: Schisandra passt adaptogen-theoretisch gut, klinische Daten bleiben jedoch begrenzt.
       en: >-
         Review: Schisandra fits well within adaptogen theory, but clinical data remains limited.
-  - ref: pmid-28724448
-    finding:
-      de: >-
-        Präklinisch und traditionell interessant, klinische Evidenz bei Supplements aber nicht stark.
-      en: >-
-        Preclinically and traditionally interesting, but clinical evidence in supplement studies is not strong.
   - ref: pmid-20109491
     finding:
       de: >-
@@ -129,13 +123,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:18515024"
-  - relation: basiert_auf_studie
-    target: studie-28724448
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:28724448"
-  - relation: basiert_auf_studie
-    target: studie-20109491
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:20109491"

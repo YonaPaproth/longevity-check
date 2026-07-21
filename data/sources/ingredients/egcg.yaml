@@ -33,12 +33,6 @@ key_studies:
         Umfassender Review: Grüntee-Catechine zeigen in epidemiologischen Studien inverse Korrelation mit Herz-Kreislauf-Erkrankungen, Stoffwechselauffälligkeiten und einzelnen Krebsarten. Kausalität unklar.
       en: >-
         Comprehensive review: green tea catechins show inverse correlation with cardiovascular disease, metabolic dysfunction, and certain cancers in epidemiological studies. Causality remains unclear.
-  - ref: pmid-19007524
-    finding:
-      de: >-
-        Review: EGCG hemmt COMT, aktiviert AMPK und stimuliert Fettoxidation. Kalorienverbrauch steigt moderat (~80 kcal/Tag bei 300 mg EGCG+Koffein).
-      en: >-
-        Review: EGCG inhibits COMT, activates AMPK, and stimulates fat oxidation. Energy expenditure increases modestly (~80 kcal/day at 300 mg EGCG+caffeine).
   - ref: pmid-21715508
     finding:
       de: >-
@@ -272,17 +266,7 @@ relations:
     confidence: 0.9
     source: "pmid:32635492"
   - relation: basiert_auf_studie
-    target: studie-19007524
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:19007524"
-  - relation: basiert_auf_studie
     target: studie-21715508
     direction: outgoing
     confidence: 0.9
     source: "pmid:21715508"
-  - relation: basiert_auf_studie
-    target: studie-29684494
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:29684494"

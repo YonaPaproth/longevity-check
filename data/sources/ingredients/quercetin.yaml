@@ -26,12 +26,6 @@ efsa_notes:
     EFSA has not approved any health claims for quercetin. High-dose supplements (500+ mg) are treated inconsistently under EU regulations; quercetin is not classified as a Novel Food. Marketing claims related to senolytics or longevity have no regulatory approval basis.
 
 key_studies:
-  - ref: pmid-29988130
-    finding:
-      de: >-
-        Erste Humanpilot-Studie mit D+Q (Dasatinib + Quercetin): Reduktion seneszenter Zellen im Fettgewebe bei n=9 Personen mit diabetischer Nierenerkrankung. Dasatinib ist ein Krebsmedikament. Quercetin allein wurde nicht getestet.
-      en: >-
-        First human pilot study with D+Q (Dasatinib + Quercetin): reduction of senescent cells in adipose tissue in n=9 individuals with diabetic kidney disease. Dasatinib is a prescription cancer drug. Quercetin alone was not tested.
   - ref: pmid-30616998
     finding:
       de: >-
@@ -44,18 +38,6 @@ key_studies:
         Review der Mayo-Klinik-Gruppe: Zusammenfassung der Senolytik-Evidenz. Vielversprechend in Tiermodellen, aber Humanstudien in sehr früher Phase und nur mit D+Q-Kombination.
       en: >-
         Mayo Clinic group review: summary of senolytic evidence. Promising in animal models, but human studies are in very early phase and all positive signals involve only the D+Q combination, not quercetin alone.
-  - ref: pmid-19402938
-    finding:
-      de: >-
-        Doppelblind-Crossover-RCT (n=93): 150 mg Quercetin/Tag über 6 Wochen reduzierte systolischen Blutdruck signifikant (~3 mmHg) und oxidiertes LDL bei übergewichtigen Hochrisikopersonen.
-      en: >-
-        Double-blind crossover RCT (n=93): 150 mg quercetin/day for 6 weeks significantly reduced systolic blood pressure (~3 mmHg) and oxidized LDL in overweight, high-risk individuals.
-  - ref: pmid-27405231
-    finding:
-      de: >-
-        Meta-Analyse (7 RCTs): Quercetin-Supplementierung senkte systolischen Blutdruck um ~3,09 mmHg. Effekte nur bei ≥500 mg/Tag und &gt;8 Wochen signifikant. Effektgröße: klein.
-      en: >-
-        Meta-analysis (7 RCTs, n=587): quercetin supplementation reduced systolic blood pressure by ~3.09 mmHg. Effects were significant only at ≥500 mg/day and >8 weeks duration. Effect size: small.
   - ref: pmid-42435069
     finding:
       de: >-
@@ -318,11 +300,6 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-29988130
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:29988130"
-  - relation: basiert_auf_studie
     target: studie-30616998
     direction: outgoing
     confidence: 0.9
@@ -332,16 +309,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:32233013"
-  - relation: basiert_auf_studie
-    target: studie-19402938
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:19402938"
-  - relation: basiert_auf_studie
-    target: studie-27405231
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:27405231"
   - relation: basiert_auf_studie
     target: studie-42435069
     direction: outgoing

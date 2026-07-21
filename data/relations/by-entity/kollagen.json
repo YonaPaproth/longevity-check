@@ -67,14 +67,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-27852613",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:27852613",
-      "evidence_level": "human_rct"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-32436266",
       "direction": "outgoing",
       "confidence": 0.9,

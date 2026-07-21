@@ -25,12 +25,6 @@ efsa_notes:
     In the EU, there are no approved health claims for Reishi regarding immune support, anti-ageing research, or stress resistance.
 
 key_studies:
-  - ref: pmid-17336393
-    finding:
-      de: >-
-        Review: viele präklinische Daten, aber wenig robuste Human-Endpunkte.
-      en: >-
-        Review: abundant preclinical data, but few robust human endpoints.
   - ref: pmid-25686270
     finding:
       de: >-
@@ -123,17 +117,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-17336393
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:17336393"
-  - relation: basiert_auf_studie
     target: studie-25686270
     direction: outgoing
     confidence: 0.9
     source: "pmid:26058794"
-  - relation: basiert_auf_studie
-    target: studie-21438650
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:21438650"

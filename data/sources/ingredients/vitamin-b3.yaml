@@ -26,18 +26,6 @@ efsa_notes:
     In the EU, niacin has approved health claims for energy metabolism, mental function, skin and nervous system support. However, high-dose products may be assessed differently both regulatorily and for safety compared to standard supplements.
 
 key_studies:
-  - ref: pmid-23676243
-    finding:
-      de: >-
-        Review: Niacin war mit Veränderungen verbunden Lipidmarker, klinischer Zusatznutzen in der modernen Statin-Ära ist aber begrenzt und Nebenwirkungen sind häufig.
-      en: >-
-        Review: Niacin was associated with lipid marker changes, but clinical added benefit in the modern statin era is limited and side effects are common.
-  - ref: pmid-25014686
-    finding:
-      de: >-
-        Große Studie: Trotz günstiger Effekte auf HDL/Triglyceride kein überzeugender klinischer Vorteil, dafür mehr Nebenwirkungen.
-      en: >-
-        Large trial: Despite favorable effects on HDL and triglycerides, no convincing clinical advantage was demonstrated, with more side effects observed.
   - ref: pmid-18454811
     finding:
       de: >-
@@ -202,18 +190,3 @@ relations:
     target: efsa-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-23676243
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:23676243"
-  - relation: basiert_auf_studie
-    target: studie-25014686
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:25014686"
-  - relation: basiert_auf_studie
-    target: studie-18454811
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:18454811"

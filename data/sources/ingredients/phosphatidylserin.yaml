@@ -32,12 +32,6 @@ key_studies:
         RCT (n=78, Ältere mit Gedächtnisbeschwerden): 300 mg Soja-PS/Tag über 6 Monate war mit Veränderungen verbundene Gedächtnisfunktion signifikant, besonders Gesichtserkennung und -namen.
       en: >-
         RCT (n=78, elderly with memory complaints): 300 mg soy-PS/day for 6 months was associated with significant improvements in memory function, particularly face recognition and name recall.
-  - ref: pmid-19966578
-    finding:
-      de: >-
-        RCT (n=157, 60–90 Jahre): PS war mit Veränderungen verbundene Kurzzeitgedächtnis und Lernfähigkeit. Stärkste Effekte bei Personen mit höherem Baseline-Gedächtnisdefizit.
-      en: >-
-        RCT (n=157, aged 60–90): PS was associated with improvements in short-term memory and learning capacity. Strongest effects in participants with higher baseline memory deficits.
   - ref: pmid-25933483
     finding:
       de: >-
@@ -212,17 +206,7 @@ relations:
     confidence: 0.9
     source: "pmid:20523044"
   - relation: basiert_auf_studie
-    target: studie-19966578
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:19966578"
-  - relation: basiert_auf_studie
     target: studie-25933483
     direction: outgoing
     confidence: 0.9
     source: "pmid:25933483"
-  - relation: basiert_auf_studie
-    target: studie-19861941
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:19861941"

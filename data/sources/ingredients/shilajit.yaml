@@ -31,12 +31,6 @@ key_studies:
         Kleine Humanstudien mit Signalen, aber keine breite robuste Evidenz.
       en: >-
         Small human studies with signals, but no broad robust evidence base.
-  - ref: pmid-23717060
-    finding:
-      de: >-
-        Review: biochemisch interessant, aber die Datenlage bleibt vorläufig.
-      en: >-
-        Review: biochemically interesting, but the evidence base remains preliminary.
   - ref: pmid-12204876
     finding:
       de: >-
@@ -107,13 +101,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:26395129"
-  - relation: basiert_auf_studie
-    target: studie-23717060
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:23717060"
-  - relation: basiert_auf_studie
-    target: studie-12204876
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:12204876"

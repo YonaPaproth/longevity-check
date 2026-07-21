@@ -39,18 +39,6 @@ key_studies:
         Review: Hauptursachen in Deutschland – vegane/vegetarische Ernährung, atrophische Gastritis (Alter), Metformin-Einnahme. Methylmalonsäure ist der sensitivste diagnostische Marker.
       en: >-
         Review: main causes include vegan/vegetarian diet, atrophic gastritis (age-related), and metformin use. Methylmalonic acid is the most sensitive diagnostic marker.
-  - ref: pmid-21205692
-    finding:
-      de: >-
-        Metaanalyse: B-Vitamine (inkl. B12) senken Homocystein signifikant, aber Homocysteinreduktion führt nicht konsistent zu weniger Herzinfarkten – wichtiger umstrittener Befund.
-      en: >-
-        Meta-analysis: B vitamins (including B12) significantly lower homocysteine, but homocysteine reduction does not consistently translate into fewer heart attacks — an important and contested finding.
-  - ref: pmid-22238392
-    finding:
-      de: >-
-        Kohortenstudie (USA, NHANES): Metformin-Nutzer hatten signifikant niedrigere B12-Spiegel. Bei mehr als 3 Jahren Einnahme war das Mangelrisiko 4,3-fach erhöht.
-      en: >-
-        Cohort study (US, NHANES): metformin users had significantly lower B12 levels. After more than 3 years of use, deficiency risk was 4.3-fold higher.
   - ref: pmid-20838622
     finding:
       de: >-
@@ -346,16 +334,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:18489294"
-  - relation: basiert_auf_studie
-    target: studie-21205692
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:21205692"
-  - relation: basiert_auf_studie
-    target: studie-22238392
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:22238392"
   - relation: basiert_auf_studie
     target: studie-20838622
     direction: outgoing

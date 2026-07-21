@@ -25,18 +25,6 @@ efsa_notes:
     There are no approved health claims for GABA in the EU regarding stress, sleep, or relaxation.
 
 key_studies:
-  - ref: pmid-26797602
-    finding:
-      de: >-
-        Kleine Humanstudien deuten auf Stress- und Schlaf-Effekte hin, aber die Datenbasis ist dünn.
-      en: >-
-        Small human studies suggest potential stress and sleep effects, but the evidence base is limited.
-  - ref: pmid-12408439
-    finding:
-      de: >-
-        Die BBB-Frage ist zentral: orale GABA-Wirkung im Gehirn bleibt biologisch umstritten.
-      en: >-
-        The blood-brain barrier question is central: whether orally administered GABA reaches the brain in meaningful amounts remains biologically controversial.
   - ref: pmid-26500584
     finding:
       de: >-
@@ -158,16 +146,6 @@ relations:
     target: efsa-nicht-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-26797602
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:26797602"
-  - relation: basiert_auf_studie
-    target: studie-12408439
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:12408439"
   - relation: basiert_auf_studie
     target: studie-26500584
     direction: outgoing

@@ -25,12 +25,6 @@ efsa_notes:
     For betaine in the EU, only narrow, specific claims regarding homocysteine metabolism under defined conditions are permitted. Broad healthy aging, performance, or liver claims lack regulatory approval.
 
 key_studies:
-  - ref: pmid-12514275
-    finding:
-      de: >-
-        TMG war mit niedrigeren Werten verbundene Homocystein in Humanstudien zuverlässig. Ob das automatisch klinische Vorteile erzeugt, bleibt offen.
-      en: >-
-        TMG was reliably associated with lower homocysteine levels in human studies. Whether this automatically produces clinical benefits remains unclear.
   - ref: pmid-15321791
     finding:
       de: >-
@@ -172,11 +166,6 @@ relations:
     target: efsa-nicht-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-12514275
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:12514275"
   - relation: basiert_auf_studie
     target: studie-15321791
     direction: outgoing

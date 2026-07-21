@@ -25,18 +25,6 @@ efsa_notes:
     In the EU, potassium health claims for normal blood pressure, muscle function and nervous system are authorised. Due to potential risks, potassium is subject to stricter regulatory and practical oversight than most other minerals.
 
 key_studies:
-  - ref: pmid-23635871
-    finding:
-      de: >-
-        WHO-nahe Meta-Analyse: Höhere Kaliumzufuhr war mit niedrigeren Werten verbunden Blutdruck, besonders bei Menschen mit Hypertonie.
-      en: >-
-        WHO-adjacent meta-analysis: higher potassium intake was associated with lower blood pressure values, especially in individuals with hypertension.
-  - ref: pmid-25159881
-    finding:
-      de: >-
-        Die optimale Kaliumzufuhr hängt vom Kontext ab; Extreme sind nicht automatisch besser.
-      en: >-
-        Optimal potassium intake is context-dependent; extreme levels are not automatically beneficial.
   - ref: study-kalium-ods-nih-2022
     finding:
       de: >-
@@ -157,13 +145,3 @@ relations:
     target: efsa-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-23635871
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:23635871"
-  - relation: basiert_auf_studie
-    target: studie-25159881
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:25159881"

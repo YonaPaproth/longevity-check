@@ -130,13 +130,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-27559846",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:27559846"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-23384445",
       "direction": "outgoing",
       "confidence": 0.9,

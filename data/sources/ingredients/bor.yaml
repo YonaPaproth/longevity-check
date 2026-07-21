@@ -135,11 +135,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:42313117"
-  - relation: basiert_auf_studie
-    target: studie-21873346
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:21873346"
   - relation: hat_interaktion_mit
     target: eisen
     direction: incoming

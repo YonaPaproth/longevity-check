@@ -26,12 +26,6 @@ efsa_notes:
     EFSA has approved health claims for iodine: normal cognitive function, normal energy metabolism, normal thyroid function, normal nervous system function, normal growth in children. Daily requirement: 150 µg (adults), 200 µg (pregnant women). Upper tolerable intake: 600 µg/day.
 
 key_studies:
-  - ref: pmid-22187108
-    finding:
-      de: >-
-        Review: Deutschland hat trotz Jodsalz-Programm weiterhin unzureichende Jodversorgung (medianer Urin-Jodgehalt 108 µg/L – Zielwert WHO: >150). Schwangere besonders betroffen.
-      en: >-
-        Review: Germany maintains insufficient iodine supply despite its salt iodization program (median urinary iodine 108 µg/L – WHO target: >150). Pregnant women are particularly affected.
   - ref: pmid-16400058
     finding:
       de: >-
@@ -248,11 +242,6 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-22187108
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:22187108"
-  - relation: basiert_auf_studie
     target: studie-16400058
     direction: outgoing
     confidence: 0.9
@@ -262,11 +251,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:22536526"
-  - relation: basiert_auf_studie
-    target: studie-24891972
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:24891972"
   - relation: hat_interaktion_mit
     target: sulforaphan
     direction: incoming

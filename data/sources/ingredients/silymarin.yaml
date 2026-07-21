@@ -31,12 +31,6 @@ key_studies:
         Review: potenziell nützlich in bestimmten Leberkontexten, aber heterogene klinische Evidenz.
       en: >-
         Review: potentially useful in certain liver contexts, but heterogeneous clinical evidence.
-  - ref: pmid-28137772
-    finding:
-      de: >-
-        Biologisch plausibel, aber klinischer Nutzen ist nicht in allen Settings überzeugend gezeigt.
-      en: >-
-        Biologically plausible, but clinical benefit is not convincingly demonstrated in all settings.
   - ref: pmid-21738288
     finding:
       de: >-
@@ -155,13 +149,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:29562618"
-  - relation: basiert_auf_studie
-    target: studie-28137772
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:28137772"
-  - relation: basiert_auf_studie
-    target: studie-21738288
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:21738288"

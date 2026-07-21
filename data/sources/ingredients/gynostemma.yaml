@@ -26,12 +26,6 @@ efsa_notes:
     No EFSA Health Claims approved. Available in Europe as herbal tea and dietary supplement. Regulatory status straightforward due to traditional food classification.
 
 key_studies:
-  - ref: pmid-21062282
-    finding:
-      de: >-
-        Gynostemma-Extrakt aktivierte AMPK in Fett- und Muskelzellen, vergleichbar mit Metformin – ohne bekannte Nebenwirkungen des Arzneimittels.
-      en: >-
-        Gynostemma extract activated AMPK in adipose and skeletal muscle cells in a dose-dependent manner, with effects comparable to metformin but without the drug's known gastrointestinal side effects.
   - ref: pmid-23804546
     finding:
       de: >-
@@ -199,17 +193,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-21062282
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:21062282"
-  - relation: basiert_auf_studie
     target: studie-23804546
     direction: outgoing
     confidence: 0.9
     source: "pmid:22784345"
-  - relation: basiert_auf_studie
-    target: studie-19628196
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:19628196"

@@ -31,12 +31,6 @@ key_studies:
         RCT (n=24): GlyNAC bei älteren Erwachsenen stellte Glutathion-Spiegel auf jugendliche Werte wieder her und war mit Veränderungen verbundene Mitochondrienfunktion, Entzündungsmarker, Muskelkraft und Kognition.
       en: >-
         RCT (n=24): GlyNAC in older adults restored glutathione levels to youthful values and was associated with improvements in mitochondrial function, inflammatory markers, muscle strength, and cognition.
-  - ref: pmid-34741443
-    finding:
-      de: >-
-        Follow-up-Studie: GlyNAC war mit Veränderungen verbundene Mitochondrien-Energiestoffwechsel, Körperzusammensetzung (weniger Fettmasse) und Gehgeschwindigkeit bei älteren Menschen.
-      en: >-
-        Follow-up study: GlyNAC was associated with improvements in mitochondrial energy metabolism, body composition (reduced fat mass), and walking speed in older adults.
   - ref: pmid-35268089
     finding:
       de: >-
@@ -196,11 +190,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:33783984"
-  - relation: basiert_auf_studie
-    target: studie-34741443
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:34741443"
   - relation: basiert_auf_studie
     target: studie-35268089
     direction: outgoing

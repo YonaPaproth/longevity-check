@@ -31,12 +31,6 @@ key_studies:
         Review: Thiaminmangel ist klinisch relevant und oft unterdiagnostiziert. Besonders gefährdet sind Menschen mit Alkoholmissbrauch, Mangelernährung oder war mit höheren Werten verbundenem metabolischem Bedarf.
       en: >-
         Review: Thiamine deficiency is clinically significant and frequently underdiagnosed. High-risk populations include individuals with alcohol use disorder, malnutrition, or metabolic demands exceeding dietary intake.
-  - ref: pmid-22489203
-    finding:
-      de: >-
-        Review: Auch in westlichen Ländern kommt funktioneller B1-Mangel bei Risikogruppen vor, etwa nach bariatrischer Chirurgie oder bei chronischer Fehlernährung.
-      en: >-
-        Review: Functional B1 deficiency occurs in Western populations within at-risk groups, particularly following bariatric surgery or with chronic dietary insufficiency.
   - ref: pmid-42453365
     finding:
       de: >-
@@ -159,11 +153,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:33939178"
-  - relation: basiert_auf_studie
-    target: studie-22489203
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:22489203"
   - relation: basiert_auf_studie
     target: studie-42453365
     direction: outgoing

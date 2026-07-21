@@ -198,11 +198,6 @@ relations:
     direction: outgoing
     confidence: 0.8
     source: "pmid:34419735"
-  - relation: basiert_auf_studie
-    target: studie-22552758
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:22552758"
   - relation: wird_eingesetzt_fuer
     target: sexuelle-dysfunktion
     direction: outgoing

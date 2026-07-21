@@ -31,12 +31,6 @@ key_studies:
         Kleine Datenbasis mit Hinweisen auf war mit Veränderungen verbundene androgenbezogene Marker in bestimmten Gruppen.
       en: >-
         Small sample with signals for androgen-related markers in specific subgroups, but limited generalizability and modest effect sizes.
-  - ref: pmid-23754792
-    finding:
-      de: >-
-        Kleine Studie mit Effekten auf Stressparameter und Stimmung.
-      en: >-
-        Small study reporting effects on cortisol and mood parameters, but limited sample and single-centre design.
   - ref: pmid-22971603
     finding:
       de: >-
@@ -121,13 +115,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:23273445"
-  - relation: basiert_auf_studie
-    target: studie-23754792
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:23754792"
-  - relation: basiert_auf_studie
-    target: studie-22971603
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:22971603"

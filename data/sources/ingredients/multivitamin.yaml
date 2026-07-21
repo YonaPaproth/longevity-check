@@ -27,12 +27,6 @@ efsa_notes:
     Health claims for individual vitamins and minerals are approved (e.g. 'Vitamin C contributes to the normal function of the immune system'). No specific claims for multivitamin combination products.
 
 key_studies:
-  - ref: pmid-23162860
-    finding:
-      de: >-
-        RCT (n=14.641, 11 Jahre): Tägliches Multivitamin reduzierte Gesamtkrebsrisiko um 8 % (HR 0,92). Kein Effekt auf Herz-Kreislauf-Erkrankungen oder Mortalität.
-      en: >-
-        RCT (n=14,641, 11 years): Daily multivitamin reduced total cancer risk by 8% (HR 0.92). No effect on cardiovascular disease or mortality.
   - ref: pmid-38070683
     finding:
       de: >-
@@ -131,11 +125,6 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-23162860
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:23162860"
-  - relation: basiert_auf_studie
     target: studie-38070683
     direction: outgoing
     confidence: 0.9
@@ -145,8 +134,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:24490268"
-  - relation: basiert_auf_studie
-    target: studie-35150542
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:35150542"

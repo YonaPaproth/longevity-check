@@ -31,12 +31,6 @@ key_studies:
         Übersicht zu Funktionen, Bedarf und Risiken. In westlichen Ernährungsumgebungen ist eher zu viel als zu wenig ein Thema.
       en: >-
         Overview of functions, requirements and risks. In Western dietary environments, excess intake is a greater concern than deficiency.
-  - ref: pmid-24500942
-    finding:
-      de: >-
-        Review: Phosphor ist essenziell, aber hohe Aufnahme aus stark verarbeiteten Lebensmitteln kann problematisch sein.
-      en: >-
-        Review: Phosphorus is essential, but high intake from highly processed foods can be problematic.
   - ref: pmid-22510091
     finding:
       de: >-
@@ -182,13 +176,3 @@ relations:
     target: efsa-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-24500942
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:24500942"
-  - relation: basiert_auf_studie
-    target: studie-22510091
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:22510091"

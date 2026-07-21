@@ -34,12 +34,6 @@ key_studies:
         RCT (n=69): 2,5–5 g hydrolysiertes Kollagen/Tag über 8 Wochen verbesserte Hautelastizität und Feuchtigkeit signifikant gegenüber Placebo.
       en: >-
         RCT (n=69): 2.5–5 g hydrolyzed collagen/day for 8 weeks significantly improved skin elasticity and moisture compared to placebo.
-  - ref: pmid-27852613
-    finding:
-      de: >-
-        24-wöchige RCT bei Sportlern mit Knieschmerzen: Kollagenhydrolysat (10 g/Tag) reduzierte Schmerzen signifikant.
-      en: >-
-        24-week RCT in athletes with knee pain: collagen hydrolysate (10 g/day) significantly reduced pain scores compared to placebo.
   - ref: pmid-32436266
     finding:
       de: >-
@@ -201,11 +195,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:23949208"
-  - relation: basiert_auf_studie
-    target: studie-27852613
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:27852613"
   - relation: basiert_auf_studie
     target: studie-32436266
     direction: outgoing

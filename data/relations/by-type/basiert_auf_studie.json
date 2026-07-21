@@ -1,6 +1,6 @@
 {
   "type": "basiert_auf_studie",
-  "count": 415,
+  "count": 364,
   "relations": [
     {
       "subject": "5-htp",
@@ -52,12 +52,6 @@
     },
     {
       "subject": "akg",
-      "target": "studie-24828042",
-      "confidence": 0.9,
-      "source": "pmid:24828042"
-    },
-    {
-      "subject": "akg",
       "target": "studie-38088214",
       "confidence": 0.9,
       "source": "pmid:38088214"
@@ -85,12 +79,6 @@
       "target": "studie-40126282",
       "confidence": 0.9,
       "source": "pmid:40126282"
-    },
-    {
-      "subject": "alpha-gpc",
-      "target": "studie-18461736",
-      "confidence": 0.9,
-      "source": "pmid:18461736"
     },
     {
       "subject": "alpha-gpc",
@@ -193,18 +181,6 @@
       "target": "studie-22349894",
       "confidence": 0.9,
       "source": "pmid:21207795"
-    },
-    {
-      "subject": "astaxanthin",
-      "target": "studie-22428137",
-      "confidence": 0.9,
-      "source": "pmid:22428137"
-    },
-    {
-      "subject": "astaxanthin",
-      "target": "studie-20637008",
-      "confidence": 0.9,
-      "source": "pmid:20637008"
     },
     {
       "subject": "astaxanthin",
@@ -578,12 +554,6 @@
     },
     {
       "subject": "eisen",
-      "target": "studie-27880062",
-      "confidence": 0.9,
-      "source": "pmid:27880062"
-    },
-    {
-      "subject": "eisen",
       "target": "studie-42163863",
       "confidence": 0.9,
       "source": "pmid:42163863"
@@ -650,18 +620,6 @@
     },
     {
       "subject": "flohsamenschalen",
-      "target": "studie-10837282",
-      "confidence": 0.9,
-      "source": "pmid:10837282"
-    },
-    {
-      "subject": "flohsamenschalen",
-      "target": "studie-25743043",
-      "confidence": 0.9,
-      "source": "pmid:25743043"
-    },
-    {
-      "subject": "flohsamenschalen",
       "target": "studie-37163454",
       "confidence": 0.9,
       "source": "pmid:37163454"
@@ -701,18 +659,6 @@
       "target": "studie-41249370",
       "confidence": 0.9,
       "source": "pmid:41249370"
-    },
-    {
-      "subject": "gaba",
-      "target": "studie-26797602",
-      "confidence": 0.9,
-      "source": "pmid:26797602"
-    },
-    {
-      "subject": "gaba",
-      "target": "studie-12408439",
-      "confidence": 0.9,
-      "source": "pmid:12408439"
     },
     {
       "subject": "gaba",
@@ -794,12 +740,6 @@
     },
     {
       "subject": "glutathion",
-      "target": "studie-24494129",
-      "confidence": 0.9,
-      "source": "pmid:24494129"
-    },
-    {
-      "subject": "glutathion",
       "target": "studie-28853742",
       "confidence": 0.9,
       "source": "pmid:29062122"
@@ -833,12 +773,6 @@
       "target": "studie-33783984",
       "confidence": 0.9,
       "source": "pmid:33783984"
-    },
-    {
-      "subject": "glynac",
-      "target": "studie-34741443",
-      "confidence": 0.9,
-      "source": "pmid:34741443"
     },
     {
       "subject": "glynac",
@@ -944,12 +878,6 @@
     },
     {
       "subject": "inulin",
-      "target": "studie-24299756",
-      "confidence": 0.9,
-      "source": "pmid:24299756"
-    },
-    {
-      "subject": "inulin",
       "target": "studie-27492975",
       "confidence": 0.9,
       "source": "pmid:28298225"
@@ -997,24 +925,6 @@
       "source": "pmid:20018833"
     },
     {
-      "subject": "kalium",
-      "target": "studie-23635871",
-      "confidence": 0.9,
-      "source": "pmid:23635871"
-    },
-    {
-      "subject": "kalium",
-      "target": "studie-25159881",
-      "confidence": 0.9,
-      "source": "pmid:25159881"
-    },
-    {
-      "subject": "koffein",
-      "target": "studie-32045577",
-      "confidence": 0.9,
-      "source": "pmid:32045577"
-    },
-    {
       "subject": "koffein",
       "target": "studie-42421135",
       "confidence": 0.9,
@@ -1040,12 +950,6 @@
     },
     {
       "subject": "kollagen",
-      "target": "studie-27852613",
-      "confidence": 0.9,
-      "source": "pmid:27852613"
-    },
-    {
-      "subject": "kollagen",
       "target": "studie-32436266",
       "confidence": 0.9,
       "source": "pmid:32436266"
@@ -1064,12 +968,6 @@
     },
     {
       "subject": "kreatin",
-      "target": "studie-29704637",
-      "confidence": 0.9,
-      "source": "pmid:29704637"
-    },
-    {
-      "subject": "kreatin",
       "target": "studie-27328852",
       "confidence": 0.9,
       "source": "pmid:27328852"
@@ -1085,12 +983,6 @@
       "target": "studie-25196580",
       "confidence": 0.8,
       "source": "pmid:25196580"
-    },
-    {
-      "subject": "kupfer",
-      "target": "studie-18488400",
-      "confidence": 0.9,
-      "source": "pmid:18488400"
     },
     {
       "subject": "kupfer",
@@ -1166,12 +1058,6 @@
     },
     {
       "subject": "l-theanin",
-      "target": "studie-18681988",
-      "confidence": 0.9,
-      "source": "pmid:18681988"
-    },
-    {
-      "subject": "l-theanin",
       "target": "studie-18296328",
       "confidence": 0.9,
       "source": "pmid:18296328"
@@ -1232,24 +1118,6 @@
     },
     {
       "subject": "lion-s-mane",
-      "target": "studie-30093983",
-      "confidence": 0.9,
-      "source": "pmid:30093983"
-    },
-    {
-      "subject": "lion-s-mane",
-      "target": "studie-31413233",
-      "confidence": 0.9,
-      "source": "pmid:31413233"
-    },
-    {
-      "subject": "lion-s-mane",
-      "target": "studie-32731006",
-      "confidence": 0.9,
-      "source": "pmid:32731006"
-    },
-    {
-      "subject": "lion-s-mane",
       "target": "studie-40959699",
       "confidence": 0.9,
       "source": "pmid:40959699"
@@ -1277,18 +1145,6 @@
       "target": "studie-23644932",
       "confidence": 0.9,
       "source": "pmid:23644932"
-    },
-    {
-      "subject": "lutein-zeaxanthin",
-      "target": "studie-7933422",
-      "confidence": 0.9,
-      "source": "pmid:7933422"
-    },
-    {
-      "subject": "lutein-zeaxanthin",
-      "target": "studie-20660279",
-      "confidence": 0.9,
-      "source": "pmid:20660279"
     },
     {
       "subject": "lutein-zeaxanthin",
@@ -1367,12 +1223,6 @@
       "target": "studie-41641401",
       "confidence": 0.9,
       "source": "pmid:41641401"
-    },
-    {
-      "subject": "mangan",
-      "target": "studie-23036414",
-      "confidence": 0.9,
-      "source": "pmid:23036414"
     },
     {
       "subject": "mangan",
@@ -1457,24 +1307,6 @@
       "target": "studie-35150542",
       "confidence": 0.9,
       "source": "pmid:35150542"
-    },
-    {
-      "subject": "myo-inositol",
-      "target": "studie-22327358",
-      "confidence": 0.9,
-      "source": "pmid:22327358"
-    },
-    {
-      "subject": "myo-inositol",
-      "target": "studie-17952759",
-      "confidence": 0.9,
-      "source": "pmid:17952759"
-    },
-    {
-      "subject": "myo-inositol",
-      "target": "studie-8874839",
-      "confidence": 0.9,
-      "source": "pmid:8874839"
     },
     {
       "subject": "myo-inositol",
@@ -1688,12 +1520,6 @@
     },
     {
       "subject": "probiotika",
-      "target": "studie-27559846",
-      "confidence": 0.9,
-      "source": "pmid:27559846"
-    },
-    {
-      "subject": "probiotika",
       "target": "studie-23384445",
       "confidence": 0.9,
       "source": "pmid:23384445"
@@ -1706,27 +1532,9 @@
     },
     {
       "subject": "pterostilben",
-      "target": "studie-23992536",
-      "confidence": 0.9,
-      "source": "pmid:23992536"
-    },
-    {
-      "subject": "pterostilben",
-      "target": "studie-20562218",
-      "confidence": 0.9,
-      "source": "pmid:20562218"
-    },
-    {
-      "subject": "pterostilben",
       "target": "studie-40411697",
       "confidence": 0.9,
       "source": "pmid:40411697"
-    },
-    {
-      "subject": "quercetin",
-      "target": "studie-29988130",
-      "confidence": 0.9,
-      "source": "pmid:29988130"
     },
     {
       "subject": "quercetin",
@@ -1739,18 +1547,6 @@
       "target": "studie-41564845",
       "confidence": 0.9,
       "source": "pmid:32233013"
-    },
-    {
-      "subject": "quercetin",
-      "target": "studie-19402938",
-      "confidence": 0.9,
-      "source": "pmid:19402938"
-    },
-    {
-      "subject": "quercetin",
-      "target": "studie-27405231",
-      "confidence": 0.9,
-      "source": "pmid:27405231"
     },
     {
       "subject": "quercetin",
@@ -1769,18 +1565,6 @@
       "target": "studie-25540326",
       "confidence": 0.9,
       "source": "pmid:25540326"
-    },
-    {
-      "subject": "rapamycin",
-      "target": "studie-36789432",
-      "confidence": 0.9,
-      "source": "pmid:36789432"
-    },
-    {
-      "subject": "rapamycin",
-      "target": "studie-31346894",
-      "confidence": 0.8,
-      "source": "pmid:31346894"
     },
     {
       "subject": "rapamycin",
@@ -2074,21 +1858,9 @@
     },
     {
       "subject": "sulforaphan",
-      "target": "studie-8091226",
-      "confidence": 0.9,
-      "source": "pmid:8091226"
-    },
-    {
-      "subject": "sulforaphan",
       "target": "studie-9294217",
       "confidence": 0.9,
       "source": "pmid:9294217"
-    },
-    {
-      "subject": "sulforaphan",
-      "target": "studie-21593586",
-      "confidence": 0.9,
-      "source": "pmid:21593586"
     },
     {
       "subject": "sulforaphan",
@@ -2119,12 +1891,6 @@
       "target": "studie-11953940",
       "confidence": 0.9,
       "source": "pmid:11953940"
-    },
-    {
-      "subject": "tmg",
-      "target": "studie-12514275",
-      "confidence": 0.9,
-      "source": "pmid:12514275"
     },
     {
       "subject": "tmg",
@@ -2181,24 +1947,6 @@
       "source": "pmid:27400265"
     },
     {
-      "subject": "urolithin-a",
-      "target": "studie-32694659",
-      "confidence": 0.9,
-      "source": "pmid:32694659"
-    },
-    {
-      "subject": "urolithin-a",
-      "target": "studie-35468083",
-      "confidence": 0.9,
-      "source": "pmid:35468083"
-    },
-    {
-      "subject": "urolithin-a",
-      "target": "studie-19640941",
-      "confidence": 0.9,
-      "source": "pmid:19640941"
-    },
-    {
       "subject": "vitamin-a",
       "target": "studie-35294044",
       "confidence": 0.9,
@@ -2215,12 +1963,6 @@
       "target": "studie-33939178",
       "confidence": 0.9,
       "source": "pmid:33939178"
-    },
-    {
-      "subject": "vitamin-b1",
-      "target": "studie-22489203",
-      "confidence": 0.9,
-      "source": "pmid:22489203"
     },
     {
       "subject": "vitamin-b1",
@@ -2242,18 +1984,6 @@
     },
     {
       "subject": "vitamin-b12",
-      "target": "studie-21205692",
-      "confidence": 0.9,
-      "source": "pmid:21205692"
-    },
-    {
-      "subject": "vitamin-b12",
-      "target": "studie-22238392",
-      "confidence": 0.9,
-      "source": "pmid:22238392"
-    },
-    {
-      "subject": "vitamin-b12",
       "target": "studie-20838622",
       "confidence": 0.9,
       "source": "pmid:20838622"
@@ -2263,12 +1993,6 @@
       "target": "studie-9484373",
       "confidence": 0.9,
       "source": "pmid:9484373"
-    },
-    {
-      "subject": "vitamin-b2",
-      "target": "studie-12791609",
-      "confidence": 0.9,
-      "source": "pmid:12791609"
     },
     {
       "subject": "vitamin-b2",
@@ -2296,12 +2020,6 @@
     },
     {
       "subject": "vitamin-b5",
-      "target": "studie-8595692",
-      "confidence": 0.9,
-      "source": "pmid:8595692"
-    },
-    {
-      "subject": "vitamin-b5",
       "target": "studie-22004061",
       "confidence": 0.9,
       "source": "pmid:17119255"
@@ -2323,12 +2041,6 @@
       "target": "studie-28879195",
       "confidence": 0.9,
       "source": "pmid:28879195"
-    },
-    {
-      "subject": "vitamin-b7",
-      "target": "studie-28362283",
-      "confidence": 0.9,
-      "source": "pmid:28362283"
     },
     {
       "subject": "vitamin-c",
@@ -2353,12 +2065,6 @@
       "target": "studie-8644688",
       "confidence": 0.9,
       "source": "pmid:8644688"
-    },
-    {
-      "subject": "vitamin-d3-k2",
-      "target": "studie-32234639",
-      "confidence": 0.9,
-      "source": "pmid:32234639"
     },
     {
       "subject": "vitamin-d3-k2",
@@ -2428,12 +2134,6 @@
     },
     {
       "subject": "vitamin-e",
-      "target": "studie-10485337",
-      "confidence": 0.9,
-      "source": "pmid:10485337"
-    },
-    {
-      "subject": "vitamin-e",
       "target": "studie-16753142",
       "confidence": 0.9,
       "source": "pmid:16753142"
@@ -2485,12 +2185,6 @@
       "target": "studie-31174269",
       "confidence": 0.9,
       "source": "pmid:31174269"
-    },
-    {
-      "subject": "zink",
-      "target": "studie-18793724",
-      "confidence": 0.9,
-      "source": "pmid:18793724"
     },
     {
       "subject": "zink",

@@ -91,8 +91,7 @@
       "target": "studie-32114706",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:33387437",
-      "evidence_level": "human_observational"
+      "source": "pmid:33387437"
     },
     {
       "relation": "basiert_auf_studie",

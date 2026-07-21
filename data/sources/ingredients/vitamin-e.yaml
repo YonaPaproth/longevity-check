@@ -39,12 +39,6 @@ key_studies:
         Meta-Analyse: Hochdosiertes Vitamin E (>400 IE/Tag) assoziiert mit leicht war mit höheren Werten verbundener Gesamtmortalität. Methodisch umstritten, aber wichtiges Signal.
       en: >-
         Meta-analysis: High-dose vitamin E (>400 IU/day) associated with slightly elevated all-cause mortality. Methodologically contested, but an important signal warranting caution.
-  - ref: pmid-10485337
-    finding:
-      de: >-
-        Review: Vitamin E wird mit Schutzmechanismen in Verbindung gebracht mehrfach ungesättigte Fettsäuren in Zellmembranen vor Peroxidation. Alpha-Tocopherol hat höchste Bindungsaffinität zum Transportprotein, aber Gamma-Tocopherol hat andere wichtige Funktionen.
-      en: >-
-        Review: Vitamin E associated with protecting polyunsaturated fatty acids in cell membranes from peroxidation. Alpha-tocopherol has highest affinity for transport protein, but gamma-tocopherol has other important biological functions.
   - ref: pmid-16753142
     finding:
       de: >-
@@ -231,11 +225,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:15537682"
-  - relation: basiert_auf_studie
-    target: studie-10485337
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:10485337"
   - relation: basiert_auf_studie
     target: studie-16753142
     direction: outgoing

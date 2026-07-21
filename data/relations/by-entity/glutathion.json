@@ -122,14 +122,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-24494129",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:24494129",
-      "evidence_level": "expert_review"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-28853742",
       "direction": "outgoing",
       "confidence": 0.9,

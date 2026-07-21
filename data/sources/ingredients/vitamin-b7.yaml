@@ -31,12 +31,6 @@ key_studies:
         Review: Evidenz für Biotin bei Haarproblemen ist schwach und fast immer auf dokumentierte Mangelzustände oder spezielle Erkrankungen beschränkt.
       en: >-
         Review: Evidence for biotin in hair problems is weak and almost always limited to documented deficiency states or specific conditions.
-  - ref: pmid-28362283
-    finding:
-      de: >-
-        Biotin in Supplementdosen kann Laboruntersuchungen relevant verfälschen, darunter Schilddrüsenwerte und Herzmarker.
-      en: >-
-        Biotin at supplement doses can significantly distort laboratory tests, including thyroid values and cardiac markers.
   - ref: study-vitamin-b7-ods-nih-2022
     finding:
       de: >-
@@ -165,8 +159,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:28879195"
-  - relation: basiert_auf_studie
-    target: studie-28362283
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:28362283"

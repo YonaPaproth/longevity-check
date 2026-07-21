@@ -74,22 +74,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-36789432",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:36789432",
-      "evidence_level": "expert_review"
-    },
-    {
-      "relation": "basiert_auf_studie",
-      "target": "studie-31346894",
-      "direction": "outgoing",
-      "confidence": 0.8,
-      "source": "pmid:31346894",
-      "evidence_level": "human_observational"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-31316753",
       "direction": "outgoing",
       "confidence": 0.85,

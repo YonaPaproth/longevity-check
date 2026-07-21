@@ -31,12 +31,6 @@ key_studies:
         Kleine Humanstudie mit Verbesserungen der Endothelfunktion.
       en: >-
         Small human study demonstrating improvements in endothelial function.
-  - ref: pmid-23810870
-    finding:
-      de: >-
-        Review: biologisch plausibel, aber klinisch noch keine sehr vergleichsweise gute Datenlage.
-      en: >-
-        Review: biologically plausible but clinical evidence remains comparatively limited.
   - ref: pmid-32245095
     finding:
       de: >-
@@ -121,13 +115,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:34848522"
-  - relation: basiert_auf_studie
-    target: studie-23810870
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:23810870"
-  - relation: basiert_auf_studie
-    target: studie-32245095
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:32245095"

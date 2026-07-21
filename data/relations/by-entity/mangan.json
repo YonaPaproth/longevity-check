@@ -52,14 +52,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-23036414",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:23036414",
-      "evidence_level": "human_observational"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-42216548",
       "direction": "outgoing",
       "confidence": 0.9,

@@ -41,13 +41,6 @@ key_studies:
         RCT (n=25.871): Omega-3 1 g/Tag ohne signifikante Reduktion kardiovaskulärer Ereignisse in der Primärprävention, aber weniger Myokardinfarkte (–28%).
       en: >-
         RCT (n=25,871): Omega-3 1 g/day showed no significant reduction in overall cardiovascular events in primary prevention, but myocardial infarctions fell by 28%.
-  - ref: pmid-32114706
-    targets: [herz-kreislauf, blutdruck]
-    finding:
-      de: >-
-        Metaanalyse von 40 RCTs: Omega-3 senkt Triglyzeride zuverlässig um 25–30%; kardiovaskulärer Nutzen dosisabhängig und am stärksten bei mehr als 1 g/Tag EPA+DHA.
-      en: >-
-        Meta-analysis of 40 RCTs: omega-3 reliably reduces triglycerides by 25–30%; cardiovascular benefit is dose-dependent and strongest above 1 g/day EPA+DHA.
   - ref: pmid-33190147
     targets: [herz-kreislauf]
     finding:

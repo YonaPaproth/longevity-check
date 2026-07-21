@@ -25,12 +25,6 @@ efsa_notes:
     The EU has not approved any health claims for SAMe regarding mood, joints, or liver function. Due to its pharmacological nature, sober and accurate representation is particularly important.
 
 key_studies:
-  - ref: pmid-20595412
-    finding:
-      de: >-
-        Kontrollierte Daten zeigen Nutzen bei depressive Symptome, auch als Add-on in bestimmten Settings.
-      en: >-
-        Controlled data demonstrate benefit for depressive symptoms, including as add-on therapy in certain clinical settings.
   - ref: pmid-12019049
     finding:
       de: >-
@@ -143,17 +137,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-20595412
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:20595412"
-  - relation: basiert_auf_studie
     target: studie-12019049
     direction: outgoing
     confidence: 0.9
     source: "pmid:12472441"
-  - relation: basiert_auf_studie
-    target: studie-12062105
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:12062105"

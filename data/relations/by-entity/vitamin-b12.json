@@ -123,21 +123,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-21205692",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:21205692"
-    },
-    {
-      "relation": "basiert_auf_studie",
-      "target": "studie-22238392",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:22238392",
-      "evidence_level": "human_rct"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-20838622",
       "direction": "outgoing",
       "confidence": 0.9,

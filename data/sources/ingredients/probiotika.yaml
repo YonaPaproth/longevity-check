@@ -45,12 +45,6 @@ key_studies:
         ISAPP-Konsens: WHO-Definition von Probiotika präzisiert. Stammspezifität, ausreichende Dosierung und Lebensfähigkeit am Wirkort sind Mindestanforderungen für eine korrekte Probiotika-Bezeichnung.
       en: >-
         ISAPP consensus: Refined WHO definition of probiotics. Strain specificity, adequate dosing, and viability at the site of action are minimum requirements for correct probiotic designation.
-  - ref: pmid-27559846
-    finding:
-      de: >-
-        Review: Mikrobiom verändert sich mit dem Alter — weniger Diversität, mehr inflammatorische Stämme. Centenariere haben eine charakteristische, diversere Zusammensetzung. Kausalrichtung unklar.
-      en: >-
-        Review: The microbiome changes with age—reduced diversity, increased inflammatory strains. Centenarians have a characteristically more diverse composition. Causal direction unclear.
   - ref: pmid-23384445
     finding:
       de: >-
@@ -307,11 +301,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:28611480"
-  - relation: basiert_auf_studie
-    target: studie-27559846
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:27559846"
   - relation: basiert_auf_studie
     target: studie-23384445
     direction: outgoing

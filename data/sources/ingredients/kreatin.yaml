@@ -38,12 +38,6 @@ key_studies:
         RCT, n=45, ältere Erwachsene: Kreatin verbesserte Arbeitsgedächtnis und kognitive Leistung signifikant vs. Placebo. Gehirn-Kreatinspiegel stiegen messbar mit Supplementierung.
       en: >-
         RCT, n=45, older adults: creatine significantly improved working memory and cognitive performance vs. placebo. Brain creatine levels rose measurably with supplementation.
-  - ref: pmid-29704637
-    finding:
-      de: >-
-        Systematischer Review: Kognitive Leistung verbesserte sich konsistent bei Schlafentzug, mentaler Erschöpfung und bei Älteren. Vegetarier profitierten stärker (niedrigere Ausgangsspiegel).
-      en: >-
-        Systematic review: cognitive performance improved consistently during sleep deprivation, mental fatigue, and in older adults. Vegetarians benefited more (lower baseline levels).
   - ref: pmid-27328852
     finding:
       de: >-
@@ -277,11 +271,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:17828627"
-  - relation: basiert_auf_studie
-    target: studie-29704637
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:29704637"
   - relation: basiert_auf_studie
     target: studie-27328852
     direction: outgoing

@@ -32,12 +32,6 @@ key_studies:
         Tierstudie: AKG war mit Veränderungen verbundene einige Altersmarker bei Mäusen. Spannend, aber kein Humanbeweis.
       en: >-
         Animal study: AKG was associated with improvements in several aging markers in mice. Mechanistically interesting, but no human evidence.
-  - ref: pmid-24828042
-    finding:
-      de: >-
-        Mausdaten machen AKG populär in der gesundes Altern-Szene, reichen aber nicht für belastbare Human-Claims.
-      en: >-
-        Mouse lifespan extension data drive AKG popularity in aging circles, but evidence is insufficient for robust human health claims.
   - ref: pmid-38088214
     finding:
       de: >-
@@ -159,11 +153,6 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:32877690"
-  - relation: basiert_auf_studie
-    target: studie-24828042
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:24828042"
   - relation: basiert_auf_studie
     target: studie-38088214
     direction: outgoing

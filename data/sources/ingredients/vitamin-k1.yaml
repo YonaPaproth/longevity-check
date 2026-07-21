@@ -31,12 +31,6 @@ key_studies:
         Review zu Funktionen von Vitamin K in Blutgerinnung und Knochenstoffwechsel. Die essenzielle Rolle ist vergleichsweise gut untersucht.
       en: >-
         Review of vitamin K functions in blood clotting and bone metabolism. Its essential role is comparatively well-studied.
-  - ref: pmid-30945251
-    finding:
-      de: >-
-        Review: Vitamin-K-Zufuhr ist für viele Menschen ausreichend, kann aber bei geringer Gemüsezufuhr suboptimal sein.
-      en: >-
-        Review: vitamin K intake is adequate for most people, but can be suboptimal with low vegetable consumption.
   - ref: pmid-20236064
     finding:
       de: >-
@@ -166,13 +160,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:22516723"
-  - relation: basiert_auf_studie
-    target: studie-30945251
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:30945251"
-  - relation: basiert_auf_studie
-    target: studie-20236064
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:20236064"

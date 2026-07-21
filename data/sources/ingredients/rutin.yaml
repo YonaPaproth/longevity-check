@@ -154,8 +154,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:14527825"
-  - relation: basiert_auf_studie
-    target: studie-11285671
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:11285671"

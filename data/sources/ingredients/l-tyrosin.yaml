@@ -27,12 +27,6 @@ efsa_notes:
     In the EU, there are no approved EFSA health claims for L-Tyrosin regarding cognitive function, stress resilience, or mental performance.
 
 key_studies:
-  - ref: pmid-7737166
-    finding:
-      de: >-
-        RCT (militärisches Umfeld): L-Tyrosin konnte in Studien kognitive Leistungsabfälle unter extremen Stressbedingungen (Schlafentzug, körperliche Belastung) abmildern.
-      en: >-
-        RCT (military setting): L-Tyrosin attenuated cognitive performance decline under extreme stress conditions (sleep deprivation, physical exertion) in studies.
   - ref: pmid-7794222
     finding:
       de: >-
@@ -312,11 +306,6 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-7737166
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:7737166"
-  - relation: basiert_auf_studie
     target: studie-7794222
     direction: outgoing
     confidence: 0.9
@@ -326,8 +315,3 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:17290373"
-  - relation: basiert_auf_studie
-    target: studie-6528626
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:6528626"

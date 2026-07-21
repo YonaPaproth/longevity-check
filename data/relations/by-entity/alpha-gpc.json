@@ -24,13 +24,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-18461736",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:18461736"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-36683513",
       "direction": "outgoing",
       "confidence": 0.9,
