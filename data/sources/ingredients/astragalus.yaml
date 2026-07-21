@@ -37,7 +37,7 @@ key_studies:
         Telomer- und gesundes Altern-Marketing geht den Daten deutlich voraus.
       en: >-
         Telomere and healthy aging marketing significantly outpaces available evidence."
-  - ref: pmid-24344415
+  - ref: pmid-29344421
     finding:
       de: >-
         Telomerase-Narrative sind spannend, aber klinisch weit von gesicherter Relevanz entfernt.
@@ -130,7 +130,7 @@ relations:
     confidence: 0.9
     source: "pmid:42352330"
   - relation: basiert_auf_studie
-    target: studie-24344415
+    target: studie-29344421
     direction: outgoing
     confidence: 0.9
-    source: "pmid:24344415"
+    source: "pmid:29344421"
