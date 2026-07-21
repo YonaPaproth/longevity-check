@@ -1,6 +1,6 @@
 {
   "type": "untersucht",
-  "count": 47,
+  "count": 49,
   "relations": [
     {
       "subject": "studie-15189112",
@@ -121,6 +121,18 @@
       "target": "herz-kreislauf",
       "confidence": 0.9,
       "source": "pmid:27402922"
+    },
+    {
+      "subject": "studie-27533649",
+      "target": "gelenke",
+      "confidence": 0.9,
+      "source": "pmid:27533649"
+    },
+    {
+      "subject": "studie-27533649",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:27533649"
     },
     {
       "subject": "studie-28202713",

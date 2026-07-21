@@ -31,10 +31,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-26770156",
+      "target": "studie-42313117",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26770156",
+      "source": "pmid:42313117",
       "evidence_level": "expert_review"
     },
     {

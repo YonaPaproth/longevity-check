@@ -150,17 +150,17 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-29279823",
+      "target": "studie-21505219",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:29279823"
+      "source": "pmid:21505219"
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-30958565",
+      "target": "studie-37649436",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30958565"
+      "source": "pmid:37649436"
     }
   ]
 }

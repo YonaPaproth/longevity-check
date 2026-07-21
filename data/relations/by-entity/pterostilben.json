@@ -171,10 +171,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-23682780",
+      "target": "studie-28662290",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:23682780",
+      "source": "pmid:28662290",
       "evidence_level": "expert_review"
     },
     {
@@ -193,10 +193,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-21219274",
+      "target": "studie-40411697",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21219274"
+      "source": "pmid:40411697"
     }
   ]
 }

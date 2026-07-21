@@ -46,17 +46,17 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-37612506",
+      "target": "studie-38070683",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:37612506"
+      "source": "pmid:38070683"
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-24344115",
+      "target": "studie-24490268",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24344115",
+      "source": "pmid:24490268",
       "evidence_level": "expert_review"
     },
     {

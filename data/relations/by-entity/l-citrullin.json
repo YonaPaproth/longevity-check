@@ -116,10 +116,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-26023227",
+      "target": "studie-30788274",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26023227",
+      "source": "pmid:30788274",
       "evidence_level": "human_rct"
     },
     {

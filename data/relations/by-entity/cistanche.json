@@ -17,10 +17,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-26830552",
+      "target": "studie-41829896",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:26830552",
+      "source": "pmid:41829896",
       "evidence_level": "human_observational"
     },
     {

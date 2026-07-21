@@ -172,10 +172,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-7940540",
+      "target": "studie-17290373",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:7940540",
+      "source": "pmid:17290373",
       "evidence_level": "human_rct"
     },
     {

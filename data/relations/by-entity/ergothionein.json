@@ -80,10 +80,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-20308112",
+      "target": "studie-34958679",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:20308112"
+      "source": "pmid:34958679"
     },
     {
       "relation": "basiert_auf_studie",
@@ -94,10 +94,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-21347875",
+      "target": "studie-40696819",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:21347875",
+      "source": "pmid:40696819",
       "evidence_level": "human_observational"
     }
   ]

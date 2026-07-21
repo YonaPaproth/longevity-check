@@ -154,18 +154,18 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-25154704",
+      "target": "studie-30371340",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25154704",
+      "source": "pmid:30371340",
       "evidence_level": "human_observational"
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-17386983",
+      "target": "studie-40495903",
       "direction": "outgoing",
       "confidence": 0.8,
-      "source": "pmid:17386983",
+      "source": "pmid:40495903",
       "evidence_level": "expert_review"
     },
     {

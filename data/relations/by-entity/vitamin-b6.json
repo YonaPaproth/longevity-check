@@ -66,17 +66,17 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-34469291",
+      "target": "studie-33912895",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:34469291"
+      "source": "pmid:33912895"
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-30286045",
+      "target": "studie-24365359",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:30286045"
+      "source": "pmid:24365359"
     }
   ]
 }

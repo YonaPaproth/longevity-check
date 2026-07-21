@@ -77,8 +77,7 @@
       "target": "studie-41422283",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:41422283",
-      "evidence_level": "human_rct"
+      "source": "pmid:41422283"
     },
     {
       "relation": "basiert_auf_studie",
@@ -90,10 +89,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-25013132",
+      "target": "studie-41422283",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25013132"
+      "source": "pmid:41422283"
     }
   ]
 }

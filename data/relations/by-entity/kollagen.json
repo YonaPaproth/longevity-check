@@ -59,10 +59,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-24401291",
+      "target": "studie-23949208",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24401291",
+      "source": "pmid:23949208",
       "evidence_level": "human_rct"
     },
     {

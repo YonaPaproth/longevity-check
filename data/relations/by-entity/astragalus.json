@@ -38,17 +38,17 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-22899991",
+      "target": "studie-42352330",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:22899991"
+      "source": "pmid:42352330"
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-24344415",
+      "target": "studie-29344421",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24344415"
+      "source": "pmid:29344421"
     }
   ]
 }

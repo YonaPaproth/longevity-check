@@ -1,0 +1,21 @@
+{
+  "entity": "studie-27533649",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "gelenke",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:27533649",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "schmerz",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:27533649",
+      "evidence_level": "expert_review"
+    }
+  ]
+}
