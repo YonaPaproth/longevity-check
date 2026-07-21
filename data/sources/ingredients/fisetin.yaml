@@ -30,7 +30,7 @@ key_studies:
         Tierstudie (Mäuse): Fisetin war das potenteste Senolytikum aus 10 getesteten Flavonoiden. Verlängerte Lebenserwartung um 10 % und verbesserte Gesundheitsmarker.
       en: >-
         Animal study (mice): Fisetin was the most potent senolytic among 10 flavonoids tested, extending remaining lifespan by ~10% and improving health markers across multiple organ systems.
-  - ref: pmid-30616726
+  - ref: pmid-30616998
     finding:
       de: >-
         Pilot-Studie mit Dasatinib+Quercetin (verwandter Senolytika-Ansatz): Reduktion seneszenter Zellmarker im Fettgewebe. Basis für größere Studien mit Fisetin.
@@ -208,10 +208,10 @@ relations:
     confidence: 0.9
     source: "pmid:30279143"
   - relation: basiert_auf_studie
-    target: studie-30616726
+    target: studie-30616998
     direction: outgoing
     confidence: 0.9
-    source: "pmid:30616726"
+    source: "pmid:30616998"
   - relation: basiert_auf_studie
     target: studie-39004102
     direction: outgoing
