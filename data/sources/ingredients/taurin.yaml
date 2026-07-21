@@ -30,7 +30,7 @@ key_studies:
         Science 2023: Taurinspiegel sinken mit dem Alter um 80–90 % (Maus, Affe, Mensch). Supplementierung wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne bei Mäusen um ~12 % und verbesserte Gesundheitsmarker bei Affen.
       en: >-
         Science 2023: taurine levels decline with age by 80–90% (mouse, monkey, human). Supplementation extended lifespan in mice by ~12% and improved healthspan markers in monkeys.
-  - ref: pmid-24349057
+  - ref: pmid-23170060
     finding:
       de: >-
         Review: Taurin ist in nahezu jedem Gewebe vorhanden, besonders in Herz, Gehirn, Retina und Skelettmuskel. Funktion als Osmolyt, Antioxidans und Membranstabilisator.
@@ -232,10 +232,10 @@ relations:
     confidence: 0.9
     source: "pmid:37289866"
   - relation: basiert_auf_studie
-    target: studie-24349057
+    target: studie-23170060
     direction: outgoing
     confidence: 0.9
-    source: "pmid:24349057"
+    source: "pmid:23170060"
   - relation: basiert_auf_studie
     target: studie-26781281
     direction: outgoing

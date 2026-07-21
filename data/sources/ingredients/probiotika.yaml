@@ -33,13 +33,13 @@ key_studies:
         Meta-Analyse (63 RCTs, n=11.811): Probiotika reduzierten Antibiotika-assoziierte Diarrhö um 42% (RR 0,58). Stärkste Evidenz für Lactobacillus rhamnosus GG und Saccharomyces boulardii CNCM I-745.
       en: >-
         Meta-analysis (63 RCTs, n=11,811): Probiotics reduced antibiotic-associated diarrhea by 42% (RR 0.58). Strongest evidence for Lactobacillus rhamnosus GG and Saccharomyces boulardii CNCM I-745.
-  - ref: pmid-24574972
+  - ref: pmid-25780308
     finding:
       de: >-
         Meta-Analyse (43 RCTs): Probiotika reduzierten IBS-Symptome und Bauchschmerzen signifikant vs. Placebo. NNT ca. 7. Effekte stammabhängig; kein einzelner überlegener Stamm identifiziert.
       en: >-
         Meta-analysis (43 RCTs): Probiotics significantly reduced IBS symptoms and abdominal pain vs. placebo. NNT approximately 7. Effects strain-dependent; no single superior strain identified.
-  - ref: pmid-24492253
+  - ref: pmid-28611480
     finding:
       de: >-
         ISAPP-Konsens: WHO-Definition von Probiotika präzisiert. Stammspezifität, ausreichende Dosierung und Lebensfähigkeit am Wirkort sind Mindestanforderungen für eine korrekte Probiotika-Bezeichnung.
@@ -298,15 +298,15 @@ relations:
     confidence: 0.9
     source: "pmid:22570464"
   - relation: basiert_auf_studie
-    target: studie-24574972
+    target: studie-25780308
     direction: outgoing
     confidence: 0.9
-    source: "pmid:24574972"
+    source: "pmid:25780308"
   - relation: basiert_auf_studie
-    target: studie-24492253
+    target: studie-28611480
     direction: outgoing
     confidence: 0.9
-    source: "pmid:24492253"
+    source: "pmid:28611480"
   - relation: basiert_auf_studie
     target: studie-27559846
     direction: outgoing

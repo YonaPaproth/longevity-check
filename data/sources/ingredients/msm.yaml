@@ -36,7 +36,7 @@ key_studies:
         Hinweise auf Effekte bei Entzündung und Erholung, aber kleine Studienbasis.
       en: >-
         Evidence for modest reduction in muscle soreness and inflammatory markers post-exercise; limited sample size.
-  - ref: pmid-28654723
+  - ref: pmid-28300758
     finding:
       de: >-
         Review: MSM ist gut verträglich, aber die klinische Evidenz bleibt begrenzt.
@@ -146,7 +146,7 @@ relations:
     confidence: 0.9
     source: "pmid:22348453"
   - relation: basiert_auf_studie
-    target: studie-28654723
+    target: studie-28300758
     direction: outgoing
     confidence: 0.9
-    source: "pmid:28654723"
+    source: "pmid:28300758"

@@ -115,10 +115,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-24349057",
+      "target": "studie-23170060",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24349057"
+      "source": "pmid:23170060"
     },
     {
       "relation": "basiert_auf_studie",
