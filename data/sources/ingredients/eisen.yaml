@@ -45,7 +45,7 @@ key_studies:
         Review: Nicht-Hämeisen (Pflanzen) hat eine Absorption von ~2–20 % vs. Hämeisen (Fleisch) ~25 %. Vitamin C (50–100 mg) erhöht die Nicht-Hämeisen-Absorption um das 3–6-fache. Phytate (Getreide, Hülsenfrüchte), Polyphenole (Kaffee, Tee) und Calcium hemmen die Absorption signifikant.
       en: >-
         Review: non-haem iron (plant sources) has an absorption rate of ~2–20% vs. haem iron (meat) ~25%. Vitamin C (50–100 mg) increases non-haem iron absorption 3–6-fold. Phytates (grains, legumes), polyphenols (coffee, tea), and calcium significantly inhibit absorption.
-  - ref: pmid-31174214
+  - ref: pmid-34028001
     finding:
       de: >-
         Review: Ferritin &lt;30 µg/L als funktioneller Eisenmangel-Schwellenwert (auch ohne manifeste Anämie) hat höhere klinische Sensitivität als der klassische Wert &lt;12 µg/L. Bei chronischer Entzündung ist Ferritin als alleiniger Marker unzureichend — CRP sollte gleichzeitig bestimmt werden.
@@ -513,10 +513,10 @@ relations:
     confidence: 0.9
     source: "pmid:2681512"
   - relation: basiert_auf_studie
-    target: studie-31174214
+    target: studie-34028001
     direction: outgoing
     confidence: 0.9
-    source: "pmid:31174214"
+    source: "pmid:34028001"
   - relation: basiert_auf_studie
     target: studie-42024457
     direction: outgoing

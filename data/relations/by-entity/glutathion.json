@@ -101,10 +101,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-25602346",
+      "target": "studie-24791752",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25602346"
+      "source": "pmid:24791752"
     },
     {
       "relation": "basiert_auf_studie",
@@ -115,10 +115,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-15212784",
+      "target": "studie-14988435",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:15212784"
+      "source": "pmid:14988435"
     },
     {
       "relation": "basiert_auf_studie",

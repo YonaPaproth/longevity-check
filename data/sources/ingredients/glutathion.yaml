@@ -39,7 +39,7 @@ key_studies:
         Klassische Pharmakokinetik-Studie: Orales Glutathion (3 g Einmaldosis) erhöhte Plasma-GSH nicht messbar. Schlussfolgerung: Standard-GSH wird im Darm gespalten, bevor es systemisch verfügbar wird.
       en: >-
         Classic pharmacokinetic study: a single 3 g oral dose of glutathione did not detectably raise plasma GSH levels. Conclusion: standard GSH is cleaved in the gut before reaching systemic circulation.
-  - ref: pmid-15212784
+  - ref: pmid-14988435
     finding:
       de: >-
         Review: Glutathion ist zentral für Redox-Homöostase, Entgiftung und Immunfunktion. Aus der biologischen Zentralität folgt jedoch nicht automatisch ein Nutzen von oralem GSH.
@@ -307,10 +307,10 @@ relations:
     confidence: 0.9
     source: "pmid:1618779"
   - relation: basiert_auf_studie
-    target: studie-15212784
+    target: studie-14988435
     direction: outgoing
     confidence: 0.9
-    source: "pmid:15212784"
+    source: "pmid:14988435"
   - relation: basiert_auf_studie
     target: studie-24494129
     direction: outgoing
