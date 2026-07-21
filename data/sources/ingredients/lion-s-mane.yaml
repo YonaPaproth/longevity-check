@@ -45,7 +45,7 @@ key_studies:
         Systematischer Review (23 Studien, davon 5 Humanstudien): Konsistente präklinische Evidenz für NGF-Stimulation, Neuroprotektoin und kognitive Effekte. Humanstudien zeigen positive Signale bei MCI, Depressivität und Magen-Darm-Mukosa. Kritik: Kleine Stichprobengrößen (n=30–77), fehlende Dosisoptimierung und Standardisierung der Extrakte limitieren Schlussfolgerungen.
       en: >-
         Systematic review (23 studies, 5 human trials): consistent preclinical evidence for NGF stimulation, neuroprotection, and cognitive effects. Human trials show positive signals in MCI, depressive symptoms, and gastrointestinal mucosa. Limitations: small sample sizes (n=30–77), lack of dose optimization, and poor extract standardization constrain conclusions.
-  - ref: pmid-36345309
+  - ref: pmid-40959699
     finding:
       de: >-
         RCT, n=77 Erwachsene ohne klinische Diagnose, 4 Wochen: 1,8 g/Tag Hericium-Extrakt vs. Placebo. Pittsburgh Sleep Quality Index: signifikante Verbesserung (p=0,04). Angst- und Depressionsskalen (HADS): signifikante Reduktion in der Verum-Gruppe. Begrenzte Studiendauer und Fehlen klinisch diagnostizierter Angsterkrankungen schränken Generalisierbarkeit ein.
@@ -440,7 +440,7 @@ relations:
     confidence: 0.9
     source: "pmid:32731006"
   - relation: basiert_auf_studie
-    target: studie-36345309
+    target: studie-40959699
     direction: outgoing
     confidence: 0.9
-    source: "pmid:36345309"
+    source: "pmid:40959699"

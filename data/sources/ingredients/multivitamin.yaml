@@ -33,13 +33,13 @@ key_studies:
         RCT (n=14.641, 11 Jahre): Tägliches Multivitamin reduzierte Gesamtkrebsrisiko um 8 % (HR 0,92). Kein Effekt auf Herz-Kreislauf-Erkrankungen oder Mortalität.
       en: >-
         RCT (n=14,641, 11 years): Daily multivitamin reduced total cancer risk by 8% (HR 0.92). No effect on cardiovascular disease or mortality.
-  - ref: pmid-37612506
+  - ref: pmid-38070683
     finding:
       de: >-
         RCT (n=21.442): Tägliches Multivitamin verlangsamte kognitiven Abbau um ~2 Jahre äquivalent bei Über-60-Jährigen. Erster großer RCT mit positivem Kognitions-Ergebnis.
       en: >-
         RCT (n=21,442): Daily multivitamin slowed cognitive decline by ~2 years equivalent in adults over 60. First large RCT with positive cognition outcome.
-  - ref: pmid-24344115
+  - ref: pmid-24490268
     finding:
       de: >-
         Editorial in Annals of Internal Medicine: Basierend auf 3 großen Studien sei die Evidenz ausreichend, um von Multivitamin-Supplementierung bei gut ernährten Personen abzuraten.
@@ -136,15 +136,15 @@ relations:
     confidence: 0.9
     source: "pmid:23162860"
   - relation: basiert_auf_studie
-    target: studie-37612506
+    target: studie-38070683
     direction: outgoing
     confidence: 0.9
-    source: "pmid:37612506"
+    source: "pmid:38070683"
   - relation: basiert_auf_studie
-    target: studie-24344115
+    target: studie-24490268
     direction: outgoing
     confidence: 0.9
-    source: "pmid:24344115"
+    source: "pmid:24490268"
   - relation: basiert_auf_studie
     target: studie-35150542
     direction: outgoing

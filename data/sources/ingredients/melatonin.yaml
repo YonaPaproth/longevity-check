@@ -25,7 +25,7 @@ efsa_notes:
     EFSA has approved health claims for melatonin: 'Melatonin contributes to the reduction of time taken to fall asleep' (0.5 mg before bedtime) and 'Melatonin helps alleviate the subjective feeling of jet lag' (0.5 mg). Notably, in Germany melatonin is prescription-only above 0.5 mg per daily dose — a regulatory special case within the EU.
 
 key_studies:
-  - ref: pmid-15691787
+  - ref: pmid-16473858
     finding:
       de: >-
         Meta-Analyse (17 RCTs): Melatonin verkürzte Einschlafzeit signifikant (-7,2 min) und verbesserte die Schlafqualität. Effekte bescheiden, aber konsistent.
@@ -232,10 +232,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-15691787
+    target: studie-16473858
     direction: outgoing
     confidence: 0.9
-    source: "pmid:15691787"
+    source: "pmid:16473858"
   - relation: basiert_auf_studie
     target: studie-22471152
     direction: outgoing
