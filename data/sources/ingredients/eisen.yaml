@@ -33,7 +33,7 @@ key_studies:
         Systematischer Review: Vegetarier haben im Vergleich zu Omnivoren signifikant niedrigere Ferritin-Spiegel (Mittelwert ~20 vs. ~35 µg/L bei Frauen). Eisenmangel-Prävalenz bei vegetarischen Frauen bis zu 40 %, bei Omnivoren ~20 %. Gleichzeitig erhöhte Eisenabsorption als Kompensation beobachtet.
       en: >-
         Systematic review: vegetarians had significantly lower ferritin levels than omnivores (mean ~20 vs. ~35 µg/L in women). Iron deficiency prevalence in vegetarian women reached up to 40%, vs. ~20% in omnivores. The body partially compensated through upregulated absorption rates.
-  - ref: pmid-23107545
+  - ref: pmid-42163863
     finding:
       de: >-
         Nationale US-Querschnittsstudie: Eisenmangel (Ferritin &lt;12 µg/L) betrifft ~9–11 % der Frauen im gebärfähigen Alter, ~2 % der Männer. In der Gesamtbevölkerung ist Eisenmangel die häufigste Nährstoffdefizit-Ursache für Anämie.
@@ -503,10 +503,10 @@ relations:
     confidence: 0.9
     source: "pmid:27880062"
   - relation: basiert_auf_studie
-    target: studie-23107545
+    target: studie-42163863
     direction: outgoing
     confidence: 0.9
-    source: "pmid:23107545"
+    source: "pmid:42163863"
   - relation: basiert_auf_studie
     target: studie-29155946
     direction: outgoing

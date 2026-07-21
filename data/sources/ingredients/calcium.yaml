@@ -44,7 +44,7 @@ key_studies:
         Meta-Analyse von 10 RCTs: Calcium-Supplementierung (ohne Vitamin D) war mit einem RR von 1,15 für kardiovaskuläre Ereignisse assoziiert. Das Risiko zeigte sich vor allem bei Dosen &gt;1.000 mg/Tag aus Supplements, nicht aus Nahrungsquellen.
       en: >-
         Meta-analysis of 10 RCTs: Calcium supplementation (without vitamin D) was associated with a relative risk (RR) of 1.15 for cardiovascular events. Risk was particularly pronounced at doses >1,000 mg/day from supplements, not from food sources.
-  - ref: pmid-30958565
+  - ref: pmid-37649436
     finding:
       de: >-
         Review: Veganer nehmen im Schnitt 600–800 mg Calcium/Tag auf — deutlich unter dem DGE-Referenzwert von 1.000 mg. Pflanzliche Quellen wie Grünkohl, Tofu und angereicherte Pflanzenmilch können die Lücke schließen; bei unzureichender Zufuhr ist Supplementierung empfehlenswert.
@@ -441,7 +441,7 @@ relations:
     confidence: 0.9
     source: "pmid:21505219"
   - relation: basiert_auf_studie
-    target: studie-30958565
+    target: studie-37649436
     direction: outgoing
     confidence: 0.9
-    source: "pmid:30958565"
+    source: "pmid:37649436"

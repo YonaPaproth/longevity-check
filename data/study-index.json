@@ -3,7 +3,7 @@
   "total": 438,
   "with_type": 196,
   "with_reviews": 11,
-  "with_ingredients": 391,
+  "with_ingredients": 386,
   "studies": [
     {
       "id": "pmid-41693488",
@@ -318,6 +318,36 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-42163863",
+      "pmid": "42163863",
+      "title": "The Prevalence of Nutritional Imbalances in the US Population Over Time: Biomarker",
+      "authors": "Pfeiffer et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42163863/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-42313117",
+      "pmid": "42313117",
+      "title": "Mechanisms of Actions of Physiological, Pharmacological, and Toxicological",
+      "authors": "Nielsen et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42313117/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
       "id": "study-urolithin-a-clinicaltrials-2026",
       "pmid": "",
       "title": "Effects of Urolithin A Supplementation on Glucose Metabolism in Healthy Adults 55+ Years Old",
@@ -411,6 +441,21 @@
       "ingredients": [
         "fucoidan"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-41305668",
+      "pmid": "41305668",
+      "title": "Future Directions in Choline: From Neurodevelopment to Cardiometabolic Health",
+      "authors": "Paules et al.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41305668/",
+      "study_type": "Comparative Study",
+      "evidence_quality": "moderate",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -544,6 +589,21 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-37301079",
+      "pmid": "37301079",
+      "title": "Sustainable production and pharmaceutical applications of β-glucan from microbial",
+      "authors": "Murphy et al.",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37301079/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-37432380",
       "pmid": "37432380",
       "title": "Dietary Supplements Containing Oat Beta-Glucan and/or Green Coffee (Poly)phenols",
@@ -573,6 +633,21 @@
       "ingredients": [
         "multivitamin"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-37649436",
+      "pmid": "37649436",
+      "title": "Vegetarian diets and diets which restrict animal-source foods during childhood",
+      "authors": "Chouraqui et al.",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37649436/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -1437,23 +1512,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-30727981",
-      "pmid": "30727981",
-      "title": "β-Glucans and immune function",
-      "authors": "Vetvicka V et al.",
-      "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30727981/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "beta-glucan"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-30885434",
       "pmid": "30885434",
       "title": "Review of the toxicological properties of poligeenan and carrageenan",
@@ -1870,6 +1928,21 @@
       "ingredients": [
         "vitamin-b1"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-30371340",
+      "pmid": "30371340",
+      "title": "Effects of Coenzyme Q10 on Statin-Induced Myopathy: An Updated Meta-Analysis",
+      "authors": "Qu et al.",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30371340/",
+      "study_type": "Observational Study",
+      "evidence_quality": "moderate",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -3093,23 +3166,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-26770156",
-      "pmid": "26770156",
-      "title": "Nothing Boring About Boron",
-      "authors": "Pizzorno L",
-      "year": "2015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26770156/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "bor"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-28756183",
       "pmid": "28756183",
       "title": "Vitamin K2 supplementation and arterial stiffness among renal transplant recipients-a",
@@ -3412,23 +3468,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-25154704",
-      "pmid": "25154704",
-      "title": "Coenzyme Q10 Supplementation Reduces Statin-Related Myopathy",
-      "authors": "Skarlovnik A et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25154704/",
-      "study_type": "Observational Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "coq10"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-25159881",
       "pmid": "25159881",
       "title": "Potassium intake and all-cause mortality",
@@ -3510,23 +3549,6 @@
       "effect_size": "",
       "ingredients": [
         "lithium-orotat"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-30958565",
-      "pmid": "30958565",
-      "title": "Calcium intake and bone health in vegan and vegetarian populations",
-      "authors": "Mangels AR",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30958565/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "calcium"
       ],
       "research_reviews": []
     },
@@ -6188,23 +6210,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-16816108",
-      "pmid": "16816108",
-      "title": "Common genetic polymorphisms affect the human requirement for the nutrient",
-      "authors": "Zeisel SH et al.",
-      "year": "2006",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/16816108/",
-      "study_type": "Comparative Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "cholin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-16825686",
       "pmid": "16825686",
       "title": "Iodine supplementation improves cognition in iodine-deficient schoolchildren",
@@ -6538,7 +6543,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "berberine"
+      ],
       "research_reviews": []
     },
     {
@@ -6759,23 +6766,6 @@
       "effect_size": "",
       "ingredients": [
         "maca"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23107545",
-      "pmid": "23107545",
-      "title": "Prevalence of iron deficiency in the US population",
-      "authors": "Looker AC et al.",
-      "year": "2002",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23107545/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "eisen"
       ],
       "research_reviews": []
     },
@@ -7346,12 +7336,12 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-380817",
-      "pmid": "380817",
-      "title": "DL-phenylalanine in depressed patients",
-      "authors": "Beckmann H et al.",
+      "id": "pmid-387000",
+      "pmid": "387000",
+      "title": "DL-phenylalanine versus imipramine: a double-blind controlled study",
+      "authors": "Beckmann et al.",
       "year": "1979",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/380817/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/387000/",
       "study_type": "",
       "evidence_quality": "low",
       "n": "",

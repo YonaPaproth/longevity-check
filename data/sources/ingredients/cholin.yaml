@@ -27,7 +27,7 @@ efsa_notes:
     In the EU, health claims for choline are approved for normal homocysteine metabolism, fat metabolism, and liver function (Annex of Regulation (EU) No. 432/2012). Cognitive or nootropic claims are not automatically covered by these.
 
 key_studies:
-  - ref: pmid-16816108
+  - ref: pmid-41305668
     finding:
       de: >-
         Cholin ist essenziell für Leber, Methylierung und neurologische Entwicklung. Mangel induziert nachweisbar Fettleber und Muskelschäden beim Menschen.
@@ -345,10 +345,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-16816108
+    target: studie-41305668
     direction: outgoing
     confidence: 0.9
-    source: "pmid:16816108"
+    source: "pmid:41305668"
   - relation: basiert_auf_studie
     target: studie-30015549
     direction: outgoing

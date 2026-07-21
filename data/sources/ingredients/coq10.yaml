@@ -39,7 +39,7 @@ key_studies:
         RCT (n=420): CoQ10 300 mg/Tag über 2 Jahre reduzierte schwere kardiovaskuläre Ereignisse (14% vs. 25% im Placebo, p=0,003) und Gesamtmortalität bei chronischer Herzinsuffizienz.
       en: >-
         RCT (n=420): CoQ10 300 mg/day over 2 years reduced major cardiovascular events (14% vs. 25% in placebo, p=0.003) and all-cause mortality in chronic heart failure.
-  - ref: pmid-25154704
+  - ref: pmid-30371340
     finding:
       de: >-
         RCT: CoQ10 100 mg/Tag über 30 Tage reduzierte Muskelschwäche und -schmerzen bei Statin-assozierter Myopathie signifikant gegenüber Placebo.
@@ -292,10 +292,10 @@ relations:
     confidence: 0.95
     source: "pmid:25282031"
   - relation: basiert_auf_studie
-    target: studie-25154704
+    target: studie-30371340
     direction: outgoing
     confidence: 0.9
-    source: "pmid:25154704"
+    source: "pmid:30371340"
   - relation: basiert_auf_studie
     target: studie-17386983
     direction: outgoing

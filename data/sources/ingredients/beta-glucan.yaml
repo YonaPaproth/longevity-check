@@ -31,7 +31,7 @@ key_studies:
         Meta-Analyse: Hafer-Beta-Glucan war mit niedrigeren Werten verbunden LDL-Cholesterin zuverlässig.
       en: >-
         Meta-analysis: Oat beta-glucan was consistently associated with lower LDL-cholesterol levels."
-  - ref: pmid-30727981
+  - ref: pmid-37301079
     finding:
       de: >-
         Immunologische Effekte sind plausibel, aber klinisch weniger robust als viele Claims suggerieren.
@@ -167,10 +167,10 @@ relations:
     confidence: 0.9
     source: "pmid:41362998"
   - relation: basiert_auf_studie
-    target: studie-30727981
+    target: studie-37301079
     direction: outgoing
     confidence: 0.9
-    source: "pmid:30727981"
+    source: "pmid:37301079"
   - relation: basiert_auf_studie
     target: studie-37432380
     direction: outgoing

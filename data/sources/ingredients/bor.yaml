@@ -31,7 +31,7 @@ key_studies:
         Review: Bor ist biologisch interessant, aber vieles bleibt vorläufig und nicht klinisch gesichert.
       en: >-
         Review: Boron is biologically interesting, but much remains preliminary and not clinically established.
-  - ref: pmid-26770156
+  - ref: pmid-42313117
     finding:
       de: >-
         Review: Hinweise auf potenzielle Bedeutung für Knochen und Mineralstoffhaushalt, aber keine robuste Basis für breite Supplementempfehlungen.
@@ -131,10 +131,10 @@ relations:
     confidence: 0.9
     source: "pmid:18752471"
   - relation: basiert_auf_studie
-    target: studie-26770156
+    target: studie-42313117
     direction: outgoing
     confidence: 0.9
-    source: "pmid:26770156"
+    source: "pmid:42313117"
   - relation: basiert_auf_studie
     target: studie-21873346
     direction: outgoing
