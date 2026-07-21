@@ -31,13 +31,13 @@ key_studies:
         Eine der bekanntesten Humanstudien mit Hinweisen auf Verbesserungen im Gedächtnis nach mehrwöchiger Einnahme.
       en: >-
         One of the landmark human studies suggesting memory improvements in healthy subjects after 12 weeks of chronic Bacopa use."
-  - ref: pmid-23387531
+  - ref: pmid-34254371
     finding:
       de: >-
         Review: Bacopa hat unter pflanzlichen Nootropics eine vergleichsweise ordentliche Humanbasis.
       en: >-
         Review: Among herbal nootropics, Bacopa has a comparatively solid human evidence base."
-  - ref: pmid-24512655
+  - ref: pmid-24252493
     finding:
       de: >-
         Meta-Analyse: leichte bis moderate Vorteile, aber keine Wunderwirkungen.
@@ -145,12 +145,12 @@ relations:
     confidence: 0.9
     source: "pmid:11498727"
   - relation: basiert_auf_studie
-    target: studie-23387531
+    target: studie-34254371
     direction: outgoing
     confidence: 0.9
-    source: "pmid:23387531"
+    source: "pmid:34254371"
   - relation: basiert_auf_studie
-    target: studie-24512655
+    target: studie-24252493
     direction: outgoing
     confidence: 0.9
-    source: "pmid:24512655"
+    source: "pmid:24252493"

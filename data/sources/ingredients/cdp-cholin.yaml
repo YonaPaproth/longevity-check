@@ -31,7 +31,7 @@ key_studies:
         Kleine Humanstudie mit positiven Signalen für Gedächtnis.
       en: >-
         Small human study showing positive signals for memory improvement.
-  - ref: pmid-28054935
+  - ref: pmid-39221499
     finding:
       de: >-
         Review: Citicolin ist neurobiologisch plausibel und gut verträglich, aber nicht in allen Einsatzgebieten klar untersucht.
@@ -148,10 +148,10 @@ relations:
     confidence: 0.9
     source: "pmid:8898684"
   - relation: basiert_auf_studie
-    target: studie-28054935
+    target: studie-39221499
     direction: outgoing
     confidence: 0.9
-    source: "pmid:28054935"
+    source: "pmid:39221499"
   - relation: basiert_auf_studie
     target: studie-26179181
     direction: outgoing

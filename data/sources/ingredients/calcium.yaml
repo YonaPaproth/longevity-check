@@ -38,7 +38,7 @@ key_studies:
         RCT-basierter Review: Calcium-Zufuhr (Ernährung + Supplement) war konsistent mit höherer BMD assoziiert; der Effekt bei bereits calciumausreichend versorgten Erwachsenen war kleiner als bei Mangel.
       en: >-
         RCT-based review: Calcium intake (diet plus supplement) was consistently associated with higher BMD; however, the effect in already calcium-sufficient adults was smaller than in those with deficiency.
-  - ref: pmid-29279823
+  - ref: pmid-21505219
     finding:
       de: >-
         Meta-Analyse von 10 RCTs: Calcium-Supplementierung (ohne Vitamin D) war mit einem RR von 1,15 für kardiovaskuläre Ereignisse assoziiert. Das Risiko zeigte sich vor allem bei Dosen &gt;1.000 mg/Tag aus Supplements, nicht aus Nahrungsquellen.
@@ -436,10 +436,10 @@ relations:
     confidence: 0.9
     source: "pmid:27071884"
   - relation: basiert_auf_studie
-    target: studie-29279823
+    target: studie-21505219
     direction: outgoing
     confidence: 0.9
-    source: "pmid:29279823"
+    source: "pmid:21505219"
   - relation: basiert_auf_studie
     target: studie-30958565
     direction: outgoing

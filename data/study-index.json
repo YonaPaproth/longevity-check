@@ -3,7 +3,7 @@
   "total": 438,
   "with_type": 196,
   "with_reviews": 11,
-  "with_ingredients": 398,
+  "with_ingredients": 391,
   "studies": [
     {
       "id": "pmid-41693488",
@@ -234,6 +234,21 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-41362998",
+      "pmid": "41362998",
+      "title": "Cereal beta-glucan and cardiovascular disease risk reduction in overweight",
+      "authors": "Zheng et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41362998/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-41824218",
       "pmid": "41824218",
       "title": "Acetyl-L-Carnitine in the Treatment of Peripheral Neuropathies: A Narrative",
@@ -431,6 +446,21 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-39221499",
+      "pmid": "39221499",
+      "title": "Unveiling citicoline's mechanisms and clinical relevance in the treatment of",
+      "authors": "Cavalu et al.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39221499/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-36139790",
       "pmid": "36139790",
       "title": "Low Plasma Ergothioneine Predicts Cognitive and Functional Decline in an Elderly",
@@ -511,6 +541,21 @@
       "ingredients": [
         "taurin"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-37432380",
+      "pmid": "37432380",
+      "title": "Dietary Supplements Containing Oat Beta-Glucan and/or Green Coffee (Poly)phenols",
+      "authors": "García-Cordero et al.",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37432380/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -885,6 +930,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-34254371",
+      "pmid": "34254371",
+      "title": "Bacosides from Bacopa monnieri extract: An overview of the effects on neurological",
+      "authors": "Banerjee et al.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34254371/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "bacopa"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-34419735",
       "pmid": "34419735",
       "title": "Saffron (Crocus sativus L.) and health outcomes: a meta-research review of",
@@ -1138,6 +1200,21 @@
       "ingredients": [
         "l-carnitin"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-32922303",
+      "pmid": "32922303",
+      "title": "The Muscle Carnosine Response to Beta-Alanine Supplementation: A Systematic",
+      "authors": "Rezende et al.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32922303/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -1607,23 +1684,6 @@
       "effect_size": "",
       "ingredients": [
         "glutathion"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-29279823",
-      "pmid": "29279823",
-      "title": "Calcium supplements and cardiovascular events: a meta-analysis",
-      "authors": "Myung SK et al.",
-      "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/29279823/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "calcium"
       ],
       "research_reviews": []
     },
@@ -2187,23 +2247,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-28654511",
-      "pmid": "28654511",
-      "title": "Beta-alanine supplementation and carnosine",
-      "authors": "Saunders B et al.",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28654511/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "beta-alanin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-28654723",
       "pmid": "28654723",
       "title": "Methylsulfonylmethane: applications and safety",
@@ -2748,23 +2791,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-28054935",
-      "pmid": "28054935",
-      "title": "Citicoline: pharmacological and clinical review",
-      "authors": "Secades JJ",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28054935/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "cdp-cholin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-28068222",
       "pmid": "28068222",
       "title": "Long-Term Administration of Nicotinamide Mononucleotide Mitigates Age-Associated",
@@ -3184,6 +3210,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-24252493",
+      "pmid": "24252493",
+      "title": "Meta-analysis of randomized controlled trials on cognitive effects of Bacopa",
+      "authors": "Kongkeaw et al.",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24252493/",
+      "study_type": "Case Report",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "bacopa"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-24401291",
       "pmid": "24401291",
       "title": "Oral intake of specific bioactive collagen peptides reduces skin wrinkles and",
@@ -3280,40 +3323,6 @@
       "effect_size": "",
       "ingredients": [
         "phosphor"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24511820",
-      "pmid": "24511820",
-      "title": "Health benefits of oat beta-glucan",
-      "authors": "Whitehead A et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24511820/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "beta-glucan"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24512655",
-      "pmid": "24512655",
-      "title": "Bacopa monnieri and cognitive performance: a meta-analysis",
-      "authors": "Kongkeaw C et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24512655/",
-      "study_type": "Case Report",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "bacopa"
       ],
       "research_reviews": []
     },
@@ -3573,6 +3582,21 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-22976217",
+      "pmid": "22976217",
+      "title": "Betaine supplementation enhances anabolic endocrine and Akt signaling in response",
+      "authors": "Apicella et al.",
+      "year": "2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22976217/",
+      "study_type": "RCT",
+      "evidence_quality": "high",
+      "n": "8",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-23036414",
       "pmid": "23036414",
       "title": "Manganese-induced neurotoxicity: a review of its behavioral consequences and",
@@ -3639,23 +3663,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-23387531",
-      "pmid": "23387531",
-      "title": "Bacopa monnieri, a reputed nootropic plant: an overview",
-      "authors": "Aguiar S et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23387531/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "bacopa"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-23440782",
       "pmid": "23440782",
       "title": "Vitamin C supplementation and common cold duration: meta-analysis",
@@ -3686,23 +3693,6 @@
       "effect_size": "",
       "ingredients": [
         "egcg"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-23459753",
-      "pmid": "23459753",
-      "title": "Betaine supplementation enhances anabolic endocrine and Akt signaling",
-      "authors": "Apicella JM et al.",
-      "year": "2013",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/23459753/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "8",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "betain"
       ],
       "research_reviews": []
     },
@@ -4759,23 +4749,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-21348891",
-      "pmid": "21348891",
-      "title": "Oat beta-glucan and cardiometabolic health",
-      "authors": "Tiwari U et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/21348891/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "beta-glucan"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-21414230",
       "pmid": "21414230",
       "title": "Effect of betaine supplementation on plasma nitrate/nitrite in exercise-trained",
@@ -4824,6 +4797,21 @@
       "ingredients": [
         "hesperidin"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-21505219",
+      "pmid": "21505219",
+      "title": "Calcium supplements with or without vitamin D and risk of cardiovascular events:",
+      "authors": "Bolland et al.",
+      "year": "2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21505219/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -6521,23 +6509,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-15466416",
-      "pmid": "15466416",
-      "title": "Berberine is a Novel Cholesterol-Lowering Drug Working Through a Unique Mechanism",
-      "authors": "Kong W et al.",
-      "year": "2004",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/15466416/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "berberine"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-15514282",
       "pmid": "15514282",
       "title": "Dietary Intake of Menaquinone Is Associated with a Reduced Risk of Coronary",
@@ -6553,6 +6524,21 @@
         "vitamin-d3-k2",
         "vitamin-k2"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-15531889",
+      "pmid": "15531889",
+      "title": "Berberine is a novel cholesterol-lowering drug working through a unique mechanism",
+      "authors": "Kong et al.",
+      "year": "2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15531889/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {

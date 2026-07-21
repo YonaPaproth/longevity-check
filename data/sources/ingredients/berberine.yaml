@@ -34,7 +34,7 @@ efsa_notes:
     Currently available in Germany, but the regulatory status is not stable.
 
 key_studies:
-  - ref: pmid-15466416
+  - ref: pmid-15531889
     finding:
       de: >-
         Berberin senkte LDL-Cholesterin um ~25-31 % über post-transkriptionelle
@@ -410,10 +410,10 @@ relations:
     confidence: 1.0
 
   - relation: basiert_auf_studie
-    target: studie-15466416
+    target: studie-15531889
     direction: outgoing
     confidence: 0.9
-    source: "pmid:15466416"
+    source: "pmid:15531889"
     note: "LDL-Cholesterin -25% via LDLR-Stabilisierung, Statin-unabhängiger Mechanismus"
 
   - relation: basiert_auf_studie

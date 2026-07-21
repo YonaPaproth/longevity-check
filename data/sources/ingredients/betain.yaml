@@ -27,7 +27,7 @@ efsa_notes:
     No EFSA health claims are approved for betaine. Homocysteine-related claims are not permitted for betaine; B vitamins (B6, B12, folate) hold those claims.
 
 key_studies:
-  - ref: pmid-23459753
+  - ref: pmid-22976217
     finding:
       de: >-
         RCT (n=12): 2,5 g/Tag Betain zeigte in Studien Veränderungen bei anabolen Hormonsignalen nach Krafttraining.
@@ -277,10 +277,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-23459753
+    target: studie-22976217
     direction: outgoing
     confidence: 0.9
-    source: "pmid:23459753"
+    source: "pmid:22976217"
   - relation: basiert_auf_studie
     target: studie-39514262
     direction: outgoing

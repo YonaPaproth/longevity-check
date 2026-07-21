@@ -40,7 +40,7 @@ key_studies:
         Das ISSN sieht einen belegten Nutzen für Sportler, die wiederholt hochintensiv belasten; keine Empfehlung für Alltagsnutzer.
       en: >-
         ISSN endorses beta-alanine for athletes performing repeated high-intensity efforts; not recommended for general daily use or non-athletic populations."
-  - ref: pmid-28654511
+  - ref: pmid-32922303
     finding:
       de: >-
         Review mit aktualisierten Daten zur Carnosinsynthese, Dosis-Zeit-Kinetik und Sicherheitsprofil einschließlich Parästhesien.
@@ -248,7 +248,7 @@ relations:
     confidence: 0.9
     source: "pmid:26553563"
   - relation: basiert_auf_studie
-    target: studie-28654511
+    target: studie-32922303
     direction: outgoing
     confidence: 0.9
-    source: "pmid:28654511"
+    source: "pmid:32922303"
