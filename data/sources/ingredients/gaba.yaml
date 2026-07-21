@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-26500584
+    targets: [schlaf, stress]
     finding:
       de: >-
         Erste kleine Befunde, aber keine robuste klinische Grundlage.

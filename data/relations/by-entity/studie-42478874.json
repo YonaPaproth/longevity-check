@@ -1,0 +1,21 @@
+{
+  "entity": "studie-42478874",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42478874",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42478874",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

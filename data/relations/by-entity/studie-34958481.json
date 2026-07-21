@@ -1,0 +1,21 @@
+{
+  "entity": "studie-34958481",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:34958481",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:34958481",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

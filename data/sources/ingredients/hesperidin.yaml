@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-34848522
+    targets: [herz-kreislauf, blutdruck]
     finding:
       de: >-
         Kleine Humanstudie mit Verbesserungen der Endothelfunktion.

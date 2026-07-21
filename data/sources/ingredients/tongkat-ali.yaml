@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-21671978
+    targets: [fertilitat, energie]
     finding:
       de: >-
         Kleine Datenbasis mit Hinweisen auf war mit Veränderungen verbundene androgenbezogene Marker in bestimmten Gruppen.

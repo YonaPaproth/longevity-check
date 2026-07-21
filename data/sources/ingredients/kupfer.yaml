@@ -32,6 +32,7 @@ key_studies:
       en: >-
         Overview of copper requirements, deficiency, safety, and interactions. While copper is essential, supplementation should be targeted rather than broad-based.
   - ref: pmid-42467838
+    targets: [immunsystem, oxidativer-stress]
     finding:
       de: >-
         Zink und Kupfer beeinflussen sich gegenseitig. Chronisch hohe Zinkzufuhr kann Kupfermangel begünstigen.

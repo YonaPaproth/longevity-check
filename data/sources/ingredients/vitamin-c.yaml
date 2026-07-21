@@ -41,6 +41,7 @@ key_studies:
       en: >-
         Cochrane review (29 RCTs): regular vitamin C intake shortened cold duration by ~8% (adults) to 14% (children). Prevention of colds was only shown under extreme physical stress (marathon runners, soldiers).
   - ref: pmid-8644688
+    targets: [immunsystem, oxidativer-stress]
     finding:
       de: >-
         NIH-Studie: Plasmasättigung tritt bei ~200 mg/Tag auf. Höhere Dosen werden renal ausgeschieden ohne proportionalen Nutzen. Optimale Dosis für gesunde Erwachsene: 200–400 mg/Tag.

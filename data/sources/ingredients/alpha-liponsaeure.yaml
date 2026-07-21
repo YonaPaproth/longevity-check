@@ -49,6 +49,7 @@ key_studies:
       en: >-
         Review: ALA improved insulin sensitivity via AMPK activation and reduces oxidative stress in mitochondria.
   - ref: pmid-36778891
+    targets: [neuroprotektiv, oxidativer-stress]
     finding:
       de: >-
         Review präklinischer neurobiologischer Effekte: R-ALA wird mit Schutzmechanismen der Neuronen vor oxidativem Stress in Verbindung gebracht, Evidenz hauptsächlich präklinisch.

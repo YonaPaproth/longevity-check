@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-18654924
+    targets: [fertilitat, stress]
     finding:
       de: >-
         Mögliche Vorteile bei subjektivem Wohlbefinden, aber keine starke Datenbasis.

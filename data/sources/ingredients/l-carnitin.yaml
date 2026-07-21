@@ -26,18 +26,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-34842765
+    targets: [energie, muskel]
     finding:
       de: >-
         Meta-Analyse: Effekte auf Körpergewicht und Performance sind insgesamt klein und nicht konsistent.
       en: >-
         Meta-analysis: effects on body weight and performance are overall modest and inconsistent.
   - ref: pmid-20398344
+    targets: [energie, herz-kreislauf]
     finding:
       de: >-
         Review: L-Carnitin ist besonders in medizinischen Spezialkontexten relevant, weniger als universelles Lifestyle-Supplement.
       en: >-
         Review: L-carnitine is most relevant in medical specialty contexts, less so as a universal lifestyle supplement.
   - ref: pmid-37299549
+    targets: [muskel, energie, alterung]
     finding:
       de: >-
         Mögliche Nutzen in Erholung und bei älteren Populationen, aber keine starke Basis für breite Allgemeinempfehlungen.

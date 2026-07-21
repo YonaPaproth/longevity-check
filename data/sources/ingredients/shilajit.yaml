@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-26395129
+    targets: [energie, fertilitat]
     finding:
       de: >-
         Kleine Humanstudien mit Signalen, aber keine breite robuste Evidenz.
       en: >-
         Small human studies with signals, but no broad robust evidence base.
   - ref: pmid-12204876
+    targets: [energie]
     finding:
       de: >-
         Qualitäts- und Reinheitsfragen sind bei mineralischen Naturprodukten besonders wichtig.

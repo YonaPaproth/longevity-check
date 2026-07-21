@@ -53,6 +53,7 @@ key_studies:
         biological activity does not replicate that of the parent compound.
 
   - ref: pmid-42471257
+    targets: [herz-kreislauf, blutzucker]
     finding:
       de: >-
         Meta-Analyse (11 RCTs): Resveratrol reduzierte Triglyceride signifikant um ~6,5 mg/dL

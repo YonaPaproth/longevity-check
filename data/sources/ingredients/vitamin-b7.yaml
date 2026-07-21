@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-28879195
+    targets: [haut]
     finding:
       de: >-
         Review: Evidenz für Biotin bei Haarproblemen ist schwach und fast immer auf dokumentierte Mangelzustände oder spezielle Erkrankungen beschränkt.

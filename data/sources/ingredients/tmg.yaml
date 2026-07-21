@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-15321791
+    targets: [herz-kreislauf, muskel]
     finding:
       de: >-
         Review: TMG ist metabolisch relevant, besonders als Methylgruppendonor und Osmolyt. Die Praxisanwendungen gehen der Evidenz teils voraus.

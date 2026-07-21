@@ -48,12 +48,14 @@ key_studies:
       en: >-
         Mechanistic contribution: Citrulline → arginine conversion in renal metabolism, the basis of the NO synthesis hypothesis.
   - ref: pmid-21195829
+    targets: [herz-kreislauf, fertilitat]
     finding:
       de: >-
         Kleine RCT (n=24): 1,5 g/Tag L-Citrullin zeigte in Studien Verbesserungen bei Erektionshärte – unter Umständen durch erhöhte NO-Verfügbarkeit.
       en: >-
         Small RCT (n=24): 1.5 g/day L-citrulline showed improvements in erectile hardness—possibly mediated by increased NO availability.
   - ref: pmid-42162613
+    targets: [muskel, energie]
     finding:
       de: >-
         Pilot-RCT (n=20 aktive ältere Frauen, 60–75 Jahre): Citrullinmalat-Supplementierung verbesserte in Studien signifikant die Sit-to-Stand-Leistung und zeigte positive Trends bei Gehstrecke und körperlicher Leistungsfähigkeit – erster Hinweis auf funktionelle Unterstützung bei älteren Erwachsenen.

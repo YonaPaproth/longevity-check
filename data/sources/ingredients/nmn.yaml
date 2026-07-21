@@ -33,24 +33,28 @@ key_studies:
       en: >-
         NMN raised NAD+ levels and improved vascular function in aged mice — no human trial.
   - ref: pmid-31685720
+    targets: [alterung, energie]
     finding:
       de: >-
         Erste Humanpilot-Studie (n=10): NMN wurde sicher aufgenommen und war mit höheren Werten verbundene Blut-NAD+-Metaboliten. Keine klinischen Endpunkte bewertet.
       en: >-
         First human pilot study (n=10): NMN was safely absorbed and raised blood NAD+ metabolites. No clinical endpoints assessed.
   - ref: pmid-28068222
+    targets: [energie, muskel, alterung]
     finding:
       de: >-
         Klassische Tierstudie: NMN war mit Veränderungen verbundene Muskelfunktion, Energiestoffwechsel und Insulinsensitivität bei alten Mäusen. Nicht auf Menschen übertragbar.
       en: >-
         Classic animal study: NMN improved muscle function, energy metabolism, and insulin sensitivity in aged mice. Not transferable to humans.
   - ref: pmid-42135539
+    targets: [alterung, energie]
     finding:
       de: >-
         NAD+-Spiegel im Vollblut variieren weder mit dem Alter noch mit Lebensstilinterventionen – stellt die Grundannahme vieler NAD+-Supplement-Versprechen infrage.
       en: >-
         Whole-blood NAD+ levels vary neither with age nor with lifestyle interventions — challenges the core assumption behind many NAD+ supplement claims.
   - ref: pmid-42143976
+    targets: [neuroprotektiv, oxidativer-stress]
     finding:
       de: >-
         Tier-/Zellstudie (kein Humanversuch): NMN hemmte in Hypoxie-Modellen Ferroptose in Mikrogliazellen über den Sirt1/Nrf2/HO-1-Signalweg und schützte vor kognitiven Defiziten. Mechanistisch interessant, aber nicht direkt auf Supplementierung beim Menschen übertragbar.

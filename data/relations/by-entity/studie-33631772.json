@@ -1,0 +1,21 @@
+{
+  "entity": "studie-33631772",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33631772",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "fertilitat",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33631772",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

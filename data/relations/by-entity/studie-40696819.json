@@ -1,0 +1,13 @@
+{
+  "entity": "studie-40696819",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "neuroprotektiv",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40696819",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

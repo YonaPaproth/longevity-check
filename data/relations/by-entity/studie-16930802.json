@@ -1,0 +1,21 @@
+{
+  "entity": "studie-16930802",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:16930802",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:16930802",
+      "evidence_level": "human_rct"
+    }
+  ]
+}

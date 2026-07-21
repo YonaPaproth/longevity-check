@@ -7,6 +7,30 @@
       "direction": "incoming",
       "confidence": 0.9,
       "source": "pmid:28068222"
+    },
+    {
+      "relation": "untersucht",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28068222",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28068222",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:28068222",
+      "evidence_level": "expert_review"
     }
   ]
 }

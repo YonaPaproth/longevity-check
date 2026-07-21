@@ -1,0 +1,21 @@
+{
+  "entity": "studie-15321791",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15321791",
+      "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15321791",
+      "evidence_level": "meta_analysis"
+    }
+  ]
+}

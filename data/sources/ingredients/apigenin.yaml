@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-24360282
+    targets: [alterung, energie]
     finding:
       de: >-
         Grundlagenarbeit: CD38-Aktivität steigt mit dem Alter und verbraucht NAD+. CD38-Deletion bei Mäusen war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene mitochondriale Funktion deutlich.

@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-15846645
+    targets: [gelenke]
     finding:
       de: >-
         Cochrane-Review: Ergebnisse sind uneinheitlich und hängen u. a. von der verwendeten Glucosamin-Form ab.
       en: >-
         Cochrane systematic review: Results are inconsistent and depend heavily on the glucosamine formulation used, study duration, and patient population.
   - ref: pmid-16495392
+    targets: [gelenke]
     finding:
       de: >-
         Große GAIT-Studie: Im Gesamtkollektiv kein überzeugender Effekt, in Teilgruppen eventuell Signale.

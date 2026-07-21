@@ -25,6 +25,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-16424117
+    targets: [energie, oxidativer-stress]
     finding:
       de: >-
         Mechanistische und präklinische Daten legen Mitochondrien-Bezug nahe.

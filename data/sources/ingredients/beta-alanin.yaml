@@ -29,18 +29,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-22270875
+    targets: [muskel, energie]
     finding:
       de: >-
         Meta-Analyse (15 Studien) fand einen durchschnittlichen Effekt (SMD ~0,24) besonders bei hochintensiven Befreiungen von 60–240 Sekunden.
       en: >-
         Meta-analysis (15 studies): small average effect (SMD ~0.24) specifically for high-intensity exercise in the 60–240-second work window."
   - ref: pmid-41701327
+    targets: [muskel, energie]
     finding:
       de: >-
         Das ISSN sieht einen belegten Nutzen für Sportler, die wiederholt hochintensiv belasten; keine Empfehlung für Alltagsnutzer.
       en: >-
         ISSN endorses beta-alanine for athletes performing repeated high-intensity efforts; not recommended for general daily use or non-athletic populations."
   - ref: pmid-32922303
+    targets: [muskel]
     finding:
       de: >-
         Review mit aktualisierten Daten zur Carnosinsynthese, Dosis-Zeit-Kinetik und Sicherheitsprofil einschließlich Parästhesien.

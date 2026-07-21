@@ -28,6 +28,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-32635492
+    targets: [herz-kreislauf, blutzucker, oxidativer-stress]
     finding:
       de: >-
         Umfassender Review: Grüntee-Catechine zeigen in epidemiologischen Studien inverse Korrelation mit Herz-Kreislauf-Erkrankungen, Stoffwechselauffälligkeiten und einzelnen Krebsarten. Kausalität unklar.
@@ -41,6 +42,7 @@ key_studies:
       en: >-
         Meta-analysis (14 RCTs): green tea catechins were significantly associated with lower LDL cholesterol (~0.19 mmol/L reduction) and total cholesterol.
   - ref: pmid-29684494
+    targets: [blutzucker, energie]
     finding:
       de: >-
         EGCG aktiviert UCP1 (thermogenes Protein) und beeinflusst Fettgewebsbraunfärbung. Mechanismus für metabolische Effekte.

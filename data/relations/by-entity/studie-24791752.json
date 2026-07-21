@@ -1,0 +1,21 @@
+{
+  "entity": "studie-24791752",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24791752",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24791752",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

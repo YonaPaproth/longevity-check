@@ -32,12 +32,14 @@ key_studies:
       en: >-
         Animal study (mice): Fisetin was the most potent senolytic among 10 flavonoids tested, extending remaining lifespan by ~10% and improving health markers across multiple organ systems.
   - ref: pmid-30616998
+    targets: [alterung, entzuendung]
     finding:
       de: >-
         Pilot-Studie mit Dasatinib+Quercetin (verwandter Senolytika-Ansatz): Reduktion seneszenter Zellmarker im Fettgewebe. Basis für größere Studien mit Fisetin.
       en: >-
         Pilot study using dasatinib+quercetin (related senolytic approach): demonstrated measurable reductions in senescent cell markers in adipose tissue, providing proof-of-concept for the senolytic strategy in humans.
   - ref: pmid-39004102
+    targets: [neuroprotektiv, oxidativer-stress, alterung]
     finding:
       de: >-
         Review: Fisetin schützt Neuronen vor oxidativem Stress und Entzündung in Tiermodellen (inkl. Alzheimer-Mausmodell). Aktiviert Sirtuin-1 und AMPK.

@@ -40,6 +40,7 @@ key_studies:
       en: >-
         Overview of requirements, deficiency, applications, and risks. B6 is essential, but supplements are not automatically better than adequate nutrition.
   - ref: pmid-24365359
+    targets: [kognition, energie, depression]
     finding:
       de: >-
         Review: B6 ist an über 100 enzymatischen Reaktionen beteiligt. Klinische Relevanz besonders bei Mangel, Schwangerschaftsübelkeit und bestimmten Stoffwechselsituationen.

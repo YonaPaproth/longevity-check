@@ -1,0 +1,21 @@
+{
+  "entity": "studie-11386498",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:11386498",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:11386498",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

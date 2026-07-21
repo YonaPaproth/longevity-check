@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:31685720",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31685720",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31685720",
+      "evidence_level": "human_rct"
     }
   ]
 }

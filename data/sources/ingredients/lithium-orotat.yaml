@@ -33,6 +33,7 @@ key_studies:
       en: >-
         Discussion of potential effects at low lithium levels—interesting, but far removed from solid supplement recommendations.
   - ref: pmid-18072817
+    targets: [kognition, depression]
     finding:
       de: >-
         Warnung vor der Annahme, niedrig dosiertes Lithium sei automatisch harmlos. Sicherheitsdaten für frei verkäufliche Formen sind begrenzt.

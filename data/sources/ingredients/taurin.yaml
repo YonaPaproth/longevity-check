@@ -32,6 +32,7 @@ key_studies:
       en: >-
         Science 2023: taurine levels decline with age by 80–90% (mouse, monkey, human). Supplementation extended lifespan in mice by ~12% and improved healthspan markers in monkeys.
   - ref: pmid-23170060
+    targets: [herz-kreislauf, neuroprotektiv, augen]
     finding:
       de: >-
         Review: Taurin ist in nahezu jedem Gewebe vorhanden, besonders in Herz, Gehirn, Retina und Skelettmuskel. Funktion als Osmolyt, Antioxidans und Membranstabilisator.

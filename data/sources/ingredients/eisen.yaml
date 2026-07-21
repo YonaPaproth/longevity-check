@@ -35,6 +35,7 @@ key_studies:
       en: >-
         National US cross-sectional survey: iron deficiency (ferritin &lt;12 µg/L) affected ~9–11% of women of reproductive age and ~2% of men. Iron deficiency anaemia is the most common nutrient-deficiency cause of anaemia worldwide.
   - ref: pmid-2681512
+    targets: [energie, immunsystem]
     finding:
       de: >-
         Review: Nicht-Hämeisen (Pflanzen) hat eine Absorption von ~2–20 % vs. Hämeisen (Fleisch) ~25 %. Vitamin C (50–100 mg) erhöht die Nicht-Hämeisen-Absorption um das 3–6-fache. Phytate (Getreide, Hülsenfrüchte), Polyphenole (Kaffee, Tee) und Calcium hemmen die Absorption signifikant.

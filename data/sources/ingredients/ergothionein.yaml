@@ -40,6 +40,7 @@ key_studies:
       en: >-
         Low plasma ergothioneine levels correlate with poorer cognitive status and frailty in older adults (observational study).
   - ref: pmid-40696819
+    targets: [neuroprotektiv]
     finding:
       de: >-
         In einem Maus-Parkinson-Modell reduzierte Ergothionein neuronale Schäden signifikant.

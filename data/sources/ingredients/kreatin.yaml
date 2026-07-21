@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-28615996
+    targets: [muskel, energie]
     finding:
       de: >-
         Konsensusdokument: Kreatin ist das am besten belegte legale ergogene Supplement. Sicher bei Langzeitanwendung (bis 5 Jahre untersucht), keine Nierentoxizität bei Gesunden. Empfehlung: 3–5 g/Tag.

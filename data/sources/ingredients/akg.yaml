@@ -34,6 +34,7 @@ key_studies:
       en: >-
         Animal study: AKG was associated with improvements in several aging markers in mice. Mechanistically interesting, but no human evidence.
   - ref: pmid-38088214
+    targets: [alterung, energie]
     finding:
       de: >-
         Review: AKG ist metabolisch wichtig, doch daraus folgt nicht automatisch ein Nutzen als Supplement.

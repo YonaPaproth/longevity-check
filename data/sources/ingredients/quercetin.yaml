@@ -27,18 +27,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-30616998
+    targets: [alterung, entzuendung]
     finding:
       de: >-
         D+Q-Pilotstudie (n=14 IPF-Patienten): Verbesserungen bei körperlicher Leistungsfähigkeit und Ganggeschwindigkeit nach 3 Wochen. Keine Kontrollgruppe, kein Quercetin-Arm allein.
       en: >-
         D+Q pilot study (n=14 IPF patients): improvements in physical performance and gait speed after 3 weeks of intermittent dosing. No placebo control group, no quercetin-only arm.
   - ref: pmid-41564845
+    targets: [alterung, entzuendung]
     finding:
       de: >-
         Review der Mayo-Klinik-Gruppe: Zusammenfassung der Senolytik-Evidenz. Vielversprechend in Tiermodellen, aber Humanstudien in sehr früher Phase und nur mit D+Q-Kombination.
       en: >-
         Mayo Clinic group review: summary of senolytic evidence. Promising in animal models, but human studies are in very early phase and all positive signals involve only the D+Q combination, not quercetin alone.
   - ref: pmid-42435069
+    targets: [oxidativer-stress, entzuendung]
     finding:
       de: >-
         Doppelblind-RCT Phase II: Quercetin als Prophylaxe gegen akute Höhenkrankheit (AMS) vor einem Höhenaufstieg. Neue Indikation jenseits der üblichen entzündlichen oder kardiovaskulären Studien. Mechanistisch plausibel über antioxidativen Schutz unter hypoxischem Stress. Effektgröße und genaue Dosierung aus Abstract nicht vollständig ersichtlich.

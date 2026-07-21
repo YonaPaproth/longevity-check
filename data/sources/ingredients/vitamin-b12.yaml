@@ -35,6 +35,7 @@ key_studies:
       en: >-
         Comprehensive review: B12 deficiency affects ~6% of those under 60 and up to 20% of those over 60. Consequences: polyneuropathy, cognitive impairment, megaloblastic anaemia. Oral supplementation effective.
   - ref: pmid-19623286
+    targets: [kognition, energie]
     finding:
       de: >-
         Review: Hauptursachen in Deutschland – vegane/vegetarische Ernährung, atrophische Gastritis (Alter), Metformin-Einnahme. Methylmalonsäure ist der sensitivste diagnostische Marker.

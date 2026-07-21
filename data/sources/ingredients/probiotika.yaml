@@ -28,6 +28,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-22570464
+    targets: [verdauung, immunsystem]
     finding:
       de: >-
         Meta-Analyse (63 RCTs, n=11.811): Probiotika reduzierten Antibiotika-assoziierte Diarrhö um 42% (RR 0,58). Stärkste Evidenz für Lactobacillus rhamnosus GG und Saccharomyces boulardii CNCM I-745.

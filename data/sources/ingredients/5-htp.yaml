@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-16023217
+    targets: [depression, stress]
     finding:
       de: >-
         Review: 5-HTP überquert Blut-Hirn-Schranke effizient und erhöht die zentrale Serotoninsynthese. Klinische Studien zeigen antidepressive Wirkung vergleichbar mit Fluvoxamin in einem RCT.

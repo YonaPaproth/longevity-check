@@ -1,0 +1,21 @@
+{
+  "entity": "studie-36778891",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "neuroprotektiv",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:36778891",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:36778891",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

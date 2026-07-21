@@ -25,6 +25,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-20018833
+    targets: [entzuendung, oxidativer-stress]
     finding:
       de: >-
         Kaempferol wird diskutiert konzeptionell attraktiv, klinisch aber noch weit von gesicherten Aussagen entfernt.

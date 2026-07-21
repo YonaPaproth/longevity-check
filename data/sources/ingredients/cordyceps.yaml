@@ -40,6 +40,7 @@ key_studies:
       en: >-
         Small studies suggest subjective improvements in fatigue and vitality, though designs were often uncontrolled.
   - ref: pmid-42057671
+    targets: [energie, immunsystem, muskel]
     finding:
       de: >-
         Breite präklinische Aktivität, Human-Daten deutlich begrenzter.

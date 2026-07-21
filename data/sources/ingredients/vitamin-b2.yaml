@@ -33,6 +33,7 @@ key_studies:
       en: >-
         RCT (N=55): 400 mg riboflavin daily reduced migraine attack frequency by ~67% versus placebo over 3 months. One of the best-established high-dose B2 clinical applications, though responder rates vary widely (40–60% in replicated studies).
   - ref: pmid-41735095
+    targets: [energie, migraene]
     finding:
       de: >-
         Review: Auch in Industrieländern kann ein suboptimaler B2-Status vorkommen, jedoch meist ohne dramatische klinische Symptome.

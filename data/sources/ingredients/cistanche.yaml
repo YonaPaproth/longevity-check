@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-41829896
+    targets: [energie, neuroprotektiv]
     finding:
       de: >-
         Review: präklinisch interessante Wirkungen, aber kaum belastbare Human-Endpunkte.
       en: >-
         Review: preclinically interesting effects, but few reliable human endpoints.
   - ref: pmid-35583806
+    targets: [energie, neuroprotektiv, fertilitat]
     finding:
       de: >-
         Zusammenfassung der Wirkstoffe und präklinischen Daten.

@@ -42,6 +42,7 @@ key_studies:
       en: >-
         Editorial in Annals of Internal Medicine: Based on 3 large studies, evidence is sufficient to advise against multivitamin supplementation in well-nourished individuals.
   - ref: pmid-35150542
+    targets: [alterung, immunsystem]
     finding:
       de: >-
         Meta-Analyse (>390.000 Teilnehmer): Kein signifikanter Zusammenhang zwischen Multivitamin-Einnahme und Gesamtmortalität.

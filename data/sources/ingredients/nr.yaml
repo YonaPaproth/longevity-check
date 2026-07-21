@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-27721479
+    targets: [alterung, energie]
     finding:
       de: >-
         Erste Humanpharmakokinetik-Studie: NR wird oral aufgenommen und war mit höheren Werten verbunden in Studien den NAD+-Metabolismus im Blut.
@@ -47,6 +48,7 @@ key_studies:
       en: >-
         12-week RCT in overweight men: NR raised NAD+ but did not significantly improve insulin sensitivity, lipid profile, or mitochondrial function.
   - ref: pmid-42135539
+    targets: [alterung, energie]
     finding:
       de: >-
         NAD+-Spiegel im Vollblut variieren weder mit dem Alter noch mit Lebensstilinterventionen – stellt die Grundannahme vieler NAD+-Supplement-Versprechen infrage.

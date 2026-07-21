@@ -49,6 +49,7 @@ key_studies:
       en: >-
         RCT (n=56): Rhodiola significantly reduced physical and mental fatigue in nursing students during exam periods. Mood and general wellbeing also improved.
   - ref: pmid-28219059
+    targets: [stress, energie, depression]
     finding:
       de: >-
         Offene Studie (n=118, Burnout-Patienten): 400 mg/Tag über 12 Wochen reduzierte alle Burnout-Symptome signifikant. Kein Placebo-Arm, aber klinisch relevante Effektgrößen.

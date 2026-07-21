@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-33939178
+    targets: [energie, neuroprotektiv]
     finding:
       de: >-
         Review: Thiaminmangel ist klinisch relevant und oft unterdiagnostiziert. Besonders gefährdet sind Menschen mit Alkoholmissbrauch, Mangelernährung oder war mit höheren Werten verbundenem metabolischem Bedarf.

@@ -28,6 +28,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-24791752
+    targets: [oxidativer-stress, immunsystem]
     finding:
       de: >-
         Kleines RCT (n=54): 500 mg/Tag orales Glutathion über 6 Monate erhöhte GSH-Spiegel in Vollblut um ~30–35 % und in Erythrozyten um ~52 %. Klinische Endpunkte nicht gemessen.

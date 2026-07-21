@@ -1,0 +1,21 @@
+{
+  "entity": "studie-33939178",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33939178",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "neuroprotektiv",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:33939178",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

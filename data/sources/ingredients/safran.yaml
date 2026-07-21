@@ -54,6 +54,7 @@ key_studies:
       en: >-
         Broad overview: mood-related outcomes show the strongest signal; for many other outcomes the evidence is much weaker or still too preliminary.
   - ref: pmid-22552758
+    targets: [depression, fertilitat]
     finding:
       de: >-
         RCT (n=36): 30 mg Safran/Tag verbesserte SSRI-induzierte sexuelle Dysfunktion bei Männern signifikant gegenüber Placebo (IIEF-Scores für Erektion, Orgasmus und Zufriedenheit). Eine der wenigen pflanzlichen Interventionen mit positiven RCT-Daten zu diesem Endpunkt.

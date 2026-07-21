@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:1677062",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:1677062",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "fertilitat",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:1677062",
+      "evidence_level": "human_rct"
     }
   ]
 }

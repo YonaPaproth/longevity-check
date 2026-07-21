@@ -33,6 +33,7 @@ key_studies:
       en: >-
         Review: Evidence suggests potential importance for bone and mineral homeostasis, but insufficient robust basis for broad supplementation recommendations.
   - ref: pmid-21873346
+    targets: [knochen, gelenke]
     finding:
       de: >-
         Zusammenfassung der Datenlage: interessant, aber deutlich unter dem Evidenzniveau klassischer Mikronährstoffe.

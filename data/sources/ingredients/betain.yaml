@@ -49,6 +49,7 @@ key_studies:
       en: >-
         RCT (n=24): 2.5 g/day for 15 days improved some strength and endurance metrics but not others; results inconsistent."
   - ref: pmid-16002808
+    targets: [herz-kreislauf]
     finding:
       de: >-
         Kontrollierte Studie: 6 g/Tag Betain senkte Homocystein-Plasmaspiegel; Effekt war bei gleichzeitig hohem Methionin-Konsum stärker ausgeprägt.

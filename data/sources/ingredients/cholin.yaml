@@ -55,6 +55,7 @@ key_studies:
       en: >-
         Observational study (n=1,391): Higher choline intake was associated with better verbal memory and lower prevalence of white matter lesions.
   - ref: pmid-33631772
+    targets: [kognition, fertilitat]
     finding:
       de: >-
         Niedrige Cholinzufuhr war auch in einer folsäureverstärkten Population mit erhöhtem Risiko für Neuralrohrdefekte assoziiert (OR ~1,7 im untersten Quintil).

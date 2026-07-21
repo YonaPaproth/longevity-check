@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:22570464",
       "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22570464",
+      "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22570464",
+      "evidence_level": "meta_analysis"
     }
   ]
 }

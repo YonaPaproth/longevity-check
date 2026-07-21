@@ -1,0 +1,29 @@
+{
+  "entity": "studie-24388876",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24388876",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24388876",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24388876",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

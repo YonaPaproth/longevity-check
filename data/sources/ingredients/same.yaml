@@ -33,6 +33,7 @@ key_studies:
       en: >-
         Meta-analysis provides evidence for symptomatic benefits in joint-related contexts.
   - ref: pmid-12062105
+    targets: [depression, leber, gelenke]
     finding:
       de: >-
         Review: klinisch interessanter Stoff mit echter Substanz, aber nicht ohne Interaktions- und Sicherheitsfragen.

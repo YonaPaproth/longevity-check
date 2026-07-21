@@ -1,0 +1,21 @@
+{
+  "entity": "studie-41564845",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41564845",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41564845",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

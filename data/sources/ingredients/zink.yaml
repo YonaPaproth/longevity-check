@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-31174269
+    targets: [immunsystem, oxidativer-stress, entzuendung]
     finding:
       de: >-
         Umfassender Review: Zinkmangel beeinträchtigt T-Zell-Funktion, war mit höheren Werten verbunden oxidativen Stress und Entzündungsmarker. Supplementierung normalisiert Immunfunktion bei Mangel.
@@ -40,6 +41,7 @@ key_studies:
       en: >-
         In zinc-deficient older men: supplementation raised testosterone from 8.3 to 16.0 nmol/L. No effect in adequately nourished men.
   - ref: pmid-24388876
+    targets: [immunsystem, alterung, entzuendung]
     finding:
       de: >-
         Review: Zinkmangel nimmt mit dem Alter zu, korreliert mit Immunseneszenz, Entzündung und war mit höheren Werten verbundenem Oxidationsstress. Supplementierung bei Älteren war mit Veränderungen verbunden Immunparameter.

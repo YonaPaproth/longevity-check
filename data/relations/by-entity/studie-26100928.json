@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:26100928",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26100928",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26100928",
+      "evidence_level": "human_rct"
     }
   ]
 }

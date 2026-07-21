@@ -34,6 +34,7 @@ key_studies:
       en: >-
         RCT (n=310 schoolchildren in iodine-deficient region): iodine supplementation was associated with significant improvements in cognitive performance. Underscores the importance for brain development.
   - ref: pmid-23176389
+    targets: [schilddruese, alterung]
     finding:
       de: >-
         Review: Schilddrüsenfunktion beeinflusst Alterungsprozesse direkt – über Stoffwechsel, Mitochondrienfunktion und Entzündungsregulation. Jodversorgung bleibt lebenslang relevant.

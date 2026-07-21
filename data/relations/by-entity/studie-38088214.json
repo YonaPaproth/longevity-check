@@ -1,0 +1,21 @@
+{
+  "entity": "studie-38088214",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:38088214",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:38088214",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

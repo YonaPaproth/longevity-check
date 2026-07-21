@@ -34,12 +34,14 @@ key_studies:
       en: >-
         EFSA safety opinion: single doses up to 200 mg caffeine are considered safe in healthy adults. 400 mg/day from all sources is the recommended upper limit for adults without identified risk. Pregnant women: maximum 200 mg/day.
   - ref: pmid-42421135
+    targets: [kognition, energie, schlaf]
     finding:
       de: >-
         Systematischer Review (>120 Studien): Koffein verbesserte in Studien Vigilanz, Reaktionszeit und Konzentrationsleistung, insbesondere bei Schlafentzug.
       en: >-
         Systematic review (>120 studies): caffeine improved vigilance, reaction time, and attentional performance across studies, particularly under conditions of sleep deprivation.
   - ref: pmid-20464765
+    targets: [kognition, energie]
     finding:
       de: >-
         Cochrane Review: Koffein reduzierte Fehlerrate und war mit weniger Schläfrigkeit in Schichtarbeit-Settings verbunden.

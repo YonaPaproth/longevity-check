@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-22381456
+    targets: [immunsystem, schilddruese, oxidativer-stress]
     finding:
       de: >-
         Flagship-Review in The Lancet: Selen ist essenziell für 25 Selenoproteine. Optimaler Blutspiegel für Gesundheit: 125–150 µg/L Plasma-Selen. Enge therapeutische Breite.

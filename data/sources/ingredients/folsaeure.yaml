@@ -28,6 +28,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-1677062
+    targets: [kognition, fertilitat]
     finding:
       de: >-
         Landmark-RCT: 4 mg Folsäure/Tag reduzierte Wiederholungsrisiko für Neuralrohrdefekte um 72 %. Basis für globale Supplementierungsempfehlungen in der Schwangerschaft.
@@ -48,6 +49,7 @@ key_studies:
       en: >-
         Meta-analysis (30 RCTs): Folic acid was consistently associated with lower homocysteine levels, but does not consistently reduce heart attacks and strokes—except possibly for stroke prevention in folate-deficient populations.
   - ref: pmid-42478874
+    targets: [kognition, herz-kreislauf]
     finding:
       de: >-
         Review: MTHFR-C677T-Polymorphismus (ca. 10 % der Bevölkerung homozygot) reduziert Folsäureaktivierung um 70 %. Betroffene profitieren stärker von L-Methylfolat als von synthetischer Folsäure.

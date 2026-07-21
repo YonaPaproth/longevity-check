@@ -33,6 +33,7 @@ key_studies:
       en: >-
         Review of vitamin K functions in blood clotting and bone metabolism. Its essential role is comparatively well-studied.
   - ref: pmid-20236064
+    targets: [herz-kreislauf, knochen]
     finding:
       de: >-
         Schwankende Vitamin-K-Zufuhr kann die Steuerung von Vitamin-K-Antagonisten erschweren. Relevanz vor allem für Warfarin/Phenprocoumon-Nutzer.

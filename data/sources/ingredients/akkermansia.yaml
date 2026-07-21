@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-36085529
+    targets: [verdauung, blutzucker]
     finding:
       de: >-
         Identifizierung von Amuc_1100 als aktivem Protein der Akkermansia-Membran, das metabolische Verbesserungen bei Mäusen auslöst.
@@ -39,6 +40,7 @@ key_studies:
       en: >-
         First human RCT: Pasteurized Akkermansia was associated with improvements in insulin sensitivity, cholesterol, and body weight in overweight adults (n=40, 12 weeks).
   - ref: pmid-26100928
+    targets: [verdauung, blutzucker]
     finding:
       de: >-
         Beobachtungsstudie: Hohe Akkermansia-Baseline korrelierte mit besseren metabolischen Reaktionen auf Kalorienrestriktion.

@@ -42,6 +42,7 @@ key_studies:
       en: >-
         RCT, n=85 older adults with subjective cognitive impairment (SCI), 3 months of wheat germ extract (~1.2 mg spermidine/day) vs. placebo. Primary endpoint (Mnemonic Discrimination Task): no significant difference between groups. Secondary endpoint (word list memory): significant improvement in the spermidine group. Conclusion: exploratory signal only — primary endpoint not met; larger trials are needed.
   - ref: pmid-34958481
+    targets: [herz-kreislauf, alterung]
     finding:
       de: >-
         Translationsstudie: Spermidin verbesserte in alten Mäusen die diastolische Herzfunktion und verlängerte die Lebensspanne (+10 %). Begleitende epidemiologische Auswertung (n=3.407): Höhere diätetische Spermidinzufuhr war mit niedrigerem systolischen Blutdruck und reduziertem kardiovaskulärem Risiko assoziiert (HR 0,60 für kardiovaskuläre Mortalität, oberstes vs. unterstes Tertil).

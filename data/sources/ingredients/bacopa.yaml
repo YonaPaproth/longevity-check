@@ -33,6 +33,7 @@ key_studies:
       en: >-
         One of the landmark human studies suggesting memory improvements in healthy subjects after 12 weeks of chronic Bacopa use."
   - ref: pmid-34254371
+    targets: [kognition]
     finding:
       de: >-
         Review: Bacopa hat unter pflanzlichen Nootropics eine vergleichsweise ordentliche Humanbasis.

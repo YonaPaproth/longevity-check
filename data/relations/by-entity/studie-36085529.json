@@ -1,0 +1,21 @@
+{
+  "entity": "studie-36085529",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:36085529",
+      "evidence_level": "human_observational"
+    },
+    {
+      "relation": "untersucht",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:36085529",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

@@ -36,6 +36,7 @@ key_studies:
       en: >-
         Rotterdam Study (n=4,807): High menaquinone intake reduced coronary heart disease by 41% and cardiovascular mortality by 57%. Strong epidemiological foundation.
   - ref: pmid-28756183
+    targets: [herz-kreislauf, knochen]
     finding:
       de: >-
         RCT (n=244, 3 Jahre): 180 µg MK-7/Tag verlangsamte den altersassoziierten Anstieg der Arteriensteifigkeit signifikant. Osteocalcin-Carboxylierung war mit Veränderungen verbunden.

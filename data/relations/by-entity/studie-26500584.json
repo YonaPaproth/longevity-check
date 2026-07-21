@@ -1,0 +1,21 @@
+{
+  "entity": "studie-26500584",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26500584",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26500584",
+      "evidence_level": "human_rct"
+    }
+  ]
+}

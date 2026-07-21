@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-11386498
+    targets: [stress, depression]
     finding:
       de: >-
         RCT: 12 g Inositol/Tag reduzierte Panikattacken-Frequenz signifikant. Mechanismus: Second-Messenger-System des Phosphatidylinositol-Signalwegs.

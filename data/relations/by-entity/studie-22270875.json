@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:22270875",
       "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22270875",
+      "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22270875",
+      "evidence_level": "meta_analysis"
     }
   ]
 }

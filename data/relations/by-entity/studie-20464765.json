@@ -1,0 +1,21 @@
+{
+  "entity": "studie-20464765",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20464765",
+      "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:20464765",
+      "evidence_level": "meta_analysis"
+    }
+  ]
+}
