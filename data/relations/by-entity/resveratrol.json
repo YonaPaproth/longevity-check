@@ -211,10 +211,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-27789331",
+      "target": "studie-38433010",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:27789331",
+      "source": "pmid:38433010",
       "note": "Systematischer Review 6 RCTs: inkonsistente kognitive Effekte, unzureichende Fallzahlen"
     },
     {

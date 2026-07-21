@@ -25,7 +25,7 @@ efsa_notes:
     No EFSA health claims authorized for pterostilbene. Available as a dietary supplement in the EU. No novel food classification required, as it occurs naturally in blueberries. Regulatory status similar to resveratrol.
 
 key_studies:
-  - ref: pmid-23682780
+  - ref: pmid-28662290
     finding:
       de: >-
         Review: Pterostilben hat eine orale Bioverfügbarkeit von ~80 % vs. ~20 % für Resveratrol. Aktiviert SIRT1, AMPK und Nrf2. Längere Halbwertszeit durch Methylgruppen statt Hydroxylgruppen.
@@ -43,7 +43,7 @@ key_studies:
         Präklinisch: Pterostilben hemmt Tumorzellwachstum durch Notch-1-Inhibition. Krebspräventive Effekte in Zellkulturen und Tiermodellen vergleichsweise gut untersucht.
       en: >-
         Preclinical: Pterostilbene inhibits tumor cell growth via Notch-1 inhibition. Antiproliferative effects in cell cultures and animal models are well characterized.
-  - ref: pmid-21219274
+  - ref: pmid-40411697
     finding:
       de: >-
         Pharmakokinetische Studie: Pterostilben erreicht 4-fach höhere Plasma-Spiegel als Resveratrol bei gleicher Dosis, mit längerer Halbwertszeit und war mit Veränderungen verbundener Gewebeaufnahme.
@@ -265,10 +265,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-23682780
+    target: studie-28662290
     direction: outgoing
     confidence: 0.9
-    source: "pmid:23682780"
+    source: "pmid:28662290"
   - relation: basiert_auf_studie
     target: studie-23992536
     direction: outgoing
@@ -280,7 +280,7 @@ relations:
     confidence: 0.9
     source: "pmid:20562218"
   - relation: basiert_auf_studie
-    target: studie-21219274
+    target: studie-40411697
     direction: outgoing
     confidence: 0.9
-    source: "pmid:21219274"
+    source: "pmid:40411697"

@@ -65,7 +65,7 @@ key_studies:
         by trials in patients with type 2 diabetes or metabolic syndrome; in healthy
         normoglycaemic adults, no cardiovascular effects were observed.
 
-  - ref: pmid-27789331
+  - ref: pmid-38433010
     finding:
       de: >-
         Systematischer Review (6 RCTs, n&lt;500): Resveratrol zeigte inkonsistente Effekte
@@ -531,10 +531,10 @@ relations:
     note: "Meta-Analyse 11 RCTs: TG -6,5 mg/dL, Glucose -4,4 mg/dL; kein Effekt auf LDL, HDL, CRP, Blutdruck"
 
   - relation: basiert_auf_studie
-    target: studie-27789331
+    target: studie-38433010
     direction: outgoing
     confidence: 0.9
-    source: "pmid:27789331"
+    source: "pmid:38433010"
     note: "Systematischer Review 6 RCTs: inkonsistente kognitive Effekte, unzureichende Fallzahlen"
 
   - relation: basiert_auf_studie
