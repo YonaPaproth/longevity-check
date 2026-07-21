@@ -25,7 +25,7 @@ efsa_notes:
     In the EU, there are no generally approved health claims for hesperidin regarding circulation, veins, or vascular protection as a single ingredient in supplements.
 
 key_studies:
-  - ref: pmid-21462495
+  - ref: pmid-34848522
     finding:
       de: >-
         Kleine Humanstudie mit Verbesserungen der Endothelfunktion.
@@ -117,10 +117,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-21462495
+    target: studie-34848522
     direction: outgoing
     confidence: 0.9
-    source: "pmid:21462495"
+    source: "pmid:34848522"
   - relation: basiert_auf_studie
     target: studie-23810870
     direction: outgoing

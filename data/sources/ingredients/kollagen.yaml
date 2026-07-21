@@ -28,7 +28,7 @@ efsa_notes:
     EFSA has not approved any health claims for collagen. Applications for claims relating to skin care and joint health were rejected on the grounds that the evidence was deemed insufficient. Collagen is approved as a food ingredient and dietary supplement.
 
 key_studies:
-  - ref: pmid-24401291
+  - ref: pmid-23949208
     finding:
       de: >-
         RCT (n=69): 2,5–5 g hydrolysiertes Kollagen/Tag über 8 Wochen verbesserte Hautelastizität und Feuchtigkeit signifikant gegenüber Placebo.
@@ -197,10 +197,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-24401291
+    target: studie-23949208
     direction: outgoing
     confidence: 0.9
-    source: "pmid:24401291"
+    source: "pmid:23949208"
   - relation: basiert_auf_studie
     target: studie-27852613
     direction: outgoing

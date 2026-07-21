@@ -44,7 +44,7 @@ key_studies:
         RCT, n=60 Frauen, 200 mg/Tag Full-Spectrum-Hyaluronan, 28 Tage: Hautfeuchtigkeit +10,6 %, Faltentiefe −18,8 %, Faltenvolumen −17,6 %, Elastizität +5,1 %. Alle Parameter statistisch signifikant.
       en: >-
         RCT, n=60 women, 200 mg/day full-spectrum hyaluronate, 28 days: skin hydration +10.6%, wrinkle depth −18.8%, wrinkle volume −17.6%, elasticity +5.1%. All parameters statistically significant.
-  - ref: pmid-25013132
+  - ref: pmid-41422283
     finding:
       de: >-
         RCT, n=96, 120–240 mg/Tag orales Hyaluronan, 12 Wochen: signifikante Verbesserung der Hautfeuchtigkeit und Unterdrückung der Faltenbildung gegenüber Placebo.
@@ -455,7 +455,7 @@ relations:
     confidence: 0.9
     source: "pmid:34933842"
   - relation: basiert_auf_studie
-    target: studie-25013132
+    target: studie-41422283
     direction: outgoing
     confidence: 0.9
-    source: "pmid:25013132"
+    source: "pmid:41422283"

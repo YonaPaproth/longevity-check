@@ -25,7 +25,7 @@ efsa_notes:
     In the EU, inulin has no broad health claims approved for digestive health in the way they are commonly used in marketing.
 
 key_studies:
-  - ref: pmid-17604172
+  - ref: pmid-17951492
     finding:
       de: >-
         Klassischer Review zur präbiotischen Wirkung von Inulin und verwandten Fructanen.
@@ -140,10 +140,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-17604172
+    target: studie-17951492
     direction: outgoing
     confidence: 0.9
-    source: "pmid:17604172"
+    source: "pmid:17951492"
   - relation: basiert_auf_studie
     target: studie-24299756
     direction: outgoing

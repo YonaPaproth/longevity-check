@@ -24,10 +24,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-17604172",
+      "target": "studie-17951492",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17604172",
+      "source": "pmid:17951492",
       "evidence_level": "expert_review"
     },
     {

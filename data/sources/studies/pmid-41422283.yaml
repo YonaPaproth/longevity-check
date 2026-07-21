@@ -2,12 +2,10 @@
 id: pmid-41422283
 type: study
 pmid: '41422283'
-title: Oral sodium hyaluronate improves skin hydration, barrier function and signs
-  of aging
-authors: Dolečková I et al.
+title: 'Oral sodium hyaluronate improves skin hydration, barrier function and signs
+  of aging: a randomized, double-blind, placebo-controlled trial in 150 healthy adults'
+authors: Dolečková et al.
 year: 2025
 url: https://pubmed.ncbi.nlm.nih.gov/41422283/
-study_type: RCT
-evidence_quality: high
-n: 150
+evidence_quality: low
 ---
