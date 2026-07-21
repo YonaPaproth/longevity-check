@@ -38,7 +38,7 @@ key_studies:
         Review klinischer Daten: 5-HTP untersucht bei depressive Symptome, Schlaf-Problemen, Fibromyalgie und Adipositas in RCTs. Klare Warnung: nicht mit MAO-Hemmern oder SSRIs kombinieren (Serotonin-Syndrom-Risiko).
       en: >-
         Review of clinical data: 5-HTP studied for depression symptoms, sleep problems, fibromyalgia, and obesity in RCTs. Clear warning: do not combine with MAO inhibitors or SSRIs due to serotonin syndrome risk.
-  - ref: pmid-4424806
+  - ref: pmid-4105646
     finding:
       de: >-
         RCT: 5-HTP war mit erhöhten REM-Schlafphasen und verbesserter Schlafqualität assoziiert. Grundlage für die Indikation bei Schlafstörungen.
@@ -313,10 +313,10 @@ relations:
     confidence: 0.9
     source: "pmid:9727088"
   - relation: basiert_auf_studie
-    target: studie-4424806
+    target: studie-4105646
     direction: outgoing
     confidence: 0.9
-    source: "pmid:4424806"
+    source: "pmid:4105646"
   - relation: basiert_auf_studie
     target: studie-28077136
     direction: outgoing

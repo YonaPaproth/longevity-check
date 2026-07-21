@@ -45,7 +45,7 @@ key_studies:
         RCT: CoQ10 100 mg/Tag über 30 Tage reduzierte Muskelschwäche und -schmerzen bei Statin-assozierter Myopathie signifikant gegenüber Placebo.
       en: >-
         RCT: CoQ10 100 mg/day for 30 days significantly reduced muscle weakness and pain in statin-associated myopathy vs. placebo.
-  - ref: pmid-17386983
+  - ref: pmid-40495903
     finding:
       de: >-
         Metaanalyse (12 RCTs): CoQ10 reduzierte systolischen Blutdruck um durchschnittlich 16,6 mmHg und diastolischen um 8,2 mmHg. Effekte in kleineren Studien; größere Replikationen stehen aus.
@@ -297,10 +297,10 @@ relations:
     confidence: 0.9
     source: "pmid:30371340"
   - relation: basiert_auf_studie
-    target: studie-17386983
+    target: studie-40495903
     direction: outgoing
     confidence: 0.8
-    source: "pmid:17386983"
+    source: "pmid:40495903"
   - relation: basiert_auf_studie
     target: studie-19017509
     direction: outgoing

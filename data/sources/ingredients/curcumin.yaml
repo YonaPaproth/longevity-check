@@ -42,7 +42,7 @@ key_studies:
         Meta-Analyse (15 RCTs): Signifikante Reduktion von CRP (SMD -0,64), IL-6 und TNF-α. Effektgröße moderat; Studienqualität variierend.
       en: >-
         Meta-analysis (15 RCTs): Significant reduction in CRP (SMD −0.64), IL-6, and TNF-α. Moderate effect size; study quality variable.
-  - ref: pmid-26528921
+  - ref: pmid-27533649
     targets: [gelenke, schmerz]
     finding:
       de: >-
@@ -360,10 +360,10 @@ relations:
     confidence: 0.9
     source: "pmid:26975974"
   - relation: basiert_auf_studie
-    target: studie-26528921
+    target: studie-27533649
     direction: outgoing
     confidence: 0.9
-    source: "pmid:26528921"
+    source: "pmid:27533649"
   - relation: basiert_auf_studie
     target: studie-22407780
     direction: outgoing

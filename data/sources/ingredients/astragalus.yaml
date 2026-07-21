@@ -31,7 +31,7 @@ key_studies:
         Review: präklinisch interessant, klinische Evidenz bleibt begrenzt.
       en: >-
         Review: Preclinically interesting mechanisms in immunomodulation, but clinical evidence in humans remains limited.
-  - ref: pmid-22899991
+  - ref: pmid-42352330
     finding:
       de: >-
         Telomer- und gesundes Altern-Marketing geht den Daten deutlich voraus.
@@ -125,10 +125,10 @@ relations:
     confidence: 0.9
     source: "pmid:26901749"
   - relation: basiert_auf_studie
-    target: studie-22899991
+    target: studie-42352330
     direction: outgoing
     confidence: 0.9
-    source: "pmid:22899991"
+    source: "pmid:42352330"
   - relation: basiert_auf_studie
     target: studie-24344415
     direction: outgoing

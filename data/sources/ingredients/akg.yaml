@@ -26,7 +26,7 @@ efsa_notes:
     The EFSA has not approved any health claims for AKG regarding aging research or longevity. Such claims are currently marketing-driven.
 
 key_studies:
-  - ref: pmid-32242179
+  - ref: pmid-32877690
     finding:
       de: >-
         Tierstudie: AKG war mit Veränderungen verbundene einige Altersmarker bei Mäusen. Spannend, aber kein Humanbeweis.
@@ -155,10 +155,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-32242179
+    target: studie-32877690
     direction: outgoing
     confidence: 0.9
-    source: "pmid:32242179"
+    source: "pmid:32877690"
   - relation: basiert_auf_studie
     target: studie-24828042
     direction: outgoing

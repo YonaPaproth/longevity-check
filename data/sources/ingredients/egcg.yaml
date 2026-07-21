@@ -27,7 +27,7 @@ efsa_notes:
     No EFSA health claims approved for EGCG. In 2018, EFSA published an assessment: green tea catechins in supplements at doses ≥800 mg/day are classified as potentially hepatotoxic. As a beverage (regular tea), they are rated as safe.
 
 key_studies:
-  - ref: pmid-23448243
+  - ref: pmid-32635492
     finding:
       de: >-
         Umfassender Review: Grüntee-Catechine zeigen in epidemiologischen Studien inverse Korrelation mit Herz-Kreislauf-Erkrankungen, Stoffwechselauffälligkeiten und einzelnen Krebsarten. Kausalität unklar.
@@ -267,10 +267,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-23448243
+    target: studie-32635492
     direction: outgoing
     confidence: 0.9
-    source: "pmid:23448243"
+    source: "pmid:32635492"
   - relation: basiert_auf_studie
     target: studie-19007524
     direction: outgoing

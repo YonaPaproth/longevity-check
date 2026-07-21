@@ -25,7 +25,7 @@ efsa_notes:
     No EU-approved health claims exist for Cistanche related to energy, libido, or longevity.
 
 key_studies:
-  - ref: pmid-26830552
+  - ref: pmid-41829896
     finding:
       de: >-
         Review: präklinisch interessante Wirkungen, aber kaum belastbare Human-Endpunkte.
@@ -123,10 +123,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-26830552
+    target: studie-41829896
     direction: outgoing
     confidence: 0.9
-    source: "pmid:26830552"
+    source: "pmid:41829896"
   - relation: basiert_auf_studie
     target: studie-35583806
     direction: outgoing

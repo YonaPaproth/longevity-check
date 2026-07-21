@@ -123,10 +123,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-4424806",
+      "target": "studie-4105646",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:4424806"
+      "source": "pmid:4105646"
     },
     {
       "relation": "basiert_auf_studie",
