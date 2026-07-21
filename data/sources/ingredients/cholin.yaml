@@ -39,7 +39,7 @@ key_studies:
         EFSA legte Adequate Intake (AI) für Cholin fest: 400 mg/Tag für Erwachsene, 480 mg/Tag in der Schwangerschaft, 520 mg/Tag in der Stillzeit.
       en: >-
         The EFSA established Adequate Intake (AI) values for choline: 400 mg/day for adults, 480 mg/day during pregnancy, and 520 mg/day during lactation.
-  - ref: pmid-30015549
+  - ref: pmid-40306555
     finding:
       de: >-
         Review: Ein erheblicher Anteil der Bevölkerung erreicht die empfohlene Cholinzufuhr nicht. Besonders gefährdet: Schwangere, Veganer und Personen mit Lebererkrankungen.
@@ -350,10 +350,10 @@ relations:
     confidence: 0.9
     source: "pmid:41305668"
   - relation: basiert_auf_studie
-    target: studie-30015549
+    target: studie-40306555
     direction: outgoing
     confidence: 0.9
-    source: "pmid:30015549"
+    source: "pmid:40306555"
   - relation: basiert_auf_studie
     target: studie-22071706
     direction: outgoing
