@@ -38,7 +38,7 @@ key_studies:
         Mausdaten machen AKG populär in der gesundes Altern-Szene, reichen aber nicht für belastbare Human-Claims.
       en: >-
         Mouse lifespan extension data drive AKG popularity in aging circles, but evidence is insufficient for robust human health claims.
-  - ref: pmid-28332804
+  - ref: pmid-38088214
     finding:
       de: >-
         Review: AKG ist metabolisch wichtig, doch daraus folgt nicht automatisch ein Nutzen als Supplement.
@@ -165,7 +165,7 @@ relations:
     confidence: 0.9
     source: "pmid:24828042"
   - relation: basiert_auf_studie
-    target: studie-28332804
+    target: studie-38088214
     direction: outgoing
     confidence: 0.9
-    source: "pmid:28332804"
+    source: "pmid:38088214"
