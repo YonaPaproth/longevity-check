@@ -37,7 +37,7 @@ key_studies:
         Kleine Studien deuten auf subjektive Vorteile hin.
       en: >-
         Small studies suggest subjective improvements in fatigue and vitality, though designs were often uncontrolled.
-  - ref: pmid-18396376
+  - ref: pmid-42057671
     finding:
       de: >-
         Breite präklinische Aktivität, Human-Daten deutlich begrenzter.
@@ -145,7 +145,7 @@ relations:
     confidence: 0.9
     source: "pmid:20412130"
   - relation: basiert_auf_studie
-    target: studie-18396376
+    target: studie-42057671
     direction: outgoing
     confidence: 0.9
-    source: "pmid:18396376"
+    source: "pmid:42057671"

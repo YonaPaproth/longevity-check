@@ -39,7 +39,7 @@ key_studies:
         Nationale US-Querschnittsstudie: Eisenmangel (Ferritin &lt;12 µg/L) betrifft ~9–11 % der Frauen im gebärfähigen Alter, ~2 % der Männer. In der Gesamtbevölkerung ist Eisenmangel die häufigste Nährstoffdefizit-Ursache für Anämie.
       en: >-
         National US cross-sectional survey: iron deficiency (ferritin &lt;12 µg/L) affected ~9–11% of women of reproductive age and ~2% of men. Iron deficiency anaemia is the most common nutrient-deficiency cause of anaemia worldwide.
-  - ref: pmid-29155946
+  - ref: pmid-2681512
     finding:
       de: >-
         Review: Nicht-Hämeisen (Pflanzen) hat eine Absorption von ~2–20 % vs. Hämeisen (Fleisch) ~25 %. Vitamin C (50–100 mg) erhöht die Nicht-Hämeisen-Absorption um das 3–6-fache. Phytate (Getreide, Hülsenfrüchte), Polyphenole (Kaffee, Tee) und Calcium hemmen die Absorption signifikant.
@@ -508,10 +508,10 @@ relations:
     confidence: 0.9
     source: "pmid:42163863"
   - relation: basiert_auf_studie
-    target: studie-29155946
+    target: studie-2681512
     direction: outgoing
     confidence: 0.9
-    source: "pmid:29155946"
+    source: "pmid:2681512"
   - relation: basiert_auf_studie
     target: studie-31174214
     direction: outgoing

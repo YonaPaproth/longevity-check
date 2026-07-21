@@ -25,7 +25,7 @@ efsa_notes:
     No EFSA-approved health claims. Regulated in the EU as a naturally occurring food substance because it occurs naturally in food products.
 
 key_studies:
-  - ref: pmid-20308112
+  - ref: pmid-34958679
     finding:
       de: >-
         Ergothionein hat einzigartige Transportmechanismen (OCTN1) im Körper und reichert sich in mitochondrienreichen Geweben an – Hinweis auf biologische Relevanz.
@@ -191,10 +191,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-20308112
+    target: studie-34958679
     direction: outgoing
     confidence: 0.9
-    source: "pmid:20308112"
+    source: "pmid:34958679"
   - relation: basiert_auf_studie
     target: studie-36139790
     direction: outgoing
