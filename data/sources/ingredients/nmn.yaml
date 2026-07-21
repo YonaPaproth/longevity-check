@@ -25,7 +25,7 @@ efsa_notes:
     EFSA has not approved any health claims for NMN. In 2022 the FDA excluded NMN from the dietary supplement category (it was being investigated as a drug). In the EU, NMN is currently classified as a Novel Food — its status remains regulatorily uncertain.
 
 key_studies:
-  - ref: pmid-32283153
+  - ref: pmid-26970090
     finding:
       de: >-
         NMN war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene Gefäßfunktion bei alten Mäusen – kein Humanversuch.
@@ -173,10 +173,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-32283153
+    target: studie-26970090
     direction: outgoing
     confidence: 0.9
-    source: "pmid:32283153"
+    source: "pmid:26970090"
   - relation: basiert_auf_studie
     target: studie-31685720
     direction: outgoing

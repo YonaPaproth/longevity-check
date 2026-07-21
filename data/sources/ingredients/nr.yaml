@@ -32,7 +32,7 @@ key_studies:
         Erste Humanpharmakokinetik-Studie: NR wird oral aufgenommen und war mit höheren Werten verbunden in Studien den NAD+-Metabolismus im Blut.
       en: >-
         First human pharmacokinetic study: NR is orally absorbed and raises NAD+ metabolism in blood.
-  - ref: pmid-29514974
+  - ref: pmid-29599478
     finding:
       de: >-
         6-wöchige NR-Einnahme (500 mg/Tag) war mit höheren Werten verbundene NAD+ im Blut um ~60%, war mit Veränderungen verbundene aber Blutdruck und arterielle Steifigkeit nicht signifikant.
@@ -207,10 +207,10 @@ relations:
     confidence: 0.9
     source: "pmid:27534536"
   - relation: basiert_auf_studie
-    target: studie-29514974
+    target: studie-29599478
     direction: outgoing
     confidence: 0.9
-    source: "pmid:29514974"
+    source: "pmid:29599478"
   - relation: basiert_auf_studie
     target: studie-41957052
     direction: outgoing
