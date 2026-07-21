@@ -27,7 +27,7 @@ efsa_notes:
     EFSA has approved health claims for Vitamin E: protection of cells against oxidative stress. Daily requirement: 13 mg (men), 11 mg (women). Upper tolerable intake: 300 mg/day. EFSA does not distinguish between synthetic and natural forms in claims, but bioavailability differs significantly.
 
 key_studies:
-  - ref: pmid-22050429
+  - ref: pmid-29376219
     finding:
       de: >-
         RCT (n=35.533): 400 IE synthetisches Vitamin E/Tag war mit höheren Werten verbundene Prostatakrebsrisiko um 17 % signifikant. Studie vorzeitig abgebrochen. Wichtigstes Sicherheitssignal der letzten Jahrzehnte für Vitamin E.
@@ -216,10 +216,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-22050429
+    target: studie-29376219
     direction: outgoing
     confidence: 0.9
-    source: "pmid:22050429"
+    source: "pmid:29376219"
   - relation: basiert_auf_studie
     target: studie-15537682
     direction: outgoing

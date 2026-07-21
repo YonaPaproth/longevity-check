@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-21",
-  "total": 305,
+  "total": 302,
   "with_type": 139,
   "with_reviews": 11,
-  "with_ingredients": 277,
+  "with_ingredients": 270,
   "studies": [
     {
       "id": "pmid-41693488",
@@ -424,6 +424,21 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-42478874",
+      "pmid": "42478874",
+      "title": "Correlation of MTHFR (methylenetetrahydrofolate reductase) gen polymorphism,",
+      "authors": "Zhang et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42478874/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
       "id": "study-urolithin-a-clinicaltrials-2026",
       "pmid": "",
       "title": "Effects of Urolithin A Supplementation on Glucose Metabolism in Healthy Adults 55+ Years Old",
@@ -742,6 +757,21 @@
       "ingredients": [
         "ergothionein"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-36649934",
+      "pmid": "36649934",
+      "title": "A systematic review and meta-analysis of randomized controlled trials investigating",
+      "authors": "Hosseini et al.",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36649934/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -1096,6 +1126,23 @@
       "coi": "",
       "effect_size": "",
       "ingredients": [],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-33631772",
+      "pmid": "33631772",
+      "title": "The role of dietary supplements that modulate one-carbon metabolism on stroke",
+      "authors": "Yahn et al.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33631772/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "cholin"
+      ],
       "research_reviews": []
     },
     {
@@ -1506,6 +1553,21 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-30335591",
+      "pmid": "30335591",
+      "title": "Trehalose induces autophagy via lysosomal-mediated TFEB activation in models",
+      "authors": "Rusmini et al.",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30335591/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-30415628",
       "pmid": "30415628",
       "title": "Cardiovascular Risk Reduction with Icosapentaenoic Acid for Hypertriglyceridemia",
@@ -1725,6 +1787,21 @@
       "ingredients": [
         "glutathion"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-29376219",
+      "pmid": "29376219",
+      "title": "Selenium for preventing cancer",
+      "authors": "Vinceti et al.",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29376219/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -1996,23 +2073,6 @@
       "effect_size": "",
       "ingredients": [
         "ashwagandha"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-28575845",
-      "pmid": "28575845",
-      "title": "Fisetin reduces oxidative stress and improves vascular function in old mice",
-      "authors": "Kirkland JL & Tchkonia T",
-      "year": "2017",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28575845/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "fisetin"
       ],
       "research_reviews": []
     },
@@ -2627,23 +2687,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-26007572",
-      "pmid": "26007572",
-      "title": "A systematic review on the effect of curcumin on metabolic syndrome components",
-      "authors": "Panahi Y et al.",
-      "year": "2015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26007572/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "curcumin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-26135835",
       "pmid": "26135835",
       "title": "Loss of Bone and Wnt10b Expression in Male Type 1 Diabetic Mice Is Blocked",
@@ -2810,23 +2853,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-24144610",
-      "pmid": "24144610",
-      "title": "MTHFR C677T polymorphism and folate metabolism",
-      "authors": "Nazki FH et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24144610/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "folsaeure"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-24252493",
       "pmid": "24252493",
       "title": "Meta-analysis of randomized controlled trials on cognitive effects of Bacopa",
@@ -2874,23 +2900,6 @@
       "effect_size": "",
       "ingredients": [
         "zink"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24481086",
-      "pmid": "24481086",
-      "title": "Trehalose delays cardiac aging by enhancing autophagy",
-      "authors": "Wohlgemuth SE et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24481086/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "trehalose"
       ],
       "research_reviews": []
     },
@@ -3726,23 +3735,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-22050429",
-      "pmid": "22050429",
-      "title": "Vitamin E and the risk of prostate cancer: the Selenium and Vitamin E Cancer",
-      "authors": "Klein EA et al.",
-      "year": "2011",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/22050429/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-e"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-22071706",
       "pmid": "22071706",
       "title": "The relation of dietary choline to cognitive performance and white-matter hyperintensity",
@@ -4109,23 +4101,6 @@
       "effect_size": "",
       "ingredients": [
         "schisandra"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-18752471",
-      "pmid": "18752471",
-      "title": "Nothing boring about boron",
-      "authors": "Nielsen FH",
-      "year": "2008",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18752471/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "bor"
       ],
       "research_reviews": []
     },
@@ -4604,23 +4579,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-14695379",
-      "pmid": "14695379",
-      "title": "Choline and risk of neural tube defects in a folate-fortified population",
-      "authors": "Shaw GM et al.",
-      "year": "2004",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/14695379/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "cholin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-14988435",
       "pmid": "14988435",
       "title": "Glutathione metabolism and its implications for health",
@@ -4651,23 +4609,6 @@
       "effect_size": "",
       "ingredients": [
         "magnesium"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-15300606",
-      "pmid": "15300606",
-      "title": "Trehalose alleviates polyglutamine-mediated pathology in a mouse model of Huntington",
-      "authors": "Tanaka M et al.",
-      "year": "2004",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/15300606/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "trehalose"
       ],
       "research_reviews": []
     },

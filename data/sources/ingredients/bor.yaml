@@ -25,12 +25,6 @@ efsa_notes:
     In the EU, no authorized health claims for boron have been established. Moreover, the safety margin is narrower than many supplement marketing texts suggest.
 
 key_studies:
-  - ref: pmid-18752471
-    finding:
-      de: >-
-        Review: Bor ist biologisch interessant, aber vieles bleibt vorläufig und nicht klinisch gesichert.
-      en: >-
-        Review: Boron is biologically interesting, but much remains preliminary and not clinically established.
   - ref: pmid-42313117
     finding:
       de: >-
@@ -125,11 +119,6 @@ relations:
     target: efsa-nicht-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-18752471
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:18752471"
   - relation: basiert_auf_studie
     target: studie-42313117
     direction: outgoing

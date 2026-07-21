@@ -56,7 +56,7 @@ key_studies:
         Pilot-RCT, n=45: Curcumin-Gruppe (500 mg/Tag) zeigte bessere Schmerzreduktion als Diclofenac-Natriumgruppe. Begrenzt durch kleine Fallzahl und kurze Laufzeit (8 Wochen).
       en: >-
         Pilot RCT, n=45: Curcumin group (500 mg/day) showed superior pain reduction vs. diclofenac sodium. Limited by small sample size and short duration (8 weeks).
-  - ref: pmid-26007572
+  - ref: pmid-36649934
     targets: [blutzucker, herz-kreislauf]
     finding:
       de: >-
@@ -370,10 +370,10 @@ relations:
     confidence: 0.9
     source: "pmid:22407780"
   - relation: basiert_auf_studie
-    target: studie-26007572
+    target: studie-36649934
     direction: outgoing
     confidence: 0.9
-    source: "pmid:26007572"
+    source: "pmid:36649934"
   - relation: basiert_auf_studie
     target: studie-42247029
     direction: outgoing

@@ -45,7 +45,7 @@ key_studies:
         Meta-Analyse (30 RCTs): Folsäure war mit niedrigeren Werten verbunden Homocystein signifikant, reduziert aber Herzinfarkte und Schlaganfälle nicht konsistent – außer möglicherweise bei Schlaganfall in folsäurearmen Populationen.
       en: >-
         Meta-analysis (30 RCTs): Folic acid was consistently associated with lower homocysteine levels, but does not consistently reduce heart attacks and strokes—except possibly for stroke prevention in folate-deficient populations.
-  - ref: pmid-24144610
+  - ref: pmid-42478874
     finding:
       de: >-
         Review: MTHFR-C677T-Polymorphismus (ca. 10 % der Bevölkerung homozygot) reduziert Folsäureaktivierung um 70 %. Betroffene profitieren stärker von L-Methylfolat als von synthetischer Folsäure.
@@ -251,7 +251,7 @@ relations:
     confidence: 0.9
     source: "pmid:35042259"
   - relation: basiert_auf_studie
-    target: studie-24144610
+    target: studie-42478874
     direction: outgoing
     confidence: 0.9
-    source: "pmid:24144610"
+    source: "pmid:42478874"

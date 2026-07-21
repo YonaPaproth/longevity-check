@@ -544,7 +544,6 @@
     "studie-18442638",
     "studie-18489294",
     "studie-18515024",
-    "studie-18752471",
     "studie-18926930",
     "studie-19016404",
     "studie-19017509",
@@ -655,7 +654,6 @@
     "studie-24388876",
     "studie-24401291",
     "studie-24452721",
-    "studie-24481086",
     "studie-24490268",
     "studie-24492253",
     "studie-24511820",
@@ -736,7 +734,6 @@
     "studie-28344465",
     "studie-28359099",
     "studie-28471731",
-    "studie-28575845",
     "studie-28611480",
     "studie-28615996",
     "studie-28654511",
@@ -1002,7 +999,7 @@
     "verdauung"
   ],
   "stats": {
-    "entities": 986,
+    "entities": 983,
     "relations": 1951,
     "relationTypes": 13,
     "lastUpdated": "2026-07-21"

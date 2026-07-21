@@ -38,7 +38,7 @@ key_studies:
         Kleine Studie mit Hinweisen auf Verbesserungen bei Haut und fragilen Haaren. Aussagekraft begrenzt.
       en: >-
         Small study with hints of improvements in skin and brittle hair quality, though the evidential weight is limited.
-  - ref: pmid-18197562
+  - ref: pmid-23762049
     finding:
       de: >-
         Review: Potenzial vorhanden, aber klare klinische Belege fehlen.
@@ -156,7 +156,7 @@ relations:
     confidence: 0.9
     source: "pmid:16205932"
   - relation: basiert_auf_studie
-    target: studie-18197562
+    target: studie-23762049
     direction: outgoing
     confidence: 0.9
-    source: "pmid:18197562"
+    source: "pmid:23762049"

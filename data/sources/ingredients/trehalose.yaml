@@ -25,18 +25,12 @@ efsa_notes:
     No approved EFSA health claims. Trehalose is approved as a food additive in the EU (E 955 in some countries). As a supplement, it is considered safe from a regulatory standpoint.
 
 key_studies:
-  - ref: pmid-15300606
+  - ref: pmid-30335591
     finding:
       de: >-
         Trehalose induzierte Autophagie und reduzierte Proteinaggregation im Maus-Huntington-Modell signifikant.
       en: >-
         Trehalose induced autophagy and significantly reduced protein aggregation in a mouse model of Huntington disease.
-  - ref: pmid-24481086
-    finding:
-      de: >-
-        Trehalose verlangsamte Herzalterung bei Ratten durch gesteigerte Autophagie – Mitochondrienfunktion war mit Veränderungen verbunden.
-      en: >-
-        Trehalose slowed cardiac aging in rats via enhanced autophagy; improvements in mitochondrial function were associated with these effects.
   - ref: pmid-31978754
     finding:
       de: >-
@@ -151,12 +145,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-15300606
+    target: studie-30335591
     direction: outgoing
     confidence: 0.9
-    source: "pmid:15300606"
-  - relation: basiert_auf_studie
-    target: studie-24481086
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:24481086"
+    source: "pmid:30335591"

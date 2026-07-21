@@ -51,7 +51,7 @@ key_studies:
         Beobachtungsstudie (n=1391): Höhere Cholinzufuhr war mit besserem verbalem Gedächtnis und geringerer Prävalenz weißer Substanzläsionen assoziiert.
       en: >-
         Observational study (n=1,391): Higher choline intake was associated with better verbal memory and lower prevalence of white matter lesions.
-  - ref: pmid-14695379
+  - ref: pmid-33631772
     finding:
       de: >-
         Niedrige Cholinzufuhr war auch in einer folsäureverstärkten Population mit erhöhtem Risiko für Neuralrohrdefekte assoziiert (OR ~1,7 im untersten Quintil).
@@ -360,10 +360,10 @@ relations:
     confidence: 0.9
     source: "pmid:22071706"
   - relation: basiert_auf_studie
-    target: studie-14695379
+    target: studie-33631772
     direction: outgoing
     confidence: 0.9
-    source: "pmid:14695379"
+    source: "pmid:33631772"
   - relation: hat_interaktion_mit
     target: curcumin
     direction: incoming
