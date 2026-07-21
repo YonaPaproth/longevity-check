@@ -25,7 +25,7 @@ efsa_notes:
     No EFSA health claims approved for astaxanthin. Permitted as a food supplement in the EU. Novel Food status applies to synthetic astaxanthin; natural astaxanthin from Haematococcus pluvialis is freely available as a supplement.
 
 key_studies:
-  - ref: pmid-24378819
+  - ref: pmid-40359479
     finding:
       de: >-
         Review: Astaxanthin überquert die Blut-Hirn-Schranke und schützt Neuronen vor oxidativem Stress. Antioxidative Kapazität 6.000× höher als Vitamin C in vitro.
@@ -230,10 +230,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-24378819
+    target: studie-40359479
     direction: outgoing
     confidence: 0.9
-    source: "pmid:24378819"
+    source: "pmid:40359479"
   - relation: basiert_auf_studie
     target: studie-22349894
     direction: outgoing

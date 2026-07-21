@@ -24,25 +24,25 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-12849737",
+      "target": "studie-12598816",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12849737",
+      "source": "pmid:12598816",
       "evidence_level": "human_observational"
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-25932463",
+      "target": "studie-41824218",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:25932463"
+      "source": "pmid:41824218"
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-16517407",
+      "target": "studie-27100509",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:16517407"
+      "source": "pmid:27100509"
     }
   ]
 }

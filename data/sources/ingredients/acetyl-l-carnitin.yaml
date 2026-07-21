@@ -31,13 +31,13 @@ key_studies:
         Meta-analytische Hinweise auf Nutzen in älteren und kognitiv beeinträchtigten Populationen, aber keine saubere Übertragbarkeit auf gesunde Nutzer.
       en: >-
         Meta-analytic evidence suggests potential benefit in older and cognitively impaired populations, but findings do not cleanly translate to healthy individuals.
-  - ref: pmid-25932463
+  - ref: pmid-41824218
     finding:
       de: >-
         Möglicher Nutzen in bestimmten neurologischen Kontexten.
       en: >-
         Potential benefit in specific neurological contexts, particularly neuropathic conditions, though clinical effect sizes remain modest.
-  - ref: pmid-16517407
+  - ref: pmid-27100509
     finding:
       de: >-
         Mechanistisch interessant, aber Human-Endpunkte bleiben begrenzt.
@@ -149,12 +149,12 @@ relations:
     confidence: 0.9
     source: "pmid:12598816"
   - relation: basiert_auf_studie
-    target: studie-25932463
+    target: studie-41824218
     direction: outgoing
     confidence: 0.9
-    source: "pmid:25932463"
+    source: "pmid:41824218"
   - relation: basiert_auf_studie
-    target: studie-16517407
+    target: studie-27100509
     direction: outgoing
     confidence: 0.9
-    source: "pmid:16517407"
+    source: "pmid:27100509"

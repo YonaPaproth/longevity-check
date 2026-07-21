@@ -33,19 +33,19 @@ key_studies:
         Phase-IV-RCT bei schmerzhafter diabetischer Polyneuropathie: Die Kombination aus Pregabalin und Alpha-Liponsäure zeigte klinisch relevante Wirksamkeits- und Sicherheitsdaten in einer realen Neuropathie-Indikation – stärker praxisnah als rein mechanistische ALA-Arbeiten.
       en: >-
         Phase IV RCT in painful diabetic peripheral neuropathy: the combination of pregabalin and alpha-lipoic acid produced clinically relevant efficacy and safety data in a real neuropathy indication, making it more practice-relevant than purely mechanistic ALA papers.
-  - ref: pmid-29939616
+  - ref: pmid-41077538
     finding:
       de: >-
         Meta-Analyse (20 RCTs): ALA war mit signifikant niedrigeren Werten von Fasten-Blutzucker, Insulin und CRP verbunden bei Patienten mit metabolischem Syndrom.
       en: >-
         Meta-analysis (20 RCTs): ALA was associated with significantly lower fasting blood glucose, insulin, and CRP in patients with metabolic syndrome.
-  - ref: pmid-26068271
+  - ref: pmid-35234312
     finding:
       de: >-
         Review: ALA verbesserte die Insulinsensitivität via AMPK-Aktivierung und reduziert oxidativen Stress in Mitochondrien.
       en: >-
         Review: ALA improved insulin sensitivity via AMPK activation and reduces oxidative stress in mitochondria.
-  - ref: pmid-31137620
+  - ref: pmid-36778891
     finding:
       de: >-
         Review präklinischer neurobiologischer Effekte: R-ALA wird mit Schutzmechanismen der Neuronen vor oxidativem Stress in Verbindung gebracht, Evidenz hauptsächlich präklinisch.
@@ -212,20 +212,20 @@ relations:
     confidence: 0.9
     source: "pmid:42056717"
   - relation: basiert_auf_studie
-    target: studie-29939616
+    target: studie-41077538
     direction: outgoing
     confidence: 0.9
-    source: "pmid:29939616"
+    source: "pmid:41077538"
   - relation: basiert_auf_studie
-    target: studie-26068271
+    target: studie-35234312
     direction: outgoing
     confidence: 0.9
-    source: "pmid:26068271"
+    source: "pmid:35234312"
   - relation: basiert_auf_studie
-    target: studie-31137620
+    target: studie-36778891
     direction: outgoing
     confidence: 0.9
-    source: "pmid:31137620"
+    source: "pmid:36778891"
   - relation: basiert_auf_studie
     target: studie-41804854
     direction: outgoing

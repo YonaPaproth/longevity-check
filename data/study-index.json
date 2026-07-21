@@ -3,7 +3,7 @@
   "total": 438,
   "with_type": 196,
   "with_reviews": 11,
-  "with_ingredients": 405,
+  "with_ingredients": 398,
   "studies": [
     {
       "id": "pmid-41693488",
@@ -219,6 +219,38 @@
       ]
     },
     {
+      "id": "pmid-41077538",
+      "pmid": "41077538",
+      "title": "Effects of alpha-lipoic acid supplementation on cardiometabolic risk factors:",
+      "authors": "Mohammadi et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41077538/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-41824218",
+      "pmid": "41824218",
+      "title": "Acetyl-L-Carnitine in the Treatment of Peripheral Neuropathies: A Narrative",
+      "authors": "Fornasari et al.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41824218/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "acetyl-l-carnitin"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-42135539",
       "pmid": "42135539",
       "title": "Human whole-blood NAD+ levels do not vary with age or lifestyle interventions",
@@ -279,6 +311,36 @@
       "url": "https://clinicaltrials.gov/study/NCT06274749",
       "study_type": "",
       "evidence_quality": "",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-40126282",
+      "pmid": "40126282",
+      "title": "Choline Alphoscerate: A Therapeutic Option for the Management of Subthreshold",
+      "authors": "Granata et al.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40126282/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-40359479",
+      "pmid": "40359479",
+      "title": "Exploring astaxanthin: a comprehensive review on its pharmacokinetics properties",
+      "authors": "Mohd et al.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40359479/",
+      "study_type": "",
+      "evidence_quality": "low",
       "n": "",
       "coi": "",
       "effect_size": "",
@@ -354,6 +416,21 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-39126572",
+      "pmid": "39126572",
+      "title": "Apigenin and inflammation in the brain: can apigenin inhibit neuroinflammation",
+      "authors": "Olasehinde et al.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39126572/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-36139790",
       "pmid": "36139790",
       "title": "Low Plasma Ergothioneine Predicts Cognitive and Functional Decline in an Elderly",
@@ -385,6 +462,21 @@
       "ingredients": [
         "lion-s-mane"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-36778891",
+      "pmid": "36778891",
+      "title": "Molecular and Therapeutic Insights of Alpha-Lipoic Acid as a Potential Molecule",
+      "authors": "Tripathi et al.",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36778891/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -485,6 +577,21 @@
       "ingredients": [
         "multivitamin"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-35234312",
+      "pmid": "35234312",
+      "title": "Effects of alpha lipoic acid on metabolic syndrome: A comprehensive review",
+      "authors": "Najafi et al.",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35234312/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -1302,23 +1409,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-31137620",
-      "pmid": "31137620",
-      "title": "R-alpha-lipoic acid action on cell proliferation and mitochondrial membrane",
-      "authors": "Salehi B et al.",
-      "year": "2019",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/31137620/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "alpha-liponsaeure"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-31263284",
       "pmid": "31263284",
       "title": "Supplementation with Akkermansia muciniphila in overweight and obese human",
@@ -1606,6 +1696,21 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-29738701",
+      "pmid": "29738701",
+      "title": "Flavones-bound in benzodiazepine site on GABA(A) receptor: Concomitant anxiolytic-like",
+      "authors": "Oliveira et al.",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29738701/",
+      "study_type": "Review",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-29926979",
       "pmid": "29926979",
       "title": "Lactobacillus reuteri reduces bone loss in older women with low bone mineral",
@@ -1619,23 +1724,6 @@
       "effect_size": "",
       "ingredients": [
         "l-reuteri-6475"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-29939616",
-      "pmid": "29939616",
-      "title": "Effects of alpha-lipoic acid on metabolic syndrome",
-      "authors": "Akbari M et al.",
-      "year": "2018",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/29939616/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "alpha-liponsaeure"
       ],
       "research_reviews": []
     },
@@ -2524,6 +2612,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-27100509",
+      "pmid": "27100509",
+      "title": "The neurobiology of acetyl-L-carnitine",
+      "authors": "Traina et al.",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27100509/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "acetyl-l-carnitin"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-27144639",
       "pmid": "27144639",
       "title": "Long-term use of glucosamine and chondroitin in osteoarthritis",
@@ -2537,23 +2642,6 @@
       "effect_size": "",
       "ingredients": [
         "glucosamin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-27174929",
-      "pmid": "27174929",
-      "title": "Apigenin as a CD38 inhibitor in aging",
-      "authors": "Camacho-Pereira J et al.",
-      "year": "2016",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27174929/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "apigenin"
       ],
       "research_reviews": []
     },
@@ -2896,23 +2984,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-25932463",
-      "pmid": "25932463",
-      "title": "Acetyl-L-carnitine and neuropathic pain",
-      "authors": "Li S et al.",
-      "year": "2015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25932463/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "acetyl-l-carnitin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-25933483",
       "pmid": "25933483",
       "title": "Phosphatidylserine and the human brain",
@@ -2943,23 +3014,6 @@
       "effect_size": "",
       "ingredients": [
         "curcumin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-26068271",
-      "pmid": "26068271",
-      "title": "Alpha-Lipoic Acid Supplementation and Diabetes",
-      "authors": "Rochette L et al.",
-      "year": "2015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/26068271/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "alpha-liponsaeure"
       ],
       "research_reviews": []
     },
@@ -3126,23 +3180,6 @@
       "effect_size": "",
       "ingredients": [
         "folsaeure"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-24378819",
-      "pmid": "24378819",
-      "title": "Astaxanthin as a potential neuroprotective agent for neurological diseases",
-      "authors": "Ambati RR et al.",
-      "year": "2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/24378819/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "astaxanthin"
       ],
       "research_reviews": []
     },
@@ -3567,6 +3604,21 @@
       "ingredients": [
         "nac"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-23172919",
+      "pmid": "23172919",
+      "title": "Flavonoid apigenin is an inhibitor of the NAD+ ase CD38: implications for",
+      "authors": "Escande et al.",
+      "year": "2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23172919/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -5164,23 +5216,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-20589765",
-      "pmid": "20589765",
-      "title": "Luteolin and apigenin as inhibitors of inflammation",
-      "authors": "Shukla S & Gupta S",
-      "year": "2010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/20589765/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "apigenin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-20595412",
       "pmid": "20595412",
       "title": "S-adenosyl methionine (SAMe) augmentation of serotonin reuptake inhibitors",
@@ -6148,23 +6183,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-16517407",
-      "pmid": "16517407",
-      "title": "Acetyl-L-carnitine in aging and neuroprotection",
-      "authors": "Calabrese V et al.",
-      "year": "2006",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/16517407/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "acetyl-l-carnitin"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-16753142",
       "pmid": "16753142",
       "title": "Tocotrienols: the emerging face of natural vitamin E",
@@ -6583,7 +6601,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "acetyl-l-carnitin"
+      ],
       "research_reviews": []
     },
     {
@@ -6802,23 +6822,6 @@
       "effect_size": "",
       "ingredients": [
         "rutin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-11396858",
-      "pmid": "11396858",
-      "title": "Alpha-glycerylphosphorylcholine in cognitive decline",
-      "authors": "Parnetti L et al.",
-      "year": "2001",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/11396858/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "alpha-gpc"
       ],
       "research_reviews": []
     },
@@ -7170,23 +7173,6 @@
       "effect_size": "",
       "ingredients": [
         "l-tyrosin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-7898410",
-      "pmid": "7898410",
-      "title": "Anxiolytic-like activity and apigenin treatment in a model of generalized anxiety",
-      "authors": "Viola H et al.",
-      "year": "1995",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/7898410/",
-      "study_type": "Review",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "apigenin"
       ],
       "research_reviews": []
     },

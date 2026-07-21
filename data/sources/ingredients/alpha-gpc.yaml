@@ -25,7 +25,7 @@ efsa_notes:
     The EFSA has not approved any health claims for Alpha-GPC regarding focus, memory, or cognitive performance. Marketing claims are common but not evidence-based.
 
 key_studies:
-  - ref: pmid-11396858
+  - ref: pmid-40126282
     finding:
       de: >-
         Ältere klinische Daten deuten auf kognitive Vorteile in bestimmten Populationen hin, aber die Evidenz ist nicht modern und nicht sehr breit repliziert.
@@ -146,10 +146,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-11396858
+    target: studie-40126282
     direction: outgoing
     confidence: 0.9
-    source: "pmid:11396858"
+    source: "pmid:40126282"
   - relation: basiert_auf_studie
     target: studie-18461736
     direction: outgoing
