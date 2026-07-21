@@ -23,10 +23,62 @@ const ingredientIds = rels.relations
 const allIngredients = await getCollection('enIngredients');
 const ingredientMap = new Map(allIngredients.map(i => [i.data.slug, i.data]));
 
-// Look up per-symptom confidence AND best evidence tier from each ingredient's relations
+// Look up per-symptom confidence AND symptom-specific evidence from study targets
 const confidenceMap = new Map<string, number>();
 const evidenceTierMap = new Map<string, string>();
+const studyCountMap = new Map<string, number>();
 const EV_TIER_RANK: Record<string, number> = { meta_analysis: 4, human_rct: 3, human_observational: 2, expert_review: 1 };
+
+// Load study registry for study_type lookups
+const studyTypeMap = new Map<string, string>();
+try {
+  const studyIndex = JSON.parse(readFileSync('data/study-index.json', 'utf-8'));
+  for (const s of studyIndex.studies || []) {
+    if (s.study_type) studyTypeMap.set(s.id, s.study_type);
+  }
+} catch {}
+
+const STUDY_TYPE_TO_TIER: Record<string, string> = {
+  'Meta-Analysis': 'meta_analysis', 'Systematic Review': 'meta_analysis',
+  'RCT': 'human_rct', 'Controlled Clinical Trial': 'human_rct',
+  'Clinical Trial': 'human_rct', 'Multicenter Study': 'human_rct',
+  'Observational Study': 'human_observational', 'Comparative Study': 'human_observational',
+  'Case Report': 'human_observational', 'Journal Article': 'expert_review',
+  'Review': 'expert_review', 'Preprint': 'expert_review',
+};
+
+// Build symptom-specific evidence from study relations (untersucht)
+const targetMap = new Map<string, Map<string, { count: number; bestTier: string; bestRank: number }>>();
+try {
+  const studyFiles = readdirSync('data/relations/by-entity').filter(f => f.startsWith('studie-'));
+  for (const fname of studyFiles) {
+    const studyData = JSON.parse(readFileSync(`data/relations/by-entity/${fname}`, 'utf-8'));
+    const studyId = studyData.entity;
+    const studyType = studyTypeMap.get(studyId.replace('studie-', 'pmid-')) || '';
+    const tier = STUDY_TYPE_TO_TIER[studyType] || 'expert_review';
+    const rank = EV_TIER_RANK[tier] ?? 0;
+
+    for (const rel of (studyData.relations || [])) {
+      if (rel.relation !== 'untersucht') continue;
+      const symptom = rel.target;
+      const sourceIngredient = rel.source?.includes('pmid:') ? null : null;
+
+      // Find which ingredient links to this study
+      // (we'll match via basiert_auf_studie later in the loop)
+      if (!targetMap.has(studyId)) targetMap.set(studyId, new Map());
+      const symMap = targetMap.get(studyId)!;
+      if (!symMap.has(symptom)) {
+        symMap.set(symptom, { count: 0, bestTier: tier, bestRank: rank });
+      }
+      const entry = symMap.get(symptom)!;
+      entry.count++;
+      if (rank > entry.bestRank) {
+        entry.bestRank = rank;
+        entry.bestTier = tier;
+      }
+    }
+  }
+} catch {}
 
 for (const slug of ingredientIds) {
   try {
@@ -34,16 +86,26 @@ for (const slug of ingredientIds) {
     const rel = ingRels.relations.find((r: any) => r.relation === 'wird_eingesetzt_fuer' && r.target === id);
     if (rel?.confidence) confidenceMap.set(slug, rel.confidence);
 
-    // Find best evidence_level from basiert_auf_studie relations
+    // Symptom-specific evidence: check linked studies for untersucht targeting this symptom
     let bestTier = '';
     let bestRank = 0;
+    let studyCount = 0;
     for (const r of ingRels.relations) {
-      if (r.relation === 'basiert_auf_studie' && r.evidence_level) {
-        const rank = EV_TIER_RANK[r.evidence_level] ?? 0;
-        if (rank > bestRank) { bestRank = rank; bestTier = r.evidence_level; }
+      if (r.relation !== 'basiert_auf_studie' || !r.target) continue;
+      const studySymMap = targetMap.get(r.target);
+      if (studySymMap?.has(id!)) {
+        const entry = studySymMap.get(id!)!;
+        studyCount++;
+        if (entry.bestRank > bestRank) {
+          bestRank = entry.bestRank;
+          bestTier = entry.bestTier;
+        }
       }
     }
-    if (bestTier) evidenceTierMap.set(slug, bestTier);
+    if (bestTier) {
+      evidenceTierMap.set(slug, bestTier);
+      studyCountMap.set(slug, studyCount);
+    }
   } catch {}
 }
 
@@ -102,6 +164,12 @@ const tierStyle: Record<string, string> = {
           <div class="flex items-center gap-4">
             <div class="flex flex-col items-center gap-1">
               <EvidenceBadge locale="en" level={ing.evidenceLevel} />
+              {evidenceTierMap.get(ing.slug) && (
+                <span class={`text-[10px] font-medium px-1.5 py-0.5 rounded-full whitespace-nowrap ${tierStyle[evidenceTierMap.get(ing.slug)!]}`}>
+                  {tierLabel[evidenceTierMap.get(ing.slug)!]}
+                  {studyCountMap.get(ing.slug) ? ` (${studyCountMap.get(ing.slug)})` : ''}
+                </span>
+              )}
             </div>
             <div>
               <h2 class="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">{ing.title}</h2>
