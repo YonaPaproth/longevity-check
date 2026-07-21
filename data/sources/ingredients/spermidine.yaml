@@ -45,7 +45,7 @@ key_studies:
         Translationsstudie: Spermidin verbesserte in alten Mäusen die diastolische Herzfunktion und verlängerte die Lebensspanne (+10 %). Begleitende epidemiologische Auswertung (n=3.407): Höhere diätetische Spermidinzufuhr war mit niedrigerem systolischen Blutdruck und reduziertem kardiovaskulärem Risiko assoziiert (HR 0,60 für kardiovaskuläre Mortalität, oberstes vs. unterstes Tertil).
       en: >-
         Translational study: spermidine improved diastolic cardiac function in old mice and extended lifespan by ~10%. Accompanying epidemiological analysis (n=3,407): higher dietary spermidine intake was associated with lower systolic blood pressure and reduced cardiovascular risk (HR 0.60 for cardiovascular mortality, highest vs. lowest tertile).
-  - ref: pmid-34929611
+  - ref: pmid-29955838
     finding:
       de: >-
         Prospektive Beobachtungsstudie, n=829, 20 Jahre Follow-up (Bruneck-Kohorte, Österreich): Höchstes Spermidin-Tertil der Nahrungsaufnahme war mit HR 0,62 für Gesamtmortalität assoziiert vs. niedrigstes Tertil (95% CI: 0,45–0,85). Adjustierung für Alter, Geschlecht, Ernährungsqualität. Einschränkung: Beobachtungsstudie — Kausalität nicht ableitbar.
@@ -414,7 +414,7 @@ relations:
     confidence: 0.9
     source: "pmid:33762175"
   - relation: basiert_auf_studie
-    target: studie-34929611
+    target: studie-29955838
     direction: outgoing
     confidence: 0.9
-    source: "pmid:34929611"
+    source: "pmid:29955838"

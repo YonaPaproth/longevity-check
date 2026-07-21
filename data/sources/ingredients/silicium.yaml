@@ -26,13 +26,13 @@ efsa_notes:
     In the EU, there are no substantiated approved health claims for silicon regarding beauty, skin, or connective tissue promises. Most claims are marketing rather than regulatory science.
 
 key_studies:
-  - ref: pmid-17435952
+  - ref: pmid-23762049
     finding:
       de: >-
         Review: Silicium ist biologisch plausibel für Knochen und Bindegewebe, aber die klinische Evidenz bleibt begrenzt.
       en: >-
         Review: Silicon is biologically plausible for bone and connective tissue, but clinical evidence in humans remains limited.
-  - ref: pmid-15701098
+  - ref: pmid-16205932
     finding:
       de: >-
         Kleine Studie mit Hinweisen auf Verbesserungen bei Haut und fragilen Haaren. Aussagekraft begrenzt.
@@ -146,15 +146,15 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-17435952
+    target: studie-23762049
     direction: outgoing
     confidence: 0.9
-    source: "pmid:17435952"
+    source: "pmid:23762049"
   - relation: basiert_auf_studie
-    target: studie-15701098
+    target: studie-16205932
     direction: outgoing
     confidence: 0.9
-    source: "pmid:15701098"
+    source: "pmid:16205932"
   - relation: basiert_auf_studie
     target: studie-18197562
     direction: outgoing
