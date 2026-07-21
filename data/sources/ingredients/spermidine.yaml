@@ -28,12 +28,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-39117797
+    targets: [alterung, fertilitat, verdauung]
     finding:
       de: >-
         Mechanistische Studie (Zellmodelle und C. elegans): Spermidin induziert Autophagie über Hypusinierung des Translationsfaktors eIF5A — ein neu identifizierter Mechanismus zusätzlich zur bekannten mTOR-Hemmung. C. elegans-Lebensspanne verlängerte sich signifikant unter Spermidin-Exposition; Autophagie-Defizienz hob den Effekt auf.
       en: >-
         Mechanistic study (cell models and C. elegans): spermidine induces autophagy via hypusination of the translation factor eIF5A — a newly identified mechanism in addition to known mTOR inhibition. C. elegans lifespan was significantly extended under spermidine exposure; autophagy deficiency abolished the effect entirely.
   - ref: pmid-35616942
+    targets: [fertilitat, kognition]
     finding:
       de: >-
         RCT, n=85 ältere Erwachsene mit subjektiven GedächtnisBeschwerden (SCI), 3 Monate Weizenkeimextrakt (~1,2 mg Spermidin/Tag) vs. Placebo. Primärer Endpunkt (Mnemonic Discrimination Task): kein signifikanter Unterschied. Sekundärer Endpunkt (Wortlisten-Gedächtnis): signifikante Verbesserung in der Spermidin-Gruppe. Fazit: Exploratorische Ergebnisse, kein Primärendpunkt erreicht — größere Studien erforderlich.
@@ -46,6 +48,7 @@ key_studies:
       en: >-
         Translational study: spermidine improved diastolic cardiac function in old mice and extended lifespan by ~10%. Accompanying epidemiological analysis (n=3,407): higher dietary spermidine intake was associated with lower systolic blood pressure and reduced cardiovascular risk (HR 0.60 for cardiovascular mortality, highest vs. lowest tertile).
   - ref: pmid-29955838
+    targets: [fertilitat, oxidativer-stress]
     finding:
       de: >-
         Prospektive Beobachtungsstudie, n=829, 20 Jahre Follow-up (Bruneck-Kohorte, Österreich): Höchstes Spermidin-Tertil der Nahrungsaufnahme war mit HR 0,62 für Gesamtmortalität assoziiert vs. niedrigstes Tertil (95% CI: 0,45–0,85). Adjustierung für Alter, Geschlecht, Ernährungsqualität. Einschränkung: Beobachtungsstudie — Kausalität nicht ableitbar.

@@ -28,6 +28,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-40959699
+    targets: [depression, schlaf, stress]
     finding:
       de: >-
         RCT, n=77 Erwachsene ohne klinische Diagnose, 4 Wochen: 1,8 g/Tag Hericium-Extrakt vs. Placebo. Pittsburgh Sleep Quality Index: signifikante Verbesserung (p=0,04). Angst- und Depressionsskalen (HADS): signifikante Reduktion in der Verum-Gruppe. Begrenzte Studiendauer und Fehlen klinisch diagnostizierter Angsterkrankungen schränken Generalisierbarkeit ein.

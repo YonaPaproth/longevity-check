@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-12019049
+    targets: [gelenke]
     finding:
       de: >-
         Meta-Analyse mit Hinweisen auf symptomatische Vorteile im Gelenk-Kontext.

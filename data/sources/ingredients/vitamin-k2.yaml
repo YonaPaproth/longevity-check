@@ -29,6 +29,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-15514282
+    targets: [herz-kreislauf, schmerz, verdauung]
     finding:
       de: >-
         Rotterdam-Studie (n=4.807): Hohes Menaquinon-Intake reduzierte koronare Herzerkrankung um 41 % und kardiovaskuläre Mortalität um 57 %. Starke epidemiologische Grundlage.
@@ -41,12 +42,14 @@ key_studies:
       en: >-
         Randomized controlled trial (n=244, 3 years): 180 µg MK-7 daily significantly slowed age-related arterial stiffness progression. Osteocalcin carboxylation correlated with measured changes.
   - ref: pmid-23525894
+    targets: [knochen, muskel]
     finding:
       de: >-
         RCT (n=244, 3 Jahre): MK-7 war mit Veränderungen verbundene Knochendichte und -stärke signifikant vs. Placebo. Klinisch relevante Reduktion des Knochenschwunds.
       en: >-
         Randomized controlled trial (n=244, 3 years): MK-7 supplementation significantly reduced bone loss versus placebo, with clinically meaningful improvements in bone density and strength.
   - ref: pmid-17138823
+    targets: [knochen, leber]
     finding:
       de: >-
         MK-7 hat eine Halbwertszeit von 72 Stunden (vs. 1–2 Stunden für K1/MK-4) und wird effizienter in extrahepatische Gewebe (Knochen, Arterien) transportiert.

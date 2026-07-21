@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-30335591
+    targets: [verdauung]
     finding:
       de: >-
         Trehalose induzierte Autophagie und reduzierte Proteinaggregation im Maus-Huntington-Modell signifikant.
       en: >-
         Trehalose induced autophagy and significantly reduced protein aggregation in a mouse model of Huntington disease.
   - ref: pmid-31978754
+    targets: [blutzucker]
     finding:
       de: >-
         Pilota-Humanstudie: Trehalose-Einnahme war mit Veränderungen verbundene Glukosetoleranz und arterielle Steifigkeit bei übergewichtigen Erwachsenen.

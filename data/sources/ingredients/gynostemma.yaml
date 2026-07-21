@@ -27,12 +27,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-23804546
+    targets: [blutzucker]
     finding:
       de: >-
         RCT: Gynostemma-Tee war mit Veränderungen verbundene Insulinsensitivität und war mit niedrigeren Werten verbundene Nüchternblutzucker bei adipösen Probanden nach 8 Wochen.
       en: >-
         RCT: Gynostemma tea was associated with improved insulin sensitivity and statistically significant reductions in fasting blood glucose in obese subjects after 8 weeks of daily consumption.
   - ref: pmid-19628196
+    targets: [herz-kreislauf]
     finding:
       de: >-
         Humanpilot: Gynostemma war mit niedrigeren Werten verbundene LDL-Cholesterin und Triglyzeride nach 4 Wochen bei Personen mit leicht war mit höheren Werten verbundenen Blutfettwerten.

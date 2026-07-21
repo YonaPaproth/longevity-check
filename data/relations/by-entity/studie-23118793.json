@@ -7,6 +7,14 @@
       "direction": "incoming",
       "confidence": 0.9,
       "source": "pmid:23118793"
+    },
+    {
+      "relation": "untersucht",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23118793",
+      "evidence_level": "expert_review"
     }
   ]
 }

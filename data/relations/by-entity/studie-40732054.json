@@ -7,6 +7,14 @@
       "direction": "incoming",
       "confidence": 0.9,
       "source": "pmid:40732054"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40732054",
+      "evidence_level": "expert_review"
     }
   ]
 }

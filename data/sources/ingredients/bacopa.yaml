@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-11498727
+    targets: [kognition]
     finding:
       de: >-
         Eine der bekanntesten Humanstudien mit Hinweisen auf Verbesserungen im Gedächtnis nach mehrwöchiger Einnahme.
@@ -38,6 +39,7 @@ key_studies:
       en: >-
         Review: Among herbal nootropics, Bacopa has a comparatively solid human evidence base."
   - ref: pmid-24252493
+    targets: [kognition]
     finding:
       de: >-
         Meta-Analyse: leichte bis moderate Vorteile, aber keine Wunderwirkungen.

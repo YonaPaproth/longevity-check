@@ -28,18 +28,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-7794222
+    targets: [oxidativer-stress, schlaf]
     finding:
       de: >-
         Militärstudie: 150 mg/kg L-Tyrosin milderte den Leistungsabfall bei Schlafentzug um ca. 4 Stunden.
       en: >-
         Military study: 150 mg/kg L-Tyrosin attenuated performance decline from sleep deprivation by approximately 4 hours.
   - ref: pmid-17290373
+    targets: [kognition, oxidativer-stress, verdauung]
     finding:
       de: >-
         Mechanistische Studie: Tyrosin-Depletion reduzierte dopaminabhängige kognitive Parameter, was die Rolle als Neurotransmitter-Vorstufe unterstreicht.
       en: >-
         Mechanistic study: Tyrosine depletion reduced dopamine-dependent cognitive parameters, underscoring its role as a neurotransmitter precursor.
   - ref: pmid-6528626
+    targets: [oxidativer-stress, stress]
     finding:
       de: >-
         Kontrollierter Test (Kälte- und Lärm-Stressoren): L-Tyrosin milderte in Studien Stressreaktionen und Leistungsabfälle.

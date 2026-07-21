@@ -25,6 +25,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-30279143
+    targets: [alterung, oxidativer-stress, schlaf]
     finding:
       de: >-
         Tierstudie (Mäuse): Fisetin war das potenteste Senolytikum aus 10 getesteten Flavonoiden. Verlängerte Lebenserwartung um 10 % und verbesserte Gesundheitsmarker.
@@ -43,6 +44,7 @@ key_studies:
       en: >-
         Review: Fisetin protects neurons from oxidative stress and inflammation in animal models (including Alzheimer's models) and activates longevity-associated pathways Sirtuin-1 and AMPK.
   - ref: pmid-28575845
+    targets: [verdauung]
     finding:
       de: >-
         Review senolytischer Strategien: Fisetin als Kandidat mit günstigem Nebenwirkungsprofil im Vergleich zu pharmakologischen Senolytics.

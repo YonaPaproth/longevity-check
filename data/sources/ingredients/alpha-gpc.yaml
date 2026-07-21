@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-40126282
+    targets: [kognition]
     finding:
       de: >-
         Ältere klinische Daten deuten auf kognitive Vorteile in bestimmten Populationen hin, aber die Evidenz ist nicht modern und nicht sehr breit repliziert.
       en: >-
         Older clinical data suggest cognitive benefits in specific populations, but evidence is dated and not widely replicated in modern studies.
   - ref: pmid-36683513
+    targets: [kognition, verdauung]
     finding:
       de: >-
         Review: Alpha-GPC ist interessant, aber keine magische Abkürzung zu mehr Kognition.

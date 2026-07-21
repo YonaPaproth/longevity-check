@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-17004914
+    targets: [blutdruck, prostata]
     finding:
       de: >-
         Pilotstudie: Kürbiskernöl allein und in Kombination mit Saw Palmetto verbesserte BPH-Symptome und Lebensqualität.

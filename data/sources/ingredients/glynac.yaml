@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-33783984
+    targets: [entzuendung, kognition, muskel]
     finding:
       de: >-
         RCT (n=24): GlyNAC bei älteren Erwachsenen stellte Glutathion-Spiegel auf jugendliche Werte wieder her und war mit Veränderungen verbundene Mitochondrienfunktion, Entzündungsmarker, Muskelkraft und Kognition.
       en: >-
         RCT (n=24): GlyNAC in older adults restored glutathione levels to youthful values and was associated with improvements in mitochondrial function, inflammatory markers, muscle strength, and cognition.
   - ref: pmid-35268089
+    targets: [alterung, verdauung]
     finding:
       de: >-
         Tierstudie: GlyNAC wird im Zusammenhang mit Alterungsforschung diskutierte die Lebensspanne bei Mäusen um 24 % und war mit Veränderungen verbundene multiple Hallmarks of Alterung.

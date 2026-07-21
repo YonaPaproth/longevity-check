@@ -1,0 +1,13 @@
+{
+  "entity": "studie-40608959",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "energie",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40608959",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

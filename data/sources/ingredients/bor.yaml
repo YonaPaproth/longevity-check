@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-42313117
+    targets: [knochen]
     finding:
       de: >-
         Review: Hinweise auf potenzielle Bedeutung für Knochen und Mineralstoffhaushalt, aber keine robuste Basis für breite Supplementempfehlungen.

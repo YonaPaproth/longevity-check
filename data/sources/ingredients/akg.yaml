@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-32877690
+    targets: [alterung, verdauung]
     finding:
       de: >-
         Tierstudie: AKG war mit Veränderungen verbundene einige Altersmarker bei Mäusen. Spannend, aber kein Humanbeweis.

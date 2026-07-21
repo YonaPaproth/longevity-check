@@ -1,0 +1,13 @@
+{
+  "entity": "studie-42356270",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42356270",
+      "evidence_level": "human_rct"
+    }
+  ]
+}

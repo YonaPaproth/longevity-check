@@ -33,6 +33,7 @@ key_studies:
       en: >-
         Landmark Lancet review: Selenium is essential for 25 selenoproteins. Optimal blood level for health: 125–150 µg/L plasma selenium. Narrow therapeutic window.
   - ref: pmid-23746916
+    targets: [herz-kreislauf, schmerz, verdauung]
     finding:
       de: >-
         RCT (n=443, Ältere): Selen+CoQ10 über 4 Jahre reduzierten kardiovaskuläre Mortalität um 54 % vs. Placebo. Methodisch umstritten, aber viel zitiert.

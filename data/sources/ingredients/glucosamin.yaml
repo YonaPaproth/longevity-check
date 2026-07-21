@@ -38,6 +38,7 @@ key_studies:
       en: >-
         Large GAIT trial: No convincing benefit in the overall population, though some subgroups showed potential signals that warrant further investigation.
   - ref: pmid-27144639
+    targets: [gelenke, oxidativer-stress, schlaf]
     finding:
       de: >-
         Einige Daten deuten auf symptomatische Vorteile hin, die Gesamtbeweislage bleibt aber gemischt.

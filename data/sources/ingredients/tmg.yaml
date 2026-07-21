@@ -32,6 +32,7 @@ key_studies:
       en: >-
         Review: TMG is metabolically relevant, particularly as a methyl-group donor and osmolyte. Clinical applications sometimes outpace the evidence base.
   - ref: pmid-21747945
+    targets: [schlaf]
     finding:
       de: >-
         Homocystein sinkt, harte klinische Endpunkte bleiben aber unklar.

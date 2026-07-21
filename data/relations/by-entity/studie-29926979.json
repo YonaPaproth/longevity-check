@@ -8,6 +8,14 @@
       "confidence": 0.95,
       "source": "pmid:29926979",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29926979",
+      "evidence_level": "human_rct"
     }
   ]
 }

@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:17828627",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17828627",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17828627",
+      "evidence_level": "human_rct"
     }
   ]
 }

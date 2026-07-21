@@ -1,0 +1,29 @@
+{
+  "entity": "studie-40959699",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40959699",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40959699",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40959699",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "entity": "studie-22071706",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22071706",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22071706",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

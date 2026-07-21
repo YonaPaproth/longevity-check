@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:17634462",
       "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17634462",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:17634462",
+      "evidence_level": "expert_review"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "entity": "studie-37432380",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:37432380",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

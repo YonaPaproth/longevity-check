@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-30748078
+    targets: [schlaf]
     finding:
       de: >-
         Diskussion zu möglichen Effekten niedriger Lithiumspiegel – interessant, aber weit entfernt von einer soliden Supplement-Empfehlung.

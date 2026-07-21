@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-16400058
+    targets: [kognition, verdauung]
     finding:
       de: >-
         RCT (n=310 Schulkinder in Jodmangelgebiet): Jod-Supplementierung war mit Veränderungen verbundene kognitive Leistung signifikant. Unterstreicht Bedeutung für Gehirnentwicklung.
@@ -39,6 +40,7 @@ key_studies:
       en: >-
         Review: thyroid function directly influences aging processes – via metabolism, mitochondrial function, and inflammation regulation. Adequate iodine status remains relevant throughout life.
   - ref: pmid-24891972
+    targets: [schilddruese]
     finding:
       de: >-
         Review: Zu hohe Jodzufuhr kann Hashimoto-Thyreoiditis triggern oder verschlimmern. Besonders bei genetischer Prädisposition. Zeigt die Bedeutung der richtigen Dosierung.

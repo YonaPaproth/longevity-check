@@ -34,12 +34,14 @@ key_studies:
       en: >-
         Landmark RCT: 4 mg folic acid/day reduced the risk of neural tube defect recurrence by 72%. Foundation for global supplementation recommendations during pregnancy.
   - ref: pmid-22332098
+    targets: [verdauung]
     finding:
       de: >-
         Review: Folat ist direkter Methyl-Donor im One-Carbon-Metabolismus. Mangel stört DNA-Methylierungsmuster und war mit höheren Werten verbunden Homocystein. Epigenetische Relevanz gut dokumentiert.
       en: >-
         Review: Folate is a direct methyl donor in one-carbon metabolism. Deficiency disrupts DNA methylation patterns and is associated with elevated homocysteine. Epigenetic relevance is well documented.
   - ref: pmid-42410840
+    targets: [herz-kreislauf]
     finding:
       de: >-
         Meta-Analyse (30 RCTs): Folsäure war mit niedrigeren Werten verbunden Homocystein signifikant, reduziert aber Herzinfarkte und Schlaganfälle nicht konsistent – außer möglicherweise bei Schlaganfall in folsäurearmen Populationen.

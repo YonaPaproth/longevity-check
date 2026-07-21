@@ -28,6 +28,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-41305668
+    targets: [leber, muskel, verdauung]
     finding:
       de: >-
         Cholin ist essenziell für Leber, Methylierung und neurologische Entwicklung. Mangel induziert nachweisbar Fettleber und Muskelschäden beim Menschen.
@@ -40,12 +41,14 @@ key_studies:
       en: >-
         The EFSA established Adequate Intake (AI) values for choline: 400 mg/day for adults, 480 mg/day during pregnancy, and 520 mg/day during lactation.
   - ref: pmid-40306555
+    targets: [leber]
     finding:
       de: >-
         Review: Ein erheblicher Anteil der Bevölkerung erreicht die empfohlene Cholinzufuhr nicht. Besonders gefährdet: Schwangere, Veganer und Personen mit Lebererkrankungen.
       en: >-
         Review: A significant proportion of the population does not meet recommended choline intake. Particularly at risk: pregnant women, vegans, and people with liver disease.
   - ref: pmid-22071706
+    targets: [kognition, schlaf]
     finding:
       de: >-
         Beobachtungsstudie (n=1391): Höhere Cholinzufuhr war mit besserem verbalem Gedächtnis und geringerer Prävalenz weißer Substanzläsionen assoziiert.

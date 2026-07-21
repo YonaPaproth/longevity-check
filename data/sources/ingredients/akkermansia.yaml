@@ -32,6 +32,7 @@ key_studies:
       en: >-
         Identification of Amuc_1100, an outer-membrane protein of Akkermansia, as an active component driving metabolic improvements in mice.
   - ref: pmid-31263284
+    targets: [blutzucker, herz-kreislauf]
     finding:
       de: >-
         Erster RCT am Menschen: Pasteurisiertes Akkermansia war mit Veränderungen verbundene Insulinsensitivität, Cholesterin und Körpergewicht bei übergewichtigen Erwachsenen.

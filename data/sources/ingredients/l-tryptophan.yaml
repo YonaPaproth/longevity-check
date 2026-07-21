@@ -25,18 +25,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-6764927
+    targets: [schlaf]
     finding:
       de: >-
         Frühe Humanstudien zeigen potenzielle Vorteile für Einschlafzeit und Schlafqualität.
       en: >-
         Early human studies show potential benefits for sleep onset time and sleep quality.
   - ref: pmid-20651948
+    targets: [verdauung]
     finding:
       de: >-
         Review: Tryptophan ist neurobiologisch relevant, aber Effekte hängen stark vom Kontext ab.
       en: >-
         Review: Tryptophan is neurobiologically relevant, but effects depend strongly on context.
   - ref: pmid-33574223
+    targets: [verdauung]
     finding:
       de: >-
         Tryptophan beeinflusst serotonerge Systeme plausibel, aber Supplementeffekte sind nicht automatisch groß.

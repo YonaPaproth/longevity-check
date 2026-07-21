@@ -28,12 +28,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-38070683
+    targets: [kognition]
     finding:
       de: >-
         RCT (n=21.442): Tägliches Multivitamin verlangsamte kognitiven Abbau um ~2 Jahre äquivalent bei Über-60-Jährigen. Erster großer RCT mit positivem Kognitions-Ergebnis.
       en: >-
         RCT (n=21,442): Daily multivitamin slowed cognitive decline by ~2 years equivalent in adults over 60. First large RCT with positive cognition outcome.
   - ref: pmid-24490268
+    targets: [verdauung]
     finding:
       de: >-
         Editorial in Annals of Internal Medicine: Basierend auf 3 großen Studien sei die Evidenz ausreichend, um von Multivitamin-Supplementierung bei gut ernährten Personen abzuraten.

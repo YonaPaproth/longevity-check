@@ -16,6 +16,14 @@
       "confidence": 0.9,
       "source": "pmid:22516723",
       "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "schmerz",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22516723",
+      "evidence_level": "expert_review"
     }
   ]
 }

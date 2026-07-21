@@ -30,12 +30,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-40732054
+    targets: [verdauung]
     finding:
       de: >-
         3-armiger doppelblinder RCT (n=90, 4 Wochen): Fucoidan-reicher Extrakt aus Saccharina latissima erhöhte signifikant nützliche Darmbakterien (Bifidobacterium, Faecalibacterium) dosis-abhängig. Stärkung der Darmbarriere und mikrobielle Diversität verbessert. Klinisch relevanter Beleg für präbiotischen Wirkmechanismus.
       en: >-
         Three-arm double-blind RCT (n=90, 4 weeks): fucoidan-rich extract from Saccharina latissima significantly increased beneficial gut bacteria (Bifidobacterium, Faecalibacterium) in a dose-dependent manner. Improved gut barrier and microbial diversity. Clinically relevant evidence for prebiotic mechanism.
   - ref: pmid-41249370
+    targets: [muskel]
     finding:
       de: >-
         Paralleler RCT (Sci Rep 2025): Fucoidan-Blend-Supplementierung während 6-wöchigem Krafttraining steigerte Peak Power und Lean Body Mass signifikant vs. Training allein. Untere Körperkraft erhöhte sich in beiden Gruppen. Hinweis auf muskel-anabole Potenzierung.

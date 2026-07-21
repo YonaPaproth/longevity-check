@@ -33,18 +33,21 @@ key_studies:
       en: >-
         Foundational work: CD38 activity increases with age and depletes NAD+. CD38 deletion in mice was associated with elevated NAD+ levels and notable improvements in mitochondrial function.
   - ref: pmid-23172919
+    targets: [leber, muskel]
     finding:
       de: >-
         Apigenin hemmt CD38 direkt und war mit höheren Werten verbundene NAD+-Spiegel bei alten Mäusen um ~50 %. Verbesserte Mitochondrienfunktion in Leber und Muskel.
       en: >-
         Apigenin directly inhibits CD38 and was associated with approximately 50% higher NAD+ levels in aged mice. Improved mitochondrial function in liver and muscle.
   - ref: pmid-29738701
+    targets: [stress]
     finding:
       de: >-
         Apigenin bindet an GABA-A-Rezeptoren (benzodiazepinartig) mit anxiolytischer Wirkung ohne Sedierung in Tierversuchen.
       en: >-
         Apigenin binds to GABA-A receptors (benzodiazepine-like) with anxiolytic effects without sedation in animal models.
   - ref: pmid-39126572
+    targets: [entzuendung, oxidativer-stress, verdauung]
     finding:
       de: >-
         Review: Apigenin hemmt NF-κB, COX-2 und proinflammatorische Zytokine in zahlreichen präklinischen Modellen. Antientzündliche Wirkung gut dokumentiert.

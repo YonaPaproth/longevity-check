@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:22214254",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22214254",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22214254",
+      "evidence_level": "human_rct"
     }
   ]
 }

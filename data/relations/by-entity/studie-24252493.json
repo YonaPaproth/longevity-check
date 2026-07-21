@@ -1,0 +1,13 @@
+{
+  "entity": "studie-24252493",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24252493",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

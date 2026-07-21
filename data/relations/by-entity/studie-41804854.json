@@ -8,6 +8,14 @@
       "confidence": 0.8,
       "source": "pmid:41804854",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41804854",
+      "evidence_level": "human_rct"
     }
   ]
 }

@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:31263284",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31263284",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31263284",
+      "evidence_level": "human_rct"
     }
   ]
 }

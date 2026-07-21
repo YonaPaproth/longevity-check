@@ -34,18 +34,21 @@ key_studies:
       en: >-
         Meta-analysis (63 RCTs, n=11,811): Probiotics reduced antibiotic-associated diarrhea by 42% (RR 0.58). Strongest evidence for Lactobacillus rhamnosus GG and Saccharomyces boulardii CNCM I-745.
   - ref: pmid-25780308
+    targets: [schmerz, verdauung]
     finding:
       de: >-
         Meta-Analyse (43 RCTs): Probiotika reduzierten IBS-Symptome und Bauchschmerzen signifikant vs. Placebo. NNT ca. 7. Effekte stammabhängig; kein einzelner überlegener Stamm identifiziert.
       en: >-
         Meta-analysis (43 RCTs): Probiotics significantly reduced IBS symptoms and abdominal pain vs. placebo. NNT approximately 7. Effects strain-dependent; no single superior strain identified.
   - ref: pmid-28611480
+    targets: [schlaf]
     finding:
       de: >-
         ISAPP-Konsens: WHO-Definition von Probiotika präzisiert. Stammspezifität, ausreichende Dosierung und Lebensfähigkeit am Wirkort sind Mindestanforderungen für eine korrekte Probiotika-Bezeichnung.
       en: >-
         ISAPP consensus: Refined WHO definition of probiotics. Strain specificity, adequate dosing, and viability at the site of action are minimum requirements for correct probiotic designation.
   - ref: pmid-23384445
+    targets: [kognition, stress, verdauung]
     finding:
       de: >-
         Review: Darm-Hirn-Achse bidirektional. Darmbakterien produzieren Serotonin-Vorläufer (ca. 90% des Körper-Serotonins werden im Darm produziert), modulieren Stressachse. Angstreduktion in Tier- und kleinen Humanstudien.

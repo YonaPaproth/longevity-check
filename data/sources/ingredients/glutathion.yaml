@@ -34,18 +34,21 @@ key_studies:
       en: >-
         Small RCT (n=54): 500 mg/day oral glutathione over 6 months raised whole-blood GSH by ~30–35% and erythrocyte GSH by ~52%. No clinical endpoints were measured.
   - ref: pmid-1362956
+    targets: [verdauung]
     finding:
       de: >-
         Klassische Pharmakokinetik-Studie: Orales Glutathion (3 g Einmaldosis) erhöhte Plasma-GSH nicht messbar. Schlussfolgerung: Standard-GSH wird im Darm gespalten, bevor es systemisch verfügbar wird.
       en: >-
         Classic pharmacokinetic study: a single 3 g oral dose of glutathione did not detectably raise plasma GSH levels. Conclusion: standard GSH is cleaved in the gut before reaching systemic circulation.
   - ref: pmid-14988435
+    targets: [immunsystem, verdauung]
     finding:
       de: >-
         Review: Glutathion ist zentral für Redox-Homöostase, Entgiftung und Immunfunktion. Aus der biologischen Zentralität folgt jedoch nicht automatisch ein Nutzen von oralem GSH.
       en: >-
         Review: glutathione is central to redox homeostasis, detoxification, and immune function. However, its biological centrality does not automatically imply a benefit from oral GSH supplementation.
   - ref: pmid-28853742
+    targets: [immunsystem]
     finding:
       de: >-
         RCT (n=60): Liposomales GSH (500 mg/Tag, 4 Wochen) erhöhte Vollblut-GSH um ~40 % und verbesserte einige Immunparameter. Besser als Standardform, aber klinische Langzeitdaten fehlen.

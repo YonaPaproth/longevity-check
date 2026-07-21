@@ -26,24 +26,28 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-2080048
+    targets: [immunsystem, stress, verdauung]
     finding:
       de: >-
         Review: L-Glutamin wird unter körperlichem Stress (Sepsis, Trauma, intensives Training) zur "konditionell essentiellen" Aminosäure — körpereigene Produktion reicht dann nicht mehr aus, und Supplementierung kann Darmbarriere und Immunfunktion unterstützen.
       en: >-
         Review: L-glutamine becomes a conditionally essential amino acid under physiological stress (sepsis, trauma, intense training) — endogenous production becomes insufficient, and supplementation may support gut barrier integrity and immune function.
   - ref: pmid-38257115
+    targets: [immunsystem]
     finding:
       de: >-
         Systematischer Review (14 RCTs): L-Glutamin-Supplementierung bei Intensivpatienten reduzierte Infektionskomplikationen und Krankenhausaufenthaltsdauer, aber nicht die Gesamtmortalität. Klinische Wirkung am stärksten bei parenteraler Gabe.
       en: >-
         Systematic review (14 RCTs): L-glutamine supplementation in critically ill patients reduced infectious complications and hospital length of stay, but not overall mortality. Clinical effect strongest with parenteral administration.
   - ref: pmid-41924221
+    targets: [muskel]
     finding:
       de: >-
         RCT bei Sportlern: Orale L-Glutamin-Supplementierung (0,3 g/kg/Tag, 8 Wochen) hatte keinen signifikanten Effekt auf Muskelerholung oder Kraftleistung nach intensivem Krafttraining.
       en: >-
         RCT in athletes: Oral L-glutamine (0.3 g/kg/day, 8 weeks) had no significant effect on muscle recovery or strength performance after intense resistance training.
   - ref: pmid-32338020
+    targets: [immunsystem, verdauung]
     finding:
       de: >-
         Meta-Analyse (14 RCTs): L-Glutamin bei Intensivpatienten reduzierte Infektionsrate und Mortalität in einer heterogenen Patientenpopulation. Effekte bei normaler Darmfunktion und oraler Einnahme schwächer.

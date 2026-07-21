@@ -32,6 +32,7 @@ key_studies:
       en: >-
         Small human study demonstrating improvements in endothelial function.
   - ref: pmid-32245095
+    targets: [schlaf]
     finding:
       de: >-
         Breite präklinische Aktivität, Humanrelevanz begrenzt.

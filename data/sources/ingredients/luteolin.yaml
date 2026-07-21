@@ -25,12 +25,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-30451113
+    targets: [entzuendung]
     finding:
       de: >-
         Review: Luteolin ist mechanistisch spannend, vor allem neuroinflammatorisch.
       en: >-
         Review: Luteolin is mechanistically interesting, particularly for its neuroinflammatory modulation pathways.
   - ref: pmid-20005244
+    targets: [alterung, verdauung]
     finding:
       de: >-
         Flavonoide wie Luteolin sind konzeptionell interessant, aber noch kein belastbares Alterungsforschung-Tool.

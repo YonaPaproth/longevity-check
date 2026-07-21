@@ -27,12 +27,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-9294217
+    targets: [oxidativer-stress]
     finding:
       de: >-
         Brokkoli-Keimlinge enthalten 20–50× mehr Glucoraphanin als ausgewachsener Brokkoli. Basis für Supplement-Ansatz.
       en: >-
         Sulforaphan is an isothiocyanate from cruciferous vegetables with promising antioxidant and anti-cancer data.
   - ref: pmid-25313065
+    targets: [oxidativer-stress, verdauung]
     finding:
       de: >-
         RCT bei ASD-Jugendlichen: Sulforaphan verbesserte soziale Interaktion und Verhalten signifikant. Illustriert präklinisch neurobiologisch interessante Wirkung via Nrf2/Hitzeschockproteine.

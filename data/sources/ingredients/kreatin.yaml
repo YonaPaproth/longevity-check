@@ -33,18 +33,21 @@ key_studies:
       en: >-
         Consensus document: creatine is the most evidence-backed legal ergogenic supplement. Safe with long-term use (studied up to 5 years), no renal toxicity in healthy individuals. Recommendation: 3–5 g/day.
   - ref: pmid-17828627
+    targets: [kognition, oxidativer-stress]
     finding:
       de: >-
         RCT, n=45, ältere Erwachsene: Kreatin verbesserte Arbeitsgedächtnis und kognitive Leistung signifikant vs. Placebo. Gehirn-Kreatinspiegel stiegen messbar mit Supplementierung.
       en: >-
         RCT, n=45, older adults: creatine significantly improved working memory and cognitive performance vs. placebo. Brain creatine levels rose measurably with supplementation.
   - ref: pmid-27328852
+    targets: [muskel]
     finding:
       de: >-
         Meta-Analyse: Kreatin steigert Muskelkraft um ~8% und Muskelmasse signifikant in Kombination mit Krafttraining. Effekt bei Älteren vergleichbar mit Jüngeren.
       en: >-
         Meta-analysis: creatine increases muscle strength by ~8% and muscle mass significantly in combination with resistance training. Effect in older adults comparable to younger individuals.
   - ref: pmid-34107512
+    targets: [muskel]
     finding:
       de: >-
         Meta-Analyse (22 RCTs, ältere Erwachsene): Kreatin + Krafttraining führte zu signifikant mehr fettfreier Masse (+1,37 kg) und Kraft vs. Training allein. Effektgröße klinisch relevant.

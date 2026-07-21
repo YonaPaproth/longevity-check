@@ -36,6 +36,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-21261636
+    targets: [leber, verdauung]
     finding:
       de: >-
         RCT, n=6: Oral verabreichtes Resveratrol (25 mg) wurde zu ~70 % absorbiert,
@@ -66,6 +67,7 @@ key_studies:
         normoglycaemic adults, no cardiovascular effects were observed.
 
   - ref: pmid-38433010
+    targets: [kognition, schlaf]
     finding:
       de: >-
         Systematischer Review (6 RCTs, n&lt;500): Resveratrol zeigte inkonsistente Effekte
@@ -81,6 +83,7 @@ key_studies:
         (8–52 weeks), and variable dosing preclude reliable conclusions.
 
   - ref: pmid-42268476
+    targets: [blutzucker, herz-kreislauf, oxidativer-stress]
     finding:
       de: >-
         Umbrella-Review über 10 Meta-Analysen: Resveratrol zeigte bei Typ-2-Diabetikern
@@ -99,6 +102,7 @@ key_studies:
         to diabetes therapy.
 
   - ref: pmid-40553215
+    targets: [alterung, schlaf]
     finding:
       de: >-
         Mechanistischer Review: Resveratrol aktiviert SIRT1 (möglicherweise indirekt via

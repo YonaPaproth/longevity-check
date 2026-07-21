@@ -1,0 +1,21 @@
+{
+  "entity": "studie-42352330",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42352330",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42352330",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

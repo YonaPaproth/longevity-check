@@ -33,12 +33,14 @@ key_studies:
       en: >-
         First human pharmacokinetic study: NR is orally absorbed and raises NAD+ metabolism in blood.
   - ref: pmid-29599478
+    targets: [blutdruck]
     finding:
       de: >-
         6-wöchige NR-Einnahme (500 mg/Tag) war mit höheren Werten verbundene NAD+ im Blut um ~60%, war mit Veränderungen verbundene aber Blutdruck und arterielle Steifigkeit nicht signifikant.
       en: >-
         6-week NR supplementation (500 mg/day) raised blood NAD+ by ~60% but did not significantly improve blood pressure or arterial stiffness.
   - ref: pmid-41957052
+    targets: [blutzucker, herz-kreislauf]
     finding:
       de: >-
         12-wöchige RCT bei übergewichtigen Männern: NR war mit höheren Werten verbundene NAD+, war mit Veränderungen verbundene aber Insulinsensitivität, Lipidprofil oder Mitochondrienfunktion nicht signifikant.

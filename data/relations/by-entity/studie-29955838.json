@@ -1,0 +1,21 @@
+{
+  "entity": "studie-29955838",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "fertilitat",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29955838",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29955838",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

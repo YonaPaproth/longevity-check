@@ -33,12 +33,14 @@ key_studies:
       en: >-
         Review: 5-HTP crosses the blood-brain barrier efficiently and increases central nervous system serotonin synthesis. Clinical studies show antidepressive efficacy comparable to fluoxamine in one RCT.
   - ref: pmid-4105646
+    targets: [schlaf]
     finding:
       de: >-
         RCT: 5-HTP war mit erhöhten REM-Schlafphasen und verbesserter Schlafqualität assoziiert. Grundlage für die Indikation bei Schlafstörungen.
       en: >-
         RCT: 5-HTP was associated with increased REM sleep duration and improved sleep quality. Provides basis for 5-HTP's use in sleep optimization.
   - ref: pmid-28077136
+    targets: [depression]
     finding:
       de: >-
         Review: Unter pflanzlichen Supplements zeigt 5-HTP die konsistenteste antidepressive Evidenz, mit moderaten Effektgrößen in mehreren Studien der 1990er bis 2000er Jahre.

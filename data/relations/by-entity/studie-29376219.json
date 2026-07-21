@@ -1,0 +1,21 @@
+{
+  "entity": "studie-29376219",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29376219",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "prostata",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29376219",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

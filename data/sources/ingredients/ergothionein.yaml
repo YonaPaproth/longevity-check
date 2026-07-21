@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-34958679
+    targets: [verdauung]
     finding:
       de: >-
         Ergothionein hat einzigartige Transportmechanismen (OCTN1) im Körper und reichert sich in mitochondrienreichen Geweben an – Hinweis auf biologische Relevanz.
       en: >-
         Ergothioneine possesses unique transport mechanisms (OCTN1) in the body and accumulates in mitochondria-rich tissues—indicating biological significance.
   - ref: pmid-36139790
+    targets: [kognition, schlaf]
     finding:
       de: >-
         Niedrige Ergothionein-Plasmaspiegel korrelieren mit schlechterem kognitivem Status und Frailty bei älteren Menschen (Beobachtungsstudie).

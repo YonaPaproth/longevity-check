@@ -27,18 +27,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-24787454
+    targets: [oxidativer-stress, stress, verdauung]
     finding:
       de: >-
         Umfassender Review: NAC war mit höheren Werten verbunden konsistent Glutathion-Spiegel und reduziert oxidativen Stress. Vergleichsweise gut untersuchte klinische Anwendung bei Atemwegserkrankungen.
       en: >-
         Comprehensive review: NAC consistently raised glutathione levels and reduced oxidative stress markers. Well-established clinical use in respiratory diseases as a mucolytic.
   - ref: pmid-33587619
+    targets: [oxidativer-stress, stress]
     finding:
       de: >-
         RCT (n=24, Ältere): GlyNAC (Glycin+NAC) war mit Veränderungen verbundene Glutathion, oxidativen Stress, Mitochondrienfunktion und Körperzusammensetzung signifikant.
       en: >-
         RCT (n=24, older adults): GlyNAC (glycine + NAC) significantly improved glutathione levels, oxidative stress markers, mitochondrial function, and body composition.
   - ref: pmid-35975308
+    targets: [alterung, verdauung]
     finding:
       de: >-
         Follow-up RCT mit älteren Probanden: GlyNAC war mit Veränderungen verbundene 8 von 9 Hallmarks of Alterung in 24 Wochen. Noch kleine Stichprobe (n=24).

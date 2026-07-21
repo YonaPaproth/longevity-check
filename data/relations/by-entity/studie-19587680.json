@@ -7,6 +7,22 @@
       "direction": "incoming",
       "confidence": 0.95,
       "source": "pmid:19587680"
+    },
+    {
+      "relation": "untersucht",
+      "target": "alterung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19587680",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:19587680",
+      "evidence_level": "expert_review"
     }
   ]
 }

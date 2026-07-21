@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-17951492
+    targets: [verdauung]
     finding:
       de: >-
         Klassischer Review zur präbiotischen Wirkung von Inulin und verwandten Fructanen.
       en: >-
         Landmark review establishing the prebiotic mechanism of inulin and related fructans in modulating the gut microbiota.
   - ref: pmid-27492975
+    targets: [verdauung]
     finding:
       de: >-
         Humanstudien zeigen Nutzen für Stuhlgang und Darmkomfort bei bestimmten Gruppen.

@@ -27,18 +27,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-19587680
+    targets: [alterung, verdauung]
     finding:
       de: >-
         Bahnbrechende ITP-Studie: Rapamycin verlängerte die Lebensspanne genetisch heterogener Mäuse um 9–14 %, selbst wenn es erst im Alter von 600 Tagen begonnen wurde. Erster überzeugender pharmakologischer Nachweis einer Lebensverlängerung bei Säugetieren.
       en: >-
         Landmark ITP study: rapamycin extended lifespan by 9–14% in genetically heterogeneous mice, even when started at 600 days of age. First compelling pharmacological evidence of lifespan extension in mammals.
   - ref: pmid-25540326
+    targets: [immunsystem]
     finding:
       de: >-
         RCT (n=218, 65+): Niedrigdosis-Everolimus (mTOR-Inhibitor wie Rapamycin) über 6 Wochen verbesserte die Immunantwort auf Grippeimpfung um ~20 %. Erste Humanstudie, die zeigt, dass mTOR-Hemmung altersbedingte Immunschwäche teilweise umkehren kann.
       en: >-
         RCT (n=218, age 65+): low-dose everolimus (mTOR inhibitor like rapamycin) for 6 weeks improved influenza vaccine response by ~20%. First human trial showing mTOR inhibition can partially reverse age-related immune decline.
   - ref: pmid-31316753
+    targets: [alterung, schlaf, verdauung]
     finding:
       de: >-
         Umfassender Review: mTOR-Hemmung verlängerte die Lebensspanne in Hefe, Würmern, Fliegen und Mäusen konsistent. Der Mechanismus läuft über reduzierte Proteinsynthese, verstärkte Autophagie und verbesserte Stammzellfunktion. Translation zum Menschen bleibt die große offene Frage.

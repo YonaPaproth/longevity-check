@@ -26,18 +26,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-19160216
+    targets: [kognition, oxidativer-stress]
     finding:
       de: >-
         Gemischte Datenlage mit teils kleinen Vorteilen in bestimmten Populationen, aber keine klare Universalantwort.
       en: >-
         Mixed evidence with modest benefits in some populations, but no clear universal benefit across all cognitive domains or patient groups.
   - ref: pmid-41641880
+    targets: [verdauung]
     finding:
       de: >-
         Heterogene Ergebnisse, abhängig von Population und Studiendesign.
       en: >-
         Heterogeneous results dependent on study population and design. Variability likely reflects differences in extract quality, dosing, duration, and outcome measures.
   - ref: pmid-11772128
+    targets: [verdauung]
     finding:
       de: >-
         Wichtige Interaktionsfrage, vor allem im Kontext Blutverdünnung.

@@ -1,0 +1,13 @@
+{
+  "entity": "studie-40411697",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40411697",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

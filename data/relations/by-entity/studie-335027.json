@@ -1,0 +1,21 @@
+{
+  "entity": "studie-335027",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:335027",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:335027",
+      "evidence_level": "human_rct"
+    }
+  ]
+}

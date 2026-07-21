@@ -1,0 +1,13 @@
+{
+  "entity": "studie-24278045",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:24278045",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

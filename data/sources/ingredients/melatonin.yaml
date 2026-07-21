@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-16473858
+    targets: [oxidativer-stress, schlaf]
     finding:
       de: >-
         Meta-Analyse (17 RCTs): Melatonin verkürzte Einschlafzeit signifikant (-7,2 min) und verbesserte die Schlafqualität. Effekte bescheiden, aber konsistent.

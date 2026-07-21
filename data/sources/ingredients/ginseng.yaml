@@ -26,18 +26,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-19574616
+    targets: [energie]
     finding:
       de: >-
         Review: Hinweise auf Effekte bei Müdigkeit und Wohlbefinden, aber heterogene Studienbasis.
       en: >-
         Review: Evidence suggests effects on fatigue and well-being, but the underlying study base is heterogeneous in quality and methodology.
   - ref: pmid-12020172
+    targets: [verdauung]
     finding:
       de: >-
         Im Allgemeinen gut verträglich, aber nicht frei von Interaktions- und Sicherheitsfragen.
       en: >-
         Generally well-tolerated, but not without interaction and safety concerns—particularly relevant for individuals taking medications or with specific health conditions.
   - ref: pmid-20435159
+    targets: [kognition]
     finding:
       de: >-
         Einige Hinweise auf akute kognitive Effekte, aber keine starke, konsistente Evidenz.

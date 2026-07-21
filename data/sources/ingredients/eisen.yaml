@@ -28,6 +28,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-42163863
+    targets: [fertilitat, oxidativer-stress]
     finding:
       de: >-
         Nationale US-Querschnittsstudie: Eisenmangel (Ferritin &lt;12 µg/L) betrifft ~9–11 % der Frauen im gebärfähigen Alter, ~2 % der Männer. In der Gesamtbevölkerung ist Eisenmangel die häufigste Nährstoffdefizit-Ursache für Anämie.
@@ -40,12 +41,14 @@ key_studies:
       en: >-
         Review: non-haem iron (plant sources) has an absorption rate of ~2–20% vs. haem iron (meat) ~25%. Vitamin C (50–100 mg) increases non-haem iron absorption 3–6-fold. Phytates (grains, legumes), polyphenols (coffee, tea), and calcium significantly inhibit absorption.
   - ref: pmid-34028001
+    targets: [entzuendung]
     finding:
       de: >-
         Review: Ferritin &lt;30 µg/L als funktioneller Eisenmangel-Schwellenwert (auch ohne manifeste Anämie) hat höhere klinische Sensitivität als der klassische Wert &lt;12 µg/L. Bei chronischer Entzündung ist Ferritin als alleiniger Marker unzureichend — CRP sollte gleichzeitig bestimmt werden.
       en: >-
         Review: ferritin &lt;30 µg/L as a functional iron deficiency threshold (even without overt anaemia) has higher clinical sensitivity than the classical cutoff of &lt;12 µg/L. During chronic inflammation, ferritin alone is insufficient as a marker — CRP should be measured simultaneously to avoid false-normal readings.
   - ref: pmid-42024457
+    targets: [leber, verdauung]
     finding:
       de: >-
         PANDA-Trial-Analyse: Vergleich verschiedener oraler Eisen-Dosierungsschemata (täglich vs. alternierend vs. wöchentlich) auf Eisenmarker in der Schwangerschaft. Praktisch relevant: alternierende Gabe kann ähnliche Eiseneffekte bei besserer Verträglichkeit liefern — wichtig für Compliance und Nebenwirkungsmanagement (Übelkeit, Obstipation) in der Schwangerschaft.

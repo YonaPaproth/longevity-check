@@ -1,0 +1,29 @@
+{
+  "entity": "studie-22349894",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22349894",
+      "evidence_level": "human_observational"
+    },
+    {
+      "relation": "untersucht",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22349894",
+      "evidence_level": "human_observational"
+    },
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:22349894",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

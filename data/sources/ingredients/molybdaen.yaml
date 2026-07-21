@@ -32,6 +32,7 @@ key_studies:
       en: >-
         Overview of molybdenum functions, requirements, and safety. Deficiency is extremely rare in free-living populations.
   - ref: pmid-8906638
+    targets: [verdauung]
     finding:
       de: >-
         Molybdän zählt zu den Spurenelementen mit klarer biologischer Funktion, aber geringer klinischer Relevanz als Supplement im Alltag.

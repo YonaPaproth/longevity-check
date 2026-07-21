@@ -29,12 +29,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-23949208
+    targets: [haut]
     finding:
       de: >-
         RCT (n=69): 2,5–5 g hydrolysiertes Kollagen/Tag über 8 Wochen verbesserte Hautelastizität und Feuchtigkeit signifikant gegenüber Placebo.
       en: >-
         RCT (n=69): 2.5–5 g hydrolyzed collagen/day for 8 weeks significantly improved skin elasticity and moisture compared to placebo.
   - ref: pmid-32436266
+    targets: [haut]
     finding:
       de: >-
         Systematischer Review von 11 RCTs: Konsistente positive Effekte auf Hautelastizität und Feuchtigkeit. Studienqualität insgesamt moderat.

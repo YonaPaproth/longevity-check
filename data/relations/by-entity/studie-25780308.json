@@ -1,0 +1,21 @@
+{
+  "entity": "studie-25780308",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "schmerz",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25780308",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25780308",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

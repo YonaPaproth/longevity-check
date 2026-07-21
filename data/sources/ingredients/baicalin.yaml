@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-27094574
+    targets: [schlaf]
     finding:
       de: >-
         Traditionsreiche Nutzung, moderne Humanbelege bleiben begrenzt.

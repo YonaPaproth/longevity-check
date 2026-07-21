@@ -27,12 +27,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-29099763
+    targets: [immunsystem]
     finding:
       de: >-
         Review: Vitamin C akkumuliert in Immunzellen und unterstützt Funktion von Neutrophilen, Lymphozyten und NK-Zellen. Bei Mangel deutlich reduzierte Immunabwehr.
       en: >-
         Review: vitamin C accumulates in immune cells and supports the function of neutrophils, lymphocytes, and NK cells. Deficiency markedly reduces immune defence.
   - ref: pmid-23440782
+    targets: [schlaf, stress]
     finding:
       de: >-
         Cochrane-Review (29 RCTs): Regelmäßige Vitamin-C-Einnahme verkürzt Erkältungsdauer um ~8 % (Erwachsene) bis 14 % (Kinder). Verhindert Erkältungen nur bei extremer körperlicher Belastung (Marathonläufer, Soldaten).

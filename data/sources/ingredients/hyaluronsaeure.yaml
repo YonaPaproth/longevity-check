@@ -27,24 +27,28 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-40911749
+    targets: [haut]
     finding:
       de: >-
         Meta-Analyse über 7 RCTs: statistisch signifikante Verbesserungen in Hautfeuchtigkeit, Elastizität und Faltentiefe. Trends für TEWL und Faltenvolumen ohne Signifikanz. Fazit: moderate, konsistente Haut-Effekte bei oraler HA.
       en: >-
         Meta-analysis of 7 RCTs: statistically significant improvements in skin hydration, elasticity, and wrinkle depth. Trends for TEWL and wrinkle volume without significance. Conclusion: moderate, consistent skin effects with oral HA.
   - ref: pmid-41422283
+    targets: [haut]
     finding:
       de: >-
         RCT, n=150, 120 mg/Tag Natriumhyaluronat (1,8 MDa) über 12 Wochen: signifikant verbesserte Hautfeuchtigkeit, reduzierte TEWL, verringerte periorbitale Faltentiefe, erhöhte Epidermisdicke und NMF-Spiegel.
       en: >-
         RCT, n=150, 120 mg/day sodium hyaluronate (1.8 MDa) for 12 weeks: significantly improved skin hydration, reduced TEWL, decreased periorbital wrinkle depth, increased epidermal thickness and NMF levels.
   - ref: pmid-34933842
+    targets: [haut]
     finding:
       de: >-
         RCT, n=60 Frauen, 200 mg/Tag Full-Spectrum-Hyaluronan, 28 Tage: Hautfeuchtigkeit +10,6 %, Faltentiefe −18,8 %, Faltenvolumen −17,6 %, Elastizität +5,1 %. Alle Parameter statistisch signifikant.
       en: >-
         RCT, n=60 women, 200 mg/day full-spectrum hyaluronate, 28 days: skin hydration +10.6%, wrinkle depth −18.8%, wrinkle volume −17.6%, elasticity +5.1%. All parameters statistically significant.
   - ref: pmid-41422283
+    targets: [haut]
     finding:
       de: >-
         RCT, n=96, 120–240 mg/Tag orales Hyaluronan, 12 Wochen: signifikante Verbesserung der Hautfeuchtigkeit und Unterdrückung der Faltenbildung gegenüber Placebo.

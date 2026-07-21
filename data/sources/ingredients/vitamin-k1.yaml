@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-22516723
+    targets: [knochen, verdauung]
     finding:
       de: >-
         Review zu Funktionen von Vitamin K in Blutgerinnung und Knochenstoffwechsel. Die essenzielle Rolle ist vergleichsweise gut untersucht.

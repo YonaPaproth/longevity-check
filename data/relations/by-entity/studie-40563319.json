@@ -1,0 +1,29 @@
+{
+  "entity": "studie-40563319",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40563319",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "schmerz",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40563319",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40563319",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

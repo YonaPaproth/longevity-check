@@ -26,18 +26,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-28878245
+    targets: [depression, kognition, schlaf]
     finding:
       de: >-
         Einige Hinweise auf kognitive und stimmungsbezogene Effekte, aber keine sehr starke Datenlage.
       en: >-
         Some evidence for cognitive and mood effects, but the overall evidence base remains limited.
   - ref: pmid-24278045
+    targets: [haut]
     finding:
       de: >-
         Traditionelle und experimentelle Daten zu Haut- und Gewebethemen sind plausibel.
       en: >-
         Traditional and experimental data on skin and tissue concerns are plausible.
   - ref: pmid-19924039
+    targets: [schlaf]
     finding:
       de: >-
         Breite präklinische Aktivität, Human-Evidenz bleibt begrenzt.

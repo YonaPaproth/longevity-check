@@ -1,0 +1,13 @@
+{
+  "entity": "studie-21747945",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:21747945",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

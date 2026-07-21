@@ -1,0 +1,29 @@
+{
+  "entity": "studie-42459809",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42459809",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42459809",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42459809",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

@@ -32,6 +32,7 @@ key_studies:
       en: >-
         Overview of manganese functions, dietary requirements, and safety considerations. Manganese deficiency is rare in well-nourished populations; excess intake poses toxicity concerns, particularly for neurological health.
   - ref: pmid-42216548
+    targets: [gelenke, knochen, schlaf]
     finding:
       de: >-
         Mangan ist an Knochen- und Knorpelstoffwechsel beteiligt, aber Supplementnutzen bei gesunden Menschen ist schwach belegt.

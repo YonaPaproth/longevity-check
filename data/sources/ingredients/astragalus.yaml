@@ -26,18 +26,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-26916911
+    targets: [schlaf]
     finding:
       de: >-
         Review: präklinisch interessant, klinische Evidenz bleibt begrenzt.
       en: >-
         Review: Preclinically interesting mechanisms in immunomodulation, but clinical evidence in humans remains limited.
   - ref: pmid-42352330
+    targets: [alterung, verdauung]
     finding:
       de: >-
         Telomer- und gesundes Altern-Marketing geht den Daten deutlich voraus.
       en: >-
         Telomere and healthy aging marketing significantly outpaces available evidence."
   - ref: pmid-29344421
+    targets: [alterung, schlaf, verdauung]
     finding:
       de: >-
         Telomerase-Narrative sind spannend, aber klinisch weit von gesicherter Relevanz entfernt.

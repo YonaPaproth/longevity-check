@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-9619120
+    targets: [schlaf]
     finding:
       de: >-
         Klassische Studie: Piperin kann die Bioverfügbarkeit von Curcumin stark mit höheren Werten in Verbindung bringen.
       en: >-
         Landmark study: 20 mg piperine increased curcumin AUC by ~2000% and peak plasma concentration by ~154%, but the compound's clinical relevance remains limited by curcumin's intrinsic poor absorption and metabolism.
   - ref: pmid-3917507
+    targets: [verdauung]
     finding:
       de: >-
         Piperin beeinflusst Enzymsysteme und Transporter – nützlich, aber potenziell interaktionsrelevant.

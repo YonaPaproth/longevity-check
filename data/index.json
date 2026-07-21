@@ -529,6 +529,7 @@
     "studie-17405083",
     "studie-17435952",
     "studie-17604172",
+    "studie-17628176",
     "studie-17634462",
     "studie-17684127",
     "studie-17828627",
@@ -757,6 +758,7 @@
     "studie-29279823",
     "studie-29344421",
     "studie-2934746",
+    "studie-29376219",
     "studie-29514974",
     "studie-29562618",
     "studie-29599478",
@@ -770,6 +772,7 @@
     "studie-30279143",
     "studie-30286045",
     "studie-30295520",
+    "studie-30335591",
     "studie-30371340",
     "studie-30415628",
     "studie-30415629",
@@ -817,6 +820,7 @@
     "studie-33512051",
     "studie-33574223",
     "studie-33587619",
+    "studie-33631772",
     "studie-33762175",
     "studie-33783984",
     "studie-33912895",
@@ -846,6 +850,7 @@
     "studie-36139790",
     "studie-36287374",
     "studie-36345309",
+    "studie-36649934",
     "studie-36683513",
     "studie-36778891",
     "studie-36856787",
@@ -928,6 +933,7 @@
     "studie-42467594",
     "studie-42467838",
     "studie-42471257",
+    "studie-42478874",
     "studie-4424806",
     "studie-6128034",
     "studie-6764927",
@@ -999,8 +1005,8 @@
     "verdauung"
   ],
   "stats": {
-    "entities": 983,
-    "relations": 1951,
+    "entities": 989,
+    "relations": 2205,
     "relationTypes": 13,
     "lastUpdated": "2026-07-21"
   }

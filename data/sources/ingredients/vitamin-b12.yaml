@@ -28,6 +28,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-28660890
+    targets: [kognition]
     finding:
       de: >-
         Umfassender Review: B12-Mangel betrifft ca. 6% der unter 60-Jährigen und bis zu 20% der über 60-Jährigen. Folgen: Polyneuropathie, kognitive Störungen, megaloblastäre Anämie. Orale Supplementierung effektiv.
@@ -40,6 +41,7 @@ key_studies:
       en: >-
         Review: main causes include vegan/vegetarian diet, atrophic gastritis (age-related), and metformin use. Methylmalonic acid is the most sensitive diagnostic marker.
   - ref: pmid-20838622
+    targets: [kognition]
     finding:
       de: >-
         RCT (n=168): B-Vitamine (inkl. B12) verlangsamten bei erhöhtem Homocystein die Hirnatrophie bei milder kognitiver Beeinträchtigung um 53%. Effekt nur bei hohem Homocystein-Ausgangswert.

@@ -32,12 +32,14 @@ key_studies:
       en: >-
         EFSA confirms: Olive polyphenols (minimum 5 mg hydroxytyrosol + derivatives per day) are associated with protective mechanisms against LDL cholesterol oxidative damage.
   - ref: pmid-25988120
+    targets: [entzuendung, oxidativer-stress]
     finding:
       de: >-
         Review: Hydroxytyrosol zeigt in Humanstudien antioxidative, entzündungshemmende und antiatherosklerotische Wirkungen.
       en: >-
         Review: Hydroxytyrosol demonstrates antioxidant, anti-inflammatory, and antiatherosclerotic effects in human studies.
   - ref: pmid-21291821
+    targets: [blutdruck, oxidativer-stress]
     finding:
       de: >-
         RCT: Olive-Extrakt mit Hydroxytyrosol war mit niedrigeren Werten verbundene Blutdruck vergleichbar mit Captopril bei Hypertonie-Patienten.

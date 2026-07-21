@@ -25,18 +25,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-16309928
+    targets: [gelenke, schmerz]
     finding:
       de: >-
         Kleine Studie mit Veränderungen bei Schmerz und Funktion im Gelenk-Kontext.
       en: >-
         Small RCT showing improvements in joint pain and function in osteoarthritis patients; modest effect sizes.
   - ref: pmid-23013531
+    targets: [entzuendung, muskel]
     finding:
       de: >-
         Hinweise auf Effekte bei Entzündung und Erholung, aber kleine Studienbasis.
       en: >-
         Evidence for modest reduction in muscle soreness and inflammatory markers post-exercise; limited sample size.
   - ref: pmid-28300758
+    targets: [schlaf, verdauung]
     finding:
       de: >-
         Review: MSM ist gut verträglich, aber die klinische Evidenz bleibt begrenzt.

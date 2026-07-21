@@ -1,0 +1,21 @@
+{
+  "entity": "studie-26135835",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26135835",
+      "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:26135835",
+      "evidence_level": "meta_analysis"
+    }
+  ]
+}

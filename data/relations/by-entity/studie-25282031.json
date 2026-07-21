@@ -8,6 +8,22 @@
       "confidence": 0.95,
       "source": "pmid:25282031",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25282031",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "schmerz",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:25282031",
+      "evidence_level": "human_rct"
     }
   ]
 }

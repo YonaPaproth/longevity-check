@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:42024457",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42024457",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42024457",
+      "evidence_level": "human_rct"
     }
   ]
 }

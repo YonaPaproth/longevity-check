@@ -27,18 +27,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-23762049
+    targets: [knochen, schlaf, verdauung]
     finding:
       de: >-
         Review: Silicium ist biologisch plausibel für Knochen und Bindegewebe, aber die klinische Evidenz bleibt begrenzt.
       en: >-
         Review: Silicon is biologically plausible for bone and connective tissue, but clinical evidence in humans remains limited.
   - ref: pmid-16205932
+    targets: [haut, muskel, verdauung]
     finding:
       de: >-
         Kleine Studie mit Hinweisen auf Verbesserungen bei Haut und fragilen Haaren. Aussagekraft begrenzt.
       en: >-
         Small study with hints of improvements in skin and brittle hair quality, though the evidential weight is limited.
   - ref: pmid-23762049
+    targets: [knochen, schlaf, verdauung]
     finding:
       de: >-
         Review: Potenzial vorhanden, aber klare klinische Belege fehlen.

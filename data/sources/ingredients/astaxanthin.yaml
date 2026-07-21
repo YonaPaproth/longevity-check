@@ -26,18 +26,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-40359479
+    targets: [kognition, oxidativer-stress, stress]
     finding:
       de: >-
         Review: Astaxanthin überquert die Blut-Hirn-Schranke und schützt Neuronen vor oxidativem Stress. Antioxidative Kapazität 6.000× höher als Vitamin C in vitro.
       en: >-
         Review: Astaxanthin crosses the blood-brain barrier and protects neurons from oxidative stress. In vitro antioxidant capacity is 6,000× higher than vitamin C (ORAC assay).
   - ref: pmid-22349894
+    targets: [blutdruck, entzuendung, herz-kreislauf]
     finding:
       de: >-
         Review: Astaxanthin hemmt LDL-Oxidation, reduziert Entzündungsmarker. Kleine RCTs zeigen Verbesserung des Lipidprofils und Blutdrucks.
       en: >-
         Review: Astaxanthin inhibits LDL oxidation and reduces inflammatory markers. Small RCTs show improvements in lipid profile and blood pressure.
   - ref: pmid-42467594
+    targets: [oxidativer-stress, verdauung]
     finding:
       de: >-
         Doppelblinder Crossover-RCT bei Frauen: Astaxanthin-Supplementierung senkte den respiratorischen Austauschquotienten (RER) signifikant beim submaximalen Radfahren — Hinweis auf stärkere Fettoxidation. Frauenspezifisches Design in einem oft männlich-dominierten Forschungsbereich.

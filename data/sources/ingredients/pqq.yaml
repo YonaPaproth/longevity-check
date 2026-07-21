@@ -31,12 +31,14 @@ key_studies:
       en: >-
         Mechanistic and preclinical data suggest a mitochondrial link.
   - ref: pmid-26226960
+    targets: [energie, entzuendung]
     finding:
       de: >-
         Kleine Humanstudien zeigen Signale bei Müdigkeit und Entzündungsmarkern, aber keine starke Beweislast.
       en: >-
         Small human studies show signals for fatigue and inflammatory markers, but lack robust evidence.
   - ref: pmid-19321502
+    targets: [verdauung]
     finding:
       de: >-
         Review: biologisch spannend, aber nicht ausreichend validiert für große Supplement-Versprechen.

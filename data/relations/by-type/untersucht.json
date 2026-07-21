@@ -1,7 +1,43 @@
 {
   "type": "untersucht",
-  "count": 49,
+  "count": 303,
   "relations": [
+    {
+      "subject": "studie-11498727",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:11498727"
+    },
+    {
+      "subject": "studie-11772128",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:11772128"
+    },
+    {
+      "subject": "studie-12598816",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:12598816"
+    },
+    {
+      "subject": "studie-1362956",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:1362956"
+    },
+    {
+      "subject": "studie-14988435",
+      "target": "immunsystem",
+      "confidence": 0.9,
+      "source": "pmid:14988435"
+    },
+    {
+      "subject": "studie-14988435",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:14988435"
+    },
     {
       "subject": "studie-15189112",
       "target": "blutzucker",
@@ -15,16 +51,316 @@
       "source": "pmid:15223977"
     },
     {
+      "subject": "studie-15514282",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:15514282"
+    },
+    {
+      "subject": "studie-15514282",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:15514282"
+    },
+    {
+      "subject": "studie-15514282",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:15514282"
+    },
+    {
+      "subject": "studie-15531889",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:15531889"
+    },
+    {
+      "subject": "studie-15531889",
+      "target": "leber",
+      "confidence": 0.9,
+      "source": "pmid:15531889"
+    },
+    {
+      "subject": "studie-15531889",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:15531889"
+    },
+    {
+      "subject": "studie-15537682",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:15537682"
+    },
+    {
+      "subject": "studie-16205932",
+      "target": "haut",
+      "confidence": 0.9,
+      "source": "pmid:16205932"
+    },
+    {
+      "subject": "studie-16205932",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:16205932"
+    },
+    {
+      "subject": "studie-16205932",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:16205932"
+    },
+    {
+      "subject": "studie-16309928",
+      "target": "gelenke",
+      "confidence": 0.9,
+      "source": "pmid:16309928"
+    },
+    {
+      "subject": "studie-16309928",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:16309928"
+    },
+    {
+      "subject": "studie-17628176",
+      "target": "neuroprotektiv",
+      "confidence": 0.9,
+      "source": "pmid:17628176"
+    },
+    {
+      "subject": "studie-17628176",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:17628176"
+    },
+    {
+      "subject": "studie-17634462",
+      "target": "haut",
+      "confidence": 0.9,
+      "source": "pmid:17634462"
+    },
+    {
+      "subject": "studie-17634462",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:17634462"
+    },
+    {
+      "subject": "studie-17828627",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:17828627"
+    },
+    {
+      "subject": "studie-17828627",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:17828627"
+    },
+    {
       "subject": "studie-17846391",
       "target": "alterung",
       "confidence": 0.9,
       "source": "pmid:17846391"
     },
     {
+      "subject": "studie-17951492",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:17951492"
+    },
+    {
+      "subject": "studie-18296328",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:18296328"
+    },
+    {
+      "subject": "studie-18296328",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:18296328"
+    },
+    {
+      "subject": "studie-18442638",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:18442638"
+    },
+    {
+      "subject": "studie-18442638",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:18442638"
+    },
+    {
+      "subject": "studie-19017509",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:19017509"
+    },
+    {
+      "subject": "studie-19017509",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:19017509"
+    },
+    {
+      "subject": "studie-19160216",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:19160216"
+    },
+    {
+      "subject": "studie-19160216",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:19160216"
+    },
+    {
+      "subject": "studie-19587680",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:19587680"
+    },
+    {
+      "subject": "studie-19587680",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:19587680"
+    },
+    {
+      "subject": "studie-19924039",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:19924039"
+    },
+    {
       "subject": "studie-20152124",
       "target": "kognition",
       "confidence": 0.9,
       "source": "pmid:20152124"
+    },
+    {
+      "subject": "studie-20386132",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:20386132"
+    },
+    {
+      "subject": "studie-20651948",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:20651948"
+    },
+    {
+      "subject": "studie-2080048",
+      "target": "immunsystem",
+      "confidence": 0.9,
+      "source": "pmid:2080048"
+    },
+    {
+      "subject": "studie-2080048",
+      "target": "stress",
+      "confidence": 0.9,
+      "source": "pmid:2080048"
+    },
+    {
+      "subject": "studie-2080048",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:2080048"
+    },
+    {
+      "subject": "studie-20838622",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:20838622"
+    },
+    {
+      "subject": "studie-21261636",
+      "target": "leber",
+      "confidence": 0.9,
+      "source": "pmid:21261636"
+    },
+    {
+      "subject": "studie-21261636",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:21261636"
+    },
+    {
+      "subject": "studie-21414230",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:21414230"
+    },
+    {
+      "subject": "studie-21505219",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:21505219"
+    },
+    {
+      "subject": "studie-21505219",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:21505219"
+    },
+    {
+      "subject": "studie-21747945",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:21747945"
+    },
+    {
+      "subject": "studie-22071706",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:22071706"
+    },
+    {
+      "subject": "studie-22071706",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:22071706"
+    },
+    {
+      "subject": "studie-22214254",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:22214254"
+    },
+    {
+      "subject": "studie-22214254",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:22214254"
+    },
+    {
+      "subject": "studie-22332098",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:22332098"
+    },
+    {
+      "subject": "studie-22349894",
+      "target": "blutdruck",
+      "confidence": 0.9,
+      "source": "pmid:22349894"
+    },
+    {
+      "subject": "studie-22349894",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:22349894"
+    },
+    {
+      "subject": "studie-22349894",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:22349894"
     },
     {
       "subject": "studie-22407780",
@@ -39,16 +375,118 @@
       "source": "pmid:22407780"
     },
     {
+      "subject": "studie-22516723",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:22516723"
+    },
+    {
       "subject": "studie-22762317",
       "target": "knochen",
       "confidence": 0.9,
       "source": "pmid:22762317"
     },
     {
+      "subject": "studie-22976217",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:22976217"
+    },
+    {
+      "subject": "studie-23013531",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:23013531"
+    },
+    {
+      "subject": "studie-23013531",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:23013531"
+    },
+    {
+      "subject": "studie-23118793",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:23118793"
+    },
+    {
+      "subject": "studie-23172919",
+      "target": "leber",
+      "confidence": 0.9,
+      "source": "pmid:23172919"
+    },
+    {
+      "subject": "studie-23172919",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:23172919"
+    },
+    {
+      "subject": "studie-23384445",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:23384445"
+    },
+    {
+      "subject": "studie-23384445",
+      "target": "stress",
+      "confidence": 0.9,
+      "source": "pmid:23384445"
+    },
+    {
+      "subject": "studie-23384445",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:23384445"
+    },
+    {
+      "subject": "studie-23389860",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:23389860"
+    },
+    {
+      "subject": "studie-23389860",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:23389860"
+    },
+    {
       "subject": "studie-23439798",
       "target": "stress",
       "confidence": 0.9,
       "source": "pmid:23439798"
+    },
+    {
+      "subject": "studie-23644932",
+      "target": "augen",
+      "confidence": 0.9,
+      "source": "pmid:23644932"
+    },
+    {
+      "subject": "studie-23644932",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:23644932"
+    },
+    {
+      "subject": "studie-23762049",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:23762049"
+    },
+    {
+      "subject": "studie-23762049",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:23762049"
+    },
+    {
+      "subject": "studie-23762049",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:23762049"
     },
     {
       "subject": "studie-23853635",
@@ -63,6 +501,84 @@
       "source": "pmid:23853635"
     },
     {
+      "subject": "studie-23949208",
+      "target": "haut",
+      "confidence": 0.9,
+      "source": "pmid:23949208"
+    },
+    {
+      "subject": "studie-24095831",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:24095831"
+    },
+    {
+      "subject": "studie-24252493",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:24252493"
+    },
+    {
+      "subject": "studie-24278045",
+      "target": "haut",
+      "confidence": 0.9,
+      "source": "pmid:24278045"
+    },
+    {
+      "subject": "studie-25282031",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:25282031"
+    },
+    {
+      "subject": "studie-25282031",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:25282031"
+    },
+    {
+      "subject": "studie-25313065",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:25313065"
+    },
+    {
+      "subject": "studie-25313065",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:25313065"
+    },
+    {
+      "subject": "studie-25540326",
+      "target": "immunsystem",
+      "confidence": 0.9,
+      "source": "pmid:25540326"
+    },
+    {
+      "subject": "studie-25761837",
+      "target": "depression",
+      "confidence": 0.9,
+      "source": "pmid:25761837"
+    },
+    {
+      "subject": "studie-25761837",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:25761837"
+    },
+    {
+      "subject": "studie-25780308",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:25780308"
+    },
+    {
+      "subject": "studie-25780308",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:25780308"
+    },
+    {
       "subject": "studie-26007572",
       "target": "blutzucker",
       "confidence": 0.9,
@@ -73,6 +589,30 @@
       "target": "herz-kreislauf",
       "confidence": 0.9,
       "source": "pmid:26007572"
+    },
+    {
+      "subject": "studie-26135835",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:26135835"
+    },
+    {
+      "subject": "studie-26135835",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:26135835"
+    },
+    {
+      "subject": "studie-26179181",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:26179181"
+    },
+    {
+      "subject": "studie-26420590",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:26420590"
     },
     {
       "subject": "studie-26528921",
@@ -105,10 +645,58 @@
       "source": "pmid:26837598"
     },
     {
+      "subject": "studie-26916911",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:26916911"
+    },
+    {
+      "subject": "studie-26970090",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:26970090"
+    },
+    {
       "subject": "studie-26975974",
       "target": "entzuendung",
       "confidence": 0.9,
       "source": "pmid:26975974"
+    },
+    {
+      "subject": "studie-27100509",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:27100509"
+    },
+    {
+      "subject": "studie-27100509",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:27100509"
+    },
+    {
+      "subject": "studie-27328852",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:27328852"
+    },
+    {
+      "subject": "studie-27400265",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:27400265"
+    },
+    {
+      "subject": "studie-27400265",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:27400265"
+    },
+    {
+      "subject": "studie-27400265",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:27400265"
     },
     {
       "subject": "studie-27402922",
@@ -121,6 +709,12 @@
       "target": "herz-kreislauf",
       "confidence": 0.9,
       "source": "pmid:27402922"
+    },
+    {
+      "subject": "studie-27492975",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:27492975"
     },
     {
       "subject": "studie-27533649",
@@ -141,10 +735,64 @@
       "source": "pmid:28202713"
     },
     {
+      "subject": "studie-28300758",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:28300758"
+    },
+    {
+      "subject": "studie-28300758",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:28300758"
+    },
+    {
       "subject": "studie-28471731",
       "target": "kognition",
       "confidence": 0.9,
       "source": "pmid:28471731"
+    },
+    {
+      "subject": "studie-28611480",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:28611480"
+    },
+    {
+      "subject": "studie-28660890",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:28660890"
+    },
+    {
+      "subject": "studie-28662290",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:28662290"
+    },
+    {
+      "subject": "studie-28853742",
+      "target": "immunsystem",
+      "confidence": 0.9,
+      "source": "pmid:28853742"
+    },
+    {
+      "subject": "studie-28878245",
+      "target": "depression",
+      "confidence": 0.9,
+      "source": "pmid:28878245"
+    },
+    {
+      "subject": "studie-28878245",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:28878245"
+    },
+    {
+      "subject": "studie-28878245",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:28878245"
     },
     {
       "subject": "studie-28925728",
@@ -159,10 +807,88 @@
       "source": "pmid:29065496"
     },
     {
+      "subject": "studie-29344421",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:29344421"
+    },
+    {
+      "subject": "studie-29344421",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:29344421"
+    },
+    {
+      "subject": "studie-29344421",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:29344421"
+    },
+    {
+      "subject": "studie-2934746",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:2934746"
+    },
+    {
+      "subject": "studie-29376219",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:29376219"
+    },
+    {
+      "subject": "studie-29376219",
+      "target": "prostata",
+      "confidence": 0.9,
+      "source": "pmid:29376219"
+    },
+    {
+      "subject": "studie-29599478",
+      "target": "blutdruck",
+      "confidence": 0.9,
+      "source": "pmid:29599478"
+    },
+    {
+      "subject": "studie-29738701",
+      "target": "stress",
+      "confidence": 0.9,
+      "source": "pmid:29738701"
+    },
+    {
+      "subject": "studie-29926979",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:29926979"
+    },
+    {
+      "subject": "studie-29955838",
+      "target": "fertilitat",
+      "confidence": 0.9,
+      "source": "pmid:29955838"
+    },
+    {
+      "subject": "studie-29955838",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:29955838"
+    },
+    {
       "subject": "studie-30293909",
       "target": "knochen",
       "confidence": 0.9,
       "source": "pmid:30293909"
+    },
+    {
+      "subject": "studie-30371340",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:30371340"
+    },
+    {
+      "subject": "studie-30371340",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:30371340"
     },
     {
       "subject": "studie-30415628",
@@ -183,16 +909,88 @@
       "source": "pmid:30415637"
     },
     {
+      "subject": "studie-30415637",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:30415637"
+    },
+    {
       "subject": "studie-30611908",
       "target": "knochen",
       "confidence": 0.9,
       "source": "pmid:30611908"
     },
     {
+      "subject": "studie-30788274",
+      "target": "blutdruck",
+      "confidence": 0.9,
+      "source": "pmid:30788274"
+    },
+    {
+      "subject": "studie-30788274",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:30788274"
+    },
+    {
+      "subject": "studie-31263284",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:31263284"
+    },
+    {
+      "subject": "studie-31263284",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:31263284"
+    },
+    {
+      "subject": "studie-31316753",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:31316753"
+    },
+    {
+      "subject": "studie-31316753",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:31316753"
+    },
+    {
+      "subject": "studie-31316753",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:31316753"
+    },
+    {
+      "subject": "studie-31321376",
+      "target": "augen",
+      "confidence": 0.9,
+      "source": "pmid:31321376"
+    },
+    {
+      "subject": "studie-31321376",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:31321376"
+    },
+    {
+      "subject": "studie-31321376",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:31321376"
+    },
+    {
       "subject": "studie-31537771",
       "target": "herz-kreislauf",
       "confidence": 0.9,
       "source": "pmid:31537771"
+    },
+    {
+      "subject": "studie-31605025",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:31605025"
     },
     {
       "subject": "studie-31728244",
@@ -225,6 +1023,36 @@
       "source": "pmid:32114706"
     },
     {
+      "subject": "studie-32338020",
+      "target": "immunsystem",
+      "confidence": 0.9,
+      "source": "pmid:32338020"
+    },
+    {
+      "subject": "studie-32338020",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:32338020"
+    },
+    {
+      "subject": "studie-32436266",
+      "target": "haut",
+      "confidence": 0.9,
+      "source": "pmid:32436266"
+    },
+    {
+      "subject": "studie-32877690",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:32877690"
+    },
+    {
+      "subject": "studie-32877690",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:32877690"
+    },
+    {
       "subject": "studie-33190147",
       "target": "herz-kreislauf",
       "confidence": 0.9,
@@ -255,16 +1083,472 @@
       "source": "pmid:33387437"
     },
     {
+      "subject": "studie-335027",
+      "target": "depression",
+      "confidence": 0.9,
+      "source": "pmid:335027"
+    },
+    {
+      "subject": "studie-335027",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:335027"
+    },
+    {
+      "subject": "studie-33574223",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:33574223"
+    },
+    {
+      "subject": "studie-33783984",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:33783984"
+    },
+    {
+      "subject": "studie-33783984",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:33783984"
+    },
+    {
+      "subject": "studie-33783984",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:33783984"
+    },
+    {
+      "subject": "studie-33912895",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:33912895"
+    },
+    {
+      "subject": "studie-34028001",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:34028001"
+    },
+    {
+      "subject": "studie-34107512",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:34107512"
+    },
+    {
       "subject": "studie-34586711",
       "target": "entzuendung",
       "confidence": 0.9,
       "source": "pmid:34586711"
     },
     {
+      "subject": "studie-34933842",
+      "target": "haut",
+      "confidence": 0.9,
+      "source": "pmid:34933842"
+    },
+    {
+      "subject": "studie-34958679",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:34958679"
+    },
+    {
+      "subject": "studie-35234312",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:35234312"
+    },
+    {
+      "subject": "studie-35234312",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:35234312"
+    },
+    {
+      "subject": "studie-35234312",
+      "target": "stress",
+      "confidence": 0.9,
+      "source": "pmid:35234312"
+    },
+    {
+      "subject": "studie-35268089",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:35268089"
+    },
+    {
+      "subject": "studie-35268089",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:35268089"
+    },
+    {
+      "subject": "studie-35294044",
+      "target": "immunsystem",
+      "confidence": 0.9,
+      "source": "pmid:35294044"
+    },
+    {
+      "subject": "studie-35294044",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:35294044"
+    },
+    {
+      "subject": "studie-35616942",
+      "target": "fertilitat",
+      "confidence": 0.9,
+      "source": "pmid:35616942"
+    },
+    {
+      "subject": "studie-35616942",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:35616942"
+    },
+    {
+      "subject": "studie-36139790",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:36139790"
+    },
+    {
+      "subject": "studie-36139790",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:36139790"
+    },
+    {
       "subject": "studie-36287374",
       "target": "knochen",
       "confidence": 0.9,
       "source": "pmid:36287374"
+    },
+    {
+      "subject": "studie-36649934",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:36649934"
+    },
+    {
+      "subject": "studie-36649934",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:36649934"
+    },
+    {
+      "subject": "studie-36683513",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:36683513"
+    },
+    {
+      "subject": "studie-36683513",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:36683513"
+    },
+    {
+      "subject": "studie-37163454",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:37163454"
+    },
+    {
+      "subject": "studie-37301079",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:37301079"
+    },
+    {
+      "subject": "studie-37432380",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:37432380"
+    },
+    {
+      "subject": "studie-37649436",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:37649436"
+    },
+    {
+      "subject": "studie-38257115",
+      "target": "immunsystem",
+      "confidence": 0.9,
+      "source": "pmid:38257115"
+    },
+    {
+      "subject": "studie-38433010",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:38433010"
+    },
+    {
+      "subject": "studie-38433010",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:38433010"
+    },
+    {
+      "subject": "studie-387000",
+      "target": "depression",
+      "confidence": 0.9,
+      "source": "pmid:387000"
+    },
+    {
+      "subject": "studie-38873567",
+      "target": "energie",
+      "confidence": 0.9,
+      "source": "pmid:38873567"
+    },
+    {
+      "subject": "studie-38873567",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:38873567"
+    },
+    {
+      "subject": "studie-39117797",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:39117797"
+    },
+    {
+      "subject": "studie-39117797",
+      "target": "fertilitat",
+      "confidence": 0.9,
+      "source": "pmid:39117797"
+    },
+    {
+      "subject": "studie-39117797",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:39117797"
+    },
+    {
+      "subject": "studie-39126572",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:39126572"
+    },
+    {
+      "subject": "studie-39126572",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:39126572"
+    },
+    {
+      "subject": "studie-39126572",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:39126572"
+    },
+    {
+      "subject": "studie-39221499",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:39221499"
+    },
+    {
+      "subject": "studie-39221499",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:39221499"
+    },
+    {
+      "subject": "studie-39514262",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:39514262"
+    },
+    {
+      "subject": "studie-40126282",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:40126282"
+    },
+    {
+      "subject": "studie-40306555",
+      "target": "leber",
+      "confidence": 0.9,
+      "source": "pmid:40306555"
+    },
+    {
+      "subject": "studie-40359479",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:40359479"
+    },
+    {
+      "subject": "studie-40359479",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:40359479"
+    },
+    {
+      "subject": "studie-40359479",
+      "target": "stress",
+      "confidence": 0.9,
+      "source": "pmid:40359479"
+    },
+    {
+      "subject": "studie-40411697",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:40411697"
+    },
+    {
+      "subject": "studie-40495903",
+      "target": "blutdruck",
+      "confidence": 0.9,
+      "source": "pmid:40495903"
+    },
+    {
+      "subject": "studie-40553215",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:40553215"
+    },
+    {
+      "subject": "studie-40553215",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:40553215"
+    },
+    {
+      "subject": "studie-40563319",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:40563319"
+    },
+    {
+      "subject": "studie-40563319",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:40563319"
+    },
+    {
+      "subject": "studie-40563319",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:40563319"
+    },
+    {
+      "subject": "studie-40608959",
+      "target": "energie",
+      "confidence": 0.9,
+      "source": "pmid:40608959"
+    },
+    {
+      "subject": "studie-40732054",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:40732054"
+    },
+    {
+      "subject": "studie-40911749",
+      "target": "haut",
+      "confidence": 0.9,
+      "source": "pmid:40911749"
+    },
+    {
+      "subject": "studie-40959699",
+      "target": "depression",
+      "confidence": 0.9,
+      "source": "pmid:40959699"
+    },
+    {
+      "subject": "studie-40959699",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:40959699"
+    },
+    {
+      "subject": "studie-40959699",
+      "target": "stress",
+      "confidence": 0.9,
+      "source": "pmid:40959699"
+    },
+    {
+      "subject": "studie-41077538",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:41077538"
+    },
+    {
+      "subject": "studie-41077538",
+      "target": "entzuendung",
+      "confidence": 0.9,
+      "source": "pmid:41077538"
+    },
+    {
+      "subject": "studie-41096492",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:41096492"
+    },
+    {
+      "subject": "studie-41249370",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:41249370"
+    },
+    {
+      "subject": "studie-41298601",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:41298601"
+    },
+    {
+      "subject": "studie-41305668",
+      "target": "leber",
+      "confidence": 0.9,
+      "source": "pmid:41305668"
+    },
+    {
+      "subject": "studie-41305668",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:41305668"
+    },
+    {
+      "subject": "studie-41305668",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:41305668"
+    },
+    {
+      "subject": "studie-41362998",
+      "target": "haut",
+      "confidence": 0.9,
+      "source": "pmid:41362998"
+    },
+    {
+      "subject": "studie-41362998",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:41362998"
+    },
+    {
+      "subject": "studie-41422283",
+      "target": "haut",
+      "confidence": 0.9,
+      "source": "pmid:41422283"
+    },
+    {
+      "subject": "studie-41505913",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:41505913"
+    },
+    {
+      "subject": "studie-41505913",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:41505913"
     },
     {
       "subject": "studie-41641401",
@@ -279,10 +1563,130 @@
       "source": "pmid:41641401"
     },
     {
+      "subject": "studie-41641880",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:41641880"
+    },
+    {
+      "subject": "studie-41804854",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:41804854"
+    },
+    {
+      "subject": "studie-41824218",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:41824218"
+    },
+    {
+      "subject": "studie-41824218",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:41824218"
+    },
+    {
+      "subject": "studie-41924221",
+      "target": "muskel",
+      "confidence": 0.9,
+      "source": "pmid:41924221"
+    },
+    {
+      "subject": "studie-41957052",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:41957052"
+    },
+    {
+      "subject": "studie-41957052",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:41957052"
+    },
+    {
+      "subject": "studie-42024457",
+      "target": "leber",
+      "confidence": 0.9,
+      "source": "pmid:42024457"
+    },
+    {
+      "subject": "studie-42024457",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:42024457"
+    },
+    {
+      "subject": "studie-42056717",
+      "target": "schmerz",
+      "confidence": 0.9,
+      "source": "pmid:42056717"
+    },
+    {
+      "subject": "studie-42163863",
+      "target": "fertilitat",
+      "confidence": 0.9,
+      "source": "pmid:42163863"
+    },
+    {
+      "subject": "studie-42163863",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:42163863"
+    },
+    {
+      "subject": "studie-42198398",
+      "target": "leber",
+      "confidence": 0.9,
+      "source": "pmid:42198398"
+    },
+    {
+      "subject": "studie-42198398",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:42198398"
+    },
+    {
+      "subject": "studie-42216548",
+      "target": "gelenke",
+      "confidence": 0.9,
+      "source": "pmid:42216548"
+    },
+    {
+      "subject": "studie-42216548",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:42216548"
+    },
+    {
+      "subject": "studie-42216548",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:42216548"
+    },
+    {
       "subject": "studie-42247029",
       "target": "prostata",
       "confidence": 0.9,
       "source": "pmid:42247029"
+    },
+    {
+      "subject": "studie-42268476",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:42268476"
+    },
+    {
+      "subject": "studie-42268476",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:42268476"
+    },
+    {
+      "subject": "studie-42268476",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:42268476"
     },
     {
       "subject": "studie-42277453",
@@ -295,6 +1699,126 @@
       "target": "blutdruck",
       "confidence": 0.9,
       "source": "pmid:42277453"
+    },
+    {
+      "subject": "studie-42352330",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:42352330"
+    },
+    {
+      "subject": "studie-42352330",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:42352330"
+    },
+    {
+      "subject": "studie-42356270",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:42356270"
+    },
+    {
+      "subject": "studie-42371142",
+      "target": "blutzucker",
+      "confidence": 0.9,
+      "source": "pmid:42371142"
+    },
+    {
+      "subject": "studie-42371142",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:42371142"
+    },
+    {
+      "subject": "studie-42410840",
+      "target": "herz-kreislauf",
+      "confidence": 0.9,
+      "source": "pmid:42410840"
+    },
+    {
+      "subject": "studie-42423994",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:42423994"
+    },
+    {
+      "subject": "studie-42453365",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:42453365"
+    },
+    {
+      "subject": "studie-42459809",
+      "target": "haut",
+      "confidence": 0.9,
+      "source": "pmid:42459809"
+    },
+    {
+      "subject": "studie-42459809",
+      "target": "immunsystem",
+      "confidence": 0.9,
+      "source": "pmid:42459809"
+    },
+    {
+      "subject": "studie-42459809",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:42459809"
+    },
+    {
+      "subject": "studie-42467594",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:42467594"
+    },
+    {
+      "subject": "studie-42467594",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:42467594"
+    },
+    {
+      "subject": "studie-6764927",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:6764927"
+    },
+    {
+      "subject": "studie-7649494",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:7649494"
+    },
+    {
+      "subject": "studie-7649494",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:7649494"
+    },
+    {
+      "subject": "studie-8624220",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:8624220"
+    },
+    {
+      "subject": "studie-8875519",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:8875519"
+    },
+    {
+      "subject": "studie-9294217",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:9294217"
+    },
+    {
+      "subject": "studie-9484373",
+      "target": "migraene",
+      "confidence": 0.9,
+      "source": "pmid:9484373"
     }
   ]
 }

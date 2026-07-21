@@ -26,18 +26,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-28344465
+    targets: [schlaf]
     finding:
       de: >-
         Review: Rutin ist präklinisch breit interessant, aber klinische Evidenz bleibt überschaubar.
       en: >-
         Review: Rutin shows broad preclinical interest but clinical evidence remains limited.
   - ref: pmid-14527825
+    targets: [schmerz]
     finding:
       de: >-
         Hinweise auf gefäßbezogene Effekte, jedoch keine starke moderne Humanbasis.
       en: >-
         Hints at vascular effects but no strong modern human evidence base.
   - ref: pmid-11285671
+    targets: [schlaf]
     finding:
       de: >-
         Flavonoide sind interessant, aber konkrete Supplementempfehlungen bleiben schwierig.

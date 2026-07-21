@@ -1,0 +1,29 @@
+{
+  "entity": "studie-31321376",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "augen",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31321376",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31321376",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:31321376",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

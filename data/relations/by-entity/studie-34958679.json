@@ -1,0 +1,13 @@
+{
+  "entity": "studie-34958679",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:34958679",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

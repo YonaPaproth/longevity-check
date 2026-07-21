@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-18515024
+    targets: [schlaf, verdauung]
     finding:
       de: >-
         Review: Schisandra passt adaptogen-theoretisch gut, klinische Daten bleiben jedoch begrenzt.
       en: >-
         Review: Schisandra fits well within adaptogen theory, but clinical data remains limited.
   - ref: pmid-20109491
+    targets: [schlaf]
     finding:
       de: >-
         Schisandra ist Teil des Adaptogen-Konzepts; robuste Outcome-Evidenz bleibt dennoch begrenzt.

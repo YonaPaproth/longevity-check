@@ -8,6 +8,22 @@
       "confidence": 0.9,
       "source": "pmid:23644932",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "augen",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23644932",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23644932",
+      "evidence_level": "human_rct"
     }
   ]
 }

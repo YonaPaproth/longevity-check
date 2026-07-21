@@ -46,6 +46,7 @@ key_studies:
       en: >-
         Cochrane review: caffeine reduced error rates and was associated with less drowsiness in shift-work settings.
   - ref: pmid-42371142
+    targets: [blutzucker, schlaf]
     finding:
       de: >-
         Große Kohortenstudie (NHS, >100.000 Personen): Moderater Kaffeekonsum war mit geringerem T2D-Risiko assoziiert – konfundiert durch weitere Kaffeeinhaltsstoffe, nicht isoliert auf Koffein zurückführbar.

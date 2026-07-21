@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-26970090
+    targets: [schmerz]
     finding:
       de: >-
         NMN war mit höheren Werten verbundene NAD+-Spiegel und war mit Veränderungen verbundene Gefäßfunktion bei alten Mäusen – kein Humanversuch.

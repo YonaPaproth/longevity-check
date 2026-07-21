@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-27400265
+    targets: [alterung, muskel, verdauung]
     finding:
       de: >-
         Nature Medicine: Urolithin A wird im Zusammenhang mit Alterungsforschung diskutierte Lebensspanne in C. elegans um ~45 % und war mit Veränderungen verbundene Muskelkraft in alten Ratten. Erstnachweis der Mitophagie-Induktion.

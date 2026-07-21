@@ -1,0 +1,13 @@
+{
+  "entity": "studie-34028001",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:34028001",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

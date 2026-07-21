@@ -32,6 +32,7 @@ key_studies:
       en: >-
         Small sample with signals for androgen-related markers in specific subgroups, but limited generalizability and modest effect sizes.
   - ref: pmid-22971603
+    targets: [schlaf]
     finding:
       de: >-
         Review: interessant, aber noch klar im Bereich moderater und vorläufiger Evidenz.

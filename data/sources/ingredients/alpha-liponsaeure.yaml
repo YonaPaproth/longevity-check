@@ -28,18 +28,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-42056717
+    targets: [schmerz]
     finding:
       de: >-
         Phase-IV-RCT bei schmerzhafter diabetischer Polyneuropathie: Die Kombination aus Pregabalin und Alpha-Liponsäure zeigte klinisch relevante Wirksamkeits- und Sicherheitsdaten in einer realen Neuropathie-Indikation – stärker praxisnah als rein mechanistische ALA-Arbeiten.
       en: >-
         Phase IV RCT in painful diabetic peripheral neuropathy: the combination of pregabalin and alpha-lipoic acid produced clinically relevant efficacy and safety data in a real neuropathy indication, making it more practice-relevant than purely mechanistic ALA papers.
   - ref: pmid-41077538
+    targets: [blutzucker, entzuendung]
     finding:
       de: >-
         Meta-Analyse (20 RCTs): ALA war mit signifikant niedrigeren Werten von Fasten-Blutzucker, Insulin und CRP verbunden bei Patienten mit metabolischem Syndrom.
       en: >-
         Meta-analysis (20 RCTs): ALA was associated with significantly lower fasting blood glucose, insulin, and CRP in patients with metabolic syndrome.
   - ref: pmid-35234312
+    targets: [blutzucker, oxidativer-stress, stress]
     finding:
       de: >-
         Review: ALA verbesserte die Insulinsensitivität via AMPK-Aktivierung und reduziert oxidativen Stress in Mitochondrien.
@@ -52,12 +55,14 @@ key_studies:
       en: >-
         Review of preclinical neurobiological effects: R-ALA is associated with neuroprotective mechanisms against oxidative stress; evidence is primarily preclinical.
   - ref: pmid-41804854
+    targets: [verdauung]
     finding:
       de: >-
         RCT in der Supportivonkologie: Alpha-Liponsäure verringerte in einer spezialisierten Kopf-Hals-Krebs-Population das Risiko bzw. die Schwere strahleninduzierter oraler Mukositis. Klinisch interessant, aber nicht direkt auf gesunde Anwender übertragbar.
       en: >-
         RCT in supportive oncology: alpha-lipoic acid reduced the risk or severity of radiation-induced oral mucositis in a specialized head-and-neck cancer population. Clinically interesting, but not directly generalizable to healthy supplement users.
   - ref: pmid-7649494
+    targets: [oxidativer-stress, verdauung]
     finding:
       de: >-
         Klassisches Review (1995): Alpha-Liponsäure als biologisches Antioxidans — beschreibt die Rolle als Cofaktor mitochondrialer Enzymkomplexe und die regenerative Wirkung auf andere Antioxidantien (Vitamin C, E, Glutathion). Grundlagenpaper, das den mechanistischen Rahmen für alle späteren klinischen Studien setzt.

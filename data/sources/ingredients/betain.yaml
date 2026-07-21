@@ -28,18 +28,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-22976217
+    targets: [muskel]
     finding:
       de: >-
         RCT (n=12): 2,5 g/Tag Betain zeigte in Studien Veränderungen bei anabolen Hormonsignalen nach Krafttraining.
       en: >-
         RCT (n=12): 2.5 g/day betaine showed changes in anabolic hormone signaling and mTOR/Akt pathways post-resistance training."
   - ref: pmid-39514262
+    targets: [muskel]
     finding:
       de: >-
         RCT (n=23): 2,5 g/Tag über 14 Tage – moderate Verbesserungen bei Kraftleistung und Körperzusammensetzung versus Placebo.
       en: >-
         RCT (n=23): 2.5 g/day for 14 days showed moderate improvements in strength performance and body composition vs. placebo."
   - ref: pmid-21414230
+    targets: [muskel]
     finding:
       de: >-
         RCT (n=24): 2,5 g/Tag über 15 Tage – Verbesserungen bei Kraft und Ausdauerleistung in einigen, aber nicht allen gemessenen Parametern.

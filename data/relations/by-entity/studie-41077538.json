@@ -1,0 +1,21 @@
+{
+  "entity": "studie-41077538",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41077538",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41077538",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

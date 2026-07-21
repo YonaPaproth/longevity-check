@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-33912895
+    targets: [verdauung]
     finding:
       de: >-
         Review: Chronisch hohe Pyridoxin-Dosen können sensorische Neuropathien verursachen. Sicherheit ist stark dosis- und dauerabhängig.

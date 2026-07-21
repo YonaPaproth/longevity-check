@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-18454811
+    targets: [energie, verdauung]
     finding:
       de: >-
         Review zu Biochemie und Stoffwechsel: Niacin ist zentral für NAD/NADP und damit für Energie- und Redoxstoffwechsel.

@@ -28,30 +28,35 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-40563319
+    targets: [herz-kreislauf, schmerz, verdauung]
     finding:
       de: >-
         RCT (n=443, ältere Schweden): Kombination Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität um 54% (HR 0,46; 95%-CI 0,28–0,77). Beachtlich, aber noch nicht unabhängig repliziert.
       en: >-
         RCT (n=443, older Swedish adults): Selenium + CoQ10 combination over 4 years reduced cardiovascular mortality by 54% (HR 0.46; 95% CI 0.28–0.77). Impressive, but not yet independently replicated.
   - ref: pmid-25282031
+    targets: [herz-kreislauf, schmerz]
     finding:
       de: >-
         RCT (n=420): CoQ10 300 mg/Tag über 2 Jahre reduzierte schwere kardiovaskuläre Ereignisse (14% vs. 25% im Placebo, p=0,003) und Gesamtmortalität bei chronischer Herzinsuffizienz.
       en: >-
         RCT (n=420): CoQ10 300 mg/day over 2 years reduced major cardiovascular events (14% vs. 25% in placebo, p=0.003) and all-cause mortality in chronic heart failure.
   - ref: pmid-30371340
+    targets: [muskel, schmerz]
     finding:
       de: >-
         RCT: CoQ10 100 mg/Tag über 30 Tage reduzierte Muskelschwäche und -schmerzen bei Statin-assozierter Myopathie signifikant gegenüber Placebo.
       en: >-
         RCT: CoQ10 100 mg/day for 30 days significantly reduced muscle weakness and pain in statin-associated myopathy vs. placebo.
   - ref: pmid-40495903
+    targets: [blutdruck]
     finding:
       de: >-
         Metaanalyse (12 RCTs): CoQ10 reduzierte systolischen Blutdruck um durchschnittlich 16,6 mmHg und diastolischen um 8,2 mmHg. Effekte in kleineren Studien; größere Replikationen stehen aus.
       en: >-
         Meta-analysis (12 RCTs): CoQ10 reduced systolic blood pressure by an average of 16.6 mmHg and diastolic by 8.2 mmHg. Effects observed in smaller trials; larger replication studies pending.
   - ref: pmid-19017509
+    targets: [herz-kreislauf, verdauung]
     finding:
       de: >-
         Kohortenstudie (n=236 CHF-Patienten): Niedriger CoQ10-Spiegel war ein unabhängiger Prädiktor für erhöhte Mortalität bei chronischer Herzinsuffizienz. Verstärkt klinisches Interesse an CoQ10-Substitution.

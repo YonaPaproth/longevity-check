@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-38873567
+    targets: [energie, oxidativer-stress]
     finding:
       de: >-
         Einige Hinweise auf Leistungs- oder Fatigue-Effekte, aber keine starke, konsistente Evidenz.
       en: >-
         Some evidence for performance or fatigue effects, but no strong, consistent evidence across studies.
   - ref: pmid-40608959
+    targets: [energie]
     finding:
       de: >-
         Kleine Studien deuten auf subjektive Vorteile hin.

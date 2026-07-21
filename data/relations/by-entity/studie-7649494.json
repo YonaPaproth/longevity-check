@@ -1,4 +1,21 @@
 {
   "entity": "studie-7649494",
-  "relations": []
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "oxidativer-stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:7649494",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:7649494",
+      "evidence_level": "expert_review"
+    }
+  ]
 }

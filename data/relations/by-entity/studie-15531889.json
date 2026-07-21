@@ -1,0 +1,29 @@
+{
+  "entity": "studie-15531889",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15531889",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15531889",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:15531889",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-20564545
+    targets: [leber]
     finding:
       de: >-
         Review: potenziell nützlich in bestimmten Leberkontexten, aber heterogene klinische Evidenz.
       en: >-
         Review: potentially useful in certain liver contexts, but heterogeneous clinical evidence.
   - ref: pmid-21738288
+    targets: [leber]
     finding:
       de: >-
         Leberbezogene Pflanzenstoffe wie Silymarin sind interessant, aber nicht gleichzusetzen mit gesicherten medizinischen Kontextn.

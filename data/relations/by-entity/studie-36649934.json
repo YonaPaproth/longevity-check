@@ -1,0 +1,21 @@
+{
+  "entity": "studie-36649934",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "blutzucker",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:36649934",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "herz-kreislauf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:36649934",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

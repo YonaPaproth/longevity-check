@@ -26,6 +26,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-9484373
+    targets: [migraene]
     finding:
       de: >-
         RCT: 400 mg Riboflavin pro Tag reduzierten Migräneattacken gegenüber Placebo. Einer der bekanntesten klinischen Einsatzbereiche von hochdosiertem B2.

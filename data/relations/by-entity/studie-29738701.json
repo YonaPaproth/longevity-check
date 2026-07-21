@@ -1,0 +1,13 @@
+{
+  "entity": "studie-29738701",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "stress",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:29738701",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

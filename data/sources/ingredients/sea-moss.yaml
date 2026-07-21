@@ -28,6 +28,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-31527518
+    targets: [verdauung]
     finding:
       de: >-
         Analyse: Rotalgen enthalten Jod, Eisen, Zink und Magnesium, aber Gehalte variieren stark je nach Herkunft. Schwermetall-Kontamination ist ein dokumentiertes Risiko.

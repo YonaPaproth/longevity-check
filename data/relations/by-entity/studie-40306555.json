@@ -1,0 +1,13 @@
+{
+  "entity": "studie-40306555",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40306555",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

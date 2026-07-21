@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-28662290
+    targets: [oxidativer-stress]
     finding:
       de: >-
         Review: Pterostilben hat eine orale Bioverfügbarkeit von ~80 % vs. ~20 % für Resveratrol. Aktiviert SIRT1, AMPK und Nrf2. Längere Halbwertszeit durch Methylgruppen statt Hydroxylgruppen.
       en: >-
         Review: Pterostilbene exhibits ~80% oral bioavailability versus ~20% for resveratrol. Activates SIRT1, AMPK, and Nrf2. Longer half-life due to methyl groups rather than hydroxyl groups.
   - ref: pmid-40411697
+    targets: [oxidativer-stress]
     finding:
       de: >-
         Pharmakokinetische Studie: Pterostilben erreicht 4-fach höhere Plasma-Spiegel als Resveratrol bei gleicher Dosis, mit längerer Halbwertszeit und war mit Veränderungen verbundener Gewebeaufnahme.

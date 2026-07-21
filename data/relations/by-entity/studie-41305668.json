@@ -1,0 +1,29 @@
+{
+  "entity": "studie-41305668",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "leber",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41305668",
+      "evidence_level": "human_observational"
+    },
+    {
+      "relation": "untersucht",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41305668",
+      "evidence_level": "human_observational"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41305668",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

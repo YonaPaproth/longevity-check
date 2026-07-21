@@ -8,6 +8,14 @@
       "confidence": 0.9,
       "source": "pmid:27328852",
       "evidence_level": "meta_analysis"
+    },
+    {
+      "relation": "untersucht",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:27328852",
+      "evidence_level": "meta_analysis"
     }
   ]
 }

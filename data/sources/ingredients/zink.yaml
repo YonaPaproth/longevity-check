@@ -33,6 +33,7 @@ key_studies:
       en: >-
         Comprehensive review: zinc deficiency impairs T-cell function, increases oxidative stress and inflammatory markers. Supplementation normalises immune function in deficiency.
   - ref: pmid-8875519
+    targets: [verdauung]
     finding:
       de: >-
         Bei zinkmangelnden älteren Männern: Supplementierung war mit höheren Werten verbundene Testosteron von 8,3 auf 16,0 nmol/L. Kein Effekt bei gut versorgten Männern.

@@ -1,0 +1,13 @@
+{
+  "entity": "studie-8624220",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:8624220",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

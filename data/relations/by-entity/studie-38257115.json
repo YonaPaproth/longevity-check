@@ -1,0 +1,13 @@
+{
+  "entity": "studie-38257115",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:38257115",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

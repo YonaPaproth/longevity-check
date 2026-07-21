@@ -32,6 +32,7 @@ key_studies:
       en: >-
         Overview of functions, requirements and risks. In Western dietary environments, excess intake is a greater concern than deficiency.
   - ref: pmid-22510091
+    targets: [verdauung]
     finding:
       de: >-
         Phosphat ist biologisch zentral, aber als Supplement für Gesunde selten ein Engpass.

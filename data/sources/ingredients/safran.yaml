@@ -26,24 +26,28 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-24299602
+    targets: [depression]
     finding:
       de: >-
         Frühe Meta-Analyse: Safran war Placebo überlegen und in kleinen Studien ähnlich wirksam wie Antidepressiva bei leichter bis moderater Depression.
       en: >-
         Early meta-analysis: saffron outperformed placebo and in small studies appeared comparable to antidepressants in mild to moderate depression.
   - ref: pmid-41693488
+    targets: [depression, schlaf]
     finding:
       de: >-
         Größte Meta-Analyse (34 RCTs, 1769 Teilnehmer): Safran zeigte signifikante Effekte auf Selbstbewertungs-Fragebögen (BDI: -4.39 Punkte, BAI: -5.06 Punkte), aber KEINE signifikanten Effekte auf kliniker-bewerteten Skalen (HDRS, HARS). Heterogenität extrem hoch (I² > 90%). Das Muster "Selbstbewertung positiv, Kliniker-Rating negativ" deutet auf Placebo-Effekt oder Reporting-Bias hin. GRADE-Evidenz: moderat.
       en: >-
         Largest meta-analysis (34 RCTs, 1,769 participants): saffron showed significant effects on self-rated questionnaires (BDI: -4.39 points, BAI: -5.06 points) but NO significant effects on clinician-rated scales (HDRS, HARS). Heterogeneity extremely high (I² > 90%). The "self-report positive, clinician-rated negative" pattern suggests placebo effect or reporting bias. GRADE certainty: moderate.
   - ref: pmid-32221179
+    targets: [depression, verdauung]
     finding:
       de: >-
         Safran war in den eingeschlossenen Studien meist gut verträglich und zeigte gegenüber Placebo Vorteile bei depressiven Symptomen.
       en: >-
         Saffron was generally well tolerated in included trials and showed advantages over placebo for depressive symptoms.
   - ref: pmid-34419735
+    targets: [depression, verdauung]
     finding:
       de: >-
         Breiter Überblick: Für Stimmung gibt es das stärkste Signal; für viele andere Outcomes ist die Evidenz deutlich schwächer oder zu vorläufig.

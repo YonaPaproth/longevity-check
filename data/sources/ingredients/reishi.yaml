@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-25686270
+    targets: [schlaf]
     finding:
       de: >-
         Cochrane-nahe Bewertung: klinische Evidenz bleibt schwach.
       en: >-
         Cochrane-style evaluation: clinical evidence remains weak.
   - ref: pmid-21438650
+    targets: [verdauung]
     finding:
       de: >-
         Biologisch plausibel, aber nicht gleichbedeutend mit starkem Supplement-Nutzen.

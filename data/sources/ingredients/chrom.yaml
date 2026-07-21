@@ -26,12 +26,14 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-41298601
+    targets: [blutzucker]
     finding:
       de: >-
         Systematischer Review: Effekte auf Blutzucker sind inkonsistent und insgesamt eher moderat.
       en: >-
         Systematic review: Effects on blood glucose are inconsistent and overall rather modest.
   - ref: pmid-41096492
+    targets: [schlaf]
     finding:
       de: >-
         Review: Chrom bleibt mechanistisch interessant, aber klinische Effekte hängen stark von Population, Ausgangsstatus und Präparat ab.

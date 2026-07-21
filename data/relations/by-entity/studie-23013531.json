@@ -1,0 +1,21 @@
+{
+  "entity": "studie-23013531",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23013531",
+      "evidence_level": "human_observational"
+    },
+    {
+      "relation": "untersucht",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23013531",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "entity": "studie-41924221",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "muskel",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41924221",
+      "evidence_level": "human_observational"
+    }
+  ]
+}

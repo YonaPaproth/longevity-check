@@ -49,6 +49,7 @@ key_studies:
       en: >-
         RCT, n=57 young men, resistance training: bench press +18 kg (ashwagandha) vs. +6 kg (placebo). Testosterone significantly increased. Study is small; results need replication.
   - ref: pmid-42198398
+    targets: [leber, schlaf]
     finding:
       de: >-
         Systematischer Review: Ashwagandha ist bei empfohlenen Dosen (300–600 mg/Tag) sicher. Leberwerte in kontrollierten Studien unauffällig. Nebenwirkungsrate gering.

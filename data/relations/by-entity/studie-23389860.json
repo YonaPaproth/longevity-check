@@ -1,0 +1,21 @@
+{
+  "entity": "studie-23389860",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "entzuendung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23389860",
+      "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:23389860",
+      "evidence_level": "human_rct"
+    }
+  ]
+}

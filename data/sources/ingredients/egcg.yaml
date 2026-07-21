@@ -34,6 +34,7 @@ key_studies:
       en: >-
         Comprehensive review: green tea catechins show inverse correlation with cardiovascular disease, metabolic dysfunction, and certain cancers in epidemiological studies. Causality remains unclear.
   - ref: pmid-21715508
+    targets: [herz-kreislauf]
     finding:
       de: >-
         Meta-Analyse (14 RCTs): Grüntee-Catechine war mit niedrigeren Werten verbundenen LDL-Cholesterin um ~0,19 mmol/L und Gesamtcholesterin signifikant.

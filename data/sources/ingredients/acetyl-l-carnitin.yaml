@@ -26,18 +26,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-12598816
+    targets: [kognition]
     finding:
       de: >-
         Meta-analytische Hinweise auf Nutzen in älteren und kognitiv beeinträchtigten Populationen, aber keine saubere Übertragbarkeit auf gesunde Nutzer.
       en: >-
         Meta-analytic evidence suggests potential benefit in older and cognitively impaired populations, but findings do not cleanly translate to healthy individuals.
   - ref: pmid-41824218
+    targets: [schlaf, verdauung]
     finding:
       de: >-
         Möglicher Nutzen in bestimmten neurologischen Kontexten.
       en: >-
         Potential benefit in specific neurological contexts, particularly neuropathic conditions, though clinical effect sizes remain modest.
   - ref: pmid-27100509
+    targets: [oxidativer-stress, schlaf]
     finding:
       de: >-
         Mechanistisch interessant, aber Human-Endpunkte bleiben begrenzt.

@@ -38,6 +38,7 @@ key_studies:
       en: >-
         Comprehensive summary of active compounds and preclinical mechanisms.
   - ref: pmid-24095831
+    targets: [schlaf]
     finding:
       de: >-
         Traditionsreiche Nutzung, moderne klinische Evidenz aber noch begrenzt.

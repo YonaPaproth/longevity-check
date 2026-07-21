@@ -8,6 +8,14 @@
       "confidence": 0.9,
       "source": "pmid:11498727",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "kognition",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:11498727",
+      "evidence_level": "human_rct"
     }
   ]
 }

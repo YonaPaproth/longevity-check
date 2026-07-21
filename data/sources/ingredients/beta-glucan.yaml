@@ -26,18 +26,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-41362998
+    targets: [haut, herz-kreislauf]
     finding:
       de: >-
         Meta-Analyse: Hafer-Beta-Glucan war mit niedrigeren Werten verbunden LDL-Cholesterin zuverlässig.
       en: >-
         Meta-analysis: Oat beta-glucan was consistently associated with lower LDL-cholesterol levels."
   - ref: pmid-37301079
+    targets: [verdauung]
     finding:
       de: >-
         Immunologische Effekte sind plausibel, aber klinisch weniger robust als viele Claims suggerieren.
       en: >-
         Immunological mechanisms are plausible, but clinical evidence is weaker than many marketing claims suggest."
   - ref: pmid-37432380
+    targets: [herz-kreislauf]
     finding:
       de: >-
         Die beste Evidenz liegt bei LDL-Cholesterin, nicht bei generellen Wellness-Versprechen.

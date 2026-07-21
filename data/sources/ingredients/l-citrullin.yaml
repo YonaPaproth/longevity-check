@@ -27,18 +27,21 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-20386132
+    targets: [muskel]
     finding:
       de: >-
         RCT (n=41): 8 g Citrullinmalat steigerte die Anzahl der Wiederholungen im Bankdrücken um ca. 52 % und reduzierte Muskelkater.
       en: >-
         RCT (n=41): 8 g citrulline malate increased bench press repetitions by approximately 52% and reduced muscle soreness.
   - ref: pmid-30788274
+    targets: [blutdruck, herz-kreislauf]
     finding:
       de: >-
         Review mehrerer RCTs: L-Citrullin zeigte in Studien moderate Reduktionen des systolischen Blutdrucks bei Personen mit leicht erhöhten Ausgangswerten.
       en: >-
         Review of multiple RCTs: L-citrulline showed moderate reductions in systolic blood pressure in individuals with mildly elevated baseline values.
   - ref: pmid-42356270
+    targets: [verdauung]
     finding:
       de: >-
         Mechanistischer Beitrag: Citrullin → Arginin-Konversion im Nierenmetabolismus, Grundlage der NO-Synthese-Hypothese.

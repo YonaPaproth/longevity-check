@@ -1,0 +1,21 @@
+{
+  "entity": "studie-35294044",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "immunsystem",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:35294044",
+      "evidence_level": "expert_review"
+    },
+    {
+      "relation": "untersucht",
+      "target": "verdauung",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:35294044",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

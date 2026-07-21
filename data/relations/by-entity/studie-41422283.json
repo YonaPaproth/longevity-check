@@ -8,6 +8,14 @@
       "confidence": 0.9,
       "source": "pmid:41422283",
       "evidence_level": "human_rct"
+    },
+    {
+      "relation": "untersucht",
+      "target": "haut",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41422283",
+      "evidence_level": "expert_review"
     }
   ]
 }

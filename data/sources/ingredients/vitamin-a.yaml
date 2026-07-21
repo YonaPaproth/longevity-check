@@ -27,6 +27,7 @@ efsa_notes:
 
 key_studies:
   - ref: pmid-35294044
+    targets: [immunsystem, verdauung]
     finding:
       de: >-
         Cochrane-Review: In Regionen mit Mangel reduziert Vitamin-A-Supplementierung Kindersterblichkeit und bestimmte Infektionen. Aussage vor allem für Mangelpopulationen relevant.
@@ -39,6 +40,7 @@ key_studies:
       en: >-
         Foundational reference on vitamin A requirements, functions, and toxicity. High retinol intake can damage the liver, bones, and the fetus during pregnancy.
   - ref: pmid-42459809
+    targets: [haut, immunsystem, verdauung]
     finding:
       de: >-
         Review: Vitamin A reguliert angeborene und adaptive Immunität sowie Schleimhautbarrieren. Biologisch gut plausibel, aber Nutzen von Extra-Supplementen hängt stark vom Versorgungsstatus ab.

@@ -1,0 +1,13 @@
+{
+  "entity": "studie-40495903",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "blutdruck",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40495903",
+      "evidence_level": "expert_review"
+    }
+  ]
+}
