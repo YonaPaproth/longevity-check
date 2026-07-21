@@ -25,7 +25,7 @@ efsa_notes:
     The EU has no broadly approved health claims for L-carnitine regarding fat burning, weight loss, or performance enhancement. Many of these claims are more marketing than data supports.
 
 key_studies:
-  - ref: pmid-27866067
+  - ref: pmid-34842765
     finding:
       de: >-
         Meta-Analyse: Effekte auf Körpergewicht und Performance sind insgesamt klein und nicht konsistent.
@@ -37,7 +37,7 @@ key_studies:
         Review: L-Carnitin ist besonders in medizinischen Spezialkontexten relevant, weniger als universelles Lifestyle-Supplement.
       en: >-
         Review: L-carnitine is most relevant in medical specialty contexts, less so as a universal lifestyle supplement.
-  - ref: pmid-32759743
+  - ref: pmid-37299549
     finding:
       de: >-
         Mögliche Nutzen in Erholung und bei älteren Populationen, aber keine starke Basis für breite Allgemeinempfehlungen.
@@ -137,17 +137,17 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-27866067
+    target: studie-34842765
     direction: outgoing
     confidence: 0.9
-    source: "pmid:27866067"
+    source: "pmid:34842765"
   - relation: basiert_auf_studie
     target: studie-20398344
     direction: outgoing
     confidence: 0.9
     source: "pmid:20369674"
   - relation: basiert_auf_studie
-    target: studie-32759743
+    target: studie-37299549
     direction: outgoing
     confidence: 0.9
-    source: "pmid:32759743"
+    source: "pmid:37299549"

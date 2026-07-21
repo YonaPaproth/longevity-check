@@ -43,7 +43,7 @@ key_studies:
         Doppelblind-Crossover: 50 mg L-Theanin erhöhte Alpha-Wellenkraft im EEG signifikant. Alpha-Wellen gelten als Marker entspannter Wachheit ohne Sedierung.
       en: >-
         Double-blind crossover: 50 mg L-theanine significantly increased alpha wave power on EEG. Alpha waves are considered a marker of relaxed alertness without sedation.
-  - ref: pmid-17272967
+  - ref: pmid-16930802
     finding:
       de: >-
         Crossover-Studie (n=12): 200 mg L-Theanin reduzierte Herzrate und salivären IgA-Anstieg als physiologische Stressmarker bei einem mentalen Stress-Task signifikant gegenüber Placebo.
@@ -278,10 +278,10 @@ relations:
     confidence: 0.9
     source: "pmid:18296328"
   - relation: basiert_auf_studie
-    target: studie-17272967
+    target: studie-16930802
     direction: outgoing
     confidence: 0.9
-    source: "pmid:17272967"
+    source: "pmid:16930802"
   - relation: basiert_auf_studie
     target: studie-25761837
     direction: outgoing

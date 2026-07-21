@@ -25,7 +25,7 @@ efsa_notes:
     No approved EFSA health claims for L-glutamine as a dietary supplement. Freely available in the EU as a non-essential amino acid. Well established in clinical medicine (parenteral nutrition, critical care), but these clinical indications do not apply to the consumer supplement context.
 
 key_studies:
-  - ref: pmid-11310919
+  - ref: pmid-2080048
     finding:
       de: >-
         Review: L-Glutamin wird unter körperlichem Stress (Sepsis, Trauma, intensives Training) zur "konditionell essentiellen" Aminosäure — körpereigene Produktion reicht dann nicht mehr aus, und Supplementierung kann Darmbarriere und Immunfunktion unterstützen.

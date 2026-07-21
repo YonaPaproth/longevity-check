@@ -32,7 +32,7 @@ key_studies:
         RCT (n=41): 8 g Citrullinmalat steigerte die Anzahl der Wiederholungen im Bankdrücken um ca. 52 % und reduzierte Muskelkater.
       en: >-
         RCT (n=41): 8 g citrulline malate increased bench press repetitions by approximately 52% and reduced muscle soreness.
-  - ref: pmid-26023227
+  - ref: pmid-30788274
     finding:
       de: >-
         Review mehrerer RCTs: L-Citrullin zeigte in Studien moderate Reduktionen des systolischen Blutdrucks bei Personen mit leicht erhöhten Ausgangswerten.
@@ -265,10 +265,10 @@ relations:
     confidence: 0.9
     source: "pmid:20386132"
   - relation: basiert_auf_studie
-    target: studie-26023227
+    target: studie-30788274
     direction: outgoing
     confidence: 0.9
-    source: "pmid:26023227"
+    source: "pmid:30788274"
   - relation: basiert_auf_studie
     target: studie-42356270
     direction: outgoing
