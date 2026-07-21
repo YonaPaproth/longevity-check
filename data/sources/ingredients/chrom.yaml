@@ -25,13 +25,13 @@ efsa_notes:
     The EU permits health claims for chromium regarding the maintenance of normal blood glucose levels and macronutrient metabolism. However, this does not mean that high chromium doses reliably resolve metabolic problems.
 
 key_studies:
-  - ref: pmid-17684127
+  - ref: pmid-41298601
     finding:
       de: >-
         Systematischer Review: Effekte auf Blutzucker sind inkonsistent und insgesamt eher moderat.
       en: >-
         Systematic review: Effects on blood glucose are inconsistent and overall rather modest.
-  - ref: pmid-30741566
+  - ref: pmid-41096492
     finding:
       de: >-
         Review: Chrom bleibt mechanistisch interessant, aber klinische Effekte hängen stark von Population, Ausgangsstatus und Präparat ab.
@@ -123,12 +123,12 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-17684127
+    target: studie-41298601
     direction: outgoing
     confidence: 0.9
     source: "pmid:17684127"
   - relation: basiert_auf_studie
-    target: studie-30741566
+    target: studie-41096492
     direction: outgoing
     confidence: 0.9
     source: "pmid:30741566"

@@ -24,19 +24,19 @@ efsa_notes:
     In the EU, there are no approved health claims for L-tryptophan for sleep or mood.
 
 key_studies:
-  - ref: pmid-6818213
+  - ref: pmid-6764927
     finding:
       de: >-
         Frühe Humanstudien zeigen potenzielle Vorteile für Einschlafzeit und Schlafqualität.
       en: >-
         Early human studies show potential benefits for sleep onset time and sleep quality.
-  - ref: pmid-19734380
+  - ref: pmid-20651948
     finding:
       de: >-
         Review: Tryptophan ist neurobiologisch relevant, aber Effekte hängen stark vom Kontext ab.
       en: >-
         Review: Tryptophan is neurobiologically relevant, but effects depend strongly on context.
-  - ref: pmid-23689751
+  - ref: pmid-33574223
     finding:
       de: >-
         Tryptophan beeinflusst serotonerge Systeme plausibel, aber Supplementeffekte sind nicht automatisch groß.
@@ -156,17 +156,17 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-6818213
+    target: studie-6764927
     direction: outgoing
     confidence: 0.9
     source: "pmid:6818213"
   - relation: basiert_auf_studie
-    target: studie-19734380
+    target: studie-20651948
     direction: outgoing
     confidence: 0.9
     source: "pmid:19734380"
   - relation: basiert_auf_studie
-    target: studie-23689751
+    target: studie-33574223
     direction: outgoing
     confidence: 0.9
     source: "pmid:23689751"

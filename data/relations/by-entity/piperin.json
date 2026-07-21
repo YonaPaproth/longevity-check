@@ -25,7 +25,7 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-3984604",
+      "target": "studie-3917507",
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:3984604"

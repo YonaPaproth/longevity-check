@@ -1,0 +1,13 @@
+{
+  "entity": "studie-36287374",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "knochen",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:36287374",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

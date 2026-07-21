@@ -37,7 +37,7 @@ key_studies:
         Follow-up-Studie: GlyNAC war mit Veränderungen verbundene Mitochondrien-Energiestoffwechsel, Körperzusammensetzung (weniger Fettmasse) und Gehgeschwindigkeit bei älteren Menschen.
       en: >-
         Follow-up study: GlyNAC was associated with improvements in mitochondrial energy metabolism, body composition (reduced fat mass), and walking speed in older adults.
-  - ref: pmid-35504071
+  - ref: pmid-35268089
     finding:
       de: >-
         Tierstudie: GlyNAC wird im Zusammenhang mit Alterungsforschung diskutierte die Lebensspanne bei Mäusen um 24 % und war mit Veränderungen verbundene multiple Hallmarks of Alterung.
@@ -202,7 +202,7 @@ relations:
     confidence: 0.9
     source: "pmid:34741443"
   - relation: basiert_auf_studie
-    target: studie-35504071
+    target: studie-35268089
     direction: outgoing
     confidence: 0.9
     source: "pmid:35504071"

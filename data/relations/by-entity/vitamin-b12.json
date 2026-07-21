@@ -116,7 +116,7 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-18489294",
+      "target": "studie-19623286",
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:18489294"

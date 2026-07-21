@@ -24,13 +24,13 @@ efsa_notes:
     In the EU, there are no approved health claims for PQQ regarding energy, brain function, or mitochondrial support.
 
 key_studies:
-  - ref: pmid-16614413
+  - ref: pmid-16424117
     finding:
       de: >-
         Mechanistische und präklinische Daten legen Mitochondrien-Bezug nahe.
       en: >-
         Mechanistic and preclinical data suggest a mitochondrial link.
-  - ref: pmid-22805162
+  - ref: pmid-26226960
     finding:
       de: >-
         Kleine Humanstudien zeigen Signale bei Müdigkeit und Entzündungsmarkern, aber keine starke Beweislast.
@@ -163,12 +163,12 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-16614413
+    target: studie-16424117
     direction: outgoing
     confidence: 0.9
     source: "pmid:16614413"
   - relation: basiert_auf_studie
-    target: studie-22805162
+    target: studie-26226960
     direction: outgoing
     confidence: 0.9
     source: "pmid:22805162"

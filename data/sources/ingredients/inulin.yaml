@@ -37,7 +37,7 @@ key_studies:
         Inulin kann Darmfunktion und mikrobielle Zusammensetzung beeinflussen.
       en: >-
         Evidence that dietary inulin can alter bowel function and modify the composition of the gut microbiota in clinically meaningful ways.
-  - ref: pmid-28298225
+  - ref: pmid-27492975
     finding:
       de: >-
         Humanstudien zeigen Nutzen für Stuhlgang und Darmkomfort bei bestimmten Gruppen.
@@ -150,7 +150,7 @@ relations:
     confidence: 0.9
     source: "pmid:24299756"
   - relation: basiert_auf_studie
-    target: studie-28298225
+    target: studie-27492975
     direction: outgoing
     confidence: 0.9
     source: "pmid:28298225"

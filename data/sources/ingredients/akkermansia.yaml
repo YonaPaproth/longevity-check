@@ -25,7 +25,7 @@ efsa_notes:
     No EFSA health claims approved. Regulatory status as a supplement in the EU is still under clarification. Pasteurized Akkermansia is available as a novel food in some EU countries.
 
 key_studies:
-  - ref: pmid-28092418
+  - ref: pmid-36085529
     finding:
       de: >-
         Identifizierung von Amuc_1100 als aktivem Protein der Akkermansia-Membran, das metabolische Verbesserungen bei Mäusen auslöst.
@@ -174,7 +174,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-28092418
+    target: studie-36085529
     direction: outgoing
     confidence: 0.9
     source: "pmid:28092418"

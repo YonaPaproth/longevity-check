@@ -44,7 +44,7 @@ key_studies:
         Cross-over RCT: 18 g Inositol/Tag reduzierte OCD-Symptome signifikant – vergleichbar mit SSRIs. Basis für psychische Einsatzbereiche.
       en: >-
         Crossover RCT: 18 g inositol/day significantly reduced OCD symptom scores, with effect sizes comparable to SSRIs. Foundational trial for psychiatric applications; not yet replicated at scale.
-  - ref: pmid-7730405
+  - ref: pmid-11386498
     finding:
       de: >-
         RCT: 12 g Inositol/Tag reduzierte Panikattacken-Frequenz signifikant. Mechanismus: Second-Messenger-System des Phosphatidylinositol-Signalwegs.
@@ -243,7 +243,7 @@ relations:
     confidence: 0.9
     source: "pmid:8874839"
   - relation: basiert_auf_studie
-    target: studie-7730405
+    target: studie-11386498
     direction: outgoing
     confidence: 0.9
     source: "pmid:7730405"

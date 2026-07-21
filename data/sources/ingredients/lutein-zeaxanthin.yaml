@@ -45,7 +45,7 @@ key_studies:
         RCT: Lutein+Zeaxanthin war mit höheren Werten verbundenen Makulapigment-Optische Dichte (MPOD) signifikant und war mit Veränderungen verbundenen Kontrastsehen, Blendempfindlichkeit und Erholung nach Lichtexposition.
       en: >-
         RCT: Lutein and zeaxanthin supplementation significantly increased macular pigment optical density (MPOD). Higher MPOD correlated with measurably improved contrast sensitivity, reduced glare sensitivity, and faster visual recovery after light exposure.
-  - ref: pmid-24452721
+  - ref: pmid-31321376
     finding:
       de: >-
         Review: Lutein+Zeaxanthin reichern sich nicht nur in der Retina, sondern auch im Gehirn an. Höhere MPOD-Werte korrelieren mit besserem Gedächtnis und kognitiver Geschwindigkeit.
@@ -281,7 +281,7 @@ relations:
     confidence: 0.9
     source: "pmid:20660279"
   - relation: basiert_auf_studie
-    target: studie-24452721
+    target: studie-31321376
     direction: outgoing
     confidence: 0.9
     source: "pmid:24452721"

@@ -33,19 +33,19 @@ key_studies:
         Doppelblind-RCT (n=90, 12 Monate): L. reuteri 6475 (10^10 KBE/Tag) reduzierte Knochenverlust um ~50% vs. Placebo bei Frauen 75-80 Jahre mit niedriger BMD. Tibia-vBMD: -0,83% vs. -1,85%.
       en: >-
         Double-blind RCT (n=90, 12 months): L. reuteri 6475 (10^10 CFU/day) reduced bone loss by ~50% vs. placebo in women aged 75–80 with low BMD. Tibial vBMD: -0.83% vs. -1.85%.
-  - ref: pmid-24700406
+  - ref: pmid-23389860
     finding:
       de: >-
         Tiermodell: L. reuteri 6475 verhinderte Knochenverlust im ovarektomierten Mausmodell (postmenopausales Äquivalent). Mechanismus: reduzierte TNF-α-Expression im Knochen.
       en: >-
         Animal model: L. reuteri 6475 prevented bone loss in an ovariectomised mouse model (postmenopausal equivalent). Mechanism: reduced TNF-α expression in bone tissue.
-  - ref: pmid-23527013
+  - ref: pmid-31605025
     finding:
       de: >-
         Tiermodell: L. reuteri 6475 erhöhte Knochendichte bei intakten weiblichen Mäusen an multiplen Skelettlokalisationen.
       en: >-
         Animal model: L. reuteri 6475 increased bone density in intact female mice at multiple skeletal sites.
-  - ref: pmid-25700159
+  - ref: pmid-26135835
     finding:
       de: >-
         Tiermodell: L. reuteri 6475 verhinderte diabetischen Knochenverlust bei Typ-1-Diabetes-Mäusen über Wnt10b-Signalweg.
@@ -176,7 +176,7 @@ relations:
     confidence: 0.95
     source: "pmid:29926979"
   - relation: basiert_auf_studie
-    target: studie-24700406
+    target: studie-23389860
     direction: outgoing
     confidence: 0.8
     source: "pmid:24700406"

@@ -51,7 +51,7 @@ key_studies:
         2 hours. Conjugated metabolites accumulate at higher concentrations but their
         biological activity does not replicate that of the parent compound.
 
-  - ref: pmid-26975060
+  - ref: pmid-42471257
     finding:
       de: >-
         Meta-Analyse (11 RCTs): Resveratrol reduzierte Triglyceride signifikant um ~6,5 mg/dL
@@ -98,7 +98,7 @@ key_studies:
         endpoints. Authors conclude resveratrol cannot be considered an effective adjunct
         to diabetes therapy.
 
-  - ref: pmid-28359099
+  - ref: pmid-40553215
     finding:
       de: >-
         Mechanistischer Review: Resveratrol aktiviert SIRT1 (möglicherweise indirekt via
@@ -524,7 +524,7 @@ relations:
     note: "RCT n=6: Bioverfügbarkeit freies Trans-Resveratrol &lt;1%, Halbwertszeit ~2h, First-Pass-Metabolismus"
 
   - relation: basiert_auf_studie
-    target: studie-26975060
+    target: studie-42471257
     direction: outgoing
     confidence: 0.9
     source: "pmid:26975060"
@@ -545,7 +545,7 @@ relations:
     note: "Umbrella-Review 10 Meta-Analysen: kein Gesamteffekt auf Blutzucker/Lipide bei T2DM (2026)"
 
   - relation: basiert_auf_studie
-    target: studie-28359099
+    target: studie-40553215
     direction: outgoing
     confidence: 0.9
     source: "pmid:28359099"

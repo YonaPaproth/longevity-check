@@ -37,7 +37,7 @@ key_studies:
         Review: Auch in westlichen Ländern kommt funktioneller B1-Mangel bei Risikogruppen vor, etwa nach bariatrischer Chirurgie oder bei chronischer Fehlernährung.
       en: >-
         Review: Functional B1 deficiency occurs in Western populations within at-risk groups, particularly following bariatric surgery or with chronic dietary insufficiency.
-  - ref: pmid-17405083
+  - ref: pmid-42453365
     finding:
       de: >-
         Thiaminmangel kann schwere neurologische Schäden verursachen. Frühzeitige Substitution ist in Risikosituationen klinisch hochrelevant.
@@ -165,7 +165,7 @@ relations:
     confidence: 0.9
     source: "pmid:22489203"
   - relation: basiert_auf_studie
-    target: studie-17405083
+    target: studie-42453365
     direction: outgoing
     confidence: 0.9
     source: "pmid:17405083"

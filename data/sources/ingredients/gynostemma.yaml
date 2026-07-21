@@ -32,7 +32,7 @@ key_studies:
         Gynostemma-Extrakt aktivierte AMPK in Fett- und Muskelzellen, vergleichbar mit Metformin – ohne bekannte Nebenwirkungen des Arzneimittels.
       en: >-
         Gynostemma extract activated AMPK in adipose and skeletal muscle cells in a dose-dependent manner, with effects comparable to metformin but without the drug's known gastrointestinal side effects.
-  - ref: pmid-22784345
+  - ref: pmid-23804546
     finding:
       de: >-
         RCT: Gynostemma-Tee war mit Veränderungen verbundene Insulinsensitivität und war mit niedrigeren Werten verbundene Nüchternblutzucker bei adipösen Probanden nach 8 Wochen.
@@ -204,7 +204,7 @@ relations:
     confidence: 0.9
     source: "pmid:21062282"
   - relation: basiert_auf_studie
-    target: studie-22784345
+    target: studie-23804546
     direction: outgoing
     confidence: 0.9
     source: "pmid:22784345"

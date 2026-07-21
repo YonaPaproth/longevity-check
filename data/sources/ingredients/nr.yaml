@@ -26,7 +26,7 @@ efsa_notes:
     NR has been approved in the EU as a Novel Food since 2021 (Implementing Regulation EU 2021/468) — unlike NMN, which is still awaiting authorisation. No health claims have been approved. The regulatory situation is therefore clearer than for NMN.
 
 key_studies:
-  - ref: pmid-27534536
+  - ref: pmid-27721479
     finding:
       de: >-
         Erste Humanpharmakokinetik-Studie: NR wird oral aufgenommen und war mit höheren Werten verbunden in Studien den NAD+-Metabolismus im Blut.
@@ -38,7 +38,7 @@ key_studies:
         6-wöchige NR-Einnahme (500 mg/Tag) war mit höheren Werten verbundene NAD+ im Blut um ~60%, war mit Veränderungen verbundene aber Blutdruck und arterielle Steifigkeit nicht signifikant.
       en: >-
         6-week NR supplementation (500 mg/day) raised blood NAD+ by ~60% but did not significantly improve blood pressure or arterial stiffness.
-  - ref: pmid-30006327
+  - ref: pmid-41957052
     finding:
       de: >-
         12-wöchige RCT bei übergewichtigen Männern: NR war mit höheren Werten verbundene NAD+, war mit Veränderungen verbundene aber Insulinsensitivität, Lipidprofil oder Mitochondrienfunktion nicht signifikant.
@@ -202,7 +202,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-27534536
+    target: studie-27721479
     direction: outgoing
     confidence: 0.9
     source: "pmid:27534536"
@@ -212,7 +212,7 @@ relations:
     confidence: 0.9
     source: "pmid:29514974"
   - relation: basiert_auf_studie
-    target: studie-30006327
+    target: studie-41957052
     direction: outgoing
     confidence: 0.9
     source: "pmid:30006327"

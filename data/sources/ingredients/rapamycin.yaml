@@ -50,7 +50,7 @@ key_studies:
         Meta-Analyse: Rapamycin/Sirolimus-Stents zeigten in kardiologischen RCTs Lipidstörungen (Hyperlipidämie, erhöhte Triglyceride) als konsistenteste Nebenwirkung. Klinisch relevant bei Langzeitanwendung.
       en: >-
         Meta-analysis: rapamycin/sirolimus-eluting stents in cardiology RCTs showed lipid disturbances (hyperlipidemia, elevated triglycerides) as the most consistent side effect. Clinically relevant for long-term use.
-  - ref: pmid-32686767
+  - ref: pmid-31316753
     finding:
       de: >-
         Umfassender Review: mTOR-Hemmung verlängerte die Lebensspanne in Hefe, Würmern, Fliegen und Mäusen konsistent. Der Mechanismus läuft über reduzierte Proteinsynthese, verstärkte Autophagie und verbesserte Stammzellfunktion. Translation zum Menschen bleibt die große offene Frage.
@@ -254,7 +254,7 @@ relations:
     confidence: 0.8
     source: "pmid:31346894"
   - relation: basiert_auf_studie
-    target: studie-32686767
+    target: studie-31316753
     direction: outgoing
     confidence: 0.85
     source: "pmid:32686767"

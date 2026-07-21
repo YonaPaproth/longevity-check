@@ -30,7 +30,7 @@ key_studies:
         Kleine Studie mit Veränderungen bei Schmerz und Funktion im Gelenk-Kontext.
       en: >-
         Small RCT showing improvements in joint pain and function in osteoarthritis patients; modest effect sizes.
-  - ref: pmid-22348453
+  - ref: pmid-23013531
     finding:
       de: >-
         Hinweise auf Effekte bei Entzündung und Erholung, aber kleine Studienbasis.
@@ -141,7 +141,7 @@ relations:
     confidence: 0.9
     source: "pmid:16309928"
   - relation: basiert_auf_studie
-    target: studie-22348453
+    target: studie-23013531
     direction: outgoing
     confidence: 0.9
     source: "pmid:22348453"

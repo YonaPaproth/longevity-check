@@ -1,6 +1,6 @@
 {
   "type": "untersucht",
-  "count": 46,
+  "count": 47,
   "relations": [
     {
       "subject": "studie-15189112",
@@ -247,6 +247,12 @@
       "target": "entzuendung",
       "confidence": 0.9,
       "source": "pmid:34586711"
+    },
+    {
+      "subject": "studie-36287374",
+      "target": "knochen",
+      "confidence": 0.9,
+      "source": "pmid:36287374"
     },
     {
       "subject": "studie-41641401",

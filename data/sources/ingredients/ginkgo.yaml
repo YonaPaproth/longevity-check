@@ -25,19 +25,19 @@ efsa_notes:
     In the EU, ginkgo lacks approved health claims for memory, concentration, or blood circulation in the over-the-counter supplement category. Traditional herbal registrations exist but do not permit cognitive or vascular claims.
 
 key_studies:
-  - ref: pmid-19821345
+  - ref: pmid-19160216
     finding:
       de: >-
         Gemischte Datenlage mit teils kleinen Vorteilen in bestimmten Populationen, aber keine klare Universalantwort.
       en: >-
         Mixed evidence with modest benefits in some populations, but no clear universal benefit across all cognitive domains or patient groups.
-  - ref: pmid-22440494
+  - ref: pmid-41641880
     finding:
       de: >-
         Heterogene Ergebnisse, abhängig von Population und Studiendesign.
       en: >-
         Heterogeneous results dependent on study population and design. Variability likely reflects differences in extract quality, dosing, duration, and outcome measures.
-  - ref: pmid-16007253
+  - ref: pmid-11772128
     finding:
       de: >-
         Wichtige Interaktionsfrage, vor allem im Kontext Blutverdünnung.
@@ -126,17 +126,17 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-19821345
+    target: studie-19160216
     direction: outgoing
     confidence: 0.9
     source: "pmid:19821345"
   - relation: basiert_auf_studie
-    target: studie-22440494
+    target: studie-41641880
     direction: outgoing
     confidence: 0.9
     source: "pmid:22440494"
   - relation: basiert_auf_studie
-    target: studie-16007253
+    target: studie-11772128
     direction: outgoing
     confidence: 0.9
     source: "pmid:16007253"

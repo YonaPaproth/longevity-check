@@ -25,7 +25,7 @@ efsa_notes:
     The EU does not permit health claims for Tongkat Ali related to testosterone, virility, muscle building, or sexual function.
 
 key_studies:
-  - ref: pmid-23273445
+  - ref: pmid-21671978
     finding:
       de: >-
         Kleine Datenbasis mit Hinweisen auf war mit Veränderungen verbundene androgenbezogene Marker in bestimmten Gruppen.
@@ -117,7 +117,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-23273445
+    target: studie-21671978
     direction: outgoing
     confidence: 0.9
     source: "pmid:23273445"

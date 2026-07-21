@@ -48,7 +48,7 @@ key_studies:
         RCT, n=57 junge Männer, Krafttraining: Bankdrücken +18 kg (Ashwagandha) vs. +6 kg (Placebo). Testosteron signifikant erhöht. Studie klein; Ergebnisse müssen repliziert werden.
       en: >-
         RCT, n=57 young men, resistance training: bench press +18 kg (ashwagandha) vs. +6 kg (placebo). Testosterone significantly increased. Study is small; results need replication.
-  - ref: pmid-25552213
+  - ref: pmid-42198398
     finding:
       de: >-
         Systematischer Review: Ashwagandha ist bei empfohlenen Dosen (300–600 mg/Tag) sicher. Leberwerte in kontrollierten Studien unauffällig. Nebenwirkungsrate gering.
@@ -337,7 +337,7 @@ relations:
     confidence: 0.9
     source: "pmid:26609282"
   - relation: basiert_auf_studie
-    target: studie-25552213
+    target: studie-42198398
     direction: outgoing
     confidence: 0.9
     source: "pmid:25552213"

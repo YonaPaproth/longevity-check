@@ -26,7 +26,7 @@ efsa_notes:
     EFSA has not approved any health claims for NAC as a supplement. The FDA has considered removing NAC from the supplement market (since it is approved as a drug), but no final decision has been made. In the EU, NAC remains available as a dietary supplement.
 
 key_studies:
-  - ref: pmid-28748217
+  - ref: pmid-24787454
     finding:
       de: >-
         Umfassender Review: NAC war mit höheren Werten verbunden konsistent Glutathion-Spiegel und reduziert oxidativen Stress. Vergleichsweise gut untersuchte klinische Anwendung bei Atemwegserkrankungen.
@@ -284,7 +284,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-28748217
+    target: studie-24787454
     direction: outgoing
     confidence: 0.9
     source: "pmid:28748217"

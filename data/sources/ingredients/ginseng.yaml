@@ -25,7 +25,7 @@ efsa_notes:
     In the EU, there are no freely authorized health claims for ginseng related to energy, vitality, or stress resistance in the forms commonly marketed. Regulatory scrutiny reflects the mixed evidence base and safety concerns.
 
 key_studies:
-  - ref: pmid-19678779
+  - ref: pmid-19574616
     finding:
       de: >-
         Review: Hinweise auf Effekte bei Müdigkeit und Wohlbefinden, aber heterogene Studienbasis.
@@ -154,7 +154,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-19678779
+    target: studie-19574616
     direction: outgoing
     confidence: 0.9
     source: "pmid:19678779"

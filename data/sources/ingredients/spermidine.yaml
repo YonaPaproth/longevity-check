@@ -27,19 +27,19 @@ efsa_notes:
     No EFSA-approved health claims exist for spermidine. As a substance naturally found in food (wheat germ, soybeans, aged cheese), spermidine is recognised as a food component in the EU. High-concentration supplements (>5 mg/day) occupy a regulatory grey zone depending on dosage — marketable in Germany as a food supplement, but without any permitted health-related claims.
 
 key_studies:
-  - ref: pmid-30955569
+  - ref: pmid-39117797
     finding:
       de: >-
         Mechanistische Studie (Zellmodelle und C. elegans): Spermidin induziert Autophagie über Hypusinierung des Translationsfaktors eIF5A — ein neu identifizierter Mechanismus zusätzlich zur bekannten mTOR-Hemmung. C. elegans-Lebensspanne verlängerte sich signifikant unter Spermidin-Exposition; Autophagie-Defizienz hob den Effekt auf.
       en: >-
         Mechanistic study (cell models and C. elegans): spermidine induces autophagy via hypusination of the translation factor eIF5A — a newly identified mechanism in addition to known mTOR inhibition. C. elegans lifespan was significantly extended under spermidine exposure; autophagy deficiency abolished the effect entirely.
-  - ref: pmid-32428599
+  - ref: pmid-35616942
     finding:
       de: >-
         RCT, n=85 ältere Erwachsene mit subjektiven GedächtnisBeschwerden (SCI), 3 Monate Weizenkeimextrakt (~1,2 mg Spermidin/Tag) vs. Placebo. Primärer Endpunkt (Mnemonic Discrimination Task): kein signifikanter Unterschied. Sekundärer Endpunkt (Wortlisten-Gedächtnis): signifikante Verbesserung in der Spermidin-Gruppe. Fazit: Exploratorische Ergebnisse, kein Primärendpunkt erreicht — größere Studien erforderlich.
       en: >-
         RCT, n=85 older adults with subjective cognitive impairment (SCI), 3 months of wheat germ extract (~1.2 mg spermidine/day) vs. placebo. Primary endpoint (Mnemonic Discrimination Task): no significant difference between groups. Secondary endpoint (word list memory): significant improvement in the spermidine group. Conclusion: exploratory signal only — primary endpoint not met; larger trials are needed.
-  - ref: pmid-33762175
+  - ref: pmid-34958481
     finding:
       de: >-
         Translationsstudie: Spermidin verbesserte in alten Mäusen die diastolische Herzfunktion und verlängerte die Lebensspanne (+10 %). Begleitende epidemiologische Auswertung (n=3.407): Höhere diätetische Spermidinzufuhr war mit niedrigerem systolischen Blutdruck und reduziertem kardiovaskulärem Risiko assoziiert (HR 0,60 für kardiovaskuläre Mortalität, oberstes vs. unterstes Tertil).
@@ -399,17 +399,17 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-30955569
+    target: studie-39117797
     direction: outgoing
     confidence: 0.9
     source: "pmid:30955569"
   - relation: basiert_auf_studie
-    target: studie-32428599
+    target: studie-35616942
     direction: outgoing
     confidence: 0.9
     source: "pmid:32428599"
   - relation: basiert_auf_studie
-    target: studie-33762175
+    target: studie-34958481
     direction: outgoing
     confidence: 0.9
     source: "pmid:33762175"

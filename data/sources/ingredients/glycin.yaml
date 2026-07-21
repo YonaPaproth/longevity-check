@@ -24,7 +24,7 @@ efsa_notes:
     No approved EFSA health claims for glycine as a supplement. As an amino acid, it is freely available as a dietary supplement in the EU. In medicine, glycine infusions are used in prostate surgery.
 
 key_studies:
-  - ref: pmid-23171544
+  - ref: pmid-22529837
     finding:
       de: >-
         RCT (n=11): 3 g Glycin vor dem Schlafen war mit Veränderungen verbundene Schlafqualität, Tagesmüdigkeit und kognitive Funktion am nächsten Morgen.
@@ -252,7 +252,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-23171544
+    target: studie-22529837
     direction: outgoing
     confidence: 0.9
     source: "pmid:23171544"

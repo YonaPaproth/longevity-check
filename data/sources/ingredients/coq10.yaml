@@ -27,7 +27,7 @@ efsa_notes:
     EFSA rejected a health claim application for CoQ10 (contribution to normal heart function) in 2010, citing insufficient evidence. CoQ10 products may not make health claims in the EU.
 
 key_studies:
-  - ref: pmid-23097267
+  - ref: pmid-40563319
     finding:
       de: >-
         RCT (n=443, ältere Schweden): Kombination Selen + CoQ10 über 4 Jahre reduzierte kardiovaskuläre Mortalität um 54% (HR 0,46; 95%-CI 0,28–0,77). Beachtlich, aber noch nicht unabhängig repliziert.
@@ -51,7 +51,7 @@ key_studies:
         Metaanalyse (12 RCTs): CoQ10 reduzierte systolischen Blutdruck um durchschnittlich 16,6 mmHg und diastolischen um 8,2 mmHg. Effekte in kleineren Studien; größere Replikationen stehen aus.
       en: >-
         Meta-analysis (12 RCTs): CoQ10 reduced systolic blood pressure by an average of 16.6 mmHg and diastolic by 8.2 mmHg. Effects observed in smaller trials; larger replication studies pending.
-  - ref: pmid-18926930
+  - ref: pmid-19017509
     finding:
       de: >-
         Kohortenstudie (n=236 CHF-Patienten): Niedriger CoQ10-Spiegel war ein unabhängiger Prädiktor für erhöhte Mortalität bei chronischer Herzinsuffizienz. Verstärkt klinisches Interesse an CoQ10-Substitution.
@@ -282,7 +282,7 @@ relations:
     direction: outgoing
     confidence: 0.6
   - relation: basiert_auf_studie
-    target: studie-23097267
+    target: studie-40563319
     direction: outgoing
     confidence: 0.9
     source: "pmid:23097267"
@@ -302,7 +302,7 @@ relations:
     confidence: 0.8
     source: "pmid:17386983"
   - relation: basiert_auf_studie
-    target: studie-18926930
+    target: studie-19017509
     direction: outgoing
     confidence: 0.85
     source: "pmid:18926930"

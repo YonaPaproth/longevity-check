@@ -39,7 +39,7 @@ key_studies:
         RCT (n=161 Ärzte im Nachtdienst): Einzeldosis Rhodiola verbesserte kognitive Leistung und Reaktionszeit unter Erschöpfungsbedingungen signifikant vs. Placebo.
       en: >-
         RCT (n=161 physicians on night duty): A single dose of Rhodiola significantly improved cognitive performance and reaction time under sleep-deprivation fatigue vs. placebo.
-  - ref: pmid-17990197
+  - ref: pmid-25268730
     finding:
       de: >-
         RCT (n=56): Rhodiola reduzierte physische und mentale Erschöpfung bei Studierenden in Prüfungsperioden signifikant. Stimmung und allgemeines Wohlbefinden verbesserten sich.
@@ -240,7 +240,7 @@ relations:
     confidence: 0.9
     source: "pmid:12725561"
   - relation: basiert_auf_studie
-    target: studie-17990197
+    target: studie-25268730
     direction: outgoing
     confidence: 0.9
     source: "pmid:17990197"

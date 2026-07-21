@@ -31,13 +31,13 @@ key_studies:
         TMG war mit niedrigeren Werten verbundene Homocystein in Humanstudien zuverlässig. Ob das automatisch klinische Vorteile erzeugt, bleibt offen.
       en: >-
         TMG was reliably associated with lower homocysteine levels in human studies. Whether this automatically produces clinical benefits remains unclear.
-  - ref: pmid-15466943
+  - ref: pmid-15321791
     finding:
       de: >-
         Review: TMG ist metabolisch relevant, besonders als Methylgruppendonor und Osmolyt. Die Praxisanwendungen gehen der Evidenz teils voraus.
       en: >-
         Review: TMG is metabolically relevant, particularly as a methyl-group donor and osmolyte. Clinical applications sometimes outpace the evidence base.
-  - ref: pmid-21485974
+  - ref: pmid-21747945
     finding:
       de: >-
         Homocystein sinkt, harte klinische Endpunkte bleiben aber unklar.
@@ -178,12 +178,12 @@ relations:
     confidence: 0.9
     source: "pmid:12514275"
   - relation: basiert_auf_studie
-    target: studie-15466943
+    target: studie-15321791
     direction: outgoing
     confidence: 0.9
     source: "pmid:15466943"
   - relation: basiert_auf_studie
-    target: studie-21485974
+    target: studie-21747945
     direction: outgoing
     confidence: 0.9
     source: "pmid:21485974"

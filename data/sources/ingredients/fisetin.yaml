@@ -36,7 +36,7 @@ key_studies:
         Pilot-Studie mit Dasatinib+Quercetin (verwandter Senolytika-Ansatz): Reduktion seneszenter Zellmarker im Fettgewebe. Basis für größere Studien mit Fisetin.
       en: >-
         Pilot study using dasatinib+quercetin (related senolytic approach): demonstrated measurable reductions in senescent cell markers in adipose tissue, providing proof-of-concept for the senolytic strategy in humans.
-  - ref: pmid-32131541
+  - ref: pmid-39004102
     finding:
       de: >-
         Review: Fisetin schützt Neuronen vor oxidativem Stress und Entzündung in Tiermodellen (inkl. Alzheimer-Mausmodell). Aktiviert Sirtuin-1 und AMPK.
@@ -213,7 +213,7 @@ relations:
     confidence: 0.9
     source: "pmid:30616726"
   - relation: basiert_auf_studie
-    target: studie-32131541
+    target: studie-39004102
     direction: outgoing
     confidence: 0.9
     source: "pmid:32131541"

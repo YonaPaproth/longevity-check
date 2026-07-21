@@ -45,7 +45,7 @@ key_studies:
         stabilisation of LDLR mRNA in hepatocytes — a statin-independent
         mechanism. First description of the LDLR stabilisation pathway.
 
-  - ref: pmid-19800084
+  - ref: pmid-18442638
     finding:
       de: >-
         RCT (n=116): Berberin 500 mg 3x täglich senkte HbA1c um 2,0 Prozentpunkte
@@ -69,7 +69,7 @@ key_studies:
         (CI: 0.46–0.98), and postprandial glucose by 1.51 mmol/L. Study quality
         was heterogeneous; almost all trials enrolled patients with type 2 diabetes.
 
-  - ref: pmid-20150526
+  - ref: pmid-41505913
     finding:
       de: >-
         Tier- und Zellstudie: Berberin aktiviert AMPK über Hemmung von
@@ -417,7 +417,7 @@ relations:
     note: "LDL-Cholesterin -25% via LDLR-Stabilisierung, Statin-unabhängiger Mechanismus"
 
   - relation: basiert_auf_studie
-    target: studie-19800084
+    target: studie-18442638
     direction: outgoing
     confidence: 0.9
     source: "pmid:19800084"
@@ -431,7 +431,7 @@ relations:
     note: "Meta-Analyse 14 RCTs n=1.068: Blutzucker und HbA1c Senkung bei T2DM"
 
   - relation: basiert_auf_studie
-    target: studie-20150526
+    target: studie-41505913
     direction: outgoing
     confidence: 0.85
     source: "pmid:20150526"

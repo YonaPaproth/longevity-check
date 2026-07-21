@@ -39,7 +39,7 @@ key_studies:
         Review: Folat ist direkter Methyl-Donor im One-Carbon-Metabolismus. Mangel stört DNA-Methylierungsmuster und war mit höheren Werten verbunden Homocystein. Epigenetische Relevanz gut dokumentiert.
       en: >-
         Review: Folate is a direct methyl donor in one-carbon metabolism. Deficiency disrupts DNA methylation patterns and is associated with elevated homocysteine. Epigenetic relevance is well documented.
-  - ref: pmid-35042259
+  - ref: pmid-42410840
     finding:
       de: >-
         Meta-Analyse (30 RCTs): Folsäure war mit niedrigeren Werten verbunden Homocystein signifikant, reduziert aber Herzinfarkte und Schlaganfälle nicht konsistent – außer möglicherweise bei Schlaganfall in folsäurearmen Populationen.
@@ -246,7 +246,7 @@ relations:
     confidence: 0.9
     source: "pmid:22297886"
   - relation: basiert_auf_studie
-    target: studie-35042259
+    target: studie-42410840
     direction: outgoing
     confidence: 0.9
     source: "pmid:35042259"

@@ -31,7 +31,7 @@ key_studies:
         Lithium als Arzneistoff ist gut untersucht, aber diese Evidenz lässt sich nicht sauber auf frei verkäufliches Lithium-Orotat übertragen.
       en: >-
         Lithium as a pharmaceutical is well studied, but this evidence does not cleanly translate to over-the-counter lithium oroate.
-  - ref: pmid-24813272
+  - ref: pmid-30748078
     finding:
       de: >-
         Diskussion zu möglichen Effekten niedriger Lithiumspiegel – interessant, aber weit entfernt von einer soliden Supplement-Empfehlung.
@@ -175,7 +175,7 @@ relations:
     confidence: 0.9
     source: "pmid:28147231"
   - relation: basiert_auf_studie
-    target: studie-24813272
+    target: studie-30748078
     direction: outgoing
     confidence: 0.9
     source: "pmid:24813272"

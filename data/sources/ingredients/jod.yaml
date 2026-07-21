@@ -38,7 +38,7 @@ key_studies:
         RCT (n=310 Schulkinder in Jodmangelgebiet): Jod-Supplementierung war mit Veränderungen verbundene kognitive Leistung signifikant. Unterstreicht Bedeutung für Gehirnentwicklung.
       en: >-
         RCT (n=310 schoolchildren in iodine-deficient region): iodine supplementation was associated with significant improvements in cognitive performance. Underscores the importance for brain development.
-  - ref: pmid-22536526
+  - ref: pmid-23176389
     finding:
       de: >-
         Review: Schilddrüsenfunktion beeinflusst Alterungsprozesse direkt – über Stoffwechsel, Mitochondrienfunktion und Entzündungsregulation. Jodversorgung bleibt lebenslang relevant.
@@ -258,7 +258,7 @@ relations:
     confidence: 0.9
     source: "pmid:16825686"
   - relation: basiert_auf_studie
-    target: studie-22536526
+    target: studie-23176389
     direction: outgoing
     confidence: 0.9
     source: "pmid:22536526"

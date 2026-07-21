@@ -31,7 +31,7 @@ key_studies:
         Review: viele präklinische Daten, aber wenig robuste Human-Endpunkte.
       en: >-
         Review: abundant preclinical data, but few robust human endpoints.
-  - ref: pmid-26058794
+  - ref: pmid-25686270
     finding:
       de: >-
         Cochrane-nahe Bewertung: klinische Evidenz bleibt schwach.
@@ -128,7 +128,7 @@ relations:
     confidence: 0.9
     source: "pmid:17336393"
   - relation: basiert_auf_studie
-    target: studie-26058794
+    target: studie-25686270
     direction: outgoing
     confidence: 0.9
     source: "pmid:26058794"

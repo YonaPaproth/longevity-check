@@ -165,7 +165,7 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-19800084",
+      "target": "studie-18442638",
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:19800084",
@@ -182,7 +182,7 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-20150526",
+      "target": "studie-41505913",
       "direction": "outgoing",
       "confidence": 0.85,
       "source": "pmid:20150526",

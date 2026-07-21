@@ -26,13 +26,13 @@ efsa_notes:
     Multiple EFSA-approved health claims under Regulation (EC) 1924/2006: Calcium contributes to the maintenance of normal bone health (including children), normal muscle function, normal neurotransmission, and normal energy metabolism. For children, an additional claim covers normal bone development. All claims relate to adequate intake, not megadose supplementation.
 
 key_studies:
-  - ref: pmid-28093633
+  - ref: pmid-42423994
     finding:
       de: >-
         Meta-Analyse (RCTs, n>50.000): Calcium-Supplementation erhöhte die Knochenmineraldichte (BMD) signifikant um ~0,7–1,8 % über 2 Jahre. Frakturrisikoreduktion war statistisch nicht konsistent nachweisbar; Nutzen am größten bei Basisdefizit.
       en: >-
         Meta-analysis of RCTs (n>50,000): Calcium supplementation significantly increased bone mineral density (BMD) by ~0.7–1.8% over 2 years. Fracture risk reduction was not consistently demonstrable; benefit greatest in baseline deficiency.
-  - ref: pmid-27071884
+  - ref: pmid-26420590
     finding:
       de: >-
         RCT-basierter Review: Calcium-Zufuhr (Ernährung + Supplement) war konsistent mit höherer BMD assoziiert; der Effekt bei bereits calciumausreichend versorgten Erwachsenen war kleiner als bei Mangel.
@@ -426,12 +426,12 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-28093633
+    target: studie-42423994
     direction: outgoing
     confidence: 0.9
     source: "pmid:28093633"
   - relation: basiert_auf_studie
-    target: studie-27071884
+    target: studie-26420590
     direction: outgoing
     confidence: 0.9
     source: "pmid:27071884"

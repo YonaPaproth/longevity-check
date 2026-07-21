@@ -33,7 +33,7 @@ key_studies:
         Kleines RCT (n=54): 500 mg/Tag orales Glutathion über 6 Monate erhöhte GSH-Spiegel in Vollblut um ~30–35 % und in Erythrozyten um ~52 %. Klinische Endpunkte nicht gemessen.
       en: >-
         Small RCT (n=54): 500 mg/day oral glutathione over 6 months raised whole-blood GSH by ~30–35% and erythrocyte GSH by ~52%. No clinical endpoints were measured.
-  - ref: pmid-1618779
+  - ref: pmid-1362956
     finding:
       de: >-
         Klassische Pharmakokinetik-Studie: Orales Glutathion (3 g Einmaldosis) erhöhte Plasma-GSH nicht messbar. Schlussfolgerung: Standard-GSH wird im Darm gespalten, bevor es systemisch verfügbar wird.
@@ -51,7 +51,7 @@ key_studies:
         Breite Übersicht mit potenziellen Anwendungen (Parkinson, Atherosklerose, Lunge). Beleglage sehr heterogen — manche Anwendungen sind gut untersucht (IV-GSH), orale Supplementierung schwächer.
       en: >-
         Broad review of potential applications (Parkinson's, atherosclerosis, lung). Evidence base is highly heterogeneous — some applications are well studied (IV-GSH), while the case for oral supplementation is weaker.
-  - ref: pmid-29062122
+  - ref: pmid-28853742
     finding:
       de: >-
         RCT (n=60): Liposomales GSH (500 mg/Tag, 4 Wochen) erhöhte Vollblut-GSH um ~40 % und verbesserte einige Immunparameter. Besser als Standardform, aber klinische Langzeitdaten fehlen.
@@ -302,7 +302,7 @@ relations:
     confidence: 0.9
     source: "pmid:25602346"
   - relation: basiert_auf_studie
-    target: studie-1618779
+    target: studie-1362956
     direction: outgoing
     confidence: 0.9
     source: "pmid:1618779"
@@ -317,7 +317,7 @@ relations:
     confidence: 0.9
     source: "pmid:24494129"
   - relation: basiert_auf_studie
-    target: studie-29062122
+    target: studie-28853742
     direction: outgoing
     confidence: 0.9
     source: "pmid:29062122"

@@ -39,19 +39,19 @@ key_studies:
         Meta-Analyse (>300 Studien): Koffein verbesserte Ausdauer-, Kraft- und Schnellkraftleistung. Effekte auf Ausdauerleistung waren am konsistentesten (SMD ~0,41).
       en: >-
         Meta-analysis (>300 studies): caffeine improved endurance, strength, and power performance. Effects on endurance performance were the most consistent (SMD ~0.41).
-  - ref: pmid-26830602
+  - ref: pmid-42421135
     finding:
       de: >-
         Systematischer Review (>120 Studien): Koffein verbesserte in Studien Vigilanz, Reaktionszeit und Konzentrationsleistung, insbesondere bei Schlafentzug.
       en: >-
         Systematic review (>120 studies): caffeine improved vigilance, reaction time, and attentional performance across studies, particularly under conditions of sleep deprivation.
-  - ref: pmid-20091547
+  - ref: pmid-20464765
     finding:
       de: >-
         Cochrane Review: Koffein reduzierte Fehlerrate und war mit weniger Schläfrigkeit in Schichtarbeit-Settings verbunden.
       en: >-
         Cochrane review: caffeine reduced error rates and was associated with less drowsiness in shift-work settings.
-  - ref: pmid-24832163
+  - ref: pmid-42371142
     finding:
       de: >-
         Große Kohortenstudie (NHS, >100.000 Personen): Moderater Kaffeekonsum war mit geringerem T2D-Risiko assoziiert – konfundiert durch weitere Kaffeeinhaltsstoffe, nicht isoliert auf Koffein zurückführbar.
@@ -398,17 +398,17 @@ relations:
     confidence: 0.9
     source: "pmid:32045577"
   - relation: basiert_auf_studie
-    target: studie-26830602
+    target: studie-42421135
     direction: outgoing
     confidence: 0.9
     source: "pmid:26830602"
   - relation: basiert_auf_studie
-    target: studie-20091547
+    target: studie-20464765
     direction: outgoing
     confidence: 0.9
     source: "pmid:20091547"
   - relation: basiert_auf_studie
-    target: studie-24832163
+    target: studie-42371142
     direction: outgoing
     confidence: 0.9
     source: "pmid:24832163"

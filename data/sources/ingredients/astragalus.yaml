@@ -25,7 +25,7 @@ efsa_notes:
     The EFSA has not approved health claims for Astragalus regarding immune boosting, telomeres, or aging research.
 
 key_studies:
-  - ref: pmid-26901749
+  - ref: pmid-26916911
     finding:
       de: >-
         Review: präklinisch interessant, klinische Evidenz bleibt begrenzt.
@@ -120,7 +120,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-26901749
+    target: studie-26916911
     direction: outgoing
     confidence: 0.9
     source: "pmid:26901749"

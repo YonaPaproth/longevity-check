@@ -33,7 +33,7 @@ key_studies:
         Umfassender Review: B12-Mangel betrifft ca. 6% der unter 60-Jährigen und bis zu 20% der über 60-Jährigen. Folgen: Polyneuropathie, kognitive Störungen, megaloblastäre Anämie. Orale Supplementierung effektiv.
       en: >-
         Comprehensive review: B12 deficiency affects ~6% of those under 60 and up to 20% of those over 60. Consequences: polyneuropathy, cognitive impairment, megaloblastic anaemia. Oral supplementation effective.
-  - ref: pmid-18489294
+  - ref: pmid-19623286
     finding:
       de: >-
         Review: Hauptursachen in Deutschland – vegane/vegetarische Ernährung, atrophische Gastritis (Alter), Metformin-Einnahme. Methylmalonsäure ist der sensitivste diagnostische Marker.
@@ -342,7 +342,7 @@ relations:
     confidence: 0.9
     source: "pmid:28660890"
   - relation: basiert_auf_studie
-    target: studie-18489294
+    target: studie-19623286
     direction: outgoing
     confidence: 0.9
     source: "pmid:18489294"

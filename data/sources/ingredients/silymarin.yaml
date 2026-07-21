@@ -25,7 +25,7 @@ efsa_notes:
     In the EU, there are no standalone approved health claims for silymarin or milk thistle regarding detoxification or liver cleansing in supplement marketing style.
 
 key_studies:
-  - ref: pmid-29562618
+  - ref: pmid-20564545
     finding:
       de: >-
         Review: potenziell nützlich in bestimmten Leberkontexten, aber heterogene klinische Evidenz.
@@ -151,7 +151,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-29562618
+    target: studie-20564545
     direction: outgoing
     confidence: 0.9
     source: "pmid:29562618"

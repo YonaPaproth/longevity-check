@@ -38,7 +38,7 @@ key_studies:
         Review mehrerer RCTs: L-Citrullin zeigte in Studien moderate Reduktionen des systolischen Blutdrucks bei Personen mit leicht erhöhten Ausgangswerten.
       en: >-
         Review of multiple RCTs: L-citrulline showed moderate reductions in systolic blood pressure in individuals with mildly elevated baseline values.
-  - ref: pmid-17953788
+  - ref: pmid-42356270
     finding:
       de: >-
         Mechanistischer Beitrag: Citrullin → Arginin-Konversion im Nierenmetabolismus, Grundlage der NO-Synthese-Hypothese.
@@ -270,7 +270,7 @@ relations:
     confidence: 0.9
     source: "pmid:26023227"
   - relation: basiert_auf_studie
-    target: studie-17953788
+    target: studie-42356270
     direction: outgoing
     confidence: 0.9
     source: "pmid:17953788"

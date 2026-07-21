@@ -26,7 +26,7 @@ efsa_notes:
     Multiple health claims for vitamin A are approved in the EU, including for vision, immune function, skin, and mucous membranes. What matters is dosing within safe limits. High retinol amounts are problematic during pregnancy.
 
 key_studies:
-  - ref: pmid-35129835
+  - ref: pmid-35294044
     finding:
       de: >-
         Cochrane-Review: In Regionen mit Mangel reduziert Vitamin-A-Supplementierung Kindersterblichkeit und bestimmte Infektionen. Aussage vor allem für Mangelpopulationen relevant.
@@ -38,7 +38,7 @@ key_studies:
         Grundlagenwerk zu Bedarf, Funktionen und Toxizität von Vitamin A. Hohe Retinolzufuhr kann Leber, Knochen und in der Schwangerschaft den Fötus schädigen.
       en: >-
         Foundational reference on vitamin A requirements, functions, and toxicity. High retinol intake can damage the liver, bones, and the fetus during pregnancy.
-  - ref: pmid-29058795
+  - ref: pmid-42459809
     finding:
       de: >-
         Review: Vitamin A reguliert angeborene und adaptive Immunität sowie Schleimhautbarrieren. Biologisch gut plausibel, aber Nutzen von Extra-Supplementen hängt stark vom Versorgungsstatus ab.
@@ -239,12 +239,12 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-35129835
+    target: studie-35294044
     direction: outgoing
     confidence: 0.9
     source: "pmid:35129835"
   - relation: basiert_auf_studie
-    target: studie-29058795
+    target: studie-42459809
     direction: outgoing
     confidence: 0.9
     source: "pmid:29058795"

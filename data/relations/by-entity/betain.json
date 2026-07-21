@@ -116,21 +116,21 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-23374455",
+      "target": "studie-39514262",
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:23374455"
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-21969991",
+      "target": "studie-21414230",
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:21969991"
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-15655131",
+      "target": "studie-16002808",
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:15655131",

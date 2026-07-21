@@ -31,7 +31,7 @@ key_studies:
         Kontrollierte Daten zeigen Nutzen bei depressive Symptome, auch als Add-on in bestimmten Settings.
       en: >-
         Controlled data demonstrate benefit for depressive symptoms, including as add-on therapy in certain clinical settings.
-  - ref: pmid-12472441
+  - ref: pmid-12019049
     finding:
       de: >-
         Meta-Analyse mit Hinweisen auf symptomatische Vorteile im Gelenk-Kontext.
@@ -148,7 +148,7 @@ relations:
     confidence: 0.9
     source: "pmid:20595412"
   - relation: basiert_auf_studie
-    target: studie-12472441
+    target: studie-12019049
     direction: outgoing
     confidence: 0.9
     source: "pmid:12472441"

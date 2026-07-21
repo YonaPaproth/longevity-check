@@ -34,7 +34,7 @@ key_studies:
         Rotterdam-Studie (n=4.807): Hohes Menaquinon-Intake reduzierte koronare Herzerkrankung um 41 % und kardiovaskuläre Mortalität um 57 %. Starke epidemiologische Grundlage.
       en: >-
         Rotterdam Study (n=4,807): High menaquinone intake reduced coronary heart disease by 41% and cardiovascular mortality by 57%. Strong epidemiological foundation.
-  - ref: pmid-26501375
+  - ref: pmid-28756183
     finding:
       de: >-
         RCT (n=244, 3 Jahre): 180 µg MK-7/Tag verlangsamte den altersassoziierten Anstieg der Arteriensteifigkeit signifikant. Osteocalcin-Carboxylierung war mit Veränderungen verbunden.
@@ -210,7 +210,7 @@ relations:
     confidence: 0.9
     source: "pmid:15514282"
   - relation: basiert_auf_studie
-    target: studie-26501375
+    target: studie-28756183
     direction: outgoing
     confidence: 0.9
     source: "pmid:26501375"

@@ -24,7 +24,7 @@ efsa_notes:
     No health claims for neuroprotection, anti-inflammatory effects, or longevity are approved in the EU for luteolin.
 
 key_studies:
-  - ref: pmid-25670000
+  - ref: pmid-30451113
     finding:
       de: >-
         Review: Luteolin ist mechanistisch spannend, vor allem neuroinflammatorisch.
@@ -124,7 +124,7 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-25670000
+    target: studie-30451113
     direction: outgoing
     confidence: 0.9
     source: "pmid:25670000"

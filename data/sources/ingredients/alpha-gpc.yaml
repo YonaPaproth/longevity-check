@@ -37,7 +37,7 @@ key_studies:
         Kleine Studie mit Hinweisen auf Leistungs-Effekte. Aussagekraft begrenzt.
       en: >-
         Small study (n=13) suggesting athletic performance benefits, but limited power and design."
-  - ref: pmid-23912283
+  - ref: pmid-36683513
     finding:
       de: >-
         Review: Alpha-GPC ist interessant, aber keine magische Abkürzung zu mehr Kognition.
@@ -156,7 +156,7 @@ relations:
     confidence: 0.9
     source: "pmid:18461736"
   - relation: basiert_auf_studie
-    target: studie-23912283
+    target: studie-36683513
     direction: outgoing
     confidence: 0.9
     source: "pmid:23912283"

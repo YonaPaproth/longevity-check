@@ -31,7 +31,7 @@ key_studies:
         Meta-Analyse: Effekte auf Körpergewicht und Performance sind insgesamt klein und nicht konsistent.
       en: >-
         Meta-analysis: effects on body weight and performance are overall modest and inconsistent.
-  - ref: pmid-20369674
+  - ref: pmid-20398344
     finding:
       de: >-
         Review: L-Carnitin ist besonders in medizinischen Spezialkontexten relevant, weniger als universelles Lifestyle-Supplement.
@@ -142,7 +142,7 @@ relations:
     confidence: 0.9
     source: "pmid:27866067"
   - relation: basiert_auf_studie
-    target: studie-20369674
+    target: studie-20398344
     direction: outgoing
     confidence: 0.9
     source: "pmid:20369674"

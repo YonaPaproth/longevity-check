@@ -25,19 +25,19 @@ efsa_notes:
     In the EU, there are no approved claims for Gotu Kola regarding brain, skin, or vascular function in freely formulated supplement marketing.
 
 key_studies:
-  - ref: pmid-28685790
+  - ref: pmid-28878245
     finding:
       de: >-
         Einige Hinweise auf kognitive und stimmungsbezogene Effekte, aber keine sehr starke Datenlage.
       en: >-
         Some evidence for cognitive and mood effects, but the overall evidence base remains limited.
-  - ref: pmid-24006008
+  - ref: pmid-24278045
     finding:
       de: >-
         Traditionelle und experimentelle Daten zu Haut- und Gewebethemen sind plausibel.
       en: >-
         Traditional and experimental data on skin and tissue concerns are plausible.
-  - ref: pmid-11297858
+  - ref: pmid-19924039
     finding:
       de: >-
         Breite präklinische Aktivität, Human-Evidenz bleibt begrenzt.
@@ -127,17 +127,17 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-28685790
+    target: studie-28878245
     direction: outgoing
     confidence: 0.9
     source: "pmid:28685790"
   - relation: basiert_auf_studie
-    target: studie-24006008
+    target: studie-24278045
     direction: outgoing
     confidence: 0.9
     source: "pmid:24006008"
   - relation: basiert_auf_studie
-    target: studie-11297858
+    target: studie-19924039
     direction: outgoing
     confidence: 0.9
     source: "pmid:11297858"

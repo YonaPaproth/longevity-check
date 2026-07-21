@@ -37,7 +37,7 @@ key_studies:
         Review: Chronisch hohe Manganexposition kann das Nervensystem schädigen. Relevanz besonders bei Überexposition, aber auch ein Grund für Zurückhaltung bei Hochdosis-Supplementen.
       en: >-
         Systematic review showing chronic high manganese exposure damages the nervous system. Demonstrates behavioral and motor deficits in excessive exposure scenarios. Argues for caution with high-dose supplementation in healthy populations.
-  - ref: pmid-16099008
+  - ref: pmid-42216548
     finding:
       de: >-
         Mangan ist an Knochen- und Knorpelstoffwechsel beteiligt, aber Supplementnutzen bei gesunden Menschen ist schwach belegt.
@@ -151,7 +151,7 @@ relations:
     confidence: 0.9
     source: "pmid:23036414"
   - relation: basiert_auf_studie
-    target: studie-16099008
+    target: studie-42216548
     direction: outgoing
     confidence: 0.9
     source: "pmid:16099008"

@@ -37,7 +37,7 @@ key_studies:
         Übersicht zu Bedarf, Lebensmitteln, Sicherheit und Mangel. Supplemente sind bei normaler Ernährung meist nicht nötig.
       en: >-
         Overview of requirements, food sources, safety, and deficiency. Supplements are usually unnecessary with a normal, mixed diet.
-  - ref: pmid-17119255
+  - ref: pmid-22004061
     finding:
       de: >-
         Review: Klassische Mängel einzelner Vitamine sind bei gemischter Ernährung selten; der Nutzen von B5-Supplementen bei Gesunden ist kaum untersucht.
@@ -170,7 +170,7 @@ relations:
     confidence: 0.9
     source: "pmid:8595692"
   - relation: basiert_auf_studie
-    target: studie-17119255
+    target: studie-22004061
     direction: outgoing
     confidence: 0.9
     source: "pmid:17119255"

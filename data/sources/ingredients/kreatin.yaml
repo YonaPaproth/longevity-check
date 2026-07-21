@@ -50,7 +50,7 @@ key_studies:
         Meta-Analyse: Kreatin steigert Muskelkraft um ~8% und Muskelmasse signifikant in Kombination mit Krafttraining. Effekt bei Älteren vergleichbar mit Jüngeren.
       en: >-
         Meta-analysis: creatine increases muscle strength by ~8% and muscle mass significantly in combination with resistance training. Effect in older adults comparable to younger individuals.
-  - ref: pmid-28994648
+  - ref: pmid-34107512
     finding:
       de: >-
         Meta-Analyse (22 RCTs, ältere Erwachsene): Kreatin + Krafttraining führte zu signifikant mehr fettfreier Masse (+1,37 kg) und Kraft vs. Training allein. Effektgröße klinisch relevant.
@@ -288,7 +288,7 @@ relations:
     confidence: 0.9
     source: "pmid:27328852"
   - relation: basiert_auf_studie
-    target: studie-28994648
+    target: studie-34107512
     direction: outgoing
     confidence: 0.9
     source: "pmid:28994648"

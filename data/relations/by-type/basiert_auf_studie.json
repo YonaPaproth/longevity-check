@@ -64,7 +64,7 @@
     },
     {
       "subject": "akkermansia",
-      "target": "studie-28092418",
+      "target": "studie-36085529",
       "confidence": 0.9,
       "source": "pmid:28092418"
     },
@@ -94,7 +94,7 @@
     },
     {
       "subject": "alpha-gpc",
-      "target": "studie-23912283",
+      "target": "studie-36683513",
       "confidence": 0.9,
       "source": "pmid:23912283"
     },
@@ -172,7 +172,7 @@
     },
     {
       "subject": "ashwagandha",
-      "target": "studie-25552213",
+      "target": "studie-42198398",
       "confidence": 0.9,
       "source": "pmid:25552213"
     },
@@ -190,7 +190,7 @@
     },
     {
       "subject": "astaxanthin",
-      "target": "studie-21207795",
+      "target": "studie-22349894",
       "confidence": 0.9,
       "source": "pmid:21207795"
     },
@@ -214,7 +214,7 @@
     },
     {
       "subject": "astragalus",
-      "target": "studie-26901749",
+      "target": "studie-26916911",
       "confidence": 0.9,
       "source": "pmid:26901749"
     },
@@ -275,7 +275,7 @@
     },
     {
       "subject": "berberine",
-      "target": "studie-19800084",
+      "target": "studie-18442638",
       "confidence": 0.9,
       "source": "pmid:19800084",
       "note": "RCT n=116: HbA1c -2,0PP, Nüchternblutzucker -3,5 mmol/L vs. Metformin"
@@ -289,7 +289,7 @@
     },
     {
       "subject": "berberine",
-      "target": "studie-20150526",
+      "target": "studie-41505913",
       "confidence": 0.85,
       "source": "pmid:20150526",
       "note": "AMPK-Aktivierung Mechanismus, Insulinsensitivität in Tiermodell"
@@ -302,7 +302,7 @@
     },
     {
       "subject": "beta-alanin",
-      "target": "studie-26553563",
+      "target": "studie-41701327",
       "confidence": 0.9,
       "source": "pmid:26553563"
     },
@@ -338,19 +338,19 @@
     },
     {
       "subject": "betain",
-      "target": "studie-23374455",
+      "target": "studie-39514262",
       "confidence": 0.9,
       "source": "pmid:23374455"
     },
     {
       "subject": "betain",
-      "target": "studie-21969991",
+      "target": "studie-21414230",
       "confidence": 0.9,
       "source": "pmid:21969991"
     },
     {
       "subject": "betain",
-      "target": "studie-15655131",
+      "target": "studie-16002808",
       "confidence": 0.9,
       "source": "pmid:15655131"
     },
@@ -374,13 +374,13 @@
     },
     {
       "subject": "calcium",
-      "target": "studie-28093633",
+      "target": "studie-42423994",
       "confidence": 0.9,
       "source": "pmid:28093633"
     },
     {
       "subject": "calcium",
-      "target": "studie-27071884",
+      "target": "studie-26420590",
       "confidence": 0.9,
       "source": "pmid:27071884"
     },
@@ -398,7 +398,7 @@
     },
     {
       "subject": "cdp-cholin",
-      "target": "studie-8898684",
+      "target": "studie-8624220",
       "confidence": 0.9,
       "source": "pmid:8898684"
     },
@@ -410,7 +410,7 @@
     },
     {
       "subject": "cdp-cholin",
-      "target": "studie-22819395",
+      "target": "studie-26179181",
       "confidence": 0.9,
       "source": "pmid:22819395"
     },
@@ -440,13 +440,13 @@
     },
     {
       "subject": "chrom",
-      "target": "studie-17684127",
+      "target": "studie-41298601",
       "confidence": 0.9,
       "source": "pmid:17684127"
     },
     {
       "subject": "chrom",
-      "target": "studie-30741566",
+      "target": "studie-41096492",
       "confidence": 0.9,
       "source": "pmid:30741566"
     },
@@ -458,19 +458,19 @@
     },
     {
       "subject": "cistanche",
-      "target": "studie-34145276",
+      "target": "studie-35583806",
       "confidence": 0.9,
       "source": "pmid:34145276"
     },
     {
       "subject": "cistanche",
-      "target": "studie-28167794",
+      "target": "studie-24095831",
       "confidence": 0.9,
       "source": "pmid:28167794"
     },
     {
       "subject": "coq10",
-      "target": "studie-23097267",
+      "target": "studie-40563319",
       "confidence": 0.9,
       "source": "pmid:23097267"
     },
@@ -494,19 +494,19 @@
     },
     {
       "subject": "coq10",
-      "target": "studie-18926930",
+      "target": "studie-19017509",
       "confidence": 0.85,
       "source": "pmid:18926930"
     },
     {
       "subject": "cordyceps",
-      "target": "studie-28025511",
+      "target": "studie-38873567",
       "confidence": 0.9,
       "source": "pmid:28025511"
     },
     {
       "subject": "cordyceps",
-      "target": "studie-20412130",
+      "target": "studie-40608959",
       "confidence": 0.9,
       "source": "pmid:20412130"
     },
@@ -614,7 +614,7 @@
     },
     {
       "subject": "ergothionein",
-      "target": "studie-36856787",
+      "target": "studie-36139790",
       "confidence": 0.9,
       "source": "pmid:36856787"
     },
@@ -638,7 +638,7 @@
     },
     {
       "subject": "fisetin",
-      "target": "studie-32131541",
+      "target": "studie-39004102",
       "confidence": 0.9,
       "source": "pmid:32131541"
     },
@@ -680,7 +680,7 @@
     },
     {
       "subject": "folsaeure",
-      "target": "studie-35042259",
+      "target": "studie-42410840",
       "confidence": 0.9,
       "source": "pmid:35042259"
     },
@@ -722,25 +722,25 @@
     },
     {
       "subject": "ginkgo",
-      "target": "studie-19821345",
+      "target": "studie-19160216",
       "confidence": 0.9,
       "source": "pmid:19821345"
     },
     {
       "subject": "ginkgo",
-      "target": "studie-22440494",
+      "target": "studie-41641880",
       "confidence": 0.9,
       "source": "pmid:22440494"
     },
     {
       "subject": "ginkgo",
-      "target": "studie-16007253",
+      "target": "studie-11772128",
       "confidence": 0.9,
       "source": "pmid:16007253"
     },
     {
       "subject": "ginseng",
-      "target": "studie-19678779",
+      "target": "studie-19574616",
       "confidence": 0.9,
       "source": "pmid:19678779"
     },
@@ -758,7 +758,7 @@
     },
     {
       "subject": "glucosamin",
-      "target": "studie-16034828",
+      "target": "studie-15846645",
       "confidence": 0.9,
       "source": "pmid:16034828"
     },
@@ -782,7 +782,7 @@
     },
     {
       "subject": "glutathion",
-      "target": "studie-1618779",
+      "target": "studie-1362956",
       "confidence": 0.9,
       "source": "pmid:1618779"
     },
@@ -800,13 +800,13 @@
     },
     {
       "subject": "glutathion",
-      "target": "studie-29062122",
+      "target": "studie-28853742",
       "confidence": 0.9,
       "source": "pmid:29062122"
     },
     {
       "subject": "glycin",
-      "target": "studie-23171544",
+      "target": "studie-22529837",
       "confidence": 0.9,
       "source": "pmid:23171544"
     },
@@ -842,25 +842,25 @@
     },
     {
       "subject": "glynac",
-      "target": "studie-35504071",
+      "target": "studie-35268089",
       "confidence": 0.9,
       "source": "pmid:35504071"
     },
     {
       "subject": "gotu-kola",
-      "target": "studie-28685790",
+      "target": "studie-28878245",
       "confidence": 0.9,
       "source": "pmid:28685790"
     },
     {
       "subject": "gotu-kola",
-      "target": "studie-24006008",
+      "target": "studie-24278045",
       "confidence": 0.9,
       "source": "pmid:24006008"
     },
     {
       "subject": "gotu-kola",
-      "target": "studie-11297858",
+      "target": "studie-19924039",
       "confidence": 0.9,
       "source": "pmid:11297858"
     },
@@ -872,7 +872,7 @@
     },
     {
       "subject": "gynostemma",
-      "target": "studie-22784345",
+      "target": "studie-23804546",
       "confidence": 0.9,
       "source": "pmid:22784345"
     },
@@ -926,7 +926,7 @@
     },
     {
       "subject": "hydroxytyrosol",
-      "target": "studie-26975995",
+      "target": "studie-25988120",
       "confidence": 0.9,
       "source": "pmid:26975995"
     },
@@ -950,7 +950,7 @@
     },
     {
       "subject": "inulin",
-      "target": "studie-28298225",
+      "target": "studie-27492975",
       "confidence": 0.9,
       "source": "pmid:28298225"
     },
@@ -968,7 +968,7 @@
     },
     {
       "subject": "jod",
-      "target": "studie-22536526",
+      "target": "studie-23176389",
       "confidence": 0.9,
       "source": "pmid:22536526"
     },
@@ -1016,19 +1016,19 @@
     },
     {
       "subject": "koffein",
-      "target": "studie-26830602",
+      "target": "studie-42421135",
       "confidence": 0.9,
       "source": "pmid:26830602"
     },
     {
       "subject": "koffein",
-      "target": "studie-20091547",
+      "target": "studie-20464765",
       "confidence": 0.9,
       "source": "pmid:20091547"
     },
     {
       "subject": "koffein",
-      "target": "studie-24832163",
+      "target": "studie-42371142",
       "confidence": 0.9,
       "source": "pmid:24832163"
     },
@@ -1076,7 +1076,7 @@
     },
     {
       "subject": "kreatin",
-      "target": "studie-28994648",
+      "target": "studie-34107512",
       "confidence": 0.9,
       "source": "pmid:28994648"
     },
@@ -1094,7 +1094,7 @@
     },
     {
       "subject": "kupfer",
-      "target": "studie-15883553",
+      "target": "studie-42467838",
       "confidence": 0.9,
       "source": "pmid:15883553"
     },
@@ -1106,7 +1106,7 @@
     },
     {
       "subject": "l-carnitin",
-      "target": "studie-20369674",
+      "target": "studie-20398344",
       "confidence": 0.9,
       "source": "pmid:20369674"
     },
@@ -1130,7 +1130,7 @@
     },
     {
       "subject": "l-citrullin",
-      "target": "studie-17953788",
+      "target": "studie-42356270",
       "confidence": 0.9,
       "source": "pmid:17953788"
     },
@@ -1154,7 +1154,7 @@
     },
     {
       "subject": "l-reuteri-6475",
-      "target": "studie-24700406",
+      "target": "studie-23389860",
       "confidence": 0.8,
       "source": "pmid:24700406"
     },
@@ -1190,19 +1190,19 @@
     },
     {
       "subject": "l-tryptophan",
-      "target": "studie-6818213",
+      "target": "studie-6764927",
       "confidence": 0.9,
       "source": "pmid:6818213"
     },
     {
       "subject": "l-tryptophan",
-      "target": "studie-19734380",
+      "target": "studie-20651948",
       "confidence": 0.9,
       "source": "pmid:19734380"
     },
     {
       "subject": "l-tryptophan",
-      "target": "studie-23689751",
+      "target": "studie-33574223",
       "confidence": 0.9,
       "source": "pmid:23689751"
     },
@@ -1262,7 +1262,7 @@
     },
     {
       "subject": "lithium-orotat",
-      "target": "studie-24813272",
+      "target": "studie-30748078",
       "confidence": 0.9,
       "source": "pmid:24813272"
     },
@@ -1292,13 +1292,13 @@
     },
     {
       "subject": "lutein-zeaxanthin",
-      "target": "studie-24452721",
+      "target": "studie-31321376",
       "confidence": 0.9,
       "source": "pmid:24452721"
     },
     {
       "subject": "luteolin",
-      "target": "studie-25670000",
+      "target": "studie-30451113",
       "confidence": 0.9,
       "source": "pmid:25670000"
     },
@@ -1376,7 +1376,7 @@
     },
     {
       "subject": "mangan",
-      "target": "studie-16099008",
+      "target": "studie-42216548",
       "confidence": 0.9,
       "source": "pmid:16099008"
     },
@@ -1424,7 +1424,7 @@
     },
     {
       "subject": "msm",
-      "target": "studie-22348453",
+      "target": "studie-23013531",
       "confidence": 0.9,
       "source": "pmid:22348453"
     },
@@ -1478,13 +1478,13 @@
     },
     {
       "subject": "myo-inositol",
-      "target": "studie-7730405",
+      "target": "studie-11386498",
       "confidence": 0.9,
       "source": "pmid:7730405"
     },
     {
       "subject": "nac",
-      "target": "studie-28748217",
+      "target": "studie-24787454",
       "confidence": 0.9,
       "source": "pmid:28748217"
     },
@@ -1538,7 +1538,7 @@
     },
     {
       "subject": "nr",
-      "target": "studie-27534536",
+      "target": "studie-27721479",
       "confidence": 0.9,
       "source": "pmid:27534536"
     },
@@ -1550,7 +1550,7 @@
     },
     {
       "subject": "nr",
-      "target": "studie-30006327",
+      "target": "studie-41957052",
       "confidence": 0.9,
       "source": "pmid:30006327"
     },
@@ -1640,7 +1640,7 @@
     },
     {
       "subject": "piperin",
-      "target": "studie-3984604",
+      "target": "studie-3917507",
       "confidence": 0.9,
       "source": "pmid:3984604"
     },
@@ -1652,13 +1652,13 @@
     },
     {
       "subject": "pqq",
-      "target": "studie-16614413",
+      "target": "studie-16424117",
       "confidence": 0.9,
       "source": "pmid:16614413"
     },
     {
       "subject": "pqq",
-      "target": "studie-22805162",
+      "target": "studie-26226960",
       "confidence": 0.9,
       "source": "pmid:22805162"
     },
@@ -1730,13 +1730,13 @@
     },
     {
       "subject": "quercetin",
-      "target": "studie-31578601",
+      "target": "studie-30616998",
       "confidence": 0.9,
       "source": "pmid:31578601"
     },
     {
       "subject": "quercetin",
-      "target": "studie-32233013",
+      "target": "studie-41564845",
       "confidence": 0.9,
       "source": "pmid:32233013"
     },
@@ -1784,7 +1784,7 @@
     },
     {
       "subject": "rapamycin",
-      "target": "studie-32686767",
+      "target": "studie-31316753",
       "confidence": 0.85,
       "source": "pmid:32686767"
     },
@@ -1796,7 +1796,7 @@
     },
     {
       "subject": "reishi",
-      "target": "studie-26058794",
+      "target": "studie-25686270",
       "confidence": 0.9,
       "source": "pmid:26058794"
     },
@@ -1815,7 +1815,7 @@
     },
     {
       "subject": "resveratrol",
-      "target": "studie-26975060",
+      "target": "studie-42471257",
       "confidence": 0.9,
       "source": "pmid:26975060",
       "note": "Meta-Analyse 11 RCTs: TG -6,5 mg/dL, Glucose -4,4 mg/dL; kein Effekt auf LDL, HDL, CRP, Blutdruck"
@@ -1836,7 +1836,7 @@
     },
     {
       "subject": "resveratrol",
-      "target": "studie-28359099",
+      "target": "studie-40553215",
       "confidence": 0.9,
       "source": "pmid:28359099",
       "note": "Mechanistischer Review Sinclair: SIRT1/AMPK/PGC-1α Targets real; Human-Transfer unbelegt"
@@ -1855,7 +1855,7 @@
     },
     {
       "subject": "rhodiola",
-      "target": "studie-17990197",
+      "target": "studie-25268730",
       "confidence": 0.9,
       "source": "pmid:17990197"
     },
@@ -1867,7 +1867,7 @@
     },
     {
       "subject": "rutin",
-      "target": "studie-28694736",
+      "target": "studie-28344465",
       "confidence": 0.9,
       "source": "pmid:28694736"
     },
@@ -1942,7 +1942,7 @@
     },
     {
       "subject": "same",
-      "target": "studie-12472441",
+      "target": "studie-12019049",
       "confidence": 0.9,
       "source": "pmid:12472441"
     },
@@ -2032,7 +2032,7 @@
     },
     {
       "subject": "silymarin",
-      "target": "studie-29562618",
+      "target": "studie-20564545",
       "confidence": 0.9,
       "source": "pmid:29562618"
     },
@@ -2050,19 +2050,19 @@
     },
     {
       "subject": "spermidine",
-      "target": "studie-30955569",
+      "target": "studie-39117797",
       "confidence": 0.9,
       "source": "pmid:30955569"
     },
     {
       "subject": "spermidine",
-      "target": "studie-32428599",
+      "target": "studie-35616942",
       "confidence": 0.9,
       "source": "pmid:32428599"
     },
     {
       "subject": "spermidine",
-      "target": "studie-33762175",
+      "target": "studie-34958481",
       "confidence": 0.9,
       "source": "pmid:33762175"
     },
@@ -2128,19 +2128,19 @@
     },
     {
       "subject": "tmg",
-      "target": "studie-15466943",
+      "target": "studie-15321791",
       "confidence": 0.9,
       "source": "pmid:15466943"
     },
     {
       "subject": "tmg",
-      "target": "studie-21485974",
+      "target": "studie-21747945",
       "confidence": 0.9,
       "source": "pmid:21485974"
     },
     {
       "subject": "tongkat-ali",
-      "target": "studie-23273445",
+      "target": "studie-21671978",
       "confidence": 0.9,
       "source": "pmid:23273445"
     },
@@ -2200,13 +2200,13 @@
     },
     {
       "subject": "vitamin-a",
-      "target": "studie-35129835",
+      "target": "studie-35294044",
       "confidence": 0.9,
       "source": "pmid:35129835"
     },
     {
       "subject": "vitamin-a",
-      "target": "studie-29058795",
+      "target": "studie-42459809",
       "confidence": 0.9,
       "source": "pmid:29058795"
     },
@@ -2224,7 +2224,7 @@
     },
     {
       "subject": "vitamin-b1",
-      "target": "studie-17405083",
+      "target": "studie-42453365",
       "confidence": 0.9,
       "source": "pmid:17405083"
     },
@@ -2236,7 +2236,7 @@
     },
     {
       "subject": "vitamin-b12",
-      "target": "studie-18489294",
+      "target": "studie-19623286",
       "confidence": 0.9,
       "source": "pmid:18489294"
     },
@@ -2302,7 +2302,7 @@
     },
     {
       "subject": "vitamin-b5",
-      "target": "studie-17119255",
+      "target": "studie-22004061",
       "confidence": 0.9,
       "source": "pmid:17119255"
     },
@@ -2392,7 +2392,7 @@
     },
     {
       "subject": "vitamin-d3",
-      "target": "studie-30293909",
+      "target": "studie-36287374",
       "confidence": 0.9,
       "source": "pmid:30611908"
     },
@@ -2464,7 +2464,7 @@
     },
     {
       "subject": "vitamin-k2",
-      "target": "studie-26501375",
+      "target": "studie-28756183",
       "confidence": 0.9,
       "source": "pmid:26501375"
     },

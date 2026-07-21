@@ -31,13 +31,13 @@ key_studies:
         Review: präklinisch interessante Wirkungen, aber kaum belastbare Human-Endpunkte.
       en: >-
         Review: preclinically interesting effects, but few reliable human endpoints.
-  - ref: pmid-34145276
+  - ref: pmid-35583806
     finding:
       de: >-
         Zusammenfassung der Wirkstoffe und präklinischen Daten.
       en: >-
         Comprehensive summary of active compounds and preclinical mechanisms.
-  - ref: pmid-28167794
+  - ref: pmid-24095831
     finding:
       de: >-
         Traditionsreiche Nutzung, moderne klinische Evidenz aber noch begrenzt.
@@ -128,12 +128,12 @@ relations:
     confidence: 0.9
     source: "pmid:26830552"
   - relation: basiert_auf_studie
-    target: studie-34145276
+    target: studie-35583806
     direction: outgoing
     confidence: 0.9
     source: "pmid:34145276"
   - relation: basiert_auf_studie
-    target: studie-28167794
+    target: studie-24095831
     direction: outgoing
     confidence: 0.9
     source: "pmid:28167794"
