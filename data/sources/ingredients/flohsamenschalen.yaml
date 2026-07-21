@@ -37,7 +37,7 @@ key_studies:
         Psyllium ist für Stuhlregulation gut untersucht und klinisch praktisch relevant.
       en: >-
         Psyllium is well-established for bowel regularity and clinically relevant for digestive function.
-  - ref: pmid-23990470
+  - ref: pmid-37163454
     finding:
       de: >-
         Lösliche Ballaststoffe wie Psyllium können Glukoseparameter moderat mit Veränderungen in Verbindung bringen.
@@ -169,7 +169,7 @@ relations:
     confidence: 0.9
     source: "pmid:25743043"
   - relation: basiert_auf_studie
-    target: studie-23990470
+    target: studie-37163454
     direction: outgoing
     confidence: 0.9
-    source: "pmid:23990470"
+    source: "pmid:37163454"

@@ -31,7 +31,7 @@ key_studies:
         Review: Hinweise auf Effekte bei Müdigkeit und Wohlbefinden, aber heterogene Studienbasis.
       en: >-
         Review: Evidence suggests effects on fatigue and well-being, but the underlying study base is heterogeneous in quality and methodology.
-  - ref: pmid-12113659
+  - ref: pmid-12020172
     finding:
       de: >-
         Im Allgemeinen gut verträglich, aber nicht frei von Interaktions- und Sicherheitsfragen.
@@ -159,10 +159,10 @@ relations:
     confidence: 0.9
     source: "pmid:19678779"
   - relation: basiert_auf_studie
-    target: studie-12113659
+    target: studie-12020172
     direction: outgoing
     confidence: 0.9
-    source: "pmid:12113659"
+    source: "pmid:12020172"
   - relation: basiert_auf_studie
     target: studie-20435159
     direction: outgoing

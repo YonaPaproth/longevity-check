@@ -27,7 +27,7 @@ efsa_notes:
     In the EU, no health claims have been approved for glutathione relating to anti-aging, detoxification, or immune boosting.
 
 key_studies:
-  - ref: pmid-25602346
+  - ref: pmid-24791752
     finding:
       de: >-
         Kleines RCT (n=54): 500 mg/Tag orales Glutathion über 6 Monate erhöhte GSH-Spiegel in Vollblut um ~30–35 % und in Erythrozyten um ~52 %. Klinische Endpunkte nicht gemessen.
@@ -297,10 +297,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-25602346
+    target: studie-24791752
     direction: outgoing
     confidence: 0.9
-    source: "pmid:25602346"
+    source: "pmid:24791752"
   - relation: basiert_auf_studie
     target: studie-1362956
     direction: outgoing

@@ -37,7 +37,7 @@ key_studies:
         Die BBB-Frage ist zentral: orale GABA-Wirkung im Gehirn bleibt biologisch umstritten.
       en: >-
         The blood-brain barrier question is central: whether orally administered GABA reaches the brain in meaningful amounts remains biologically controversial.
-  - ref: pmid-16971751
+  - ref: pmid-26500584
     finding:
       de: >-
         Erste kleine Befunde, aber keine robuste klinische Grundlage.
@@ -169,10 +169,10 @@ relations:
     confidence: 0.9
     source: "pmid:12408439"
   - relation: basiert_auf_studie
-    target: studie-16971751
+    target: studie-26500584
     direction: outgoing
     confidence: 0.9
-    source: "pmid:16971751"
+    source: "pmid:26500584"
   - relation: hat_interaktion_mit
     target: l-theanin
     direction: incoming
