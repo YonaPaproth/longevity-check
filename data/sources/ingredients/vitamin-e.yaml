@@ -39,7 +39,7 @@ key_studies:
         Meta-Analyse: Hochdosiertes Vitamin E (>400 IE/Tag) assoziiert mit leicht war mit höheren Werten verbundener Gesamtmortalität. Methodisch umstritten, aber wichtiges Signal.
       en: >-
         Meta-analysis: High-dose vitamin E (>400 IU/day) associated with slightly elevated all-cause mortality. Methodologically contested, but an important signal warranting caution.
-  - ref: pmid-16753142
+  - ref: pmid-17628176
     finding:
       de: >-
         Review: Tocotrienole (besonders Delta- und Gamma-) zeigen präklinisch neurobiologisch interessante, antikanzerogene und kardioprotektive Effekte, die Alpha-Tocopherol nicht hat. Möglicherweise überlegene gesundes Altern-Kandidaten.
@@ -226,7 +226,7 @@ relations:
     confidence: 0.9
     source: "pmid:15537682"
   - relation: basiert_auf_studie
-    target: studie-16753142
+    target: studie-17628176
     direction: outgoing
     confidence: 0.9
-    source: "pmid:16753142"
+    source: "pmid:17628176"

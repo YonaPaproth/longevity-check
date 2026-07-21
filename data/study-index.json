@@ -4230,6 +4230,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-17628176",
+      "pmid": "17628176",
+      "title": "Tocotrienols: the emerging face of natural vitamin E",
+      "authors": "Sen et al.",
+      "year": "2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17628176/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "vitamin-e"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-17634462",
       "pmid": "17634462",
       "title": "Vitamin D Deficiency",
@@ -4447,23 +4464,6 @@
       "effect_size": "",
       "ingredients": [
         "glucosamin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-16753142",
-      "pmid": "16753142",
-      "title": "Tocotrienols: the emerging face of natural vitamin E",
-      "authors": "Sen CK et al.",
-      "year": "2006",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/16753142/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "vitamin-e"
       ],
       "research_reviews": []
     },
