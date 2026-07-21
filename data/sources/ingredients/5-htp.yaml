@@ -26,7 +26,7 @@ efsa_notes:
     No EFSA health claims approved for 5-HTP. Available as a dietary supplement from Griffonia simplicifolia in the EU. Not an approved medication in Germany for psychiatric indications (unlike, for example, in Switzerland). Regulatory grey zone between supplement and pharmaceutical.
 
 key_studies:
-  - ref: pmid-16716930
+  - ref: pmid-16023217
     finding:
       de: >-
         Review: 5-HTP überquert Blut-Hirn-Schranke effizient und erhöht die zentrale Serotoninsynthese. Klinische Studien zeigen antidepressive Wirkung vergleichbar mit Fluvoxamin in einem RCT.
@@ -303,10 +303,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-16716930
+    target: studie-16023217
     direction: outgoing
     confidence: 0.9
-    source: "pmid:16716930"
+    source: "pmid:16023217"
   - relation: basiert_auf_studie
     target: studie-9727088
     direction: outgoing

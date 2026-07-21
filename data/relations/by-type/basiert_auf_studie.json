@@ -4,9 +4,9 @@
   "relations": [
     {
       "subject": "5-htp",
-      "target": "studie-16716930",
+      "target": "studie-16023217",
       "confidence": 0.9,
-      "source": "pmid:16716930"
+      "source": "pmid:16023217"
     },
     {
       "subject": "5-htp",
@@ -1851,13 +1851,13 @@
       "subject": "rhodiola",
       "target": "studie-11081987",
       "confidence": 0.9,
-      "source": "pmid:12725561"
+      "source": "pmid:11081987"
     },
     {
       "subject": "rhodiola",
       "target": "studie-25268730",
       "confidence": 0.9,
-      "source": "pmid:17990197"
+      "source": "pmid:25268730"
     },
     {
       "subject": "rhodiola",

@@ -25,7 +25,7 @@ efsa_notes:
     The EFSA has not approved any health claims for ALCAR regarding cognitive function, aging research, or energy metabolism.
 
 key_studies:
-  - ref: pmid-12849737
+  - ref: pmid-12598816
     finding:
       de: >-
         Meta-analytische Hinweise auf Nutzen in älteren und kognitiv beeinträchtigten Populationen, aber keine saubere Übertragbarkeit auf gesunde Nutzer.
@@ -144,10 +144,10 @@ relations:
     direction: outgoing
     confidence: 1
   - relation: basiert_auf_studie
-    target: studie-12849737
+    target: studie-12598816
     direction: outgoing
     confidence: 0.9
-    source: "pmid:12849737"
+    source: "pmid:12598816"
   - relation: basiert_auf_studie
     target: studie-25932463
     direction: outgoing

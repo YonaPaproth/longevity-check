@@ -3,7 +3,7 @@
   "total": 438,
   "with_type": 196,
   "with_reviews": 11,
-  "with_ingredients": 406,
+  "with_ingredients": 405,
   "studies": [
     {
       "id": "pmid-41693488",
@@ -6097,6 +6097,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-16023217",
+      "pmid": "16023217",
+      "title": "Serotonin a la carte: supplementation with the serotonin precursor 5-hydroxytryptophan",
+      "authors": "Turner et al.",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16023217/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "5-htp"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-16309928",
       "pmid": "16309928",
       "title": "Effect of methylsulfonylmethane supplementation on osteoarthritis",
@@ -6144,23 +6161,6 @@
       "effect_size": "",
       "ingredients": [
         "acetyl-l-carnitin"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-16716930",
-      "pmid": "16716930",
-      "title": "5-Hydroxytryptophan: a clinically-effective serotonin precursor",
-      "authors": "Turner EH et al.",
-      "year": "2006",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/16716930/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "5-htp"
       ],
       "research_reviews": []
     },
@@ -6572,6 +6572,21 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-12598816",
+      "pmid": "12598816",
+      "title": "Meta-analysis of double blind randomized controlled clinical trials of acetyl-L-carnitine",
+      "authors": "Montgomery et al.",
+      "year": "2003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12598816/",
+      "study_type": "Comparative Study",
+      "evidence_quality": "moderate",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-12716668",
       "pmid": "12716668",
       "title": "Dietary flavonols and health",
@@ -6602,23 +6617,6 @@
       "effect_size": "",
       "ingredients": [
         "vitamin-b2"
-      ],
-      "research_reviews": []
-    },
-    {
-      "id": "pmid-12849737",
-      "pmid": "12849737",
-      "title": "Acetyl-L-carnitine in the treatment of cognitive decline",
-      "authors": "Montgomery SA et al.",
-      "year": "2003",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/12849737/",
-      "study_type": "Comparative Study",
-      "evidence_quality": "moderate",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "acetyl-l-carnitin"
       ],
       "research_reviews": []
     },
