@@ -88,10 +88,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-12725561",
+      "target": "studie-11081987",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:12725561",
+      "source": "pmid:11081987",
       "evidence_level": "human_rct"
     },
     {
@@ -99,7 +99,7 @@
       "target": "studie-25268730",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:17990197",
+      "source": "pmid:25268730",
       "evidence_level": "human_observational"
     },
     {

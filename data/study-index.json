@@ -6589,23 +6589,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-12725561",
-      "pmid": "12725561",
-      "title": "A randomized trial of two different doses of a SHR-5 Rhodiola rosea extract",
-      "authors": "Shevtsov VA et al.",
-      "year": "2003",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/12725561/",
-      "study_type": "RCT",
-      "evidence_quality": "high",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "rhodiola"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-12791609",
       "pmid": "12791609",
       "title": "Riboflavin (vitamin B-2) and health",
@@ -6921,6 +6904,23 @@
       "effect_size": "",
       "ingredients": [
         "flohsamenschalen"
+      ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-11081987",
+      "pmid": "11081987",
+      "title": "Rhodiola rosea in stress induced fatigue--a double blind cross-over study of",
+      "authors": "Darbinyan V et al.",
+      "year": "2000",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11081987/",
+      "study_type": "RCT",
+      "evidence_quality": "high",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "rhodiola"
       ],
       "research_reviews": []
     },

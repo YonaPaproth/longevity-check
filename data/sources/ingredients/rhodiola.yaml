@@ -33,7 +33,7 @@ key_studies:
         RCT (n=60): SHR-5 (576 mg/Tag) verbesserte Erschöpfung, Konzentration und Wohlbefinden signifikant nach 28 Tagen. Gut verträglich, keine ernsthaften Nebenwirkungen.
       en: >-
         RCT (n=60): SHR-5 extract (576 mg/day) significantly improved fatigue, concentration, and wellbeing after 28 days vs. placebo. Well tolerated, no serious adverse events reported.
-  - ref: pmid-12725561
+  - ref: pmid-11081987
     finding:
       de: >-
         RCT (n=161 Ärzte im Nachtdienst): Einzeldosis Rhodiola verbesserte kognitive Leistung und Reaktionszeit unter Erschöpfungsbedingungen signifikant vs. Placebo.
@@ -235,15 +235,15 @@ relations:
     confidence: 0.9
     source: "pmid:19016404"
   - relation: basiert_auf_studie
-    target: studie-12725561
+    target: studie-11081987
     direction: outgoing
     confidence: 0.9
-    source: "pmid:12725561"
+    source: "pmid:11081987"
   - relation: basiert_auf_studie
     target: studie-25268730
     direction: outgoing
     confidence: 0.9
-    source: "pmid:17990197"
+    source: "pmid:25268730"
   - relation: basiert_auf_studie
     target: studie-28219059
     direction: outgoing
