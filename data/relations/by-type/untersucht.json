@@ -1,6 +1,6 @@
 {
   "type": "untersucht",
-  "count": 407,
+  "count": 408,
   "relations": [
     {
       "subject": "studie-11386498",
@@ -1775,6 +1775,12 @@
     {
       "subject": "studie-39117797",
       "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:39117797"
+    },
+    {
+      "subject": "studie-39117797",
+      "target": "herz-kreislauf",
       "confidence": 0.9,
       "source": "pmid:39117797"
     },
