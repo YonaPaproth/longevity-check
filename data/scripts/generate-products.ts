@@ -113,7 +113,11 @@ function compositeScore(ratings: ProductSource['ratings']): number {
   );
 }
 
-function autoVerdict(score: number): string {
+function autoVerdict(score: number, evidenceScore?: number): string {
+  if (evidenceScore !== undefined) {
+    if (evidenceScore < 3) return 'nicht-empfehlenswert';
+    if (evidenceScore <= 5) return score >= 5.5 ? 'akzeptabel' : 'nicht-empfehlenswert';
+  }
   if (score >= 7.0) return 'empfehlenswert';
   if (score >= 5.5) return 'akzeptabel';
   return 'nicht-empfehlenswert';
@@ -188,7 +192,8 @@ function buildFrontmatter(source: ProductSource, locale: 'de' | 'en'): string {
   }
 
   const score = compositeScore(source.ratings);
-  const verdict = autoVerdict(score);
+  const evidenceScore = source.ratings?.evidenceForIngredient?.score;
+  const verdict = autoVerdict(score, evidenceScore);
   lines.push(`verdict: "${verdict}"`);
   lines.push(`verdictNote: ${yamlQuote(escapeMdx(lc.verdictNote))}`);
 
@@ -258,7 +263,7 @@ function generateEntity(source: ProductSource): object {
     vendor: source.meta.vendor,
     ingredient: source.meta.ingredient,
     form: source.meta.form,
-    verdict: autoVerdict(compositeScore(source.ratings)),
+    verdict: autoVerdict(compositeScore(source.ratings), source.ratings?.evidenceForIngredient?.score),
     compositeScore: Math.round(compositeScore(source.ratings) * 100) / 100,
     updatedAt: new Date().toISOString().split('T')[0],
   };

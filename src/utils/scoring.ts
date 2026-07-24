@@ -28,7 +28,13 @@ export function compositeScore(ratings: Ratings): number {
 
 // Verdict is auto-computed from score — not set manually in YAMLs
 // Thresholds: ≥7.0 empfehlenswert | 5.5–6.9 akzeptabel | <5.5 nicht-empfehlenswert
-export function autoVerdict(score: number): 'empfehlenswert' | 'akzeptabel' | 'nicht-empfehlenswert' {
+// Evidence cap (2026-07-24): prevents high-quality products with weak ingredient
+// evidence from being rated "empfehlenswert" (e.g., lithium with evidence score 5).
+export function autoVerdict(score: number, evidenceScore?: number): 'empfehlenswert' | 'akzeptabel' | 'nicht-empfehlenswert' {
+  if (evidenceScore !== undefined) {
+    if (evidenceScore < 3) return 'nicht-empfehlenswert';
+    if (evidenceScore <= 5) return score >= 5.5 ? 'akzeptabel' : 'nicht-empfehlenswert';
+  }
   if (score >= 7.0) return 'empfehlenswert';
   if (score >= 5.5) return 'akzeptabel';
   return 'nicht-empfehlenswert';
