@@ -20,7 +20,15 @@
       "target": "studie-30748078",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24813272"
+      "source": "pmid:30748078"
+    },
+    {
+      "relation": "basiert_auf_studie",
+      "target": "studie-40770094",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:40770094",
+      "evidence_level": "expert_review"
     }
   ]
 }

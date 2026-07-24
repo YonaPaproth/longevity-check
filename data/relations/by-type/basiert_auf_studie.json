@@ -1,6 +1,6 @@
 {
   "type": "basiert_auf_studie",
-  "count": 362,
+  "count": 363,
   "relations": [
     {
       "subject": "5-htp",
@@ -1126,7 +1126,13 @@
       "subject": "lithium-orotat",
       "target": "studie-30748078",
       "confidence": 0.9,
-      "source": "pmid:24813272"
+      "source": "pmid:30748078"
+    },
+    {
+      "subject": "lithium-orotat",
+      "target": "studie-40770094",
+      "confidence": 0.9,
+      "source": "pmid:40770094"
     },
     {
       "subject": "lutein-zeaxanthin",

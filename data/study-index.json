@@ -3,7 +3,7 @@
   "total": 303,
   "with_type": 140,
   "with_reviews": 11,
-  "with_ingredients": 272,
+  "with_ingredients": 273,
   "studies": [
     {
       "id": "pmid-41693488",
@@ -586,7 +586,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "lithium-orotat"
+      ],
       "research_reviews": []
     },
     {

@@ -885,6 +885,7 @@
     "studie-40608959",
     "studie-40696819",
     "studie-40732054",
+    "studie-40770094",
     "studie-40911749",
     "studie-40959699",
     "studie-4105646",
@@ -1005,8 +1006,8 @@
     "verdauung"
   ],
   "stats": {
-    "entities": 989,
-    "relations": 2312,
+    "entities": 990,
+    "relations": 2313,
     "relationTypes": 13,
     "lastUpdated": "2026-07-24"
   }
