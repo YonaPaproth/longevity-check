@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-21",
-  "total": 302,
-  "with_type": 139,
+  "generated": "2026-07-24",
+  "total": 303,
+  "with_type": 140,
   "with_reviews": 11,
-  "with_ingredients": 270,
+  "with_ingredients": 272,
   "studies": [
     {
       "id": "pmid-41693488",
@@ -435,7 +435,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "folsaeure"
+      ],
       "research_reviews": []
     },
     {
@@ -570,6 +572,21 @@
       "ingredients": [
         "fucoidan"
       ],
+      "research_reviews": []
+    },
+    {
+      "id": "pmid-40770094",
+      "pmid": "40770094",
+      "title": "Lithium deficiency and the onset of Alzheimer's disease",
+      "authors": "Aron L et al.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40770094/",
+      "study_type": "Journal Article",
+      "evidence_quality": "high",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [],
       "research_reviews": []
     },
     {
@@ -709,6 +726,23 @@
       "research_reviews": []
     },
     {
+      "id": "pmid-39117797",
+      "pmid": "39117797",
+      "title": "Spermidine is essential for fasting-mediated autophagy and longevity",
+      "authors": "Hofer SJ et al.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39117797/",
+      "study_type": "",
+      "evidence_quality": "low",
+      "n": "",
+      "coi": "",
+      "effect_size": "",
+      "ingredients": [
+        "spermidine"
+      ],
+      "research_reviews": []
+    },
+    {
       "id": "pmid-39126572",
       "pmid": "39126572",
       "title": "Apigenin and inflammation in the brain: can apigenin inhibit neuroinflammation",
@@ -771,7 +805,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "curcumin"
+      ],
       "research_reviews": []
     },
     {
@@ -1487,23 +1523,6 @@
       "research_reviews": []
     },
     {
-      "id": "pmid-39117797",
-      "pmid": "39117797",
-      "title": "Spermidine is essential for fasting-mediated autophagy and longevity",
-      "authors": "Liang Y et al.",
-      "year": "2020",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39117797/",
-      "study_type": "",
-      "evidence_quality": "low",
-      "n": "",
-      "coi": "",
-      "effect_size": "",
-      "ingredients": [
-        "spermidine"
-      ],
-      "research_reviews": []
-    },
-    {
       "id": "pmid-41564845",
       "pmid": "41564845",
       "title": "Senolytics, dasatanib plus quercetin, reduce kidney inflammation, senescent",
@@ -1801,7 +1820,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "vitamin-e"
+      ],
       "research_reviews": []
     },
     {
@@ -4048,9 +4069,7 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [
-        "silicium"
-      ],
+      "ingredients": [],
       "research_reviews": []
     },
     {

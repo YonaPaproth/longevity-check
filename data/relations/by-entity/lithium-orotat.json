@@ -17,24 +17,10 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-28147231",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:28147231"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-30748078",
       "direction": "outgoing",
       "confidence": 0.9,
       "source": "pmid:24813272"
-    },
-    {
-      "relation": "basiert_auf_studie",
-      "target": "studie-18072817",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:18072817"
     }
   ]
 }

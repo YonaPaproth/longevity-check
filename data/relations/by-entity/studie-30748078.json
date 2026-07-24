@@ -1,0 +1,13 @@
+{
+  "entity": "studie-30748078",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "schlaf",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:30748078",
+      "evidence_level": "expert_review"
+    }
+  ]
+}

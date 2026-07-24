@@ -1,6 +1,6 @@
 {
   "type": "untersucht",
-  "count": 408,
+  "count": 412,
   "relations": [
     {
       "subject": "studie-11386498",
@@ -1209,6 +1209,12 @@
       "source": "pmid:30616998"
     },
     {
+      "subject": "studie-30748078",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:30748078"
+    },
+    {
       "subject": "studie-30788274",
       "target": "blutdruck",
       "confidence": 0.9,
@@ -1909,6 +1915,24 @@
       "target": "verdauung",
       "confidence": 0.9,
       "source": "pmid:40732054"
+    },
+    {
+      "subject": "studie-40770094",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:40770094"
+    },
+    {
+      "subject": "studie-40770094",
+      "target": "neuroprotektiv",
+      "confidence": 0.9,
+      "source": "pmid:40770094"
+    },
+    {
+      "subject": "studie-40770094",
+      "target": "alterung",
+      "confidence": 0.9,
+      "source": "pmid:40770094"
     },
     {
       "subject": "studie-40911749",

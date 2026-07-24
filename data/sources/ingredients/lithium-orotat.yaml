@@ -32,20 +32,20 @@ key_studies:
         Diskussion zu möglichen Effekten niedriger Lithiumspiegel – interessant, aber weit entfernt von einer soliden Supplement-Empfehlung.
       en: >-
         Discussion of potential effects at low lithium levels—interesting, but far removed from solid supplement recommendations.
-  - ref: pmid-18072817
-    targets: [kognition, depression]
+  - ref: pmid-40770094
+    targets: [kognition, neuroprotektiv, alterung]
     finding:
       de: >-
-        Warnung vor der Annahme, niedrig dosiertes Lithium sei automatisch harmlos. Sicherheitsdaten für frei verkäufliche Formen sind begrenzt.
+        Nature-Studie (Aron et al., Harvard 2025): Lithium-Spiegel im Gehirn war der EINZIGE von 27 untersuchten Metallen, der bei MCI und Alzheimer signifikant erniedrigt war. Lithium wird durch Amyloid-Plaques gebunden und verliert so Bioverfügbarkeit. Im Mausmodell führte Lithium-Mangel zu vermehrter Amyloid-Ablagerung, Tau-Pathologie und kognitivem Abbau. Lithium-Orotat (nicht -carbonat) vermied Amyloid-Bindung und stellte Gedächtnis und Gehirnpathologie wieder her. Stärkste bisherige Evidenz für Lithium als "Gehirn-Mineral".
       en: >-
-        Warning against assuming low-dose lithium is automatically safe. Safety data for over-the-counter forms are limited.
+        Nature study (Aron et al., Harvard 2025): brain lithium was the ONLY metal of 27 studied that was significantly reduced in MCI and Alzheimer's disease. Lithium is sequestered by amyloid plaques, reducing bioavailability. In mouse models, lithium deficiency worsened amyloid deposition, tau pathology, and cognitive decline. Lithium orotate (not carbonate) evaded amyloid binding and restored memory and brain pathology. Strongest evidence to date for lithium as a "brain mineral."
 
 locales:
   de:
     summary: >-
       Lithium-Orotat wird für Stimmung und neurobiologische Forschung gehypt. Die Datenlage ist dünn, während die Sicherheits- und Regulierungslage heikel bleibt.
     evidenceSummary: >-
-      Für streng qualitätsorientiertes Lithium gibt es vergleichsweise gute Datenlage in der Psychiatrie. Für niedrig dosiertes Lithium-Orotat als Nahrungsergänzung sind die Daten jedoch sehr dünn. Vieles in der gesundes Altern-Bubble ist spekulativ und extrapoliert aus völlig anderen Dosen und Indikationen.
+      Die Nature-Studie von Aron et al. (2025) hat das Bild verändert: Lithium-Mangel im Gehirn wurde als frühes Ereignis bei Alzheimer identifiziert, und Lithium-Orotat zeigte im Mausmodell Gedächtnis-Wiederherstellung. Das ist die bisher stärkste Evidenz für Lithium als "Gehirn-Mineral". Dennoch fehlen Human-RCTs mit niedrig dosiertem Lithium-Orotat zur Prävention oder Behandlung. Die Evidenz ist deutlich besser als noch vor einem Jahr, aber noch nicht ausreichend für klinische Empfehlungen.
     body: |
       ## Was ist Lithium-Orotat?
       
@@ -66,7 +66,7 @@ locales:
     summary: >-
       Lithium oroate is hyped for mood and neurobiological research. Evidence is sparse while safety and regulatory concerns remain uncertain.
     evidenceSummary: >-
-      While pharmaceutical-grade lithium has solid evidence in psychiatry, low-dose lithium oroate as a supplement lacks robust data. Much within the healthy aging community is speculative, extrapolated from entirely different doses and clinical indications.
+      The 2025 Nature study by Aron et al. has changed the picture: brain lithium deficiency was identified as an early event in Alzheimer's disease, and lithium orotate restored memory in mouse models. This is the strongest evidence to date for lithium as a "brain mineral." However, human RCTs with low-dose lithium orotate for prevention or treatment are still lacking. The evidence is substantially better than a year ago but still insufficient for clinical recommendations.
     body: |
       ## What Is Lithium Oroate?
 
