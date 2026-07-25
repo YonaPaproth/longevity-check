@@ -3,6 +3,12 @@
  * MikroScore Weekly Research Digest
  * Sources: PubMed, EFSA Journal, ClinicalTrials.gov
  * Runs every Saturday 08:00 via OpenClaw cron.
+ *
+ * KG-enhanced (v2):
+ * - PMID deduplication against data/sources/studies/
+ * - Study-type classification from PubMed pubtypelist
+ * - Relevance scoring with study count from data/study-index.json
+ * - Auto YAML stub generation for HIGH relevance new hits
  */
 
 import fs from 'node:fs';
@@ -130,6 +136,8 @@ const INGREDIENTS = [
 
 const DAYS_BACK = 8;
 const DRAFT_DIR = path.join(__dirname, '..', 'backlog', 'research-review-drafts');
+const STUDY_INDEX_PATH = path.join(__dirname, '..', 'data', 'study-index.json');
+const STUDIES_DIR = path.join(__dirname, '..', 'data', 'sources', 'studies');
 const MAX_PUBMED = 3;
 const MAX_CT = 2;
 const MAX_BSKY = 3;
@@ -190,6 +198,17 @@ const WEAK_CT_PATTERNS = [
   /extremely preterm/i,
 ];
 
+const TYPE_META = new Map([
+  ['meta_analysis', { badge: 'Meta-Analysis', label: 'Meta-Analysis', evidence: 'high', rank: 5 }],
+  ['systematic_review', { badge: 'Systematic Review', label: 'Systematic Review', evidence: 'moderate', rank: 4 }],
+  ['human_rct', { badge: 'RCT', label: 'RCT', evidence: 'high', rank: 4 }],
+  ['human_observational', { badge: 'Observational', label: 'Observational', evidence: 'moderate', rank: 3 }],
+  ['expert_review', { badge: 'Review', label: 'Review', evidence: 'low', rank: 2 }],
+  ['preclinical', { badge: 'Preclinical', label: 'Preclinical', evidence: 'low', rank: 1 }],
+  ['journal_article', { badge: 'Journal Article', label: 'Journal Article', evidence: 'low', rank: 2 }],
+  ['unknown', { badge: 'Study', label: 'Study', evidence: 'low', rank: 0 }],
+]);
+
 function getDateRange() {
   const to = new Date();
   const from = new Date(Date.now() - DAYS_BACK * 24 * 60 * 60 * 1000);
@@ -207,33 +226,184 @@ function truncate(str, max = 180) {
   return s.length > max ? `${s.slice(0, max - 1)}…` : s;
 }
 
+function yamlQuote(str) {
+  return `'${String(str ?? '').replace(/'/g, "''")}'`;
+}
+
+function readJson(filePath, fallback) {
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch {
+    return fallback;
+  }
+}
+
+function registryPmidsFromDir() {
+  try {
+    return new Set(
+      fs.readdirSync(STUDIES_DIR)
+        .filter(name => /^pmid-\d+\.ya?ml$/i.test(name))
+        .map(name => name.match(/pmid-(\d+)/i)?.[1])
+        .filter(Boolean)
+    );
+  } catch {
+    return new Set();
+  }
+}
+
+function normalizeStoredStudyType(value) {
+  const raw = String(value ?? '').trim().toLowerCase();
+  if (!raw) return 'unknown';
+  if (raw === 'rct' || raw.includes('randomized') || raw.includes('randomised') || raw.includes('clinical trial')) return 'human_rct';
+  if (raw.includes('meta-analysis')) return 'meta_analysis';
+  if (raw.includes('systematic review')) return 'systematic_review';
+  if (raw.includes('observational') || raw.includes('comparative') || raw.includes('evaluation study') || raw.includes('validation study') || raw.includes('case report') || raw.includes('twin study')) return 'human_observational';
+  if (raw.includes('review')) return 'expert_review';
+  if (raw.includes('journal article')) return 'journal_article';
+  return 'unknown';
+}
+
+function normalizePubTypes(pubtypes = [], title = '') {
+  const joined = `${pubtypes.join(' | ')} | ${title}`.toLowerCase();
+  const preclinical = /(mice|mouse|murine|rat|zebrafish|drosophila|c\.? elegans|in vitro|cell line)/i.test(title);
+  if (joined.includes('meta-analysis')) return 'meta_analysis';
+  if (joined.includes('systematic review')) return 'systematic_review';
+  if (joined.includes('randomized controlled trial') || joined.includes('controlled clinical trial') || joined.includes('clinical trial') || joined.includes('multicenter study')) return 'human_rct';
+  if (joined.includes('observational study') || joined.includes('comparative study') || joined.includes('evaluation study') || joined.includes('validation study') || joined.includes('case reports') || joined.includes('case report') || joined.includes('twin study')) return 'human_observational';
+  if (preclinical) return 'preclinical';
+  if (joined.includes('review')) return 'expert_review';
+  if (joined.includes('journal article')) return 'journal_article';
+  return 'unknown';
+}
+
+function typeMeta(typeKey) {
+  return TYPE_META.get(typeKey) ?? TYPE_META.get('unknown');
+}
+
+function isAnimalOrInVitro(text) {
+  return /(mice|mouse|murine|rat|zebrafish|drosophila|c\.? elegans|in vitro|cell line)/i.test(text);
+}
+
+function loadRegistryContext() {
+  const index = readJson(STUDY_INDEX_PATH, { studies: [] });
+  const registryPmids = registryPmidsFromDir();
+  const ingredientStats = new Map();
+
+  for (const study of index.studies ?? []) {
+    const typeKey = normalizeStoredStudyType(study.study_type);
+    const rank = typeMeta(typeKey).rank;
+    for (const slug of study.ingredients ?? []) {
+      const current = ingredientStats.get(slug) ?? { count: 0, bestRank: 0 };
+      current.count += 1;
+      current.bestRank = Math.max(current.bestRank, rank);
+      ingredientStats.set(slug, current);
+    }
+    if (study.pmid) registryPmids.add(String(study.pmid));
+  }
+
+  return { registryPmids, ingredientStats };
+}
+
+function computeRelevance(record, ingredientStat) {
+  const count = ingredientStat?.count ?? 0;
+  const bestRank = ingredientStat?.bestRank ?? 0;
+  const typeKey = record.typeKey;
+  const meta = typeMeta(typeKey);
+  const animal = isAnimalOrInVitro(`${record.title} ${record.journal} ${record.pubtypes?.join(' ')}`);
+  let level = 'LOW';
+  let reason = 'Existing registry for this ingredient is already broad.';
+
+  if (animal || typeKey === 'preclinical') {
+    level = 'LOW';
+    reason = 'Animal / in-vitro signal — keep an eye on it, but no urgent dossier change.';
+  } else if ((typeKey === 'human_rct' || typeKey === 'meta_analysis') && count <= 5) {
+    level = 'HIGH';
+    reason = 'Strong study design for an ingredient with a still-thin study registry.';
+  } else if (meta.rank > bestRank) {
+    level = 'HIGH';
+    reason = 'Study type is stronger than the current best evidence stored for this ingredient.';
+  } else if ((typeKey === 'expert_review' || typeKey === 'systematic_review' || typeKey === 'human_observational') && count < 8) {
+    level = 'MEDIUM';
+    reason = 'Potentially useful context because the ingredient still has limited tracked studies.';
+  } else if (count >= 8) {
+    level = 'LOW';
+    reason = 'Ingredient already has a deeper registry; this is less likely to change the dossier.';
+  }
+
+  return {
+    level,
+    reason,
+    action: level === 'HIGH' ? `Update dossier ${record.slug} — add to key_studies` : '',
+  };
+}
+
+function authorsToShort(authors = []) {
+  const first = authors.find(a => a?.name)?.name ?? '';
+  return first ? `${first} et al.` : '';
+}
+
+function createStudyYamlStub(record) {
+  const filePath = path.join(STUDIES_DIR, `pmid-${record.pmid}.yaml`);
+  if (fs.existsSync(filePath)) return false;
+  const meta = typeMeta(record.typeKey);
+  const year = String(record.year ?? '').match(/\d{4}/)?.[0] ?? '';
+  const yaml = [
+    '---',
+    `id: pmid-${record.pmid}`,
+    'type: study',
+    `pmid: ${yamlQuote(record.pmid)}`,
+    `title: ${yamlQuote(record.title)}`,
+    `authors: ${yamlQuote(record.authorsShort || '')}`,
+    `year: ${year || 'null'}`,
+    `url: https://pubmed.ncbi.nlm.nih.gov/${record.pmid}/`,
+    `study_type: ${meta.label}`,
+    `evidence_quality: ${meta.evidence}`,
+    '---',
+    '',
+  ].join('\n');
+  fs.writeFileSync(filePath, yaml, 'utf8');
+  return true;
+}
+
 function buildDraft(results, fromIso, toIso) {
   const title = `Neue Forschung der Woche (${toIso})`;
   const touched = results.map(r => r.slug);
   const summary = truncate(
     results.length === 0
       ? 'Diese Woche wurden keine relevanten neuen Papers oder Trials für die beobachteten MikroScore-Wirkstoffe gefunden.'
-      : `Wöchentliche MikroScore-Research-Review mit neuen Papers, EFSA-Treffern und Clinical-Trial-Updates für ${results.length} beobachtete Wirkstoffe.`
+      : `Wöchentliche MikroScore-Research-Review mit KG-Scoring, Registry-Check und neuen Papers für ${results.length} beobachtete Wirkstoffe.`
   , 200);
+
+  const highTotal = results.reduce((sum, r) => sum + r.pubmed.filter(p => p.relevance.level === 'HIGH').length, 0);
+  const newRegistryTotal = results.reduce((sum, r) => sum + r.pubmed.filter(p => !p.existsInRegistry).length, 0);
+  const stubTotal = results.reduce((sum, r) => sum + r.pubmed.filter(p => p.stubCreated).length, 0);
 
   const topHighlights = results.slice(0, 5).map(r => {
     const count = r.pubmed.length + r.efsa.length + r.ct.length + (r.bsky?.length ?? 0);
+    const high = r.pubmed.filter(p => p.relevance.level === 'HIGH').length;
     const parts = [`${r.pubmed.length} PubMed`, `${r.efsa.length} EFSA`, `${r.ct.length} Trials`];
     if (r.bsky?.length) parts.push(`${r.bsky.length} Preprints`);
+    if (high) parts.push(`${high} HIGH`);
     return `- **${r.slug}**: ${count} neue Treffer (${parts.join(', ')})`;
   }).join('\n');
 
   const sections = results.map(r => {
     const total = r.pubmed.length + r.efsa.length + r.ct.length + (r.bsky?.length ?? 0);
     let out = `## ${r.slug}\n\n`;
-    out += `**Neue Treffer gesamt:** ${total}\n\n`;
+    out += `**Neue Treffer gesamt:** ${total}  \n`;
+    out += `**KG-Studien im Registry:** ${r.registryCount}\n\n`;
 
     if (r.pubmed.length) {
       out += `### PubMed\n\n`;
       for (const p of r.pubmed) {
-        out += `- **${p.title}**  \n`;
-        out += `  Journal: ${p.journal || 'n/a'} · Datum: ${p.date || 'n/a'}  \n`;
-        out += `  Link: https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/\n`;
+        const registryNote = p.existsInRegistry ? ' (already in registry)' : ' (new)';
+        const stubNote = p.stubCreated ? ' (stub created)' : '';
+        out += `- **[${p.badge}] ${p.title}** ${p.relevance.level === 'HIGH' ? '🔴 HIGH' : p.relevance.level === 'MEDIUM' ? '🟡 MEDIUM' : '⚪ LOW'}${registryNote}${stubNote}  \n`;
+        out += `  Journal: ${p.journal || 'n/a'} · Datum: ${p.date || 'n/a'} · PMID: ${p.pmid}  \n`;
+        out += `  PubType: ${p.pubtypes?.join(', ') || 'n/a'}  \n`;
+        out += `  Link: https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/  \n`;
+        out += `  Einordnung: ${p.relevance.reason}  \n`;
+        if (p.relevance.action) out += `  → Suggested action: ${p.relevance.action}  \n`;
       }
       out += `\n`;
     }
@@ -268,8 +438,8 @@ function buildDraft(results, fromIso, toIso) {
     }
 
     out += `### MikroScore-Einordnung\n\n`;
-    out += `- Prüfen, ob bestehendes Dossier ${'`'}${r.slug}${'`'} aktualisiert werden sollte.\n`;
-    out += `- Nur relevante Human-Daten oder starke Meta-Analysen später öffentlich hervorheben.\n`;
+    out += `- HIGH-Treffer zuerst prüfen und nur dann ins öffentliche Review ziehen, wenn sie wirklich das Dossier verändern.\n`;
+    out += `- Registry-Status gegen bestehende key_studies abgleichen, bevor neue PMIDs übernommen werden.\n`;
     out += `- EFSA-/Claim-Relevanz separat gegen bestehende Claims prüfen.\n\n`;
     return out;
   }).join('\n');
@@ -290,19 +460,25 @@ ${touched.map(tag => `  - ${tag}`).join('\n')}
 
 ${results.length === 0 ? 'Diese Woche gab es keine relevanten neuen Papers oder Trial-Updates für die beobachteten MikroScore-Wirkstoffe.' : topHighlights}
 
+## KG-Check
+
+- **HIGH-Relevance PubMed-Treffer:** ${highTotal}
+- **Neue PMIDs außerhalb des Registry:** ${newRegistryTotal}
+- **Auto-erzeugte Study-Stubs:** ${stubTotal}
+
 ## Rohentwurf
 
 Dieser Entwurf wurde automatisch aus dem wöchentlichen Research-Run erzeugt und **muss vor Veröffentlichung manuell geprüft** werden.
 
 - Zeitraum: **${fromIso} bis ${toIso}**
-- Quellen: **PubMed, EFSA Journal, ClinicalTrials.gov**
+- Quellen: **PubMed, EFSA Journal, ClinicalTrials.gov, Bluesky/bioRxiv**
+- Zusatzlogik: **KG-Registry-Check, Study-Type-Badges, Relevance-Scoring**
 - Status: **Draft / nicht veröffentlicht**
 
-${sections || '## Keine relevanten Treffer\n'}
-## Nächste Schritte
+${sections || '## Keine relevanten Treffer\n'}## Nächste Schritte
 
-- Relevante Treffer priorisieren
-- ggf. Dossier-/Claim-Updates ableiten
+- HIGH-Treffer auf echte Dossier-Relevanz prüfen
+- ggf. neue PMIDs in \`key_studies\` + \`targets\` übernehmen
 - nur hochwertige Signale in einen öffentlichen Research-Review übernehmen
 `;
 }
@@ -325,7 +501,7 @@ function filterPubMedRecords(records) {
   return records
     .map(r => ({
       ...r,
-      _score: scoreByPatterns(`${r.title} ${r.journal} ${r.date}`, STRONG_PUBMED_PATTERNS, WEAK_PUBMED_PATTERNS),
+      _score: scoreByPatterns(`${r.title} ${r.journal} ${r.date} ${r.pubtypes?.join(' ') || ''}`, STRONG_PUBMED_PATTERNS, WEAK_PUBMED_PATTERNS),
     }))
     .filter(r => r._score >= 1)
     .sort((a, b) => b._score - a._score)
@@ -372,7 +548,16 @@ async function fetchPubMedTitles(ids) {
   return ids.map(id => {
     const rec = data.result?.[id];
     if (!rec) return null;
-    return { pmid: id, title: rec.title ?? '(no title)', journal: rec.source ?? '', date: rec.pubdate ?? '' };
+    return {
+      pmid: id,
+      title: rec.title ?? '(no title)',
+      journal: rec.source ?? '',
+      date: rec.pubdate ?? '',
+      year: rec.pubdate?.match(/\d{4}/)?.[0] ?? '',
+      pubtypes: rec.pubtype ?? [],
+      authors: rec.authors ?? [],
+      authorsShort: authorsToShort(rec.authors ?? []),
+    };
   }).filter(Boolean);
 }
 
@@ -388,7 +573,6 @@ async function getEfsaFeed() {
   });
   if (!res.ok) return [];
   const xml = await res.text();
-  // Parse items: extract title, link, pubDate, description
   const items = [];
   const itemBlocks = xml.match(/<item>[\s\S]*?<\/item>/g) ?? [];
   for (const block of itemBlocks) {
@@ -425,7 +609,6 @@ async function searchEFSA(term, fromIso) {
 // ── ClinicalTrials.gov ───────────────────────────────────────────────────────
 
 async function searchClinicalTrials(term, fromIso) {
-  // ClinicalTrials.gov v2 API
   const params = new URLSearchParams({
     'query.term': term,
     'filter.advanced': `AREA[StartDate]RANGE[${fromIso}, MAX]`,
@@ -494,12 +677,10 @@ async function getBskyPosts(fromIso) {
 }
 
 function deriveBskyTerms(ing) {
-  // Extract searchable terms from the pubmed query string
   const raw = ing.pubmed.replace(/"/g, '').replace(/ OR /g, '|').replace(/ AND /g, '|');
   const terms = raw.split('|')
     .map(t => t.replace(/\(|\)/g, '').trim())
     .filter(t => t.length >= 3 && !['supplement', 'supplementation', 'randomized', 'human', 'clinical', 'aging', 'longevity', 'cognitive', 'performance', 'sleep', 'inflammation', 'thyroid', 'adults'].includes(t.toLowerCase()));
-  // Also add the slug name
   terms.unshift(ing.slug.replace(/-/g, ' '));
   return [...new Set(terms.map(t => t.toLowerCase()))];
 }
@@ -523,29 +704,44 @@ async function searchBsky(terms, fromIso) {
 async function main() {
   const { from, to, fromIso, toIso } = getDateRange();
   const results = [];
+  const registry = loadRegistryContext();
 
   for (const ing of INGREDIENTS) {
-    const entry = { slug: ing.slug, pubmed: [], efsa: [], ct: [], bsky: [] };
+    const registryStat = registry.ingredientStats.get(ing.slug) ?? { count: 0, bestRank: 0 };
+    const entry = { slug: ing.slug, registryCount: registryStat.count, pubmed: [], efsa: [], ct: [], bsky: [] };
 
-    // PubMed
     try {
       const ids = await searchPubMed(ing.pubmed, from, to);
-      if (ids.length) entry.pubmed = filterPubMedRecords(await fetchPubMedTitles(ids));
-      await delay(400); // respect rate limit
+      if (ids.length) {
+        const fetched = filterPubMedRecords(await fetchPubMedTitles(ids));
+        entry.pubmed = fetched.map(record => {
+          const typeKey = normalizePubTypes(record.pubtypes, record.title);
+          const existsInRegistry = registry.registryPmids.has(record.pmid);
+          const enriched = {
+            ...record,
+            slug: ing.slug,
+            typeKey,
+            badge: typeMeta(typeKey).badge,
+            existsInRegistry,
+          };
+          const relevance = computeRelevance(enriched, registryStat);
+          const stubCreated = !existsInRegistry && relevance.level === 'HIGH' ? createStudyYamlStub(enriched) : false;
+          if (!existsInRegistry) registry.registryPmids.add(record.pmid);
+          return { ...enriched, relevance, stubCreated };
+        });
+      }
+      await delay(400);
     } catch (e) { console.error(`PubMed/${ing.slug}: ${e.message}`); }
 
-    // EFSA (RSS is fetched once and cached – no hammering)
     try {
       entry.efsa = await searchEFSA(ing.efsa, fromIso);
     } catch (e) { console.error(`EFSA/${ing.slug}: ${e.message}`); }
 
-    // ClinicalTrials.gov
     try {
       entry.ct = filterClinicalTrials(await searchClinicalTrials(ing.ct, fromIso));
       await delay(300);
     } catch (e) { console.error(`CT/${ing.slug}: ${e.message}`); }
 
-    // Bluesky / bioRxiv preprints
     try {
       const bskyTerms = deriveBskyTerms(ing);
       entry.bsky = await searchBsky(bskyTerms, fromIso);
@@ -557,25 +753,28 @@ async function main() {
   }
 
   const draftPath = writeDraft(results, fromIso, toIso);
-
-  // ── Format digest ──────────────────────────────────────────────────────────
+  const highCount = results.reduce((sum, r) => sum + r.pubmed.filter(p => p.relevance.level === 'HIGH').length, 0);
+  const stubCount = results.reduce((sum, r) => sum + r.pubmed.filter(p => p.stubCreated).length, 0);
 
   if (results.length === 0) {
-    console.log(`🔬 *MikroScore Research-Digest (${from} – ${to})*\n\nKeine neuen relevanten Studien oder Trials diese Woche.\n\n📝 Draft aktualisiert: \`${draftPath}\`\n\nKein Auto-Update – bei interessanten Studien bitte manuell prüfen.`);
+    console.log(`🔬 *MikroScore Research-Digest (${from} – ${to})*\n\nKeine neuen relevanten Studien oder Trials diese Woche.\n\n📝 Draft aktualisiert: \`${draftPath}\`\n\nKG-Upgrade aktiv, aber diese Woche ohne neue Treffer.`);
     return;
   }
 
   let msg = `🔬 *MikroScore Research-Digest (${from} – ${to})*\n`;
-  msg += `Neue Treffer für ${results.length} Wirkstoffe:\n\n`;
+  msg += `Neue Treffer für ${results.length} Wirkstoffe · ${highCount} HIGH-Relevance · ${stubCount} neue Study-Stubs\n\n`;
 
   for (const r of results) {
     const total = r.pubmed.length + r.efsa.length + r.ct.length + (r.bsky?.length ?? 0);
-    msg += `*${r.slug.toUpperCase()}* (${total} neu)\n`;
+    msg += `*${r.slug.toUpperCase()}* (${total} neu, Registry ${r.registryCount})\n`;
 
     if (r.pubmed.length) {
       msg += `📄 PubMed (${r.pubmed.length}):\n`;
       for (const p of r.pubmed.slice(0, 2)) {
-        msg += `• ${p.title.slice(0, 100)}${p.title.length > 100 ? '…' : ''}\n`;
+        const flag = p.relevance.level === 'HIGH' ? '🔴' : p.relevance.level === 'MEDIUM' ? '🟡' : '⚪';
+        const registryNote = p.existsInRegistry ? ' · im Registry' : ' · neu';
+        const stubNote = p.stubCreated ? ' · stub' : '';
+        msg += `• [${p.badge}] ${p.title.slice(0, 90)}${p.title.length > 90 ? '…' : ''} ${flag}${registryNote}${stubNote}\n`;
         msg += `  https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/\n`;
       }
     }
@@ -589,7 +788,7 @@ async function main() {
     }
 
     if (r.ct.length) {
-      msg += `🧪 ClinicalTrials (${r.ct.length} neue Studien):\n`;
+      msg += `🧪 ClinicalTrials (${r.ct.length}):\n`;
       for (const c of r.ct.slice(0, 2)) {
         const phase = c.phase ? ` [${c.phase}]` : '';
         msg += `• ${c.title.slice(0, 100)}${c.title.length > 100 ? '…' : ''}${phase}\n`;
@@ -609,7 +808,7 @@ async function main() {
   }
 
   msg += `📝 Draft: \`${draftPath}\`\n\n`;
-  msg += `---\n_Quellen: PubMed · EFSA Journal · ClinicalTrials.gov · Bluesky/bioRxiv_\n_Kein Auto-Update – bei interessanten Studien bitte manuell prüfen._`;
+  msg += `---\n_Quellen: PubMed · EFSA Journal · ClinicalTrials.gov · Bluesky/bioRxiv_\n_KG-Upgrade aktiv: Registry-Check, Study-Type-Badges, Relevance-Scoring, Auto-Study-Stubs._`;
 
   console.log(msg);
 }
