@@ -106,10 +106,17 @@ for (const slug of ingredientIds) {
   } catch {}
 }
 
+const EV_TIER_RANK_SORT: Record<string, number> = { meta_analysis: 4, human_rct: 3, human_observational: 2, expert_review: 1 };
+
 const matched = ingredientIds
   .map((slug: string) => ingredientMap.get(slug))
   .filter(Boolean)
-  .sort((a: any, b: any) => (confidenceMap.get(b.slug) ?? 0) - (confidenceMap.get(a.slug) ?? 0));
+  .sort((a: any, b: any) => {
+    const tierA = EV_TIER_RANK_SORT[evidenceTierMap.get(a.slug) ?? ''] ?? 0;
+    const tierB = EV_TIER_RANK_SORT[evidenceTierMap.get(b.slug) ?? ''] ?? 0;
+    if (tierB !== tierA) return tierB - tierA;
+    return (confidenceMap.get(b.slug) ?? 0) - (confidenceMap.get(a.slug) ?? 0);
+  });
 
 const symptomLabels: Record<string, string> = {
   'schlaf': 'Schlaf', 'energie': 'Energie', 'kognition': 'Kognition',
