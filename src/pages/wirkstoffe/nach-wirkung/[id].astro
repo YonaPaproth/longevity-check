@@ -86,13 +86,14 @@ for (const slug of ingredientIds) {
     // Symptom-specific evidence: check linked studies for untersucht targeting this symptom
     let bestTier = '';
     let bestRank = 0;
-    let studyCount = 0;
+    const countedStudies = new Set<string>();
     for (const r of ingRels.relations) {
       if (r.relation !== 'basiert_auf_studie' || !r.target) continue;
+      if (countedStudies.has(r.target)) continue;
       const studySymMap = targetMap.get(r.target);
       if (studySymMap?.has(id!)) {
         const entry = studySymMap.get(id!)!;
-        studyCount++;
+        countedStudies.add(r.target);
         if (entry.bestRank > bestRank) {
           bestRank = entry.bestRank;
           bestTier = entry.bestTier;
@@ -101,7 +102,7 @@ for (const slug of ingredientIds) {
     }
     if (bestTier) {
       evidenceTierMap.set(slug, bestTier);
-      studyCountMap.set(slug, studyCount);
+      studyCountMap.set(slug, countedStudies.size);
     }
   } catch {}
 }
@@ -142,7 +143,7 @@ const safetyStyle: Record<string, string> = {
 
 const tierLabel: Record<string, string> = {
   meta_analysis: 'Meta-Analyse', human_rct: 'RCT',
-  human_observational: 'Beobachtung', expert_review: 'Review',
+  human_observational: 'Beobachtung', expert_review: 'Übersichtsarbeit',
 };
 const tierStyle: Record<string, string> = {
   meta_analysis: 'bg-teal-100 text-teal-800',
