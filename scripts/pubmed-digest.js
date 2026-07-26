@@ -18,121 +18,50 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const INGREDIENTS = [
-  { slug: 'nmn',          pubmed: 'NMN OR "nicotinamide mononucleotide"',                     efsa: 'nicotinamide mononucleotide', ct: 'NMN supplement' },
-  { slug: 'nr',           pubmed: '"nicotinamide riboside"',                                   efsa: 'nicotinamide riboside',       ct: 'nicotinamide riboside' },
-  { slug: 'ashwagandha',  pubmed: 'ashwagandha OR "withania somnifera"',                       efsa: 'withania somnifera',          ct: 'ashwagandha' },
-  { slug: 'omega-3',      pubmed: '"omega-3" OR "EPA DHA" OR "fish oil" supplement',           efsa: 'omega-3',                     ct: 'omega-3 fatty acids' },
-  { slug: 'magnesium',    pubmed: 'magnesium supplementation "randomized"',                    efsa: 'magnesium',                   ct: 'magnesium supplement' },
-  { slug: 'vitamin-d3',   pubmed: '"vitamin D" supplementation "randomized controlled trial"', efsa: 'vitamin D',                   ct: 'vitamin D supplement' },
-  { slug: 'coq10',        pubmed: '"coenzyme Q10" OR CoQ10 supplementation',                   efsa: 'coenzyme Q10',                ct: 'CoQ10 supplement' },
-  { slug: 'berberine',    pubmed: 'berberine supplementation "randomized"',                    efsa: 'berberine',                   ct: 'berberine' },
-  { slug: 'curcumin',     pubmed: 'curcumin OR curcuminoid supplementation "randomized"',      efsa: 'curcumin',                    ct: 'curcumin supplement' },
-  { slug: 'resveratrol',  pubmed: 'resveratrol supplementation human',                         efsa: 'resveratrol',                 ct: 'resveratrol' },
-  { slug: 'kreatin',      pubmed: 'creatine supplementation "randomized" cognitive OR aging',  efsa: 'creatine',                    ct: 'creatine supplement' },
-  { slug: 'glycin',       pubmed: 'glycine supplementation aging OR sleep OR inflammation',    efsa: 'glycine',                     ct: 'glycine supplement' },
-  { slug: 'taurin',       pubmed: 'taurine supplementation aging OR longevity',                efsa: 'taurine',                     ct: 'taurine supplement' },
-  { slug: 'fisetin',      pubmed: 'fisetin supplementation human OR clinical',                 efsa: 'fisetin',                     ct: 'fisetin' },
-  { slug: 'quercetin',    pubmed: 'quercetin supplementation "randomized"',                    efsa: 'quercetin',                   ct: 'quercetin supplement' },
-  { slug: 'spermidine',   pubmed: 'spermidine supplementation human',                          efsa: 'spermidine',                  ct: 'spermidine' },
-  { slug: 'urolithin-a',  pubmed: '"urolithin A" supplementation human',                       efsa: 'urolithin',                   ct: 'urolithin A' },
-  { slug: 'selen',        pubmed: 'selenium supplementation "randomized" aging OR thyroid',    efsa: 'selenium',                    ct: 'selenium supplement' },
-  { slug: 'lion-s-mane',  pubmed: '"lion mane" OR "hericium erinaceus" supplementation human', efsa: 'hericium erinaceus',         ct: 'lion mane mushroom' },
-  { slug: 'rhodiola',     pubmed: '"rhodiola rosea" supplementation "randomized"',             efsa: 'rhodiola rosea',              ct: 'rhodiola supplement' },
-  { slug: 'koffein',      pubmed: 'caffeine supplementation "randomized" performance OR cognitive', efsa: 'caffeine',              ct: 'caffeine supplement' },
-  { slug: 'l-citrullin',  pubmed: '"L-citrulline" supplementation "randomized"',              efsa: 'citrulline',                  ct: 'L-citrulline' },
-  { slug: 'betain',       pubmed: 'betaine anhydrous supplementation "randomized"',            efsa: 'betaine',                     ct: 'betaine supplement' },
-  { slug: 'l-tyrosin',    pubmed: '"L-tyrosine" supplementation cognitive "randomized"',       efsa: 'tyrosine',                    ct: 'L-tyrosine' },
-  { slug: 'beta-alanin',  pubmed: '"beta-alanine" supplementation "randomized"',              efsa: 'beta-alanine',                ct: 'beta-alanine' },
-  // ── Batch 2: remaining 87 ingredients ──
-  { slug: '5-htp',               pubmed: '"5-HTP" OR "5-hydroxytryptophan" supplementation',           efsa: '5-hydroxytryptophan',         ct: '5-HTP supplement' },
-  { slug: 'acetyl-l-carnitin',   pubmed: '"acetyl-L-carnitine" OR ALCAR supplementation',              efsa: 'acetyl-L-carnitine',          ct: 'acetyl-L-carnitine' },
-  { slug: 'akg',                 pubmed: '"alpha-ketoglutarate" supplementation aging',                 efsa: 'alpha-ketoglutarate',         ct: 'alpha-ketoglutarate' },
-  { slug: 'akkermansia',         pubmed: '"akkermansia muciniphila" supplementation human',             efsa: 'akkermansia',                 ct: 'akkermansia' },
-  { slug: 'alpha-gpc',           pubmed: '"alpha-GPC" OR "glycerophosphocholine" supplementation',      efsa: 'alpha-GPC',                   ct: 'alpha-GPC' },
-  { slug: 'alpha-liponsaeure',   pubmed: '"alpha-lipoic acid" OR ALA supplementation "randomized"',    efsa: 'alpha-lipoic acid',           ct: 'alpha-lipoic acid' },
-  { slug: 'apigenin',            pubmed: 'apigenin supplementation human OR clinical',                  efsa: 'apigenin',                    ct: 'apigenin' },
-  { slug: 'astaxanthin',         pubmed: 'astaxanthin supplementation "randomized"',                    efsa: 'astaxanthin',                 ct: 'astaxanthin supplement' },
-  { slug: 'astragalus',          pubmed: '"astragalus membranaceus" OR "astragaloside" supplementation', efsa: 'astragalus',                 ct: 'astragalus supplement' },
-  { slug: 'bacopa',              pubmed: '"bacopa monnieri" supplementation "randomized"',              efsa: 'bacopa monnieri',             ct: 'bacopa supplement' },
-  { slug: 'baicalin',            pubmed: 'baicalin OR baicalein supplementation human',                 efsa: 'baicalin',                    ct: 'baicalin' },
-  { slug: 'beta-glucan',         pubmed: '"beta-glucan" supplementation "randomized"',                  efsa: 'beta-glucan',                 ct: 'beta-glucan supplement' },
-  { slug: 'bor',                 pubmed: 'boron supplementation human',                                 efsa: 'boron',                       ct: 'boron supplement' },
-  { slug: 'calcium',             pubmed: 'calcium supplementation "randomized" osteoporosis OR bone',   efsa: 'calcium',                     ct: 'calcium supplement' },
-  { slug: 'cdp-cholin',          pubmed: '"CDP-choline" OR citicoline supplementation',                 efsa: 'citicoline',                  ct: 'citicoline supplement' },
-  { slug: 'cholin',              pubmed: 'choline supplementation "randomized"',                        efsa: 'choline',                     ct: 'choline supplement' },
-  { slug: 'chrom',               pubmed: 'chromium supplementation "randomized" glucose',               efsa: 'chromium',                    ct: 'chromium supplement' },
-  { slug: 'cistanche',           pubmed: '"cistanche tubulosa" OR echinacoside supplementation',        efsa: 'cistanche',                   ct: 'cistanche' },
-  { slug: 'cordyceps',           pubmed: '"cordyceps militaris" OR cordycepin supplementation',          efsa: 'cordyceps',                   ct: 'cordyceps supplement' },
-  { slug: 'egcg',                pubmed: 'EGCG OR "epigallocatechin gallate" supplementation "randomized"', efsa: 'epigallocatechin gallate', ct: 'EGCG supplement' },
-  { slug: 'eisen',               pubmed: 'iron supplementation "randomized" deficiency',                efsa: 'iron',                        ct: 'iron supplement' },
-  { slug: 'ergothionein',        pubmed: 'ergothioneine supplementation human',                          efsa: 'ergothioneine',               ct: 'ergothioneine' },
-  { slug: 'flohsamenschalen',    pubmed: 'psyllium supplementation "randomized"',                        efsa: 'psyllium',                    ct: 'psyllium supplement' },
-  { slug: 'folsaeure',           pubmed: '"folic acid" OR folate supplementation "randomized"',          efsa: 'folic acid',                  ct: 'folic acid supplement' },
-  { slug: 'gaba',                pubmed: 'GABA supplementation "randomized" sleep OR stress',            efsa: 'GABA',                        ct: 'GABA supplement' },
-  { slug: 'ginkgo',              pubmed: '"ginkgo biloba" supplementation "randomized"',                 efsa: 'ginkgo biloba',               ct: 'ginkgo supplement' },
-  { slug: 'ginseng',             pubmed: '"panax ginseng" supplementation "randomized"',                 efsa: 'panax ginseng',               ct: 'ginseng supplement' },
-  { slug: 'glucosamin',          pubmed: 'glucosamine supplementation "randomized" joint',               efsa: 'glucosamine',                 ct: 'glucosamine supplement' },
-  { slug: 'glutathion',          pubmed: 'glutathione supplementation "randomized" OR liposomal',        efsa: 'glutathione',                 ct: 'glutathione supplement' },
-  { slug: 'glynac',              pubmed: 'GlyNAC supplementation aging',                                 efsa: 'GlyNAC',                      ct: 'GlyNAC supplement' },
-  { slug: 'gotu-kola',           pubmed: '"centella asiatica" OR "gotu kola" supplementation',            efsa: 'centella asiatica',           ct: 'gotu kola' },
-  { slug: 'gynostemma',          pubmed: '"gynostemma pentaphyllum" OR jiaogulan supplementation',        efsa: 'gynostemma',                  ct: 'gynostemma' },
-  { slug: 'hesperidin',          pubmed: 'hesperidin supplementation "randomized"',                      efsa: 'hesperidin',                  ct: 'hesperidin' },
-  { slug: 'hyaluronsaeure',      pubmed: '"hyaluronic acid" oral supplementation "randomized"',           efsa: 'hyaluronic acid',             ct: 'hyaluronic acid supplement' },
-  { slug: 'hydroxytyrosol',      pubmed: 'hydroxytyrosol supplementation human',                          efsa: 'hydroxytyrosol',              ct: 'hydroxytyrosol' },
-  { slug: 'inulin',              pubmed: 'inulin supplementation "randomized" gut',                       efsa: 'inulin',                      ct: 'inulin supplement' },
-  { slug: 'jod',                 pubmed: 'iodine supplementation "randomized" thyroid',                   efsa: 'iodine',                      ct: 'iodine supplement' },
-  { slug: 'kaempferol',          pubmed: 'kaempferol supplementation human',                               efsa: 'kaempferol',                  ct: 'kaempferol' },
-  { slug: 'kalium',              pubmed: 'potassium supplementation "randomized" blood pressure',          efsa: 'potassium',                   ct: 'potassium supplement' },
-  { slug: 'kollagen',            pubmed: 'collagen supplementation "randomized" skin OR joint',            efsa: 'collagen',                    ct: 'collagen supplement' },
-  { slug: 'kupfer',              pubmed: 'copper supplementation "randomized"',                            efsa: 'copper',                      ct: 'copper supplement' },
-  { slug: 'l-carnitin',          pubmed: '"L-carnitine" supplementation "randomized"',                     efsa: 'L-carnitine',                 ct: 'L-carnitine supplement' },
-  { slug: 'l-theanin',           pubmed: '"L-theanine" supplementation "randomized"',                      efsa: 'L-theanine',                  ct: 'L-theanine supplement' },
-  { slug: 'l-tryptophan',        pubmed: '"L-tryptophan" supplementation "randomized" sleep',              efsa: 'tryptophan',                  ct: 'L-tryptophan supplement' },
-  { slug: 'lithium-orotat',      pubmed: '"lithium orotate" supplementation',                              efsa: 'lithium orotate',             ct: 'lithium orotate' },
-  { slug: 'lutein-zeaxanthin',   pubmed: 'lutein OR zeaxanthin supplementation "randomized" eye',          efsa: 'lutein',                      ct: 'lutein supplement' },
-  { slug: 'luteolin',            pubmed: 'luteolin supplementation human',                                  efsa: 'luteolin',                    ct: 'luteolin' },
-  { slug: 'maca',                pubmed: '"lepidium meyenii" OR maca supplementation "randomized"',        efsa: 'maca',                        ct: 'maca supplement' },
-  { slug: 'mangan',              pubmed: 'manganese supplementation "randomized"',                          efsa: 'manganese',                   ct: 'manganese supplement' },
-  { slug: 'melatonin',           pubmed: 'melatonin supplementation "randomized" sleep',                    efsa: 'melatonin',                   ct: 'melatonin supplement' },
-  { slug: 'molybdaen',           pubmed: 'molybdenum supplementation human',                                efsa: 'molybdenum',                  ct: 'molybdenum' },
-  { slug: 'msm',                 pubmed: '"methylsulfonylmethane" OR MSM supplementation "randomized"',    efsa: 'methylsulfonylmethane',       ct: 'MSM supplement' },
-  { slug: 'myo-inositol',        pubmed: '"myo-inositol" supplementation "randomized" PCOS',               efsa: 'myo-inositol',                ct: 'myo-inositol supplement' },
-  { slug: 'nac',                 pubmed: '"N-acetylcysteine" OR NAC supplementation "randomized"',         efsa: 'N-acetylcysteine',            ct: 'NAC supplement' },
-  { slug: 'phosphatidylserin',   pubmed: 'phosphatidylserine supplementation "randomized"',                efsa: 'phosphatidylserine',          ct: 'phosphatidylserine' },
-  { slug: 'phosphor',            pubmed: 'phosphorus supplementation "randomized"',                         efsa: 'phosphorus',                  ct: 'phosphorus supplement' },
-  { slug: 'piperin',             pubmed: 'piperine OR bioperine supplementation',                           efsa: 'piperine',                    ct: 'piperine supplement' },
-  { slug: 'pqq',                 pubmed: 'PQQ OR pyrroloquinoline supplementation human',                   efsa: 'pyrroloquinoline quinone',    ct: 'PQQ supplement' },
-  { slug: 'probiotika',          pubmed: 'probiotic supplementation "randomized" gut OR immune',            efsa: 'probiotic',                   ct: 'probiotic supplement' },
-  { slug: 'pterostilben',        pubmed: 'pterostilbene supplementation human',                              efsa: 'pterostilbene',               ct: 'pterostilbene' },
-  { slug: 'rapamycin',           pubmed: 'rapamycin OR sirolimus aging longevity human',                     efsa: 'rapamycin',                   ct: 'rapamycin aging' },
-  { slug: 'reishi',              pubmed: '"ganoderma lucidum" OR reishi supplementation',                    efsa: 'ganoderma lucidum',           ct: 'reishi supplement' },
-  { slug: 'rutin',               pubmed: 'rutin supplementation "randomized"',                               efsa: 'rutin',                       ct: 'rutin supplement' },
-  { slug: 'safran',              pubmed: '"crocus sativus" OR saffron supplementation "randomized"',         efsa: 'saffron',                     ct: 'saffron supplement' },
-  { slug: 'same',                pubmed: '"S-adenosyl methionine" OR SAMe supplementation',                  efsa: 'S-adenosylmethionine',        ct: 'SAMe supplement' },
-  { slug: 'schisandra',          pubmed: '"schisandra chinensis" supplementation',                            efsa: 'schisandra',                  ct: 'schisandra supplement' },
-  { slug: 'shilajit',            pubmed: 'shilajit OR "fulvic acid" supplementation human',                  efsa: 'shilajit',                    ct: 'shilajit supplement' },
-  { slug: 'silicium',            pubmed: 'silicon OR silica supplementation "randomized"',                    efsa: 'silicon',                     ct: 'silicon supplement' },
-  { slug: 'silymarin',           pubmed: 'silymarin OR "milk thistle" supplementation "randomized"',          efsa: 'silymarin',                   ct: 'silymarin supplement' },
-  { slug: 'sulforaphan',         pubmed: 'sulforaphane supplementation "randomized"',                         efsa: 'sulforaphane',                ct: 'sulforaphane supplement' },
-  { slug: 'tmg',                 pubmed: '"trimethylglycine" OR TMG supplementation',                         efsa: 'trimethylglycine',            ct: 'TMG supplement' },
-  { slug: 'tongkat-ali',         pubmed: '"eurycoma longifolia" OR "tongkat ali" supplementation',             efsa: 'eurycoma longifolia',         ct: 'tongkat ali' },
-  { slug: 'trehalose',           pubmed: 'trehalose supplementation human autophagy',                         efsa: 'trehalose',                   ct: 'trehalose supplement' },
-  { slug: 'vitamin-a',           pubmed: '"vitamin A" OR retinol supplementation "randomized"',                efsa: 'vitamin A',                   ct: 'vitamin A supplement' },
-  { slug: 'vitamin-b1',          pubmed: 'thiamine supplementation "randomized"',                              efsa: 'thiamine',                    ct: 'thiamine supplement' },
-  { slug: 'vitamin-b12',         pubmed: '"vitamin B12" OR cobalamin supplementation "randomized"',            efsa: 'vitamin B12',                 ct: 'vitamin B12 supplement' },
-  { slug: 'vitamin-b2',          pubmed: 'riboflavin supplementation "randomized"',                            efsa: 'riboflavin',                  ct: 'riboflavin supplement' },
-  { slug: 'vitamin-b3',          pubmed: '"niacin" OR nicotinamide supplementation "randomized"',              efsa: 'niacin',                      ct: 'niacin supplement' },
-  { slug: 'vitamin-b5',          pubmed: '"pantothenic acid" supplementation',                                  efsa: 'pantothenic acid',            ct: 'pantothenic acid supplement' },
-  { slug: 'vitamin-b6',          pubmed: '"vitamin B6" OR pyridoxine supplementation "randomized"',            efsa: 'vitamin B6',                  ct: 'vitamin B6 supplement' },
-  { slug: 'vitamin-b7',          pubmed: 'biotin supplementation "randomized"',                                 efsa: 'biotin',                      ct: 'biotin supplement' },
-  { slug: 'vitamin-c',           pubmed: '"vitamin C" OR "ascorbic acid" supplementation "randomized"',        efsa: 'vitamin C',                   ct: 'vitamin C supplement' },
-  { slug: 'vitamin-d3-k2',       pubmed: '"vitamin D" "vitamin K2" supplementation',                            efsa: 'vitamin D vitamin K',         ct: 'vitamin D K2' },
-  { slug: 'vitamin-e',           pubmed: '"vitamin E" OR tocopherol supplementation "randomized"',              efsa: 'vitamin E',                   ct: 'vitamin E supplement' },
-  { slug: 'vitamin-k1',          pubmed: '"vitamin K1" OR phylloquinone supplementation',                       efsa: 'vitamin K1',                  ct: 'vitamin K1 supplement' },
-  { slug: 'vitamin-k2',          pubmed: '"vitamin K2" OR menaquinone supplementation "randomized"',            efsa: 'vitamin K2',                  ct: 'vitamin K2 supplement' },
-  { slug: 'zink',                pubmed: 'zinc supplementation "randomized" immune',                            efsa: 'zinc',                        ct: 'zinc supplement' },
-];
+// Load ingredients from JSON file (replaces hardcoded array)
+// Fallback: includes any YAML slugs not present in queries.json
+function loadIngredients() {
+  const queriesPath = path.join(__dirname, '..', 'data', 'ingredient-queries.json');
+  const ingredientsDir = path.join(__dirname, '..', 'data', 'sources', 'ingredients');
+
+  let queries = {};
+  try {
+    queries = JSON.parse(fs.readFileSync(queriesPath, 'utf8'));
+  } catch {
+    console.warn('⚠ Could not load ingredient-queries.json, using empty base');
+  }
+
+  // Build array from queries.json
+  const ingredients = Object.entries(queries).map(([slug, q]) => ({
+    slug,
+    pubmed: q.pubmed,
+    efsa: q.efsa,
+    ct: q.ct,
+  }));
+
+  // Add any YAML slugs not already covered
+  try {
+    const yamlSlugs = fs.readdirSync(ingredientsDir)
+      .filter(f => /\.ya?ml$/i.test(f))
+      .map(f => path.basename(f).replace(/\.ya?ml$/i, ''));
+
+    const knownSlugs = new Set(ingredients.map(i => i.slug));
+    for (const slug of yamlSlugs) {
+      if (!knownSlugs.has(slug)) {
+        ingredients.push({
+          slug,
+          pubmed: `"${slug.replace(/-/g, ' ')} supplementation"`,
+          efsa: slug.replace(/-/g, ' '),
+          ct: `${slug.replace(/-/g, ' ')} supplement`,
+        });
+      }
+    }
+  } catch { /* skip if dir missing */ }
+
+  return ingredients;
+}
+
+const INGREDIENTS = loadIngredients();
 
 const DAYS_BACK = 8;
 const DRAFT_DIR = path.join(__dirname, '..', 'backlog', 'research-review-drafts');
@@ -365,7 +294,21 @@ function createStudyYamlStub(record) {
   return true;
 }
 
-function buildDraft(results, fromIso, toIso) {
+function buildAutoExtractedSection(autoExtracted) {
+  if (!autoExtracted || !autoExtracted.length) return '';
+  let out = `## Auto-Extrahierte Studien (KG Auto-Extractor)\n\n`;
+  out += `${autoExtracted.length} neue YAML-Stubs wurden automatisch via Claude Sonnet geschrieben (confidence ≥ 0.90):\n\n`;
+  for (const s of autoExtracted) {
+    out += `- **[${s.study_type}] ${s.title}**  \n`;
+    out += `  Wirkstoff: ${s.ingredient} · PMID: ${s.pmid} · Confidence: ${s.confidence}  \n`;
+    out += `  Datei: \`${s.filePath}\`  \n`;
+    out += `  Link: https://pubmed.ncbi.nlm.nih.gov/${s.pmid}/\n`;
+  }
+  out += '\n';
+  return out;
+}
+
+function buildDraft(results, fromIso, toIso, autoExtracted = []) {
   const title = `Neue Forschung der Woche (${toIso})`;
   const touched = results.map(r => r.slug);
   const summary = truncate(
@@ -475,7 +418,7 @@ Dieser Entwurf wurde automatisch aus dem wöchentlichen Research-Run erzeugt und
 - Zusatzlogik: **KG-Registry-Check, Study-Type-Badges, Relevance-Scoring**
 - Status: **Draft / nicht veröffentlicht**
 
-${sections || '## Keine relevanten Treffer\n'}## Nächste Schritte
+${buildAutoExtractedSection(autoExtracted)}${sections || '## Keine relevanten Treffer\n'}## Nächste Schritte
 
 - HIGH-Treffer auf echte Dossier-Relevanz prüfen
 - ggf. neue PMIDs in \`key_studies\` + \`targets\` übernehmen
@@ -483,10 +426,10 @@ ${sections || '## Keine relevanten Treffer\n'}## Nächste Schritte
 `;
 }
 
-function writeDraft(results, fromIso, toIso) {
+function writeDraft(results, fromIso, toIso, autoExtracted = []) {
   fs.mkdirSync(DRAFT_DIR, { recursive: true });
   const filePath = path.join(DRAFT_DIR, `${toIso}.mdx`);
-  fs.writeFileSync(filePath, buildDraft(results, fromIso, toIso), 'utf8');
+  fs.writeFileSync(filePath, buildDraft(results, fromIso, toIso, autoExtracted), 'utf8');
   return filePath;
 }
 
@@ -706,6 +649,15 @@ async function main() {
   const results = [];
   const registry = loadRegistryContext();
 
+  // Auto-extract new RCT studies via Sonnet (if API key available)
+  let autoExtractResults = { autoExtracted: [], reviewQueue: [] };
+  if (process.env.ANTHROPIC_API_KEY) {
+    try {
+      const { runExtraction } = await import('./kg-auto-extractor.js');
+      autoExtractResults = await runExtraction({ daysBack: DAYS_BACK, dryRun: false });
+    } catch (e) { console.error('Auto-extractor failed:', e.message); }
+  }
+
   for (const ing of INGREDIENTS) {
     const registryStat = registry.ingredientStats.get(ing.slug) ?? { count: 0, bestRank: 0 };
     const entry = { slug: ing.slug, registryCount: registryStat.count, pubmed: [], efsa: [], ct: [], bsky: [] };
@@ -752,7 +704,7 @@ async function main() {
     }
   }
 
-  const draftPath = writeDraft(results, fromIso, toIso);
+  const draftPath = writeDraft(results, fromIso, toIso, autoExtractResults.autoExtracted ?? []);
   const highCount = results.reduce((sum, r) => sum + r.pubmed.filter(p => p.relevance.level === 'HIGH').length, 0);
   const stubCount = results.reduce((sum, r) => sum + r.pubmed.filter(p => p.stubCreated).length, 0);
 
