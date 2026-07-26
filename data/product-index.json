@@ -365,7 +365,7 @@
     "doseMg": 600,
     "pricePerDayEur": 0.7,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 60
   },
   {
@@ -410,7 +410,7 @@
     "doseMg": 500,
     "pricePerDayEur": 0.63,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 60
   },
   {
@@ -425,7 +425,7 @@
     "doseMg": 500,
     "pricePerDayEur": 0.75,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 60
   },
   {
@@ -440,7 +440,7 @@
     "doseMg": 500,
     "pricePerDayEur": 0.32,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 120
   },
   {
@@ -470,7 +470,7 @@
     "doseMg": 250,
     "pricePerDayEur": 0.63,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 60
   },
   {
@@ -621,8 +621,23 @@
     "doseMg": 25,
     "pricePerDayEur": 0.15,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 120
+  },
+  {
+    "slug": "floradix-iron-herbs",
+    "title": "Floradix Iron + Herbs",
+    "vendor": "Floradix",
+    "ingredient": "eisen",
+    "containedIngredients": [
+      "eisen"
+    ],
+    "priceEur": 17.9,
+    "doseMg": 10,
+    "pricePerDayEur": 0.72,
+    "form": "liquid",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 25
   },
   {
     "slug": "horbaach-pumpkin-seed-oil-3000-mg",
@@ -636,7 +651,7 @@
     "doseMg": 3000,
     "pricePerDayEur": 0.13,
     "form": "softgel",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 100
   },
   {
@@ -726,7 +741,7 @@
     "doseMg": 250,
     "pricePerDayEur": 0.4,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 60
   },
   {
@@ -801,7 +816,7 @@
     "doseMg": 100,
     "pricePerDayEur": 0.37,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 60
   },
   {
@@ -816,7 +831,7 @@
     "doseMg": 3,
     "pricePerDayEur": 0.12,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 100
   },
   {
@@ -831,7 +846,7 @@
     "doseMg": 1500,
     "pricePerDayEur": 0.47,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 60
   },
   {
@@ -846,7 +861,22 @@
     "doseMg": 100,
     "pricePerDayEur": 0.38,
     "form": "softgel",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "jarrow-cordyceps-500",
+    "title": "Jarrow Formulas Cordyceps 500mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "cordyceps",
+    "containedIngredients": [
+      "cordyceps"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.33,
+    "form": "capsule",
+    "verdict": "akzeptabel",
     "servingsPerPack": 60
   },
   {
@@ -891,7 +921,7 @@
     "doseMg": 500,
     "pricePerDayEur": 0.37,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 60
   },
   {
@@ -970,6 +1000,21 @@
     "servingsPerPack": 200
   },
   {
+    "slug": "jarrow-panax-ginseng-500",
+    "title": "Jarrow Formulas Panax Ginseng 500 mg",
+    "vendor": "Jarrow Formulas",
+    "ingredient": "ginseng",
+    "containedIngredients": [
+      "ginseng"
+    ],
+    "priceEur": 14.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.25,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
     "slug": "jarrow-phosphatidylserine-100",
     "title": "Jarrow Formulas Phosphatidylserine 100 mg",
     "vendor": "Jarrow Formulas",
@@ -996,7 +1041,7 @@
     "doseMg": 20,
     "pricePerDayEur": 1.13,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 30
   },
   {
@@ -1026,7 +1071,7 @@
     "doseMg": 10,
     "pricePerDayEur": 0.18,
     "form": "liquid",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 100
   },
   {
@@ -1116,7 +1161,7 @@
     "doseMg": 1500,
     "pricePerDayEur": 0.24,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 90
   },
   {
@@ -1237,7 +1282,7 @@
     "doseMg": 500,
     "pricePerDayEur": 0.37,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 60
   },
   {
@@ -1342,7 +1387,7 @@
     "doseMg": 500,
     "pricePerDayEur": 0.17,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 100
   },
   {
@@ -1372,7 +1417,7 @@
     "doseMg": 125,
     "pricePerDayEur": 1.63,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 30
   },
   {
@@ -1447,7 +1492,7 @@
     "doseMg": 1,
     "pricePerDayEur": 0.14,
     "form": "tablet",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 100
   },
   {
@@ -1553,6 +1598,21 @@
     "servingsPerPack": 60
   },
   {
+    "slug": "life-extension-optimized-saffron",
+    "title": "Life Extension Optimized Saffron with Satiereal",
+    "vendor": "Life Extension",
+    "ingredient": "safran",
+    "containedIngredients": [
+      "safran"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 88,
+    "pricePerDayEur": 0.42,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
     "slug": "life-extension-phosphatidylserine",
     "title": "Life Extension Phosphatidylserine 100 mg",
     "vendor": "Life Extension",
@@ -1581,6 +1641,21 @@
     "form": "capsule",
     "verdict": "empfehlenswert",
     "servingsPerPack": 30
+  },
+  {
+    "slug": "life-extension-flohsamenschalen",
+    "title": "Life Extension Psyllium Husk",
+    "vendor": "Life Extension",
+    "ingredient": "flohsamenschalen",
+    "containedIngredients": [
+      "flohsamenschalen"
+    ],
+    "priceEur": 18.9,
+    "doseMg": 1200,
+    "pricePerDayEur": 0.09,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 200
   },
   {
     "slug": "life-extension-pterostilbene",
@@ -1700,7 +1775,7 @@
     "doseMg": 500,
     "pricePerDayEur": 0.18,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 100
   },
   {
@@ -1750,7 +1825,7 @@
     "doseMg": 100,
     "pricePerDayEur": 2,
     "form": "softgel",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 30
   },
   {
@@ -1785,6 +1860,21 @@
     "form": "capsule",
     "verdict": "empfehlenswert",
     "servingsPerPack": 60
+  },
+  {
+    "slug": "megfood-blood-builder-iron",
+    "title": "MegaFood Blood Builder Iron",
+    "vendor": "MegaFood",
+    "ingredient": "eisen",
+    "containedIngredients": [
+      "eisen"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 26,
+    "pricePerDayEur": 0.28,
+    "form": "tablet",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 90
   },
   {
     "slug": "moleqlar-fisetin-250",
@@ -1876,7 +1966,7 @@
     "doseMg": 3.5,
     "pricePerDayEur": 0.98,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 60
   },
   {
@@ -1909,7 +1999,7 @@
     "doseMg": 750,
     "pricePerDayEur": 0.17,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 120
   },
   {
@@ -1926,6 +2016,21 @@
     "form": "softgel",
     "verdict": "empfehlenswert",
     "servingsPerPack": 90
+  },
+  {
+    "slug": "natural-factors-l-glutamine-5000",
+    "title": "Natural Factors L-Glutamine 5000",
+    "vendor": "Natural Factors",
+    "ingredient": "l-glutamin",
+    "containedIngredients": [
+      "l-glutamin"
+    ],
+    "priceEur": 22.9,
+    "doseMg": 5000,
+    "pricePerDayEur": 0.46,
+    "form": "powder",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 50
   },
   {
     "slug": "naturelo-one-daily-multivitamin-women",
@@ -2065,7 +2170,7 @@
     "doseMg": 100,
     "pricePerDayEur": 0.2,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 120
   },
   {
@@ -2113,6 +2218,21 @@
     "form": "capsule",
     "verdict": "empfehlenswert",
     "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-american-ginseng-500",
+    "title": "NOW Foods American Ginseng 500 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "ginseng",
+    "containedIngredients": [
+      "ginseng"
+    ],
+    "priceEur": 12.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.13,
+    "form": "capsule",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 100
   },
   {
     "slug": "now-foods-astaxanthin-10",
@@ -2173,6 +2293,21 @@
     "form": "capsule",
     "verdict": "empfehlenswert",
     "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-boron-3mg",
+    "title": "NOW Foods Boron 3mg",
+    "vendor": "NOW Foods",
+    "ingredient": "bor",
+    "containedIngredients": [
+      "bor"
+    ],
+    "priceEur": 8.9,
+    "doseMg": 3,
+    "pricePerDayEur": 0.09,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
   },
   {
     "slug": "now-foods-collagen-peptides",
@@ -2311,6 +2446,36 @@
     "servingsPerPack": 100
   },
   {
+    "slug": "now-foods-gaba-750",
+    "title": "NOW Foods GABA 750mg",
+    "vendor": "NOW Foods",
+    "ingredient": "gaba",
+    "containedIngredients": [
+      "gaba"
+    ],
+    "priceEur": 14.9,
+    "doseMg": 750,
+    "pricePerDayEur": 0.15,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "now-foods-ginkgo-biloba-120",
+    "title": "NOW Foods Ginkgo Biloba 120 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "ginkgo",
+    "containedIngredients": [
+      "ginkgo"
+    ],
+    "priceEur": 12.9,
+    "doseMg": 120,
+    "pricePerDayEur": 0.13,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
     "slug": "now-foods-glucosamine-chondroitin",
     "title": "NOW Foods Glucosamine & Chondroitin Extra Strength",
     "vendor": "NOW Foods",
@@ -2368,7 +2533,7 @@
     "doseMg": 500,
     "pricePerDayEur": 0.18,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 100
   },
   {
@@ -2385,7 +2550,7 @@
     "doseMg": 100,
     "pricePerDayEur": 0.47,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 60
   },
   {
@@ -2404,6 +2569,21 @@
     "servingsPerPack": 100
   },
   {
+    "slug": "now-foods-inulin-powder",
+    "title": "NOW Foods Inulin Prebiotic Pure Powder",
+    "vendor": "NOW Foods",
+    "ingredient": "inulin",
+    "containedIngredients": [
+      "inulin"
+    ],
+    "priceEur": 11.9,
+    "doseMg": 5000,
+    "pricePerDayEur": 0.26,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 45
+  },
+  {
     "slug": "now-foods-kelp-325",
     "title": "NOW Foods Kelp 325mcg Iodine",
     "vendor": "NOW Foods",
@@ -2415,7 +2595,7 @@
     "doseMg": 1,
     "pricePerDayEur": 0.05,
     "form": "tablet",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 250
   },
   {
@@ -2490,7 +2670,7 @@
     "doseMg": 20,
     "pricePerDayEur": 0.2,
     "form": "softgel",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 90
   },
   {
@@ -2505,7 +2685,7 @@
     "doseMg": 750,
     "pricePerDayEur": 0.27,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 90
   },
   {
@@ -2615,6 +2795,21 @@
     "servingsPerPack": 60
   },
   {
+    "slug": "now-foods-potassium-citrate-99",
+    "title": "NOW Foods Potassium Citrate 99 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "kalium",
+    "containedIngredients": [
+      "kalium"
+    ],
+    "priceEur": 9.9,
+    "doseMg": 99,
+    "pricePerDayEur": 0.06,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 180
+  },
+  {
     "slug": "now-foods-probiotic-10",
     "title": "NOW Foods Probiotic-10 25 Billion",
     "vendor": "NOW Foods",
@@ -2700,6 +2895,21 @@
     "priceEur": 28,
     "doseMg": 500,
     "pricePerDayEur": 0.47,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "now-foods-saffron-50",
+    "title": "NOW Foods Saffron 50 mg",
+    "vendor": "NOW Foods",
+    "ingredient": "safran",
+    "containedIngredients": [
+      "safran"
+    ],
+    "priceEur": 16.9,
+    "doseMg": 50,
+    "pricePerDayEur": 0.28,
     "form": "capsule",
     "verdict": "empfehlenswert",
     "servingsPerPack": 60
@@ -2866,8 +3076,68 @@
     "doseMg": 1000,
     "pricePerDayEur": 0.18,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 120
+  },
+  {
+    "slug": "nutricost-creatine-monohydrate",
+    "title": "Nutricost Creatine Monohydrate 5000 mg",
+    "vendor": "Nutricost",
+    "ingredient": "kreatin",
+    "containedIngredients": [
+      "kreatin"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 5000,
+    "pricePerDayEur": 0.2,
+    "form": "powder",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 100
+  },
+  {
+    "slug": "nutricost-folic-acid-800",
+    "title": "Nutricost Folic Acid 800mcg",
+    "vendor": "Nutricost",
+    "ingredient": "folsaeure",
+    "containedIngredients": [
+      "folsaeure"
+    ],
+    "priceEur": 9.9,
+    "doseMg": 0.8,
+    "pricePerDayEur": 0.08,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "nutricost-ashwagandha-ksm66",
+    "title": "Nutricost KSM-66 Ashwagandha 600 mg",
+    "vendor": "Nutricost",
+    "ingredient": "ashwagandha",
+    "containedIngredients": [
+      "ashwagandha"
+    ],
+    "priceEur": 15.9,
+    "doseMg": 600,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "nutricost-l-citrulline-1500",
+    "title": "Nutricost L-Citrulline 1500 mg",
+    "vendor": "Nutricost",
+    "ingredient": "l-citrullin",
+    "containedIngredients": [
+      "l-citrullin"
+    ],
+    "priceEur": 14.9,
+    "doseMg": 1500,
+    "pricePerDayEur": 0.17,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
   },
   {
     "slug": "nutricost-l-theanine-200-mg",
@@ -2898,6 +3168,36 @@
     "form": "capsule",
     "verdict": "empfehlenswert",
     "servingsPerPack": 120
+  },
+  {
+    "slug": "nutricost-zinc-picolinate",
+    "title": "Nutricost Zinc Picolinate 25 mg",
+    "vendor": "Nutricost",
+    "ingredient": "zink",
+    "containedIngredients": [
+      "zink"
+    ],
+    "priceEur": 9.9,
+    "doseMg": 25,
+    "pricePerDayEur": 0.08,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "nutrimmun-mybiotik-pur-pulver",
+    "title": "Nutrimmun MyBIOTIK Pur Pulver",
+    "vendor": "Nutrimmun",
+    "ingredient": "probiotika",
+    "containedIngredients": [
+      "probiotika"
+    ],
+    "priceEur": 29.9,
+    "doseMg": 2,
+    "pricePerDayEur": 1,
+    "form": "powder",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 30
   },
   {
     "slug": "prohealth-nmn-pro-500",
@@ -2977,7 +3277,7 @@
     "doseMg": 500,
     "pricePerDayEur": 0.73,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 60
   },
   {
@@ -3027,6 +3327,21 @@
     "servingsPerPack": 60
   },
   {
+    "slug": "pure-encapsulations-dl-phenylalanine",
+    "title": "Pure Encapsulations DL-Phenylalanine 500mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "dl-phenylalanin",
+    "containedIngredients": [
+      "dl-phenylalanin"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 500,
+    "pricePerDayEur": 0.28,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
     "slug": "pure-encapsulations-iodine-225",
     "title": "Pure Encapsulations Iodine 225mcg",
     "vendor": "Pure Encapsulations",
@@ -3037,6 +3352,21 @@
     "priceEur": 18,
     "doseMg": 1,
     "pricePerDayEur": 0.2,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-iron-25",
+    "title": "Pure Encapsulations Iron 25 mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "eisen",
+    "containedIngredients": [
+      "eisen"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 25,
+    "pricePerDayEur": 0.28,
     "form": "capsule",
     "verdict": "empfehlenswert",
     "servingsPerPack": 90
@@ -3129,7 +3459,7 @@
     "doseMg": 5,
     "pricePerDayEur": 0.2,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 90
   },
   {
@@ -3176,6 +3506,21 @@
     "priceEur": 28,
     "doseMg": 50,
     "pricePerDayEur": 0.31,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
+  },
+  {
+    "slug": "pure-encapsulations-potassium-citrate",
+    "title": "Pure Encapsulations Potassium Citrate 200 mg",
+    "vendor": "Pure Encapsulations",
+    "ingredient": "kalium",
+    "containedIngredients": [
+      "kalium"
+    ],
+    "priceEur": 18.9,
+    "doseMg": 200,
+    "pricePerDayEur": 0.21,
     "form": "capsule",
     "verdict": "empfehlenswert",
     "servingsPerPack": 90
@@ -3349,8 +3694,23 @@
     "doseMg": 500,
     "pricePerDayEur": 0.87,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "nicht-empfehlenswert",
     "servingsPerPack": 60
+  },
+  {
+    "slug": "solgar-gentle-iron-25",
+    "title": "Solgar Gentle Iron 25 mg",
+    "vendor": "Solgar",
+    "ingredient": "eisen",
+    "containedIngredients": [
+      "eisen"
+    ],
+    "priceEur": 15.9,
+    "doseMg": 25,
+    "pricePerDayEur": 0.18,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 90
   },
   {
     "slug": "sports-research-vitamin-c-liposomal-1000",
@@ -3445,6 +3805,21 @@
     "servingsPerPack": 90
   },
   {
+    "slug": "sunday-natural-calcium-800",
+    "title": "Sunday Natural Calcium 800mg",
+    "vendor": "Sunday Natural",
+    "ingredient": "calcium",
+    "containedIngredients": [
+      "calcium"
+    ],
+    "priceEur": 16.9,
+    "doseMg": 800,
+    "pricePerDayEur": 0.14,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
     "slug": "sunday-natural-coq10-ubiquinol-100",
     "title": "Sunday Natural CoQ10 Ubiquinol 100",
     "vendor": "Sunday Natural",
@@ -3458,6 +3833,21 @@
     "form": "softgel",
     "verdict": "empfehlenswert",
     "servingsPerPack": 60
+  },
+  {
+    "slug": "sunday-natural-glucosamin-1500",
+    "title": "Sunday Natural Glucosamin 1500mg",
+    "vendor": "Sunday Natural",
+    "ingredient": "glucosamin",
+    "containedIngredients": [
+      "glucosamin"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 1500,
+    "pricePerDayEur": 0.33,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 180
   },
   {
     "slug": "sunday-natural-kollagen",
@@ -3562,7 +3952,7 @@
     "doseMg": 500,
     "pricePerDayEur": 0.33,
     "form": "capsule",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 90
   },
   {
@@ -3616,7 +4006,7 @@
     "doseMg": 1000,
     "pricePerDayEur": 1.13,
     "form": "liquid",
-    "verdict": "empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 30
   },
   {
@@ -3744,6 +4134,36 @@
     "servingsPerPack": 60
   },
   {
+    "slug": "thorne-beta-alanine-sr",
+    "title": "Thorne Beta Alanine-SR",
+    "vendor": "Thorne",
+    "ingredient": "beta-alanin",
+    "containedIngredients": [
+      "beta-alanin"
+    ],
+    "priceEur": 32.9,
+    "doseMg": 800,
+    "pricePerDayEur": 0.27,
+    "form": "tablet",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 120
+  },
+  {
+    "slug": "thorne-chromium-picolinate",
+    "title": "Thorne Chromium Picolinate 200mcg",
+    "vendor": "Thorne",
+    "ingredient": "chrom",
+    "containedIngredients": [
+      "chrom"
+    ],
+    "priceEur": 14.9,
+    "doseMg": 0.2,
+    "pricePerDayEur": 0.25,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
     "slug": "thorne-coq10-100",
     "title": "Thorne CoQ10 100mg",
     "vendor": "Thorne",
@@ -3800,7 +4220,7 @@
     "doseMg": 100,
     "pricePerDayEur": 0.93,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 60
   },
   {
@@ -3836,6 +4256,21 @@
     "servingsPerPack": 60
   },
   {
+    "slug": "thorne-iron-bisglycinate-25",
+    "title": "Thorne Iron Bisglycinate 25 mg",
+    "vendor": "Thorne",
+    "ingredient": "eisen",
+    "containedIngredients": [
+      "eisen"
+    ],
+    "priceEur": 19.9,
+    "doseMg": 25,
+    "pricePerDayEur": 0.33,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
     "slug": "thorne-magnesium-bisglycinate",
     "title": "Thorne Magnesium Bisglycinate",
     "vendor": "Thorne",
@@ -3862,7 +4297,7 @@
     "doseMg": 415,
     "pricePerDayEur": 1.53,
     "form": "capsule",
-    "verdict": "akzeptabel",
+    "verdict": "empfehlenswert",
     "servingsPerPack": 60
   },
   {
@@ -4048,7 +4483,7 @@
     "doseMg": 2400,
     "pricePerDayEur": 0.33,
     "form": "capsule",
-    "verdict": "nicht-empfehlenswert",
+    "verdict": "akzeptabel",
     "servingsPerPack": 60
   },
   {
