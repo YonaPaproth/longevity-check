@@ -4040,6 +4040,51 @@
     "servingsPerPack": 250
   },
   {
+    "slug": "synomed-basis-b-komplex",
+    "title": "Synomed Basis-B-Komplex",
+    "vendor": "Synomed",
+    "ingredient": "vitamin-b6",
+    "containedIngredients": [
+      "vitamin-b6"
+    ],
+    "priceEur": 18.9,
+    "doseMg": 1,
+    "pricePerDayEur": 0.32,
+    "form": "capsule",
+    "verdict": "empfehlenswert",
+    "servingsPerPack": 60
+  },
+  {
+    "slug": "synomed-multivit-mineral",
+    "title": "Synomed Multivit + Mineral + Spurenelemente",
+    "vendor": "Synomed",
+    "ingredient": "multivitamin",
+    "containedIngredients": [
+      "multivitamin"
+    ],
+    "priceEur": 24.9,
+    "doseMg": 1,
+    "pricePerDayEur": 0.5,
+    "form": "tablet",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 50
+  },
+  {
+    "slug": "synomed-zink",
+    "title": "Synomed Zink Tabletten",
+    "vendor": "Synomed",
+    "ingredient": "zink",
+    "containedIngredients": [
+      "zink"
+    ],
+    "priceEur": 14.9,
+    "doseMg": 10,
+    "pricePerDayEur": 0.3,
+    "form": "tablet",
+    "verdict": "akzeptabel",
+    "servingsPerPack": 50
+  },
+  {
     "slug": "thorne-alpha-lipoic-acid-300",
     "title": "Thorne Alpha-Lipoic Acid 300 mg",
     "vendor": "Thorne",
