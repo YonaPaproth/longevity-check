@@ -63,9 +63,9 @@ key_studies:
     targets: [depression]
     finding:
       de: >-
-        RCT (n=281, DepFuD-Trial): 6 Monate Vitamin-D-Supplementierung (hochdosiert vs. niedrigdosiert) zeigte keinen signifikanten Effekt auf depressive Symptome (Cohen's d=-0.09; 95% CI -0.32 bis 0.14). Null-Resultat auch bei Patienten mit Vitamin-D-Mangel.
+        RCT (n=281, DepFuD-Trial): Hochdosierte vs. niedrigdosierte Vitamin-D-Supplementierung über 6 Monate zeigte keinen Unterschied bei depressiven Symptomen (Cohen's d=-0.09). Wichtig: Kein Placebo-Arm — das Null-Resultat bedeutet nur, dass höhere Dosis nicht überlegen ist, nicht dass Vitamin D generell unwirksam ist.
       en: >-
-        RCT (n=281, DepFuD trial): 6-month vitamin D supplementation (high vs. low dose) showed no significant effect on depressive symptoms (Cohen's d=-0.09; 95% CI -0.32 to 0.14). Null result even in vitamin D deficient patients.
+        RCT (n=281, DepFuD trial): High-dose vs. low-dose vitamin D supplementation over 6 months showed no difference in depressive symptoms (Cohen's d=-0.09). Note: No placebo arm — this null result only means higher dose is not superior, not that vitamin D is ineffective per se.
 
 locales:
   de:
