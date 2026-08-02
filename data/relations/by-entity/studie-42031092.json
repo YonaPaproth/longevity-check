@@ -1,0 +1,13 @@
+{
+  "entity": "studie-42031092",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "fertilitat",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:42031092",
+      "evidence_level": "human_rct"
+    }
+  ]
+}

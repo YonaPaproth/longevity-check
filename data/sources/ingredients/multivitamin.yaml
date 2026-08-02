@@ -41,13 +41,13 @@ key_studies:
         Editorial in Annals of Internal Medicine: Basierend auf 3 großen Studien sei die Evidenz ausreichend, um von Multivitamin-Supplementierung bei gut ernährten Personen abzuraten.
       en: >-
         Editorial in Annals of Internal Medicine: Based on 3 large studies, evidence is sufficient to advise against multivitamin supplementation in well-nourished individuals.
-  - ref: pmid-35150542
-    targets: [alterung, immunsystem]
+  - ref: pmid-42031092
+    targets: [fertilitat]
     finding:
       de: >-
-        Meta-Analyse (>390.000 Teilnehmer): Kein signifikanter Zusammenhang zwischen Multivitamin-Einnahme und Gesamtmortalität.
+        Sekundäranalyse der FAZST+IDEAL Kohorten (n=2.370 Paare): Weibliche Multivitamin-Einnahme war mit 22% höherer Lebendgeburtenrate assoziiert (aRR=1.22, 95% CI 1.05–1.41). Männliche Einnahme zeigte keinen Effekt. Folsäure und Fischöl ebenfalls ohne signifikanten Effekt.
       en: >-
-        Meta-analysis (>390,000 participants): No significant association between multivitamin use and overall mortality.
+        Secondary analysis of FAZST+IDEAL cohorts (n=2,370 couples): Female multivitamin use was associated with 22% higher live birth rate (aRR=1.22, 95% CI 1.05–1.41). Male use showed no effect. Folic acid and fish oil also showed no significant effect.
 
 locales:
   de:
@@ -137,3 +137,8 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:24490268"
+  - relation: basiert_auf_studie
+    target: studie-42031092
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:42031092"

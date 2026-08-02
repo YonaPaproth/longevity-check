@@ -1,6 +1,6 @@
 {
   "type": "basiert_auf_studie",
-  "count": 363,
+  "count": 362,
   "relations": [
     {
       "subject": "5-htp",
@@ -1280,12 +1280,6 @@
     },
     {
       "subject": "multivitamin",
-      "target": "studie-23162860",
-      "confidence": 0.9,
-      "source": "pmid:23162860"
-    },
-    {
-      "subject": "multivitamin",
       "target": "studie-38070683",
       "confidence": 0.9,
       "source": "pmid:38070683"
@@ -1298,9 +1292,9 @@
     },
     {
       "subject": "multivitamin",
-      "target": "studie-35150542",
+      "target": "studie-42031092",
       "confidence": 0.9,
-      "source": "pmid:35150542"
+      "source": "pmid:42031092"
     },
     {
       "subject": "myo-inositol",

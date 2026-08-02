@@ -1,6 +1,6 @@
 {
   "type": "untersucht",
-  "count": 412,
+  "count": 415,
   "relations": [
     {
       "subject": "studie-11386498",
@@ -703,6 +703,12 @@
       "target": "entzuendung",
       "confidence": 0.9,
       "source": "pmid:24388876"
+    },
+    {
+      "subject": "studie-24490268",
+      "target": "verdauung",
+      "confidence": 0.9,
+      "source": "pmid:24490268"
     },
     {
       "subject": "studie-24791752",
@@ -1719,6 +1725,12 @@
       "source": "pmid:37649436"
     },
     {
+      "subject": "studie-38070683",
+      "target": "kognition",
+      "confidence": 0.9,
+      "source": "pmid:38070683"
+    },
+    {
       "subject": "studie-38088214",
       "target": "alterung",
       "confidence": 0.9,
@@ -2149,6 +2161,12 @@
       "target": "verdauung",
       "confidence": 0.9,
       "source": "pmid:42024457"
+    },
+    {
+      "subject": "studie-42031092",
+      "target": "fertilitat",
+      "confidence": 0.9,
+      "source": "pmid:42031092"
     },
     {
       "subject": "studie-42056717",

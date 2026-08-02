@@ -1,0 +1,118 @@
+{
+  "generated": "2026-07-26",
+  "auto_written": 0,
+  "queued_for_review": [
+    {
+      "pmid": "41847923",
+      "title": "A 48-Week, Randomized Controlled Trial of Doravirine for Individuals With HIV and Obesity on Integrase Inhibitors and Tenofovir Alafenamide: The Do IT Study (ACTG A5391).",
+      "ingredient": "calcium",
+      "study_type": "human_rct",
+      "confidence": 0.55,
+      "reason": "below_auto_threshold",
+      "extracted": {
+        "n": 145,
+        "dose_mg": null,
+        "duration_weeks": 48,
+        "outcomes": [
+          {
+            "symptom": "blutzucker",
+            "direction": "null"
+          },
+          {
+            "symptom": "knochen",
+            "direction": "null"
+          },
+          {
+            "symptom": "herz-kreislauf",
+            "direction": "null"
+          }
+        ],
+        "finding_en": "Switching from an integrase inhibitor plus tenofovir alafenamide regimen to doravirine-based regimens did not produce clinically meaningful differences in weight, metabolic health, lipids, insulin resistance, fat mass, or bone mineral density after 48 weeks in people with HIV and obesity.",
+        "finding_de": "Ein Wechsel von einem Integrase-Inhibitor- plus Tenofovir-Alafenamid-Regime zu Doravirin-basierten Regimen führte bei Menschen mit HIV und Adipositas nach 48 Wochen zu keinen klinisch bedeutsamen Unterschieden in Gewicht, Stoffwechsel, Lipiden, Insulinresistenz, Fettmasse oder Knochenmineraldichte."
+      }
+    },
+    {
+      "pmid": "42499105",
+      "title": "Effect of curcumin compared to chlorhexidine on clinical variables of periodontal health: A systematic review and meta-analysis of randomized controlled trials.",
+      "ingredient": "curcumin",
+      "study_type": "meta_analysis",
+      "confidence": 0.72,
+      "reason": "below_auto_threshold",
+      "extracted": {
+        "n": 1266,
+        "dose_mg": null,
+        "duration_weeks": null,
+        "outcomes": [
+          {
+            "symptom": "entzuendung",
+            "direction": "positive"
+          },
+          {
+            "symptom": "gelenke",
+            "direction": "positive"
+          }
+        ],
+        "finding_en": "Curcumin showed comparable efficacy to chlorhexidine in reducing plaque index, gingival index, and bleeding index in periodontal disease, though chlorhexidine was superior for probing depth and attachment loss reduction.",
+        "finding_de": "Kurkumin zeigte eine vergleichbare Wirksamkeit wie Chlorhexidin bei der Reduktion von Plaque-Index, Gingiva-Index und Blutungsindex bei Parodontalerkrankungen, jedoch war Chlorhexidin bei der Reduktion der Sondierungstiefe und des Attachmentverlusts überlegen."
+      }
+    },
+    {
+      "pmid": "42489745",
+      "title": "Distinct effects of supplementation with resistant starch and polydextrose on plasma and faecal bile acid profile and associations with gut microbiota: a randomised, controlled intervention in healthy participants.",
+      "ingredient": "kuerbiskernoel",
+      "study_type": "human_rct",
+      "confidence": 0.65,
+      "reason": "below_auto_threshold",
+      "extracted": {
+        "n": 74,
+        "dose_mg": null,
+        "duration_weeks": 7,
+        "outcomes": [
+          {
+            "symptom": "verdauung",
+            "direction": "positive"
+          },
+          {
+            "symptom": "blutzucker",
+            "direction": "null"
+          },
+          {
+            "symptom": "entzuendung",
+            "direction": "null"
+          }
+        ],
+        "finding_en": "Resistant starch supplementation increased plasma conjugated bile acids and influenced gut microbiota composition, while polydextrose reduced faecal secondary bile acid transformation, demonstrating distinct metabolic effects of the two dietary fibres.",
+        "finding_de": "Die Supplementierung mit resistenter Stärke erhöhte konjugierte Gallensäuren im Plasma und beeinflusste die Darmmikrobiota-Zusammensetzung, während Polydextrose die fäkale sekundäre Gallensäure-Transformation reduzierte und damit unterschiedliche Stoffwechseleffekte der beiden Ballaststoffe aufzeigte."
+      }
+    },
+    {
+      "pmid": "42499083",
+      "title": "Effect of vitamin D supplementation on clinical outcomes of patients with Parkinson disease: A randomized controlled study.",
+      "ingredient": "vitamin-d3",
+      "study_type": "human_rct",
+      "confidence": 0.78,
+      "reason": "below_auto_threshold",
+      "extracted": {
+        "n": 60,
+        "dose_mg": 50,
+        "duration_weeks": 12,
+        "outcomes": [
+          {
+            "symptom": "kognition",
+            "direction": "null"
+          },
+          {
+            "symptom": "neuroprotektiv",
+            "direction": "null"
+          },
+          {
+            "symptom": "muskel",
+            "direction": "null"
+          }
+        ],
+        "finding_en": "Supplementation with 2000 IU/day of vitamin D3 for 12 weeks in Thai Parkinson's disease patients successfully corrected vitamin D deficiency but provided no significant improvements in motor function, cognition, or quality of life compared to controls.",
+        "finding_de": "Die Supplementierung mit 2000 IE/Tag Vitamin D3 über 12 Wochen bei thailändischen Parkinson-Patienten korrigierte erfolgreich den Vitamin-D-Mangel, zeigte jedoch im Vergleich zur Kontrollgruppe keine signifikanten Verbesserungen der Motorik, Kognition oder Lebensqualität."
+      }
+    }
+  ]
+}
