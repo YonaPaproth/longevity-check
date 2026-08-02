@@ -3,7 +3,7 @@
   "total": 333,
   "with_type": 170,
   "with_reviews": 11,
-  "with_ingredients": 274,
+  "with_ingredients": 275,
   "studies": [
     {
       "id": "pmid-41693488",
@@ -345,7 +345,9 @@
       "n": "",
       "coi": "",
       "effect_size": "",
-      "ingredients": [],
+      "ingredients": [
+        "vitamin-d3"
+      ],
       "research_reviews": []
     },
     {

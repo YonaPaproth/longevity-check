@@ -1,6 +1,6 @@
 {
   "type": "basiert_auf_studie",
-  "count": 362,
+  "count": 363,
   "relations": [
     {
       "subject": "5-htp",
@@ -2107,6 +2107,12 @@
       "target": "studie-17846391",
       "confidence": 0.9,
       "source": "pmid:17846391"
+    },
+    {
+      "subject": "vitamin-d3",
+      "target": "studie-41933624",
+      "confidence": 0.9,
+      "source": "pmid:41933624"
     },
     {
       "subject": "vitamin-e",

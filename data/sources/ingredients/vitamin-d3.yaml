@@ -59,6 +59,13 @@ key_studies:
         Metaanalyse von 18 RCTs (n=57.311): Vitamin-D-Supplementierung assoziiert mit 7% Reduktion der Gesamtmortalität (RR 0,93; 95%-CI 0,87–0,99). Effekt primär in Mangelpopulationen.
       en: >-
         Meta-analysis of 18 RCTs (n=57,311): vitamin D supplementation associated with 7% reduction in all-cause mortality (RR 0.93; 95% CI 0.87–0.99). Effect primarily in deficient populations.
+  - ref: pmid-41933624
+    targets: [depression]
+    finding:
+      de: >-
+        RCT (n=281, DepFuD-Trial): 6 Monate Vitamin-D-Supplementierung (hochdosiert vs. niedrigdosiert) zeigte keinen signifikanten Effekt auf depressive Symptome (Cohen's d=-0.09; 95% CI -0.32 bis 0.14). Null-Resultat auch bei Patienten mit Vitamin-D-Mangel.
+      en: >-
+        RCT (n=281, DepFuD trial): 6-month vitamin D supplementation (high vs. low dose) showed no significant effect on depressive symptoms (Cohen's d=-0.09; 95% CI -0.32 to 0.14). Null result even in vitamin D deficient patients.
 
 locales:
   de:
@@ -307,3 +314,8 @@ relations:
     direction: outgoing
     confidence: 0.9
     source: "pmid:17846391"
+  - relation: basiert_auf_studie
+    target: studie-41933624
+    direction: outgoing
+    confidence: 0.9
+    source: "pmid:41933624"

@@ -1,0 +1,13 @@
+{
+  "entity": "studie-41933624",
+  "relations": [
+    {
+      "relation": "untersucht",
+      "target": "depression",
+      "direction": "outgoing",
+      "confidence": 0.9,
+      "source": "pmid:41933624",
+      "evidence_level": "human_rct"
+    }
+  ]
+}

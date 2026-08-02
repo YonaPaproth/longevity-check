@@ -1,6 +1,6 @@
 {
   "type": "untersucht",
-  "count": 415,
+  "count": 416,
   "relations": [
     {
       "subject": "studie-11386498",
@@ -2137,6 +2137,12 @@
       "target": "muskel",
       "confidence": 0.9,
       "source": "pmid:41924221"
+    },
+    {
+      "subject": "studie-41933624",
+      "target": "depression",
+      "confidence": 0.9,
+      "source": "pmid:41933624"
     },
     {
       "subject": "studie-41957052",
