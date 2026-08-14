@@ -10,13 +10,6 @@
     },
     {
       "relation": "wird_eingesetzt_fuer",
-      "target": "schlaf",
-      "direction": "outgoing",
-      "confidence": 0.7,
-      "source": "expert-review"
-    },
-    {
-      "relation": "wird_eingesetzt_fuer",
       "target": "energie",
       "direction": "outgoing",
       "confidence": 0.7,
@@ -171,13 +164,6 @@
     },
     {
       "relation": "basiert_auf_studie",
-      "target": "studie-42421135",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:26830602"
-    },
-    {
-      "relation": "basiert_auf_studie",
       "target": "studie-20464765",
       "direction": "outgoing",
       "confidence": 0.9,
@@ -189,7 +175,8 @@
       "target": "studie-42371142",
       "direction": "outgoing",
       "confidence": 0.9,
-      "source": "pmid:24832163"
+      "source": "pmid:24832163",
+      "evidence_level": "expert_review"
     },
     {
       "relation": "hat_interaktion_mit",

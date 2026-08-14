@@ -1,6 +1,6 @@
 {
   "type": "untersucht",
-  "count": 416,
+  "count": 418,
   "relations": [
     {
       "subject": "studie-11386498",
@@ -151,6 +151,18 @@
       "target": "schmerz",
       "confidence": 0.9,
       "source": "pmid:16309928"
+    },
+    {
+      "subject": "studie-16473858",
+      "target": "oxidativer-stress",
+      "confidence": 0.9,
+      "source": "pmid:16473858"
+    },
+    {
+      "subject": "studie-16473858",
+      "target": "schlaf",
+      "confidence": 0.9,
+      "source": "pmid:16473858"
     },
     {
       "subject": "studie-1677062",

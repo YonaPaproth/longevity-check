@@ -106,29 +106,6 @@
       "confidence": 0.9,
       "source": "pmid:16473858",
       "evidence_level": "expert_review"
-    },
-    {
-      "relation": "basiert_auf_studie",
-      "target": "studie-22471152",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:22471152",
-      "evidence_level": "expert_review"
-    },
-    {
-      "relation": "basiert_auf_studie",
-      "target": "studie-29676709",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:29676709"
-    },
-    {
-      "relation": "basiert_auf_studie",
-      "target": "studie-23574769",
-      "direction": "outgoing",
-      "confidence": 0.9,
-      "source": "pmid:23574769",
-      "evidence_level": "expert_review"
     }
   ]
 }

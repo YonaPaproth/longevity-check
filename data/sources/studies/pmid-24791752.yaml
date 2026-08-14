@@ -7,5 +7,6 @@ title: Randomized controlled trial of oral glutathione supplementation on body s
 authors: Richie et al.
 year: 2015
 url: https://pubmed.ncbi.nlm.nih.gov/24791752/
-evidence_quality: low
+study_type: RCT
+evidence_quality: high
 ---

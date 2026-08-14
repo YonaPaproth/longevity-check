@@ -27,13 +27,6 @@ efsa_notes:
     No health claims for ashwagandha have been approved by EFSA. In Germany it is legal as a botanical food supplement but may not carry health claims. BfR notes hepatotoxicity risk at high doses.
 
 key_studies:
-  - ref: pmid-23439798
-    targets: [stress]
-    finding:
-      de: >-
-        RCT, n=64, 300 mg KSM-66 2× täglich, 60 Tage: Serum-Cortisol –27,9%, Perceived Stress Scale (PSS) signifikant verbessert, Angst-Scores reduziert vs. Placebo. Gut methodisch.
-      en: >-
-        RCT, n=64, 300 mg KSM-66 twice daily, 60 days: serum cortisol –27.9%, Perceived Stress Scale significantly improved, anxiety scores reduced vs. placebo. Methodologically sound.
   - ref: pmid-31728244
     targets: [schlaf, stress]
     finding:
@@ -322,11 +315,6 @@ relations:
     target: efsa-nicht-zugelassen
     direction: outgoing
     confidence: 1
-  - relation: basiert_auf_studie
-    target: studie-23439798
-    direction: outgoing
-    confidence: 0.9
-    source: "pmid:23439798"
   - relation: basiert_auf_studie
     target: studie-31728244
     direction: outgoing

@@ -6,5 +6,6 @@ title: Effects of 5-hydroxytryptophan on the sleep of normal human subjects
 authors: Wyatt et al.
 year: 1971
 url: https://pubmed.ncbi.nlm.nih.gov/4105646/
-evidence_quality: low
+study_type: RCT
+evidence_quality: high
 ---

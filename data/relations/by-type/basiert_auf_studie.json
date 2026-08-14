@@ -1,6 +1,6 @@
 {
   "type": "basiert_auf_studie",
-  "count": 363,
+  "count": 358,
   "relations": [
     {
       "subject": "5-htp",
@@ -139,12 +139,6 @@
       "target": "studie-39126572",
       "confidence": 0.9,
       "source": "pmid:39126572"
-    },
-    {
-      "subject": "ashwagandha",
-      "target": "studie-23439798",
-      "confidence": 0.9,
-      "source": "pmid:23439798"
     },
     {
       "subject": "ashwagandha",
@@ -926,12 +920,6 @@
     },
     {
       "subject": "koffein",
-      "target": "studie-42421135",
-      "confidence": 0.9,
-      "source": "pmid:26830602"
-    },
-    {
-      "subject": "koffein",
       "target": "studie-20464765",
       "confidence": 0.9,
       "source": "pmid:20091547"
@@ -1229,24 +1217,6 @@
       "target": "studie-16473858",
       "confidence": 0.9,
       "source": "pmid:16473858"
-    },
-    {
-      "subject": "melatonin",
-      "target": "studie-22471152",
-      "confidence": 0.9,
-      "source": "pmid:22471152"
-    },
-    {
-      "subject": "melatonin",
-      "target": "studie-29676709",
-      "confidence": 0.9,
-      "source": "pmid:29676709"
-    },
-    {
-      "subject": "melatonin",
-      "target": "studie-23574769",
-      "confidence": 0.9,
-      "source": "pmid:23574769"
     },
     {
       "subject": "molybdaen",

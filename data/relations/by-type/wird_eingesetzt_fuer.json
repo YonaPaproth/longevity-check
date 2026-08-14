@@ -1,6 +1,6 @@
 {
   "type": "wird_eingesetzt_fuer",
-  "count": 556,
+  "count": 555,
   "relations": [
     {
       "subject": "5-htp",
@@ -1259,12 +1259,6 @@
     {
       "subject": "kalium",
       "target": "muskel",
-      "confidence": 0.7,
-      "source": "expert-review"
-    },
-    {
-      "subject": "koffein",
-      "target": "schlaf",
       "confidence": 0.7,
       "source": "expert-review"
     },

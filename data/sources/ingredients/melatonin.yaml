@@ -32,13 +32,6 @@ key_studies:
         Meta-Analyse (17 RCTs): Melatonin verkürzte Einschlafzeit signifikant (-7,2 min) und verbesserte die Schlafqualität. Effekte bescheiden, aber konsistent.
       en: >-
         Meta-analysis (17 RCTs): Melatonin significantly reduced sleep onset latency (−7.2 min) and improved sleep quality. Effect sizes were modest but consistent across trials.
-  - ref: pmid-23574769
-    targets: [schlaf, alterung, oxidativer-stress]
-    finding:
-      de: >-
-        Review: Melatonin-Spiegel sinken mit dem Alter (ab ~40 Jahren deutlich). Supplementierung könnte circadiane Dysregulation und oxidativen Stress kompensieren. gesundes Altern-Daten fehlen.
-      en: >-
-        Review: Melatonin levels decline with age, falling noticeably from around age 40. Supplementation may compensate for circadian dysregulation and oxidative stress, but data in healthy aging populations are lacking.
 
 locales:
   de:
